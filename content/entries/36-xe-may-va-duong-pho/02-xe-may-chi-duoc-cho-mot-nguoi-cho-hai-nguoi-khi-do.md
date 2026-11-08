@@ -12,11 +12,20 @@ benefit: medium
 metric: money
 evidence: B
 contested: false
-vn_class: unclassified
-rewrite_status: imported
-tldr: null
-steps: []
-legal_refs: []
+vn_class: vn_native
+rewrite_status: rewritten
+tldr: "Xe máy chỉ chở một người, trừ vài trường hợp được chở hai. Chở từ ba người trở lên bị phạt 600.000 đến 800.000 đồng và trừ 2 điểm bằng lái."
+steps:
+  - "Chở một người trên xe máy hai bánh."
+  - "Chỉ chở hai người khi người ngồi sau thuộc nhóm được phép."
+  - "Cả nhà đi cùng mà không thuộc nhóm được phép thì đi hai chuyến hoặc đi taxi, xe công nghệ."
+legal_refs:
+  - { doc: "Luật Trật tự, an toàn giao thông đường bộ 36/2024/QH15", article: "Điều 33 khoản 1", url: "https://vbpl.vn/van-ban/chi-tiet/luat-trat-tu-an-toan-giao-thong-duong-bo-so-36-2024-qh15--170620", effective_from: null, checked_at: "2026-11-05", quote: null }
+  - { doc: "Luật Trật tự, an toàn giao thông đường bộ 36/2024/QH15", article: "Điều 33 khoản 2", url: "https://vbpl.vn/van-ban/chi-tiet/luat-trat-tu-an-toan-giao-thong-duong-bo-so-36-2024-qh15--170620", effective_from: null, checked_at: "2026-11-05", quote: null }
+  - { doc: "Nghị định 168/2024/NĐ-CP", article: "Điều 7 khoản 2 điểm g", url: "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm", effective_from: null, checked_at: "2026-11-05", quote: null }
+  - { doc: "Nghị định 168/2024/NĐ-CP", article: "Điều 7 khoản 2 điểm i", url: "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm", effective_from: null, checked_at: "2026-11-05", quote: null }
+  - { doc: "Nghị định 168/2024/NĐ-CP", article: "Điều 7 khoản 3 điểm b", url: "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm", effective_from: null, checked_at: "2026-11-05", quote: null }
+  - { doc: "Nghị định 168/2024/NĐ-CP", article: "Điều 7 khoản 13 điểm a", url: "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm", effective_from: null, checked_at: "2026-11-05", quote: null }
 verification:
   status: unverified
   checked_at: null
@@ -28,7 +37,7 @@ origin:
   quangpao: "36-2"
   luonglb: null
 related: []
-situations: []
+situations: [xe-may-giao-thong]
 tags: []
 ---
 
@@ -46,12 +55,29 @@ Biết đúng ranh giới để khỏi bị phạt oan khi chở con nhỏ, và 
 
 ## Pháp luật Việt Nam
 
-Luật 36/2024/QH15 Điều 33 khoản 1: người lái xe mô tô hai bánh, xe gắn máy chỉ được chở một người, trừ các trường hợp được chở tối đa hai người là chở người bệnh đi cấp cứu, áp giải người có hành vi vi phạm pháp luật, trẻ em dưới 12 tuổi, người già yếu hoặc người khuyết tật. Nghị định 168/2024/NĐ-CP Điều 7: chở theo hai người trên xe, trừ các trường hợp được phép nói trên, bị phạt 400.000 đến 600.000 đồng (khoản 2 điểm g); chở theo từ ba người trở lên bị phạt 600.000 đến 800.000 đồng (khoản 3 điểm b) và còn bị trừ 2 điểm giấy phép lái xe (khoản 13 điểm a). Người được chở phải đội mũ bảo hiểm đúng quy chuẩn và cài quai đúng quy cách (Luật 36/2024/QH15 Điều 33 khoản 2); không đội thì người chở bị phạt 400.000 đến 600.000 đồng, trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 6 tuổi, áp giải người vi phạm (Nghị định 168/2024/NĐ-CP Điều 7 khoản 2 điểm i).
+**Số người được chở**
+
+- Người lái xe mô tô hai bánh, xe gắn máy chỉ được chở một người. Trường hợp được chở tối đa hai người: chở người bệnh đi cấp cứu, áp giải người có hành vi vi phạm pháp luật, trẻ em dưới 12 tuổi, người già yếu hoặc người khuyết tật (Điều 33 khoản 1, Luật 36/2024/QH15).
+
+**Mức phạt**
+
+- Chở theo hai người, trừ các trường hợp được phép nói trên, bị phạt 400.000 đến 600.000 đồng (Điều 7 khoản 2 điểm g, Nghị định 168/2024/NĐ-CP).
+- Chở theo từ ba người trở lên bị phạt 600.000 đến 800.000 đồng (Điều 7 khoản 3 điểm b, Nghị định 168/2024/NĐ-CP).
+- Chở theo từ ba người trở lên còn bị trừ 2 điểm giấy phép lái xe (Điều 7 khoản 13 điểm a, Nghị định 168/2024/NĐ-CP).
+
+**Mũ bảo hiểm cho người được chở**
+
+- Người được chở phải đội mũ bảo hiểm đúng quy chuẩn và cài quai đúng quy cách (Điều 33 khoản 2, Luật 36/2024/QH15).
+- Không đội thì người chở bị phạt 400.000 đến 600.000 đồng, trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 6 tuổi, áp giải người vi phạm (Điều 7 khoản 2 điểm i, Nghị định 168/2024/NĐ-CP).
 
 ## Ghi chú
 
-Văn bản không nói rõ liệu trong hai người ngồi sau thì cả hai đều phải thuộc nhóm được phép, hay chỉ cần một người thuộc nhóm ấy. Tôi không đoán câu trả lời này; khi cần chở hai trẻ nhỏ cùng lúc thì hỏi công an giao thông khu vực hoặc chọn đi hai chuyến. Con số "dưới 12 tuổi" áp dụng cho việc chở hai người, còn con số "dưới 6 tuổi" áp dụng cho việc không đội mũ; hai mốc khác nhau và hay bị trộn. Luật miễn phạt cho trẻ dưới 6 tuổi không đội mũ, nhưng điều đó không có nghĩa là an toàn; tôi không có nguồn Việt Nam về mũ cho trẻ nhỏ nên không khuyến nghị về cỡ mũ hay loại mũ. Mục này không nói về xe điện ba bánh hay xe chở hàng.
+- **Chưa rõ: hai người ngồi sau.** Văn bản không nói rõ cả hai đều phải thuộc nhóm được phép, hay chỉ cần một người thuộc nhóm ấy. Tôi không đoán câu trả lời này. Khi cần chở hai trẻ nhỏ cùng lúc thì hỏi công an giao thông khu vực hoặc chọn đi hai chuyến.
+- **Bẫy 1: hai mốc tuổi.** "Dưới 12 tuổi" áp dụng cho việc chở hai người. "Dưới 6 tuổi" áp dụng cho việc không đội mũ. Hai mốc khác nhau và hay bị trộn.
+- **Bẫy 2: miễn phạt không có nghĩa là an toàn.** Luật miễn phạt cho trẻ dưới 6 tuổi không đội mũ, nhưng điều đó không có nghĩa là an toàn. Tôi không có nguồn Việt Nam về mũ cho trẻ nhỏ nên không khuyến nghị về cỡ mũ hay loại mũ.
+- Mục này không nói về xe điện ba bánh hay xe chở hàng.
 
 ## Nguồn
 
-Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (Điều 33 khoản 1 và khoản 2): https://vbpl.vn/van-ban/chi-tiet/luat-trat-tu-an-toan-giao-thong-duong-bo-so-36-2024-qh15--170620 ; Nghị định số 168/2024/NĐ-CP (Điều 7 khoản 2 điểm g và điểm i, khoản 3 điểm b, khoản 13 điểm a): https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm . Đọc ngày 5/11/2026.
+- Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (Điều 33 khoản 1 và khoản 2): https://vbpl.vn/van-ban/chi-tiet/luat-trat-tu-an-toan-giao-thong-duong-bo-so-36-2024-qh15--170620 . Đọc ngày 5/11/2026.
+- Nghị định số 168/2024/NĐ-CP (Điều 7 khoản 2 điểm g và điểm i, khoản 3 điểm b, khoản 13 điểm a): https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm . Đọc ngày 5/11/2026.

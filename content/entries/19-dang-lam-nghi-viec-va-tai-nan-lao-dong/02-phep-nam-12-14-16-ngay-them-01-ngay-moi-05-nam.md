@@ -12,11 +12,25 @@ benefit: large
 metric: time
 evidence: B
 contested: false
-vn_class: unclassified
-rewrite_status: imported
-tldr: null
-steps: []
-legal_refs: []
+vn_class: vn_native
+rewrite_status: rewritten
+tldr: "Đủ 12 tháng làm việc: 12 ngày phép (14 hoặc 16 ngày với nghề nặng nhọc), cứ đủ 05 năm thêm 01 ngày. Phép chưa nghỉ chỉ được trả tiền khi thôi việc, mất việc."
+steps:
+  - "Theo dõi số ngày đã nghỉ và số ngày còn lại; giữ bảng chấm công."
+  - "Nghỉ phép trong năm, đừng để dồn."
+  - "Muốn nghỉ gộp hoặc nghỉ nhiều lần, thỏa thuận với người sử dụng lao động trước hạn và ghi vào lịch nghỉ hằng năm."
+  - "Trước khi chấm dứt hợp đồng, thỏa thuận về lịch nghỉ và kiểm tra số ngày phép còn lại."
+situations: []
+legal_refs:
+  - { doc: "Bộ luật Lao động 45/2019/QH14 (hợp nhất 18/VBHN-VPQH)", article: "Điều 113 khoản 1, 2, 3, 4, 5, 6", url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm", effective_from: null, checked_at: "2026-11-03", quote: null }
+  - { doc: "Bộ luật Lao động 45/2019/QH14 (hợp nhất 18/VBHN-VPQH)", article: "Điều 114", url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm", effective_from: null, checked_at: "2026-11-03", quote: null }
+  - { doc: "Bộ luật Lao động 45/2019/QH14 (hợp nhất 18/VBHN-VPQH)", article: "Điều 98 khoản 1 điểm c", url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm", effective_from: null, checked_at: "2026-11-03", quote: null }
+  - { doc: "Nghị định 145/2020/NĐ-CP", article: "Điều 65", url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-145-2020-nd-cp-32732.htm", effective_from: null, checked_at: "2026-11-03", quote: null }
+  - { doc: "Nghị định 145/2020/NĐ-CP", article: "Điều 66 khoản 1, 2, 3", url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-145-2020-nd-cp-32732.htm", effective_from: null, checked_at: "2026-11-03", quote: null }
+  - { doc: "Nghị định 145/2020/NĐ-CP", article: "Điều 67 khoản 2, 3", url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-145-2020-nd-cp-32732.htm", effective_from: null, checked_at: "2026-11-03", quote: null }
+  - { doc: "Nghị định 283/2026/NĐ-CP", article: "Điều 7 khoản 1", url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm", effective_from: null, checked_at: "2026-11-03", quote: null }
+  - { doc: "Nghị định 283/2026/NĐ-CP", article: "Điều 23 khoản 2 điểm a", url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm", effective_from: null, checked_at: "2026-11-03", quote: null }
+  - { doc: "Nghị định 283/2026/NĐ-CP", article: "Điều 24 khoản 2", url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm", effective_from: null, checked_at: "2026-11-03", quote: null }
 verification:
   status: unverified
   checked_at: null
@@ -28,17 +42,25 @@ origin:
   quangpao: "19-2"
   luonglb: null
 related: []
-situations: []
 tags: []
 ---
 
 ## Nói dễ hiểu
 
-Đủ 12 tháng làm việc: 12 ngày phép; nghề nặng nhọc, người khuyết tật 14 ngày; đặc biệt nặng nhọc 16 ngày. Cứ đủ 05 năm thêm 01 ngày. Làm chưa đủ năm thì theo tỷ lệ. Chỉ khi thôi việc mới được trả tiền ngày chưa nghỉ.
+Đủ 12 tháng làm việc: 12 ngày phép; nghề nặng nhọc, người khuyết tật 14 ngày; đặc biệt nặng nhọc 16 ngày. Cứ đủ 05 năm thêm 01 ngày. Làm chưa đủ năm thì theo tỷ lệ; chỉ khi thôi việc mới được trả tiền ngày chưa nghỉ.
 
 ## Chi phí
 
-Phép năm đã nằm trong lương theo hợp đồng, nên khi bị cắt phép người lao động mất ngày chứ không mất một khoản phải bỏ ra trước. Cái mất tính được: 12 ngày một năm, mười năm là 120 ngày, và nếu quy ra tiền thì phần lớn người lao động chỉ nhận lại được khi thôi việc, đúng lúc không còn chỗ để thương lượng. Phía người sử dụng lao động, vi phạm quy định về nghỉ hằng năm bị phạt từ 10.000.000 đồng đến 20.000.000 đồng; không trả hoặc trả không đủ tiền lương những ngày chưa nghỉ khi người lao động thôi việc, bị mất việc bị phạt từ 5.000.000 đồng đến 10.000.000 đồng với vi phạm từ 1 đến 10 người lao động, doanh nghiệp gấp đôi. Cái mất thêm là sức khỏe: phép không nghỉ không biến thành tiền, nó biến thành số ngày ốm của năm sau.
+Phép năm đã nằm trong lương theo hợp đồng. Khi bị cắt phép, bạn mất ngày chứ không mất một khoản phải bỏ ra trước.
+
+Cái mất tính được: 12 ngày một năm, mười năm là 120 ngày. Nếu quy ra tiền, phần lớn người lao động chỉ nhận lại khi thôi việc, đúng lúc không còn chỗ để thương lượng.
+
+Phía người sử dụng lao động:
+
+- Vi phạm quy định về nghỉ hằng năm bị phạt 10.000.000 đến 20.000.000 đồng.
+- Không trả hoặc trả không đủ tiền lương những ngày chưa nghỉ khi người lao động thôi việc, bị mất việc bị phạt 5.000.000 đến 10.000.000 đồng với vi phạm từ 1 đến 10 người lao động. Doanh nghiệp bị phạt gấp đôi.
+
+Cái mất thêm là sức khỏe: phép không nghỉ không biến thành tiền, nó biến thành số ngày ốm của năm sau.
 
 ## Lợi ích
 
@@ -46,12 +68,69 @@ Phép năm là tiền và thời gian thực sự của người lao động. Th
 
 ## Pháp luật Việt Nam
 
-Điều 113 khoản 1 chia ba mức: 12 ngày làm việc cho công việc trong điều kiện bình thường; 14 ngày cho người lao động chưa thành niên, lao động là người khuyết tật, người làm nghề, công việc nặng nhọc, độc hại, nguy hiểm; 16 ngày cho nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm. Khoản 2 xử lý người mới: làm chưa đủ 12 tháng cho một người sử dụng lao động thì số ngày nghỉ theo tỷ lệ tương ứng với số tháng làm việc, và Điều 66 Nghị định 145/2020/NĐ-CP cho công thức: lấy số ngày phép cộng số ngày tăng theo thâm niên, chia cho 12 tháng, nhân với số tháng làm việc thực tế; khoản 2 cùng điều tính tháng lẻ thành 01 tháng làm việc khi tổng ngày làm việc và ngày nghỉ có hưởng lương đạt từ 50% số ngày làm việc bình thường trong tháng. Điều 114 cộng thêm: cứ đủ 05 năm làm việc cho một người sử dụng lao động thì số ngày nghỉ hằng năm tăng thêm tương ứng 01 ngày, và mốc này tính trên thâm niên tại chính nơi đó, không cộng thâm niên ở chỗ làm cũ. Khoản 4 Điều 113 là chỗ hay bị hiểu lệch theo hướng bất lợi: người lao động có thể thỏa thuận nghỉ thành nhiều lần hoặc nghỉ gộp tối đa 03 năm một lần, tức phép không mất nhưng cũng không cộng dồn vô hạn; khoản 5 cho tạm ứng tiền lương khi nghỉ phép mà chưa tới kỳ trả lương; khoản 6 tính thêm thời gian đi đường từ ngày thứ 03 khi đi bằng đường bộ, đường sắt, đường thủy, và chỉ tính cho 01 lần nghỉ trong năm. Khoản 3 là câu quyết định toàn bộ giá trị tiền mặt của phép: khi thôi việc, bị mất việc làm mà chưa nghỉ hằng năm hoặc chưa nghỉ hết thì mới được thanh toán tiền lương cho những ngày chưa nghỉ. Điều 67 khoản 3 Nghị định 145/2020 xác định tiền lương đó là tiền lương theo hợp đồng lao động của tháng trước liền kề tháng thôi việc, bị mất việc làm, nên cách tính là lấy lương tháng chia số ngày làm việc bình thường trong tháng rồi nhân với số ngày chưa nghỉ. Điều 65 cùng nghị định gom những quãng được coi là thời gian làm việc để tính phép, trong đó có thời gian thử việc nếu sau đó tiếp tục làm, thời gian nghỉ ốm cộng dồn không quá 02 tháng một năm, thời gian nghỉ do tai nạn lao động, bệnh nghề nghiệp cộng dồn không quá 6 tháng, thời gian nghỉ thai sản, thời gian ngừng việc không do lỗi của người lao động. Bốn quãng cuối thường bị trừ khỏi phép mà không có căn cứ, và mỗi ngày bị trừ là một ngày lương. Về chế tài, Điều 24 khoản 2 Nghị định 283/2026/NĐ-CP phạt 10.000.000 đồng đến 20.000.000 đồng với hành vi vi phạm quy định của pháp luật về nghỉ hằng năm; Điều 23 khoản 2 điểm a cùng nghị định xếp việc không trả hoặc trả không đủ tiền lương của những ngày chưa nghỉ vào nhóm phạt 5.000.000 đồng đến 10.000.000 đồng, kèm biện pháp buộc trả đủ cộng lãi. Điều 7 khoản 1 nhắc lại: mức ghi trong nghị định là mức của cá nhân, doanh nghiệp trả gấp đôi.
+**Số ngày phép** (làm đủ 12 tháng cho một người sử dụng lao động, hưởng nguyên lương theo hợp đồng)
+
+- 12 ngày làm việc với công việc trong điều kiện bình thường (Điều 113 khoản 1 điểm a, BLLĐ 45/2019/QH14, hợp nhất 18/VBHN-VPQH).
+- 14 ngày với người lao động chưa thành niên, lao động là người khuyết tật, người làm nghề, công việc nặng nhọc, độc hại, nguy hiểm (Điều 113 khoản 1 điểm b, BLLĐ).
+- 16 ngày với nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm (Điều 113 khoản 1 điểm c, BLLĐ).
+- Cứ đủ 05 năm làm việc cho một người sử dụng lao động thì số ngày nghỉ hằng năm tăng thêm tương ứng 01 ngày (Điều 114, BLLĐ). Suy ra từ chữ "cho một người sử dụng lao động": thâm niên tính tại chính nơi đó, không cộng thâm niên ở chỗ làm cũ.
+- Ngoại lệ: khu vực nhà nước và doanh nghiệp nhà nước được cộng thâm niên liên tục (Điều 66 khoản 3, NĐ 145/2020/NĐ-CP, theo báo cáo kiểm chứng).
+
+**Người làm chưa đủ 12 tháng**
+
+- Số ngày nghỉ theo tỷ lệ tương ứng với số tháng làm việc (Điều 113 khoản 2, BLLĐ).
+- Công thức: lấy số ngày nghỉ hằng năm cộng số ngày tăng thêm theo thâm niên (nếu có), chia cho 12 tháng, nhân với số tháng làm việc thực tế trong năm (Điều 66 khoản 1, NĐ 145/2020/NĐ-CP).
+- Tháng lẻ tính là 01 tháng làm việc khi tổng số ngày làm việc và ngày nghỉ có hưởng lương chiếm từ 50% số ngày làm việc bình thường trong tháng theo thỏa thuận (Điều 66 khoản 2, NĐ 145/2020/NĐ-CP).
+
+**Lịch nghỉ và nghỉ gộp**
+
+- Người sử dụng lao động quy định lịch nghỉ hằng năm sau khi tham khảo ý kiến người lao động và phải thông báo trước. Hai bên có thể thỏa thuận nghỉ thành nhiều lần hoặc nghỉ gộp tối đa 03 năm một lần (Điều 113 khoản 4, BLLĐ).
+- Khoản 5 cho tạm ứng tiền lương khi nghỉ phép mà chưa tới kỳ trả lương (Điều 113 khoản 5, BLLĐ).
+- Được tính thêm thời gian đi đường từ ngày thứ 03 khi đi bằng đường bộ, đường sắt, đường thủy, và chỉ tính cho 01 lần nghỉ trong năm (Điều 113 khoản 6, BLLĐ).
+
+**Tiền phép chưa nghỉ**
+
+- Chỉ khi thôi việc, bị mất việc làm mà chưa nghỉ hoặc chưa nghỉ hết thì mới được thanh toán tiền lương cho những ngày chưa nghỉ (Điều 113 khoản 3, BLLĐ). Luật chỉ nêu trường hợp này.
+- Tiền lương làm căn cứ trả là tiền lương theo hợp đồng lao động của tháng trước liền kề tháng thôi việc, bị mất việc làm (Điều 67 khoản 3, NĐ 145/2020/NĐ-CP).
+- Cách tính suy ra, không phải câu chữ của Điều 67: lấy lương tháng chia số ngày làm việc bình thường trong tháng rồi nhân với số ngày chưa nghỉ.
+- Không có quy định quy đổi phép chưa nghỉ thành 300%. Mức 300% nằm ở Điều 98 khoản 1 điểm c, áp dụng cho làm thêm giờ vào ngày nghỉ lễ, tết và ngày nghỉ có hưởng lương (BLLĐ).
+- Đi làm trong ngày nghỉ có hưởng lương đã duyệt vẫn có thể rơi vào Điều 98 khoản 1 điểm c (BLLĐ, theo báo cáo kiểm chứng).
+
+**Quãng được tính là thời gian làm việc để tính phép** (Điều 65, NĐ 145/2020/NĐ-CP)
+
+- Thời gian thử việc, nếu sau đó tiếp tục làm việc.
+- Nghỉ do tai nạn lao động, bệnh nghề nghiệp, cộng dồn không quá 6 tháng.
+- Nghỉ do ốm đau, cộng dồn không quá 02 tháng trong một năm.
+- Nghỉ hưởng chế độ thai sản.
+- Thời gian phải ngừng việc, nghỉ việc không do lỗi của người lao động.
+- Cũng có quy định về nghỉ không hưởng lương cộng dồn không quá 01 tháng (Điều 65 khoản 4, NĐ 145/2020/NĐ-CP, theo báo cáo kiểm chứng; điều kiện chi tiết chưa có trong bản nháp).
+
+**Mức phạt** (Nghị định 283/2026/NĐ-CP)
+
+- Vi phạm quy định về nghỉ hằng tuần, nghỉ hằng năm hoặc nghỉ lễ, tết: phạt 10.000.000 đến 20.000.000 đồng, là mức cố định không chia bậc theo số người (Điều 24 khoản 2, NĐ 283/2026/NĐ-CP).
+- Không trả hoặc trả không đủ tiền lương những ngày chưa nghỉ khi thôi việc, mất việc: phạt 5.000.000 đến 10.000.000 đồng với vi phạm từ 1 đến 10 người lao động, kèm buộc trả đủ cộng lãi (Điều 23 khoản 2 điểm a, NĐ 283). Đây là bậc thấp nhất; bậc cao hơn theo số người, đến 40.000.000 đến 50.000.000 đồng với từ 301 người trở lên (theo báo cáo kiểm chứng).
+- Các mức trên là mức đối với cá nhân; mức phạt đối với tổ chức (như doanh nghiệp) gấp 02 lần (Điều 7 khoản 1, NĐ 283).
 
 ## Ghi chú
 
-Ba mức ngày, mốc thâm niên, công thức chia theo tháng và căn cứ lương của ngày chưa nghỉ đều là câu chữ đọc được nguyên văn, trong đó công thức nằm ở một nghị định còn hiệu lực và căn cứ lương nằm ở đúng khoản 3 Điều 67; chưa lên A vì đây là quy định về quyền, không phải kết cục đã đo — không có thống kê Việt Nam nào cho biết bao nhiêu phần trăm người lao động được nghỉ đủ phép, và cũng không có số liệu về số tiền phép bị mất mỗi năm, nên không thể nói mục này tạo ra kết quả gì đo được. Ba cái bẫy người Việt hay sập. Một: tin rằng phép cộng dồn bao nhiêu năm cũng được rồi để dành, trong khi khoản 4 Điều 113 chặn ở mức nghỉ gộp tối đa 03 năm một lần, và phần vượt quá không tự động thành tiền — muốn giữ thì phải thỏa thuận nghỉ trước hạn, ghi vào lịch nghỉ hằng năm mà khoản 4 buộc người sử dụng lao động phải thông báo. Hai: tin rằng nghỉ không hết được quy đổi thành 300%, con số có thật trong luật nhưng nằm ở Điều 98 khoản 1 điểm c và dùng cho người đi làm ngày lễ, không dùng cho ngày phép; phép chưa nghỉ chỉ được trả tiền khi thôi việc, mất việc theo khoản 3 Điều 113, và trả theo lương tháng trước liền kề chứ không nhân hệ số. Ba: bị trừ phép cho những ngày ốm, ngày điều trị tai nạn lao động, ngày thai sản hoặc ngày ngừng việc không do lỗi mình, trong khi Điều 65 Nghị định 145/2020 tính đủ các quãng đó vào thời gian làm việc để tính phép, với trần 02 tháng cho ốm và 6 tháng cho tai nạn lao động. Không phải phép năm nào cũng quy ra tiền được: chỉ phần chưa nghỉ tại thời điểm chấm dứt hợp đồng mới thành khoản phải trả, nên cách dùng phép đúng là nghỉ trong năm và giữ lại bảng chấm công, còn khoản tiền chỉ là phần dư cuối cùng.
+**Mức độ chắc chắn.** Ba mức ngày, mốc thâm niên, công thức chia theo tháng và căn cứ lương của ngày chưa nghỉ đều là câu chữ đọc được nguyên văn. Công thức nằm ở một nghị định còn hiệu lực; căn cứ lương nằm ở đúng khoản 3 Điều 67.
+
+**Vì sao chưa lên A.** Đây là quy định về quyền, không phải kết cục đã đo. Không có thống kê Việt Nam về tỷ lệ người lao động được nghỉ đủ phép, hay số tiền phép bị mất mỗi năm.
+
+**Bẫy 1: tin phép cộng dồn bao nhiêu năm cũng được.** Khoản 4 Điều 113 chặn ở mức nghỉ gộp tối đa 03 năm một lần. Phần vượt quá không tự động thành tiền. Muốn giữ thì phải thỏa thuận nghỉ trước hạn, ghi vào lịch nghỉ hằng năm mà người sử dụng lao động phải thông báo.
+
+**Bẫy 2: tin nghỉ không hết được quy đổi thành 300%.** Con số có thật trong luật, nhưng ở Điều 98 khoản 1 điểm c và dùng cho làm thêm vào ngày nghỉ lễ, tết, ngày nghỉ có hưởng lương. Phép chưa nghỉ chỉ được trả tiền khi thôi việc, mất việc theo khoản 3 Điều 113, và trả theo lương tháng trước liền kề chứ không nhân hệ số.
+
+**Bẫy 3: bị trừ phép cho ngày ốm, ngày điều trị tai nạn lao động, ngày thai sản hoặc ngày ngừng việc không do lỗi mình.** Điều 65 Nghị định 145/2020 tính đủ các quãng đó vào thời gian làm việc để tính phép, với trần 02 tháng cho ốm và 6 tháng cho tai nạn lao động. Bốn quãng cuối thường bị trừ mà không có căn cứ, và mỗi ngày bị trừ là một ngày lương.
+
+**Không phải phép năm nào cũng quy ra tiền.** Chỉ phần chưa nghỉ tại thời điểm chấm dứt hợp đồng mới thành khoản phải trả. Cách dùng phép đúng là nghỉ trong năm và giữ lại bảng chấm công; khoản tiền chỉ là phần dư cuối cùng.
+
+**Hiệu lực của Nghị định 145/2020.** Báo cáo kiểm chứng ghi có dự thảo sửa đổi và một số nguồn ghi "hết hiệu lực một phần", chưa xác minh được có chạm Điều 65 đến 67 hay không.
 
 ## Nguồn
 
-Bộ luật Lao động số 45/2019/QH14 ngày 20/11/2019, hợp nhất tại Văn bản hợp nhất số 18/VBHN-VPQH ngày 12/02/2026 (Điều 113, Điều 114, Điều 115), bản ký PDF: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/02/18-vbhn-vpqh.pdf, bản công bố kèm tệp đọc được: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm ; Nghị định số 145/2020/NĐ-CP ngày 14/12/2020 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Bộ luật Lao động về điều kiện lao động và quan hệ lao động (Điều 65, Điều 66, Điều 67 khoản 2 và khoản 3): https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-145-2020-nd-cp-32732.htm ; Nghị định số 283/2026/NĐ-CP ngày 15/7/2026 (Điều 7 khoản 1, Điều 23 khoản 2 điểm a, Điều 24 khoản 2): https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm. Tra ngày 3/11/2026.
+- Bộ luật Lao động số 45/2019/QH14 ngày 20/11/2019, hợp nhất tại Văn bản hợp nhất số 18/VBHN-VPQH ngày 12/02/2026 (Điều 113, Điều 114, Điều 115). Bản ký PDF: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/02/18-vbhn-vpqh.pdf
+- Bản công bố kèm tệp đọc được: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+- Nghị định số 145/2020/NĐ-CP ngày 14/12/2020 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Bộ luật Lao động về điều kiện lao động và quan hệ lao động (Điều 65, Điều 66, Điều 67 khoản 2 và khoản 3): https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-145-2020-nd-cp-32732.htm
+- Nghị định số 283/2026/NĐ-CP ngày 15/7/2026 (Điều 7 khoản 1, Điều 23 khoản 2 điểm a, Điều 24 khoản 2): https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+- Tra ngày 3/11/2026.

@@ -12,11 +12,16 @@ benefit: large
 metric: money
 evidence: B
 contested: false
-vn_class: unclassified
-rewrite_status: imported
-tldr: null
-steps: []
-legal_refs: []
+vn_class: vn_native
+rewrite_status: rewritten
+tldr: "Lãi tiết kiệm 12 tháng ngân hàng lớn là 5,9%/năm, cao nhất khoảng 6,7%. Lời hứa 20%/năm không phải cơ hội; hãy hỏi đơn vị đó có được cấp phép nhận tiền của bạn không."
+steps:
+  - "Đọc lại giấy tờ và tra xem đơn vị nhận tiền có tên trong danh sách được cấp phép hay không."
+  - "So mức lãi được hứa với 5,9%/năm (tiết kiệm 12 tháng ngân hàng lớn) trước khi tin."
+  - "Đừng chuyển tiền cho cá nhân: bạn mất khả năng đối chiếu."
+legal_refs:
+  - { doc: "Luật Các tổ chức tín dụng 32/2024/QH15", article: "Điều 15 khoản 2", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/158-vbhn-vpqh.pdf", effective_from: null, checked_at: null, quote: null }
+  - { doc: "Luật Chứng khoán 54/2019/QH15", article: "Điều 12 khoản 4", url: null, effective_from: null, checked_at: null, quote: null }
 verification:
   status: unverified
   checked_at: null
@@ -28,7 +33,7 @@ origin:
   quangpao: "5-6"
   luonglb: null
 related: []
-situations: []
+situations: [bi-lua-mat-tai-khoan, tien-tiet-kiem-vay-no]
 tags: []
 ---
 
@@ -38,20 +43,36 @@ Lãi tiết kiệm 12 tháng ở ngân hàng lớn đang 5,9%/năm, cao nhất t
 
 ## Chi phí
 
-Không tốn tiền. Mất một buổi đọc lại giấy tờ và tra xem đơn vị nhận tiền có tên trong danh sách được cấp phép hay không; nếu đã trót nộp thì mất thêm thời gian đi đòi, mà phần lớn trường hợp là không đòi được.
+Không tốn tiền.
+
+Mất một buổi đọc lại giấy tờ và tra xem đơn vị nhận tiền có tên trong danh sách được cấp phép hay không.
+
+Nếu đã trót nộp thì mất thêm thời gian đi đòi, mà phần lớn trường hợp là không đòi được.
 
 ## Lợi ích
 
-Số liệu tra ngày 2/11/2026: tiết kiệm 12 tháng tại nhóm ngân hàng lớn 5,9%/năm (Vietcombank, bảng tháng 10/2026), mức cao nhất thị trường khoảng 6,7%/năm. Một lời hứa 20%/năm cao gấp 3,4 lần mức 5,9% — muốn trả được mức đó, người nhận tiền phải kiếm được lợi nhuận cao hơn nữa, đều đặn, và đó không phải thứ có thật trên thị trường vốn Việt Nam. Số tiền giữ được thì không có con số chung: nó đúng bằng số bạn không nộp.
+Số liệu tra ngày 2/11/2026: tiết kiệm 12 tháng tại nhóm ngân hàng lớn 5,9%/năm (Vietcombank, bảng tháng 10/2026), mức cao nhất thị trường khoảng 6,7%/năm.
+
+Một lời hứa 20%/năm cao gấp 3,4 lần mức 5,9%. Muốn trả được mức đó, người nhận tiền phải kiếm được lợi nhuận cao hơn nữa, đều đặn, và đó không phải thứ có thật trên thị trường vốn Việt Nam.
+
+Số tiền giữ được thì không có con số chung: nó đúng bằng số bạn không nộp.
 
 ## Pháp luật Việt Nam
 
-Về pháp lý: Luật Các tổ chức tín dụng 32/2024/QH15 Điều 15 khoản 2 cấm tổ chức, cá nhân không phải tổ chức tín dụng thực hiện hoạt động ngân hàng — nhận tiền gửi của người khác rồi cam kết trả lãi là hoạt động ngân hàng; Luật Chứng khoán 54/2019/QH15 Điều 12 khoản 4 cấm kinh doanh, cung cấp dịch vụ chứng khoán khi chưa được Ủy ban Chứng khoán Nhà nước cấp phép.
+- Cấm tổ chức, cá nhân không phải tổ chức tín dụng thực hiện hoạt động ngân hàng. Nhận tiền gửi của người khác rồi cam kết trả lãi là hoạt động ngân hàng (Điều 15 khoản 2, Luật Các tổ chức tín dụng 32/2024/QH15).
+- Cấm kinh doanh, cung cấp dịch vụ chứng khoán khi chưa được Ủy ban Chứng khoán Nhà nước cấp phép (Điều 12 khoản 4, Luật Chứng khoán 54/2019/QH15).
 
 ## Ghi chú
 
-Bốn chỗ hay sập. **(1) Bốn cái tên của cùng một cái bẫy**: hợp đồng hợp tác đầu tư, hợp đồng vay vốn cá nhân, "ủy thác đầu tư", và hội nhóm Zalo/Telegram có người khoe lệnh thắng — cả bốn đều không có cơ chế nào bảo vệ bạn sau khi tiền đã ra khỏi tài khoản. **(2) Chuyển tiền cho cá nhân**: mất luôn khả năng đối chiếu, vì không có hợp đồng lưu tại đơn vị cung cấp dịch vụ và không có sao kê mang tên một pháp nhân. **(3) Câu hỏi sai là "dưới bao nhiêu % thì hợp pháp"** — luật không đặt ngưỡng lãi suất cho đầu tư, luật cấm *hành vi* và cấm *kinh doanh không phép*; câu đúng là "đơn vị này có được cấp phép nhận tiền của tôi không". **(4) Đừng hiểu ngược**: mục này không nói đầu tư là xấu và không hứa khoản nào an toàn; sản phẩm hợp pháp vẫn có thể lỗ, chỉ khác là lỗ trong khuôn khổ có kiểm soát và có người chịu trách nhiệm.
+Bốn chỗ hay sập:
+
+- **Bẫy 1: bốn cái tên của cùng một cái bẫy.** Hợp đồng hợp tác đầu tư, hợp đồng vay vốn cá nhân, "ủy thác đầu tư", và hội nhóm Zalo/Telegram có người khoe lệnh thắng. Cả bốn đều không có cơ chế nào bảo vệ bạn sau khi tiền đã ra khỏi tài khoản.
+- **Bẫy 2: chuyển tiền cho cá nhân.** Bạn mất luôn khả năng đối chiếu, vì không có hợp đồng lưu tại đơn vị cung cấp dịch vụ và không có sao kê mang tên một pháp nhân.
+- **Bẫy 3: câu hỏi sai là "dưới bao nhiêu % thì hợp pháp".** Luật không đặt ngưỡng lãi suất cho đầu tư. Luật cấm *hành vi* và cấm *kinh doanh không phép*. Câu đúng là "đơn vị này có được cấp phép nhận tiền của tôi không".
+- **Đừng hiểu ngược:** mục này không nói đầu tư là xấu và không hứa khoản nào an toàn. Sản phẩm hợp pháp vẫn có thể lỗ, chỉ khác là lỗ trong khuôn khổ có kiểm soát và có người chịu trách nhiệm.
 
 ## Nguồn
 
-Luật Các tổ chức tín dụng số 32/2024/QH15 (bản hợp nhất 158/VBHN-VPQH), Điều 15 khoản 1, 2, 5: <https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/158-vbhn-vpqh.pdf>; Luật Chứng khoán số 54/2019/QH15 (bản hợp nhất 24/VBHN-VPQH, Công báo số 531+532 ngày 18/3/2025), Điều 12 khoản 1 và khoản 4; lãi suất tiết kiệm 12 tháng 5,9%/năm lấy từ bảng lãi suất Vietcombank tháng 10/2026 tổng hợp tại <https://topi.vn/lai-suat-ngan-hang-vietcombank.html>, tra ngày 2/11/2026 — trang niêm yết của ngân hàng tải bằng JavaScript nên không đọc trực tiếp được, xem "Còn treo".
+- Luật Các tổ chức tín dụng số 32/2024/QH15 (bản hợp nhất 158/VBHN-VPQH), Điều 15 khoản 1, 2, 5: <https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/158-vbhn-vpqh.pdf>.
+- Luật Chứng khoán số 54/2019/QH15 (bản hợp nhất 24/VBHN-VPQH, Công báo số 531+532 ngày 18/3/2025), Điều 12 khoản 1 và khoản 4.
+- Lãi suất tiết kiệm 12 tháng 5,9%/năm lấy từ bảng lãi suất Vietcombank tháng 10/2026 tổng hợp tại <https://topi.vn/lai-suat-ngan-hang-vietcombank.html>, tra ngày 2/11/2026. Trang niêm yết của ngân hàng tải bằng JavaScript nên không đọc trực tiếp được, xem "Còn treo".
