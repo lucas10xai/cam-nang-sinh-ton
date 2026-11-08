@@ -7,7 +7,7 @@ export const description = 'Số trong "Nói dễ hiểu" phải xuất hiện t
 
 const REF_SECTIONS = ['Lợi ích', 'Pháp luật Việt Nam', 'Chi phí'];
 
-function isIgnorable(n, cfg) {
+export function isIgnorable(n, cfg) {
   if (n.plainInt) {
     if (n.tok.length > 1 && n.tok.startsWith('0')) return true; // 0xxx: mã/điện thoại
     const v = n.values[0];

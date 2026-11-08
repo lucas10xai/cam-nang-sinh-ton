@@ -9,10 +9,13 @@ benefit: large
 metric: money
 evidence: B
 contested: false
-vn_class: unclassified
-rewrite_status: imported
-tldr: null
-steps: []
+vn_class: vn_native
+rewrite_status: rewritten
+tldr: "Làm thêm giờ được trả ít nhất 150% (ngày thường), 200% (ngày nghỉ), 300% (lễ, tết). Nội dung thử nghiệm."
+steps:
+  - "Ghi lại số giờ làm thêm mỗi ngày, có ngày giờ cụ thể."
+  - "Đối chiếu bảng lương với ba mức 150%, 200%, 300%."
+  - "Nếu thiếu, gửi văn bản đề nghị người sử dụng lao động trả đủ."
 legal_refs:
   - { doc: "Bộ luật Lao động 45/2019/QH14", article: "Điều 98", url: "https://thuvienphapluat.vn/x", effective_from: "2021-01-01", checked_at: "2026-11-03", quote: null }
 verification:
@@ -23,7 +26,7 @@ verification:
   sources: []
 origin: { zh: null, quangpao: "19-1", luonglb: null }
 related: [dong-bao-hiem-xa-hoi-khi-di-lam]
-situations: []
+situations: [bi-quyt-luong-lam-them]
 tags: []
 ---
 ## Nói dễ hiểu
@@ -40,7 +43,8 @@ Nội dung thử nghiệm cho giao diện. Xem thêm [mục liên quan](#entry-d
 
 ## Pháp luật Việt Nam
 
-Điều 98 Bộ luật Lao động 2019 quy định tiền lương làm thêm giờ (thử nghiệm).
+- Làm thêm ngày thường được trả ít nhất 150% lương giờ bình thường (Điều 98 khoản 1, Bộ luật Lao động 45/2019/QH14). Thử nghiệm.
+- Ngày nghỉ hằng tuần ít nhất 200%, ngày lễ, tết ít nhất 300% (Điều 98 khoản 1, Bộ luật Lao động 45/2019/QH14). Thử nghiệm.
 
 ## Ghi chú
 

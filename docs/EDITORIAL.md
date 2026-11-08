@@ -40,6 +40,7 @@ Kiểm chứng viên nhận: mục đã soạn (file) + danh sách URL nguồn. 
 
 ```yaml
 id: lam-them-gio-…
+content_sha256: "…"          # kết quả `node tools/verify/hash.mjs <file mục>`, chạy NGAY khi bắt đầu kiểm; apply từ chối nâng trạng thái nếu mục đã đổi sau đó
 checker: agent-<tên>
 checked_at: 2026-11-08
 result: pass | pass-with-edits | fail

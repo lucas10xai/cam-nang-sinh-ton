@@ -1,5 +1,5 @@
 // Lọc client-side trên danh sách đã render sẵn trong HTML. Trạng thái lọc nằm trong URL (?ev=A&ch=13).
-const GROUPS = ['ev', 'worth', 'money', 'time', 'will', 'benefit', 'metric', 'vs'] as const;
+const GROUPS = ['ev', 'worth', 'money', 'time', 'will', 'benefit', 'metric', 'vs', 'rw', 'sit'] as const;
 const form = document.getElementById('filters') as HTMLFormElement;
 const q = document.getElementById('f-q') as HTMLInputElement;
 const ch = document.getElementById('f-ch') as HTMLSelectElement;
@@ -28,7 +28,11 @@ function apply(pushUrl: boolean) {
   for (const r of rows) {
     const d = r.dataset;
     let ok = (!ch.value || d.ch === ch.value) && (!text || (d.t ?? '').includes(text));
-    for (const g of GROUPS) if (ok && sel[g].size && !sel[g].has(d[g] ?? '')) ok = false;
+    for (const g of GROUPS) {
+      if (!ok || !sel[g].size) continue;
+      const have = (d[g] ?? '').split(' ').filter(Boolean); // data-sit có thể nhiều giá trị
+      if (!have.some((v) => sel[g].has(v))) ok = false;
+    }
     r.hidden = !ok;
     if (ok) n++;
   }

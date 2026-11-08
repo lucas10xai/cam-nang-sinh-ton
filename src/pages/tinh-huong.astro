@@ -1,0 +1,34 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/icons/Icon.astro';
+import EntryCard from '../components/EntryCard.astro';
+import { loadAll, SITUATIONS, url } from '../lib/site';
+const { entries } = await loadAll();
+// Chỉ liệt kê tình huống đã có mục; tình huống chưa có mục thì ẩn.
+const groups = SITUATIONS
+  .map((s) => ({ ...s, list: entries.filter((e) => e.data.situations.includes(s.slug)) }))
+  .filter((g) => g.list.length > 0);
+---
+<Base title="Tình huống" description="Bạn đang gặp chuyện gì? Chọn tình huống để xem các mục liên quan.">
+  <div class="page-head"><h1>Tình huống</h1><p>Bạn đang gặp chuyện gì? Bấm vào một tình huống để xem các mục nên đọc.</p></div>
+  {groups.length === 0
+    ? <p class="muted">Chưa có tình huống nào có mục. Hãy xem <a href={url('/chuong/')}>danh sách chương</a>.</p>
+    : (
+      <div class="sit-list">
+        {groups.map((g) => (
+          <details class="accordion" id={g.slug}>
+            <summary><span>{g.title}<span class="sit__n">{g.list.length} mục</span></span><Icon name="chevron-down" size={18} class="accordion__caret" /></summary>
+            <div class="accordion__body">
+              <ul class="entry-list">{g.list.map((e) => <li><EntryCard entry={e} slim /></li>)}</ul>
+            </div>
+          </details>
+        ))}
+      </div>
+    )}
+  <script is:inline>
+    (function () {
+      var el = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+      if (el && el.tagName === 'DETAILS') el.open = true;
+    })();
+  </script>
+</Base>

@@ -12,7 +12,9 @@
     "check:links": "node src/lib/check-links.mjs",
     "import": "node tools/import/run.mjs",
     "gate": "node tools/gate/run.mjs",
-    "test": "node --test tools/gate/test/*.test.mjs"
+    "test": "node --test tools/gate/test/*.test.mjs tools/verify/test/*.test.mjs",
+    "verify:apply": "node tools/verify/apply.mjs",
+    "verify:lint": "node tools/verify/lint-report.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",

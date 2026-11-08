@@ -4,6 +4,16 @@ on:
   push:
     branches: [main]
   pull_request:
+  workflow_dispatch:
+
+# Biến cấu hình (Settings → Secrets and variables → Actions → Variables):
+#   SITE_URL        mặc định https://lucas10xai.github.io
+#   BASE_PATH       mặc định /cam-nang-sinh-ton   (đặt "/" khi dùng tên miền riêng)
+#   SITE_INDEXABLE  mặc định false (noindex) — đặt "true" khi nội dung đã kiểm chứng và muốn lên công cụ tìm kiếm
+env:
+  SITE_URL: ${{ vars.SITE_URL || 'https://lucas10xai.github.io' }}
+  BASE_PATH: ${{ vars.BASE_PATH || '/cam-nang-sinh-ton' }}
+  SITE_INDEXABLE: ${{ vars.SITE_INDEXABLE || 'false' }}
 
 jobs:
   build:
@@ -23,3 +33,21 @@ jobs:
         run: pnpm build
       - name: Kiểm link nội bộ
         run: pnpm check:links
+      - uses: actions/upload-pages-artifact@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          path: dist
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -19,14 +19,17 @@ export function run({ entries, config }) {
     if (!e.data) continue;
     const refs = Array.isArray(e.data.legal_refs) ? e.data.legal_refs : [];
     const hasSection = e.sections.some((s) => s.title === 'Pháp luật Việt Nam');
-    if (hasSection && refs.length === 0) {
+    // Mục rewritten: kiểm tra chặt hơn ở check `rewritten` (error), không báo lặp ở đây.
+    const rewritten = e.data.rewrite_status === 'rewritten';
+    if (hasSection && refs.length === 0 && !rewritten) {
       out.push(issue('warn', name, e, 'Có H2 "Pháp luật Việt Nam" nhưng legal_refs rỗng'));
     }
     for (const r of refs) {
       if (!r || !r.url) continue;
       const t = hostTrusted(r.url, config.trustedDomains);
-      if (t === null) out.push(issue('warn', name, e, `legal_refs url không hợp lệ: ${r.url}`));
-      else if (!t) out.push(issue('warn', name, e, `legal_refs url không thuộc miền chính thống: ${r.url}`));
+      if (t === null) {
+        if (!rewritten) out.push(issue('warn', name, e, `legal_refs url không hợp lệ: ${r.url}`));
+      } else if (!t) out.push(issue('warn', name, e, `legal_refs url không thuộc miền chính thống: ${r.url}`));
     }
   }
   return out;

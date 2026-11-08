@@ -1,3 +1,4 @@
+import { url } from '../lib/url';
 // Tìm kiếm bằng Pagefind (chỉ mục sinh sau build, xem package.json "build"). Pagefind tự bỏ dấu khi lập chỉ mục và khi truy vấn.
 const form = document.getElementById('search-form') as HTMLFormElement;
 const input = document.getElementById('q') as HTMLInputElement;
@@ -13,8 +14,9 @@ let seq = 0;
 
 async function ensure() {
   if (pf) return pf;
-  const path = '/pagefind/pagefind.js';
+  const path = url('/pagefind/pagefind.js');
   pf = await import(/* @vite-ignore */ path);
+  await pf.options({ baseUrl: url('/') }); // kết quả trả về đã gắn base
   await pf.init();
   return pf;
 }

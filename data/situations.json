@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "note": "Danh mục tình huống dùng chung. Trường `situations` của mỗi mục chỉ được chứa slug trong danh sách này. Thêm slug mới phải sửa file này.",
+  "situations": [
+    { "slug": "cap-cuu-ngung-tim", "title": "Có người ngã gục, không thở hoặc thở bất thường" },
+    { "slug": "dau-hieu-dot-quy-tim-mach", "title": "Nghi đột quỵ, đau ngực, khó thở" },
+    { "slug": "tai-nan-chan-thuong", "title": "Chảy máu, gãy xương, bỏng, đuối nước, tai nạn" },
+    { "slug": "ngo-doc-chay-no", "title": "Ngộ độc, khí CO, cháy nổ" },
+    { "slug": "bi-cho-nghi-viec", "title": "Bị cho nghỉ việc, chấm dứt hợp đồng" },
+    { "slug": "bi-quyt-luong-lam-them", "title": "Bị quỵt lương, trả thiếu tiền làm thêm, phép năm" },
+    { "slug": "tai-nan-lao-dong", "title": "Bị tai nạn khi đang làm việc" },
+    { "slug": "bi-lua-mat-tai-khoan", "title": "Bị lừa chuyển tiền, mất tài khoản, mất điện thoại" },
+    { "slug": "xe-may-giao-thong", "title": "Đi xe máy: bằng lái, mũ bảo hiểm, bị phạt" },
+    { "slug": "tien-tiet-kiem-vay-no", "title": "Gửi tiết kiệm, vay nợ, mua sắm lớn" }
+  ]
+}

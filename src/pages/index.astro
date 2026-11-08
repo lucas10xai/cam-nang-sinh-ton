@@ -11,14 +11,14 @@ for (const e of entries) counts.set(e.data.chapter, (counts.get(e.data.chapter) 
   <section class="hero">
     <h1>{SITE_NAME}</h1>
     <p class="hero__lead">{SITE_TAGLINE} {entries.length} việc nhỏ, mỗi việc ghi rõ tốn gì và được gì.</p>
-    <form class="searchbox" action="/tim-kiem/" method="get" role="search">
+    <form class="searchbox" action={url('/tim-kiem/')} method="get" role="search">
       <label class="visually-hidden" for="q">Tìm một việc, một điều luật hay một bệnh (gõ không dấu cũng được)</label>
       <input id="q" type="search" name="q" placeholder="Ví dụ: làm thêm giờ, bao hiem, đột quỵ" autocomplete="off" />
       <button class="btn" type="submit"><Icon name="search" size={18} />Tìm</button>
     </form>
     <ul class="quick-links">
-      <li><a class="btn btn--ghost" href="/tra-cuu/"><Icon name="filter" size={16} />Lọc theo chi phí, bằng chứng</a></li>
-      <li><a class="btn btn--ghost" href="/viec-cua-toi/"><Icon name="list-checks" size={16} />Việc của tôi</a></li>
+      <li><a class="btn btn--ghost" href={url('/tra-cuu/')}><Icon name="filter" size={16} />Lọc theo chi phí, bằng chứng</a></li>
+      <li><a class="btn btn--ghost" href={url('/viec-cua-toi/')}><Icon name="list-checks" size={16} />Việc của tôi</a></li>
     </ul>
   </section>
 
@@ -27,7 +27,7 @@ for (const e of entries) counts.set(e.data.chapter, (counts.get(e.data.chapter) 
   <section aria-labelledby="chuong-h">
     <div class="section-title">
       <h2 id="chuong-h">Đọc theo chương</h2>
-      <a href="/chuong/">Tất cả chương <Icon name="arrow-right" size={14} /></a>
+      <a href={url('/chuong/')}>Tất cả chương <Icon name="arrow-right" size={14} /></a>
     </div>
     <ul class="grid grid--3">
       {chapters.map((c) => (
@@ -44,6 +44,6 @@ for (const e of entries) counts.set(e.data.chapter, (counts.get(e.data.chapter) 
 
   <section class="prose" aria-labelledby="doc-h">
     <h2 id="doc-h">Đọc thế nào cho đúng</h2>
-    <p>Mỗi mục hiện ghi rõ mức kiểm chứng của chính nó. Phần lớn nội dung <strong>chưa có chuyên gia duyệt</strong>; hãy xem huy hiệu trạng thái đầu mỗi trang trước khi làm theo, nhất là chuyện luật và thuốc. <a href="/phuong-phap/">Xem phương pháp và tiến độ kiểm chứng</a>.</p>
+    <p>Mỗi mục hiện ghi rõ mức kiểm chứng của chính nó. Phần lớn nội dung <strong>chưa có chuyên gia duyệt</strong>; hãy xem huy hiệu trạng thái đầu mỗi trang trước khi làm theo, nhất là chuyện luật và thuốc. <a href={url('/phuong-phap/')}>Xem phương pháp và tiến độ kiểm chứng</a>.</p>
   </section>
 </Base>

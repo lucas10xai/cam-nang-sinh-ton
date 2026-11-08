@@ -18,7 +18,7 @@ const next = chapters.find((c) => c.data.number === n + 1);
 const emergency = loadHotlines().showOnChapters.includes(n);
 ---
 <Base title={`Chương ${n}: ${ch.data.title}`} description={`${list.length} mục của chương ${n}: ${ch.data.title}.`}>
-  <nav class="crumbs" aria-label="Vị trí"><ol><li><a href="/">Trang chủ</a></li><li><a href="/chuong/">Chương</a></li><li aria-current="page">Chương {n}</li></ol></nav>
+  <nav class="crumbs" aria-label="Vị trí"><ol><li><a href={url('/')}>Trang chủ</a></li><li><a href={url('/chuong/')}>Chương</a></li><li aria-current="page">Chương {n}</li></ol></nav>
   <div class="page-head">
     <p class="entry-code">Chương {n}</p>
     <h1>{ch.data.title}</h1>

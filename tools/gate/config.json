@@ -26,6 +26,19 @@
     "minSignificantInteger": 11,
     "ignoreNumbers": [111, 112, 113, 114, 115, 1900]
   },
+  "rewritten": {
+    "tldrMaxChars": 280,
+    "stepsMin": 2,
+    "stepsMax": 6,
+    "stepMaxChars": 200,
+    "paragraphWarnWords": 110,
+    "paragraphErrorWords": 150,
+    "legalBulletWarnWords": 70,
+    "legalBulletErrorWords": 100,
+    "legalGroupMaxWords": 30,
+    "legalLeadMaxWords": 40,
+    "legalParaErrorWords": 60
+  },
   "links": {
     "timeoutMs": 15000,
     "retries": 2,

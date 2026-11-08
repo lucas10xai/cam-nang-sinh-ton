@@ -3,10 +3,13 @@ import Base from '../layouts/Base.astro';
 import Icon from '../components/icons/Icon.astro';
 import EntryCard from '../components/EntryCard.astro';
 import {
-  loadAll, worthOf, fold, WORTH_LABELS, COST_LABELS, METRIC_LABELS, BENEFIT_LABELS, VERIFICATION_LABELS, STATUS_ORDER,
+  loadAll, worthOf, fold, url, SITUATIONS, WORTH_LABELS, COST_LABELS, METRIC_LABELS, BENEFIT_LABELS, VERIFICATION_LABELS, STATUS_ORDER,
 } from '../lib/site';
 const { chapters, entries } = await loadAll();
+const used = new Set(entries.flatMap((e) => e.data.situations));
+for (const e of entries) for (const sl of e.data.situations) if (!SITUATIONS.some((x) => x.slug === sl)) console.warn(`[tình huống lạ] ${e.data.id}: ${sl}`);
 const groups = [
+  { key: 'rw', legend: 'Soạn lại', opts: [['rewritten', 'Đã soạn lại']] },
   { key: 'ev', legend: 'Mức bằng chứng', opts: [['A', 'A'], ['B', 'B'], ['C', 'C']] },
   { key: 'worth', legend: 'Mức đáng làm (phán đoán của người biên soạn)', opts: Object.entries(WORTH_LABELS).map(([k, v]) => [k, v]) },
   { key: 'money', legend: 'Chi phí tiền', opts: Object.entries(COST_LABELS.money).map(([k, v]) => [k, v]) },
@@ -15,10 +18,11 @@ const groups = [
   { key: 'benefit', legend: 'Lợi ích', opts: Object.entries(BENEFIT_LABELS).map(([k, v]) => [k, v]) },
   { key: 'metric', legend: 'Đổi lấy cái gì', opts: Object.entries(METRIC_LABELS).map(([k, v]) => [k, v]) },
   { key: 'vs', legend: 'Trạng thái kiểm chứng', opts: STATUS_ORDER.map((s) => [s, VERIFICATION_LABELS[s]]) },
+  ...(used.size ? [{ key: 'sit', legend: 'Tình huống', opts: SITUATIONS.filter((x) => used.has(x.slug)).map((x) => [x.slug, x.title]) }] : []),
 ];
 ---
 <Base title="Tra cứu và lọc" description="Lọc các mục theo chương, mức bằng chứng, chi phí, mức đáng làm và trạng thái kiểm chứng." wide>
-  <div class="page-head"><h1>Tra cứu và lọc</h1><p>Chọn nhiều điều kiện cùng lúc. Trong cùng một nhóm, chọn nhiều ô nghĩa là “hoặc”; giữa các nhóm là “và”. Muốn tìm theo từ khóa trong nội dung, dùng <a href="/tim-kiem/">Tìm kiếm</a>.</p></div>
+  <div class="page-head"><h1>Tra cứu và lọc</h1><p>Chọn nhiều điều kiện cùng lúc. Trong cùng một nhóm, chọn nhiều ô nghĩa là “hoặc”; giữa các nhóm là “và”. Muốn tìm theo từ khóa trong nội dung, dùng <a href={url('/tim-kiem/')}>Tìm kiếm</a>.</p></div>
 
   <form class="filters js-only" id="filters" aria-label="Bộ lọc" onsubmit="return false">
     <div class="filters__row">
@@ -56,7 +60,7 @@ const groups = [
     {entries.map((e) => {
       const d = e.data;
       return (
-        <li class="entry-row" data-ch={d.chapter} data-ev={d.evidence} data-worth={worthOf(d)} data-money={d.cost.money} data-time={d.cost.time} data-will={d.cost.will} data-benefit={d.benefit} data-metric={d.metric} data-vs={d.verification.status} data-t={fold(d.title)}>
+        <li class="entry-row" data-ch={d.chapter} data-ev={d.evidence} data-worth={worthOf(d)} data-money={d.cost.money} data-time={d.cost.time} data-will={d.cost.will} data-benefit={d.benefit} data-metric={d.metric} data-vs={d.verification.status} data-rw={d.rewrite_status} data-sit={d.situations.join(' ')} data-t={fold(d.title)}>
           <EntryCard entry={e} slim />
         </li>
       );

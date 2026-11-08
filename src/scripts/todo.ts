@@ -1,4 +1,5 @@
 import { load, save, toggle, type Kind } from './state';
+import { url } from '../lib/url';
 
 type Item = { id: string; code: string; title: string };
 const index: Item[] = JSON.parse(document.getElementById('entry-index')!.textContent ?? '[]');
@@ -21,7 +22,7 @@ function render(kind: Kind) {
     const li = document.createElement('li');
     li.className = 'todo-item';
     const a = document.createElement('a');
-    a.href = `/muc/${id}/`;
+    a.href = url(`/muc/${id}/`);
     const small = document.createElement('small');
     small.textContent = it.code;
     a.append(small, it.title, ` (${fmt(when)})`);
@@ -40,7 +41,7 @@ function render(kind: Kind) {
 function renderAll() { render('done'); render('read'); }
 document.getElementById('clear-all')!.addEventListener('click', () => {
   if (confirm('Xóa toàn bộ đánh dấu đã đọc và đã làm trên trình duyệt này?')) {
-    save({ read: {}, done: {} });
+    save({ ...load(), read: {}, done: {} });
     renderAll();
   }
 });

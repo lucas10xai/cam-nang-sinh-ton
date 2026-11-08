@@ -21,6 +21,7 @@ const d = e.data;
 const chapter = chapters.find((c) => c.data.number === d.chapter);
 const sections = renderSections(e, byId);
 const worth = worthOf(d);
+const rewritten = d.rewrite_status === 'rewritten';
 const siblings = entries.filter((x) => x.data.chapter === d.chapter);
 const idx = siblings.findIndex((x) => x.data.id === d.id);
 const prev = siblings[idx - 1];
@@ -36,12 +37,12 @@ const isLegal = (t: string) => t === 'Pháp luật Việt Nam';
 const plain = `${d.title} ${sections.map((s) => s.html).join(' ')}`.replace(/<[^>]+>/g, ' ');
 const dWords = [...new Set((plain.match(/[\p{L}\p{N}]*[đĐ][\p{L}\p{N}]*/gu) ?? []).map((w) => fold(w)))].join(' ');
 ---
-<Base title={d.title} description={d.tldr ?? sections.find((s) => s.title === 'Nói dễ hiểu')?.html.replace(/<[^>]+>/g, '').slice(0, 200) ?? d.title}>
+<Base title={d.title} description={(rewritten ? d.tldr : null) ?? sections.find((s) => s.title === 'Nói dễ hiểu')?.html.replace(/<[^>]+>/g, '').slice(0, 200) ?? d.title}>
   <article data-pagefind-body data-pagefind-meta={`chuong:Chương ${d.chapter}`} data-entry-id={d.id}>
     <nav class="crumbs" aria-label="Vị trí" data-pagefind-ignore>
       <ol>
-        <li><a href="/">Trang chủ</a></li>
-        <li><a href="/chuong/">Chương</a></li>
+        <li><a href={url('/')}>Trang chủ</a></li>
+        <li><a href={url('/chuong/')}>Chương</a></li>
         <li><a href={url.chapter(d.chapter)}>Chương {d.chapter}{chapter ? `: ${chapter.data.title}` : ''}</a></li>
       </ol>
     </nav>
@@ -59,6 +60,9 @@ const dWords = [...new Set((plain.match(/[\p{L}\p{N}]*[đĐ][\p{L}\p{N}]*/gu) ??
         {d.verification.sources.length > 0 && <p>Đã đối chiếu: {d.verification.sources.length} nguồn.</p>}
         {d.contested && <p><strong>Mục này có điểm còn tranh luận</strong>, xem phần Ghi chú.</p>}
       </div>
+      {rewritten && d.tldr && (
+        <aside class="tldr" aria-labelledby="tldr-h"><h2 id="tldr-h">Kết luận ngắn</h2><p>{d.tldr}</p></aside>
+      )}
       <div class="mark-bar" data-pagefind-ignore>
         <button class="btn btn--ghost" type="button" data-mark="read" aria-pressed="false"><Icon name="eye" size={16} /><span>Đánh dấu đã đọc</span></button>
         <button class="btn btn--ghost" type="button" data-mark="done" aria-pressed="false"><Icon name="circle-check" size={16} /><span>Đánh dấu đã làm</span></button>
@@ -68,23 +72,27 @@ const dWords = [...new Set((plain.match(/[\p{L}\p{N}]*[đĐ][\p{L}\p{N}]*/gu) ??
     {emergency && <div data-pagefind-ignore><HotlineStrip compact /></div>}
 
     <div class="entry-body">
-      {d.tldr && (
-        <aside class="callout callout--tldr"><h2>Kết luận ngắn</h2><p>{d.tldr}</p></aside>
+      {rewritten && d.steps.length > 0 && (
+        <section class="steps-box" aria-labelledby="steps-h">
+          <h2 id="steps-h">Các bước làm</h2>
+          <ol class="steps">
+            {d.steps.map((t, i) => (
+              <li><label class="step"><input type="checkbox" data-step={i} /><span class="step__text">{t}</span></label></li>
+            ))}
+          </ol>
+          <p class="steps-count js-only" id="steps-count" role="status" data-pagefind-ignore></p>
+        </section>
       )}
       {sections.map((s) => {
-        if (s.title === 'Nói dễ hiểu' && !d.tldr) {
+        if (s.title === 'Nói dễ hiểu' && !(rewritten && d.tldr)) {
           return <aside class="callout"><h2>Nói dễ hiểu</h2><Fragment set:html={s.html} /></aside>;
         }
         if (s.title === 'Nói dễ hiểu') {
           return <section><h2>Nói dễ hiểu</h2><Fragment set:html={s.html} /></section>;
         }
-        const stepsBlock = d.steps.length > 0 && s.title === 'Chi phí' ? (
-          <section><h2>Các bước làm</h2><ol class="steps">{d.steps.map((t) => <li>{t}</li>)}</ol></section>
-        ) : null;
         if (isLegal(s.title)) {
           return (
             <>
-              {stepsBlock}
               <Accordion summary="Căn cứ pháp luật Việt Nam">
                 {d.legal_refs.length > 0 && (
                   <ul class="legal-refs">
@@ -108,14 +116,10 @@ const dWords = [...new Set((plain.match(/[\p{L}\p{N}]*[đĐ][\p{L}\p{N}]*/gu) ??
         }
         return (
           <>
-            {stepsBlock}
             <section class={s.title === 'Nguồn' ? 'sources' : undefined}><h2>{s.title}</h2><Fragment set:html={s.html} /></section>
           </>
         );
       })}
-      {d.steps.length > 0 && !sections.some((s) => s.title === 'Chi phí') && (
-        <section><h2>Các bước làm</h2><ol class="steps">{d.steps.map((t) => <li>{t}</li>)}</ol></section>
-      )}
     </div>
     {dWords && <div hidden>{dWords}</div>}
   </article>
@@ -132,4 +136,5 @@ const dWords = [...new Set((plain.match(/[\p{L}\p{N}]*[đĐ][\p{L}\p{N}]*/gu) ??
     {next ? <a class="next" href={url.entry(next.data.id)}><small>Mục sau, {entryCode(next)}</small>{next.data.title}</a> : <span />}
   </nav>
   <script>import '../../scripts/mark.ts';</script>
+  <script>import '../../scripts/steps.ts';</script>
 </Base>

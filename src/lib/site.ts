@@ -1,6 +1,8 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { Marked, type Tokens } from 'marked';
 import hotlinesJson from '../../data/hotlines.json';
+import situationsJson from '../../data/situations.json';
+import { url as baseUrl } from './url';
 import { VERIFICATION_LABELS_VI, BODY_SECTIONS } from '../../schema/entry.mjs';
 
 export type Entry = CollectionEntry<'entries'>;
@@ -10,10 +12,17 @@ export const SITE_NAME = 'Cẩm nang sinh tồn';
 export const SITE_TAGLINE = 'Những việc nên làm để sống lâu hơn, đỡ tốn hơn, ít vướng luật hơn, theo bối cảnh Việt Nam.';
 export const DISCLAIMER = 'Chưa có chuyên gia duyệt. Thông tin tham khảo, không thay thế luật sư hoặc bác sĩ.';
 
-export const url = {
-  entry: (id: string) => `/muc/${id}/`,
-  chapter: (n: number) => `/chuong/${n}/`,
-};
+/** SITE_INDEXABLE=true mới cho công cụ tìm kiếm lập chỉ mục (xem astro.config.mjs). */
+export const SITE_INDEXABLE = process.env.SITE_INDEXABLE === 'true';
+
+/** Dựng đường dẫn nội bộ theo base; `url.entry`, `url.chapter` là lối tắt. */
+export const url = Object.assign(baseUrl, {
+  entry: (id: string) => baseUrl(`/muc/${id}/`),
+  chapter: (n: number) => baseUrl(`/chuong/${n}/`),
+});
+
+export interface Situation { slug: string; title: string; }
+export const SITUATIONS: Situation[] = situationsJson.situations;
 
 /* ---------- Nhãn hiển thị ---------- */
 export const COST_LABELS = {
@@ -143,6 +152,9 @@ export async function loadAll() {
   return cache;
 }
 
+/** Tóm tắt hiển thị trên danh sách: `tldr` của mục đã soạn lại, ngược lại không có. */
+export const entrySummary = (e: Entry): string | null => (e.data.rewrite_status === 'rewritten' && e.data.tldr ? e.data.tldr : null);
+
 export const entryCode = (e: Entry) => `${e.data.chapter}.${e.data.number}`;
 
 /** Bỏ dấu tiếng Việt, hạ chữ thường: dùng cho lọc client-side và so khớp. */
@@ -219,6 +231,10 @@ export function renderSections(e: Entry, byId: Map<string, Entry>): Section[] {
     let md = (parts[i + 1] ?? '').trim();
     if (title === 'Nguồn' && !/^\s*(?:[-*]|\d+\.)\s/m.test(md) && / ; /.test(md)) {
       md = md.split(/\s+;\s+/).map((s) => `- ${s.trim()}`).join('\n');
+    }
+    if (title === 'Pháp luật Việt Nam' && !/^\s*(?:[-*]|\d+\.)\s/m.test(md)) {
+      // Mục chưa soạn lại: mỗi đoạn thành một gạch đầu dòng cho dễ đọc.
+      md = md.split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean).map((p) => `- ${p.replace(/\n+/g, ' ')}`).join('\n');
     }
     out.push({ title, html: renderMd(md, byId, `mục ${e.data.id} / ${title}`) });
   }

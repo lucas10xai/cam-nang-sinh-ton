@@ -16,7 +16,7 @@ node tools/gate/run.mjs --content tools/gate/fixtures   # chạy trên bộ fixt
 
 Exit code: `0` nếu không có `error` (và không có `warn` khi `--strict`), `1` nếu ngược lại, `2` nếu sai tham số.
 
-Test: `node --test tools/gate/test/*.test.mjs` (Node 22 không nhận tên thư mục trần, cần glob; shell tự bung `*`).
+Test: `node --test tools/gate/test/*.test.mjs tools/verify/test/*.test.mjs` (Node 22 không nhận tên thư mục trần, cần glob; shell tự bung `*`).
 
 ## Danh sách kiểm tra
 
@@ -32,6 +32,7 @@ Mỗi kết quả có dạng `{ level: 'error'|'warn', check, id, file, message 
 | `verification` | error | `source-checked`/`cross-checked`/`expert-reviewed` thiếu `checked_at` hoặc `sources`; `expert-reviewed` thiếu `checker` |
 | `keywords` | error | `[chưa kiểm chứng]`, `TODO`, `XXX`, `lorem` ở bất kỳ đâu trong file (kể cả frontmatter) |
 | `numbers` | warn | Số trong "Nói dễ hiểu" không có trong "Lợi ích"/"Pháp luật Việt Nam"/"Chi phí" |
+| `rewritten` | error / warn | Chỉ cho mục `rewrite_status: rewritten` (xem dưới). Mục `imported` giữ luật cũ, không bị báo thêm |
 | `links` | warn | (chỉ với `--links`) URL trong Nguồn, `legal_refs`, `verification.sources` chết/lỗi |
 
 ### Heuristic kiểm tra số (`numbers`)
@@ -46,6 +47,32 @@ Mục tiêu: ít dương tính giả. Cảnh báo chỉ nghĩa "người soạn 
 6. Mỗi số chỉ báo một lần mỗi mục. Giới hạn đã biết: số viết bằng chữ ("ba trăm nghìn"), phép tính suy ra (150% × 2 = 300%) sẽ bị báo; hãy dẫn con số đó trong Chi phí/Lợi ích hoặc chấp nhận cảnh báo.
 
 Cấu hình ở `tools/gate/config.json` (`numbers`).
+
+### Mục đã soạn lại (`rewritten`)
+
+Theo `docs/PHASE1.md`. Ngưỡng ở `config.json` (`rewritten`). Với mục rewritten, check `legal-refs` cũ không báo lặp (H2 mà `legal_refs` rỗng, URL hỏng) vì check này báo ở mức error; kiểm miền chính thống vẫn ở `legal-refs`.
+
+| Kiểm tra | Mức |
+|---|---|
+| `tldr` rỗng; dài > 280 ký tự | error |
+| `steps` không phải 0 hoặc 2-6 phần tử; một bước > 200 ký tự hoặc rỗng | error |
+| Đoạn trong thân (trừ `## Nguồn`, bỏ dòng chỉ gồm URL; mỗi gạch/mục danh sách là một đoạn) dài 111-150 chữ | warn |
+| Đoạn dài > 150 chữ | error |
+| `## Pháp luật Việt Nam`: đoạn không phải gạch dài 41-60 chữ / > 60 chữ. Không báo: đoạn bắt đầu bằng `**` dài ≤ 30 chữ (nhóm in đậm), câu dẫn/kết ≤ 40 chữ, H3 | warn / error |
+| Gạch pháp luật dài 71-100 chữ / > 100 chữ | warn / error |
+| Gạch pháp luật không có trích dẫn trong ngoặc cuối dòng chứa "Điều" hoặc tên/số hiệu văn bản | warn |
+| Có H2 Pháp luật mà `legal_refs` rỗng | error |
+| `legal_refs` không rỗng mà không có H2 Pháp luật | warn |
+| `legal_refs[].url` là chuỗi nhưng không phải URL http(s) hợp lệ | error |
+| `legal_refs[].url` là `null` (bản nháp không có URL đúng văn bản) | warn |
+| `vn_class` còn `unclassified` | error |
+| `situations` chứa slug ngoài `data/situations.json` | error |
+| Số trong `tldr`/`steps` không xuất hiện trong thân | error |
+
+Ghi chú:
+- Số trong `tldr`/`steps` dùng lại bộ chuẩn hóa của `numbers` (`1,5 triệu` khớp `1.500.000 đồng`; bỏ qua số điều khoản, số hiệu văn bản, ngày, số điện thoại bắt đầu bằng 0). Khác `numbers`: **không** bỏ qua số nhỏ, năm hay 113/114/115; mọi số còn lại phải có trong thân (kể cả `## Nguồn`). Chỉ so theo giá trị, không biết số viết bằng chữ.
+- Đếm chữ = số chuỗi cách nhau bởi khoảng trắng có chứa chữ hoặc số (URL bị bỏ).
+- Trạng thái xác minh cao hơn `unverified` mà thiếu `checked_at`/`sources` do check `verification` (mọi mục).
 
 ### Kiểm tra link (`--links`)
 
@@ -78,7 +105,7 @@ Sinh bởi `--out data/status.json` (từ **toàn bộ** mục, không bị `--c
 1. Tạo `tools/gate/checks/<ten>.mjs` xuất `name`, `description`, `run(ctx)` (có thể async). `ctx = { entries, config, schema }`; mỗi `entry` có `file`, `data` (frontmatter), `body`, `sections` (`[{title, text}]`), `raw`.
 2. Trả mảng `issue(level, name, entry, message)` từ `lib/result.mjs`.
 3. Đăng ký trong `checks/index.mjs`. Kiểm tra cần mạng/chậm: đặt `export const needsFlag = 'links'`-kiểu cờ và xử lý trong `lib/gate.mjs`.
-4. Thêm fixture lỗi vào `fixtures/entries/02-loi/` (mỗi fixture chỉ vi phạm đúng một kiểm tra) và một ca trong `test/gate.test.mjs`; chạy test.
+4. Thêm fixture lỗi vào `fixtures/entries/02-loi/` (riêng check `rewritten`: `fixtures-rewritten/`, test `test/rewritten.test.mjs` sinh biến thể lỗi từ một mục hợp lệ) (mỗi fixture chỉ vi phạm đúng một kiểm tra) và một ca trong `test/gate.test.mjs`; chạy test.
 5. Ngưỡng/danh sách đưa vào `config.json`, đừng cứng trong code.
 
 Kiểm tra liên mục (cần toàn bộ mục) luôn nhận `entries` đầy đủ; `--chapter` chỉ lọc kết quả sau cùng.
