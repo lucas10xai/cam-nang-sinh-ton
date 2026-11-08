@@ -14,7 +14,7 @@ evidence: B
 contested: false
 vn_class: vn_native
 rewrite_status: rewritten
-tldr: "Tiền mua bảo hiểm hưu trí tự nguyện được trừ khi tính thuế thu nhập cá nhân, nhưng có trần (3 triệu đồng/tháng theo bản trích thứ cấp của Nghị định 253/2026/NĐ-CP, cần đối chiếu văn bản ký). Thu nhập tính thuế 15,5 triệu/tháng trở xuống thì nộp 0 đồng, nên khoản trừ không tiết kiệm thêm."
+tldr: "Tiền mua bảo hiểm hưu trí tự nguyện được trừ khi tính thuế TNCN, nhưng có trần (3 triệu đồng/tháng theo bản trích thứ cấp của NĐ 253/2026/NĐ-CP, cần đối chiếu văn bản ký). Thu nhập tính thuế 15,5 triệu/tháng trở xuống thì nộp 0 đồng, nên khoản trừ không tiết kiệm thêm."
 steps:
   - "Hỏi người bán: khoản đóng được trừ thuế tối đa bao nhiêu và tôi đang nộp thuế ở bậc nào?"
   - "So mức tiền phải đóng, quyền lợi thực nhận, phí và điều kiện rút tiền."
