@@ -109,10 +109,19 @@ test('lint: hash lạc hậu và khóa lạ chỉ là cảnh báo', async () => 
   assert.ok(w.some((m) => /lạc hậu/.test(m)));
   assert.ok(w.some((m) => /Khóa lạ/.test(m)));
 });
-test('lint-report.mjs CLI: 3 báo cáo thử có lỗi → exit 1', async () => {
-  const r = await run('tools/verify/lint-report.mjs', []);
-  assert.equal(r.code, 1);
-  assert.match(r.stdout, /content_sha256/);
+test('lint-report.mjs CLI: báo cáo kiểu cũ (thiếu hash, không internal_checks) → exit 1', async () => {
+  const env = await setup();
+  try {
+    const { content_sha256: _h, internal_checks: _i, ...legacy } = report(BASE);
+    await writeReport(env, 'rewritten-hop-le', legacy);
+    const r = await run('tools/verify/lint-report.mjs', ['--content', env.contentDir, '--reports', env.reportsDir]);
+    assert.equal(r.code, 1);
+    assert.match(r.stdout, /content_sha256/);
+    await writeReport(env, 'rewritten-hop-le', report(BASE));
+    assert.equal((await run('tools/verify/lint-report.mjs', ['--content', env.contentDir, '--reports', env.reportsDir])).code, 0);
+  } finally {
+    await env.cleanup();
+  }
 });
 
 // ---------- apply: kế hoạch ----------
@@ -350,6 +359,24 @@ test('apply: --write qua CLI ghi file tạm, idempotent; dry-run mặc định k
     // sau khi ghi, gate vẫn sạch với mục này
     const { runGate } = await import('../../gate/lib/gate.mjs');
     assert.deepEqual((await runGate({ contentDir: env.contentDir })).issues, []);
+  } finally {
+    await env.cleanup();
+  }
+});
+
+test('apply CLI: báo cáo kiểu cũ (thiếu hash, có mismatch) → không nâng, nêu lý do', async () => {
+  const env = await setup();
+  try {
+    const { content_sha256: _h, internal_checks: _i, ...legacy } = report(BASE, { claims: [claim({ verdict: 'mismatch' })] });
+    await writeReport(env, 'rewritten-hop-le', legacy);
+    const r = await run('tools/verify/apply.mjs', ['--json', '--content', env.contentDir, '--reports', env.reportsDir]);
+    assert.equal(r.code, 0);
+    const j = JSON.parse(r.stdout);
+    assert.equal(j.changes.length, 0);
+    assert.equal(j.skipped.length, 1);
+    const all = j.skipped[0].reasons.join('\n');
+    assert.match(all, /content_sha256/);
+    assert.match(all, /mismatch/);
   } finally {
     await env.cleanup();
   }

@@ -1,0 +1,71 @@
+id: dung-de-mot-co-phieu-mot-san-hay-mot-can-nha-quyet
+checker: agent-V3a05d
+checked_at: 2026-11-08
+content_sha256: "8e41050c60a690b2d89981b8ff72992b1c7dd6f353e08a51b01ed729fddd2cdc"
+result: pass-with-edits
+claims:
+  - text: "Hạn mức bảo hiểm tiền gửi 350 triệu đồng một người tại một tổ chức nhận tiền gửi (Thông tư 05/2026/TT-NHNN)"
+    source_url: https://div.gov.vn/tu-ngay-13-7-2026-han-muc-chi-tra-tien-bao-hiem-cua-bao-hiem-tien-gui-viet-nam-la-350-trieu-dong
+    quote: "Theo Thông tư, hạn mức chi trả tiền bảo hiểm là 350 triệu đồng đối với toàn bộ các khoản tiền gửi được bảo hiểm theo quy định của Luật Bảo hiểm tiền gửi (bao gồm cả tiền gốc và tiền lãi) của một người tại một tổ chức tham gia bảo hiểm tiền gửi khi phát sinh nghĩa vụ chi trả tiền bảo hiểm."
+    verdict: match-secondary
+    note: "Trang tin chính thức của Bảo hiểm tiền gửi Việt Nam (cơ quan thi hành), đăng 15/7/2026, không phải văn bản Thông tư. Không tải được bản ký của TT 05/2026/TT-NHNN (legal_refs[0].url null; web_search chỉ ra báo chí và luatvietnam/thuvienphapluat, không thấy link PDF Công báo). Mục bỏ chữ 'gồm cả gốc và lãi': tiền lãi tính vào hạn mức, nên 350 triệu là tổng gốc + lãi, không phải 350 triệu gốc."
+  - text: "Hạn mức 350 triệu có hiệu lực từ 13/7/2026"
+    source_url: https://div.gov.vn/tu-ngay-13-7-2026-han-muc-chi-tra-tien-bao-hiem-cua-bao-hiem-tien-gui-viet-nam-la-350-trieu-dong
+    quote: "Thống đốc Ngân hàng Nhà nước Việt Nam đã ban hành Thông tư số 05/2026/TT-NHNN quy định hạn mức chi trả tiền bảo hiểm của Bảo hiểm tiền gửi Việt Nam. Thông tư có hiệu lực thi hành từ ngày 13/7/2026."
+    verdict: match-secondary
+    note: "Cùng trang DIV. Trang cũng ghi mức cũ 125 triệu đồng theo Quyết định 32/2021/QĐ-TTg."
+  - text: "Gửi 3 tỷ vào một ngân hàng thì 2,65 tỷ nằm ngoài hạn mức"
+    source_url: https://div.gov.vn/tu-ngay-13-7-2026-han-muc-chi-tra-tien-bao-hiem-cua-bao-hiem-tien-gui-viet-nam-la-350-trieu-dong
+    quote: "hạn mức chi trả tiền bảo hiểm là 350 triệu đồng đối với toàn bộ các khoản tiền gửi được bảo hiểm"
+    verdict: inference
+    note: "3.000 - 350 = 2.650 triệu: số học đúng. Là suy ra; 3 tỷ gồm cả lãi thì phần ngoài hạn mức còn lớn hơn. Điều kiện: chỉ tính ở tổ chức tham gia bảo hiểm tiền gửi, và chỉ các khoản tiền gửi thuộc đối tượng được bảo hiểm."
+  - text: "Chứng khoán lưu ký tập trung tại Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam (Luật Chứng khoán 54/2019)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/12/54.signed.pdf
+    quote: "Chứng khoán của công ty đại chúng và chứng khoán của các tổ chức khác niêm yết, đăng ký giao dịch trên hệ thống giao dịch chứng khoán phải được lưu ký tập trung tại Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam trước khi thực hiện giao dịch, trừ trường hợp khác theo quy định của Bộ trưởng Bộ Tài chính."
+    verdict: partial
+    note: "Điều 62 khoản 1 Luật Chứng khoán, số hiệu đúng là 54/2019/QH14 (trang đầu: 'Luật số: 54/2019/QH14'), không phải QH15 như mục ghi. PDF là ảnh quét (pdftotext rỗng), đọc bằng OCR Apple Vision từ ảnh trang 49/93, đối chiếu bằng mắt các đoạn chính. Quy định chỉ áp dụng cho chứng khoán của công ty đại chúng/niêm yết/đăng ký giao dịch và có ngoại lệ 'trừ trường hợp khác theo quy định của Bộ trưởng Bộ Tài chính'; mục viết như thể mọi cổ phiếu đều lưu ký tập trung. Đây là bản gốc 2019; Luật đã được sửa đổi (Luật 56/2024/QH15 theo trí nhớ, chưa mở được bản hợp nhất để đối chiếu Điều 62 sau sửa đổi)."
+  - text: "Công ty chứng khoán mất không làm mất cổ phiếu"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/12/54.signed.pdf
+    quote: "Chứng khoán và các tài sản khác của khách hàng do Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam hoặc thành viên của Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam quản lý, tiền gửi thanh toán giao dịch chứng khoán của các thành viên lưu ký tại ngân hàng thanh toán là tài sản của chủ sở hữu, không phải là tài sản của Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam hoặc của thành viên hoặc của ngân hàng thanh toán."
+    verdict: partial
+    note: "Điều 65 khoản 1 (OCR trang 49) hỗ trợ ý 'cổ phiếu là tài sản của chủ sở hữu, không phải của công ty chứng khoán'. Nhưng mục không dẫn Điều 65 (legal_refs chỉ ghi 'điều khoản cụ thể bản nháp không ghi'), và câu 'không làm mất cổ phiếu' tuyệt đối hơn nguyên văn: luật chỉ nói tài sản là của chủ sở hữu, không bảo đảm khôi phục nếu có gian lận, và không bảo hiểm tiền/giá trị."
+  - text: "Tiền bán chưa rút về ngân hàng vẫn là quan hệ với công ty chứng khoán đó"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/12/54.signed.pdf
+    quote: "tiền gửi thanh toán giao dịch chứng khoán của các thành viên lưu ký tại ngân hàng thanh toán là tài sản của chủ sở hữu"
+    verdict: inference
+    note: "Luật cho thấy tiền thanh toán giao dịch cũng được tách khỏi tài sản công ty (Điều 65 khoản 1), nên khẳng định của mục là suy luận thực hành, không phải chữ của luật, và có thể nói thiếu: luật bảo vệ tiền thanh toán ở mức tài sản tách biệt. Khẳng định cần nguồn hoặc nhãn 'nhận định'."
+  - text: "Markowitz (1952): danh mục kết hợp có phương sai nhỏ hơn bình quân gia quyền phương sai từng tài sản, lợi suất kỳ vọng giữ nguyên"
+    source_url: https://doi.org/10.1111/j.1540-6261.1952.tb01525.x
+    quote: "PORTFOLIO SELECTION* — Harry Markowitz, The Journal of Finance, Published 1952-03 (CrossRef: 'No abstract available.')"
+    verdict: unreachable
+    note: "DOI trả metadata CrossRef đúng (tác giả, tạp chí, 3/1952), không có nội dung bài; Wiley/JSTOR không mở được, nên không đối chiếu phát biểu toán học. Kết quả này là kiến thức chuẩn trong tài chính, nhưng không có nguyên văn. Mục ghi trích dẫn '7(1):77–91' không kiểm được từ metadata nhận về."
+  - text: "Bẫy 1: Năm 2022 cả thị trường giảm thì mã nào cũng giảm"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/12/54.signed.pdf
+    quote: "(không có nguyên văn: mục không dẫn nguồn số liệu thị trường năm 2022)"
+    verdict: not-found
+    note: "Không có nguồn nào trong mục cho khẳng định về năm 2022; 'mã nào cũng giảm' là cường điệu (không kiểm). Cần dẫn số liệu VN-Index 2022 từ HOSE hoặc bỏ 'mã nào cũng'."
+internal_checks:
+  - issue: "legal_refs[1].doc và mục Nguồn ghi 'Luật Chứng khoán 54/2019/QH15'; số hiệu đúng là 54/2019/QH14 (khóa XIV). Lỗi số hiệu văn bản."
+    severity: error
+  - issue: "legal_refs[1].article chứa ghi chú nội bộ còn sót: 'điều khoản cụ thể bản nháp không ghi'; url null, effective_from null, checked_at null cho cả hai legal_refs. Điều cụ thể phải là Điều 62 khoản 1 và Điều 65 khoản 1."
+    severity: error
+  - issue: "legal_refs[0].url null: không có link văn bản gốc của TT 05/2026/TT-NHNN; mục Nguồn có chữ nội bộ 'xem \"Còn treo\" về việc mở bản ký' nhưng thân mục không có phần 'Còn treo'."
+    severity: error
+  - issue: "Số 350 triệu và 13/7/2026 nhất quán giữa tldr, steps, thân. Nhưng mục không nói 350 triệu gồm cả gốc lẫn lãi (xem claim 1); tldr 'tối đa 350 triệu đồng một người tại một tổ chức' đúng ý."
+    severity: warn
+  - issue: "'Một căn hộ cho thuê là tài sản không bán được trong 1 tuần' và 'ba đến năm nhóm tài sản khác nhau đã là đa dạng' là nhận định của sách, không có nguồn; mục có evidence: C nên chấp nhận, nhưng nên gắn nhãn nhận định."
+    severity: warn
+validity:
+  doc: "Thông tư 05/2026/TT-NHNN (hạn mức 350 triệu); Luật Chứng khoán 54/2019/QH14"
+  in_force: unconfirmed
+  effective_from: "2026-07-13"
+  amended_by: []
+  basis: "TT 05/2026/TT-NHNN: trang DIV 15/7/2026 nói có hiệu lực 13/7/2026 và thay mức 125 triệu của QĐ 32/2021/QĐ-TTg; chưa mở được văn bản gốc nên chưa xác nhận không bị sửa. Luật Chứng khoán 54/2019/QH14: PDF 2019 đọc được là bản gốc; có bản sửa đổi sau đó (cần mở bản hợp nhất VBHN 24/2025 mà mục khác trong chương dẫn); chưa kiểm Điều 62, 65 sau sửa đổi."
+suggested_edits:
+  - "legal_refs[1] và mục Nguồn: đổi 'Luật Chứng khoán 54/2019/QH15' thành '54/2019/QH14'; article: 'Điều 62 khoản 1; Điều 65 khoản 1'; url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/12/54.signed.pdf; xóa chữ 'điều khoản cụ thể bản nháp không ghi'."
+  - "Thân/ tldr: thêm 'tính cả gốc và lãi' vào câu hạn mức. Căn cứ: 'bao gồm cả tiền gốc và tiền lãi' (DIV)."
+  - "Gạch đầu dòng Chứng khoán: viết 'chứng khoán niêm yết/đăng ký giao dịch phải lưu ký tập trung ... và là tài sản của chủ sở hữu, không phải của công ty chứng khoán' thay cho 'công ty chứng khoán mất không làm mất cổ phiếu'. Căn cứ: Điều 62 khoản 1, Điều 65 khoản 1."
+  - "Bỏ 'xem \"Còn treo\"' khỏi mục Nguồn; điền url cho legal_refs[0] khi có bản ký TT 05/2026/TT-NHNN, hoặc dẫn trang DIV tạm thời; bổ sung cơ sở Luật Bảo hiểm tiền gửi 2025."
+  - "Bẫy 1: dẫn số liệu VN-Index 2022 hoặc bỏ 'mã nào cũng giảm'."
+potential_harm: []
+deliberate_vn_deviation: []

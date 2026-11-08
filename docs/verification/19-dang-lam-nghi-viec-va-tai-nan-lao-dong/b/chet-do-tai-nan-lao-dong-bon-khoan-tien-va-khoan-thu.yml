@@ -1,0 +1,96 @@
+id: chet-do-tai-nan-lao-dong-bon-khoan-tien-va-khoan-thu
+checker: agent-V3b19cB
+checked_at: 2026-11-08
+content_sha256: 817673b6da4a339054e5969864a67887c4975f58905db22c9cb92cfc27bbbe0b
+result: pass-with-edits
+claims:
+  - text: Thân nhân hưởng một lần 36 lần mức lương cơ sở tại tháng chết, cộng chế độ tử tuất theo Luật BHXH (Điều 53)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: "Thân nhân người lao động được hưởng trợ cấp một lần bằng ba mươi sáu lần mức lương cơ sở tại tháng người lao động bị chết và được hưởng chế độ tử tuất theo quy định của Luật Bảo hiểm xã hội khi thuộc một trong các trường hợp sau đây:"
+    verdict: match
+    note: ""
+  - text: "Ba trường hợp áp dụng: đang làm việc chết do TNLĐ; chết trong điều trị lần đầu; chết khi điều trị mà chưa giám định (Điều 53.1-3)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: 1. Người lao động đang làm việc bị chết do tai nạn lao động, bệnh nghề nghiệp; 2. Người lao động bị chết trong thời gian điều trị lần đầu do tai nạn lao động, bệnh nghề nghiệp; 3. Người lao động bị chết trong thời gian điều trị thương tật, bệnh tật mà chưa được giám định mức suy giảm khả năng lao động.
+    verdict: match
+    note: ""
+  - text: Mức lương cơ sở 2.530.000 đồng/tháng từ 01/7/2026; 36 lần = 91.080.000 đồng (ND 161/2026 Điều 3.2)
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/161-ndcp.signed.pdf
+    quote: 2. Từ ngày 01 tháng 7 năm 2026, mức lương cơ sở là 2.530.000 đồng/tháng.
+    verdict: match
+    note: PDF ký số là ảnh quét (pdftotext không trích được chữ); đã render trang 3 thành ảnh và đọc trực tiếp. Điều 3 khoản 2 đúng như trích. 36 x 2.530.000 = 91.080.000.
+  - text: "Mai táng: 10 lần mức tham chiếu tại tháng chết = 25.300.000 đồng; tổ chức, cá nhân lo mai táng nhận (Luật BHXH Điều 85.1.b, 85.2)"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-so-41-2024-qh15-bao-hiem-xa-hoi-119240723163650489.htm
+    quote: b) Chết do tai nạn lao động, bệnh nghề nghiệp theo quy định của pháp luật về an toàn, vệ sinh lao động; [...] 2. Mức trợ cấp mai táng bằng 10 lần mức tham chiếu tại tháng mà người quy định tại khoản 1 Điều này chết.
+    verdict: match-secondary
+    note: Nguồn là toàn văn trên cổng xaydungchinhsach.chinhphu.vn (cổng thông tin của Chính phủ), không phải Công báo/vbpl; đối chiếu chữ khớp nhưng xếp match-secondary theo quy tắc nguồn chính.
+  - text: "Tuất hằng tháng: trường hợp chết do TNLĐ (không cần 15 năm đóng) (Điều 86.1.c)"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-so-41-2024-qh15-bao-hiem-xa-hoi-119240723163650489.htm
+    quote: "1. Đối tượng quy định tại khoản 1 Điều 2 của Luật này khi chết hoặc bị Tòa án tuyên bố là đã chết thuộc một trong các trường hợp sau đây thì thân nhân quy định tại khoản 2 Điều này được hưởng tiền tuất hằng tháng: a) Có thời gian đóng bảo hiểm xã hội bắt buộc từ đủ 15 năm trở lên; [...] c) Chết do tai nạn lao động, bệnh nghề nghiệp theo quy định của pháp luật về an toàn, vệ sinh lao động;"
+    verdict: match-secondary
+    note: Nguồn là toàn văn trên cổng xaydungchinhsach.chinhphu.vn (cổng thông tin của Chính phủ), không phải Công báo/vbpl; đối chiếu chữ khớp nhưng xếp match-secondary theo quy tắc nguồn chính. Suy luận "điều kiện 15 năm không áp dụng" xuất phát từ cấu trúc "một trong các trường hợp" (a, b, c, d) là hợp lý.
+  - text: "Tuất hằng tháng: 50% mức tham chiếu/thân nhân, 70% nếu không có người trực tiếp nuôi dưỡng; tối đa 4 thân nhân (Điều 87.1, 87.2)"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-so-41-2024-qh15-bao-hiem-xa-hoi-119240723163650489.htm
+    quote: 1. Mức trợ cấp tuất hằng tháng đối với mỗi thân nhân bằng 50% mức tham chiếu; trường hợp thân nhân không có người trực tiếp nuôi dưỡng thì mức trợ cấp tuất hằng tháng bằng 70% mức tham chiếu. [...] 2. Trường hợp một người chết hoặc bị Tòa án tuyên bố là đã chết thuộc đối tượng quy định tại khoản 1 Điều 86 của Luật này thì số thân nhân được hưởng trợ cấp tuất hằng tháng tối đa 04 người;
+    verdict: match-secondary
+    note: Nguồn là toàn văn trên cổng xaydungchinhsach.chinhphu.vn (cổng thông tin của Chính phủ), không phải Công báo/vbpl; đối chiếu chữ khớp nhưng xếp match-secondary theo quy tắc nguồn chính. 50% x 2.530.000 = 1.265.000; 70% = 1.771.000. Điều 86.2 giới hạn ai là thân nhân (con dưới 18, con/vợ/chồng/cha mẹ có điều kiện tuổi hoặc suy giảm >=81%...) mà mục không liệt kê, chỉ nói "căn cứ Điều 86".
+  - text: Mức tham chiếu bằng mức lương cơ sở = 2.530.000 đồng (mục chỉ dẫn Điều 7 Luật BHXH và ND 161/2026)
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-so-41-2024-qh15-bao-hiem-xa-hoi-119240723163650489.htm
+    quote: 13. Khi chưa bãi bỏ mức lương cơ sở thì mức tham chiếu quy định tại Luật này bằng mức lương cơ sở. Tại thời điểm mức lương cơ sở bị bãi bỏ thì mức tham chiếu không thấp hơn mức lương cơ sở đó.
+    verdict: partial
+    note: Căn cứ thực sự là Điều 141 khoản 13 (quy định chuyển tiếp) Luật BHXH 41/2024, không phải Điều 7 (chỉ nói mức tham chiếu do Chính phủ quyết định) và không phải ND 161/2026 (không nhắc "mức tham chiếu"). Chưa tra thấy Nghị định/Nghị quyết riêng ấn định mức tham chiếu (chưa mở được); các số 25.300.000, 1.265.000, 1.771.000 chỉ đúng khi mức tham chiếu = 2.530.000.
+  - text: "Tuất một lần cho người không thuộc diện hằng tháng: tính theo số năm đóng, không thấp hơn 03 tháng mức bình quân tiền lương làm căn cứ đóng (Điều 88, 89)"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-so-41-2024-qh15-bao-hiem-xa-hoi-119240723163650489.htm
+    quote: 1. Mức trợ cấp tuất một lần đối với thân nhân của đối tượng quy định tại điểm a khoản 1 Điều 88 của Luật này bằng mức trợ cấp tuất cho mỗi năm đóng bảo hiểm xã hội nhân với số năm đóng bảo hiểm xã hội nhưng không thấp hơn 03 tháng mức bình quân tiền lương làm căn cứ đóng bảo hiểm xã hội.
+    verdict: match-secondary
+    note: Nguồn là toàn văn trên cổng xaydungchinhsach.chinhphu.vn (cổng thông tin của Chính phủ), không phải Công báo/vbpl; đối chiếu chữ khớp nhưng xếp match-secondary theo quy tắc nguồn chính. Điều 88.2.c cho thân nhân thuộc diện hằng tháng vẫn có quyền chọn tuất một lần; mục không nêu.
+  - text: Đơn vị bồi thường ít nhất 30 tháng tiền lương cho thân nhân người chết do TNLĐ (Điều 38.4.b), trả trong 05 ngày kể từ ngày Đoàn điều tra công bố biên bản (Điều 38.7)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: "4. Bồi thường cho người lao động bị tai nạn lao động mà không hoàn toàn do lỗi của chính người này gây ra và cho người lao động bị bệnh nghề nghiệp với mức như sau: a) Ít nhất bằng 1,5 tháng tiền lương nếu bị suy giảm từ 5 % đến 10% khả năng lao động; sau đó cứ tăng 1% được cộng thêm 0,4 tháng tiền lương nếu bị suy giảm khả năng lao động từ 11% đến 80%; b) Ít nhất 30 tháng tiền lương cho người lao động bị suy giảm khả năng lao động từ 81% trở lên hoặc cho thân nhân người lao động bị chết do tai nạn lao động, bệnh nghề nghiệp; | 7. Thực hiện bồi thường, trợ cấp đối với người bị tai nạn lao động, bệnh nghề nghiệp trong thời hạn 05 ngày, kể từ ngày có kết luận của Hội đồng giám định y khoa về mức suy giảm khả năng lao động hoặc kể từ ngày Đoàn điều tra tai nạn lao động công bố biên bản điều tra tai nạn lao động đối với các vụ tai nạn lao động chết người;"
+    verdict: partial
+    note: Con số và mốc 05 ngày đúng. Tldr/Chi phí nêu "ít nhất 30 tháng" vô điều kiện, bỏ mệnh đề "mà không hoàn toàn do lỗi của chính người này gây ra" (nếu lỗi hoàn toàn thuộc người chết thì chỉ trợ cấp ít nhất 40% theo Điều 38.5) và Điều 40.1 (ba nguyên nhân không được hưởng).
+  - text: Hạn 90 ngày nộp hồ sơ cho đơn vị; đơn vị 30 ngày nộp cho BHXH; BHXH giải quyết trong 10 ngày làm việc (Điều 91.2, 91.3)
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-so-41-2024-qh15-bao-hiem-xa-hoi-119240723163650489.htm
+    quote: 2. Trong thời hạn 90 ngày kể từ ngày người lao động đang tham gia bảo hiểm xã hội bắt buộc chết thì thân nhân hoặc tổ chức, cá nhân lo mai táng nộp hồ sơ quy định tại Điều 90 của Luật này cho người sử dụng lao động. Trong thời hạn 30 ngày kể từ ngày nhận đủ hồ sơ từ thân nhân của người lao động, người sử dụng lao động có trách nhiệm nộp hồ sơ cho cơ quan bảo hiểm xã hội. 3. Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định, cơ quan bảo hiểm xã hội có trách nhiệm giải quyết;
+    verdict: partial
+    note: Nguồn là toàn văn trên cổng xaydungchinhsach.chinhphu.vn (cổng thông tin của Chính phủ), không phải Công báo/vbpl; đối chiếu chữ khớp nhưng xếp match-secondary theo quy tắc nguồn chính. Mục nói đúng ba mốc nhưng bỏ Điều 92 khoản 1 (nộp quá hạn vẫn được, kèm giải trình bằng văn bản) nên Bẫy 3 "dễ quá 90 ngày" dễ khiến người đọc tưởng mất quyền; cũng 30 ngày tính từ lúc đơn vị nhận ĐỦ hồ sơ, không từ ngày chết.
+  - text: "Hồ sơ cần: biên bản điều tra TNLĐ, giấy chứng tử, giấy tờ chứng minh quan hệ (steps[0])"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-so-41-2024-qh15-bao-hiem-xa-hoi-119240723163650489.htm
+    quote: "1. Hồ sơ đề nghị hưởng chế độ tử tuất đối với thân nhân của người đang tham gia bảo hiểm xã hội hoặc đang bảo lưu thời gian đóng bảo hiểm xã hội bao gồm: a) Sổ bảo hiểm xã hội; b) Bản sao giấy chứng tử hoặc trích lục khai tử hoặc bản sao giấy báo tử hoặc bản sao quyết định của Tòa án tuyên bố là đã chết; c) Tờ khai của thân nhân; d) Bản chính hoặc bản sao biên bản điều tra tai nạn lao động đối với trường hợp chết do tai nạn lao động; [...]"
+    verdict: partial
+    note: Nguồn là toàn văn trên cổng xaydungchinhsach.chinhphu.vn (cổng thông tin của Chính phủ), không phải Công báo/vbpl; đối chiếu chữ khớp nhưng xếp match-secondary theo quy tắc nguồn chính. Điều 90.1 không liệt kê "giấy tờ chứng minh quan hệ" mà liệt kê sổ BHXH, tờ khai của thân nhân, biên bản điều tra, giấy chứng tử (và biên bản giám định cho thân nhân suy giảm >=81%). Mục thiếu sổ BHXH và tờ khai; việc chứng minh quan hệ là thực tế hợp lý nhưng không phải chữ của luật.
+  - text: "Điều 7: mức tham chiếu do Chính phủ quyết định, điều chỉnh theo CPI, tăng trưởng (Bẫy 2)"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-so-41-2024-qh15-bao-hiem-xa-hoi-119240723163650489.htm
+    quote: 2. Mức tham chiếu được điều chỉnh trên cơ sở mức tăng của chỉ số giá tiêu dùng, tăng trưởng kinh tế, phù hợp với khả năng của ngân sách nhà nước và quỹ bảo hiểm xã hội.
+    verdict: match-secondary
+    note: Nguồn là toàn văn trên cổng xaydungchinhsach.chinhphu.vn (cổng thông tin của Chính phủ), không phải Công báo/vbpl; đối chiếu chữ khớp nhưng xếp match-secondary theo quy tắc nguồn chính.
+  - text: Bốn khoản "đòi riêng", khoản 1-3 là của quỹ, khoản 4 của đơn vị
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: 4. Nếu người sử dụng lao động không đóng bảo hiểm tai nạn lao động, bệnh nghề nghiệp cho người lao động thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc theo quy định của Luật Bảo hiểm xã hội, thì ngoài việc phải bồi thường, trợ cấp theo quy định tại Điều 38 của Luật này, người sử dụng lao động phải trả khoản tiền tương ứng với chế độ bảo hiểm tai nạn lao động, bệnh nghề nghiệp theo quy định tại Mục 3 Chương này
+    verdict: partial
+    note: Cấu trúc "bốn khoản" là diễn giải hợp lý của mục. Nhưng nếu đơn vị không đóng BH TNLĐ-BNN thì chính đơn vị phải trả khoản tương ứng khoản 1-3 (xem mục 19-13); mục 19-15 coi mặc nhiên đó là tiền của quỹ.
+internal_checks:
+  - issue: "Mức tham chiếu = lương cơ sở dựa vào Điều 141 khoản 13 Luật BHXH 41/2024 (chuyển tiếp), nhưng mục dẫn Điều 7 và Nghị định 161/2026 (không nhắc mức tham chiếu): các con số 25.300.000, 1.265.000, 1.771.000 phụ thuộc vào cầu nối này."
+    severity: warn
+  - issue: 'tldr/Chi phí: "đơn vị bồi thường ít nhất 30 tháng lương" vô điều kiện; bỏ điều kiện "không hoàn toàn do lỗi của chính người này" (Điều 38.4) và Điều 40.1.'
+    severity: warn
+  - issue: 'Steps[0] hồ sơ: "giấy tờ chứng minh quan hệ" không có trong Điều 90.1; thiếu sổ BHXH và tờ khai của thân nhân. Steps[1] "nộp hồ sơ cho đơn vị trong 90 ngày" đúng với người đang tham gia BHXH bắt buộc (Điều 91.2) nhưng không nêu Điều 92 (quá hạn vẫn nộp được kèm giải trình).'
+    severity: warn
+  - issue: Không nêu trường hợp đơn vị chưa đóng BH TNLĐ-BNN (khoản 1-3 do đơn vị trả theo Điều 39.4) và điều kiện tham gia bảo hiểm (Điều 45).
+    severity: warn
+  - issue: Số liệu nhất quán với mục 19-13 và 19-14 (91.080.000, lương cơ sở 2.530.000).
+    severity: warn
+validity:
+  doc: Luật ATVSLĐ 84/2015/QH13 (VBHN 14, Điều 38, 53); Luật BHXH 41/2024/QH15 (Điều 7, 85-91, 141); Nghị định 161/2026/NĐ-CP
+  in_force: unconfirmed
+  effective_from: 2025-07-01
+  amended_by: []
+  basis: "Luật 84/2015/QH13: bản hợp nhất 14/VBHN-VPQH ngày 16/9/2024 (Công báo 1171+1172 ngày 29/10/2024) có chú thích sửa đổi bởi Luật BHXH 41/2024/QH15 hiệu lực 01/7/2025. Trang Công báo của Luật gốc để trống ô 'Ngày hết hiệu lực' và mục sửa đổi, nên không dùng làm bằng chứng. Tìm kiếm thứ cấp (tháng 11/2026) cho thấy dự án Luật ATVSLĐ sửa đổi mới được Chính phủ trình Quốc hội ngày 21/10/2026, chưa thấy văn bản thông qua; chưa mở được vbpl.vn/văn bản hợp nhất mới hơn 14/VBHN. Luật BHXH 41/2024: hiệu lực 01/7/2025 (chú thích VBHN 14 và nội dung luật); chưa tra được văn bản sửa đổi sau đó và chưa tìm thấy Nghị định hướng dẫn riêng về mức tham chiếu."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - 'Chi phí/tldr/Pháp luật VN: thêm "ít nhất 30 tháng lương (nếu tai nạn không hoàn toàn do lỗi của người chết; do lỗi hoàn toàn thì ít nhất 40% mức đó, Điều 38.5)" và nhắc Điều 40.1.'
+  - 'Chi phí: dẫn Điều 141 khoản 13 Luật BHXH 41/2024 làm căn cứ "mức tham chiếu bằng mức lương cơ sở khi chưa bãi bỏ lương cơ sở"; gắn nhãn "tạm tính theo cầu nối này" cho 25.300.000, 1.265.000, 1.771.000; bỏ "ND 161/2026" khỏi căn cứ của mức tham chiếu.'
+  - 'Steps[0]: thay "giấy tờ chứng minh quan hệ với người mất" bằng danh mục Điều 90.1 (sổ BHXH, giấy chứng tử, tờ khai, biên bản điều tra TNLĐ, biên bản giám định cho thân nhân suy giảm >=81% nếu thuộc diện); chuyển "giấy tờ chứng minh quan hệ" thành lời khuyên thực hành.'
+  - "Mốc 90 ngày và Bẫy 3: thêm Điều 92.1 (quá hạn vẫn nộp, kèm giải trình bằng văn bản); ghi 30 ngày của đơn vị tính từ khi nhận đủ hồ sơ."
+  - "Thêm 1-2 câu: nếu đơn vị không đóng BH TNLĐ-BNN thì chính đơn vị phải trả khoản tương ứng khoản 1-3 (Điều 39.4; xem mục 19-13)."

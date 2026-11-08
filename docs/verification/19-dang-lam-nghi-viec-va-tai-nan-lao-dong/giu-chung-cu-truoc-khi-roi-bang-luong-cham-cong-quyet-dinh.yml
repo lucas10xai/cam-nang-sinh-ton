@@ -1,0 +1,87 @@
+id: giu-chung-cu-truoc-khi-roi-bang-luong-cham-cong-quyet-dinh
+checker: agent-V3a19bA
+checked_at: 2026-11-08
+content_sha256: "27eebac8e1164666916200f2a8a7d2025205a85c0a359b49da9dcd849df675b5"
+result: pass-with-edits
+claims:
+  - text: "NSDLĐ phải cung cấp bản sao tài liệu liên quan quá trình làm việc nếu NLĐ yêu cầu; chi phí sao, gửi do NSDLĐ trả (Điều 48 khoản 3 điểm b)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Cung cấp bản sao các tài liệu liên quan đến quá trình làm việc của người lao động nếu người lao động có yêu cầu. Chi phí sao, gửi tài liệu do người sử dụng lao động trả."
+    verdict: match
+    note: "Trích từ DOCX VBHN 18/VBHN-VPQH tải từ trang Công báo; PDF BLLĐ gốc mục dẫn là ảnh quét không trích được chữ."
+  - text: "NSDLĐ hoàn thành thủ tục xác nhận thời gian đóng BHXH, BHTN và trả lại bản chính giấy tờ đã giữ (Điều 48 khoản 3 điểm a)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Hoàn thành thủ tục xác nhận thời gian đóng bảo hiểm xã hội, bảo hiểm thất nghiệp và trả lại cùng với bản chính giấy tờ khác nếu người sử dụng lao động đã giữ của người lao động;"
+    verdict: match
+    note: ""
+  - text: "Hạn thanh toán 14 ngày làm việc kể từ ngày chấm dứt HĐLĐ; kéo dài không quá 30 ngày trong bốn trường hợp (Điều 48 khoản 1)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Trong thời hạn 14 ngày làm việc kể từ ngày chấm dứt hợp đồng lao động, hai bên có trách nhiệm thanh toán đầy đủ các khoản tiền có liên quan đến quyền lợi của mỗi bên, trừ trường hợp sau đây có thể kéo dài nhưng không được quá 30 ngày:"
+    verdict: match
+    note: "Bốn trường hợp (a-d) khớp: NSDLĐ không phải cá nhân chấm dứt hoạt động; thay đổi cơ cấu, công nghệ/lý do kinh tế; chia tách, sáp nhập...; thiên tai, hỏa hoạn, địch họa, dịch bệnh nguy hiểm."
+  - text: "Thời hiệu 06 tháng/09 tháng/01 năm tính từ ngày phát hiện hành vi; tldr: 'thời hiệu đòi tiền 01 năm'"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động cá nhân là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm."
+    verdict: match
+    note: "Khoản 1 = 06 tháng hòa giải viên, khoản 2 = 09 tháng trọng tài, khoản 4 = bất khả kháng/trở ngại khách quan. Tldr chỉ nêu '01 năm' (mốc kiện tòa), không nêu 06/09 tháng; không sai nhưng nên ghi 'kiện tòa'. Lưu ý: 01 năm tính từ 'ngày phát hiện hành vi', không phải ngày nghỉ việc."
+  - text: "NSDLĐ phải lập, quản lý hồ sơ sức khỏe và thông báo kết quả khám để NLĐ biết (Điều 27 khoản 2 Luật ATVSLĐ)"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-84-2015-qh13-15356.htm
+    quote: "Người sử dụng lao động có trách nhiệm lập và quản lý hồ sơ sức khỏe của người lao động, hồ sơ sức khỏe của người bị bệnh nghề nghiệp; thông báo kết quả khám sức khỏe, khám phát hiện bệnh nghề nghiệp để người lao động biết;"
+    verdict: match
+    note: "PDF Công báo 871+872 trích được chữ."
+  - text: "Phạt 1.000.000-2.000.000 đồng với vi phạm từ 01 đến 10 NLĐ, cho nhóm hành vi: thanh toán không đúng hạn, không trả đủ trợ cấp thôi việc, không hoàn thành xác nhận bảo hiểm/trả giấy tờ, không cung cấp bản sao tài liệu khi có yêu cầu (NĐ 283/2026 Điều 18 khoản 2)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "không cung cấp bản sao các tài liệu liên quan đến quá trình làm việc của người lao động nếu người lao động có yêu cầu sau khi chấm dứt hợp đồng lao động theo một trong các mức sau đây: a) Từ 1.000.000 đồng đến 2.000.000 đồng đối với vi phạm từ 01 người đến 10 người lao động;"
+    verdict: partial
+    note: "Khớp, nhưng (1) mức này là mức cá nhân, tổ chức/doanh nghiệp gấp đôi theo Điều 7 khoản 1 ('Mức phạt tiền đối với tổ chức bằng 02 lần mức phạt tiền đối với cá nhân'); mục không nêu nên người đọc tưởng công ty bị phạt 1-2 triệu. (2) Điều luật chỉ phạt khi NLĐ yêu cầu 'sau khi chấm dứt hợp đồng lao động'; lời khuyên gửi đơn 'trước ngày cuối' hợp lý nhưng nếu công ty không cung cấp thì căn cứ phạt tính theo yêu cầu sau chấm dứt (nên gửi lại sau ngày chấm dứt). (3) Khoản 4 còn biện pháp buộc trả đủ trợ cấp cộng lãi, mục không nêu."
+  - text: "Công ty 'không được thu tiền photo'"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Chi phí sao, gửi tài liệu do người sử dụng lao động trả."
+    verdict: match
+    note: "Diễn đạt 'không được thu tiền photo' là cách nói của mục, tương đương."
+  - text: "Điều 48 khoản 3 điểm b 'không nói công ty phải cấp lại thứ bạn không còn truy cập được' (thẻ ra vào, hộp thư, tài khoản)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "(không có câu tương ứng trong văn bản được dẫn)"
+    verdict: inference
+    note: "Đúng là điều luật chỉ nói 'bản sao các tài liệu liên quan đến quá trình làm việc'; kết luận về thẻ/hộp thư là suy ra từ chỗ luật im lặng, không phải chữ của luật."
+  - text: "Phần tài liệu vượt quá 'tài liệu liên quan đến quá trình làm việc của người lao động' (danh sách khách hàng, dữ liệu đồng nghiệp, mã nguồn) 'có thể bị coi là vi phạm nghĩa vụ bảo mật'"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "(không có câu tương ứng trong văn bản được dẫn)"
+    verdict: inference
+    note: "Không có điều khoản bảo mật trong nguồn mục dẫn (BLLĐ Điều 48; Điều 125 sa thải vì tiết lộ bí mật nằm ở điều khác, không được dẫn). Là cảnh báo thận trọng hợp lý nhưng cần ghi 'suy ra' hoặc dẫn Điều 125/Bộ luật Dân sự."
+  - text: "Bảng chấm công, bảng lương, quyết định phân công, khen thưởng/kỷ luật, biên bản họp 'đều xin được bằng một lá đơn' theo Điều 48 khoản 3 điểm b"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Cung cấp bản sao các tài liệu liên quan đến quá trình làm việc của người lao động nếu người lao động có yêu cầu."
+    verdict: partial
+    note: "Luật chỉ nói chung 'tài liệu liên quan đến quá trình làm việc'; việc biên bản họp, bảng chấm công thuộc diện này là diễn giải. 'Công ty phải trả tiền sao, gửi' (tldr) đúng; 'đều xin được' hơi tuyệt đối (biên bản họp có thể chứa thông tin người khác). Cần nhãn 'diễn giải'."
+  - text: "Step 4: 'xin bản sao kết quả khám và hồ sơ sức khỏe theo Điều 48 khoản 3 BLLĐ' (mục 09 cùng chương) / 'kết quả khám sức khỏe' nằm trong tài liệu giữ"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-84-2015-qh13-15356.htm
+    quote: "thông báo kết quả khám sức khỏe, khám phát hiện bệnh nghề nghiệp để người lao động biết;"
+    verdict: inference
+    note: "Điều 27 khoản 2 chỉ buộc 'thông báo kết quả để NLĐ biết', không nói cấp bản sao hồ sơ sức khỏe khi nghỉ việc. Ghép với Điều 48 khoản 3 điểm b là suy luận hợp lý."
+internal_checks:
+  - issue: "Mọi con số tldr/steps (14 ngày làm việc, 01 năm, 02 hạn 30 ngày) có trong thân; không có mâu thuẫn số liệu nội bộ."
+    severity: warn
+  - issue: "Mức phạt Điều 18 khoản 2 trình bày là mức chung 1.000.000-2.000.000 đồng mà không nêu 'doanh nghiệp gấp đôi' (Điều 7 khoản 1), trong khi mục 06 cùng chương có nêu; hai mục nói khác nhau về cùng một thứ (check f)."
+    severity: warn
+  - issue: "Step 1 'gửi đơn trước ngày cuối ít nhất vài ngày' và 'Gửi đơn ... trước ngày cuối': không có thời hạn pháp lý tương ứng; đây là lời khuyên thực hành, thân có nói rõ lý do nhưng nhãn 'thực hành' chưa được ghi. Điều luật (Điều 48 khoản 3) nằm trong 'Trách nhiệm khi chấm dứt HĐLĐ' và NĐ 283 phạt khi yêu cầu 'sau khi chấm dứt'."
+    severity: warn
+  - issue: "legal_refs[].url của Điều 48, 190 trỏ PDF gốc BLLĐ 45/2019 (đúng văn bản) nhưng là ảnh quét; Điều 27 khoản 2 và NĐ 283 URL đúng văn bản ghi ở doc. Điều 18 khoản 2 / Điều 27 khoản 2 / Điều 48 khoản 3 article khớp khẳng định."
+    severity: warn
+validity:
+  doc: "Bộ luật Lao động 45/2019/QH14 (VBHN 18/VBHN-VPQH 12/02/2026); Luật ATVSLĐ 84/2015/QH13; Nghị định 283/2026/NĐ-CP"
+  in_force: true
+  effective_from: "2021-01-01 (BLLĐ); 2016-07-01 (Luật ATVSLĐ); 2026-09-10 (NĐ 283/2026)"
+  amended_by:
+    - "Luật Công nghiệp công nghệ số 71/2025/QH15, Luật Dân số 113/2025/QH15, Luật Giáo dục nghề nghiệp 124/2025/QH15 (BLLĐ, theo VBHN 18; Điều 48, 190 giữ nguyên)"
+    - "Luật ATVSLĐ 84/2015: trang Công báo ghi 'Văn bản sửa đổi bổ sung/đính chính [0]' và 'thay thế/bãi bỏ [0]'; dự án luật sửa đổi mới ở giai đoạn Chính phủ/Quốc hội (nguồn thứ cấp, chưa là luật hiệu lực)"
+  basis: "VBHN 18/VBHN-VPQH (12/02/2026) giữ nguyên Điều 48, 190. Luật ATVSLĐ: NĐ 283/2026/NĐ-CP (ban hành 15/07/2026) vẫn nêu 'Căn cứ Luật An toàn, vệ sinh lao động số 84/2015/QH13' trong phần căn cứ, và trang Công báo không ghi văn bản thay thế; NĐ 283 có hiệu lực từ 10/09/2026 (Điều 66 khoản 1) và thay NĐ 12/2022 (Điều 66 khoản 4)."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Mục Pháp luật VN 'Mức phạt': thêm 'mức trên là mức đối với cá nhân; tổ chức/doanh nghiệp gấp đôi (Điều 7 khoản 1, NĐ 283/2026)'."
+  - "Step 1/tldr: ghi rõ 'gửi đơn trước ngày cuối là cách làm khôn ngoan; nghĩa vụ cung cấp theo Điều 48 khoản 3 phát sinh khi chấm dứt HĐLĐ — nếu chưa nhận được, gửi lại sau ngày chấm dứt và giữ bằng chứng' (dựa quote Điều 18 khoản 2 'sau khi chấm dứt')."
+  - "Bẫy 1 và Bẫy 3: thêm nhãn 'suy ra từ Điều 48 khoản 3 điểm b' cho kết luận về thẻ/hộp thư và về nghĩa vụ bảo mật; nếu muốn khẳng định pháp lý về bí mật kinh doanh, dẫn Điều 125 BLLĐ."
+  - "Câu 'biên bản họp... đều xin được': đổi thành 'thường thuộc diện tài liệu liên quan quá trình làm việc (diễn giải Điều 48 khoản 3 điểm b); biên bản có thông tin người khác có thể bị che'."
+  - "Tldr: ghi '01 năm để kiện tòa (06 tháng hòa giải, 09 tháng trọng tài), tính từ ngày phát hiện vi phạm, không phải từ ngày nghỉ'."
+  - "legal_refs: dẫn thêm link VBHN 18 (đọc được chữ) cho Điều 48, 190."

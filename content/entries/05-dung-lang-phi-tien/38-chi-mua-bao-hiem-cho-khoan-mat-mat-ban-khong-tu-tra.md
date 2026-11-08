@@ -14,13 +14,13 @@ evidence: C
 contested: false
 vn_class: adapted
 rewrite_status: rewritten
-tldr: "Chỉ mua bảo hiểm cho khoản mất mát làm bạn phải vay nợ, bán tài sản hay cắt chi tiêu thiết yếu của con. Ví dụ nên mua: bảo hiểm xe máy bắt buộc 60.000 đồng/năm, hạn mức 150 triệu đồng/người/vụ."
+tldr: "Chỉ mua bảo hiểm cho khoản mất mát làm bạn phải vay nợ, bán tài sản hay cắt chi tiêu thiết yếu của con. Ví dụ tiêu chí: bảo hiểm xe máy bắt buộc, phí 55.000-60.000 đồng/năm chưa gồm VAT, trần 150 triệu đồng/người/vụ cho người thứ ba."
 steps:
   - "Tự hỏi: khoản mất mát này có làm bạn phải vay, bán tài sản hay cắt chi tiêu thiết yếu của con không."
-  - "Nếu có, mua bảo hiểm. Nếu khoản đó bạn tự trả được hoặc mua lại được, để quỹ khẩn cấp lo."
-  - "Với bảo hiểm nhân thọ, tách riêng phần bảo vệ ra rồi mới so phí với hạn mức."
+  - "Nếu có, cân nhắc mua bảo hiểm. Nếu khoản đó bạn tự trả được hoặc mua lại được, để quỹ khẩn cấp lo."
+  - "Khi so gói bảo hiểm, hỏi riêng phí và hạn mức của phần bảo vệ."
 legal_refs:
-  - { doc: "Nghị định 67/2023/NĐ-CP", article: "Điều 6 và Phụ lục I", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf", effective_from: null, checked_at: "2026-11-02", quote: null }
+  - { doc: "Nghị định 67/2023/NĐ-CP", article: "Điều 6, Điều 8 và Phụ lục I", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf", effective_from: null, checked_at: "2026-11-02", quote: null }
 verification:
   status: unverified
   checked_at: null
@@ -38,16 +38,16 @@ tags: []
 
 ## Nói dễ hiểu
 
-Bảo hiểm là đổi một khoản nhỏ chắc chắn mất, lấy một khoản lớn có thể mất. Khoản vài trăm nghìn bạn tự trả được thì mua bảo hiểm là lỗ. Khoản làm bạn phải vay nợ, bán nhà hay dừng cho con đi học thì nên mua.
+Bảo hiểm là đổi một khoản nhỏ chắc chắn mất, lấy một khoản lớn có thể mất. Khoản vài trăm nghìn bạn tự trả được thì mua bảo hiểm là lỗ. Khoản làm bạn phải vay nợ, bán nhà hay dừng cho con đi học thì nên cân nhắc mua.
 
 ## Chi phí
 
 - Phí bảo hiểm mỗi năm.
-- Phần lớn phí không quay lại: nó trả cho quỹ bồi thường, cho bộ máy bán hàng và cho lợi nhuận của doanh nghiệp.
+- Phần phí không quay lại: nó trả cho quỹ bồi thường và chi phí của doanh nghiệp bảo hiểm.
 
 ## Lợi ích
 
-**Ví dụ nên mua.** Bảo hiểm bắt buộc xe máy **60.000 đồng/năm** đổi lấy hạn mức **150 triệu đồng/người/vụ**. Một đồng phí mua 2.500 đồng bảo vệ.
+**Ví dụ để minh họa tiêu chí.** Bảo hiểm trách nhiệm dân sự bắt buộc của chủ xe máy: phí từ **55.000 đồng/năm** (xe máy điện, mô tô dưới 50 cc) đến **60.000 đồng/năm** (mô tô 2 bánh từ 50 cc), chưa gồm thuế giá trị gia tăng. Trần bồi thường thiệt hại về sức khỏe, tính mạng là **150 triệu đồng/người/vụ**, cho người thứ ba và hành khách do xe của bạn gây ra, không phải cho chính chủ xe. Đây là bảo hiểm bắt buộc, nên bạn không có quyền chọn mua hay không.
 
 **Ví dụ nên bỏ.** Bảo hiểm cho một món đồ bạn mua lại được: phí chắc chắn mất, còn rủi ro thì nhỏ.
 
@@ -55,17 +55,17 @@ Bảo hiểm là đổi một khoản nhỏ chắc chắn mất, lấy một kho
 
 ## Pháp luật Việt Nam
 
-- Bảo hiểm bắt buộc xe máy: phí 60.000 đồng/năm, hạn mức 150 triệu đồng/người/vụ (Điều 6 và Phụ lục I, Nghị định 67/2023/NĐ-CP).
+- Giới hạn trách nhiệm: "150 triệu đồng cho một người trong một vụ tai nạn" với thiệt hại về sức khỏe, tính mạng (Điều 6, Nghị định 67/2023/NĐ-CP). Thiệt hại tài sản với xe máy tối đa 50 triệu đồng/vụ (Điều 6 khoản 2 điểm a).
+- Phí theo Phụ lục I, "chưa bao gồm thuế giá trị gia tăng". Có loại trừ ở Điều 7 khoản 2, ví dụ người lái không có giấy phép lái xe hợp lệ.
 
 ## Ghi chú
 
-Ba bẫy.
+Hai bẫy.
 
-- **Bẫy 1: bảo hiểm y tế không đem ra so kiểu này.** Nó là bảo hiểm bắt buộc theo Luật Bảo hiểm y tế, phải đóng, và quyền lợi tính theo mức hưởng chứ không theo phí.
-- **Bẫy 2: đừng lấy tổng phí bảo hiểm nhân thọ so với hạn mức.** Gói đó gộp ba thứ là bảo vệ, tiết kiệm và đầu tư. Phải tách phần bảo vệ ra mới so được.
-- **Bẫy 3: bảo hiểm sức khỏe tăng phí theo tuổi.** Ở Việt Nam phí tăng theo tuổi và thường loại trừ bệnh có sẵn, nên mua muộn thì đắt hơn mà ít quyền lợi hơn.
-- **Đừng hiểu ngược.** "Chỉ mua cái mình không trả nổi" không có nghĩa là bỏ hết bảo hiểm rẻ. Khi phí một năm nhỏ hơn một bữa ăn mà hạn mức lớn gấp hàng nghìn lần thì vẫn nên mua.
+- **Bẫy 1: đừng lấy tổng phí gói gộp so với hạn mức.** Gói bảo hiểm gộp nhiều thứ thì phải tách riêng phần bảo vệ ra mới so được.
+- **Bẫy 2: ví dụ xe máy là bảo hiểm bắt buộc.** Nó chỉ minh họa tiêu chí. Hạn mức 150 triệu đồng không phải vô điều kiện: có loại trừ ở Điều 7 khoản 2.
+- **Đừng hiểu ngược.** "Chỉ mua cái mình không trả nổi" không có nghĩa là bỏ hết bảo hiểm rẻ.
 
 ## Nguồn
 
-- Nghị định 67/2023/NĐ-CP, Điều 6 và Phụ lục I; bản ký: <https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf> (OCR, tra 2/11/2026).
+- Nghị định 67/2023/NĐ-CP, Điều 6, Điều 7 khoản 2, Điều 8 và Phụ lục I; bản ký: <https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf> (tra 2/11/2026).

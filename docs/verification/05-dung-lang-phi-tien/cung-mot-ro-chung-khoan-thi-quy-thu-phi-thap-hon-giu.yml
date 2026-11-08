@@ -1,0 +1,70 @@
+id: cung-mot-ro-chung-khoan-thi-quy-thu-phi-thap-hon-giu
+checker: agent-V3a05d
+checked_at: 2026-11-08
+content_sha256: "169bb071126a3cbb7f746c98320afb62327cf887a8139a20c2e94a8b1a02c772"
+result: pass-with-edits
+claims:
+  - text: "ETF DCVFMVN30 phí quản lý 0,65%/năm (Dragon Capital, tra 2/11/2026)"
+    source_url: https://acbs.com.vn/blog/cach-mua-chung-chi-quy-etf
+    quote: "DCVFM VN30 ETF | E1VFVN30 | VN30 | 0,65 | 5.776.798.075.030 đ"
+    verdict: match-secondary
+    note: "Trang Dragon Capital mục Nguồn (dragoncapital.com.vn/individual/product/a0eJ2000001X9zhIAC/vn30) là vỏ JavaScript, chỉ trả khung rỗng, không đọc được số 0,65%. Số 0,65% xác nhận qua bảng của ACBS (công ty chứng khoán, bản sao thứ cấp), cột 'Phí quản lý (%)', số liệu ghi cập nhật 16/5/2025, không phải 2026. Nguồn chính nên là bản cáo bạch/factsheet quỹ."
+  - text: "Các quỹ đầu tư thường thu phí quản lý 0,5%–2% NAV (ACBS)"
+    source_url: https://acbs.com.vn/blog/cach-mua-chung-chi-quy-etf
+    quote: "Các quỹ đầu tư thường thu phí quản lý từ 0,5% – 2% giá trị tài sản ròng (NAV) mà quỹ quản lý."
+    verdict: match-secondary
+    note: "Khớp dải 0,5%–2%. Thân mục dùng riêng cho quỹ mở chủ động '1,5%–2%/năm': ACBS không nói con số đó cho riêng quỹ chủ động."
+  - text: "Quỹ mở chủ động phí quản lý 1,5%–2%/năm"
+    source_url: https://vinacapital.com/wp-content/uploads/2025/10/20251013-VINACAPITAL-VESAF_Monthly-Factsheet_Sep-2025-EN.pdf
+    quote: "Management fee 1.75% per annum"
+    verdict: partial
+    note: "Factsheet VinaCapital-VESAF (quỹ cổ phiếu chủ động, 9/2025): phí quản lý 1,75%/năm, nằm trong khoảng nhưng không chứng minh cận dưới 1,5%. DCDS 'up to 2%/NAV/year' chỉ thấy qua kết quả tìm kiếm tóm tắt, chưa mở trực tiếp tài liệu. Mục không dẫn nguồn nào cho '1,5%–2%'; cần dẫn factsheet cụ thể hoặc viết 'khoảng 1,75%–2% ở hai quỹ chủ động lớn (VESAF, DCDS)'."
+  - text: "Chênh 1 điểm %/năm làm mất khoảng 18,0% số tiền cuối sau 20 năm, 25,8% sau 30 năm"
+    source_url: https://acbs.com.vn/blog/cach-mua-chung-chi-quy-etf
+    quote: "(không có nguyên văn: phép tính do sách tính, không có nguồn; tự tính lại ở note)"
+    verdict: inference
+    note: "Tự tính lại, giả định hai quỹ cùng lợi suất gộp g trước phí, chênh phí 1 điểm: giá trị cuối thấp hơn 1-((1+g-0,01)/(1+g))^n. g=0: 18,2% (20 năm), 26,0% (30 năm). g=2%: 17,9%/25,6%. g=5%: 17,4%/25,0%. g=8%: 17,0%/24,4%. Số 18,0%/25,8% chỉ khớp g≈1%/năm, thấp bất thường và mục không nêu g. Mục chỉ viết 'giả định hai quỹ sinh lời như nhau trước phí' mà thiếu lợi suất giả định nên người đọc không tái tính được; với lợi suất thực tế 5–8% con số đúng hơn là khoảng 17%/24–25%."
+  - text: "Chênh 0,85 đến 1,35 điểm %, tương đương 17% đến 29% giá trị cuối sau 20 năm"
+    source_url: https://acbs.com.vn/blog/cach-mua-chung-chi-quy-etf
+    quote: "(không có nguyên văn: phép tính của sách; tự tính lại ở note)"
+    verdict: mismatch
+    note: "Tự tính lại theo cùng công thức, 20 năm: chênh 0,85 điểm thì mất 15,7% (g=0) đến 14,4% (g=10%); chênh 1,35 điểm thì mất 23,8% (g=0) đến 21,9% (g=10%). Dải đúng khoảng 15%–24%, không phải 17%–29%. Số 29% quá cao với mọi g≥0 (cần chênh ~1,67 điểm); số 17% ứng với chênh ~0,93 điểm. Cũng tự mâu thuẫn: chênh 1,0 điểm đã là 18,0% theo mục, nên chênh 0,85 điểm không thể là 17% khi chênh 1,35 điểm là 29% (tỷ lệ 1,35 lần phí mà mất gấp 1,6 lần)."
+  - text: "Phí quản lý bị trừ âm thầm vào giá trị tài sản ròng mỗi ngày, không hiện trên sao kê"
+    source_url: https://acbs.com.vn/blog/cach-mua-chung-chi-quy-etf
+    quote: "Phí quản lý quỹ: Khoản phí này được sử dụng để trả cho công ty quản lý quỹ và đội ngũ chuyên gia điều hành danh mục đầu tư."
+    verdict: inference
+    note: "ACBS chỉ nói mục đích phí, không nói cách trừ 'mỗi ngày' hay 'không hiện trên sao kê'. Thực tế phí được tính vào NAV là phổ biến nhưng không có nguyên văn nguồn nào trong mục. Nên dẫn bản cáo bạch."
+  - text: "Ngoài phí quản lý còn phí mua/bán chứng chỉ quỹ và phí lưu ký, phải cộng cả ba rồi mới so"
+    source_url: https://acbs.com.vn/blog/cach-mua-chung-chi-quy-etf
+    quote: "Phí giao dịch: Đây là khoản phí bạn phải trả cho công ty chứng khoán khi mua bán ETF trên sàn tương tự như cổ phiếu thông thường"
+    verdict: partial
+    note: "ACBS nêu phí quản lý và phí giao dịch, không nêu 'phí lưu ký' hay 'ba dòng'. Là lời khuyên thực hành hợp lý nhưng không phải chữ của nguồn. Lưu ý thêm (không sai mục): ETF mua qua sàn trả phí môi giới, quỹ mở trả phí mua/bán chứng chỉ quỹ; hai loại phí khác nhau, mục gộp chung."
+  - text: "Bẫy 3: 'cùng tên quỹ cổ phiếu nhưng khác chỉ số' (ví dụ ngầm: so ETF chỉ số với quỹ chủ động là so hai thứ khác nhau)"
+    source_url: https://acbs.com.vn/blog/cach-mua-chung-chi-quy-etf
+    quote: "Quỹ ETF (Exchange Traded Fund) là một dạng quỹ mở đầu tư thụ động. Danh mục đầu tư của quỹ ETF thiết kế mô phỏng theo biến động của một chỉ số tham chiếu (như VN30, VN100,…)."
+    verdict: match-secondary
+    note: "Hỗ trợ rằng ETF mô phỏng chỉ số. Mục lại đem 0,65% (ETF thụ động) so với 1,5–2% (quỹ chủ động) ở 'Lợi ích' để suy ra 'chênh 17%–29%': đây chính là so hai thứ khác nhau (khác cách đầu tư), mâu thuẫn với Bẫy 3 và 'Đừng hiểu ngược' của chính mục."
+internal_checks:
+  - issue: "Mục dùng ví dụ phí 0,65% (ETF thụ động) vs 1,5%–2% (quỹ mở chủ động) để tính '17%–29%', trong khi Bẫy 3 và 'Đừng hiểu ngược' nói chỉ được so phí khi cùng chỉ số, cùng cách đầu tư. Chênh phí giữa ETF thụ động và quỹ chủ động không phải 'cùng một rổ'; hai quỹ chủ động còn có thể có lợi suất trước phí khác nhau."
+    severity: error
+  - issue: "Dải '17% đến 29% sau 20 năm' không nhất quán với '18,0% sau 20 năm' cho chênh 1 điểm cùng đoạn (xem claim mismatch); con số 29% tự tính lại không đạt được."
+    severity: error
+  - issue: "tldr có '18,0%' và '25,8%' nhưng thân (cả Nói dễ hiểu và Lợi ích) không nêu lợi suất giả định g; người đọc không tái tính được. Mục Nguồn nói 'công thức ghi trong sổ kiểm chứng' nhưng sổ này không đi kèm mục."
+    severity: warn
+  - issue: "Nguồn Dragon Capital là trang JavaScript không đọc được; ACBS bảng cập nhật 16/5/2025 nhưng mục ghi 'tra ngày 2/11/2026' như thể là số liệu hiện hành."
+    severity: warn
+  - issue: "Mục không nhắc ưu đãi thuế liên quan trực tiếp tới chọn quỹ: theo NĐ 253/2026/NĐ-CP Điều 43 (qua luatvietnam.vn, thứ cấp) chuyển nhượng chứng chỉ quỹ mở nắm giữ từ đủ 2 năm trở lên miễn thuế TNCN từ 1/7/2026. Không sai nhưng là yếu tố so sánh quỹ mở với ETF/cổ phiếu mà mục bỏ sót (chưa kiểm văn bản gốc NĐ 253)."
+    severity: warn
+validity:
+  doc: "Không có văn bản pháp luật được dẫn (legal_refs rỗng); chỉ có số liệu phí thị trường"
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: "Không áp dụng hiệu lực pháp lý. Số liệu phí là tại thời điểm tra: ACBS bảng ngày 16/5/2025 (0,65%); VESAF factsheet 9/2025 (1,75%). Chưa có bản cáo bạch hiện hành của DCVFMVN30."
+suggested_edits:
+  - "Mục 'Lợi ích': sửa '17% đến 29%' thành dải tính đúng (khoảng 15%–24% cho chênh 0,85–1,35 điểm, 20 năm), hoặc bỏ ví dụ ETF vs quỹ chủ động. Căn cứ: tự tính ở claim 5 (1-((1+g-d)/(1+g))^20)."
+  - "tldr và Nói dễ hiểu: nêu rõ lợi suất giả định (ví dụ 'với lợi suất gộp 6%/năm: mất khoảng 17% sau 20 năm, 25% sau 30 năm') thay vì 18,0%/25,8% không rõ g. Căn cứ: bảng tính ở claim 4."
+  - "Thay nguồn phí ETF bằng bản cáo bạch/factsheet DCVFMVN30 hiện hành; dẫn factsheet VESAF/DCDS cho '1,5%–2%' hoặc đổi thành '1,75%–2%'. Căn cứ: 'Management fee 1.75% per annum' (VESAF 9/2025)."
+  - "Bỏ câu 'trừ âm thầm mỗi ngày, không hiện trên sao kê' hoặc gắn nguồn bản cáo bạch. Căn cứ: ACBS không có câu này."
+potential_harm: []
+deliberate_vn_deviation: []

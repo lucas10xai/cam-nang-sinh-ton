@@ -1,0 +1,115 @@
+id: kham-suc-khoe-dinh-ky-va-kham-phat-hien-benh-nghe-nghiep
+checker: agent-V3a19bA
+checked_at: 2026-11-08
+content_sha256: "16808b0de2812bda89e38b4e3f032718348d02fcc934cd9aab6a0a935ab042d4"
+result: pass-with-edits
+claims:
+  - text: "Hàng năm NSDLĐ phải tổ chức khám sức khỏe ít nhất một lần; nghề nặng nhọc, độc hại, nguy hiểm... người khuyết tật, chưa thành niên, cao tuổi: ít nhất 06 tháng một lần (Điều 21 khoản 1)"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-84-2015-qh13-15356.htm
+    quote: "Hàng năm, người sử dụng lao động phải tổ chức khám sức khỏe ít nhất một lần cho người lao động; đối với người lao động làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm, người lao động là người khuyết tật, người lao động chưa thành niên, người lao động cao tuổi được khám sức khỏe ít nhất 06 tháng một lần."
+    verdict: match
+    note: "Đọc từ PDF Công báo số 871+872 (congbaocdn.chinhphu.vn). Tldr chỉ nêu 'nghề nặng nhọc, độc hại' (bỏ nguy hiểm, người khuyết tật, chưa thành niên, cao tuổi); thân nêu đủ."
+  - text: "Lần khám phải có: lao động nữ khám chuyên khoa phụ sản; người tiếp xúc yếu tố có nguy cơ gây bệnh nghề nghiệp phải được khám phát hiện bệnh nghề nghiệp (Điều 21 khoản 2)"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-84-2015-qh13-15356.htm
+    quote: "Khi khám sức khỏe theo quy định tại khoản 1 Điều này, lao động nữ phải được khám chuyên khoa phụ sản, người làm việc trong môi trường lao động tiếp xúc với các yếu tố có nguy cơ gây bệnh nghề nghiệp phải được khám phát hiện bệnh nghề nghiệp."
+    verdict: match
+    note: "Mục diễn đạt 'khám bệnh nghề nghiệp là phần bắt buộc của lần khám định kỳ' cho người tiếp xúc yếu tố có nguy cơ: đúng, nhưng tldr/Nói dễ hiểu viết như mọi người làm nghề độc hại đều 06 tháng có khám BNN: đúng ý Điều 21 khoản 1+2."
+  - text: "Ba mốc khám ngoài lịch: trước khi bố trí làm việc; trước khi chuyển sang nghề nặng nhọc, độc hại, nguy hiểm hơn; sau khi bị TNLĐ/BNN đã phục hồi tiếp tục làm việc, trừ trường hợp đã khám giám định (Điều 21 khoản 3)"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-84-2015-qh13-15356.htm
+    quote: "Người sử dụng lao động tổ chức khám sức khỏe cho người lao động trước khi bố trí làm việc và trước khi chuyển sang làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hơn hoặc sau khi bị tai nạn lao động, bệnh nghề nghiệp đã phục hồi sức khỏe, tiếp tục trở lại làm việc, trừ trường hợp đã được Hội đồng y khoa khám giám định mức suy giảm khả năng lao động."
+    verdict: match
+    note: ""
+  - text: "Phải khám tại cơ sở khám bệnh, chữa bệnh bảo đảm yêu cầu chuyên môn, nên phòng y tế công ty tự khám không thay được (Điều 21 khoản 4)"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-84-2015-qh13-15356.htm
+    quote: "Người sử dụng lao động tổ chức khám sức khỏe cho người lao động, khám phát hiện bệnh nghề nghiệp tại cơ sở khám bệnh, chữa bệnh bảo đảm yêu cầu, điều kiện chuyên môn kỹ thuật."
+    verdict: partial
+    note: "Phần trích khớp. Câu 'nên phòng y tế công ty tự làm không thay được' là suy diễn: nếu phòng y tế công ty là cơ sở KCB đủ điều kiện chuyên môn thì vẫn có thể hợp lệ. Cần sửa thành 'chỉ hợp lệ nếu là cơ sở khám bệnh, chữa bệnh đủ điều kiện'."
+  - text: "Người được chẩn đoán BNN phải được đưa đến cơ sở đủ điều kiện để điều trị theo phác đồ do Bộ trưởng Bộ Y tế quy định (Điều 21 khoản 5)"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-84-2015-qh13-15356.htm
+    quote: "Người sử dụng lao động đưa người lao động được chẩn đoán mắc bệnh nghề nghiệp đến cơ sở khám bệnh, chữa bệnh đủ điều kiện chuyên môn kỹ thuật để điều trị theo phác đồ điều trị bệnh nghề nghiệp do Bộ trưởng Bộ Y tế quy định."
+    verdict: match
+    note: ""
+  - text: "Chi phí khám, khám BNN, điều trị BNN theo khoản 1, 2, 3, 5 do NSDLĐ chi trả, hạch toán chi phí được trừ thuế (Điều 21 khoản 6)"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-84-2015-qh13-15356.htm
+    quote: "Chi phí cho hoạt động khám sức khỏe, khám phát hiện bệnh nghề nghiệp, điều trị bệnh nghề nghiệp cho người lao động do người sử dụng lao động chi trả quy định tại các khoản 1, 2, 3 và 5 Điều này được hạch toán vào chi phí được trừ khi xác định thu nhập chịu thuế theo Luật thuế thu nhập doanh nghiệp"
+    verdict: match
+    note: "Tldr 'Công ty phải tổ chức và trả tiền khám' đúng với khoản 1, 2, 3, 5; khoản 4 (cơ sở khám) không có chi phí riêng."
+  - text: "Công ty căn cứ tiêu chuẩn sức khỏe và kết quả khám để sắp xếp công việc; lập, quản lý hồ sơ sức khỏe và thông báo kết quả khám để NLĐ biết (Điều 27 khoản 1, 2)"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-84-2015-qh13-15356.htm
+    quote: "Người sử dụng lao động có trách nhiệm lập và quản lý hồ sơ sức khỏe của người lao động, hồ sơ sức khỏe của người bị bệnh nghề nghiệp; thông báo kết quả khám sức khỏe, khám phát hiện bệnh nghề nghiệp để người lao động biết;"
+    verdict: match
+    note: "Khoản 1: 'Người sử dụng lao động phải căn cứ vào tiêu chuẩn sức khỏe quy định cho từng loại nghề, công việc và kết quả khám sức khỏe để sắp xếp công việc phù hợp cho người lao động.' (khớp)."
+  - text: "Quyền của NLĐ: bảo hộ lao động, chăm sóc sức khỏe, khám phát hiện BNN; trả phí khám giám định; chủ động đi khám giám định (Điều 6 khoản 1 điểm c)"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-84-2015-qh13-15356.htm
+    quote: "Được thực hiện chế độ bảo hộ lao động, chăm sóc sức khỏe, khám phát hiện bệnh nghề nghiệp; được người sử dụng lao động đóng bảo hiểm tai nạn lao động, bệnh nghề nghiệp; được hưởng đầy đủ chế độ đối với người bị tai nạn lao động, bệnh nghề nghiệp; được trả phí khám giám định thương tật, bệnh tật do tai nạn lao động, bệnh nghề nghiệp; được chủ động đi khám giám định mức suy giảm khả năng lao động và được trả phí khám giám định trong trường hợp kết quả khám giám định đủ điều kiện để điều chỉnh tăng mức hưởng trợ cấp tai nạn lao động, bệnh nghề nghiệp;"
+    verdict: partial
+    note: "Mục viết 'được trả phí khám giám định thương tật, bệnh tật; và được chủ động đi khám giám định mức suy giảm khả năng lao động' nhưng bỏ điều kiện của quyền thứ hai: chỉ được trả phí 'trong trường hợp kết quả khám giám định đủ điều kiện để điều chỉnh tăng mức hưởng trợ cấp'. Người đọc tự đi giám định lại mà không đủ điều kiện sẽ tự trả phí."
+  - text: "Phạt 1.000.000-3.000.000 đồng/NLĐ, tối đa 75.000.000 đồng với NSDLĐ không tổ chức khám định kỳ hoặc khám BNN (NĐ 283/2026 Điều 33 khoản 2)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "Phạt tiền từ 1.000.000 đồng đến 3.000.000 đồng khi vi phạm với mỗi người lao động nhưng tối đa không quá 75.000.000 đồng đối với người sử dụng lao động có hành vi không tổ chức khám sức khỏe định kỳ hoặc khám phát hiện bệnh nghề nghiệp cho người lao động."
+    verdict: partial
+    note: "Khớp mức trong điều luật. Nhưng Điều 33 không nằm trong danh sách ngoại lệ của Điều 7 khoản 1, tức đây là mức đối với cá nhân; 'Mức phạt tiền đối với tổ chức bằng 02 lần mức phạt tiền đối với cá nhân' (Điều 7 khoản 1) và doanh nghiệp là tổ chức (Điều 7 khoản 2 điểm b). Mục viết 'Công ty ... bị phạt 1-3 triệu ... tối đa 75 triệu' mà không nêu gấp đôi; nên sửa. Cách tính trần 75 triệu cho tổ chức văn bản không nói rõ, không suy diễn."
+  - text: "Không khám trước khi chuyển sang nghề nặng nhọc, độc hại hơn bị phạt nặng hơn (Điều 33 khoản 3)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng khi vi phạm với mỗi người lao động nhưng tối đa không quá 75.000.000 đồng đối với người sử dụng lao động có hành vi không tổ chức khám sức khỏe cho người lao động trước khi chuyển sang làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hơn hoặc sau khi bị tai nạn lao động, bệnh nghề nghiệp đã phục hồi sức khỏe, tiếp tục trở lại làm việc, trừ trường hợp đã được Hội đồng giám định y khoa khám giám định mức suy giảm khả năng lao động."
+    verdict: match
+    note: "Đúng ý 'nặng hơn' (5-10 triệu/người). Cũng cùng lưu ý gấp đôi cho tổ chức. Mục không nêu số tiền."
+  - text: "TT 60/2025/TT-BYT ngày 31/12/2025 quy định bệnh nghề nghiệp được hưởng BHXH và hướng dẫn chẩn đoán, giám định mức suy giảm khả năng lao động (Điều 1)"
+    source_url: https://bvdkbaclieu.gov.vn/upload/1000079/20260305/686_Thong-tu-60-2025-TT-BYT_5eaf1a4c81.pdf
+    quote: "Thông tư này quy định về danh mục bệnh nghề nghiệp được hưởng bảo hiểm xã hội và hướng dẫn chẩn đoán, giám định mức suy giảm khả năng lao động do bệnh nghề nghiệp."
+    verdict: match
+    note: "Trích Điều 1 từ PDF (trang 1-4 trích được chữ; các trang sau là ảnh quét, không đọc được). Nguồn là website bệnh viện đa khoa Bạc Liêu (bản sao hosting của Thông tư), không phải Công báo/Bộ Y tế; số hiệu, ngày ký 31/12/2025 khớp tiêu đề văn bản."
+  - text: "Thông tư xếp từng bệnh thành một mục kèm phụ lục riêng, mở đầu là bụi phổi silic và bụi phổi amiăng; điếc nghề nghiệp do tiếng ồn (Điều 3); 'nhóm bệnh do yếu tố vật lý'"
+    source_url: https://bvdkbaclieu.gov.vn/upload/1000079/20260305/686_Thong-tu-60-2025-TT-BYT_5eaf1a4c81.pdf
+    quote: "18. Bệnh điếc nghề nghiệp do tiếng ồn và hướng dẫn chẩn đoán, giám định mức suy giảm khả năng lao động quy định tại Phụ lục XVIII ban hành kèm theo Thông tư này."
+    verdict: partial
+    note: "Khoản 1 'Bệnh bụi phổi silic nghề nghiệp ... Phụ lục I', khoản 2 'Bệnh bụi phổi amiăng nghề nghiệp ... Phụ lục II' khớp. Điều 3 là danh sách phẳng 1-24+ không có tiêu đề 'nhóm bệnh do yếu tố vật lý' trong phần đọc được; cụm đó không có trong nguồn đọc được (nguồn là suy ra hoặc từ bản cũ). Nên bỏ chữ 'nhóm bệnh do yếu tố vật lý'."
+  - text: "Thông tư 60/2025/TT-BYT có hiệu lực từ ngày 15/02/2026"
+    source_url: https://storage-vnportal.vnpt.vn/gov-lan/5962/FileQuanTriTinTuc/167_SYT-NV1_08-01-2026_CV%20Tri%E1%BB%83n%20khai%20th%E1%BB%B1c%20hi%E1%BB%87n%20TT__60_2025_TT_BYT.signed.pdf
+    quote: "Thông tư có hiệu lực thi hành từ ngày 15/02/2026 (đính kèm)."
+    verdict: match-secondary
+    note: "Nguồn là công văn của Sở Y tế Tây Ninh (cơ quan nhà nước địa phương, không phải Bộ Y tế); điều khoản hiệu lực của chính thông tư nằm ở trang ảnh quét không đọc được. Chưa đối chiếu với điều khoản thi hành của TT."
+  - text: "Bệnh nghề nghiệp phát hiện muộn 'thường đã ở mức suy giảm đủ để đổi nghề, và tiền điều trị, mất thu nhập nhiều năm lớn hơn rất nhiều một buổi khám mỗi năm' (Chi phí)"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-84-2015-qh13-15356.htm
+    quote: "(không có câu tương ứng trong văn bản được dẫn)"
+    verdict: not-found
+    note: "Khẳng định y tế/kinh tế không có nguồn nào (không số liệu, không DOI, không hướng dẫn Bộ Y tế). Ghi 'thường' và 'rất nhiều' như sự thật định lượng. Cần nguồn hoặc đổi sang giọng nhận định."
+  - text: "Bệnh nghề nghiệp được hưởng bảo hiểm 'chỉ có giá trị khi có hồ sơ sức khỏe theo dõi nhiều năm' (Bẫy 2)"
+    source_url: https://bvdkbaclieu.gov.vn/upload/1000079/20260305/686_Thong-tu-60-2025-TT-BYT_5eaf1a4c81.pdf
+    quote: "(không có câu tương ứng trong phần đọc được của văn bản được dẫn)"
+    verdict: not-found
+    note: "Không có điều khoản nào nói chế độ BNN 'chỉ có giá trị' khi có hồ sơ nhiều năm. Điều kiện hưởng nằm trong NĐ 88/2020 và TT 60 (thời gian tiếp xúc tối thiểu, giới hạn tiếp xúc: TT 60 Điều 2 khoản 1-2 có định nghĩa) chứ không đòi 'nhiều năm hồ sơ do công ty lập'. Câu dễ làm người đọc bỏ qua quyền nếu thiếu hồ sơ; cần bỏ chữ 'chỉ'."
+  - text: "Step 1: tờ kết quả không có dòng nào về yếu tố tiếp xúc có hại thì lần khám chưa làm đúng khoản 2 Điều 21"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-84-2015-qh13-15356.htm
+    quote: "người làm việc trong môi trường lao động tiếp xúc với các yếu tố có nguy cơ gây bệnh nghề nghiệp phải được khám phát hiện bệnh nghề nghiệp."
+    verdict: inference
+    note: "Luật không quy định biểu mẫu kết quả khám. Kết luận 'chưa làm đúng khoản 2' từ nội dung tờ kết quả là suy luận; nên nói 'có dấu hiệu chưa khám phát hiện BNN, hỏi lại công ty'. Không có hại nếu làm theo (hỏi bằng văn bản)."
+internal_checks:
+  - issue: "Tldr và Nói dễ hiểu: con số 01 lần/năm và 06 tháng có trong thân khớp Điều 21 khoản 1. Tldr rút gọn 'nghề nặng nhọc, độc hại' trong khi luật còn nguy hiểm/khuyết tật/chưa thành niên/cao tuổi: không mâu thuẫn, nhưng nên đồng bộ."
+    severity: warn
+  - issue: "Mức phạt Điều 33 khoản 2 chỉ nêu mức cá nhân, thiếu 'tổ chức/doanh nghiệp gấp đôi' (Điều 7 khoản 1), trong khi mục 06 cùng chương có nêu."
+    severity: warn
+  - issue: "Chi phí: câu 'bệnh nghề nghiệp phát hiện muộn thường đã ... đổi nghề, tiền điều trị lớn hơn rất nhiều' và Bẫy 2 'chỉ có giá trị khi có hồ sơ nhiều năm' không có cơ sở trong Pháp luật VN/Nguồn."
+    severity: warn
+  - issue: "Step 4 'xin bản sao kết quả khám và hồ sơ sức khỏe theo Điều 48 khoản 3 BLLĐ' viện Điều 48 khoản 3 điểm b (bản sao 'tài liệu liên quan đến quá trình làm việc'); việc hồ sơ sức khỏe thuộc diện này là diễn giải, không phải chữ của luật."
+    severity: warn
+  - issue: "Điều 6 khoản 1 điểm c: mục bỏ điều kiện 'trong trường hợp kết quả khám giám định đủ điều kiện để điều chỉnh tăng mức hưởng' khi nói NLĐ được trả phí đi giám định chủ động."
+    severity: warn
+  - issue: "legal_refs[] Điều 21 khoản 1-6, 27, 6: URL Công báo đúng văn bản Luật ATVSLĐ. TT 60/2025 url là trang hosting của bệnh viện (đúng văn bản nhưng không phải nguồn chính thống Bộ Y tế/Công báo). NĐ 283 và BLLĐ URL đúng văn bản. Article khớp khẳng định."
+    severity: warn
+validity:
+  doc: "Luật An toàn, vệ sinh lao động 84/2015/QH13; Thông tư 60/2025/TT-BYT; Nghị định 283/2026/NĐ-CP; BLLĐ 45/2019/QH14 Điều 48 khoản 3"
+  in_force: unconfirmed
+  effective_from: "2016-07-01 (Luật ATVSLĐ); 2026-02-15 (TT 60/2025, theo công văn Sở Y tế Tây Ninh, chưa đọc điều khoản thi hành của TT); 2026-09-10 (NĐ 283/2026)"
+  amended_by: []
+  basis: "Luật ATVSLĐ: Công báo ghi hiệu lực 01/07/2016, 'Văn bản sửa đổi bổ sung [0]', 'thay thế/bãi bỏ [0]'; NĐ 283/2026 (15/07/2026) vẫn lấy Luật 84/2015 làm căn cứ; dự án luật sửa đổi hiện ở giai đoạn Chính phủ/Quốc hội (chỉ nguồn thứ cấp). NĐ 283: hiệu lực 10/09/2026 (Điều 66 khoản 1), thay NĐ 12/2022 (Điều 66 khoản 4). TT 60/2025: ngày hiệu lực 15/02/2026 chỉ lấy từ công văn Sở Y tế; điều khoản thi hành của Thông tư nằm trên trang ảnh quét, chưa đọc được; vì chưa xác nhận bằng chữ của chính Thông tư nên đặt unconfirmed cho mục (BLLĐ Điều 48 khoản 3, Luật ATVSLĐ, NĐ 283 thì in_force true)."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Pháp luật VN 'Mức phạt': thêm 'mức trên là mức cá nhân; doanh nghiệp (tổ chức) gấp đôi theo Điều 7 khoản 1, 2 NĐ 283/2026'; thêm số tiền cho khoản 3 (5.000.000-10.000.000 đồng/người, tối đa 75.000.000 đồng)."
+  - "Điều 21 khoản 4: đổi 'nên một buổi khám do phòng y tế công ty tự làm không thay được' thành 'chỉ hợp lệ khi thực hiện tại cơ sở khám bệnh, chữa bệnh đủ điều kiện chuyên môn kỹ thuật'."
+  - "Điều 6 khoản 1 điểm c: thêm điều kiện 'được trả phí khám giám định chủ động khi kết quả đủ điều kiện điều chỉnh tăng mức hưởng trợ cấp'."
+  - "Danh mục bệnh: bỏ cụm 'nhóm bệnh do yếu tố vật lý' (không có trong phần đọc được của Điều 3), chỉ nói 'danh sách các bệnh (ví dụ bệnh điếc nghề nghiệp do tiếng ồn, mục 18, Phụ lục XVIII)'. Dẫn nguồn chính thống cho TT 60 (Công báo hoặc Bộ Y tế) và điều khoản thi hành để xác nhận 15/02/2026."
+  - "Chi phí: gắn nguồn hoặc đổi 'thường ... lớn hơn rất nhiều' thành nhận định không số liệu; Bẫy 2: bỏ chữ 'chỉ có giá trị khi', thay 'hồ sơ theo dõi nhiều năm giúp chứng minh' nếu có nguồn."
+  - "Step 1: đổi giọng 'chưa làm đúng khoản 2 Điều 21' thành 'có thể chưa khám phát hiện bệnh nghề nghiệp; hỏi lại bằng văn bản' (suy luận, không phải quy định biểu mẫu). Step 4: gắn nhãn 'diễn giải Điều 48 khoản 3 điểm b + Điều 27 khoản 2'."
+  - "Tldr: bổ sung 'hoặc nguy hiểm; người khuyết tật, chưa thành niên, cao tuổi' để khớp Điều 21 khoản 1."

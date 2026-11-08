@@ -14,15 +14,15 @@ evidence: C
 contested: false
 vn_class: adapted
 rewrite_status: rewritten
-tldr: "Vay mua chứng khoán thì khi giá giảm tới mức nhất định, công ty chứng khoán bán tài sản của bạn để thu nợ, ở giá họ chọn. Đừng vay để đặt cược."
+tldr: "Vay mua chứng khoán thì khi tỷ lệ ký quỹ xuống dưới mức duy trì và bạn không bổ sung ký quỹ theo hợp đồng, công ty chứng khoán có quyền bán tài sản bảo đảm. Đừng vay để đặt cược."
 steps:
   - "Không vay để mua chứng khoán; không dùng ký quỹ chỉ vì được cấp hạn mức."
   - "Không rút tiền mặt bằng thẻ tín dụng để mua chứng khoán."
   - "Chỉ mua thứ bạn nói được trong 2 câu là nó kiếm tiền từ đâu."
   - "Tránh vay ngoài hệ thống (vay theo nhóm, ứng dụng không phép)."
 legal_refs:
-  - { doc: "Thông tư 120/2020/TT-BTC ngày 7/10/2020", article: null, url: "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN162139566", effective_from: null, checked_at: null, quote: null }
-  - { doc: "Luật Chứng khoán 54/2019/QH15", article: "Điều 12 khoản 4", url: null, effective_from: null, checked_at: null, quote: null }
+  - { doc: "Thông tư 120/2020/TT-BTC ngày 31/12/2020", article: "Điều 9 khoản 1 và khoản 6", url: "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN162139566", effective_from: "2021-02-15", checked_at: "2026-11-08", quote: null }
+  - { doc: "Luật Thuế thu nhập cá nhân 109/2025/QH15", article: "Điều 13 khoản 2", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf", effective_from: "2026-07-01", checked_at: "2026-11-08", quote: null }
 verification:
   status: unverified
   checked_at: null
@@ -41,7 +41,7 @@ tags: []
 
 ## Nói dễ hiểu
 
-Vay để mua chứng khoán thì khi giá giảm tới một mức nhất định, công ty chứng khoán bán chứng khoán của bạn để thu nợ, ở mức giá họ chọn. Khoản lỗ trên giấy thành lỗ thật, và bạn mất quyền chờ giá hồi.
+Vay để mua chứng khoán thì khi tỷ lệ ký quỹ xuống dưới mức duy trì, công ty chứng khoán gọi ký quỹ bổ sung; nếu bạn không bổ sung theo hợp đồng, họ có quyền bán chứng khoán bảo đảm. Khoản lỗ trên giấy có thể thành lỗ thật, và bạn mất quyền chờ giá hồi.
 
 ## Chi phí
 
@@ -51,30 +51,28 @@ Nếu đã dùng ký quỹ thì chi phí thật là lãi vay tính theo ngày tr
 
 ## Lợi ích
 
-Giá bán do bên cho vay quyết định, không do bạn.
-
-Nếu vay tiêu dùng để đầu tư: lãi thẻ tín dụng 30,5%–44,5%/năm ([mục 7](05-dung-lang-phi-tien.md#entry-tra-du-du-no-the-moi-thang-neu-buoc-phai-vay-doi)) cao hơn mọi mức lợi suất kỳ vọng hợp lý. Khoản vay đó phải thắng thị trường mới hòa vốn.
+Nếu vay tiêu dùng để đầu tư: lãi rút tiền mặt của một thẻ tín dụng cụ thể, theo [mục 7](05-dung-lang-phi-tien.md#entry-tra-du-du-no-the-moi-thang-neu-buoc-phai-vay-doi), là 30,5%–44,5%/năm. Khoản vay đó phải thắng thị trường hơn mức lãi ấy mới hòa vốn.
 
 Riêng "không mua thứ mình không hiểu" thì không có số: nếu không nói được trong 2 câu sản phẩm kiếm tiền từ đâu, thì đó là chỗ chưa hiểu.
 
 ## Pháp luật Việt Nam
 
-- Giao dịch ký quỹ chỉ được thực hiện qua công ty chứng khoán được phép, theo hợp đồng (Thông tư 120/2020/TT-BTC).
-- Nhà đầu tư có nghĩa vụ duy trì tỷ lệ ký quỹ ban đầu và tỷ lệ ký quỹ duy trì (Thông tư 120/2020/TT-BTC).
-- Khi tỷ lệ duy trì bị phá, công ty chứng khoán được bán chứng khoán trong tài khoản để thu hồi nợ (Thông tư 120/2020/TT-BTC).
+- Nhà đầu tư phải ký hợp đồng giao dịch ký quỹ với công ty chứng khoán được phép trước khi giao dịch ký quỹ. (Điều 9 khoản 1, Thông tư 120/2020/TT-BTC)
+- Nhà đầu tư có nghĩa vụ đảm bảo tỷ lệ ký quỹ ban đầu và tỷ lệ ký quỹ duy trì theo hợp đồng. (Điều 9 khoản 6, Thông tư 120/2020/TT-BTC)
+- Khi tỷ lệ xuống dưới mức duy trì, công ty chứng khoán phát lệnh gọi ký quỹ bổ sung; nếu không bổ sung, có quyền bán chứng khoán là tài sản bảo đảm. (Điều 9 khoản 6, Thông tư 120/2020/TT-BTC)
 
 ## Ghi chú
 
-Bốn chỗ hay sập.
+Bốn chỗ hay sập. Thông tư 120/2020/TT-BTC có thể đã được sửa đổi sau đó (cần đối chiếu bản hiện hành); các điều khoản trên chưa kiểm với bản sửa đổi.
 
-- **Bẫy 1: vay ngoài hệ thống** (vay theo nhóm, vay qua ứng dụng không phép). Không chỉ đắt mà còn không có cơ chế xử lý khi bên cho vay tự ý siết tài sản.
-- **Bẫy 2: "được cấp hạn mức ký quỹ" không có nghĩa là nên dùng.** Công ty chứng khoán có thể mở hạn mức tự động, và hạn mức là doanh số bán của họ, không phải lời khuyên cho bạn.
-- **Bẫy 3: rút tiền mặt bằng thẻ tín dụng để mua chứng khoán là đòn bẩy đắt nhất.** Lãi tính từ ngày rút, cộng phí rút, cộng thuế bán 0,1%.
-- **Đừng hiểu ngược.** Mục này không cấm vay nói chung: vay mua nhà trong khả năng trả, vay học nghề là chuyện khác. Cái bị chặn ở đây là vay để đặt cược vào thứ có thể giảm 30% trong 3 tháng.
+- **Bẫy 1: vay ngoài hệ thống** (vay theo nhóm, vay qua ứng dụng không phép). Cần nguồn cho mức lãi và cách xử lý khi bên cho vay siết tài sản.
+- **Bẫy 2: "được cấp hạn mức ký quỹ" không có nghĩa là nên dùng.** Theo Thông tư 120/2020/TT-BTC phải ký hợp đồng ký quỹ trước; hạn mức được cấp không phải lời khuyên nên vay.
+- **Bẫy 3: rút tiền mặt bằng thẻ tín dụng để mua chứng khoán là đòn bẩy đắt nhất.** Cần nguồn cho cách tính lãi và phí rút tiền mặt; khi bán còn chịu thuế 0,1% giá chuyển nhượng (Điều 13 khoản 2, Luật Thuế thu nhập cá nhân 109/2025/QH15).
+- **Đừng hiểu ngược.** Mục này không cấm vay nói chung: vay mua nhà trong khả năng trả, vay học nghề là chuyện khác. Cái bị chặn ở đây là vay để đặt cược vào thứ có thể giảm mạnh (ví dụ minh họa, không có nguồn).
 
 ## Nguồn
 
-- Thông tư 120/2020/TT-BTC ngày 7/10/2020 (giao dịch ký quỹ: nghĩa vụ duy trì tỷ lệ ký quỹ ban đầu và tỷ lệ ký quỹ duy trì theo hợp đồng với công ty chứng khoán), đọc qua trang giới thiệu của Ủy ban Chứng khoán Nhà nước, xem "Còn treo".
-- Luật Chứng khoán 54/2019/QH15 Điều 12 khoản 4.
-- Biểu phí thẻ tín dụng VIB, tra ngày 2/11/2026.
+- Thông tư 120/2020/TT-BTC ngày 31/12/2020, hiệu lực 15/2/2021, Điều 9 (giao dịch ký quỹ); đọc qua bản sao thứ cấp, chưa đối chiếu các thông tư sửa đổi.
+- Luật Thuế thu nhập cá nhân 109/2025/QH15, Điều 13 khoản 2: <https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf>
+- Mức lãi thẻ tín dụng: xem mục 7 cùng chương.
 - Trang giới thiệu Thông tư 120/2020/TT-BTC của Ủy ban Chứng khoán Nhà nước: <https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN162139566>

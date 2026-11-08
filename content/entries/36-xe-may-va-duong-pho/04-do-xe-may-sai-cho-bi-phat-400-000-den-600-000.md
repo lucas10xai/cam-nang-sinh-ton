@@ -43,7 +43,7 @@ tags: []
 
 ## Nói dễ hiểu
 
-Đỗ xe máy ở lòng đường gây cản trở, trên vỉa hè trái phép, nơi có biển cấm đỗ hoặc trên phần đường dành cho người đi bộ bị phạt 400.000 đến 600.000 đồng. Đỗ trên cầu bị phạt 600.000 đến 800.000 đồng. Xe cản trở có thể bị cẩu đi và bạn trả phí.
+Đỗ xe máy ở lòng đường gây cản trở, trên vỉa hè trái phép, nơi có biển cấm đỗ hoặc trên phần đường dành cho người đi bộ bị phạt 400.000 đến 600.000 đồng. Đỗ trên cầu bị phạt 600.000 đến 800.000 đồng. Xe đỗ gây cản trở mà chủ không có mặt hoặc không chấp hành yêu cầu của công an có thể bị di chuyển khỏi vị trí đỗ, và bạn trả chi phí.
 
 ## Chi phí
 
@@ -66,7 +66,7 @@ Tránh khoản phạt 400.000 đến 800.000 đồng và mất công đi lấy x
 
 **Di chuyển xe (Luật 36/2024/QH15, Điều 69)**
 
-- Khi phương tiện dừng, đỗ trái quy định gây cản trở, ùn tắc hoặc nguy cơ tai nạn mà người điều khiển, chủ phương tiện không có mặt hoặc có mặt mà không chấp hành yêu cầu của Cảnh sát giao thông, thì Cảnh sát giao thông di chuyển phương tiện đó ra khỏi vị trí và được thuê tổ chức hoặc cá nhân thực hiện (khoản 1, Điều 69 Luật 36/2024/QH15).
+- Xe đỗ trái quy định gây cản trở, ùn tắc hoặc nguy cơ tai nạn, mà chủ xe không có mặt hoặc không chấp hành yêu cầu của Cảnh sát giao thông: Cảnh sát giao thông di chuyển xe, được thuê tổ chức, cá nhân nếu không đủ điều kiện tự thực hiện (khoản 1, Điều 69 Luật 36/2024/QH15).
 - Người điều khiển hoặc chủ phương tiện vi phạm phải trả chi phí di chuyển (khoản 3, Điều 69 Luật 36/2024/QH15).
 - Trong lúc di chuyển phải bảo đảm an toàn cho phương tiện (khoản 4, Điều 69 Luật 36/2024/QH15).
 - Nếu cản trở, chống đối thì bị cưỡng chế (khoản 2, Điều 69 Luật 36/2024/QH15).
@@ -77,6 +77,7 @@ Tránh khoản phạt 400.000 đến 800.000 đồng và mất công đi lấy x
 - **Chưa rõ: phí và nơi giữ xe.** Tôi chưa tìm được văn bản trung ương về mức phí di chuyển xe và nơi giữ xe, có thể do địa phương quy định. Khi bị di chuyển hãy hỏi lại cơ quan nào thực hiện và giữ biên lai.
 - **Bẫy: nhầm đỗ vỉa hè với chạy lên vỉa hè.** Đỗ xe trên vỉa hè bị phạt nhẹ hơn nhiều so với chạy xe lên vỉa hè (xem [mục 5](36-xe-may-va-duong-pho.md#entry-chay-len-via-he-di-nguoc-chieu-duong-mot-chieu-vuot-den)), nên đừng nhầm hai lỗi này.
 - Danh sách biển cấm cụ thể và chỗ nào cho phép đỗ xe do địa phương và biển báo tại chỗ quyết định. Luôn nhìn biển báo trước khi đỗ.
+- Nghị định 168/2024/NĐ-CP có hiệu lực từ 01/01/2025 (Điều 53 khoản 1). Chưa xác định được Nghị định 336/2025/NĐ-CP (hiệu lực 01/03/2026) có sửa Điều 7 hay không, nên đối chiếu bản hiện hành trước khi nộp phạt.
 
 ## Nguồn
 

@@ -3,7 +3,7 @@ id: tien-ao-khong-phai-tien-va-den-nay-chua-co-san-nao
 legacy: "5-44"
 chapter: 5
 number: 44
-title: Tiền ảo không phải tiền, và đến nay chưa có sàn nào ở Việt Nam được cấp phép
+title: "Tài sản mã hóa: bối cảnh đến 6/10/2026 là chưa có sàn nào ở Việt Nam được cấp phép"
 cost:
   money: "0"
   time: low
@@ -14,13 +14,13 @@ evidence: C
 contested: false
 vn_class: vn_native
 rewrite_status: rewritten
-tldr: "Đến 6/10/2026 chưa có sàn tài sản mã hóa nào ở Việt Nam được cấp phép. Từ 1/9/2026, giao dịch không qua tổ chức được cấp phép bị phạt 30 đến 50 triệu đồng."
+tldr: "Báo Chính phủ 6/10/2026 nêu bối cảnh chưa có tổ chức tài sản mã hóa nào được cấp phép. Phạt 30 đến 50 triệu đồng (NĐ 284/2026, từ 1/9/2026) chỉ áp dụng sau 6 tháng kể từ khi tổ chức đầu tiên được cấp phép."
 steps:
   - "Đừng gửi tiền lên nền tảng tài sản mã hóa chỉ vì thấy quảng cáo hoặc người quen giới thiệu."
   - "Trước khi giao dịch, kiểm tra trên thông báo chính thức xem nền tảng đã được cấp phép chưa và quy định bắt đầu áp dụng từ khi nào."
   - "Nếu vẫn mua, chỉ mua trên sàn được cấp phép và coi đó là khoản có thể mất toàn bộ."
 legal_refs:
-  - { doc: "Nghị quyết 05/2025/NQ-CP ngày 9/9/2025", article: "Điều 7 khoản 1, khoản 2", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/05-cp.signed.pdf", effective_from: null, checked_at: "2026-11-02", quote: null }
+  - { doc: "Nghị quyết 05/2025/NQ-CP ngày 9/9/2025", article: "Điều 7 khoản 1, khoản 2", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/05-cp.signed.pdf", effective_from: "2025-09-09", checked_at: "2026-11-02", quote: null }
   - { doc: "Nghị quyết 05/2025/NQ-CP ngày 9/9/2025", article: "Điều 16 khoản 2", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/05-cp.signed.pdf", effective_from: null, checked_at: "2026-11-02", quote: null }
   - { doc: "Nghị định 284/2026/NĐ-CP ngày 16/7/2026", article: "Điều 9 khoản 1", url: "https://www.sav.gov.vn/Files/Others/db59882a-7d7d-4e67-9515-c363e3a1f417/284_2026_N%C4%90-CP.pdf", effective_from: "2026-09-01", checked_at: "2026-11-02", quote: null }
   - { doc: "Nghị định 284/2026/NĐ-CP ngày 16/7/2026", article: "Điều 4 khoản 1", url: "https://www.sav.gov.vn/Files/Others/db59882a-7d7d-4e67-9515-c363e3a1f417/284_2026_N%C4%90-CP.pdf", effective_from: "2026-09-01", checked_at: "2026-11-02", quote: null }
@@ -41,13 +41,13 @@ tags: []
 
 ## Nói dễ hiểu
 
-Bitcoin hay USDT không phải tiền hợp pháp ở Việt Nam. Có thí điểm thị trường tài sản mã hóa, nhưng đến nay chưa có tổ chức nào được cấp phép. Vì vậy giao dịch vẫn nằm ngoài khuôn khổ có bảo vệ.
+Việt Nam đang thí điểm thị trường tài sản mã hóa. Theo bài báo Chính phủ ngày 6/10/2026, bối cảnh là chưa có tổ chức cung cấp dịch vụ nào được cấp phép; tình hình sau ngày đó cần kiểm lại. Mức phạt 30 đến 50 triệu đồng chỉ áp dụng sau 6 tháng kể từ khi tổ chức đầu tiên được cấp phép. Nghị quyết yêu cầu giao dịch, thanh toán tài sản mã hóa bằng Đồng Việt Nam.
 
 ## Chi phí
 
 Không tốn tiền nếu không mua.
 
-- Nếu đã có: tốn thời gian bán ra. Với sàn nước ngoài còn có rủi ro không rút được tiền.
+- Nếu đã có: tốn thời gian bán ra.
 - Cái mất: phần tăng giá nếu có, mà không ai đo được trước.
 
 ## Lợi ích
@@ -66,18 +66,16 @@ Việc nền tảng có được cấp phép hay chưa, và thời điểm quy �
 
 **Tình hình cấp phép**
 
-- Ngày 6/10/2026, Bộ Tài chính trả lời công dân trên Cổng Thông tin điện tử Chính phủ: Việt Nam chưa có tổ chức cung cấp dịch vụ tài sản số nào được cấp phép. Nghĩa là đồng hồ 6 tháng chưa chạy và hiện chưa có sàn nào để giao dịch hợp pháp.
+- Bài trên Cổng Thông tin điện tử Chính phủ ngày 6/10/2026, khi trả lời công dân, nêu bối cảnh Việt Nam chưa có tổ chức cung cấp dịch vụ tài sản số nào được cấp phép (câu này là phần dẫn nhập của báo; Bộ Tài chính trả lời bằng cách dẫn khoản 2 Điều 7 Nghị quyết 05/2025/NQ-CP). Suy ra: đồng hồ 6 tháng chưa chạy. Cần kiểm lại tình hình sau ngày 6/10/2026.
 
 **Mức phạt, Nghị định 284/2026/NĐ-CP** (ban hành 16/7/2026, **hiệu lực 1/9/2026**)
 
-- Phạt **30 đến 50 triệu đồng** đối với nhà đầu tư trong nước giao dịch tài sản mã hóa không thông qua tổ chức cung cấp dịch vụ do Bộ Tài chính cấp phép (Điều 9 khoản 1, Nghị định 284/2026/NĐ-CP).
+- Phạt **30 đến 50 triệu đồng** đối với nhà đầu tư trong nước giao dịch tài sản mã hóa không thông qua tổ chức cung cấp dịch vụ do Bộ Tài chính cấp phép, theo khoản 2 Điều 7 Nghị quyết 05/2025/NQ-CP, tức chỉ sau 6 tháng kể từ khi tổ chức đầu tiên được cấp phép (Điều 9 khoản 1, Nghị định 284/2026/NĐ-CP).
 - Mức phạt tối đa của nghị định là **200 triệu đồng** với tổ chức và **100 triệu đồng** với cá nhân (Điều 4 khoản 1, Nghị định 284/2026/NĐ-CP).
 
 ## Ghi chú
 
-- **Bẫy 1: sàn nước ngoài không có nghĩa vụ với pháp luật Việt Nam.** Bị khóa tài khoản hay chặn rút thì không có cơ quan nào ở Việt Nam để khiếu nại.
-- **Bẫy 2: "cam kết lãi 2%/tháng bằng USDT" là mô hình lừa đảo quen thuộc.** Lãi được trả bằng đúng loại tài sản mà người trả tự tạo ra.
-- **Bẫy 3: khoảng trống pháp lý không phải là sự cho phép.** Đã có quy định xử phạt nhưng chưa có sàn được cấp phép. Đừng đọc tin "thí điểm" thành "mọi giao dịch đã hợp pháp".
+- **Bẫy 1: khoảng trống pháp lý không phải là sự cho phép.** Đã có quy định xử phạt nhưng theo bối cảnh nêu trên thì chưa có sàn được cấp phép. Đừng đọc tin "thí điểm" thành "mọi giao dịch đã hợp pháp".
 - **Đừng hiểu ngược:** mục này không dự đoán giá lên hay xuống và không nói ai mua là ngốc. Nó nói: nếu mua thì chỉ mua trên sàn được cấp phép, và phải coi đó là khoản có thể mất toàn bộ.
 
 ## Nguồn

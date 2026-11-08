@@ -1,0 +1,65 @@
+id: dat-24-gio-truoc-khi-mua-mon-lon-va-doc-dieu-kien
+checker: agent-V3a05d
+checked_at: 2026-11-08
+content_sha256: "834f0ffa043729d722a8c3d8dd24cc7fb46e76cf8e2841ed73477a07a72a8334"
+result: fail
+claims:
+  - text: "Nếu thông tin người bán thiếu hoặc sai, người tiêu dùng được đơn phương chấm dứt hợp đồng trong 36 ngày kể từ ngày giao kết (Điều 38 khoản 3 điểm b) - có trong tldr, steps, Nói dễ hiểu, Pháp luật VN, Bẫy 3"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "b) Trong thời hạn 30 ngày kể từ ngày giao kết hợp đồng, đơn phương chấm dứt thực hiện hợp đồng đã giao kết và thông báo cho tổ chức, cá nhân kinh doanh. Người tiêu dùng không phải trả bất kỳ chi phí nào dưới mọi hình thức để chấm dứt thực hiện hợp đồng, trừ chi phí đối với phần sản phẩm, hàng hóa, dịch vụ đã sử dụng;"
+    verdict: mismatch
+    note: "SAI SỐ. Luật 19/2023/QH15 Điều 38 khoản 3 điểm b ghi 30 ngày, không phải 36 ngày. PDF ký là ảnh quét (pdftotext chỉ 46 ký tự); đọc bằng OCR Apple Vision rồi xác nhận bằng mắt trên ảnh cắt trang 25/46 ở độ phân giải 200 dpi: 'Trong thời hạn 30 ngày kể từ ngày giao kết hợp đồng'. Con số 36 xuất hiện ở tldr, steps[3], Nói dễ hiểu, gạch đầu dòng Pháp luật VN thứ hai, và Bẫy 3, tất cả sai."
+  - text: "Bên bán phải hoàn tiền trong 30 ngày kể từ ngày có tuyên bố chấm dứt, quá hạn thì phải trả lãi (Điều 38 khoản 4)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "tổ chức, cá nhân kinh doanh phải hoàn trả cho người tiêu dùng khoản tiền đã thanh toán tương ứng với phần sản phẩm, hàng hóa, dịch vụ chưa sử dụng trong thời hạn 30 ngày kể từ ngày người tiêu dùng tuyên bố đơn phương chấm dứt thực hiện hợp đồng. Quá thời hạn này, tổ chức, cá nhân kinh doanh phải trả lãi đối với số tiền chậm trả theo lãi suất do hai bên thỏa thuận hoặc theo quy định của pháp luật về dân sự."
+    verdict: match
+    note: "Điều 38 khoản 4 (OCR trang 25-26, đối chiếu ảnh). Chỉ hoàn phần chưa sử dụng; mục viết đủ ý 'trừ chi phí cho phần đã sử dụng' ở claim trên."
+  - text: "Khi giao dịch từ xa, bên bán phải cung cấp chính xác, đầy đủ điều kiện và phương thức đổi, trả (Điều 37 khoản 1 điểm đ)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "đ) Phương thức, thời hạn thanh toán; thời gian, địa điểm, phương thức bán, cung cấp sản phẩm, hàng hóa, dịch vụ; điều kiện và phương thức đổi, trả sản phẩm, hàng hóa, dịch vụ;"
+    verdict: match
+    note: "Điều 37 khoản 1 điểm đ (OCR trang 24). Câu chủ khoản 1: 'phải cung cấp chính xác và đầy đủ cho người tiêu dùng các thông tin sau đây'. Cách mục suy 'điều kiện đổi trả đăng trên sàn ràng buộc chính người bán' là suy luận, không phải chữ của điều."
+  - text: "Điều 10 khoản 1 điểm e: cấm không đền bù, trả lại tiền hoặc đổi lại hàng không đúng với đăng ký, thông báo, công bố, niêm yết... (căn cứ phản đối 'mở hộp là hết quyền')"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "e) Không đền bù, trả lại tiền hoặc đổi lại sản phẩm, hàng hóa, dịch vụ cho người tiêu dùng do sản phẩm, hàng hóa, dịch vụ không đúng với đăng ký, thông báo, công bố, niêm yết, quảng cáo, giới thiệu, giao kết, cam kết của tổ chức, cá nhân kinh doanh;"
+    verdict: partial
+    note: "Điều 10 khoản 1 điểm e (OCR trang 8-9) khớp, nhưng áp dụng cho trường hợp hàng KHÔNG đúng với thông báo/quảng cáo. Câu 'mở hộp là hết quyền thì không hợp pháp' của Bẫy 2 chỉ đúng khi hàng sai mô tả; với đổi ý hay hàng đúng mô tả thì điều này không cấm điều kiện 'nguyên seal'. Mục có đoạn cân bằng ('hàng nguyên seal mới được trả hợp pháp') nhưng 'muốn biết hàng đúng hay không bạn buộc phải mở' là suy luận."
+  - text: "Nền tảng có chức năng đặt hàng trực tuyến phải tiếp nhận lại hàng hóa khi hàng không đúng nội dung đã thông báo, công bố..., hiệu lực từ 1/7/2026 (Luật Thương mại điện tử 122/2025/QH15 Điều 17 khoản 2 điểm b, Điều 40)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat122.2025.qh15.pdf
+    quote: "b) Tiếp nhận lại hàng hóa đối với trường hợp hàng hóa do người bán cung cấp không theo đúng nội dung đã thông báo, công bố, niêm yết, quảng cáo, giới thiệu, giao kết, cam kết trên nền tảng. Việc xử lý hàng hóa bị hoàn trả thực hiện theo quy định của pháp luật về dân sự;"
+    verdict: match
+    note: "Điều 17 khoản 2 điểm b (OCR trang 11; PDF ký quét ảnh). Điều 40: 'Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026.' Mục lược câu 'Việc xử lý hàng hóa bị hoàn trả thực hiện theo pháp luật dân sự' (ai trả phí vận chuyển, hoàn tiền thế nào), nên 'sàn phải tiếp nhận lại' chưa nói ai chịu chi phí. Ghi chú 'Chi phí: bạn thường tự trả phí vận chuyển về' là thực hành, không có nguồn."
+  - text: "'7 ngày đổi trả không cần lý do' là quy ước của sàn thương mại điện tử, không phải quyền do luật định; luật không cho trả hàng chỉ vì đổi ý"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "Trong thời hạn này, người tiêu dùng có quyền đơn phương chấm dứt thực hiện hợp đồng đã giao kết và thông báo cho tổ chức, cá nhân kinh doanh."
+    verdict: partial
+    note: "Câu trích là Điều 44 khoản 2 Luật 19/2023: hợp đồng bán hàng tận cửa lập thành văn bản phải dành tối thiểu 03 ngày làm việc để người tiêu dùng cân nhắc lại và được đơn phương chấm dứt không cần lỗi bên bán. Ngoài ra Điều 42 khoản 3 cho đơn phương chấm dứt dịch vụ liên tục bất kỳ lúc nào. Với mua hàng trực tuyến thông thường mục đúng; nhưng 'Luật không cho bạn trả hàng chỉ vì đổi ý' viết tuyệt đối, bỏ ngoại lệ bán hàng tận cửa và dịch vụ liên tục. Không tìm thấy trong Luật 19/2023 hay Luật TMĐT 122/2025 điều nào cho 7 ngày đổi ý với giao dịch từ xa (chưa rà các nghị định hướng dẫn)."
+  - text: "'24 giờ' là mẹo, không phải kết quả nghiên cứu; không có thử nghiệm nào đo số tiền tiết kiệm của một ngày chờ"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "(không có nguyên văn: khẳng định phủ định về văn liệu, không có nguồn để trích)"
+    verdict: inference
+    note: "Khẳng định 'không có thử nghiệm nào' là phủ định không kiểm được; nên viết 'chúng tôi không tìm thấy' hoặc bỏ. Mục đã gắn nhãn đây là mẹo, hợp lý."
+internal_checks:
+  - issue: "'36 ngày' (tldr, steps[3], Nói dễ hiểu, Pháp luật VN, Bẫy 3) mâu thuẫn với nguồn: Điều 38 khoản 3 điểm b ghi 30 ngày. Số 30 ngày cũng xuất hiện ngay trong mục (hoàn tiền trong 30 ngày), gây nhầm với 36."
+    severity: error
+  - issue: "steps[3] 'viện Điều 38 khoản 3 điểm b để hủy trong 36 ngày': hướng dẫn hành động với hạn chót sai (sai 6 ngày quá hạn có thể làm người đọc mất quyền, vì hủy ở ngày 31-36 sẽ không còn căn cứ điều này)."
+    severity: error
+  - issue: "legal_refs không có effective_from cho Luật BVQLNTD 19/2023/QH15 (nguồn: Điều chuyển tiếp 'Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024'); checked_at và quote null ở cả 5 ref."
+    severity: warn
+  - issue: "'Chi phí' mục: 'bạn tự trả phí vận chuyển về và phải giữ nguyên hộp, phụ kiện' không có cơ sở trong thân Pháp luật VN (luật chỉ nói người tiêu dùng không trả chi phí nào trừ phần đã sử dụng trong khoản 3 điểm b)."
+    severity: warn
+validity:
+  doc: "Luật Bảo vệ quyền lợi người tiêu dùng 19/2023/QH15; Luật Thương mại điện tử 122/2025/QH15"
+  in_force: unconfirmed
+  effective_from: "2024-07-01"
+  amended_by: []
+  basis: "Luật 19/2023/QH15 (OCR cuối văn bản): 'Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024'. Luật TMĐT 122/2025/QH15 Điều 40: hiệu lực 01/7/2026, thông qua 10/12/2025. Chưa mở Công báo xác nhận không bị sửa đổi sau; không có bằng chứng tích cực."
+suggested_edits:
+  - "Đổi mọi '36 ngày' thành '30 ngày' (tldr, steps[3], Nói dễ hiểu, Pháp luật VN gạch 2, Bẫy 3). Căn cứ: 'Trong thời hạn 30 ngày kể từ ngày giao kết hợp đồng' (Điều 38 khoản 3 điểm b)."
+  - "Nói dễ hiểu: 'Luật không cho bạn trả hàng chỉ vì đổi ý' -> 'Với mua hàng từ xa thông thường luật không cho trả hàng chỉ vì đổi ý (trừ bán hàng tận cửa có hợp đồng văn bản: ít nhất 03 ngày làm việc cân nhắc lại, Điều 44 khoản 2; và dịch vụ liên tục, Điều 42 khoản 3)'."
+  - "Bẫy 2: gắn điều kiện cho Điều 10 khoản 1 điểm e: 'khi hàng không đúng với thông báo/công bố/quảng cáo'. Căn cứ: nguyên văn điểm e."
+  - "Pháp luật VN gạch 4: thêm 'Việc xử lý hàng hóa bị hoàn trả thực hiện theo quy định của pháp luật về dân sự' sau 'Điều 17 khoản 2 điểm b'. Căn cứ: nguyên văn điểm b."
+  - "Chi phí: bỏ 'bạn thường tự trả phí vận chuyển về' hoặc gắn nhãn thực hành của sàn, không phải luật."
+potential_harm:
+  - "Hạn 36 ngày sai (đúng là 30 ngày): người đọc làm đúng step 4 có thể chờ ngày 31-36 mới hủy và bị bên bán từ chối vì quá hạn theo Điều 38 khoản 3 điểm b; mất quyền hoàn tiền. Thiệt hại tài chính, không phải y tế."
+deliberate_vn_deviation: []

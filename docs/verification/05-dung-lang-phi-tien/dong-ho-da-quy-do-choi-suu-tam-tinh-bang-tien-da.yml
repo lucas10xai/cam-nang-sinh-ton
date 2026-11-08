@@ -1,0 +1,64 @@
+id: dong-ho-da-quy-do-choi-suu-tam-tinh-bang-tien-da
+checker: agent-V3a05f
+checked_at: 2026-11-08
+content_sha256: "2190d5295b561a63b9402d04224688dc135467a870996e93611c0910564cb414"
+result: fail
+claims:
+  - text: "Thu nhập từ chuyển nhượng vàng miếng là thu nhập chịu thuế (mục dẫn 'Điều 6 khoản 10 điểm đ' Luật TNCN 109/2025/QH15)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "10. Thu nhập khác, bao gồm: ... đ) Thu nhập từ chuyển nhượng vàng miếng."
+    verdict: mismatch
+    note: "PDF ký số là ảnh quét; OCR 15 trang (macOS Vision). Câu có thật nhưng ở Điều 3 khoản 10 điểm đ (Điều 3 'thu nhập chịu thuế', trang 3), KHÔNG phải Điều 6. Điều 6 là 'Quản lý thuế đối với thuế thu nhập cá nhân'. Sai điều dẫn (legal_refs[0].article và phần Nguồn). Luật số 109/2025/QH15 đúng."
+  - text: "Chính phủ quy định ngưỡng giá trị vàng miếng chịu thuế, thời điểm áp dụng và thuế suất"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "Chính phủ quy định ngưỡng giá trị vàng miếng chịu thuế, thời điểm áp dụng thu và điều chỉnh thuế suất thuế thu nhập cá nhân đối với chuyển nhượng vàng miếng phù hợp với lộ trình quản lý thị trường vàng."
+    verdict: partial
+    note: "Luật giao Chính phủ quy định 'ngưỡng', 'thời điểm áp dụng thu' và 'điều chỉnh thuế suất', không phải 'quy định thuế suất' từ đầu. Chính luật đã có thuế suất mặc định: Điều 19 khoản 2: 'Thuế thu nhập cá nhân đối với thu nhập khác của cá nhân cư trú quy định tại điểm d và điểm đ khoản 10 Điều 3 của Luật này được xác định bằng giá chuyển nhượng nhân (x) với thuế suất 0,1%.' Nên câu của mục 'thuế suất do Chính phủ quy định, hiện chưa có con số' không chính xác: có 0,1% trong luật, chỉ là Chính phủ có thể điều chỉnh."
+  - text: "Từ năm 2026, bán vàng miếng đã nằm trong diện thu nhập chịu thuế (tldr, Nói dễ hiểu, Pháp luật VN)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026, trừ trường hợp quy định tại khoản 2 Điều này."
+    verdict: partial
+    note: "Điều 29 khoản 1 (OCR trang 14): luật hiệu lực 01/7/2026, không phải 'từ 2026' nói chung; khoản 2 (áp dụng từ kỳ tính thuế năm 2026) chỉ cho thu nhập từ kinh doanh, tiền lương, tiền công của cá nhân cư trú, không áp dụng vàng miếng. Quan trọng hơn: Bộ Tài chính, Thông tin báo chí số 20 ngày 30/6/2026 (https://cdn.thuvienphapluat.vn/uploads/tintuc/2026/07/01/TTBC-20-BTC.pdf, đọc được chữ): 'Luật Thuế Thu nhập cá nhân số 109/2025/QH15 ... có hiệu lực thi hành kể từ ngày 01/7/2026, trong đó quy định thu nhập từ chuyển nhượng vàng miếng là thu nhập phải chịu thuế. Tuy nhiên, Luật giao Chính phủ quy định ngưỡng giá trị vàng miếng chịu thuế, thời điểm áp dụng thu...' và tiêu đề 'Chưa thu thuế đối với hoạt động chuyển nhượng vàng miếng từ ngày 01/7/2026'. Vì vậy 'bán vàng miếng thuộc diện thu nhập chịu thuế' đúng về luật, nhưng ở ngày 2026-11-08 chưa có quy định về thời điểm thu (không có nguồn sơ cấp nào mới hơn mà tôi tìm thấy; không xác nhận được)."
+  - text: "Cấm cung cấp thông tin sai lệch, không đầy đủ, không chính xác về sản phẩm (Điều 10 khoản 1 điểm a Luật BVQLNTD 19/2023/QH15)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "a) Lừa dối hoặc gây nhầm lẫn cho người tiêu dùng thông qua việc cung cấp thông tin sai lệch, không đầy đủ, không chính xác về một trong các nội dung sau đây: sản phẩm, hàng hóa, dịch vụ mà tổ chức, cá nhân kinh doanh bán, cung cấp;"
+    verdict: partial
+    note: "OCR trang 8 (ảnh quét). Hành vi bị cấm là 'lừa dối hoặc gây nhầm lẫn ... thông qua việc cung cấp thông tin sai lệch...'; mục lược bỏ 'lừa dối hoặc gây nhầm lẫn'. Ý đúng nhưng thiếu yếu tố cấu thành."
+  - text: "Không có cơ quan nào công bố giá thu hồi cho đồng hồ, trang sức, đá quý, đồ chơi sưu tầm"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "(không có nguyên văn)"
+    verdict: not-found
+    note: "Khẳng định phủ định về thị trường, không có nguồn pháp lý; mục tự nhận là nhận xét. Nên gắn 'nhận xét của biên tập'."
+  - text: "Công thức thuế nước ngoài dựa vào thuế tiêu thụ đặc biệt đánh trên đồng hồ/trang sức; 'Sách không kiểm được mức tương ứng ở Việt Nam'"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "(không có nguyên văn)"
+    verdict: not-found
+    note: "Không có nguồn; câu thừa nhận không kiểm được nên không gây sai, nhưng 'Bẫy 1' dựa trên một tuyên bố về nước ngoài không có nguồn."
+internal_checks:
+  - issue: "legal_refs[0].article và dòng đầu mục Nguồn ghi 'Điều 6 khoản 10 điểm đ' nhưng thực tế là Điều 3 khoản 10 điểm đ (xem claim 1)."
+    severity: error
+  - issue: "Mục viết 'hiện chưa có con số' về thuế suất vàng miếng nhưng Luật 109/2025/QH15 Điều 19 khoản 2 quy định 0,1% × giá chuyển nhượng (cá nhân cư trú). Mục cũng không nhắc điểm d/đ khoản 10 Điều 3 cùng thuế suất 0,1% (tài sản số) và ngưỡng 20 triệu đồng/lần cho điểm a-c."
+    severity: error
+  - issue: "tldr: 'Từ 2026, bán vàng miếng thuộc thu nhập chịu thuế' không nêu: luật hiệu lực 01/7/2026, Chính phủ quy định thời điểm áp dụng thu, và Bộ Tài chính (30/6/2026) xác nhận chưa thu. Người đọc có thể hiểu là đang bị thu thuế."
+    severity: error
+  - issue: "legal_refs[1] (Luật BVQLNTD 19/2023/QH15 Điều 10.1.a) có url: null; url trong Nguồn không ghi (chỉ 'bản ký Bộ Công Thương, OCR'). URL đúng là moit.gov.vn/.../Luat_BVQLNTD_2023_a41f1.pdf (cùng URL mục 31/34, đã mở)."
+    severity: warn
+  - issue: "legal_refs đặt checked_at 2026-11-02 nhưng quote/effective_from đều null; không kiểm được nội dung qua metadata."
+    severity: warn
+  - issue: "steps không chứa con số; 'Đừng ghi khoản này vào cột tài sản' là lời khuyên tài chính cá nhân không có cơ sở pháp lý (kết luận kế toán cá nhân, không phải chữ luật)."
+    severity: warn
+validity:
+  doc: "Luật Thuế thu nhập cá nhân 109/2025/QH15"
+  in_force: true
+  effective_from: "2026-07-01"
+  amended_by: []
+  basis: "Điều 29 khoản 1 (OCR trang 14 của bản ký 109/2025/QH15): 'Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026'; Thông tin báo chí Bộ Tài chính số 20 (30/6/2026) xác nhận luật 'có hiệu lực thi hành kể từ ngày 01/7/2026'. Không thấy luật sửa đổi trong tìm kiếm, nhưng riêng quy định vàng miếng chưa có hiệu lực thu thực tế (chờ nghị định). Luật BVQLNTD 19/2023/QH15: hiệu lực từ 01/7/2024 (Điều 79 khoản 1, OCR)."
+deliberate_vn_deviation: []
+potential_harm:
+  - "tldr, Nói dễ hiểu và Pháp luật VN nói 'từ 2026 bán vàng miếng đã thuộc thu nhập chịu thuế/đã nằm trong diện thu nhập chịu thuế' mà không nêu Chính phủ chưa quy định thời điểm thu (Bộ Tài chính 30/6/2026: chưa thu), và cũng nói 'chưa có con số' dù luật có thuế suất 0,1% (Điều 19 khoản 2). Người đọc có thể khai/nộp sai hoặc hoảng hốt bán tháo; sai về pháp luật thuế chứ không gây hại sức khỏe. Chưa nghiêm trọng nhưng cần sửa trước khi công bố."
+suggested_edits:
+  - "legal_refs[0].article và dòng Nguồn đầu: đổi 'Điều 6 khoản 10 điểm đ' thành 'Điều 3 khoản 10 điểm đ' (quote: 'đ) Thu nhập từ chuyển nhượng vàng miếng.')."
+  - "tldr và Nói dễ hiểu: thay 'Từ 2026, bán vàng miếng thuộc thu nhập chịu thuế' bằng 'Luật Thuế TNCN 109/2025/QH15 (hiệu lực 01/7/2026) liệt kê thu nhập từ chuyển nhượng vàng miếng là thu nhập chịu thuế; Chính phủ sẽ quy định ngưỡng và thời điểm áp dụng thu, và đến 30/6/2026 Bộ Tài chính xác nhận chưa thu thuế'."
+  - "Phần Pháp luật VN: thay 'Tức là từ năm 2026 ... hiện chưa có con số' bằng: 'Điều 19 khoản 2 đặt mức 0,1% trên giá chuyển nhượng (cá nhân cư trú); Chính phủ quy định ngưỡng giá trị chịu thuế, thời điểm thu và có thể điều chỉnh thuế suất (Điều 3 khoản 10)'. Cập nhật nếu đã có nghị định tại thời điểm công bố."
+  - "Điều 10 khoản 1 điểm a: ghi đủ 'Lừa dối hoặc gây nhầm lẫn ... thông qua việc cung cấp thông tin sai lệch, không đầy đủ, không chính xác'."
+  - "Bẫy 1: bỏ hoặc nêu nguồn cho tuyên bố về thuế tiêu thụ đặc biệt nước ngoài; điền url cho legal_refs[1]."

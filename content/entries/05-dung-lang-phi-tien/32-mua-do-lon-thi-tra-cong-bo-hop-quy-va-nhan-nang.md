@@ -14,20 +14,17 @@ evidence: C
 contested: false
 vn_class: vn_native
 rewrite_status: rewritten
-tldr: "Việt Nam không có dấu 3C, chỉ có dấu hợp quy; thêm nhãn năng lượng bắt buộc trên điều hòa, tủ lạnh, máy giặt và nhiều đồ gia dụng khác. Thiếu một trong hai thì hỏi giấy tờ."
+tldr: "Từ 01/01/2026 luật phân hàng theo mức rủi ro; hàng rủi ro trung bình, cao có công bố hợp quy. Nhãn năng lượng bắt buộc trên điều hòa, tủ lạnh, máy giặt, nồi cơm điện, quạt, tivi, đèn LED; bếp từ, lò vi sóng bắt buộc từ 01/01/2027."
 steps:
-  - "Trước khi trả tiền, xem dấu hợp quy trên tem/nhãn và nhãn năng lượng có số sao."
-  - "Thiếu một trong hai thì hỏi người bán giấy công bố hợp quy; đừng chấp nhận “hàng mới chưa kịp dán”."
-  - "Muốn chắc hơn, hỏi thêm kết quả thử nghiệm của phòng thử nghiệm được chỉ định."
+  - "Trước khi trả tiền, tìm nhãn năng lượng trên điều hòa, tủ lạnh, máy giặt, nồi cơm điện, quạt, tivi."
+  - "Thiếu nhãn ở món thuộc danh mục bắt buộc thì hỏi người bán; đừng chấp nhận “hàng mới chưa kịp dán”."
+  - "Hỏi thêm giấy công bố hợp quy hoặc kết quả thử nghiệm nếu muốn chắc hơn."
   - "So nhãn năng lượng trước khi so giá."
 legal_refs:
-  - { doc: "Luật Chất lượng sản phẩm, hàng hóa 05/2007/QH12", article: "Điều 5", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2007/12/97732_l5qh.doc", effective_from: null, checked_at: null, quote: null }
-  - { doc: "Luật Chất lượng sản phẩm, hàng hóa 05/2007/QH12", article: "Điều 24 khoản 1", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2007/12/97732_l5qh.doc", effective_from: null, checked_at: null, quote: null }
-  - { doc: "Luật Chất lượng sản phẩm, hàng hóa 05/2007/QH12", article: "Điều 25 khoản 3 điểm b", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2007/12/97732_l5qh.doc", effective_from: null, checked_at: null, quote: null }
-  - { doc: "Nghị định 74/2018/NĐ-CP", article: "Điều 1 khoản 2", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/05/74.signed.pdf", effective_from: null, checked_at: null, quote: null }
-  - { doc: "Thông tư 52/2025/TT-BCT", article: "Điều 2", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/11/52-bct.signed.pdf", effective_from: null, checked_at: null, quote: null }
-  - { doc: "Thông tư 52/2025/TT-BCT", article: "Điều 3", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/11/52-bct.signed.pdf", effective_from: null, checked_at: null, quote: null }
-  - { doc: "Luật Sử dụng năng lượng tiết kiệm và hiệu quả (sửa đổi bởi Luật 77/2025/QH15)", article: null, url: null, effective_from: null, checked_at: null, quote: null }
+  - { doc: "Luật 78/2025/QH15 (sửa đổi Luật Chất lượng sản phẩm, hàng hóa 05/2007/QH12)", article: "Điều 5 khoản 2", url: null, effective_from: "2026-01-01", checked_at: null, quote: null }
+  - { doc: "Luật 78/2025/QH15 (sửa đổi Luật Chất lượng sản phẩm, hàng hóa 05/2007/QH12)", article: "Điều 28 khoản 1 điểm d", url: null, effective_from: "2026-01-01", checked_at: null, quote: null }
+  - { doc: "Thông tư 52/2025/TT-BCT", article: "Điều 2", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/11/52-bct.signed.pdf", effective_from: "2026-01-01", checked_at: null, quote: null }
+  - { doc: "Thông tư 52/2025/TT-BCT", article: "Điều 3 khoản 1", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/11/52-bct.signed.pdf", effective_from: "2026-01-01", checked_at: null, quote: null }
 verification:
   status: unverified
   checked_at: null
@@ -45,7 +42,7 @@ tags: []
 
 ## Nói dễ hiểu
 
-Việt Nam không có dấu “3C” của nước ngoài mà chỉ có dấu hợp quy. Cái tương ứng là chứng nhận hợp quy và dấu hợp quy, cộng nhãn năng lượng bắt buộc trên tủ lạnh, máy giặt, điều hòa, nồi cơm điện, quạt, tivi, bếp từ.
+Từ 01/01/2026, luật chất lượng hàng hóa phân sản phẩm theo ba mức rủi ro: thấp, trung bình, cao. Hàng rủi ro trung bình và cao có nghĩa vụ công bố hợp quy. Riêng nhãn năng lượng thì bắt buộc trên nhóm thiết bị gia dụng nêu ở dưới.
 
 ## Chi phí
 
@@ -53,34 +50,34 @@ Không tốn tiền. Vài phút đọc nhãn và hỏi người bán giấy côn
 
 ## Lợi ích
 
-Trước khi trả tiền, xem dấu hợp quy trên tem/nhãn và nhãn năng lượng có số sao.
+Trước khi trả tiền, tìm nhãn năng lượng trên thiết bị thuộc danh mục bắt buộc.
 
-Thiếu một trong hai thì đó là chỗ để hỏi. Câu trả lời “hàng mới chưa kịp dán” là câu trả lời xấu.
+Thiếu nhãn ở món thuộc danh mục bắt buộc thì đó là chỗ để hỏi. Câu trả lời “hàng mới chưa kịp dán” là câu trả lời xấu (nhận xét của biên tập, không phải chữ luật).
 
 ## Pháp luật Việt Nam
 
 **Hợp quy**
 
-- Hàng hóa chia hai nhóm: nhóm 1 quản lý theo tiêu chuẩn do người sản xuất công bố; nhóm 2 quản lý theo quy chuẩn kỹ thuật tương ứng do cơ quan nhà nước ban hành (Điều 5, Luật Chất lượng sản phẩm, hàng hóa 05/2007/QH12).
-- Người sản xuất phải công bố hợp quy khi sản phẩm phù hợp quy chuẩn kỹ thuật (Điều 24 khoản 1, Luật Chất lượng sản phẩm, hàng hóa 05/2007/QH12).
-- Chứng nhận hợp quy do tổ chức chứng nhận được chỉ định thực hiện (Điều 25 khoản 3 điểm b, Luật Chất lượng sản phẩm, hàng hóa 05/2007/QH12).
-- Với sản phẩm nhóm 2, người sản xuất phải công bố hợp quy theo quy chuẩn kỹ thuật quốc gia tương ứng (Điều 1 khoản 2, Nghị định 74/2018/NĐ-CP).
-- Việc công bố dựa trên kết quả tự đánh giá của tổ chức, cá nhân, hoặc kết quả chứng nhận của tổ chức chứng nhận đã đăng ký hoặc được thừa nhận (Điều 1 khoản 2, Nghị định 74/2018/NĐ-CP).
+- Luật 78/2025/QH15 có hiệu lực từ 01/01/2026 và bãi bỏ các Điều 24 và 25 của Luật Chất lượng sản phẩm, hàng hóa 05/2007/QH12 (Điều 1 khoản 25, Luật 78/2025/QH15).
+- Sản phẩm, hàng hóa được phân thành ba loại theo mức độ rủi ro: thấp, trung bình, cao (Điều 5 khoản 2, Luật Chất lượng sản phẩm, hàng hóa sửa đổi bởi Luật 78/2025/QH15).
+- Công bố hợp quy theo pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật đối với sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao (Điều 28 khoản 1 điểm d, luật sửa đổi bởi Luật 78/2025/QH15).
+- Nghị định 74/2018/NĐ-CP hết hiệu lực từ 01/7/2026 theo Điều 97 khoản 2 điểm b Nghị định 37/2026/NĐ-CP. Cần đối chiếu Nghị định 37/2026/NĐ-CP (hướng dẫn luật sau sửa đổi) để biết cách công bố cụ thể; mục này chưa dẫn điều khoản của nghị định đó.
 
 **Nhãn năng lượng**
 
-- Thông tư 52/2025/TT-BCT của Bộ Công Thương quy định danh mục phương tiện, thiết bị phải dán nhãn năng lượng và lộ trình (Điều 2 và Điều 3, Thông tư 52/2025/TT-BCT). Thông tư ban hành trên cơ sở Luật Sử dụng năng lượng tiết kiệm và hiệu quả (sửa đổi bởi Luật 77/2025/QH15).
-- Danh mục nhóm gia dụng gồm máy điều hòa không khí, tủ lạnh, máy giặt gia dụng, nồi cơm điện, quạt điện, máy thu hình, đèn LED, bếp từ, bếp hồng ngoại, lò vi sóng (Điều 2, Thông tư 52/2025/TT-BCT). Nghĩa là mấy món tốn điện nhất trong nhà đều thuộc diện phải có nhãn.
+- Thông tư 52/2025/TT-BCT của Bộ Công Thương (hiệu lực từ 01/01/2026) quy định danh mục phương tiện, thiết bị dán nhãn năng lượng và lộ trình (Điều 2 và Điều 3, Thông tư 52/2025/TT-BCT).
+- Dán nhãn năng lượng bắt buộc đối với (trích): đèn huỳnh quang, chấn lưu, máy điều hòa không khí, tủ lạnh, máy giặt gia dụng, nồi cơm điện, quạt điện, máy thu hình, đèn LED, bình đun nước nóng có dự trữ và một số thiết bị công nghiệp (Điều 3 khoản 1 điểm a, Thông tư 52/2025/TT-BCT).
+- Bếp từ, bếp hồng ngoại, lò vi sóng: dán nhãn tự nguyện đến hết ngày 31/12/2026, bắt buộc từ ngày 01/01/2027 (Điều 3 khoản 1 điểm b và c, Thông tư 52/2025/TT-BCT).
 
 ## Ghi chú
 
-- **Bẫy 1: “3C” không tồn tại ở Việt Nam.** Nếu người bán nói “hàng có 3C” thì đó là dấu của nước khác, không phải căn cứ pháp lý Việt Nam. Cái phải có là công bố hợp quy theo quy chuẩn kỹ thuật quốc gia tương ứng.
-- **Bẫy 2: Tự công bố không bằng được kiểm tra.** Với nhiều nhóm hàng, doanh nghiệp được tự đánh giá rồi công bố, nên giấy công bố không đồng nghĩa đã có bên thứ ba thử nghiệm. Muốn chắc thì hỏi thêm kết quả thử nghiệm của phòng thử nghiệm được chỉ định.
-- **Bẫy 3: Nhãn năng lượng có nhiều bậc, không chỉ “có hay không”.** Cùng một mức giá, chênh 1–2 sao là chênh tiền điện mỗi tháng trong nhiều năm. So nhãn trước khi so giá là cách tính đúng.
-- **Bẫy 4: Đừng hiểu ngược.** Mục này không nói “không có dấu là hàng giả”: tem có thể in sai, hàng trưng bày mất tem, hàng nhập khẩu có nhãn phụ. Cái đáng làm là hỏi giấy tờ, không phải kết luận ngay.
+- **Bẫy 1: Không phải món nào cũng có giấy công bố hợp quy.** Theo điều luật nêu trên, nghĩa vụ công bố hợp quy gắn với sản phẩm rủi ro trung bình và cao; mục này chưa có nguồn cho việc từng món cụ thể thuộc mức nào.
+- **Bẫy 2: Giấy công bố khác kết quả thử nghiệm.** Muốn chắc hơn thì hỏi thêm kết quả thử nghiệm (lời khuyên thực tế, không phải chữ luật).
+- **Bẫy 3: Nhãn năng lượng có nhiều bậc, không chỉ “có hay không”.** Cùng một mức giá, nhãn tốt hơn thường là tiền điện thấp hơn mỗi tháng (suy ra, mục này chưa có nguồn cho thang bậc của nhãn). So nhãn trước khi so giá.
+- **Bẫy 4: Đừng hiểu ngược.** Mục này không nói “không có nhãn là hàng giả”: tem có thể in sai, hàng trưng bày mất tem. Với bếp từ, lò vi sóng thì đến hết 31/12/2026 nhãn còn là tự nguyện. Cái đáng làm là hỏi giấy tờ, không phải kết luận ngay.
 
 ## Nguồn
 
-- Luật Chất lượng sản phẩm, hàng hóa 05/2007/QH12, Điều 5, Điều 24 khoản 1, Điều 25 khoản 3 điểm b, bản ký: <https://datafiles.chinhphu.vn/cpp/files/vbpq/2007/12/97732_l5qh.doc>.
-- Nghị định 74/2018/NĐ-CP, Điều 1 khoản 2 (công bố hợp quy cho sản phẩm nhóm 2), bản ký: <https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/05/74.signed.pdf> (OCR).
-- Thông tư 52/2025/TT-BCT, Điều 2 (danh mục) và Điều 3 (lộ trình), bản ký: <https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/11/52-bct.signed.pdf> (OCR).
+- Luật 78/2025/QH15 sửa đổi Luật Chất lượng sản phẩm, hàng hóa (hiệu lực 01/01/2026), Điều 1 khoản 25, Điều 5, Điều 28 khoản 1 điểm d; đọc qua bản .doc từ Công báo: <https://congbao.chinhphu.vn/van-ban/luat-so-78-2025-qh15-45570.htm>.
+- Nghị định 37/2026/NĐ-CP, Điều 97 khoản 2 điểm b; đọc qua bản đăng lại, cần đối chiếu bản gốc.
+- Thông tư 52/2025/TT-BCT, Điều 2 và Điều 3 khoản 1, bản ký: <https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/11/52-bct.signed.pdf>.

@@ -1,0 +1,103 @@
+id: ba-con-duong-cho-nghi-hop-phap-khong-dap-ung-om-dai
+checker: agent-V3a19aA
+checked_at: 2026-11-08
+content_sha256: a65e165f305d8fee6b8bfc815c612c64e0e53a66a15772c7b950ff2c2a789f67
+result: pass-with-edits
+claims:
+  - text: "Điểm a: thường xuyên không hoàn thành công việc, xác định theo tiêu chí trong quy chế đánh giá; quy chế phải tham khảo ý kiến tổ chức đại diện người lao động tại cơ sở"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: Người lao động thường xuyên không hoàn thành công việc theo hợp đồng lao động được xác định theo tiêu chí đánh giá mức độ hoàn thành công việc trong quy chế của người sử dụng lao động. Quy chế đánh giá mức độ hoàn thành công việc do người sử dụng lao động ban hành nhưng phải tham khảo ý kiến tổ chức đại diện người lao động tại cơ sở đối với nơi có tổ chức đại diện người lao động tại cơ sở;
+    verdict: match
+    note: BLLĐ Điều 36 khoản 1 điểm a. Câu "buộc quy chế phải có, phải ban hành" là suy ra hợp lý; "ban hành sau ngày bị đánh giá" (Bẫy 1) cũng suy ra.
+  - text: "Điểm b: ốm đau, tai nạn điều trị 12 tháng liên tục (hợp đồng không xác định thời hạn), 06 tháng liên tục (12–36 tháng), quá nửa thời hạn (dưới 12 tháng), mà khả năng lao động chưa hồi phục"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: Người lao động bị ốm đau, tai nạn đã điều trị 12 tháng liên tục đối với người làm việc theo hợp đồng lao động không xác định thời hạn hoặc đã điều trị 06 tháng liên tục đối với người làm việc theo hợp đồng lao động xác định thời hạn có thời hạn từ 12 tháng đến 36 tháng hoặc quá nửa thời hạn hợp đồng lao động đối với người làm việc theo hợp đồng lao động xác định thời hạn có thời hạn dưới 12 tháng mà khả năng lao động chưa hồi phục.
+    verdict: match
+    note: BLLĐ Điều 36 khoản 1 điểm b.
+  - text: "Điểm c: thiên tai, hỏa hoạn, dịch bệnh nguy hiểm, địch họa hoặc di dời, thu hẹp sản xuất theo yêu cầu cơ quan nhà nước, đã tìm mọi biện pháp vẫn buộc phải giảm chỗ làm việc"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: Do thiên tai, hỏa hoạn, dịch bệnh nguy hiểm, địch họa hoặc di dời, thu hẹp sản xuất, kinh doanh theo yêu cầu của cơ quan nhà nước có thẩm quyền mà người sử dụng lao động đã tìm mọi biện pháp khắc phục nhưng vẫn buộc phải giảm chỗ làm việc;
+    verdict: match
+    note: BLLĐ Điều 36 khoản 1 điểm c.
+  - text: 'tldr/tiêu đề: "Cho nghỉ hợp pháp chỉ qua ba cửa: không đáp ứng, ốm dài, thay đổi cơ cấu"'
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: "Người sử dụng lao động có quyền đơn phương chấm dứt hợp đồng lao động trong trường hợp sau đây: ... d) Người lao động không có mặt tại nơi làm việc sau thời hạn quy định tại Điều 31 của Bộ luật này; đ) Người lao động đủ tuổi nghỉ hưu theo quy định tại Điều 169 của Bộ luật này, trừ trường hợp có thỏa thuận khác; e) Người lao động tự ý bỏ việc mà không có lý do chính đáng từ 05 ngày làm việc liên tục trở lên; g) Người lao động cung cấp không trung thực thông tin theo quy định tại khoản 2 Điều 16 của Bộ luật này"
+    verdict: mismatch
+    note: Điều 36 khoản 1 có bảy trường hợp (a–g), không chỉ a, b, c; còn có sa thải (Điều 34 khoản 8, Điều 125), hết hạn, thỏa thuận (Điều 34). "Chỉ qua ba cửa" là nói quá. Điều 34 khoản 11 (Điều 42–43) cũng gồm chia tách, sáp nhập, bán, cho thuê (thân bài chỉ nhắc ở "mất việc").
+  - text: Báo trước 45 ngày (không xác định thời hạn), 30 ngày (12–36 tháng), 3 ngày làm việc (dưới 12 tháng và trường hợp điểm b khoản 1); miễn báo trước cho điểm d, e
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: a) Ít nhất 45 ngày đối với hợp đồng lao động không xác định thời hạn; b) Ít nhất 30 ngày đối với hợp đồng lao động xác định thời hạn có thời hạn từ 12 tháng đến 36 tháng; c) Ít nhất 03 ngày làm việc đối với hợp đồng lao động xác định thời hạn có thời hạn dưới 12 tháng và đối với trường hợp quy định tại điểm b khoản 1 Điều này; | Khi đơn phương chấm dứt hợp đồng lao động quy định tại điểm d và điểm e khoản 1 Điều này thì người sử dụng lao động không phải báo trước cho người lao động.
+    verdict: match
+    note: BLLĐ Điều 36 khoản 2, 3. Khoản 2 áp dụng cho điểm a, b, c, đ, g; điểm b luôn 03 ngày làm việc bất kể loại hợp đồng, nên câu Chi phí "45 ngày với hợp đồng không xác định thời hạn" không áp dụng cho ốm dài.
+  - text: "Những lúc bị cấm đơn phương chấm dứt: đang điều trị, điều dưỡng theo chỉ định (trừ điểm b); nghỉ hằng năm, nghỉ việc riêng, nghỉ khác được đồng ý; nữ mang thai, nghỉ thai sản hoặc nuôi con dưới 12 tháng"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: Người lao động ốm đau hoặc bị tai nạn, bệnh nghề nghiệp đang điều trị, điều dưỡng theo chỉ định của cơ sở khám bệnh, chữa bệnh có thẩm quyền, trừ trường hợp quy định tại điểm b khoản 1 Điều 36 của Bộ luật này. 2. Người lao động đang nghỉ hằng năm, nghỉ việc riêng và trường hợp nghỉ khác được người sử dụng lao động đồng ý. 3. Người lao động nữ mang thai; người lao động đang nghỉ thai sản hoặc nuôi con dưới 12 tháng tuổi.
+    verdict: match
+    note: BLLĐ Điều 37. Điều 37 là hạn chế "đơn phương chấm dứt" theo Điều 36; Bẫy 2 và step 2 áp vào mọi quyết định chấm dứt, kể cả cho thôi việc vì cơ cấu (Điều 42), trường hợp này chưa có nguồn nào của BLLĐ nói Điều 37 áp dụng.
+  - text: Thay đổi cơ cấu, công nghệ gồm ... lý do kinh tế gồm khủng hoảng/suy thoái; chính sách pháp luật khi cơ cấu lại kinh tế hoặc cam kết quốc tế
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: Thay đổi cơ cấu tổ chức, tổ chức lại lao động; ... Thay đổi quy trình, công nghệ, máy móc, thiết bị sản xuất, kinh doanh gắn với ngành, nghề sản xuất, kinh doanh của người sử dụng lao động; c) Thay đổi sản phẩm hoặc cơ cấu sản phẩm. ... Khủng hoảng hoặc suy thoái kinh tế; Thực hiện chính sách, pháp luật của Nhà nước khi cơ cấu lại nền kinh tế hoặc thực hiện cam kết quốc tế.
+    verdict: match
+    note: BLLĐ Điều 42 khoản 1, 2.
+  - text: Phải xây dựng và thực hiện phương án sử dụng lao động (Điều 42 khoản 3, 4) và Bẫy 3 "bị cho thôi vì cơ cấu mà không có phương án sử dụng lao động"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: Trường hợp thay đổi cơ cấu, công nghệ mà ảnh hưởng đến việc làm của nhiều người lao động thì người sử dụng lao động phải xây dựng và thực hiện phương án sử dụng lao động theo quy định tại Điều 44 của Bộ luật này; ... Trong trường hợp vì lý do kinh tế mà nhiều người lao động có nguy cơ mất việc làm, phải thôi việc thì người sử dụng lao động phải xây dựng và thực hiện phương án sử dụng lao động
+    verdict: partial
+    note: BLLĐ Điều 42 khoản 3, 4. Nghĩa vụ phát sinh khi ảnh hưởng đến việc làm của "nhiều người lao động"; mục viết như bắt buộc cho mọi vụ cho thôi vì cơ cấu (step 3 đòi phương án sử dụng lao động) và NĐ 283 Điều 18 khoản 3 điểm b cũng phạt không lập phương án trong các trường hợp này. Người đọc là một người bị cho thôi có thể đòi tài liệu không tồn tại.
+  - text: Phải trả trợ cấp mất việc làm theo Điều 47
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: Trong trường hợp người sử dụng lao động không thể giải quyết được việc làm mà phải cho người lao động thôi việc thì phải trả trợ cấp mất việc làm theo quy định tại Điều 47 của Bộ luật này.
+    verdict: partial
+    note: BLLĐ Điều 42 khoản 5. Mục bỏ điều kiện "không thể giải quyết được việc làm" (còn chỗ làm khác/đào tạo lại).
+  - text: Cho thôi việc vì cơ cấu chỉ sau khi trao đổi ý kiến với tổ chức đại diện người lao động tại cơ sở và thông báo trước 30 ngày cho UBND cấp tỉnh và người lao động
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: Việc cho thôi việc đối với người lao động theo quy định tại Điều này chỉ được tiến hành sau khi đã trao đổi ý kiến với tổ chức đại diện người lao động tại cơ sở đối với nơi có tổ chức đại diện người lao động tại cơ sở mà người lao động là thành viên và thông báo trước 30 ngày cho Ủy ban nhân dân cấp tỉnh và cho người lao động.
+    verdict: match
+    note: BLLĐ Điều 42 khoản 6.
+  - text: Phương án sử dụng lao động có năm nội dung; thông báo công khai trong 15 ngày kể từ ngày được thông qua
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: a) Số lượng và danh sách người lao động tiếp tục được sử dụng, người lao động được đào tạo lại để tiếp tục sử dụng, người lao động được chuyển sang làm việc không trọn thời gian; b) Số lượng và danh sách người lao động nghỉ hưu; c) Số lượng và danh sách người lao động phải chấm dứt hợp đồng lao động; d) Quyền và nghĩa vụ ...; đ) Biện pháp và nguồn tài chính bảo đảm thực hiện phương án. | Phương án sử dụng lao động phải được thông báo công khai cho người lao động biết trong thời hạn 15 ngày kể từ ngày được thông qua.
+    verdict: match
+    note: BLLĐ Điều 44 khoản 1, 2.
+  - text: Thông báo bằng văn bản về việc chấm dứt, trừ năm khoản của Điều 34; tự ý bỏ việc 05 ngày làm việc liên tục (Điều 36) khác mốc sa thải 05 ngày cộng dồn trong 30 ngày / 20 ngày cộng dồn trong 365 ngày (Điều 125 khoản 4)
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: Người sử dụng lao động phải thông báo bằng văn bản cho người lao động về việc chấm dứt hợp đồng lao động khi hợp đồng lao động chấm dứt theo quy định của Bộ luật này, trừ trường hợp quy định tại các khoản 4, 5, 6, 7 và 8 Điều 34 của Bộ luật này. | Người lao động tự ý bỏ việc 05 ngày cộng dồn trong thời hạn 30 ngày hoặc 20 ngày cộng dồn trong thời hạn 365 ngày tính từ ngày đầu tiên tự ý bỏ việc mà không có lý do chính đáng. | tự ý bỏ việc mà không có lý do chính đáng từ 05 ngày làm việc liên tục trở lên
+    verdict: match
+    note: 'BLLĐ Điều 45 khoản 1, Điều 125 khoản 4, Điều 36 khoản 1 điểm e. Lý do chính đáng: "thiên tai, hỏa hoạn, bản thân, thân nhân bị ốm có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền và trường hợp khác được quy định trong nội quy lao động" (Điều 125 khoản 4); mục viết "Cả hai đều trừ..." — với Điều 36 điểm e chỉ có cụm "không có lý do chính đáng", NĐ 145 Điều 8 khoản 1 điểm b dẫn khoản 4 Điều 125 làm trường hợp có lý do chính đáng.'
+  - text: Phạt 1–3 triệu khi không thông báo bằng văn bản về việc chấm dứt hợp đồng
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/28/470103-1785229247_v1_1785229756_signed.pdf
+    quote: Phạt tiền từ 1.000.000 đồng đến 3.000.000 đồng đối với người sử dụng lao động có hành vi không thông báo bằng văn bản cho người lao động về việc chấm dứt hợp đồng lao động khi hợp đồng lao động chấm dứt theo quy định của Bộ luật Lao động, trừ trường hợp quy định tại các khoản 4, 5, 6, 7 và 8 Điều 34 của Bộ luật Lao động.
+    verdict: match
+    note: NĐ 283 Điều 18 khoản 1. Mức cho tổ chức gấp 02 lần (Điều 7 khoản 1).
+  - text: "Phạt 5–10 triệu: không trao đổi ý kiến/không báo trước 30 ngày; không lập phương án hoặc lập thiếu nội dung; dùng quy chế đánh giá mà không tham khảo ý kiến tổ chức đại diện người lao động"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/28/470103-1785229247_v1_1785229756_signed.pdf
+    quote: "3. Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với người sử dụng lao động có một trong các hành vi sau đây: a) Cho thôi việc đối với người lao động trong trường hợp thay đổi cơ cấu, công nghệ hoặc vì lý do kinh tế theo một trong các trường hợp sau: không trao đổi ý kiến trước với tổ chức đại diện người lao động tại cơ sở ...; không thông báo trước 30 ngày cho Ủy ban nhân dân cấp tỉnh hoặc người lao động; b) ... không lập phương án sử dụng lao động; lập phương án sử dụng lao động nhưng không đầy đủ các nội dung chủ yếu ...; c) Sử dụng quy chế đánh giá mức độ hoàn thành công việc nhưng không tham khảo ý kiến tổ chức đại diện người lao động tại cơ sở"
+    verdict: match
+    note: NĐ 283 Điều 18 khoản 3 điểm a, b, c.
+internal_checks:
+  - issue: 'tldr "Cho nghỉ hợp pháp chỉ qua ba cửa" và tiêu đề: Điều 36 khoản 1 còn bốn trường hợp (d, đ, e, g) và còn đường sa thải (Điều 125), hết hạn/thỏa thuận (Điều 34), cho thôi việc do chia tách, sáp nhập... (Điều 43). Thân bài tự nhắc điểm d, e nhưng không sửa tuyên bố "ba cửa".'
+    severity: error
+  - issue: 'Step 3 và Bẫy 3 đòi "phương án sử dụng lao động" và coi việc không có phương án là thiếu sót cho mọi vụ cho thôi vì cơ cấu; Điều 42 khoản 3, 4 chỉ buộc phương án khi ảnh hưởng đến việc làm của "nhiều người lao động" (kinh tế: "nhiều người lao động có nguy cơ mất việc làm"). Điều 42 khoản 5 (trợ cấp mất việc) chỉ khi "không thể giải quyết được việc làm". Thiếu điều kiện có thể gây hiểu sai.'
+    severity: warn
+  - issue: Step 2/Bẫy 2 áp Điều 37 (không được đơn phương chấm dứt khi đang điều trị, nghỉ phép, mang thai/nuôi con dưới 12 tháng) cho mọi "quyết định chấm dứt"; Điều 37 là hạn chế của quyền đơn phương theo Điều 36, mục không nói rõ phạm vi (không chứng minh áp dụng cho cho-thôi-việc theo Điều 42).
+    severity: warn
+  - issue: 'Chi phí: "45 ngày với hợp đồng không xác định thời hạn, 30 ngày ... 3 ngày làm việc ... dưới 12 tháng" quên rằng với điểm b (ốm dài) báo trước luôn 03 ngày làm việc (Điều 36 khoản 2 điểm c); thân bài có ghi đúng, tldr cũng chung chung.'
+    severity: warn
+  - issue: "legal_refs dẫn NĐ 145 Điều 8 khoản 1, 2 nhưng thân bài không dùng NĐ 145; nguồn thứ ba (NĐ 145) nên bỏ hoặc nêu cách dùng (lý do chính đáng khi bỏ việc: Điều 8 khoản 1 điểm b dẫn Điều 125 khoản 4)."
+    severity: warn
+  - issue: Số liệu tldr/steps (12, 6 tháng; 45, 30, 3 ngày; 30 ngày; 12 tháng tuổi) có trong thân và khớp nhau; legal_refs url đúng văn bản. Mốc 05 ngày liên tục (Điều 36 điểm e) và 05/30, 20/365 (Điều 125) đã tách rõ, không mâu thuẫn. Mục 04 (cùng chương) viết Điều 42/43 và mức phạt Điều 18 khoản 2, không mâu thuẫn với mục 05.
+    severity: warn
+validity:
+  doc: BLLĐ 45/2019/QH14 (VBHN 18) và Nghị định 283/2026/NĐ-CP
+  in_force: true
+  effective_from: 2021-01-01 (BLLĐ); 2026-09-10 (NĐ 283)
+  amended_by:
+    - BLLĐ được sửa bởi Luật 71/2025/QH15, Luật 113/2025/QH15 (hiệu lực 01/7/2026), Luật 124/2025/QH15 — đã nằm trong VBHN 18
+  basis: 'Bản Công báo số 131 (28/02/2026), ký 05/03/2026, là văn bản hợp nhất BLLĐ gồm các sửa đổi tới 01/7/2026. NĐ 283 (Công báo số 448, 28/07/2026) vẫn ghi "Căn cứ Bộ luật Lao động số 45/2019/QH14" và Điều 66 khoản 1: "Nghị định này có hiệu lực thi hành từ ngày 10 tháng 9 năm 2026", đã qua ngày 08/11/2026; Điều 66 khoản 4 cho NĐ 12/2022/NĐ-CP hết hiệu lực. Không thấy văn bản sửa NĐ 283 trên trang Công báo (mục quan hệ văn bản hiển thị [0], chưa chắc đã cập nhật). Mục dẫn NĐ 145 chỉ ở legal_refs (không dùng trong thân), không xét hiệu lực.'
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - 'tldr và tiêu đề: đổi "chỉ qua ba cửa" thành "ba đường thường gặp" hoặc nêu đủ: Điều 36 khoản 1 (a–g), sa thải (Điều 125), cho thôi việc vì cơ cấu/kinh tế (Điều 42) và vì chia tách, sáp nhập, bán, cho thuê (Điều 43).'
+  - 'Step 3 và Bẫy 3: thêm điều kiện "khi ảnh hưởng đến việc làm của nhiều người lao động" (Điều 42 khoản 3, 4) cho phương án sử dụng lao động và "khi không thể giải quyết được việc làm" (Điều 42 khoản 5) cho trợ cấp mất việc làm.'
+  - 'Step 2/Bẫy 2: ghi rõ phạm vi "Điều 37 là hạn chế quyền đơn phương chấm dứt theo Điều 36" và không khẳng định áp dụng cho cho-thôi-việc theo Điều 42 khi chưa có căn cứ; hoặc tách lời khuyên.'
+  - 'Chi phí: sửa báo trước thành "45 / 30 / 03 ngày làm việc tùy loại hợp đồng; riêng ốm dài (điểm b) luôn 03 ngày làm việc" (Điều 36 khoản 2 điểm c).'

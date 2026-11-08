@@ -1,0 +1,110 @@
+id: dieu-khoan-phat-vi-pham-trong-hop-dong-lao-dong-ba-khoan
+checker: agent-V3b19eA
+checked_at: 2026-11-08
+content_sha256: "5167d1cef03f6fbe2a7740ae518bd33b0060c58eaa96fc6f681e71051e7879f3"
+result: pass-with-edits
+claims:
+  - text: "Phạt tiền, cắt lương thay việc xử lý kỷ luật lao động là hành vi bị nghiêm cấm (Điều 127 khoản 2 BLLĐ)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "2. Phạt tiền, cắt lương thay việc xử lý kỷ luật lao động."
+    verdict: match
+    note: "Đọc từ DOCX 18/VBHN-VPQH. Điều 127 là 'các hành vi bị nghiêm cấm khi xử lý kỷ luật lao động'. Phạm vi là phạt thay kỷ luật; xem claim về 'điều khoản phạt không có hiệu lực' bên dưới."
+  - text: "Chỉ được khấu trừ lương để bồi thường thiệt hại do làm hư hỏng dụng cụ, thiết bị, tài sản; có quyền biết lý do"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "1. Người sử dụng lao động chỉ được khấu trừ tiền lương của người lao động để bồi thường thiệt hại do làm hư hỏng dụng cụ, thiết bị, tài sản của người sử dụng lao động theo quy định tại Điều 129 của Bộ luật này. 2. Người lao động có quyền được biết lý do khấu trừ tiền lương của mình."
+    verdict: match
+    note: "Điều 102 khoản 1, 2."
+  - text: "Khấu trừ hằng tháng không quá 30% tiền lương thực trả, sau khi trích BHXH, BHYT, BHTN và thuế TNCN"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "3. Mức khấu trừ tiền lương hằng tháng không được quá 30% tiền lương thực trả hằng tháng của người lao động sau khi trích nộp các khoản bảo hiểm xã hội bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp, thuế thu nhập cá nhân."
+    verdict: match
+    note: "Điều 102 khoản 3."
+  - text: "Thiệt hại không nghiêm trọng do sơ suất, giá trị không quá 10 tháng lương tối thiểu vùng: bồi thường nhiều nhất 03 tháng lương"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "Trường hợp người lao động gây thiệt hại không nghiêm trọng do sơ suất với giá trị không quá 10 tháng lương tối thiểu vùng do Chính phủ công bố được áp dụng tại nơi người lao động làm việc thì người lao động phải bồi thường nhiều nhất là 03 tháng tiền lương và bị khấu trừ hằng tháng vào lương theo quy định tại khoản 3 Điều 102 của Bộ luật này."
+    verdict: match
+    note: "Điều 129 khoản 1 đoạn 2. Mục diễn đạt đúng điều kiện ở phần Pháp luật VN, nhưng tldr và 'Nói dễ hiểu' không nhắc điều kiện (xem claim kế tiếp)."
+  - text: "Chỉ ba khoản được đòi: bồi thường hỏng dụng cụ tối đa 03 tháng lương; chi phí đào tạo; bồi thường vi phạm bí mật kinh doanh"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "2. Người lao động làm mất dụng cụ, thiết bị, tài sản của người sử dụng lao động hoặc tài sản khác do người sử dụng lao động giao hoặc tiêu hao vật tư quá định mức cho phép thì phải bồi thường thiệt hại một phần hoặc toàn bộ theo thời giá thị trường hoặc nội quy lao động; trường hợp có hợp đồng trách nhiệm thì phải bồi thường theo hợp đồng trách nhiệm;"
+    verdict: partial
+    note: "Điều 129 khoản 2 (mục không dẫn): làm mất tài sản hoặc tiêu hao vật tư quá định mức thì bồi thường một phần hoặc toàn bộ theo thời giá hoặc hợp đồng trách nhiệm, không có trần 03 tháng. Khoản 1 đoạn 1 cũng cho bồi thường theo pháp luật/nội quy khi thiệt hại không thuộc đoạn 2 (nghiêm trọng, cố ý). Do đó 'chỉ ba khoản' và 'tối đa 03 tháng lương' chỉ đúng cho trường hợp sơ suất, không nghiêm trọng, dưới 10 tháng lương tối thiểu vùng. Người đọc có thể hiểu sai là mọi thiệt hại đều có trần 03 tháng. Điều 130 (căn cứ lỗi, mức thiệt hại, hoàn cảnh) cũng không nhắc."
+  - text: "Người lao động đơn phương chấm dứt trái luật: mất trợ cấp thôi việc, bồi thường nửa tháng lương và tiền những ngày không báo trước, hoàn chi phí đào tạo (Điều 40)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "1. Không được trợ cấp thôi việc. 2. Phải bồi thường cho người sử dụng lao động nửa tháng tiền lương theo hợp đồng lao động và một khoản tiền tương ứng với tiền lương theo hợp đồng lao động trong những ngày không báo trước. 3. Phải hoàn trả cho người sử dụng lao động chi phí đào tạo quy định tại Điều 62 của Bộ luật này."
+    verdict: match
+    note: "Điều 40 khoản 1 đến 3."
+  - text: "Người sử dụng lao động chấm dứt trái luật: nhận lại, trả lương và đóng bảo hiểm những ngày không làm, trả thêm ít nhất 02 tháng lương (Điều 41)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "Phải nhận người lao động trở lại làm việc theo hợp đồng lao động đã giao kết; phải trả tiền lương, đóng bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp trong những ngày người lao động không được làm việc và phải trả thêm cho người lao động một khoản tiền ít nhất bằng 02 tháng tiền lương theo hợp đồng lao động."
+    verdict: match
+    note: "Điều 41 khoản 1."
+  - text: "Nếu hai bên thỏa thuận chấm dứt thì khoản bồi thường thêm cũng ít nhất 02 tháng (Điều 41)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "3. Trường hợp người sử dụng lao động không muốn nhận lại người lao động và người lao động đồng ý thì ngoài khoản tiền người sử dụng lao động phải trả theo quy định tại khoản 1 Điều này và trợ cấp thôi việc theo quy định tại Điều 46 của Bộ luật này, hai bên thỏa thuận khoản tiền bồi thường thêm cho người lao động nhưng ít nhất bằng 02 tháng tiền lương theo hợp đồng lao động để chấm dứt hợp đồng lao động."
+    verdict: partial
+    note: "Điều kiện bị bỏ: chỉ khi người sử dụng lao động không muốn nhận lại và người lao động đồng ý; khoản bồi thường thêm này cộng với khoản ở khoản 1 và trợ cấp thôi việc, không thay thế chúng. Mục viết 'hai bên thỏa thuận chấm dứt' chung chung."
+  - text: "Thỏa thuận bằng văn bản về bảo vệ bí mật kinh doanh, quyền lợi và việc bồi thường khi vi phạm (Điều 21 khoản 2); mục gọi đây là 'chỗ tiền phạt theo nghĩa thỏa thuận còn đứng được'"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "2. Khi người lao động làm việc có liên quan trực tiếp đến bí mật kinh doanh, bí mật công nghệ theo quy định của pháp luật thì người sử dụng lao động có quyền thỏa thuận bằng văn bản với người lao động về nội dung, thời hạn bảo vệ bí mật kinh doanh, bảo vệ bí mật công nghệ, quyền lợi và việc bồi thường trong trường hợp vi phạm."
+    verdict: partial
+    note: "Nguyên văn nói 'bồi thường', không nói 'phạt'. Mục biến thành 'tiền phạt theo nghĩa thỏa thuận' và 'hai ngoại lệ có tiền': đó là diễn giải của người soạn, luật không nói khoản này là phạt vi phạm hay có trần. Cũng chỉ áp cho người làm việc liên quan trực tiếp đến bí mật (điều kiện này có trong thân mục)."
+  - text: "Hợp đồng đào tạo nghề: chi phí đào tạo và trách nhiệm hoàn trả là nội dung chủ yếu (Điều 62)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "1. Hai bên phải ký kết hợp đồng đào tạo nghề trong trường hợp người lao động được đào tạo nâng cao trình độ, kỹ năng nghề, đào tạo lại ở trong nước hoặc nước ngoài từ kinh phí của người sử dụng lao động, kể cả kinh phí do đối tác tài trợ cho người sử dụng lao động. ... d) Chi phí đào tạo và trách nhiệm hoàn trả chi phí đào tạo;"
+    verdict: match
+    note: "Điều 62 khoản 1, 2 điểm d. Khoản 3: chi phí đào tạo là 'các khoản chi có chứng từ hợp lệ'; điều kiện 'kinh phí của người sử dụng lao động' và 'chi phí có chứng từ' không được nhắc trong mục khi nói 'hoàn chi phí đào tạo nếu có hợp đồng'. Nên thêm."
+  - text: "Dùng hình thức phạt tiền hoặc cắt lương thay xử lý kỷ luật: phạt 20.000.000 đến 40.000.000 đồng (NĐ 283/2026 Điều 25 khoản 3 điểm c)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm"
+    quote: "3. Phạt tiền từ 20.000.000 đồng đến 40.000.000 đồng đối với người sử dụng lao động khi có một trong các hành vi sau đây: ... c) Dùng hình thức phạt tiền hoặc cắt lương thay việc xử lý kỷ luật lao động;"
+    verdict: match
+    note: "PDF Công báo số 448 ngày 28-07-2026 có lớp chữ. Điều 25 khoản 3 điểm c đúng."
+  - text: "Doanh nghiệp bị phạt gấp đôi (Điều 7 khoản 1 NĐ 283/2026)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm"
+    quote: "Mức phạt tiền đối với tổ chức bằng 02 lần mức phạt tiền đối với cá nhân."
+    verdict: match
+    note: "Điều 25 không nằm trong danh sách ngoại lệ của khoản 1 nên 20 đến 40 triệu là mức cá nhân; doanh nghiệp thuộc khoản 2 điểm b: 40 đến 80 triệu."
+  - text: "Phạt vi phạm là thỏa thuận nộp một khoản tiền; mức do các bên thỏa thuận; chỉ thỏa thuận phạt thì chỉ chịu phạt (Điều 418 BLDS 2015)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/luat-so-91-2015-qh13-18397.htm"
+    quote: "1. Phạt vi phạm là sự thỏa thuận giữa các bên trong hợp đồng, theo đó bên vi phạm nghĩa vụ phải nộp một khoản tiền cho bên bị vi phạm. 2. Mức phạt vi phạm do các bên thỏa thuận, trừ trường hợp luật liên quan có quy định khác."
+    verdict: match
+    note: "PDF Công báo (Luật 91/2015/QH13) trích được chữ, Điều 418 khoản 1, 2, 3 đúng như mục tóm."
+  - text: "Điều khoản phạt vi phạm trong hợp đồng lao động không có hiệu lực; ngoài hai ngoại lệ, thỏa thuận phạt chỉ có giá trị khi bên kia tự nguyện trả; Điều 418 không mở đường cho phạt trong hợp đồng lao động"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "2. Phạt tiền, cắt lương thay việc xử lý kỷ luật lao động."
+    verdict: inference
+    note: "BLLĐ không có điều nào tuyên điều khoản phạt trong hợp đồng lao động là vô hiệu hoặc 'không có hiệu lực'; Điều 127 khoản 2 cấm phạt tiền/cắt lương thay xử lý kỷ luật, Điều 62 và Điều 21 khoản 2 là các cơ chế riêng. Việc loại Điều 418 BLDS khỏi quan hệ lao động và kết luận 'chỉ có giá trị khi tự nguyện trả' là suy luận pháp lý của người soạn (không có điều khoản nào của nguồn nêu). Cần gắn nhãn 'theo cách hiểu'/'suy ra từ' hoặc dẫn quy định về hợp đồng lao động vô hiệu (Điều 49 BLLĐ) nếu muốn khẳng định."
+  - text: "Bẫy 1: Điều 40 chỉ cho đòi nửa tháng lương cộng tiền những ngày không báo trước, nên con số 'một tháng lương' khi nghỉ trước hạn là không có căn cứ; không phải nộp lại tiền thưởng"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "2. Phải bồi thường cho người sử dụng lao động nửa tháng tiền lương theo hợp đồng lao động và một khoản tiền tương ứng với tiền lương theo hợp đồng lao động trong những ngày không báo trước."
+    verdict: inference
+    note: "Điều 40 khớp, nhưng Điều 40 khoản 3 còn hoàn trả chi phí đào tạo (Điều 62): nếu 'cam kết làm đủ 12 tháng' đi kèm hợp đồng đào tạo nghề thì số phải trả có thể khác 'nửa tháng'. Vế 'không phải nộp lại tiền thưởng' không có trong nguồn."
+internal_checks:
+  - issue: "tldr/'Nói dễ hiểu': 'bồi thường hỏng dụng cụ, tối đa 03 tháng lương, không quá 30% lương tháng' đọc như trần cho mọi thiệt hại. Thân mục có điều kiện (sơ suất, không nghiêm trọng, dưới 10 tháng lương tối thiểu vùng) nhưng tldr, steps và Lợi ích không có; Điều 129 khoản 2 (làm mất, tiêu hao quá định mức, hợp đồng trách nhiệm) bị bỏ hoàn toàn."
+    severity: error
+  - issue: "steps bước 2 gọi '10 tháng lương tối thiểu vùng' là một 'trần' để đối chiếu với khoản khấu trừ. Theo Điều 129 khoản 1 đó là ngưỡng giá trị thiệt hại để áp trần 03 tháng lương, không phải trần khấu trừ."
+    severity: warn
+  - issue: "Nói dễ hiểu bắt đầu 'Điều khoản phạt vi phạm trong hợp đồng không có hiệu lực' nhưng thân mục tự thừa nhận Điều 21 khoản 2 và Điều 62 có thể có khoản tiền; mâu thuẫn nhẹ về mức tuyệt đối. Nguồn chỉ cấm 'phạt tiền, cắt lương thay xử lý kỷ luật'."
+    severity: warn
+  - issue: "Nhãn 'chỗ tiền phạt' cho Điều 21 khoản 2 và Điều 62 không đúng chữ nguồn (bồi thường / hoàn trả chi phí đào tạo)."
+    severity: warn
+  - issue: "(f) Cùng chương: mục 25 dẫn Nghị định 12/2022/NĐ-CP (đã hết hiệu lực từ 10/09/2026) còn mục 22 dẫn NĐ 283/2026/NĐ-CP."
+    severity: warn
+  - issue: "legal_refs[].url (d): BLLĐ trỏ 18/VBHN-VPQH, NĐ 283 trỏ đúng trang 283/2026/NĐ-CP, BLDS trỏ đúng Luật 91/2015/QH13. legal_refs (e): Điều 21 khoản 2, 40, 41, 46, 62, 102, 127 khoản 2, 129 khoản 1 khớp khẳng định tương ứng; thiếu Điều 129 khoản 2 và Điều 130."
+    severity: warn
+validity:
+  doc: "BLLĐ 45/2019/QH14 (VBHN 18/VBHN-VPQH); NĐ 283/2026/NĐ-CP; BLDS 91/2015/QH13"
+  in_force: unconfirmed
+  effective_from: "2026-09-10"
+  amended_by: []
+  basis: "NĐ 283/2026 có hiệu lực 10/09/2026 (Điều 66 khoản 1, PDF Công báo số 448 ngày 28-07-2026). BLLĐ: VBHN 18/VBHN-VPQH ngày 12/02/2026 liệt kê ba luật sửa đổi, và NĐ 283/2026 lấy BLLĐ làm căn cứ. BLDS 91/2015/QH13: trang Công báo ghi 'Hiệu lực: 01/01/2017' và phần điều khoản thi hành của PDF ghi 'Bộ luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2017'; ô 'văn bản bị thay thế' không hiển thị dữ liệu và chưa tìm thấy văn bản chính thức xác nhận không bị thay thế hay sửa Điều 418. Chỉ có tìm kiếm thứ cấp báo 'vẫn còn hiệu lực', không đủ để ghi true."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "tldr và 'Nói dễ hiểu': sau 'Chỉ ba khoản được đòi' thêm điều kiện: 'trần 03 tháng lương chỉ áp cho thiệt hại không nghiêm trọng do sơ suất, giá trị không quá 10 tháng lương tối thiểu vùng; làm mất tài sản hoặc tiêu hao vật tư quá định mức thì bồi thường một phần hoặc toàn bộ theo Điều 129 khoản 2'. Dựa vào quote Điều 129 khoản 1 đoạn 2 và khoản 2."
+  - "Thêm Điều 129 khoản 2 và Điều 130 khoản 1 vào legal_refs và phần Pháp luật VN (bồi thường căn cứ lỗi, mức thiệt hại thực tế, hoàn cảnh gia đình)."
+  - "Điều 41: sửa dòng 'Nếu hai bên thỏa thuận chấm dứt...' thành 'Nếu người sử dụng lao động không muốn nhận lại và người lao động đồng ý thì ngoài các khoản ở khoản 1 và trợ cấp thôi việc, hai bên thỏa thuận khoản bồi thường thêm ít nhất 02 tháng lương (Điều 41 khoản 3)'."
+  - "Phần 'Hai chỗ duy nhất tiền phạt ... còn đứng được' và Bẫy 3: đổi 'tiền phạt' thành 'bồi thường theo thỏa thuận bí mật kinh doanh (Điều 21 khoản 2)' và 'hoàn trả chi phí đào tạo (Điều 62, Điều 40 khoản 3)'; bỏ hoặc gắn nhãn 'theo cách hiểu của chúng tôi' cho câu 'chỉ có giá trị khi bên kia tự nguyện trả' và 'Điều 418 không mở đường cho phạt trong hợp đồng lao động'."
+  - "steps bước 2: thay 'ba trần: 30% lương tháng, 03 tháng lương, 10 tháng lương tối thiểu vùng' bằng 'hai trần (30% lương thực trả mỗi tháng; 03 tháng lương) và một điều kiện áp dụng (thiệt hại dưới 10 tháng lương tối thiểu vùng, do sơ suất, không nghiêm trọng)'."
+  - "Bẫy 1: thêm 'cộng chi phí đào tạo nếu có hợp đồng đào tạo nghề theo Điều 62 (Điều 40 khoản 3)' và bỏ vế 'không phải nộp lại tiền thưởng' nếu không có nguồn."
+  - "Phần Chi phí 'Phạt hành chính 20.000.000 đến 40.000.000 đồng; doanh nghiệp gấp đôi': có thể ghi rõ '40.000.000 đến 80.000.000 đồng với doanh nghiệp (Điều 7 khoản 1 NĐ 283/2026)'."

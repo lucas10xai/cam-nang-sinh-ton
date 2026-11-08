@@ -1,0 +1,83 @@
+id: phan-tien-de-dai-han-nen-nam-o-quy-chi-so-khong
+checker: agent-V3a05c
+checked_at: 2026-11-08
+content_sha256: fa863f52149d2f5e64ad4dd4fa0be752b5ffbfe350509c0b84481baf7ba4c190
+result: pass-with-edits
+claims:
+  - text: "ETF DCVFMVN30 công bố phí quản lý 0,65%/năm"
+    source_url: https://dautu.dragoncapital.com.vn/product/etf/e1vfvn30
+    quote: "Phí quản lý của quỹ theo bản cáo bạch là 0,65%/năm, đã được trừ dần vào NAV hằng ngày."
+    verdict: match
+    note: "Trang Dragon Capital (công ty quản lý quỹ) cho E1VFVN30; cũng có dòng 'Phí quản lý 0,65%/năm'. URL mà mục dẫn (https://www.dragoncapital.com.vn/individual/product/a0eJ2000001X9zhIAC/vn30) trả khung rỗng khi tải (nội dung chạy bằng JavaScript), nên đã đối chiếu trên tên miền mới của cùng công ty. Cùng trang: 'Ngoài phí quản lý, tổng chi phí hoạt động của quỹ còn gồm phí giám sát, lưu ký và các chi phí khác' và 'Khi giao dịch, nhà đầu tư trả thêm phí giao dịch của công ty chứng khoán (0,03% trên DragonX) và thuế bán 0,1%.' Chưa đọc bản cáo bạch gốc."
+  - text: "Quỹ mở chủ động thường thu phí quản lý 1,5%-2%/năm"
+    source_url: https://acbs.com.vn/blog/cach-mua-chung-chi-quy-etf
+    quote: ""
+    verdict: not-found
+    note: "Nguồn mục dẫn (ACBS) không nói 'quỹ mở chủ động 1,5%-2%'. Trang này chỉ nói chung về quỹ đầu tư (xem claim sau). Mục không dẫn bản cáo bạch của một quỹ mở chủ động nào để làm chứng cho 'thường 1,5%-2%'. Con số 1,5% là đầu vào của toàn bộ phép tính 17%."
+  - text: "Dải phí quản lý quỹ ở Việt Nam là 0,5%-2% giá trị tài sản ròng"
+    source_url: https://acbs.com.vn/blog/cach-mua-chung-chi-quy-etf
+    quote: "Các quỹ đầu tư thường thu phí quản lý từ 0,5% – 2% giá trị tài sản ròng (NAV) mà quỹ quản lý."
+    verdict: match-secondary
+    note: "Bài blog 'Cách mua chứng chỉ quỹ ETF' của công ty chứng khoán ACBS (nguồn thứ cấp, mục ETF; không phải bản cáo bạch hay văn bản của Ủy ban Chứng khoán). Câu nói chung 'các quỹ đầu tư', không riêng quỹ mở ở Việt Nam."
+  - text: "Giả định lợi nhuận trước phí 8%/năm, sau 20 năm quỹ phí 1,5% để lại ít hơn quỹ phí 0,65% khoảng 17% giá trị cuối; tldr: 'chênh phí này ăn khoảng 17% số tiền cuối sau 20 năm'"
+    source_url: https://dautu.dragoncapital.com.vn/product/etf/e1vfvn30
+    quote: ""
+    verdict: mismatch
+    note: "Tính lại: (1,08-0,015)^20 = 3,5236; (1,08-0,0065)^20 = 4,1309; tỷ lệ 3,5236/4,1309 = 0,853, tức quỹ phí 1,5% để lại ÍT HƠN khoảng 14,7% (làm theo phí nhân: 15,8%); số 17% là chiều ngược lại (quỹ phí 0,65% để lại NHIỀU HƠN khoảng 17,2%: 4,1309/3,5236 = 1,172). Mục viết 'ít hơn ... khoảng 17%' và tldr 'ăn khoảng 17% số tiền cuối': sai chiều/sai con số. Ngoài ra tldr bỏ giả định 8% và 1,5% (nếu 2% thì ít hơn khoảng 22%: 0,776)."
+  - text: "Fama-French (2010): dùng bootstrap trên quỹ tương hỗ Mỹ, kết luận rất ít quỹ có kỹ năng đủ bù phí"
+    source_url: https://doi.org/10.1111/j.1540-6261.2010.01598.x
+    quote: "Bootstrap simulations suggest that few funds produce benchmark-adjusted expected returns sufficient to cover their costs."
+    verdict: match
+    note: "Tóm tắt bài (Crossref), The Journal of Finance 65(5):1915-1947, tựa 'Luck versus Skill in the Cross-Section of Mutual Fund Returns'. Tiếng Việt: mô phỏng bootstrap gợi ý rất ít quỹ tạo ra lợi suất kỳ vọng điều chỉnh theo chuẩn đủ bù chi phí. Cùng tóm tắt: 'If we add back the costs in fund expense ratios, there is evidence of inferior and superior performance ... in the extreme tails.' (hai đuôi có bằng chứng vượt trội), mục bỏ phần này."
+  - text: "Harvey & Liu (2022) (liệt kê trong Nguồn, không dùng trong thân)"
+    source_url: https://doi.org/10.1111/jofi.13123
+    quote: "We show that the Fama‐French method suffers from an undersampling problem that leads to a failure to reject the null hypothesis of zero alpha, even when some funds generate economically large risk‐adjusted returns."
+    verdict: partial
+    note: "Tóm tắt (Crossref): bài The Journal of Finance 77(3):1921-1966 'Luck versus Skill in the Cross Section of Mutual Fund Returns: Reexamining the Evidence' cho rằng phương pháp Fama-French (2010) bị thiếu mẫu và có thể không bác bỏ alpha bằng 0 dù một số quỹ có lợi suất vượt trội lớn. Mục dựa Fama-French 2010 làm bằng chứng kết luận 'ít quỹ có kỹ năng' mà không nói có bài 2022 phản biện phương pháp; bài Harvey-Liu nằm trong Nguồn nhưng thân bài không dùng, gây hiểu mục có chứng cứ nhất quán."
+  - text: "SPIVA 2024: 65% quỹ cổ phiếu lớn chủ động của Mỹ thua S&P 500 trong năm 2024"
+    source_url: https://www.spglobal.com/spdji/en/documents/spiva/spiva-us-year-end-2024.pdf
+    quote: "In our largest and most closely watched comparison, 65% of all active large-cap U.S. equity funds underperformed the S&P 500®"
+    verdict: match-secondary
+    note: "Không mở được văn bản S&P Dow Jones Indices (trang trả HTML/chặn truy cập, kể cả công cụ đọc URL). Câu trích là đoạn trích lại báo cáo, hiển thị trong kết quả tìm kiếm từ bài đăng Bogleheads.org (secondary). Mục không có url cho nguồn SPIVA ('S&P Dow Jones Indices, SPIVA U.S. Year-End 2024')."
+  - text: "SPIVA: bình quân 24 năm là 64%"
+    source_url: https://www.spglobal.com/spdji/en/documents/spiva/spiva-us-year-end-2024.pdf
+    quote: ""
+    verdict: unreachable
+    note: "Công cụ tìm kiếm tóm tắt: '64% average annual rate reported over the 24-year history' (diễn đạt, không phải trích nguyên văn). Không xác minh được bằng văn bản gốc. Lưu ý nếu đúng thì 64% là tỷ lệ thua trung bình CỦA TỪNG NĂM trong 24 năm, không phải tỷ lệ quỹ thua sau 24 năm liên tục (SPIVA báo 15-20 năm cao hơn nhiều); mục viết 'bình quân 24 năm là 64%' dễ hiểu nhầm."
+  - text: "Nghĩa là bằng chứng 'chủ động thua chỉ số' ở thị trường mới nổi chưa một chiều như ở Mỹ"
+    source_url: https://doi.org/10.1111/j.1540-6261.2010.01598.x
+    quote: ""
+    verdict: inference
+    note: "Không có nguồn trong mục về thị trường mới nổi hay Việt Nam; 'Nghĩa là' nối từ hai số liệu Mỹ sang kết luận về thị trường mới nổi mà dữ liệu không nói. Mục Ghi chú Bẫy 1 tự nhận 'Việt Nam chưa có nghiên cứu dài hạn kiểu SPIVA', nhưng câu 'chưa một chiều ở thị trường mới nổi' vẫn là khẳng định không nguồn."
+  - text: "Chỉ số VN30/VNX50 chỉ vài chục mã, nặng ngân hàng và bất động sản; chênh lệch giá mua-bán ETF so với NAV có khi lớn hơn phần phí tiết kiệm (Bẫy 2, 3)"
+    source_url: https://dautu.dragoncapital.com.vn/product/etf/e1vfvn30
+    quote: ""
+    verdict: not-found
+    note: "Trang Dragon Capital cho 'Chỉ số tham chiếu VN30 TRI' và 'Mô phỏng VN30: 30 doanh nghiệp vốn hoá lớn nhất HOSE' (30 mã đúng). Phần 'nặng ngân hàng và bất động sản' và 'chênh lệch giá-NAV có khi lớn hơn phần phí tiết kiệm' không có nguồn trong mục; không kiểm."
+internal_checks:
+  - issue: "tldr và Nói dễ hiểu: 'ăn khoảng 17% số tiền cuối' / 'ít hơn khoảng 17%' sai chiều và sai số: với 8% trước phí, 20 năm, phí 1,5% vs 0,65% thì quỹ phí cao để lại ít hơn khoảng 14,7% (quỹ phí thấp để lại nhiều hơn khoảng 17,2%). Giả định 8%/1,5% không nằm trong tldr."
+    severity: error
+  - issue: "Chi phí/steps ghi 'quỹ mở chủ động thường 1,5%-2%/năm' (steps[0] và tldr) nhưng không có nguồn; nguồn ACBS chỉ nói dải 0,5%-2% cho 'các quỹ đầu tư'. Con số này là đầu vào của phép tính 17%."
+    severity: error
+  - issue: "So sánh không cùng cơ sở: 0,65% là phí QUẢN LÝ của một ETF (tổng chi phí còn có giám sát, lưu ký, phí giao dịch 0,03% và thuế bán 0,1% theo trang Dragon Capital) với 1,5%-2% là phí quản lý của quỹ chủ động. Mục 15 cùng chương nói bán chịu thuế 0,1% và phí môi giới 0,15%-0,35%/chiều; mục 17 không nhắc các chi phí giao dịch ETF này nên chênh phí thật có thể nhỏ hơn 17%."
+    severity: warn
+  - issue: "Nguồn liệt kê Harvey-Liu (2022) nhưng thân bài không dùng; bài phản biện phương pháp Fama-French."
+    severity: warn
+  - issue: "Mục 15 vừa nêu thuế bán 0,1%; Luật Thuế TNCN 109/2025/QH15 Điều 5 khoản 4 miễn thuế chuyển nhượng chứng chỉ quỹ mở giữ từ 2 năm trở lên; nếu quỹ chỉ số ở đây là ETF thì cần xác nhận xem có thuộc 'chứng chỉ quỹ mở' hay không; mục 17 không nêu."
+    severity: warn
+  - issue: "legal_refs rỗng và mục không dẫn văn bản pháp luật; các nguồn: SPIVA không có url, Harvey-Liu không dùng. Nguồn ETF dùng url cũ chạy bằng JavaScript."
+    severity: warn
+validity:
+  doc: "Không dẫn văn bản pháp luật; dữ liệu phí từ trang sản phẩm Dragon Capital (E1VFVN30) và blog ACBS"
+  in_force: true
+  effective_from: null
+  amended_by: []
+  basis: "Không có văn bản pháp luật. Phí 0,65%/năm đọc trên trang Dragon Capital ngày 2026-11-08 (khớp 'bản cáo bạch' theo trang); Fama-French 2010 và Harvey-Liu 2022 là bài nghiên cứu. SPIVA 2024: chưa mở được bản gốc; có thể đã có SPIVA năm 2025 (chưa tra)."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Sửa tldr và Nói dễ hiểu: 'Giả định lợi nhuận trước phí 8%/năm trong 20 năm, quỹ phí 1,5% để lại ít hơn quỹ phí 0,65% khoảng 15% số tiền cuối (14,7% theo (1,08-0,015)^20 / (1,08-0,0065)^20)', hoặc đổi chiều: 'quỹ phí 0,65% để lại nhiều hơn khoảng 17%'. Ghi 8% và 1,5% ngay trong tldr."
+  - "Steps[0], Chi phí, Lợi ích: bỏ 'thường 1,5%-2%' trừ khi dẫn ít nhất hai bản cáo bạch quỹ mở chủ động Việt Nam (url + ngày tra); hoặc viết 'dải phí quản lý quỹ đầu tư khoảng 0,5%-2% (ACBS)' và dùng 1,5% làm ví dụ giả định, không phải 'thường'."
+  - "Thêm url cho SPIVA (https://www.spglobal.com/spdji/en/spiva/) và sửa 'bình quân 24 năm là 64%' thành 'tỷ lệ thua trung bình của từng năm trong 24 năm là 64%' sau khi mở lại báo cáo S&P Dow Jones Indices và trích đúng câu; ghi 'Mỹ' rõ. Cập nhật URL ETF sang https://dautu.dragoncapital.com.vn/product/etf/e1vfvn30."
+  - "Thêm câu về Harvey-Liu (2022) hoặc bỏ khỏi Nguồn; viết kết luận Fama-French theo đúng nguồn: 'rất ít quỹ tạo ra lợi suất đủ bù chi phí, tuy phương pháp bị phản biện (Harvey-Liu 2022)'. Bỏ hoặc gắn nhãn 'suy ra' cho câu 'Nghĩa là bằng chứng ... ở thị trường mới nổi chưa một chiều'."
+  - "Bẫy 2, 3: dẫn nguồn cho 'chênh lệch giá-NAV lớn hơn phần phí' và 'VN30 nặng ngân hàng/bất động sản' (ví dụ tỷ trọng ngành VN30 trên trang Sở GDCK/HOSE hoặc báo cáo tháng của quỹ) hoặc gắn nhãn 'nhận định'; bổ sung chi phí giao dịch ETF (phí giao dịch của công ty chứng khoán + thuế bán 0,1%, theo mục 15) để so phí cho công bằng."

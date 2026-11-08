@@ -3,7 +3,7 @@ id: xe-may-chi-duoc-cho-mot-nguoi-cho-hai-nguoi-khi-do
 legacy: "36-2"
 chapter: 36
 number: 2
-title: Xe máy chỉ được chở một người; chở hai người khi đó là người cấp cứu, trẻ em dưới 12 tuổi, người già yếu hoặc khuyết tật; chở từ ba người trở lên bị phạt nặng và trừ điểm
+title: Xe máy chỉ được chở một người; chở hai người khi đó là người bệnh đi cấp cứu, trẻ em dưới 12 tuổi, người già yếu hoặc khuyết tật; chở từ ba người trở lên bị phạt nặng và trừ điểm
 cost:
   money: "0"
   time: "0"
@@ -72,10 +72,11 @@ Biết đúng ranh giới để khỏi bị phạt oan khi chở con nhỏ, và 
 
 ## Ghi chú
 
-- **Chưa rõ: hai người ngồi sau.** Văn bản không nói rõ cả hai đều phải thuộc nhóm được phép, hay chỉ cần một người thuộc nhóm ấy. Tôi không đoán câu trả lời này. Khi cần chở hai trẻ nhỏ cùng lúc thì hỏi công an giao thông khu vực hoặc chọn đi hai chuyến.
+- **Chưa rõ: cách đếm và hai người được chở.** Điều 33 khoản 1 chỉ ghi "chỉ được chở một người" và "chở tối đa hai người" trong bốn trường hợp; nghị định phạt "chở theo 02 người" và "chở theo từ 03 người trở lên". Văn bản không nói rõ có tính người lái hay không, cũng không nói cả hai người được chở đều phải thuộc nhóm được phép hay chỉ một. Tôi không đoán. Khi cần chở hai trẻ nhỏ cùng lúc thì hỏi công an giao thông khu vực hoặc chọn đi hai chuyến.
 - **Bẫy 1: hai mốc tuổi.** "Dưới 12 tuổi" áp dụng cho việc chở hai người. "Dưới 6 tuổi" áp dụng cho việc không đội mũ. Hai mốc khác nhau và hay bị trộn.
 - **Bẫy 2: miễn phạt không có nghĩa là an toàn.** Luật miễn phạt cho trẻ dưới 6 tuổi không đội mũ, nhưng điều đó không có nghĩa là an toàn. Tôi không có nguồn Việt Nam về mũ cho trẻ nhỏ nên không khuyến nghị về cỡ mũ hay loại mũ.
 - Mục này không nói về xe điện ba bánh hay xe chở hàng.
+- Nghị định 168/2024/NĐ-CP có hiệu lực từ 01/01/2025 (Điều 53 khoản 1). Chưa xác định được Nghị định 336/2025/NĐ-CP (hiệu lực 01/03/2026) có sửa Điều 7 hay không, nên đối chiếu bản hiện hành trước khi nộp phạt.
 
 ## Nguồn
 

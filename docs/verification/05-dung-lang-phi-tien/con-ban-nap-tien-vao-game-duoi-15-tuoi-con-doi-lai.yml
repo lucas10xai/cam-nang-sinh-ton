@@ -1,0 +1,82 @@
+id: con-ban-nap-tien-vao-game-duoi-15-tuoi-con-doi-lai
+checker: agent-V3a05b
+checked_at: 2026-11-08
+content_sha256: ae65e36b857d1fc9af625f8eb0ac35c92e0e14207234697b57cfe17b1e742420
+result: pass-with-edits
+claims:
+  - text: 'Giao dịch của người chưa đủ 6 tuổi do người đại diện theo pháp luật xác lập, thực hiện (Điều 21 khoản 2 BLDS)'
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/01/91.signed.pdf
+    quote: '2. Giao dịch dân sự của người chưa đủ sáu tuổi do người đại diện theo pháp luật của người đó xác lập, thực hiện.'
+    verdict: match
+    note: 'Bản ký là ảnh quét; OCR trang 5. Số hiệu thật là 91/2015/QH13 (bìa PDF), mục ghi QH15 là sai.'
+  - text: 'Người từ đủ 6 đến chưa đủ 15 tuổi phải được người đại diện đồng ý, trừ giao dịch phục vụ nhu cầu sinh hoạt hằng ngày phù hợp lứa tuổi (Điều 21 khoản 3)'
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/01/91.signed.pdf
+    quote: '3. Người từ đủ sáu tuổi đến chưa đủ mười lăm tuổi khi xác lập, thực hiện giao dịch dân sự phải được người đại diện theo pháp luật đồng ý, trừ giao dịch dân sự phục vụ nhu cầu sinh hoạt hàng ngày phù hợp với lứa tuổi.'
+    verdict: match
+    note: 'OCR trang 5. Mục tldr/Nói dễ hiểu viết "con mua gì cũng phải có bố mẹ đồng ý" ở dòng đầu, bỏ ngoại lệ sinh hoạt hằng ngày; ngoại lệ có ở mục Pháp luật nên chấp nhận được, nhưng tldr cần thêm.'
+  - text: 'Người từ đủ 15 đến chưa đủ 18 tuổi tự mình xác lập giao dịch, trừ bất động sản, động sản phải đăng ký và giao dịch khác luật quy định phải có người đại diện đồng ý (Điều 21 khoản 4)'
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/01/91.signed.pdf
+    quote: '4. Người từ đủ mười lăm tuổi đến chưa đủ mười tám tuổi tự mình xác lập, thực hiện giao dịch dân sự, trừ giao dịch dân sự liên quan đến bất động sản, động sản phải đăng ký và giao dịch dân sự khác theo quy định của luật phải được người đại diện theo pháp luật đồng ý.'
+    verdict: match
+    note: 'OCR trang 5 (đã sửa glyph "đến/động sản"). Chữ nghĩa khớp mục.'
+  - text: 'Giao dịch vi phạm chỉ bị tuyên vô hiệu theo yêu cầu của người đại diện (Điều 125)'
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/01/91.signed.pdf
+    quote: '1. Khi giao dịch dân sự do người chưa thành niên, người mất năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi hoặc người bị hạn chế năng lực hành vi dân sự xác lập, thực hiện thì theo yêu cầu của người đại diện của người đó, Tòa án tuyên bố giao dịch đó vô hiệu nếu theo quy định của pháp luật giao dịch này phải do người đại diện của họ xác lập, thực hiện hoặc đồng ý, trừ trường hợp quy định tại khoản 2 Điều này.'
+    verdict: partial
+    note: 'OCR trang 35. Mục bỏ hai yếu tố quan trọng: (1) chủ thể tuyên là TÒA ÁN, giao dịch chỉ vô hiệu khi Tòa tuyên theo yêu cầu người đại diện; tldr "bố mẹ xin hủy được" và steps nói khiếu nại bên bán là một đường nhưng không nói rõ bên bán không bắt buộc hủy, chỉ Tòa mới có thẩm quyền tuyên vô hiệu; (2) điều kiện "nếu theo quy định pháp luật giao dịch này phải do người đại diện xác lập hoặc đồng ý". Chưa mở Điều 131 (hậu quả: hoàn trả), nên mục không nói giá trị lấy lại có thể bị trừ/phải hoàn trả vật phẩm ảo.'
+  - text: 'Giao dịch đáp ứng nhu cầu thiết yếu hằng ngày được loại trừ (Điều 125 khoản 2)'
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/01/91.signed.pdf
+    quote: '2. Giao dịch dân sự của người quy định tại khoản 1 Điều này không bị vô hiệu trong trường hợp sau đây: a) Giao dịch dân sự của người chưa đủ sáu tuổi, người mất năng lực hành vi dân sự nhằm đáp ứng nhu cầu thiết yếu hàng ngày của người đó; b) Giao dịch dân sự chỉ làm phát sinh quyền hoặc chỉ miễn trừ nghĩa vụ cho người chưa thành niên, ... với người đã xác lập, thực hiện giao dịch với họ; c) Giao dịch dân sự được người xác lập giao dịch thừa nhận hiệu lực sau khi đã thành niên hoặc sau khi khôi phục năng lực hành vi dân sự.'
+    verdict: partial
+    note: 'Điều 125 khoản 2 điểm a chỉ nói người CHƯA ĐỦ SÁU TUỔI (và người mất NLHVDS), không phải mọi người chưa thành niên; ngoại lệ "sinh hoạt hằng ngày phù hợp lứa tuổi" của trẻ 6-15 nằm ở Điều 21 khoản 3. Mục gộp lại thành "nhu cầu thiết yếu hằng ngày được loại trừ" mà không phân biệt. Cũng thiếu điểm c (giao dịch được người đó thừa nhận sau khi thành niên không bị vô hiệu), một rủi ro thật nếu con đã đủ 18 và tiếp tục dùng.'
+  - text: 'Ghép lại: con 14 tuổi nạp vài chục triệu thì xin hủy được; con 16 tuổi nạp cùng số tiền thì giao dịch có hiệu lực, chỉ còn cách chứng minh bị lừa dối (Điều 21 và 125)'
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/01/91.signed.pdf
+    quote: ''
+    verdict: inference
+    note: 'Suy luận hợp lý từ Điều 21 khoản 3-4 và 125 nhưng không phải chữ của luật; "xin hủy được" vô điều kiện chưa đúng (phải qua Tòa, và game nạp vài chục triệu có thể rơi vào ngoại lệ hoặc cần chứng minh người đại diện không đồng ý). "Lừa dối" là Điều 127 BLDS, mục không dẫn. Cần gắn "suy ra từ Điều 21, 125".'
+  - text: 'Trẻ em là người tiêu dùng dễ bị tổn thương (Điều 8, Luật BVQLNTD 19/2023/QH15)'
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: 'c) Trẻ em theo quy định của pháp luật về trẻ em;'
+    verdict: match
+    note: 'OCR trang 5 (Điều 8 khoản 1 điểm c). Số hiệu Luật số 19/2023/QH15 đúng (bìa trang 1).'
+  - text: 'Bên bán phải ưu tiên tiếp nhận và xử lý yêu cầu, không đẩy sang bên thứ ba; từ chối thì phải trả lời bằng văn bản (Điều 8 khoản 2 điểm c)'
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: 'c) Khi người tiêu dùng dễ bị tổn thương có yêu cầu được bảo vệ kèm theo chứng cứ, tài liệu chứng minh mình là người tiêu dùng dễ bị tổn thương và về việc quyền lợi của mình bị xâm phạm, tổ chức, cá nhân kinh doanh phải ưu tiên tiếp nhận, xử lý và không chuyển yêu cầu của người tiêu dùng cho bên thứ ba giải quyết, trừ trường hợp bên thứ ba đó có nghĩa vụ liên quan.'
+    verdict: partial
+    note: 'OCR trang 6 (độ phân giải 220 dpi). Thiếu điều kiện "kèm chứng cứ, tài liệu chứng minh" và ngoại lệ bên thứ ba có nghĩa vụ liên quan; nghĩa vụ ưu tiên tiếp nhận, không phải nghĩa vụ hoàn tiền.'
+  - text: 'Bước: khiếu nại tới bên bán trước; đường này rẻ hơn ra tòa; nếu ra tòa mất vài tháng và phải nộp án phí'
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: ''
+    verdict: inference
+    note: 'Không có nguồn cho "vài tháng", "án phí"; là ước lượng thực tiễn. Cũng không dẫn Luật BVQLNTD Điều 31 (tiếp nhận khiếu nại trong 03 ngày làm việc, OCR trang 20) mà lẽ ra hỗ trợ bước này.'
+  - text: 'Bẫy 2: nhiều game bắt xác thực tài khoản bằng số điện thoại người lớn; khi tài khoản đứng tên bạn lập luận "của con tôi" yếu đi'
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/11/147-nd.signed.pdf
+    quote: ''
+    verdict: inference
+    note: 'NĐ 147/2024 Điều 39 khoản 1 điểm đ (OCR trang 62) quy định người chơi dưới 16 tuổi thì cha, mẹ hoặc người giám hộ đăng ký tài khoản bằng thông tin của mình và có trách nhiệm giám sát, quản lý thời gian chơi. Đây là cơ sở pháp lý trực tiếp cho Bẫy 2 nhưng mục không dẫn; nên dẫn và nói rõ điều này có thể làm yếu lập luận "con tự nạp".'
+internal_checks:
+  - issue: 'Số hiệu sai: "Bộ luật Dân sự 91/2015/QH15" xuất hiện ở legal_refs (2 bản ghi), mục Pháp luật (nhiều lần), mục Nguồn. Bìa PDF ghi "Luật số: 91/2015/QH13". Luật BVQLNTD 19/2023/QH15 thì đúng.'
+    severity: error
+  - issue: 'tldr nói "Con dưới 15 tuổi nạp game thì bố mẹ xin hủy được" vô điều kiện, nhưng Điều 125 yêu cầu Tòa án tuyên vô hiệu và Điều 21 khoản 3 có ngoại lệ sinh hoạt hằng ngày. Có thể gây hiểu nhầm "bố mẹ tự hủy được".'
+    severity: error
+  - issue: 'Mục dẫn Điều 125 "gồm khoản 2" nhưng diễn đạt ngoại lệ khoản 2 thiếu giới hạn "chưa đủ sáu tuổi" và điểm b, c.'
+    severity: warn
+  - issue: 'Mâu thuẫn mềm với mục 8 cùng chương: mục 8 viết "Chỉ tài khoản của người dưới 18 tuổi mới có cửa", mục 9 viết từ 15 tuổi "gần như mất".'
+    severity: warn
+  - issue: 'Bước "Khiếu nại tới bên bán trước; đường này rẻ hơn ra tòa" không có cơ sở trong thân ngoài câu so sánh chi phí không có nguồn.'
+    severity: warn
+validity:
+  doc: 'BLDS 91/2015/QH13; Luật BVQLNTD 19/2023/QH15'
+  in_force: unconfirmed
+  effective_from: '2017-01-01'
+  amended_by: []
+  basis: 'Không mở được Công báo/vbpl để xác nhận tình trạng hiệu lực. BLDS 2015: chỉ nguồn thứ cấp (luatvietnam, thuvienphapluat tìm kiếm) nói chưa có bộ luật thay thế đến 2026. Luật BVQLNTD hiệu lực 01/07/2024 (Điều 79, OCR trang 45: "Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024"); nguồn thứ cấp cho biết đã có văn bản hợp nhất 47/VBHN-VPQH năm 2026 (có sửa đổi), chưa mở được để xác nhận Điều 8 không đổi.'
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - 'Đổi mọi "91/2015/QH15" thành "91/2015/QH13".'
+  - 'tldr: "Con dưới 15 tuổi nạp game: bố mẹ có thể yêu cầu Tòa án tuyên giao dịch vô hiệu (Điều 125 BLDS) nếu không phải giao dịch sinh hoạt hằng ngày; từ 15 tuổi gần như không." Dựa vào quote Điều 125 khoản 1 ("theo yêu cầu của người đại diện ... Tòa án tuyên bố giao dịch đó vô hiệu").'
+  - 'Mục Pháp luật, Điều 125: viết "Tòa án tuyên bố ... theo yêu cầu của người đại diện" thay "chỉ bị tuyên vô hiệu theo yêu cầu của người đại diện"; tách ngoại lệ: chưa đủ 6 tuổi (Điều 125 khoản 2 điểm a) và 6-15 tuổi sinh hoạt hằng ngày (Điều 21 khoản 3); thêm điểm c (thừa nhận sau khi thành niên).'
+  - 'Ví dụ 14 và 16 tuổi: gắn nhãn "suy ra từ Điều 21 và 125" và dẫn Điều 127 BLDS nếu giữ chữ "lừa dối".'
+  - 'Điều 8 khoản 2 điểm c: thêm "kèm chứng cứ chứng minh" và ngoại lệ bên thứ ba có nghĩa vụ liên quan.'
+  - 'Bẫy 2: dẫn NĐ 147/2024 Điều 39 khoản 1 điểm đ (dưới 16 tuổi do cha mẹ đăng ký tài khoản bằng thông tin của cha mẹ) và Điều 48 khoản 1 điểm đ cho G2-G4; chưa mở được hướng dẫn của từng nhà phát hành.'

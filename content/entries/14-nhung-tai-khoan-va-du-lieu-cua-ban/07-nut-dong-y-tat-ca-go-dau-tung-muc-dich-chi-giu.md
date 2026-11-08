@@ -14,16 +14,16 @@ evidence: B
 contested: false
 vn_class: vn_native
 rewrite_status: rewritten
-tldr: "Đừng bấm \"đồng ý tất cả\". Bỏ dấu các mục đích bạn không cần, bấm nút từ chối thật sự và chụp màn hình để sau này chứng minh."
+tldr: "Đừng bấm \"đồng ý tất cả\". Bỏ dấu các mục đích bạn không cần, bấm nút từ chối thật sự. Nên chụp màn hình để tự lưu bằng chứng (lời khuyên thêm, luật không đòi)."
 steps:
-  - "Chụp màn hình bảng đồng ý trước khi bấm."
+  - "Nên chụp màn hình bảng đồng ý trước khi bấm, để tự lưu (lời khuyên thêm, không phải điều kiện pháp lý)."
   - "Đọc danh sách mục đích, bỏ dấu những mục bạn không cần."
   - "Muốn từ chối thì bấm nút từ chối, không đóng trang rồi coi như xong."
   - "Không bấm nút đồng ý gộp."
 legal_refs:
-  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 9 khoản 2, 3, 4", url: "https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-du-lieu-ca-nhan-so-91-2025-qh15--179252", effective_from: null, checked_at: "2026-11-03", quote: null }
-  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 28", url: "https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-du-lieu-ca-nhan-so-91-2025-qh15--179252", effective_from: null, checked_at: "2026-11-03", quote: null }
-  - { doc: "Nghị định 356/2025/NĐ-CP", article: "Điều 6 khoản 2, 3, 4", url: "https://chinhphu.vn/?pageid=27160&docid=216387", effective_from: null, checked_at: "2026-11-03", quote: null }
+  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 9 khoản 2, 3, 4", url: "https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-du-lieu-ca-nhan-so-91-2025-qh15--179252", effective_from: "2026-01-01", checked_at: "2026-11-03", quote: null }
+  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 28 khoản 3, 5", url: "https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-du-lieu-ca-nhan-so-91-2025-qh15--179252", effective_from: "2026-01-01", checked_at: "2026-11-03", quote: null }
+  - { doc: "Nghị định 356/2025/NĐ-CP", article: "Điều 6 khoản 2, 3, 4", url: "https://chinhphu.vn/?pageid=27160&docid=216387", effective_from: "2026-01-01", checked_at: "2026-11-03", quote: null }
 verification:
   status: unverified
   checked_at: null
@@ -41,7 +41,7 @@ tags: []
 
 ## Nói dễ hiểu
 
-Bỏ dấu ở những mục bạn không cần, để lại mục thật dùng. Muốn từ chối thì bấm nút từ chối, đừng đóng trang rồi coi như xong. Chụp màn hình trước khi bấm, và đừng bấm nút đồng ý gộp.
+Bỏ dấu ở những mục bạn không cần, để lại mục thật dùng. Muốn từ chối thì bấm nút từ chối, đừng đóng trang rồi coi như xong. Đừng bấm nút đồng ý gộp. Nên chụp màn hình trước khi bấm để tự lưu lại (đây là mẹo thêm, luật không bắt bạn làm).
 
 ## Chi phí
 
@@ -52,7 +52,7 @@ Không tốn tiền, chỉ tốn vài phút đọc.
 
 ## Lợi ích
 
-Không nhấn "đồng ý tất cả" theo thói quen. Đọc mục đích thu thập dữ liệu và chỉ chấp nhận phần thực sự cần, lưu lại lựa chọn khi cần khiếu nại.
+Không nhấn "đồng ý tất cả" theo thói quen. Đọc mục đích thu thập dữ liệu và chỉ chấp nhận phần thực sự cần, nên tự lưu lại lựa chọn (ví dụ chụp màn hình) phòng khi cần khiếu nại. Theo luật, khi có tranh chấp, bên kiểm soát dữ liệu mới là bên phải chứng minh sự đồng ý.
 
 ## Pháp luật Việt Nam
 
@@ -75,24 +75,25 @@ Không nhấn "đồng ý tất cả" theo thói quen. Đọc mục đích thu t
 
 **Quảng cáo**
 
-- Việc dùng dữ liệu khách hàng để kinh doanh dịch vụ quảng cáo bị giới hạn trong phạm vi được chuyển giao theo thỏa thuận, và phải bảo đảm quyền của chủ thể dữ liệu. (Điều 28, Luật 91/2025/QH15)
+- Xử lý dữ liệu cá nhân của khách hàng để kinh doanh dịch vụ quảng cáo phải được khách hàng đồng ý; bên quảng cáo phải cung cấp phương thức để khách hàng từ chối nhận thông tin quảng cáo. (Điều 28 khoản 3, Luật 91/2025/QH15)
+- Chủ thể dữ liệu có quyền yêu cầu ngừng nhận thông tin từ dịch vụ quảng cáo; bên quảng cáo phải cung cấp cơ chế và ngừng. (Điều 28 khoản 5, Luật 91/2025/QH15)
 
 ## Ghi chú
 
-Ba điểm cốt lõi là câu chữ trong điều luật có số hiệu: đồng ý theo từng mục đích, cấm gộp điều kiện, im lặng không phải đồng ý. Nghị định hướng dẫn cấm thẳng kiểu thiết lập mặc định đồng ý, nên phần hướng dẫn đứng trên văn bản.
+Ba điểm cốt lõi là câu chữ trong điều luật có số hiệu: đồng ý theo từng mục đích, cấm gộp điều kiện, im lặng không phải đồng ý. Nghị định hướng dẫn cấm thẳng kiểu thiết lập mặc định đồng ý.
 
 **Phạm vi.** Là quan hệ giữa bạn với bên kiểm soát dữ liệu chịu sự điều chỉnh của luật Việt Nam. Với nền tảng nước ngoài, luật vẫn áp nhưng đường đòi quyền dài hơn nhiều.
 
 **Vì sao chưa lên A.** Chưa có số đo nào ở Việt Nam về việc bỏ chọn mục đích quảng cáo làm giảm bao nhiêu tin nhắn rác, và chưa có vụ nào được công bố về nút đồng ý gộp.
 
 - **Bẫy 1: bấm đồng ý tất cả vì sợ không dùng được ứng dụng.** Luật cấm gắn điều kiện bắt buộc phải đồng ý những mục đích nằm ngoài nội dung thỏa thuận.
-- **Bẫy 2: đóng trang rồi coi như đã từ chối.** Không có bản ghi nào cho thấy bạn từ chối mục nào, nên về sau không chứng minh được.
-- **Bẫy 3: đọc chính sách mới sau khi họ đã đổi mục đích.** Sự đồng ý cũ có hiệu lực cho tới khi bạn thay đổi nó.
+- **Bẫy 2: đóng trang rồi coi như đã từ chối.** Bạn không có gì trong tay cho thấy mình đã từ chối mục nào (suy ra, không phải chữ của luật; luật đặt nghĩa vụ chứng minh sự đồng ý lên bên kiểm soát dữ liệu).
+- **Bẫy 3: đọc chính sách mới sau khi họ đã đổi mục đích.** Sự đồng ý có hiệu lực cho đến khi bạn thay đổi hoặc theo quy định pháp luật (Điều 9 khoản 4 điểm c); nhưng mỗi mục đích cần sự đồng ý riêng (điểm a), nên mục đích mới phải xin lại.
 
 Bỏ chọn không đồng nghĩa với việc dịch vụ phải cho bạn dùng đủ tính năng. Tính năng cần đúng loại dữ liệu bạn vừa từ chối vẫn có thể không mở.
 
 ## Nguồn
 
-- Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 (Điều 9 khoản 2, 3, 4; Điều 28) https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-du-lieu-ca-nhan-so-91-2025-qh15--179252
+- Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 (Điều 9 khoản 2, 3, 4; Điều 28 khoản 3, 5) https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-du-lieu-ca-nhan-so-91-2025-qh15--179252
 - Nghị định 356/2025/NĐ-CP, Công báo số 18 ngày 18/01/2026 (Điều 6 khoản 2, 3, 4) https://chinhphu.vn/?pageid=27160&docid=216387
 - Tra ngày 3/11/2026.

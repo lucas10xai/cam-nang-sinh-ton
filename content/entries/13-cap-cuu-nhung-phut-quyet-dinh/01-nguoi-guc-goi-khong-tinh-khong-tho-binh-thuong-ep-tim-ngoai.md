@@ -20,7 +20,7 @@ steps:
   - "Đặt nằm ngửa, ép nửa dưới xương ức. Nền chắc nếu làm được ngay; không chuyển người làm chậm việc ép tim."
   - "Ép ít nhất 5 cm, không quá 6 cm, 100–120 lần/phút; để ngực nảy lại sau mỗi lần ép."
   - "Chưa học thổi ngạt: ép liên tục. Đã học: 30 ép, 2 thổi."
-  - "Có máy sốc điện tự động (AED): làm theo hướng dẫn của máy."
+  - "Có máy sốc điện tự động (AED): làm theo hướng dẫn của máy. Nếu có người thứ hai, một người tiếp tục ép trong lúc dán điện cực."
 legal_refs: []
 verification:
   status: needs-medical-review
@@ -67,7 +67,6 @@ Người lớn không tỉnh, không thở bình thường: gọi 115, bật loa
 - **Bẫy 3: kéo người xuống nền cứng làm chậm việc ép.** Ép trên nền chắc chỉ khi làm được ngay. Không chuyển người từ giường xuống sàn; có thể bắt đầu ép ngay trên giường và ép sâu hơn để bù đệm mềm.
 - **Hướng dẫn trong nước cũ hơn.** Quyết định 1904/QĐ-BYT (2014) ghi ép tim lún 4–5 cm, tần số 100 lần/phút. Quy trình đó còn bảo đập mạnh vào ngực, thổi ngạt 2 lần trước khi kiểm tra mạch và kiểm tra mạch cảnh. Những điểm này không khớp hướng dẫn AHA và ERC 2025 cho người không chuyên. Quyết định 1904 dẫn AHA 2005 làm tài liệu tham khảo; chưa kiểm tình trạng hiệu lực và chưa tìm thấy hướng dẫn mới hơn của Bộ Y tế dành cho người dân. Mục này theo AHA 2025 và ERC 2025, không theo số liệu của Quyết định 1904.
 - **Về số 115.** Cuộc gọi 115 miễn phí đã được xác nhận ở thời điểm 2020 (Thông tư 02/2020/TT-BTTTT); hiệu lực hiện hành chưa xác nhận.
-- Phần ép tim đã đối chiếu nguồn AHA 2025 (đối chiếu 06/11/2026), còn cần rà soát chuyên môn độc lập.
 
 ## Nguồn
 
@@ -75,3 +74,4 @@ Người lớn không tỉnh, không thở bình thường: gọi 115, bật loa
 - Trung tâm Kiểm soát bệnh tật Thành phố Hồ Chí Minh, bài “Giờ vàng quyết định sự sống”, đăng ngày 30/9/2025 trên trang Trung tâm Y tế khu vực Phú Lâm — http://trungtamytequan6.medinet.gov.vn/tim-mach/gio-vang-quyet-dinh-su-song-cmobile17305-250126.aspx . Tra ngày 3/11/2026.
 - AHA (2025), Adult Basic Life Support (Part 7, Circulation 2025;152(suppl 2):S448–S478, doi 10.1161/CIR.0000000000001369) — <https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support> . Đối chiếu 06/11/2026.
 - ERC (2025), Adult Basic Life Support (Resuscitation 215:110771; dùng cho câu về ép sâu ít nhất 5 cm nhưng không quá 6 cm, không chuyển người khỏi giường, theo hướng dẫn của máy AED) — http://www.doctors-service.de/hand_out/ERC%202025/04-Adult%20Basic%20Life%20Support%20ERC%202025.pdf
+- Bản tin Cổng thông tin Bộ Khoa học và Công nghệ (21/02/2020) về Thông tư 02/2020/TT-BTTTT, cước gọi 113, 114, 115 — https://mst.gov.vn/mien-phi-cac-cuoc-goi-den-so-113-114-115-197140697.htm

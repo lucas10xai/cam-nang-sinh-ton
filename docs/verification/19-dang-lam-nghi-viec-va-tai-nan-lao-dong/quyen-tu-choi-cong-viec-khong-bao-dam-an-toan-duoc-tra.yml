@@ -1,0 +1,98 @@
+id: quyen-tu-choi-cong-viec-khong-bao-dam-an-toan-duoc-tra
+checker: agent-V3a19bA
+checked_at: 2026-11-08
+content_sha256: "31da1397060815c5c577c8e553f75f24bb9129f72182a69271acfde6043e404c"
+result: pass-with-edits
+claims:
+  - text: "Được từ chối làm việc hoặc rời nơi làm việc mà vẫn đủ lương, không bị coi vi phạm kỷ luật, khi thấy rõ có nguy cơ TNLĐ đe dọa nghiêm trọng tính mạng/sức khỏe; phải báo ngay cho người quản lý trực tiếp (Điều 6 khoản 1 điểm đ)"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-84-2015-qh13-15356.htm
+    quote: "Từ chối làm công việc hoặc rời bỏ nơi làm việc mà vẫn được trả đủ tiền lương và không bị coi là vi phạm kỷ luật lao động khi thấy rõ có nguy cơ xảy ra tai nạn lao động đe dọa nghiêm trọng tính mạng hoặc sức khỏe của mình nhưng phải báo ngay cho người quản lý trực tiếp để có phương án xử lý;"
+    verdict: match
+    note: "PDF Công báo số 871+872 trích được chữ."
+  - text: "Chỉ tiếp tục làm việc khi người quản lý trực tiếp và người phụ trách công tác ATVSLĐ đã khắc phục các nguy cơ (Điều 6 khoản 1 điểm đ)"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-84-2015-qh13-15356.htm
+    quote: "chỉ tiếp tục làm việc khi người quản lý trực tiếp và người phụ trách công tác an toàn, vệ sinh lao động đã khắc phục các nguy cơ để bảo đảm an toàn, vệ sinh lao động;"
+    verdict: match
+    note: "Khớp step 4. Luật không nói cách xử lý khi NLĐ không đồng ý rằng nguy cơ đã được khắc phục; mục cũng không nói."
+  - text: "Nghiêm cấm buộc NLĐ làm việc hoặc không được rời nơi làm việc khi có nguy cơ TNLĐ đe dọa nghiêm trọng; buộc tiếp tục làm khi nguy cơ chưa khắc phục (Điều 12 khoản 1)"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-84-2015-qh13-15356.htm
+    quote: "buộc người lao động phải làm việc hoặc không được rời khỏi nơi làm việc khi có nguy cơ xảy ra tai nạn lao động đe dọa nghiêm trọng sức khỏe, tính mạng của họ hoặc buộc người lao động tiếp tục làm việc khi các nguy cơ đó chưa được khắc phục."
+    verdict: match
+    note: ""
+  - text: "Cấm phân biệt đối xử vì lý do NLĐ từ chối làm việc hoặc rời nơi làm việc trong tình huống đó (Điều 12 khoản 5)"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-84-2015-qh13-15356.htm
+    quote: "phân biệt đối xử vì lý do người lao động từ chối làm công việc hoặc rời bỏ nơi làm việc khi thấy rõ có nguy cơ xảy ra tai nạn lao động đe dọa nghiêm trọng tính mạng hoặc sức khỏe của mình;"
+    verdict: match
+    note: ""
+  - text: "Phạt 5.000.000-10.000.000 đồng với vi phạm từ 01 đến 10 NLĐ, hành vi phân biệt đối xử vì lý do từ chối (NĐ 283/2026 Điều 34 khoản 2)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "phân biệt đối xử vì lý do người lao động từ chối làm công việc hoặc rời bỏ nơi làm việc khi thấy rõ có nguy cơ xảy ra tai nạn lao động đe dọa nghiêm trọng tính mạng hoặc sức khỏe của mình;"
+    verdict: partial
+    note: "Điểm a khoản 2: 'Từ 5.000.000 đồng đến 10.000.000 đồng đối với vi phạm từ 01 người đến 10 người lao động;' khớp. Nhưng mức này là mức cá nhân: Điều 34 không nằm trong danh sách ngoại lệ Điều 7 khoản 1, và 'Mức phạt tiền đối với tổ chức bằng 02 lần mức phạt tiền đối với cá nhân', doanh nghiệp là tổ chức (Điều 7 khoản 2 điểm b). Mục nêu 5-10 triệu như mức phạt công ty, không nói gấp đôi. Cũng bỏ các bậc cao hơn (đến 50.000.000 đồng cho từ 301 NLĐ)."
+  - text: "Phạt 20.000.000-25.000.000 đồng với hành vi không thực hiện ngay biện pháp khắc phục hoặc không ngừng hoạt động của máy, thiết bị, nơi làm việc có nguy cơ gây TNLĐ (NĐ 283/2026 Điều 33 khoản 7 điểm a)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "Phạt tiền từ 20.000.000 đồng đến 25.000.000 đồng đối với người sử dụng lao động có một trong các hành vi sau đây: a) Không thực hiện ngay những biện pháp khắc phục hoặc ngừng hoạt động của máy, thiết bị, nơi làm việc có nguy cơ gây tai nạn lao động, bệnh nghề nghiệp;"
+    verdict: partial
+    note: "Khớp nội dung, cùng lưu ý mức cá nhân/tổ chức gấp đôi (Điều 7 khoản 1) như trên."
+  - text: "NLĐ được đơn phương chấm dứt không cần báo trước khi không được bố trí đúng công việc/địa điểm hoặc không bảo đảm điều kiện làm việc theo thỏa thuận; bị ngược đãi, nhục mạ; bị quấy rối tình dục (Điều 35 khoản 2)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "a) Không được bố trí theo đúng công việc, địa điểm làm việc hoặc không được bảo đảm điều kiện làm việc theo thỏa thuận, trừ trường hợp quy định tại Điều 29 của Bộ luật này;"
+    verdict: partial
+    note: "Trích từ DOCX VBHN 18 (Công báo); PDF BLLĐ gốc mục dẫn là ảnh quét không trích được chữ. Mục bỏ ngoại lệ 'trừ Điều 29' (tạm chuyển NLĐ làm công việc khác) và bỏ các điểm đ, e, g; 'ngược đãi, đánh đập, nhục mạ' khớp điểm c (còn 'cưỡng bức lao động'). Mục dẫn Điều 35 khoản 2 như 'phía hợp đồng': chỉ đúng khi điều kiện làm việc thực sự không đúng thỏa thuận, không phải mọi nguy cơ an toàn."
+  - text: "Công ty được đơn phương chấm dứt khi NLĐ tự ý bỏ việc không có lý do chính đáng từ 05 ngày làm việc liên tục trở lên (Điều 36 khoản 1 điểm e)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "e) Người lao động tự ý bỏ việc mà không có lý do chính đáng từ 05 ngày làm việc liên tục trở lên;"
+    verdict: match
+    note: "Khoản 3 cùng Điều: NSDLĐ 'không phải báo trước' trong trường hợp này (điểm d, e khoản 1). Mục nói điều này đúng chỗ (không sai)."
+  - text: "Điểm e khoản 1 Điều 36 cũng bị loại khỏi diện trợ cấp thôi việc (Điều 46 khoản 1)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "trừ trường hợp đủ điều kiện hưởng lương hưu theo quy định của pháp luật về bảo hiểm xã hội và trường hợp quy định tại điểm e khoản 1 Điều 36 của Bộ luật này."
+    verdict: match
+    note: ""
+  - text: "tldr: 'tự ý vắng từ 05 ngày làm việc liên tục không báo thì mất bảo vệ'"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "e) Người lao động tự ý bỏ việc mà không có lý do chính đáng từ 05 ngày làm việc liên tục trở lên;"
+    verdict: partial
+    note: "Luật dùng tiêu chí 'không có lý do chính đáng', không phải 'không báo'. Cách diễn đạt 'không báo thì mất bảo vệ' là suy ra từ Điều 6 khoản 1 điểm đ + Điều 36 khoản 1 điểm e (mục đã gắn nhãn 'suy ra' ở một chỗ trong phần Pháp luật VN nhưng không ở tldr/Chi phí). Khi NLĐ đã báo ngay mà vẫn bị cho nghỉ việc/bị coi bỏ việc là nội dung tranh chấp cụ thể, không phải điều luật quy định."
+  - text: "Step 3: không xin nghỉ phép hay nghỉ không lương để tránh nguy hiểm: luật cho hưởng đủ lương"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-84-2015-qh13-15356.htm
+    quote: "Từ chối làm công việc hoặc rời bỏ nơi làm việc mà vẫn được trả đủ tiền lương và không bị coi là vi phạm kỷ luật lao động"
+    verdict: match
+    note: "Đúng cho tình huống thỏa điều kiện 'thấy rõ nguy cơ... đe dọa nghiêm trọng' và đã 'báo ngay'. Nếu nguy cơ không đạt ngưỡng đó, quyền này không áp dụng; 'Chi phí: Từ chối đúng cách không mất tiền' (đúng cách là điều kiện)."
+  - text: "Bẫy 'Bạn không cần chứng minh mình đúng trước khi rời khỏi chỗ nguy hiểm'"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-84-2015-qh13-15356.htm
+    quote: "khi thấy rõ có nguy cơ xảy ra tai nạn lao động đe dọa nghiêm trọng tính mạng hoặc sức khỏe của mình"
+    verdict: inference
+    note: "Luật chỉ đặt điều kiện 'thấy rõ có nguy cơ', 'đe dọa nghiêm trọng', 'báo ngay'. Không nói NLĐ 'không cần chứng minh'; nếu công ty tranh chấp là nguy cơ không có thật, NLĐ vẫn có thể phải chứng minh để được trả lương/không bị kỷ luật. Mục nên viết 'ưu tiên an toàn trước, nhưng ghi chép chứng cứ vì có thể phải chứng minh sau' (ý này đã có trong 'Việc thứ hai'). Đây là lời khuyên, không phải chữ của luật."
+  - text: "Chi phí: 'bị trừ lương những ngày không vào, bị kỷ luật' nếu làm sai cách"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "(không có câu tương ứng trong văn bản được dẫn)"
+    verdict: inference
+    note: "Hệ quả suy ra từ việc không thỏa điều kiện Điều 6 khoản 1 điểm đ; luật không nêu mức trừ lương cụ thể. Đây là mô tả hợp lý nhưng không có điều khoản trực tiếp."
+internal_checks:
+  - issue: "Tldr và steps: các con số (05 ngày làm việc) có trong thân và khớp Điều 36 khoản 1 điểm e; không có mâu thuẫn số liệu nội bộ."
+    severity: warn
+  - issue: "Mức phạt: Điều 34 khoản 2 (5-10 triệu) và Điều 33 khoản 7a (20-25 triệu) trình bày là mức cho công ty nhưng thực tế là mức cá nhân, tổ chức gấp đôi (Điều 7 khoản 1, 2 NĐ 283). Mục 06 cùng chương có nêu gấp đôi, mục này không."
+    severity: warn
+  - issue: "Điều 35 khoản 2 được dẫn ở phần 'Phía hợp đồng lao động' và 'Bẫy 2 mục 06' liên hệ nhưng mục bỏ ngoại lệ 'trừ Điều 29' và không nói rõ nguy cơ an toàn đơn lẻ chưa chắc là căn cứ Điều 35 khoản 2 (chỉ khi 'không bảo đảm điều kiện làm việc theo thỏa thuận')."
+    severity: warn
+  - issue: "Tldr 'không báo thì mất bảo vệ' khác tiêu chí 'không có lý do chính đáng' của Điều 36 khoản 1 điểm e: chưa gắn nhãn 'suy ra' ở tldr/Chi phí/Bẫy 1 (chỉ gắn ở Pháp luật VN cuối)."
+    severity: warn
+  - issue: "legal_refs[].url: Luật ATVSLĐ và NĐ 283 đúng văn bản. BLLĐ (Điều 35, 36, 46) trỏ PDF gốc 45.signed.pdf (đúng văn bản nhưng là ảnh quét không trích được chữ); article khớp khẳng định."
+    severity: warn
+validity:
+  doc: "Luật An toàn, vệ sinh lao động 84/2015/QH13; Bộ luật Lao động 45/2019/QH14 (VBHN 18/VBHN-VPQH 12/02/2026); Nghị định 283/2026/NĐ-CP"
+  in_force: true
+  effective_from: "2016-07-01 (Luật ATVSLĐ); 2021-01-01 (BLLĐ); 2026-09-10 (NĐ 283/2026)"
+  amended_by:
+    - "BLLĐ: Luật Công nghiệp công nghệ số 71/2025/QH15, Luật Dân số 113/2025/QH15, Luật Giáo dục nghề nghiệp 124/2025/QH15 (theo VBHN 18; Điều 35, 36, 46 giữ nguyên nội dung mục dẫn)"
+    - "Luật ATVSLĐ: Công báo ghi sửa đổi/thay thế [0]; dự án luật sửa đổi mới ở giai đoạn Chính phủ/Quốc hội (nguồn thứ cấp)"
+  basis: "Luật ATVSLĐ: Công báo ghi hiệu lực 01/07/2016 và không liệt kê văn bản sửa đổi/thay thế; NĐ 283/2026 (ban hành 15/07/2026) lấy Luật 84/2015 làm căn cứ. BLLĐ: VBHN 18 (12/02/2026) giữ nguyên Điều 35, 36, 46. NĐ 283: hiệu lực 10/09/2026 (Điều 66 khoản 1), đã tới hạn so với 2026-11-08; thay NĐ 12/2022 (Điều 66 khoản 4)."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Pháp luật VN 'Mức phạt': thêm 'mức trên là mức đối với cá nhân; doanh nghiệp (tổ chức) gấp đôi theo Điều 7 khoản 1, 2 NĐ 283/2026' và nêu rõ bậc cho Điều 34 khoản 2 (tăng theo số NLĐ, tối đa 40.000.000-50.000.000 đồng với 301 NLĐ trở lên, cá nhân)."
+  - "Tldr/Chi phí/Bẫy 1: đổi 'tự ý vắng từ 05 ngày làm việc liên tục không báo thì mất bảo vệ' thành 'vắng 05 ngày làm việc liên tục không có lý do chính đáng thì công ty có quyền đơn phương chấm dứt (Điều 36 khoản 1 điểm e); báo ngay giúp chứng minh bạn đang dùng quyền theo Điều 6 (suy ra)'."
+  - "Bẫy cuối: đổi 'Bạn không cần chứng minh mình đúng' thành 'Ưu tiên rời khỏi chỗ nguy hiểm, nhưng ghi chép để có thể chứng minh nguy cơ nếu bị tranh chấp'."
+  - "Điều 35 khoản 2: thêm 'trừ trường hợp Điều 29' ở điểm a và nhấn mạnh quyền từ chối theo Điều 6 là cơ chế riêng; chấm dứt hợp đồng theo Điều 35 khoản 2 chỉ khi điều kiện làm việc không đúng thỏa thuận (dùng đúng nội dung điểm a)."
+  - "legal_refs: dẫn thêm VBHN 18 (đọc được chữ) cho Điều 35, 36, 46; điền effective_from."

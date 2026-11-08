@@ -24,7 +24,7 @@ legal_refs:
   - { doc: "Nghị định 163/2024/NĐ-CP quy định chi tiết một số điều và biện pháp thi hành Luật Viễn thông", article: "Điều 21 khoản 1 và 2", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf", effective_from: "2024-12-24", checked_at: "2026-11-03", quote: null }
   - { doc: "Nghị định 163/2024/NĐ-CP quy định chi tiết một số điều và biện pháp thi hành Luật Viễn thông", article: "Điều 18 khoản 2 điểm b", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf", effective_from: "2024-12-24", checked_at: "2026-11-03", quote: null }
   - { doc: "Nghị định 163/2024/NĐ-CP quy định chi tiết một số điều và biện pháp thi hành Luật Viễn thông", article: "Điều 84 khoản 2", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf", effective_from: "2024-12-24", checked_at: "2026-11-03", quote: null }
-  - { doc: "Nghị định 52/2024/NĐ-CP về thanh toán không dùng tiền mặt", article: "Điều 29 khoản 1", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/5/41938/50259-1-2024679-68052-2024-nd-cp.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
+  - { doc: "Nghị định 52/2024/NĐ-CP về thanh toán không dùng tiền mặt", article: "Điều 29 khoản 1", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/5/41938/50259-1-2024679-68052-2024-nd-cp.pdf", effective_from: "2024-07-01", checked_at: "2026-11-03", quote: null }
 verification:
   status: unverified
   checked_at: null
@@ -60,13 +60,12 @@ Khóa màn hình và đặt mã PIN cho SIM giúp người lạ khó lấy mã x
 
 **Đăng ký SIM**
 
-- Ba số thuê bao đầu tiên của mỗi mạng chỉ cần xuất trình giấy tờ và ký bản xác nhận thông tin thuê bao (Điều 21 khoản 1, Nghị định 163/2024/NĐ-CP).
+- Với số thuê bao di động trả trước, ba số đầu tiên của mỗi mạng: xuất trình giấy tờ và ký bản xác nhận thông tin thuê bao (Điều 21 khoản 1, Nghị định 163/2024/NĐ-CP).
 - Từ số thứ tư trở lên phải giao kết hợp đồng theo mẫu tại điểm có địa chỉ xác định do doanh nghiệp thiết lập (Điều 21 khoản 2, Nghị định 163/2024/NĐ-CP).
-- Khi đăng ký, kích hoạt từ SIM thuê bao thứ hai trở đi, doanh nghiệp phải xác thực bằng mã xác thực một lần gửi đến SIM đã đăng ký, kích hoạt trước đó (Điều 18 khoản 2 điểm b, Nghị định 163/2024/NĐ-CP).
+- Khi đăng ký, kích hoạt từ SIM thuê bao di động giao tiếp người-người (H2H) thứ hai trở đi, phải xác thực bằng mã OTP gửi đến SIM đăng ký, kích hoạt trước đó (Điều 18 khoản 2 điểm b, Nghị định 163/2024/NĐ-CP).
+- Đó chỉ là một trong các biện pháp: nhà mạng còn phải khớp tối thiểu 03 trường thông tin giấy tờ với Cơ sở dữ liệu quốc gia về dân cư và xác thực qua video call (Điều 18 khoản 2 điểm a và c, Nghị định 163/2024/NĐ-CP).
 
-Nghĩa là chiếc SIM đang nằm trong máy bạn là chìa khóa để mở thêm SIM khác đứng tên bạn.
-
-Chỉ cần một lần đọc được tin nhắn trong máy bạn, người cầm máy mở được đường sang các SIM đăng ký sau đó dưới tên bạn. Mỗi SIM mở thêm là một số điện thoại đứng tên bạn mà bạn không biết.
+- Suy ra từ Điều 18 khoản 2 điểm b (không phải chữ của nghị định): người đọc được tin nhắn OTP trong máy bạn có thể vượt một lớp xác thực khi đăng ký SIM tiếp theo, nhưng vẫn cần vượt các lớp còn lại, nên rủi ro này không chắc chắn (Điều 18 khoản 2, Nghị định 163/2024/NĐ-CP).
 
 **Hiệu lực**
 
@@ -79,11 +78,11 @@ Chỉ cần một lần đọc được tin nhắn trong máy bạn, người c�
 
 ## Ghi chú
 
-- **Giới hạn của bằng chứng:** việc SIM này mở được SIM khác thì có văn bản. Nhưng việc đặt mã PIN cho SIM không có văn bản Việt Nam nào yêu cầu.
-- Cũng không có số liệu trong nước về việc đặt PIN giảm được bao nhiêu vụ chiếm tài khoản. Hai nghị định dẫn ở trên nói về đăng ký thuê bao và an toàn thanh toán, không nói về mã PIN. Vì vậy mục để C thay vì B.
-- **Bẫy 1: khóa màn hình rồi coi là đủ.** Tháo SIM sang máy khác là tin nhắn vẫn về. Điều 18 khoản 2 điểm b cho thấy chính cái SIM đó mở được các SIM tiếp theo đứng tên bạn.
-- **Bẫy 2: đặt mã PIN SIM là bốn số dễ đoán** như ngày sinh hay bốn số cuối số điện thoại, rồi quên mã. Nhập sai ba lần là bị khóa SIM, đúng lúc cần nhận mã xác thực nhất.
-- **Bẫy 3: tin vào bài hướng dẫn cũ còn dẫn Nghị định 49/2017/NĐ-CP về SIM chính chủ.** Văn bản đó đã bị bãi bỏ từ ngày 24 tháng 12 năm 2024 theo Điều 84 khoản 2 Nghị định 163/2024/NĐ-CP. Các con số về số thuê bao mỗi người trong bài cũ không còn đúng.
+- **Giới hạn của bằng chứng:** việc SIM này gửi OTP cho SIM đăng ký sau thì có văn bản. Nhưng việc đặt mã PIN cho SIM không có văn bản Việt Nam nào yêu cầu.
+- Cũng không có số liệu trong nước về việc đặt PIN giảm được bao nhiêu vụ chiếm tài khoản. Hai nghị định dẫn ở trên nói về đăng ký thuê bao và an toàn thanh toán, không nói về mã PIN. Vì vậy mục để C thay vì B. Mã khóa từ sáu số và tự khóa sau nửa phút là khuyến nghị kỹ thuật của người soạn, chưa có nguồn.
+- **Bẫy 1: khóa màn hình rồi coi là đủ.** Tháo SIM sang máy khác là tin nhắn vẫn về. Điều 18 khoản 2 điểm b cho thấy mã OTP gửi về SIM đăng ký trước đó là một lớp xác thực khi đăng ký SIM tiếp theo.
+- **Bẫy 2: đặt mã PIN SIM là bốn số dễ đoán** như ngày sinh hay bốn số cuối số điện thoại, rồi quên mã. Nhập sai quá số lần cho phép là bị khóa SIM, đúng lúc cần nhận mã xác thực nhất.
+- **Bẫy 3: tin vào bài hướng dẫn cũ còn dẫn Nghị định 49/2017/NĐ-CP về SIM chính chủ.** Văn bản đó đã bị bãi bỏ từ ngày 24 tháng 12 năm 2024 theo Điều 84 khoản 2 Nghị định 163/2024/NĐ-CP. Nên đối chiếu quy định hiện hành thay vì bài cũ.
 - **Giới hạn của mã PIN SIM:** mã này không bảo vệ tài khoản như mật khẩu hay xác thực hai lớp. Nó giúp ngăn người khác đọc tin nhắn khi họ tháo SIM của bạn và lắp sang máy khác.
 
 ## Nguồn

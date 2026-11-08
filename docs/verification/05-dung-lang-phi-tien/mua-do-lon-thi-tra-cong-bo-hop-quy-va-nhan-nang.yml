@@ -1,0 +1,88 @@
+id: mua-do-lon-thi-tra-cong-bo-hop-quy-va-nhan-nang
+checker: agent-V3a05f
+checked_at: 2026-11-08
+content_sha256: "20bf7e609e7e83fc8323adc4b0420af7ba149183a7c8c8b6162f3e8150017657"
+result: fail
+claims:
+  - text: "Hàng hóa chia hai nhóm: nhóm 1 theo tiêu chuẩn do người sản xuất công bố; nhóm 2 theo quy chuẩn kỹ thuật tương ứng do cơ quan nhà nước ban hành (Điều 5 Luật CLSPHH 05/2007/QH12)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2007/12/97732_l5qh.doc
+    quote: "b) Sản phẩm, hàng hoá nhóm 2 được quản lý chất lượng trên cơ sở quy chuẩn kỹ thuật tương ứng do cơ quan quản lý nhà nước có thẩm quyền ban hành và tiêu chuẩn do người sản xuất công bố áp dụng."
+    verdict: mismatch
+    note: "Bản gốc 2007 (khớp một phần: nhóm 2 còn kèm tiêu chuẩn công bố). NHƯNG từ 01/01/2026 Luật 78/2025/QH15 (Công báo 969+970, 'Hiệu lực: 01/01/2026') đã thay Điều 5 bằng phân loại theo mức rủi ro: 'Sản phẩm, hàng hóa được phân thành ba loại sau đây: a) ... mức độ rủi ro thấp; b) ... trung bình; c) ... cao.' Cách chia 'nhóm 1/nhóm 2' không còn trong luật hiện hành (ngày kiểm 2026-11-08). Mục dẫn bản đã bị thay."
+  - text: "Người sản xuất phải công bố hợp quy khi sản phẩm phù hợp quy chuẩn kỹ thuật (Điều 24 khoản 1 Luật 05/2007/QH12)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2007/12/97732_l5qh.doc
+    quote: "1. Người sản xuất thông báo sản phẩm của mình phù hợp với tiêu chuẩn (sau đây gọi là công bố hợp chuẩn) hoặc với quy chuẩn kỹ thuật (sau đây gọi là công bố hợp quy)."
+    verdict: mismatch
+    note: "Hai lỗi: (1) Điều 24 khoản 1 bản 2007 là định nghĩa 'thông báo ... phù hợp', không phải nghĩa vụ 'phải công bố hợp quy khi ...'. (2) Điều 24 và Điều 25 đã bị BÃI BỎ từ 01/01/2026: Luật 78/2025/QH15, khoản 25 Điều 1: 'Bãi bỏ Điều 7, khoản 4 Điều 13, khoản 2 và khoản 3 Điều 17, các điều 19, 20, 24, 25, 26, 27, 29, 30, 31, 35, 36, 37, 55;...' (bản .doc tải từ Công báo). Nghĩa vụ công bố hợp quy hiện nằm ở Điều 28 khoản 1 điểm d (sửa đổi): 'd) Công bố hợp quy theo quy định của pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật đối với sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao;'."
+  - text: "Chứng nhận hợp quy do tổ chức chứng nhận được chỉ định thực hiện (Điều 25 khoản 3 điểm b)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2007/12/97732_l5qh.doc
+    quote: "b) Việc chứng nhận hợp quy do tổ chức chứng nhận được chỉ định thực hiện."
+    verdict: mismatch
+    note: "Khớp chữ bản 2007 nhưng Điều 25 đã bị bãi bỏ từ 01/01/2026 (xem claim trên). Luật mới (Điều 5 khoản 4): rủi ro trung bình 'tự đánh giá hoặc do tổ chức chứng nhận được công nhận thực hiện chứng nhận'; rủi ro cao 'do tổ chức chứng nhận được chỉ định thực hiện chứng nhận phù hợp quy chuẩn kỹ thuật quốc gia tương ứng'. Mục không phân biệt hai mức nên sai/thiếu."
+  - text: "Với sản phẩm nhóm 2, người sản xuất phải công bố hợp quy theo quy chuẩn kỹ thuật quốc gia tương ứng (Điều 1 khoản 2 NĐ 74/2018/NĐ-CP)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/05/74.signed.pdf
+    quote: "2. Đối với sản phẩm nhóm 2, người sản xuất phải công bố hợp quy theo quy chuẩn kỹ thuật quốc gia tương ứng."
+    verdict: partial
+    note: "PDF ký số là ảnh quét; đọc bằng OCR trang 2 (Điều 1 khoản 2 sửa đổi Điều 4 NĐ 132/2008). Khớp chữ, nhưng căn cứ 'nhóm 2' của Luật 2007 đã bị thay từ 01/01/2026; có Nghị định 37/2026/NĐ-CP (23/01/2026, nguồn thứ cấp qua tìm kiếm) hướng dẫn Luật sau sửa đổi. NĐ 74/2018 sẽ HẾT HIỆU LỰC từ 01/7/2026 theo Điều 97 khoản 2 điểm b Nghị định 37/2026/NĐ-CP: 'Các Nghị định, quy định dưới đây hết hiệu lực kể từ ngày 01 tháng 7 năm 2026: ... b) Nghị định số 74/2018/NĐ-CP ngày 15 tháng 5 năm 2018 ...' (đọc qua bản đăng lại vnlawfirm.vn, thứ cấp). Tại 2026-11-08 NĐ 74/2018 đã hết hiệu lực."
+  - text: "Việc công bố dựa trên kết quả tự đánh giá của tổ chức, cá nhân, hoặc kết quả chứng nhận của tổ chức chứng nhận đã đăng ký hoặc được thừa nhận (NĐ 74/2018 Điều 1 khoản 2)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/05/74.signed.pdf
+    quote: "a) Kết quả tự đánh giá sự phù hợp của tổ chức, cá nhân; b) Kết quả chứng nhận của tổ chức chứng nhận đã đăng ký hoặc được thừa nhận theo quy định của pháp luật; c) Kết quả chứng nhận của tổ chức chứng nhận được chỉ định theo quy định của pháp luật."
+    verdict: partial
+    note: "OCR. Mục bỏ biện pháp (c) (chứng nhận bởi tổ chức được chỉ định) và câu 'Trường hợp ... đang áp dụng biện pháp a hoặc b, nếu phát hiện chất lượng không bảo đảm ... thì chuyển sang biện pháp ... chặt hơn'. Cũng cần ghi 'theo một trong các biện pháp sau' và 'quy định chi tiết tại các quy chuẩn kỹ thuật quốc gia tương ứng'."
+  - text: "Nhãn năng lượng bắt buộc trên điều hòa, tủ lạnh, máy giặt (tldr, Nói dễ hiểu, Điều 3 TT 52/2025/TT-BCT)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/11/52-bct.signed.pdf
+    quote: "a) Thực hiện dán nhãn năng lượng bắt buộc đối với các thiết bị gia dụng và nhóm thiết bị công nghiệp sau: Đèn huỳnh quang ống thẳng, đèn huỳnh quang compact, chấn lưu điện từ và điện tử cho đèn huỳnh quang, máy điều hòa không khí, tủ lạnh, máy giặt gia dụng, nồi cơm điện, quạt điện, máy thu hình, đèn LED, bình đun nước nóng có dự trữ, máy biến áp phân phối, động cơ điện;"
+    verdict: match
+    note: "PDF ký số là ảnh quét; OCR 3 trang. Điều 3 khoản 1 điểm a. Thông tư 52/2025/TT-BCT ký 14/11/2025, Điều 5: 'có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026'."
+  - text: "Nhãn năng lượng bắt buộc trên bếp từ (Nói dễ hiểu: 'nhãn năng lượng bắt buộc trên tủ lạnh, máy giặt, điều hòa, nồi cơm điện, quạt, tivi, bếp từ'; Pháp luật VN: 'mấy món tốn điện nhất trong nhà đều thuộc diện phải có nhãn')"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/11/52-bct.signed.pdf
+    quote: "b) Thực hiện dán nhãn năng lượng tự nguyện đến hết ngày 31 tháng 12 năm 2026 đối với: bếp từ, bếp hồng ngoại, lò vi sóng, đèn điện LED chiếu sáng đường và phố; c) Thực hiện dán nhãn năng lượng bắt buộc từ ngày 01 tháng 01 năm 2027 đối với: bếp từ, bếp hồng ngoại, lò vi sóng, đèn điện LED chiếu sáng đường và phố;"
+    verdict: mismatch
+    note: "Tại 2026-11-08 bếp từ, bếp hồng ngoại, lò vi sóng chỉ là nhãn TỰ NGUYỆN; bắt buộc từ 01/01/2027. Mục nói bắt buộc: sai thời điểm; người đọc sẽ kết luận 'bếp từ không nhãn là sai luật' (có thể khiến tranh cãi vô cớ với người bán)."
+  - text: "Danh mục nhóm gia dụng gồm điều hòa, tủ lạnh, máy giặt, nồi cơm điện, quạt điện, máy thu hình, đèn LED, bếp từ, bếp hồng ngoại, lò vi sóng (Điều 2 TT 52/2025/TT-BCT)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/11/52-bct.signed.pdf
+    quote: "1. Nhóm thiết bị gia dụng gồm: Đèn huỳnh quang ống thẳng, đèn huỳnh quang compact, chấn lưu điện từ và điện tử cho bóng đèn huỳnh quang, máy điều hòa không khí, tủ lạnh, máy giặt gia dụng, nồi cơm điện, quạt điện, máy thu hình, đèn LED, bình đun nước nóng có dự trữ, bếp từ, bếp hồng ngoại, lò vi sóng;"
+    verdict: partial
+    note: "Danh mục đúng nhưng Điều 2 chỉ là DANH MỤC thiết bị 'thực hiện dán nhãn năng lượng'; bắt buộc hay tự nguyện do Điều 3 quy định. Mục dùng Điều 2 để nói 'phải có nhãn' cho cả nhóm."
+  - text: "TT 52/2025/TT-BCT ban hành trên cơ sở Luật Sử dụng năng lượng tiết kiệm và hiệu quả (sửa đổi bởi Luật 77/2025/QH15)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/11/52-bct.signed.pdf
+    quote: "lượng tiết kiệm và hiệu quả số 77/2025/QH15 ngày 18 tháng 6 năm 2025;"
+    verdict: inference
+    note: "OCR phần Căn cứ của TT bị nhiễu (dòng trước bị vỡ chữ, chỉ đọc được 'ngày 17 tháng 6 năm 20..'); quote là mảnh OCR đọc rõ, không thấy chữ 'sửa đổi' trong mảnh này nên chưa xác nhận từ chính TT rằng đó là luật sửa đổi. Số 77/2025/QH15 và ngày 18/6/2025 đọc được. Tìm kiếm web cho thấy 77/2025/QH15 là luật sửa đổi, hiệu lực 01/01/2026 (nguồn thứ cấp). legal_refs mục này url/article đều null nên không tự kiểm được."
+  - text: "Việt Nam không có dấu 3C, chỉ có dấu hợp quy"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2007/12/97732_l5qh.doc
+    quote: "(không có nguyên văn)"
+    verdict: not-found
+    note: "Không nguồn nào trong mục nói về 'dấu 3C'. Khẳng định 'dấu hợp quy' tồn tại là hợp lý nhưng chưa có nguyên văn trong các văn bản đã dẫn; 'dấu 3C' là câu phủ định/so sánh nước ngoài. Ghi not-found (không có quote)."
+  - text: "Step 1: xem nhãn năng lượng 'có số sao' trên nhãn"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/11/52-bct.signed.pdf
+    quote: "(không có nguyên văn)"
+    verdict: not-found
+    note: "TT 52/2025 không nói gì về thang 'sao'. Thang sao thuộc văn bản khác (quy chuẩn/thông tư về mẫu nhãn), không được dẫn trong mục."
+internal_checks:
+  - issue: "legal_refs[0..2] dẫn Điều 5, Điều 24 khoản 1, Điều 25 khoản 3 điểm b của Luật CLSPHH 2007 nhưng Điều 5 đã bị thay, Điều 24 và 25 đã bị bãi bỏ từ 01/01/2026 (Luật 78/2025/QH15). Căn cứ pháp lý của phần 'Hợp quy' lạc hậu so với ngày kiểm."
+    severity: error
+  - issue: "Nói dễ hiểu và tldr nói nhãn năng lượng bắt buộc trên 'bếp từ' (và 'nhiều đồ gia dụng khác') trong khi TT 52 Điều 3 khoản 1 điểm b/c: bếp từ, hồng ngoại, lò vi sóng còn tự nguyện đến hết 31/12/2026, bắt buộc từ 01/01/2027."
+    severity: error
+  - issue: "Mục Pháp luật VN dùng Điều 2 (danh mục) để suy ra 'phải có nhãn' (Điều 3 mới quy định bắt buộc/tự nguyện/lộ trình); và dẫn 'Điều 2 và Điều 3' cho 'danh mục và lộ trình' là đúng, nhưng câu 'đều thuộc diện phải có nhãn' sai với lộ trình."
+    severity: error
+  - issue: "legal_refs[6] (Luật SDNLTK&HQ sửa đổi 77/2025/QH15) có article: null và url: null: không thể kiểm tra."
+    severity: warn
+  - issue: "Nghị định 74/2018/NĐ-CP sửa Nghị định 132/2008 hướng dẫn Luật 2007; NĐ 37/2026/NĐ-CP Điều 97 khoản 2 điểm b (bản đăng lại vnlawfirm.vn, thứ cấp) ghi NĐ 74/2018 hết hiệu lực từ 01/7/2026, nên tại ngày kiểm NĐ 74/2018 đã hết hiệu lực. Mục dẫn như văn bản hiện hành."
+    severity: error
+  - issue: "Step 2: 'hỏi người bán giấy công bố hợp quy' và 'đừng chấp nhận hàng mới chưa kịp dán' không có cơ sở nguyên văn nào trong thân/nguồn (là lời khuyên thực tế); sau 01/01/2026 nghĩa vụ công bố hợp quy chỉ áp dụng cho rủi ro trung bình/cao, nên không phải món nào cũng có giấy này."
+    severity: warn
+validity:
+  doc: "Luật Chất lượng sản phẩm, hàng hóa 05/2007/QH12 (Điều 5 thay; Điều 24, 25 bãi bỏ)"
+  in_force: false
+  effective_from: "2008-07-01"
+  amended_by: ["Luật 35/2018/QH14", "Luật 78/2025/QH15 (hiệu lực 01/01/2026)"]
+  basis: "Công báo https://congbao.chinhphu.vn/van-ban/luat-so-78-2025-qh15-45570.htm: 'Ban hành: 18/06/2025 - Hiệu lực: 01/01/2026'. Bản .doc tải từ Công báo: 'Điều 5. Nguyên tắc phân loại và quản lý chất lượng sản phẩm, hàng hóa' (ba mức rủi ro); khoản 25 Điều 1 bãi bỏ các điều 24, 25...; điều khoản thi hành: 'Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026.' Với 05/2007/QH12 gốc: in_force=false cho các Điều 5/24/25 như mục dẫn. TT 52/2025/TT-BCT: 'hiệu lực từ ngày 01 tháng 01 năm 2026' (OCR Điều 5), có hiệu lực. NĐ 74/2018/NĐ-CP: hết hiệu lực từ 01/7/2026 (Điều 97 khoản 2 điểm b NĐ 37/2026/NĐ-CP, bản đăng lại trên vnlawfirm.vn, thứ cấp; chưa mở bản gốc)."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Viết lại phần 'Hợp quy' theo Luật CLSPHH đã sửa bởi Luật 78/2025/QH15 (hiệu lực 01/01/2026): thay Điều 5 cũ bằng 'phân loại theo mức rủi ro: thấp, trung bình, cao' (Điều 5 khoản 2) và bỏ Điều 24, Điều 25 (đã bãi bỏ). Căn cứ công bố hợp quy: Điều 28 khoản 1 điểm d ('đối với sản phẩm, hàng hóa có mức độ rủi ro trung bình, mức độ rủi ro cao'); chứng nhận: Điều 5 khoản 4 điểm c và d."
+  - "Tldr, Nói dễ hiểu, Pháp luật VN: sửa 'bếp từ, bếp hồng ngoại, lò vi sóng' thành 'nhãn tự nguyện đến hết 31/12/2026, bắt buộc từ 01/01/2027' (TT 52/2025 Điều 3 khoản 1 điểm b, c); nhãn bắt buộc hiện tại: đèn huỳnh quang, chấn lưu, điều hòa, tủ lạnh, máy giặt gia dụng, nồi cơm điện, quạt điện, máy thu hình, đèn LED, bình đun nước nóng có dự trữ (điểm a)."
+  - "Bỏ 'dấu 3C' hoặc gắn nhãn 'nhận xét của biên tập, không phải chữ luật'; bỏ 'số sao' hoặc dẫn văn bản quy định mẫu nhãn."
+  - "Thay NĐ 74/2018 (hết hiệu lực từ 01/7/2026) bằng Nghị định 37/2026/NĐ-CP ngày 23/01/2026 hướng dẫn Luật CLSPHH sau sửa đổi; mở bản gốc từ Công báo/vanban.chinhphu.vn để chọn đúng điều về công bố hợp quy trước khi dẫn."
+  - "Điền article/url cho legal_refs[6] (Luật 77/2025/QH15) hoặc bỏ mục này."

@@ -3,7 +3,7 @@ id: nguoi-say-nang-con-tinh-cho-uong-nuoc-muoi-loang-hoac-dung
 legacy: "13-23"
 chapter: 13
 number: 23
-title: "Người say nắng còn tỉnh: cho uống nước muối loãng hoặc dung dịch bù nước từng ngụm nhỏ, không uống ừng ực, không rượu, không nước ngọt đậm"
+title: "Người mệt vì nóng còn tỉnh, chưa có dấu hiệu nặng: cho nhấp từng ngụm nước mát hoặc dung dịch bù nước pha đúng liều, không tự pha nước muối, không rượu"
 cost:
   money: low
   time: low
@@ -14,12 +14,12 @@ evidence: B
 contested: false
 vn_class: adapted
 rewrite_status: rewritten
-tldr: "Người say nắng còn tỉnh thì cho uống từng ngụm nhỏ nước mát pha chút muối hoặc Oresol pha đúng liều. Không rượu, không nước ngọt đậm."
+tldr: "Chỉ dùng khi người mệt vì nóng còn tỉnh, chưa có dấu hiệu nặng: cho nhấp từng ngụm nước mát hoặc Oresol pha đúng liều. Không tự pha nước muối, không rượu. Nôn hoặc có dấu hiệu nặng: gọi 115, đừng cho uống."
 steps:
-  - "Chỉ cho uống khi người bệnh còn tỉnh."
-  - "Cho uống từng ngụm nhỏ nước mát pha chút muối, hoặc dung dịch bù nước (Oresol) pha đúng liều theo tờ hướng dẫn."
-  - "Không cho uống ừng ực, không cho rượu bia, không cho nước ngọt có ga hay đồ uống năng lượng."
-  - "Người lú lẫn hoặc nôn liên tục: đưa tới cơ sở y tế."
+  - "Nôn hoặc buồn nôn, đau đầu dữ dội, khó thở, lú lẫn, co giật, ngất: gọi 115, không cho uống, làm mát theo mục 22."
+  - "Chỉ khi còn tỉnh và uống được: cho uống từng ngụm nhỏ nước mát; tốt nhất là Oresol pha đúng liều theo tờ hướng dẫn, không có thì nước trắng hoặc nước mát."
+  - "Không tự pha nước muối, không dùng thuốc hạ sốt, không cho rượu bia, nước đá lạnh hay đồ uống thể thao không rõ thành phần."
+  - "Nôn, triệu chứng nặng lên hoặc kéo dài quá 1 giờ: gọi 115 hoặc đưa tới cơ sở y tế gần nhất."
 situations: []
 legal_refs: []
 verification:
@@ -38,30 +38,34 @@ tags: []
 
 ## Nói dễ hiểu
 
-Chỉ cho người còn tỉnh uống, từng ngụm nhỏ nước mát pha chút muối hoặc dung dịch bù nước pha đúng liều. Không uống ừng ực, không cho rượu bia, không cho nước ngọt đậm.
+**Nếu có người cần cấp cứu thật: gọi 115 trước.** Mục này chỉ dành cho người mệt vì nóng còn tỉnh táo, chưa có dấu hiệu nặng. Người nôn, đau đầu dữ dội, khó thở, lú lẫn, co giật hoặc ngất thì gọi 115, làm mát và không cho uống (xem mục 22 cùng chương). Người còn tỉnh thì cho nhấp từng ngụm nhỏ nước mát hoặc dung dịch bù nước (Oresol) pha đúng liều. Không tự pha nước muối, không cho rượu bia.
 
 ## Chi phí
 
-Một gói dung dịch bù nước vài nghìn đồng, một nhúm muối với ca nước thì gần như không đáng kể.
+Một gói dung dịch bù nước và một ca nước mát, không đáng kể.
 
 Khó ở chỗ người đang khát thường uống một hơi thật nhanh, và người nhà hay dỗ bằng nước ngọt cho dễ uống.
 
 ## Lợi ích
 
-- **Báo Điện tử Chính phủ:** nếu nạn nhân uống được nước thì cho uống từng ngụm nhỏ nước mát, tốt nhất là nước có bổ sung muối và khoáng chất như Oresol pha đúng liều lượng theo hướng dẫn sử dụng.
-- **Bệnh viện TWQĐ 108:** uống nước có pha một chút muối hoặc dung dịch oresol, tránh nước ngọt có ga và đồ uống năng lượng.
-- **Bài chuyên môn của khoa Cấp cứu:** chỉ cho uống dung dịch muối natri clorua 0,1% ở mức lả nhiệt nhẹ. Người tụt huyết áp hoặc nhiều triệu chứng nặng thì truyền dịch qua đường tĩnh mạch.
-- **Bác sĩ Trung tâm Cấp cứu A9, Bệnh viện Bạch Mai (báo Sức khỏe và Đời sống):** không uống rượu, vì rượu gây giãn mạch và dễ mất nước khi ở lâu ngoài trời nắng nóng. Mốc bù nước là 600–800 ml trước khi vận động và 200 ml mỗi 20 phút.
+- **Báo Điện tử Chính phủ (dẫn hướng dẫn y tế), phần mức độ nhẹ:** nếu nạn nhân uống được nước thì cho uống từng ngụm nhỏ nước mát, tốt nhất là nước có bổ sung muối và khoáng chất như Oresol pha đúng liều lượng theo hướng dẫn sử dụng. Biểu hiện mức nặng gồm buồn nôn hoặc nôn, đau đầu dữ dội, khó thở, co giật, ngất xỉu hoặc hôn mê; khi đó cần gọi ngay cấp cứu 115 hoặc nhanh chóng đưa nạn nhân tới cơ sở y tế gần nhất.
+- **Báo Sức khỏe và Đời sống (bác sĩ Bạch Mai):** nếu người bệnh còn tỉnh, cho uống Oresol pha đúng hướng dẫn trong giờ đầu, không có thì cho uống nước trắng, nước mát hoặc nước hoa quả. Tuyệt đối không dùng thuốc hạ sốt, không cho uống nước đá lạnh, không tự pha nước muối hay uống đồ thể thao không rõ thành phần. Không uống rượu vì gây giãn mạch và dễ mất nước khi ở lâu ngoài nắng nóng.
+- **Bệnh viện TWQĐ 108 (phần phòng chống):** có thể uống nước pha một chút muối hoặc dung dịch Oresol, tránh nước ngọt có ga và đồ uống năng lượng. Đây là hướng dẫn phòng ngừa, không phải cách xử trí người đang say nắng.
+- **Bệnh viện Bạch Mai, bài của khoa Cấp cứu:** dung dịch muối natri clorua 0,1% chỉ dùng ở mức nhẹ, do nhân viên y tế thực hiện; tụt huyết áp hoặc nhiều triệu chứng nặng thì truyền dịch qua đường tĩnh mạch.
+- **CDC (Mỹ), tờ rơi bệnh liên quan nóng:** với say nóng (heat exhaustion), cần đi khám ngay nếu nôn, triệu chứng nặng lên hoặc kéo dài quá 1 giờ. Với sốc nhiệt (heat stroke): gọi cấp cứu ngay và không cho uống gì.
 
 ## Ghi chú
 
-Mốc 0,1%, 600–800 ml và 200 ml đọc được. Đó là hướng dẫn phòng và hướng dẫn điều trị, không phải số đo của một thử nghiệm trên người say nắng tại Việt Nam. Không có văn bản nào quy định một lượng nước duy nhất cho mọi người.
-
-- **Bẫy 1: pha gói bù nước đặc hơn tờ hướng dẫn cho nhanh khỏi.** Pha sai liều làm tăng natri máu, nhất là ở trẻ nhỏ và người già.
-- **Bẫy 2: cho uống nước ngọt có ga hoặc đồ uống năng lượng vì tiện và mát.** Hướng dẫn của Bệnh viện 108 xếp hai loại đó vào nhóm cần tránh.
-- **Bẫy 3: để người bệnh uống ừng ực rồi nôn.** Vừa mất thêm nước vừa dễ sặc. Chia từng ngụm nhỏ là cách duy nhất kiểm soát được lượng vào.
+- Ở Việt Nam, "say nắng" là sốc nhiệt theo bài của Bạch Mai ("Sốc nhiệt hay say nắng"). Hướng dẫn uống nước dưới đây chỉ áp dụng cho mức nhẹ; nghi sốc nhiệt thì làm mát và gọi 115 (mục 22).
+- Các nguồn không quy định tỷ lệ muối cho người dân tự pha, và bác sĩ Bạch Mai trên báo Sức khỏe và Đời sống dặn không tự pha nước muối. Mục vì vậy chỉ nêu Oresol pha đúng tờ hướng dẫn.
+- Các mốc bù nước 600–800 ml và 200 ml mỗi 20 phút của bác sĩ Bạch Mai là khuyến cáo phòng ngừa khi vận động ngoài nắng, không phải liều cho người đang bệnh, nên mục không dùng. Báo chí không đủ làm nguồn duy nhất cho con số.
+- **Bẫy 1: pha gói bù nước không đúng tờ hướng dẫn.** Nguồn chỉ dặn pha đúng liều lượng theo hướng dẫn sử dụng; hậu quả cụ thể của pha sai không có trong nguồn.
+- **Bẫy 2: cho uống nước ngọt có ga, đồ uống năng lượng hoặc đồ thể thao không rõ thành phần vì tiện và mát.** Bệnh viện 108 và bác sĩ Bạch Mai khuyên tránh.
+- **Bẫy 3: cho uống thật nhiều một hơi.** Nguồn chỉ nói từng ngụm nhỏ; việc "ừng ực rồi nôn, sặc" là suy ra, không phải chữ của nguồn.
+- **Bẫy 4: coi mọi ca say nắng chỉ cần uống nước.** Sốc nhiệt cần làm mát và cấp cứu.
 - **Mục này không có nghĩa** là uống càng nhiều càng tốt, hay nước muối thay được việc truyền dịch.
-- **Mục này nói rằng:** người còn tỉnh thì uống chậm từng ngụm, còn người lú lẫn hoặc nôn liên tục thì phải tới cơ sở y tế.
+- **Mục này nói rằng:** người còn tỉnh, chưa có dấu hiệu nặng thì nhấp từng ngụm, còn nôn hoặc có dấu hiệu nặng thì gọi 115.
+- Cần nguồn cho: mốc "còn mệt sau khoảng 30 phút thì gọi cấp cứu" (NHS, chưa có trích dẫn nguyên văn); cách ghi số cấp cứu thống nhất cả chương (mục 49 nêu thêm tổng đài 113 từ 01/11/2026).
 
 ## Nguồn
 
@@ -69,5 +73,6 @@ Mốc 0,1%, 600–800 ml và 200 ml đọc được. Đó là hướng dẫn ph�
 - Bệnh viện TWQĐ 108, "Say nắng, say nóng vẫn là những vấn đề cấp thiết trong mùa hè" (Khoa Cấp cứu) — https://benhvien108.vn/%E2%80%9C-say-nang-say-nong%E2%80%9D-van-la-nhung-van-de-cap-thiet-trong-mua-he.htm
 - Bệnh viện Bạch Mai, "Say nắng và bệnh lý thân nhiệt" — https://bachmai.gov.vn/bai-viet/say-nang-va-benh-ly-than-nhiet?id=aa64d8a6-5900-e87e-e5d4-b34b5c0b70b9
 - Báo Sức khỏe và Đời sống, "Nắng như đổ lửa, bác sĩ Bạch Mai chỉ cách nhận biết sớm say nắng" — https://suckhoedoisong.vn/nang-nhu-do-lua-bac-si-bach-mai-chi-cach-nhan-biet-som-say-nang-de-tranh-nguy-hiem-tinh-mang-169260525161204489.htm
+- CDC (Mỹ), "Heat-Related Illnesses" — https://www.cdc.gov/disasters/extremeheat/pdf/Heat_Related_Illness.pdf
 
 Tra ngày 3/11/2026.

@@ -19,7 +19,7 @@ steps:
   - "Giữ quyết định, bảng lương, bảng chấm công và tin nhắn phân công việc."
   - "Bị ép ký thỏa thuận chấm dứt: ghi rõ ý kiến không đồng ý trên giấy, giữ một bản, gửi văn bản nêu lý do và yêu cầu cung cấp căn cứ."
   - "Đừng tự nghỉ để phản đối; gửi văn bản phản đối và tiếp tục làm nếu còn được làm và an toàn."
-  - "Nộp đơn tới hòa giải viên lao động cấp huyện trong 6 tháng kể từ ngày phát hiện hành vi."
+  - "Yêu cầu hòa giải viên lao động trong 6 tháng, hoặc yêu cầu thẳng Tòa án trong 01 năm (hòa giải không bắt buộc với tranh chấp bị đơn phương chấm dứt); thời hạn tính từ ngày phát hiện."
 legal_refs:
   - { doc: "Bộ luật Lao động 45/2019/QH14 (hợp nhất 18/VBHN-VPQH)", article: "Điều 34 khoản 3", url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm", effective_from: null, checked_at: "2026-11-03", quote: null }
   - { doc: "Bộ luật Lao động 45/2019/QH14 (hợp nhất 18/VBHN-VPQH)", article: "Điều 35 khoản 2", url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm", effective_from: null, checked_at: "2026-11-03", quote: null }
@@ -53,14 +53,13 @@ Bị cho nghỉ trái luật: được nhận lại, trả lương những ngày
 
 **Phía người lao động**
 
-- Bắt đầu kiện không mất án phí, nhưng bạn mất thời gian và phải chịu đựng.
-- Một vụ tranh chấp lao động đi qua hòa giải, có khi qua trọng tài, rồi mới đến tòa. Trong lúc đó bạn vẫn phải sống bằng một khoản thu khác.
+- Bạn mất thời gian và phải chịu đựng. Tranh chấp về bị đơn phương chấm dứt hợp đồng không bắt buộc qua hòa giải; trọng tài chỉ giải quyết khi hai bên đồng thuận (Điều 188 khoản 1 điểm a, Điều 189 khoản 1). Trong lúc đó bạn vẫn phải sống bằng một khoản thu khác.
 - Bạn cũng có thể mất chỗ làm cũ: Điều 41 khoản 1 đặt việc nhận trở lại làm lựa chọn mặc định, nên nếu không muốn quay lại thì phải nói rõ.
 
 **Phía người sử dụng lao động** (phải trả bằng tiền)
 
-- Không trả hoặc trả không đủ tiền cho người lao động theo quy định khi đơn phương chấm dứt trái pháp luật: phạt 1.000.000 đến 2.000.000 đồng với vi phạm từ 1 đến 10 người lao động; doanh nghiệp gấp đôi.
-- Khoản đắt hơn tiền phạt là nghĩa vụ dân sự: ít nhất 02 tháng tiền lương, cộng tiền lương và các khoản bảo hiểm của những ngày người lao động không được làm việc, cộng trợ cấp thôi việc. Có trường hợp cộng thêm 02 tháng nữa.
+- Không trả hoặc trả không đủ tiền cho người lao động theo quy định khi đơn phương chấm dứt trái pháp luật: phạt 1.000.000 đến 2.000.000 đồng với vi phạm từ 1 đến 10 người lao động (mức cho cá nhân; tổ chức gấp đôi).
+- Khoản đắt hơn tiền phạt là nghĩa vụ dân sự: ít nhất 02 tháng tiền lương, cộng tiền lương và các khoản bảo hiểm của những ngày người lao động không được làm việc. Nếu người lao động không muốn quay lại thì cộng trợ cấp thôi việc; nếu công ty không muốn nhận lại và bạn đồng ý thì hai bên thỏa thuận khoản bồi thường thêm, tối thiểu 02 tháng lương.
 
 ## Lợi ích
 
@@ -77,7 +76,8 @@ Nếu bị cho nghỉ trái pháp luật, đừng chỉ tranh cãi miệng. Gi�
 - Không còn vị trí đã giao kết mà người lao động vẫn muốn làm thì hai bên thỏa thuận sửa đổi, bổ sung hợp đồng (Điều 41 khoản 1).
 - Người lao động không muốn tiếp tục: ngoài khoản ở khoản 1, được trả trợ cấp thôi việc theo Điều 46 (Điều 41 khoản 2).
 - Người sử dụng lao động không muốn nhận lại và người lao động đồng ý: ngoài khoản ở khoản 1 và trợ cấp thôi việc, hai bên thỏa thuận khoản bồi thường thêm nhưng ít nhất bằng 02 tháng tiền lương (Điều 41 khoản 3).
-- Ba khoản xếp thành ba mức: nhận lại việc; không nhận lại nhưng tự nguyện đi; hai bên cùng muốn dứt. Mức tiền tăng dần theo mức độ người sử dụng lao động muốn cắt.
+- Ba khoản xếp thành ba tình huống: nhận lại việc; không nhận lại nhưng người lao động đồng ý; người lao động không muốn tiếp tục.
+- Khi tính trợ cấp thôi việc, thời gian đã tham gia bảo hiểm thất nghiệp và thời gian đã được trả trợ cấp thôi việc, trợ cấp mất việc làm bị trừ (Điều 46 khoản 2).
 
 **Chiều ngược lại: người lao động đơn phương trái pháp luật** (Điều 40, BLLĐ)
 
@@ -85,7 +85,7 @@ Nếu bị cho nghỉ trái pháp luật, đừng chỉ tranh cãi miệng. Gi�
 - Phải bồi thường nửa tháng tiền lương theo hợp đồng.
 - Phải trả khoản tương ứng tiền lương những ngày không báo trước.
 - Phải hoàn trả chi phí đào tạo.
-- Vì vậy tự nghỉ ngoài các căn cứ của Điều 35 để phản đối một quyết định sai tạo ra vi phạm thứ hai của chính bạn, và vi phạm đó bị trừ thẳng vào khoản đang đòi.
+- Vì vậy tự nghỉ ngoài các căn cứ của Điều 35 để phản đối một quyết định sai tạo ra vi phạm thứ hai của chính bạn.
 
 **Thời hiệu** (tính từ ngày phát hiện hành vi bị cho là vi phạm)
 
@@ -96,14 +96,16 @@ Nếu bị cho nghỉ trái pháp luật, đừng chỉ tranh cãi miệng. Gi�
 
 **Ký nhận và thỏa thuận**
 
-- Ký nhận quyết định là nhận giấy, không phải đồng ý với nội dung, nên quyền yêu cầu giải quyết tranh chấp không mất đi vì đã ký nhận.
-- Quyền đó mất đi nếu hai bên đã ký thỏa thuận chấm dứt theo khoản 3 Điều 34 (BLLĐ).
-- Trình tự đi qua Điều 187 về thẩm quyền, Điều 188 về hòa giải của hòa giải viên lao động, Điều 189 về Hội đồng trọng tài; mốc thời hạn ở Điều 190 (BLLĐ).
+- Ký nhận quyết định thường chỉ là xác nhận đã nhận giấy (suy ra, không phải chữ của luật); hãy ghi rõ ý kiến không đồng ý nếu bạn không đồng ý.
+- Thỏa thuận chấm dứt là một căn cứ chấm dứt hợp đồng (Điều 34 khoản 3). Nếu đã ký, rất khó đòi Điều 41 vì không còn là chấm dứt trái luật (suy ra từ Điều 34 khoản 3, không phải chữ của luật); thỏa thuận bị ép buộc vẫn nên hỏi tư vấn.
+- Trình tự đi qua Điều 187 về thẩm quyền, Điều 188 về hòa giải, Điều 189 về Hội đồng trọng tài; mốc thời hạn ở Điều 190 (BLLĐ).
+- Tranh chấp về bị đơn phương chấm dứt hợp đồng không bắt buộc qua hòa giải (Điều 188 khoản 1 điểm a, BLLĐ).
+- Trọng tài chỉ giải quyết trên cơ sở đồng thuận của các bên (Điều 189 khoản 1, BLLĐ).
 
 **Mức phạt** (Nghị định 283/2026/NĐ-CP)
 
 - Không trả hoặc trả không đủ tiền cho người lao động theo quy định khi đơn phương chấm dứt trái pháp luật: phạt 1.000.000 đến 2.000.000 đồng với vi phạm từ 1 đến 10 người lao động (Điều 18 khoản 2, NĐ 283/2026/NĐ-CP).
-- Mức ghi trong nghị định là mức của cá nhân; doanh nghiệp trả gấp đôi (Điều 7 khoản 1, NĐ 283).
+- Mức ghi trong nghị định là mức của cá nhân; tổ chức, kể cả doanh nghiệp, bị phạt gấp đôi (Điều 7 khoản 1, NĐ 283). Điều 18 không thuộc danh sách ngoại lệ của khoản 1 Điều 7, nên mức trên là 2.000.000 đến 4.000.000 đồng với doanh nghiệp (1 đến 10 người lao động).
 - Khoản phạt nhỏ, nên giá trị thật của mục này nằm ở nghĩa vụ dân sự của Điều 41. Quyết định trái pháp luật bị tuyên thì người lao động được trả lương cho cả quãng không được làm việc.
 
 ## Ghi chú
@@ -112,13 +114,13 @@ Nếu bị cho nghỉ trái pháp luật, đừng chỉ tranh cãi miệng. Gi�
 
 **Vì sao chưa lên A.** Không có thống kê Việt Nam về tỷ lệ người lao động thắng trong các vụ đơn phương trái pháp luật, số vụ được thi hành xong, hay thời gian trung bình từ đơn đến quyết định. Không thể nói việc kiện tạo ra kết quả đo được là bao.
 
-**Bẫy 1: ký đơn xin nghỉ vì lý do cá nhân hoặc ký biên bản thỏa thuận chấm dứt cho êm.** Sau đó mới nhận ra mất 02 tháng lương và trợ cấp. Biên bản thỏa thuận rơi vào khoản 3 Điều 34, tức chấm dứt hợp pháp, và không còn chỗ để nói tới Điều 41. Nếu bị ép ký, hãy ghi rõ ý kiến không đồng ý ngay trên giấy, giữ một bản, và gửi văn bản tới người sử dụng lao động nêu lý do và yêu cầu cung cấp căn cứ.
+**Bẫy 1: ký đơn xin nghỉ vì lý do cá nhân hoặc ký biên bản thỏa thuận chấm dứt cho êm.** Sau đó mới nhận ra khó đòi 02 tháng lương theo Điều 41. Biên bản thỏa thuận rơi vào khoản 3 Điều 34, tức chấm dứt hợp pháp; việc còn đòi được Điều 41 hay không là suy ra, không phải chữ của luật. Nếu bị ép ký, hãy ghi rõ ý kiến không đồng ý ngay trên giấy, giữ một bản, và gửi văn bản tới người sử dụng lao động nêu lý do và yêu cầu cung cấp căn cứ.
 
-**Bẫy 2: tự nghỉ để phản đối, không báo trước, rồi đòi tiền.** Điều 40 biến việc đó thành đơn phương trái pháp luật của người lao động: mất trợ cấp thôi việc, phải bồi thường nửa tháng lương cộng những ngày không báo trước. Cách đúng là gửi văn bản phản đối, tiếp tục làm nếu công ty còn cho làm và nơi làm việc an toàn. Chỉ dừng khi có căn cứ của điểm a, b, c, d hoặc đ khoản 2 Điều 35, như không được bố trí đúng công việc, không được trả đủ lương, bị ngược đãi.
+**Bẫy 2: tự nghỉ để phản đối, không báo trước, rồi đòi tiền.** Điều 40 biến việc đó thành đơn phương trái pháp luật của người lao động: mất trợ cấp thôi việc, phải bồi thường nửa tháng lương cộng những ngày không báo trước. Cách đúng là gửi văn bản phản đối, tiếp tục làm nếu công ty còn cho làm và nơi làm việc an toàn. Nghỉ không cần báo trước chỉ khi có căn cứ ở khoản 2 Điều 35 (các điểm a đến g), lưu ý ngoại lệ: Điều 29 ở điểm a, khoản 4 Điều 97 ở điểm b.
 
-**Bẫy 3: chờ quá thời hiệu vì nghĩ cứ khiếu nại nội bộ là đủ.** Mốc 6 tháng cho hòa giải và 01 năm cho tòa chạy từ ngày phát hiện. Hết mốc thì quyền đòi mất chứ không chỉ chậm lại, trừ khoảng thời gian bất khả kháng hoặc trở ngại khách quan chứng minh được.
+**Bẫy 3: chờ quá thời hiệu vì nghĩ cứ khiếu nại nội bộ là đủ.** Mốc 6 tháng cho hòa giải viên, 9 tháng cho trọng tài và 01 năm cho tòa chạy từ ngày phát hiện, trừ khoảng thời gian bất khả kháng hoặc trở ngại khách quan chứng minh được.
 
-**Việc đúng cần làm.** Bạn không cần hứa thắng hay tin vào lời hứa thắng. Giữ quyết định, bảng lương, bảng chấm công, tin nhắn phân công, rồi nộp đơn tới hòa giải viên lao động cấp huyện trong 6 tháng. Chỉ nói tới con số khi đã có đủ ba loại giấy đó trong tay.
+**Việc đúng cần làm.** Bạn không cần hứa thắng hay tin vào lời hứa thắng. Giữ quyết định, bảng lương, bảng chấm công, tin nhắn phân công, rồi yêu cầu hòa giải viên lao động trong 6 tháng hoặc yêu cầu thẳng Tòa án trong 01 năm. Chỉ nói tới con số khi đã có đủ ba loại giấy đó trong tay.
 
 ## Nguồn
 

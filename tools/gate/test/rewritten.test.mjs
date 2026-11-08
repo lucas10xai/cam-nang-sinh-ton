@@ -191,3 +191,44 @@ test('trạng thái xác minh cao mà thiếu checked_at/sources → error (chec
   const i = await gateOn((t) => t.replace('"status":"unverified"', '"status":"source-checked"'), { all: true });
   assert.ok(i.some((x) => x.check === 'verification' && x.level === 'error'));
 });
+
+const withTldr = (tldr, extraBody = '') => (t) => t.replace(/tldr: ".*"/, `tldr: "${tldr}"`).replace('Không tốn tiền.', 'Không tốn tiền. ' + extraBody);
+const numMsgs = async (edit) => msgs(await gateOn(edit), 'error').filter((m) => /không xuất hiện trong thân/.test(m));
+
+test('số: ngày D/M/YYYY khớp nguyên cụm, không tách năm', async () => {
+  assert.deepEqual(await numMsgs(withTldr('Báo ngày 6/10/2026 nêu mức 150%.', 'Theo báo ngày 6/10/2026.')), []);
+  // dạng chữ trong thân khớp ngày số trong tldr
+  assert.deepEqual(await numMsgs(withTldr('Báo ngày 6/10/2026 nêu mức 150%.', 'Theo báo ngày 6 tháng 10 năm 2026.')), []);
+  // D/M khớp D/M đầy đủ trong thân
+  assert.deepEqual(await numMsgs(withTldr('Từ 1/9 áp dụng mức 150%.', 'Từ ngày 1/9/2026 áp dụng.')), []);
+});
+
+test('số: ngày trong tldr không có trong thân vẫn báo lỗi', async () => {
+  const m = await numMsgs(withTldr('Báo ngày 7/10/2026 nêu mức 150%.', 'Theo báo ngày 6/10/2026.'));
+  assert.equal(m.length, 1);
+  assert.match(m[0], /"7\/10\/2026"/);
+  const y = await numMsgs(withTldr('Báo ngày 6/10/2025 nêu mức 150%.', 'Theo báo ngày 6/10/2026.'));
+  assert.match(y[0], /"6\/10\/2025"/);
+  assert.equal((await numMsgs(withTldr('Từ 2/9 áp dụng.', 'Từ ngày 1/9/2026.'))).length, 1);
+});
+
+test('số: số hiệu ghi tắt khớp tiền tố số hiệu đầy đủ; sai năm báo lỗi', async () => {
+  const body = 'Nghị định 284/2026/NĐ-CP có hiệu lực.';
+  assert.deepEqual(await numMsgs(withTldr('NĐ 284/2026 áp dụng mức 150%.', body)), []);
+  assert.deepEqual(await numMsgs(withTldr('NĐ 284/2026/NĐ-CP áp dụng mức 150%.', body)), []);
+  const wrongYear = await numMsgs(withTldr('NĐ 284/2025 áp dụng mức 150%.', body));
+  assert.equal(wrongYear.length, 1);
+  assert.match(wrongYear[0], /"284\/2025"/);
+  const wrongNo = await numMsgs(withTldr('NĐ 285/2026 áp dụng mức 150%.', body));
+  assert.match(wrongNo[0], /"285\/2026"/);
+  // tldr đầy đủ nhưng thân chỉ có dạng ngắn hơn → lỗi (thân phải có số hiệu đủ)
+  assert.equal((await numMsgs(withTldr('NĐ 284/2026/NĐ-CP áp dụng.', 'Nghị định 284/2026 có hiệu lực.'))).length, 1);
+});
+
+test('số: số đứng riêng vẫn kiểm như cũ (2026 đứng một mình không khớp số hiệu)', async () => {
+  const m = await numMsgs(withTldr('Từ năm 2026 áp dụng mức 150%.', 'Nghị định 284/2026/NĐ-CP, ngày 6/10/2026.'));
+  assert.equal(m.length, 1);
+  assert.match(m[0], /"2026"/);
+  assert.deepEqual(await numMsgs(withTldr('Từ năm 2026 áp dụng mức 150%.', 'Áp dụng từ năm 2026.')), []);
+  assert.equal((await numMsgs(withTldr('Mức 50 triệu.', ''))).length, 1);
+});

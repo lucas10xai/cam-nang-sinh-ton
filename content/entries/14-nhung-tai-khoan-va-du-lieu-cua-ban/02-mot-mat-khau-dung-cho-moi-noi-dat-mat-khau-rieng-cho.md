@@ -21,10 +21,10 @@ steps:
   - "Mở phần thiết bị đã đăng nhập, đăng xuất những máy bạn không nhận ra."
   - "Bảo vệ cả nơi ghi mật khẩu."
 legal_refs:
-  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 27 khoản 1 điểm d", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
-  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 29 khoản 6", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
-  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 23 khoản 1", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
-  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 4 khoản 2 điểm a", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
+  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 27 khoản 1 điểm d", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf", effective_from: "2026-01-01", checked_at: "2026-11-03", quote: null }
+  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 29 khoản 6", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf", effective_from: "2026-01-01", checked_at: "2026-11-03", quote: null }
+  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 23 khoản 1", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf", effective_from: "2026-01-01", checked_at: "2026-11-03", quote: null }
+  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 4 khoản 2 điểm a", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf", effective_from: "2026-01-01", checked_at: "2026-11-03", quote: null }
 verification:
   status: unverified
   checked_at: null
@@ -58,16 +58,18 @@ Dùng mật khẩu khác nhau cho từng dịch vụ, nhất là hộp thư chí
 
 ## Pháp luật Việt Nam
 
-- Tổ chức hoạt động tài chính, ngân hàng phải "thông báo cho chủ thể dữ liệu cá nhân trong trường hợp lộ, mất thông tin về tài khoản ngân hàng, tài chính, tín dụng" (Điều 27 khoản 1 điểm d, Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15). Với tài khoản ngân hàng, bạn sẽ có người báo.
-- Với hộp thư, bạn có thể không nhận được cảnh báo. Nền tảng chỉ bị buộc công khai chính sách bảo mật và "báo cáo các vi phạm về bảo mật và quyền riêng tư" (Điều 29 khoản 6, Luật 91/2025/QH15). Thông báo có thể gửi tới chính hộp thư đang bị chiếm.
-- Bên kiểm soát dữ liệu phải thông báo cho cơ quan chuyên trách trong 72 giờ khi vi phạm có thể gây tổn hại (Điều 23 khoản 1, Luật 91/2025/QH15). Đồng hồ 72 giờ bắt đầu từ lúc họ phát hiện, không phải từ lúc bạn phát hiện.
+- Tổ chức hoạt động tài chính, ngân hàng phải "thông báo cho chủ thể dữ liệu cá nhân trong trường hợp lộ, mất thông tin về tài khoản ngân hàng, tài chính, tín dụng" (Điều 27 khoản 1 điểm d, Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15).
+- Luật buộc tổ chức báo cho bạn, nhưng không nêu hạn (Điều 27 khoản 1 điểm d, Luật 91/2025/QH15).
+- Với hộp thư, luật không nêu cam kết báo riêng cho chủ tài khoản. Nền tảng phải công khai chính sách bảo mật, cung cấp cơ chế truy cập, chỉnh sửa, xóa dữ liệu và xây dựng quy trình xử lý vi phạm nhanh chóng (Điều 29 khoản 6, Luật 91/2025/QH15).
+- Bên kiểm soát dữ liệu phải thông báo cho cơ quan chuyên trách trong 72 giờ khi vi phạm có thể gây tổn hại (Điều 23 khoản 1, Luật 91/2025/QH15).
+- Đồng hồ 72 giờ bắt đầu từ lúc họ phát hiện, không phải từ lúc bạn phát hiện (Điều 23 khoản 1, Luật 91/2025/QH15).
 
 Vì vậy hộp thư là chỗ bạn phải tự canh, và cũng là nơi nhiều dịch vụ khác gửi thư đặt lại mật khẩu.
 
 ## Ghi chú
 
 - **Giới hạn của bằng chứng:** không có văn bản Việt Nam nào yêu cầu người dùng đặt mật khẩu riêng cho hộp thư. Cũng không có thống kê trong nước về số vụ mất tài khoản bắt đầu từ hộp thư.
-- Luật chỉ đặt nghĩa vụ tự bảo vệ dữ liệu ở Điều 4 khoản 2 điểm a và nghĩa vụ thông báo lên tổ chức.
+- Trong các điều đã dẫn, luật đặt nghĩa vụ tự bảo vệ ở Điều 4 khoản 2 điểm a và nghĩa vụ thông báo lên tổ chức.
 - Câu "hộp thư là chỗ lấy lại tất cả" là suy ra từ cách các dịch vụ gửi thư đặt lại mật khẩu, không phải câu chữ trong văn bản.
 - **Bẫy 1: lấy số điện thoại, ngày sinh hoặc tên con làm mật khẩu**, rồi dùng đúng mật khẩu đó cho hộp thư, ngân hàng và mạng xã hội. Một lần lộ là lộ hết và không biết lộ từ đâu.
 - **Bẫy 2: đổi mật khẩu xong là yên tâm**, không mở danh sách thiết bị đang đăng nhập. Kẻ đã vào được thường đặt sẵn một đường vào thứ hai để lần sau quay lại.

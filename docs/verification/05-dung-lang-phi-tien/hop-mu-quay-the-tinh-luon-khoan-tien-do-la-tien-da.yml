@@ -1,0 +1,61 @@
+id: hop-mu-quay-the-tinh-luon-khoan-tien-do-la-tien-da
+checker: agent-V3a05f
+checked_at: 2026-11-08
+content_sha256: "31f2d6cc3a30f8464d81ce9a4e79780309619a3174e13669274816971ee187a5"
+result: pass-with-edits
+claims:
+  - text: "Cấm cung cấp thông tin sai lệch, không đầy đủ, không chính xác về sản phẩm; nếu cửa hàng công bố một tỷ lệ rồi thực tế khác, đó là căn cứ khiếu nại (Điều 10 khoản 1 điểm a Luật BVQLNTD 19/2023/QH15)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "a) Lừa dối hoặc gây nhầm lẫn cho người tiêu dùng thông qua việc cung cấp thông tin sai lệch, không đầy đủ, không chính xác về một trong các nội dung sau đây: sản phẩm, hàng hóa, dịch vụ mà tổ chức, cá nhân kinh doanh bán, cung cấp;"
+    verdict: partial
+    note: "PDF là ảnh quét, đọc bằng OCR (trang 8). Điều khoản có thật nhưng hành vi bị cấm là 'lừa dối hoặc gây nhầm lẫn ... thông qua việc cung cấp thông tin sai lệch...'; mục lược bỏ yếu tố lừa dối/gây nhầm lẫn. Suy luận 'tỷ lệ công bố khác thực tế là căn cứ khiếu nại' là suy ra, không phải chữ của luật (luật không nhắc 'tỷ lệ' hay 'hộp mù')."
+  - text: "Cấm không đền bù, không trả lại tiền hoặc không đổi hàng khi lỗi thuộc về bên bán (Điều 10 khoản 1 điểm e)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "e) Không đền bù, trả lại tiền hoặc đổi lại sản phẩm, hàng hóa, dịch vụ cho người tiêu dùng do sản phẩm, hàng hóa, dịch vụ không đúng với đăng ký, thông báo, công bố, niêm yết, quảng cáo, giới thiệu, giao kết, cam kết của tổ chức, cá nhân kinh doanh;"
+    verdict: partial
+    note: "Điểm e nói 'do sản phẩm không đúng với đăng ký, thông báo, công bố, niêm yết, quảng cáo ... cam kết', không phải 'lỗi thuộc về bên bán' chung chung. Điều khoản này thực tế sát với trường hợp 'tỷ lệ công bố khác thực tế' hơn điểm a nhưng mục dẫn nó với diễn đạt không đúng. Điểm đ (do nhầm lẫn của bên kinh doanh) là điểm khác."
+  - text: "Trẻ em thuộc nhóm người tiêu dùng dễ bị tổn thương (Điều 8)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "Điều 8. Bảo vệ quyền lợi người tiêu dùng dễ bị tổn thương 1. Người tiêu dùng dễ bị tổn thương là người tiêu dùng có khả năng chịu nhiều tác động bất lợi về tiếp cận thông tin, sức khỏe, tài sản, giải quyết tranh chấp tại thời điểm mua hoặc sử dụng sản phẩm, hàng hóa, dịch vụ, bao gồm: ... c) Trẻ em theo quy định của pháp luật về trẻ em;"
+    verdict: match
+    note: "OCR trang 5."
+  - text: "Giao dịch của người dưới 15 tuổi bị giới hạn, nên bán hộp mù cho trẻ nhỏ là giao dịch có thể bị hủy (Điều 21 Bộ luật Dân sự '91/2015/QH15')"
+    source_url: https://vbpl.vn/van-ban/chi-tiet/bo-luat-dan-su-so-91-2015-qh13--95942
+    quote: "3. Người từ đủ sáu tuổi đến chưa đủ mười lăm tuổi khi xác lập, thực hiện giao dịch dân sự phải được người đại diện theo pháp luật đồng ý, trừ giao dịch dân sự phục vụ nhu cầu sinh hoạt hàng ngày phù hợp với lứa tuổi."
+    verdict: partial
+    note: "Hai lỗi: (1) số hiệu sai: Bộ luật Dân sự 2015 là 91/2015/QH13 (vbpl.vn), không phải QH15. (2) Điều 21 chỉ quy định năng lực/đại diện, KHÔNG nói giao dịch 'bị hủy'. Việc vô hiệu nằm ở Điều 125: 'theo yêu cầu của người đại diện của người đó, Tòa án tuyên bố giao dịch đó vô hiệu nếu theo quy định của pháp luật giao dịch này phải do người đại diện của họ xác lập, thực hiện hoặc đồng ý', kèm ngoại lệ: Điều 21 khoản 3 'trừ giao dịch dân sự phục vụ nhu cầu sinh hoạt hàng ngày phù hợp với lứa tuổi' (hộp mù giá nhỏ có thể thuộc ngoại lệ). Khoản 4: người 15-18 tuổi tự xác lập, trừ bất động sản/động sản phải đăng ký. 'Có thể bị hủy' phải do Tòa tuyên, không tự động; mục nói như tự hủy được ('giao dịch có thể bị hủy') có thể làm người đọc kỳ vọng sai."
+  - text: "Việt Nam chưa có luật riêng bắt công bố tỷ lệ ra đồ hiếm; 'Không có văn bản nào ở Việt Nam buộc cửa hàng công bố xác suất từng món'"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "(không có nguyên văn)"
+    verdict: not-found
+    note: "Khẳng định phủ định tuyệt đối ('không có văn bản nào'). Trong Luật 19/2023 (đã đọc các điều 8, 10, 21, 34) không thấy quy định riêng; nhưng chưa tra các văn bản khác (kinh doanh có thưởng, quảng cáo, trò chơi điện tử, thương mại điện tử) nên không thể xác nhận phủ định toàn hệ thống. Nên viết 'trong các điều của Luật BVQLNTD đã tra không thấy' hoặc dẫn nguồn khác. Cần soát thêm: Luật BVQLNTD Điều 21 khoản 1 điểm a ('Cung cấp thông tin chính xác, đầy đủ ... sản phẩm, hàng hóa ... chất lượng, công dụng, giá') cũng là căn cứ."
+  - text: "Điều 21: người dưới 15 tuổi (mục dùng 'bị giới hạn')"
+    source_url: https://vbpl.vn/van-ban/chi-tiet/bo-luat-dan-su-so-91-2015-qh13--95942
+    quote: "2. Giao dịch dân sự của người chưa đủ sáu tuổi do người đại diện theo pháp luật của người đó xác lập, thực hiện."
+    verdict: match
+    note: "Khoản 2 Điều 21 (từ vbpl.vn, trang chi tiết quét thành văn bản). Chưa đủ 6 tuổi: người đại diện xác lập."
+internal_checks:
+  - issue: "Số hiệu văn bản sai: legal_refs[3].doc và mục Nguồn ghi 'Bộ luật Dân sự 91/2015/QH15'; đúng là 91/2015/QH13 (Quốc hội khóa XIII, 24/11/2015; vbpl.vn: 'Bộ luật Dân sự số 91/2015/QH13')."
+    severity: error
+  - issue: "legal_refs[3] (Bộ luật Dân sự Điều 21) url: null; mục Nguồn không có URL ('bản ký (tra 2/11/2026)')."
+    severity: error
+  - issue: "Mục dẫn Điều 21 BLDS để nói giao dịch 'có thể bị hủy' nhưng điều vô hiệu là Điều 125; Điều 21 chỉ là năng lực giao dịch; thiếu ngoại lệ 'nhu cầu sinh hoạt hàng ngày phù hợp với lứa tuổi'."
+    severity: error
+  - issue: "legal_refs 0..2 (Luật BVQLNTD) URL moit.gov.vn đúng văn bản 19/2023/QH15 (đã mở, 46 trang, ảnh quét; Điều 79 hiệu lực 01/7/2024). Điều/khoản tồn tại; diễn đạt điểm e không khớp nguyên văn."
+    severity: warn
+  - issue: "Step 3 'Quay màn hình lúc mở hộp' và Step 2 giữ ảnh/chứng từ là lời khuyên thực tế, không có cơ sở nguyên văn trong luật dẫn; hợp lý nhưng nên ghi là 'lời khuyên'."
+    severity: warn
+validity:
+  doc: "Luật Bảo vệ quyền lợi người tiêu dùng 19/2023/QH15 (Điều 8, 10); Bộ luật Dân sự 91/2015/QH13 (Điều 21)"
+  in_force: true
+  effective_from: "2024-07-01"
+  amended_by: []
+  basis: "Luật 19/2023/QH15 Điều 79 khoản 1 (OCR trang 45): 'Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024', thay Luật 59/2010/QH12. Không thấy văn bản sửa/thay các điều đã dẫn trong phạm vi tra cứu. BLDS 2015: vbpl.vn gắn thẻ legislationLegalForce 'InForce' trên trang chi tiết văn bản (metadata, không phải văn bản của cơ quan ban hành); không tra sửa đổi năm 2025-2026 nên coi là đúng nhưng chưa có xác nhận độc lập."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "legal_refs[3].doc và mục Nguồn: đổi '91/2015/QH15' thành '91/2015/QH13'; điền url https://vbpl.vn/van-ban/chi-tiet/bo-luat-dan-su-so-91-2015-qh13--95942."
+  - "Phần Trẻ em, bullet 2: viết lại: 'Người từ đủ 6 đến chưa đủ 15 tuổi giao dịch phải được người đại diện theo pháp luật đồng ý, trừ giao dịch phục vụ nhu cầu sinh hoạt hàng ngày phù hợp với lứa tuổi (Điều 21 khoản 3). Người đại diện có thể yêu cầu Tòa án tuyên bố giao dịch vô hiệu nếu giao dịch phải có sự đồng ý của họ (Điều 125 khoản 1), nhưng không vô hiệu nếu là giao dịch thiết yếu hàng ngày của người chưa đủ 6 tuổi (Điều 125 khoản 2)'. Bỏ 'bán hộp mù cho trẻ nhỏ là giao dịch có thể bị hủy' hoặc nêu rõ điều kiện."
+  - "Điều 10 khoản 1 điểm e: đổi diễn đạt 'khi lỗi thuộc về bên bán' thành 'do sản phẩm không đúng với đăng ký, thông báo, công bố, niêm yết, quảng cáo, giới thiệu, giao kết, cam kết của bên kinh doanh'; cân nhắc dùng điểm e làm căn cứ chính cho trường hợp 'tỷ lệ công bố khác thực tế'."
+  - "Điều 10 khoản 1 điểm a: ghi đủ 'lừa dối hoặc gây nhầm lẫn thông qua việc cung cấp thông tin sai lệch, không đầy đủ, không chính xác'."
+  - "'Không có văn bản nào ở Việt Nam buộc công bố xác suất': hạ thành 'chưa thấy quy định riêng' hoặc gắn nhãn suy ra; soát thêm văn bản quản lý trò chơi có thưởng/quảng cáo trước khi khẳng định tuyệt đối."

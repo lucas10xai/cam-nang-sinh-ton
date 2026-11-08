@@ -1,0 +1,74 @@
+id: tien-ao-khong-phai-tien-va-den-nay-chua-co-san-nao
+checker: agent-V3a05g
+checked_at: 2026-11-08
+content_sha256: "c85479e23426f09c125141dbaca17c50a714ed05d2652cfc16a88b92483b711b"
+result: pass-with-edits
+claims:
+  - text: "Nhà đầu tư trong nước đang có tài sản mã hóa được mở tài khoản tại tổ chức cung cấp dịch vụ do Bộ Tài chính cấp phép để lưu ký, mua, bán tại Việt Nam (NQ 05/2025/NQ-CP Điều 7 khoản 1)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/05-cp.signed.pdf
+    quote: 'Nhà đầu tư trong nước đang có tài sản mã hóa, nhà đầu tư nước ngoài được mở tài khoản tại tổ chức cung cấp dịch vụ tài sản mã hóa do Bộ Tài chính cấp phép để lưu ký, mua, bán tài sản mã hóa tại Việt Nam.'
+    verdict: match
+    note: "PDF ký số là ảnh quét 45 trang, không có lớp chữ; đọc từ ảnh trang 5 bằng OCR (macOS Vision), quote đã chuẩn hóa dấu. Mục lược 'nhà đầu tư nước ngoài' khỏi câu, không làm sai ý."
+  - text: "Sau 6 tháng kể từ khi tổ chức đầu tiên được cấp phép, nhà đầu tư trong nước giao dịch không qua tổ chức được cấp phép sẽ bị xử lý hành chính hoặc truy cứu trách nhiệm hình sự (Điều 7 khoản 2)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/05-cp.signed.pdf
+    quote: 'Sau thời hạn 6 tháng kể từ khi tổ chức cung cấp dịch vụ tài sản mã hóa đầu tiên được cấp phép, nhà đầu tư trong nước giao dịch tài sản mã hóa không thông qua tổ chức cung cấp dịch vụ tài sản mã hóa do Bộ Tài chính cấp phép tùy theo tính chất, mức độ vi phạm sẽ bị xử lý vi phạm hành chính hoặc truy cứu trách nhiệm hình sự theo quy định pháp luật.'
+    verdict: match
+    note: "Cùng giới hạn OCR. Khớp với văn bản được Bộ Tài chính trích trên Báo Chính phủ 6/10/2026 (đọc được chữ)."
+  - text: "Nhà đầu tư tự chịu trách nhiệm về quyết định đầu tư (Điều 16 khoản 2)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/05-cp.signed.pdf
+    quote: 'Nhà đầu tư tự chịu trách nhiệm về quyết định đầu tư tài sản mã hóa.'
+    verdict: match
+    note: "OCR trang 17."
+  - text: "Phạt 30 đến 50 triệu đồng đối với nhà đầu tư trong nước giao dịch tài sản mã hóa không thông qua tổ chức cung cấp dịch vụ do Bộ Tài chính cấp phép (NĐ 284/2026 Điều 9 khoản 1)"
+    source_url: https://www.sav.gov.vn/Files/Others/db59882a-7d7d-4e67-9515-c363e3a1f417/284_2026_N%C4%90-CP.pdf
+    quote: '1. Phạt tiền từ 30.000.000 đồng đến 50.000.000 đồng đối với nhà đầu tư trong nước giao dịch tài sản mã hóa không thông qua tổ chức cung cấp dịch vụ tài sản mã hóa do Bộ Tài chính cấp phép theo quy định tại khoản 2 Điều 7 Nghị quyết số 05/2025/NQ-CP.'
+    verdict: partial
+    note: "Con số khớp, nhưng điều khoản dẫn chiếu khoản 2 Điều 7 NQ 05, tức là chỉ áp dụng sau 6 tháng kể từ khi tổ chức ĐẦU TIÊN được cấp phép. tldr nói 'Từ 1/9/2026, giao dịch không qua tổ chức được cấp phép bị phạt 30 đến 50 triệu' thiếu điều kiện này và mâu thuẫn với chính mục (chưa có tổ chức nào được cấp phép nên đồng hồ 6 tháng chưa chạy). Bản PDF của SAV trích được chữ."
+  - text: "Mức phạt tối đa của nghị định là 200 triệu đồng với tổ chức và 100 triệu đồng với cá nhân (Điều 4 khoản 1)"
+    source_url: https://www.sav.gov.vn/Files/Others/db59882a-7d7d-4e67-9515-c363e3a1f417/284_2026_N%C4%90-CP.pdf
+    quote: 'Mức phạt tiền tối đa đối với hành vi vi phạm quy định tại Nghị định này là 200.000.000 đồng đối với tổ chức, 100.000.000 đồng đối với cá nhân.'
+    verdict: match
+    note: ""
+  - text: "Nghị định 284/2026/NĐ-CP ban hành 16/7/2026, hiệu lực 1/9/2026"
+    source_url: https://www.sav.gov.vn/Files/Others/db59882a-7d7d-4e67-9515-c363e3a1f417/284_2026_N%C4%90-CP.pdf
+    quote: 'Nghị định này có hiệu lực thi hành từ ngày 01 tháng 9 năm 2026 đến ngày Nghị quyết số 05/2025/NQ-CP hết hiệu lực thi hành.'
+    verdict: match
+    note: "Số: 284/2026/NĐ-CP, Hà Nội, ngày 16 tháng 7 năm 2026 (trang đầu). Nghị định chỉ có hiệu lực trong thời gian NQ 05 còn hiệu lực (Điều 21)."
+  - text: "Ngày 6/10/2026, Bộ Tài chính trả lời công dân: Việt Nam chưa có tổ chức cung cấp dịch vụ tài sản số nào được cấp phép"
+    source_url: https://baochinhphu.vn/giao-dich-tai-san-ma-hoa-khong-qua-to-chuc-duoc-cap-phep-co-the-bi-xu-ly-102261006081040169.htm
+    quote: 'hiện có nhiều ý kiến tranh luận liên quan đến việc cá nhân thực hiện giao dịch tài sản số trên các sàn giao dịch quốc tế sau ngày 01/9/2026 trong bối cảnh Việt Nam chưa có tổ chức cung cấp dịch vụ tài sản số nào được cơ quan có thẩm quyền cấp phép.'
+    verdict: partial
+    note: "Câu 'chưa có tổ chức nào được cấp phép' nằm trong phần dẫn nhập của báo mô tả câu hỏi của công dân (ông Trần Toàn), không phải lời của Bộ Tài chính; phần trả lời của Bộ Tài chính (đọc được) chỉ trích khoản 2 Điều 7 NQ 05. Ngày bài 6/10/2026 đúng. Tình hình đến 8/11/2026 chưa kiểm được (tìm kiếm thấy tin hồ sơ cấp phép được nhận từ 20/1/2026 và một sàn nội địa vừa qua thẩm định an toàn thông tin cấp độ 4 cách đây ~2 tuần; chưa thấy tin cấp phép)."
+  - text: "Bitcoin hay USDT không phải tiền hợp pháp ở Việt Nam / tiền ảo không phải tiền (tiêu đề, Nói dễ hiểu)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/05-cp.signed.pdf
+    quote: ''
+    verdict: not-found
+    note: "Không nguồn nào trong mục nêu câu này. NQ 05 Điều 4 khoản 7 chỉ nói 'chào bán, phát hành, giao dịch, thanh toán tài sản mã hóa phải được thực hiện bằng Đồng Việt Nam'; không phát biểu 'không phải tiền hợp pháp'. Cần dẫn nguồn (ví dụ quy định về phương tiện thanh toán hợp pháp) hoặc bỏ."
+internal_checks:
+  - issue: "tldr: 'Từ 1/9/2026, giao dịch không qua tổ chức được cấp phép bị phạt 30 đến 50 triệu đồng' mâu thuẫn với phần Pháp luật VN của chính mục (đồng hồ 6 tháng chưa chạy vì chưa có tổ chức nào được cấp phép) và với Điều 9 khoản 1 NĐ 284, dẫn chiếu khoản 2 Điều 7 NQ 05 (chỉ sau 6 tháng kể từ tổ chức đầu tiên được cấp phép). Người đọc có thể hiểu sai là đã bị phạt từ 1/9/2026."
+    severity: error
+  - issue: "Phần Pháp luật VN nói 'Bộ Tài chính trả lời... chưa có tổ chức nào được cấp phép' nhưng câu đó là của dẫn nhập bài báo; cần diễn đạt đúng nguồn."
+    severity: warn
+  - issue: "'Đến 6/10/2026' trong tldr là mốc cũ hơn 1 tháng so với 8/11/2026; không ghi 'cần kiểm lại'."
+    severity: warn
+  - issue: "Nói dễ hiểu: 'Bitcoin hay USDT không phải tiền hợp pháp' không có nguồn trong mục."
+    severity: warn
+  - issue: "Bẫy 2 'cam kết lãi 2%/tháng bằng USDT là mô hình lừa đảo quen thuộc' không có nguồn (evidence: C); 'Lãi được trả bằng đúng loại tài sản mà người trả tự tạo ra' là nhận định."
+    severity: warn
+  - issue: "Chi phí: 'Với sàn nước ngoài còn có rủi ro không rút được tiền' và 'Bẫy 1: không có cơ quan nào ở Việt Nam để khiếu nại' không nguồn."
+    severity: warn
+  - issue: "legal_refs: Nghị quyết 05 'Điều 7 khoản 1, khoản 2' và 'Điều 16 khoản 2' khớp; Nghị định 284 'Điều 9 khoản 1' và 'Điều 4 khoản 1' khớp. URL đúng văn bản (NQ 05 và NĐ 284). effective_from của NQ 05 đang null; NQ có hiệu lực 9/9/2025 (Điều 18 khoản 1) và thí điểm 5 năm (khoản 2)."
+    severity: warn
+validity:
+  doc: "NQ 05/2025/NQ-CP (9/9/2025) và NĐ 284/2026/NĐ-CP (16/7/2026)"
+  in_force: unconfirmed
+  effective_from: "2025-09-09 (NQ 05); 2026-09-01 (NĐ 284)"
+  amended_by: []
+  basis: "NQ 05: Điều 18 'có hiệu lực thi hành kể từ ngày 09 tháng 9 năm 2025', thí điểm 5 năm; Bộ Tài chính trích điều khoản này làm căn cứ hiện hành trên Báo Chính phủ 6/10/2026. NĐ 284: Điều 21 hiệu lực từ 1/9/2026 đến khi NQ 05 hết hiệu lực, ký 16/7/2026; không tìm thấy văn bản sửa đổi nhưng không có công cụ tra Công báo/vbpl.vn hiển thị tình trạng hiệu lực nên giữ unconfirmed. Tình trạng cấp phép sau 6/10/2026 chưa xác nhận."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "tldr: thay câu thứ hai bằng 'Nghị định 284/2026/NĐ-CP (hiệu lực 1/9/2026) quy định phạt 30 đến 50 triệu đồng với nhà đầu tư trong nước giao dịch không qua tổ chức được cấp phép, nhưng chỉ áp dụng sau 6 tháng kể từ khi tổ chức đầu tiên được cấp phép (Điều 7 khoản 2 NQ 05/2025/NQ-CP)'."
+  - "Pháp luật VN, mục Tình hình cấp phép: ghi 'Báo Chính phủ 6/10/2026, khi trả lời công dân, nêu bối cảnh Việt Nam chưa có tổ chức nào được cấp phép; Bộ Tài chính dẫn khoản 2 Điều 7 NQ 05' thay vì gán câu đó cho Bộ Tài chính; thêm 'cần kiểm lại trước khi công bố'."
+  - "Bỏ hoặc dẫn nguồn cho câu 'Bitcoin hay USDT không phải tiền hợp pháp'; nếu giữ, chỉ nói NQ 05 Điều 4 khoản 7 yêu cầu giao dịch/thanh toán bằng Đồng Việt Nam."
+  - "Điền effective_from cho NQ 05 là 2025-09-09 và nêu thí điểm 5 năm (Điều 18)."

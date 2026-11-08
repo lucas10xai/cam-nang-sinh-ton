@@ -1,0 +1,108 @@
+id: don-vi-khong-dong-bao-hiem-tai-nan-che-do-van-con
+checker: agent-V3b19cB
+checked_at: 2026-11-08
+content_sha256: 55335f1690fc996e009396ce3ff7b47a95571e3524ed70afd37164c39531e7a7
+result: pass-with-edits
+claims:
+  - text: Đơn vị không đóng BH TNLĐ-BNN cho người thuộc diện BHXH bắt buộc thì ngoài bồi thường Điều 38 còn phải trả khoản tiền tương ứng chế độ bảo hiểm (Điều 39.4)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: 4. Nếu người sử dụng lao động không đóng bảo hiểm tai nạn lao động, bệnh nghề nghiệp cho người lao động thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc theo quy định của Luật Bảo hiểm xã hội, thì ngoài việc phải bồi thường, trợ cấp theo quy định tại Điều 38 của Luật này, người sử dụng lao động phải trả khoản tiền tương ứng với chế độ bảo hiểm tai nạn lao động, bệnh nghề nghiệp theo quy định tại Mục 3 Chương này khi người lao động bị tai nạn lao động, bệnh nghề nghiệp;
+    verdict: match
+    note: tldr/Nói dễ hiểu viết "đơn vị trả thay quỹ" mà không nêu điều kiện "thuộc đối tượng BHXH bắt buộc" (thân bài có nêu); Điều 40 khoản 1 (không hưởng) cũng áp dụng.
+  - text: Chi trả một lần hoặc hằng tháng theo thỏa thuận; không thống nhất thì theo yêu cầu của người lao động (Điều 39.4)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: việc chi trả có thể thực hiện một lần hoặc hằng tháng theo thỏa thuận của các bên, trường hợp không thống nhất thì thực hiện theo yêu cầu của người lao động.
+    verdict: match
+    note: ""
+  - text: "Trợ cấp một lần: 5% = 5 lần lương cơ sở, +0,5 lần mỗi 1% (Điều 48.2.a); 5% là 12.650.000 đồng"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: a) Suy giảm 5% khả năng lao động thì được hưởng năm lần mức lương cơ sở, sau đó cứ suy giảm thêm 1% thì được hưởng thêm 0,5 lần mức lương cơ sở;
+    verdict: partial
+    note: '5 x 2.530.000 = 12.650.000 đúng. Nhưng Điều 48.2.b còn cộng khoản theo số năm đóng quỹ (0,5 tháng lương nếu đóng từ một năm trở xuống, mỗi năm thêm 0,3 tháng): khoản "tương ứng chế độ" mà đơn vị phải trả (Điều 39.4) gồm cả phần này; tldr "Suy giảm 5% là 12.650.000 đồng" và "đúng mức quỹ lẽ ra trả" không nêu. Điều 48.1: chỉ áp cho mức 5-30%.'
+  - text: "Suy giảm từ 31%: hằng tháng 30% lương cơ sở, +2% mỗi 1% (Điều 49.2.a); 31% là 759.000 đồng, 100% là 4.250.400 đồng"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: a) Suy giảm 31% khả năng lao động thì được hưởng bằng 30% mức lương cơ sở, sau đó cứ suy giảm thêm 1% thì được hưởng thêm 2% mức lương cơ sở;
+    verdict: partial
+    note: Số học đúng (30% x 2.530.000 = 759.000; (30%+69x2%) x 2.530.000 = 4.250.400). Thiếu Điều 49.2.b (cộng theo số năm đóng quỹ) và Điều 52 (trợ cấp phục vụ).
+  - text: "Chết do tai nạn lao động: thân nhân hưởng một lần 36 lần lương cơ sở = 91.080.000 đồng (Điều 53)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: "Thân nhân người lao động được hưởng trợ cấp một lần bằng ba mươi sáu lần mức lương cơ sở tại tháng người lao động bị chết và được hưởng chế độ tử tuất theo quy định của Luật Bảo hiểm xã hội khi thuộc một trong các trường hợp sau đây:"
+    verdict: match
+    note: 36 x 2.530.000 = 91.080.000. Mục không nhắc phần "chế độ tử tuất theo Luật BHXH" cũng nằm trong khoản đơn vị phải trả (xem mục 19-15).
+  - text: Mức lương cơ sở 2.530.000 đồng/tháng từ 01/7/2026 (Nghị định 161/2026 Điều 3.2)
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/161-ndcp.signed.pdf
+    quote: 2. Từ ngày 01 tháng 7 năm 2026, mức lương cơ sở là 2.530.000 đồng/tháng.
+    verdict: match
+    note: PDF ký số là ảnh quét (pdftotext không trích được chữ); đã render trang 3 thành ảnh và đọc trực tiếp. Điều 3 khoản 2 đúng như trích.
+  - text: Mức đóng tối đa 1% quỹ tiền lương (Điều 44.1)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: 1. Người sử dụng lao động hằng tháng đóng tối đa 1% trên quỹ tiền lương làm căn cứ đóng bảo hiểm xã hội của người lao động quy định tại Điều 43 của Luật này vào Quỹ bảo hiểm tai nạn lao động, bệnh nghề nghiệp.
+    verdict: match
+    note: Luật chỉ đặt trần.
+  - text: 'Phần Chi phí: "hằng tháng 1% quỹ tiền lương đóng vào quỹ bảo hiểm tai nạn lao động"'
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/05-vbhn-bnv.pdf
+    quote: a) Mức đóng bình thường bằng 0,5% tiền lương làm căn cứ đóng bảo hiểm xã hội bắt buộc; [...] b) Mức đóng bằng 0,3% tiền lương làm căn cứ đóng bảo hiểm xã hội bắt buộc được áp dụng đối với doanh nghiệp bảo đảm điều kiện theo quy định tại Điều 5 của Nghị định này.
+    verdict: mismatch
+    note: Nghị định 58/2020/NĐ-CP Điều 4 khoản 1 (sửa đổi bởi ND 158/2025, VBHN 5/VBHN-BNV, PDF datafiles.chinhphu.vn có lớp chữ) đặt mức bình thường 0,5%, mức thấp 0,3%; 1% chỉ là trần trong luật. Phần Chi phí viết "1%" như mức phải đóng thực tế; Pháp luật VN viết "tối đa 1%" nên mục tự mâu thuẫn.
+  - text: Chậm đóng nộp thêm 0,03%/ngày trên số chậm đóng (Luật BHXH 41/2024 Điều 40.1)
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-so-41-2024-qh15-bao-hiem-xa-hoi-119240723163650489.htm
+    quote: 1. Bắt buộc đóng đủ số tiền chậm đóng; nộp số tiền bằng 0,03%/ngày tính trên số tiền bảo hiểm xã hội, bảo hiểm thất nghiệp chậm đóng và số ngày chậm đóng vào quỹ bảo hiểm xã hội, quỹ bảo hiểm thất nghiệp.
+    verdict: match-secondary
+    note: Nguồn là toàn văn trên cổng xaydungchinhsach.chinhphu.vn (cổng thông tin của Chính phủ), không phải Công báo/vbpl; đối chiếu chữ khớp nhưng xếp match-secondary theo quy tắc nguồn chính.
+  - text: Điều 41.1 áp cùng mức 0,03%/ngày với số trốn đóng
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-so-41-2024-qh15-bao-hiem-xa-hoi-119240723163650489.htm
+    quote: 1. Bắt buộc đóng đủ số tiền trốn đóng; nộp số tiền bằng 0,03%/ngày tính trên số tiền bảo hiểm xã hội, bảo hiểm thất nghiệp trốn đóng và số ngày trốn đóng vào quỹ bảo hiểm xã hội, quỹ bảo hiểm thất nghiệp.
+    verdict: match-secondary
+    note: Nguồn là toàn văn trên cổng xaydungchinhsach.chinhphu.vn (cổng thông tin của Chính phủ), không phải Công báo/vbpl; đối chiếu chữ khớp nhưng xếp match-secondary theo quy tắc nguồn chính.
+  - text: Phạt 12%-15% tổng số tiền chậm đóng, tối đa 75.000.000 đồng (ND 283/2026 Điều 43.3)
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "3. Phạt tiền từ 12% đến 15% tổng số tiền chậm đóng bảo hiểm xã hội bắt buộc tại thời điểm lập biên bản vi phạm hành chính nhưng tối đa không quá 75.000.000 đồng đối với người sử dụng lao động có một trong các hành vi chậm đóng bảo hiểm xã hội sau đây: a) Chưa đóng hoặc đóng chưa đầy đủ số tiền phải đóng theo hồ sơ tham gia bảo hiểm xã hội bắt buộc đã đăng ký kể từ sau ngày đóng bảo hiểm xã hội chậm nhất quy định tại khoản 4 Điều 34 của Luật Bảo hiểm xã hội, [...]"
+    verdict: partial
+    note: Là tổng tiền chậm đóng BHXH bắt buộc (không chỉ quỹ TNLĐ), tính tại thời điểm lập biên bản; khoản 1 phạt cảnh cáo khi dưới 400.000 đồng. Đây là phạt "chậm đóng"; nếu đơn vị không đăng ký/đóng sau 60 ngày bị coi là trốn đóng thì áp Điều 44 (mức cao hơn). Mục gắn phạt này vào "đơn vị không đóng" mà không nêu ranh giới.
+  - text: Buộc đóng đủ cùng khoản 0,03%/ngày (ND 283/2026 Điều 43.4)
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: b) Buộc người sử dụng lao động đóng đủ số tiền bảo hiểm xã hội bắt buộc chậm đóng; nộp số tiền bằng 0,03%/ngày tính trên số tiền bảo hiểm xã hội bắt buộc chậm đóng và số ngày chậm đóng vào quỹ bảo hiểm xã hội đối với hành vi vi phạm quy định tại khoản 3 Điều này.
+    verdict: match
+    note: ""
+  - text: 'Bẫy 2: bồi thường của đơn vị theo Điều 38.4 độc lập, cộng với khoản tương ứng quỹ ("đòi khoản này không trừ khoản kia")'
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: ngoài việc phải bồi thường, trợ cấp theo quy định tại Điều 38 của Luật này, người sử dụng lao động phải trả khoản tiền tương ứng với chế độ bảo hiểm tai nạn lao động, bệnh nghề nghiệp
+    verdict: match
+    note: Điều 39.4 cho thấy hai khoản cộng dồn. Khoản bồi thường Điều 38.4 vẫn có điều kiện "không hoàn toàn do lỗi" và Điều 40.
+  - text: "Steps[4]: nếu đơn vị né, gửi đơn tới thanh tra lao động và chuẩn bị hồ sơ khởi kiện"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: 4. Nếu người sử dụng lao động không đóng bảo hiểm tai nạn lao động [...]
+    verdict: inference
+    note: Không có trong thân bài hay nguồn đã cho; là lời khuyên thủ tục (không nêu cơ quan nhận đơn sau tái cấu trúc, thời hiệu khởi kiện).
+internal_checks:
+  - issue: 'Mâu thuẫn nội bộ về mức đóng: phần Chi phí ghi "hằng tháng 1% quỹ tiền lương", phần Pháp luật VN ghi "tối đa 1%"; mức thực tế theo Nghị định 58/2020 (VBHN 5/VBHN-BNV) là 0,5% (0,3% nếu đủ điều kiện).'
+    severity: error
+  - issue: 'tldr và Chi phí: "đơn vị trả thay quỹ, đúng mức quỹ lẽ ra trả" và 12.650.000 / 91.080.000 nhưng bỏ phần cộng theo số năm đóng quỹ (Điều 48.2.b, 49.2.b) và Điều 52; số tiền nhỏ hơn thực tế.'
+    severity: warn
+  - issue: Điều kiện áp dụng Điều 39.4 (người thuộc diện BHXH bắt buộc) có trong thân bài nhưng không có trong tldr; không nhắc Điều 40 khoản 1.
+    severity: warn
+  - issue: 'Điều 43.3 ND 283 phạt "chậm đóng", còn "không đóng" lâu có thể là "trốn đóng" (Điều 44): mức phạt trong mục có thể thấp hơn thực tế.'
+    severity: warn
+  - issue: steps[4] (đơn tới thanh tra, hồ sơ khởi kiện) không có cơ sở trong thân bài. Steps[1] "yêu cầu đơn vị lập hồ sơ hưởng chế độ" dựa vào Điều 38.9, không trích dẫn; khi đơn vị chưa đóng thì hồ sơ không đi qua quỹ.
+    severity: warn
+  - issue: related trỏ tới mục 19-03 (thử việc), không liên quan nội dung mục.
+    severity: warn
+  - issue: "Số liệu cùng chương nhất quán: 12.650.000 / 759.000 / 4.250.400 / 91.080.000 trùng mục 19-14, 19-15."
+    severity: warn
+validity:
+  doc: Luật ATVSLĐ 84/2015/QH13 (VBHN 14); Luật BHXH 41/2024/QH15; Nghị định 161/2026/NĐ-CP; Nghị định 283/2026/NĐ-CP; Nghị định 58/2020/NĐ-CP (VBHN 5/VBHN-BNV)
+  in_force: unconfirmed
+  effective_from: 2016-07-01
+  amended_by:
+    - Luật BHXH 41/2024/QH15
+    - Nghị định 158/2025/NĐ-CP (sửa ND 58/2020)
+  basis: "Luật 84/2015/QH13: bản hợp nhất 14/VBHN-VPQH ngày 16/9/2024 (Công báo 1171+1172 ngày 29/10/2024) có chú thích sửa đổi bởi Luật BHXH 41/2024/QH15 hiệu lực 01/7/2025. Trang Công báo của Luật gốc để trống ô 'Ngày hết hiệu lực' và mục sửa đổi, nên không dùng làm bằng chứng. Tìm kiếm thứ cấp (tháng 11/2026) cho thấy dự án Luật ATVSLĐ sửa đổi mới được Chính phủ trình Quốc hội ngày 21/10/2026, chưa thấy văn bản thông qua; chưa mở được vbpl.vn/văn bản hợp nhất mới hơn 14/VBHN. Luật BHXH 41/2024: chưa tra được văn bản sửa đổi sau 01/7/2025. ND 161/2026: đọc bản ảnh ký số 19/05/2026, hiệu lực 01/7/2026, nguồn thứ cấp nói thay Nghị định 73/2024. ND 283/2026: hiệu lực 10/09/2026 theo trang Công báo, không thấy văn bản thay thế nhưng chưa đủ để khẳng định."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - 'Chi phí: sửa "hằng tháng 1% quỹ tiền lương" thành "mức trần theo luật là 1%; mức thực tế theo Nghị định 58/2020/NĐ-CP (đã sửa) là 0,5%, hoặc 0,3% nếu doanh nghiệp đủ điều kiện Điều 5" (quote Điều 4.1.a/b VBHN 5/VBHN-BNV).'
+  - 'tldr và Chi phí: thêm điều kiện "người thuộc diện BHXH bắt buộc" và "chưa tính khoản cộng theo số năm đóng quỹ (Điều 48.2.b, 49.2.b)" bên cạnh 12.650.000 và 759.000; hoặc đổi thành "ít nhất".'
+  - "Điều 43.3 ND 283: ghi rõ đây là phạt chậm đóng BHXH bắt buộc nói chung (không riêng TNLĐ), có ngưỡng cảnh cáo dưới 400.000 đồng; đơn vị không đăng ký/đóng kéo dài có thể là trốn đóng (Điều 44)."
+  - "steps[4]: thêm đoạn thân bài nêu cơ sở (cơ quan nhận đơn hiện nay, thời hiệu) hoặc gắn nhãn lời khuyên thủ tục; thêm trích Điều 38.9 cho steps[1]."
+  - "related: bỏ liên kết tới mục thử việc hoặc thay bằng 19-11/14/15."
+  - 'Phần Pháp luật VN: thêm Điều 40 khoản 1 (ba trường hợp không hưởng) và điều kiện "không hoàn toàn do lỗi" cho Điều 38.4.'

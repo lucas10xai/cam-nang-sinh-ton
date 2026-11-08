@@ -1,0 +1,81 @@
+id: uong-nuoc-may-dun-soi-binh-nuoc-20-lit-dat-gap-hang
+checker: agent-V3a05c
+checked_at: 2026-11-08
+content_sha256: e82992141ce87fdf46a337cdb59025d248b70f3850bd916e75f40ec91f963941
+result: pass-with-edits
+claims:
+  - text: "Giá bán lẻ nước sạch sinh hoạt Hà Nội năm 2026 giữ nguyên mức của Quyết định 3541/QĐ-UBND ngày 7/7/2023 (Điều 1 Quyết định 6592/QĐ-UBND ngày 31/12/2025)"
+    source_url: http://cskh.hawater.com.vn/wp-content/uploads/2026/01/QD6592UBNDgia-nuoc-sach-tu-nam-2026upwebcskh.pdf
+    quote: "1. Giá bán lẻ nước sạch sinh hoạt: Giữ nguyên giá bán lẻ đã được UBND Thành phố phê duyệt tại Quyết định số 3541/QĐ-UBND ngày 07/7/2023 (cột từ ngày 01/01/2024 đến ngày 31/12/2024)."
+    verdict: match
+    note: "PDF quét ảnh, đọc bằng OCR cả 2 trang. Điều 2 nói thực hiện từ ngày 01/01/2026. Đúng văn bản, số hiệu và ngày."
+  - text: "Hộ dân cư dùng đến 10 m3/tháng trả 8.500 đồng/m3 (8,5 đồng/lít)"
+    source_url: https://cskh.hawater.com.vn/gia-nuoc/
+    quote: "Hộ dân cư khác | 8.500 (Mức đến 10 m3/đồng hồ/tháng, SH1)"
+    verdict: match-secondary
+    note: "Số 8.500 nằm trong bảng của Quyết định 3541/QĐ-UBND (cột 01/01/2024-31/12/2024; OCR trang 2: '7.500 ... 8.500') và trong trang giá nước của Công ty nước sạch số 2 Hà Nội (không phải cơ quan ban hành). Điều kiện bị thiếu trong mục: 8.500 chỉ cho 'Hộ dân cư khác' (hộ chính sách/nghèo/cận nghèo là 5.973), và giá CHƯA gồm thuế GTGT và phí bảo vệ môi trường (xem claim sau)."
+  - text: "Giá bán lẻ chưa gồm thuế GTGT và phí bảo vệ môi trường (mục so 8,5 đồng/lít với 3.350 đồng/lít bình, đắt 394 lần)"
+    source_url: https://cskh.hawater.com.vn/gia-nuoc/
+    quote: "Giá bán nước sạch sinh hoạt trên chưa bao gồm thuế giá trị gia tăng và phí bảo vệ môi trường đối với nước thải sinh hoạt."
+    verdict: partial
+    note: "Quyết định 3541 OCR cũng ghi 'Giá bán lẻ nước sạch sinh hoạt chưa bao gồm thuế giá trị gia tăng và phí ...'. Hóa đơn thật cao hơn 8,5 đồng/lít (cộng GTGT và phí BVMT), nên 'đắt 394 lần' và '8.840 đồng/1.040 lít' là so với giá chưa thuế phí; mục không nói điều này."
+  - text: "Bình Lavie 20 lít bán lẻ 67.000 đồng/bình (tra 2/11/2026), tức 3.350 đồng/lít, đắt 394 lần nước máy"
+    source_url: https://dailynuoc.com/gia-nuoc-lavie-20l-/
+    quote: "Bảng giá nước suối Lavie bình 20 lít và chai nhỏ cập nhật tháng 07 năm 2024 ... Nước khoáng Lavie có vòi 20l | Bình | 67.000"
+    verdict: partial
+    note: "Số 67.000 có trong bảng, nhưng (1) bảng ghi 'cập nhật tháng 07 năm 2024', không phải 2/11/2026 như mục khẳng định; (2) đại lý là Công ty TNHH Nước uống Trường Phát giao tại TP.HCM, so với giá nước máy HÀ NỘI; (3) ngay trên trang, mô tả/meta ghi 'Giá nước Lavie 20l bình úp chỉ 62.000đ' và 'có vòi chỉ 58k', mâu thuẫn với bảng 67.000. Phép tính 67.000/20 = 3.350; 3.350/8,5 = 394,1 đúng."
+  - text: "Một hộ dùng 1 bình 20 lít mỗi tuần: 52 bình/năm, 1.040 lít, 3.484.000 đồng; cùng lượng nước máy tốn 8.840 đồng"
+    source_url: https://dailynuoc.com/gia-nuoc-lavie-20l-/
+    quote: "Nước khoáng Lavie có vòi 20l | Bình | 67.000"
+    verdict: inference
+    note: "Tính lại: 52 x 67.000 = 3.484.000; 52 x 20 = 1.040; 1.040 x 8,5 = 8.840. Đúng số học, nhưng là suy ra từ 2 giá trên nên chịu cả 2 hạn chế ở trên. Trong mục chữ 'Nói dễ hiểu' và tldr dùng 'mỗi tuần một bình tốn 3.484.000 đồng/năm' đúng ý."
+  - text: "Chai 500 ml khoảng 4.000 đồng/chai là 8.000 đồng/lít, đắt 941 lần"
+    source_url: https://dailynuoc.com/gia-nuoc-lavie-20l-/
+    quote: "Hiện nay giá bán 01 chai nước Lavie 500ml trên thị trường khoảng 4,000đ/chai."
+    verdict: partial
+    note: "Câu này có trên trang nhưng là phần tin liên quan đăng 23-08-2020 (6 năm trước); bảng giá chính ghi thùng 24 chai 500 ml 92.000 đ (~3.800 đ/chai). Tính 8.000/8,5 = 941 đúng."
+  - text: "Nước sạch sinh hoạt chịu QCVN 01-1:2018/BYT (ban hành 14/12/2018); quy chuẩn này không áp dụng cho nước đóng bình, đóng chai"
+    source_url: https://vhttdl.daklak.gov.vn/CMS/Content/thang10/Thongtu41-Nuocsach.pdf
+    quote: "2. Quy chuẩn này không áp dụng đối với nước uống trực tiếp tại vòi, nước đóng bình, đóng chai, nước khoáng thiên nhiên đóng bình, đóng chai, nước sản xuất ra từ các bình lọc nước, hệ thống lọc nước và các loại nước không dùng cho mục đích sinh hoạt."
+    verdict: match-secondary
+    note: "Bản Thông tư 41/2018/TT-BYT (ngày 14/12/2018) lấy từ trang Sở VHTTDL Đắk Lắk, không phải trang Bộ Y tế/Công báo; mục không dẫn url. QUAN TRỌNG: quy chuẩn này đã bị thay (xem validity). Chính Điều 2.2 còn nói 'không áp dụng đối với nước uống trực tiếp tại vòi' nghĩa là quy chuẩn không xác nhận nước máy tại vòi uống thẳng được, điều mà mục Bẫy 3 dựa vào."
+  - text: "Nước đạt QCVN 01-1:2018/BYT thì đun sôi uống được (Bẫy 3)"
+    source_url: https://vhttdl.daklak.gov.vn/CMS/Content/thang10/Thongtu41-Nuocsach.pdf
+    quote: "Nước sạch sử dụng cho mục đích sinh hoạt là nước đã qua xử lý có chất lượng bảo đảm, đáp ứng yêu cầu sử dụng cho mục đích ăn uống, vệ sinh của con người (viết tắt là nước sạch)."
+    verdict: inference
+    note: "Quy chuẩn định nghĩa nước sạch dùng cho 'ăn uống, vệ sinh' nhưng không có chữ nào nói 'đun sôi uống được'. Đây là suy ra của mục; hợp lý nhưng cần ghi nhãn. Ý 'đun thêm không khử được kim loại hay hóa chất' không có nguồn trong mục."
+  - text: "Nước đóng bình có quy chuẩn riêng là QCVN 6-1:2010/BYT"
+    source_url: https://chinhphu.vn/default.aspx?pageid=27160&docid=97229
+    quote: "Ban hành kèm theo Thông tư này: QCVN 6-1:2010/BYT Quy chuẩn kỹ thuật quốc gia đối với nước khoáng thiên nhiên và nước uống đóng chai."
+    verdict: partial
+    note: "Thông tư 34/2010/TT-BYT ngày 02/6/2010, hiệu lực 01/01/2011 (trang chinhphu.vn). Tên quy chuẩn là 'nước khoáng thiên nhiên và nước uống đóng chai', chưa thấy chữ 'đóng bình' trong phần tôi đọc (chưa mở toàn văn quy chuẩn, mục cũng nói 'chưa mở toàn văn'). Hiệu lực hiện nay chưa xác nhận."
+internal_checks:
+  - issue: "Mục ghi giá bình 67.000 đồng 'tra 2/11/2026' nhưng bảng trong nguồn ghi 'cập nhật tháng 07 năm 2024', từ một đại lý TP.HCM, trong khi so với giá nước Hà Nội; còn trong cùng trang có giá 62.000/58k mâu thuẫn. Hệ số 394 lần phụ thuộc vào cả hai giá nên ngày tra và địa phương bị khai sai/không đồng nhất."
+    severity: error
+  - issue: "QCVN 01-1:2018/BYT (và Thông tư 41/2018/TT-BYT) đã bị thay bằng QCVN 01-1:2024/BYT (Thông tư 52/2024/TT-BYT, ban hành 31/12/2024, hiệu lực 1/7/2025 theo các nguồn thứ cấp). Mục (legal_refs, thân, Bẫy 3) vẫn dẫn bản 2018 như văn bản đang áp dụng."
+    severity: error
+  - issue: "8,5 đồng/lít và hệ số 394/941 so giá nước CHƯA gồm GTGT và phí BVMT với giá bình đã gồm thuế; mục không nêu."
+    severity: warn
+  - issue: "legal_refs[1] và legal_refs[2] (QCVN) có url: null, chưa mở toàn văn quy chuẩn; mục tự thừa nhận ở Nguồn. Vì vậy không kiểm được 'article' ('phạm vi áp dụng') theo văn bản gốc của mục."
+    severity: warn
+  - issue: "steps[1] 'vệ sinh bể ngầm, téc mái và đường ống trong nhà' và steps[2] 'vệ sinh bình và vòi ấn định kỳ' không có nguồn nào trong mục (không dẫn hướng dẫn Bộ Y tế/ Bộ Xây dựng); chỉ là khuyến nghị chung."
+    severity: warn
+  - issue: "Mọi con số trong tldr (8,5; 3.350; 394; 3.484.000) có trong thân và tính đúng; không mâu thuẫn số nội bộ (8.000/8,5 = 941 đúng)."
+    severity: warn
+  - issue: "Tiêu đề và tldr nói 'Nước máy Hà Nội' nhưng bình 20 lít lấy giá TP.HCM; chưa có cảnh báo về điều này ở chương (mục 14 cùng chương không có mục khác về cùng thứ này)."
+    severity: warn
+validity:
+  doc: "Quyết định 6592/QĐ-UBND (31/12/2025) - giá nước Hà Nội 2026; QCVN 01-1:2018/BYT; QCVN 6-1:2010/BYT"
+  in_force: unconfirmed
+  effective_from: "2026-01-01"
+  amended_by:
+    - "QCVN 01-1:2018/BYT được thay bằng QCVN 01-1:2024/BYT (Thông tư 52/2024/TT-BYT) - nguồn thứ cấp, bản QCVN 2024 tôi đọc là bản gốc chưa ghi số/ngày Thông tư (quacert.gov.vn)"
+  basis: "QĐ 6592: bản ký năm 2025, áp dụng từ 1/1/2026, đọc OCR, trang công ty nước (cskh.hawater.com.vn) vẫn niêm yết bảng giá này, chưa thấy văn bản thay. Với QCVN 01-1:2018: lời nói đầu của QCVN 01-1:2024/BYT ghi 'thay thế quy chuẩn kỹ thuật quốc gia về chất lượng nước nước sạch QCVN 01-1:2018/BYT'; báo Đầu tư 20/01/2025 xác nhận Thông tư 52/2024/TT-BYT đã ban hành. Ngày hiệu lực 1/7/2025 chỉ từ nguồn thứ cấp (tôi không mở được Công báo/văn bản gốc). QCVN 6-1:2010/BYT: Thông tư 34/2010 hiệu lực 1/1/2011, chưa có bằng chứng bị thay/sửa nhưng chưa kiểm."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Sửa mọi dẫn QCVN 01-1:2018/BYT thành QCVN 01-1:2024/BYT (Thông tư 52/2024/TT-BYT), đối chiếu lại điều 'phạm vi áp dụng' trong bản 2024: 'Quy chuẩn kỹ thuật quốc gia này không áp dụng đối với nước uống trực tiếp tại vòi, nước khoáng thiên nhiên đóng chai và nước uống đóng chai được sử dụng với mục đích giải khát, nước sản xuất ra từ các bình lọc nước, hệ thống lọc nước và các loại nước không dùng cho mục đích sinh hoạt.' (bản gốc quacert.gov.vn). Điền url Công báo/văn bản chính thức."
+  - "Sửa 'Bình Lavie 20 lít bán lẻ 67.000 đồng/bình (tra 2/11/2026)': nguồn là bảng cập nhật 'tháng 07 năm 2024' của đại lý TP.HCM; hoặc thay bằng giá Hà Nội có ngày tra thật và url cụ thể, hoặc ghi 'giá tham khảo TP.HCM, 7/2024' và bỏ con số 394 lần dạng chắc chắn (viết 'hàng trăm lần' như tiêu đề)."
+  - "Thêm vào 'Lợi ích' câu: 'Giá nước 8.500 đồng/m3 là giá chưa gồm thuế GTGT và phí bảo vệ môi trường đối với nước thải sinh hoạt (Quyết định 3541/QĐ-UBND, Quyết định 6592/QĐ-UBND)', và ghi rõ 8.500 chỉ cho hộ dân cư khác ở bậc đến 10 m3/tháng (hộ nghèo/cận nghèo/chính sách 5.973)."
+  - "Bẫy 3 gắn nhãn 'suy ra': đổi 'Nước đạt QCVN 01-1:2018/BYT thì đun sôi uống được' thành 'Nước máy đạt quy chuẩn nước sạch sinh hoạt (QCVN 01-1:2024/BYT) dùng cho ăn uống nhưng quy chuẩn không áp dụng cho nước uống trực tiếp tại vòi; vì vậy đun sôi là biện pháp thận trọng.' và nêu nguồn cho 'đun thêm không khử được kim loại hay hóa chất' (ví dụ WHO Guidelines for drinking-water quality) hoặc bỏ."
+  - "Cập nhật legal_refs: QCVN 6-1:2010/BYT thêm url (https://chinhphu.vn/default.aspx?pageid=27160&docid=97229), ghi rõ 'nước khoáng thiên nhiên và nước uống đóng chai'; đặt effective_from 2026-01-01 cho QĐ 6592 và 2011-01-01 cho QCVN 6-1; cập nhật checked_at."

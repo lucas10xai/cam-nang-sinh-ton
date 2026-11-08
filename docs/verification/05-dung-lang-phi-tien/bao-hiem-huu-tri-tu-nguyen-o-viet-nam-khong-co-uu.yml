@@ -1,0 +1,67 @@
+id: bao-hiem-huu-tri-tu-nguyen-o-viet-nam-khong-co-uu
+checker: agent-V3a05d
+checked_at: 2026-11-08
+content_sha256: "873efb4150ce71aa2dc6c8e669447b4b12ecb9e257ba3fade4c1fe95ae3d4e2a"
+result: fail
+claims:
+  - text: "Không có khoản giảm trừ nào cho đóng bảo hiểm hưu trí tự nguyện hay quỹ hưu trí (Điều 11, Luật TNCN 109/2025/QH15); tiền đóng bảo hiểm hưu trí tự nguyện không được giảm trừ thuế (tldr, tiêu đề)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "2. Thu nhập tính thuế đối với thu nhập từ tiền lương, tiền công là tổng thu nhập chịu thuế quy định tại khoản 2 Điều 3 của Luật này mà người nộp thuế nhận được trong kỳ tính thuế, trừ (-) đi các khoản đóng góp bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp, bảo hiểm trách nhiệm nghề nghiệp đối với một số ngành, nghề phải tham gia bảo hiểm bắt buộc, khoản đóng góp tham gia bảo hiểm hưu trí bổ sung theo quy định của Luật Bảo hiểm xã hội, mua bảo hiểm hưu trí tự nguyện, bảo hiểm nhân thọ không vượt quá mức do Chính phủ quy định và các khoản giảm trừ quy định tại Điều 10 và Điều 11 của Luật này."
+    verdict: mismatch
+    note: "SAI NGHIÊM TRỌNG. Điều 8 khoản 2 (trang 8/15 của chính file mục dẫn, PDF ký ảnh quét, đọc bằng OCR Apple Vision từ ảnh trang và đối chiếu bằng mắt) cho trừ khoản 'mua bảo hiểm hưu trí tự nguyện' khi tính thu nhập tính thuế, 'không vượt quá mức do Chính phủ quy định'. Điều 11 chỉ liệt kê từ thiện/nhân đạo, y tế, giáo dục nên đúng là 'không có trong Điều 11', nhưng khoản trừ nằm ở Điều 8 khoản 2, mà mục không đọc. Chính Điều 8 khoản 2 là khoản mục cần để kết luận 'không có ưu đãi thuế'. Mức Chính phủ quy định: Nghị định 253/2026/NĐ-CP Điều 46 khoản 2 điểm a, tối đa 3 triệu đồng/người/tháng cho tổng khoản đóng hưu trí bổ sung, hưu trí tự nguyện và bảo hiểm nhân thọ (nguồn thứ cấp luatvietnam.vn 'Theo quy định tại điểm a khoản 2 Điều 46 Nghị định 253, tổng thu nhập từ tiền lương, tiền công được trừ đi tối đa không quá 03 triệu đồng/tháng...'; chưa mở bản ký NĐ 253 nên phần mức 3 triệu là match-secondary)."
+  - text: "Giảm trừ gia cảnh 15,5 triệu đồng/tháng cho người nộp thuế và 6,2 triệu đồng/tháng cho mỗi người phụ thuộc (Điều 10)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "a) Mức giảm trừ đối với người nộp thuế là 15,5 triệu đồng/tháng (186 triệu đồng/năm); b) Mức giảm trừ đối với mỗi người phụ thuộc là 6,2 triệu đồng/tháng."
+    verdict: match
+    note: "Điều 10 khoản 1 (OCR trang 8, đối chiếu ảnh)."
+  - text: "Biểu thuế 5 bậc, bậc đầu 5% cho phần đến 10 triệu đồng/tháng (Điều 9)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "Bậc 1 | Đến 120 | Đến 10 | 5; Bậc 2 | Trên 120 đến 360 | Trên 10 đến 30 | 10; Bậc 3 | Trên 360 đến 720 | Trên 30 đến 60 | 20; Bậc 4 | Trên 720 đến 1.200 | Trên 60 đến 100 | 30; Bậc 5 | Trên 1.200 | Trên 100 | 35"
+    verdict: match
+    note: "Điều 9 khoản 2, bảng thuế suất (cột năm, cột tháng, thuế suất %). Đã đọc ảnh trang 8."
+  - text: "Thuế người không có người phụ thuộc: lương 15,5 triệu nộp 0 đồng; 20 triệu nộp 225.000 đồng; 25,5 triệu nộp 500.000 đồng; 30 triệu nộp 950.000 đồng"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "Bậc 1 ... Đến 10 ... 5; Bậc 2 ... Trên 10 đến 30 ... 10 (Điều 9); a) Mức giảm trừ đối với người nộp thuế là 15,5 triệu đồng/tháng (Điều 10)"
+    verdict: partial
+    note: "Tính lại: 20-15,5=4,5 triệu x5%=225.000; 25,5-15,5=10 triệu x5%=500.000; 30-15,5=14,5: 10x5%+4,5x10%=500.000+450.000=950.000. Số học đúng. Nhưng 'lương' ở đây phải là thu nhập chịu thuế sau khi trừ BHXH/BHYT/BHTN bắt buộc (Điều 8 khoản 2), mà mục bỏ qua; người đóng bảo hiểm bắt buộc thực nộp ít hơn. Các số này là minh họa thu nhập sau trừ bảo hiểm bắt buộc. Quan trọng hơn câu kết 'Mua sản phẩm hưu trí không làm giảm bốn con số đó' là SAI: theo Điều 8 khoản 2 và NĐ 253 Điều 46, khoản đóng được trừ tới 3 triệu/tháng (với lương 30 triệu, trừ 3 triệu làm 14,5 -> 11,5 triệu tính thuế: 500.000+150.000=650.000, giảm 300.000/tháng)."
+  - text: "Thông tư 67/2023/TT-BTC nhắc 'nghiệp vụ bảo hiểm hưu trí' trong nhóm phải đánh giá khả năng tài chính người mua (Điều 30 khoản 2 điểm b)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/12/67-btc.signed.pdf
+    quote: "b) Bảng câu hỏi đánh giá khả năng tài chính của bên mua bảo hiểm (đối với sản phẩm thuộc nghiệp vụ bảo hiểm hỗn hợp, sản phẩm bảo hiểm thuộc nghiệp vụ bảo hiểm liên kết đầu tư và nghiệp vụ bảo hiểm hưu trí)"
+    verdict: match
+    note: "Điều 30 khoản 2 điểm b (OCR trang 28 của 275, PDF ký quét ảnh, trang đầu ghi ký 01.12.2023, TT ban hành 02/11/2023). OCR có lỗi dấu nhỏ nhưng nội dung khớp. Chưa xác nhận hiệu lực/sửa đổi sau 2023."
+  - text: "Hợp đồng trên một năm phải có tài liệu minh họa nêu rõ giá trị hoàn lại và quyền lợi nào có đảm bảo, quyền lợi nào không (Điều 29 khoản 1 điểm b)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/12/67-btc.signed.pdf
+    quote: "b) Đối với những sản phẩm có giá trị hoàn lại, tài liệu minh họa bán hàng phải nêu rõ điều kiện để được nhận giá trị hoàn lại theo quy tắc, điều khoản sản phẩm bảo hiểm và những quyền lợi, kèm theo số tiền cụ thể mà bên mua bảo hiểm được hưởng khi nhận giá trị hoàn lại, nêu rõ những quyền lợi này là có đảm bảo hay không có đảm bảo;"
+    verdict: partial
+    note: "Điều 29 là 'Tài liệu minh hoạ bán hàng của sản phẩm bảo hiểm nhân thọ'. Điểm b áp dụng cho 'những sản phẩm có giá trị hoàn lại', không có điều kiện 'hợp đồng trên một năm' (cụm '01 năm' thuộc điểm d, về cảnh báo cam kết dài hạn). Sản phẩm bảo hiểm hưu trí lại theo khoản 2: 'thực hiện theo mẫu số 24-NT Phụ lục VIII', nên điểm b không phải điều khoản trực tiếp cho tài liệu minh họa hưu trí. Mục đọc sai điều kiện kích hoạt."
+  - text: "Thông tư 67/2023/TT-BTC vẫn còn hiệu lực, sản phẩm vẫn hợp pháp"
+    source_url: https://congbao.chinhphu.vn/van-ban/thong-tu-so-67-2023-tt-btc-40528/47265.htm
+    quote: "(chưa mở được trang Công báo có chữ; không tìm thấy văn bản sửa đổi hay thay thế trong tìm kiếm, nhưng không có bằng chứng tích cực)"
+    verdict: unreachable
+    note: "Không kết luận 'còn hiệu lực' chỉ vì không thấy văn bản thay thế."
+internal_checks:
+  - issue: "Luận điểm trung tâm (tiêu đề, tldr, Nói dễ hiểu, Pháp luật VN, Bẫy 1, Đừng hiểu ngược) nói 'không có ưu đãi thuế / không có khoản giảm trừ nào' mâu thuẫn trực tiếp với Điều 8 khoản 2 Luật 109/2025/QH15 mà mục dẫn nguồn PDF. Các đoạn 'Mọi bài viết nước ngoài về tài khoản hưu trí được giảm thuế không áp dụng ở đây' và 'Không có điều nào thì đó là bán hàng' khuyến khích người đọc bác bỏ lời nói đúng của người bán."
+    severity: error
+  - issue: "legal_refs[2] (Điều 11) được dùng làm căn cứ cho khẳng định 'không có giảm trừ hưu trí'; Điều 11 đúng nhưng không phải điều chứa quy định về khoản đóng hưu trí. Thiếu legal_refs cho Điều 8 khoản 2 Luật 109/2025/QH15 và Điều 46 khoản 2 điểm a NĐ 253/2026/NĐ-CP."
+    severity: error
+  - issue: "legal_refs[4] (Điều 29 khoản 1 điểm b TT 67) có url null, checked_at null, quote null; legal_refs[0..3] quote null. effective_from null toàn bộ."
+    severity: warn
+  - issue: "Ví dụ thuế bỏ qua khoản trừ bảo hiểm bắt buộc (Điều 8 khoản 2). 'Lương 15,5 triệu' phải hiểu là thu nhập chịu thuế đã trừ BHXH; ghi 'lương' gây hiểu là lương gộp."
+    severity: warn
+  - issue: "Mục không cập nhật tới văn bản hướng dẫn thi hành đã có: NĐ 253/2026/NĐ-CP (ban hành 30/6/2026, hiệu lực 1/7/2026 theo tìm kiếm thứ cấp) nâng mức trừ từ 1 triệu lên 3 triệu/tháng; không xem."
+    severity: error
+validity:
+  doc: "Luật Thuế thu nhập cá nhân 109/2025/QH15; Thông tư 67/2023/TT-BTC; Nghị định 253/2026/NĐ-CP (không được mục dẫn)"
+  in_force: unconfirmed
+  effective_from: "2026-07-01"
+  amended_by: []
+  basis: "Luật 109/2025/QH15 Điều 29 (OCR trang 14-15): 'có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026'; các quy định về tiền lương, tiền công áp dụng từ kỳ tính thuế năm 2026; thay Luật TNCN 04/2007/QH12 và các luật sửa đổi. Chưa mở Công báo xác nhận không có sửa đổi sau. TT 67/2023/TT-BTC ký 02/11/2023: không thấy sửa đổi, nhưng không xác nhận."
+suggested_edits:
+  - "Viết lại toàn bộ luận điểm: tiêu đề/tldr/Nói dễ hiểu/Bẫy 1/Đừng hiểu ngược. Thay 'không có ưu đãi thuế' bằng: 'Có khoản trừ thuế nhưng có trần: tổng đóng bảo hiểm hưu trí bổ sung, hưu trí tự nguyện và nhân thọ được trừ tối đa 3 triệu đồng/tháng khi tính thuế TNCN từ tiền lương; nếu thu nhập tính thuế của bạn bằng hoặc dưới ngưỡng 15,5 triệu thì khoản trừ không tiết kiệm được đồng thuế nào'. Căn cứ: Điều 8 khoản 2 Luật 109/2025/QH15 và Điều 46 khoản 2 điểm a NĐ 253/2026/NĐ-CP."
+  - "Giữ lời khuyên đúng: đừng mua chỉ vì thuế vì lợi ích bị chặn trần 3 triệu/tháng và vô nghĩa với người thu nhập tính thuế thấp; thêm ví dụ lương 30 triệu: đóng 3 triệu/tháng giảm thuế 300.000/tháng (950.000 -> 650.000, chưa tính BHXH bắt buộc)."
+  - "Xóa dòng 'Không có khoản giảm trừ nào cho đóng bảo hiểm hưu trí' và 'Mua sản phẩm hưu trí không làm giảm bốn con số đó'. Thay step 1: 'Hỏi người bán: khoản đóng được trừ tối đa bao nhiêu và tôi có đang nộp thuế ở bậc nào không'."
+  - "Bẫy 2: đổi 'hợp đồng trên một năm phải có tài liệu minh họa' thành 'Sản phẩm bảo hiểm hưu trí dùng mẫu tài liệu minh họa 24-NT (Điều 29 khoản 2 TT 67); sản phẩm có giá trị hoàn lại phải nêu quyền lợi có đảm bảo/không đảm bảo (Điều 29 khoản 1 điểm b)'. Căn cứ: quote claim 6."
+  - "Bổ sung legal_refs: Điều 8 khoản 2 Luật 109/2025/QH15; NĐ 253/2026/NĐ-CP Điều 46 khoản 2 điểm a (cần mở văn bản ký); điền quote, url, effective_from 2026-07-01."
+potential_harm:
+  - "Tài chính/pháp lý: người đọc làm đúng nguyên văn sẽ bỏ khoản giảm trừ thuế hợp pháp (đến 3 triệu/tháng, tương đương giảm thuế tới 300.000-1.050.000 đồng/tháng tùy bậc) và được hướng dẫn coi lời nói đúng của người bán bảo hiểm là 'bán hàng, không phải ưu đãi'. Không chặn công bố theo nghĩa y tế, nhưng là thông tin pháp luật sai trái với văn bản dẫn."
+deliberate_vn_deviation: []

@@ -1,0 +1,81 @@
+id: o-dai-ly-khong-tra-phi-dich-vu-tai-chinh-va-mua
+checked_at: 2026-11-08
+content_sha256: d7bd4ee7cabefeea686e6904ff4c6698101db1908205fc764822c2043efd8edf
+checker: agent-V3a05h
+result: pass-with-edits
+claims:
+  - text: "Cấm ép buộc người tiêu dùng mua hàng hóa, dịch vụ trái với ý muốn (Điều 10 khoản 1 điểm c, Luật 19/2023/QH15)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/7/luat19_2023.pdf
+    quote: "c) Ép buộc người tiêu dùng mua sản phẩm, hàng hóa, dịch vụ trái với ý muốn của người tiêu dùng thông qua việc thực hiện hành vi dùng vũ lực, đe dọa dùng vũ lực hoặc hành vi khác có tính chất tương tự;"
+    verdict: partial
+    note: "Công báo 865+866, tr. 46. Mục bỏ điều kiện 'thông qua dùng vũ lực, đe dọa dùng vũ lực hoặc hành vi khác có tính chất tương tự'. Nhân viên nói 'bắt buộc phải mua' không tự động rơi vào điểm c. tldr 'Không ai được ép bạn mua bảo hiểm hay vay ở chỗ họ' rộng hơn chữ luật."
+  - text: "Cấm buộc người tiêu dùng thanh toán cho hàng hóa, dịch vụ đã cung cấp mà không có thỏa thuận trước (Điều 10 khoản 1 điểm d)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/7/luat19_2023.pdf
+    quote: "d) Ép buộc người tiêu dùng thanh toán cho sản phẩm, hàng hóa, dịch vụ đã cung cấp mà không có thỏa thuận trước với người tiêu dùng;"
+    verdict: match
+    note: "Luật dùng 'Ép buộc', mục dùng 'buộc'; cùng nghĩa. Lưu ý: điểm d nói về dịch vụ ĐÃ cung cấp mà không có thỏa thuận trước; chưa nói 'phải ghi trong hợp đồng và có hóa đơn' như tldr/steps."
+  - text: "Cấm đe dọa, cưỡng ép giao kết hợp đồng bảo hiểm (Điều 9 khoản 5, Luật KDBH 08/2022/QH15)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "5. Đe dọa, cưỡng ép giao kết hợp đồng bảo hiểm."
+    verdict: match
+    note: "VBHN 31/VBHN-VPQH, Điều 9 khoản 5."
+  - text: "Cấm gắn việc bán sản phẩm bảo hiểm không bắt buộc với việc cung ứng sản phẩm, dịch vụ ngân hàng dưới mọi hình thức (Điều 15 khoản 5, Luật Các TCTD 32/2024/QH15)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/158-vbhn-vpqh.pdf
+    quote: "5. Tổ chức tín dụng, chi nhánh ngân hàng nước ngoài, người quản lý, người điều hành, nhân viên của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài gắn việc bán sản phẩm bảo hiểm không bắt buộc với việc cung ứng sản phẩm, dịch vụ ngân hàng dưới mọi hình thức."
+    verdict: match
+    note: "Chủ thể bị cấm là TCTD và nhân viên của họ. Đại lý ô tô/xe máy không phải TCTD nên khoản 5 không áp trực tiếp cho đại lý; mục đặt trong bối cảnh đại lý (tiêu đề, tldr) dễ gây hiểu sai."
+  - text: "Tổ chức tín dụng phải niêm yết công khai lãi suất và phí (Điều 100 khoản 1, Luật Các TCTD)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/158-vbhn-vpqh.pdf
+    quote: "1. Tổ chức tín dụng được quyền ấn định và phải niêm yết công khai mức lãi suất huy động vốn, mức phí cung ứng dịch vụ trong hoạt động kinh doanh của tổ chức tín dụng."
+    verdict: partial
+    note: "Luật nói niêm yết lãi suất HUY ĐỘNG vốn và phí cung ứng dịch vụ; mục viết 'lãi suất' chung và 'phải niêm yết lãi suất và phí' (dễ hiểu là lãi suất cho vay). Khoản 2 cho phép TCTD và khách hàng thỏa thuận lãi suất, phí cấp tín dụng."
+  - text: "'mọi khoản phí hợp lệ phải có trên bảng phí của chính tổ chức tín dụng cho vay' (suy ra từ Điều 100 khoản 1)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/158-vbhn-vpqh.pdf
+    quote: "2. Tổ chức tín dụng và khách hàng có quyền thỏa thuận về lãi suất, phí cấp tín dụng trong hoạt động ngân hàng của tổ chức tín dụng theo quy định của pháp luật về các tổ chức tín dụng."
+    verdict: inference
+    note: "Khoản 1 chỉ buộc niêm yết; không có câu nào nói phí không niêm yết là không hợp lệ. Phí cấp tín dụng còn do thỏa thuận (khoản 2). Mục có chữ 'Vì vậy' nhưng vẫn là suy luận, cần gắn nhãn."
+  - text: "Chỉ bảo hiểm TNDS của chủ xe cơ giới là bắt buộc; được mua ở bất kỳ doanh nghiệp bảo hiểm được cấp phép (Bẫy 2)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "3. Tổ chức, cá nhân thuộc đối tượng tham gia bảo hiểm bắt buộc có nghĩa vụ mua bảo hiểm bắt buộc và được lựa chọn tham gia bảo hiểm bắt buộc tại doanh nghiệp bảo hiểm, chi nhánh doanh nghiệp bảo hiểm phi nhân thọ nước ngoài được phép triển khai."
+    verdict: partial
+    note: "Điều 8 khoản 2 liệt kê nhiều loại bắt buộc (TNDS chủ xe cơ giới; cháy, nổ bắt buộc; hoạt động xây dựng; luật khác). 'Chỉ' đúng trong bối cảnh mua xe nhưng thiếu giới hạn đó. Quyền chọn doanh nghiệp bảo hiểm ở khoản 3 áp cho bảo hiểm BẮT BUỘC; mục không dẫn Điều 8 (legal_refs thiếu). Với bảo hiểm tự nguyện, tiêu đề 'mua bảo hiểm ở đâu là quyền của bạn' không có điều luật được dẫn."
+  - text: "Bảo hiểm thân vỏ không bắt buộc"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "a) Bảo hiểm bắt buộc trách nhiệm dân sự của chủ xe cơ giới;"
+    verdict: inference
+    note: "Điều 8 khoản 2 không liệt kê bảo hiểm vật chất/thân vỏ trong nhóm bắt buộc. Suy ra từ danh sách đóng; luật không nêu tên 'thân vỏ'."
+  - text: "Phí không có trong hợp đồng và không có hóa đơn thì đừng trả (tldr/steps)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/7/luat19_2023.pdf
+    quote: "d) Ép buộc người tiêu dùng thanh toán cho sản phẩm, hàng hóa, dịch vụ đã cung cấp mà không có thỏa thuận trước với người tiêu dùng;"
+    verdict: inference
+    note: "Không có điều nào được dẫn quy định phải 'có trong hợp đồng và có hóa đơn' mới được thu. Đây là lời khuyên thực hành; chỉ phần 'không có thỏa thuận trước' có chữ luật. Cần gắn nhãn lời khuyên."
+  - text: "Đại lý làm dịch vụ đăng ký xe là tiện, không phải nghĩa vụ; tự đi mất một buổi"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/7/luat19_2023.pdf
+    quote: "Không tìm thấy nguyên văn: không nguồn nào được dẫn về thủ tục đăng ký xe."
+    verdict: not-found
+    note: "Không có văn bản nào về đăng ký xe trong legal_refs/Nguồn; 'một buổi' là ước lượng không nguồn. Không phải điều luật nên không gây hại, nhưng không kiểm chứng được."
+internal_checks:
+  - issue: "legal_refs của Luật 19/2023/QH15 (2 dòng) và Luật 32/2024/QH15 (2 dòng) có url: null; mục Nguồn cũng không có URL cho hai luật này (chỉ ghi 'OCR trang 8 của bản ký'). Nên thêm https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/7/luat19_2023.pdf và https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/158-vbhn-vpqh.pdf. Các URL đã dẫn đúng văn bản (31-vbhn = KDBH; 158-vbhn = Luật TCTD) và điều khoản khớp."
+    severity: warn
+  - issue: "Mục ghi 'Điều 100 khoản 1' là cơ sở cho 'phí hợp lệ phải có trên bảng phí' (suy luận), còn khoản 2 cho phép thỏa thuận phí cấp tín dụng; lời kết luận mạnh hơn chữ luật."
+    severity: warn
+  - issue: "Phạm vi không khớp: Điều 15 khoản 5 Luật TCTD cấm TCTD và nhân viên TCTD, không áp cho đại lý xe/nhà bán lẻ; tldr viết 'Không ai được ép bạn ... vay ở chỗ họ' không có điều luật nào được dẫn cho phần 'vay ở chỗ họ'."
+    severity: warn
+  - issue: "Con số: 'khoảng 10 phút' (tldr/steps/thân khớp); 'một buổi' có ở thân. Không có số mâu thuẫn. Chưa thấy mục cùng chương nói khác về cùng một thứ (chỉ đọc 48-50)."
+    severity: warn
+validity:
+  doc: "Luật Bảo vệ quyền lợi người tiêu dùng 19/2023/QH15; Luật Kinh doanh bảo hiểm 08/2022/QH15 (VBHN 31/VBHN-VPQH); Luật Các tổ chức tín dụng 32/2024/QH15 (VBHN 158/VBHN-VPQH)"
+  in_force: unconfirmed
+  effective_from: "2024-07-01"
+  amended_by:
+    - "Luật KDBH: Luật 139/2025/QH15 (hiệu lực 2026-01-01; một số sửa đổi từ 2026-07-01), theo VBHN 31/VBHN-VPQH"
+    - "Luật TCTD: Luật 43/2024/QH15 (2024-08-01), Luật 96/2025/QH15 (2025-10-15), theo VBHN 158/VBHN-VPQH"
+  basis: "Điều 79 Luật 19/2023: 'có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024' (Công báo). Không tìm văn bản hợp nhất/sửa đổi mới hơn của Luật 19/2023 nên không kết luận được còn nguyên Điều 10 khoản 1 điểm c, d, vì vậy unconfirmed. KDBH và TCTD: văn bản hợp nhất chính thống (chinhphu.vn) cho thấy các điều được dẫn (Điều 9, 15 / Điều 15, 100) đang áp dụng ở bản hợp nhất; bản 158/VBHN đăng 2025/9 nên các sửa đổi sau đó (nếu có) chưa kiểm."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Mục 'Pháp luật VN', gạch đầu 1 (Điều 10 khoản 1 điểm c): sửa thành 'Cấm ép buộc người tiêu dùng mua ... trái với ý muốn thông qua dùng vũ lực, đe dọa dùng vũ lực hoặc hành vi khác có tính chất tương tự', dựa vào quote điểm c; sửa tldr 'Không ai được ép bạn' cho khớp, hoặc nêu đây là lời khuyên."
+  - "Điều 100 khoản 1: sửa 'lãi suất và phí' thành 'mức lãi suất huy động vốn và mức phí cung ứng dịch vụ'; gắn nhãn 'suy ra' cho câu 'mọi khoản phí hợp lệ phải có trên bảng phí' hoặc bỏ, nêu khoản 2 (phí cấp tín dụng do thỏa thuận)."
+  - "Bẫy 2: sửa 'Chỉ bảo hiểm TNDS ... là bắt buộc' thành 'Khi mua xe, bảo hiểm bắt buộc là bảo hiểm TNDS của chủ xe cơ giới (Điều 8 khoản 2 điểm a Luật KDBH); bảo hiểm thân vỏ không nằm trong danh mục bắt buộc'; thêm Điều 8 khoản 3 vào legal_refs để làm cơ sở cho 'mua ở bất kỳ doanh nghiệp bảo hiểm được cấp phép'."
+  - "Làm rõ trong phần Pháp luật rằng Điều 15 khoản 5 chỉ cấm ngân hàng/nhân viên ngân hàng, và bỏ 'vay ở chỗ họ' khỏi tldr nếu không dẫn được điều luật."
+  - "Điền url cho các legal_refs đang null (xem internal_checks) và bỏ ghi chú 'OCR trang 8' khỏi mục Nguồn nếu dẫn được bản trích chữ."

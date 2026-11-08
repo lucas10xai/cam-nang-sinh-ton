@@ -1,0 +1,84 @@
+id: dung-mua-goi-bao-hanh-mo-rong-cho-do-dien-tu-tru
+checker: agent-V3a05b
+checked_at: 2026-11-08
+content_sha256: 92ac4a355d7b669025cbc0b111371451665374cbd8f2e56878376539c96c32d2
+result: pass-with-edits
+claims:
+  - text: 'Hàng hóa được bảo hành theo thỏa thuận hoặc bắt buộc bảo hành theo quy định pháp luật (Điều 30 khoản 1)'
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: '1. Sản phẩm, hàng hóa, linh kiện, phụ kiện được bảo hành theo thỏa thuận của các bên hoặc bắt buộc bảo hành theo quy định của pháp luật.'
+    verdict: match
+    note: 'PDF Bộ Công Thương là ảnh quét; đọc OCR trang 19 của bản 46 trang (Luật số 19/2023/QH15 ở trang bìa).'
+  - text: 'Việt Nam không có mức bảo hành bắt buộc 3 năm cho động cơ máy giặt hay máy nén tủ lạnh; thời hạn là con số hãng tự đưa ra; không có mức sàn bắt buộc'
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: ''
+    verdict: not-found
+    note: 'Điều 30 khoản 1 chính nó thừa nhận có trường hợp "bắt buộc bảo hành theo quy định của pháp luật" và không liệt kê danh mục. Nguồn dẫn không nói gì về động cơ máy giặt/máy nén. Khẳng định phủ định tuyệt đối này (xuất hiện ở Nói dễ hiểu và Pháp luật) không có điều luật nào trong mục hỗ trợ; chưa tìm được văn bản chuyên ngành về danh mục hàng bắt buộc bảo hành. Phải gắn "theo tìm hiểu của chúng tôi chưa thấy..." hoặc dẫn nguồn.'
+  - text: 'Bên bán phải công bố công khai chính sách bảo hành (Điều 30 khoản 2 điểm a)'
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: 'a) Công bố công khai chính sách bảo hành. Chính sách bảo hành bao gồm các nội dung chủ yếu sau đây: thời điểm, thời hạn áp dụng, nội dung, phạm vi, phương thức thực hiện bảo hành và các trường hợp loại trừ trách nhiệm bảo hành của tổ chức, cá nhân kinh doanh;'
+    verdict: match
+    note: 'OCR trang 19. Điều 30 khoản 2 áp dụng "Trường hợp sản phẩm... được bảo hành", chủ thể là "tổ chức, cá nhân kinh doanh" nói chung (mục viết "bên bán").'
+  - text: 'Bên bán phải cấp văn bản tiếp nhận bảo hành ghi rõ thời gian thực hiện, và thời gian sửa không tính vào thời hạn bảo hành (điểm c)'
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: 'c) Cung cấp cho người tiêu dùng văn bản tiếp nhận bảo hành hoặc hình thức tiếp nhận bảo hành tương đương khác, trong đó ghi rõ thời gian thực hiện bảo hành. Thời gian thực hiện bảo hành không tính vào thời hạn bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện.'
+    verdict: match
+    note: 'OCR trang 19. Nguồn cho phép "hình thức tiếp nhận tương đương khác" (không nhất thiết văn bản). Cùng điểm c còn nói thay linh kiện thì bảo hành linh kiện tính lại, đổi hàng mới thì tính lại; mục không nêu (thiếu sót hữu ích, không sai).'
+  - text: 'Đã sửa từ 03 lần trở lên trong thời hạn bảo hành mà vẫn không khắc phục được lỗi thì phải đổi hàng mới tương tự hoặc trả lại tiền (mục dẫn là "điểm d")'
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: 'đ) Đổi sản phẩm, hàng hóa, linh kiện, phụ kiện mới tương tự hoặc thu hồi sản phẩm, hàng hóa, linh kiện, phụ kiện và trả lại tiền cho người tiêu dùng trong trường hợp hết thời gian thực hiện bảo hành mà không sửa chữa được hoặc không khắc phục được lỗi hoặc trong trường hợp đã thực hiện bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện từ 03 lần trở lên trong thời hạn bảo hành mà vẫn không khắc phục được lỗi;'
+    verdict: match
+    note: 'OCR trang 20 (đọc lại ở 220 dpi). NỘI DUNG khớp, nhưng điều khoản này là điểm "đ" (đ có gạch ngang), không phải "d". Điểm d là cung cấp hàng tạm thời để sử dụng trong thời gian bảo hành. Mục dùng "điểm d" ở Pháp luật, Bẫy 3 và legal_refs ("a, c, d, e, g"), nên dẫn sai điểm.'
+  - text: 'Bên bán chịu chi phí vận chuyển cả hai chiều (điểm e)'
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: 'e) Chịu chi phí sửa chữa, vận chuyển sản phẩm, hàng hóa, linh kiện, phụ kiện từ nơi ở của người tiêu dùng hoặc nơi sử dụng sản phẩm, hàng hóa, linh kiện, phụ kiện đến nơi bảo hành và từ nơi bảo hành đến nơi ở của người tiêu dùng hoặc nơi sử dụng sản phẩm, hàng hóa, linh kiện, phụ kiện;'
+    verdict: match
+    note: 'OCR trang 20. Nguồn còn nêu chịu chi phí sửa chữa (không chỉ vận chuyển); mục không nêu và Bẫy 2 nói "có thể vẫn mất phí công hoặc phí linh kiện", cần thận trọng vì điểm e nói chi phí sửa chữa thuộc bên kinh doanh trong bảo hành.'
+  - text: 'Bên bán vẫn chịu trách nhiệm khi thuê bên thứ ba sửa (điểm g)'
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: 'g) Chịu trách nhiệm về việc bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện cho người tiêu dùng cả trong trường hợp ủy quyền hoặc thuê tổ chức, cá nhân khác thực hiện việc bảo hành.'
+    verdict: match
+    note: 'OCR trang 20.'
+  - text: 'Luật BVQLNTD 19/2023/QH15 hiệu lực 1/7/2024'
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: '1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024.'
+    verdict: match
+    note: 'Điều 79 khoản 1, OCR trang 45.'
+  - text: 'Ví dụ: gói 500.000 đồng, sửa một lần 1.500.000 đồng thì phải có ít nhất khoảng 33% khả năng hỏng; đây là số giả định'
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: ''
+    verdict: inference
+    note: '500.000/1.500.000 = 33,3%, phép chia đúng. Là số giả định tự tính, đã ghi rõ là không phải thống kê. Lưu ý đây là điểm hòa vốn thô (giả sử chỉ hỏng một lần, giá sửa cố định, không tính giá trị thời gian/quyền lợi của gói).'
+  - text: 'Bẫy 1: gói mở rộng "thời hạn gói tính từ ngày mua", nên mấy tháng đầu bạn trả tiền cho thứ đã có sẵn; gói thường tính theo phần trăm giá máy'
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: ''
+    verdict: inference
+    note: 'Không có nguồn. Nhiều gói bắt đầu sau khi hết bảo hành hãng; mục tự mâu thuẫn khi step 2 bảo "hỏi rõ gói tính từ ngày nào". Cần sửa thành "một số gói tính từ ngày mua".'
+  - text: 'Bẫy 2: gói bán tại siêu thị điện máy thì máy hỏng vẫn qua trung tâm bảo hành của hãng và có thể vẫn mất phí công hoặc linh kiện'
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: ''
+    verdict: inference
+    note: 'Không nguồn; trái chiều với điểm e/g ở chỗ trong thời hạn bảo hành theo Điều 30 thì chi phí sửa chữa, vận chuyển do bên kinh doanh chịu. Điều kiện của gói mở rộng (hợp đồng riêng, có thể là bảo hiểm) không thuộc Điều 30.'
+internal_checks:
+  - issue: 'Dẫn sai điểm: "Điều 30 khoản 2 điểm d" (quyền đổi hàng/trả tiền khi sửa từ 3 lần) thực ra là điểm "đ". legal_refs ghi "điểm a, c, d, e, g": phải là "a, c, đ, e, g". Điểm "d" là nghĩa vụ cung cấp hàng tạm thời. Lỗi nằm ở legal_refs[].article, Pháp luật Việt Nam, Bẫy 3, Nguồn.'
+    severity: error
+  - issue: 'Khẳng định "Việt Nam không có mức bảo hành bắt buộc... không có mức sàn" không có nguồn và nằm cạnh Điều 30 khoản 1 vốn thừa nhận "bắt buộc bảo hành theo quy định của pháp luật".'
+    severity: error
+  - issue: 'Mâu thuẫn mềm: Bẫy 1 khẳng định "thời hạn gói tính từ ngày mua", step 2 lại bảo hỏi rõ gói tính từ ngày nào, cộng thêm hay thay thế.'
+    severity: warn
+  - issue: 'legal_refs[].checked_at null cả hai bản ghi; effective_from "2024-07-01" khớp Điều 79.'
+    severity: warn
+validity:
+  doc: 'Luật BVQLNTD 19/2023/QH15'
+  in_force: unconfirmed
+  effective_from: '2024-07-01'
+  amended_by: []
+  basis: 'Điều 79 khoản 1 (OCR trang 45): hiệu lực 01/7/2024. Nguồn thứ cấp (tìm kiếm, thuvienphapluat) cho biết có văn bản hợp nhất 47/VBHN-VPQH năm 2026 và Luật An ninh mạng 116/2025/QH15 có sửa Luật này, hiệu lực 01/7/2026; không mở được bản hợp nhất để xác nhận Điều 30 giữ nguyên. Vì vậy unconfirmed.'
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - 'Sửa mọi "Điều 30 khoản 2 điểm d" (quyền đổi/trả khi sửa từ 3 lần) thành "điểm đ"; legal_refs[1].article thành "Điều 30 khoản 2 điểm a, c, đ, e, g". Dựa vào quote điểm đ ở trên.'
+  - 'Xóa hoặc gắn nguồn cho câu "Việt Nam không có mức bảo hành bắt buộc 3 năm cho động cơ máy giặt hay máy nén tủ lạnh... không có mức sàn bắt buộc"; thay bằng "thời hạn bảo hành thường do hãng công bố (Điều 30 khoản 2 điểm a); một số hàng có quy định bảo hành bắt buộc riêng, chưa tra cứu đầy đủ".'
+  - 'Bẫy 1: thay "Thời hạn gói tính từ ngày mua" bằng "Một số gói tính từ ngày mua", để khớp step 2.'
+  - 'Bẫy 2: nói rõ trong thời hạn bảo hành hãng, Điều 30 khoản 2 điểm e và g buộc bên kinh doanh chịu chi phí sửa chữa, vận chuyển; điều kiện phí của gói mở rộng phải đọc trong hợp đồng gói.'
+  - 'Điền checked_at cho legal_refs; nên nêu thêm rằng quyền đổi/trả (điểm đ) áp dụng trong hoặc khi hết thời hạn bảo hành mà không sửa được.'

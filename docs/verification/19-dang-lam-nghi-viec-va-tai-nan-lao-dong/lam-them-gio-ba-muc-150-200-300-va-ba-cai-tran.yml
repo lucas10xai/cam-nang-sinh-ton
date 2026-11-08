@@ -1,99 +1,102 @@
 id: lam-them-gio-ba-muc-150-200-300-va-ba-cai-tran
-checker: agent-VerifyLabor
+checker: agent-V3a19aA
 checked_at: 2026-11-08
+content_sha256: 7e13ef225317514fbbf47f979d33a7c8b2563716f0ea6f9be38175bd7dc41796
 result: pass-with-edits
-# Ghi chú phương pháp: nguồn mở thật là PDF ký số của Công báo (tải từ trang congbao.chinhphu.vn; bản datafiles.chinhphu.vn là PDF quét ảnh, không trích được chữ).
-# Trích dẫn được nối dòng PDF thành một dòng, giữ nguyên chữ.
 claims:
-  - text: "Làm thêm ngày thường ít nhất 150%, ngày nghỉ hằng tuần ít nhất 200%, ngày lễ/tết/nghỉ có hưởng lương ít nhất 300% (chưa kể lương ngày lễ với người hưởng lương ngày)"
-    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
-    quote: "a) Vào ngày thường, ít nhất bằng 150%; b) Vào ngày nghỉ hằng tuần, ít nhất bằng 200%; c) Vào ngày nghỉ lễ, tết, ngày nghỉ có hưởng lương, ít nhất bằng 300% chưa kể tiền lương ngày lễ, tết, ngày nghỉ có hưởng lương đối với người lao động hưởng lương ngày."
+  - text: Làm thêm ngày thường ít nhất 150%, ngày nghỉ hằng tuần 200%, ngày lễ/tết/nghỉ có hưởng lương 300%
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: Vào ngày thường, ít nhất bằng 150%; b) Vào ngày nghỉ hằng tuần, ít nhất bằng 200%; c) Vào ngày nghỉ lễ, tết, ngày nghỉ có hưởng lương, ít nhất bằng 300% chưa kể tiền lương ngày lễ, tết, ngày nghỉ có hưởng lương đối với người lao động hưởng lương ngày.
     verdict: match
-    note: "Điều 98 khoản 1 (VBHN 18, Công báo số 131, tr.~63)."
-  - text: "Làm việc ban đêm trả thêm ít nhất 30% (Điều 98 khoản 2)"
-    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
-    quote: "2. Người lao động làm việc vào ban đêm thì được trả thêm ít nhất bằng 30% tiền lương tính theo đơn giá tiền lương hoặc tiền lương thực trả theo công việc của ngày làm việc bình thường."
+    note: BLLĐ Điều 98 khoản 1. Điều kiện "chưa kể lương ngày lễ ... đối với người lao động hưởng lương ngày" đúng như mục nêu.
+  - text: Làm việc ban đêm trả thêm ít nhất 30%; làm thêm ban đêm trả thêm 20% (cộng dồn ba tầng)
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: Người lao động làm việc vào ban đêm thì được trả thêm ít nhất bằng 30% tiền lương tính theo đơn giá tiền lương hoặc tiền lương thực trả theo công việc của ngày làm việc bình thường. | Người lao động làm thêm giờ vào ban đêm thì ngoài việc trả lương theo quy định tại khoản 1 và khoản 2 Điều này, người lao động còn được trả thêm 20% tiền lương tính theo đơn giá tiền lương hoặc tiền lương theo công việc làm vào ban ngày
     verdict: match
-    note: ""
-  - text: "Làm thêm giờ vào ban đêm được trả thêm 20% tính trên lương công việc ban ngày (Điều 98 khoản 3); ba tầng cộng dồn"
-    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
-    quote: "3. Người lao động làm thêm giờ vào ban đêm thì ngoài việc trả lương theo quy định tại khoản 1 và khoản 2 Điều này, người lao động còn được trả thêm 20% tiền lương tính theo đơn giá tiền lương hoặc tiền lương theo công việc làm vào ban ngày của ngày làm việc bình thường hoặc của ngày nghỉ hằng tuần hoặc của ngày nghỉ lễ, tết."
+    note: BLLĐ Điều 98 khoản 2, 3. "Cộng dồn ba tầng" là cách đọc đúng của cụm "ngoài việc trả lương theo khoản 1 và khoản 2".
+  - text: Làm thêm phải được người lao động đồng ý; không quá 40 giờ/tháng, 200 giờ/năm; 12 giờ/ngày khi tính theo tuần
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: a) Phải được sự đồng ý của người lao động; b) Bảo đảm số giờ làm thêm của người lao động không quá 50% số giờ làm việc bình thường trong 01 ngày; trường hợp áp dụng quy định thời giờ làm việc bình thường theo tuần thì tổng số giờ làm việc bình thường và số giờ làm thêm không quá 12 giờ trong 01 ngày; không quá 40 giờ trong 01 tháng; c) Bảo đảm số giờ làm thêm của người lao động không quá 200 giờ trong 01 năm, trừ trường hợp quy định tại khoản 3 Điều này.
     verdict: match
-    note: "Cụm 'ngoài việc trả theo khoản 1 và khoản 2' xác nhận việc cộng dồn. Công thức chi tiết ở NĐ 145/2020 khớp; không cần sửa."
-  - text: "Điều kiện làm thêm: phải được người lao động đồng ý; không quá 50% giờ bình thường/ngày; tuần thì tổng không quá 12 giờ/ngày; không quá 40 giờ/tháng"
-    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
-    quote: "a) Phải được sự đồng ý của người lao động; b) Bảo đảm số giờ làm thêm của người lao động không quá 50% số giờ làm việc bình thường trong 01 ngày; trường hợp áp dụng quy định thời giờ làm việc bình thường theo tuần thì tổng số giờ làm việc bình thường và số giờ làm thêm không quá 12 giờ trong 01 ngày; không quá 40 giờ trong 01 tháng;"
+    note: BLLĐ Điều 107 khoản 2.
+  - text: Mở trần 300 giờ/năm cho nhóm ngành (dệt, may, da, giày, điện, điện tử, chế biến nông lâm diêm thủy sản; điện, viễn thông, lọc dầu, cấp thoát nước) và các trường hợp c, d, đ
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: "Người sử dụng lao động được sử dụng người lao động làm thêm không quá 300 giờ trong 01 năm trong một số ngành, nghề, công việc hoặc trường hợp sau đây: a) Sản xuất, gia công xuất khẩu sản phẩm hàng dệt, may, da, giày, điện, điện tử, chế biến nông, lâm, diêm nghiệp, thủy sản; b) Sản xuất, cung cấp điện, viễn thông, lọc dầu; cấp, thoát nước;"
     verdict: match
-    note: "Điều 107 khoản 2 điểm a, b."
-  - text: "Trần 200 giờ/năm; mở lên 300 giờ/năm cho nhóm ngành (dệt may da giày, điện, điện tử, chế biến nông lâm diêm thủy sản; điện, viễn thông, lọc dầu, cấp thoát nước; lao động trình độ cao; việc cấp bách; nhóm Chính phủ quy định)"
-    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
-    quote: "c) Bảo đảm số giờ làm thêm của người lao động không quá 200 giờ trong 01 năm, trừ trường hợp quy định tại khoản 3 Điều này. 3. Người sử dụng lao động được sử dụng người lao động làm thêm không quá 300 giờ trong 01 năm trong một số ngành, nghề, công việc hoặc trường hợp sau đây: a) Sản xuất, gia công xuất khẩu sản phẩm hàng dệt, may, da, giày, điện, điện tử, chế biến nông, lâm, diêm nghiệp, thủy sản; b) Sản xuất, cung cấp điện, viễn thông, lọc dầu; cấp, thoát nước;"
+    note: BLLĐ Điều 107 khoản 3 điểm a, b; điểm c, d, đ cũng khớp phần mô tả trong mục.
+  - text: Làm thêm tới 300 giờ phải thông báo bằng văn bản cho cơ quan chuyên môn về lao động cấp tỉnh, hiện là Sở Nội vụ
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/28/470103-1785229247_v1_1785229756_signed.pdf
+    quote: Không thông báo bằng văn bản cho Sở Nội vụ nơi tổ chức làm thêm giờ và nơi đặt trụ sở chính về việc tổ chức làm thêm giờ từ trên 200 giờ đến 300 giờ trong một năm.
     verdict: match
-    note: "Điều 107 khoản 2c, khoản 3 a-đ đều khớp; khoản 4 bắt buộc thông báo bằng văn bản cho cơ quan chuyên môn về lao động cấp tỉnh cũng khớp."
-  - text: "Điều 108: buộc làm thêm khi lệnh động viên/quốc phòng, bảo vệ tính mạng-tài sản trong thiên tai, hỏa hoạn, dịch bệnh; trừ khi có nguy cơ ảnh hưởng tính mạng, sức khỏe"
-    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
-    quote: "2. Thực hiện các công việc nhằm bảo vệ tính mạng con người, tài sản của cơ quan, tổ chức, cá nhân trong phòng ngừa, khắc phục hậu quả thiên tai, hỏa hoạn, dịch bệnh nguy hiểm và thảm họa, trừ trường hợp có nguy cơ ảnh hưởng đến tính mạng, sức khỏe của người lao động theo quy định của pháp luật về an toàn, vệ sinh lao động."
+    note: 'BLLĐ Điều 107 khoản 4: "phải thông báo bằng văn bản cho cơ quan chuyên môn về lao động thuộc Ủy ban nhân dân cấp tỉnh". Tên "Sở Nội vụ" lấy từ NĐ 283 Điều 24 khoản 1 điểm b; NĐ 145/2020 Điều 62 vẫn ghi Sở LĐTBXH (mục đã ghi chú đúng).'
+  - text: Bắt buộc làm thêm dù không muốn chỉ trong hai nhóm (lệnh động viên/quốc phòng an ninh; bảo vệ tính mạng, tài sản phòng chống thiên tai, hỏa hoạn, dịch bệnh, thảm họa), và vẫn được từ chối nếu có nguy cơ ảnh hưởng tính mạng, sức khỏe
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: "Người sử dụng lao động có quyền yêu cầu người lao động làm thêm giờ vào bất kỳ ngày nào mà không bị giới hạn về số giờ làm thêm theo quy định tại Điều 107 của Bộ luật này và người lao động không được từ chối trong trường hợp sau đây: 1. Thực hiện lệnh động viên, huy động bảo đảm nhiệm vụ quốc phòng, an ninh theo quy định của pháp luật; 2. Thực hiện các công việc nhằm bảo vệ tính mạng con người, tài sản của cơ quan, tổ chức, cá nhân trong phòng ngừa, khắc phục hậu quả thiên tai, hỏa hoạn, dịch bệnh nguy hiểm và thảm họa, trừ trường hợp có nguy cơ ảnh hưởng đến tính mạng, sức khỏe của người lao động theo quy định của pháp luật về an toàn, vệ sinh lao động."
+    verdict: partial
+    note: BLLĐ Điều 108. Mục không nói rằng trong hai nhóm này luật bỏ trần giờ làm thêm của Điều 107 ("không bị giới hạn về số giờ làm thêm"); người đọc có thể hiểu trần 40/200 giờ luôn tuyệt đối.
+  - text: Mỗi lần trả lương phải thông báo bảng kê ghi rõ tiền lương, lương làm thêm, lương ban đêm, khấu trừ
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: Mỗi lần trả lương, người sử dụng lao động phải thông báo bảng kê trả lương cho người lao động, trong đó ghi rõ tiền lương, tiền lương làm thêm giờ, tiền lương làm việc vào ban đêm, nội dung và số tiền bị khấu trừ (nếu có).
     verdict: match
-    note: "Khoản 1 (lệnh động viên, quốc phòng an ninh) cũng khớp."
-  - text: "Điều 95 khoản 3: mỗi lần trả lương phải thông báo bảng kê ghi rõ tiền lương, lương làm thêm giờ, lương ban đêm, khấu trừ"
-    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
-    quote: "3. Mỗi lần trả lương, người sử dụng lao động phải thông báo bảng kê trả lương cho người lao động, trong đó ghi rõ tiền lương, tiền lương làm thêm giờ, tiền lương làm việc vào ban đêm, nội dung và số tiền bị khấu trừ (nếu có)."
+    note: BLLĐ Điều 95 khoản 3.
+  - text: Chậm lương vì bất khả kháng không quá 30 ngày; chậm từ 15 ngày trở lên phải đền bù ít nhất bằng lãi kỳ hạn 01 tháng
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: Trường hợp vì lý do bất khả kháng mà người sử dụng lao động đã tìm mọi biện pháp khắc phục nhưng không thể trả lương đúng hạn thì không được chậm quá 30 ngày; nếu trả lương chậm từ 15 ngày trở lên thì người sử dụng lao động phải đền bù cho người lao động một khoản tiền ít nhất bằng số tiền lãi của số tiền trả chậm tính theo lãi suất huy động tiền gửi có kỳ hạn 01 tháng
     verdict: match
-    note: ""
-  - text: "NĐ 283/2026 Điều 23 khoản 2 điểm a: phạt 5.000.000-10.000.000 đồng với không trả/trả không đủ lương làm thêm giờ, vi phạm 1-10 người lao động"
-    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
-    quote: "không trả hoặc trả không đủ tiền lương làm thêm giờ; ... theo một trong các mức sau đây: a) Từ 5.000.000 đồng đến 10.000.000 đồng đối với vi phạm từ 01 người đến 10 người lao động;"
+    note: BLLĐ Điều 97 khoản 4.
+  - text: Phạt 5.000.000–10.000.000 đồng (1–10 người) khi không trả/trả không đủ lương làm thêm; bậc cao nhất 40–50 triệu với từ 301 người; buộc trả đủ + lãi suất tiền gửi không kỳ hạn cao nhất của NHTM nhà nước
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/28/470103-1785229247_v1_1785229756_signed.pdf
+    quote: không trả hoặc trả không đủ tiền lương làm thêm giờ; ... a) Từ 5.000.000 đồng đến 10.000.000 đồng đối với vi phạm từ 01 người đến 10 người lao động; ... đ) Từ 40.000.000 đồng đến 50.000.000 đồng đối với vi phạm từ 301 người lao động trở lên. | a) Buộc người sử dụng lao động trả đủ tiền lương cộng với khoản tiền lãi của số tiền lương chậm trả, trả thiếu cho người lao động tính theo mức lãi suất tiền gửi không kỳ hạn cao nhất của các ngân hàng thương mại nhà nước công bố tại thời điểm xử phạt
     verdict: match
-    note: "Điều 23 khoản 2 có 5 bậc theo số người (đến 20-30tr ở bậc 51-100, 40-50tr ở bậc >=301). Mục chỉ nêu bậc 1-10 người (có ghi 'từ 1 đến 10 người') nên đúng nhưng chưa đủ; xem suggested_edits."
-  - text: "NĐ 283 Điều 23 khoản 5 điểm a: buộc trả đủ cộng lãi theo lãi suất tiền gửi không kỳ hạn cao nhất của NHTM nhà nước tại thời điểm xử phạt"
-    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
-    quote: "a) Buộc người sử dụng lao động trả đủ tiền lương cộng với khoản tiền lãi của số tiền lương chậm trả, trả thiếu cho người lao động tính theo mức lãi suất tiền gửi không kỳ hạn cao nhất của các ngân hàng thương mại nhà nước công bố tại thời điểm xử phạt đối với hành vi vi phạm quy định tại khoản 2, khoản 3 Điều này;"
+    note: "NĐ 283 Điều 23 khoản 2 (a, đ) và khoản 5 điểm a. Các bậc giữa (11–50: 10–20tr; 51–100: 20–30tr; 101–300: 30–40tr) cũng khớp."
+  - text: "Huy động làm thêm không có sự đồng ý của người lao động (trừ Điều 108): phạt 20–25 triệu"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/28/470103-1785229247_v1_1785229756_signed.pdf
+    quote: b) Huy động người lao động làm thêm giờ mà không được sự đồng ý của người lao động, trừ trường hợp theo quy định tại Điều 108 của Bộ luật Lao động.
     verdict: match
-    note: ""
-  - text: "NĐ 283 Điều 24 khoản 3 điểm b: phạt 20.000.000-25.000.000 đồng với huy động làm thêm không có sự đồng ý, trừ Điều 108"
-    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
-    quote: "3. Phạt tiền từ 20.000.000 đồng đến 25.000.000 đồng đối với người sử dụng lao động có một trong các hành vi sau đây: ... b) Huy động người lao động làm thêm giờ mà không được sự đồng ý của người lao động, trừ trường hợp theo quy định tại Điều 108 của Bộ luật Lao động."
+    note: NĐ 283 Điều 24 khoản 3 (mức "Từ 20.000.000 đồng đến 25.000.000 đồng" nằm ở câu dẫn khoản 3).
+  - text: "Huy động làm thêm vượt số giờ: 5–10tr (1–10 người); 10–20tr (11–50); 20–40tr (51–100); 40–60tr (101–300); 60–75tr (từ 301)"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/28/470103-1785229247_v1_1785229756_signed.pdf
+    quote: "huy động người lao động làm thêm giờ vượt quá số giờ theo quy định của pháp luật theo một trong các mức sau đây: a) Từ 5.000.000 đồng đến 10.000.000 đồng đối với vi phạm từ 01 người đến 10 người lao động; b) Từ 10.000.000 đồng đến 20.000.000 đồng đối với vi phạm từ 11 người đến 50 người lao động; c) Từ 20.000.000 đồng đến 40.000.000 đồng đối với vi phạm từ 51 người đến 100 người lao động; d) Từ 40.000.000 đồng đến 60.000.000 đồng đối với vi phạm từ 101 người đến 300 người lao động; đ) Từ 60.000.000 đồng đến 75.000.000 đồng đối với vi phạm từ 301 người lao động trở lên."
     verdict: match
-    note: ""
-  - text: "NĐ 283 Điều 24 khoản 4: phạt 5.000.000-10.000.000 đồng với huy động làm thêm vượt số giờ"
-    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
-    quote: "4. Phạt tiền đối với người sử dụng lao động khi có một trong các hành vi: ... huy động người lao động làm thêm giờ vượt quá số giờ theo quy định của pháp luật theo một trong các mức sau đây: a) Từ 5.000.000 đồng đến 10.000.000 đồng đối với vi phạm từ 01 người đến 10 người lao động; b) Từ 10.000.000 đồng đến 20.000.000 đồng đối với vi phạm từ 11 người đến 50 người lao động; c) Từ 20.000.000 đồng đến 40.000.000 đồng đối với vi phạm từ 51 người đến 100 người lao động; d) Từ 40.000.000 đồng đến 60.000.000 đồng đối với vi phạm từ 101 người đến 300 người lao động; đ) Từ 60.000.000 đồng đến 75.000.000 đồng đối với vi phạm từ 301 người lao động trở lên."
-    verdict: mismatch
-    note: "Mục viết 'Điều 24 khoản 4 phạt 5.000.000-10.000.000 đồng với việc huy động vượt quá số giờ' mà KHÔNG nêu điều kiện '1-10 người'. Thực tế là thang 5 bậc đến 60-75 triệu (cá nhân); gấp đôi cho doanh nghiệp. Dễ làm người đọc tưởng mức trần là 10 triệu. Số tiền ở bậc 1 đúng, nhưng diễn đạt gây hiểu lầm."
-  - text: "NĐ 283 Điều 24 khoản 1 điểm b: phạt 2.000.000-5.000.000 đồng với không thông báo văn bản cho Sở Nội vụ khi làm thêm từ trên 200 đến 300 giờ/năm"
-    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
-    quote: "1. Phạt tiền từ 2.000.000 đồng đến 5.000.000 đồng đối với người sử dụng lao động có một trong các hành vi sau đây: ... b) Không thông báo bằng văn bản cho Sở Nội vụ nơi tổ chức làm thêm giờ và nơi đặt trụ sở chính về việc tổ chức làm thêm giờ từ trên 200 giờ đến 300 giờ trong một năm."
+    note: NĐ 283 Điều 24 khoản 4.
+  - text: "Không thông báo văn bản cho Sở Nội vụ khi làm thêm từ trên 200 đến 300 giờ/năm: phạt 2–5 triệu"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/28/470103-1785229247_v1_1785229756_signed.pdf
+    quote: "Phạt tiền từ 2.000.000 đồng đến 5.000.000 đồng đối với người sử dụng lao động có một trong các hành vi sau đây: ... b) Không thông báo bằng văn bản cho Sở Nội vụ nơi tổ chức làm thêm giờ và nơi đặt trụ sở chính về việc tổ chức làm thêm giờ từ trên 200 giờ đến 300 giờ trong một năm."
     verdict: match
-    note: ""
-  - text: "NĐ 283 Điều 7 khoản 1: mức ghi trong nghị định là mức của cá nhân, tổ chức/doanh nghiệp phạt gấp đôi"
-    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
-    quote: "Mức phạt tiền đối với tổ chức bằng 02 lần mức phạt tiền đối với cá nhân."
+    note: NĐ 283 Điều 24 khoản 1 điểm b.
+  - text: Mức phạt trong NĐ là mức của cá nhân; tổ chức (doanh nghiệp) gấp 02 lần; Điều 23, 24 không thuộc ngoại lệ; NĐ 283 hiệu lực từ 10/9/2026
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/28/470103-1785229247_v1_1785229756_signed.pdf
+    quote: "Mức phạt tiền quy định đối với các hành vi vi phạm hành chính quy định tại Chương II, Chương III và Chương IV của Nghị định này là mức phạt đối với cá nhân; trừ trường hợp quy định tại: Điều 8; Điều 9; khoản 3 Điều 10; khoản 3, 4, 5, 6 Điều 19; khoản 2, 4 Điều 36; ... Mức phạt tiền đối với tổ chức bằng 02 lần mức phạt tiền đối với cá nhân. | Nghị định này có hiệu lực thi hành từ ngày 10 tháng 9 năm 2026."
     verdict: match
-    note: "Câu đầu: 'Mức phạt tiền quy định đối với các hành vi vi phạm hành chính quy định tại Chương II, Chương III và Chương IV của Nghị định này là mức phạt đối với cá nhân; trừ trường hợp quy định tại: Điều 8; Điều 9; ...' - danh sách ngoại lệ không gồm Điều 23, Điều 24. Nghị định dùng chữ 'tổ chức' (khoản 2 liệt kê), mục dùng 'doanh nghiệp' - tương đương; nên dẫn đúng 'tổ chức'."
-  - text: "Người sử dụng lao động không được lấy việc từ chối làm thêm làm căn cứ kỷ luật (mục 'Pháp luật Việt Nam' viết như một quy định)"
-    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
-    quote: ""
-    verdict: not-found
-    note: "Tìm 'từ chối' trong toàn VBHN 18 (chỉ có ở Điều 108 và các điều thương lượng tập thể) và NĐ 145/2020 (phần làm thêm giờ): không có câu cấm kỷ luật vì từ chối làm thêm. Chỉ suy ra được gián tiếp từ điểm a khoản 2 Điều 107 (phải có sự đồng ý). Nên viết là suy luận hoặc bỏ."
-  - text: "Người hưởng lương tháng thì khoản 300% đã bao gồm ngày lễ (mục 'Ghi chú')"
-    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
-    quote: ""
-    verdict: not-found
-    note: "Điều 98 khoản 1 điểm c chỉ nói 300% 'chưa kể tiền lương ngày lễ... đối với người lao động hưởng lương ngày'. Không có câu nào nói rõ 300% 'đã bao gồm' với người hưởng lương tháng; đây là diễn giải ngược (argumentum a contrario), không phải câu chữ luật. Cần gắn nhãn suy luận hoặc dẫn nguồn khác."
-claims_internal_check:
-  - text: "Chi phí: '40 giờ một tháng là 480 giờ một năm, gần ba tháng làm việc bình thường'"
-    verdict: mismatch
-    note: "Tự mâu thuẫn với trần 200/300 giờ/năm trong cùng mục (Điều 107 khoản 2c, 3). 40x12=480 không thể hợp pháp: trần thực tế là 200 giờ (300 ở nhóm đặc biệt). 300 giờ ≈ 7,5 tuần 40 giờ; 200 giờ = 5 tuần. Lỗi số liệu/diễn đạt của bản nháp, cần sửa."
+    note: NĐ 283 Điều 7 khoản 1 và Điều 66 khoản 1. Danh sách ngoại lệ không có Điều 23, Điều 24 nên "gấp 02 lần" áp dụng cho tổ chức.
+  - text: "Bước 4: nộp đơn tới hòa giải viên lao động cấp huyện trong 6 tháng kể từ ngày phát hiện hành vi"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: Thời hiệu yêu cầu hòa giải viên lao động thực hiện hòa giải tranh chấp lao động cá nhân là 06 tháng kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm. | Hòa giải viên lao động là người do Chủ tịch Ủy ban nhân dân cấp tỉnh bổ nhiệm để hòa giải tranh chấp lao động
+    verdict: partial
+    note: 'BLLĐ Điều 190 khoản 1 xác nhận "06 tháng"; Điều 184 khoản 1: hòa giải viên do Chủ tịch UBND cấp tỉnh bổ nhiệm; Điều 181 khoản 3: cơ quan chuyên môn về lao động thuộc UBND là đầu mối tiếp nhận yêu cầu. Chữ "cấp huyện" không có trong BLLĐ hợp nhất (tìm "cấp huyện" chỉ ra đăng ký nội quy, đình công). Cũng không có legal_refs nào dẫn Điều 190/184 cho bước này.'
+internal_checks:
+  - issue: 'Steps[3] ghi "hòa giải viên lao động cấp huyện": BLLĐ hợp nhất (VBHN 18) không có thẩm quyền "cấp huyện" cho hòa giải viên (Điều 184: do Chủ tịch UBND cấp tỉnh bổ nhiệm; Điều 181 khoản 3: cơ quan chuyên môn về lao động thuộc UBND là đầu mối tiếp nhận). Bước cũng không có legal_refs (Điều 190, 184, 188) và thân mục chỉ nhắc ở phần "Ghi chú", không ở "Pháp luật Việt Nam".'
+    severity: error
+  - issue: 'Thân mục còn lọt từ ngữ nội bộ của quy trình soạn vào văn bản cho người đọc: "(Điều 23 khoản 2, NĐ 283, theo báo cáo kiểm chứng)".'
+    severity: warn
+  - issue: Mục "Vì sao chưa lên A" nêu "nhận định của bản nháp ..." — lời nói về quy trình, không nên xuất hiện ở bản công bố.
+    severity: warn
+  - issue: tldr nêu "Trần 40 giờ/tháng, 200 giờ/năm" nhưng không nhắc mở 300 giờ và ngoại lệ Điều 108 (không giới hạn giờ); thân bài có 300 giờ, thiếu "không bị giới hạn" của Điều 108.
+    severity: warn
+  - issue: legal_refs của Điều 23 khoản 2 không có thân bài nói rõ bậc thấp; thân đã sửa đúng bậc 1–10 người = 5–10 triệu, khớp nguồn. Không mâu thuẫn số liệu nội bộ.
+    severity: warn
+  - issue: 'Bẫy 2 nói "với người hưởng lương tháng, luật không nói rõ" — đúng: BLLĐ Điều 98.1.c và NĐ 145 Điều 55 khoản 1 điểm b chỉ nêu "chưa kể ... đối với người lao động hưởng lương ngày"; mục đã tự gắn nhãn suy luận.'
+    severity: warn
 validity:
-  doc: "BLLĐ 45/2019/QH14, VBHN 18/VBHN-VPQH ngày 12/02/2026 (Công báo số 131, ngày 28/02/2026); NĐ 283/2026/NĐ-CP ngày 15/7/2026 (Công báo số 448)"
+  doc: Bộ luật Lao động 45/2019/QH14 (Văn bản hợp nhất 18/VBHN-VPQH) và Nghị định 283/2026/NĐ-CP
   in_force: true
-  effective_from: "BLLĐ: 2021-01-01 (VBHN ghi: 'có hiệu lực kể từ ngày 01 tháng 01 năm 2021'); NĐ 283: 2026-09-10 (Điều 66 khoản 1: 'có hiệu lực thi hành từ ngày 10 tháng 9 năm 2026')"
-  amended_by: ["BLLĐ sửa bởi Luật 71/2025/QH15, 113/2025/QH15, 124/2025/QH15 (đã hợp nhất, không đụng Điều 95/97/98/104/107/108)"]
-  note: "NĐ 283 Điều 66 khoản 4: NĐ 12/2022/NĐ-CP hết hiệu lực từ ngày 283 có hiệu lực. Mục cũng cần lưu ý Điều 67 khoản 1 (hành vi xảy ra trước 10/9/2026 áp dụng NĐ cũ). Không truy cập được vbpl.vn để đối chiếu thứ hai; trang congbao không hiện trạng thái hiệu lực (trường để trống) nên kết luận 'còn hiệu lực' dựa vào chính văn bản và không thấy văn bản thay thế/sửa trong tìm kiếm ngày 2026-11-08."
+  effective_from: 2021-01-01 (BLLĐ); 2026-09-10 (NĐ 283/2026/NĐ-CP)
+  amended_by:
+    - BLLĐ được sửa bởi Luật 71/2025/QH15, Luật 113/2025/QH15 (hiệu lực 01/7/2026), Luật 124/2025/QH15 — đã nằm trong VBHN 18
+  basis: 'Bản Công báo số 131 (28/02/2026), ký 05/03/2026, là văn bản hợp nhất BLLĐ gồm các sửa đổi tới 01/7/2026. NĐ 283 (Công báo số 448, 28/07/2026) vẫn ghi "Căn cứ Bộ luật Lao động số 45/2019/QH14" và Điều 66 khoản 1: "Nghị định này có hiệu lực thi hành từ ngày 10 tháng 9 năm 2026", đã qua ngày 08/11/2026; Điều 66 khoản 4 cho NĐ 12/2022/NĐ-CP hết hiệu lực. Không thấy văn bản sửa NĐ 283 trên trang Công báo (mục quan hệ văn bản hiển thị [0], chưa chắc đã cập nhật).'
+deliberate_vn_deviation: []
+potential_harm: []
 suggested_edits:
-  - "Sửa 'Chi phí': bỏ '40 giờ một tháng là 480 giờ một năm' (mâu thuẫn trần 200/300 giờ); dùng 200 hoặc 300 giờ/năm."
-  - "Điều 24 khoản 4: nêu đủ thang phạt theo số người (5-10tr cho 1-10 người ... 60-75tr cho >=301 người), nhắc doanh nghiệp x2."
-  - "Điều 23 khoản 2: nêu thang theo số người hoặc ghi rõ 'bậc thấp nhất'."
-  - "Bỏ hoặc gắn nhãn suy luận: 'không được lấy từ chối làm thêm làm căn cứ kỷ luật' và 'lương tháng thì 300% đã gồm ngày lễ'."
-  - "Nghị định 145/2020 (điều về thông báo làm thêm 200-300 giờ) vẫn ghi 'Sở Lao động - Thương binh và Xã hội'; mục dùng 'Sở Nội vụ' theo NĐ 283 - hợp lý nhưng nên ghi rõ nguồn của tên gọi."
-  - "Đề xuất: giữ nguyên trạng thái, KHÔNG nâng lên source-checked cho tới khi sửa các mục mismatch/not-found."
+  - 'Steps[3] và mục "Cách đòi đúng thứ tự": đổi "hòa giải viên lao động cấp huyện" thành "cơ quan chuyên môn về lao động thuộc Ủy ban nhân dân (đầu mối tiếp nhận yêu cầu hòa giải) / hòa giải viên lao động", dựa vào BLLĐ Điều 181 khoản 3 và Điều 184 khoản 1 ("do Chủ tịch Ủy ban nhân dân cấp tỉnh bổ nhiệm"); thêm Điều 190 khoản 1, Điều 188 vào legal_refs và vào mục "Pháp luật Việt Nam" (thời hiệu "06 tháng kể từ ngày phát hiện ra hành vi").'
+  - Xóa cụm "theo báo cáo kiểm chứng" trong mục Mức phạt và câu "nhận định của bản nháp" trong Ghi chú.
+  - 'Mục Điều 108: bổ sung "trong hai trường hợp này không bị giới hạn số giờ làm thêm theo Điều 107" theo quote "không bị giới hạn về số giờ làm thêm theo quy định tại Điều 107".'

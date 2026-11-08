@@ -1,0 +1,100 @@
+id: moi-nam-so-lai-goi-cuoc-mot-lan-goi-dang-dung-thuong
+checker: agent-V3a05a
+checked_at: 2026-11-08
+content_sha256: "5133dc0c5c23909fac37e20d89532235a7080dd59647c92dc0487d0079caca5d"
+result: pass-with-edits
+claims:
+  - text: "Quyền từ chối sử dụng một phần hoặc toàn bộ dịch vụ theo hợp đồng (Điều 15 khoản 1 điểm d, Luật Viễn thông 24/2023/QH15)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/01/luat24.pdf
+    quote: "d) Từ chối sử dụng một phần hoặc toàn bộ dịch vụ viễn thông theo hợp đồng cung cấp và sử dụng dịch vụ viễn thông;"
+    verdict: match
+    note: "Bản ký, Công báo số 29+30 ngày 05-01-2024, trích được chữ."
+  - text: "Quyền khiếu nại về giá dịch vụ, được hoàn trả tiền sử dụng dịch vụ khi lỗi thuộc về doanh nghiệp (Điều 15 khoản 1 điểm e)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/01/luat24.pdf
+    quote: "e) Khiếu nại về giá dịch vụ, chất lượng dịch vụ; được hoàn trả tiền sử dụng dịch vụ và bồi thường thiệt hại trực tiếp khác do lỗi của doanh nghiệp viễn thông hoặc đại lý dịch vụ viễn thông gây ra."
+    verdict: match
+    note: "Luật còn cho khiếu nại chất lượng dịch vụ và bồi thường thiệt hại trực tiếp; mục rút gọn nhưng không sai ý."
+  - text: "'Hạ gói hay cắt bớt dịch vụ là quyền của bạn, không phải ân huệ của nhà mạng'"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/01/luat24.pdf
+    quote: "d) Từ chối sử dụng một phần hoặc toàn bộ dịch vụ viễn thông theo hợp đồng cung cấp và sử dụng dịch vụ viễn thông;"
+    verdict: inference
+    note: "Điều 15 khoản 1 điểm d chỉ nói 'từ chối sử dụng ... theo hợp đồng'. Việc suy ra quyền hạ cấp/đổi sang gói rẻ hơn ngay giữa chu kỳ là diễn giải của sách; đặc biệt gói 360 ngày (Bẫy 2 của chính mục) cho thấy phần còn lại không lấy lại được. Cần gắn nhãn 'suy ra' hoặc bỏ câu, tránh người đọc tin có quyền đổi gói/hoàn tiền giữa chu kỳ."
+  - text: "Luật Viễn thông 24/2023/QH15 hiệu lực 1/7/2024"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/01/luat24.pdf
+    quote: "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024, trừ quy định tại khoản 3 và khoản 4 Điều này."
+    verdict: match
+    note: "Điều 72 khoản 1. Điều 13 khoản 1 điểm h (nghĩa vụ doanh nghiệp): 'Bảo đảm cho thuê bao viễn thông được giữ nguyên số thuê bao viễn thông khi thay đổi doanh nghiệp cung cấp dịch vụ viễn thông trong cùng một loại hình dịch vụ viễn thông' là cơ sở luật cho chuyển mạng giữ số mà mục không dẫn (số khoản của điểm h chưa kiểm kỹ trong văn bản)."
+  - text: "Thông tư 09/2025/TT-BKHCN hiệu lực 10/8/2025, quy định điều kiện, thủ tục chuyển mạng"
+    source_url: https://vanban.chinhphu.vn/?docid=214164&pageid=27160
+    quote: "Số ký hiệu 09/2025/TT-BKHCN Ngày ban hành 24-06-2025 Ngày có hiệu lực 10-08-2025"
+    verdict: match
+    note: "Trang vanban.chinhphu.vn đọc được metadata; PDF ký (datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/09-bkhcn.signed.pdf) là ảnh quét, đọc bằng OCR từ ảnh trang: Điều 15 khoản 1 ghi 'Thông tư này có hiệu lực kể từ ngày 10 tháng ... năm 2025' (tháng OCR không rõ chữ, lấy tháng 8 từ trang cổng); trang 1 ghi 'Thông tư quy định chi tiết điều kiện chuyển mạng, thủ tục chuyển mạng; trách nhiệm của các bên tham gia chuyển mạng; quy trình kỹ thuật thực hiện chuyển mạng'. Thông tư Điều 15 khoản 2 còn thay thế TT 35/2017/TT-BTTTT."
+  - text: "Thông tư 09/2025 quy định các trường hợp được từ chối chuyển mạng"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/09-bkhcn.signed.pdf
+    quote: "Điều 7. Từ chối chuyển mạng 1. Việc từ chối cho thuê bao chuyển mạng chỉ được thực hiện trong các trường hợp sau đây:"
+    verdict: match
+    note: "Đọc bằng OCR từ ảnh trang (PDF quét ảnh); chữ OCR có thể sai dấu nhỏ. Điều 7 khoản 1 liệt kê: không đáp ứng điều kiện Điều 5; giấy tờ đăng ký không đúng/không rõ; theo yêu cầu cơ quan nhà nước có thẩm quyền."
+  - text: "Nghị định 163/2024/NĐ-CP (24/12/2024) quy định điều kiện, thủ tục chuyển mạng"
+    source_url: https://vanban.chinhphu.vn/?docid=214164&pageid=27160
+    quote: "Căn cứ Nghị định số 163/2024/NĐ-CP ngày 24 tháng 12 năm 2024 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Viễn thông;"
+    verdict: inference
+    note: "Chỉ xác nhận gián tiếp qua phần căn cứ và các điều dẫn của TT 09/2025 (nhiều chỗ ghi 'khoản 4 Điều 12', 'Điều 17 Nghị định số 163/2024/NĐ-CP'). Không mở được toàn văn NĐ 163: trang congbao.chinhphu.vn/van-ban/nghi-dinh-so-163-2024-nd-cp-46368.htm trả nội dung của Thông tư 21/2025/TT-BKHCN (kho số), metadata sai, không dùng được. Mục cũng thừa nhận 'chưa mở toàn văn'. legal_refs không có article và url."
+  - text: "Giá gói SD100: 100.000 đồng/30 ngày, 60 GB"
+    source_url: https://www.vietteldata.vn/goi-data/4g/sd100
+    quote: "Gói SD100 Viettel là gói Data đại trà mới giá 100.000đ/30 ngày, có 2GB Data mỗi ngày, tương đương tối đa 60GB trong 30 ngày."
+    verdict: match-secondary
+    note: "Trang chính thức viettel.vn/di-dong/goi-cuoc (và /12v180b, /sd100) là ứng dụng JavaScript, đọc qua HTTP và reader chỉ trả khung menu, không có giá. Chỉ có bản sao đại lý (vietteldata.vn). Quan trọng: SD100 là 2 GB/ngày (tối đa 60 GB/30 ngày), không phải 'tha hồ', và theo trang này mới ra mắt ngày 10/09/2026."
+  - text: "Giá gói 12V180B: 2.160.000 đồng/360 ngày, 6 GB/ngày"
+    source_url: https://vieteltelecom.vn/12v180b/
+    quote: "Giá cước: 2.160.000đ/360 ngày. Ưu đãi: 2160GB (6GB data tốc độ cao/ngày), hết 6GB/ngày ngừng truy cập."
+    verdict: match-secondary
+    note: "Trích qua kết quả tìm kiếm (trang thứ cấp, không phải viettel.vn). Cùng nguồn ghi 'Gói cước tự động gia hạn khi hết chu kỳ' cho 12V180B. Điều kiện trả trước: tài khoản gốc lớn hơn 2.160.000đ; một nguồn ghi gói chỉ dành cho thuê bao trả trước kích hoạt mới từ đầu năm 2026."
+  - text: "'Gói tháng rẻ nhất cùng nhà mạng là 100.000 đồng'"
+    source_url: https://www.vietteldata.vn/tu-van/goi-cuoc-4g-viettel-re-nhat
+    quote: "Gói Cước 4G Viettel Rẻ Nhất 2026: Tháng Từ 50K-90K-120K"
+    verdict: mismatch
+    note: "Tiêu đề trang tổng hợp ghi gói tháng từ 50K, 90K (ví dụ ST90N 90.000đ). Chỉ đọc tiêu đề qua tìm kiếm, nhưng đủ để thấy khẳng định 'rẻ nhất 100.000' không đúng. Chưa có bảng giá chính thức để chốt gói rẻ nhất."
+  - text: "Cả SD100 và 12V180B đều tự động gia hạn khi hết chu kỳ; dừng gói bằng 'HUY gửi 191'"
+    source_url: https://vieteltelecom.vn/12v180b/
+    quote: "Gói cước tự động gia hạn khi hết chu kỳ"
+    verdict: partial
+    note: "Tự động gia hạn có cho 12V180B (thứ cấp); chưa có nguồn cho SD100. Cú pháp 'HUY gửi 191' không tìm thấy nguồn nào xác nhận. Tìm kiếm chỉ thấy 'KTTK gửi 191' (kiểm tra tài khoản) và cú pháp thường là 'HUY <tên gói> gửi 191'. Quote ở đây chỉ chứng minh phần gia hạn, không chứng minh phần cú pháp (not-found)."
+  - text: "Gói năm khóa 360 ngày, đổi ý giữa đường thì phần còn lại không lấy lại được"
+    source_url: https://vieteltelecom.vn/12v180b/
+    quote: "Gói cước gia hạn sau 360 ngà..."
+    verdict: not-found
+    note: "Không tìm thấy điều khoản không hoàn tiền nào trên nguồn nào. Đây là khẳng định suy ra (và có thể đúng) nhưng mục trình bày như điều kiện nhà mạng. Trích dẫn trên bị cắt ở kết quả tìm kiếm, chỉ cho chu kỳ 360 ngày."
+  - text: "Phép tính: 180.000 - 100.000 = 80.000/tháng; 960.000/năm 'nếu bạn không dùng hết 6 GB mỗi ngày'"
+    source_url: https://www.vietteldata.vn/goi-data/4g/sd100
+    quote: "tương đương tối đa 60GB trong 30 ngày."
+    verdict: partial
+    note: "Số học đúng ((180.000-100.000)×12 = 960.000). Nhưng gói rẻ hơn (SD100) chỉ 2 GB/ngày (60 GB/tháng). Ngưỡng đúng để gói 100K đủ dùng là khoảng 60 GB/tháng (2 GB/ngày), không phải 6 GB/ngày; dùng 3–6 GB/ngày thì SD100 không đủ. Câu 'nếu không dùng hết 6 GB mỗi ngày' (Lợi ích) sai ngưỡng. Bẫy 3 lại dùng 20–30 GB là đúng hướng."
+internal_checks:
+  - issue: "Lợi ích: 'đắt hơn 80.000 đồng/tháng ... 960.000 đồng/năm nếu bạn không dùng hết 6 GB mỗi ngày'. Gói so sánh SD100 chỉ có 60 GB/tháng (2 GB/ngày), nên ngưỡng hòa vốn là 60 GB/tháng, không phải 6 GB/ngày. Mâu thuẫn với Bẫy 3 (nên so bằng GB thực dùng) và với tldr ('nếu bạn không dùng hết dung lượng' — mơ hồ)."
+    severity: error
+  - issue: "'Gói tháng rẻ nhất cùng nhà mạng là 100.000 đồng' (Nói dễ hiểu): có gói tháng rẻ hơn (50K–90K theo trang tổng hợp). Bảng giá Viettel không đọc được trực tiếp, nên số liệu giá chưa chốt được từ nguồn chính."
+    severity: error
+  - issue: "steps[2] 'soạn HUY gửi 191': không có nguồn xác nhận cú pháp; cú pháp thực tế thường kèm tên gói."
+    severity: error
+  - issue: "legal_refs[2] (Nghị định 163/2024/NĐ-CP) và [3] (Thông tư 09/2025/TT-BKHCN) có url: null và article: null; Thông tư có URL ký khả dụng trên datafiles.chinhphu.vn. legal_refs[0..1] url luat24.pdf đúng văn bản (Luật 24/2023/QH15), article đúng với khẳng định."
+    severity: warn
+  - issue: "Nguồn chưa nêu Điều 13 (nghĩa vụ doanh nghiệp) điểm h Luật Viễn thông (giữ nguyên số khi đổi doanh nghiệp) — thực tế là cơ sở luật của chuyển mạng giữ số."
+    severity: warn
+  - issue: "Hạn tra giá 'tra 2/11/2026'; hôm nay 8/11/2026 giá có thể đổi; SD100 theo nguồn thứ cấp mới bổ sung 10/09/2026."
+    severity: warn
+validity:
+  doc: "Luật Viễn thông 24/2023/QH15; Nghị định 163/2024/NĐ-CP; Thông tư 09/2025/TT-BKHCN"
+  in_force: unconfirmed
+  effective_from: "2024-07-01"
+  amended_by: []
+  basis: "Luật 24/2023/QH15 hiệu lực từ 1/7/2024 (Điều 72 khoản 1), bản ký trích được. Thông tư 09/2025/TT-BKHCN: cổng vanban.chinhphu.vn ghi hiệu lực 10-08-2025; không có dữ liệu về sửa đổi sau đó. Không mở được bản NĐ 163/2024. Không có bằng chứng cụ thể cho việc Luật/NĐ/TT chưa bị sửa đến 8/11/2026 (và Bộ Khoa học và Công nghệ có thể đã đổi tên/thay đổi chức năng, chưa kiểm), nên giữ unconfirmed."
+deliberate_vn_deviation: []
+potential_harm:
+  - "steps[2] / Bẫy 1: 'soạn HUY gửi 191' không có nguồn; nếu cú pháp thực tế cần tên gói (ví dụ HUY 12V180B gửi 191 theo tìm kiếm), người đọc làm đúng nguyên văn sẽ không hủy được và gói 2.160.000 đồng tự gia hạn. Thiệt hại tài chính, không phải sức khỏe."
+suggested_edits:
+  - "Nói dễ hiểu, Lợi ích: sửa 'gói tháng rẻ nhất cùng nhà mạng là 100.000 đồng' thành 'gói SD100 100.000 đồng/30 ngày, 60 GB (2 GB/ngày)'; bỏ chữ 'rẻ nhất' hoặc đối chiếu bảng giá chính thức viettel.vn/app My Viettel (dựa vào tiêu đề nguồn thứ cấp: tháng từ 50K-90K-120K)."
+  - "Lợi ích: sửa 'nếu bạn không dùng hết 6 GB mỗi ngày' thành 'nếu tháng bạn dùng không quá khoảng 60 GB (2 GB/ngày), vì SD100 chỉ có 60 GB/30 ngày'. Sửa tldr tương ứng."
+  - "Bẫy 1, steps[2]: kiểm cú pháp thực tế trên viettel.vn hoặc app My Viettel; đề xuất sửa thành 'soạn HUY <tên gói> gửi 191 (ví dụ HUY SD100) hoặc hủy trong app My Viettel' sau khi xác nhận. Nếu không xác nhận được thì bỏ cú pháp và chỉ nói 'hủy gia hạn trong app My Viettel/gọi 198 sau khi kiểm tra'."
+  - "Pháp luật VN: câu 'Hạ gói hay cắt bớt dịch vụ là quyền của bạn, không phải ân huệ' ghi rõ là suy ra từ Điều 15 khoản 1 điểm d (quyền từ chối theo hợp đồng); không hứa đổi gói/hoàn tiền giữa chu kỳ."
+  - "Thêm article/url cho legal_refs[3] (TT 09/2025: Điều 5 điều kiện, Điều 7 từ chối; PDF datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/09-bkhcn.signed.pdf) và mở toàn văn NĐ 163/2024/NĐ-CP (Điều 12 theo TT 09 dẫn) rồi sửa mục Nguồn bỏ câu 'chưa mở toàn văn'."
+  - "Bẫy 2 (gói năm khóa 360 ngày, không hoàn lại): dẫn điều kiện gói trên trang Viettel hoặc ghi 'điều kiện gói thường ghi... hãy đọc'. Ghi lại giá khi nguồn chính thức đọc được."

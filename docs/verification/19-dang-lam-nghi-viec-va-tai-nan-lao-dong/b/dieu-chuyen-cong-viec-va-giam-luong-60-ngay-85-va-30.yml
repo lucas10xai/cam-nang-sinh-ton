@@ -1,0 +1,97 @@
+id: dieu-chuyen-cong-viec-va-giam-luong-60-ngay-85-va-30
+checker: agent-V3b19eB
+checked_at: 2026-11-08
+content_sha256: "4ee9f21af1f67af65a79c3751ae71b7e20c1755177dd8e63c5c950cfb216d496"
+result: pass-with-edits
+claims:
+  - text: "Chuyển việc tạm thời tối đa 60 ngày làm việc cộng dồn/năm; quá thì cần văn bản đồng ý"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "nhưng không được quá 60 ngày làm việc cộng dồn trong 01 năm; trường hợp chuyển người lao động làm công việc khác so với hợp đồng lao động quá 60 ngày làm việc cộng dồn trong 01 năm thì chỉ được thực hiện khi người lao động đồng ý bằng văn bản."
+    verdict: match
+    note: "Điều 29 khoản 1. Điều kiện kích hoạt (thiên tai, hỏa hoạn, dịch bệnh, biện pháp ngăn ngừa tai nạn/bệnh nghề nghiệp, sự cố điện nước, hoặc nhu cầu sản xuất kinh doanh) đã có trong thân bài. Khoản 1 đoạn 2: 'Người sử dụng lao động quy định cụ thể trong nội quy lao động những trường hợp do nhu cầu sản xuất, kinh doanh mà người sử dụng lao động được tạm thời chuyển người lao động làm công việc khác so với hợp đồng lao động.' - mục không nêu, nên người đọc không biết cần kiểm nội quy."
+  - text: "Phải báo trước ít nhất 03 ngày làm việc, nêu rõ thời hạn, bố trí việc phù hợp sức khỏe, giới tính"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "2. Khi tạm thời chuyển người lao động làm công việc khác so với hợp đồng lao động quy định tại khoản 1 Điều này, người sử dụng lao động phải báo cho người lao động biết trước ít nhất 03 ngày làm việc, thông báo rõ thời hạn làm tạm thời và bố trí công việc phù hợp với sức khỏe, giới tính của người lao động."
+    verdict: match
+    note: "Điều 29 khoản 2."
+  - text: "Lương việc mới ít nhất 85% lương cũ nhưng không thấp hơn lương tối thiểu; 30 ngày làm việc đầu giữ nguyên lương cũ nếu lương mới thấp hơn"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "3. Người lao động chuyển sang làm công việc khác so với hợp đồng lao động được trả lương theo công việc mới. Nếu tiền lương của công việc mới thấp hơn tiền lương của công việc cũ thì được giữ nguyên tiền lương của công việc cũ trong thời hạn 30 ngày làm việc. Tiền lương theo công việc mới ít nhất phải bằng 85% tiền lương của công việc cũ nhưng không thấp hơn mức lương tối thiểu."
+    verdict: match
+    note: "Điều 29 khoản 3. Mục viết 'tối đa 15% lương cũ' là phép tính đúng."
+  - text: "Người không đồng ý mà phải ngừng việc được trả lương ngừng việc theo Điều 99"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "4. Người lao động không đồng ý tạm thời làm công việc khác so với hợp đồng lao động quá 60 ngày làm việc cộng dồn trong 01 năm mà phải ngừng việc thì người sử dụng lao động phải trả lương ngừng việc theo quy định tại Điều 99 của Bộ luật này."
+    verdict: partial
+    note: "Điều 29 khoản 4 chỉ áp cho trường hợp chuyển 'quá 60 ngày làm việc cộng dồn trong 01 năm'. Mục viết 'Người không đồng ý mà phải ngừng việc được trả lương ngừng việc theo Điều 99' không có điều kiện 'quá 60 ngày' - sai phạm vi: trong 60 ngày đầu, luật cho phép NSDLĐ chuyển tạm thời mà không cần văn bản đồng ý, nên việc từ chối và ngừng việc ở giai đoạn đó không được khoản 4 bảo đảm lương ngừng việc (suy ra từ cấu trúc khoản 1 và 4)."
+  - text: "Điều 99 khoản 1: ngừng việc do lỗi NSDLĐ thì trả đủ lương theo hợp đồng"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "1. Nếu do lỗi của người sử dụng lao động thì người lao động được trả đủ tiền lương theo hợp đồng lao động;"
+    verdict: match
+    note: "Điều 99 khoản 1."
+  - text: "Điều 90 khoản 2: mức lương theo công việc/chức danh không thấp hơn mức lương tối thiểu"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "2. Mức lương theo công việc hoặc chức danh không được thấp hơn mức lương tối thiểu."
+    verdict: match
+    note: "Điều 90 khoản 2."
+  - text: "Sửa đổi hợp đồng phải báo trước 03 ngày làm việc; thỏa thuận được thì ký phụ lục; không thỏa thuận được thì tiếp tục hợp đồng đã giao kết (Điều 33)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "3. Trường hợp hai bên không thỏa thuận được việc sửa đổi, bổ sung nội dung hợp đồng lao động thì tiếp tục thực hiện hợp đồng lao động đã giao kết."
+    verdict: match
+    note: "Điều 33 khoản 1: 'nếu bên nào có yêu cầu sửa đổi, bổ sung nội dung hợp đồng lao động thì phải báo cho bên kia biết trước ít nhất 03 ngày làm việc về nội dung cần sửa đổi, bổ sung.'; khoản 2: 'Trường hợp hai bên thỏa thuận được thì việc sửa đổi, bổ sung nội dung hợp đồng lao động được tiến hành bằng việc ký kết phụ lục hợp đồng lao động hoặc giao kết hợp đồng lao động mới.' Mục có đi xa hơn nguồn khi viết 'Một thông báo hành chính không thay được chữ ký đó' (diễn giải hợp lý, không phải chữ của luật)."
+  - text: "Điều 35 khoản 2: NLĐ nghỉ không cần báo trước khi không được bố trí đúng việc/địa điểm/điều kiện, trừ trường hợp Điều 29; hoặc không được trả đủ lương/đúng hạn"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "a) Không được bố trí theo đúng công việc, địa điểm làm việc hoặc không được bảo đảm điều kiện làm việc theo thỏa thuận, trừ trường hợp quy định tại Điều 29 của Bộ luật này;"
+    verdict: partial
+    note: "Điều 35 khoản 2 điểm a khớp. Điểm b: 'Không được trả đủ lương hoặc trả lương không đúng thời hạn, trừ trường hợp quy định tại khoản 4 Điều 97 của Bộ luật này;' - mục bỏ ngoại lệ khoản 4 Điều 97 (trường hợp được chậm lương) khi mô tả 'không được trả đủ lương hoặc trả lương không đúng thời hạn'."
+  - text: "Nghỉ trái luật theo Điều 40: mất trợ cấp thôi việc + bồi thường nửa tháng lương + tiền lương những ngày không báo trước"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "2. Phải bồi thường cho người sử dụng lao động nửa tháng tiền lương theo hợp đồng lao động và một khoản tiền tương ứng với tiền lương theo hợp đồng lao động trong những ngày không báo trước."
+    verdict: match
+    note: "Điều 40 khoản 1, 2. Mục viết 'mất trợ cấp thôi việc cùng một khoản bồi thường' - khớp; bỏ khoản 3 (hoàn trả chi phí đào tạo)."
+  - text: "Phạt 1.000.000-3.000.000 đồng: không báo trước 03 ngày làm việc hoặc không nêu rõ thời hạn tạm thời"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "1. Phạt tiền từ 1.000.000 đồng đến 3.000.000 đồng đối với người sử dụng lao động có hành vi tạm thời chuyển người lao động làm công việc khác so với hợp đồng lao động nhưng không báo cho người lao động trước 03 ngày làm việc hoặc không thông báo hoặc thông báo không rõ thời hạn làm tạm thời hoặc bố trí công việc không phù hợp với sức khỏe, giới tính của người lao động."
+    verdict: partial
+    note: "Điều 17 khoản 1 khớp mức. Nhưng đây là mức với cá nhân; theo Điều 7 khoản 1 (Điều 17 không thuộc danh sách ngoại lệ) tổ chức/doanh nghiệp bị phạt gấp 02 lần (2.000.000-6.000.000 đồng). Mục dẫn Điều 7 khoản 1 trong legal_refs nhưng thân không nói gấp đôi, trong khi các mục cùng chương (21, 22) có nói. Mục cũng bỏ hành vi 'bố trí công việc không phù hợp với sức khỏe, giới tính' ở cùng khung."
+  - text: "Phạt 3.000.000-7.000.000 đồng và buộc bố trí lại: chuyển không đúng lý do, quá thời hạn, hoặc không có văn bản đồng ý"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "c) Chuyển người lao động làm công việc khác so với hợp đồng lao động không đúng lý do; thời hạn hoặc không có văn bản đồng ý của người lao động theo quy định của pháp luật."
+    verdict: partial
+    note: "Điều 17 khoản 2 điểm c ('2. Phạt tiền từ 3.000.000 đồng đến 7.000.000 đồng đối với người sử dụng lao động có một trong các hành vi sau đây:'), khoản 5 điểm c: 'Buộc người sử dụng lao động bố trí người lao động làm công việc đúng với hợp đồng lao động đã giao kết khi có hành vi vi phạm quy định tại điểm c khoản 2 Điều này;'. Cùng lưu ý gấp đôi cho tổ chức (Điều 7 khoản 1) bị bỏ sót."
+  - text: "Điều 7 khoản 1 Nghị định 283: mức phạt nêu là mức cá nhân, tổ chức gấp 02 lần"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "Mức phạt tiền đối với tổ chức bằng 02 lần mức phạt tiền đối với cá nhân."
+    verdict: match
+    note: "Điều 7 khoản 1."
+  - text: "'Toàn bộ phần chênh nếu việc mới kéo dài quá 60 ngày làm việc cộng dồn trong một năm mà không có văn bản đồng ý' là chi phí NLĐ mất; 'khi đó việc chuyển là trái quy định'"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "trường hợp chuyển người lao động làm công việc khác so với hợp đồng lao động quá 60 ngày làm việc cộng dồn trong 01 năm thì chỉ được thực hiện khi người lao động đồng ý bằng văn bản."
+    verdict: inference
+    note: "Nguồn chỉ nói quá 60 ngày thì cần văn bản đồng ý; không có câu nào nói người lao động được/bị mất 'toàn bộ phần chênh', hay cách tính. Câu này là suy ra của người soạn về hậu quả tài chính."
+internal_checks:
+  - issue: "steps[1] 'gửi văn bản nêu ý kiến trong 03 ngày làm việc' và Bẫy 1 'gửi văn bản nêu ý kiến trong 03 ngày làm việc': Điều 33 khoản 1 đặt 03 ngày làm việc là thời hạn NSDLĐ phải báo trước khi yêu cầu sửa hợp đồng, không phải hạn người lao động phải phản hồi. Bước không có cơ sở pháp lý cho con số 03 ngày ở phía người lao động; có thể khiến người đọc nghĩ quá 03 ngày là coi như đồng ý."
+    severity: error
+  - issue: "Điều 29 khoản 4 bị mô tả thiếu điều kiện 'quá 60 ngày làm việc cộng dồn'. Người đọc có thể tin rằng từ chối chuyển việc ngay (trong 60 ngày) vẫn được trả lương ngừng việc."
+    severity: error
+  - issue: "Phần phạt hành chính nêu mức cá nhân (1.000.000-3.000.000; 3.000.000-7.000.000) mà không nói gấp đôi cho tổ chức (doanh nghiệp là tổ chức theo Điều 7 khoản 2 điểm b); thiếu so với mục 21 và 22 cùng chương."
+    severity: warn
+  - issue: "Điều 35 khoản 2 điểm b bị trình bày bỏ ngoại lệ 'trừ trường hợp quy định tại khoản 4 Điều 97'; Bẫy 3 khuyên chấm dứt theo điểm b khi bị cắt lương mà không nói cắt lương được thỏa thuận hợp pháp theo Điều 33 thì không phải 'không được trả đủ lương'."
+    severity: warn
+  - issue: "'Chi phí' liệt kê '30 ngày làm việc đầu' là 'khoản bị mất' trong khi thực chất là quyền lợi (được giữ nguyên lương cũ); trình bày thành 'ba thứ tính được có thể bị lấy đi' gây nhầm."
+    severity: warn
+validity:
+  doc: "Bộ luật Lao động 45/2019/QH14 (VBHN 18/VBHN-VPQH); Nghị định 283/2026/NĐ-CP"
+  in_force: true
+  effective_from: "BLLĐ 2021-01-01; Nghị định 283/2026 2026-09-10"
+  amended_by: ["BLLĐ: Luật 71/2025/QH15, 113/2025/QH15, 124/2025/QH15 (theo danh sách đầu VBHN 18; không đụng Điều 29, 33, 35, 40, 90, 99)"]
+  basis: "Nghị định 283/2026: trang Công báo ghi 'Ban hành: 15/07/2026 - Hiệu lực: 10/09/2026'; Điều 66 khoản 1; Điều 66 khoản 4 cho Nghị định 12/2022 hết hiệu lực. Căn cứ ban hành Nghị định 283 là 'Bộ luật Lao động số 45/2019/QH14' (tháng 7/2026), tức Bộ luật còn hiệu lực. Bảng 'văn bản sửa đổi/thay thế' trên Công báo nạp bằng JS nên không đọc được; không có bằng chứng nghị định nào sửa Nghị định 283 kể từ 28/07/2026 nhưng đó chỉ là không thấy."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "steps[1] và Bẫy 1: đổi 'gửi văn bản nêu ý kiến trong 03 ngày làm việc' thành 'khi nhận thông báo sửa đổi, bổ sung hợp đồng hoặc thông báo chuyển việc, trả lời bằng văn bản càng sớm càng tốt; giữ nguyên nội dung cũ nếu chưa đồng ý (Điều 33 khoản 3)'. Dựa vào quote Điều 33 khoản 1 (03 ngày là thời hạn NSDLĐ báo trước)."
+  - "Pháp luật VN 'Tiền lương khi bị chuyển': đổi dòng 'Người không đồng ý mà phải ngừng việc được trả lương ngừng việc' thành 'Người không đồng ý tạm thời làm công việc khác quá 60 ngày làm việc cộng dồn trong 01 năm mà phải ngừng việc thì được trả lương ngừng việc theo Điều 99 (Điều 29 khoản 4)'."
+  - "Chi phí: thêm 'mức phạt trên là mức cá nhân; doanh nghiệp bị phạt gấp 02 lần (Điều 7 khoản 1 Nghị định 283/2026): 2.000.000-6.000.000 đồng và 6.000.000-14.000.000 đồng'. Dựa vào quote Điều 7 khoản 1."
+  - "Chi phí: bỏ hoặc sửa gạch đầu dòng 'Toàn bộ phần chênh nếu việc mới kéo dài quá 60 ngày...' vì không có nguồn; có thể thay bằng 'Quá 60 ngày làm việc cộng dồn thì chỉ được chuyển khi bạn đồng ý bằng văn bản'. Tách '30 ngày giữ lương cũ' ra khỏi nhóm 'bị lấy đi'."
+  - "Pháp luật VN và Bẫy 3: nêu ngoại lệ Điều 35 khoản 2 điểm b ('trừ trường hợp quy định tại khoản 4 Điều 97') và nhắc cắt lương chỉ là vi phạm khi chưa có chữ ký thỏa thuận (Điều 33)."
+  - "Thêm vào Pháp luật VN câu Điều 29 khoản 1 đoạn 2: nhu cầu sản xuất, kinh doanh phải được quy định cụ thể trong nội quy lao động; hướng dẫn đối chiếu nội quy là bước hữu ích."

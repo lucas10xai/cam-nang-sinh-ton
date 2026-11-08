@@ -1,0 +1,104 @@
+id: cho-nghi-trai-luat-nhan-lai-viec-02-thang-luong-va-01
+checker: agent-V3a19bA
+checked_at: 2026-11-08
+content_sha256: "d9ce7153bada19a2cd43b3fa3cc17d08ae838d2de00e72bc8644644ebc6809c1"
+result: pass-with-edits
+claims:
+  - text: "NSDLĐ đơn phương trái luật: phải nhận lại làm việc, trả lương + đóng BHXH/BHYT/BHTN những ngày không được làm, trả thêm ít nhất 02 tháng lương (Điều 41 khoản 1)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Phải nhận người lao động trở lại làm việc theo hợp đồng lao động đã giao kết; phải trả tiền lương, đóng bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp trong những ngày người lao động không được làm việc và phải trả thêm cho người lao động một khoản tiền ít nhất bằng 02 tháng tiền lương theo hợp đồng lao động."
+    verdict: match
+    note: "Trích từ tệp DOCX của VBHN 18/VBHN-VPQH tải từ trang Công báo (link 'Tải về'). Mục bỏ sót: sau khi được nhận lại, NLĐ phải hoàn trả trợ cấp thôi việc/mất việc làm đã nhận (cùng khoản 1, đoạn 2)."
+  - text: "Điều 41 khoản 2: NLĐ không muốn tiếp tục thì ngoài khoản ở khoản 1 được trợ cấp thôi việc theo Điều 46"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Trường hợp người lao động không muốn tiếp tục làm việc thì ngoài khoản tiền phải trả quy định tại khoản 1 Điều này người sử dụng lao động phải trả trợ cấp thôi việc theo quy định tại Điều 46 của Bộ luật này để chấm dứt hợp đồng lao động."
+    verdict: match
+    note: ""
+  - text: "Điều 41 khoản 3: NSDLĐ không muốn nhận lại, NLĐ đồng ý: thêm trợ cấp thôi việc + khoản bồi thường thỏa thuận, ít nhất 02 tháng lương ('cộng thêm 02 tháng nữa')"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Trường hợp người sử dụng lao động không muốn nhận lại người lao động và người lao động đồng ý thì ngoài khoản tiền người sử dụng lao động phải trả theo quy định tại khoản 1 Điều này và trợ cấp thôi việc theo quy định tại Điều 46 của Bộ luật này, hai bên thỏa thuận khoản tiền bồi thường thêm cho người lao động nhưng ít nhất bằng 02 tháng tiền lương theo hợp đồng lao động để chấm dứt hợp đồng lao động."
+    verdict: match
+    note: "Mục viết 'Có trường hợp cộng thêm 02 tháng nữa': đúng nhưng đó là mức tối thiểu của khoản thỏa thuận, cần cả hai bên đồng ý."
+  - text: "Thời hiệu: 6 tháng hòa giải, 9 tháng trọng tài, 01 năm tòa án, tính từ ngày phát hiện hành vi; trừ thời gian bất khả kháng/trở ngại khách quan nếu chứng minh được (Điều 190)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động cá nhân là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm."
+    verdict: match
+    note: "Khoản 1 = 06 tháng hòa giải viên, khoản 2 = 09 tháng Hội đồng trọng tài (đọc đủ trong cùng VBHN), khoản 4 = bất khả kháng/trở ngại khách quan. Điều 190 khoản 4 còn có 'hoặc lý do khác theo quy định của pháp luật'; mục chỉ nêu hai lý do đầu (rút gọn, không sai ý)."
+  - text: "Điều 40: NLĐ đơn phương trái luật: không được trợ cấp thôi việc; bồi thường nửa tháng lương + tiền những ngày không báo trước; hoàn trả chi phí đào tạo"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Phải bồi thường cho người sử dụng lao động nửa tháng tiền lương theo hợp đồng lao động và một khoản tiền tương ứng với tiền lương theo hợp đồng lao động trong những ngày không báo trước."
+    verdict: match
+    note: "Khoản 1 'Không được trợ cấp thôi việc.' và khoản 3 'Phải hoàn trả cho người sử dụng lao động chi phí đào tạo quy định tại Điều 62' đều có đúng như vậy."
+  - text: "Phạt 1.000.000-2.000.000 đồng với vi phạm từ 1 đến 10 NLĐ, hành vi không trả/trả không đủ tiền khi đơn phương chấm dứt trái pháp luật (NĐ 283/2026 Điều 18 khoản 2)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "không trả hoặc trả không đủ tiền cho người lao động theo quy định của pháp luật khi đơn phương chấm dứt hợp đồng lao động trái pháp luật;"
+    verdict: match
+    note: "Đọc từ PDF Công báo số 448 (liên kết data-href trên trang). Khoản 2 điểm a: 'Từ 1.000.000 đồng đến 2.000.000 đồng đối với vi phạm từ 01 người đến 10 người lao động'."
+  - text: "Mức phạt trong nghị định là mức của cá nhân; doanh nghiệp gấp đôi (Điều 7 khoản 1)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "Mức phạt tiền đối với tổ chức bằng 02 lần mức phạt tiền đối với cá nhân."
+    verdict: match
+    note: "Điều 18 không nằm trong danh sách ngoại lệ ở khoản 1 Điều 7, nên đúng quy tắc chung. Khoản 2 Điều 7 liệt kê doanh nghiệp là tổ chức."
+  - text: "Nộp đơn tới 'hòa giải viên lao động cấp huyện' trong 6 tháng (steps[3], 'Việc đúng cần làm')"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Thẩm quyền giải quyết tranh chấp lao động cá nhân: Cơ quan, tổ chức, cá nhân có thẩm quyền giải quyết tranh chấp lao động cá nhân bao gồm: 1. Hòa giải viên lao động; 2. Hội đồng trọng tài lao động; 3. Tòa án nhân dân."
+    verdict: not-found
+    note: "Điều 187-190 chỉ nói 'hòa giải viên lao động'; không có chữ 'cấp huyện' ở nguồn nào mục dẫn. Bộ luật không quy định nơi nộp đơn; do NĐ 145/2020 hướng dẫn. Mô hình chính quyền địa phương hai cấp (bỏ cấp huyện từ 01/7/2025) khiến 'cấp huyện' rất có thể lỗi thời: tìm kiếm thứ cấp (không phải văn bản gốc, CHƯA xác minh bằng nguồn chính thống) cho thấy NĐ 129/2025/NĐ-CP Điều 75 chuyển đầu mối sang Sở Nội vụ hoặc cơ quan chuyên môn về nội vụ thuộc UBND cấp xã. Cần người kiểm tra NĐ 145/2020 bản sửa đổi + NĐ 129/2025 trước khi giữ cụm 'cấp huyện'."
+  - text: "Điều 188 khoản 1: tranh chấp về bị đơn phương chấm dứt HĐLĐ KHÔNG bắt buộc qua hòa giải; mục đặt hòa giải là bước đi đầu (tldr/steps) mà không nói có thể kiện thẳng tòa/trọng tài"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "trừ các tranh chấp lao động sau đây không bắt buộc phải qua thủ tục hòa giải: a) Về xử lý kỷ luật lao động theo hình thức sa thải hoặc về trường hợp bị đơn phương chấm dứt hợp đồng lao động;"
+    verdict: partial
+    note: "Không sai nhưng thiếu ngoại lệ có thể làm người đọc tưởng bắt buộc hòa giải trước. Còn Điều 189 khoản 1 nói trọng tài chỉ giải quyết 'Trên cơ sở đồng thuận' của các bên; mục không nêu điều kiện này."
+  - text: "Trợ cấp thôi việc 'nửa tháng lương mỗi năm' (Điều 46 khoản 1) được nhắc để cộng vào Điều 41 khoản 2"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Thời gian làm việc để tính trợ cấp thôi việc là tổng thời gian người lao động đã làm việc thực tế cho người sử dụng lao động trừ đi thời gian người lao động đã tham gia bảo hiểm thất nghiệp theo quy định của pháp luật về bảo hiểm thất nghiệp và thời gian làm việc đã được người sử dụng lao động chi trả trợ cấp thôi việc, trợ cấp mất việc làm."
+    verdict: partial
+    note: "Mục chỉ nhắc 'trợ cấp thôi việc theo Điều 46' không nói cách tính; không sai, nhưng người đọc dễ tính nửa tháng x toàn bộ số năm trong khi thời gian đã đóng BHTN bị trừ (Điều 46 khoản 2)."
+  - text: "Ký thỏa thuận chấm dứt theo Điều 34 khoản 3 thì mất quyền yêu cầu giải quyết tranh chấp / không còn chỗ nói tới Điều 41"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Hai bên thỏa thuận chấm dứt hợp đồng lao động."
+    verdict: inference
+    note: "Nguồn chỉ liệt kê khoản 3 là một căn cứ chấm dứt; không có điều nào nói 'quyền mất đi'. Hệ quả là suy luận pháp lý hợp lý (chấm dứt hợp pháp nên không có 'trái luật'), nhưng thỏa thuận bị ép buộc/lừa dối vẫn có thể bị tranh chấp theo luật dân sự/lao động. Cần gắn nhãn 'suy ra' và bỏ chữ 'mất đi' tuyệt đối."
+  - text: "Bắt đầu kiện không mất án phí (mục Chi phí)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "(không có câu tương ứng trong văn bản được dẫn)"
+    verdict: not-found
+    note: "Không có nguồn nào trong mục 'Nguồn' nói về án phí. Quy định án phí lao động nằm ở văn bản khác (Luật Phí và lệ phí/Nghị quyết về án phí, lệ phí tòa án) mà mục không dẫn. Lại mâu thuẫn với mục 07 cùng chương (nói tiền tư vấn và án phí lớn hơn khoản tranh). Cần thêm nguồn hoặc bỏ câu."
+  - text: "Ký nhận quyết định chỉ là nhận giấy, không phải đồng ý nội dung nên không mất quyền"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "(không có câu tương ứng trong văn bản được dẫn)"
+    verdict: inference
+    note: "Không có điều khoản nào về 'ký nhận'. Là lời khuyên thực hành, hợp lý nhưng không phải chữ của luật; nên ghi 'thông lệ' hoặc 'suy ra'."
+  - text: "Tự nghỉ để phản đối phát sinh Điều 40; chỉ dừng khi có căn cứ điểm a, b, c, d hoặc đ khoản 2 Điều 35"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước trong trường hợp sau đây:"
+    verdict: partial
+    note: "Điểm a-đ khớp nội dung nêu. Thiếu: điểm a có ngoại lệ 'trừ trường hợp quy định tại Điều 29' (tạm chuyển công việc), điểm b 'trừ khoản 4 Điều 97'; và điểm e, g (đủ tuổi nghỉ hưu, thông tin không trung thực) cũng cho nghỉ không cần báo trước. 'Chỉ dừng khi' nghe như danh sách đóng chỉ gồm 5 điểm. Khoản 2 cũng có 'bị cưỡng bức lao động' trong điểm c."
+internal_checks:
+  - issue: "Tldr/steps: mọi con số (02 tháng, 6 tháng, 9 tháng, 01 năm) đều có trong thân và khớp Điều 41/190; không có mâu thuẫn số liệu nội bộ."
+    severity: warn
+  - issue: "Steps[3] và 'Việc đúng cần làm' nêu 'hòa giải viên lao động cấp huyện' nhưng cụm này không có trong bất kỳ legal_refs/Nguồn nào của mục, và cấp huyện đã bãi bỏ từ 01/7/2025 (suy ra từ tìm kiếm thứ cấp, chưa kiểm chứng gốc). Bước hành động chính của mục có thể chỉ sai địa chỉ."
+    severity: error
+  - issue: "Câu 'Bắt đầu kiện không mất án phí' không có cơ sở trong thân hay Nguồn và mâu thuẫn mục 07 (nói án phí/tiền tư vấn lớn hơn khoản tranh) — mâu thuẫn giữa hai mục cùng chương (check f)."
+    severity: warn
+  - issue: "legal_refs[].url: Điều 34, 35, 40, 41, 46, 187-190 trỏ trang Công báo của VBHN 18/VBHN-VPQH: đúng văn bản ghi ở doc. NĐ 283 trỏ đúng trang NĐ 283/2026. Điều 7/18 khớp. 'Điều 187, 188, 189' trong legal_refs đúng nhưng thân chỉ tóm tắt, không nói Điều 188 khoản 1 (ngoại lệ hòa giải)."
+    severity: warn
+  - issue: "Nguồn mục ghi 'hiệu lực' nhưng legal_refs[].effective_from đều null (không ảnh hưởng nội dung, chỉ thiếu dữ liệu)."
+    severity: warn
+validity:
+  doc: "Bộ luật Lao động 45/2019/QH14 (VBHN 18/VBHN-VPQH ngày 12/02/2026); Nghị định 283/2026/NĐ-CP"
+  in_force: true
+  effective_from: "2021-01-01 (BLLĐ); 2026-09-10 (NĐ 283/2026)"
+  amended_by:
+    - "Luật Công nghiệp công nghệ số 71/2025/QH15, Luật Dân số 113/2025/QH15, Luật Giáo dục nghề nghiệp 124/2025/QH15 (sửa đổi BLLĐ theo phần đầu VBHN 18; tôi đối chiếu nội dung Điều 34-48, 187-190 trong VBHN: văn bản các điều này khớp bản mục dẫn)"
+  basis: "VBHN 18/VBHN-VPQH ban hành 12/02/2026 liệt kê toàn bộ luật sửa đổi tới ngày đó và vẫn giữ Điều 34-48, 190 nguyên văn. NĐ 283/2026/NĐ-CP trang Công báo ghi 'Hiệu lực: 10/09/2026' (Điều 66 khoản 1 đọc được trong PDF), Điều 66 khoản 4 nêu NĐ 12/2022 hết hiệu lực, hôm nay 2026-11-08 đã qua mốc hiệu lực."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "steps[3] và mục 'Việc đúng cần làm': bỏ 'cấp huyện'; ghi 'hòa giải viên lao động (đơn yêu cầu gửi cơ quan quản lý hòa giải viên theo hướng dẫn hiện hành; kiểm tra lại NĐ 145/2020 đã sửa đổi/NĐ 129/2025)', chỉ giữ khi có nguồn chính thống."
+  - "Tldr và Pháp luật VN: thêm 'Tranh chấp về bị đơn phương chấm dứt không bắt buộc hòa giải; có thể yêu cầu Tòa án trực tiếp (Điều 188 khoản 1 điểm a); trọng tài cần hai bên đồng thuận (Điều 189 khoản 1)'. Dựa quote Điều 188 khoản 1 đã trích."
+  - "Mục Chi phí: bỏ hoặc dẫn nguồn cho câu 'Bắt đầu kiện không mất án phí' (hiện không có nguồn và lệch mục 07)."
+  - "Phần 'Ký nhận và thỏa thuận': ghi nhãn 'suy ra' cho hai câu về ký nhận và mất quyền; thêm 'trừ trường hợp thỏa thuận bị ép buộc hoặc vô hiệu'."
+  - "Bẫy 2: nêu thêm điểm e, g khoản 2 Điều 35 và ngoại lệ 'trừ Điều 29' ở điểm a, 'trừ khoản 4 Điều 97' ở điểm b; tránh chữ 'Chỉ dừng khi'."
+  - "Điều 41: thêm câu 'sau khi được nhận lại, NLĐ phải hoàn trả trợ cấp thôi việc/mất việc làm nếu đã nhận' và nhắc Điều 46 khoản 2 trừ thời gian đã đóng BHTN khi tính trợ cấp thôi việc."
+  - "legal_refs: dẫn thêm URL tệp DOCX/PDF đọc được của VBHN 18 nếu cần quote; điền effective_from."

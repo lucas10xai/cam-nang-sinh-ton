@@ -1,0 +1,85 @@
+id: chon-thuoc-generic-da-chung-minh-tuong-duong-sinh-hoc-hoac-thuoc
+checker: agent-V3a05b
+checked_at: 2026-11-08
+content_sha256: 5e7032027d51fa1a02cbe539b34ce3af6d380a12c99f341da6ec4d557f38b4c6
+result: pass-with-edits
+claims:
+  - text: 'Đợt đấu thầu thuốc tập trung cấp quốc gia công bố ngày 5/8/2022'
+    source_url: https://soytequangninh.gov.vn/trang-chu/huong-dan-nghiep-vu/linh-vuc-duoc/nong-bo-y-te-cong-bo-ket-qua-3-goi-thau-thuoc-tap-trung-cap-.html
+    quote: 'Sáng 5/8, tại Bộ Y tế, Trung tâm Mua sắm tập trung thuốc Quốc gia - Bộ Y tế đã tổ chức công bố và trao quyết định phê duyệt kết quả lựa chọn nhà thầu các gói thầu cung cấp thuốc thuộc danh mục thuốc đấu thầu tập trung cấp quốc gia giai đoạn 2022-2023.'
+    verdict: match-secondary
+    note: 'Nguồn là bài đăng lại trên cổng Sở Y tế Quảng Ninh, trích từ Sức khỏe & Đời sống (suckhoedoisong.vn); không mở được cổng Bộ Y tế/Trung tâm Mua sắm tập trung. Bài đăng 2022-08-05.'
+  - text: 'Đợt này đấu 3 gói với 106 thuốc'
+    source_url: https://soytequangninh.gov.vn/trang-chu/huong-dan-nghiep-vu/linh-vuc-duoc/nong-bo-y-te-cong-bo-ket-qua-3-goi-thau-thuoc-tap-trung-cap-.html
+    quote: 'Trung tâm Mua sắm tập trung thuốc Quốc gia tổ chức đấu thầu các gói thầu cung cấp 106 thuốc thuộc danh mục thuốc đấu thầu tập trung cấp quốc gia giai đoạn 2022-2023 trên cơ sở Danh mục thuốc đấu thầu tập trung cấp Quốc gia được ban hành kèm theo Thông tư 15/2020/TT-BYT'
+    verdict: match-secondary
+    note: 'Bài ghi "3 gói thầu" ở đoạn sau ("Trung tâm tổ chức đấu thầu rộng rãi với 3 gói thầu cung cấp thuốc... theo vùng, miền"). Cùng bài cũng xác nhận Danh mục ban hành kèm Thông tư 15/2020/TT-BYT.'
+  - text: 'Tổng giá trị theo kế hoạch 7.630 tỷ đồng; giá trúng thầu 6.292 tỷ đồng'
+    source_url: https://soytequangninh.gov.vn/trang-chu/huong-dan-nghiep-vu/linh-vuc-duoc/nong-bo-y-te-cong-bo-ket-qua-3-goi-thau-thuoc-tap-trung-cap-.html
+    quote: 'Tổng giá kế hoạch của các danh mục có đề xuất trúng thầu là 7.630 tỷ đồng, tổng giá trị trúng thầu là 6.292 tỷ đồng, tỷ lệ giảm giá là 17,25% (tương đương với 1.337 tỷ đồng).'
+    verdict: match-secondary
+    note: 'Nguồn nói giá kế hoạch "của các danh mục có đề xuất trúng thầu" (không phải toàn bộ 106 thuốc). Mục viết "tổng giá trị theo kế hoạch" mà bỏ điều kiện này.'
+  - text: 'Tiết kiệm khoảng 1.338 tỷ đồng, tức giảm 17,5% (tldr: "giảm 17,5% giá")'
+    source_url: https://soytequangninh.gov.vn/trang-chu/huong-dan-nghiep-vu/linh-vuc-duoc/nong-bo-y-te-cong-bo-ket-qua-3-goi-thau-thuoc-tap-trung-cap-.html
+    quote: 'tỷ lệ giảm giá là 17,25% (tương đương với 1.337 tỷ đồng).'
+    verdict: inference
+    note: 'Số trong tldr/Nói dễ hiểu/Lợi ích (1.338 tỷ, 17,5%) là số do tác giả tự tính (7.630-6.292=1.338; 1.338/7.630=17,54%), KHÁC số nguồn (1.337 tỷ, 17,25%). Mục có nêu độ lệch trong thân nhưng tldr trình bày như số của đợt đấu thầu. Bản thân 17,25% của nguồn không khớp phép chia từ hai số tổng (1.337/7.630 = 17,52%), có thể do làm tròn/tính theo từng gói; cần đặt số nguồn trước hoặc ghi "khoảng 17,5%" kèm "theo tính từ số nguồn".'
+  - text: 'Con số giảm giá này là mức giảm của thuốc generic so với biệt dược gốc (ý dùng làm luận cứ: "Đợt đấu thầu... giảm 17,5% giá")'
+    source_url: https://soytequangninh.gov.vn/trang-chu/huong-dan-nghiep-vu/linh-vuc-duoc/nong-bo-y-te-cong-bo-ket-qua-3-goi-thau-thuoc-tap-trung-cap-.html
+    quote: ''
+    verdict: not-found
+    note: 'Nguồn nói tỷ lệ giảm so với GIÁ KẾ HOẠCH của gói thầu, không so sánh generic với biệt dược gốc, và không phân loại generic/biệt dược trong 106 thuốc. Mục dùng số này trong tldr cho một lời khuyên chọn generic; có thể làm người đọc hiểu nhầm đây là chênh lệch giá generic-biệt dược.'
+  - text: 'Đấu thầu thuốc tập trung do Trung tâm Mua sắm tập trung thuốc Quốc gia (Bộ Y tế) tổ chức theo danh mục ban hành kèm Thông tư 15/2020/TT-BYT (hiện tại)'
+    source_url: https://yte.nghean.gov.vn/tin-chuyen-nganh/bo-y-te-cong-bo-danh-muc-thuoc-mua-sam-tap-trung-cap-quoc-gia-633684
+    quote: 'Thông tư 04/2024/TT-BYT có hiệu lực thi hành kể từ ngày 20/4/2024, các Thông tư số 15/2020/TT-BYT ngày 10/8/2020 Bộ Y tế ban hành Danh mục thuốc đấu thầu, Danh mục thuốc đấu thầu tập trung, Danh mục thuốc được áp dụng hình thức đàm phán giá và Điều 2 Thông tư số 15/2022/TT-BYT ngày 09/12/ 2022 ... hết hiệu lực kể từ ngày Thông tư 04 có hiệu lực thi hành.'
+    verdict: mismatch
+    note: 'Quote từ bài Sở Y tế Nghệ An (nguồn thứ cấp của cơ quan nhà nước; không mở được thuvienphapluat do HTTP 403 và chưa mở được văn bản gốc TT 04/2024). Nếu đúng, TT 15/2020/TT-BYT đã hết hiệu lực từ 20/4/2024, thay bởi TT 04/2024/TT-BYT (danh mục mua sắm tập trung cấp quốc gia đối với thuốc). Mục viết ở thì hiện tại ("do Trung tâm... tổ chức theo danh mục ban hành kèm Thông tư 15/2020/TT-BYT"). Đợt 2022-2023 vẫn đúng với thời điểm đó (hợp đồng thực hiện đến 31/8/2024 theo bài Quảng Ninh).'
+  - text: 'Thông tư 07/2022/TT-BYT quy định những thuốc phải thử tương đương sinh học khi đăng ký lưu hành'
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/44-byt.signed.pdf
+    quote: 'Thông tư số 07/2022/TT-BYT của Bộ trưởng Bộ Y tế quy định thuốc phải thử tương đương sinh học và các yêu cầu đối với hồ sơ báo cáo số liệu nghiên cứu tương đương sinh học trong đăng ký lưu hành thuốc tại Việt Nam'
+    verdict: match
+    note: 'Lấy tiêu đề TT 07/2022 từ văn bản sửa đổi (Thông tư 44/2026/TT-BYT ký 01/11/2026; bản ký trên datafiles.chinhphu.vn, trích được chữ). Không mở được nội dung TT 07/2022 gốc (trang chinhphu.vn của mục chỉ trả khung, vbpl.vn trả khung). Khẳng định chỉ ở mức tiêu đề, chưa kiểm điều khoản thuốc nào phải thử.'
+  - text: 'Thông tư 07/2022 là "cơ chế bắt thuốc generic chứng minh tương đương với thuốc gốc"; chỉ thuốc nằm trong danh mục của Cục Quản lý Dược mới có chứng minh'
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/44-byt.signed.pdf
+    quote: '3. Kể từ ngày 01 tháng 11 năm 2028, thuốc generic có chứa dược chất hoặc dạng bào chế phải thử tương đương sinh học theo quy định tại Thông tư này đã được cấp giấy đăng ký lưu hành: a) Chỉ được tiếp tục sản xuất, nhập khẩu và đưa ra lưu hành khi đã được công bố thuốc có tài liệu chứng minh tương đương sinh học;'
+    verdict: partial
+    note: 'Thông tư 44/2026/TT-BYT (có hiệu lực 01/11/2026, Điều 1 sửa khoản 3 Điều 14 TT 07/2022) cho thấy lộ trình bắt buộc công bố có tài liệu chứng minh TĐSH chỉ có hiệu lực từ 01/11/2028; Điều 2 bổ sung điểm d khoản 1 Điều 17: Cục Quản lý Dược "công bố, cập nhật Danh mục thuốc chưa được công bố thuốc có tài liệu chứng minh tương đương sinh học ... từ ngày 01 tháng 07 năm 2027". Nghĩa là hiện tại (2026-11) nhiều generic thuộc diện phải thử TĐSH chưa có chứng minh và vẫn lưu hành. Mục Bẫy 2 có nói "Chỉ thuốc nằm trong danh mục... mới có chứng minh" nhưng mục Pháp luật viết như cơ chế đã bắt buộc đầy đủ và bỏ qua TT 44/2026 sửa đổi TT 07/2022.'
+  - text: 'Cục Quản lý Dược công bố Danh mục thuốc có chứng minh tương đương sinh học tại dav.gov.vn; đây là danh sách để tra'
+    source_url: https://dav.gov.vn
+    quote: ''
+    verdict: not-found
+    note: 'Trang chủ dav.gov.vn (mở 2026-11-08) không hiển thị đường dẫn tới danh mục này (có danh mục biệt dược gốc, quyết định thuốc nhập khẩu...). Kết quả tìm kiếm (nguồn thứ cấp thuvienphapluat/luatvietnam, chưa mở bài) liệt kê quyết định kiểu "Quyết định 843/QĐ-QLD ngày 16/12/2024... Danh mục thuốc có chứng minh tương đương sinh học Đợt 12". Mục chính nó thừa nhận "chưa mở bản danh mục mới nhất". Cần dẫn URL cụ thể của trang danh mục.'
+  - text: 'Bẫy 1: thuốc trúng thầu tập trung được mua cho cơ sở khám chữa bệnh công lập; ra hiệu thuốc vẫn mua theo giá niêm yết ở đó'
+    source_url: https://soytequangninh.gov.vn/trang-chu/huong-dan-nghiep-vu/linh-vuc-duoc/nong-bo-y-te-cong-bo-ket-qua-3-goi-thau-thuoc-tap-trung-cap-.html
+    quote: 'Trung tâm Mua sắm tập trung thuốc quốc gia sẽ ký thỏa thuận khung, các cơ sở y tế ký hợp đồng trực tiếp với nhà thầu.'
+    verdict: partial
+    note: 'Nguồn nói "các cơ sở y tế", không nói "công lập" và không nói gì về giá hiệu thuốc. Ý chính hợp lý nhưng là suy luận.'
+internal_checks:
+  - issue: 'legal_refs[0] (Thông tư 15/2020/TT-BYT) có url là bài báo Sở Y tế Quảng Ninh, KHÔNG phải văn bản Thông tư 15/2020/TT-BYT. Theo quy tắc, URL không phải văn bản ghi ở doc là lỗi. legal_refs[1] (TT 07/2022) có url trang chinhphu.vn đúng văn bản (tiêu đề khớp) nhưng chỉ trả khung chữ.'
+    severity: error
+  - issue: 'Số tldr/Nói dễ hiểu "giảm 17,5%" và "1.338 tỷ" là số tự tính, lệch số nguồn (17,25%, 1.337 tỷ). Mục đã công khai trong thân nhưng tldr không nêu; đề xuất đặt số nguồn trong tldr.'
+    severity: warn
+  - issue: 'Mục Nguồn nêu "Thông tư 15/2020/TT-BYT" như văn bản đang áp dụng; theo bài Sở Y tế Nghệ An văn bản này đã hết hiệu lực từ 20/4/2024 (thay bởi TT 04/2024/TT-BYT). Mục cũng chưa nhắc TT 44/2026/TT-BYT sửa TT 07/2022.'
+    severity: error
+  - issue: 'Mục đặt tên "thuốc trúng thầu" trong tiêu đề nhưng thân không giải thích giá trúng thầu chỉ áp dụng cho cơ sở y tế (chỉ nói ở Bẫy 1); tldr dùng số đấu thầu để minh họa lợi ích mua generic, dễ hiểu nhầm.'
+    severity: warn
+validity:
+  doc: 'Thông tư 15/2020/TT-BYT (danh mục thuốc đấu thầu tập trung); Thông tư 07/2022/TT-BYT (thuốc phải thử tương đương sinh học)'
+  in_force: false
+  effective_from: '2020-10-06'
+  amended_by:
+    - 'Thông tư 04/2024/TT-BYT (bãi bỏ/thay TT 15/2020/TT-BYT, hiệu lực 20/4/2024, theo bài Sở Y tế Nghệ An)'
+    - 'Thông tư 44/2026/TT-BYT ngày 01/11/2026, hiệu lực 01/11/2026 (sửa khoản 3 Điều 14 và Điều 17 của TT 07/2022/TT-BYT; đọc bản ký trên datafiles.chinhphu.vn)'
+  basis: 'TT 15/2020: bài yte.nghean.gov.vn nêu "Thông tư số 15/2020/TT-BYT ... hết hiệu lực kể từ ngày Thông tư 04 có hiệu lực thi hành" (nguồn nhà nước thứ cấp; chưa mở được văn bản TT 04/2024 gốc vì thuvienphapluat trả 403). TT 07/2022: vẫn có hiệu lực nhưng đã được sửa bởi TT 44/2026/TT-BYT (bản ký đọc được). Đặt in_force: false cho văn bản đứng đầu (TT 15/2020).'
+deliberate_vn_deviation: []
+potential_harm:
+  - 'steps[1] và tldr: "cùng hoạt chất, cùng hàm lượng" bỏ điều kiện cùng DẠNG BÀO CHẾ/đường dùng (ví dụ viên giải phóng kéo dài vs giải phóng ngay). Người đọc làm đúng nguyên văn có thể đổi sang chế phẩm khác dạng bào chế. Dạng bào chế là đối tượng thử TĐSH trong TT 07/2022 (theo TT 44/2026: "dược chất hoặc dạng bào chế phải thử tương đương sinh học"). Cần thêm "cùng dạng bào chế".'
+  - 'steps[3]: "Đổi thuốc mạn tính thì ghi huyết áp, đường huyết..." đặt ngay sau các bước tự tra cứu mà không nói rõ phải báo bác sĩ trước khi đổi thuốc đang điều trị; cảnh báo "thuốc có cửa sổ điều trị hẹp... là việc của bác sĩ" chỉ nằm cuối mục (Đừng hiểu ngược), không có trong tldr/steps. Đổi tự ý thuốc mạn tính (chống đông, chống động kinh, hormone tuyến giáp...) có thể gây hại. Chưa đối chiếu với hướng dẫn quốc tế (WHO/FDA về thay thế generic): mục không dẫn nguồn quốc tế cho kết luận y khoa "generic đã chứng minh tương đương sinh học thì thay thế được".'
+suggested_edits:
+  - 'legal_refs[0]: thay url bằng văn bản Thông tư 15/2020/TT-BYT (hoặc ghi chú đây là bài báo), và đổi trạng thái: văn bản đã hết hiệu lực từ 20/4/2024; thêm dẫn Thông tư 04/2024/TT-BYT làm cơ sở hiện hành. Dựa vào quote Sở Y tế Nghệ An.'
+  - 'Mục Pháp luật và Nguồn: viết "đợt 2022-2023 thực hiện theo danh mục ban hành kèm TT 15/2020/TT-BYT (đã hết hiệu lực từ 20/4/2024, thay bởi TT 04/2024/TT-BYT)". Mở và dẫn trực tiếp TT 04/2024 để nâng từ nguồn thứ cấp.'
+  - 'Thêm vào mục Pháp luật: TT 44/2026/TT-BYT (01/11/2026) sửa TT 07/2022; lộ trình bắt buộc công bố thuốc có tài liệu chứng minh TĐSH đến 01/11/2028 và Danh mục thuốc chưa có chứng minh từ 01/7/2027; vì vậy hiện nay nhiều generic chưa có chứng minh.'
+  - 'tldr: đặt số của nguồn ("tỷ lệ giảm 17,25% so với giá kế hoạch, tương đương 1.337 tỷ") hoặc ghi "khoảng 17,5%"; nói rõ đây là mức giảm so với giá kế hoạch, không phải chênh lệch giữa generic và biệt dược gốc.'
+  - 'steps[1]: thêm "cùng dạng bào chế (ví dụ viên giải phóng kéo dài khác viên thường)" trước "cùng hàm lượng".'
+  - 'steps[3]: viết "Trước khi đổi thuốc mạn tính, hỏi bác sĩ; sau khi đổi, ghi các chỉ số..."; đưa cảnh báo thuốc cửa sổ điều trị hẹp/thuốc cấp cứu lên tldr/steps.'
+  - 'Danh mục DAV: dẫn URL cụ thể của trang danh mục thuốc có chứng minh tương đương sinh học (hiện chưa xác nhận được trên dav.gov.vn), hoặc bỏ step 3 đến khi có.'

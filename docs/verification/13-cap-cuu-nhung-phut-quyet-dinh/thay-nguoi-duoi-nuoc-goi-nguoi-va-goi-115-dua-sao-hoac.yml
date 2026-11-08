@@ -1,0 +1,76 @@
+id: thay-nguoi-duoi-nuoc-goi-nguoi-va-goi-115-dua-sao-hoac
+checker: agent-V3a13A
+checked_at: 2026-11-08
+content_sha256: bc804916ec12bbd71ff9f1cc7770dc7bb11f328d9db85c074ca02d5eb07c7dc0
+result: fail
+claims:
+  - text: Số 112 tiếp nhận thông tin sự cố, thiên tai, thảm họa, yêu cầu trợ giúp; tổng đài đặt tại Bộ Chỉ huy quân sự cấp tỉnh (Điều 3 khoản 1)
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/200-ndcp.signed.pdf
+    verdict: match
+    quote: Số điện thoại 112 tiếp nhận nội dung thông tin về sự cố, thiên tai, thảm họa, những nguy cơ xảy ra, yêu cầu trợ giúp của tổ chức, cá nhân. Tổng đài 112 được đặt tại Bộ Chỉ huy quân sự tỉnh, thành phố trực thuộc trung ương, Bộ Tư lệnh Thủ đô Hà Nội, Bộ Tư lệnh Thành phố Hồ Chí Minh (gọi chung là Bộ Chỉ huy quân sự cấp tỉnh).
+    note: PDF ký là ảnh quét; đã đọc trực tiếp ảnh trang 1. NĐ 200/2025/NĐ-CP ngày 09/7/2025 quy định chi tiết Luật Phòng thủ dân sự.
+  - text: Tổng đài 112 liên thông với 113, 114, 115; hoạt động 24 giờ mọi ngày; miễn phí cước gọi (Điều 3 khoản 4)
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/200-ndcp.signed.pdf
+    verdict: match
+    quote: a) Hệ thống Tổng đài 112 liên thông với các Tổng đài 113, 114, 115; b) Hệ thống Tổng đài 112 hoạt động 24 giờ tất cả các ngày; c) Miễn phí cước gọi từ thuê bao điện thoại cố định, di động vào số điện thoại 112;
+    note: "Ảnh trang 2 (chữ trong ảnh: 'Miễn phí cước gọi từ thuê bao điện thoại cố định, di động vào số điện thoại 112')."
+  - text: 112 thuộc nhóm cứu nạn khẩn cấp, nhận sự cố sông biển (tàu trôi dạt, mất liên lạc, chìm tàu); 115 là cấp cứu y tế
+    source_url: https://congan.dienbien.gov.vn/Danh-muc-tin-tuc/tong-hop-cac-so-dien-thoai-khan-cap-quoc-gia-ghi-nho-de-bao-ve-minh-va-ho-tro-nguoi-khac-13182.html
+    verdict: match
+    quote: "112 – Tổng đài cứu nạn khẩn cấp: Tiếp nhận thông tin về thiên tai như bão, lũ, sạt lở đất; các sự cố sông biển gồm tàu trôi dạt, mất liên lạc, chìm tàu… 115 – Cấp cứu y tế: Sử dụng khi có tai nạn, chấn thương nặng, các tình huống bệnh lý nguy hiểm đến tính mạng cần cấp cứu khẩn cấp."
+    note: ""
+  - text: Ở biển hoặc vùng sông nước rộng thì gọi 112 (steps[0], tldr)
+    source_url: https://congan.dienbien.gov.vn/Danh-muc-tin-tuc/tong-hop-cac-so-dien-thoai-khan-cap-quoc-gia-ghi-nho-de-bao-ve-minh-va-ho-tro-nguoi-khac-13182.html
+    verdict: inference
+    note: Nguồn nói 112 nhận sự cố tàu thuyền trên sông biển, không nói người đuối nước ở biển phải gọi 112. Cách viết 'gọi 115. Ở biển… thì gọi 112' có thể bị hiểu là thay 115 bằng 112.
+  - text: Tuyệt đối không nhảy xuống nước nếu không biết bơi; nạn nhân hoảng loạn níu người cứu
+    source_url: https://bvdklangson.com.vn/y-hoc-thuong-thuc/cach-so-cap-cuu-nguoi-bi-duoi-nuoc.html
+    verdict: match
+    quote: Tuyệt đối không nhảy xuống nước nếu không biết bơi. Vì nạn nhân lúc này trong tình trạng hoảng loạn, dễ níu chặt lấy bất cứ thứ gì với được, kể cả người cứu nạn.
+    note: ""
+  - text: "Người không biết bơi: ném khúc gỗ, phao cho bám; chỉ xuống cứu khi biết bơi"
+    source_url: https://bvdklangson.com.vn/y-hoc-thuong-thuc/cach-so-cap-cuu-nguoi-bi-duoi-nuoc.html
+    verdict: match
+    quote: Nếu không biết bơi ta phải tìm khúc gỗ, phao... ném xuống cho họ bám vào để lên bờ hoặc chạy ngay đi tìm người đến cứu. … Chỉ xuống cứu khi người cứu biết bơi, nếu không biết bơi cần gọi người hỗ trợ hoặc dùng thuyền nếu có để ra cứu.
+    note: "Nguồn còn: 'Không nên nhảy xuống vùng nước mà không biết nơi đó nông hay sâu'."
+  - text: "Không dốc ngược nạn nhân cho nước ra: mất thời gian hô hấp nhân tạo, nước trong phổi không nhiều"
+    source_url: https://bvdklangson.com.vn/y-hoc-thuong-thuc/cach-so-cap-cuu-nguoi-bi-duoi-nuoc.html
+    verdict: partial
+    quote: Nhiều người thường có thói quen dốc ngược nạn nhân, vác lên vai rồi chạy, đây là hành động hoàn toàn sai vì thứ nhất, nó làm mất thời gian quý giá để hô hấp nhân tạo cứu sống bệnh nhân.
+    note: Nguồn nói mất thời gian 'hô hấp nhân tạo' (thổi ngạt) và ép tim; mục viết 'mất thời gian ép tim' — thiếu thổi ngạt. Bài Lạng Sơn dùng tỉ lệ cũ 15/2 và 30/2, viết cho TRẺ.
+  - text: Không nắm tay nhau thành dây người; dùng sào, dây, can nhựa rỗng
+    source_url: https://bvdklangson.com.vn/y-hoc-thuong-thuc/cach-so-cap-cuu-nguoi-bi-duoi-nuoc.html
+    verdict: not-found
+    note: Không có trong bài Lạng Sơn (nguồn nói khúc gỗ, phao) và không có trong bài Điện Biên. Khuyến cáo phổ biến nhưng ngoài nguồn dẫn.
+  - text: "Bẫy 1: người không biết bơi mất khả năng tự nổi; Bẫy 2: dây người trượt xuống chỗ sâu/bùn lún"
+    source_url: https://bvdklangson.com.vn/y-hoc-thuong-thuc/cach-so-cap-cuu-nguoi-bi-duoi-nuoc.html
+    verdict: inference
+    note: Cơ chế do biên tập viên suy ra.
+internal_checks:
+  - issue: "Mục dừng ở 'đưa nạn nhân ra khỏi nước' và không có bước nào về nạn nhân đã lên bờ (kiểm tra thở, thổi ngạt/ép tim, giữ ấm) dù nguồn Lạng Sơn có hướng dẫn; related: [] không dẫn sang mục 44 (đuối nước trẻ) hay mục 01."
+    severity: warn
+  - issue: "legal_refs[].url trỏ đúng NĐ 200/2025/NĐ-CP (trang 1: 'Số: 200/2025/NĐ-CP… Quy định chi tiết một số điều của Luật Phòng thủ dân sự'); Điều 3 khoản 1 và khoản 4 khớp nội dung."
+    severity: warn
+  - issue: Số 115/112 trong tldr/steps khớp thân. Mục 49 cùng chương nói từ 01/11/2026 cấp cứu ngoại viện qua tổng đài 113, chuyển tiếp vẫn gọi 115; mục 25 chưa nhắc 113.
+    severity: warn
+  - issue: Mục 27 cùng chương dùng 112 cho người lạc; mục 25 dùng 112 cho biển/sông nước rộng — nhất quán về vai trò cứu nạn nhưng mục 25 chưa nói 112 không thay 115 cho cấp cứu y tế.
+    severity: warn
+validity:
+  doc: Nghị định 200/2025/NĐ-CP
+  in_force: unconfirmed
+  effective_from: 2025-08-23
+  amended_by: []
+  basis: "Điều 53 khoản 1 (ảnh trang 31): 'Nghị định này có hiệu lực thi hành kể từ ngày 23 tháng 8 năm 2025.' Chưa tra Công báo/vbpl xem có sửa đổi/thay thế; dấu hiệu thay đổi hệ thống: UBND TP.HCM (02/11/2026) triển khai Đề án tích hợp 113/114/115 theo QĐ 1166/QĐ-TTg 29/6/2026."
+deliberate_vn_deviation:
+  - Bài Lạng Sơn dùng tỉ lệ ép tim/thổi ngạt cũ (15/2, 30/2, 'bắt mạch'); mục không dùng số này nhưng cũng không đưa hướng dẫn thay thế. AHA/ERC không mở được để đối chiếu.
+potential_harm:
+  - "Mục chỉ hướng dẫn 'cứu từ bờ' và 'không dốc ngược… mất thời gian ép tim' mà không nói người đọc làm gì khi nạn nhân đã lên bờ (kiểm tra thở, thổi ngạt rồi ép tim — nguồn Lạng Sơn có). Người đọc có thể ép tim mà bỏ thổi ngạt hoặc không làm gì ngoài gọi 115; ở đuối nước thiếu oxy là cơ chế chính nên chậm thổi ngạt làm chậm cứu chữa [INFERENCE: quốc tế chưa mở được]."
+  - "steps[0]/tldr 'gọi 115… biển hoặc sông nước rộng thì gọi 112': nguồn chỉ nói 112 nhận sự cố tàu thuyền; có thể làm người đọc gọi 112 thay vì 115 cho người đuối nước, chậm điều xe cấp cứu."
+  - "'Chỉ xuống cứu khi mình biết bơi' (nguồn Lạng Sơn) có thể khuyến khích người biết bơi nhưng không được huấn luyện xuống nước thay vì đưa/ném vật nổi trước [INFERENCE: chưa mở nguồn cứu hộ quốc tế để trích]."
+suggested_edits:
+  - "steps: thêm bước 'Nạn nhân đã lên bờ mà không đáp ứng/không thở bình thường: gọi 115, thổi ngạt rồi ép tim — xem mục 44 (trẻ) và mục 01 (người lớn)'; điền related trỏ hai mục đó."
+  - "steps[0], tldr: 'Gọi 115 để cấp cứu y tế. Nếu có tàu thuyền gặp nạn hoặc cần lực lượng cứu nạn trên sông biển, gọi thêm 112' — đúng phạm vi nguồn Điện Biên."
+  - "steps[3]: đổi 'mất thời gian ép tim' thành 'mất thời gian thổi ngạt/ép tim'; bỏ 'không nắm tay thành dây người' và 'can nhựa rỗng' hoặc thêm nguồn."
+  - "steps[2]: dẫn đủ điều kiện của nguồn ('không biết chỗ đó nông hay sâu thì không nhảy') và cân nhắc nói người biết bơi vẫn ưu tiên đưa/ném vật nổi trước."
+  - Bổ sung nguồn người lớn/quốc tế (AHA/ERC/WHO) và Bộ Y tế; bài Lạng Sơn viết cho trẻ, tỉ lệ ép tim cũ.
+  - "legal_refs: điền quote, effective_from 2025-08-23; kiểm hiệu lực qua Công báo và thêm ghi chú 113."

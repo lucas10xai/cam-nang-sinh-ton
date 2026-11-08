@@ -1,0 +1,102 @@
+id: khong-mua-ve-so-moi-10-000-dong-luat-chi-cho-tra
+checker: agent-V3a05a
+checked_at: 2026-11-08
+content_sha256: "b1707dfb3a419b43a6efab13c175ffb64f713d74d5e92eb72b55fa65d753ca65"
+result: pass-with-edits
+claims:
+  - text: "Xổ số truyền thống: tỷ lệ trả thưởng tối đa 50% trên tổng giá trị vé phát hành (Điều 9 khoản 1 điểm a, TT 75/2013/TT-BTC)"
+    source_url: https://www.xskthcm.com/tin-tuc/van-ban-phap-luat/quy-dinh-nha-nuoc-ve-linh-vuc-xskt/thong-tu-huong-dan-chi-tiet-ve-hoat-dong-xo-so.html
+    quote: "a) Đối với xổ số truyền thống: tỷ lệ trả thưởng xây dựng cho mỗi đợt phát hành tối đa là 50% trên tổng giá trị vé xổ số phát hành;"
+    verdict: match-secondary
+    note: "Trang của Công ty XSKT TP.HCM đăng toàn văn bản gốc 2013, không phải Công báo/vbpl. Trang Công báo congbao.chinhphu.vn/van-ban/thong-tu-so-75-2013-tt-btc-5758.htm đọc được metadata (ban hành 04/06/2013, hiệu lực 01/10/2013) nhưng không có chữ điều khoản. Thông tư có sửa đổi sau (xem validity), nên bản trích có thể không phải bản hợp nhất. 50% tính trên TỔNG giá trị vé của mỗi đợt, không phải từng tờ 10.000 đồng."
+  - text: "Xổ số cào/bóc biết kết quả ngay tối đa 55%; lô tô thủ công 60% (Điều 9 khoản 1)"
+    source_url: https://www.xskthcm.com/tin-tuc/van-ban-phap-luat/quy-dinh-nha-nuoc-ve-linh-vuc-xskt/thong-tu-huong-dan-chi-tiet-ve-hoat-dong-xo-so.html
+    quote: "b) Đối với xổ số cào biết kết quả ngay và xổ số bóc biết kết quả ngay: tỷ lệ trả thưởng xây dựng cho mỗi đợt phát hành tối đa là 55% trên tổng giá trị vé xổ số phát hành; c) Đối với xổ số lô tô thủ công: tỷ lệ trả thưởng xây dựng tối đa là 60% trên tổng giá trị vé xổ số dự kiến phát hành."
+    verdict: match-secondary
+    note: "Cùng nguồn thứ cấp."
+  - text: "Mệnh giá vé truyền thống: 5.000, 10.000, 20.000 đồng (Điều 7)"
+    source_url: https://www.xskthcm.com/tin-tuc/van-ban-phap-luat/quy-dinh-nha-nuoc-ve-linh-vuc-xskt/thong-tu-huong-dan-chi-tiet-ve-hoat-dong-xo-so.html
+    quote: "Việc tổ chức phát hành đối với loại vé xổ số truyền thống mệnh giá 20.000 đồng chỉ được phép thực hiện tối đa không quá 04 (bốn) kỳ phát hành vào dịp tết nguyên đán hàng năm trên cơ sở đạt được sự đồng thuận của Hội đồng xổ số kiến thiết khu vực và có ý kiến chấp thuận bằng văn bản của Bộ Tài chính."
+    verdict: partial
+    note: "Ba mệnh giá đúng, nhưng vé 20.000 đồng chỉ phát hành tối đa 4 kỳ vào dịp Tết Nguyên đán. Mục nói như thể có thể mua vé 20.000 bất kỳ lúc nào."
+  - text: "'Trong 10.000 đồng, tối đa 5.000 đồng quay lại dưới dạng giải thưởng; 5.000 đồng còn lại là chi phí phát hành, hoa hồng đại lý, thuế và lợi nhuận, không bao giờ về túi người mua'"
+    source_url: https://www.xskthcm.com/tin-tuc/van-ban-phap-luat/quy-dinh-nha-nuoc-ve-linh-vuc-xskt/thong-tu-huong-dan-chi-tiet-ve-hoat-dong-xo-so.html
+    quote: "a) Đối với xổ số truyền thống: tỷ lệ trả thưởng xây dựng cho mỗi đợt phát hành tối đa là 50% trên tổng giá trị vé xổ số phát hành;"
+    verdict: partial
+    note: "Điều 9 là tỷ lệ xây dựng cho TỔNG giá trị vé mỗi đợt; một tờ 10.000 đồng có thể trúng 0 hoặc hàng triệu. 'Mỗi 10.000 đồng chỉ cho trả tối đa 5.000' (tiêu đề, tldr) là kỳ vọng trung bình, không phải mức trần mỗi vé. Phần phân chia 5.000 còn lại (chi phí phát hành, hoa hồng, thuế, lợi nhuận) KHÔNG có trong Điều 9; là suy luận của sách. Câu 'không bao giờ về túi người mua' cũng là diễn đạt của sách."
+  - text: "Thu nhập từ trúng thưởng chịu thuế 10%, tính trên phần vượt 20 triệu đồng mỗi lần trúng (Điều 15 Luật TNCN 109/2025/QH15)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "Điều 15. Thuế thu nhập cá nhân đối với thu nhập từ trúng thưởng 1. Thuế thu nhập cá nhân đối với thu nhập từ trúng thưởng của cá nhân cư trú được xác định bằng thu nhập tính thuế nhân (x) với thuế suất 10%. 2. Thu nhập tính thuế từ trúng thưởng là phần giá trị giải thưởng vượt trên 20 triệu đồng mà người nộp thuế nhận được theo từng lần trúng thưởng."
+    verdict: match
+    note: "PDF ký là ảnh quét (pdftotext trả rỗng); đọc bằng OCR từ ảnh trang 11/15 (đã đối chiếu số 10% và 20 triệu). Điều 15 chỉ cho cá nhân cư trú; cá nhân không cư trú xem Điều 26. Điều 15 khoản 3: thời điểm xác định thu nhập tính thuế là lúc tổ chức/cá nhân trả thu nhập."
+  - text: "Ví dụ giải 2 tỷ: thuế 198 triệu, thực nhận 1,802 tỷ"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "2. Thu nhập tính thuế từ trúng thưởng là phần giá trị giải thưởng vượt trên 20 triệu đồng mà người nộp thuế nhận được theo từng lần trúng thưởng."
+    verdict: inference
+    note: "Phép tính: (2.000.000.000 - 20.000.000) x 10% = 198.000.000; 2.000.000.000 - 198.000.000 = 1.802.000.000. Đúng số học, nhưng ví dụ là suy ra từ công thức, không có trong luật (nên ghi 'ví dụ minh họa')."
+  - text: "Luật TNCN 109/2025/QH15 Điều 6 khoản 6 (ở legal_refs và Nguồn) làm căn cứ thu nhập từ trúng thưởng"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "Điều 3. Thu nhập chịu thuế ... 6. Thu nhập từ trúng thưởng, bao gồm: a) Trúng thưởng xổ số;"
+    verdict: mismatch
+    note: "Trong Luật 109/2025/QH15, Điều 6 là 'Quản lý thuế đối với thuế thu nhập cá nhân'. Thu nhập từ trúng thưởng (xổ số) là khoản 6 Điều 3 (Thu nhập chịu thuế). Số điều sai ở legal_refs[5] và mục Nguồn. OCR từ ảnh trang 2–3/15."
+  - text: "Luật TNCN 109/2025/QH15 còn hiệu lực"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026, trừ trường hợp quy định tại khoản 2 Điều này."
+    verdict: match
+    note: "Điều 29 khoản 1 (OCR trang 15/15). Khoản 3: Luật TNCN 04/2007/QH12 hết hiệu lực từ 1/7/2026. legal_refs[4..5].effective_from đang null."
+  - text: "Người tham gia dự thưởng phải từ đủ 18 tuổi (Điều 14)"
+    source_url: https://www.xskthcm.com/tin-tuc/van-ban-phap-luat/quy-dinh-nha-nuoc-ve-linh-vuc-xskt/thong-tu-huong-dan-chi-tiet-ve-hoat-dong-xo-so.html
+    quote: "b) Phải là người từ đủ 18 tuổi trở lên;"
+    verdict: match-secondary
+    note: "Điều 14 khoản 1 điểm b."
+  - text: "Thể lệ xổ số phải có khuyến cáo, ví dụ nguyên văn 'Bạn không thể làm giàu từ mua xổ số' (Điều 8 khoản 1 điểm k)"
+    source_url: https://www.xskthcm.com/tin-tuc/van-ban-phap-luat/quy-dinh-nha-nuoc-ve-linh-vuc-xskt/thong-tu-huong-dan-chi-tiet-ve-hoat-dong-xo-so.html
+    quote: "k) Những khuyến cáo đối với người tham gia dự thưởng về việc tham gia dự thưởng xổ số có trách nhiệm, ví dụ như: “Tham gia mua xổ số vừa ích nước, vừa lợi nhà”, “Bạn không thể làm giàu từ mua xổ số”, ..."
+    verdict: match-secondary
+    note: "Điều khoản nói 'ví dụ', không bắt buộc đúng câu này; nguồn thứ cấp xskthcm.com."
+  - text: "Bẫy 2: 'Vé trúng chỉ lĩnh trong thời hạn in trên thể lệ'; 'vé rách, tẩy xóa ... thường bị từ chối'"
+    source_url: https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/tai-chinh/13811/vbhn-thong-tu-ve-hoat-dong-kinh-doanh-xo-so
+    quote: "Thời hạn lĩnh thưởng của vé xổ số trúng thưởng là 30 ngày, kể từ ngày xác định kết quả trúng thưởng hoặc kể từ ngày hết hạn lưu hành của vé xổ số. Quá thời hạn này, các vé xổ số trúng thưởng không còn giá trị lĩnh thưởng."
+    verdict: partial
+    note: "Điều 30 khoản 1 TT 75/2013 quy định luôn thời hạn lĩnh thưởng là 30 ngày (không phải 'thời hạn in trên thể lệ'); mục không nêu con số này, nguy cơ người trúng bỏ lỡ hạn. Điều 31 khoản 1: vé phải còn nguyên hình, không tẩy xóa; vé rách vẫn có thể được công ty thẩm tra và quyết định trả hoặc từ chối. Nguồn thứ cấp (bài thuvienphapluat, 17/11/2025); điều 30–31 không có trong bản chính thống mở được."
+  - text: "Bẫy 3: 'Người bán vé dạo tự trả thưởng các giải nhỏ; giải lớn vẫn phải lên công ty'"
+    source_url: https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/tai-chinh/13811/vbhn-thong-tu-ve-hoat-dong-kinh-doanh-xo-so
+    quote: "Công ty xổ số kiến thiết thực hiện trả thưởng tại trụ sở chính, chi nhánh, văn phòng đại diện và các đại lý xổ số được ủy quyền."
+    verdict: inference
+    note: "Điều 30 khoản 2 chỉ nói trả thưởng tại trụ sở, chi nhánh, VPĐD và đại lý được ủy quyền; không có điều nào phân 'giải nhỏ/giải lớn' hoặc nói người bán dạo tự trả. Đây là thực tế thị trường do sách thêm vào, không có trong nguồn dẫn."
+  - text: "520.000 đồng/năm cho một tờ 10.000/tuần; quay lại tối đa 260.000"
+    source_url: https://www.xskthcm.com/tin-tuc/van-ban-phap-luat/quy-dinh-nha-nuoc-ve-linh-vuc-xskt/thong-tu-huong-dan-chi-tiet-ve-hoat-dong-xo-so.html
+    quote: "a) Đối với xổ số truyền thống: tỷ lệ trả thưởng xây dựng cho mỗi đợt phát hành tối đa là 50% trên tổng giá trị vé xổ số phát hành;"
+    verdict: inference
+    note: "52 x 10.000 = 520.000; 50% = 260.000. Số học đúng, nhưng dựa trên tỷ lệ tổng thể mỗi đợt; 260.000 là kỳ vọng tối đa, không phải mức đảm bảo hay mức trần của một người mua."
+internal_checks:
+  - issue: "legal_refs[5] và mục Nguồn dẫn 'Luật TNCN 109/2025/QH15, Điều 6 khoản 6': sai số điều. Điều 6 là quản lý thuế; thu nhập từ trúng thưởng nằm ở Điều 3 khoản 6 (thu nhập chịu thuế) và thuế suất ở Điều 15."
+    severity: error
+  - issue: "Tiêu đề/tldr 'mỗi 10.000 đồng ... chỉ cho trả thưởng tối đa 5.000 đồng' đọc thành mức trần cho từng tờ vé; Điều 9 là tỷ lệ xây dựng trên tổng giá trị vé mỗi đợt phát hành."
+    severity: warn
+  - issue: "Mục dẫn TT 75/2013/TT-BTC bản gốc nhưng văn bản đã được sửa (TT 112/2014/TT-BTC, TT 61/2025/TT-BTC sửa Điều 4 khoản 1; có VBHN 13/VBHN-BTC năm 2025 theo nguồn thứ cấp). Nguồn trích (xskthcm.com) là bản 2013, chưa hợp nhất."
+    severity: warn
+  - issue: "Phần phân chia 5.000 đồng còn lại (chi phí phát hành, hoa hồng, thuế, lợi nhuận) và câu 'không bao giờ về túi người mua' không có trong Điều 9."
+    severity: warn
+  - issue: "legal_refs[4] và [5] để effective_from null; Luật 109/2025/QH15 hiệu lực từ 1/7/2026 (Điều 29). Trước ngày này áp dụng Luật 04/2007/QH12 đã sửa đổi; mục đã tra 2/11/2026 nên không ảnh hưởng người đọc hiện tại."
+    severity: warn
+  - issue: "steps[1] 'đọc thời hạn lĩnh thưởng in trên thể lệ' bỏ sót thời hạn 30 ngày luật quy định (Điều 30 khoản 1, nguồn thứ cấp)."
+    severity: warn
+validity:
+  doc: "Thông tư 75/2013/TT-BTC; Luật Thuế thu nhập cá nhân 109/2025/QH15"
+  in_force: unconfirmed
+  effective_from: "2013-10-01"
+  amended_by:
+    - "TT 112/2014/TT-BTC (theo nguồn thứ cấp thuvienphapluat.vn, chưa xác nhận điều khoản bị sửa; có thể động đến Điều 7, 9, 14)"
+    - "TT 61/2025/TT-BTC (sửa khoản 1 Điều 4, hiệu lực 1/7/2025, theo nguồn thứ cấp)"
+  basis: "Công báo ghi TT 75/2013 ban hành 04/06/2013, hiệu lực 01/10/2013 nhưng không hiển thị lịch sử sửa đổi. Nguồn thứ cấp (thuvienphapluat.vn bài VBHN 17/11/2025) liệt kê 2 lần sửa và VBHN 13/VBHN-BTC (2025). Không mở được VBHN gốc để xác nhận Điều 7, 9, 14 không đổi. Luật TNCN 109/2025/QH15: hiệu lực 1/7/2026 (Điều 29 khoản 1), thay Luật 04/2007/QH12; đủ bằng chứng còn hiệu lực ở ngày 8/11/2026 trừ khi có luật sửa sau (chưa thấy)."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "legal_refs[5] và Nguồn: sửa 'Điều 6 khoản 6' thành 'Điều 3 khoản 6' (thu nhập từ trúng thưởng) và giữ Điều 15 cho thuế suất/ngưỡng 20 triệu (dựa vào Luật 109/2025, trang 2–3 và 11 bản ký)."
+  - "Tiêu đề/tldr/Nói dễ hiểu: đổi 'mỗi 10.000 đồng luật chỉ cho trả thưởng tối đa 5.000 đồng' thành 'luật cho phép trả thưởng tối đa 50% tổng tiền bán vé mỗi đợt; tính trung bình 10.000 đồng chỉ nhận lại tối đa khoảng 5.000 đồng' (Điều 9 khoản 1 điểm a)."
+  - "Pháp luật VN: gắn nhãn 'suy ra' hoặc bỏ phần 'chi phí phát hành, hoa hồng đại lý, thuế và lợi nhuận, không bao giờ về túi người mua' vì Điều 9 không phân bổ 50% còn lại."
+  - "Điều 7: thêm 'vé 20.000 đồng chỉ phát hành tối đa 4 kỳ dịp Tết Nguyên đán'."
+  - "Bẫy 2, steps[1]: thay 'thời hạn in trên thể lệ' bằng 'thời hạn lĩnh thưởng là 30 ngày kể từ ngày xác định kết quả (Điều 30 khoản 1 TT 75/2013); vé rách vẫn có thể được thẩm tra theo Điều 31'. Cần mở bản hợp nhất chính thống để xác nhận."
+  - "Bẫy 3: gắn nhãn 'thực tế thị trường' hoặc bỏ câu về người bán dạo trả giải nhỏ, Điều 30 khoản 2 chỉ cho đại lý được ủy quyền."
+  - "Nguồn: đổi dẫn sang bản hợp nhất 13/VBHN-BTC (Bộ Tài chính, 2025) hoặc ghi thêm TT 112/2014/TT-BTC và TT 61/2025/TT-BTC; xác nhận Điều 7, 9, 14 không đổi."

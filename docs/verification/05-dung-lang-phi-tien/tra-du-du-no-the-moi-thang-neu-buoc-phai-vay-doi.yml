@@ -1,0 +1,89 @@
+id: tra-du-du-no-the-moi-thang-neu-buoc-phai-vay-doi
+checker: agent-V3a05a
+checked_at: 2026-11-08
+content_sha256: "9184125606d10f6c1cc32b93c745b3151c5b0fe36b6f56f426d994f3c1242996"
+result: pass-with-edits
+claims:
+  - text: "Tổ chức tín dụng phải niêm yết công khai lãi suất và phí cung ứng dịch vụ; con số để so là con số trên biểu phí (Điều 100 khoản 1, Luật Các tổ chức tín dụng 32/2024/QH15)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/158-vbhn-vpqh.pdf
+    quote: "1. Tổ chức tín dụng được quyền ấn định và phải niêm yết công khai mức lãi suất huy động vốn, mức phí cung ứng dịch vụ trong hoạt động kinh doanh của tổ chức tín dụng."
+    verdict: mismatch
+    note: "Điều 100 khoản 1 (bản hợp nhất 158/VBHN-VPQH) bắt niêm yết 'lãi suất huy động vốn' và 'phí cung ứng dịch vụ', KHÔNG nói lãi suất cho vay/lãi suất thẻ. Khoản 2: 'Tổ chức tín dụng và khách hàng có quyền thỏa thuận về lãi suất, phí cấp tín dụng'. Câu của mục ('niêm yết công khai lãi suất và phí', gắn với lãi thẻ) vượt quá chữ của điều khoản. Nghĩa vụ công khai lãi suất cho vay/thẻ nếu có nằm ở văn bản khác của NHNN, mục chưa dẫn và tôi chưa kiểm. Phần 'phí cung ứng dịch vụ' (kể cả phí rút/chuyển đổi trả góp) đúng. Câu 'không phải con số nhân viên đọc' là lời khuyên, không phải chữ luật."
+  - text: "VIB: lãi giao dịch rút tiền 2,54%–3,71%/tháng, tức 30,5%–44,5%/năm (lãi đơn)"
+    source_url: https://ndh.vn/the-tin-dung-ngan-hang/vib/
+    quote: "Từ 2,54% đến 3,71%/tháng, tức khoảng 30,48–44,52%/năm, mức cụ thể tùy lịch sử tín dụng."
+    verdict: match-secondary
+    note: "Trang chính thức VIB (vib.com.vn/vn/the-tin-dung/vib-financial-free/bieu-phi-va-dieu-kien) trả trang 'Challenge Validation' của hệ thống chống bot, không đọc được qua HTTP. Chỉ có bản trích qua tìm kiếm trang VIB: 'Đối với các giao dịch rút tiền mặt, lãi sẽ được tính từ ngày giao dịch.' và '0%/tháng 03 kỳ sao kê đầu tiên từ ngày phát hành thẻ lần đầu'. Số 2,54–3,71% khớp. 2,54x12 = 30,48; 3,71x12 = 44,52 đúng số học. Tính theo dòng tiền (1,0254^12-1 và 1,0371^12-1) = 35,1% và 54,8%, khớp phần ngoặc của mục."
+  - text: "'Lãi thẻ ở Việt Nam 2,54% đến 3,71% một tháng' (Nói dễ hiểu)"
+    source_url: https://ndh.vn/the-tin-dung-ngan-hang/vib/
+    quote: "Từ 2,54% đến 3,71%/tháng, tức khoảng 30,48–44,52%/năm, mức cụ thể tùy lịch sử tín dụng."
+    verdict: partial
+    note: "Con số là lãi suất rút tiền mặt của MỘT thẻ (VIB Financial Free), không phải 'lãi thẻ ở Việt Nam' nói chung và không phải lãi suất giao dịch mua sắm. Cùng biểu phí, 3 kỳ sao kê đầu tiên 0%/tháng cho rút tiền mặt, và 'Phí ứng/rút tiền mặt: Miễn phí' (theo tìm kiếm trang VIB). Cần nêu rõ là một ví dụ."
+  - text: "ACB: phí chuyển đổi trả góp 6 tháng 3,00%, 9 tháng 4,50%, 12 tháng 6,00% trên số tiền chuyển đổi"
+    source_url: https://acb.com.vn/thong-bao/dieu-chinh-bieu-phi-lai-suat-the-tin-dung-acb
+    quote: "Kỳ hạn Phí chuyển đổi trả góp Lãi suất Thời gian áp dụng 3 tháng 1,50% 0% Áp dụng cho các giao dịch chuyển đổi trả góp thành công từ ngày 30.01.2026. 6 tháng 3,00% 9 tháng 4,50% 12 tháng 6,00%"
+    verdict: match
+    note: "Trang ACB đọc được (mục 3a: Giao dịch thanh toán đăng ký qua ACB ONE hoặc CN/PGD ACB). Đây là thông báo từ 30/01/2026; cột lãi suất ghi 0%. Mục 3b (rút tiền mặt chuyển trả góp) có phí khác (1% ... chưa đọc hết)."
+  - text: "Phí 6% cho 12 tháng tương đương khoảng 12,2%/năm"
+    source_url: https://acb.com.vn/thong-bao/dieu-chinh-bieu-phi-lai-suat-the-tin-dung-acb
+    quote: "12 tháng 6,00%"
+    verdict: inference
+    note: "Mục tự thừa nhận số này do sách tính. Tôi tính lại: nếu phí 6% thu một lần ngay lúc chuyển đổi và gốc trả đều 12 tháng thì lãi tháng ≈0,965%, nhân 12 = 11,6%/năm danh nghĩa, 12,21%/năm hiệu dụng (có lãi kép) — khớp 12,2% nếu hiểu là hiệu dụng. Nếu phí chia đều vào 12 kỳ thì khoảng 10,9% danh nghĩa/11,5% hiệu dụng; nếu tính phí trên dư nợ bình quân thì khoảng 11,1%. Giả định (thu phí một lần ở đầu kỳ, hiệu dụng) không được nêu; 'Nói dễ hiểu' và tldr nói '12%'/'khoảng 12,2%' nên chưa mâu thuẫn nhưng cần ghi giả định. Cách thu phí thực tế (một lần hay theo tháng) không đọc được trong thông báo ACB."
+  - text: "Bẫy 2: rút tiền mặt bằng thẻ tín dụng bị tính lãi ngay từ ngày rút, không có miễn lãi, cộng phí rút"
+    source_url: https://www.vib.com.vn/vn/the-tin-dung/vib-financial-free/bieu-phi-va-dieu-kien
+    quote: "Đối với các giao dịch rút tiền mặt, lãi sẽ được tính từ ngày giao dịch."
+    verdict: partial
+    note: "'Lãi tính từ ngày giao dịch' khớp biểu phí VIB (qua tìm kiếm trang VIB, thứ cấp). Nhưng 'cộng phí rút' sai với đúng thẻ mục dẫn: VIB Financial Free 'Phí ứng/rút tiền mặt: Miễn phí' (nhiều thẻ VIB khác thu 4%, tối thiểu 100.000đ theo nguồn thứ cấp). Câu steps[1] 'bị tính lãi ngay từ ngày rút, cộng phí rút' đúng với đa số thẻ nhưng không đúng với ví dụ mục dùng."
+  - text: "Bẫy 2: rút tiền mặt 'là khoản đắt nhất trong mọi khoản tín dụng tiêu dùng ở Việt Nam'"
+    source_url: https://ndh.vn/the-tin-dung-ngan-hang/vib/
+    quote: "Từ 2,54% đến 3,71%/tháng, tức khoảng 30,48–44,52%/năm, mức cụ thể tùy lịch sử tín dụng."
+    verdict: not-found
+    note: "Không có nguồn nào so sánh với các khoản tín dụng tiêu dùng khác (công ty tài chính, cầm đồ, app vay có lãi cao hơn). Khẳng định tuyệt đối 'mọi khoản'; nên bỏ hoặc nêu 'một trong những khoản đắt nhất'."
+  - text: "Bẫy 1: trả thiếu một phần nhỏ là mất miễn lãi cho toàn bộ giao dịch trong kỳ"
+    source_url: https://www.vib.com.vn/vn/the-tin-dung/vib-financial-free/bieu-phi-va-dieu-kien
+    quote: "Giao dịch sẽ phát sinh lãi liên đới kỳ tiếp theo khi quý khách mất quyền miễn lãi"
+    verdict: inference
+    note: "Đây là quy tắc từng ngân hàng (tùy hợp đồng thẻ), tôi chỉ thấy dòng liên quan của VIB cho rút tiền mặt qua tìm kiếm. Không có nguồn cho cơ chế chung 'toàn bộ giao dịch trong kỳ'; một số ngân hàng chỉ tính lãi trên phần chưa thanh toán sau ngày đến hạn. Gắn nhãn 'thường là' hoặc dẫn hợp đồng thẻ."
+  - text: "Bẫy 3: trả góp 0% có điều kiện; tất toán trước hạn có thể bị thu lại toàn bộ phí chuyển đổi"
+    source_url: https://acb.com.vn/thong-bao/dieu-chinh-bieu-phi-lai-suat-the-tin-dung-acb
+    quote: "Áp dụng cho các giao dịch chuyển đổi trả góp thành công từ ngày 30.01.2026."
+    verdict: not-found
+    note: "Thông báo ACB chỉ nêu bảng phí chuyển đổi; không đọc thấy điều kiện đơn vị bán, mức tối thiểu, hay phí khi tất toán trước hạn. Khẳng định 'có thể bị thu lại toàn bộ phí' không có nguồn."
+  - text: "'Đừng vay để giữ một khoản tiết kiệm 5,2%/năm'"
+    source_url: https://topi.vn/lai-suat-ngan-hang-vietcombank.html
+    quote: "12 tháng 5.40% 0.30% 0.00%"
+    verdict: not-found
+    note: "Con số 5,2%/năm không xuất hiện ở đâu trong mục và không có nguồn. Mục 6 cùng chương dùng 5,9%/năm cho lãi tiết kiệm 12 tháng; trang topi.vn hiện ghi 5,40%. Ba số khác nhau cho cùng một thứ."
+internal_checks:
+  - issue: "Điều 100 khoản 1 chỉ bắt niêm yết lãi suất huy động vốn và phí cung ứng dịch vụ; mục dùng nó làm căn cứ để 'con số để so là con số trên biểu phí' cho lãi suất thẻ. legal_refs duy nhất của mục có url null."
+    severity: error
+  - issue: "Nói dễ hiểu: 'Lãi thẻ ở Việt Nam 2,54% đến 3,71% một tháng' là lãi rút tiền mặt của một thẻ VIB, có 0% 3 kỳ đầu và phí rút miễn phí; không áp dụng chung."
+    severity: error
+  - issue: "'5,2%/năm' (Ghi chú, Đừng hiểu ngược) không có trong thân/nguồn và khác số 5,9% của mục 6 cùng chương (và 5,4% trên trang nguồn của mục đó)."
+    severity: warn
+  - issue: "steps[1] 'cộng phí rút' trái với biểu phí của chính thẻ mục dẫn (VIB Financial Free miễn phí rút tiền mặt)."
+    severity: warn
+  - issue: "12,2%/năm cần ghi giả định (phí thu một lần, tính hiệu dụng). tldr/Nói dễ hiểu ghi '12%' và 'khoảng 12,2%' lẫn lộn."
+    severity: warn
+  - issue: "steps[4] 'hỏi điều kiện (đơn vị bán, mức tối thiểu) và phí chuyển đổi nếu tất toán trước hạn' và Bẫy 3 không có nguồn trong mục."
+    severity: warn
+  - issue: "Cách nhìn 'trả góp 0% = phí chuyển đổi' (Lợi ích): thông báo ACB cột 'Lãi suất' ghi 0% cho chuyển đổi trả góp với phí 1,5/3/4,5/6%, phù hợp. Số tháng/phí khớp tldr."
+    severity: warn
+validity:
+  doc: "Luật Các tổ chức tín dụng 32/2024/QH15 (VBHN 158/VBHN-VPQH)"
+  in_force: unconfirmed
+  effective_from: "2024-07-01"
+  amended_by:
+    - "Luật 43/2024/QH15 (2024-08-01)"
+    - "Luật 96/2025/QH15 (2025-10-15)"
+  basis: "Bản hợp nhất 158/VBHN-VPQH liệt kê hai lần sửa; Điều 100 còn nguyên trong bản hợp nhất. Chưa tìm được văn bản sửa sau bản hợp nhất; thiếu bằng chứng chủ động (vbpl.vn chỉ trả khung) nên không kết luận còn hiệu lực đến 8/11/2026. Biểu phí VIB/ACB là dữ liệu thương mại có thể đổi bất kỳ lúc nào (VIB ghi 'toàn quyền thay đổi')."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Pháp luật VN: đổi câu thành 'Tổ chức tín dụng phải niêm yết công khai mức lãi suất huy động vốn và mức phí cung ứng dịch vụ (Điều 100 khoản 1 Luật 32/2024/QH15); lãi suất cấp tín dụng do tổ chức tín dụng và khách hàng thỏa thuận (khoản 2)'. Nếu muốn nói biểu lãi suất thẻ phải công khai, dẫn văn bản NHNN cụ thể sau khi mở đọc. Thêm url (158-vbhn-vpqh.pdf) vào legal_refs."
+  - "Nói dễ hiểu: sửa 'Lãi thẻ ở Việt Nam 2,54% đến 3,71% một tháng' thành 'Ví dụ thẻ VIB Financial Free: lãi rút tiền mặt 2,54%–3,71% một tháng (30,5%–44,5% một năm tính đơn) sau 3 kỳ sao kê đầu'; nêu rằng lãi mua sắm khác."
+  - "steps[1], Bẫy 2: sửa thành 'bị tính lãi ngay từ ngày rút, thường cộng phí rút (VIB Financial Free miễn phí rút)'; bỏ 'khoản đắt nhất trong mọi khoản tín dụng tiêu dùng'."
+  - "12,2%/năm: ghi giả định 'phí 6% thu một lần, gốc trả đều 12 tháng, tính lãi hiệu dụng (danh nghĩa 11,6%)'; thống nhất tldr/Nói dễ hiểu."
+  - "Bẫy 1 và Bẫy 3: gắn nhãn 'thường là, tùy hợp đồng thẻ' hoặc dẫn điều khoản của một ngân hàng; không khẳng định 'toàn bộ giao dịch' và 'thu lại toàn bộ phí' khi chưa có nguồn."
+  - "Đừng hiểu ngược: bỏ hoặc thay '5,2%/năm' bằng số dẫn nguồn, đồng bộ với mục 6 (5,9%/năm không xác minh được, trang nguồn hiện 5,4%)."
+  - "Mở đọc được biểu phí VIB (trang đang bị chống bot qua HTTP) hoặc dùng bản PDF biểu phí chính thức để nâng khẳng định VIB lên match."

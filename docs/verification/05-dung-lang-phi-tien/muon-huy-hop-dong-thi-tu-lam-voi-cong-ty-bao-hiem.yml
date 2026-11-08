@@ -1,0 +1,70 @@
+id: muon-huy-hop-dong-thi-tu-lam-voi-cong-ty-bao-hiem
+checker: agent-V3a05g
+checked_at: 2026-11-08
+content_sha256: "e6cd471ba084bf4e7f19599145a0287201efc127694a85a74662496f0e7e6ab9"
+result: pass-with-edits
+claims:
+  - text: "Đại lý bảo hiểm không được xúi giục khách hàng hủy bỏ hợp đồng bảo hiểm đang có hiệu lực dưới mọi hình thức (Luật KDBH Điều 129 khoản 3 điểm d)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: 'd) Xúi giục khách hàng hủy bỏ hợp đồng bảo hiểm đang có hiệu lực dưới mọi hình thức.'
+    verdict: match
+    note: "Bản hợp nhất 31/VBHN-VPQH (trích được chữ). Mục viết 'huỷ' (dấu cũ), nội dung trùng. Lưu ý: điều cấm áp dụng cho ĐẠI LÝ bảo hiểm; mục dùng nó để nói về 'dịch vụ đòi lại phí' (thường không phải đại lý) trong phần 'Nói dễ hiểu' nên cần nói rõ phạm vi."
+  - text: "Đại lý không được ngăn cản người mua kê khai hoặc xúi giục không kê khai thông tin (Điều 129 khoản 3 điểm b)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: 'b) Ngăn cản bên mua bảo hiểm cung cấp các thông tin liên quan đến hợp đồng bảo hiểm hoặc xúi giục bên mua bảo hiểm, người được bảo hiểm không kê khai các thông tin liên quan đến hợp đồng bảo hiểm;'
+    verdict: match
+    note: "Câu luật khớp. Câu kèm theo 'Đây là chiêu các nhóm đòi phí dùng khi soạn đơn tố cáo sai' là nhận định thực tiễn, không có trong nguồn (xem claim riêng)."
+  - text: "Nghiêm cấm gian lận gồm giả mạo tài liệu, cố ý làm sai lệch thông tin trong hồ sơ yêu cầu bồi thường, trả tiền bảo hiểm (Điều 9 khoản 4)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: 'b) Giả mạo tài liệu, cố ý làm sai lệch thông tin trong hồ sơ yêu cầu bồi thường, trả tiền bảo hiểm;'
+    verdict: match
+    note: "Nằm ở khoản 4 Điều 9 điểm b ('Thực hiện các hành vi gian lận bao gồm:'). Mục cắt ngắn, không ghi điểm b, nhưng đúng chữ."
+  - text: "Muốn hủy thì làm trực tiếp với doanh nghiệp bảo hiểm, theo quy định về quyền đơn phương chấm dứt và hậu quả (Điều 26 và Điều 27)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: 'Doanh nghiệp bảo hiểm, chi nhánh doanh nghiệp bảo hiểm phi nhân thọ nước ngoài hoặc bên mua bảo hiểm có quyền đơn phương chấm dứt thực hiện hợp đồng bảo hiểm trong trường hợp sau đây: 1. Bên mua bảo hiểm không đóng phí bảo hiểm hoặc không đóng đủ phí bảo hiểm theo thời hạn thỏa thuận hoặc sau thời gian gia hạn đóng phí; 2. ... không chấp nhận yêu cầu về thay đổi mức độ rủi ro được bảo hiểm quy định tại Điều 23 ...; 3. Người được bảo hiểm không thực hiện các biện pháp bảo đảm an toàn cho đối tượng bảo hiểm ...; 4. Bên mua bảo hiểm không đồng ý chuyển giao danh mục hợp đồng bảo hiểm ...'
+    verdict: partial
+    note: "Điều 26 chỉ liệt kê 4 trường hợp cụ thể được đơn phương chấm dứt, KHÔNG phải quyền hủy chung của bên mua. Quyền rút trong 21 ngày là Điều 35 (hợp đồng trên 1 năm); hủy bỏ khi bị đối phương cố ý cung cấp sai thông tin là Điều 22 khoản 3. Dẫn Điều 26-27 làm căn cứ 'muốn hủy thì tự làm' là đọc quá rộng."
+  - text: "Không có dịch vụ nào lấy lại được toàn bộ phí bảo hiểm (tldr, Nói dễ hiểu)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: ''
+    verdict: inference
+    note: "Không có câu nguồn. Luật có trường hợp hoàn đủ phí: Điều 22 khoản 3 ('bên mua bảo hiểm có quyền hủy bỏ hợp đồng bảo hiểm, được hoàn lại phí bảo hiểm đã đóng' khi doanh nghiệp bảo hiểm cố ý cung cấp sai thông tin để giao kết) và Điều 27 khoản 2 (hoàn phí cho thời gian còn lại). Khẳng định tuyệt đối 'không dịch vụ nào' là suy ra từ kinh nghiệm, không phải chữ luật."
+  - text: "Phản ánh tới Cục Quản lý, giám sát bảo hiểm (Bộ Tài chính), số 024.2220.2828 ghi trên mof.gov.vn"
+    source_url: https://www.mof.gov.vn/bo-tai-chinh/btcvn/cuc-quan-ly-giam-sat-bao-hiem
+    quote: ''
+    verdict: unreachable
+    note: "Trang mof.gov.vn là ứng dụng SPA (HTML chỉ chứa khung #app), không trích được nội dung không chạy JS. Tìm kiếm thứ cấp cho thấy trang giới thiệu lãnh đạo Cục ghi 'Điện thoại Cổng thông tin điện tử: (84-24) 2220.2828-2888', tức là tổng đài cổng thông tin Bộ Tài chính, không phải đường dây riêng của Cục; chưa tự xác nhận được. Tên cơ quan 'Cục Quản lý, giám sát bảo hiểm' có trong nhiều nguồn thứ cấp."
+  - text: "Phản ánh/kiến nghị qua Cổng Dịch vụ công quốc gia"
+    source_url: https://www.mof.gov.vn/bo-tai-chinh/btcvn/cuc-quan-ly-giam-sat-bao-hiem
+    quote: ''
+    verdict: not-found
+    note: "Không có nguồn nào trong mục hay trong URL đã mở nói Cổng Dịch vụ công quốc gia nhận phản ánh về bảo hiểm; không kiểm được."
+internal_checks:
+  - issue: "legal_refs[3] (Điều 26 và Điều 27) không khớp khẳng định 'muốn hủy thì tự làm với doanh nghiệp bảo hiểm': Điều 26 chỉ cho đơn phương chấm dứt trong 4 trường hợp; quyền rút trong 21 ngày ở Điều 35."
+    severity: error
+  - issue: "Ghi chú Bẫy 1: 'Việt Nam không có tổng đài 12378 của nước ngoài, nên đừng gọi số đó' — không có nguồn, câu khó hiểu (12378 là số của cơ quan quản lý bảo hiểm Trung Quốc) và không liên quan người đọc Việt; nên bỏ hoặc dẫn nguồn."
+    severity: warn
+  - issue: "tldr: 'không dịch vụ nào lấy lại được toàn bộ phí' tuyệt đối hóa và mâu thuẫn một phần với Điều 22 khoản 3 / Điều 35 (có trường hợp hoàn phí đủ hoặc gần đủ do luật). Mục không dẫn mục 40 (21 ngày cân nhắc) ở đây dù đây là đường hủy chính đáng."
+    severity: warn
+  - issue: "Mục dùng Điều 129 (nghĩa vụ ĐẠI LÝ) để nói về dịch vụ 'đòi lại phí', trong khi dịch vụ này thường không phải đại lý bảo hiểm; điều cấm không áp dụng cho họ."
+    severity: warn
+  - issue: "Mô tả chi phí dịch vụ ngoài ('lấy một phần số tiền giành lại được, cộng phí tư vấn thu trước') không có nguồn trong mục (evidence: C)."
+    severity: warn
+  - issue: "Ghi chú 'Bẫy 3: nếu đang có bệnh hoặc đã cao tuổi, mua lại sẽ đắt hơn hoặc bị từ chối' không có nguồn; hợp lý nhưng là nhận định."
+    severity: warn
+  - issue: "Mục dùng đúng tên 'Cục Quản lý, giám sát bảo hiểm (Bộ Tài chính)' nhất quán ở tldr, steps, body; cơ quan này không có trong nguồn pháp luật đã mở (chỉ thấy qua tìm kiếm thứ cấp)."
+    severity: warn
+validity:
+  doc: "Luật Kinh doanh bảo hiểm 08/2022/QH15 (bản hợp nhất 31/VBHN-VPQH)"
+  in_force: true
+  effective_from: "2023-01-01"
+  amended_by:
+    - "Luật 139/2025/QH15 ngày 10/12/2025 (hiệu lực 1/1/2026; một số điểm 1/7/2026); các Điều 9, 26, 27, 129 trong bản hợp nhất vẫn nguyên khoản liên quan"
+  basis: "Bản hợp nhất 31/VBHN-VPQH (datafiles.chinhphu.vn) ghi 'Luật Kinh doanh bảo hiểm số 08/2022/QH15 ... có hiệu lực kể từ ngày 01 tháng 01 năm 2023, được sửa đổi, bổ sung bởi Luật số 139/2025/QH15'. Đọc trực tiếp Điều 9 khoản 4, Điều 26, 27, 129 khoản 3 trong bản hợp nhất: các điều này không có chú thích sửa đổi (chỉ Điều 9 khoản 3 có chú thích bỏ cụm 'hoạt động dịch vụ phụ trợ bảo hiểm' từ 1/7/2026). Văn bản hợp nhất là bằng chứng đang áp dụng; chưa tra Công báo/vbpl.vn để loại trừ văn bản sửa đổi sau bản hợp nhất."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Mục Pháp luật VN, dòng 4: thay 'theo quy định về quyền đơn phương chấm dứt và hậu quả (Điều 26 và Điều 27)' bằng 'trong thời hạn 21 ngày cân nhắc với hợp đồng trên 1 năm (Điều 35); các trường hợp còn lại theo điều khoản hợp đồng và Điều 22, Điều 26, Điều 27 (chỉ 4 trường hợp đơn phương chấm dứt)'. Sửa cả legal_refs[3] tương ứng (thêm Điều 35)."
+  - "tldr và Nói dễ hiểu: bỏ hoặc hạ nhẹ câu 'không dịch vụ nào lấy lại được toàn bộ phí' thành 'đừng tin lời hứa lấy lại toàn bộ phí; mức hoàn do luật và hợp đồng quy định (xem mục 40)'."
+  - "Bẫy 1: xóa câu về tổng đài 12378 (không nguồn, gây rối); giữ số điện thoại chỉ sau khi xác nhận bằng trang liên hệ chính thức của Cục, hoặc ghi rõ 'tổng đài Bộ Tài chính, nhờ chuyển máy cho Cục'. Bỏ 'Cổng Dịch vụ công quốc gia' nếu không dẫn được nguồn."
+  - "Ghi rõ Điều 129 khoản 3 điểm d là điều cấm với ĐẠI LÝ bảo hiểm, không phải với 'dịch vụ đòi lại phí' bên ngoài; câu 'chiêu các nhóm đòi phí' gắn nhãn là nhận định thực tiễn."

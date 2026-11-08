@@ -1,0 +1,70 @@
+id: thuc-pham-khong-an-toan-doi-lai-tien-va-doi-chi-phi
+checker: agent-V3a05f
+checked_at: 2026-11-08
+content_sha256: "70522b0bc9c9703de635d480b8cb75ba0990ee3bae9ba980de049394df9cc8d3"
+result: pass-with-edits
+claims:
+  - text: "Người tiêu dùng thực phẩm được bồi thường thiệt hại theo quy định của pháp luật do sử dụng thực phẩm không an toàn gây ra (Điều 9 Luật ATTP 55/2010/QH12)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2010/08/100686_l55qh.doc
+    quote: "đ) Được bồi thường thiệt hại theo quy định của pháp luật do sử dụng thực phẩm không an toàn gây ra."
+    verdict: match
+    note: "Điều 9 khoản 1 điểm đ. Bản .doc của chinhphu.vn trích được chữ (đọc bằng textutil)."
+  - text: "Cơ sở cung cấp thực phẩm gây ngộ độc phải chịu toàn bộ chi phí điều trị và bồi thường thiệt hại theo pháp luật dân sự (Điều 53 khoản 5)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2010/08/100686_l55qh.doc
+    quote: "5. Tổ chức, cá nhân cung cấp thực phẩm mà gây ngộ độc phải chịu toàn bộ chi phí điều trị cho người bị ngộ độc và bồi thường thiệt hại theo quy định của pháp luật về dân sự."
+    verdict: match
+    note: "Chỉ áp dụng khi 'gây ngộ độc'; mục viết đúng điều kiện này ở phần Pháp luật VN."
+  - text: "Vi phạm thì bị xử lý hành chính hoặc truy cứu trách nhiệm hình sự; nếu gây thiệt hại thì phải bồi thường (Điều 6 khoản 1)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2010/08/100686_l55qh.doc
+    quote: "1. Tổ chức, cá nhân sản xuất, kinh doanh thực phẩm vi phạm pháp luật về an toàn thực phẩm thì tùy theo tính chất, mức độ vi phạm mà bị xử lý vi phạm hành chính hoặc bị truy cứu trách nhiệm hình sự, nếu gây thiệt hại thì phải bồi thường và khắc phục hậu quả theo quy định của pháp luật."
+    verdict: match
+    note: ""
+  - text: "Luật Việt Nam không có mức đền gấp nhiều lần / không có mức sàn cho người mua (tldr, Nói dễ hiểu, 'Không có bội số')"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2010/08/100686_l55qh.doc
+    quote: "3. Mức phạt tiền đối với vi phạm hành chính quy định tại khoản 1 Điều này được thực hiện theo quy định của pháp luật về xử lý vi phạm hành chính; trường hợp áp dụng mức phạt cao nhất theo quy định của pháp luật về xử lý vi phạm hành chính mà vẫn còn thấp hơn 07 lần giá trị thực phẩm vi phạm thì mức phạt được áp dụng không quá 07 lần giá trị thực phẩm vi phạm"
+    verdict: inference
+    note: "Câu phủ định 'không có bội số bồi thường' không phải chữ của nguồn nào; chỉ suy ra từ việc Điều 9, 53.5 nói 'bồi thường thiệt hại'. Lưu ý Điều 6 khoản 3 CÓ bội số 07 lần giá trị thực phẩm vi phạm, nhưng đó là mức PHẠT HÀNH CHÍNH nộp ngân sách, không phải tiền đền cho người mua. Mục nên nói rõ để người đọc không nhầm hai thứ (vì tiêu đề viết 'không có mức phạt gấp bội cho người mua' là đúng nhưng dễ bị bắt bẻ)."
+  - text: "Nhà kinh doanh phải bồi thường thiệt hại do hàng hóa khuyết tật, kể cả khi không biết hoặc không có lỗi (Điều 34 Luật BVQLNTD 19/2023/QH15)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "1. Tổ chức, cá nhân kinh doanh có trách nhiệm bồi thường thiệt hại trong trường hợp sản phẩm, hàng hóa có khuyết tật do mình cung cấp gây thiệt hại đến tính mạng, sức khỏe, tài sản của người tiêu dùng, kể cả khi tổ chức, cá nhân đó không biết hoặc không có lỗi trong việc phát sinh khuyết tật, trừ trường hợp quy định tại Điều 35 của Luật này."
+    verdict: partial
+    note: "PDF là ảnh quét; đọc bằng OCR (macOS Vision) trang 22. Mục bỏ câu 'trừ trường hợp quy định tại Điều 35' (các trường hợp miễn trách nhiệm) và không nói điều kiện 'sản phẩm có khuyết tật'. Mục dùng cụm 'kể cả khi không biết hoặc không có lỗi' đúng, nhưng thiếu ngoại lệ có thể làm người đọc tin trách nhiệm là tuyệt đối."
+  - text: "Khi không xác định được bên sản xuất, nhập khẩu thì bên trực tiếp cung cấp cho người tiêu dùng phải bồi thường (Điều 34)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "3. Trường hợp không xác định được tổ chức, cá nhân kinh doanh tại các điểm a, b, c, d và e khoản 2 Điều này thì tổ chức, cá nhân kinh doanh quy định tại điểm đ khoản 2 Điều này có trách nhiệm bồi thường thiệt hại cho người tiêu dùng, trừ trường hợp pháp luật có quy định khác."
+    verdict: partial
+    note: "Luật nói 'không xác định được' các bên ở điểm a, b, c, d, e (sản xuất, nhập khẩu, gắn thương hiệu, trung gian thương mại, bên khác chịu trách nhiệm), không chỉ 'bên sản xuất, nhập khẩu'; và có 'trừ trường hợp pháp luật có quy định khác'. Điều 34 khoản 2 còn liệt kê bên bán lẻ (điểm đ) là một trong các bên chịu trách nhiệm ngay từ đầu, và khoản 4 nói liên đới."
+  - text: "Step 4: Gửi phản ánh tới cơ quan quản lý an toàn thực phẩm cấp tỉnh"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2010/08/100686_l55qh.doc
+    quote: "1. Tổ chức, cá nhân phát hiện sự cố về an toàn thực phẩm xảy ra trong nước hoặc nước ngoài nhưng có ảnh hưởng tới Việt Nam phải khai báo với cơ sở y tế, Ủy ban nhân dân địa phương nơi gần nhất hoặc Bộ Y tế, Bộ Nông nghiệp và Phát triển Nông thôn, Bộ Công Thương để có biện pháp khắc phục kịp thời."
+    verdict: inference
+    note: "Luật (Điều 53.1, Điều 9.2.b) nêu khai báo với cơ sở y tế/UBND nơi gần nhất/bộ; KHÔNG ghi 'cơ quan quản lý ATTP cấp tỉnh' (và cấp tỉnh này còn đổi tên sau cải tổ bộ máy 2025). Nơi nhận phản ánh cụ thể là suy ra; nên ghi 'cơ sở y tế hoặc UBND nơi gần nhất / cơ quan quản lý ATTP địa phương'."
+  - text: "Bẫy 2: có hay không có vi phạm an toàn thực phẩm thường phải do cơ quan chuyên môn kết luận"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2010/08/100686_l55qh.doc
+    quote: "b) Điều tra vụ ngộ độc thực phẩm, xác định nguyên nhân gây ngộ độc, bệnh truyền qua thực phẩm và truy xuất nguồn gốc thực phẩm gây ngộ độc, truyền bệnh;"
+    verdict: inference
+    note: "Điều 53.2.b chỉ nói cơ quan có trách nhiệm điều tra, xác định nguyên nhân; không nói 'phải do cơ quan chuyên môn kết luận' mới đòi được bồi thường. Câu 'thường phải' là nhận định thực tế, không phải chữ luật. Nên bỏ hoặc gắn 'suy ra'."
+internal_checks:
+  - issue: "Mục không có con số tiền/ngày/tỷ lệ nên mục (a)(b) không phát hiện mâu thuẫn số liệu. Điều 6 khoản 3 (07 lần giá trị thực phẩm) chưa được nhắc nên không lẫn với 'không bội số' trong thân; tuy nhiên dễ gây hiểu nhầm với người đọc có biết điều này."
+    severity: warn
+  - issue: "legal_refs 4 mục: 3 mục Luật ATTP dùng URL datafiles.chinhphu.vn/.../100686_l55qh.doc (đúng văn bản 55/2010/QH12, đã mở, có Điều 6/9/53); mục Luật BVQLNTD dùng URL moit.gov.vn PDF đúng Luật 19/2023/QH15 (đã OCR, 'Điều 79 Hiệu lực: 01/7/2024'). Điều/khoản khớp khẳng định tương ứng; riêng Điều 34 cần thêm 'trừ Điều 35'."
+    severity: warn
+  - issue: "Step 4 ('cơ quan quản lý ATTP cấp tỉnh') không có cơ sở nguyên văn trong thân/luật dẫn (Điều 53.1 nói cơ sở y tế/UBND nơi gần nhất/Bộ)."
+    severity: warn
+  - issue: "legal_refs.effective_from/checked_at/quote đều null cho cả 4 mục (thiếu dữ liệu, không phải lỗi nội dung)."
+    severity: warn
+validity:
+  doc: "Luật An toàn thực phẩm 55/2010/QH12"
+  in_force: unconfirmed
+  effective_from: "2011-07-01"
+  amended_by: ["Luật 28/2018/QH14 (sửa đổi 11 luật về quy hoạch, hiệu lực 01/01/2019)", "Luật Thanh tra 84/2025/QH15 (hiệu lực 01/7/2025)"]
+  basis: "Điều 71: 'Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2011' (bản chinhphu .doc). Công báo congbao.chinhphu.vn ghi Hiệu lực 01/07/2011, không có văn bản thay thế trên trang. luatvietnam.vn (bài đăng 11/10/2026, thứ cấp) ghi Luật 55/2010 là Luật ATTP mới nhất, đã có Văn bản hợp nhất 61/VBHN-VPQH (15/8/2025). Tuy nhiên có tin về Luật ATTP (sửa đổi) đang soạn/đã thông qua và Nghị định 46/2026/NĐ-CP bị tạm ngưng bởi NQ 15/2026/NQ-CP 'cho đến khi Luật ATTP sửa đổi có hiệu lực' (tìm kiếm web, nguồn thứ cấp; không mở được văn bản gốc). Chưa có bằng chứng sơ cấp xác nhận Luật 55/2010 chưa bị thay thế tại ngày 2026-11-08 nên để unconfirmed. Luật BVQLNTD 19/2023/QH15: Điều 79 khoản 1 'có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024' (đọc OCR trang 45), còn hiệu lực theo bằng chứng đã thấy."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Thân, 'Luật Bảo vệ quyền lợi người tiêu dùng' bullet 1: thêm ngoại lệ 'trừ trường hợp quy định tại Điều 35' và điều kiện 'sản phẩm, hàng hóa có khuyết tật' (quote Điều 34 khoản 1)."
+  - "Thân, bullet 2 ('Khi không xác định được bên sản xuất, nhập khẩu...'): sửa thành 'Khi không xác định được các bên quy định tại điểm a, b, c, d, e khoản 2 Điều 34 (sản xuất, nhập khẩu, gắn thương hiệu, trung gian thương mại, bên khác chịu trách nhiệm) thì bên trực tiếp cung cấp cho người tiêu dùng phải bồi thường, trừ trường hợp pháp luật có quy định khác' (quote Điều 34 khoản 3)."
+  - "Phần 'Không có bội số' và title: thêm một câu 'Luật ATTP Điều 6 khoản 3 có mức phạt hành chính tới 07 lần giá trị thực phẩm vi phạm, nhưng đó là tiền phạt nộp nhà nước, không phải tiền đền cho người mua' để tránh hiểu lầm (quote Điều 6 khoản 3)."
+  - "Step 4 và Bẫy 3: thay 'cơ quan quản lý an toàn thực phẩm cấp tỉnh' bằng 'cơ sở y tế hoặc UBND nơi gần nhất, hoặc cơ quan quản lý ATTP ở địa phương' (Điều 53 khoản 1, Điều 9 khoản 2 điểm b)."
+  - "Bẫy 2: bỏ 'thường phải do cơ quan chuyên môn kết luận' hoặc ghi rõ 'suy ra, không phải chữ luật'."
+  - "Cần xác minh thêm có Luật ATTP (sửa đổi) thay Luật 55/2010 vào thời điểm công bố; nếu có, cập nhật số điều và hiệu lực (xem validity)."

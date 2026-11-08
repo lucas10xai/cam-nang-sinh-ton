@@ -1,0 +1,93 @@
+id: cap-cuu-truoc-giay-to-sau-khong-ai-duoc-bat-nguoi-bi
+checker: agent-V3b19cA
+checked_at: 2026-11-08
+content_sha256: 2b174ae556cbd736e3571d64bca05f667e747966c513baa3547895f77f2fcf8d
+result: pass-with-edits
+claims:
+  - text: NSDLĐ phải kịp thời sơ cứu, cấp cứu và tạm ứng chi phí sơ cứu, cấp cứu, điều trị (Điều 38 khoản 1)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    verdict: match
+    quote: Kịp thời sơ cứu, cấp cứu cho người lao động bị tai nạn lao động và phải tạm ứng chi phí sơ cứu, cấp cứu và điều trị cho người lao động bị tai nạn lao động hoặc bệnh nghề nghiệp
+    note: ""
+  - text: "NSDLĐ thanh toán chi phí y tế từ sơ cứu đến điều trị ổn định: phần đồng chi trả + chi phí ngoài danh mục BHYT với người có thẻ, toàn bộ với người không có thẻ (Điều 38 khoản 2)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    verdict: match
+    quote: "Thanh toán chi phí y tế từ khi sơ cứu, cấp cứu đến khi điều trị ổn định cho người bị tai nạn lao động hoặc bệnh nghề nghiệp như sau: a) Thanh toán phần chi phí đồng chi trả và những chi phí không nằm trong danh mục do bảo hiểm y tế chi trả đối với người lao động tham gia bảo hiểm y tế; [...] c) Thanh toán toàn bộ chi phí y tế đối với người lao động không tham gia bảo hiểm y tế"
+    note: ""
+  - text: Phải trả đủ lương trong thời gian điều trị, phục hồi chức năng (Điều 38 khoản 3)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    verdict: match
+    quote: Trả đủ tiền lương cho người lao động bị tai nạn lao động, bệnh nghề nghiệp phải nghỉ việc trong thời gian điều trị, phục hồi chức năng lao động
+    note: ""
+  - text: Hạn 05 ngày trả bồi thường/trợ cấp sau kết luận giám định (Điều 38 khoản 7)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    verdict: partial
+    quote: Thực hiện bồi thường, trợ cấp đối với người bị tai nạn lao động, bệnh nghề nghiệp trong thời hạn 05 ngày, kể từ ngày có kết luận của Hội đồng giám định y khoa về mức suy giảm khả năng lao động hoặc kể từ ngày Đoàn điều tra tai nạn lao động công bố biên bản điều tra tai nạn lao động đối với các vụ tai nạn lao động chết người
+    note: Đúng, nhưng tldr/thân chỉ nêu mốc 'kết luận giám định'; luật còn mốc thứ hai 'kể từ ngày Đoàn điều tra công bố biên bản' với vụ chết người.
+  - text: Báo ngay cho người phụ trách trực tiếp và NSDLĐ (Điều 34 khoản 1 điểm a)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    verdict: match
+    quote: Khi xảy ra hoặc có nguy cơ xảy ra tai nạn lao động, sự cố kỹ thuật gây mất an toàn, vệ sinh lao động tại nơi làm việc thì người bị tai nạn hoặc người biết sự việc phải báo ngay cho người phụ trách trực tiếp, người sử dụng lao động biết để kịp thời có biện pháp xử lý, khắc phục hậu quả xảy ra
+    note: ""
+  - text: Từ chối hoặc cố ý chậm cấp cứu người bệnh là hành vi bị nghiêm cấm (Điều 7 khoản 2, Luật KBCB 15/2023/QH15)
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-15-2023-qh15-38900.htm
+    verdict: match
+    quote: Từ chối hoặc cố ý chậm cấp cứu người bệnh, trừ trường hợp quy định tại Điều 40 của Luật này.
+    note: Câu 'bệnh viện không được từ chối cấp cứu' (tldr) bỏ mệnh đề ngoại lệ 'trừ trường hợp Điều 40'; thân bài đã xử lý ngoại lệ ở bullet kế (Điều 40 khoản 1).
+  - text: Dù người hành nghề từ chối vì vượt khả năng/ngoài phạm vi, vẫn phải sơ cứu, cấp cứu, theo dõi, chăm sóc, điều trị cho đến khi được tiếp nhận hoặc chuyển đi (Điều 40 khoản 1)
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-15-2023-qh15-38900.htm
+    verdict: match
+    quote: Tiên lượng tình trạng bệnh vượt quá khả năng hoặc không thuộc phạm vi hành nghề của mình nhưng phải giới thiệu người bệnh đến người hành nghề khác hoặc cơ sở khám bệnh, chữa bệnh khác phù hợp để khám bệnh, chữa bệnh và phải thực hiện việc sơ cứu, cấp cứu, theo dõi, chăm sóc, điều trị người bệnh cho đến khi người bệnh được người hành nghề khác tiếp nhận hoặc chuyển đi cơ sở khám bệnh, chữa bệnh khác;
+    note: ""
+  - text: "Định nghĩa 'người bệnh không có thân nhân' gồm điểm a: người bệnh cấp cứu không giấy tờ tùy thân, không thân nhân đi cùng, không thông tin liên lạc — mục dẫn là 'Điều 3 khoản 10'"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-15-2023-qh15-38900.htm
+    verdict: mismatch
+    quote: "Người bệnh không có thân nhân là người thuộc một trong các trường hợp sau đây: a) Người bệnh đang trong tình trạng cấp cứu không có giấy tờ tùy thân, không có thân nhân đi cùng, không có thông tin để liên lạc với thân nhân;"
+    note: "Nội dung đúng nhưng SAI SỐ ĐIỀU: định nghĩa nằm ở Điều 2 (Giải thích từ ngữ) khoản 10; Điều 3 là 'Nguyên tắc trong khám bệnh, chữa bệnh'. Sai ở thân bài (2 chỗ: Pháp luật VN và Ghi chú Bẫy 2) và legal_refs."
+  - text: Phạt 2–4 triệu đồng mỗi người lao động, tối đa 75 triệu đồng, với NSDLĐ không kịp thời sơ cứu/cấp cứu (Điều 34 khoản 1 điểm a, NĐ 283/2026)
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    verdict: partial
+    quote: "Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng khi vi phạm đối với mỗi người lao động nhưng tối đa không quá 75.000.000 đồng đối với người sử dụng lao động có một trong các hành vi sau đây: a) Không kịp thời sơ cứu hoặc cấp cứu cho người lao động bị tai nạn lao động;"
+    note: Số tiền khớp nhưng là mức của cá nhân; Điều 7 khoản 1 NĐ 283/2026 (Điều 34 không nằm trong ngoại lệ) tổ chức bị phạt gấp 02 lần. Mục không nêu hệ số, nên công ty thực tế có thể chịu 4–8 triệu/người (cách áp trần 75 triệu cho tổ chức chưa rõ, không tự suy).
+  - text: Phạt cả hành vi 'không tạm ứng chi phí sơ cứu, cấp cứu' và 'không thanh toán toàn bộ chi phí y tế với người không có BHYT' (Điều 34 khoản 1 điểm c)
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    verdict: partial
+    quote: Không tạm ứng chi phí sơ cứu, chi phí cấp cứu hoặc không thanh toán toàn bộ chi phí y tế từ khi sơ cứu, cấp cứu đến khi điều trị ổn định đối với người lao động bị tai nạn lao động, bệnh nghề nghiệp không tham gia bảo hiểm y tế;
+    note: "Điểm c chỉ phạt hành vi không tạm ứng khi người lao động KHÔNG tham gia BHYT; cụm 'không tham gia BHYT' đứng cuối cho cả hai hành vi. Mục (cả Pháp luật VN và Bẫy 3: 'Nghị định 283/2026 phạt đúng hành vi không tạm ứng') đọc như phạt không tạm ứng với mọi người lao động. Với người có BHYT, hành vi liên quan là điểm b (không thanh toán đồng chi trả/ngoài danh mục), mục không nêu."
+  - text: Điểm e phạt thực hiện không đúng thời hạn việc bồi thường, trợ cấp (Điều 34 khoản 1 điểm e)
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    verdict: match
+    quote: Không thực hiện hoặc thực hiện không đủ hoặc thực hiện không đúng thời hạn việc bồi thường hoặc chế độ trợ cấp cho người lao động bị tai nạn lao động, bệnh nghề nghiệp theo quy định của pháp luật.
+    note: ""
+internal_checks:
+  - issue: "Sai số điều: Luật KBCB 15/2023/QH15 'Điều 3 khoản 10' (người bệnh không có thân nhân) thực ra là Điều 2 khoản 10 (Điều 3 là Nguyên tắc). Sai ở legal_refs và thân bài (Pháp luật VN, Ghi chú Bẫy 2)."
+    severity: error
+  - issue: Điều 34 khoản 1 điểm c NĐ 283/2026 chỉ phạt không tạm ứng với người lao động không có BHYT; mục (Pháp luật VN và Bẫy 3) mô tả rộng hơn, dễ hiểu là phạt cả với người có BHYT.
+    severity: warn
+  - issue: "Mức phạt NĐ 283/2026 nêu là mức cá nhân; Điều 7 khoản 1 (xem trích ở mục 11): tổ chức gấp 02 lần; mục không nêu."
+    severity: warn
+  - issue: (c) Bước 3 'yêu cầu công ty tạm ứng bằng tin nhắn ghi số tiền và tên người nhận' là lời khuyên thực hành, không có cơ sở trong luật (luật chỉ quy định nghĩa vụ tạm ứng, không quy định hình thức yêu cầu).
+    severity: warn
+  - issue: (c) Bước 2 'giấy tờ và thẻ bảo hiểm y tế sẽ bổ sung sau' — thân bài chỉ dẫn Điều 7 khoản 2 và Điều 2 khoản 10 Luật KBCB; không nguồn nào được dẫn cho việc bổ sung thẻ BHYT sau (quy định BHYT cấp cứu chưa được mở trong mục).
+    severity: warn
+  - issue: (a) 05 ngày, 2–4 triệu, 75 triệu đều có trong thân bài; (d) mọi URL legal_refs đúng văn bản ghi ở doc (Luật 84/2015, Luật KBCB 15/2023, NĐ 283/2026).
+    severity: warn
+  - issue: Điều 40 Luật 84/2015 (không hưởng chế độ từ NSDLĐ khi tai nạn do mâu thuẫn cá nhân, tự hủy hoại, ma túy) không được nhắc, trong khi mục khẳng định công ty 'phải tạm ứng/thanh toán' vô điều kiện.
+    severity: warn
+validity:
+  doc: Luật An toàn, vệ sinh lao động 84/2015/QH13 (14/VBHN-VPQH); Luật Khám bệnh, chữa bệnh 15/2023/QH15; Nghị định 283/2026/NĐ-CP
+  in_force: unconfirmed
+  effective_from: 2016-07-01
+  amended_by:
+    - Luật BHXH 41/2024/QH15 (01/7/2025; đã hợp nhất)
+  basis: "Luật 84/2015/QH13 (hợp nhất tại 14/VBHN-VPQH ngày 16/9/2024, đã gộp sửa đổi của Luật BHXH 41/2024/QH15 hiệu lực 01/7/2025). Nghị định 283/2026/NĐ-CP (15/7/2026), mục Căn cứ, vẫn liệt kê 'Luật An toàn, vệ sinh lao động số 84/2015/QH13' là căn cứ ban hành, tức luật còn được áp dụng đến 07/2026. Đã tìm văn bản thay thế toàn bộ: kết quả tìm kiếm thứ cấp (thuvienphapluat.vn) nói chưa có luật mới, dự án luật sửa đổi mới ở chương trình xây dựng pháp luật 2026. Không có bản VBHN nào mới hơn 14/VBHN-VPQH được kiểm tra, nên các sửa đổi sau 09/2024 (nếu có) chưa loại trừ hoàn toàn bằng nguồn chính thức. Luật KBCB 15/2023/QH15: đọc bản PDF Công báo 489+490 trên congbao.chinhphu.vn, mục hiệu lực: 'Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2024'; chưa tra được tình trạng sửa đổi sau 2023 bằng nguồn chính thức. Nghị định 283/2026/NĐ-CP ký 15/7/2026, Điều 80: 'Nghị định này có hiệu lực thi hành từ ngày 10 tháng 9 năm 2026' và thay Nghị định 12/2022/NĐ-CP (hết hiệu lực cùng ngày). Văn bản mới, đọc bản DOCX trên congbao.chinhphu.vn; chưa thấy văn bản sửa đổi nhưng chưa có bằng chứng tra cứu chính thức."
+deliberate_vn_deviation: []
+potential_harm:
+  - Bước 1 ('Đưa người bị nạn tới cơ sở cấp cứu gần nhất ngay; không chờ công ty') và Chi phí (đã nhắc 'chấn thương đầu, cột sống, mất máu nhiều') không có bước gọi 115/sơ cứu/cầm máu và không cảnh báo tránh di chuyển người nghi chấn thương cột sống hoặc đầu. Người đọc làm đúng nguyên văn (tự bê/chở đi) có thể làm nặng thêm tổn thương hoặc chậm sơ cứu tại chỗ. [INFERENCE từ nguyên tắc sơ cứu phổ biến; không mở được nguồn y tế chính thức trong lượt này, cần người kiểm y tế xác nhận.]
+suggested_edits:
+  - "Sửa 'Điều 3 khoản 10' thành 'Điều 2 khoản 10' ở legal_refs, mục Pháp luật Việt Nam và Ghi chú (Bẫy 2). Dựa vào Luật KBCB: 'Điều 2. Giải thích từ ngữ … 10. Người bệnh không có thân nhân là…'."
+  - "Mục Mức phạt: viết đúng điểm c: 'không tạm ứng chi phí sơ cứu, cấp cứu hoặc không thanh toán toàn bộ chi phí y tế với người lao động KHÔNG tham gia BHYT'; thêm điểm b (không thanh toán đồng chi trả/ngoài danh mục BHYT với người có BHYT). Sửa câu ở Bẫy 3 tương ứng."
+  - "Thêm câu: mức phạt nêu là mức của cá nhân, tổ chức gấp 02 lần (Điều 7 khoản 1 NĐ 283/2026), và NĐ 283/2026 có hiệu lực từ 10/9/2026."
+  - "Bước 1: thêm 'gọi 115, sơ cứu tại chỗ (cầm máu, giữ ấm); không di chuyển người nghi chấn thương cột sống/đầu trừ khi nơi đó nguy hiểm' (cần nguồn y tế được duyệt)."
+  - "Bước 3 và Bước 2: gắn nhãn là lời khuyên thực hành, không phải quy định; bỏ hoặc nguồn hóa câu 'thẻ BHYT sẽ bổ sung sau'."
+  - "tldr/thân: thêm mốc thứ hai của hạn 05 ngày ('kể từ ngày Đoàn điều tra công bố biên bản' với vụ chết người) và nhắc Điều 40 Luật 84/2015 (không hưởng chế độ từ NSDLĐ trong 3 trường hợp)."

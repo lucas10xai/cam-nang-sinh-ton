@@ -96,22 +96,68 @@ function checkFrontmatter(e, cfg, ctx, out) {
   }
 }
 
+// Token nguyên khối: ngày D/M/YYYY, D/M và số hiệu văn bản N/YYYY[/…] không bị tách thành số rời.
+const FULL_DATE = /(?<![\d/])(\d{1,2})\/(\d{1,2})\/(\d{4})(?![\d/])/gu;
+const WORD_DATE = /(?<![\d/])(\d{1,2})\s+tháng\s+(\d{1,2})(?:\s+năm\s+(\d{4}))?/giu;
+const DOC_NO = /(?<![\p{L}\d/])(\d{1,4}\/\d{4}(?:\/[\p{L}\d-]+)?)(?![\d/])/gu;
+const SHORT_DATE = /(?<![\d/])(\d{1,2})\/(\d{1,2})(?![\d/])/gu;
+
+export function compoundTokens(text) {
+  const dates = new Set(); // "d/m/yyyy" và "d/m"
+  const docs = new Set(); // "284/2026/NĐ-CP" (in hoa)
+  let rest = text;
+  const n = (x) => String(Number(x));
+  rest = rest.replace(FULL_DATE, (_, d, m, y) => {
+    dates.add(`${n(d)}/${n(m)}/${y}`);
+    dates.add(`${n(d)}/${n(m)}`);
+    return ' ';
+  });
+  for (const m of text.matchAll(WORD_DATE)) {
+    dates.add(`${n(m[1])}/${n(m[2])}`);
+    if (m[3]) dates.add(`${n(m[1])}/${n(m[2])}/${m[3]}`);
+  }
+  rest = rest.replace(WORD_DATE, (_, d, m, y) => (y ? ' ' : `${d} tháng ${m}`)); // "ngày 6 tháng 10" còn lại số rời d, m
+  rest = rest.replace(DOC_NO, (_, t) => {
+    docs.add(t.toUpperCase());
+    return ' ';
+  });
+  rest = rest.replace(SHORT_DATE, (_, d, m) => {
+    dates.add(`${n(d)}/${n(m)}`);
+    return ' ';
+  });
+  return { dates, docs, rest };
+}
+
 function checkNumbers(e, out) {
   const d = e.data;
+  const body = compoundTokens(e.body);
   const bodyVals = new Set();
-  for (const n of extractNumbers(e.body)) n.values.forEach((v) => bodyVals.add(v));
+  for (const n of extractNumbers(body.rest)) n.values.forEach((v) => bodyVals.add(v));
+  const docMatches = (t) => [...body.docs].some((b) => b === t || b.startsWith(t + '/'));
   const texts = [];
   if (typeof d.tldr === 'string') texts.push(['tldr', d.tldr]);
   (Array.isArray(d.steps) ? d.steps : []).forEach((s, i) => typeof s === 'string' && texts.push([`steps[${i + 1}]`, s]));
   const reported = new Set();
+  const report = (where, raw) => {
+    const key = where + '|' + raw;
+    if (reported.has(key)) return;
+    reported.add(key);
+    out.push(issue('error', name, e, `Số "${raw}" trong ${where} không xuất hiện trong thân`));
+  };
   for (const [where, text] of texts) {
-    for (const n of extractNumbers(text)) {
+    const c = compoundTokens(text);
+    for (const t of c.dates) {
+      if (t.split('/').length === 3 && !body.dates.has(t)) report(where, t);
+      else if (t.split('/').length === 2 && !body.dates.has(t)) {
+        // D/M chỉ báo khi không là phần của một ngày đầy đủ đã báo ở trên
+        if (![...c.dates].some((x) => x.startsWith(t + '/'))) report(where, t);
+      }
+    }
+    for (const t of c.docs) if (!docMatches(t)) report(where, t);
+    for (const n of extractNumbers(c.rest)) {
       if (n.plainInt && n.tok.length > 1 && n.tok.startsWith('0')) continue; // mã/điện thoại
       if (n.values.some((v) => bodyVals.has(v))) continue;
-      const key = where + '|' + n.raw;
-      if (reported.has(key)) continue;
-      reported.add(key);
-      out.push(issue('error', name, e, `Số "${n.raw}" trong ${where} không xuất hiện trong thân`));
+      report(where, n.raw);
     }
   }
 }

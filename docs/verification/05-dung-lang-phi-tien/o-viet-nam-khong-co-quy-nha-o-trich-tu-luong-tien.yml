@@ -1,0 +1,98 @@
+id: o-viet-nam-khong-co-quy-nha-o-trich-tu-luong-tien
+checker: agent-V3a05a
+checked_at: 2026-11-08
+content_sha256: "ed30c9c3a159f31113837eb2a02989cc8f65e0135a03eb0f66b57ac41ce960d7"
+result: fail
+claims:
+  - text: "Người độc thân phải có thu nhập bình quân không quá 25 triệu đồng/tháng (Điều 30 NĐ 100/2024)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/24-vbhn-bxd.pdf
+    quote: "a) Trường hợp người đứng đơn là người chưa kết hôn hoặc được xác nhận là độc thân thì có thu nhập bình quân hàng tháng thực nhận không quá 25 triệu đồng tính theo Bảng tiền công, tiền lương do cơ quan, đơn vị, doanh nghiệp nơi đối tượng làm việc xác nhận."
+    verdict: partial
+    note: "Số đúng. Nhưng Điều 30 khoản 1 chỉ áp dụng cho đối tượng ở khoản 5, 6 và 8 Điều 76 Luật Nhà ở (người thu nhập thấp đô thị, công nhân/người lao động, lực lượng vũ trang ở khoản 8...), không phải mọi người muốn vay ưu đãi nhà ở. Khoản 3 Điều 30: đối tượng khoản 2, 3, 4 Điều 76 phải thuộc hộ nghèo/cận nghèo; không cần ngưỡng 25 triệu. Mục nói như thể ai cũng phải qua ngưỡng 25/50 triệu. Mục còn nói Điều 30 khoản 1 do NĐ 54/2026 sửa; chú thích 4 của bản hợp nhất ghi khoản 1 do NĐ 261/2025/NĐ-CP (hiệu lực 10/10/2025) và NĐ 136/2026/NĐ-CP (hiệu lực 7/4/2026) sửa; NĐ 54/2026 sửa khoản 2 Điều 30 (chú thích 5) và Điều 29 khoản 1 (chú thích 3)."
+  - text: "Độc thân đang nuôi con dưới tuổi thành niên: không quá 35 triệu"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/24-vbhn-bxd.pdf
+    quote: "Trường hợp người đứng đơn là người chưa kết hôn hoặc được xác nhận là độc thân đang nuôi con dưới tuổi thành niên thì thu nhập bình quân hàng tháng thực nhận không quá 35 triệu đồng tính theo Bảng tiền công, tiền lương do cơ quan, đơn vị, doanh nghiệp nơi đối tượng làm việc xác nhận."
+    verdict: match
+    note: "Cùng điều kiện phạm vi khoản 5, 6, 8 Điều 76. Điểm d còn cho UBND cấp tỉnh quyết định hệ số điều chỉnh mức thu nhập (chưa nói trong mục)."
+  - text: "Người đã kết hôn: tổng hai vợ chồng không quá 50 triệu đồng/tháng"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/24-vbhn-bxd.pdf
+    quote: "b) Trường hợp người đứng đơn đã kết hôn theo quy định của pháp luật thì người đứng đơn và vợ (chồng) của người đó có tổng thu nhập bình quân hàng tháng thực nhận không quá 50 triệu đồng tính theo Bảng tiền công, tiền lương do cơ quan, đơn vị, doanh nghiệp nơi đối tượng làm việc xác nhận."
+    verdict: match
+    note: ""
+  - text: "Thu nhập xét theo 12 tháng liền kề tính từ lúc cơ quan có thẩm quyền xác nhận"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/24-vbhn-bxd.pdf
+    quote: "c) Thời gian xác định điều kiện về thu nhập theo quy định tại điểm a, điểm b khoản này là trong 12 tháng liền kề, tính từ thời điểm cơ quan có thẩm quyền thực hiện xác nhận."
+    verdict: match
+    note: ""
+  - text: "Nếu đã có nhà, diện tích bình quân phải dưới 15 m² sàn/người (Điều 29)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/24-vbhn-bxd.pdf
+    quote: "2. Trường hợp đối tượng quy định tại khoản 1 Điều 77 của Luật Nhà ở có nhà ở thuộc sở hữu của mình nhưng diện tích nhà ở bình quân đầu người thấp hơn 15 m2 sàn/người."
+    verdict: partial
+    note: "Số đúng. Điều 29 khoản 2 viết cho đối tượng khoản 1 Điều 77 Luật Nhà ở (mua, thuê mua, thuê nhà ở xã hội), không phải riêng cho khoản vay sửa nhà. Với vay xây/cải tạo/sửa nhà (Điều 48 khoản 2 NĐ 100) điều kiện là có Giấy chứng nhận quyền sử dụng đất, có phương án vốn, giấy phép xây dựng nếu cần, tài sản bảo đảm; không thấy điều kiện 15 m² ở đó. Mục dồn mọi thứ vào một bộ điều kiện."
+  - text: "Thời hạn cho vay tối đa 20 năm (gán cho Điều 77 khoản 5 Luật Nhà ở 27/2023/QH15), cả trong tldr, tóm tắt và Pháp luật VN"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/24-vbhn-bxd.pdf
+    quote: "5. Thời hạn vay: Thời hạn vay do ngân hàng và khách hàng thỏa thuận phù hợp với khả năng trả nợ của khách hàng và tối đa không quá 25 năm kể từ ngày giải ngân khoản vay đầu tiên."
+    verdict: mismatch
+    note: "Đây là Điều 48 khoản 5 NĐ 100/2024 (bản hợp nhất 24/VBHN-BXD), áp dụng cho vay mua, thuê mua nhà ở xã hội, xây dựng hoặc cải tạo, sửa chữa nhà ở tại Ngân hàng Chính sách xã hội: tối đa 25 năm. Mức 20 năm trong NĐ chỉ ở Điều 25 khoản 3 điểm c (chủ đầu tư dự án nhà ở xã hội chỉ cho thuê) và Điều 26 khoản 3 (cá nhân xây/cải tạo nhà để cho thuê) — người đọc thường không thuộc nhóm đó. Điều 77 khoản 5 Luật Nhà ở không nêu thời hạn nào."
+  - text: "Lãi suất do Ngân hàng Chính sách xã hội công bố trong từng thời kỳ, không có một con số cố định (Điều 77 khoản 5 Luật Nhà ở)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/24-vbhn-bxd.pdf
+    quote: "4. Lãi suất cho vay bằng 5,4%/năm. Lãi suất nợ quá hạn bằng 130% lãi suất cho vay. Trường hợp cần thiết phải thay đổi mức lãi suất cho vay, giao Ngân hàng Chính sách xã hội chủ trì, phối hợp với Bộ Xây dựng và các cơ quan có liên quan trình Thủ tướng Chính phủ xem xét, quyết định."
+    verdict: mismatch
+    note: "Điều 48 khoản 4 NĐ 100/2024 (bản hợp nhất) ghi cụ thể 5,4%/năm, đổi bằng quyết định của Thủ tướng, không phải NHCSXH tự công bố từng thời kỳ. Mục khẳng định ngược lại và không nêu con số 5,4%/năm là số người đọc cần nhất để so sánh. Điều 77 khoản 5 Luật Nhà ở không nói về lãi suất."
+  - text: "Vay ưu đãi qua NHCSXH để mua, thuê mua, tự xây dựng hoặc cải tạo, sửa chữa nhà ở (Điều 77 khoản 5 Luật Nhà ở 27/2023/QH15)"
+    source_url: https://phucuongkg.com/luat-nha-o-2023-so-27-2023-qh15-ap-dung-nam-2025-moi/
+    quote: "5. Hỗ trợ cho vay vốn ưu đãi của Nhà nước thông qua Ngân hàng chính sách xã hội, tổ chức tín dụng do Nhà nước chỉ định để đối tượng quy định tại các khoản 1, 2, 3, 4, 5, 6, 7 và 8 Điều 76 của Luật này mua, thuê mua nhà ở xã hội hoặc tự xây dựng hoặc cải tạo, sửa chữa nhà ở; đối với đối tượng quy định tại khoản 7 Điều 76 của Luật này thì được vay vốn ưu đãi để mua, thuê mua nhà ở cho lực lượng vũ trang nhân dân. Chính phủ quy định chi tiết khoản này."
+    verdict: match-secondary
+    note: "Mục legal_refs để url null cho văn bản này. Không mở được bản chính thống (datafiles.chinhphu.vn đoán đường dẫn trả 404; vbpl.vn/thuvienphapluat chỉ trả khung hoặc chặn). Chỉ có bản sao thứ cấp (trang phucuongkg.com). Nội dung khớp ý mục. NĐ 100 Điều 1 khoản 14 xác nhận khoản 5 Điều 77 được hướng dẫn tại NĐ."
+  - text: "Giới hạn khác của khoản vay sửa/xây nhà (không có trong mục)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/24-vbhn-bxd.pdf
+    quote: "b) Trường hợp xây dựng mới hoặc cải tạo, sửa chữa nhà ở thì mức vốn cho vay tối đa bằng 70% giá trị dự toán hoặc phương án sử dụng vốn, tối đa không quá 01 tỷ đồng, có căn cứ suất vốn đầu tư xây dựng, đơn giá xây dựng nhà ở của cấp có thẩm quyền và không vượt quá 70% giá trị tài sản bảo đảm tiền vay."
+    verdict: partial
+    note: "Mục dùng 'dùng được cả để sửa nhà' làm tiêu đề nhưng không nói mức vay tối đa 70% dự toán và không quá 1 tỷ; mua nhà ở xã hội tối đa 80% giá trị hợp đồng (Điều 48 khoản 3 điểm a). Thiếu điều kiện cần gây hiểu sai kỳ vọng."
+  - text: "Khoản vay là vay phải trả, ngưỡng thu nhập chỉ là điều kiện được xét; số vay phụ thuộc khả năng trả nợ"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/24-vbhn-bxd.pdf
+    quote: "a) Có nguồn thu nhập và có khả năng trả nợ theo cam kết với Ngân hàng Chính sách xã hội;"
+    verdict: match
+    note: "Điều 48 khoản 1 điểm a (mua/thuê mua); khoản 2 điểm b tương tự cho xây/sửa."
+  - text: "'Ở Việt Nam không có quỹ nhà ở trích từ lương'"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/24-vbhn-bxd.pdf
+    quote: "c) Nguồn vốn ủy thác từ Quỹ phát triển nhà ở địa phương (nếu có), ngân sách địa phương hỗ trợ hàng năm, vốn từ phát hành trái phiếu, công trái nhà ở và từ các nguồn hợp pháp khác theo quy định của pháp luật do Hội đồng nhân dân cấp tỉnh (đối với ngân sách cấp tỉnh), cấp huyện (đối với ngân sách cấp huyện) quyết định để thực hiện mục tiêu, kế hoạch nhà ở xã hội tại địa phương."
+    verdict: inference
+    note: "Đây là khẳng định phủ định (không có quỹ nhà ở bắt buộc trích từ lương, kiểu quỹ dự phòng nhà ở của nước ngoài). Không câu nào trong nguồn nói thế; chỉ suy ra từ việc các nguồn vốn của chính sách là ngân sách, quỹ phát triển nhà ở địa phương, trái phiếu. Điều 50 liệt kê 'Quỹ phát triển nhà ở địa phương', có thể gây lẫn với 'quỹ nhà ở'. Nên gắn nhãn suy ra hoặc nêu rõ 'không có quỹ nhà ở nào do người lao động đóng từ lương'. Chưa kiểm Luật Nhà ở 2023 để xác nhận không có điều khoản quỹ bắt buộc."
+internal_checks:
+  - issue: "tldr, Lợi ích, Nói dễ hiểu và Pháp luật VN đều ghi 'vay tối đa 20 năm'; nguồn hợp nhất ghi 25 năm cho vay mua/xây/sửa tại NHCSXH (Điều 48 khoản 5). Số 20 năm là của vay cho thuê (Điều 26)."
+    severity: error
+  - issue: "Pháp luật VN nói lãi suất 'không có một con số cố định'; NĐ 100 Điều 48 khoản 4 ghi 5,4%/năm."
+    severity: error
+  - issue: "legal_refs[2] Luật Nhà ở 27/2023/QH15 Điều 77 khoản 5 không có url (null), mục Nguồn cũng không có link. Điều 77 khoản 5 chỉ nêu hình thức hỗ trợ, không chứa thời hạn 20 năm hay lãi suất mà mục gán cho nó."
+    severity: error
+  - issue: "Mục viết Điều 30 khoản 1 'được sửa đổi theo NĐ 54/2026/NĐ-CP, hiệu lực 9/2/2026'. Bản hợp nhất: khoản 1 do NĐ 261/2025/NĐ-CP (10/10/2025) và NĐ 136/2026/NĐ-CP (7/4/2026) sửa; NĐ 54/2026 sửa Điều 29 khoản 1 và Điều 30 khoản 2. legal_refs[].doc cũng chỉ nêu NĐ 54/2026, thiếu 261/2025 và 136/2026."
+    severity: warn
+  - issue: "Ngưỡng 25/35/50 triệu chỉ áp dụng cho đối tượng khoản 5, 6, 8 Điều 76 Luật Nhà ở; mục không nêu đối tượng nên có thể làm hiểu sai (người thuộc khoản 2, 3, 4 xét theo hộ nghèo/cận nghèo)."
+    severity: warn
+  - issue: "steps nói 'kiểm bình quân dưới 15 m² sàn/người' cho mọi trường hợp; điều kiện này ở Điều 29 khoản 2 là cho nhà ở xã hội mua/thuê mua/thuê, không phải điều kiện vay sửa nhà (Điều 48 khoản 2)."
+    severity: warn
+  - issue: "Điều 29 khoản 2 tính diện tích theo người đăng ký thường trú tại căn nhà (cha mẹ, vợ/chồng, con); mục không nói cách tính nên 'bình quân dưới 15 m² sàn/người' dễ bị tính sai."
+    severity: warn
+  - issue: "Cặp con số trong tldr/steps (25 triệu, 50 triệu, 20 năm, 15 m², 12 tháng) có trong thân; không có mâu thuẫn số giữa các phần ngoài lỗi 20 năm so với nguồn."
+    severity: warn
+validity:
+  doc: "Nghị định 100/2024/NĐ-CP (bản hợp nhất 24/VBHN-BXD ngày 18/5/2026); Luật Nhà ở 27/2023/QH15"
+  in_force: unconfirmed
+  effective_from: "2024-08-01"
+  amended_by:
+    - "NĐ 261/2025/NĐ-CP (hiệu lực 2025-10-10)"
+    - "NĐ 54/2026/NĐ-CP (hiệu lực 2026-02-09)"
+    - "NĐ 136/2026/NĐ-CP (hiệu lực 2026-04-07)"
+  basis: "Trang đầu và Điều 77 của 24/VBHN-BXD (Bộ Xây dựng xác thực 18/5/2026) liệt kê ba lần sửa trên; không tìm thấy văn bản sửa sau 18/5/2026 nhưng thiếu bằng chứng chủ động (vbpl.vn chỉ trả khung) nên không kết luận còn hiệu lực đến 8/11/2026. Luật Nhà ở 2023: không mở được bản chính thống."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "tldr, Nói dễ hiểu, Pháp luật VN: sửa 'vay tối đa 20 năm' thành 'tối đa 25 năm kể từ ngày giải ngân khoản vay đầu tiên' (Điều 48 khoản 5 NĐ 100/2024, bản hợp nhất 24/VBHN-BXD)."
+  - "Pháp luật VN, mục Khoản vay: bỏ câu 'không có một con số cố định'; ghi 'lãi suất cho vay bằng 5,4%/năm; đổi mức lãi suất do Thủ tướng quyết định' (Điều 48 khoản 4 NĐ 100/2024). Đổi trích dẫn cho 'tối đa' và 'lãi suất' từ Điều 77 khoản 5 Luật Nhà ở sang Điều 48 NĐ 100/2024; Điều 77 khoản 5 chỉ dùng cho câu 'mua, thuê mua hoặc tự xây dựng, cải tạo, sửa chữa nhà ở'."
+  - "legal_refs và Nguồn: thêm Điều 48 NĐ 100/2024 (nguồn url đã có); thêm url chính thống cho Luật Nhà ở 27/2023/QH15 hoặc bỏ phần dẫn Điều 77 làm cơ sở cho số liệu."
+  - "Sửa chú thích sửa đổi: 'Điều 30 khoản 1 được sửa bởi NĐ 261/2025/NĐ-CP và NĐ 136/2026/NĐ-CP; NĐ 54/2026/NĐ-CP sửa Điều 29 khoản 1 và Điều 30 khoản 2'. Thêm hai NĐ đó vào legal_refs[].doc."
+  - "Thêm câu nêu ngưỡng 25/35/50 triệu chỉ áp dụng cho đối tượng khoản 5, 6, 8 Điều 76; khoản 2, 3, 4 xét hộ nghèo/cận nghèo (Điều 30 khoản 3)."
+  - "Thêm giới hạn khoản vay: mua/thuê mua tối đa 80% giá trị hợp đồng; xây/sửa tối đa 70% dự toán, không quá 1 tỷ đồng (Điều 48 khoản 3)."
+  - "Tách điều kiện 15 m² (Điều 29, cho mua/thuê mua/thuê nhà xã hội) khỏi điều kiện vay sửa nhà (Điều 48 khoản 2: có Giấy chứng nhận, phương án vốn, giấy phép xây dựng nếu cần, tài sản bảo đảm). Sửa step 2 cho đúng."
+  - "Câu 'không có quỹ nhà ở trích từ lương' ghi rõ là suy ra, hoặc diễn đạt 'không có quỹ bắt buộc người lao động đóng từ lương để mua nhà'. Phân biệt với Quỹ phát triển nhà ở địa phương (Điều 50)."

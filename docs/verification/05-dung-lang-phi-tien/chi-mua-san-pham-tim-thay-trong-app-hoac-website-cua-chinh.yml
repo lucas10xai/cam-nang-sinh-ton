@@ -1,0 +1,66 @@
+id: chi-mua-san-pham-tim-thay-trong-app-hoac-website-cua-chinh
+checked_at: 2026-11-08
+content_sha256: c9fdf05d9785c68b5000b55fd743b9ca97acdf34059efe9577e2967145825735
+checker: agent-V3a05h
+result: pass-with-edits
+claims:
+  - text: "Ngân hàng chỉ được thực hiện hoạt động ghi trong giấy phép; sản phẩm ngoài giấy phép là sản phẩm ngân hàng không được bán (Điều 15 khoản 1, Luật Các TCTD 32/2024/QH15)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/158-vbhn-vpqh.pdf
+    quote: "1. Tổ chức tín dụng, chi nhánh ngân hàng nước ngoài thực hiện hoạt động ngân hàng, hoạt động kinh doanh khác ngoài hoạt động ghi trong Giấy phép được Ngân hàng Nhà nước cấp cho tổ chức tín dụng, chi nhánh ngân hàng nước ngoài."
+    verdict: partial
+    note: "Điều 15 là điều 'Hành vi bị nghiêm cấm'; khoản 1 cấm TCTD làm hoạt động ngoài giấy phép. Phần đầu mục khớp ý. Nhưng 'sản phẩm ngoài giấy phép là sản phẩm ngân hàng không được bán' bỏ qua việc ngân hàng được phân phối sản phẩm bảo hiểm với tư cách đại lý (chính mục này nói ở Bẫy 3), nên 'có trong giấy phép' ≠ 'tra được trong app'."
+  - text: "Cấm gắn việc bán bảo hiểm không bắt buộc với việc cung ứng sản phẩm ngân hàng dưới mọi hình thức; 'muốn vay thì phải mua gói bảo hiểm' là hành vi bị cấm (Điều 15 khoản 5)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/158-vbhn-vpqh.pdf
+    quote: "5. Tổ chức tín dụng, chi nhánh ngân hàng nước ngoài, người quản lý, người điều hành, nhân viên của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài gắn việc bán sản phẩm bảo hiểm không bắt buộc với việc cung ứng sản phẩm, dịch vụ ngân hàng dưới mọi hình thức."
+    verdict: match
+    note: "Câu ví dụ là diễn giải hợp lý. Chỉ bảo hiểm KHÔNG BẮT BUỘC; lưu ý ở step 4 xem edits."
+  - text: "Hoạt động đại lý bảo hiểm khi không đáp ứng điều kiện là hành vi bị cấm (Điều 9 khoản 3, Luật KDBH 08/2022/QH15)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "3. Hoạt động đại lý bảo hiểm5 khi không đáp ứng điều kiện hoạt động theo quy định của pháp luật."
+    verdict: match
+    note: "VBHN 31/VBHN-VPQH; số '5' là chú thích (Luật 139/2025 bỏ cụm 'hoạt động dịch vụ phụ trợ bảo hiểm' từ 2026-07-01, không đổi nội dung khoản này). Điều khoản này không nói gì về việc kiểm tra tài khoản nhận tiền hay tên pháp nhân."
+  - text: "Cấm đe dọa, cưỡng ép giao kết hợp đồng bảo hiểm (Điều 9 khoản 5)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "5. Đe dọa, cưỡng ép giao kết hợp đồng bảo hiểm."
+    verdict: match
+    note: ""
+  - text: "Sản phẩm ngân hàng bán hợp pháp phải tra được trong app hoặc website của chính ngân hàng (tldr, tiêu đề, 'Ba câu hỏi': 'danh mục công bố của ngân hàng')"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/158-vbhn-vpqh.pdf
+    quote: "1. Tổ chức tín dụng được quyền ấn định và phải niêm yết công khai mức lãi suất huy động vốn, mức phí cung ứng dịch vụ trong hoạt động kinh doanh của tổ chức tín dụng."
+    verdict: inference
+    note: "Không điều luật nào được dẫn (và Điều 100 khoản 1 mà tôi đối chiếu chỉ buộc niêm yết lãi suất huy động và phí dịch vụ) buộc ngân hàng công bố danh mục sản phẩm trên app/website hay buộc 'sản phẩm bán hợp pháp phải tra được'. Đây là phương pháp thực hành, không phải quy định. Không tìm thấy quy định nào như vậy trong các điều được dẫn."
+  - text: "Dấu hiệu bán chéo trái phép: tiền không vào tài khoản pháp nhân của ngân hàng; chuyển tiền vào tài khoản cá nhân thì đừng ký"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "Không tìm thấy nguyên văn về việc cấm thu tiền bằng tài khoản cá nhân trong các điều được dẫn."
+    verdict: not-found
+    note: "Lời khuyên an toàn hợp lý (tránh lừa đảo) nhưng không có nguồn được dẫn; không gây hại, chỉ cần gắn nhãn khuyến nghị."
+  - text: "Với bảo hiểm liên kết đầu tư, ngân hàng chỉ phân phối, không bảo đảm lãi (Bẫy 3)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "Không tìm thấy nguyên văn trong các điều được dẫn."
+    verdict: not-found
+    note: "Không nguồn. Khẳng định thực tế, nên dẫn điều về sản phẩm bảo hiểm liên kết đầu tư/đại lý bảo hiểm hoặc nêu là nhận định."
+internal_checks:
+  - issue: "URL đúng văn bản: 158-vbhn-vpqh.pdf = Luật Các tổ chức tín dụng (VBHN, gồm 32/2024 và sửa đổi 43/2024, 96/2025); 31-vbhn-vpqh.pdf = Luật KDBH 08/2022 (VBHN, gồm sửa đổi 139/2025). Số điều/khoản khớp."
+    severity: warn
+  - issue: "Step 4 'Không chấp nhận lời giải thích miệng rằng phải mua thêm một sản phẩm mới được vay' và phần Lợi ích khái quát hóa Điều 15 khoản 5, vốn chỉ cấm gắn bán bảo hiểm KHÔNG BẮT BUỘC. Với sản phẩm ngoài bảo hiểm (ví dụ mở tài khoản, gửi tiền, thẻ) luật được dẫn không cấm; một số điều kiện vay hợp pháp có thể nằm trong hợp đồng tín dụng."
+    severity: warn
+  - issue: "'Bẫy 1' và 'Ba câu hỏi' không có cơ sở trong legal_refs; Điều 9 khoản 3 Luật KDBH (đại lý không đủ điều kiện) được dùng như thể liên quan đến 'xác minh tài khoản nhận tiền', không khớp."
+    severity: warn
+  - issue: "Con số: '5 phút' có trong thân (tldr/steps không mâu thuẫn). Không phát hiện mâu thuẫn số liệu. Chưa đối chiếu mục 48 trong cùng chương: mục 48 dẫn Điều 15 khoản 5 và Điều 9 khoản 5 giống mục 50, nhất quán."
+    severity: warn
+validity:
+  doc: "Luật Các tổ chức tín dụng 32/2024/QH15 (VBHN 158/VBHN-VPQH); Luật Kinh doanh bảo hiểm 08/2022/QH15 (VBHN 31/VBHN-VPQH)"
+  in_force: true
+  effective_from: "2024-07-01 (Luật TCTD); 2023-01-01 (Luật KDBH)"
+  amended_by:
+    - "Luật TCTD: 43/2024/QH15 (2024-08-01); 96/2025/QH15 (2025-10-15)"
+    - "Luật KDBH: 139/2025/QH15 (2026-01-01; một số khoản 2026-07-01)"
+  basis: "Hai văn bản hợp nhất chính thống trên datafiles.chinhphu.vn, trang đầu nêu rõ hiệu lực và các luật sửa đổi; các điều được dẫn xuất hiện nguyên trong bản hợp nhất. Luật TCTD hợp nhất đăng 2025/9, sau Luật 96/2025 (hiệu lực 15/10/2025); chưa kiểm sửa đổi sau thời điểm này, nên chỉ đảm bảo đến bản hợp nhất."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Điều 15 khoản 1: bỏ/viết lại 'sản phẩm ngoài giấy phép là sản phẩm ngân hàng không được bán' (thêm 'ngân hàng vẫn được phân phối sản phẩm bảo hiểm với tư cách đại lý')."
+  - "tldr/tiêu đề/'Ba câu hỏi': nêu rõ 'tra app/website' là cách kiểm tra thực hành, không phải nghĩa vụ luật định (hoặc dẫn quy định cụ thể); không viết 'sản phẩm ngân hàng bán hợp pháp phải tra được'."
+  - "Step 4 và Lợi ích: sửa thành 'Không chấp nhận lời giải thích miệng rằng phải mua thêm bảo hiểm (không bắt buộc) mới được vay', dựa vào quote Điều 15 khoản 5."
+  - "Bỏ Điều 9 khoản 3 Luật KDBH khỏi cơ sở cho phần xác minh tài khoản/pháp nhân, hoặc diễn đạt đúng: 'đại lý bảo hiểm phải đủ điều kiện hoạt động'."
+  - "Gắn nhãn 'nhận định thực tế' cho Bẫy 1/3 hoặc dẫn nguồn."

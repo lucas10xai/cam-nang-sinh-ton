@@ -14,19 +14,19 @@ evidence: B
 contested: false
 vn_class: vn_native
 rewrite_status: rewritten
-tldr: "Gửi email cho bộ phận bảo vệ dữ liệu, nêu rõ quyền và loại dữ liệu, ghi ngày gửi. Họ phải phản hồi trong 02 ngày làm việc; làm xong trong 10 ngày (xem) hoặc 20 ngày (xóa)."
+tldr: "Gửi yêu cầu qua kênh hoặc biểu mẫu bên kiểm soát công bố, nêu rõ quyền và loại dữ liệu, giữ bản gửi. Họ phải phản hồi trong 02 ngày làm việc; làm xong trong 10 ngày (xem) hoặc 20 ngày (xóa), có thể gia hạn một lần."
 steps:
-  - "Gửi email cho bộ phận bảo vệ dữ liệu, nêu rõ muốn xem, xin bản sao, sửa hoặc xóa những loại dữ liệu nào."
+  - "Gửi yêu cầu qua kênh hoặc biểu mẫu mà bên kiểm soát công bố (email hoặc biểu mẫu), nêu rõ muốn xem, xin bản sao, sửa hay xóa dữ liệu nào."
   - "Tách từng loại dữ liệu và từng mục đích thành từng yêu cầu riêng."
-  - "Ghi lại ngày gửi và giữ chứng cứ đã gửi."
-  - "Đếm ngày: 02 ngày làm việc để phản hồi, 10 ngày (xem, cung cấp, chỉnh sửa) hoặc 20 ngày (xóa) để làm xong."
+  - "Ghi lại ngày gửi và giữ bản đã gửi. Nếu muốn lưu dấu thêm, gửi kèm một email."
+  - "Đếm ngày: 02 ngày làm việc để phản hồi; 10 ngày (xem, cung cấp, sửa) hoặc 20 ngày (xóa) để làm xong, có thể gia hạn."
 legal_refs:
-  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 4 khoản 1 điểm c, d, đ và khoản 4", url: "https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-du-lieu-ca-nhan-so-91-2025-qh15--179252", effective_from: null, checked_at: "2026-11-03", quote: null }
-  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 10 khoản 2", url: "https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-du-lieu-ca-nhan-so-91-2025-qh15--179252", effective_from: null, checked_at: "2026-11-03", quote: null }
-  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 13 khoản 1, 2, 3", url: "https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-du-lieu-ca-nhan-so-91-2025-qh15--179252", effective_from: null, checked_at: "2026-11-03", quote: null }
-  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 14 khoản 1 điểm a, khoản 2, khoản 5", url: "https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-du-lieu-ca-nhan-so-91-2025-qh15--179252", effective_from: null, checked_at: "2026-11-03", quote: null }
-  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 19", url: "https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-du-lieu-ca-nhan-so-91-2025-qh15--179252", effective_from: null, checked_at: "2026-11-03", quote: null }
-  - { doc: "Nghị định 356/2025/NĐ-CP", article: "Điều 5 khoản 3 và khoản 4", url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-356-2025-nd-cp-468371.htm", effective_from: null, checked_at: "2026-11-03", quote: null }
+  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 4 khoản 1 điểm c, d, đ và khoản 4", url: "https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-du-lieu-ca-nhan-so-91-2025-qh15--179252", effective_from: "2026-01-01", checked_at: "2026-11-03", quote: null }
+  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 10 khoản 2", url: "https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-du-lieu-ca-nhan-so-91-2025-qh15--179252", effective_from: "2026-01-01", checked_at: "2026-11-03", quote: null }
+  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 13 khoản 1, 2, 3", url: "https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-du-lieu-ca-nhan-so-91-2025-qh15--179252", effective_from: "2026-01-01", checked_at: "2026-11-03", quote: null }
+  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 14 khoản 1 điểm a, khoản 2, khoản 5", url: "https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-du-lieu-ca-nhan-so-91-2025-qh15--179252", effective_from: "2026-01-01", checked_at: "2026-11-03", quote: null }
+  - { doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15", article: "Điều 19", url: "https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-du-lieu-ca-nhan-so-91-2025-qh15--179252", effective_from: "2026-01-01", checked_at: "2026-11-03", quote: null }
+  - { doc: "Nghị định 356/2025/NĐ-CP", article: "Điều 5 khoản 1, 3 và khoản 4", url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-356-2025-nd-cp-468371.htm", effective_from: "2026-01-01", checked_at: "2026-11-03", quote: null }
 verification:
   status: unverified
   checked_at: null
@@ -44,20 +44,21 @@ tags: []
 
 ## Nói dễ hiểu
 
-Gửi email cho bộ phận bảo vệ dữ liệu, nêu rõ muốn xem, xin bản sao, sửa và xóa những loại dữ liệu nào; ghi lại ngày gửi. Hạn trả lời là 02 ngày làm việc, hạn làm xong là 10 ngày với yêu cầu xem và 20 ngày với yêu cầu xóa.
+Gửi yêu cầu qua kênh hoặc biểu mẫu mà bên kiểm soát dữ liệu công bố (thường là email hoặc biểu mẫu của bộ phận bảo vệ dữ liệu), nêu rõ muốn xem, xin bản sao, sửa hay xóa loại dữ liệu nào; ghi lại ngày gửi. Hạn trả lời là 02 ngày làm việc, hạn làm xong là 10 ngày với yêu cầu xem và 20 ngày với yêu cầu xóa.
 
 ## Chi phí
 
 Không tốn tiền. Bạn mất thời gian chờ và công đếm ngày:
 
 - 02 ngày làm việc để họ phản hồi.
-- 10 ngày để làm xong yêu cầu xem hoặc yêu cầu cung cấp.
-- 20 ngày nếu là yêu cầu xóa.
+- 10 ngày để làm xong yêu cầu xem, cung cấp hoặc chỉnh sửa (15 ngày nếu phải yêu cầu bên thứ ba chỉnh sửa).
+- 20 ngày nếu là yêu cầu xóa (30 ngày nếu phải yêu cầu bên thứ ba).
+- Nguồn không nói 10 và 20 ngày là ngày lịch hay ngày làm việc; chỉ "02 ngày làm việc" ghi rõ.
 - Cộng thêm một lần gia hạn, nếu họ nêu lý do và chứng minh được là cần thiết.
 
 ## Lợi ích
 
-Bạn có thể yêu cầu doanh nghiệp cung cấp, điều chỉnh hoặc xóa dữ liệu theo điều kiện áp dụng. Gửi yêu cầu có ngày tháng và giữ chứng cứ đã gửi để theo dõi.
+Bạn có thể yêu cầu doanh nghiệp cung cấp, điều chỉnh hoặc xóa dữ liệu theo điều kiện áp dụng. Gửi yêu cầu có ngày tháng và giữ bản đã gửi để theo dõi.
 
 ## Pháp luật Việt Nam
 
@@ -67,7 +68,8 @@ Bạn có thể yêu cầu doanh nghiệp cung cấp, điều chỉnh hoặc xó
 - Quyền yêu cầu cung cấp, xóa, hạn chế xử lý dữ liệu và gửi yêu cầu phản đối xử lý. (Điều 4 khoản 1 điểm d, Luật 91/2025/QH15)
 - Quyền khiếu nại, tố cáo, khởi kiện và yêu cầu bồi thường thiệt hại. (Điều 4 khoản 1 điểm đ, Luật 91/2025/QH15)
 - Cơ quan, tổ chức không được gây khó khăn, cản trở. (Điều 4 khoản 4, Luật 91/2025/QH15)
-- Yêu cầu rút lại sự đồng ý phải thể hiện bằng văn bản, bao gồm cả dạng điện tử, nên email là hình thức hợp lệ. (Điều 10 khoản 2, Luật 91/2025/QH15)
+- Điều 10 áp dụng cho yêu cầu rút lại sự đồng ý hoặc hạn chế xử lý, không phải yêu cầu xem, sao, sửa, xóa: loại yêu cầu này phải bằng văn bản, kể cả dạng điện tử. (Điều 10 khoản 2, Luật 91/2025/QH15)
+- Bên kiểm soát phải xây dựng quy trình, thủ tục, biểu mẫu rõ ràng để bạn thực hiện quyền; đồng hồ thời hạn tính cho yêu cầu theo đúng thủ tục đó. (Điều 5 khoản 1, 3, 4, Nghị định 356/2025/NĐ-CP)
 
 **Chỉnh sửa**
 
@@ -77,7 +79,7 @@ Bạn có thể yêu cầu doanh nghiệp cung cấp, điều chỉnh hoặc xó
 **Xóa**
 
 - Được xóa theo yêu cầu của chính bạn, với điều kiện bạn chấp nhận các rủi ro, thiệt hại có thể xảy ra với mình và tuân thủ nguyên tắc tại khoản 3 Điều 4. (Điều 14 khoản 1 điểm a, Luật 91/2025/QH15)
-- Các trường hợp được từ chối xóa nằm ở Điều 19. (Điều 14 khoản 2, Luật 91/2025/QH15)
+- Được từ chối xóa trong các trường hợp ở Điều 19 (các trường hợp xử lý không cần sự đồng ý), hoặc khi việc xóa vi phạm khoản 3 Điều 4. (Điều 14 khoản 2, Luật 91/2025/QH15)
 - Khi không thể xóa, phải thông báo. (Điều 14 khoản 5, Luật 91/2025/QH15)
 
 **Thời hạn (Nghị định 356/2025/NĐ-CP)**
@@ -87,14 +89,14 @@ Bạn có thể yêu cầu doanh nghiệp cung cấp, điều chỉnh hoặc xó
 
 ## Ghi chú
 
-Bốn quyền và các mốc thời hạn đều đọc được trong luật và nghị định có số hiệu, và đều đếm được trên lịch. Nhưng hạn trả lời và hạn làm xong tính khác đơn vị nhau. Đọc kỹ đơn vị của từng mốc trước khi nhắc bên kia đã quá hạn.
+Bốn quyền và các mốc thời hạn đều đọc được trong luật và nghị định có số hiệu, và đều đếm được trên lịch. Nhưng chỉ hạn trả lời được ghi rõ là ngày làm việc; nguồn không nói rõ 10 và 20 ngày là ngày lịch hay ngày làm việc. Hãy cân nhắc cả khả năng gia hạn một lần trước khi nhắc bên kia đã quá hạn.
 
-**Phạm vi.** Quyền áp cho dữ liệu cá nhân do tổ chức chịu sự điều chỉnh của luật Việt Nam kiểm soát. Với tài khoản của nền tảng nước ngoài, đường thực thi dài hơn. Nghĩa vụ lưu trữ của luật chuyên ngành như kế toán, ngân hàng, thuế vẫn có thể chặn yêu cầu xóa.
+**Phạm vi.** Quyền áp cho dữ liệu cá nhân do tổ chức chịu sự điều chỉnh của luật Việt Nam kiểm soát. Với tài khoản của nền tảng nước ngoài, đường thực thi dài hơn. Nghĩa vụ lưu trữ của luật chuyên ngành như kế toán, ngân hàng, thuế vẫn có thể chặn yêu cầu xóa (suy ra từ Điều 19, không phải chữ cụ thể của luật về các ngành đó).
 
 **Vì sao chưa lên A.** Không có số liệu Việt Nam nào đo tỷ lệ yêu cầu được đáp ứng đúng hạn.
 
-- **Bẫy 1: gọi tổng đài chăm sóc khách hàng rồi coi là đã yêu cầu.** Hạn 02 ngày làm việc chỉ bắt đầu từ lúc yêu cầu đúng thủ tục tới tay bên kiểm soát dữ liệu.
-- **Bẫy 2: đòi xóa sạch mọi thứ trong một câu.** Bạn có thể bị từ chối đúng luật vì Điều 19 và luật chuyên ngành. Hãy tách từng loại dữ liệu và từng mục đích thành từng yêu cầu riêng.
+- **Bẫy 1: gọi tổng đài chăm sóc khách hàng rồi coi là đã yêu cầu.** Nghị định tính hạn cho yêu cầu "theo đúng thủ tục"; suy ra hạn 02 ngày làm việc chỉ chắc chắn chạy khi yêu cầu đến đúng kênh bên kiểm soát công bố.
+- **Bẫy 2: đòi xóa sạch mọi thứ trong một câu.** Bạn có thể bị từ chối đúng luật vì Điều 19 (và có thể cả luật chuyên ngành). Hãy tách từng loại dữ liệu và từng mục đích thành từng yêu cầu riêng.
 - **Bẫy 3: cho rằng xóa xong là không còn bản sao nào.** Luật chỉ cấm khôi phục trái phép dữ liệu đã xóa và buộc thông báo khi không xóa được.
 
 Xem được dữ liệu không đồng nghĩa với việc nhận được mọi thứ họ đang giữ. Luật cho quyền xem và quyền yêu cầu cung cấp dữ liệu cá nhân của chính bạn, không phải hồ sơ nội bộ hay dữ liệu về người khác.
@@ -102,5 +104,5 @@ Xem được dữ liệu không đồng nghĩa với việc nhận được mọ
 ## Nguồn
 
 - Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 (Điều 4 khoản 1 điểm c, d, đ và khoản 4; Điều 10 khoản 2; Điều 13; Điều 14; Điều 19) https://vbpl.vn/van-ban/chi-tiet/luat-bao-ve-du-lieu-ca-nhan-so-91-2025-qh15--179252
-- Nghị định 356/2025/NĐ-CP, Công báo số 18 ngày 18/01/2026, bản PDF có lớp text (Điều 5 khoản 3 và khoản 4) https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-356-2025-nd-cp-468371.htm
+- Nghị định 356/2025/NĐ-CP, Công báo số 18 ngày 18/01/2026, bản PDF có lớp text (Điều 5 khoản 1, 3 và khoản 4) https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-356-2025-nd-cp-468371.htm
 - Tra ngày 3/11/2026.

@@ -3,7 +3,7 @@ id: dong-dat-nha-du-kha-nang-chiu-dong-dat-thi-nup-tai
 legacy: "13-30"
 chapter: 13
 number: 30
-title: "Động đất: nhà đủ khả năng chịu động đất thì núp tại chỗ, nhà cũ dễ sập mà cửa cách vài bước thì ra ngoài"
+title: "Động đất: quỳ xuống, che đầu cổ, chui xuống gầm bàn chắc và bám chặt cho tới khi hết rung; không chạy lúc đang rung, hết rung mới ra ngoài nếu an toàn"
 cost:
   money: "0"
   time: low
@@ -14,14 +14,16 @@ evidence: B
 contested: false
 vn_class: adapted
 rewrite_status: rewritten
-tldr: "Nhà xây theo chuẩn kháng chấn: chui xuống gầm bàn chắc, ôm đầu, đợi hết rung. Nhà cũ dễ sập mà cửa ra sân chỉ vài bước: chạy ra bãi trống. Không nhảy lầu, không vào thang máy."
+tldr: "Đang rung: quỳ xuống, che đầu và cổ, chui xuống gầm bàn chắc, bám chặt tới khi hết rung. Không chạy, không vào thang máy, không nhảy lầu. Hết rung, đợi khoảng một phút rồi ra ngoài nếu an toàn."
 steps:
-  - "Nhà xây theo tiêu chuẩn kháng chấn: chui xuống gầm bàn chắc, hai tay ôm đầu che gáy, bám chân bàn cho tới khi hết rung."
-  - "Nhà cũ, tường gạch không giằng, cửa ra sân chỉ vài bước: chạy ra bãi trống."
-  - "Không nhảy lầu, không vào thang máy, không chen xuống cầu thang lúc đang rung."
-  - "Khi chưa có động đất: đi một vòng trong nhà, đếm số bước từ chỗ hay ngồi ra sân, chọn cái bàn chắc, tìm lối cầu thang thoát ra, hỏi nhà xây năm nào và có bản vẽ thiết kế không."
+  - "Khi đang rung: quỳ xuống bằng tay và gối, che đầu và cổ, chui xuống gầm bàn chắc, bám chặt chân bàn cho tới khi hết rung."
+  - "Không có bàn chắc: ép sát tường trong, xa cửa kính, dùng hai tay che đầu và cổ."
+  - "Không chạy, không đi lại lúc đang rung: ngã hoặc bị vật rơi trúng là cách người ta bị thương, tử vong."
+  - "Không nhảy lầu, không vào thang máy, không chen xuống cầu thang lúc đang rung (suy ra, không phải chữ của nguồn)."
+  - "Hết rung, đợi khoảng một phút rồi đứng dậy; nếu an toàn thì ra khỏi nhà. Có dư chấn thì lại quỳ, che, bám."
+  - "Khi chưa có động đất: biết chỗ an toàn từng phòng, chọn bàn chắc, cố định đồ dễ đổ, lập kế hoạch thoát khỏi nhà."
 legal_refs:
-  - { doc: "TCVN 9386:2012 Thiết kế công trình chịu động đất", article: "Mục 2.1 (yêu cầu không sụp đổ); mục 3.1.3 (động đất mạnh, yếu, rất yếu); phụ lục G, H (phân vùng gia tốc nền)", url: "https://mtu.edu.vn/Resources/Docs/Khoa%20-%20Bo%20mon/Khoa%20Xay%20dung/Tai%20lieu%20tham%20khao/TCVN/Thiet-ke/TCVN9386_2012.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
+  - { doc: "TCVN 9386:2012 Thiết kế công trình chịu động đất", article: "Mục 2.1 (yêu cầu không sụp đổ); Lời nói đầu và mục 3.2.1(4),(5) (động đất mạnh, yếu, rất yếu); phụ lục H (gia tốc nền tham chiếu agR)", url: "https://mtu.edu.vn/Resources/Docs/Khoa%20-%20Bo%20mon/Khoa%20Xay%20dung/Tai%20lieu%20tham%20khao/TCVN/Thiet-ke/TCVN9386_2012.pdf", effective_from: null, checked_at: "2026-11-03", quote: "Kết cấu phải được thiết kế và thi công để chịu được tác động động đất thiết kế như định nghĩa trong Chương 3 mà không bị sụp đổ cục bộ hay sụp đổ toàn phần, đồng thời giữ được tính toàn vẹn của kết cấu và còn một phần khả năng chịu tải trọng sau khi động đất xảy ra." }
 verification:
   status: needs-medical-review
   checked_at: "2026-11-08"
@@ -39,56 +41,44 @@ tags: []
 
 ## Nói dễ hiểu
 
-Nhà xây theo tiêu chuẩn kháng chấn: chui xuống gầm bàn chắc, hai tay ôm đầu che gáy, bám chân bàn cho tới khi hết rung.
-
-Nhà cũ, tường gạch không giằng, cửa ra sân chỉ vài bước: chạy ra bãi trống. Không nhảy lầu, không vào thang máy, không chen xuống cầu thang lúc đang rung.
+Đang rung: quỳ xuống bằng tay và gối, che đầu và cổ, chui xuống gầm bàn chắc, bám chặt cho tới khi hết rung. Không có bàn thì ép sát tường trong, xa cửa kính. Không chạy, không vào thang máy lúc đang rung; hết rung, đợi khoảng một phút rồi ra ngoài nếu an toàn.
 
 ## Chi phí
 
 Không mất tiền. Việc phải làm là một buổi đi một vòng trong nhà.
 
-- Đếm xem từ chỗ hay ngồi ra sân là mấy bước.
-- Xem cái bàn nào chắc, cầu thang thoát ra đâu.
-- Hỏi xem nhà mình xây năm nào, có bản vẽ thiết kế không.
+- Xem cái bàn nào chắc trong mỗi phòng, đồ nào có thể đổ.
+- Chọn lối thoát ra ngoài nhà.
 
 ## Lợi ích
 
-Tiêu chuẩn quốc gia về thiết kế công trình chịu động đất đặt yêu cầu không sụp đổ. Kết cấu phải được thiết kế và thi công để chịu được tác động động đất thiết kế mà không bị sụp đổ cục bộ hay sụp đổ toàn phần. Đồng thời phải giữ được tính toàn vẹn và còn một phần khả năng chịu tải sau động đất.
+**CDC (Mỹ):** phần lớn người chết và bị thương trong động đất do vật liệu xây dựng đổ và vật nặng như tủ sách, tủ, thiết bị sưởi rơi xuống. Cách làm: quỳ xuống bằng tay và gối, che đầu và cổ (và cả người nếu được) dưới bàn chắc; không có chỗ che thì lại gần tường trong hoặc đồ thấp không đổ vào người, che đầu cổ bằng hai tay; bám vào chỗ che cho tới khi hết rung.
 
-Tiêu chuẩn chia ba trường hợp theo gia tốc nền thiết kế:
-
-- Động đất mạnh, từ 0,08g trở lên: phải tính toán và cấu tạo kháng chấn.
-- Động đất yếu, từ 0,04g đến dưới 0,08g: chỉ cần giải pháp kháng chấn giảm nhẹ.
-- Dưới 0,04g: không cần thiết kế kháng chấn.
-
-Bảng phân vùng gia tốc nền theo địa danh hành chính trong phụ lục ghi nội thành Hà Nội ở mức 0,0976g đến 0,1032g, tức nằm trong nhóm phải tính kháng chấn.
-
-Từ ba con số đó, việc cần xem là chỗ nào trong căn nhà mình chịu được rung mà không đổ.
+**Red Cross Mỹ:** người chết và bị thương khi ngã lúc đi hoặc chạy trong lúc rung, hoặc bị mảnh vỡ rơi trúng. Không tìm được chỗ che thì bò đến tường trong, xa cửa sổ. Hết rung, đợi một phút rồi đứng dậy; nếu an toàn thì ra khỏi nhà. Chờ dư chấn và lại quỳ, che, bám mỗi khi rung.
 
 ## Pháp luật Việt Nam
 
+TCVN 9386:2012 là tiêu chuẩn thiết kế công trình mới, không phải hướng dẫn hành động khi có động đất. Phần hành động ở trên dựa vào CDC và Red Cross, không phải chữ của tiêu chuẩn này.
+
 - Kết cấu phải chịu được tác động động đất thiết kế mà không sụp đổ cục bộ hay toàn phần, giữ tính toàn vẹn và còn một phần khả năng chịu tải (mục 2.1, TCVN 9386:2012).
-- Động đất mạnh, gia tốc nền từ 0,08g trở lên: phải tính toán và cấu tạo kháng chấn (mục 3.1.3, TCVN 9386:2012).
-- Động đất yếu, từ 0,04g đến dưới 0,08g: chỉ cần giải pháp kháng chấn giảm nhẹ (mục 3.1.3, TCVN 9386:2012).
-- Dưới 0,04g: không cần thiết kế kháng chấn (mục 3.1.3, TCVN 9386:2012).
-- Nội thành Hà Nội: Ba Đình 0,0976g, Cầu Giấy 0,1032g (phụ lục G, H, TCVN 9386:2012).
+- Theo gia tốc nền thiết kế ag, động đất mạnh từ 0,08g trở lên phải tính toán và cấu tạo kháng chấn; yếu, từ 0,04g đến dưới 0,08g, chỉ cần giải pháp kháng chấn giảm nhẹ; rất yếu, dưới 0,04g, không cần thiết kế kháng chấn (Lời nói đầu và mục 3.2.1(4),(5), TCVN 9386:2012).
 
 ## Ghi chú
 
-**Mức bằng chứng B.** Yêu cầu không sụp đổ và ba ngưỡng gia tốc nền đọc được nguyên văn. Nhưng tiêu chuẩn nói về nhà được thiết kế theo nó, không nói cách nhận biết một căn nhà cụ thể đã được thiết kế như vậy. Cũng không có thống kê Việt Nam nào tách riêng số người chết vì chọn núp hay chọn chạy.
+Ba mức 0,08g và 0,04g áp dụng cho ag = γI × agR (gia tốc nền thiết kế), còn bảng phụ lục H cho agR (gia tốc nền tham chiếu). Phụ lục H ghi nội thành Hà Nội từ 0,0747 (Long Biên) đến 0,1097 (Thanh Xuân); Ba Đình 0,0976, Cầu Giấy 0,1032. Các số này chỉ cho biết mức rung tham chiếu theo địa danh, không cho biết căn nhà cụ thể có đủ kháng chấn hay không.
 
-Người trong nhà thường mắc lỗi ở ba việc:
+Bản TCVN dẫn là bản sao trên trang khoa của một trường đại học, không phải bản chính thống. Một nguồn thứ cấp cho biết TCVN 9386:2025 đã ban hành để thay bản 2012; mục chưa xác nhận được điều này. Hướng dẫn hành động đối chiếu theo CDC và Red Cross, chưa có hướng dẫn của cơ quan Việt Nam trong nguồn đã mở. Không có thống kê Việt Nam nào tách số người chết vì chọn núp hay chọn chạy.
 
-- **Bẫy 1: đọc chữ "kiên cố" theo cảm giác.** Thấy tường dày, nhà mới quét vôi là yên tâm. Nhưng nhà cấp bốn tự xây không giằng và nhà xây trước khi tiêu chuẩn kháng chấn được áp dụng đều không có gì bảo đảm.
-- **Bẫy 2: nghe rung là lao xuống cầu thang hoặc gọi thang máy.** Cầu thang là chỗ dồn người, thang máy là chỗ kẹt, mất điện.
-- **Bẫy 3: đứng ngay ô cửa vì nghĩ khung cửa chắc nhất.** Gạch và tấm đan phía trên khung cửa là thứ rơi trước.
+- **Bẫy 1: chia nhà thành "nhà chuẩn kháng chấn" và "nhà cũ" rồi chọn núp hay chạy.** Người trong nhà không có cách nhận biết nhà mình thuộc loại nào, nên mục không dùng cách chia này. Red Cross và CDC dạy che chắn tại chỗ cho mọi nhà.
+- **Bẫy 2: nghe rung là lao xuống cầu thang hoặc gọi thang máy.** Red Cross nói người bị thương khi ngã lúc đi hoặc chạy trong lúc rung. Chuyện thang máy và nhảy lầu là suy ra, không có chữ trong nguồn.
+- **Bẫy 3: đứng ngay ô cửa vì nghĩ khung cửa chắc nhất.** Nguồn không nói gì về khung cửa; Red Cross khuyên tránh cửa sổ và ép sát tường trong khi không có chỗ che.
 
-Mục này không có nghĩa là nhà đủ kháng chấn thì tuyệt đối an toàn.
-
-Cũng không có nghĩa là hễ thấy nhà cũ thì cứ chạy, kể cả khi đang ở tầng năm và không còn mấy giây.
+Mục này không có nghĩa là che chắn tại chỗ thì tuyệt đối an toàn.
 
 ## Nguồn
 
-- TCVN 9386:2012 Thiết kế công trình chịu động đất, mục 2.1 yêu cầu không sụp đổ, mục 3.1.3 phân ba trường hợp động đất mạnh, yếu, rất yếu; phụ lục G bản đồ phân vùng gia tốc nền và phụ lục H bảng gia tốc nền theo địa danh hành chính (Hà Nội: Ba Đình 0,0976g, Cầu Giấy 0,1032g), bản toàn văn 230 trang — https://mtu.edu.vn/Resources/Docs/Khoa%20-%20Bo%20mon/Khoa%20Xay%20dung/Tai%20lieu%20tham%20khao/TCVN/Thiet-ke/TCVN9386_2012.pdf
+- CDC, "Earthquake safety" — https://www.cdc.gov/earthquakes/safety/index.html
+- American Red Cross, "Earthquake safety" — https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/earthquake.html
+- TCVN 9386:2012 Thiết kế công trình chịu động đất, mục 2.1, Lời nói đầu, mục 3.2.1(4),(5), phụ lục H (bản sao trên mtu.edu.vn, 230 trang) — https://mtu.edu.vn/Resources/Docs/Khoa%20-%20Bo%20mon/Khoa%20Xay%20dung/Tai%20lieu%20tham%20khao/TCVN/Thiet-ke/TCVN9386_2012.pdf
 
 Tra ngày 3/11/2026.

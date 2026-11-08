@@ -14,11 +14,11 @@ evidence: B
 contested: false
 vn_class: vn_native
 rewrite_status: rewritten
-tldr: "Đổi tỉnh hay đổi việc thì thời gian đóng bảo hiểm xã hội được bảo lưu, không cần rút. Rút một lần là mất thời gian đã đóng; muốn có lương hưu phải đủ 15 năm đóng và đủ tuổi."
+tldr: "Đổi tỉnh hay đổi việc thì thời gian đóng bảo hiểm xã hội được bảo lưu, không cần rút. Rút một lần là mất thời gian đã đóng; muốn có lương hưu thường phải đủ 15 năm đóng và đủ tuổi."
 steps:
   - "Giữ sổ bảo hiểm xã hội và bảng lương; đóng tiếp nếu còn làm."
   - "Đừng quyết định rút trong tuần cuối cùng. Chỉ rút khi rơi đúng một trường hợp của Điều 70 khoản 1."
-  - "Báo trước khi nghỉ để không mất trợ cấp thôi việc và trợ cấp thất nghiệp."
+  - "Báo trước đúng quy định khi nghỉ, để không bị coi là nghỉ trái luật và mất trợ cấp thôi việc, trợ cấp thất nghiệp."
   - "Nếu đang hưởng trợ cấp thất nghiệp mà đổi tỉnh, yêu cầu chuyển nơi hưởng."
 legal_refs:
   - { doc: "Luật Bảo hiểm xã hội 41/2024/QH15", article: "Điều 71", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/41-2024-qh15.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
@@ -27,6 +27,7 @@ legal_refs:
   - { doc: "Luật Bảo hiểm xã hội 41/2024/QH15", article: "Điều 64", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/41-2024-qh15.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
   - { doc: "Luật Bảo hiểm xã hội 41/2024/QH15", article: "Điều 66 khoản 1", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/41-2024-qh15.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
   - { doc: "Luật Bảo hiểm xã hội 41/2024/QH15", article: "Điều 68", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/41-2024-qh15.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
+  - { doc: "Luật Bảo hiểm xã hội 41/2024/QH15", article: "Điều 98", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/41-2024-qh15.pdf", effective_from: null, checked_at: "2026-11-08", quote: null }
   - { doc: "Bộ luật Lao động 45/2019/QH14 (hợp nhất tại Văn bản hợp nhất 18/VBHN-VPQH)", article: "Điều 169 khoản 2", url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm", effective_from: null, checked_at: "2026-11-03", quote: null }
   - { doc: "Bộ luật Lao động 45/2019/QH14 (hợp nhất tại Văn bản hợp nhất 18/VBHN-VPQH)", article: "Điều 40", url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm", effective_from: null, checked_at: "2026-11-03", quote: null }
   - { doc: "Luật Việc làm 74/2025/QH15", article: "Điều 41 khoản 1", url: "https://congbao.chinhphu.vn/van-ban/luat-so-74-2025-qh15-45562.htm", effective_from: null, checked_at: "2026-11-03", quote: null }
@@ -49,7 +50,7 @@ tags: []
 
 ## Nói dễ hiểu
 
-Đổi tỉnh hay đổi công ty không phải rút bảo hiểm. Thời gian đóng được giữ lại và cộng dồn. Rút một lần chỉ được 1,5 tháng lương mỗi năm trước 2014 và 02 tháng mỗi năm từ 2014. Muốn có lương hưu cần 15 năm đóng và đủ tuổi: năm 2026 là nam 61 tuổi 6 tháng, nữ 57 tuổi.
+Đổi tỉnh hay đổi công ty không phải rút bảo hiểm. Thời gian đóng được giữ lại và cộng dồn. Rút một lần chỉ được 1,5 tháng lương mỗi năm trước 2014 và 02 tháng mỗi năm từ 2014. Muốn có lương hưu thường cần 15 năm đóng và đủ tuổi: năm 2026 là nam 61 tuổi 6 tháng, nữ 57 tuổi (điều kiện lao động bình thường).
 
 ## Chi phí
 
@@ -57,7 +58,7 @@ Rút một lần là lấy tiền mặt ngay. Số tiền đó có trần đọc
 - 1,5 tháng lương bình quân cho mỗi năm đóng trước 2014.
 - 02 tháng cho mỗi năm đóng từ 2014 trở đi.
 
-Mười năm đóng từ 2014 ra 20 tháng lương, chưa bằng hai năm thu nhập. Phần lớn người rút tiêu hết trong vòng một năm.
+Mười năm đóng từ 2014 ra 20 tháng lương, chưa bằng hai năm thu nhập.
 
 Cái mất đối lại là khoản trả hằng tháng suốt đời. Đủ 15 năm đóng và đủ tuổi thì lao động nữ có lương hưu bằng 45% bình quân tiền lương đóng, mỗi năm thêm 2% và dừng ở 75%.
 
@@ -72,17 +73,18 @@ Chi phí thời gian của việc làm đúng chỉ là một buổi ra cơ quan
 ## Pháp luật Việt Nam
 
 **Bảo lưu khi đổi chỗ làm**
-- Người lao động khi nghỉ việc mà chưa đủ điều kiện hưởng lương hưu, chưa hưởng bảo hiểm xã hội một lần và chưa hưởng trợ cấp hằng tháng thì được bảo lưu thời gian đóng (Điều 71, Luật Bảo hiểm xã hội 41/2024/QH15).
-- Bảo lưu nghĩa là thời gian đã đóng vẫn nằm trong sổ và vẫn được tính khi về sau đủ điều kiện (diễn giải từ Điều 71, Luật Bảo hiểm xã hội 41/2024/QH15).
-- Sổ cấp cho từng người; bản điện tử và bản giấy có giá trị pháp lý như nhau. Đổi tỉnh không làm mất sổ và không buộc phải rút (Điều 25, Luật Bảo hiểm xã hội 41/2024/QH15).
+- Người lao động khi nghỉ việc mà chưa đủ điều kiện hưởng lương hưu, hoặc chưa hưởng bảo hiểm xã hội một lần, hoặc chưa hưởng trợ cấp hằng tháng thì được bảo lưu thời gian đóng (Điều 71, Luật Bảo hiểm xã hội 41/2024/QH15).
+- Bảo lưu nghĩa là thời gian đã đóng vẫn nằm trong sổ và vẫn được tính khi về sau đủ điều kiện (diễn giải từ Điều 71, Luật Bảo hiểm xã hội 41/2024/QH15). Điều 71 không nhắc nơi làm việc, nên đổi tỉnh hay đổi việc không buộc phải rút (suy ra từ Điều 71, không phải chữ của luật).
+- Sổ cấp cho từng người lao động; bản điện tử và bản giấy có giá trị pháp lý như nhau (Điều 25, Luật Bảo hiểm xã hội 41/2024/QH15).
 
-**Danh sách đóng các trường hợp được rút một lần** (Điều 70 khoản 1, Luật Bảo hiểm xã hội 41/2024/QH15)
+**Các trường hợp được rút một lần** (Điều 70 khoản 1, Luật Bảo hiểm xã hội 41/2024/QH15; khoản 1 áp dụng với đối tượng thuộc khoản 1 Điều 2)
 - Đủ tuổi hưởng lương hưu mà chưa đủ 15 năm đóng.
 - Ra nước ngoài định cư.
 - Đang mắc ung thư, bại liệt, xơ gan mất bù, lao nặng hoặc AIDS.
 - Suy giảm khả năng lao động từ 81% trở lên hoặc khuyết tật đặc biệt nặng.
-- Điểm đ: người có thời gian đóng trước ngày luật có hiệu lực, sau 12 tháng không thuộc đối tượng bắt buộc, không tham gia tự nguyện và đóng chưa đủ 20 năm.
-- Nghỉ việc bình thường ở tuổi 40 không nằm trong danh sách đó, trừ khi rơi vào điểm đ.
+- Điểm đ: người có thời gian đóng trước ngày luật có hiệu lực (01/7/2025), sau 12 tháng không thuộc đối tượng bắt buộc, không tham gia tự nguyện và đóng chưa đủ 20 năm.
+- Điểm e: người thuộc các điểm d, đ và e khoản 1 Điều 2 khi phục viên, xuất ngũ, thôi việc mà không thuộc đối tượng bắt buộc, không tham gia tự nguyện và không đủ điều kiện hưởng lương hưu.
+- Nghỉ việc bình thường ở tuổi 40 không nằm trong các trường hợp trên, trừ khi rơi vào điểm đ. Điều 70 còn có khoản 2 cho đối tượng thuộc khoản 2 Điều 2, mục này chưa nêu.
 
 **Mức rút một lần** (Điều 70 khoản 3, Luật Bảo hiểm xã hội 41/2024/QH15)
 - Mỗi năm đóng trước 2014 tính 1,5 tháng bình quân tiền lương đóng.
@@ -91,33 +93,34 @@ Chi phí thời gian của việc làm đúng chỉ là một buổi ra cơ quan
 - Khoản rút một lần luôn nhỏ hơn nhiều so với khoản trả hằng tháng (nhận xét của mục, từ các con số trên).
 
 **Lương hưu**
-- Hai điều kiện song song: đủ tuổi nghỉ hưu theo khoản 2 Điều 169 Bộ luật Lao động và có từ đủ 15 năm đóng bắt buộc; hạ mốc 20 năm cũ xuống 15 năm (Điều 64, Luật Bảo hiểm xã hội 41/2024/QH15).
+- Hai điều kiện song song: đủ tuổi nghỉ hưu theo khoản 2 Điều 169 Bộ luật Lao động và có từ đủ 15 năm đóng bảo hiểm xã hội bắt buộc (Điều 64 khoản 1, Luật Bảo hiểm xã hội 41/2024/QH15). Điều 64 còn có các trường hợp khác, mục chưa nêu.
+- Người tham gia bảo hiểm xã hội tự nguyện được hưởng lương hưu khi đủ tuổi nghỉ hưu theo khoản 2 Điều 169 và có thời gian đóng từ đủ 15 năm trở lên (Điều 98). Cách cộng thời gian bắt buộc và tự nguyện chưa được kiểm trong mục này.
 - Lao động nữ: 45% tương ứng 15 năm, rồi mỗi năm thêm 2% (Điều 66, Luật Bảo hiểm xã hội 41/2024/QH15).
 - Lao động nam: 45% tương ứng 20 năm, rồi mỗi năm thêm 2%. Cả hai dừng ở 75% (Điều 66, Luật Bảo hiểm xã hội 41/2024/QH15).
 - Riêng nam đóng từ 15 đến dưới 20 năm thì 40% tại mốc 15 năm và mỗi năm thêm 1% (Điều 66, Luật Bảo hiểm xã hội 41/2024/QH15).
-- Trợ cấp một lần bằng 0,5 tháng bình quân cho mỗi năm đóng vượt 35 năm với nam và 30 năm với nữ, và bằng 02 lần mức đó với những năm đóng sau tuổi nghỉ hưu (Điều 68, Luật Bảo hiểm xã hội 41/2024/QH15).
+- Trợ cấp một lần cho mỗi năm đóng cao hơn 35 năm với nam và 30 năm với nữ bằng 0,5 lần mức bình quân tiền lương làm căn cứ đóng. Với người đã đủ điều kiện hưởng lương hưu mà tiếp tục đóng, mỗi năm đóng sau thời điểm đủ tuổi nghỉ hưu bằng 02 lần mức bình quân tiền lương đó (Điều 68, Luật Bảo hiểm xã hội 41/2024/QH15).
 
 **Tuổi nghỉ hưu**
-- Từ 2021 là 60 tuổi 03 tháng với nam và 55 tuổi 04 tháng với nữ. Mỗi năm tăng 03 tháng và 04 tháng, đến 62 tuổi vào 2028 và 60 tuổi vào 2035 (Điều 169 khoản 2, Bộ luật Lao động 45/2019/QH14).
+- Từ 2021, trong điều kiện lao động bình thường, là 60 tuổi 03 tháng với nam và 55 tuổi 04 tháng với nữ. Mỗi năm tăng 03 tháng và 04 tháng, đến 62 tuổi vào 2028 và 60 tuổi vào 2035 (Điều 169 khoản 2, Bộ luật Lao động 45/2019/QH14). Điều 169 còn quy định các trường hợp khác (khoản 3, khoản 4), mục chưa nêu.
 - Cộng dồn theo lộ trình đó thì năm 2026 là 61 tuổi 6 tháng và 57 tuổi (suy ra từ Điều 169 khoản 2, Bộ luật Lao động 45/2019/QH14).
 
 **Trợ cấp thất nghiệp khi đổi tỉnh**
 - Người đang hưởng trợ cấp thất nghiệp được chuyển nơi hưởng khi có nhu cầu, nên đổi tỉnh giữa chừng không mất tháng trợ cấp còn lại (Điều 41 khoản 1, Luật Việc làm 74/2025/QH15).
-- Điều kiện: đóng từ đủ 12 tháng trong 24 tháng trước khi chấm dứt, và nộp hồ sơ trong 03 tháng (Điều 38 khoản 1, Luật Việc làm 74/2025/QH15).
+- Điều kiện: chấm dứt hợp đồng không thuộc trường hợp đơn phương chấm dứt trái pháp luật hoặc nghỉ khi đủ điều kiện hưởng lương hưu; đóng từ đủ 12 tháng trong 24 tháng trước khi chấm dứt (hợp đồng có thời hạn từ đủ 01 đến dưới 12 tháng thì đóng đủ 12 tháng trong 36 tháng); nộp hồ sơ trong 03 tháng (Điều 38 khoản 1). Điều 38 còn điều kiện khác, mục chưa nêu.
 - Mức hưởng: 60% bình quân 6 tháng đóng gần nhất, trần 05 lần mức lương tối thiểu vùng, thời gian hưởng tối đa 12 tháng (Điều 39 khoản 1 và khoản 2, Luật Việc làm 74/2025/QH15).
 
 ## Ghi chú
 
-- **Độ chắc của mục:** toàn bộ mục đứng trên câu chữ của ba luật đang có hiệu lực. Danh sách trường hợp được rút ở khoản 1 Điều 70 là danh sách đóng. Mức 1,5 tháng và 02 tháng ở khoản 3, quy tắc bảo lưu ở Điều 71, hai điều kiện hưởng lương hưu ở Điều 64, công thức 45% đến 75% ở Điều 66. Nên phép so sánh giữa rút một lần và lương hưu là phép tính từ con số có sẵn, không phải ước lượng.
+- **Độ chắc của mục:** mục đứng trên câu chữ của ba luật đang có hiệu lực. Các trường hợp được rút ở khoản 1 Điều 70, mức 1,5 tháng và 02 tháng ở khoản 3, quy tắc bảo lưu ở Điều 71, điều kiện hưởng lương hưu ở Điều 64 và Điều 98, công thức 45% đến 75% ở Điều 66. Phép so sánh giữa rút một lần và lương hưu là phép tính từ con số có sẵn, không phải ước lượng.
 - **Vì sao chưa lên A:** không có thống kê Việt Nam nào đo được việc giữ lại thời gian đóng kéo dài bao nhiêu năm sống trong cảnh có lương hưu. Cũng không có số liệu về số người rút một lần rồi không đóng lại được.
-- **Bẫy 1: tin phải đủ 20 năm mới có lương hưu, thấy mình 10 năm là bỏ.** Điều 64 hạ xuống 15 năm. Người thiếu vài năm có thể đóng tiếp tự nguyện cho đủ, thay vì rút rồi mất trắng phần đã đóng.
+- **Bẫy 1: tin phải đủ 20 năm mới có lương hưu, thấy mình 10 năm là bỏ.** Điều 64 yêu cầu 15 năm đóng bắt buộc; Điều 98 cũng yêu cầu từ đủ 15 năm với người tham gia tự nguyện. Người thiếu vài năm nên hỏi cơ quan bảo hiểm xã hội cách đóng tiếp cho đủ thay vì rút rồi mất phần đã đóng (cách cộng hai loại thời gian chưa kiểm).
 - **Bẫy 2: rút ở tuổi 40 vì cho rằng tiền mất giá, rồi hai mươi năm sau không còn gì trong sổ.** Điều 71 chỉ bảo lưu khi chưa hưởng bảo hiểm một lần. Rút là quyết định không thể lấy lại thời gian đã đóng. Muốn có lương hưu sau đó phải đóng lại từ đầu đủ 15 năm.
-- **Bẫy 3: nghỉ ngang không báo trước để cho xong, rồi mất cả trợ cấp thôi việc lẫn trợ cấp thất nghiệp.** Điều 40 Bộ luật Lao động bỏ trợ cấp thôi việc và buộc bồi thường nửa tháng lương cùng tiền lương những ngày không báo trước. Điểm a khoản 1 Điều 38 Luật Việc làm loại trừ đúng người đơn phương chấm dứt trái pháp luật khỏi diện hưởng trợ cấp thất nghiệp.
+- **Bẫy 3: nghỉ ngang không báo trước để cho xong, rồi mất cả trợ cấp thôi việc lẫn trợ cấp thất nghiệp.** Điều 40 Bộ luật Lao động bỏ trợ cấp thôi việc và buộc bồi thường nửa tháng lương cùng khoản tiền tương ứng tiền lương những ngày không báo trước. Điểm a khoản 1 Điều 38 Luật Việc làm loại trừ người đơn phương chấm dứt hợp đồng trái pháp luật khỏi diện hưởng trợ cấp thất nghiệp. Số ngày báo trước tra ở Bộ luật Lao động, mục này chưa trích.
 - **Việc cần làm:** bạn không cần quyết định trong tuần cuối cùng. Giữ sổ và bảng lương, đóng tiếp nếu còn làm. Chỉ rút khi rơi đúng vào một trong các trường hợp của khoản 1 Điều 70.
 
 ## Nguồn
 
-- Luật Bảo hiểm xã hội số 41/2024/QH15 ngày 29/6/2024 của Quốc hội (Điều 25, Điều 64, Điều 66 khoản 1, Điều 68, Điều 70 khoản 1 và khoản 3, Điều 71), Công báo số 987 + 988 ngày 25/8/2024, bản ký PDF có lớp chữ: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/41-2024-qh15.pdf
+- Luật Bảo hiểm xã hội số 41/2024/QH15 ngày 29/6/2024 của Quốc hội (Điều 25, Điều 64, Điều 66 khoản 1, Điều 68, Điều 70 khoản 1 và khoản 3, Điều 71, Điều 98), Công báo số 987 + 988 ngày 25/8/2024, bản ký PDF có lớp chữ: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/41-2024-qh15.pdf
 - Bộ luật Lao động số 45/2019/QH14 ngày 20/11/2019 của Quốc hội, hợp nhất tại Văn bản hợp nhất số 18/VBHN-VPQH ngày 12/02/2026 (Điều 169 khoản 2), bản công bố kèm tệp đọc được: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
 - Luật Việc làm số 74/2025/QH15 ngày 16/6/2025 của Quốc hội (Điều 38 khoản 1, Điều 39 khoản 1 và khoản 2, Điều 41 khoản 1), Công báo số 967 + 968: https://congbao.chinhphu.vn/van-ban/luat-so-74-2025-qh15-45562.htm
 - Tra ngày 3/11/2026.

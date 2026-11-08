@@ -1,0 +1,80 @@
+id: day-con-mot-cau-ai-bao-con-cam-may-bo-me-doc
+checker: agent-V3a05b
+checked_at: 2026-11-08
+content_sha256: 91b65816ddf0c0bcbb872d2fa49eb6852ad5796a3344c5ebbd39e5e733d0a497
+result: pass-with-edits
+claims:
+  - text: 'Công an tỉnh Ninh Bình (8/9/2025) liệt kê 21 thủ đoạn lừa đảo trực tuyến'
+    source_url: https://congan.ninhbinh.gov.vn/dau-hieu-nhan-biet-va-bien-phap-phong-ngua-doi-voi-21-phuong-thuc-thu-doan-lua-dao-truc-tuyen-pho-bien-hien-nay
+    quote: 'DẤU HIỆU NHẬN BIẾT VÀ BIỆN PHÁP PHÒNG NGỪA ĐỐI VỚI 21 PHƯƠNG THỨC, THỦ ĐOẠN LỪA ĐẢO TRỰC TUYẾN PHỔ BIẾN HIỆN NAY'
+    verdict: match
+    note: 'Tiêu đề và ngày "Thứ Hai, 08/09/2025" khớp. Không đếm lại từng mục 1-21 (đã thấy mục 1-13).'
+  - text: 'Thủ đoạn đầu tiên: giả danh cán bộ, gửi link/hướng dẫn cài ứng dụng chứa mã độc, chiếm quyền điều khiển điện thoại rồi đòi mã OTP ngân hàng hoặc dữ liệu sinh trắc học'
+    source_url: https://congan.ninhbinh.gov.vn/dau-hieu-nhan-biet-va-bien-phap-phong-ngua-doi-voi-21-phuong-thuc-thu-doan-lua-dao-truc-tuyen-pho-bien-hien-nay
+    quote: 'Sau khi chiếm quyền điều khiển thiết bị, các đối tượng tiếp tục yêu cầu người dân làm theo hướng dẫn để gián tiếp cung cấp mã OTP ngân hàng hoặc dữ liệu xác thực sinh trắc học cho chúng.'
+    verdict: match
+    note: 'Mục 1 của bài: "Giả danh cơ quan chức năng yêu cầu cập nhập thông tin, cài ứng dụng giả mạo". Nguồn ghi "dữ liệu xác thực sinh trắc học"; mục rút gọn thành "dữ liệu sinh trắc học", không đổi nghĩa.'
+  - text: 'Phần phòng tránh ghi nguyên văn "Tuyệt đối không chia sẻ thông tin, mã OTP ngân hàng cho bất kỳ ai"'
+    source_url: https://congan.ninhbinh.gov.vn/dau-hieu-nhan-biet-va-bien-phap-phong-ngua-doi-voi-21-phuong-thuc-thu-doan-lua-dao-truc-tuyen-pho-bien-hien-nay
+    quote: 'Tuyệt đối không chia sẻ thông tin, mã OTP ngân hàng cho bất kỳ ai;'
+    verdict: match
+    note: 'Có trong mục 1 và cũng là cơ sở của lời dặn "không đọc mã xác thực".'
+  - text: 'Công an không gọi điện bảo cài ứng dụng lạ, cũng không làm hộ giấy tờ qua điện thoại'
+    source_url: https://congan.daklak.gov.vn/tin-moi/canh-bao-thu-doan-loi-dung-dang-ky-dinh-danh-dien-tu-muc-do-2-cho-tre-em-de-lua-dao-chiem-doat-tai-san-11681.html
+    quote: 'việc đăng ký bắt buộc phải được thực hiện trực tiếp tại cơ quan Công an để xác thực thông tin theo đúng quy định, tuyệt đối không thực hiện thông qua điện thoại, tin nhắn, mạng xã hội hay các đường link trực tuyến do người lạ cung cấp.'
+    verdict: partial
+    note: 'Nguồn Đắk Lắk (đọc HTML trực tiếp, cần bỏ qua lỗi chứng chỉ SSL; công cụ đọc mặc định báo "unable to verify the first certificate") chỉ nói về đăng ký định danh điện tử mức 2 cho trẻ em phải làm trực tiếp tại cơ quan Công an. Ninh Bình mục 6 nói "Cơ quan pháp luật không yêu cầu người dân cung cấp thông tin, giải quyết công việc thông qua điện thoại". Câu "Công an không gọi điện bảo cài ứng dụng lạ" là suy ra, không có nguyên văn.'
+  - text: 'Công an tỉnh Đắk Lắk (11/5/2026): đối tượng tự xưng cán bộ công an, cán bộ quản lý cư trú hoặc cán bộ hỗ trợ dịch vụ công'
+    source_url: https://congan.daklak.gov.vn/tin-moi/canh-bao-thu-doan-loi-dung-dang-ky-dinh-danh-dien-tu-muc-do-2-cho-tre-em-de-lua-dao-chiem-doat-tai-san-11681.html
+    quote: 'bị các đối tượng gọi điện tự xưng là cán bộ Công an, cán bộ quản lý cư trú hoặc cán bộ hỗ trợ dịch vụ công trực tuyến yêu cầu cập nhật thông tin định danh điện tử cho con em.'
+    verdict: match
+    note: 'Ngày đăng "Thứ hai - 11/05/2026 18:20" khớp.'
+  - text: 'Chúng báo "dữ liệu căn cước của học sinh bị sai lệch" hay "hồ sơ tuyển sinh chưa hợp lệ"'
+    source_url: https://congan.daklak.gov.vn/tin-moi/canh-bao-thu-doan-loi-dung-dang-ky-dinh-danh-dien-tu-muc-do-2-cho-tre-em-de-lua-dao-chiem-doat-tai-san-11681.html
+    quote: 'Một số trường hợp phụ huynh nhận được cuộc gọi thông báo dữ liệu căn cước của học sinh bị sai lệch, hồ sơ tuyển sinh chưa hợp lệ hoặc cần “xác thực gấp” để tránh ảnh hưởng đến việc dự thi, nhập học.'
+    verdict: match
+    note: 'Mục có lỗi gõ "h=ọc sinh" trong trích dẫn; sửa thành "học sinh".'
+  - text: 'Yêu cầu truy cập đường link lạ, cài ứng dụng giả mạo hoặc cung cấp mã OTP để chiếm tài khoản ngân hàng'
+    source_url: https://congan.daklak.gov.vn/tin-moi/canh-bao-thu-doan-loi-dung-dang-ky-dinh-danh-dien-tu-muc-do-2-cho-tre-em-de-lua-dao-chiem-doat-tai-san-11681.html
+    quote: 'Các đối tượng thường yêu cầu phụ huynh truy cập đường link lạ, cài đặt ứng dụng giả mạo hoặc cung cấp mã OTP nhằm chiếm đoạt tài khoản ngân hàng.'
+    verdict: match
+    note: 'Câu đầy đủ lấy từ HTML gốc; trang hiển thị bản rút gọn bằng dấu "…" nên công cụ đọc có thể cắt.'
+  - text: 'Tổng đài 156 của Bộ Thông tin và Truyền thông nhận phản ánh cuộc gọi, tin nhắn có dấu hiệu lừa đảo, miễn phí'
+    source_url: https://nospam.vncert.vn/
+    quote: 'Ngoài ra người dân có thể phản ánh bằng cách gọi điện đến đầu số 156. Tất cả các cuộc gọi đến 156 đều miễn phí.'
+    verdict: partial
+    note: 'Đúng phần 156 miễn phí. SAI phần đơn vị: tiêu đề trang ghi "BỘ CÔNG AN - CỤC AN NINH MẠNG - Hệ thống phòng, chống tin nhắn rác, cuộc gọi rác" (đọc 2026-11-08), không phải Bộ Thông tin và Truyền thông; mục Nguồn lại ghi "Trung tâm Ứng cứu khẩn cấp không gian mạng Việt Nam" nên mâu thuẫn với chính trang. Phạm vi: trang mô tả 156/5656 để phản ánh tin nhắn rác, cuộc gọi rác và "phản ánh lừa đảo" (cú pháp LD gửi 5656); 156 là kênh phản ánh, không phải kênh xử lý khẩn khi đã mất tiền.'
+  - text: 'Bẫy 1: "làm định danh điện tử mức 2 cho con" là đòn mạnh nhất hiện nay ở Việt Nam; công an các tỉnh đều nói việc này phải làm trực tiếp tại cơ quan công an'
+    source_url: https://congan.daklak.gov.vn/tin-moi/canh-bao-thu-doan-loi-dung-dang-ky-dinh-danh-dien-tu-muc-do-2-cho-tre-em-de-lua-dao-chiem-doat-tai-san-11681.html
+    quote: ''
+    verdict: partial
+    note: 'Đắk Lắk (một tỉnh) viết thủ đoạn "đang diễn biến phức tạp tại nhiều địa phương trên cả nước" và việc đăng ký phải làm trực tiếp tại cơ quan Công an. Không có nguồn nào cho "mạnh nhất hiện nay" và "công an các tỉnh đều nói" (chỉ kiểm được Đắk Lắk). Cần sửa thành "Công an Đắk Lắk cảnh báo".'
+  - text: 'Bật xác thực hai lớp, không lưu mật khẩu ngân hàng trong máy; xác nhận tin của thầy cô bằng cách gọi số đã lưu, không gọi số trong tin nhắn'
+    source_url: https://congan.ninhbinh.gov.vn/dau-hieu-nhan-biet-va-bien-phap-phong-ngua-doi-voi-21-phuong-thuc-thu-doan-lua-dao-truc-tuyen-pho-bien-hien-nay
+    quote: ''
+    verdict: not-found
+    note: 'Tìm trong bài Ninh Bình (582 dòng, xem mục 1-13 chi tiết) không thấy "xác thực hai lớp" hay "không lưu mật khẩu". Gần nhất là mục 4 "Luôn xác minh thông tin tại cơ sở giáo dục chính thống" và Đắk Lắk "chủ động liên hệ trực tiếp với nhà trường". Là lời khuyên thông thường, rủi ro thấp, nhưng chưa có nguồn.'
+internal_checks:
+  - issue: 'Mục Nguồn và tldr gán tổng đài 156 cho Bộ Thông tin và Truyền thông / VNCERT, trong khi trang nospam.vncert.vn (tra 2026-11-08) ghi Bộ Công an - Cục An ninh mạng. Phải sửa đơn vị.'
+    severity: error
+  - issue: 'Lỗi gõ trong thân: "h=ọc sinh" (mục Lợi ích, Công an tỉnh Đắk Lắk).'
+    severity: warn
+  - issue: 'Step 4 chỉ cho "gọi 156 để phản ánh". Khi đã lỡ cài ứng dụng/đọc OTP, nguồn Ninh Bình mục 1 hướng dẫn "thông báo ngay cho Ngân hàng của mình để tạm khóa tài khoản, ngay lập tức tắt nguồn thiết bị di động" và trình báo công an. Mục thiếu bước xử lý khi đã bị lừa, nên có thể làm người đọc chỉ gọi 156 mà không khóa tài khoản kịp.'
+    severity: warn
+  - issue: 'Câu "Công an các tỉnh đều nói" và "đòn mạnh nhất hiện nay" không có nguồn tương ứng (chỉ Đắk Lắk).'
+    severity: warn
+validity:
+  doc: 'Không dẫn văn bản pháp luật (legal_refs rỗng); nguồn là thông báo Công an tỉnh Ninh Bình 08/09/2025, Công an tỉnh Đắk Lắk 11/05/2026 và trang nospam.vncert.vn'
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: 'Không áp dụng "hiệu lực" cho thông cáo cảnh báo; ghi nhận ngày đăng 08/09/2025 và 11/05/2026, và trang 156 còn hoạt động ngày 2026-11-08 nhưng chủ quản đã là Bộ Công an - Cục An ninh mạng. Với trang không có văn bản pháp luật, đặt unconfirmed để bảo toàn nghĩa.'
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - 'tldr và mục Lợi ích: thay "Tổng đài 156 của Bộ Thông tin và Truyền thông" bằng "Tổng đài 156 (Hệ thống phòng, chống tin nhắn rác, cuộc gọi rác của Cục An ninh mạng, Bộ Công an)", dựa vào tiêu đề trang nospam.vncert.vn; sửa mục Nguồn tương ứng.'
+  - 'Sửa lỗi "h=ọc sinh" thành "học sinh".'
+  - 'Thêm bước/ghi chú: nếu đã đọc OTP hoặc cài ứng dụng thì gọi ngay ngân hàng để tạm khóa tài khoản, tắt nguồn điện thoại, rồi trình báo công an (dựa vào Ninh Bình mục 1: "cần thông báo ngay cho Ngân hàng của mình để tạm khóa tài khoản, ngay lập tức tắt nguồn thiết bị di động").'
+  - 'Bẫy 1: viết "Công an Đắk Lắk cảnh báo (11/5/2026)" thay vì "công an các tỉnh đều nói"; bỏ "đòn mạnh nhất hiện nay".'
+  - 'Nói dễ hiểu: câu "Công an không gọi điện bảo cài ứng dụng lạ" nên gắn nguồn Ninh Bình mục 6 ("Cơ quan pháp luật không yêu cầu người dân cung cấp thông tin, giải quyết công việc thông qua điện thoại") hoặc nhãn "suy ra".'
+  - 'Hai lời khuyên "xác thực hai lớp", "không lưu mật khẩu" cần nguồn hoặc nhãn "khuyến nghị chung".'

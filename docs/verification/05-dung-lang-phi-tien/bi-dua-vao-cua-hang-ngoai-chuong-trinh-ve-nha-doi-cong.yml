@@ -1,0 +1,64 @@
+id: bi-dua-vao-cua-hang-ngoai-chuong-trinh-ve-nha-doi-cong
+checked_at: 2026-11-08
+content_sha256: d76223176c1244826c2b1b71ed9678b145f368c66e790514e07ef74e08d99385
+checker: agent-V3a05h
+result: pass-with-edits
+claims:
+  - text: "Hành vi bị nghiêm cấm: nài ép khách du lịch mua hàng hóa, dịch vụ (Điều 9 khoản 4, Luật Du lịch 09/2017/QH14)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2017/07/09.signed.pdf
+    quote: "4. Phân biệt đối xử với khách du lịch, thu lợi bất hợp pháp từ khách du lịch; tranh giành khách du lịch, nài ép khách du lịch mua hàng hóa, dịch vụ."
+    verdict: match
+    note: "PDF là ảnh quét không có lớp chữ (pdftotext trả 207 byte); đọc từ ảnh trang 5 (render 200 dpi + OCR Apple Vision, đối chiếu bằng mắt qua kết quả OCR). Điều 9 'Các hành vi bị nghiêm cấm trong hoạt động du lịch'."
+  - text: "Doanh nghiệp lữ hành phải công khai tên và số giấy phép trên biển hiệu, tại trụ sở, trong hợp đồng lữ hành, ấn phẩm quảng cáo, giao dịch điện tử (Điều 37 khoản 1 điểm b)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2017/07/09.signed.pdf
+    quote: "b) Bảo đảm duy trì các điều kiện kinh doanh dịch vụ lữ hành theo quy định tại khoản 1 Điều 31 của Luật này; công khai tên doanh nghiệp, số giấy phép kinh doanh dịch vụ lữ hành trên biển hiệu tại trụ sở, chi nhánh, văn phòng giao dịch, trong hợp đồng lữ hành, trên ấn phẩm quảng cáo và trong giao dịch điện tử;"
+    verdict: partial
+    note: "Đọc từ ảnh trang 18-19 (trong mục 'Điều 37'). Khoản 1 áp cho 'doanh nghiệp kinh doanh dịch vụ lữ hành nội địa'; lữ hành quốc tế đến VN là khoản 2.b, ra nước ngoài là khoản 3 (dẫn lại khoản 2.b). Mục viết chung 'doanh nghiệp lữ hành' mà chỉ dẫn khoản 1 điểm b. Câu 'Tức là hợp đồng là chỗ xác định ai chịu trách nhiệm' là suy luận, không phải chữ luật."
+  - text: "Chương trình du lịch đã thỏa thuận trong hợp đồng: đưa khách vào cửa hàng không có trong chương trình là thực hiện không đúng hợp đồng"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2017/07/09.signed.pdf
+    quote: "k) Quản lý khách du lịch theo chương trình du lịch đã thỏa thuận với khách du lịch."
+    verdict: inference
+    note: "Điều 37 khoản 1 điểm k (đã thấy trong bản quét) chỉ nói quản lý khách theo chương trình đã thỏa thuận. Kết luận 'đưa vào cửa hàng ngoài chương trình là vi phạm hợp đồng' không có trong luật; phụ thuộc nội dung hợp đồng/chương trình cụ thể (Điều 39 khoản 3 yêu cầu hợp đồng có nội dung chương trình, dịch vụ). Mục không dẫn Điều 37.1.k hay Điều 39."
+  - text: "Việt Nam không có quy định cho khách quyền yêu cầu công ty lữ hành làm thủ tục trả hàng và ứng trước tiền hàng trong 30 ngày sau chuyến đi"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2017/07/09.signed.pdf
+    quote: "Không tìm thấy nguyên văn: đã đọc Điều 9, Điều 37, Điều 39 trong bản quét, không có quy định trả hàng/ứng tiền hàng trong 30 ngày."
+    verdict: not-found
+    note: "Khẳng định phủ định, chỉ kiểm được trong Luật Du lịch (các điều trên), chưa rà toàn văn 37 trang và các văn bản khác (NĐ 168/2017, Luật BVQLNTD...). Phần 'như luật du lịch của nhiều nước' không có nguồn (có nguồn quốc tế nào được dẫn? Không). Cần nguồn hoặc nhẹ lời thành 'Luật Du lịch 2017 không có quy định như vậy'."
+  - text: "Cấm thông tin sai lệch, không đầy đủ về dịch vụ (Điều 10 khoản 1 điểm a, Luật 19/2023/QH15)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/7/luat19_2023.pdf
+    quote: "a) Lừa dối hoặc gây nhầm lẫn cho người tiêu dùng thông qua việc cung cấp thông tin sai lệch, không đầy đủ, không chính xác về một trong các nội dung sau đây: sản phẩm, hàng hóa, dịch vụ mà tổ chức, cá nhân kinh doanh bán, cung cấp;"
+    verdict: partial
+    note: "Công báo 865+866 tr. 46. Luật cấm 'lừa dối hoặc gây nhầm lẫn thông qua việc cung cấp thông tin sai lệch...'; mục lược thành 'cấm thông tin sai lệch, không đầy đủ', bỏ yếu tố lừa dối/gây nhầm lẫn."
+  - text: "Cấm điều khoản cho phép doanh nghiệp đơn phương thay đổi nội dung đã giao kết (Điều 25, Luật 19/2023/QH15)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/7/luat19_2023.pdf
+    quote: "3. Cho phép tổ chức, cá nhân kinh doanh đơn phương thay đổi quy định của hợp đồng đã giao kết với người tiêu dùng;"
+    verdict: partial
+    note: "Đúng ở Điều 25 khoản 3, nhưng mục dẫn 'Điều 25' không nêu khoản. Điều 25 cấm điều khoản TRONG hợp đồng; không nói về hành vi thực tế đổi lịch tour. Mục dùng làm công cụ khiếu nại cần nói rõ giới hạn đó."
+  - text: "Không giải quyết thì gửi Sở Văn hóa, Thể thao và Du lịch nơi doanh nghiệp đặt trụ sở và Cục Du lịch Quốc gia Việt Nam"
+    source_url: https://vietnamtourism.gov.vn/docs/72
+    quote: "Không kiểm được nguyên văn: không có văn bản nào được dẫn về thẩm quyền tiếp nhận khiếu nại."
+    verdict: not-found
+    note: "Không có legal_refs/Nguồn cho đường khiếu nại (Luật Du lịch chương VIII quản lý nhà nước; Điều 75 hay tương đương chưa được dẫn). Cục Du lịch Quốc gia tồn tại (kết quả tìm kiếm thứ cấp trích Quyết định 2588/QĐ-BVHTTDL 2026) nhưng không mở được văn bản gốc. Tên cơ quan địa phương có thể đổi sau sáp nhập tỉnh/tổ chức lại 2025; chưa kiểm."
+internal_checks:
+  - issue: "Luật Du lịch: URL đúng văn bản (09.signed.pdf = Luật 09/2017/QH14, Điều 9 và 37 khớp, hiệu lực 1/1/2018 theo Điều 77 khoản 1 đã đọc). legal_refs Luật 19/2023/QH15 có url null; nên thêm https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/7/luat19_2023.pdf."
+    severity: warn
+  - issue: "tldr và steps không có con số; không mâu thuẫn số liệu. Bước 3 (gửi Sở VHTTDL và Cục Du lịch Quốc gia) không có cơ sở pháp lý trong legal_refs/Nguồn."
+    severity: warn
+  - issue: "Bẫy 3 'cửa hàng ở nước ngoài gần như không đòi được'; 'bên chịu trách nhiệm hợp đồng vẫn là công ty lữ hành VN' là nhận định không nguồn; Điều 37 khoản 3 chỉ cho thấy quyền/nghĩa vụ của DN lữ hành ra nước ngoài, không phân bổ trách nhiệm về cửa hàng."
+    severity: warn
+  - issue: "Mục không dẫn quy định xử phạt hay thủ tục khiếu nại; 'thời gian cao' và 'thêm vài tháng nếu khởi kiện' không nguồn."
+    severity: warn
+validity:
+  doc: "Luật Du lịch 09/2017/QH14"
+  in_force: unconfirmed
+  effective_from: "2018-01-01"
+  amended_by: []
+  basis: "Đọc Điều 77 khoản 1 trong bản quét: 'Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2018.' Chưa mở được văn bản hợp nhất hoặc trang vbpl/Công báo cho thấy tình trạng sửa đổi; chỉ có tìm kiếm thứ cấp (thuvienphapluat) nói chưa có văn bản thay thế, không đủ để khẳng định in_force. Luật 19/2023: hiệu lực 2024-07-01 (Điều 79), cũng chưa xác nhận sửa đổi."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Điều 37 khoản 1 điểm b: ghi rõ 'doanh nghiệp lữ hành nội địa (khoản 1), quốc tế đến VN (khoản 2.b), đưa khách ra nước ngoài (khoản 3, dẫn lại khoản 2.b)' hoặc bỏ 'Tức là hợp đồng là chỗ xác định ai chịu trách nhiệm' (suy luận)."
+  - "Thêm Điều 37 khoản 1 điểm k và Điều 39 khoản 3 (nội dung chương trình, dịch vụ trong hợp đồng lữ hành) làm cơ sở; gắn nhãn 'suy ra' cho câu 'đưa vào cửa hàng ngoài chương trình là thực hiện không đúng hợp đồng'."
+  - "Câu 'Việt Nam không có quy định ... trả hàng trong 30 ngày': đổi thành 'Luật Du lịch 2017 không có quy định ...' hoặc dẫn nguồn đã rà toàn bộ; bỏ 'như luật du lịch của nhiều nước' hoặc dẫn luật nước ngoài cụ thể."
+  - "Điều 10 khoản 1 điểm a: giữ chữ 'lừa dối hoặc gây nhầm lẫn thông qua việc cung cấp thông tin sai lệch, không đầy đủ, không chính xác'; Điều 25: ghi 'khoản 3'."
+  - "Dẫn nguồn pháp lý cho đường khiếu nại (Sở VHTTDL, Cục Du lịch Quốc gia) hoặc đánh dấu là gợi ý thực hành; kiểm tên cơ quan sau tổ chức lại 2025."

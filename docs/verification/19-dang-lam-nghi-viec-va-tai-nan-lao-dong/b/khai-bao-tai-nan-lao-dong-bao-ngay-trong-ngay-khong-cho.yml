@@ -1,0 +1,107 @@
+id: khai-bao-tai-nan-lao-dong-bao-ngay-trong-ngay-khong-cho
+checker: agent-V3b19cB
+checked_at: 2026-11-08
+content_sha256: b7c13b00e290855c192ce4b9cf5962bf17d075c102ffbf294c989c4afcc59c3f
+result: pass-with-edits
+claims:
+  - text: Người bị tai nạn hoặc người biết sự việc phải báo ngay cho người phụ trách trực tiếp và người sử dụng lao động (Điều 34.1.a)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: a) Khi xảy ra hoặc có nguy cơ xảy ra tai nạn lao động, sự cố kỹ thuật gây mất an toàn, vệ sinh lao động tại nơi làm việc thì người bị tai nạn hoặc người biết sự việc phải báo ngay cho người phụ trách trực tiếp, người sử dụng lao động biết để kịp thời có biện pháp xử lý, khắc phục hậu quả xảy ra;
+    verdict: match
+    note: ""
+  - text: "Tai nạn chết người hoặc bị thương nặng từ hai người trở lên: NSDLĐ khai báo ngay với cơ quan quản lý nhà nước về lao động cấp tỉnh; có người chết thì báo Công an cấp huyện (Điều 34.1.b)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: b) Đối với các vụ tai nạn quy định tại điểm a khoản này làm chết người hoặc làm bị thương nặng từ hai người lao động trở lên thì người sử dụng lao động có trách nhiệm khai báo ngay với cơ quan quản lý nhà nước về lao động cấp tỉnh nơi xảy ra tai nạn; trường hợp tai nạn làm chết người thì phải đồng thời báo ngay cho cơ quan Công an huyện, quận, thị xã, thành phố thuộc tỉnh, thành phố thuộc thành phố trực thuộc Trung ương (sau đây gọi chung là cấp huyện);
+    verdict: partial
+    note: 'Khớp chữ luật, nhưng (1) mục bỏ điểm c (phóng xạ, dầu khí, đường sắt/thủy/bộ/hàng không, lực lượng vũ trang: khai báo theo luật chuyên ngành) và điểm d (người lao động không theo hợp đồng lao động: khai báo với UBND cấp xã); (2) "Công an cấp huyện" đã lỗi thời từ 01/7/2025 (chính quyền hai cấp); nguồn thứ cấp tcnnld.vn (14/7/2025) nêu Điều 42 Nghị định 129/2025/NĐ-CP giao Công an cấp xã nhận khai báo. Chưa mở được toàn văn Nghị định 129/2025 để trích nguyên văn.'
+  - text: Khai báo nhanh nhất (trực tiếp/điện thoại/fax/công điện/thư điện tử) với Thanh tra Sở Lao động - Thương binh và Xã hội nơi xảy ra tai nạn, mẫu Phụ lục III (Nghị định 39/2016 Điều 10.1)
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-39-2016-nd-cp-19831.htm
+    quote: a) Khai báo bằng cách nhanh nhất (trực tiếp hoặc điện thoại, fax, công điện, thư điện tử) với Thanh tra Sở Lao động - Thương binh và Xã hội, nơi xảy ra tai nạn; trường hợp tai nạn làm chết người đồng thời báo ngay cho cơ quan Công an huyện, quận, thị xã, thành phố thuộc tỉnh, thành phố thuộc thành phố trực thuộc Trung ương (sau đây gọi tắt là Công an cấp huyện);
+    verdict: partial
+    note: 'Khớp chữ Nghị định 39/2016, nhưng tên cơ quan lỗi thời: nguồn thứ cấp (thuvienphapluat, tcnnld.vn) ghi Sở LĐTBXH "nay là Sở Nội vụ" (Nghị định 150/2025/NĐ-CP, hiệu lực 16/6/2025 giao lĩnh vực lao động, ATVSLĐ cho Sở Nội vụ ở địa phương không có Sở riêng). Người đọc tra "Thanh tra Sở Lao động" sẽ không thấy cơ quan này ở nhiều tỉnh. Cũng bỏ khoản 2 (các lĩnh vực chuyên ngành).'
+  - text: Thời hạn điều tra 04/07/20/30/60 ngày, gia hạn một lần không quá chính hạn đó (Điều 35.6)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: a) Không quá 04 ngày đối với tai nạn lao động làm bị thương nhẹ người lao động; b) Không quá 07 ngày đối với tai nạn lao động làm bị thương nặng một người lao động; c) Không quá 20 ngày đối với tai nạn lao động làm bị thương nặng từ hai người lao động trở lên; d) Không quá 30 ngày đối với tai nạn lao động chết người; không quá 60 ngày đối với tai nạn lao động cần phải giám định kỹ thuật hoặc giám định pháp y. [...] Đối với tai nạn lao động được quy định tại các điểm b, c và d của khoản này có tình tiết phức tạp thì được gia hạn thời gian điều tra một lần nhưng thời hạn gia hạn không vượt quá thời hạn quy định tại các điểm này;
+    verdict: partial
+    note: Các mốc đúng. Nhưng gia hạn chỉ áp cho điểm b, c, d và chỉ khi "có tình tiết phức tạp", cần Trưởng đoàn báo cáo và được người ra quyết định thành lập Đoàn đồng ý; mục viết gia hạn chung sau cả danh sách (kể cả bị thương nhẹ 04 ngày).
+  - text: "Mức bồi thường: ≥1,5 tháng lương (5-10%), +0,4 tháng/1% (11-80%), ≥30 tháng (≥81% hoặc chết) (Điều 38.4)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: "4. Bồi thường cho người lao động bị tai nạn lao động mà không hoàn toàn do lỗi của chính người này gây ra và cho người lao động bị bệnh nghề nghiệp với mức như sau: a) Ít nhất bằng 1,5 tháng tiền lương nếu bị suy giảm từ 5 % đến 10% khả năng lao động; sau đó cứ tăng 1% được cộng thêm 0,4 tháng tiền lương nếu bị suy giảm khả năng lao động từ 11% đến 80%; b) Ít nhất 30 tháng tiền lương cho người lao động bị suy giảm khả năng lao động từ 81% trở lên hoặc cho thân nhân người lao động bị chết do tai nạn lao động, bệnh nghề nghiệp;"
+    verdict: partial
+    note: Con số đúng. Phần "Chi phí" và tldr nêu mức này không kèm điều kiện mở đầu "mà không hoàn toàn do lỗi của chính người này gây ra"; mục chỉ nhắc ở bullet riêng về Điều 38.5 (40%). Mục cũng không nhắc Điều 40 khoản 1 (không hưởng nếu tai nạn do mâu thuẫn cá nhân không liên quan công việc, tự hủy hoại, ma túy).
+  - text: "Do lỗi của chính người lao động: trợ cấp ít nhất 40% mức khoản 4 (Điều 38.5)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: 5. Trợ cấp cho người lao động bị tai nạn lao động mà do lỗi của chính họ gây ra một khoản tiền ít nhất bằng 40% mức quy định tại khoản 4 Điều này với mức suy giảm khả năng lao động tương ứng;
+    verdict: match
+    note: ""
+  - text: Hạn 05 ngày bồi thường kể từ kết luận giám định hoặc kể từ khi Đoàn điều tra công bố biên bản (Điều 38.7)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: 7. Thực hiện bồi thường, trợ cấp đối với người bị tai nạn lao động, bệnh nghề nghiệp trong thời hạn 05 ngày, kể từ ngày có kết luận của Hội đồng giám định y khoa về mức suy giảm khả năng lao động hoặc kể từ ngày Đoàn điều tra tai nạn lao động công bố biên bản điều tra tai nạn lao động đối với các vụ tai nạn lao động chết người;
+    verdict: match
+    note: ""
+  - text: Phải trả đủ tiền lương trong thời gian điều trị, phục hồi chức năng (Điều 38.3)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: 3. Trả đủ tiền lương cho người lao động bị tai nạn lao động, bệnh nghề nghiệp phải nghỉ việc trong thời gian điều trị, phục hồi chức năng lao động;
+    verdict: match
+    note: ""
+  - text: Nghiêm cấm che giấu, khai báo hoặc báo cáo sai sự thật về tai nạn lao động (Điều 12.1)
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-84-2015-qh13-15356.htm
+    quote: 1. Che giấu, khai báo hoặc báo cáo sai sự thật về tai nạn lao động, bệnh nghề nghiệp; không thực hiện các yêu cầu, biện pháp bảo đảm an toàn, vệ sinh lao động gây tổn hại hoặc có nguy cơ gây tổn hại đến người, tài sản, môi trường; buộc người lao động phải làm việc hoặc không được rời khỏi nơi làm việc khi có nguy cơ xảy ra tai nạn lao động đe dọa nghiêm trọng sức khỏe, tính mạng của họ hoặc buộc người lao động tiếp tục làm việc khi các nguy cơ đó chưa được khắc phục.
+    verdict: match
+    note: Trích từ PDF Công báo 871+872 (có lớp chữ) tải từ trang Công báo.
+  - text: Phạt 500.000-1.000.000 đồng với người lao động không báo cáo kịp thời khi phát hiện nguy cơ hoặc tai nạn (ND 283/2026 Điều 31.1)
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: 1. Phạt tiền từ 500.000 đồng đến 1.000.000 đồng đối với người lao động có hành vi không báo cáo kịp thời với người có trách nhiệm khi phát hiện nguy cơ xảy ra sự cố kỹ thuật gây mất an toàn, vệ sinh lao động, tai nạn lao động hoặc bệnh nghề nghiệp.
+    verdict: partial
+    note: Mức phạt đúng. Nhưng hành vi bị phạt là không báo cáo kịp thời khi phát hiện NGUY CƠ xảy ra sự cố/tai nạn/bệnh; mục viết "nguy cơ hoặc tai nạn", làm rộng nghĩa.
+  - text: Phạt 5-10 triệu đồng với NSDLĐ không thống kê hoặc báo cáo không đúng thời hạn về tai nạn lao động (Điều 31.3)
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "3. Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với người sử dụng lao động có một trong các hành vi: không thống kê tai nạn lao động; không báo cáo định kỳ hoặc báo cáo không đầy đủ hoặc báo cáo không chính xác hoặc báo cáo không đúng thời hạn về tai nạn lao động, bệnh nghề nghiệp; [...]"
+    verdict: match
+    note: Văn bản lấy từ DOCX tải trên trang Công báo số 448 (hiệu lực 10/09/2026). Đây là phạt báo cáo thống kê định kỳ, không phải phạt không khai báo ngay vụ chết người/nặng; mục không nói rõ điều này.
+  - text: 'Bước 2 (tldr/steps): nói đúng với cơ sở khám bệnh là tai nạn lao động, không nói "ngã ở nhà"; Bẫy 2: giấy ra viện là chứng cứ đầu tiên'
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-84-2015-qh13-15356.htm
+    quote: 1. Che giấu, khai báo hoặc báo cáo sai sự thật về tai nạn lao động, bệnh nghề nghiệp; [...]
+    verdict: inference
+    note: Điều 12.1 cấm khai báo sai sự thật; không điều luật nào nói giấy ra viện là "chứng cứ đầu tiên" hay hồ sơ bảo hiểm y tế bị ảnh hưởng. Là lời khuyên thực hành, nên gắn nhãn suy ra.
+  - text: "Bước 4/Bẫy 3: không ký thỏa thuận bồi thường trọn gói trước khi có kết luận giám định, vì thường thấp hơn mức sàn Điều 38.4"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: "4. Bồi thường cho người lao động bị tai nạn lao động mà không hoàn toàn do lỗi của chính người này gây ra và cho người lao động bị bệnh nghề nghiệp với mức như sau: a) Ít nhất bằng 1,5 tháng tiền lương nếu bị suy giảm từ 5 % đến 10% khả năng lao động; sau đó cứ tăng 1% được cộng thêm 0,4 tháng tiền lương nếu bị suy giảm khả năng lao động từ 11% đến 80%; b) Ít nhất 30 tháng tiền lương cho người lao động bị suy giảm khả năng lao động từ 81% trở lên hoặc cho thân nhân người lao động bị chết do tai nạn lao động, bệnh nghề nghiệp;"
+    verdict: inference
+    note: Điều 38.4 đặt mức tối thiểu theo tỷ lệ suy giảm nên suy ra khoản trọn gói thấp hơn sàn thì thiệt; luật không nói "ký rồi không đòi lại được nếu biên bản ghi tự nguyện" (câu này là suy đoán không có nguồn).
+internal_checks:
+  - issue: 'Tên cơ quan lỗi thời: tldr, Nói dễ hiểu và Pháp luật VN đều chỉ "Thanh tra Sở Lao động - Thương binh và Xã hội" và "Công an cấp huyện". Từ 01/7/2025 bỏ cấp huyện; Sở LĐTBXH hợp nhất vào Sở Nội vụ ở nhiều tỉnh (nguồn thứ cấp). Chỉ dẫn người đọc báo sai nơi trong vụ có người chết.'
+    severity: error
+  - issue: "Phạm vi khai báo bị thu hẹp: bỏ điểm c, d Điều 34.1 (lĩnh vực chuyên ngành; người lao động không theo hợp đồng lao động thì khai báo cho UBND cấp xã) và Điều 10 khoản 2 ND 39/2016."
+    severity: warn
+  - issue: Mức bồi thường ở Chi phí/tldr thiếu điều kiện "không hoàn toàn do lỗi của chính người này" và các trường hợp loại trừ Điều 40 khoản 1.
+    severity: warn
+  - issue: Gia hạn điều tra bị viết thành áp dụng cho mọi mốc; luật chỉ cho điểm b, c, d khi có tình tiết phức tạp.
+    severity: warn
+  - issue: Mục Nguồn nêu "Điều 9 khoản 1, 2 và 3" Nghị định 39/2016 nhưng thân bài và legal_refs không dùng Điều 9.
+    severity: warn
+  - issue: Bước 2 và bước 4 trong steps chỉ là lời khuyên thực hành, không có cơ sở nguyên văn trong thân bài (câu "ký thỏa thuận ... ghi tự nguyện thì không đòi lại được" là suy đoán).
+    severity: warn
+  - issue: "legal_refs: mọi mục có quote null và effective_from null."
+    severity: warn
+validity:
+  doc: Luật ATVSLĐ 84/2015/QH13 (VBHN 14/VBHN-VPQH); Nghị định 39/2016/NĐ-CP; Nghị định 283/2026/NĐ-CP
+  in_force: unconfirmed
+  effective_from: 2016-07-01
+  amended_by:
+    - Luật BHXH 41/2024/QH15 (Điều 139, hiệu lực 01/7/2025)
+    - Nghị định 128/2025/NĐ-CP và 129/2025/NĐ-CP (phân định thẩm quyền hai cấp, hiệu lực 01/7/2025, theo nguồn thứ cấp tcnnld.vn; chưa mở toàn văn)
+  basis: "Luật 84/2015/QH13: bản hợp nhất 14/VBHN-VPQH ngày 16/9/2024 (Công báo 1171+1172 ngày 29/10/2024) có chú thích sửa đổi bởi Luật BHXH 41/2024/QH15 hiệu lực 01/7/2025. Trang Công báo của Luật gốc để trống ô 'Ngày hết hiệu lực' và mục sửa đổi, nên không dùng làm bằng chứng. Tìm kiếm thứ cấp (tháng 11/2026) cho thấy dự án Luật ATVSLĐ sửa đổi mới được Chính phủ trình Quốc hội ngày 21/10/2026, chưa thấy văn bản thông qua; chưa mở được vbpl.vn/văn bản hợp nhất mới hơn 14/VBHN. Nghị định 39/2016: trang Công báo trống ô hết hiệu lực; nguồn thứ cấp cho biết vẫn áp dụng nhưng phần cơ quan tiếp nhận đã đổi theo ND 128/129/2025. ND 283/2026: trang Công báo ghi ban hành 15/07/2026, hiệu lực 10/09/2026, mục Lược đồ không có văn bản thay thế/sửa đổi; chưa đủ để khẳng định."
+deliberate_vn_deviation: []
+potential_harm:
+  - 'steps[0] và tldr ("Đưa người bị nạn đi cấp cứu trước") không nói gọi 115, không có sơ cứu và không có cảnh báo di chuyển: làm đúng nguyên văn có thể khiến đồng nghiệp tự chở người nghi chấn thương cột sống, bị mắc kẹt, điện giật hoặc chảy máu nhiều đi bằng xe cá nhân, làm nặng thêm hoặc chậm cứu chữa. (Đánh giá dựa trên nguyên tắc sơ cứu chung; chưa đối chiếu hướng dẫn Bộ Y tế/Hội Chữ thập đỏ trong lượt kiểm này.)'
+  - Chỉ dẫn khai báo tới "Thanh tra Sở LĐTBXH" và "Công an cấp huyện" có thể đưa người đọc tới cơ quan không còn tồn tại hoặc không còn chức năng này, làm chậm khai báo vụ chết người.
+suggested_edits:
+  - 'tldr, Nói dễ hiểu, Pháp luật VN: thay "Thanh tra Sở Lao động - Thương binh và Xã hội" bằng "cơ quan quản lý nhà nước về lao động cấp tỉnh (nhiều nơi nay là Sở Nội vụ)" và "Công an cấp huyện" bằng "Công an nơi xảy ra tai nạn (từ 01/7/2025 là Công an cấp xã theo Nghị định 129/2025/NĐ-CP)"; mở toàn văn Nghị định 129/2025 để trích Điều 42 trước khi sửa.'
+  - 'steps[0]: thêm "Gọi 115 ngay; làm theo hướng dẫn của tổng đài. Không di chuyển người nghi chấn thương cột sống/bị mắc kẹt/điện giật khi chưa an toàn, trừ khi hiện trường còn nguy hiểm" và đối chiếu hướng dẫn sơ cứu của Bộ Y tế hoặc Hội Chữ thập đỏ.'
+  - "Pháp luật VN, khoản khai báo: thêm điểm c và d Điều 34.1 (luật chuyên ngành; người lao động không theo hợp đồng lao động khai báo cho UBND cấp xã)."
+  - 'Chi phí và Bồi thường: thêm điều kiện mở đầu Điều 38.4 ("không hoàn toàn do lỗi của chính người này") và một câu về Điều 40 khoản 1 (ba trường hợp không được hưởng).'
+  - "Hạn điều tra: ghi gia hạn chỉ áp dụng cho mốc 07, 20, 30/60 ngày khi có tình tiết phức tạp (Điều 35.6)."
+  - 'Điều 31.1 ND 283/2026: sửa "nguy cơ hoặc tai nạn" thành "nguy cơ xảy ra sự cố kỹ thuật, tai nạn lao động hoặc bệnh nghề nghiệp"; ghi rõ Điều 31.3 là phạt thống kê/báo cáo định kỳ.'
+  - Bỏ hoặc gắn nhãn "suy ra" cho câu "khoản chênh lệch đó không đòi lại được nếu biên bản ghi tự nguyện" (Bẫy 3) và "giấy ra viện là chứng cứ đầu tiên" (Bẫy 2).
+  - Xóa "Điều 9" khỏi mục Nguồn hoặc đưa vào thân bài.

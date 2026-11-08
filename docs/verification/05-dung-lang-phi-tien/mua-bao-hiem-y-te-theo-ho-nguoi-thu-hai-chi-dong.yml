@@ -1,0 +1,84 @@
+id: mua-bao-hiem-y-te-theo-ho-nguoi-thu-hai-chi-dong
+checker: agent-V3a05c
+checked_at: 2026-11-08
+content_sha256: b7e900f11a542d60dbbff406c61de0ee125a844ed8f817295ee3f49215df34f4
+result: pass-with-edits
+claims:
+  - text: "Người thứ nhất đóng 4,5% lương cơ sở; người thứ hai, ba, tư đóng 70%, 60%, 50%; từ người thứ năm 40% mức đóng của người thứ nhất (mục dẫn Điều 7 khoản 1 điểm e Nghị định 146/2018/NĐ-CP)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/10/146-2018-nd-cp.signed.pdf
+    quote: "e) Mức đóng bảo hiểm y tế của đối tượng quy định tại Điều 5 Nghị định này như sau: Người thứ nhất đóng bằng 4,5% mức lương cơ sở; người thứ hai, thứ ba, thứ tư đóng lần lượt bằng 70%, 60%, 50% mức đóng của người thứ nhất; từ người thứ năm trở đi đóng bằng 40% mức đóng của người thứ nhất."
+    verdict: match
+    note: "Khớp nguyên văn với ND146 (PDF ký số là ảnh quét, đọc bằng OCR trang 6, Điều 7 khoản 1 điểm e). NHƯNG văn bản này đã hết hiệu lực (xem claim sau và validity). Con số vẫn đúng vì ND188/2025 lặp lại nguyên mức này."
+  - text: "Cùng mức giảm trừ 70/60/50/40% nay nằm ở Điều 6 khoản 5 điểm b Nghị định 188/2025/NĐ-CP (văn bản đang hiệu lực, mục chưa dẫn)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/188-ndcp.signed.pdf
+    quote: "Thành viên hộ gia đình quy định tại điểm a khoản 5 Điều 12 của Luật Bảo hiểm y tế cùng tham gia bảo hiểm y tế theo hình thức hộ gia đình trong năm tài chính thì được giảm trừ mức đóng như sau: người thứ nhất đóng bằng 4,5% mức lương cơ sở; người thứ hai, thứ ba, thứ tư đóng lần lượt bằng 70%, 60%, 50% mức đóng của người thứ nhất; từ người thứ năm trở đi đóng bằng 40% mức đóng của người thứ nhất."
+    verdict: match
+    note: "PDF ký số quét ảnh (106 trang), đọc bằng OCR; đoạn nằm ở Điều 6 khoản 5 điểm b. Cũng có ở Luật BHYT sửa đổi 51/2024/QH15 Điều 1 khoản 11 (sửa Điều 13 khoản 6): 'Thành viên hộ gia đình quy định tại điểm a khoản 5 Điều 12 của Luật này cùng tham gia bảo hiểm y tế theo hình thức hộ gia đình trong năm tài chính thì được giảm trừ mức đóng như sau' (https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/01/luat51.pdf). Điều kiện 'cùng tham gia trong năm tài chính' là điều kiện nên nêu."
+  - text: "Nghị định 146/2018/NĐ-CP (Điều 5, Điều 7) còn hiệu lực"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/188-ndcp.signed.pdf
+    quote: "5. Bãi bỏ các văn bản sau đây từ ngày 15 tháng 8 năm 2025: a) Nghị định số 146/2018/NĐ-CP ngày 17 tháng 10 năm 2018 của Chính phủ quy định chi tiết và hướng dẫn biện pháp thi hành một số điều của Luật Bảo hiểm y tế"
+    verdict: mismatch
+    note: "Điều 70 khoản 4 điểm a cũng bãi bỏ 'Các điều từ Điều 1 đến Điều 12 ... của Nghị định số 146/2018/NĐ-CP' từ 01/7/2025. Cả Điều 5 lẫn Điều 7 mà mục dẫn đều đã hết hiệu lực. Mục dùng ND146 làm căn cứ chính trong legal_refs, thân bài, Nguồn."
+  - text: "Nhóm tham gia theo hộ gồm người có tên trong sổ hộ khẩu hoặc sổ tạm trú (Điều 5 ND146)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/10/146-2018-nd-cp.signed.pdf
+    quote: "1. Người có tên trong số hộ khẩu, trừ những người thuộc đối tượng quy định tại các Điều 1, 2, 3, 4 và 6 Nghị định này. 2. Người có tên trong sổ tạm trú, trừ đối tượng quy định tại các Điều 1, 2, 3; 4 và 6 Nghị định này"
+    verdict: mismatch
+    note: "Khớp chữ ND146 (OCR trang 5) nhưng quy định đã hết hiệu lực. Quy định hiện hành: Luật BHYT sửa đổi 51/2024/QH15 Điều 12 khoản 5 điểm a 'Người thuộc hộ gia đình tham gia bảo hiểm y tế theo hình thức hộ gia đình'; ND188 Mẫu số 4 ghi chú: 'Danh sách thành viên Hộ gia đình tham gia bảo hiểm y tế phải được cập nhật đúng thông tin hộ gia đình trên Cơ sở dữ liệu Quốc gia về dân cư hoặc Cơ sở dữ liệu Quốc gia về cư trú hoặc thông tin cư trú trên tài khoản định danh điện tử (VneID).' Không còn căn cứ 'sổ hộ khẩu'."
+  - text: "Lương cơ sở 2.530.000 đồng/tháng từ 1/7/2026 (Điều 3 khoản 2 Nghị định 161/2026/NĐ-CP)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/161-ndcp.signed.pdf
+    quote: "2. Từ ngày 01 tháng 7 năm 2026, mức lương cơ sở là 2.530.000 đồng/tháng."
+    verdict: match
+    note: "PDF ký số quét ảnh, OCR trang 3. Nghị định ban hành 15/5/2026 (số 161/2026/NĐ-CP). Khoản 1 điểm c cùng điều: 'Tính các khoản trích và các chế độ được hưởng theo mức lương cơ sở.'"
+  - text: "Người thứ nhất đóng 113.850 đồng/tháng; người 2-4 đóng 79.695 / 68.310 / 56.925 đồng/tháng"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/188-ndcp.signed.pdf
+    quote: "người thứ nhất đóng bằng 4,5% mức lương cơ sở; người thứ hai, thứ ba, thứ tư đóng lần lượt bằng 70%, 60%, 50% mức đóng của người thứ nhất"
+    verdict: inference
+    note: "Số tiền là phép tính từ 4,5% x 2.530.000 = 113.850; x70% = 79.695; x60% = 68.310; x50% = 56.925. Tính lại đúng. Mục để chú thích nguồn là 'Điều 7 ND146 + Điều 3 ND161' nên nên ghi 'tính từ' để rõ đây là suy ra."
+  - text: "Hộ bốn người đóng 3.825.360 đồng/năm, so với 5.464.800 đồng/năm nếu ai cũng đóng như người thứ nhất; chênh 1.639.440 đồng/năm"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/188-ndcp.signed.pdf
+    quote: "người thứ nhất đóng bằng 4,5% mức lương cơ sở; người thứ hai, thứ ba, thứ tư đóng lần lượt bằng 70%, 60%, 50% mức đóng của người thứ nhất"
+    verdict: inference
+    note: "Tính lại: (113.850+79.695+68.310+56.925) x 12 = 318.780 x 12 = 3.825.360; 4 x 113.850 x 12 = 5.464.800; chênh 1.639.440. Đúng số học. Đây là phép tính, không phải chữ của nguồn."
+  - text: "Giảm trừ chỉ áp dụng khi các thành viên 'cùng tham gia trong năm tài chính'; ai đóng trước thì được 'ăn giá thấp' (Bẫy 2)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/188-ndcp.signed.pdf
+    quote: "cùng tham gia bảo hiểm y tế theo hình thức hộ gia đình trong năm tài chính thì được giảm trừ mức đóng"
+    verdict: partial
+    note: "Nguồn chỉ nói điều kiện 'cùng tham gia trong năm tài chính', không nói thứ tự theo ai đóng trước. Câu 'Ai đóng trước ăn giá thấp' và 'Đóng lẻ từng người rồi mới gộp là mất phần giảm' không có chữ nào trong ND146/ND188/Luật 51 mà tôi đọc. Có thể làm người đọc hiểu sai thứ tự đóng hoặc thứ tự là do mình chọn."
+  - text: "Thẻ hết hạn thì không được thanh toán, phải đóng tiếp mới có lại; đóng tiếp trước khi thẻ hết hạn (bước 3)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/188-ndcp.signed.pdf
+    quote: "Điều 13. Thời điểm thẻ bảo hiểm y tế có giá trị sử dụng"
+    verdict: not-found
+    note: "Mục không dẫn căn cứ cho câu này; ND188 Điều 13 (Thời điểm thẻ BHYT có giá trị sử dụng) là nơi liên quan nhưng tôi không đọc kỹ nội dung (chỉ thấy tiêu đề trong mục lục text lớp). Không phải số liệu rủi ro; nêu để mục tự dẫn Điều 13 ND188 hoặc Luật BHYT."
+internal_checks:
+  - issue: "legal_refs[0..1] và phần Pháp luật/Nguồn dẫn Nghị định 146/2018/NĐ-CP làm căn cứ duy nhất cho mức đóng và nhóm hộ gia đình, nhưng ND146 đã bị bãi bỏ toàn bộ từ 15/8/2025 (Điều 1-12 bãi bỏ từ 1/7/2025) bởi ND188/2025/NĐ-CP. Điều 7 khoản 1 điểm e nay là Điều 6 khoản 5 điểm b ND188."
+    severity: error
+  - issue: "Điều 5 ND146 'sổ hộ khẩu / sổ tạm trú' dùng để định nghĩa nhóm hộ gia đình đã hết hiệu lực; căn cứ hiện hành là Luật BHYT 51/2024/QH15 Điều 12 khoản 5 điểm a và dữ liệu cư trú (ND188 Mẫu số 4)."
+    severity: error
+  - issue: "legal_refs ghi effective_from 2018-12-01 cho ND146 (còn hiệu lực theo mục). ND188 hiệu lực từ 15/8/2025 (một số điều từ 1/7/2025); ND161 chưa có effective_from (nên 2026-07-01). legal_refs[2] (ND161) có effective_from: null."
+    severity: warn
+  - issue: "Bẫy 2: 'Ai đóng trước ăn giá thấp. Đóng lẻ từng người rồi mới gộp là mất phần giảm' và step 1 'đừng đóng lẻ từng người rồi mới gộp' không có cơ sở trong thân hay nguồn; nguồn chỉ nêu điều kiện 'cùng tham gia trong năm tài chính'."
+    severity: warn
+  - issue: "Mọi con số trong tldr (70/60/50/40%, 3.825.360, 1.639.440) có trong thân và tính đúng. Không có mâu thuẫn số nội bộ."
+    severity: warn
+  - issue: "Câu 'Thẻ hết hạn thì không được thanh toán' và step 3 không có cơ sở nêu trong thân/Nguồn."
+    severity: warn
+  - issue: "Chú thích 'Điều 7 khoản 1 điểm e' gắn cho các số tiền hàng tháng/năm là phép tính suy ra, chưa ghi nhãn."
+    severity: warn
+  - issue: "URL legal_refs: ND146 đúng văn bản ND146 (PDF ký số, quét ảnh); ND161 đúng văn bản ND161. Cả hai URL đúng doc, chỉ có vấn đề hiệu lực."
+    severity: warn
+validity:
+  doc: "Nghị định 146/2018/NĐ-CP (mục dẫn) -> thay bằng Nghị định 188/2025/NĐ-CP và Luật BHYT sửa đổi 51/2024/QH15"
+  in_force: false
+  effective_from: "2025-08-15"
+  amended_by:
+    - "Nghị định 188/2025/NĐ-CP (bãi bỏ ND146, ND75/2023, ND02/2025 từ 15/8/2025; bãi bỏ Điều 1-12 ND146 từ 1/7/2025)"
+  basis: "Đọc ND188 (Công báo 977+978, bản ký số, OCR): Điều 70 khoản 4 điểm a và khoản 5 điểm a. ND161/2026/NĐ-CP (lương cơ sở 2.530.000 từ 1/7/2026) đã đọc và còn đủ; chưa thấy nghị định sửa ND161. Một bài báo (Nhân Dân, 17/9/2026) cho biết Bộ Y tế đang soạn DỰ THẢO sửa ND188 (kể cả mức đóng, thẻ BHYT), chưa ban hành nên mức 70/60/50/40% vẫn đúng tại 2026-11-08, nhưng mục nên ghi 'dự thảo sửa đổi'."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Thay mọi dẫn 'Điều 7 khoản 1 điểm e, Nghị định 146/2018/NĐ-CP' bằng 'Điều 6 khoản 5 điểm b, Nghị định 188/2025/NĐ-CP' (quote: 'cùng tham gia bảo hiểm y tế theo hình thức hộ gia đình trong năm tài chính thì được giảm trừ mức đóng như sau: người thứ nhất đóng bằng 4,5% mức lương cơ sở; người thứ hai, thứ ba, thứ tư đóng lần lượt bằng 70%, 60%, 50% mức đóng của người thứ nhất; từ người thứ năm trở đi đóng bằng 40%'); thêm Luật BHYT sửa đổi 51/2024/QH15 (Điều 1 khoản 11, sửa Điều 13 khoản 6) làm căn cứ cấp luật. URL ND188: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/188-ndcp.signed.pdf"
+  - "Bỏ câu 'Nhóm tham gia theo hộ gồm người có tên trong sổ hộ khẩu hoặc sổ tạm trú (Điều 5 ND146)'. Thay bằng: 'Người thuộc hộ gia đình tham gia bảo hiểm y tế theo hình thức hộ gia đình (Luật BHYT Điều 12 khoản 5 điểm a, sửa đổi bởi Luật 51/2024/QH15); thông tin hộ lấy theo cơ sở dữ liệu cư trú / dân cư hoặc VNeID (ND188 Mẫu số 4)'."
+  - "Thêm điều kiện nguồn vào Nói dễ hiểu và Pháp luật: giảm trừ chỉ khi các thành viên 'cùng tham gia bảo hiểm y tế theo hình thức hộ gia đình trong năm tài chính'."
+  - "Sửa Bẫy 2 và step 1: bỏ 'Ai đóng trước ăn giá thấp' (không có trong nguồn). Nếu muốn giữ ý 'đóng cùng nhau', viết theo chữ nguồn: 'cùng tham gia theo hình thức hộ gia đình trong năm tài chính'."
+  - "Ghi nhãn 'tính từ' cho các số tiền 113.850 / 79.695 / 68.310 / 56.925 / 3.825.360 / 5.464.800 / 1.639.440 (4,5% x 2.530.000 rồi nhân tỷ lệ, x12). Cập nhật legal_refs: effective_from 2025-08-15 (ND188) và 2026-07-01 (ND161), checked_at ngày kiểm lại."
+  - "Nên thêm một câu: Bộ Y tế đang soạn dự thảo sửa ND188 (kể cả mức đóng, hỗ trợ đóng và thẻ BHYT), nên kiểm lại trước khi công bố. Với câu 'Thẻ hết hạn thì không được thanh toán' và step 3, dẫn căn cứ (ND188 Điều 13 / Luật BHYT) hoặc bỏ."

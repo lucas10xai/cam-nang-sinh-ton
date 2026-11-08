@@ -1,0 +1,113 @@
+id: don-vi-khong-dong-bao-hiem-kiem-so-moi-quy-va-doi
+checker: agent-V3b19eA
+checked_at: 2026-11-08
+content_sha256: "f371d97ce0d7507a23e86bb0c6a9b2fa92c3d911cbb1f2022137eee01b33543f"
+result: pass-with-edits
+claims:
+  - text: "Điều 168 khoản 1 BLLĐ: người sử dụng lao động và người lao động phải tham gia BHXH bắt buộc, BHYT, BHTN; thỏa thuận tự nguyện không đóng là trái luật"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "Người sử dụng lao động, người lao động phải tham gia bảo hiểm xã hội bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp; người lao động được hưởng các chế độ theo quy định của pháp luật về bảo hiểm xã hội, bảo hiểm y tế và bảo hiểm thất nghiệp."
+    verdict: match
+    note: "Đọc từ DOCX 18/VBHN-VPQH tải trên trang Công báo. Nghĩa vụ đúng. Câu 'thỏa thuận kiểu tự nguyện không đóng là thỏa thuận trái luật' là hệ quả suy ra, không phải chữ của điều luật; chấp nhận được nhưng nên ghi 'suy ra từ'. Khoản 3 cùng điều (người không thuộc diện bắt buộc) không bị bỏ sót gây hiểu sai."
+  - text: "Người lao động đóng 8% vào quỹ hưu trí và tử tuất (Điều 33 khoản 1 điểm a Luật BHXH 41/2024)"
+    source_url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/41-2024-qh15.pdf"
+    quote: "Mức đóng hằng tháng bằng 8% tiền lương làm căn cứ đóng bảo hiểm xã hội bắt buộc vào quỹ hưu trí và tử tuất;"
+    verdict: match
+    note: "PDF ký số có lớp chữ, trích được. Con số đúng cho BHXH. Mục dùng 'bảo hiểm' chung nhưng '17% / 8% / cộng 25%' chỉ là BHXH, không gồm BHYT, BHTN, BHTNLĐ-BNN (xem internal_checks)."
+  - text: "Người sử dụng lao động đóng 3% vào quỹ ốm đau thai sản và 14% vào quỹ hưu trí tử tuất (tổng 17%)"
+    source_url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/41-2024-qh15.pdf"
+    quote: "a) 3% vào quỹ ốm đau và thai sản; b) 14% vào quỹ hưu trí và tử tuất."
+    verdict: match
+    note: "Điều 34 khoản 1. Áp dụng cho đối tượng điểm a, b, c, d, i, k, l khoản 1 và khoản 2 Điều 2; người lao động đóng 8%. 'Cộng lại 25%' là phép cộng đúng, nhưng chỉ cho BHXH."
+  - text: "Hạn đóng chậm nhất là ngày cuối cùng của tháng tiếp theo (Điều 34 khoản 4)"
+    source_url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/41-2024-qh15.pdf"
+    quote: "a) Ngày cuối cùng của tháng tiếp theo đối với phương thức đóng hằng tháng; b) Ngày cuối cùng của tháng tiếp theo ngay sau chu kỳ đóng đối với phương thức đóng 03 tháng một lần hoặc 06 tháng một lần."
+    verdict: partial
+    note: "Mục chỉ nêu mốc hằng tháng, bỏ phương thức 03 tháng/06 tháng (điểm b). Điều 33 khoản 5 cho phép không đóng tháng người lao động không hưởng lương từ 14 ngày làm việc trở lên: tháng đó 'sổ trống' hợp pháp, mục dạy 'thiếu tháng nào thì gửi văn bản' không nhắc ngoại lệ này."
+  - text: "Chậm đóng là chưa đóng hoặc đóng chưa đủ số đã đăng ký (Điều 38, Luật BHXH)"
+    source_url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/41-2024-qh15.pdf"
+    quote: "Chưa đóng hoặc đóng chưa đầy đủ số tiền phải đóng theo hồ sơ tham gia bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp đã đăng ký kể từ sau ngày đóng bảo hiểm xã hội chậm nhất quy định tại khoản 4 Điều 34 của Luật này"
+    verdict: match
+    note: "Điều 38 khoản 1; khoản 1 còn loại trừ trường hợp điểm đ, e khoản 1 Điều 39 (thành trốn đóng)."
+  - text: "Trốn đóng gồm đăng ký lương thấp hơn quy định, và không đóng sau 60 ngày kể từ hạn dù đã được đôn đốc"
+    source_url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/41-2024-qh15.pdf"
+    quote: "c) Đăng ký tiền lương làm căn cứ đóng bảo hiểm xã hội bắt buộc thấp hơn quy định tại khoản 1 Điều 31 của Luật này; ... đ) Không đóng hoặc đóng không đầy đủ số tiền đã đăng ký bảo hiểm xã hội bắt buộc sau 60 ngày kể từ ngày đóng bảo hiểm xã hội bắt buộc chậm nhất quy định tại khoản 4 Điều 34 của Luật này và đã được cơ quan có thẩm quyền đôn đốc theo quy định tại Điều 35 của Luật này;"
+    verdict: partial
+    note: "Điều 39 khoản 1 điểm c, đ. Đúng ý nhưng bỏ Điều 39 khoản 2: Chính phủ quy định trường hợp có lý do chính đáng thì không bị coi là trốn đóng (và Điều 38 khoản 4 xếp các trường hợp đó vào chậm đóng). Mục viết như thể mọi trường hợp sau 60 ngày đều là trốn đóng."
+  - text: "Cơ quan BHXH công khai trên cổng thông tin việc chậm đóng, trốn đóng và gửi thông tin tới cơ quan thanh tra có liên quan (Điều 35)"
+    source_url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/41-2024-qh15.pdf"
+    quote: "2. Cơ quan bảo hiểm xã hội công khai trên Cổng thông tin điện tử của cơ quan bảo hiểm xã hội về việc người sử dụng lao động chậm đóng, trốn đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp. 3. Cơ quan bảo hiểm xã hội gửi thông tin về người sử dụng lao động chậm đóng, trốn đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp đến cơ quan quản lý nhà nước về bảo hiểm xã hội, bảo hiểm thất nghiệp và cơ quan thanh tra có liên quan để xem xét xử lý theo thẩm quyền."
+    verdict: match
+    note: "Điều 35 khoản 2, 3. Mục có thể nói thêm khoản 1: cơ quan BHXH có trách nhiệm đôn đốc bằng văn bản."
+  - text: "Chậm đóng: phạt 12% đến 15% tổng số tiền chậm đóng, tối đa 75.000.000 đồng (NĐ 283/2026 Điều 43 khoản 3)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm"
+    quote: "3. Phạt tiền từ 12% đến 15% tổng số tiền chậm đóng bảo hiểm xã hội bắt buộc tại thời điểm lập biên bản vi phạm hành chính nhưng tối đa không quá 75.000.000 đồng đối với người sử dụng lao động có một trong các hành vi chậm đóng bảo hiểm xã hội sau đây:"
+    verdict: match
+    note: "PDF Công báo số 448 ngày 28-07-2026 có lớp chữ. Điều 43 khoản 1: phạt cảnh cáo khi số tiền vi phạm dưới 400.000 đồng (mục không nhắc, không gây hại)."
+  - text: "Chậm đóng: buộc đóng đủ và nộp 0,03% mỗi ngày trên số tiền chậm và số ngày chậm (Điều 43 khoản 4)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm"
+    quote: "b) Buộc người sử dụng lao động đóng đủ số tiền bảo hiểm xã hội bắt buộc chậm đóng; nộp số tiền bằng 0,03%/ngày tính trên số tiền bảo hiểm xã hội bắt buộc chậm đóng và số ngày chậm đóng vào quỹ bảo hiểm xã hội đối với hành vi vi phạm quy định tại khoản 3 Điều này."
+    verdict: match
+    note: "Khớp Luật BHXH Điều 40 khoản 1."
+  - text: "Trốn đóng: phạt 18% đến 20%, trần 75.000.000 đồng (Điều 44 khoản 2)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm"
+    quote: "2. Phạt tiền từ 18% đến 20% tổng số tiền trốn đóng bảo hiểm xã hội bắt buộc nhưng tối đa không quá 75.000.000 đồng đối với người sử dụng lao động có một trong các hành vi trốn đóng bảo hiểm xã hội sau đây:"
+    verdict: match
+    note: "Mục chỉ nêu khoản 2; khoản 1 (không đăng ký đủ số người, 6 đến 75 triệu theo số người) không bị đưa vào khẳng định nào."
+  - text: "Các mức phạt là mức với cá nhân, tổ chức bị phạt gấp 02 lần; một doanh nghiệp có thể bị tới 150.000.000 đồng"
+    source_url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm"
+    quote: "Mức phạt tiền đối với tổ chức bằng 02 lần mức phạt tiền đối với cá nhân."
+    verdict: inference
+    note: "Điều 7 khoản 1: Điều 43, 44 không thuộc danh sách ngoại lệ nên là mức cá nhân; doanh nghiệp thuộc khoản 2 điểm b. Luật chỉ nói 'gấp 02 lần mức phạt'; con số 150.000.000 đồng là phép nhân với trần 75.000.000 đồng (mức phạt tính theo phần trăm), không phải chữ của nghị định. Nên ghi 'suy ra'. Điều 7 khoản 4: nhiều lần chưa bị xử lý chỉ bị phạt một hành vi."
+  - text: "Thời hiệu 01 năm để yêu cầu tòa án (Điều 190 khoản 3 BLLĐ)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "3. Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động cá nhân là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm."
+    verdict: partial
+    note: "Con số 01 năm khớp. Nhưng mục mở rộng thành 'sau khi đã hòa giải ở mức 06 tháng và trọng tài ở mức 09 tháng': khoản 1, 2 là thời hiệu riêng để yêu cầu từng cơ quan, không phải các bước nối tiếp, và Điều 188 khoản 1 điểm d nói tranh chấp về bảo hiểm xã hội không bắt buộc qua hòa giải. Cũng chưa có nguồn nói Điều 190 áp cho yêu cầu đòi BHXH (xem internal_checks)."
+  - text: "Nghỉ ngang chỉ vì đơn vị không đóng BHXH: Điều 35 khoản 2 không có trường hợp đó; Điều 40 bỏ trợ cấp thôi việc, bồi thường nửa tháng lương và tiền những ngày không báo trước"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "1. Không được trợ cấp thôi việc. 2. Phải bồi thường cho người sử dụng lao động nửa tháng tiền lương theo hợp đồng lao động và một khoản tiền tương ứng với tiền lương theo hợp đồng lao động trong những ngày không báo trước."
+    verdict: partial
+    note: "Điều 40 khớp. Danh sách Điều 35 khoản 2 (a đến g) thật sự không ghi 'không đóng BHXH' nên câu 'không có trường hợp đó' đúng về chữ. Nhưng điểm a ('không được bảo đảm... điều kiện làm việc theo thỏa thuận') mà hợp đồng phải có nội dung BHXH (Điều 21 khoản 1 điểm i) có thể được viện dẫn; mục khẳng định tuyệt đối. Nên viết 'luật không liệt kê đích danh' thay vì 'không có'. Chữ 'mất luôn trợ cấp thất nghiệp' không có trong Điều 40 (xem claim kế tiếp)."
+  - text: "Nghỉ trái luật thì mất luôn trợ cấp thất nghiệp; 10 tháng sổ trống không tính vào thời gian đóng hưởng trợ cấp thất nghiệp"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: ""
+    verdict: not-found
+    note: "Không nguồn nào trong mục (BLLĐ, Luật BHXH 41/2024, NĐ 283/2026) quy định điều kiện hưởng trợ cấp thất nghiệp; luật điều chỉnh là Luật Việc làm 74/2025/QH15, mục không dẫn. Không kiểm được bằng nguồn đã liệt kê."
+  - text: "Mười tháng trống là mười tháng không tính vào 15 năm hưởng lương hưu"
+    source_url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/41-2024-qh15.pdf"
+    quote: "có thời gian đóng bảo hiểm xã hội bắt buộc từ đủ 15 năm trở lên thì được hưởng lương hưu nếu thuộc một trong các trường hợp sau đây:"
+    verdict: inference
+    note: "Điều 64 khoản 1 (không có trong legal_refs/Nguồn của mục) đúng cho mốc 15 năm, nhưng điều kiện còn gồm đủ tuổi nghỉ hưu (điểm a, b...). 'Tháng không đóng thì không tính' là suy ra. Điều 33 khoản 7 (đóng bù tối đa 06 tháng còn thiếu) và truy đóng cũng không được nhắc."
+internal_checks:
+  - issue: "Phần 'Đường dân sự' viết 'Có 01 năm ... sau khi đã hòa giải ở mức 06 tháng và trọng tài ở mức 09 tháng (Điều 190 khoản 3)': sai cấu trúc. Điều 190 khoản 1, 2, 3 là ba thời hiệu độc lập tùy cơ quan được yêu cầu; không phải chuỗi. Điều 188 khoản 1 điểm d: tranh chấp về BHXH không bắt buộc qua hòa giải."
+    severity: error
+  - issue: "Cơ quan nhận đơn: tldr/steps/Chi phí dùng 'thanh tra lao động cấp tỉnh' nhưng không nguồn nào trong mục gọi tên cơ quan này. NĐ 283/2026 Điều 54 đến 57 liệt kê: công chức Sở Nội vụ, Bảo hiểm xã hội cấp tỉnh, Giám đốc BHXH cấp tỉnh (phạt đến 37.500.000 đồng), Chủ tịch UBND cấp xã (đến 37.500.000 đồng) và cấp tỉnh (đến 75.000.000 đồng). Đường chính cho vi phạm đóng BHXH là cơ quan BHXH (Luật BHXH Điều 35) và Sở Nội vụ; tên 'thanh tra lao động cấp tỉnh' cần thay bằng tên cơ quan có căn cứ."
+    severity: warn
+  - issue: "'Đơn vị đóng 17%, bạn đóng 8%, cộng lại 25%' chỉ là BHXH. Mục không nói BHYT, BHTN (người lao động còn phải đóng) và không có mức BHTN dù nhắc 'trợ cấp thất nghiệp'; người đọc có thể đối chiếu sai khi mở sổ/phiếu lương."
+    severity: warn
+  - issue: "Bước 'thấy thiếu tháng nào thì gửi văn bản' và 'sổ trống' bỏ ngoại lệ Điều 33 khoản 5 Luật BHXH 41/2024 (không hưởng lương từ 14 ngày làm việc trở lên trong tháng thì không phải đóng tháng đó). Dễ gây khiếu nại thừa."
+    severity: warn
+  - issue: "Thời hiệu 01 năm gắn với Điều 190 BLLĐ cho 'tranh chấp lao động cá nhân'. Mục chưa chứng minh yêu cầu đòi đóng đủ BHXH và khiếu nại với cơ quan BHXH (Luật BHXH Điều 130 khoản 6: thời hiệu khiếu nại theo pháp luật về khiếu nại) cùng chịu thời hiệu này."
+    severity: warn
+  - issue: "Khẳng định 'mất luôn trợ cấp thất nghiệp' và 'không tính vào thời gian đóng để hưởng trợ cấp thất nghiệp' không có nguồn trong mục."
+    severity: warn
+  - issue: "(f) Cùng chương: mục 25 vẫn dẫn Nghị định 12/2022/NĐ-CP (đã hết hiệu lực 10/09/2026) trong khi mục 21 đến 24 dẫn NĐ 283/2026/NĐ-CP."
+    severity: warn
+  - issue: "legal_refs[].url (d): BLLĐ trỏ đúng 18/VBHN-VPQH; Luật BHXH trỏ đúng PDF 41/2024/QH15; NĐ 283 trỏ đúng trang 283/2026/NĐ-CP. Các số trong tldr/steps (01 năm) đều có trong thân. Không lỗi."
+    severity: warn
+validity:
+  doc: "Luật BHXH 41/2024/QH15; NĐ 283/2026/NĐ-CP; BLLĐ 45/2019/QH14 (VBHN 18/VBHN-VPQH)"
+  in_force: true
+  effective_from: "2026-09-10"
+  amended_by: []
+  basis: "NĐ 283/2026 Điều 66 khoản 1: 'có hiệu lực thi hành từ ngày 10 tháng 9 năm 2026' (PDF Công báo số 448 ngày 28-07-2026); khoản 4 hết hiệu lực NĐ 12/2022 từ cùng ngày. Luật BHXH 41/2024 Điều 140 khoản 1: hiệu lực 01/07/2025, và được NĐ 283/2026 ghi trong phần căn cứ; BLLĐ có VBHN 18/VBHN-VPQH ngày 12/02/2026 liệt kê 3 luật sửa đổi (71/2025, 113/2025, 124/2025) và cũng là căn cứ của NĐ 283/2026. Trang Công báo của VBHN để trống ô Hiệu lực. Không kiểm văn bản sửa NĐ 283 ban hành sau 28/07/2026 (lược đồ trên trang Công báo không hiển thị)."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Sửa mục 'Đường dân sự' (Pháp luật VN, dòng cuối) dựa vào Điều 190 khoản 1, 2, 3 và Điều 188 khoản 1 điểm d: bỏ 'sau khi đã hòa giải ở mức 06 tháng và trọng tài ở mức 09 tháng'; viết: 'Thời hiệu yêu cầu hòa giải viên là 06 tháng, Hội đồng trọng tài 09 tháng, Tòa án 01 năm kể từ ngày phát hiện hành vi; tranh chấp về BHXH không bắt buộc qua hòa giải.' Thêm nhãn 'chưa kiểm' nếu giữ việc áp Điều 190 cho đòi BHXH."
+  - "Thay 'thanh tra lao động cấp tỉnh' (tldr, steps, Chi phí) bằng cơ quan có căn cứ: cơ quan bảo hiểm xã hội (Luật BHXH Điều 35) và Sở Nội vụ nơi đơn vị đặt trụ sở (NĐ 283/2026 Điều 54 khoản 2, Điều 57), hoặc ghi 'cơ quan có thẩm quyền xử phạt theo NĐ 283/2026 Điều 54 đến 57'."
+  - "Chi phí/Nói dễ hiểu: ghi rõ '17% và 8% là phần BHXH; BHYT và BHTN đóng thêm' hoặc bổ sung mức BHYT, BHTN kèm nguồn; thêm một câu về Điều 33 khoản 5 (tháng nghỉ không lương từ 14 ngày làm việc trở lên có thể không đóng)."
+  - "Bỏ hoặc gắn nguồn cho 'mất luôn trợ cấp thất nghiệp' và 'không tính vào thời gian đóng để hưởng trợ cấp thất nghiệp' (dẫn Luật Việc làm 74/2025/QH15 sau khi kiểm), và thêm Điều 64 khoản 1 Luật BHXH vào legal_refs nếu giữ 'mười tháng không tính vào 15 năm' (kèm điều kiện đủ tuổi nghỉ hưu)."
+  - "Bẫy 2: thay 'Khoản 2 Điều 35 Bộ luật Lao động không có trường hợp đó' bằng 'khoản 2 Điều 35 không liệt kê đích danh việc không đóng BHXH'."
+  - "Điều 39 (Pháp luật VN, Chậm đóng và trốn đóng): thêm 'trừ trường hợp có lý do chính đáng theo quy định của Chính phủ (Điều 39 khoản 2)'. Câu '150.000.000 đồng' gắn nhãn 'suy ra từ Điều 7 khoản 1 NĐ 283/2026'."

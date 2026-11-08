@@ -1,0 +1,78 @@
+id: ky-hop-dong-lao-dong-thi-cam-ve-mot-ban-lo-ky
+checker: agent-V3b19eB
+checked_at: 2026-11-08
+content_sha256: "cdc64a032fe40dea0f8319f1b27833641474e5efca9499a3fe8a65645d1e1b28"
+result: pass-with-edits
+claims:
+  - text: "Hợp đồng lao động làm thành 02 bản, NLĐ giữ 01 bản, NSDLĐ giữ 01 bản, trừ hợp đồng dưới 01 tháng"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "1. Hợp đồng lao động phải được giao kết bằng văn bản và được làm thành 02 bản, người lao động giữ 01 bản, người sử dụng lao động giữ 01 bản, trừ trường hợp quy định tại khoản 2 Điều này."
+    verdict: partial
+    note: "Điều 14 khoản 1 (VBHN 18; mục dẫn URL vanban.chinhphu.vn đúng văn bản Luật 45/2019/QH14 nhưng đó là trang metadata, tôi đọc chữ từ VBHN 18). Ngoại lệ của khoản 1 trỏ sang khoản 2: 'Hai bên có thể giao kết hợp đồng lao động bằng lời nói đối với hợp đồng có thời hạn dưới 01 tháng, trừ trường hợp quy định tại khoản 2 Điều 18, điểm a khoản 1 Điều 145 và khoản 1 Điều 162 của Bộ luật này.' Mục viết 'trừ hợp đồng có thời hạn dưới 01 tháng' bỏ các ngoại lệ của ngoại lệ (Điều 18 khoản 2: nhóm lao động thời vụ ủy quyền ký - phải bằng văn bản; Điều 145 khoản 1 điểm a: sử dụng người chưa đủ 15 tuổi; Điều 162 khoản 1: lao động là người giúp việc gia đình). Mục cũng bỏ đoạn 2: 'Hợp đồng lao động được giao kết thông qua phương tiện điện tử dưới hình thức thông điệp dữ liệu ... có giá trị như hợp đồng lao động bằng văn bản.' - quan trọng vì step 1 'cầm về một bản' không áp cho hợp đồng điện tử như nhau."
+  - text: "Phạt 2.000.000-5.000.000 đồng với vi phạm 01-10 NLĐ khi giao kết không bằng văn bản, không đúng loại hợp đồng hoặc không đầy đủ nội dung chủ yếu"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "a) Từ 2.000.000 đồng đến 5.000.000 đồng đối với vi phạm từ 01 người đến 10 người lao động;"
+    verdict: match
+    note: "Điều 15 khoản 1 điểm a Nghị định 283/2026/NĐ-CP (hiệu lực 10/09/2026): 'giao kết hợp đồng lao động không bằng văn bản với người lao động làm công việc có thời hạn từ đủ 01 tháng trở lên; ... giao kết không đúng loại hợp đồng lao động với người lao động; giao kết hợp đồng lao động không đầy đủ các nội dung chủ yếu của hợp đồng lao động theo quy định của pháp luật theo một trong các mức sau đây:'. NHƯNG mục dẫn Điều 9 khoản 1 Nghị định 12/2022/NĐ-CP, văn bản đã HẾT HIỆU LỰC (xem claim sau). Số tiền không đổi, điều khoản đã đổi số."
+  - text: "Nghị định 12/2022/NĐ-CP (Điều 9 khoản 1, Điều 6 khoản 3) là văn bản xử phạt hiện hành"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "4. Nghị định số 12/2022/NĐ-CP ngày 17 tháng 01 năm 2022 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực lao động, bảo hiểm xã hội, người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng hết hiệu lực thi hành kể từ ngày Nghị định này có hiệu lực thi hành."
+    verdict: mismatch
+    note: "Nghị định 283/2026/NĐ-CP Điều 66 khoản 4; Điều 66 khoản 1: 'Nghị định này có hiệu lực thi hành từ ngày 10 tháng 9 năm 2026.' Hôm nay 2026-11-08 đã sau ngày đó, nên Nghị định 12/2022 hết hiệu lực. Trang VCCI mà mục dẫn vẫn hiển thị 'Hiệu lực văn bản: Còn hiệu lực' (đọc ngày 2026-11-08) - tình trạng lạc hậu và là nguồn thứ cấp. Nguồn đúng: Điều 15 khoản 1 và Điều 7 khoản 1 Nghị định 283/2026."
+  - text: "Tổ chức bị phạt gấp 02 lần mức của cá nhân"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "Mức phạt tiền đối với tổ chức bằng 02 lần mức phạt tiền đối với cá nhân."
+    verdict: match
+    note: "Điều 7 khoản 1 Nghị định 283/2026 (thay thế Điều 6 khoản 3 Nghị định 12/2022 mà mục dẫn). Điều 15 không nằm trong danh sách ngoại lệ ở Điều 7 khoản 1, nên mức tại Điều 15 là mức cá nhân và tổ chức gấp đôi."
+  - text: "Cơ quan lao động còn buộc giao kết lại bằng văn bản"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "a) Buộc người sử dụng lao động giao kết hợp đồng lao động bằng văn bản với người lao động khi có hành vi giao kết hợp đồng lao động không bằng văn bản với người lao động làm công việc có thời hạn từ đủ 01 tháng trở lên quy định tại khoản 1 Điều này;"
+    verdict: partial
+    note: "Điều 15 khoản 3 điểm a, c: chỉ áp cho 'giao kết không bằng văn bản' (điểm a) và 'không đúng loại hợp đồng' (điểm c: 'Buộc người sử dụng lao động giao kết đúng loại hợp đồng'). Với 'thiếu nội dung chủ yếu' không có biện pháp buộc giao kết lại tại khoản 3. Mục viết 'Cơ quan lao động còn buộc giao kết lại bằng văn bản' ngay sau câu nêu cả ba hành vi, nên rộng hơn nguồn. Cũng 'cơ quan lao động' không phải tên cơ quan trong Nghị định 283 (thẩm quyền: UBND cấp xã/tỉnh, Sở Nội vụ lập biên bản - Điều 54, 55)."
+  - text: "Nghị định không có mức phạt riêng cho việc không giao bản hợp đồng cho NLĐ; cái bị phạt là giao kết không bằng văn bản / sai loại / thiếu nội dung chủ yếu (Ghi chú)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "1. Phạt tiền đối với người sử dụng lao động khi có một trong các hành vi: giao kết hợp đồng lao động không bằng văn bản với người lao động làm công việc có thời hạn từ đủ 01 tháng trở lên;"
+    verdict: inference
+    note: "Đọc Điều 15 Nghị định 283/2026 (khoản 1-3) không thấy hành vi 'không giao một bản hợp đồng cho người lao động'; đây là khẳng định phủ định, đã đọc toàn bộ Điều 15 (khoản 1-3) nhưng không đọc từng điều khác của nghị định 68 điều. Ghi 'inference' (khẳng định về sự vắng mặt). Mục viết đúng về Nghị định 12/2022; cần cập nhật tên nghị định (Nghị định 283/2026). (quote chỉ định vị hành vi bị phạt ở Điều 15 khoản 1, không chứng minh sự vắng mặt.)"
+  - text: "Thời hiệu yêu cầu hòa giải viên 06 tháng, hội đồng trọng tài 09 tháng, tòa án 01 năm"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "3. Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động cá nhân là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm."
+    verdict: match
+    note: "Điều 190 khoản 1: 'Thời hiệu yêu cầu hòa giải viên lao động thực hiện hòa giải tranh chấp lao động cá nhân là 06 tháng kể từ ngày phát hiện ra hành vi ...'; khoản 2: 'Thời hiệu yêu cầu Hội đồng trọng tài lao động giải quyết tranh chấp lao động cá nhân là 09 tháng kể từ ngày phát hiện ra hành vi ...'. Mục trình bày đúng là ba thời hiệu song song (khác với mục 21)."
+  - text: "Nội dung chủ yếu của hợp đồng gồm 10 nhóm, trong đó có mức lương, thời hạn, thời giờ làm việc, BHXH"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "1. Hợp đồng lao động phải có những nội dung chủ yếu sau đây:"
+    verdict: match
+    note: "Điều 21 khoản 1 có điểm a, b, c, d, đ, e, g, h, i, k = 10 nhóm; gồm 'đ) Mức lương theo công việc hoặc chức danh, ...', 'd) Thời hạn của hợp đồng lao động;', 'g) Thời giờ làm việc, thời giờ nghỉ ngơi;', 'i) Bảo hiểm xã hội, bảo hiểm y tế và bảo hiểm thất nghiệp;'. Mục này (Điều 21) không nằm trong legal_refs hay Nguồn."
+  - text: "'Ký trên tờ còn trắng rồi bị điền sau là tình huống xấu nhất, vì chữ ký đã là của bạn'; 'Tòa xử theo chứng cứ hai bên đưa ra. Tin nhắn, ảnh chụp tờ giấy lúc ký và email là những thứ dùng được'"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "2. Tự do giao kết hợp đồng lao động nhưng không được trái pháp luật, thỏa ước lao động tập thể và đạo đức xã hội."
+    verdict: not-found
+    note: "Không có điều khoản nào trong BLLĐ hay Nghị định 283 nói về hợp đồng ký khống/ký trên giấy trắng hoặc về giá trị chứng cứ của tin nhắn; quote (Điều 15 khoản 2) chỉ để định vị nguyên tắc chung, không hỗ trợ khẳng định. Đây là lời khuyên thực hành, không dẫn nguồn (Bộ luật Tố tụng dân sự về chứng cứ không được dẫn). Hiệu lực pháp lý của chữ ký trên mẫu trống/bị điền khác phụ thuộc chứng minh thực tế; mục nên gắn nhãn 'lời khuyên thực hành, không phải quy định'."
+internal_checks:
+  - issue: "legal_refs và Nguồn dẫn Nghị định 12/2022/NĐ-CP (Điều 9 khoản 1, Điều 6 khoản 3) - văn bản đã hết hiệu lực từ 10/09/2026 theo Điều 66 khoản 4 Nghị định 283/2026/NĐ-CP. Phải đổi sang Điều 15 khoản 1 và Điều 7 khoản 1 Nghị định 283/2026. Mục Ghi chú, Lợi ích cũng nhắc 'Nghị định 12/2022'."
+    severity: error
+  - issue: "URL Nghị định 12/2022 là trang VCCI (nguồn thứ cấp), không phải Công báo; và còn ghi 'Còn hiệu lực'. legal_refs[].checked_at/effective_from/quote đều null."
+    severity: error
+  - issue: "URL BLLĐ (vanban.chinhphu.vn/?pageid=27160&docid=198540) đúng văn bản Luật 45/2019/QH14 nhưng là trang tải kèm; các mục khác trong chương dùng VBHN 18 trên Công báo (bản hợp nhất tới Luật 124/2025). Không phải lỗi sai văn bản."
+    severity: warn
+  - issue: "Điều 14 khoản 1 được mô tả là 'trừ hợp đồng có thời hạn dưới 01 tháng' bỏ các ngoại lệ trong khoản 2 (Điều 18 khoản 2, Điều 145 khoản 1 điểm a, Điều 162 khoản 1) và bỏ việc hợp đồng điện tử bằng thông điệp dữ liệu có giá trị như bản giấy; step 'cầm về một bản' chưa tính hợp đồng điện tử."
+    severity: warn
+  - issue: "steps[1] 'ngay hôm đó nhắn tin' và steps[2], steps[3] không có cơ sở trong thân Pháp luật VN (không có điều luật về hợp đồng ký trên tờ trắng); chỉ có Ghi chú nói chung 'Tòa xử theo chứng cứ' không dẫn điều. Là lời khuyên thực hành."
+    severity: warn
+  - issue: "Lợi ích nêu 'công việc từ đủ một tháng' và 'Cơ quan lao động còn buộc giao kết lại bằng văn bản' - cùng ý với Điều 15 khoản 3, nhưng 'buộc giao kết lại' không áp với thiếu nội dung chủ yếu (xem claim)."
+    severity: warn
+validity:
+  doc: "Bộ luật Lao động 45/2019/QH14 (Điều 14, 21, 190; VBHN 18); Nghị định 12/2022/NĐ-CP; Nghị định 283/2026/NĐ-CP"
+  in_force: false
+  effective_from: "BLLĐ 2021-01-01; Nghị định 283/2026 2026-09-10 (thay Nghị định 12/2022)"
+  amended_by: ["Nghị định 12/2022/NĐ-CP bị thay thế/hết hiệu lực bởi Nghị định 283/2026/NĐ-CP (Điều 66 khoản 4) từ 2026-09-10"]
+  basis: "Điều 66 khoản 4 Nghị định 283/2026/NĐ-CP (Công báo 448 ngày 28/07/2026): 'Nghị định số 12/2022/NĐ-CP ... hết hiệu lực thi hành kể từ ngày Nghị định này có hiệu lực thi hành' và Điều 66 khoản 1 (10/09/2026). Trang congbao của Nghị định 283 ghi 'Hiệu lực: 10/09/2026'. in_force: false áp cho Nghị định 12/2022 là văn bản được mục dẫn làm chế tài; BLLĐ 45/2019/QH14 còn hiệu lực (căn cứ ban hành Nghị định 283 là BLLĐ 45/2019/QH14; VBHN 18 ngày 12/02/2026)."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "legal_refs[2], [3] và Nguồn: thay 'Nghị định 12/2022/NĐ-CP Điều 9 khoản 1, Điều 6 khoản 3' bằng 'Nghị định 283/2026/NĐ-CP Điều 15 khoản 1 điểm a và Điều 7 khoản 1', URL https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm; bỏ URL VCCI. Dựa vào quote Điều 15 khoản 1 điểm a (2.000.000-5.000.000 đồng, 01-10 người) và Điều 7 khoản 1."
+  - "Ghi chú 'Phạt gì, không phạt gì': đổi 'Nghị định 12/2022' thành 'Nghị định 283/2026'; chỉ giữ 'không có mức phạt riêng cho việc không giao bản' nếu đã đọc hết các điều liên quan; viết 'không thấy trong Điều 15'."
+  - "Lợi ích: sửa 'Cơ quan lao động còn buộc giao kết lại bằng văn bản' thành 'với giao kết không bằng văn bản và không đúng loại hợp đồng, người sử dụng lao động còn bị buộc giao kết bằng văn bản/đúng loại (Điều 15 khoản 3 điểm a, c)'."
+  - "Pháp luật VN 'Hợp đồng hai bản': nêu 'Hợp đồng giao kết bằng phương tiện điện tử dưới hình thức thông điệp dữ liệu có giá trị như bằng văn bản (Điều 14 khoản 1 đoạn 2)' và các ngoại lệ ở khoản 2; gắn nhãn 'lời khuyên thực hành' cho các bước nhắn tin/chụp ảnh tờ giấy lúc ký."
+  - "Cập nhật legal_refs[].checked_at, effective_from và quote cho cả 4 mục."

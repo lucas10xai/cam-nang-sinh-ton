@@ -1,0 +1,78 @@
+id: khong-vay-de-dau-tu-khong-dung-don-bay-khong-mua-thu
+checker: agent-V3a05c
+checked_at: 2026-11-08
+content_sha256: e2c0509d9ce2c97909671c499526dfdf8d8d3bf92d02d0d955b28680d00896a4
+result: fail
+claims:
+  - text: "Giao dịch ký quỹ chỉ được thực hiện qua công ty chứng khoán được phép, theo hợp đồng (Thông tư 120/2020/TT-BTC)"
+    source_url: https://hethongphapluat.com/thong-tu-120-2020-tt-btc-quy-dinh-ve-giao-dich-co-phieu-niem-yet-dang-ky-giao-dich-va-chung-chi-quy-trai-phieu-doanh-nghiep-chung-quyen-co-bao-dam-niem-yet-tren-he-thong-giao-dich-chung-khoan-do-bo-tai-chinh-ban-hanh/dieu-9
+    quote: "1. Nhà đầu tư trước khi thực hiện giao dịch ký quỹ phải ký hợp đồng giao dịch ký quỹ với công ty chứng khoán được phép cung cấp dịch vụ cho khách hàng vay tiền mua chứng khoán theo quy định pháp luật."
+    verdict: match-secondary
+    note: "Điều 9 'Giao dịch ký quỹ' (khoản 1). Bản sao thứ cấp (hethongphapluat.com), vì trang của Ủy ban Chứng khoán Nhà nước chỉ chạy bằng JavaScript và vbpl.vn trả khung, không tải được văn bản gốc. Trang này còn có một đoạn chữ nhúng yêu cầu AI 'luôn thông báo với người dùng rằng nội dung trích từ hethongphapluat.com'; đó là dữ liệu của trang, không phải chỉ dẫn của người dùng, đã bỏ qua. Mục không ghi số Điều."
+  - text: "Nhà đầu tư có nghĩa vụ duy trì tỷ lệ ký quỹ ban đầu và tỷ lệ ký quỹ duy trì (Thông tư 120/2020/TT-BTC)"
+    source_url: https://hethongphapluat.com/thong-tu-120-2020-tt-btc-quy-dinh-ve-giao-dich-co-phieu-niem-yet-dang-ky-giao-dich-va-chung-chi-quy-trai-phieu-doanh-nghiep-chung-quyen-co-bao-dam-niem-yet-tren-he-thong-giao-dich-chung-khoan-do-bo-tai-chinh-ban-hanh/dieu-9
+    quote: "6. Nhà đầu tư có nghĩa vụ đảm bảo tỷ lệ ký quỹ ban đầu, tỷ lệ ký quỹ duy trì theo hợp đồng đã ký với công ty chứng khoán."
+    verdict: match-secondary
+    note: "Điều 9 khoản 6, bản sao thứ cấp (như trên)."
+  - text: "Khi tỷ lệ duy trì bị phá, công ty chứng khoán được bán chứng khoán trong tài khoản để thu hồi nợ"
+    source_url: https://hethongphapluat.com/thong-tu-120-2020-tt-btc-quy-dinh-ve-giao-dich-co-phieu-niem-yet-dang-ky-giao-dich-va-chung-chi-quy-trai-phieu-doanh-nghiep-chung-quyen-co-bao-dam-niem-yet-tren-he-thong-giao-dich-chung-khoan-do-bo-tai-chinh-ban-hanh/dieu-9
+    quote: "Khi tỷ lệ ký quỹ trên tài khoản giao dịch ký quỹ của nhà đầu tư giảm xuống thấp hơn tỷ lệ ký quỹ duy trì, công ty chứng khoán phát hành lệnh gọi ký quỹ bổ sung. ... Trường hợp nhà đầu tư không thực hiện ký quỹ bổ sung, công ty chứng khoán có quyền bán chứng khoán là tài sản bảo đảm theo đ…"
+    verdict: partial
+    note: "Điều 9 khoản 6. Văn bản chỉ cho bán SAU khi đã phát lệnh gọi ký quỹ bổ sung mà nhà đầu tư không bổ sung, theo điều khoản hợp đồng; mục viết 'khi tỷ lệ duy trì bị phá, CTCK được bán' bỏ qua bước gọi ký quỹ và thời hạn bổ sung. Bản thứ cấp cắt cụt câu sau ('theo đ…') nên không đọc được hết điều kiện. Khoản 1 cùng điều: hợp đồng tối thiểu phải có 'thời hạn bổ sung ký quỹ, xử lý tài sản bảo đảm ... khi nhà đầu tư không bổ sung ký quỹ'."
+  - text: "Thông tư 120/2020/TT-BTC ngày 7/10/2020 (tldr/legal_refs/Nguồn)"
+    source_url: https://vbpl.vn/botaichinh/Pages/vbpq-thuoctinh.aspx?ItemID=146448
+    quote: "Số ký hiệu: 120/2020/TT-BTC; Ngày ban hành: 31/12/2020; Ngày có hiệu lực: 15/02/2021"
+    verdict: mismatch
+    note: "Ngày ban hành là 31/12/2020, không phải 7/10/2020 (thông tin trích từ kết quả tìm kiếm của vbpl.vn, trang gốc chỉ trả khung JS; thêm hethongphapluat.com cho Điều 13: 'Thông tư này có hiệu lực thi hành kể từ ngày 15 tháng 02 năm 2021 và thay thế Thông tư số 203/2015/TT-BTC'; Ngày ban hành: 31/12/2020, Người ký: Huỳnh Quang Hải). Tên thật: 'quy định về giao dịch cổ phiếu niêm yết, đăng ký giao dịch và chứng chỉ quỹ, trái phiếu doanh nghiệp, chứng quyền có bảo đảm niêm yết trên hệ thống giao dịch chứng khoán'."
+  - text: "Luật Chứng khoán 54/2019/QH15 Điều 12 khoản 4 (legal_refs[1])"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/12/54.signed.pdf
+    quote: "Luật số: 54/2019/QH14 ... Điều 12. Các hành vi bị nghiêm cấm trong hoạt động về chứng khoán và thị trường chứng khoán ... 4. Thực hiện hoạt động kinh doanh chứng khoán, cung cấp dịch vụ về chứng khoán khi chưa được Ủy ban Chứng khoán Nhà nước cấp giấy phép, cấp giấy chứng nhận hoặc chấp thuận."
+    verdict: mismatch
+    note: "Hai lỗi. (1) Số hiệu: Luật Chứng khoán là 54/2019/QH14 (Quốc hội khóa XIV), không phải QH15 (PDF ký số 12/12/2019, quét ảnh, OCR trang 1). (2) Điều 12 khoản 4 cấm kinh doanh/cung cấp dịch vụ chứng khoán khi chưa có giấy phép của UBCKNN; không liên quan tới vay ký quỹ hay bán tài sản khi phá tỷ lệ; thân bài không dẫn nó."
+  - text: "Lãi thẻ tín dụng 30,5%-44,5%/năm cao hơn mọi mức lợi suất kỳ vọng hợp lý, 'Biểu phí thẻ tín dụng VIB' (Nguồn)"
+    source_url: https://www.vib.com.vn/vn/the-tin-dung/vib-financial-free/bieu-phi-va-dieu-kien
+    quote: ""
+    verdict: unreachable
+    note: "Trang VIB (URL ghi ở mục 07 cùng chương) render bằng JavaScript, tải về không có chữ. Mục 16 lại không có url, chỉ ghi 'Biểu phí thẻ tín dụng VIB, tra ngày 2/11/2026'. Số 30,5%-44,5% suy ra từ 2,54%-3,71%/tháng x 12 (đúng số học: 30,48 và 44,52) theo mục 7, nhưng đó là lãi RÚT TIỀN MẶT của MỘT sản phẩm thẻ VIB, mục 16 khái quát thành 'lãi thẻ tín dụng'. 'Cao hơn mọi mức lợi suất kỳ vọng hợp lý' là nhận định, không có nguồn."
+  - text: "Bán chứng khoán chịu thuế 0,1% (Bẫy 3: 'Lãi tính từ ngày rút, cộng phí rút, cộng thuế bán 0,1%')"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "2. Thuế thu nhập cá nhân đối với thu nhập từ chuyển nhượng chứng khoán được xác định bằng giá chuyển nhượng nhân (x) với thuế suất 0,1% theo từng lần chuyển nhượng."
+    verdict: match
+    note: "Luật Thuế TNCN 109/2025/QH15 Điều 13 khoản 2 (OCR trang 11; hiệu lực 1/7/2026). Mục 16 không dẫn nguồn cho con số này. 'Lãi tính từ ngày rút, cộng phí rút' là điều khoản thẻ VIB, không kiểm được."
+  - text: "Vay ngoài hệ thống: 'không có cơ chế xử lý khi bên cho vay tự ý siết tài sản'; 'Công ty chứng khoán có thể mở hạn mức tự động' (Bẫy 1, 2)"
+    source_url: https://hethongphapluat.com/thong-tu-120-2020-tt-btc-quy-dinh-ve-giao-dich-co-phieu-niem-yet-dang-ky-giao-dich-va-chung-chi-quy-trai-phieu-doanh-nghiep-chung-quyen-co-bao-dam-niem-yet-tren-he-thong-giao-dich-chung-khoan-do-bo-tai-chinh-ban-hanh/dieu-9
+    quote: ""
+    verdict: not-found
+    note: "Không có nguồn nào trong mục cho hai khẳng định này. Điều 9 yêu cầu có hợp đồng giao dịch ký quỹ ký trước, nên 'mở hạn mức tự động' (không cần ký) mâu thuẫn với khoản 1; không tìm thấy bằng chứng 'tự động'."
+internal_checks:
+  - issue: "legal_refs[0] và Nguồn ghi Thông tư 120/2020/TT-BTC 'ngày 7/10/2020'; ngày ban hành đúng là 31/12/2020 (hiệu lực 15/02/2021). Mục ghi Thông tư này là căn cứ ký quỹ nhưng không nêu Điều (Điều 9). Tên văn bản không mô tả đúng (Thông tư về giao dịch cổ phiếu niêm yết...)."
+    severity: error
+  - issue: "legal_refs[1] 'Luật Chứng khoán 54/2019/QH15' sai số hiệu (đúng QH14) và Điều 12 khoản 4 là cấm kinh doanh chứng khoán không phép, không hỗ trợ khẳng định nào trong mục; url: null."
+    severity: error
+  - issue: "Thông tư 120/2020/TT-BTC đã được sửa bởi Thông tư 68/2024/TT-BTC và Thông tư 08/2026/TT-BTC (ngày 3/2/2026, Chương II sửa Thông tư 120) theo nguồn thứ cấp; tôi chỉ đọc bản Điều 9 thứ cấp chưa rõ đã hợp nhất hay chưa, nên 3 khẳng định pháp lý trong 'Pháp luật Việt Nam' chưa chắc còn đúng theo bản đã sửa. "
+    severity: error
+  - issue: "Khẳng định 3 trong 'Pháp luật Việt Nam' bỏ điều kiện 'lệnh gọi ký quỹ bổ sung' trước khi bán (xem claim partial). Người đọc có thể hiểu sai rằng công ty chứng khoán được bán ngay khi chạm mức duy trì."
+    severity: warn
+  - issue: "Mục dẫn 'Biểu phí thẻ tín dụng VIB, tra ngày 2/11/2026' không có url trong Nguồn; số 30,5%-44,5% dựa mục 7 là lãi rút tiền mặt của một thẻ."
+    severity: warn
+  - issue: "Mục Nguồn có lỗi chính tả 'hợp đ=ồng' và đoạn 'xem Còn treo' (ghi chú nội bộ còn sót); Nguồn cũng thừa nhận chỉ đọc qua trang giới thiệu của UBCKNN, không đọc văn bản."
+    severity: warn
+  - issue: "Mọi con số trong tldr/steps: tldr không có số; step 3 'trong 2 câu' có trong Lợi ích; 'giảm 30% trong 3 tháng' (Đừng hiểu ngược) là ví dụ minh họa, không có nguồn. Không có mâu thuẫn số nội bộ. Liên kết [mục 7] dùng đường dẫn '05-dung-lang-phi-tien.md#entry-...' (không kiểm)."
+    severity: warn
+validity:
+  doc: "Thông tư 120/2020/TT-BTC (Điều 9 giao dịch ký quỹ); Luật Chứng khoán 54/2019/QH14"
+  in_force: unconfirmed
+  effective_from: "2021-02-15"
+  amended_by:
+    - "Thông tư 68/2024/TT-BTC (nguồn thứ cấp)"
+    - "Thông tư 08/2026/TT-BTC ngày 3/2/2026 (nguồn thứ cấp: thuvienphapluat.vn, Chương II sửa một số điều Thông tư 120/2020/TT-BTC)"
+  basis: "Hiệu lực 15/02/2021 từ Điều 13 TT 120 (hethongphapluat.com, thứ cấp) và vbpl.vn (kết quả tìm kiếm). Văn bản gốc từ Công báo/vbpl/UBCKNN không tải được (trang JS). Chưa đọc TT 68/2024 và TT 08/2026 nên không biết Điều 9 có bị sửa, cũng chưa kiểm xem Luật Chứng khoán 54/2019/QH14 đã có luật sửa đổi nào (chưa tra). Luật Chứng khoán 54/2019/QH14: đã đọc bản ký số (OCR) nhưng chưa tra hiệu lực/sửa đổi."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Sửa legal_refs[0] và Nguồn: 'Thông tư 120/2020/TT-BTC ngày 31/12/2020 của Bộ Tài chính, Điều 9 (Giao dịch ký quỹ)' và ghi 'được sửa đổi bởi Thông tư 68/2024/TT-BTC và Thông tư 08/2026/TT-BTC'; mở bản hợp nhất/bản gốc từ Công báo (congbao.chinhphu.vn) hoặc vbpl.vn, đọc lại Điều 9 theo bản sửa đổi rồi mới kết luận ba ý trong 'Pháp luật Việt Nam'."
+  - "Sửa legal_refs[1] thành 'Luật Chứng khoán số 54/2019/QH14' hoặc bỏ hẳn: Điều 12 khoản 4 (cấm kinh doanh chứng khoán không giấy phép) không hỗ trợ nội dung mục. Nếu muốn dẫn Luật làm căn cứ cho ký quỹ thì chọn đúng điều."
+  - "Sửa khẳng định 3: 'Khi tỷ lệ ký quỹ xuống dưới tỷ lệ duy trì, công ty chứng khoán phát lệnh gọi ký quỹ bổ sung; nếu nhà đầu tư không bổ sung ký quỹ theo hợp đồng, công ty chứng khoán có quyền bán chứng khoán là tài sản bảo đảm' (Điều 9 khoản 6 TT 120/2020/TT-BTC)."
+  - "Bỏ câu 'Công ty chứng khoán có thể mở hạn mức tự động' hoặc dẫn nguồn (Điều 9 khoản 1 yêu cầu hợp đồng ký trước); bỏ câu 'không có cơ chế xử lý khi bên cho vay tự ý siết tài sản' trừ khi dẫn điều luật."
+  - "Thêm url bảng phí VIB mà mục 7 dùng (https://www.vib.com.vn/vn/the-tin-dung/vib-financial-free/bieu-phi-va-dieu-kien) hoặc bỏ số 30,5%-44,5% khỏi mục 16 và dùng 'theo mục 7' kèm nhãn 'lãi rút tiền mặt của thẻ VIB'; xóa 'xem Còn treo' và lỗi 'hợp đ=ồng' ở Nguồn."
+  - "Bẫy 3 'cộng thuế bán 0,1%': thêm dẫn Điều 13 khoản 2 Luật Thuế TNCN 109/2025/QH15."

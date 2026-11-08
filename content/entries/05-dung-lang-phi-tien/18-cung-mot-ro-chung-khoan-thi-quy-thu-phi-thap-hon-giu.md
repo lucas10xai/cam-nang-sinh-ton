@@ -14,10 +14,10 @@ evidence: B
 contested: false
 vn_class: adapted
 rewrite_status: rewritten
-tldr: "Cùng một chỉ số, quỹ phí thấp giữ được nhiều tiền hơn: chênh 1 điểm %/năm làm mất khoảng 18,0% số tiền cuối sau 20 năm, 25,8% sau 30 năm."
+tldr: "Cùng một chỉ số, quỹ phí thấp giữ được nhiều tiền hơn. Giả định lợi suất gộp trước phí 5%/năm: chênh 1 điểm %/năm làm mất khoảng 17,4% số tiền cuối sau 20 năm, khoảng 25,0% sau 30 năm."
 steps:
-  - "Đọc biểu phí ba dòng: phí quản lý, phí lưu ký, phí mua và bán chứng chỉ quỹ."
-  - "Cộng cả ba loại phí rồi mới so giữa các quỹ."
+  - "Đọc biểu phí của quỹ: phí quản lý, phí giao dịch khi mua bán và các phí khác công bố."
+  - "Cộng các loại phí rồi mới so giữa các quỹ."
   - "Chỉ so phí giữa hai quỹ cùng chỉ số, cùng cách đầu tư."
   - "Xem thêm chênh lệch giá mua-bán và phí bán trong 1–2 năm đầu (phí rời bỏ) trước khi chọn."
 legal_refs: []
@@ -38,21 +38,21 @@ tags: []
 
 ## Nói dễ hiểu
 
-Phí quản lý chênh 1 điểm %/năm nghe nhỏ, nhưng trừ đều mỗi năm. Sau 20 năm nó làm mất khoảng 18,0% số tiền cuối, sau 30 năm khoảng 25,8%. Cùng một chỉ số thì chọn quỹ phí thấp.
+Phí quản lý chênh 1 điểm %/năm nghe nhỏ, nhưng tính đều mỗi năm. Giả định lợi suất gộp trước phí 5%/năm, sau 20 năm nó làm mất khoảng 17,4% số tiền cuối, sau 30 năm khoảng 25,0%. Cùng một chỉ số thì chọn quỹ phí thấp.
 
 ## Chi phí
 
-Không tốn tiền. Thêm 5 phút đọc biểu phí ba dòng: phí quản lý, phí lưu ký, phí mua và bán chứng chỉ quỹ.
+Không tốn tiền. Thêm vài phút đọc biểu phí: phí quản lý, phí giao dịch khi mua bán và các phí khác.
 
-Cái khó là phí quản lý bị trừ âm thầm vào giá trị tài sản ròng mỗi ngày, không hiện trên sao kê.
+Cái khó là phí quản lý của quỹ tính trên giá trị tài sản ròng, nên dễ bị bỏ qua khi so; cần nguồn là bản cáo bạch cho cách trừ phí cụ thể của từng quỹ.
 
 ## Lợi ích
 
-Phép tính: chênh 1 điểm %/năm thì giá trị cuối sau 20 năm thấp hơn 18,0%, sau 30 năm thấp hơn 25,8% (sách tính, giả định hai quỹ sinh lời như nhau trước phí).
+Phép tính: giả định hai quỹ cùng lợi suất gộp g trước phí, chênh phí 1 điểm %/năm thì giá trị cuối thấp hơn 1 − ((1 + g − 0,01)/(1 + g))^n. Với g = 5%: thấp hơn khoảng 17,4% sau 20 năm, 25,0% sau 30 năm; với g = 8%: 17,0% và 24,4%.
 
-Mức phí thật ở Việt Nam: ETF DCVFMVN30 0,65%/năm, quỹ mở chủ động 1,5%–2%/năm. Chênh 0,85 đến 1,35 điểm %, tương đương 17% đến 29% giá trị cuối sau 20 năm.
+Mức phí tham khảo ở Việt Nam: ETF DCVFMVN30 0,65%/năm (bảng ACBS cập nhật 16/5/2025); quỹ cổ phiếu chủ động VESAF 1,75%/năm (factsheet 9/2025). Hai quỹ này khác cách đầu tư nên không dùng để tính chênh phí "cùng một rổ".
 
-Ngoài phí quản lý còn phí mua/bán chứng chỉ quỹ và phí lưu ký, nên phải cộng cả ba rồi mới so.
+Ngoài phí quản lý còn phí giao dịch khi mua bán, nên nên cộng các loại phí trong biểu phí của quỹ rồi mới so.
 
 ## Ghi chú
 
@@ -65,6 +65,6 @@ Bốn chỗ hay sập.
 
 ## Nguồn
 
-- Dragon Capital, trang sản phẩm ETF DCVFMVN30 (0,65%/năm), tra ngày 2/11/2026: <https://www.dragoncapital.com.vn/individual/product/a0eJ2000001X9zhIAC/vn30>
-- ACBS (dải phí quản lý 0,5%–2% giá trị tài sản ròng), tra ngày 2/11/2026: <https://acbs.com.vn/blog/cach-mua-chung-chi-quy-etf>
-- Phép tính 18,0% / 25,8% / 17%–29% do sách tính, công thức ghi trong sổ kiểm chứng.
+- ACBS, "Cách mua chứng chỉ quỹ ETF" (bảng phí quản lý ETF DCVFMVN30 0,65%, số liệu cập nhật 16/5/2025; dải phí quản lý quỹ đầu tư 0,5%–2% NAV): <https://acbs.com.vn/blog/cach-mua-chung-chi-quy-etf>
+- VinaCapital, VESAF Monthly Factsheet 9/2025 (phí quản lý 1,75%/năm): <https://vinacapital.com/wp-content/uploads/2025/10/20251013-VINACAPITAL-VESAF_Monthly-Factsheet_Sep-2025-EN.pdf>
+- Phép tính 17,4% / 25,0% / 17,0% / 24,4% do sách tính theo công thức ghi ở mục Lợi ích, không phải số của nguồn.

@@ -14,12 +14,12 @@ evidence: B
 contested: false
 vn_class: vn_native
 rewrite_status: rewritten
-tldr: "Giám định khi thương tật đã điều trị ổn định (hoặc ngay trong lúc điều trị nếu không thể ổn định). Từ 5% là có quyền lợi: quỹ trả 12.650.000 đồng một lần, đơn vị bồi thường thêm ít nhất 1,5 tháng lương; từ 31% có tiền hằng tháng, 759.000 đồng."
+tldr: "Giám định khi thương tật đã điều trị ổn định. Từ 5%, người tham gia bảo hiểm tai nạn lao động được quỹ trả ít nhất 12.650.000 đồng một lần; đơn vị bồi thường ít nhất 1,5 tháng lương nếu không hoàn toàn do lỗi người lao động; từ 31% có tiền hằng tháng, ít nhất 759.000 đồng."
 steps:
   - "Đi giám định đúng lúc điều trị ổn định; mang đủ giấy ra viện, bệnh án và phim."
   - "Không để đơn vị tự lo việc giám định rồi nhận khoản \"hỗ trợ\" tròn trịa không kèm biên bản giám định."
   - "Đọc kỹ dòng tỷ lệ suy giảm trong biên bản trước khi ký nhận tiền."
-  - "Nếu thương tật tái phát và đã điều trị ổn định, làm thủ tục giám định lại (Điều 47 khoản 1 điểm b và khoản 3)."
+  - "Nếu thương tật tái phát và đã điều trị ổn định, làm thủ tục giám định lại, chỉ được sau 24 tháng kể từ kết luận liền kề trước (Điều 47 khoản 1 điểm b và khoản 3)."
 legal_refs:
   - { doc: "Văn bản hợp nhất 14/VBHN-VPQH (Luật An toàn, vệ sinh lao động 84/2015/QH13)", article: "Điều 47 khoản 1", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
   - { doc: "Văn bản hợp nhất 14/VBHN-VPQH (Luật An toàn, vệ sinh lao động 84/2015/QH13)", article: "Điều 47 khoản 2", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
@@ -31,6 +31,9 @@ legal_refs:
   - { doc: "Văn bản hợp nhất 14/VBHN-VPQH (Luật An toàn, vệ sinh lao động 84/2015/QH13)", article: "Điều 38 khoản 4 điểm a và điểm b", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
   - { doc: "Văn bản hợp nhất 14/VBHN-VPQH (Luật An toàn, vệ sinh lao động 84/2015/QH13)", article: "Điều 38 khoản 7", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
   - { doc: "Văn bản hợp nhất 14/VBHN-VPQH (Luật An toàn, vệ sinh lao động 84/2015/QH13)", article: "Điều 42 khoản 1", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
+  - { doc: "Văn bản hợp nhất 14/VBHN-VPQH (Luật An toàn, vệ sinh lao động 84/2015/QH13)", article: "Điều 38 khoản 2 điểm b", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf", effective_from: null, checked_at: "2026-11-08", quote: "dưới 5% do người sử dụng lao động giới thiệu người lao động đi khám giám định mức suy giảm khả năng lao động tại Hội đồng giám định y khoa" }
+  - { doc: "Văn bản hợp nhất 14/VBHN-VPQH (Luật An toàn, vệ sinh lao động 84/2015/QH13)", article: "Điều 38 khoản 5", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf", effective_from: null, checked_at: "2026-11-08", quote: "Trợ cấp cho người lao động bị tai nạn lao động mà do lỗi của chính họ gây ra một khoản tiền ít nhất bằng 40% mức quy định tại khoản 4 Điều này" }
+  - { doc: "Văn bản hợp nhất 14/VBHN-VPQH (Luật An toàn, vệ sinh lao động 84/2015/QH13)", article: "Điều 49 khoản 2 điểm b", url: "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf", effective_from: null, checked_at: "2026-11-08", quote: "hằng tháng còn được hưởng thêm một khoản trợ cấp tính theo số năm đã đóng vào Quỹ bảo hiểm tai nạn lao động, bệnh nghề nghiệp" }
   - { doc: "Nghị định 161/2026/NĐ-CP", article: "Điều 3 khoản 2", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/161-ndcp.signed.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
 verification:
   status: unverified
@@ -49,19 +52,19 @@ tags: []
 
 ## Nói dễ hiểu
 
-Giám định sau khi điều trị ổn định. Suy giảm 5%: quỹ trả 12.650.000 đồng một lần, đơn vị bồi thường thêm ít nhất 1,5 tháng lương. Từ 31% mới có tiền hằng tháng, 759.000 đồng. Giám định lại sau 24 tháng.
+Giám định sau khi điều trị ổn định. Suy giảm 5%: quỹ trả ít nhất 12.650.000 đồng một lần (chưa gồm khoản theo số năm đóng quỹ), đơn vị bồi thường thêm ít nhất 1,5 tháng lương nếu không hoàn toàn do lỗi của người lao động. Từ 31% mới có tiền hằng tháng, ít nhất 759.000 đồng. Nếu thương tật tái phát đã điều trị ổn định, giám định lại sau 24 tháng kể từ kết luận liền kề trước.
 
 ## Chi phí
 
-Một lần khám giám định không phải khoản lớn, và luật đã chỉ rõ ai trả: đơn vị trả phí khám giám định với trường hợp kết luận suy giảm dưới 5% do chính đơn vị giới thiệu; quỹ bảo hiểm tai nạn lao động trả phí với trường hợp đủ điều kiện hưởng.
+Một lần khám giám định không phải khoản lớn. Quỹ trả phí với trường hợp đủ điều kiện hưởng, và với trường hợp người lao động chủ động đi giám định (thương tật tái phát) mà kết quả đủ điều kiện để điều chỉnh tăng mức hưởng (Điều 42 khoản 1). Đơn vị trả phí với trường hợp kết luận suy giảm dưới 5% do chính đơn vị giới thiệu đi khám (Điều 38 khoản 2 điểm b). Người lao động tự đi giám định mà kết quả dưới 5% hoặc không tăng mức hưởng thì nguồn trong mục này không nói ai trả.
 
-Cái mất là thời gian, và nó tính bằng tháng chứ không phải bằng ngày: chờ điều trị ổn định, chờ hội đồng giám định, chờ kết luận. Nếu thương tật tái phát thì chờ đủ 24 tháng mới được giám định lại.
+Cái mất là thời gian, và nó tính bằng tháng chứ không phải bằng ngày: chờ điều trị ổn định, chờ hội đồng giám định, chờ kết luận. Nếu thương tật tái phát thì giám định lại sau 24 tháng kể từ kết luận liền kề trước đó.
 
 Trong lúc chờ, hai bên đang nói về hai khoản khác nhau:
 
-- **Đơn vị bồi thường:** ít nhất 1,5 tháng tiền lương với mức suy giảm 5% đến 10%, rồi mỗi 1% thêm 0,4 tháng cho mức 11% đến 80%, và ít nhất 30 tháng tiền lương khi từ 81% trở lên.
-- **Quỹ trả trợ cấp một lần:** 5 lần mức lương cơ sở tại 5% và 17,5 lần tại 30%, tức 12.650.000 đồng và 44.275.000 đồng.
-- **Trợ cấp hằng tháng:** từ 31% mới có, 759.000 đồng một tháng tại 31%, và mức trần 4.250.400 đồng một tháng tại 100%.
+- **Đơn vị bồi thường** (khi tai nạn không hoàn toàn do lỗi của người lao động): ít nhất 1,5 tháng tiền lương với mức suy giảm 5% đến 10%, rồi mỗi 1% thêm 0,4 tháng cho mức 11% đến 80%, và ít nhất 30 tháng tiền lương khi từ 81% trở lên.
+- **Quỹ trả trợ cấp một lần:** 5 lần mức lương cơ sở tại 5% và 17,5 lần tại 30%, tức 12.650.000 đồng và 44.275.000 đồng, chưa gồm khoản theo số năm đóng quỹ.
+- **Trợ cấp hằng tháng:** từ 31% mới có, 759.000 đồng một tháng tại 31% và 4.250.400 đồng một tháng tại 100% theo công thức điểm a, chưa gồm khoản cộng thêm theo số năm đóng quỹ và trợ cấp phục vụ.
 
 ## Lợi ích
 
@@ -73,34 +76,35 @@ Giám định suy giảm khả năng lao động là bước ảnh hưởng tr�
 
 - Ba lúc được giám định: sau khi thương tật, bệnh tật lần đầu đã được điều trị ổn định còn di chứng ảnh hưởng tới sức khỏe; sau khi thương tật, bệnh tật tái phát đã được điều trị ổn định; với trường hợp không có khả năng điều trị ổn định thì được làm thủ tục giám định trước hoặc ngay trong quy trình điều trị. Nghĩa là không phải chờ khỏi hẳn mới được giám định (Điều 47 khoản 1, Luật An toàn, vệ sinh lao động 84/2015/QH13).
 - Giám định tổng hợp khi vừa bị tai nạn vừa bị bệnh nghề nghiệp, khi bị tai nạn nhiều lần, hoặc khi bị nhiều bệnh nghề nghiệp (Điều 47 khoản 2, Luật An toàn, vệ sinh lao động 84/2015/QH13).
-- Giám định lại sau 24 tháng kể từ ngày có kết luận liền kề trước đó; được giám định sớm hơn khi tính chất bệnh nghề nghiệp làm sức khỏe suy giảm nhanh (Điều 47 khoản 3, Luật An toàn, vệ sinh lao động 84/2015/QH13).
-- Ngưỡng hưởng: suy giảm từ 5% trở lên (Điều 45 khoản 2, Luật An toàn, vệ sinh lao động 84/2015/QH13).
-- Phí khám giám định: đơn vị trả với trường hợp kết luận suy giảm dưới 5% do chính đơn vị giới thiệu; quỹ trả với trường hợp đủ điều kiện hưởng (Điều 42 khoản 1, Luật An toàn, vệ sinh lao động 84/2015/QH13).
+- Giám định lại sau 24 tháng kể từ ngày có kết luận liền kề trước đó, áp dụng cho trường hợp thương tật, bệnh tật tái phát đã điều trị ổn định; được giám định sớm hơn khi tính chất bệnh nghề nghiệp làm sức khỏe suy giảm nhanh (Điều 47 khoản 3, Luật An toàn, vệ sinh lao động 84/2015/QH13).
+- Ngưỡng hưởng: suy giảm từ 5% trở lên do tai nạn, với người lao động tham gia bảo hiểm tai nạn lao động, bệnh nghề nghiệp; không được hưởng chế độ do quỹ chi trả nếu thuộc các nguyên nhân tại Điều 40 khoản 1 (Điều 45 khoản 2 và khoản 3, Luật An toàn, vệ sinh lao động 84/2015/QH13).
+- Phí khám giám định: quỹ trả với trường hợp đủ điều kiện hưởng và với trường hợp người lao động chủ động giám định theo điểm b khoản 1 và khoản 3 Điều 47 mà kết quả đủ điều kiện điều chỉnh tăng mức hưởng (Điều 42 khoản 1); đơn vị trả với trường hợp kết luận dưới 5% do chính đơn vị giới thiệu (Điều 38 khoản 2 điểm b, Luật An toàn, vệ sinh lao động 84/2015/QH13).
 
 **Quỹ trả: hai tầng (mức lương cơ sở 2.530.000 đồng, Điều 3 khoản 2 Nghị định 161/2026/NĐ-CP)**
 
 - Dưới 31%, trợ cấp một lần: 5% hưởng 5 lần mức lương cơ sở, thêm mỗi 1% thêm 0,5 lần. Nên 5% là 12.650.000 đồng; 30% là 17,5 lần, tức 44.275.000 đồng (Điều 48 khoản 2 điểm a, Luật An toàn, vệ sinh lao động 84/2015/QH13).
 - Cộng thêm khoản theo số năm đóng quỹ: một năm trở xuống tính 0,5 tháng, thêm mỗi năm 0,3 tháng tiền lương đóng quỹ (Điều 48 khoản 2 điểm b, Luật An toàn, vệ sinh lao động 84/2015/QH13).
 - Từ 31%, trợ cấp hằng tháng: 30% mức lương cơ sở tại 31%, thêm mỗi 1% thêm 2%. Nên 31% là 759.000 đồng và 100% là 4.250.400 đồng một tháng (Điều 49 khoản 2 điểm a, Luật An toàn, vệ sinh lao động 84/2015/QH13).
+- Cộng thêm hằng tháng theo số năm đóng quỹ: một năm trở xuống tính 0,5%, thêm mỗi năm 0,3% mức tiền lương đóng quỹ của tháng liền kề trước tháng bị tai nạn (Điều 49 khoản 2 điểm b, Luật An toàn, vệ sinh lao động 84/2015/QH13).
 - Trợ cấp phục vụ bằng một lần mức lương cơ sở mỗi tháng khi suy giảm từ 81% trở lên mà liệt cột sống, mù hai mắt, cụt hoặc liệt hai chi, hoặc bị bệnh tâm thần (Điều 52, Luật An toàn, vệ sinh lao động 84/2015/QH13).
 
 **Đơn vị trả (Điều 38)**
 
-- Bồi thường ít nhất 1,5 tháng tiền lương cho mức 5% đến 10%, mỗi 1% thêm 0,4 tháng cho mức 11% đến 80% (Điều 38 khoản 4 điểm a, Luật An toàn, vệ sinh lao động 84/2015/QH13).
-- Ít nhất 30 tháng tiền lương khi suy giảm từ 81% trở lên hoặc khi người lao động chết (Điều 38 khoản 4 điểm b, Luật An toàn, vệ sinh lao động 84/2015/QH13).
+- Với tai nạn không hoàn toàn do lỗi của chính người lao động, bồi thường ít nhất 1,5 tháng tiền lương cho mức 5% đến 10%, mỗi 1% thêm 0,4 tháng cho mức 11% đến 80% (Điều 38 khoản 4 điểm a, Luật An toàn, vệ sinh lao động 84/2015/QH13).
+- Ít nhất 30 tháng tiền lương khi suy giảm từ 81% trở lên hoặc khi người lao động chết, cùng điều kiện đó (Điều 38 khoản 4 điểm b, Luật An toàn, vệ sinh lao động 84/2015/QH13). Nếu tai nạn do lỗi của chính người lao động thì được trợ cấp ít nhất bằng 40% mức này (Điều 38 khoản 5).
 - Phải thực hiện bồi thường, trợ cấp trong thời hạn 05 ngày kể từ ngày có kết luận của Hội đồng giám định y khoa (Điều 38 khoản 7, Luật An toàn, vệ sinh lao động 84/2015/QH13).
 
 ## Ghi chú
 
 - **Mức bằng chứng:** ngưỡng 5%, ba thời điểm được giám định, mốc 24 tháng, thang tiền theo từng 1% và thời hạn 05 ngày để đơn vị trả đều là câu chữ của luật đang có hiệu lực. Mỗi con số nhân ra được đến từng đồng từ một mức lương cơ sở có nghị định riêng.
 - Nhưng không có thống kê Việt Nam nào cho biết bao nhiêu phần trăm người bị tai nạn lao động được giám định đúng mức, cũng không có số đo nào cho thấy giám định sớm làm tăng bao nhiêu tiền thực nhận, nên đây là mức B.
-- **Bẫy 1: coi kết luận giám định là bản án không đổi.** Điều 47 khoản 1 điểm b và khoản 3 cho giám định lại khi tái phát. Mốc 24 tháng là thời gian tối thiểu chứ không phải thời hạn phải chờ để được hưởng.
-- **Bẫy 2: để đơn vị tự lo việc giám định, rồi nhận một khoản "hỗ trợ" tròn trịa không kèm biên bản giám định.** Không có biên bản thì không có căn cứ tính lại. Mỗi 1% chênh là 0,5 lần mức lương cơ sở của quỹ cộng 0,4 tháng tiền lương của đơn vị.
+- **Bẫy 1: coi kết luận giám định là bản án không đổi.** Điều 47 khoản 1 điểm b và khoản 3 cho giám định lại khi thương tật tái phát đã điều trị ổn định, sau 24 tháng kể từ kết luận liền kề trước đó.
+- **Bẫy 2: để đơn vị tự lo việc giám định, rồi nhận một khoản "hỗ trợ" tròn trịa không kèm biên bản giám định.** Suy ra từ luật (không phải chữ của luật): không có biên bản thì không có căn cứ tính lại. Trong khoảng 11% đến 30%, mỗi 1% chênh là 0,5 lần mức lương cơ sở của quỹ cộng 0,4 tháng tiền lương của đơn vị.
 - **Bẫy 3: nghĩ rằng từ 31% mới có tiền, nên bỏ qua mức 5% đến 30%.** Ở khoảng đó có khoản trả một lần, bên cạnh khoản bồi thường của đơn vị theo Điều 38.
 - Bạn không cần tự đoán mình suy giảm bao nhiêu phần trăm. Việc của bạn là đi giám định đúng lúc điều trị ổn định, mang đủ giấy ra viện và phim, và đọc kỹ dòng tỷ lệ trong biên bản trước khi ký nhận tiền.
 
 ## Nguồn
 
-- Luật An toàn, vệ sinh lao động số 84/2015/QH13 ngày 25/6/2015, hợp nhất tại Văn bản hợp nhất số 14/VBHN-VPQH ngày 16/9/2024 (Điều 38 khoản 2, 4, 7; Điều 42 khoản 1; Điều 45 khoản 2; Điều 47; Điều 48; Điều 49; Điều 52), Công báo số 1171 + 1172 ngày 29/10/2024: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+- Luật An toàn, vệ sinh lao động số 84/2015/QH13 ngày 25/6/2015, hợp nhất tại Văn bản hợp nhất số 14/VBHN-VPQH ngày 16/9/2024 (Điều 38 khoản 2, 4, 5, 7; Điều 42 khoản 1; Điều 45 khoản 2 và 3; Điều 47; Điều 48; Điều 49; Điều 52), Công báo số 1171 + 1172 ngày 29/10/2024: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
 - Nghị định số 161/2026/NĐ-CP ngày 15/5/2026 quy định mức lương cơ sở (Điều 3 khoản 1 điểm c và khoản 2): https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/161-ndcp.signed.pdf
 - Tra ngày 3/11/2026.

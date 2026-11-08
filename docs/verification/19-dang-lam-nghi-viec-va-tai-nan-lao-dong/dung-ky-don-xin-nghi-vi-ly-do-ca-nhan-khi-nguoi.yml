@@ -1,0 +1,113 @@
+id: dung-ky-don-xin-nghi-vi-ly-do-ca-nhan-khi-nguoi
+checker: agent-V3a19bA
+checked_at: 2026-11-08
+content_sha256: "4539ceb299c13c3474a310fad64c2e88f7ff52e545fcfc99693b01909a4ef344"
+result: fail
+claims:
+  - text: "Điều 34: khoản 3 hai bên thỏa thuận; khoản 9 NLĐ đơn phương theo Điều 35; khoản 10 NSDLĐ đơn phương theo Điều 36; khoản 11 cho thôi việc theo Điều 42, 43; tổng 13 trường hợp"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "9. Người lao động đơn phương chấm dứt hợp đồng lao động theo quy định tại Điều 35 của Bộ luật này."
+    verdict: match
+    note: "Khoản 3 'Hai bên thỏa thuận chấm dứt hợp đồng lao động.'; khoản 10 'Người sử dụng lao động đơn phương chấm dứt hợp đồng lao động theo quy định tại Điều 36'; khoản 11 'Người sử dụng lao động cho người lao động thôi việc theo quy định tại Điều 42 và Điều 43'; có đúng 13 khoản (trích từ DOCX VBHN 18 tải từ Công báo, vì PDF BLLĐ gốc mục dẫn là ảnh quét không trích được chữ)."
+  - text: "Báo trước 45 ngày (HĐ không xác định thời hạn), 30 ngày (12-36 tháng), 03 ngày làm việc (dưới 12 tháng) (Điều 35 khoản 1)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "a) Ít nhất 45 ngày nếu làm việc theo hợp đồng lao động không xác định thời hạn;"
+    verdict: match
+    note: "Điểm b: 'Ít nhất 30 ngày nếu làm việc theo hợp đồng lao động xác định thời hạn có thời hạn từ 12 tháng đến 36 tháng;' điểm c: 'Ít nhất 03 ngày làm việc nếu làm việc theo hợp đồng lao động xác định thời hạn có thời hạn dưới 12 tháng;'. Mục bỏ điểm d (ngành nghề đặc thù theo Chính phủ)."
+  - text: "Được nghỉ ngay không cần báo trước khi: không được bố trí đúng việc/điều kiện; không được trả đủ lương hoặc trả sai hạn; bị ngược đãi, đánh đập, nhục mạ; bị quấy rối tình dục; thai nghén; đủ tuổi nghỉ hưu; NSDLĐ cung cấp thông tin không trung thực (Điều 35 khoản 2)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "b) Không được trả đủ lương hoặc trả lương không đúng thời hạn, trừ trường hợp quy định tại khoản 4 Điều 97 của Bộ luật này;"
+    verdict: partial
+    note: "Các lý do khớp. Thiếu điều kiện: điểm a có 'trừ trường hợp quy định tại Điều 29', điểm b 'trừ khoản 4 Điều 97', điểm e (nghỉ hưu) có 'trừ trường hợp các bên có thỏa thuận khác'; điểm c còn 'bị cưỡng bức lao động'. Câu suy 'người bị giữ lương hai tháng có một cửa sạch hơn': con số 'hai tháng' không có trong luật (Điều 35.2.b không nêu ngưỡng), là suy luận."
+  - text: "NSDLĐ chỉ miễn báo trước cho hai trường hợp: đủ tuổi nghỉ hưu, và tự ý bỏ việc 05 ngày làm việc liên tục trở lên (Điều 36 khoản 3)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "3. Khi đơn phương chấm dứt hợp đồng lao động quy định tại điểm d và điểm e khoản 1 Điều này thì người sử dụng lao động không phải báo trước cho người lao động."
+    verdict: mismatch
+    note: "SAI. Điểm d khoản 1 là 'Người lao động không có mặt tại nơi làm việc sau thời hạn quy định tại Điều 31' (tạm hoãn HĐ), điểm e là tự ý bỏ việc 05 ngày. Đủ tuổi nghỉ hưu là điểm đ và khoản 2 yêu cầu báo trước ('Khi đơn phương chấm dứt ... trong trường hợp quy định tại các điểm a, b, c, đ và g khoản 1 ... phải báo trước'). Mục viết ngược: coi nghỉ hưu là trường hợp được miễn báo trước và bỏ điểm d."
+  - text: "NSDLĐ phải thông báo bằng văn bản khi chấm dứt HĐLĐ, trừ khoản 4, 5, 6, 7, 8 Điều 34 (Điều 45 khoản 1)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Người sử dụng lao động phải thông báo bằng văn bản cho người lao động về việc chấm dứt hợp đồng lao động khi hợp đồng lao động chấm dứt theo quy định của Bộ luật này, trừ trường hợp quy định tại các khoản 4, 5, 6, 7 và 8 Điều 34 của Bộ luật này."
+    verdict: match
+    note: "Step 1 yêu cầu 'ghi rõ lý do và ngày hiệu lực': Điều 45 khoản 1 chỉ đòi thông báo bằng văn bản, KHÔNG đòi ghi rõ lý do/ngày hiệu lực; đó là lời khuyên thực hành, không phải chữ của luật."
+  - text: "Trợ cấp thôi việc: nửa tháng lương mỗi năm, người đã làm thường xuyên từ đủ 12 tháng; loại trừ người đủ điều kiện hưởng lương hưu và trường hợp tự ý bỏ việc 05 ngày (Điều 46 khoản 1)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Khi hợp đồng lao động chấm dứt theo quy định tại các khoản 1, 2, 3, 4, 6, 7, 9 và 10 Điều 34 của Bộ luật này thì người sử dụng lao động có trách nhiệm trả trợ cấp thôi việc cho người lao động đã làm việc thường xuyên cho mình từ đủ 12 tháng trở lên, mỗi năm làm việc được trợ cấp một nửa tháng tiền lương, trừ trường hợp đủ điều kiện hưởng lương hưu theo quy định của pháp luật về bảo hiểm xã hội và trường hợp quy định tại điểm e khoản 1 Điều 36 của Bộ luật này."
+    verdict: partial
+    note: "Khớp, nhưng (1) khoản 9 và khoản 3 Điều 34 đều được trả trợ cấp thôi việc, nghĩa là NLĐ xin nghỉ đúng luật (khoản 9) VẪN được trợ cấp thôi việc; mục Chi phí xếp 'nửa tháng lương mỗi năm' vào 'khoản mất' khi ký đơn xin nghỉ, dễ gây hiểu sai. (2) Điều 46 khoản 2 trừ thời gian đã đóng BHTN khi tính, mục không nêu nên người đọc dễ tính quá cao."
+  - text: "Trợ cấp mất việc làm: mỗi năm 01 tháng lương, ít nhất 02 tháng, cho người mất việc theo khoản 11 Điều 34 (Điều 47 khoản 1)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Người sử dụng lao động trả trợ cấp mất việc làm cho người lao động đã làm việc thường xuyên cho mình từ đủ 12 tháng trở lên mà bị mất việc làm theo quy định tại khoản 11 Điều 34 của Bộ luật này, cứ mỗi năm làm việc trả 01 tháng tiền lương nhưng ít nhất bằng 02 tháng tiền lương."
+    verdict: match
+    note: "Khoản 11 chỉ áp dụng khi cho thôi việc do thay đổi cơ cấu/công nghệ/kinh tế (Điều 42) hoặc chia tách, sáp nhập... (Điều 43). Bẫy 1 nói ký đơn 'mất luôn cửa trợ cấp mất việc làm ở Điều 47' chỉ đúng nếu thực chất là cắt giảm theo Điều 42/43; mục không nêu điều kiện này (xem internal_checks)."
+  - text: "Hạn thanh toán 14 ngày làm việc, kéo dài không quá 30 ngày trong bốn trường hợp (Điều 48 khoản 1)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Trong thời hạn 14 ngày làm việc kể từ ngày chấm dứt hợp đồng lao động, hai bên có trách nhiệm thanh toán đầy đủ các khoản tiền có liên quan đến quyền lợi của mỗi bên, trừ trường hợp sau đây có thể kéo dài nhưng không được quá 30 ngày:"
+    verdict: match
+    note: ""
+  - text: "Điều 41: nhận lại + lương/BH những ngày không làm + ít nhất 02 tháng lương; khoản 2 thêm trợ cấp thôi việc; khoản 3 thỏa thuận bồi thường thêm ít nhất 02 tháng"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "phải trả thêm cho người lao động một khoản tiền ít nhất bằng 02 tháng tiền lương theo hợp đồng lao động."
+    verdict: match
+    note: "Khoản 2, 3 khớp nguyên văn như mục 06 đã trích (đọc cùng VBHN)."
+  - text: "Điều 40: NLĐ trái luật: không trợ cấp thôi việc, bồi thường nửa tháng lương + ngày không báo trước, hoàn trả chi phí đào tạo"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Phải bồi thường cho người sử dụng lao động nửa tháng tiền lương theo hợp đồng lao động và một khoản tiền tương ứng với tiền lương theo hợp đồng lao động trong những ngày không báo trước."
+    verdict: match
+    note: ""
+  - text: "Thời hiệu 06 tháng hòa giải, 09 tháng trọng tài, 01 năm tòa án từ ngày phát hiện hành vi (Điều 190)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Thời hiệu yêu cầu hòa giải viên lao động thực hiện hòa giải tranh chấp lao động cá nhân là 06 tháng kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm."
+    verdict: match
+    note: "Khoản 2 là 09 tháng Hội đồng trọng tài, khoản 3 là 01 năm Tòa án, đều khớp."
+  - text: "Phạt 1.000.000-3.000.000 đồng với NSDLĐ không thông báo bằng văn bản khi chấm dứt (NĐ 283/2026 Điều 18 khoản 1)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "Phạt tiền từ 1.000.000 đồng đến 3.000.000 đồng đối với người sử dụng lao động có hành vi không thông báo bằng văn bản cho người lao động về việc chấm dứt hợp đồng lao động khi hợp đồng lao động chấm dứt theo quy định của Bộ luật Lao động, trừ trường hợp quy định tại các khoản 4, 5, 6, 7 và 8 Điều 34 của Bộ luật Lao động."
+    verdict: match
+    note: "Mức này là mức cá nhân; tổ chức gấp đôi theo Điều 7 khoản 1 (mục không nêu, trong khi mục 06 có nêu)."
+  - text: "'Phạt thêm khi không thanh toán đúng hạn hoặc không trả đủ trợ cấp thôi việc' (Điều 18 khoản 2)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "không thực hiện đúng quy định về thời hạn thanh toán các khoản về quyền lợi của người lao động khi chấm dứt hợp đồng lao động; không trả hoặc trả không đủ tiền trợ cấp thôi việc cho người lao động theo quy định của pháp luật;"
+    verdict: partial
+    note: "Hành vi đúng, nhưng mục không nêu mức tiền (1-2 triệu cho 1-10 NLĐ, tăng theo số NLĐ) nên người đọc không biết 'thêm' là bao nhiêu."
+  - text: "Ký đơn xin nghỉ 'mất cửa Điều 41 với ít nhất 02 tháng lương' (tldr, Bẫy 1)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "9. Người lao động đơn phương chấm dứt hợp đồng lao động theo quy định tại Điều 35 của Bộ luật này."
+    verdict: inference
+    note: "Suy luận hợp lý: đơn xin nghỉ rơi vào khoản 9 nên không còn là 'đơn phương trái luật của NSDLĐ' (Điều 39-41). Không phải chữ của luật; còn phụ thuộc việc thực chất NSDLĐ có ép hay không; nên gắn nhãn 'suy ra'. Câu 'chữ ký đó là chứng cứ ngược, mốc thời gian bị đẩy lùi về đúng ngày ký' (Bẫy 3) cũng là suy luận."
+  - text: "'Tiền tư vấn và án phí của một vụ tranh chấp lại lớn hơn khoản đang tranh' (Chi phí)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "(không có câu tương ứng trong văn bản được dẫn)"
+    verdict: not-found
+    note: "Khẳng định kinh tế không có nguồn; còn mâu thuẫn mục 06 (nói 'không mất án phí')."
+internal_checks:
+  - issue: "Mismatch Điều 36 khoản 3: mục nói chỉ miễn báo trước cho 'đủ tuổi nghỉ hưu' và 'bỏ việc 05 ngày'. Luật: miễn báo trước cho điểm d (không có mặt sau thời hạn Điều 31) và điểm e; nghỉ hưu (điểm đ) PHẢI báo trước (khoản 2)."
+    severity: error
+  - issue: "Chi phí và tldr gây hiểu lầm: 'nửa tháng lương mỗi năm (trợ cấp thôi việc)' liệt vào 'khoản mất' khi ký đơn xin nghỉ, nhưng Điều 46 khoản 1 cho trợ cấp thôi việc cả khi NLĐ nghỉ đúng luật (khoản 9) và khi thỏa thuận (khoản 3). Khoản thực sự mất khi ký đơn là cơ hội đòi Điều 41 và (nếu thực chất cắt giảm) trợ cấp mất việc làm Điều 47."
+    severity: error
+  - issue: "Bẫy 1 nói ký đơn 'mất luôn cửa trợ cấp mất việc làm ở Điều 47' mà không nêu điều kiện Điều 47 chỉ áp dụng khi mất việc theo khoản 11 Điều 34 (Điều 42, 43). Không phải mọi vụ công ty muốn bạn đi đều thuộc diện này."
+    severity: warn
+  - issue: "'Người bị giữ lương hai tháng' (Điều 35 khoản 2): con số 'hai tháng' không có trong luật; không có ngưỡng thời gian giữ lương trong điểm b."
+    severity: warn
+  - issue: "Step 1: 'văn bản thông báo chấm dứt ... ghi rõ lý do và ngày hiệu lực' viện Điều 45 khoản 1, nhưng điều này chỉ yêu cầu thông báo bằng văn bản, không nêu 'lý do/ngày hiệu lực' (lời khuyên thực hành, nên tách khỏi viện dẫn)."
+    severity: warn
+  - issue: "Mâu thuẫn chéo mục cùng chương: mục 06 nói 'Bắt đầu kiện không mất án phí'; mục này nói 'án phí ... lớn hơn khoản đang tranh'. Mục 06 có nêu 'doanh nghiệp gấp đôi' mức phạt NĐ 283 (Điều 7), mục này (và 08, 09, 10) không nêu."
+    severity: warn
+  - issue: "Tldr, steps: các con số 02 tháng, 45 ngày có trong thân; không mâu thuẫn số liệu nội bộ khác. legal_refs[].url trỏ PDF gốc BLLĐ 45/2019 (đúng văn bản) nhưng PDF là ảnh quét không trích được chữ; người đọc/kiểm chứng sau khó đối chiếu. Mục cần dẫn VBHN 18 làm nguồn đọc được."
+    severity: warn
+validity:
+  doc: "Bộ luật Lao động 45/2019/QH14 (đối chiếu VBHN 18/VBHN-VPQH 12/02/2026); Nghị định 283/2026/NĐ-CP"
+  in_force: true
+  effective_from: "2021-01-01 (BLLĐ); 2026-09-10 (NĐ 283/2026)"
+  amended_by:
+    - "Luật Công nghiệp công nghệ số 71/2025/QH15; Luật Dân số 113/2025/QH15; Luật Giáo dục nghề nghiệp 124/2025/QH15 (theo danh sách trong VBHN 18; các Điều 34-48, 190 trong VBHN khớp nguyên văn nội dung mục dẫn)"
+  basis: "VBHN 18/VBHN-VPQH (Công báo, ban hành 12/02/2026) vẫn có nguyên Điều 34-48, 190; NĐ 283/2026 trang Công báo ghi 'Hiệu lực: 10/09/2026' (Điều 66 khoản 1), đã tới hạn so với 2026-11-08 và Điều 66 khoản 4 thay NĐ 12/2022."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Pháp luật VN, mục 'Người sử dụng lao động đơn phương' bullet thứ 3: sửa thành 'Không phải báo trước chỉ khi người lao động không có mặt tại nơi làm việc sau thời hạn quy định tại Điều 31 (điểm d) hoặc tự ý bỏ việc 05 ngày làm việc liên tục (điểm e); trường hợp đủ tuổi nghỉ hưu (điểm đ) vẫn phải báo trước theo khoản 2' (Điều 36 khoản 2, 3)."
+  - "Chi phí và tldr: bỏ trợ cấp thôi việc khỏi danh sách 'khoản mất' khi nghỉ theo Điều 35; ghi rõ 'xin nghỉ đúng luật vẫn được trợ cấp thôi việc (Điều 46 khoản 1, khoản 9 Điều 34), nhưng mất cơ hội Điều 41 (>= 02 tháng lương) và, nếu thực chất bị cắt giảm theo Điều 42/43, mất trợ cấp mất việc làm Điều 47'."
+  - "Bẫy 1: thêm điều kiện 'nếu việc mất việc thuộc Điều 42, 43' trước câu về Điều 47; gắn nhãn 'suy ra' cho 'mất cửa Điều 41'."
+  - "Điều 35 khoản 2: thêm các ngoại lệ 'trừ Điều 29', 'trừ khoản 4 Điều 97', 'trừ thỏa thuận khác' (nghỉ hưu), 'cưỡng bức lao động'; bỏ cụm 'hai tháng' hoặc dẫn nguồn."
+  - "Step 1: giữ lời khuyên 'yêu cầu văn bản thông báo' (Điều 45 khoản 1), tách 'ghi rõ lý do và ngày hiệu lực' thành lời khuyên thực hành, không viện dẫn Điều 45."
+  - "Chi phí: bỏ hoặc dẫn nguồn cho 'tiền tư vấn và án phí ... lớn hơn khoản đang tranh'; thống nhất với mục 06."
+  - "Mức phạt: nêu mức tiền cho Điều 18 khoản 2 (1.000.000-2.000.000 đồng với 1-10 NLĐ) và ghi 'doanh nghiệp gấp đôi (Điều 7 khoản 1)'. Trợ cấp thôi việc: thêm 'trừ thời gian đã đóng BHTN' (Điều 46 khoản 2)."

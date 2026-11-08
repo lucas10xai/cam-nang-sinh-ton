@@ -1,0 +1,107 @@
+id: thu-viec-180-60-30-6-ngay-it-nhat-85-luong-va
+checker: agent-V3a19aB
+checked_at: 2026-11-08
+content_sha256: "e4b452b2481f75afdc04bef4a87de45eb808b95ede439552ac5eaf68e1fb9bd3"
+result: pass-with-edits
+claims:
+  - text: "Thử việc tối đa 180 ngày (quản lý doanh nghiệp), 60 ngày (cao đẳng trở lên), 30 ngày (trung cấp, công nhân kỹ thuật, nhân viên nghiệp vụ), 06 ngày làm việc (việc khác); chỉ một lần cho một công việc (Điều 25)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Thời gian thử việc do hai bên thỏa thuận căn cứ vào tính chất và mức độ phức tạp của công việc nhưng chỉ được thử việc một lần đối với một công việc và bảo đảm điều kiện sau đây: 1. Không quá 180 ngày đối với công việc của người quản lý doanh nghiệp ...; 2. Không quá 60 ngày đối với công việc có chức danh nghề nghiệp cần trình độ chuyên môn, kỹ thuật từ cao đẳng trở lên; 3. Không quá 30 ngày đối với công việc có chức danh nghề nghiệp cần trình độ chuyên môn, kỹ thuật trung cấp, công nhân kỹ thuật, nhân viên nghiệp vụ; 4. Không quá 06 ngày làm việc đối với công việc khác."
+    verdict: match
+    note: "Chữ lấy từ DOCX chính thức tải trên trang Công báo vì PDF ký của 18/VBHN-VPQH là ảnh quét. Điểm 1 viện dẫn 'theo quy định của Luật Doanh nghiệp, Luật Quản lý, sử dụng vốn nhà nước ...' (mục đã lược)."
+  - text: "Lương thử việc ít nhất bằng 85% mức lương của công việc đó (Điều 26)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Tiền lương của người lao động trong thời gian thử việc do hai bên thỏa thuận nhưng ít nhất phải bằng 85% mức lương của công việc đó."
+    verdict: match
+    note: ""
+  - text: "Hết thời gian thử việc phải thông báo kết quả; đạt thì tiếp tục hợp đồng hoặc phải giao kết hợp đồng lao động nếu chỉ có hợp đồng thử việc (Điều 27 khoản 1)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "1. Khi kết thúc thời gian thử việc, người sử dụng lao động phải thông báo kết quả thử việc cho người lao động. Trường hợp thử việc đạt yêu cầu thì người sử dụng lao động tiếp tục thực hiện hợp đồng lao động đã giao kết đối với trường hợp thỏa thuận thử việc trong hợp đồng lao động hoặc phải giao kết hợp đồng lao động đối với trường hợp giao kết hợp đồng thử việc."
+    verdict: match
+    note: ""
+  - text: "Trong thời gian thử việc mỗi bên được hủy bỏ không cần báo trước và không phải bồi thường (Điều 27 khoản 2)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "2. Trong thời gian thử việc, mỗi bên có quyền hủy bỏ hợp đồng thử việc hoặc hợp đồng lao động đã giao kết mà không cần báo trước và không phải bồi thường."
+    verdict: match
+    note: "Câu mục thêm 'không mất trợ cấp' không có trong điều này (xem claim riêng)."
+  - text: "Người lao động rời đi trong thời gian thử việc 'không mất trợ cấp, không phải đền'"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "mỗi bên có quyền hủy bỏ hợp đồng thử việc hoặc hợp đồng lao động đã giao kết mà không cần báo trước và không phải bồi thường."
+    verdict: partial
+    note: "'Không phải bồi thường' đúng nguyên văn; 'không mất trợ cấp' không có trong Điều 27 (trợ cấp thôi việc chỉ phát sinh từ đủ 12 tháng, Điều 46 khoản 1), là diễn giải không nguồn."
+  - text: "Không áp dụng thử việc với hợp đồng có thời hạn dưới 01 tháng (Điều 24 khoản 3)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "3. Không áp dụng thử việc đối với người lao động giao kết hợp đồng lao động có thời hạn dưới 01 tháng."
+    verdict: match
+    note: ""
+  - text: "Phải giao kết hợp đồng trước khi nhận người vào làm việc (Điều 13 khoản 2) và bằng văn bản, làm thành 02 bản (Điều 14 khoản 1)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "2. Trước khi nhận người lao động vào làm việc thì người sử dụng lao động phải giao kết hợp đồng lao động với người lao động."
+    verdict: match
+    note: "Điều 14 khoản 1: 'phải được giao kết bằng văn bản và được làm thành 02 bản, người lao động giữ 01 bản, người sử dụng lao động giữ 01 bản, trừ trường hợp quy định tại khoản 2 Điều này' (khoản 2: miệng được với hợp đồng dưới 01 tháng). Mục không nêu ngoại lệ này nhưng tập trung thử việc nên chấp nhận."
+  - text: "Hợp đồng xác định thời hạn hết hạn mà vẫn làm: trong 30 ngày phải ký mới; quá 30 ngày thành không xác định thời hạn; ký tiếp xác định thời hạn chỉ thêm 01 lần (Điều 20 khoản 2)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "c) Trường hợp hai bên ký kết hợp đồng lao động mới là hợp đồng lao động xác định thời hạn thì cũng chỉ được ký thêm 01 lần, sau đó nếu người lao động vẫn tiếp tục làm việc thì phải ký kết hợp đồng lao động không xác định thời hạn, trừ hợp đồng lao động đối với người được thuê làm giám đốc trong doanh nghiệp có vốn nhà nước và trường hợp quy định tại khoản 1 Điều 149, khoản 2 Điều 151 và khoản 4 Điều 177 của Bộ luật này."
+    verdict: partial
+    note: "Điểm a, b khớp (30 ngày; quá 30 ngày thành không xác định thời hạn). Điểm c có ngoại lệ (giám đốc doanh nghiệp có vốn nhà nước; Điều 149 khoản 1, Điều 151 khoản 2, Điều 177 khoản 4) mà mục không nêu; steps[3] và Bẫy 3 viết như quy tắc tuyệt đối."
+  - text: "Phạt 500.000-1.000.000 đồng: thử việc với hợp đồng dưới 01 tháng; không thông báo kết quả thử việc (Điều 16 khoản 1 NĐ 283)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "1. Phạt tiền từ 500.000 đồng đến 1.000.000 đồng đối với người sử dụng lao động có một trong các hành vi sau đây: a) Thử việc đối với người lao động làm việc theo hợp đồng lao động có thời hạn dưới 01 tháng; b) Không thông báo kết quả thử việc cho người lao động khi thời gian thử việc kết thúc."
+    verdict: match
+    note: ""
+  - text: "Phạt 2.000.000-5.000.000 đồng với bốn hành vi: thử việc quá 01 lần/công việc; quá thời gian thỏa thuận hoặc vượt Điều 25; trả lương thử việc dưới thỏa thuận hoặc dưới 85%; không giao kết hợp đồng khi thử việc đạt (Điều 16 khoản 2)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "d) Không giao kết hợp đồng lao động khi thử việc đạt yêu cầu đối với trường hợp hai bên có giao kết hợp đồng thử việc."
+    verdict: partial
+    note: "Mức và ba hành vi đầu khớp. Hành vi thứ tư chỉ áp dụng 'đối với trường hợp hai bên có giao kết hợp đồng thử việc'; mục bỏ điều kiện này."
+  - text: "Mỗi hành vi trong bốn hành vi trên bị buộc trả đủ tiền lương của công việc đó (Chi phí); buộc trả đủ lương và buộc giao kết hợp đồng (Điều 16 khoản 3)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "a) Buộc người sử dụng lao động trả đủ tiền lương của công việc đó cho người lao động khi có hành vi vi phạm quy định tại điểm a khoản 1, điểm a, b, c khoản 2 Điều này; b) Buộc người sử dụng lao động giao kết hợp đồng lao động với người lao động khi có hành vi vi phạm quy định tại điểm d khoản 2 Điều này."
+    verdict: mismatch
+    note: "Chi phí viết 'Mỗi hành vi sau ... bị buộc trả đủ tiền lương' gồm cả hành vi 'không ký hợp đồng khi thử việc đạt'; thực tế hành vi đó bị buộc giao kết hợp đồng (điểm b), không buộc trả lương. Ngược lại buộc trả lương còn áp dụng cho điểm a khoản 1 (thử việc hợp đồng dưới 01 tháng), mà Chi phí xếp mức 500.000-1.000.000 không kèm biện pháp này."
+  - text: "Giao kết hợp đồng không bằng văn bản với công việc từ đủ 01 tháng trở lên: phạt 2.000.000-5.000.000 đồng, buộc giao kết bằng văn bản (Điều 15 khoản 1, khoản 3 điểm a NĐ 283)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "a) Từ 2.000.000 đồng đến 5.000.000 đồng đối với vi phạm từ 01 người đến 10 người lao động; b) Từ 5.000.000 đồng đến 10.000.000 đồng đối với vi phạm từ 11 người đến 50 người lao động; c) Từ 10.000.000 đồng đến 15.000.000 đồng đối với vi phạm từ 51 người đến 100 người lao động; d) Từ 15.000.000 đồng đến 20.000.000 đồng đối với vi phạm từ 101 người đến 300 người lao động; đ) Từ 20.000.000 đồng đến 25.000.000 đồng đối với vi phạm từ 301 người lao động trở lên."
+    verdict: partial
+    note: "Mức 2.000.000-5.000.000 chỉ đúng với 1-10 người lao động; tối đa 20.000.000-25.000.000 (từ 301 người). Mục không nói đây là bậc thấp nhất (khác mục 01, 02, 04 có ghi). Nhân đôi cho tổ chức (Điều 7 khoản 1; Điều 15, 16 không nằm trong ngoại lệ): khớp."
+  - text: "Sàn 85% tính trên mức lương công việc; 'mọi khoản khấu trừ phải nằm trong hợp đồng, có bảng kê theo Điều 95 khoản 3' (Bẫy 2, steps[1])"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "1. Người sử dụng lao động chỉ được khấu trừ tiền lương của người lao động để bồi thường thiệt hại do làm hư hỏng dụng cụ, thiết bị, tài sản của người sử dụng lao động theo quy định tại Điều 129 của Bộ luật này."
+    verdict: mismatch
+    note: "Điều 102 khoản 1 giới hạn khấu trừ ở bồi thường thiệt hại theo Điều 129 (khoản 3: không quá 30% lương thực trả hằng tháng sau khi trừ bảo hiểm và thuế). Một khoản khấu trừ chỉ vì 'có trong hợp đồng' (tiền ăn, đồng phục, đào tạo) vẫn có thể trái luật. Điều 95 khoản 3 chỉ buộc bảng kê ghi 'nội dung và số tiền bị khấu trừ (nếu có)'. Điều 102 không nằm trong legal_refs."
+  - text: "Thời gian thử việc không được tính vào hợp đồng chính; nếu công ty không ký hợp đồng thì nửa năm thử việc không có bảo hiểm thất nghiệp (Chi phí)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-145-2020-nd-cp-32732.htm
+    quote: "2. Thời gian thử việc nếu người lao động tiếp tục làm việc cho người sử dụng lao động sau khi hết thời gian thử việc."
+    verdict: mismatch
+    note: "Trích NĐ 145/2020 Điều 65 khoản 2 (thời gian thử việc được tính là thời gian làm việc để tính phép năm). Điều 8 khoản 3 điểm a cũng tính 'thời gian thử việc' vào thời gian làm việc thực tế để tính trợ cấp thôi việc/mất việc. Câu 'không được tính vào hợp đồng chính' mâu thuẫn hai quy định này và không có nguồn trong mục; phần bảo hiểm thất nghiệp cũng không có nguồn."
+internal_checks:
+  - issue: "Chi phí viết 'Thời gian thử việc không được tính vào hợp đồng chính' trong khi mục 02 cùng chương (Điều 65 khoản 2 NĐ 145) và mục 04 (Điều 8 khoản 3 điểm a NĐ 145: 'thời gian thử việc') nói thử việc được tính. Hai mục trong chương nói ngược nhau về cùng một thứ; mục 03 sai."
+    severity: error
+  - issue: "Bẫy 2 và steps[1] khẳng định mọi khoản khấu trừ phải có trong hợp đồng thì hợp lệ: sai so với Điều 102 khoản 1 (chỉ được khấu trừ để bồi thường thiệt hại theo Điều 129; tối đa 30% theo khoản 3). Có thể khiến người đọc chấp nhận khấu trừ trái luật."
+    severity: error
+  - issue: "Chi phí gộp biện pháp khắc phục sai: 'buộc trả đủ tiền lương' cho cả hành vi không ký hợp đồng khi thử việc đạt (thực tế là buộc giao kết hợp đồng, Điều 16 khoản 3 điểm b)."
+    severity: error
+  - issue: "Bẫy 1 và Chi phí nhắc 'Điều 16 khoản 2 điểm a' đúng; nhưng ví dụ 'lần đầu ở chi nhánh này, rồi chuyển sang chi nhánh khác vẫn gọi là thử việc' là ví dụ tự đặt, không có trong Điều 25 (Điều 25 nói 'một công việc')."
+    severity: warn
+  - issue: "Mức phạt Điều 15 khoản 1 (2-5 triệu) ghi không kèm 'từ 01 đến 10 người lao động'; nếu đọc như mức cố định là sai (tối đa 20-25 triệu)."
+    severity: warn
+  - issue: "'Người lao động rời đi trong thời gian này không mất trợ cấp' không có cơ sở trong Điều 27."
+    severity: warn
+  - issue: "Các con số trong tldr/steps (180/60/30/06 ngày, 85%, 30 ngày, 01 lần) đều có trong thân và khớp nhau; legal_refs URL đúng văn bản; Điều khoản khớp (trừ chỗ đã nêu)."
+    severity: warn
+validity:
+  doc: "BLLĐ 45/2019/QH14 (VBHN 18/VBHN-VPQH) Điều 13, 14, 20, 24-27; NĐ 283/2026/NĐ-CP Điều 15, 16"
+  in_force: true
+  effective_from: "2026-09-10"
+  amended_by: []
+  basis: "BLLĐ: VBHN 18/VBHN-VPQH (12/02/2026) liệt kê sửa đổi bởi Luật 71/2025, 113/2025, 124/2025, không có văn bản thay thế; NĐ 283/2026/NĐ-CP (ký 15/07/2026) lấy BLLĐ 45/2019/QH14 làm căn cứ và dẫn Điều 25 của Bộ luật. Trang Công báo của VBHN để trống ô 'Hiệu lực'. NĐ 283: trang Công báo 'Hiệu lực: 10/09/2026'; điều khoản thi hành 'có hiệu lực thi hành từ ngày 10 tháng 9 năm 2026'. Điều 25, 26, 27 vẫn là chữ trong VBHN tháng 02/2026."
+deliberate_vn_deviation: []
+potential_harm:
+  - "Bẫy 2/steps[1]: hướng dẫn 'mọi khoản khấu trừ có trong hợp đồng, có bảng kê' dễ khiến người đọc coi khấu trừ tiền ăn, đồng phục, đào tạo ghi trong hợp đồng là hợp lệ, trong khi Điều 102 khoản 1 chỉ cho khấu trừ để bồi thường thiệt hại theo Điều 129. Người lao động có thể bỏ qua quyền đòi lại tiền khấu trừ trái luật (Điều 23 khoản 2 NĐ 283 phạt 'khấu trừ tiền lương của người lao động không đúng quy định của pháp luật')."
+suggested_edits:
+  - "Chi phí, đoạn 'Thời gian thử việc không được tính vào hợp đồng chính ...': xóa hoặc thay bằng 'Thời gian thử việc được tính vào thời gian làm việc để tính phép năm nếu bạn tiếp tục làm (NĐ 145/2020 Điều 65 khoản 2)'; bỏ câu về bảo hiểm thất nghiệp (không có nguồn)."
+  - "Bẫy 2 và steps[1]: thay 'mọi khoản khấu trừ phải nằm trong hợp đồng, có bảng kê' bằng 'khấu trừ lương chỉ hợp lệ để bồi thường thiệt hại do làm hư hỏng dụng cụ, thiết bị, tài sản (Điều 102 khoản 1, Điều 129); tối đa 30% lương thực trả hằng tháng sau khi trừ bảo hiểm và thuế (Điều 102 khoản 3); phải có bảng kê (Điều 95 khoản 3)'. Thêm Điều 102 vào legal_refs."
+  - "Chi phí, phần NSDLĐ: tách bốn hành vi mức 2-5 triệu; ghi 'buộc trả đủ tiền lương' cho ba hành vi (quá 01 lần, quá thời gian/Điều 25, lương dưới 85%) và 'buộc giao kết hợp đồng' cho hành vi không ký khi thử việc đạt; nêu hành vi thứ tư chỉ khi hai bên có hợp đồng thử việc."
+  - "Mức phạt Điều 15 khoản 1: thêm 'với 1-10 người lao động; mức tăng theo số người đến 20.000.000-25.000.000 đồng từ 301 người' (Điều 15 khoản 1 điểm a-đ)."
+  - "steps[3]/Bẫy 3: thêm ngoại lệ Điều 20 khoản 2 điểm c (giám đốc doanh nghiệp có vốn nhà nước và các trường hợp nêu) hoặc ghi 'trừ trường hợp luật quy định'."
+  - "Câu 'không mất trợ cấp': xóa, giữ đúng Điều 27 khoản 2 ('không cần báo trước và không phải bồi thường')."

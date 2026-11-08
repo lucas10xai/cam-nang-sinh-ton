@@ -1,0 +1,83 @@
+id: giao-dich-cang-nhieu-thi-tien-o-lai-cang-it-thi-truong
+checker: agent-V3a05c
+checked_at: 2026-11-08
+content_sha256: 3bb7874e242b203ab4a514fb3db29508a013f9640b9c2a6e92c9fd038112472d
+result: pass-with-edits
+claims:
+  - text: "Thu nhập từ chuyển nhượng chứng khoán chịu thuế 0,1% trên giá chuyển nhượng, theo từng lần chuyển nhượng (Điều 13 khoản 2 Luật Thuế TNCN 109/2025/QH15)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "2. Thuế thu nhập cá nhân đối với thu nhập từ chuyển nhượng chứng khoán được xác định bằng giá chuyển nhượng nhân (x) với thuế suất 0,1% theo từng lần chuyển nhượng."
+    verdict: match
+    note: "PDF ký số quét ảnh (15 trang), đọc bằng OCR trang 11. Số hiệu đúng: Luật số 109/2025/QH15, Quốc hội thông qua 10/12/2025 (QH15 đúng, không phải QH14). Điều 13 khoản 1 là chuyển nhượng vốn (20% trên thu nhập tính thuế hoặc 2% nếu không xác định giá mua)."
+  - text: "Thuế tính theo từng lần chuyển nhượng và không trừ giá vốn; lãi hay lỗ đều phải trả"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "được xác định bằng giá chuyển nhượng nhân (x) với thuế suất 0,1% theo từng lần chuyển nhượng."
+    verdict: inference
+    note: "Nguồn chỉ nói công thức là giá chuyển nhượng x 0,1%; 'không trừ giá vốn' và 'lãi hay lỗ đều phải trả' là suy ra hợp lý từ công thức (khác khoản 1 có 'trừ đi giá mua'). Nên ghi 'suy ra từ công thức'."
+  - text: "Mỗi lần bán chứng khoán chịu thuế 0,1% giá bán (tldr, Chi phí), không nêu ngoại lệ"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "4. Miễn thuế thu nhập cá nhân đối với chuyển nhượng chứng chỉ quỹ mở thành lập theo quy định của pháp luật về chứng khoán được nắm giữ từ 02 năm trở lên kể từ ngày mua."
+    verdict: partial
+    note: "Điều 5 khoản 4 (OCR trang 6). Ngoại lệ miễn thuế cho chứng chỉ quỹ mở giữ từ 2 năm có thể làm người đọc hiểu sai 'mỗi lần bán chứng khoán đều chịu 0,1%' khi áp dụng cho quỹ (liên quan trực tiếp đến mục 17 về quỹ chỉ số). Khoản 5 cùng điều: 'Giảm 50% thuế thu nhập cá nhân đối với lợi tức của nhà đầu tư cá nhân được chia từ quỹ đầu tư chứng khoán, quỹ đầu tư bất động sản'. Cổ phiếu thì không có miễn này."
+  - text: "Bán 12 lần một năm là 1,2% (tldr)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "được xác định bằng giá chuyển nhượng nhân (x) với thuế suất 0,1% theo từng lần chuyển nhượng."
+    verdict: inference
+    note: "12 x 0,1% = 1,2% của TỔNG giá trị đã bán (cộng dồn các lần), đúng số học; tldr viết 'bán 12 lần một năm là 1,2%' không nói 1,2% của cái gì. Thân mục ('Bán 12 lần một năm là 1,2% giá trị đã bán') rõ hơn; tldr/Nói dễ hiểu mơ hồ ('1,2% tiền thuế')."
+  - text: "Luật Thuế TNCN 109/2025/QH15 có hiệu lực (legal_refs effective_from: null)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026, trừ trường hợp quy định tại khoản 2 Điều này."
+    verdict: match
+    note: "Điều 29 (OCR trang 14-15). Khoản 3: 'Luật Thuế thu nhập cá nhân số 04/2007/QH12 ... hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành'. Ngày 8/11/2026 đã qua 1/7/2026. legal_refs thiếu effective_from và checked_at."
+  - text: "Barber & Odean (2000): 66.465 tài khoản (hộ gia đình) tại một công ty môi giới chiết khấu ở Mỹ 1991-1996; nhóm quay vòng nhiều nhất đạt 11,4%/năm, thị trường 17,9%"
+    source_url: https://doi.org/10.1111/0022-1082.00226
+    quote: "Of 66,465 households with accounts at a large discount broker during 1991 to 1996, those that trade most earn an annual return of 11.4 percent, while the market returns 17.9 percent."
+    verdict: match
+    note: "Tóm tắt bài (Crossref). Tạp chí The Journal of Finance 55(2):773-806 đúng. Tiếng Việt: 66.465 hộ, nhóm giao dịch nhiều nhất 11,4%/năm, thị trường 17,9%."
+  - text: "Chênh lệch nằm ở chi phí giao dịch, vì lợi nhuận trước phí hai nhóm gần như nhau"
+    source_url: https://faculty.haas.berkeley.edu/odean/Papers%20current%20versions/Individual_Investor_Performance_Final.pdf
+    quote: "there is very little difference in the gross performance of households that trade frequently (with monthly turnover in excess of 8.8 percent) and those that trade infrequently. In contrast, households that trade frequently earn a net annualized geometric mean return of 11.4 percent, and those that trade infrequently earn 18.5 percent."
+    verdict: match
+    note: "Bản thảo tác giả lưu tại Haas (Berkeley), cùng tiêu đề. Cần lưu ý: trong cùng bài, mô hình Fama-French cho thấy hai nhóm quay vòng cao nhất kém 24 và 36 điểm cơ bản/tháng ngay cả trước phí (ý nghĩa thống kê ở mức biên), nên 'chênh lệch nằm ở chi phí' là cách nói giản lược nhưng không sai."
+  - text: "An, Lou, Shi (2022), JME 126:134-153: khoảng 40 triệu tài khoản, 18 tháng từ 7/2014 đến 12/2015; nhóm 85% nhỏ nhất mất khoảng 28% giá trị danh mục đầu kỳ so với việc nằm im; nhóm 0,5% lớn nhất được khoảng 31%"
+    source_url: https://personal.lse.ac.uk/loud/AnLouShi.pdf
+    quote: "Relative to the groups' aggregate account value at the beginning of our sample, this wealth redistribution amounts to a 28% loss of the initial account value for the bottom 85% of households, and a net gain of 31% for the top 0.5%."
+    verdict: match
+    note: "Bản thảo tháng 10/2021 trên trang tác giả (LSE), không phải bản đăng JME. Các số khớp. 'Nằm im' = buy-and-hold ('through active trading (i.e., relative to a buy-and-hold strategy)'). Phạm vi: thị trường Trung Quốc (Sở Giao dịch Thượng Hải), thời kỳ bong bóng-sụp đổ, không phải Việt Nam; mục không ghi rõ nước. Abstract: 'lose, 250B RMB through active trading ... or 30% of either group's initial equity wealth.'"
+  - text: "Nhóm tài khoản nhỏ giao dịch nhiều nhất trong cơn sốt lại là nhóm mất nhiều nhất (Nói dễ hiểu)"
+    source_url: https://personal.lse.ac.uk/loud/AnLouShi.pdf
+    quote: "the bottom 85% households lose 250B RMB due to active trading (i.e., relative to a buy-and-hold strategy) from July 2014 to December 2015, while the top 0.5% gain 254B RMB in this 18-month period."
+    verdict: partial
+    note: "Nguồn nói nhóm nhỏ MẤT còn nhóm lớn LỜI do giao dịch chủ động; không thấy câu nói nhóm nhỏ 'giao dịch nhiều nhất' (tìm 'turnover' chỉ thấy ghi nhận chung về doanh số cao của thị trường). Bài nói về chuyển giàu từ nhóm nhỏ sang nhóm lớn, không phải về chi phí/thuế phí. Mục nên viết đúng: 'nhóm tài khoản nhỏ mất so với nằm im'."
+  - text: "Phí môi giới thường 0,15%-0,35% mỗi chiều; nhiều nơi thu thêm phí lưu ký hằng tháng (Bẫy 2)"
+    source_url: https://dautu.dragoncapital.com.vn/product/etf/e1vfvn30
+    quote: ""
+    verdict: not-found
+    note: "Mục không dẫn nguồn cho dải 0,15%-0,35% và phí lưu ký; tôi không kiểm. Một trang tham chiếu cùng chương (Dragon Capital, ETF E1VFVN30) ghi phí giao dịch trên DragonX 0,03% giá trị lệnh, nghĩa là biểu phí rất khác nhau tùy công ty chứng khoán.  Không có quote vì không tìm thấy nguồn."
+internal_checks:
+  - issue: "Bẫy 2 nêu dải phí môi giới 0,15%-0,35%/chiều và phí lưu ký hằng tháng nhưng không có nguồn ở mục Nguồn; một nguồn thứ cấp tôi gặp ghi 0,03% trên một nền tảng, làm dải 0,15-0,35% khó dùng như 'thường'."
+    severity: warn
+  - issue: "tldr 'Mỗi lần bán chứng khoán chịu thuế 0,1% giá bán, lãi hay lỗ' không có ngoại lệ miễn thuế chứng chỉ quỹ mở giữ từ 2 năm (Điều 5 khoản 4 Luật 109) và giảm 50% lợi tức quỹ (khoản 5); ảnh hưởng chéo tới mục 17 (quỹ chỉ số) cùng chương."
+    severity: warn
+  - issue: "legal_refs[0] thiếu effective_from (nên 2026-07-01) và checked_at: null. URL đúng là văn bản Luật 109/2025/QH15; article 'Điều 13 khoản 2' đúng với claim."
+    severity: warn
+  - issue: "Nói dễ hiểu: 'Bán 12 lần một năm là 1,2% tiền thuế' và tldr 'bán 12 lần ... là 1,2%' không nói 1,2% của cái gì (đúng là 1,2% tổng giá trị đã bán)."
+    severity: warn
+  - issue: "Mọi con số trong tldr (0,1%, 12 lần, 1,2%) có trong thân; steps: bước 2 'cộng thuế 0,1% giá bán với phí môi giới' có cơ sở; bước 3 'họ thường hưởng phí môi giới' chỉ là nhận định (Bẫy 3), không có nguồn."
+    severity: warn
+  - issue: "Nghiên cứu An-Lou-Shi là về Trung Quốc 2014-2015; mục không ghi nước, dễ làm người đọc hiểu là Việt Nam. Barber-Odean là Mỹ 1991-1996 (đã ghi)."
+    severity: warn
+validity:
+  doc: "Luật Thuế thu nhập cá nhân 109/2025/QH15"
+  in_force: true
+  effective_from: "2026-07-01"
+  amended_by: []
+  basis: "Đọc bản ký số (OCR): Điều 29 khoản 1 hiệu lực từ 01/7/2026 và khoản 3 bãi bỏ Luật 04/2007/QH12. Một lượt tìm web (tháng 11/2026) không thấy văn bản sửa đổi Điều 13; chưa tra Công báo/vbpl. Kết luận in_force: true dựa vào chính văn bản và ngày hiệu lực đã qua, chưa có bằng chứng chủ động về việc không bị sửa."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Điền legal_refs[0]: effective_from 2026-07-01 và checked_at 2026-11-08."
+  - "Thêm vào tldr/Chi phí: 'Mỗi lần bán cổ phiếu chịu thuế 0,1% giá bán (Điều 13 khoản 2 Luật 109/2025/QH15). Riêng chứng chỉ quỹ mở nắm giữ từ 2 năm trở lên thì được miễn thuế (Điều 5 khoản 4).' Cần xác nhận phạm vi 'chứng chỉ quỹ mở' có gồm ETF hay không trước khi nói thêm."
+  - "Sửa tldr: 'Bán 12 lần một năm thì thuế là 1,2% tổng giá trị đã bán'; bỏ 'tiền thuế' mơ hồ ở Nói dễ hiểu."
+  - "Bẫy 2: hoặc dẫn biểu phí công bố của ít nhất 2 công ty chứng khoán (url + ngày tra) cho dải 0,15%-0,35% và phí lưu ký, hoặc bỏ số và viết 'phí môi giới mỗi công ty một biểu, xem biểu phí của công ty bạn'."
+  - "Ghi rõ nước/giai đoạn của nghiên cứu An-Lou-Shi (Trung Quốc, 7/2014-12/2015, Sở GDCK Thượng Hải) và sửa 'Nhóm tài khoản nhỏ giao dịch nhiều nhất' thành 'nhóm tài khoản nhỏ' (nguồn không nói họ giao dịch nhiều nhất); ghi rõ số 28%/31% là so với việc giữ nguyên danh mục."

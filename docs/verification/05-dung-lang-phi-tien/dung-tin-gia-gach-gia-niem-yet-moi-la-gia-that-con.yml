@@ -1,0 +1,78 @@
+id: dung-tin-gia-gach-gia-niem-yet-moi-la-gia-that-con
+checker: agent-V3a05d
+checked_at: 2026-11-08
+content_sha256: "c2580cc8a600df5cb668b4ee6e2acf63d2c324765404a33883726cfa37668763"
+result: pass-with-edits
+claims:
+  - text: "Giá niêm yết là giá đã bao gồm các loại thuế, phí và lệ phí (Điều 29 khoản 1, Luật Giá 16/2023/QH15)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/7/luat16_2023.pdf
+    quote: "Niêm yết giá là hình thức công khai về giá. Giá niêm yết là giá mua, giá bán hàng hóa, dịch vụ đã bao gồm các loại thuế, phí và lệ phí (nếu có) của hàng hóa, dịch vụ đó do tổ chức, cá nhân sản xuất, kinh doanh quyết định bằng Đồng Việt Nam, trừ các trường hợp thực hiện theo quy định của pháp luật về ngoại hối."
+    verdict: match
+    note: "PDF Công báo 859+860 (28/7/2023) có lớp chữ, trích trực tiếp bằng pdftotext. Mục bỏ ngoại lệ ngoại hối; không ảnh hưởng ví dụ. Mục suy ra 'phí giao hàng, đóng gói, thanh toán phải nằm trong giá niêm yết' (Bẫy 2): điều này là suy luận, vì 'thuế, phí và lệ phí' trong Luật Giá là phí nhà nước (Luật Phí và lệ phí) chứ không chắc gồm phí vận chuyển/đóng gói của người bán; xem partial dưới."
+  - text: "Niêm yết giá phải rõ ràng và không gây nhầm lẫn cho khách hàng về mức giá, bằng in, dán, ghi trên bảng hoặc trên các trang thông tin điện tử (Điều 29 khoản 2)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/7/luat16_2023.pdf
+    quote: "Các tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ niêm yết giá bảo đảm rõ ràng và không gây nhầm lẫn cho khách hàng về mức giá mua, giá bán hàng hóa, dịch vụ bằng các hình thức: in, dán, ghi thông tin trên bảng, giấy hoặc in trực tiếp trên bao bì của hàng hóa hoặc các hình thức phù hợp với điều kiện thực tế tại địa điểm bán hàng hóa, cung ứng dịch vụ hoặc trên các trang thông tin điện tử để thuận tiện cho việc quan sát, nhận biết của khách hàng và cơ quan nhà nước có thẩm quyền."
+    verdict: match
+    note: "Điều 29 khoản 2."
+  - text: "Phải cung cấp thông tin chính xác, đầy đủ về giá, phí, chi phí (Điều 21 khoản 1 điểm a, Luật BVQLNTD 19/2023/QH15); phải niêm yết giá theo quy định của pháp luật về giá (Điều 21 khoản 3)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "1. Cung cấp thông tin chính xác, đầy đủ về các nội dung sau đây: a) Sản phẩm, hàng hóa, dịch vụ, bao gồm: đo lường, số lượng, khối lượng, chất lượng, công dụng, giá, xuất xứ hàng hóa, thời hạn sử dụng, phí, chi phí, phương thức, thời hạn giao hàng, phương thức vận chuyển, thanh toán; ... 3. Niêm yết giá theo quy định của pháp luật về giá;"
+    verdict: match
+    note: "Điều 21 (OCR trang 14, PDF ký quét ảnh; đối chiếu chữ). Điểm a liệt kê 'phí, chi phí, phương thức vận chuyển, thanh toán' nên hỗ trợ phần nào Bẫy 2 về phí giao hàng: đây mới là chỗ nên dẫn thay vì Điều 29 khoản 1."
+  - text: "Cấm cung cấp thông tin sai lệch, không đầy đủ, không chính xác về hàng hóa, dịch vụ (Điều 10 khoản 1 điểm a)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "a) Lừa dối hoặc gây nhầm lẫn cho người tiêu dùng thông qua việc cung cấp thông tin sai lệch, không đầy đủ, không chính xác về một trong các nội dung sau đây: sản phẩm, hàng hóa, dịch vụ mà tổ chức, cá nhân kinh doanh bán, cung cấp; ..."
+    verdict: match
+    note: "Điều 10 khoản 1 điểm a (OCR trang 8). Mục lược 'Lừa dối hoặc gây nhầm lẫn' khi mô tả điểm a thành 'Cấm cung cấp thông tin sai lệch...'; đúng ý, thiếu nhấn mạnh hành vi 'lừa dối hoặc gây nhầm lẫn'."
+  - text: "Có hình thức khuyến mại bằng cách bán hàng, cung ứng dịch vụ với giá thấp hơn giá bán trước đó. Nghĩa là mốc so sánh theo luật là giá trước đó (Điều 10 khoản 1, Nghị định 81/2018/NĐ-CP)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/05/81.signed.pdf
+    quote: "Điều 10. Bán hàng, cung ứng dịch vụ với giá thấp hơn giá bán hàng, cung ứng dịch vụ trước đó, được áp dụng trong thời gian khuyến mại đã thông báo (khuyến mại bằng hình thức giảm giá) 1. Trong trường hợp thực hiện khuyến mại bằng hình thức giảm giá thì mức giảm giá hàng hóa, dịch vụ được khuyến mại trong thời gian khuyến mại tại bất kỳ thời điểm nào phải tuân thủ quy định tại Điều 7 Nghị định này."
+    verdict: partial
+    note: "Chữ mục dẫn là TIÊU ĐỀ Điều 10, không phải khoản 1; khoản 1 nói về mức giảm giá phải tuân thủ Điều 7. PDF ký quét ảnh, đọc bằng OCR trang 5-6. Nghị định 239/2026/NĐ-CP Điều 11 khoản 1 'Bãi bỏ Điều 6, Điều 7 Nghị định số 81/2018/NĐ-CP đã được sửa đổi, bổ sung theo điểm a và điểm b khoản 1, khoản 2 Điều 1 Nghị định số 128/2024/NĐ-CP', và khoản 2 'Bãi bỏ khoản 5 Điều 10': sau 26/6/2026, khoản 1 Điều 10 viện dẫn Điều 7 đã bị bãi bỏ. Câu kết 'mốc so sánh theo luật là giá trước đó' là suy luận từ tiêu đề: nghị định không quy định cách xác định 'giá trước đó' (mức thấp nhất hay giá thường ngày), chính là khoảng trống mà mục đã nêu."
+  - text: "Nghiêm cấm lợi dụng hình thức khuyến mại giảm giá để bán phá giá (Điều 10 khoản 4, Nghị định 81/2018/NĐ-CP)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/05/81.signed.pdf
+    quote: "4. Nghiêm cấm việc lợi dụng hình thức khuyến mại này để bán phá giá hàng hóa, dịch vụ."
+    verdict: match
+    note: "Điều 10 khoản 4 (OCR trang 5, bản gốc 2018). Nghị định 239/2026 chỉ bãi bỏ khoản 5 Điều 10, không đụng khoản 4. Chưa đối chiếu từng điều của Nghị định 128/2024/NĐ-CP (tìm kiếm thứ cấp cho thấy 128/2024 chỉ sửa mức giảm tối đa ở Điều 6, 7). Khoản 4 nói về bán phá giá, khác với việc gạch giá ảo; mục không ngụ ý ngược lại."
+  - text: "Nghị định 81/2018/NĐ-CP đã bị sửa đổi hai lần (Nghị định 128/2024/NĐ-CP và Nghị định 239/2026/NĐ-CP ngày 26/6/2026)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/6/239-ndcp.signed.pdf
+    quote: "Số: 239/2026/NĐ-CP Hà Nội, ngày 26 tháng 6 năm 2026 NGHỊ ĐỊNH Sửa đổi, bổ sung một số điều của Nghị định số 81/2018/NĐ-CP ngày 22 tháng 5 năm 2018 của Chính phủ quy định chi tiết Luật Thương mại về hoạt động xúc tiến thương mại đã được sửa đổi, bổ sung theo Nghị định số 128/2024/NĐ-CP ngày 10 tháng 10 năm 2024 của Chính phủ"
+    verdict: match
+    note: "Số hiệu và ngày khớp (OCR trang 1, PDF ký 29.06.2026). Điều 12 khoản 1: 'Nghị định này có hiệu lực thi hành kể từ ngày ký ban hành.' Điều 13 khoản 1 còn nhắc 'Nghị quyết số 19/2026/NQ-CP ngày 29 tháng 4 năm 2026 của Chính phủ' (cũng đụng thủ tục khuyến mại), nên 'hai lần' có thể không đủ; chưa mở Nghị quyết đó."
+  - text: "Việt Nam không có quy định bắt 'giá gốc' phải là giá thấp nhất trong một khoảng ngày trước khuyến mại"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2018/05/81.signed.pdf
+    quote: "(không có nguyên văn: khẳng định phủ định về toàn bộ pháp luật)"
+    verdict: inference
+    note: "Trong Điều 10 NĐ 81/2018 (cùng 239/2026 bãi bỏ khoản 5, giới hạn 120 ngày/năm) không thấy quy định kiểu 'giá thấp nhất trong 30 ngày'. Nhưng khẳng định phủ định về toàn bộ pháp luật chưa rà được hết (Luật Quảng cáo, Luật Cạnh tranh, nghị định xử phạt). Nên viết 'chúng tôi không thấy trong Điều 10 NĐ 81/2018'."
+  - text: "Tversky và Kahneman (Science, 1974): phán đoán bị neo vào con số xuất hiện trước, người ta điều chỉnh từ mốc đó nhưng không đủ"
+    source_url: https://doi.org/10.1126/science.185.4157.1124
+    quote: "(iii) adjustment from an anchor, which is usually employed in numerical prediction when a relevant value is available. These heuristics are highly economical and usually effective, but they lead to systematic and predictable errors."
+    verdict: partial
+    note: "Tóm tắt (abstract, qua CrossRef): neo-và-điều chỉnh dẫn tới 'systematic and predictable errors'. Việt: phán đoán số học dùng neo, dẫn tới sai lệch có hệ thống. Chữ 'điều chỉnh không đủ' (insufficient adjustment) có trong thân bài nhưng không có trong abstract và không mở được toàn văn nên không trích được. Câu ví dụ '999 giảm còn 499 làm ước lượng mức giảm cao hơn thực tế một cách hệ thống' là mở rộng của mục, không phải kết quả của bài."
+internal_checks:
+  - issue: "Mục viết 'Điều 10 khoản 1, NĐ 81/2018' nhưng câu trích ('Có hình thức khuyến mại bằng cách bán hàng... giá thấp hơn giá bán trước đó') là tiêu đề Điều 10; khoản 1 nói về mức giảm theo Điều 7, mà Điều 7 đã bị NĐ 239/2026 Điều 11 khoản 1 bãi bỏ. legal_refs ghi khoản 1 và khoản 4: khoản 1 nên bỏ hoặc thay bằng 'Điều 10 (tiêu đề)'."
+    severity: error
+  - issue: "legal_refs[0] ghi 'Điều 29 khoản 1 và khoản 2' dùng cho Bẫy 2 'phí giao hàng, đóng gói, thanh toán phải gồm trong giá niêm yết'. Điều 29 khoản 1 chỉ nói 'đã bao gồm các loại thuế, phí và lệ phí (nếu có)' của hàng hóa, không nói phí giao hàng/đóng gói của người bán. Tldr và steps[2] dùng cùng giả định. Có thể gây hiểu quá mức; chỗ dựa tốt hơn là Điều 21 khoản 1 điểm a Luật BVQLNTD (phải cung cấp chính xác, đầy đủ 'phí, chi phí')."
+    severity: warn
+  - issue: "legal_refs đều có quote null, checked_at null, effective_from null. Luật Giá 16/2023/QH15 và BVQLNTD 19/2023/QH15 có hiệu lực 01/7/2024 theo Điều cuối của từng luật."
+    severity: warn
+  - issue: "Mục Nguồn thiếu URL cho Luật BVQLNTD 19/2023/QH15 (có ở legal_refs: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf) và ghi Nghị định 239/2026 URL nhưng không đồng bộ legal_refs (không có ref cho NĐ 239/2026/NĐ-CP)."
+    severity: warn
+  - issue: "Bẫy 3 'Giá đáy thường rơi vào đợt khác trong năm' không có nguồn số liệu trong mục; nhận định (evidence C)."
+    severity: warn
+validity:
+  doc: "Luật Giá 16/2023/QH15; Luật BVQLNTD 19/2023/QH15; Nghị định 81/2018/NĐ-CP (sửa đổi bởi NĐ 128/2024/NĐ-CP, NĐ 239/2026/NĐ-CP)"
+  in_force: unconfirmed
+  effective_from: "2024-07-01"
+  amended_by:
+    - "Nghị định 128/2024/NĐ-CP ngày 10/10/2024 (sửa NĐ 81/2018; thấy qua NĐ 239/2026 và tìm kiếm thứ cấp)"
+    - "Nghị định 239/2026/NĐ-CP ngày 26/6/2026 (bãi bỏ Điều 6, Điều 7 và khoản 5 Điều 10 NĐ 81/2018)"
+  basis: "Luật Giá 16/2023/QH15 Điều 74 khoản 1: 'có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024' (đọc từ PDF Công báo). Luật BVQLNTD 19/2023/QH15: hiệu lực 01/7/2024. NĐ 239/2026/NĐ-CP Điều 12: có hiệu lực từ ngày ký 26/6/2026, nên tồn tại bản sửa đổi sau của NĐ 81/2018; Điều 10 khoản 1 và 4 NĐ 81 chưa thấy sửa, nhưng chưa mở bản hợp nhất để xác nhận. Chưa có bằng chứng tích cực rằng Luật Giá không bị sửa sau 2024."
+suggested_edits:
+  - "Pháp luật VN, mục Khuyến mại: thay 'Điều 10 khoản 1' thành 'tiêu đề Điều 10'. Câu chốt 'Nghĩa là mốc so sánh theo luật là giá trước đó' sửa thành 'Nghị định chỉ nói \"giá thấp hơn giá bán trước đó\" và không quy định cách xác định giá trước đó'. Thêm 'Điều 7 mà khoản 1 Điều 10 viện dẫn đã bị NĐ 239/2026 bãi bỏ'. Căn cứ: tiêu đề Điều 10 và Điều 11 khoản 1 NĐ 239/2026."
+  - "Bẫy 2/steps[2]/tldr: thay căn cứ 'Điều 29 khoản 1 Luật Giá' bằng 'Điều 21 khoản 1 điểm a Luật BVQLNTD: phải cung cấp chính xác, đầy đủ phí, chi phí, phương thức vận chuyển, thanh toán'; hoặc viết rõ Điều 29 khoản 1 chỉ nói 'thuế, phí và lệ phí'."
+  - "'Việt Nam không có quy định...' viết lại: 'Trong Điều 10 Nghị định 81/2018 chúng tôi không thấy quy định bắt giá gốc phải là giá thấp nhất trước khuyến mại'."
+  - "Tversky-Kahneman: giữ 'neo dẫn tới sai lệch có hệ thống'; bỏ 'nhưng không đủ' hoặc gắn nguồn toàn văn; ví dụ 999→499 ghi rõ là suy ra."
+  - "Bổ sung legal_refs: Điều 21 khoản 1 điểm a Luật BVQLNTD đã có; thêm NĐ 239/2026/NĐ-CP Điều 11 khoản 1-2; điền quote/effective_from/checked_at."
+potential_harm: []
+deliberate_vn_deviation: []

@@ -14,13 +14,14 @@ evidence: B
 contested: false
 vn_class: adapted
 rewrite_status: rewritten
-tldr: "Người còn tỉnh: cho 15 g đường, 15 phút sau đo lại, còn thấp thì lặp lại. Người mê man: không đút gì, gọi 115."
+tldr: "Người tỉnh, nuốt được: cho 15 g đường, 15 phút sau đo lại, còn thấp thì lặp lại. Người rối loạn ý thức, hôn mê hoặc không nuốt được: không đút gì, gọi 115."
 steps:
-  - "Người còn tỉnh: cho uống ngay 15 g đường (3 thìa cà phê đường pha nước, nửa cốc nước ngọt hoặc 3 viên kẹo)."
-  - "Đúng 15 phút sau kiểm đường huyết lại; còn thấp thì lặp lại 15 g một lần nữa."
-  - "Không cho thực phẩm nhiều chất béo hoặc đạm."
-  - "Không cải thiện sau hai lần xử trí thì đưa tới cơ sở y tế."
-  - "Người lú lẫn hoặc mê man: không đút ăn uống gì, gọi 115 (có glucagon 1 mg thì tiêm bắp)."
+  - "Người rối loạn ý thức, hôn mê hoặc không nuốt được: không đút ăn uống gì, gọi 115 ngay; có glucagon và biết dùng thì tiêm bắp 1 mg."
+  - "Người tỉnh, tự nuốt được: cho uống ngay 15 g glucose: 3 thìa cà phê đường hoặc mật ong pha nước, hoặc 1 cốc 300 ml nước trái cây, hoặc 3 chiếc bánh quy."
+  - "15 phút sau kiểm tra đường huyết lại; còn thấp thì lặp lại 15 g."
+  - "Không dùng thực phẩm nhiều chất béo hoặc đạm khi xử trí cơn."
+  - "Khi đường máu ổn định, ăn nhẹ có carbohydrate và protein để ngừa tái phát."
+  - "Không cải thiện sau hai lần xử trí thì đưa ngay tới cơ sở y tế gần nhất."
 legal_refs: []
 verification:
   status: needs-medical-review
@@ -39,13 +40,13 @@ tags: []
 
 ## Nói dễ hiểu
 
-Người bệnh còn tỉnh thì cho uống 15 gam đường ngay: 3 thìa cà phê đường pha nước, nửa cốc nước ngọt hoặc 3 viên kẹo. Đúng 15 phút sau kiểm đường huyết lại, còn thấp thì lặp lại một lần nữa. Người mê man thì không đút gì, gọi 115.
+Người bệnh tỉnh và tự nuốt được thì cho uống 15 gam glucose ngay: 3 thìa cà phê đường hoặc mật ong pha nước, hoặc 1 cốc 300 ml nước trái cây, hoặc 3 chiếc bánh quy. 15 phút sau kiểm tra đường huyết lại, còn thấp thì lặp lại. Người rối loạn ý thức, hôn mê hoặc không nuốt được thì không đút gì, gọi 115.
 
 ## Chi phí
 
-- Gần như không tốn tiền. Vài gói đường hoặc nắm kẹo trong túi giá vài nghìn đồng.
+- Gần như không tốn tiền. Vài gói đường hoặc mấy chiếc bánh quy trong túi giá vài nghìn đồng.
 - Khoản đắt là máy đo đường huyết và que thử, vài trăm nghìn đến vài triệu.
-- Không có máy thì vẫn cho được đường, và vẫn phải đếm đúng 15 phút bằng đồng hồ.
+- Không có máy đo thì nguồn không nêu cách làm. Suy ra (không phải chữ của nguồn): người bệnh tỉnh, nuốt được vẫn có thể được cho đường, rồi sau 15 phút nếu còn run, lú thì lặp lại và gọi hỗ trợ.
 
 ## Lợi ích
 
@@ -53,26 +54,28 @@ Trung tâm Kiểm soát bệnh tật TP. Hồ Chí Minh gọi đây là quy tắ
 
 Bài của trung tâm hướng dẫn:
 
-- Khi đường máu xuống dưới ngưỡng đó, cung cấp ngay 15 g glucose đường miệng. Tương đương 3 thìa cà phê đường hoặc mật ong pha trong nước, một cốc 300 ml nước trái cây, hoặc 3 chiếc bánh quy.
+- Khi đường máu xuống dưới ngưỡng đó, cung cấp ngay 15 g glucose đường miệng. Tương đương 3 thìa cà phê đường hoặc mật ong pha trong nước, hoặc 1 cốc 300 ml nước trái cây, hoặc 3 chiếc bánh quy.
 - Kiểm tra lại đường máu sau 15 phút. Nếu vẫn thấp thì lặp lại 15 g glucose.
-- Không dùng thực phẩm nhiều chất béo hoặc protein (đạm), vì làm chậm hấp thu.
-- Đưa người bệnh tới cơ sở y tế nếu tình trạng không cải thiện sau hai lần xử trí.
+- Không dùng thực phẩm nhiều chất béo hoặc protein (đạm), vì làm chậm hấp thu glucose.
+- Khi đường máu ổn định, nên ăn nhẹ thêm bữa có carbohydrate và protein để ngăn ngừa hạ đường huyết tái phát.
+- Đưa người bệnh tới cơ sở y tế gần nhất nếu tình trạng không cải thiện sau hai lần xử trí.
 
 Với người rối loạn ý thức hoặc hôn mê:
 
 - Tuyệt đối không cho ăn uống, vì có thể sặc vào đường hô hấp.
-- Nếu có sẵn thì tiêm bắp glucagon 1 mg rồi gọi cấp cứu.
+- Nếu có sẵn thì tiêm bắp glucagon 1 mg ngay, rồi gọi cấp cứu hoặc đưa tới bệnh viện gần nhất.
 - Số gọi cấp cứu y tế ở Việt Nam là 115.
 
 ## Ghi chú
 
-- Con số 15 g, 15 phút và ngưỡng 70 mg/dL đọc được nguyên văn trong bài của cơ quan kiểm soát bệnh tật thành phố. Bài dẫn lại hướng dẫn của Bệnh viện Nội tiết Trung ương và quyết định của Bộ Y tế.
+- Con số 15 g, 15 phút, ngưỡng 70 mg/dL và các khẩu phần tương đương 15 g (3 thìa cà phê đường, 1 cốc 300 ml nước trái cây, 3 chiếc bánh quy) đọc được nguyên văn trong bài của cơ quan kiểm soát bệnh tật thành phố. Bài dẫn lại hướng dẫn của Bệnh viện Nội tiết Trung ương và quyết định của Bộ Y tế.
 - Bản thân bài không phải văn bản có số hiệu, và chưa đối chiếu được bản toàn văn Quyết định 5481/QĐ-BYT, nên mục dừng ở mức B.
-- **Bẫy 1: đưa bánh mì, sữa có béo hoặc cả bữa cơm** vì nghĩ cho ăn là bù được. Chất béo và đạm làm chậm hấp thu glucose, mốc 15 phút trôi qua mà đường máu chưa lên.
-- **Bẫy 2: cho người đang lú lẫn hoặc đã mê uống nước đường.** Phản xạ nuốt mất rồi, chất lỏng đi vào phổi.
-- **Bẫy 3: cho đường xong rồi thôi.** Không kiểm lại sau 15 phút và không cho bữa ăn nhẹ có tinh bột, nên cơn hạ đường huyết quay lại sau một hai giờ.
-- Mục này không có nghĩa là cứ run tay là hạ đường huyết. Run và vã mồ hôi còn do sốt, tim đập nhanh hoặc lo lắng.
-- Người không bị đái tháo đường thì cho đường không phải cách xử trí mặc định.
+- Hướng dẫn của CDC (Mỹ) nêu khẩu phần khác, ví dụ nửa cốc nước ép hoặc nước ngọt có đường; đây là hai nguồn lệch nhau về số lượng, mục theo bài Việt Nam. Nước ngọt ăn kiêng không có đường không dùng được.
+- **Bẫy 1: đưa bánh mì, sữa có béo hoặc cả bữa cơm** khi đang xử trí cơn. Chất béo và đạm làm chậm hấp thu glucose.
+- **Bẫy 2: cho người rối loạn ý thức hoặc hôn mê uống nước đường.** Nguồn nêu nguy cơ sặc vào đường hô hấp.
+- **Bẫy 3: cho đường xong rồi thôi.** Không kiểm lại sau 15 phút và không ăn nhẹ có carbohydrate và protein khi đường máu ổn định thì dễ tái phát hạ đường huyết.
+- **Bẫy 4: coi người lú lẫn nhưng còn nuốt được như người hôn mê, hoặc ngược lại.** Ranh giới do người ở cạnh đánh giá: tỉnh hoàn toàn, tự cầm cốc và nuốt được thì cho đường; không thì không đút và gọi 115. Đây là suy ra từ lời dặn "không cho ăn uống người rối loạn ý thức", không phải chữ của nguồn.
+- Mục này không có nghĩa là cứ run tay là hạ đường huyết. Suy ra (không phải chữ của nguồn): run và vã mồ hôi còn có thể do sốt, tim đập nhanh hoặc lo lắng; người không bị đái tháo đường thì cho đường không phải cách xử trí mặc định.
 
 ## Nguồn
 

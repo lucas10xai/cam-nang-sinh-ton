@@ -1,0 +1,75 @@
+id: ghi-ten-nguoi-thu-huong-cu-the-va-nho-han-1-nam
+checker: agent-V3a05g
+checked_at: 2026-11-08
+content_sha256: "ca45ebda595be46e59de561c28d84ee184ecc590c43fd198b68dbd37fc78d1f6"
+result: pass-with-edits
+claims:
+  - text: "Bên mua có quyền chỉ định người thụ hưởng; nếu không đồng thời là người được bảo hiểm thì phải có sự đồng ý bằng văn bản của người được bảo hiểm (Điều 41 khoản 1)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: 'Bên mua bảo hiểm có quyền chỉ định người thụ hưởng, trừ hợp đồng bảo hiểm nhóm. Trường hợp bên mua bảo hiểm không đồng thời là người được bảo hiểm, bên mua bảo hiểm phải có sự đồng ý bằng văn bản của người được bảo hiểm khi chỉ định người thụ hưởng;'
+    verdict: partial
+    note: "Đúng ý nhưng mục bỏ ngoại lệ: không áp dụng cho hợp đồng bảo hiểm nhóm; và nếu người được bảo hiểm chưa thành niên/mất hoặc hạn chế năng lực hành vi thì người đại diện theo pháp luật phải đồng ý."
+  - text: "Có nhiều người thụ hưởng thì xác định thứ tự hoặc tỷ lệ; không xác định thì chia đều (Điều 41 khoản 2)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: 'Trường hợp thứ tự hoặc tỷ lệ thụ hưởng không được xác định thì tất cả những người thụ hưởng được hưởng quyền lợi thụ hưởng theo tỷ lệ như nhau.'
+    verdict: match
+    note: ""
+  - text: "Thay đổi người thụ hưởng phải được người được bảo hiểm đồng ý bằng văn bản, thông báo bằng văn bản cho doanh nghiệp bảo hiểm; doanh nghiệp phải xác nhận vào hợp đồng (Điều 41 khoản 3)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: 'Bên mua bảo hiểm có thể thay đổi người thụ hưởng nhưng phải được sự đồng ý bằng văn bản của người được bảo hiểm và phải thông báo bằng văn bản cho doanh nghiệp bảo hiểm, chi nhánh doanh nghiệp bảo hiểm phi nhân thọ nước ngoài. ... Doanh nghiệp bảo hiểm, chi nhánh doanh nghiệp bảo hiểm phi nhân thọ nước ngoài phải xác nhận tại hợp đồng bảo hiểm hoặc văn bản khác đính kèm hợp đồng bảo hiểm sau khi nhận được thông báo của bên mua bảo hiểm.'
+    verdict: match
+    note: "Người thực hiện đổi là BÊN MUA bảo hiểm (không nhất thiết là người được bảo hiểm); step 2 'làm văn bản có sự đồng ý của người được bảo hiểm và gửi công ty' phù hợp. Có ngoại lệ người được bảo hiểm chưa thành niên/mất năng lực: người đại diện đồng ý."
+  - text: "Đổi người thụ hưởng mà không báo công ty bảo hiểm thì thay đổi đó không có hiệu lực (Nói dễ hiểu)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: ''
+    verdict: inference
+    note: "Điều 41 khoản 3 chỉ nói 'phải thông báo bằng văn bản'; không có câu nào nêu hậu quả 'không có hiệu lực'. Cần gắn nhãn suy ra hoặc sửa lời."
+  - text: "Thời hạn nộp hồ sơ yêu cầu bồi thường, trả tiền bảo hiểm là 01 năm kể từ ngày xảy ra sự kiện bảo hiểm (Điều 30 khoản 1)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: 'Thời hạn nộp hồ sơ yêu cầu bồi thường, trả tiền bảo hiểm theo hợp đồng bảo hiểm là 01 năm kể từ ngày xảy ra sự kiện bảo hiểm. Thời gian xảy ra sự kiện bất khả kháng hoặc trở ngại khách quan không tính vào thời hạn nộp hồ sơ yêu cầu bồi thường, trả tiền bảo hiểm.'
+    verdict: mismatch
+    note: "Là khẳng định ở TIÊU ĐỀ, tldr (không có mốc), Nói dễ hiểu: mục ghi '1 năm kể từ ngày biết sự kiện bảo hiểm'. Luật: mốc mặc định là ngày XẢY RA sự kiện; chỉ tính từ ngày biết khi chứng minh được không biết thời điểm xảy ra (khoản 2). Mục Pháp luật VN ghi đúng 'kể từ ngày xảy ra' nên mâu thuẫn nội bộ. Bỏ sót: thời gian bất khả kháng/trở ngại khách quan không tính. Con số 1 năm khớp."
+  - text: "Nếu người được bảo hiểm hoặc người thụ hưởng chứng minh được không biết thời điểm xảy ra sự kiện thì tính từ ngày biết (Điều 30 khoản 2)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: 'Trường hợp người được bảo hiểm hoặc người thụ hưởng chứng minh được rằng không biết thời điểm xảy ra sự kiện bảo hiểm thì thời hạn quy định tại khoản 1 Điều này được tính từ ngày người được bảo hiểm hoặc người thụ hưởng biết việc xảy ra sự kiện bảo hiểm đó.'
+    verdict: match
+    note: "Mục viết đúng điều kiện 'chứng minh được là không biết'."
+  - text: "Không có thỏa thuận khác thì doanh nghiệp phải trả trong 15 ngày kể từ khi nhận đủ hồ sơ hợp lệ (Điều 31 khoản 1)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: 'Trường hợp không có thỏa thuận về thời hạn thì doanh nghiệp bảo hiểm, chi nhánh doanh nghiệp bảo hiểm phi nhân thọ nước ngoài phải bồi thường, trả tiền bảo hiểm trong thời hạn 15 ngày kể từ ngày nhận được đầy đủ hồ sơ hợp lệ về yêu cầu bồi thường, trả tiền bảo hiểm.'
+    verdict: match
+    note: "Điều 31 khoản 1 cũng nói trước hết là theo thời hạn đã thỏa thuận trong hợp đồng."
+  - text: "Hạn 1 năm nên chậm là mất quyền; Việt Nam không có hạn 5 năm cho nhân thọ và 2 năm cho loại khác (Ghi chú Bẫy 1)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: ''
+    verdict: inference
+    note: "Điều 30 đặt hạn nộp hồ sơ chung 1 năm nhưng không nói hậu quả 'mất quyền'; mục cũng không nguồn cho phủ định 'không có hạn 5 năm/2 năm'. Đây là suy luận; hạn khởi kiện theo Bộ luật Dân sự là chuyện khác, mục không đề cập."
+internal_checks:
+  - issue: "Tiêu đề và Nói dễ hiểu ghi '1 năm kể từ ngày biết sự kiện bảo hiểm'; Điều 30 khoản 1 là 'kể từ ngày xảy ra sự kiện bảo hiểm' (ngày biết chỉ khi chứng minh không biết, khoản 2). Mâu thuẫn với chính mục Pháp luật VN và Ghi chú."
+    severity: error
+  - issue: "Điều 41 mục trình bày không nêu ngoại lệ hợp đồng bảo hiểm nhóm và việc người đại diện đồng ý khi người được bảo hiểm chưa thành niên/mất năng lực hành vi."
+    severity: warn
+  - issue: "Điều 30 khoản 1 câu 2 (thời gian bất khả kháng/trở ngại khách quan không tính vào hạn) bị bỏ sót."
+    severity: warn
+  - issue: "steps[3]: 'giấy xác nhận quan hệ' và giấy chứng tử là hồ sơ thường gặp, không có trong điều luật được dẫn (Điều 30, 31, 41); nên ghi là ví dụ thực tiễn, thành phần hồ sơ do hợp đồng quy định."
+    severity: warn
+  - issue: "Ghi chú: 'Hợp đồng vẫn ghi tên người cũ, và không có cơ quan nào tự sửa hộ' không có nguồn; hợp lý nhưng là nhận định."
+    severity: warn
+  - issue: "Các legal_refs[].url trỏ đúng bản hợp nhất 31/VBHN-VPQH của Luật KDBH; article khớp: Điều 41, Điều 30 khoản 1-2, Điều 31 khoản 1 đều có đúng nội dung."
+    severity: warn
+validity:
+  doc: "Luật Kinh doanh bảo hiểm 08/2022/QH15 (bản hợp nhất 31/VBHN-VPQH)"
+  in_force: true
+  effective_from: "2023-01-01"
+  amended_by:
+    - "Luật 139/2025/QH15 ngày 10/12/2025 (hiệu lực 1/1/2026; một số điểm 1/7/2026); Điều 30, 31, 41 trong bản hợp nhất không có chú thích sửa đổi"
+  basis: "Bản hợp nhất 31/VBHN-VPQH ghi Luật 08/2022/QH15 'có hiệu lực kể từ ngày 01 tháng 01 năm 2023, được sửa đổi, bổ sung bởi Luật số 139/2025/QH15'; đọc trực tiếp Điều 30, 31, 41 trong bản hợp nhất."
+deliberate_vn_deviation: []
+potential_harm:
+  - "Tiêu đề, tldr-ngữ cảnh và Nói dễ hiểu hướng người đọc tính hạn 1 năm từ NGÀY BIẾT sự kiện bảo hiểm. Nếu người thụ hưởng làm theo (ví dụ biết sự kiện muộn vài tháng nhưng thực tế sự kiện xảy ra từ lâu và họ không chứng minh được 'không biết'), họ có thể nộp trễ hạn thật (tính từ ngày xảy ra) và mất quyền/bị từ chối. Cần sửa tiêu đề trước khi công bố."
+suggested_edits:
+  - "Tiêu đề: đổi 'nhớ hạn: 1 năm kể từ ngày biết sự kiện bảo hiểm' thành 'nhớ hạn: 1 năm kể từ ngày xảy ra sự kiện bảo hiểm' (dựa Điều 30 khoản 1)."
+  - "Nói dễ hiểu: đổi 'trong 1 năm kể từ ngày biết sự kiện' thành 'trong 1 năm kể từ ngày xảy ra sự kiện (chỉ tính từ ngày biết nếu chứng minh được mình không biết thời điểm xảy ra)'; thêm thời gian bất khả kháng/trở ngại khách quan không tính."
+  - "Điều 41: thêm ngoại lệ hợp đồng nhóm và người đại diện theo pháp luật cho người được bảo hiểm chưa thành niên/mất năng lực hành vi."
+  - "Câu 'không báo thì thay đổi không có hiệu lực' sửa thành 'phải thông báo bằng văn bản cho doanh nghiệp bảo hiểm và doanh nghiệp xác nhận vào hợp đồng' (đúng chữ Điều 41 khoản 3), hoặc gắn nhãn suy ra."
+  - "Bẫy 1: bỏ 'chậm là mất quyền' hoặc gắn nhãn suy luận; bỏ câu phủ định 5 năm/2 năm nếu không dẫn được nguồn."

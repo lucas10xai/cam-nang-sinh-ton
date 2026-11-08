@@ -27,6 +27,7 @@ legal_refs:
   - { doc: "Luật Trật tự, an toàn giao thông đường bộ 36/2024/QH15", article: "Điều 58 khoản 4", url: "https://vbpl.vn/van-ban/chi-tiet/luat-trat-tu-an-toan-giao-thong-duong-bo-so-36-2024-qh15--170620", effective_from: null, checked_at: "2026-11-05", quote: null }
   - { doc: "Nghị định 168/2024/NĐ-CP", article: "Điều 7 khoản 13", url: "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm", effective_from: null, checked_at: "2026-11-05", quote: null }
   - { doc: "Nghị định 168/2024/NĐ-CP", article: "Điều 18 khoản 5 điểm a", url: "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm", effective_from: null, checked_at: "2026-11-05", quote: null }
+  - { doc: "Nghị định 168/2024/NĐ-CP", article: "Điều 50 khoản 1 điểm b", url: "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm", effective_from: null, checked_at: "2026-11-08", quote: null }
 verification:
   status: unverified
   checked_at: null
@@ -68,7 +69,7 @@ Tránh bị mất quyền lái xe hàng tháng vì tích lũy nhiều lỗi nh�
 
 **Số điểm bị trừ**
 
-- Người điều khiển xe mô tô, xe gắn máy bị trừ 2 điểm (ví dụ chở từ ba người trở lên, đi ngược chiều đường một chiều), 4 điểm (ví dụ dùng điện thoại, đi quá tốc độ trên 20 km/h, vượt đèn đỏ), 6 điểm (ví dụ đi vào đường cao tốc) hoặc 10 điểm (ví dụ nồng độ cồn vượt quá 50 đến 80 mg/100 ml máu) (Điều 7 khoản 13, Nghị định 168/2024/NĐ-CP).
+- Người điều khiển xe mô tô, xe gắn máy bị trừ 2 điểm (ví dụ chở từ ba người trở lên, đi ngược chiều đường một chiều), 4 điểm (ví dụ dùng điện thoại, quá tốc độ trên 20 km/h, vượt đèn đỏ), 6 điểm (ví dụ vào đường cao tốc) hoặc 10 điểm (ví dụ nồng độ cồn trên 50 đến 80 mg/100 ml máu) (Điều 7 khoản 13, NĐ 168/2024/NĐ-CP).
 
 **Lái xe khi bằng đã hết điểm**
 
@@ -77,11 +78,11 @@ Tránh bị mất quyền lái xe hàng tháng vì tích lũy nhiều lỗi nh�
 ## Ghi chú
 
 - **Không phải lỗi nào cũng bị trừ điểm.** Theo khoản 13 Điều 7, chở hai người ngoài các trường hợp được phép, không đội mũ bảo hiểm hoặc không cài quai, và đỗ xe sai quy định bị phạt 400.000 đến 600.000 đồng nhưng không có tên trong danh sách trừ điểm. Chở từ ba người trở lên (2 điểm) và dùng điện thoại hoặc ô (4 điểm) thì có.
-- **Chưa rõ: cách tra điểm.** Tôi chưa đọc được hướng dẫn chi tiết về cách tra điểm hiện tại của mình (trên ứng dụng hay cổng nào). Khi cần biết điểm còn lại, hỏi đơn vị cấp bằng hoặc Cảnh sát giao thông địa phương.
+- **Tra điểm.** Thông báo trừ điểm có thể gửi bằng phương thức điện tử qua tài khoản công dân đăng ký trên Cổng dịch vụ công, ứng dụng giao thông trên thiết bị di động, và thông tin bằng bị trừ điểm được cập nhật trên Trang thông tin điện tử của Cục Cảnh sát giao thông (Điều 50 khoản 1 điểm b, Nghị định 168/2024/NĐ-CP). Các bước tra cứu cụ thể chưa có trong nguồn đã đọc; khi cần biết điểm còn lại, hỏi đơn vị cấp bằng hoặc Cảnh sát giao thông địa phương.
 - **Bẫy 1: nộp phạt xong là hết.** Điểm bị trừ ngay khi quyết định xử phạt có hiệu lực.
 - **Bẫy 2: điểm "hồi lại mọi lúc" sau 12 tháng.** Luật chỉ hồi khi 12 tháng liền không bị trừ thêm điểm nào.
 - **Bẫy 3: lái tiếp khi bằng đã hết điểm.** Bị coi như không có bằng.
-- Số điểm cho từng lỗi cụ thể trong nghị định có thể đã đổi sau các văn bản sửa đổi. Đối chiếu bản hiện hành trước khi dựa vào.
+- Nghị định 168/2024/NĐ-CP có hiệu lực từ 01/01/2025 (Điều 53 khoản 1). Chưa xác định được Nghị định 336/2025/NĐ-CP (hiệu lực 01/03/2026) có đổi số điểm từng lỗi hay không, nên đối chiếu bản hiện hành trước khi dựa vào.
 
 ## Nguồn
 

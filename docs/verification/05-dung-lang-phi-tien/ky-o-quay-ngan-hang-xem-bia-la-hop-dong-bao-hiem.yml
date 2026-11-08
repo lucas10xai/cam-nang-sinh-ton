@@ -1,0 +1,59 @@
+id: ky-o-quay-ngan-hang-xem-bia-la-hop-dong-bao-hiem
+checker: agent-V3a05g
+checked_at: 2026-11-08
+content_sha256: "3139dbaff7fdc669c01b752e34d42c0ff1186e70cc35aad91b590c3364a1a2ee"
+result: fail
+claims:
+  - text: "Tổ chức tín dụng phải giải thích cho khách hàng các sản phẩm bảo hiểm phân phối qua tổ chức tín dụng không phải là sản phẩm của tổ chức tín dụng (TT 37/2019/TT-NHNN Điều 6 khoản 2 điểm a)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/03/37-nhnn.pdf
+    quote: 'Giải thích cho khách hàng các sản phẩm bảo hiểm được phân phối thông qua tổ chức tín dụng không phải là sản phẩm của tổ chức tín dụng;'
+    verdict: match
+    note: "PDF ký số là ảnh quét; lớp chữ nhúng bị lỗi dấu, nên đọc lại từ ảnh trang bằng OCR (macOS Vision), quote đã chuẩn hóa dấu. Chữ khớp, NHƯNG văn bản đã bị bãi bỏ (xem validity): nguồn này không còn là căn cứ hiện hành."
+  - text: "Tổ chức tín dụng không được dùng phí bảo hiểm thu được cho mục đích khác ngoài thỏa thuận trong hợp đồng đại lý (TT 37/2019 Điều 3 khoản 2)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/03/37-nhnn.pdf
+    quote: 'Tổ chức tín dụng không được sử dụng phí bảo hiểm thu được cho các mục đích khác ngoài các thỏa thuận tại hợp đồng đại lý bảo hiểm.'
+    verdict: match
+    note: "Cùng giới hạn OCR như trên; văn bản gốc đã hết hiệu lực."
+  - text: "Thông tư 37/2019/TT-NHNN có hiệu lực 2/3/2020"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/03/37-nhnn.pdf
+    quote: 'Thông tư này có hiệu lực kể từ ngày 02 tháng 03 năm 2020.'
+    verdict: match
+    note: "Điều 10. Đúng, nhưng mục trình bày như luật hiện hành trong khi đã bị bãi bỏ từ 1/7/2024."
+  - text: "Khi tham gia bảo hiểm qua đại lý là tổ chức tín dụng, phần xác nhận phải có nội dung tham gia trên cơ sở tự nguyện, không bị ép buộc (TT 67/2023/TT-BTC Điều 30 khoản 1)"
+    source_url: https://english.luatvietnam.vn/bao-hiem/circular-67-2023-tt-btc-guiding-law-on-insurance-business-and-decree-46-2023-nd-cp-275550-d1.html
+    quote: 'In the case where the insurance product is distributed by a corporate agent being a credit institution or foreign bank branch, the confirmation section must indicate that the policyholder purchases insurance on a voluntary basis, without being so coerced.'
+    verdict: match-secondary
+    note: "Bản dịch tiếng Anh của LuatVietnam (Điều 30 khoản 1). Không mở được bản Việt chính thống: mục không có URL cho TT 67, đoán đường dẫn datafiles.chinhphu.vn trả 404. Tóm tắt Việt: phần xác nhận trong đơn phải ghi người mua tham gia tự nguyện, không bị ép. Thông tư 96/2026/TT-BTC (2/7/2026) sửa TT 67 nhưng nội dung đọc được không đụng Điều 29/30."
+  - text: "Tài liệu minh họa bán hàng phải có xác nhận của người mua đã được tư vấn đầy đủ và hiểu rõ nội dung (TT 67/2023 Điều 29 khoản 4)"
+    source_url: https://english.luatvietnam.vn/bao-hiem/circular-67-2023-tt-btc-guiding-law-on-insurance-business-and-decree-46-2023-nd-cp-275550-d1.html
+    quote: 'The sales illustration shall be signed off by the policyholder to confirm that he/she is adequately advised on and comprehend details of such sales illustration.'
+    verdict: match-secondary
+    note: "Điều 29 là minh họa quyền lợi cho sản phẩm bảo hiểm NHÂN THỌ (tiêu đề Điều 29: Sales illustrations for life insurance products); mục không nói rõ giới hạn này nên bước 3 'đòi bảng minh họa' chỉ đúng với nhân thọ."
+  - text: "Ngân hàng được bán bảo hiểm nhưng bìa ghi tên công ty bảo hiểm thì không phải tiền gửi (Nói dễ hiểu / tldr)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/03/37-nhnn.pdf
+    quote: ''
+    verdict: inference
+    note: "Suy luận từ Điều 6.2.a TT 37 (đã hết hiệu lực); không có câu nguồn nào nói về 'bìa' hay 'tiền gửi'. Lời khuyên thực tế hợp lý nhưng cần gắn nhãn là suy ra."
+internal_checks:
+  - issue: "legal_refs[0] và [1] (và mục Pháp luật VN, Nguồn) dựa vào TT 37/2019/TT-NHNN, văn bản bị bãi bỏ bởi điểm đ khoản 2 Điều 24 TT 34/2024/TT-NHNN, hết hiệu lực 1/7/2024 (QĐ 157/QĐ-NHNN 23/1/2025, Phụ lục 1, STT 56). Mục ghi 'hiệu lực 2/3/2020' như đang áp dụng."
+    severity: error
+  - issue: "legal_refs của TT 67/2023/TT-BTC có url: null; mục Nguồn chỉ ghi '(OCR, tra 2/11/2026)' không có link kiểm được."
+    severity: warn
+  - issue: "Mục nói 'giấy tờ phải ghi bạn tham gia tự nguyện' chung chung cho mọi giấy tờ ở quầy; Điều 30 khoản 1 TT 67 chỉ áp dụng cho mẫu đơn yêu cầu bảo hiểm nhân thọ/sức khỏe phân phối qua tổ chức tín dụng."
+    severity: warn
+  - issue: "Ghi chú Bẫy 2 nói chỉ trong 21 ngày đầu mới 'gần như đủ' hoàn phí: Điều 35 Luật KDBH chỉ hoàn phí SAU KHI TRỪ chi phí hợp lý và chỉ cho hợp đồng thời hạn trên 1 năm; mục không có nguồn trong chính mục này (dẫn mục 40)."
+    severity: warn
+validity:
+  doc: "TT 37/2019/TT-NHNN (hướng dẫn hoạt động đại lý bảo hiểm của tổ chức tín dụng)"
+  in_force: false
+  effective_from: "2020-03-02"
+  amended_by:
+    - "Bị bãi bỏ bởi TT 34/2024/TT-NHNN ngày 30/6/2024, điểm đ khoản 2 Điều 24 (hết hiệu lực 1/7/2024)"
+  basis: "Quyết định 157/QĐ-NHNN ngày 23/1/2025, Phụ lục 1 mục A.I STT 56 liệt kê TT 37/2019/TT-NHNN 'Bị bãi bỏ theo quy định tại điểm đ khoản 2 Điều 24 Thông tư số 34/2024/TT-NHNN ngày 30/6/2024', ngày hết hiệu lực 01/7/2024. Đọc trên luatvietnam.vn (bản sao thứ cấp của QĐ, không mở được bản gốc NHNN); chưa tự đọc Điều 24 TT 34/2024. TT 67/2023/TT-BTC: còn áp dụng theo bản dịch LuatVietnam, được sửa bởi TT 96/2026/TT-BTC (chưa thấy Điều 29, 30 bị sửa); chưa xác minh hiệu lực chính thống."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Bỏ TT 37/2019/TT-NHNN khỏi legal_refs, mục Pháp luật VN và Nguồn (hoặc ghi rõ đã hết hiệu lực từ 1/7/2024). Thay bằng quy định hiện hành về đại lý bảo hiểm của ngân hàng thương mại: tìm Điều 14 TT 34/2024/TT-NHNN và/hoặc quy định tương ứng của Luật KDBH 08/2022/QH15 (Điều 129 nghĩa vụ đại lý, Điều 17 nội dung hợp đồng); chỉ giữ câu 'giải thích sản phẩm không phải của tổ chức tín dụng' nếu tìm được điều khoản hiện hành chứa nó."
+  - "Điều 3 khoản 2 TT 37 (không dùng phí bảo hiểm sai mục đích): bỏ nếu không có điều khoản kế thừa; đây cũng không phải thông tin cần cho người đọc."
+  - "Thêm URL bản chính thống của TT 67/2023/TT-BTC (Công báo/vbpl.vn) và ghi rõ Điều 29 chỉ áp dụng cho bảo hiểm nhân thọ; cập nhật việc TT 96/2026/TT-BTC (2/7/2026) sửa TT 67."
+  - "Câu 'bìa ghi tên công ty bảo hiểm thì tiền đó không phải tiền gửi' gắn nhãn là diễn giải thực tiễn, không phải chữ luật."

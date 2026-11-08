@@ -3,7 +3,7 @@ id: giong-set-khi-o-ngoai-troi-vao-o-to-co-mui-cung
 legacy: "13-32"
 chapter: 13
 number: 32
-title: "Giông sét khi ở ngoài trời: vào ô tô có mui cứng hoặc vào nhà, tránh đỉnh núi, cây đơn độc, mặt nước và vật kim loại"
+title: "Giông sét khi ở ngoài trời: vào ô tô có mui cứng hoặc nhà có chống sét, tránh đỉnh núi, cây đơn độc, mặt nước và vật kim loại"
 cost:
   money: "0"
   time: low
@@ -14,12 +14,13 @@ evidence: B
 contested: false
 vn_class: adapted
 rewrite_status: rewritten
-tldr: "Đếm giây từ chớp tới sấm: dưới 30 giây là phải vào nhà có chống sét hoặc ô tô kín. Tránh cây, đỉnh núi, mặt nước, vật kim loại. Chờ 30 phút sau tiếng sét cuối."
+tldr: "Nghe tiếng sấm đầu tiên là nguy hiểm đã tới. Đếm chớp tới sấm: dưới 30 giây là trong tầm sét, dưới 20 giây phải tới chỗ an toàn hơn. Vào ô tô kín hoặc nhà có chống sét; tránh cây, đỉnh núi, nước. Chờ 30 phút."
 steps:
-  - "Đếm giây từ lúc thấy chớp tới lúc nghe sấm, chia cho 3 để ra số km. Dưới 30 giây là sét đã trong tầm với; dưới 20 giây thì phải di chuyển tới nơi an toàn hơn."
-  - "Vào nhà có hệ thống chống sét, hoặc vào ô tô kín có vỏ kim loại. Không thò người ra ngoài, không chạm vào vỏ xe."
-  - "Không trú dưới tán cây, không đứng trên đỉnh hay sườn núi nhô cao, không đứng gần ao hồ, mương, bãi biển và vật kim loại. Đứng tản ra, đừng túm thành đám."
-  - "Sau tiếng sét cuối cùng, đợi 30 phút mới trở lại làm việc bình thường."
+  - "Nghe tiếng sấm đầu tiên là coi như nguy hiểm đã tới. Đếm giây từ chớp tới sấm: dưới 30 giây là trong tầm sét, dưới 20 giây phải di chuyển ngay tới nơi an toàn hơn."
+  - "Vào ô tô kín có vỏ kim loại (không thò người ra, không chạm vỏ xe) hoặc nhà có hệ thống chống sét. Tránh cửa sổ, cửa ra vào, buồng tắm, bể nước."
+  - "Không trú dưới tán cây, không ở đỉnh hay sườn núi nhô cao, ao hồ, mương, bãi biển, xa vật kim loại. Không đứng thành nhóm người gần nhau."
+  - "Không kịp vào chỗ trú: ở vị trí thấp nhất có thể, tay ôm cổ, nhón chân để ít chạm đất; không nằm xuống đất. Đứng xa cây cao và vật kim loại."
+  - "Đợi 30 phút sau tiếng sấm cuối cùng mới trở lại làm việc bình thường."
 legal_refs: []
 verification:
   status: needs-medical-review
@@ -38,9 +39,9 @@ tags: []
 
 ## Nói dễ hiểu
 
-Đếm giây từ lúc thấy chớp tới lúc nghe tiếng sấm. Dưới 30 giây là sét đã ở trong tầm với, phải vào nhà có cột thu lôi hoặc vào ô tô kín, không chạm vào vỏ xe.
+Nghe tiếng sấm đầu tiên là đã nguy hiểm. Đếm giây từ lúc thấy chớp tới lúc nghe sấm: dưới 30 giây là sét đã ở trong tầm với, dưới 20 giây phải di chuyển ngay tới nơi an toàn hơn. Chỗ trú: ô tô kín hoặc nhà có chống sét, không chạm vào vỏ xe.
 
-Không trú dưới tán cây, không đứng trên đỉnh hay sườn núi nhô cao, không đứng gần ao hồ và hàng rào sắt. Đứng tản ra, đừng túm thành đám.
+Không trú dưới tán cây, không đứng trên đỉnh hay sườn núi nhô cao, không đứng gần ao hồ và hàng rào sắt. Không đứng thành nhóm người gần nhau.
 
 ## Chi phí
 
@@ -56,15 +57,17 @@ Trang hướng dẫn của Cục Quản lý đê điều và Phòng, chống thi
 - Nếu khoảng thời gian đó dưới 30 giây thì người đang nằm trong tầm ngắm.
 - Dưới 20 giây thì phải di chuyển tới nơi an toàn hơn.
 
-Cùng trang ghi sét có thể đánh cách xa nơi có mưa tới 15 đến 20 km. Sau khi nghe tiếng sét cuối cùng 30 phút mới nên trở lại làm việc bình thường.
+Cùng trang ghi sét có thể đánh cách xa nơi có mưa tới 15 đến 20 km, và khi nghe tiếng sấm đầu tiên thì cần coi là nguy hiểm đã đến. Hướng dẫn của cơ quan thời tiết Hoa Kỳ (NOAA) cũng nói ở lại chỗ trú an toàn ít nhất 30 phút sau tiếng sấm cuối cùng; và theo cơ quan thời tiết Hoa Kỳ, không có chỗ nào an toàn ngoài trời khi có giông.
 
-**Chỗ được xếp là an toàn:** tòa nhà có hệ thống chống sét; các vật có vỏ kim loại kín như ô tô, tàu hỏa, xe buýt, với điều kiện không thò người ra ngoài và không chạm vào vỏ. Ô tô để hở hoặc không có vỏ bọc kim loại thì bị xếp là nguy hiểm.
+**Chỗ được xếp là an toàn:** tòa nhà có hệ thống chống sét; các vật có vỏ kim loại kín như ô tô, tàu hỏa, xe buýt, với điều kiện không thò người ra ngoài và không chạm vào vỏ. Ô tô để hở hoặc không có vỏ bọc kim loại thì bị xếp là nguy hiểm. Trang không nói rõ về nhà không có chống sét; mục không có nguồn cho trường hợp đó.
+
+**Không kịp tới chỗ trú:** trang hướng dẫn nói người ở vị trí càng thấp càng tốt, tay ôm cổ, phần tiếp xúc với mặt đất là ít nhất, nhón chân, không được nằm xuống đất. Nếu ở trong rừng thì tìm nơi cây thấp hơn và thưa.
 
 **Chỗ bị loại:** dùng cây cối làm chỗ trú, khu vực cao hơn xung quanh, gần vật dụng kim loại, gần bãi biển, ao hồ, mương, đỉnh núi và sườn núi nhô cao.
 
 ## Ghi chú
 
-**Mức bằng chứng B.** Các mốc 30 giây, 20 giây, 3 giây một km và 30 phút đọc được nguyên văn trên trang của cơ quan phòng chống thiên tai. Nhưng không có thống kê Việt Nam nào tách thiệt hại theo từng kiểu trú mưa, nên mục dừng ở B.
+**Mức bằng chứng B.** Các mốc 30 giây, 20 giây, 3 giây một km đọc được nguyên văn trên trang của cơ quan phòng chống thiên tai. Mốc 30 phút: trang này viết "sau khi nghe thấy tiếng sét 30 phút"; chữ "sau tiếng sấm cuối cùng" lấy từ hướng dẫn NOAA. Chưa có thống kê Việt Nam tách thiệt hại theo từng kiểu trú mưa, nên mục dừng ở B.
 
 Người đi rừng, đi ruộng hay sập ở ba chỗ:
 
@@ -76,6 +79,7 @@ Mục này không có nghĩa là trong nhà thì tuyệt đối an toàn. Vẫn 
 
 ## Nguồn
 
-- Cục Quản lý đê điều và Phòng, chống thiên tai, bài Quy tắc chống sét bảo vệ con người — http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx
+- Cục Quản lý đê điều và Phòng, chống thiên tai, bài Quy tắc chống sét bảo vệ con người (không ghi ngày ban hành) — http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx
+- NOAA, Lightning safety (đối chiếu mốc 30 phút sau tiếng sấm cuối) — https://www.noaa.gov/jetstream/lightning/lightning-safety
 
 Tra ngày 3/11/2026.

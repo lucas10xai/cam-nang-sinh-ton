@@ -1,0 +1,80 @@
+id: nguoi-say-nang-con-tinh-cho-uong-nuoc-muoi-loang-hoac-dung
+checker: agent-V3a13B
+checked_at: 2026-11-08
+content_sha256: "4b6b367e8d5d9d30a753cdafa69466aae555f93d10d5a9e84e69d2bd0dc7bea3"
+result: pass-with-edits
+claims:
+  - text: "Báo Điện tử Chính phủ: nếu uống được thì cho uống từng ngụm nhỏ nước mát, tốt nhất là nước có muối và khoáng chất như Oresol pha đúng liều"
+    source_url: "https://baochinhphu.vn/cach-phong-tranh-va-xu-tri-khi-say-nang-dot-quy-do-nong-10223052317263386.htm"
+    quote: "Nếu nạn nhân uống được nước, cho uống từng ngụm nhỏ nước mát. Tốt nhất là uống nước có bổ sung muối và khoáng chất như nước Oresol pha đúng liều lượng theo hướng dẫn sử dụng."
+    verdict: match
+    note: "Nguồn đặt câu này trong mục 'Mức độ nhẹ' (Bộ Y tế); mức độ nặng thì 'cần gọi ngay cấp cứu 115 hoặc nhanh chóng đưa nạn nhân đến cơ sở y tế gần nhất'. Mục 23 mô tả người 'say nắng' (theo Bạch Mai = sốc nhiệt, mức nặng) nhưng dùng hướng dẫn mức nhẹ."
+  - text: "Bệnh viện 108: uống nước pha một chút muối hoặc oresol, tránh nước ngọt có ga và đồ uống năng lượng"
+    source_url: "https://benhvien108.vn/%E2%80%9C-say-nang-say-nong%E2%80%9D-van-la-nhung-van-de-cap-thiet-trong-mua-he.htm"
+    quote: "Có thể ống nước có pha một chút muối hoặc uống dung dịch oresol, nước trái cây, tránh xa nước ngọt có ga, đồ uống năng lượng."
+    verdict: partial
+    note: "Câu nằm ở mục 4 'Các biện pháp phòng chống' (uống phòng ngừa trước/khi lao động), KHÔNG phải mục 5 'Xử trí'. Mục 23 trình bày như cách xử trí người đã say nắng. Cũng cho 'nước trái cây'. Chính tả 'ống' là của nguồn. Bài 2020."
+  - text: "Bạch Mai (khoa Cấp cứu): chỉ cho uống dung dịch NaCl 0,1% ở mức lả nhiệt nhẹ; tụt huyết áp hoặc nhiều triệu chứng nặng thì truyền dịch"
+    source_url: "https://bachmai.gov.vn/bai-viet/say-nang-va-benh-ly-than-nhiet?id=aa64d8a6-5900-e87e-e5d4-b34b5c0b70b9"
+    quote: "Nếu nhẹ hơn, uống dịch muối Natriclorua 0,1%, nếu nặng bn tụt HA tư thế hoặc nhiều triệu chứng nặng nên truyền dịch qua đường TM"
+    verdict: match
+    note: "Đây là hướng dẫn xử trí TẠI KHOA CẤP CỨU cho lả nhiệt (không phải sốc nhiệt), do nhân viên y tế thực hiện. 0,1% = khoảng 1 g muối/lít; mục không nêu lượng muối cụ thể cho người dân, chỉ 'chút muối', 'một nhúm muối'. Xem potential_harm."
+  - text: "Bác sĩ Bạch Mai (báo SKĐS): không uống rượu vì giãn mạch, dễ mất nước"
+    source_url: "https://suckhoedoisong.vn/nang-nhu-do-lua-bac-si-bach-mai-chi-cach-nhan-biet-som-say-nang-de-tranh-nguy-hiem-tinh-mang-169260525161204489.htm"
+    quote: "Không uống rượu vì nó gây giãn mạch và dễ bị mất nước nếu ở lâu ngoài trời nắng nóng."
+    verdict: match
+    note: "Nằm trong phần khuyến cáo phòng ngừa. Nguồn là báo (SKĐS, 25/05/2026) dẫn ThS.BSNT Nguyễn Minh Hiếu; theo quy tắc kiểm chứng y tế báo không đủ làm nguồn duy nhất cho CON SỐ."
+  - text: "Mốc bù nước 600–800 ml trước vận động và 200 ml mỗi 20 phút"
+    source_url: "https://suckhoedoisong.vn/nang-nhu-do-lua-bac-si-bach-mai-chi-cach-nhan-biet-som-say-nang-de-tranh-nguy-hiem-tinh-mang-169260525161204489.htm"
+    quote: "Uống bù đủ nước, điện giải trước - trong - sau khi vận động ngoài trời nắng nóng vào giữa trưa. Tối thiểu 600-800ml trước vận động, 200ml mỗi 20 phút dù không khát."
+    verdict: match
+    note: "Là khuyến cáo PHÒNG NGỪA khi vận động, không phải liều cho người đang say nắng; ngược với 'từng ngụm nhỏ' ở phần xử trí. Nguồn là báo."
+  - text: "Bước 2: cho uống từng ngụm nhỏ nước mát pha chút muối (tự pha)"
+    source_url: "https://suckhoedoisong.vn/nang-nhu-do-lua-bac-si-bach-mai-chi-cach-nhan-biet-som-say-nang-de-tranh-nguy-hiem-tinh-mang-169260525161204489.htm"
+    quote: "Nếu người bệnh còn tỉnh, cho uống nước oresol pha đúng hướng dẫn (trong giờ đầu), nếu không có thì cho uống nước trắng, nước mát hoặc nước hoa quả. ... Tuyệt đối không dùng thuốc hạ sốt, không cho uống nước đá lạnh, không tự pha nước muối hay uống đồ thể thao không rõ thành phần."
+    verdict: mismatch
+    note: "Nguồn SKĐS do chính mục 23 liệt kê ở phần Nguồn nói 'không tự pha nước muối'; thay vào đó oresol, không có oresol thì nước trắng/mát/nước hoa quả. Mục 23 (tldr, steps[1], phần Chi phí 'một nhúm muối với ca nước') lại khuyến khích tự pha muối. Chỉ 108 (mục phòng ngừa) cho 'pha một chút muối', không nêu lượng. Mâu thuẫn trực tiếp giữa mục và một nguồn của nó."
+  - text: "Bước 4: người lú lẫn hoặc nôn liên tục thì đưa tới cơ sở y tế"
+    source_url: "https://www.cdc.gov/disasters/extremeheat/pdf/Heat_Related_Illness.pdf"
+    quote: "HEAT EXHAUSTION ... Get medical help right away if: • You are throwing up • Your symptoms get worse • Your symptoms last longer than 1 hour"
+    verdict: inference
+    note: "Không nguồn VN nào trong mục nói 'nôn liên tục thì đi cơ sở y tế'; mục Nguồn chỉ có Báo Chính phủ 'mức độ nặng gọi 115'. CDC (tờ rơi heat exhaustion) ủng hộ ý 'nôn' nhưng mục không dẫn CDC. Cũng không có bước gọi 115."
+  - text: "Bẫy 1: pha gói bù nước đặc hơn tờ hướng dẫn làm tăng natri máu, nhất là trẻ nhỏ và người già"
+    source_url: "https://baochinhphu.vn/cach-phong-tranh-va-xu-tri-khi-say-nang-dot-quy-do-nong-10223052317263386.htm"
+    quote: ""
+    verdict: not-found
+    note: "Không nguồn nào trong mục nói về tăng natri máu hay nhóm trẻ nhỏ/người già. Nguồn chỉ nói 'pha đúng liều lượng theo hướng dẫn sử dụng'."
+  - text: "Người nghi sốc nhiệt (say nắng) còn tỉnh có nên uống (so với CDC)"
+    source_url: "https://www.cdc.gov/disasters/extremeheat/pdf/Heat_Related_Illness.pdf"
+    quote: "HEAT STROKE ... Call 911 right away-heat stroke is a medical emergency ... Do not give the person anything to drink"
+    verdict: partial
+    note: "CDC với sốc nhiệt: gọi 911, KHÔNG cho uống gì. Với 'heat exhaustion' (say nóng/lả nhiệt) thì 'Sip water'. Thuật ngữ VN 'say nắng' = sốc nhiệt (Bạch Mai: 'Sốc nhiệt hay say nắng (heat stroke)'), tức mục 23 nhắm vào ca nặng nhất mà CDC khuyên không cho uống."
+internal_checks:
+  - issue: "Tiêu đề và steps dùng 'say nắng' (= sốc nhiệt theo Bạch Mai) nhưng nội dung xử trí (uống nước muối/oresol) là của say nóng/lả nhiệt mức nhẹ. Hai bệnh khác nhau về cách xử trí; mục không phân biệt và không có bước gọi 115 hay làm mát."
+    severity: error
+  - issue: "Mục liệt kê nguồn SKĐS ('không tự pha nước muối') nhưng steps/tldr/Chi phí khuyến cáo tự pha nước muối ('một nhúm muối với ca nước'); xem claim mismatch."
+    severity: error
+  - issue: "Phần Lợi ích dùng 600–800 ml / 200 ml mỗi 20 phút (phòng ngừa khi vận động) cạnh 'từng ngụm nhỏ' (xử trí) mà không phân biệt bối cảnh; người đọc dễ lẫn lượng uống."
+    severity: warn
+  - issue: "Gán câu 'nước muối/oresol, tránh nước ngọt có ga' cho hướng dẫn xử trí của 108; thực tế là mục phòng ngừa."
+    severity: warn
+  - issue: "Chương 13 không nhất quán số cấp cứu y tế (22/23/25: 115; 49: 113 hoặc 115 theo TT 42/2026/TT-BYT hiệu lực 01/11/2026)."
+    severity: warn
+validity:
+  doc: "Hướng dẫn y tế: Báo Chính phủ dẫn Bộ Y tế (2023), BV 108 (2020), BV Bạch Mai (2014), SKĐS dẫn BS Bạch Mai (2026); đối chiếu CDC"
+  in_force: unconfirmed
+  effective_from: "2014"
+  amended_by: []
+  basis: "Không có ngày hiệu lực cho hướng dẫn y tế. Nguồn VN rải 2014–2026, không cái nào là văn bản Bộ Y tế gốc (chỉ báo dẫn lại). Chưa tìm được hướng dẫn Bộ Y tế mới hơn trong phiên này."
+deliberate_vn_deviation:
+  - "CDC: sốc nhiệt (heat stroke) 'Do not give the person anything to drink'; chỉ 'Sip water' cho heat exhaustion. Nguồn VN dùng (Báo CP, 108) cho uống khi còn tỉnh."
+  - "SKĐS (BS Bạch Mai) nói 'không tự pha nước muối' trong khi mục khuyến cáo pha muối; Bạch Mai khoa Cấp cứu chỉ nêu NaCl 0,1% như dịch pha sẵn trong bối cảnh bệnh viện."
+potential_harm:
+  - "Tldr/steps[1] 'nước mát pha chút muối' không nêu lượng, và phần Chi phí nói 'một nhúm muối với ca nước'. Pha sai nồng độ (đặc hơn 0,1%) có thể gây buồn nôn, nôn, tăng natri; nguồn SKĐS cảnh báo rõ 'không tự pha nước muối'. Nên dùng oresol pha đúng liều, nếu không có thì nước mát."
+  - "Mục áp dụng cho 'người say nắng' (sốc nhiệt) mà không có bước làm mát hay gọi 115; người đọc chỉ mục này có thể cho nạn nhân uống và chờ, làm chậm cấp cứu (Bạch Mai: tiên lượng xấu theo thời gian đến khi điều trị; CDC: gọi cấp cứu ngay)."
+suggested_edits:
+  - "Tiêu đề, tldr, steps[1], phần Chi phí: bỏ 'pha chút muối/nhúm muối tự pha'; chỉ giữ 'nước mát hoặc oresol pha đúng liều theo tờ hướng dẫn', dựa SKĐS 'không tự pha nước muối'."
+  - "Đổi 'say nắng' thành 'say nóng/mệt do nóng còn tỉnh, không có dấu hiệu sốc nhiệt' hoặc thêm câu đầu steps: 'Nếu da nóng khô, lú lẫn, thân nhiệt cao nghi sốc nhiệt: làm mát và gọi cấp cứu ngay, xem mục 22, không dùng mục này'."
+  - "Phần Lợi ích: ghi rõ bài 108 là hướng dẫn phòng ngừa; tách mốc 600–800 ml/200 ml thành 'phòng ngừa khi vận động' hoặc bỏ."
+  - "steps[3]: nếu giữ 'nôn liên tục thì đưa đi cơ sở y tế', dẫn nguồn (ví dụ CDC heat exhaustion) hoặc bỏ."
+  - "Bẫy 1 (natri máu, trẻ nhỏ/người già): thêm nguồn hoặc bỏ."

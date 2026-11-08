@@ -1,0 +1,107 @@
+id: giam-dinh-muc-suy-giam-5-la-nguong-va-moi-1-doi
+checker: agent-V3b19cA
+checked_at: 2026-11-08
+content_sha256: 6ed3a1ea64f7875e289ee960dd6fb5c7da68f81becf04f176130c045c78482a6
+result: pass-with-edits
+claims:
+  - text: "Ba lúc được giám định/giám định lại: sau điều trị ổn định lần đầu còn di chứng; sau tái phát đã điều trị ổn định; không thể điều trị ổn định thì giám định trước/ngay trong quy trình điều trị (Điều 47 khoản 1)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    verdict: match
+    quote: "Người lao động bị tai nạn lao động, bệnh nghề nghiệp được giám định hoặc giám định lại mức suy giảm khả năng lao động khi thuộc một trong các trường hợp sau đây: a) Sau khi bị thương tật, bệnh tật lần đầu đã được điều trị ổn định còn di chứng ảnh hưởng tới sức khỏe; b) Sau khi thương tật, bệnh tật tái phát đã được điều trị ổn định; c) Đối với trường hợp thương tật hoặc bệnh nghề nghiệp không có khả năng điều trị ổn định theo quy định của Bộ trưởng Bộ Y tế thì người lao động được làm thủ tục giám định trước hoặc ngay trong quy trình điều trị"
+    note: ""
+  - text: "Giám định tổng hợp: vừa tai nạn vừa bệnh nghề nghiệp; tai nạn nhiều lần; nhiều bệnh nghề nghiệp (Điều 47 khoản 2)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    verdict: match
+    quote: "Người lao động được giám định tổng hợp mức suy giảm khả năng lao động khi thuộc một trong các trường hợp sau đây: a) Vừa bị tai nạn lao động vừa bị bệnh nghề nghiệp; b) Bị tai nạn lao động nhiều lần; c) Bị nhiều bệnh nghề nghiệp"
+    note: ""
+  - text: Giám định lại sau 24 tháng kể từ kết luận liền kề trước; sớm hơn khi bệnh nghề nghiệp làm suy giảm nhanh (Điều 47 khoản 3)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    verdict: match
+    quote: Người lao động quy định tại điểm b khoản 1 Điều này được giám định lại tai nạn lao động, bệnh nghề nghiệp sau 24 tháng, kể từ ngày người lao động được Hội đồng giám định y khoa kết luận tỷ lệ suy giảm khả năng lao động liền kề trước đó; trường hợp do tính chất của bệnh nghề nghiệp khiến người lao động suy giảm sức khỏe nhanh thì thời gian giám định được thực hiện sớm hơn theo quy định của Bộ trưởng Bộ Y tế
+    note: Khoản 3 chỉ áp cho trường hợp tái phát ở điểm b khoản 1. Mục Bẫy 1 viết 'Mốc 24 tháng là thời gian tối thiểu chứ không phải thời hạn phải chờ để được hưởng', trong khi Chi phí viết 'chờ đủ 24 tháng mới được giám định lại' — hai câu dễ hiểu ngược nhau.
+  - text: "Ngưỡng hưởng: suy giảm từ 5% trở lên (Điều 45 khoản 2)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    verdict: match
+    quote: Suy giảm khả năng lao động từ 5% trở lên do bị tai nạn quy định tại khoản 1 Điều này
+    note: Đúng; nhưng ngưỡng này nằm trong bộ ba điều kiện của Điều 45 (tai nạn tại nơi/giờ làm việc, ngoài nơi/giờ khi theo yêu cầu NSDLĐ, trên tuyến đường hợp lý; Điều 45 khoản 3 loại trừ theo Điều 40). Mục không nêu các điều kiện và loại trừ này.
+  - text: "Phí giám định: đơn vị trả với trường hợp kết luận dưới 5% do chính đơn vị giới thiệu; quỹ trả với trường hợp đủ điều kiện hưởng (mục dẫn Điều 42 khoản 1)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    verdict: partial
+    quote: Trả phí khám giám định thương tật, bệnh tật do tai nạn lao động, bệnh nghề nghiệp đối với các trường hợp đủ điều kiện hưởng theo quy định tại Điều 45 và Điều 46 của Luật này; trả phí khám giám định đối với trường hợp người lao động chủ động đi khám giám định mức suy giảm khả năng lao động theo quy định tại điểm b khoản 1 và khoản 3 Điều 47 của Luật này mà kết quả khám giám định đủ điều kiện để điều chỉnh tăng mức hưởng trợ cấp tai nạn lao động, bệnh nghề nghiệp
+    note: "Phần 'đơn vị trả khi dưới 5% do đơn vị giới thiệu' nằm ở Điều 38 khoản 2 điểm b (Trả phí khám giám định mức suy giảm khả năng lao động đối với những trường hợp kết luận suy giảm khả năng lao động dưới 5% do người sử dụng lao động giới thiệu người lao động đi khám giám định mức suy giảm khả năng lao động tại Hội đồng giám định y khoa), không phải Điều 42 khoản 1; legal_refs của mục không có Điều 38 khoản 2. Phần quỹ trả: khi NLĐ tự đi giám định lại (tái phát) quỹ chỉ trả nếu kết quả 'đủ điều kiện để điều chỉnh tăng mức hưởng' — điều kiện này bị bỏ."
+  - text: "Một lần: 5% = 5 lần lương cơ sở, +0,5 lần mỗi 1%; 5% = 12.650.000 đ, 30% = 17,5 lần = 44.275.000 đ (Điều 48 khoản 2 điểm a)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    verdict: match
+    quote: Suy giảm 5% khả năng lao động thì được hưởng năm lần mức lương cơ sở, sau đó cứ suy giảm thêm 1% thì được hưởng thêm 0,5 lần mức lương cơ sở
+    note: "Bản ký số là ảnh quét, không trích chữ được; đã OCR (Apple Vision) trang 3 và đọc lại: dòng này đọc rõ, khớp bản tin BHXH Việt Nam (baohiemxahoi.gov.vn) nói lương cơ sở 2.530.000 đ/tháng từ 01/7/2026. Phép nhân trong mục (5×2.530.000=12.650.000; 17,5×=44.275.000; 36×=91.080.000; 30%×=759.000; 168%×=4.250.400) đã tính lại và đúng."
+  - text: "Cộng thêm theo số năm đóng quỹ: ≤1 năm 0,5 tháng, +0,3 tháng mỗi năm tiếp (Điều 48 khoản 2 điểm b)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    verdict: match
+    quote: Ngoài mức trợ cấp quy định tại điểm a khoản này, còn được hưởng thêm khoản trợ cấp tính theo số năm đã đóng vào Quỹ bảo hiểm tai nạn lao động, bệnh nghề nghiệp, từ một năm trở xuống thì được tính bằng 0,5 tháng, sau đó cứ thêm mỗi năm đóng vào quỹ được tính thêm 0,3 tháng tiền lương đóng vào quỹ của tháng liền kề trước tháng bị tai nạn lao động hoặc được xác định mắc bệnh nghề nghiệp
+    note: ""
+  - text: "Hằng tháng từ 31%: 30% lương cơ sở, +2% mỗi 1%; 31% = 759.000 đ (Điều 49 khoản 2 điểm a)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    verdict: match
+    quote: Suy giảm 31% khả năng lao động thì được hưởng bằng 30% mức lương cơ sở, sau đó cứ suy giảm thêm 1% thì được hưởng thêm 2% mức lương cơ sở
+    note: ""
+  - text: 100% là 4.250.400 đ/tháng và đó là 'mức trần' (Chi phí)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    verdict: mismatch
+    quote: Ngoài mức trợ cấp quy định tại điểm a khoản này, hằng tháng còn được hưởng thêm một khoản trợ cấp tính theo số năm đã đóng vào Quỹ bảo hiểm tai nạn lao động, bệnh nghề nghiệp, từ một năm trở xuống được tính bằng 0,5%, sau đó cứ thêm mỗi năm đóng vào quỹ được tính thêm 0,3% mức tiền lương đóng vào quỹ của tháng liền kề trước tháng bị tai nạn lao động hoặc được xác định mắc bệnh nghề nghiệp
+    note: "Số học điểm a đúng (168%×2.530.000=4.250.400) nhưng gọi là 'mức trần' sai: điểm b khoản 2 Điều 49 cộng thêm hằng tháng theo số năm đóng quỹ, và Điều 52 cộng trợ cấp phục vụ bằng 1 lần lương cơ sở/tháng khi suy giảm ≥81% kèm liệt cột sống/mù hai mắt/…; tổng thực nhận có thể cao hơn."
+  - text: Trợ cấp phục vụ bằng 1 lần lương cơ sở/tháng khi suy giảm ≥81% kèm liệt cột sống, mù hai mắt, cụt/liệt hai chi hoặc bệnh tâm thần (Điều 52)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    verdict: match
+    quote: Người lao động bị suy giảm khả năng lao động từ 81% trở lên mà bị liệt cột sống hoặc mù hai mắt hoặc cụt, liệt hai chi hoặc bị bệnh tâm thần thì ngoài mức hưởng quy định tại Điều 49 của Luật này, hằng tháng còn được hưởng trợ cấp phục vụ bằng mức lương cơ sở
+    note: ""
+  - text: Đơn vị bồi thường ≥1,5 tháng lương (5–10%), +0,4 tháng/1% (11–80%), ≥30 tháng (≥81% hoặc chết) (Điều 38 khoản 4 điểm a, b)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    verdict: partial
+    quote: "Bồi thường cho người lao động bị tai nạn lao động mà không hoàn toàn do lỗi của chính người này gây ra và cho người lao động bị bệnh nghề nghiệp với mức như sau: a) Ít nhất bằng 1,5 tháng tiền lương nếu bị suy giảm từ 5 % đến 10% khả năng lao động; sau đó cứ tăng 1% được cộng thêm 0,4 tháng tiền lương nếu bị suy giảm khả năng lao động từ 11% đến 80%; b) Ít nhất 30 tháng tiền lương cho người lao động bị suy giảm khả năng lao động từ 81% trở lên hoặc cho thân nhân người lao động bị chết do tai nạn lao động, bệnh nghề nghiệp"
+    note: "Điều kiện đầu khoản bị bỏ: chỉ áp cho tai nạn 'mà không hoàn toàn do lỗi của chính người này gây ra' (nếu do lỗi chính người lao động: Điều 38 khoản 5, trợ cấp ≥40%). Không nhắc Điều 40."
+  - text: 05 ngày thực hiện bồi thường, trợ cấp kể từ kết luận Hội đồng giám định y khoa (Điều 38 khoản 7)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    verdict: match
+    quote: Thực hiện bồi thường, trợ cấp đối với người bị tai nạn lao động, bệnh nghề nghiệp trong thời hạn 05 ngày, kể từ ngày có kết luận của Hội đồng giám định y khoa về mức suy giảm khả năng lao động hoặc kể từ ngày Đoàn điều tra tai nạn lao động công bố biên bản điều tra tai nạn lao động đối với các vụ tai nạn lao động chết người
+    note: ""
+  - text: Mức lương cơ sở 2.530.000 đ/tháng từ 01/7/2026 (Điều 3 khoản 2, NĐ 161/2026/NĐ-CP)
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/161-ndcp.signed.pdf
+    verdict: match
+    quote: Từ ngày 01 tháng 7 năm 2026, mức lương cơ sở là 2.530.000 đồng/tháng.
+    note: "Bản ký số là ảnh quét, không trích chữ được; đã OCR (Apple Vision) trang 3 và đọc lại: dòng này đọc rõ, khớp bản tin BHXH Việt Nam (baohiemxahoi.gov.vn) nói lương cơ sở 2.530.000 đ/tháng từ 01/7/2026. Phép nhân trong mục (5×2.530.000=12.650.000; 17,5×=44.275.000; 36×=91.080.000; 30%×=759.000; 168%×=4.250.400) đã tính lại và đúng."
+  - text: "tldr: 'Từ 5% là có quyền lợi: quỹ trả 12.650.000 đồng một lần, đơn vị bồi thường thêm ít nhất 1,5 tháng lương'"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    verdict: partial
+    quote: Suy giảm 5% khả năng lao động thì được hưởng năm lần mức lương cơ sở, sau đó cứ suy giảm thêm 1% thì được hưởng thêm 0,5 lần mức lương cơ sở
+    note: 12.650.000 là điểm a; quỹ còn trả điểm b (Điều 48 khoản 2 điểm b). 'Từ 5%' còn đòi người lao động thuộc diện tham gia bảo hiểm TNLĐ-BNN, và điều kiện Điều 45 khoản 1. Mức 1,5 tháng chỉ cho 5–10% và không phải 'thêm' nếu người lao động bị lỗi hoàn toàn.
+internal_checks:
+  - issue: "Chi phí: '4.250.400 đồng một tháng tại 100%' gọi là 'mức trần' — sai vì Điều 49 khoản 2 điểm b và Điều 52 cộng thêm; ngược lại đoạn Pháp luật VN có nêu điểm b của Điều 48 (trợ cấp một lần) nhưng KHÔNG nêu điểm b Điều 49."
+    severity: error
+  - issue: "Chi phí ('chờ đủ 24 tháng mới được giám định lại') vs Bẫy 1 ('mốc 24 tháng là thời gian tối thiểu chứ không phải thời hạn phải chờ') — hai câu không nhất quán về việc có phải chờ 24 tháng hay không; luật (Điều 47 khoản 3): 'được giám định lại … sau 24 tháng, kể từ ngày … kết luận … liền kề trước đó'."
+    severity: warn
+  - issue: Phí khám giám định do NSDLĐ trả (<5%, do đơn vị giới thiệu) được trích dẫn là Điều 42 khoản 1 nhưng thuộc Điều 38 khoản 2 điểm b; legal_refs thiếu Điều 38 khoản 2 (mục Nguồn có Điều 38 khoản 2).
+    severity: warn
+  - issue: Bước 4 ('Nếu thương tật tái phát… làm thủ tục giám định lại') không nhắc điều kiện chờ 24 tháng trong chính bước; thân bài có.
+    severity: warn
+  - issue: "(a)(b) tldr/steps: số tiền 12.650.000, 759.000, 1,5 tháng, 24 tháng đều có trong thân; không mâu thuẫn số học. (f) Mục 13 cùng chương nêu 12.650.000/4.250.400 không có điểm b; mục 14 có điểm b ở trợ cấp một lần → trình bày không đồng nhất giữa hai mục."
+    severity: warn
+  - issue: (d) legal_refs url VBHN 14 và NĐ 161 đúng văn bản. NĐ 161/2026 là bản ký số ảnh quét (dùng OCR).
+    severity: warn
+  - issue: Điều 40/Điều 45 khoản 1 (điều kiện hưởng và loại trừ) không có trong mục dù mục nói 'Từ 5% là có quyền lợi'.
+    severity: warn
+validity:
+  doc: Luật An toàn, vệ sinh lao động 84/2015/QH13 (14/VBHN-VPQH); Nghị định 161/2026/NĐ-CP
+  in_force: unconfirmed
+  effective_from: 2016-07-01
+  amended_by:
+    - Luật BHXH 41/2024/QH15 (01/7/2025; đã hợp nhất, Điều 43/44/49/53)
+  basis: "Luật 84/2015/QH13 (hợp nhất tại 14/VBHN-VPQH ngày 16/9/2024, đã gộp sửa đổi của Luật BHXH 41/2024/QH15 hiệu lực 01/7/2025). Nghị định 283/2026/NĐ-CP (15/7/2026), mục Căn cứ, vẫn liệt kê 'Luật An toàn, vệ sinh lao động số 84/2015/QH13' là căn cứ ban hành, tức luật còn được áp dụng đến 07/2026. Đã tìm văn bản thay thế toàn bộ: kết quả tìm kiếm thứ cấp (thuvienphapluat.vn) nói chưa có luật mới, dự án luật sửa đổi mới ở chương trình xây dựng pháp luật 2026. Không có bản VBHN nào mới hơn 14/VBHN-VPQH được kiểm tra, nên các sửa đổi sau 09/2024 (nếu có) chưa loại trừ hoàn toàn bằng nguồn chính thức. NĐ 161/2026 (15/5/2026): chỉ đọc được qua OCR bản quét; Điều 3 khoản 2 nêu mức 2.530.000 đ từ 01/7/2026, khoản 4 cho phép Chính phủ điều chỉnh sau; chưa thấy văn bản điều chỉnh."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Chi phí: bỏ chữ 'mức trần' ở '4.250.400 đồng một tháng tại 100%'; thêm 'chưa gồm khoản theo số năm đóng quỹ (Điều 49 khoản 2 điểm b) và trợ cấp phục vụ (Điều 52)'."
+  - "tldr và Nói dễ hiểu: '12.650.000 đồng' → 'ít nhất 12.650.000 đồng (5 lần lương cơ sở) cộng khoản theo số năm đóng quỹ (Điều 48 khoản 2 điểm b)'; thêm điều kiện đang tham gia bảo hiểm TNLĐ-BNN và Điều 45 khoản 1."
+  - "Pháp luật VN: chuyển câu 'đơn vị trả phí khám giám định dưới 5%…' sang dẫn Điều 38 khoản 2 điểm b và thêm vào legal_refs; thêm điều kiện của Điều 42 khoản 1 ('kết quả đủ điều kiện để điều chỉnh tăng mức hưởng')."
+  - "Thống nhất câu 24 tháng ở Chi phí và Bẫy 1 theo Điều 47 khoản 3: 'giám định lại sau 24 tháng kể từ kết luận liền kề trước đó (trường hợp tái phát); sớm hơn khi bệnh nghề nghiệp suy giảm nhanh theo quy định của Bộ trưởng Bộ Y tế'."
+  - "Điều 38 khoản 4: thêm điều kiện 'không hoàn toàn do lỗi của chính người lao động' và nhắc Điều 38 khoản 5 (≥40% nếu do lỗi chính họ) và Điều 40."
+  - "Bước 4: ghi rõ 'chỉ làm được sau 24 tháng kể từ kết luận liền kề trước' hoặc dẫn khoản 3 trong chính bước."

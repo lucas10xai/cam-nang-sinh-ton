@@ -3,7 +3,7 @@ id: dot-nhien-noi-man-khap-nguoi-kem-kho-tho-hoac-choang-goi
 legacy: "13-15"
 chapter: 13
 number: 15
-title: "Nghi bị dị ứng nặng (phản vệ): gọi 115; dùng bút adrenalin đã được kê và hướng dẫn, không tự định liều từ ống thuốc"
+title: "Nghi bị dị ứng nặng (phản vệ): gọi 115, tiêm ngay bút adrenalin nếu có theo hướng dẫn in trên bút, cho nằm và không đứng dậy"
 cost:
   money: low
   time: low
@@ -14,13 +14,14 @@ evidence: B
 contested: false
 vn_class: adapted
 rewrite_status: rewritten
-tldr: "Đột ngột khó thở, sưng họng hoặc choáng: gọi 115. Có bút adrenalin đã được kê và hướng dẫn thì dùng ngay. Dùng thuốc rồi vẫn phải được theo dõi ít nhất 24 giờ."
+tldr: "Đột ngột khó thở, sưng họng hoặc choáng: gọi 115. Có bút adrenalin tự tiêm thì tiêm ngay theo hướng dẫn in trên bút; cho nằm, kê cao chân, không đứng dậy. Dùng thuốc rồi vẫn phải được theo dõi ít nhất 24 giờ."
 steps:
-  - "Gọi 115 ngay, không chờ tụt huyết áp hoặc ngất, không chờ mẩn tự lặn."
-  - "Có bút adrenalin tự tiêm đã được kê và hướng dẫn thì dùng ngay (tiêm thẳng vào bắp đùi)."
-  - "Chưa được hướng dẫn định liều và tiêm từ ống thuốc thì làm theo nhân viên cấp cứu."
-  - "Không lấy thuốc uống thay adrenalin."
-  - "Dù đã dùng thuốc vẫn đến cơ sở y tế để theo dõi, ít nhất 24 giờ."
+  - "Gọi 115 hoặc nhờ người khác gọi ngay. Chỉ có một mình và có bút adrenalin thì tiêm bút trước rồi gọi (thẻ dị ứng và NHS đặt tiêm trước)."
+  - "Có bút adrenalin tự tiêm thì dùng ngay, tiêm vào bắp đùi, làm theo hướng dẫn in trên bút, kể cả khi triệu chứng nhẹ."
+  - "Cho nằm tại chỗ, kê cao chân; khó thở thì nửa nằm nửa ngồi; có thai thì nằm nghiêng trái. Không đứng dậy hay đi lại dù thấy đỡ."
+  - "Chưa đỡ sau 5 phút và có bút thứ hai thì dùng bút thứ hai."
+  - "Không tự rút thuốc từ ống khi chưa được huấn luyện, làm theo nhân viên cấp cứu. Không lấy thuốc uống thay adrenalin."
+  - "Dù đã đỡ vẫn đến cơ sở y tế để theo dõi, ít nhất 24 giờ."
 legal_refs:
   - { doc: "Thông tư 51/2017/TT-BYT", article: "Điều 5 khoản 1", url: "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-51-2017-tt-byt-huong-dan-phong-chan-doan-va-xu-tri-phan-ve--128248", effective_from: null, checked_at: "2026-11-03", quote: null }
   - { doc: "Thông tư 51/2017/TT-BYT", article: "Điều 6 khoản 1", url: "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-51-2017-tt-byt-huong-dan-phong-chan-doan-va-xu-tri-phan-ve--128248", effective_from: null, checked_at: "2026-11-03", quote: null }
@@ -46,21 +47,23 @@ tags: []
 
 ## Nói dễ hiểu
 
-Đột ngột khó thở, sưng họng hoặc choáng, nhất là sau ăn uống, dùng thuốc hay côn trùng đốt: gọi 115. Đây có thể là dị ứng nặng (phản vệ), kể cả khi không nổi mẩn. Có bút adrenalin đã được kê và hướng dẫn thì dùng ngay; không tự định liều từ ống thuốc.
+Đột ngột khó thở, sưng họng hoặc choáng, nhất là sau ăn uống, dùng thuốc hay côn trùng đốt: gọi 115. Đây có thể là dị ứng nặng (phản vệ), kể cả khi không nổi mẩn. Có bút adrenalin thì tiêm ngay theo hướng dẫn in trên bút. Cho nằm, kê cao chân, không để đứng dậy.
 
 ## Chi phí
 
-- Cuộc gọi 115 không tính phí.
-- Người có nguy cơ phản vệ hỏi bác sĩ về thuốc mang theo và cách dùng, rồi kiểm hạn thuốc theo hướng dẫn.
 - Giá và cách định liều phụ thuộc loại bút hoặc ống thuốc. Không có một liều chung cho mọi độ tuổi.
+- Người có nguy cơ phản vệ hỏi bác sĩ về thuốc mang theo và cách dùng, rồi kiểm hạn thuốc theo hướng dẫn.
+- Cần nguồn cho việc cuộc gọi 115 có tính phí hay không; mục này không khẳng định.
 
 ## Lợi ích
 
 - Adrenalin là thuốc cấp cứu phản vệ quan trọng hàng đầu, tiêm bắp ngay khi chẩn đoán từ độ II trở lên.
 - Người có tiền sử phản vệ mang sẵn adrenalin thì chính họ hoặc người khác được phép tiêm bắp khi khẩn cấp, lúc không có nhân viên y tế.
 - Bút tự tiêm khác ống thuốc: ống thuốc cần lấy thuốc và định liều.
-- NHS (Anh) hướng dẫn dùng ngay bút adrenalin tự tiêm nếu có và gọi cấp cứu. Người được kê phải được hướng dẫn cách dùng.
-- Bạch Mai: cách dùng bút tự động là tiêm thẳng vào bắp đùi.
+- NHS (Anh): dùng bút adrenalin tự tiêm nếu có, hướng dẫn in trên bút; gọi cấp cứu và nói nghi phản vệ.
+- NHS: nằm, có thể kê cao chân; nếu khó thở thì nâng vai hoặc ngồi dậy từ từ; có thai nằm nghiêng trái. Không đứng hay đi lại dù thấy đỡ hơn.
+- NHS: nếu sau 5 phút chưa đỡ thì dùng bút adrenalin thứ hai.
+- Bạch Mai: cách dùng bút tự động là tiêm thẳng vào bắp đùi; bút tiêm và vài hướng dẫn đơn giản thì người dân nào cũng có thể dùng.
 
 ## Pháp luật Việt Nam
 
@@ -75,8 +78,8 @@ tags: []
 
 **Liều và theo dõi**
 
-- Liều tiêm bắp: adrenalin 1 mg = 1 ml = 1 ống. Người lớn dùng 0,5 đến 1 ml, tức nửa đến một ống. Tiêm nhắc lại 3 đến 5 phút một lần cho tới khi huyết áp và mạch ổn định (Phụ lục III mục IV, Thông tư 51/2017/TT-BYT).
-- Phải theo dõi ít nhất 24 giờ vì phản vệ có pha thứ hai (Phụ lục III, Thông tư 51/2017/TT-BYT).
+- Liều adrenalin tính theo nhóm tuổi và cân nặng, do nhân viên y tế quyết định. Tiêm nhắc lại 3 đến 5 phút một lần cho tới khi huyết áp và mạch ổn định (Phụ lục III mục IV, Thông tư 51/2017/TT-BYT).
+- Phải theo dõi ở cơ sở khám chữa bệnh ít nhất 24 giờ sau khi huyết áp đã ổn định, đề phòng phản vệ pha 2 (Phụ lục III, Thông tư 51/2017/TT-BYT).
 
 **Thẻ dị ứng**
 
@@ -86,11 +89,11 @@ tags: []
 
 - Phản vệ là phản ứng dị ứng có thể đe dọa tính mạng. Sốc phản vệ là tình trạng nặng của phản vệ.
 - Phản vệ có thể gây khó thở hoặc choáng mà không nhất thiết có nổi mẩn.
-- **Không chờ:** đừng chờ đến khi tụt huyết áp hoặc ngất mới gọi cấp cứu. Đừng chờ mẩn tự lặn, đừng lấy thuốc uống thay adrenalin.
-- **Người có tiền sử phản vệ:** trao đổi trước với bác sĩ về thuốc mang theo và cách xử trí. Điều 6 khoản 3 nói đến người có tiền sử phản vệ mang sẵn adrenalin, không phải một liều chung cho mọi người.
-- **Người chưa được hướng dẫn:** nếu chưa được hướng dẫn định liều và tiêm từ ống thuốc, hãy làm theo nhân viên cấp cứu.
-- **Đã dùng thuốc vẫn phải đi:** đến cơ sở y tế theo dõi, phụ lục của thông tư yêu cầu ít nhất 24 giờ.
-- Phần hướng dẫn còn cần rà soát chuyên môn độc lập.
+- **Không chờ:** phản vệ độ II có thể nhanh chóng chuyển sang độ III, độ IV (Phụ lục III). Vì vậy đừng chờ tụt huyết áp hoặc ngất mới gọi cấp cứu, đừng chờ mẩn tự lặn (suy ra từ Phụ lục III, không phải chữ của luật). Không lấy thuốc uống thay adrenalin (suy ra từ Điều 6 khoản 1).
+- **Người chưa được hướng dẫn:** Điều 6 khoản 3 nói đến người có tiền sử phản vệ mang sẵn adrenalin. NHS nói hướng dẫn in trên bút. Việc lấy thuốc từ ống và tự định liều không phải việc người chưa huấn luyện nên làm: làm theo nhân viên cấp cứu.
+- **Thứ tự gọi và tiêm:** thẻ dị ứng (Phụ lục VII) và NHS để adrenalin trước hoặc cùng lúc với gọi cấp cứu. Có hai người thì một người tiêm, một người gọi.
+- **Đã dùng thuốc vẫn phải đi:** đến cơ sở y tế theo dõi, thông tư yêu cầu ít nhất 24 giờ. NHS nêu thường 2 đến 12 giờ; mục theo mức thận trọng hơn của Việt Nam.
+- Trang NHS ghi đến hạn xem lại 21/06/2026, nên cần đối chiếu lại khi có bản mới.
 
 ## Nguồn
 

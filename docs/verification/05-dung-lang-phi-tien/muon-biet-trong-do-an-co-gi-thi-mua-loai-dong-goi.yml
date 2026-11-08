@@ -1,0 +1,72 @@
+id: muon-biet-trong-do-an-co-gi-thi-mua-loai-dong-goi
+checker: agent-V3a05f
+checked_at: 2026-11-08
+content_sha256: "ed1adf79afa676a9e7501d532a4ccd5328591023f30d416640c17b66d5e87659"
+result: fail
+claims:
+  - text: "Nhãn hàng hóa bắt buộc thể hiện tên hàng hóa; tên và địa chỉ của tổ chức, cá nhân chịu trách nhiệm; xuất xứ; và nội dung khác theo Phụ lục I (Điều 10 khoản 1 NĐ 43/2017/NĐ-CP)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2017/04/43.signed.pdf
+    quote: "1. Nhãn hàng hóa bắt buộc phải thể hiện các nội dung sau: a) Tên hàng hoá; b) Tên và địa chỉ của tổ chức, cá nhân chịu trách nhiệm về hàng hóa; c) Xuất xứ hàng hóa; d) Các nội dung khác theo tính chất của mỗi loại hàng hóa được quy định tại Phụ lục I của Nghị định này và văn bản quy phạm pháp luật liên quan."
+    verdict: match
+    note: "PDF ký số là ảnh quét; đọc bằng OCR (macOS Vision) trang 6. Khớp chữ NĐ 43/2017 gốc, nhưng NĐ 43/2017 đã HẾT HIỆU LỰC (xem validity). Nội dung tương ứng nay ở Điều 42 khoản 1 NĐ 37/2026/NĐ-CP (đọc qua bản đăng lại trên vnlawfirm.vn, xem claim 'NĐ 37')."
+  - text: "Điều 16: ghi thành phần và thành phần định lượng; thực phẩm phải ghi thành phần theo thứ tự từ cao đến thấp về khối lượng (cơ sở của step 1 'nguyên liệu đứng trước là nguyên liệu chiếm nhiều nhất')"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2017/04/43.signed.pdf
+    quote: "a) Đối với thực phẩm phải ghi thành phần theo thứ tự từ cao đến thấp về khối lượng."
+    verdict: match
+    note: "OCR trang 10, Điều 16 khoản 3 điểm a. Còn thêm: 'Nếu thành phần là chất phụ gia, phải ghi tên nhóm chất phụ gia, tên chất phụ gia hoặc mã số quốc tế INS (nếu có)'. Văn bản đã hết hiệu lực; NĐ 37/2026 Điều 48 khoản 3 điểm a giữ cùng nguyên tắc: 'a) Đối với thực phẩm phải ghi thành phần theo thứ tự từ cao đến thấp về khối lượng.'"
+  - text: "Điều 13 (định lượng hàng hóa) và Điều 14 (ngày sản xuất, hạn sử dụng) là nội dung theo tính chất thực phẩm phải ghi"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2017/04/43.signed.pdf
+    quote: "Điều 14. Ngày sản xuất, hạn sử dụng 1. Ngày sản xuất, hạn sử dụng hàng hóa được ghi theo thứ tự ngày, tháng, năm của năm dương lịch."
+    verdict: partial
+    note: "OCR trang 7-8. Điều 13 và 14 NĐ 43 quy định CÁCH GHI (định lượng, thứ tự ngày), không tự nó quy định thực phẩm 'phải' có ngày sản xuất/hạn dùng; yêu cầu bắt buộc nằm ở Điều 10 khoản 1 điểm d + Phụ lục I. Mục dùng Điều 13, 14 như nguồn của nghĩa vụ là lệch."
+  - text: "Điều 9: trách nhiệm ghi nhãn trung thực, rõ ràng, chính xác (Bẫy 3: 'Điều 9 Nghị định 43 đặt trách nhiệm lên người ghi nhãn')"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2017/04/43.signed.pdf
+    quote: "1. Tổ chức, cá nhân chịu trách nhiệm ghi nhãn hàng hóa kể cả nhãn phụ phải bảo đảm ghi nhãn trung thực, rõ ràng, chính xác, phản ánh đúng bản chất của hàng hoa."
+    verdict: match
+    note: "OCR trang 5-6. Văn bản đã hết hiệu lực; nay Điều 41 khoản 1 NĐ 37/2026: 'Tổ chức, cá nhân chịu trách nhiệm ghi nhãn hàng hóa kể cả nhãn phụ phải bảo đảm ghi nhãn trung thực, rõ ràng, chính xác, phản ánh đúng bản chất của hàng hóa.'"
+  - text: "Bên bán phải ghi nhãn hàng hóa trung thực, rõ ràng, chính xác, phản ánh đúng bản chất (Điều 21 khoản 2 Luật BVQLNTD 19/2023/QH15)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "2. Thực hiện ghi nhãn hàng hóa bảo đảm trung thực, rõ ràng, chính xác, phản ánh đúng bản chất của hàng hóa theo quy định của pháp luật;"
+    verdict: match
+    note: "OCR trang 9. Chủ thể là 'Tổ chức, cá nhân kinh doanh', mục dùng 'Bên bán': hợp lý. legal_refs[6] ghi url: null (URL đúng như trên)."
+  - text: "Hàng bán rời, bán cân, bán trong chợ không có nhãn thì Nghị định 43 chỉ đặt nghĩa vụ lên nhãn, không có nghĩa vụ ghi thành phần ('Chỗ không có luật')"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2017/04/43.signed.pdf
+    quote: "đ) Hàng hoá là thực phẩm tươi, sống, thực phẩm chế biến không có bao bì và bán trực tiếp cho người tiêu dùng;"
+    verdict: partial
+    note: "OCR trang 2, Điều 1 khoản 2 điểm đ NĐ 43: loại hàng này 'không thuộc phạm vi điều chỉnh' của nghị định. Mục không nhắc căn cứ cụ thể này (chỉ nói 'NĐ 43 chỉ đặt nghĩa vụ lên nhãn'). Hơn nữa 'không có luật' là quá rộng: Luật BVQLNTD Điều 21 khoản 1 điểm a vẫn buộc bên kinh doanh 'Cung cấp thông tin chính xác, đầy đủ' về 'chất lượng, công dụng, giá, xuất xứ hàng hóa, thời hạn sử dụng' (OCR trang 9), và Luật ATTP Điều 9 khoản 1 điểm a cho người tiêu dùng quyền 'Được cung cấp thông tin trung thực về an toàn thực phẩm' (bản chinhphu .doc). Kết luận 'không ghi ≠ không có' và 'phải hỏi người bán' đúng; câu 'Chỗ không có luật' sai khái quát."
+  - text: "NĐ 37/2026/NĐ-CP (23/01/2026) thay NĐ 43/2017: nội dung bắt buộc, loại trừ hàng thực phẩm tươi sống/không bao bì"
+    source_url: https://vnlawfirm.vn/van-ban/nghi-dinh-37-2026-nd-cp-huong-dan-luat-chat-luong-san-pham-hang-hoa
+    quote: "4. Các quy định dưới đây hết hiệu lực kể từ ngày Nghị định này có hiệu lực thi hành: ... b) Nghị định số 43/2017/NĐ-CP ngày 14 tháng 4 năm 2017 của Chính phủ về nhãn hàng hóa; c) Nghị định số 111/2021/NĐ-CP ngày 09 tháng 12 năm 2021 của Chính phủ sửa đổi, bổ sung một số điều Nghị định số 43/2017/NĐ-CP ngày 14 tháng 4 năm 2017 của Chính phủ về nhãn hàng hóa."
+    verdict: match-secondary
+    note: "Điều 97 khoản 4 NĐ 37/2026/NĐ-CP, qua bản đăng lại toàn văn của vnlawfirm.vn (thứ cấp; không mở được bản gốc Công báo/vanban). Khoản 1 cùng điều: 'Nghị định này có hiệu lực thi hành kể từ ngày ký ban hành.' Nguồn chính thống phụ: Chi cục QLCL nông lâm thủy sản Lâm Đồng (chicucclcbpttt.lamdong.gov.vn/News/tintucsukien/2026/04/725.aspx): 'Nghị định số 37/2026/NĐ-CP ... có hiệu lực thi hành từ ngày 23/01/2026, đã chính thức bãi bỏ Nghị định số 43/2017/NĐ-CP và Nghị định số 111/2021/NĐ-CP'. Điều 35 khoản 2 điểm e NĐ 37 giữ loại trừ: 'e) Hàng hóa là thực phẩm tươi, sống, thực phẩm chế biến không có bao bì và bán trực tiếp cho người tiêu dùng;' Điều 42 khoản 1 giữ bốn nhóm nội dung bắt buộc nhưng 'bằng tiếng Việt'."
+  - text: "Nghị định 111/2021/NĐ-CP sửa đổi NĐ 43/2017 (mục dẫn kèm 'sửa đổi, bổ sung bởi NĐ 111/2021' cho Điều 10 khoản 1)"
+    source_url: https://vanban.chinhphu.vn/?pageid=27160&docid=204681
+    quote: "Sửa đổi, bổ sung một số điều Nghị định số 43/2017/NĐ-CP ngày 14 tháng 4 năm 2017 của Chính phủ về nhãn hàng hóa"
+    verdict: match
+    note: "Chỉ khớp tiêu đề/ngày hiệu lực (15-02-2022) trên trang vanban.chinhphu.vn; không đọc toàn văn PDF (111.signed.pdf), nên không xác nhận Điều 10 khoản 1 có bị NĐ 111 sửa. Văn bản này cũng hết hiệu lực từ 23/01/2026. legal_refs có Điều 10 khoản 1 nhưng mục 'Nguồn' dẫn NĐ 111 mà không nêu điều."
+internal_checks:
+  - issue: "Toàn bộ phần Pháp luật VN và legal_refs[0..5] dựa trên Nghị định 43/2017/NĐ-CP và NĐ 111/2021/NĐ-CP; hai văn bản này hết hiệu lực từ 23/01/2026 theo Điều 97 khoản 4 NĐ 37/2026/NĐ-CP (các điều tương ứng: Điều 41, 42, 45, 46, 48 và loại trừ ở Điều 35). Số điều dẫn (9, 10, 13, 14, 16) đều lạc hậu."
+    severity: error
+  - issue: "Ghi chú Bẫy 3 dẫn 'Điều 9 Nghị định 43' và 'Điều 21 khoản 2 Luật 19/2023' nhưng 'Điều 9 NĐ 43' không còn hiệu lực."
+    severity: error
+  - issue: "Mục 'Chỗ không có luật' khẳng định 'không có nghĩa vụ ghi thành phần' cho hàng bán rời, nhưng không dẫn loại trừ Điều 1 khoản 2 điểm đ NĐ 43 (nay Điều 35 khoản 2 điểm e NĐ 37), và bỏ qua nghĩa vụ cung cấp thông tin chính xác của Điều 21 khoản 1 Luật BVQLNTD."
+    severity: warn
+  - issue: "legal_refs[5] (NĐ 111/2021) article: null; legal_refs[6] (Luật BVQLNTD Điều 21 khoản 2) url: null."
+    severity: warn
+  - issue: "Mục 'Điều 13 (định lượng), Điều 14 (ngày SX, HSD)' liệt kê như 'nội dung theo tính chất' của thực phẩm; thực tế đây là điều về cách ghi; nội dung bắt buộc nằm ở Phụ lục I. Câu thân 'Đây là chỗ bạn đọc được chất phụ gia, chất bảo quản, đường, muối' không có nguyên văn (suy ra từ Điều 16 khoản 3a: phải ghi phụ gia nhưng không đề cập 'đường, muối, chất bảo quản' bắt buộc ghi riêng)."
+    severity: warn
+  - issue: "Mục không có con số nên (a)(b) không phát hiện mâu thuẫn số liệu; step 1 'nguyên liệu đứng trước là nguyên liệu chiếm nhiều nhất' có cơ sở (Điều 16 khoản 3a NĐ 43 / Điều 48 khoản 3a NĐ 37), step 2 'đừng kết luận không có phụ gia' là suy luận hợp lý nhưng không phải chữ luật, step 3 'giữ bao bì (không chỉ mặt trước)' không có cơ sở pháp lý (lời khuyên thực tế)."
+    severity: warn
+validity:
+  doc: "Nghị định 43/2017/NĐ-CP (sửa đổi bởi NĐ 111/2021/NĐ-CP)"
+  in_force: false
+  effective_from: "unconfirmed (không đọc điều khoản hiệu lực của NĐ 43 trong lượt này)"
+  amended_by: ["Nghị định 111/2021/NĐ-CP (hiệu lực 15/02/2022, theo vanban.chinhphu.vn)"]
+  basis: "Hết hiệu lực từ 23/01/2026 theo Điều 97 khoản 4 điểm b và c Nghị định 37/2026/NĐ-CP (toàn văn đăng lại trên vnlawfirm.vn, thứ cấp) và hai trang cơ quan nhà nước địa phương: Chi cục QLCL NLTS Lâm Đồng ('đã chính thức bãi bỏ Nghị định số 43/2017/NĐ-CP và Nghị định số 111/2021/NĐ-CP') và Cục Quản lý thị trường Gia Lai ('hết hiệu lực kể từ ngày 23/01/2026'). Điều 98 NĐ 37 có chuyển tiếp: nhãn in trước 23/01/2026 dùng tiếp không quá 02 năm, hàng đã lưu thông dùng đến hết hạn sử dụng. Chưa mở được bản gốc NĐ 37/2026 từ Công báo/vanban.chinhphu.vn."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Thay toàn bộ căn cứ NĐ 43/2017 và NĐ 111/2021 bằng Nghị định 37/2026/NĐ-CP (23/01/2026): Điều 41 khoản 1 (trách nhiệm ghi nhãn trung thực, chính xác), Điều 42 khoản 1 (4 nhóm nội dung bắt buộc, bằng tiếng Việt), Điều 45 (định lượng), Điều 46 (ngày sản xuất, hạn sử dụng), Điều 48 khoản 3 điểm a (thực phẩm ghi thành phần từ cao đến thấp), Điều 35 khoản 2 điểm e (loại trừ thực phẩm tươi sống/không bao bì bán trực tiếp). Mở bản gốc từ Công báo/vanban.chinhphu.vn để xác nhận số điều trước khi dẫn."
+  - "Phần 'Chỗ không có luật': đổi thành 'Thực phẩm tươi sống và thực phẩm chế biến không có bao bì bán trực tiếp cho người tiêu dùng không thuộc phải ghi nhãn theo nghị định về nhãn (Điều 35 khoản 2 điểm e NĐ 37/2026), nhưng bên kinh doanh vẫn phải cung cấp thông tin chính xác, đầy đủ về hàng hóa (Điều 21 khoản 1 Luật BVQLNTD) và người tiêu dùng được cung cấp thông tin trung thực về an toàn thực phẩm (Điều 9 khoản 1 điểm a Luật ATTP)'."
+  - "Bỏ câu 'Đây là chỗ bạn đọc được chất phụ gia, chất bảo quản, đường, muối' hoặc đổi thành 'phụ gia phải ghi tên nhóm và tên chất hoặc mã INS (Điều 48 khoản 3 điểm a NĐ 37/2026)'."
+  - "Điền article cho legal_refs[5] hoặc bỏ mục; điền url cho legal_refs[6]; ghi rõ Điều 13/14 chỉ là cách ghi định lượng/ngày."

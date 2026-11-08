@@ -1,0 +1,82 @@
+id: ai-hua-lai-cao-gap-may-lan-tiet-kiem-thi-do-khong
+checker: agent-V3a05a
+checked_at: 2026-11-08
+content_sha256: "dcc7b9550c03133c30792dd72af046719511d782cfe4190cc1056d718331c313"
+result: fail
+claims:
+  - text: "Cấm tổ chức, cá nhân không phải tổ chức tín dụng thực hiện hoạt động ngân hàng (Điều 15 khoản 2, Luật Các tổ chức tín dụng 32/2024/QH15)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/158-vbhn-vpqh.pdf
+    quote: "2. Tổ chức, cá nhân không phải là tổ chức tín dụng, chi nhánh ngân hàng nước ngoài thực hiện hoạt động ngân hàng, trừ giao dịch ký quỹ, giao dịch mua bán lại chứng khoán của công ty chứng khoán."
+    verdict: match
+    note: "Bản hợp nhất 158/VBHN-VPQH (trích được chữ). Ngoại lệ trong câu (ký quỹ, mua bán lại chứng khoán của công ty chứng khoán) không được mục nêu."
+  - text: "'Nhận tiền gửi của người khác rồi cam kết trả lãi là hoạt động ngân hàng'"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/158-vbhn-vpqh.pdf
+    quote: "17. Hoạt động ngân hàng là việc kinh doanh, cung ứng thường xuyên một hoặc một số nghiệp vụ sau đây: a) Nhận tiền gửi; b) Cấp tín dụng; c) Cung ứng dịch vụ thanh toán qua tài khoản."
+    verdict: partial
+    note: "Điều 4 khoản 17: 'kinh doanh, cung ứng thường xuyên'. Khoản 27: nhận tiền gửi là nhận tiền 'theo nguyên tắc có hoàn trả đầy đủ tiền gốc, lãi theo thỏa thuận'. Vay mượn cá nhân đơn lẻ không bị Điều 15 khoản 2 cấm; mục bỏ chữ 'thường xuyên' và có thể khiến người đọc nghĩ mọi khoản vay có lãi giữa cá nhân là trái luật, hoặc ngược lại tin rằng chỉ cần có hợp đồng 'hợp tác/vay vốn' là khác. Mục cũng không dẫn Điều 4."
+  - text: "Cấm kinh doanh, cung cấp dịch vụ chứng khoán khi chưa được UBCKNN cấp phép (Điều 12 khoản 4, 'Luật Chứng khoán 54/2019/QH15')"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/12/54.signed.pdf
+    quote: "4. Thực hiện hoạt động kinh doanh chứng khoán, cung cấp dịch vụ về chứng khoán khi chưa được Ủy ban Chứng khoán Nhà nước cấp giấy phép, cấp giấy chứng nhận hoặc chấp thuận."
+    verdict: partial
+    note: "Số hiệu SAI: Luật Chứng khoán là 54/2019/QH14 (Quốc hội khóa XIV), không phải QH15. PDF ký là ảnh quét (pdftotext rỗng), đọc bằng OCR từ ảnh trang 11/93; trang đầu ghi 'Luật số: 54/2019/QH14'. Nội dung khoản 4 ở bản gốc 2019 khớp, nhưng mục viết thiếu 'cấp giấy chứng nhận hoặc chấp thuận'. Mục Nguồn ghi bản hợp nhất 24/VBHN-VPQH (Công báo 531+532 ngày 18/3/2025): chưa mở được bản này để đối chiếu Điều 12 sau các lần sửa (Luật 56/2024/QH15...). Verdict partial vì sai số hiệu và chưa đối chiếu bản hợp nhất."
+  - text: "Lãi tiết kiệm 12 tháng ngân hàng lớn là 5,9%/năm (Vietcombank, bảng tháng 10/2026)"
+    source_url: https://topi.vn/lai-suat-ngan-hang-vietcombank.html
+    quote: "12 tháng 5.40% 0.30% 0.00% 24 tháng 5.50%"
+    verdict: not-found
+    note: "Trang cited (topi.vn) hôm nay hiển thị bảng Vietcombank 'tháng 11/2026': kỳ hạn 12 tháng 5,40%/năm (gửi tại quầy và online), không có 5,9%. Không thấy bảng tháng 10/2026 nào; trang chính thức Vietcombank (vietcombank.com.vn/vi-VN/KHCN/Cong-cu-Tien-ich/Lai-suat) trả 404. Số 5,9% không xác minh được và khác số hiện thấy 5,4%. topi.vn là trang tổng hợp, không phải nguồn chính. Quote chỉ để chỉ chỗ thấy số khác."
+  - text: "Mức lãi tiết kiệm cao nhất thị trường khoảng 6,7%/năm"
+    source_url: https://topi.vn/lai-suat-ngan-hang-vietcombank.html
+    quote: "(không có nguyên văn: không tìm thấy nguồn nào ghi mức 6,7%)"
+    verdict: not-found
+    note: "Không có nguồn nào được dẫn cho 6,7% và không mở nguồn nào xác nhận. Mục Nguồn chỉ dẫn bảng Vietcombank (hiện 5,40% cho 12 tháng; 24 tháng 5,50%)."
+  - text: "Lời hứa 20%/năm cao gấp 3,4 lần mức 5,9%"
+    source_url: https://topi.vn/lai-suat-ngan-hang-vietcombank.html
+    quote: "12 tháng 5.40% 0.30% 0.00%"
+    verdict: inference
+    note: "20/5,9 = 3,39 nên 3,4 đúng số học nhưng phụ thuộc số 5,9% chưa xác minh; với 5,4% (số trang hiện hiển thị) thành khoảng 3,7 lần."
+  - text: "Bẫy 3: 'Luật không đặt ngưỡng lãi suất cho đầu tư; câu hỏi sai là dưới bao nhiêu % thì hợp pháp'"
+    source_url: https://vksndtc.gov.vn/UserControls/Publishing/News/BinhLuan/pFormPrint.aspx?UrlListProcess=22D48E3E00E317DB107E3706F225B1CE22F006B7C704FC8B6894F6ABCA85660A&ItemID=2426&webP=portal
+    quote: "Trường hợp các bên có thỏa thuận về lãi suất thì lãi suất theo thỏa thuận không được vượt quá 20%/năm của khoản tiền vay, trừ trường hợp luật khác có liên quan quy định khác."
+    verdict: partial
+    note: "Điều 468 khoản 1 Bộ luật Dân sự 2015 (trích qua trang bình luận của VKSNDTC, thứ cấp): lãi suất vay thỏa thuận tối đa 20%/năm, phần vượt không có hiệu lực. Mục dùng 'hợp đồng vay vốn cá nhân' là một trong bốn cái tên của bẫy và đúng mức 20%/năm của ví dụ, nên 'luật không đặt ngưỡng' chỉ đúng cho đầu tư; với vay cá nhân thì có trần 20%/năm. Câu 'câu hỏi sai là dưới bao nhiêu % thì hợp pháp' có thể làm người đọc bỏ qua ngưỡng này. Cần nêu rõ khác biệt vay dân sự và đầu tư. Chưa mở bản BLDS chính thống."
+  - text: "Mục chi tiết: 'Cả bốn đều không có cơ chế nào bảo vệ bạn sau khi tiền đã ra khỏi tài khoản'; 'phần lớn trường hợp là không đòi được'; khoản chênh 'đến từ tiền của người vào sau'"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/158-vbhn-vpqh.pdf
+    quote: "2. Tổ chức, cá nhân không phải là tổ chức tín dụng, chi nhánh ngân hàng nước ngoài thực hiện hoạt động ngân hàng, trừ giao dịch ký quỹ, giao dịch mua bán lại chứng khoán của công ty chứng khoán."
+    verdict: inference
+    note: "Không có nguồn về tỷ lệ đòi được tiền hay bản chất Ponzi. 'Không có cơ chế nào bảo vệ' quá tuyệt đối: người bị lừa vẫn có thể tố giác, kiện đòi theo BLDS/Bộ luật Hình sự (chưa kiểm). Là nhận định của sách, nên gắn nhãn."
+  - text: "Bẫy 2: 'Chuyển tiền cho cá nhân: không có hợp đồng lưu tại đơn vị cung cấp dịch vụ và không có sao kê mang tên một pháp nhân'"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/158-vbhn-vpqh.pdf
+    quote: "2. Tổ chức, cá nhân không phải là tổ chức tín dụng, chi nhánh ngân hàng nước ngoài thực hiện hoạt động ngân hàng, trừ giao dịch ký quỹ, giao dịch mua bán lại chứng khoán của công ty chứng khoán."
+    verdict: inference
+    note: "Lời khuyên thực hành hợp lý, không phải chữ của luật."
+internal_checks:
+  - issue: "legal_refs[1] và Nguồn ghi 'Luật Chứng khoán 54/2019/QH15': số hiệu đúng là 54/2019/QH14. legal_refs[1].url null (không có link), trong khi bản ký tải được tại https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/12/54.signed.pdf."
+    severity: error
+  - issue: "Số liệu 5,9%/năm (12 tháng) và 6,7%/năm xuất hiện ở tldr, steps[1], Lợi ích, Nói dễ hiểu; không xác minh được, trang nguồn hiện hiển thị 5,40%. Mục 7 cùng chương dùng '5,2%/năm' cho khoản tiết kiệm của người đọc; hai mục trong chương nói số khác nhau về mức lãi tiết kiệm ngân hàng."
+    severity: error
+  - issue: "'Luật không đặt ngưỡng lãi suất' xung đột với Điều 468 BLDS 2015 (trần 20%/năm cho vay dân sự); lời hứa '20%/năm' nằm đúng trần này."
+    severity: warn
+  - issue: "Nguồn ghi 'Luật CTTD Điều 15 khoản 1, 2, 5' nhưng thân chỉ dùng khoản 2; Luật Chứng khoán ghi 'Điều 12 khoản 1 và khoản 4' nhưng thân chỉ dùng khoản 4. Khoản 5 Điều 15 (gắn bán bảo hiểm không bắt buộc với dịch vụ ngân hàng) không liên quan."
+    severity: warn
+  - issue: "legal_refs[].effective_from, checked_at, quote đều null."
+    severity: warn
+  - issue: "steps[0] 'tra danh sách được cấp phép' không nêu nơi tra (UBCKNN/Ngân hàng Nhà nước) nên không hành động được; thân không có nguồn."
+    severity: warn
+validity:
+  doc: "Luật Các tổ chức tín dụng 32/2024/QH15 (VBHN 158/VBHN-VPQH); Luật Chứng khoán 54/2019/QH14"
+  in_force: unconfirmed
+  effective_from: "2024-07-01"
+  amended_by:
+    - "Luật 43/2024/QH15 (hiệu lực 2024-08-01)"
+    - "Luật 96/2025/QH15 (hiệu lực 2025-10-15)"
+  basis: "LCTCT: bản hợp nhất 158/VBHN-VPQH liệt kê hai lần sửa; Điều 15 khoản 2 nguyên văn khớp. Chưa tìm được văn bản sửa sau bản hợp nhất. Luật Chứng khoán: chỉ đọc bản ký gốc 2019; Điều 12 có thể đã đổi theo các luật sửa đổi (56/2024/QH15...), chưa mở bản hợp nhất 24/VBHN-VPQH nên không kết luận."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Mọi chỗ ghi 'Luật Chứng khoán 54/2019/QH15' đổi thành '54/2019/QH14'; thêm url https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/12/54.signed.pdf (ảnh quét) hoặc bản hợp nhất 24/VBHN-VPQH; đối chiếu lại Điều 12 khoản 4 sau sửa đổi."
+  - "Pháp luật VN, gạch đầu dòng 1: sửa thành 'Cấm tổ chức, cá nhân không phải tổ chức tín dụng kinh doanh, cung ứng thường xuyên nghiệp vụ nhận tiền gửi, cấp tín dụng, thanh toán qua tài khoản (Điều 15 khoản 2, Điều 4 khoản 17 Luật 32/2024/QH15)'. Gạch 2: thêm 'cấp giấy chứng nhận hoặc chấp thuận'."
+  - "Lợi ích và tldr: kiểm lại lãi suất 12 tháng ngân hàng lớn bằng trang niêm yết chính thức (Vietcombank/NHNN) ngày tra; ghi ngày và nguồn; trang topi.vn hiện ghi 5,40%/năm (tháng 11/2026), không phải 5,9%. Bỏ hoặc dẫn nguồn cho '6,7%'. Cập nhật '3,4 lần'."
+  - "Bẫy 3: thêm 'Với vay giữa cá nhân/tổ chức không phải tín dụng, Điều 468 BLDS 2015 giới hạn lãi suất thỏa thuận 20%/năm; luật không đặt trần cho đầu tư nhưng đầu tư vẫn bị cấm nếu kinh doanh không phép'. Dẫn bản BLDS chính thống."
+  - "Gắn nhãn 'nhận định của sách' hoặc bỏ 'phần lớn trường hợp là không đòi được', 'tiền của người vào sau', 'không có cơ chế nào bảo vệ'."
+  - "steps[0]: nêu nơi tra (UBCKNN cho công ty chứng khoán/quỹ; NHNN cho tổ chức tín dụng) nếu xác minh được."
+  - "Đồng bộ với mục 7 trong chương về mức lãi tiết kiệm (5,2% hay 5,9%)."

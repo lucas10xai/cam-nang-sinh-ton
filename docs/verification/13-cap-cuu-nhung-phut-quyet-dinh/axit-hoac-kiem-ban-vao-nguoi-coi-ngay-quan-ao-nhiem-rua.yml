@@ -1,0 +1,90 @@
+id: axit-hoac-kiem-ban-vao-nguoi-coi-ngay-quan-ao-nhiem-rua
+checker: agent-V3a13A
+checked_at: 2026-11-08
+content_sha256: 22ca8e24bb20fc85e4df95e1235d738c6eaa0967736e5408d4287a4c132032a8
+result: pass-with-edits
+claims:
+  - text: Cởi ngay quần áo dính hóa chất
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-hoa-chat-o-tre-em
+    verdict: match
+    quote: Nhanh chóng cởi bỏ quần áo bị dính hoá chất, chánh tiếp xúc với bất cứ vật liệu nào dính hoá chất.
+    note: Bài về bỏng hóa chất Ở TRẺ EM (20/04/2022). Giày/đồng hồ trong steps là suy ra hợp lý, không phải chữ của nguồn.
+  - text: Rửa vùng bỏng dưới nước chảy liên tục ít nhất 30 phút
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-hoa-chat-o-tre-em
+    verdict: partial
+    quote: Thời gian ngâm rửa nước sạch với bỏng hoá chất từ 30 - 60 phút và thường kéo dài hơn so với bỏng nhiệt.
+    note: "Nguồn nói 'ngâm rửa bằng nước sạch' 30–60 phút, không nói 'nước mát chảy liên tục'. Quan trọng hơn: nguồn có dòng riêng 'Bỏng do vôi bột: Cần lau sạch vôi bám bằng khăn khô.' (Bước 1) mà mục không nêu: hóa chất dạng bột khô phải gạt/lau khô trước rồi mới rửa nhiều nước."
+  - text: Không dùng nước ấm để rửa
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-hoa-chat-o-tre-em
+    verdict: match
+    quote: Không dùng nước ấm rửa vì làm tăng khả năng ngấm của hoá chất.
+    note: ""
+  - text: "Hóa chất vào mắt: rửa ít nhất 15–30 phút dưới vòi nước sạch hoặc nước muối sinh lý"
+    source_url: https://benhvienmathanoi.gov.vn/capcuubonghoachattaimat/
+    verdict: match
+    quote: Rửa mắt liên tục dưới vòi nước sạch hoặc dùng bình nước muối sinh lý (NaCl 0,9%) xối mạnh vào mắt trong ít nhất 15–30 phút.
+    note: Bài Viện Bỏng cùng mục ghi mắt 'ít nhất 10 - 15 phút'; mục chọn khoảng dài hơn, an toàn hơn.
+  - text: Lộn mi trên và mi dưới để rửa sạch hóa chất đọng
+    source_url: https://benhvienmathanoi.gov.vn/capcuubonghoachattaimat/
+    verdict: match
+    quote: Lộn mi trên và mi dưới để rửa sạch hóa chất còn đọng trong túi kết mạc và chân mi.
+    note: ""
+  - text: Không băng kín mắt khi chưa rửa sạch; không nhỏ thuốc trước khi rửa
+    source_url: https://benhvienmathanoi.gov.vn/capcuubonghoachattaimat/
+    verdict: match
+    quote: Băng kín mắt khi chưa rửa sạch hóa chất hoặc tự ý nhỏ bất kỳ loại thuốc nào trước khi rửa mắt.
+    note: ""
+  - text: Gắp bỏ mảnh hóa chất bám vào mắt
+    source_url: https://benhvienmathanoi.gov.vn/capcuubonghoachattaimat/
+    verdict: partial
+    quote: Nếu có bụi vôi, mảnh hóa chất bám vào mắt, cần gắp bỏ hết trước hoặc trong quá trình rửa (nên thực hiện bởi nhân viên y tế nếu có thể).
+    note: Mục bỏ vế 'nên thực hiện bởi nhân viên y tế nếu có thể'; người thường không nên tự gắp trong mắt.
+  - text: Bỏng kiềm nguy hiểm hơn bỏng axit vì kiềm thẩm thấu sâu
+    source_url: https://benhvienmathanoi.gov.vn/capcuubonghoachattaimat/
+    verdict: match
+    quote: Nguy hiểm hơn vì hóa chất kiềm có khả năng thẩm thấu sâu vào nhãn cầu, gây tổn thương nghiêm trọng hơn.
+    note: ""
+  - text: Không đổ giấm hoặc nước vôi để trung hòa (step 4, Bẫy 1)
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-hoa-chat-o-tre-em
+    verdict: partial
+    quote: Việc trung hoà chỉ tiến hành sau khi đã ngâm rửa vết bỏng bằng nước sạch (trung hoà ngay lập tức có thể làm nặng lên tổn thương do phản ứng với tác nhân gây bỏng còn sót lại).
+    note: Nguồn cho phép trung hòa SAU khi rửa (nước chanh/giấm với kiềm; nước xà phòng loãng/nước vôi nhì với axit); mục cấm tuyệt đối — an toàn hơn nguồn, chấp nhận được nhưng nên nói rõ là cố ý. Cụm 'phản ứng trung hòa tỏa nhiệt' không có trong nguồn (nguồn chỉ nói 'làm nặng lên tổn thương').
+  - text: Không thoa kem đánh răng, dầu ăn
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-hoa-chat-o-tre-em
+    verdict: not-found
+    note: Không có trong hai nguồn đã mở. Khuyến cáo phổ biến nhưng không phải chữ của nguồn dẫn.
+  - text: Bỏng rộng, bỏng ở mặt hoặc choáng thì gọi 115, tới cơ sở chuyên khoa bỏng
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-hoa-chat-o-tre-em
+    verdict: inference
+    note: Nguồn chỉ nói 'Nhanh chóng chuyển nạn nhân tới cơ sở y tế gần nhất'; ngưỡng 'rộng/mặt/choáng → 115' do biên tập viên suy ra.
+  - text: "Bẫy 2: nước trong chậu bẩn dần sau vài phút; Bẫy 3: băng kín mắt giữ hóa chất trong túi kết mạc"
+    source_url: https://benhvienmathanoi.gov.vn/capcuubonghoachattaimat/
+    verdict: inference
+    note: Cơ chế do tác giả suy ra; nguồn chỉ nêu lệnh 'không băng kín mắt khi chưa rửa sạch'.
+internal_checks:
+  - issue: Nguồn cho da là bài về bỏng hóa chất ở TRẺ EM; mục áp cho mọi đối tượng mà không ghi chú giới hạn. Không đối chiếu được hướng dẫn quốc tế AHA/ERC/NHS/CDC (CDC trả 403, NHS chemical-burns trả 404 khi kiểm tra).
+    severity: warn
+  - issue: Phần Ghi chú nói 'hai bài dùng hai khoảng khác nhau' nhưng không nêu rằng bài Viện Bỏng ghi mắt chỉ 10–15 phút, trong khi mục lấy 15–30 phút.
+    severity: warn
+  - issue: "Số trong tldr/steps (30 phút; 15–30 phút; 115) đều có trong thân; không mâu thuẫn nội bộ. Mục 20 cùng chương ghi mắt 15–30 phút: nhất quán. legal_refs rỗng."
+    severity: warn
+  - issue: Frontmatter còn khối verification cũ (needs-medical-review, checker khác); theo hợp đồng không đọc báo cáo đó, chỉ ghi nhận để Chief of Staff đối chiếu.
+    severity: warn
+validity:
+  doc: Bệnh viện Bỏng Quốc gia Lê Hữu Trác (20/04/2022) + Bệnh viện Mắt Hà Nội (02/05/2026) — hướng dẫn chuyên môn, không phải văn bản pháp luật
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: Hai trang mở được (HTTP 200). Không có số hiệu/ngày hiệu lực. Chưa đối chiếu được hướng dẫn quốc tế (CDC 403, NHS 404) nên không khẳng định là hướng dẫn hiện hành tốt nhất.
+deliberate_vn_deviation:
+  - Nguồn VN (Viện Bỏng) cho phép trung hòa bằng giấm/chanh/nước xà phòng loãng SAU khi rửa; mục cấm hẳn trung hòa (thận trọng hơn). Hướng dẫn quốc tế không mở được để đối chiếu.
+potential_harm:
+  - "Step 2 'Rửa vùng bỏng dưới vòi nước…' vô điều kiện: nguồn Viện Bỏng ghi riêng 'Bỏng do vôi bột: Cần lau sạch vôi bám bằng khăn khô' — hóa chất dạng bột khô cần phủi/lau khô phần thừa rồi mới xả nước nhiều; xả nước ngay lên cục bột dày có thể tạo dung dịch kiềm đậm đặc tại chỗ [INFERENCE về cơ chế]. Mục không có bước này."
+  - "Không nhắc người sơ cứu tự bảo vệ (nguồn: 'người cấp cứu cần được bảo vệ như: đeo khẩu trang, đi găng tay…') và không dặn tránh để nước rửa chảy sang mắt/vùng da lành (nguồn mắt Viện Bỏng: 'Không để nước nhiễm bẩn chảy sang mắt kia')."
+  - "'Gắp bỏ mảnh hóa chất bám vào mắt' bị cắt mất 'nên thực hiện bởi nhân viên y tế nếu có thể' → người đọc có thể tự gắp trong mắt."
+suggested_edits:
+  - "steps[1] và 'Nói dễ hiểu': thêm bước trước khi rửa: 'Hóa chất dạng bột khô (vôi bột…): phủi/lau sạch bột bằng khăn khô, tránh chạm tay trần, rồi mới xả nước nhiều' — dựa vào quote 'Bỏng do vôi bột: Cần lau sạch vôi bám bằng khăn khô.'"
+  - Ghi rõ nguồn da là hướng dẫn cho trẻ em và đối chiếu thêm nguồn người lớn/quốc tế (AHA/ERC/NHS) hoặc Bộ Y tế.
+  - Sửa 'phản ứng trung hòa tỏa nhiệt' thành 'có thể làm nặng thêm tổn thương' (đúng chữ nguồn); nói rõ nguồn cho phép trung hòa chỉ sau khi rửa.
+  - "Mục 'Lợi ích' về mắt: giữ vế 'nên thực hiện bởi nhân viên y tế nếu có thể' khi nói về gắp mảnh hóa chất."
+  - Bỏ 'kem đánh răng, dầu ăn' khỏi phần trích nguồn hoặc đánh dấu là khuyến cáo chung ngoài hai nguồn.

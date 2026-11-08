@@ -1,0 +1,100 @@
+id: khong-co-luong-huu-cong-ty-dong-bao-hiem-xa-hoi-tu
+checker: agent-V3a05g
+checked_at: 2026-11-08
+content_sha256: "e41240280ac59bb937786507d08125d5eed279935cdc6b5e76b2aa1d2a66565c"
+result: pass-with-edits
+claims:
+  - text: "Thu nhập làm căn cứ đóng BHXH tự nguyện thấp nhất bằng mức chuẩn hộ nghèo nông thôn, cao nhất 20 lần mức tham chiếu (Luật BHXH 41/2024 Điều 31 khoản 2)"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-so-41-2024-qh15-bao-hiem-xa-hoi-119240723163650489.htm
+    quote: 'Thu nhập làm căn cứ đóng bảo hiểm xã hội tự nguyện thấp nhất bằng mức chuẩn hộ nghèo của khu vực nông thôn và cao nhất bằng 20 lần mức tham chiếu tại thời điểm đóng.'
+    verdict: match
+    note: "Trang xaydungchinhsach.chinhphu.vn (cổng chính phủ, trích được chữ)."
+  - text: "Tỷ lệ đóng BHXH tự nguyện là 22% (Điều 32 khoản 2) và hằng tháng đóng 22% thu nhập đã chọn (Điều 36 khoản 1)"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-so-41-2024-qh15-bao-hiem-xa-hoi-119240723163650489.htm
+    quote: 'Tỷ lệ đóng bảo hiểm xã hội tự nguyện bằng 22% thu nhập làm căn cứ đóng bảo hiểm xã hội vào quỹ hưu trí và tử tuất.'
+    verdict: match
+    note: "Điều 36 khoản 1: 'hằng tháng đóng bằng 22% mức thu nhập làm căn cứ đóng bảo hiểm xã hội tự nguyện vào quỹ hưu trí và tử tuất.'"
+  - text: "Đóng đủ 15 năm là đủ điều kiện hưởng lương hưu khi đủ tuổi (mục dẫn Điều 64)"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-so-41-2024-qh15-bao-hiem-xa-hoi-119240723163650489.htm
+    quote: 'Người tham gia bảo hiểm xã hội tự nguyện được hưởng lương hưu khi đủ tuổi nghỉ hưu theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động và có thời gian đóng bảo hiểm xã hội từ đủ 15 năm trở lên.'
+    verdict: partial
+    note: "Nội dung 15 năm khớp, nhưng điều đúng là Điều 98 (Chương BHXH tự nguyện), KHÔNG phải Điều 64 (Điều 64 áp dụng cho đối tượng khoản 1, 2 Điều 2 tức bắt buộc, không liệt kê khoản 4 Điều 2). Mục cũng bỏ điều kiện đủ tuổi nghỉ hưu ở tldr, steps và title."
+  - text: "Lao động nữ hưởng 45% ứng với 15 năm, thêm mỗi năm 2%, tối đa 75%; nam đóng 15 đến dưới 20 năm hưởng 40% ứng với 15 năm, thêm 1% mỗi năm (mục dẫn Điều 66 khoản 1)"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-so-41-2024-qh15-bao-hiem-xa-hoi-119240723163650489.htm
+    quote: 'Đối với lao động nữ bằng 45% mức bình quân thu nhập làm căn cứ đóng bảo hiểm xã hội quy định tại Điều 104 của Luật này tương ứng 15 năm đóng bảo hiểm xã hội, sau đó cứ thêm mỗi năm đóng thì tính thêm 2%, mức tối đa bằng 75%; ... Trường hợp lao động nam có thời gian đóng bảo hiểm xã hội từ đủ 15 năm đến dưới 20 năm, mức lương hưu hằng tháng bằng 40% mức bình quân thu nhập làm căn cứ đóng bảo hiểm xã hội quy định tại Điều 104 của Luật này tương ứng 15 năm đóng bảo hiểm xã hội, sau đó cứ thêm mỗi năm đóng thì tính thêm 1%.'
+    verdict: partial
+    note: "Số liệu khớp (45%, 15 năm, 2%, 75%, 40%, 1%; nam 45% ứng 20 năm), nhưng đây là Điều 99 khoản 1 (BHXH tự nguyện); Điều 66 khoản 1 cùng công thức nhưng cho BHXH bắt buộc (cơ sở là mức bình quân tiền lương Điều 72). Dẫn sai điều."
+  - text: "Hỗ trợ 50% hộ nghèo, 40% hộ cận nghèo, 30% dân tộc thiểu số, 20% các trường hợp khác (NĐ 159/2025 Điều 5)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/159-cp.signed.pdf
+    quote: 'Người tham gia bảo hiểm xã hội tự nguyện được Nhà nước hỗ trợ tiền đóng theo tỷ lệ phần trăm (%) trên mức đóng bảo hiểm xã hội tự nguyện hằng tháng theo mức chuẩn hộ nghèo của khu vực nông thôn ... a) Bằng 50% đối với người tham gia thuộc hộ nghèo, người đang sinh sống tại xã đảo, đặc khu theo quy định của Chính phủ, Thủ tướng Chính phủ; b) Bằng 40% đối với người tham gia thuộc hộ cận nghèo; c) Bằng 30% đối với người tham gia là người dân tộc thiểu số; d) Bằng 20% đối với người tham gia khác.'
+    verdict: match
+    note: "PDF ký số là ảnh quét; đọc từ ảnh trang 2-3 bằng OCR (macOS Vision), quote đã chuẩn hóa dấu. Mục lược 'người đang sinh sống tại xã đảo, đặc khu' khỏi mức 50% và quy tắc 'thuộc nhiều mức thì hưởng mức cao nhất'."
+  - text: "Thời gian hỗ trợ không quá 10 năm (120 tháng); hỗ trợ tính trên mức đóng theo chuẩn hộ nghèo (NĐ 159 Điều 5 khoản 1, 2)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/159-cp.signed.pdf
+    quote: 'Thời gian hỗ trợ tùy thuộc vào thời gian tham gia bảo hiểm xã hội tự nguyện thực tế của mỗi người nhưng không quá 10 năm (120 tháng).'
+    verdict: match
+    note: "OCR trang 3. 'Thực nộp 264.000 đồng' là tính toán: 22% × 1.500.000 = 330.000; trừ 20% của 330.000 = 66.000; còn 264.000 (kiểm đúng)."
+  - text: "Chuẩn nghèo đa chiều giai đoạn 2022-2025 tiếp tục thực hiện đến hết 31/12/2026 (NĐ 351/2025 Điều 2 khoản 1); hiệu lực 15/2/2026"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/1/15/351signed-1768466928752975992498.pdf
+    quote: 'Tiếp tục thực hiện chuẩn nghèo đa chiều giai đoạn 2022 - 2025 theo quy định tại Điều 3 Nghị định số 07/2021/NĐ-CP ngày 27 tháng 01 năm 2021 của Chính phủ quy định chuẩn nghèo đa chiều giai đoạn 2021 - 2025 (sau đây gọi là Nghị định số 07/2021/NĐ-CP) từ ngày 01 tháng 01 năm 2026 đến hết ngày 31 tháng 12 năm 2026.'
+    verdict: match
+    note: "Điều 5 khoản 1: 'Nghị định này có hiệu lực thi hành từ ngày 15 tháng 02 năm 2026.' Lưu ý NĐ 351 KHÔNG tự nêu con số 1.500.000; mục ghi con số này kèm cite NĐ 351 Điều 2 khoản 1 nhưng con số nằm ở NĐ 07/2021 Điều 3 (xem claim kế)."
+  - text: "Chuẩn hộ nghèo khu vực nông thôn đang áp dụng năm 2026 là 1.500.000 đồng/người/tháng (NĐ 07/2021 Điều 3)"
+    source_url: https://baohiemxahoi.gov.vn/UserControls/Publishing/News/BinhLuan/pFormPrint.aspx?IsTA=False&ItemID=25949&UrlListProcess=%2Fcontent%2Ftintuc%2Flists%2Fnews
+    quote: 'Điều 3 Nghị định số 07/2021/NĐ-CP quy định các tiêu chí đo lường nghèo đa chiều giai đoạn 2022-2025: a) Tiêu chí thu nhập: - Khu vực nông thôn: 1.500.000 đồng/người/tháng.'
+    verdict: match-secondary
+    note: "Trích từ bản tin của Bảo hiểm xã hội Việt Nam (trang cơ quan, bản đăng lại nội dung Điều 3), không phải văn bản NĐ 07/2021 gốc; legal_refs của mục không có URL cho NĐ 07 và mục Nguồn chỉ ghi 'Mức 1.500.000 là chuẩn nghèo 2021–2025 tại Điều 3 NĐ 07/2021' không có link."
+  - text: "Chuẩn mới giai đoạn 2027–2030 là 2.200.000 đồng/người/tháng ở nông thôn (NĐ 351 Điều 3)"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/1/15/351signed-1768466928752975992498.pdf
+    quote: 'Ở khu vực nông thôn: thu nhập bình quân đầu người của hộ gia đình là 2.200.000 đồng/người/tháng.'
+    verdict: match
+    note: "Điều 3 khoản 1 điểm a (tiêu chí thu nhập). Cũng Điều 3 khoản 2: 'Hộ nghèo khu vực nông thôn là hộ ... có thu nhập bình quân đầu người từ 2.200.000 đồng/người/tháng trở xuống và thiếu hụt từ 03 chỉ số ...' (hộ cận nghèo cùng mức thu nhập 2.200.000 với thiếu hụt dưới 03 chỉ số)."
+  - text: "Từ 2027, mức đóng thấp nhất thành 484.000 đồng; thực nộp sau hỗ trợ 20% là 387.200 đồng (tldr/steps, Pháp luật VN)"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/1/15/351signed-1768466928752975992498.pdf
+    quote: ''
+    verdict: inference
+    note: "Phép tính đúng: 22% × 2.200.000 = 484.000; 80% × 484.000 = 387.200. Nhưng giả định mức sàn BHXH tự nguyện tự đổi theo tiêu chí thu nhập 2.200.000 từ 1/1/2027 là suy ra; không có văn bản nào được mở khẳng định (NĐ 159 Điều 5 khoản 5 chỉ nói trường hợp 'thay đổi mức chuẩn hộ nghèo của khu vực nông thôn'). Nên gắn nhãn 'dự kiến, suy ra'."
+  - text: "Đóng đứt quãng thì chưa đủ điều kiện hưởng; phải đóng đều đủ 15 năm (steps[1], Bẫy 3)"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-so-41-2024-qh15-bao-hiem-xa-hoi-119240723163650489.htm
+    quote: 'Người lao động dừng đóng bảo hiểm xã hội tự nguyện mà chưa đủ điều kiện để hưởng lương hưu theo quy định tại Điều 98 hoặc chưa nhận bảo hiểm xã hội một lần theo quy định tại Điều 102 của Luật này hoặc chưa hưởng trợ cấp hằng tháng theo quy định tại Điều 23 của Luật này thì được bảo lưu thời gian đóng bảo hiểm xã hội.'
+    verdict: mismatch
+    note: "Điều 103 cho BẢO LƯU thời gian đóng khi dừng đóng; Điều 98 chỉ đòi 'có thời gian đóng bảo hiểm xã hội từ đủ 15 năm trở lên' (tổng thời gian cộng dồn, không đòi liên tục). Không có điều nào đòi đóng liên tục 15 năm. Mục viết 'Đóng đều ... đứt quãng thì chưa đủ điều kiện hưởng' dễ làm hiểu sai."
+  - text: "Tiền chỉ rút một lần trong các trường hợp luật định, không phải cứ thiếu tiền là rút (Chi phí)"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-so-41-2024-qh15-bao-hiem-xa-hoi-119240723163650489.htm
+    quote: 'Đối tượng quy định tại khoản 4 Điều 2 của Luật này mà có yêu cầu thì được hưởng bảo hiểm xã hội một lần nếu thuộc một trong các trường hợp sau đây: a) Đủ tuổi nghỉ hưu theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động nhưng có thời gian đóng bảo hiểm xã hội chưa đủ 15 năm mà không tiếp tục tham gia bảo hiểm xã hội. ... b) Ra nước ngoài để định cư; c) Người đang mắc một trong những bệnh ung thư, bại liệt, xơ gan mất bù, lao nặng, AIDS; d) Người có mức suy giảm khả năng lao động từ 81% trở lên; người khuyết tật đặc biệt nặng; đ) ...'
+    verdict: match
+    note: "Điều 102 khoản 1. Mục không dẫn điều này (không có legal_ref cho rút một lần). Khoản 1 điểm đ (đã đóng trước ngày Luật có hiệu lực, sau 12 tháng không đóng tiếp mà chưa đủ 20 năm) cũng cho rút; mục nói 'các trường hợp luật định' chung chung nên chấp nhận được."
+  - text: "Hoàn vốn khoảng 7,3 năm (nữ 15 năm), 8,25 năm (nam 15 năm), 9,78 năm (nam 20 năm) (Lợi ích)"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-so-41-2024-qh15-bao-hiem-xa-hoi-119240723163650489.htm
+    quote: ''
+    verdict: inference
+    note: "Tính toán, kiểm đúng số học: 22%×180=39,6 tháng thu nhập; 45%×12=5,4 → 7,33 năm; 40%×12=4,8 → 8,25 năm; 22%×240=52,8; /5,4 = 9,78 năm. Dựa trên Điều 99 (không phải 66), bỏ qua phần nhà nước hỗ trợ, chỉ số giá điều chỉnh lương hưu (Điều 67), và yêu cầu đủ tuổi nghỉ hưu; tiêu đề nói 'khoảng 8 năm' và 'hoàn vốn' là diễn giải không phải chữ luật."
+internal_checks:
+  - issue: "legal_refs Điều 64 và Điều 66 khoản 1 (và các dòng tương ứng trong Pháp luật VN, Nguồn) là điều của BHXH BẮT BUỘC; BHXH tự nguyện là Điều 98 (điều kiện hưởng) và Điều 99 khoản 1 (mức lương hưu). Con số khớp nhưng dẫn sai điều."
+    severity: error
+  - issue: "steps[1] và Bẫy 3: 'Đóng đều đủ 15 năm; đứt quãng thì chưa đủ điều kiện hưởng' không có trong Luật; Điều 98 đòi tổng thời gian đóng từ 15 năm, Điều 103 cho bảo lưu khi dừng đóng."
+    severity: error
+  - issue: "tldr/steps/title nói 'đủ 15 năm để có lương hưu' mà không nêu điều kiện bắt buộc đủ tuổi nghỉ hưu (Điều 98: đủ tuổi theo khoản 2 Điều 169 Bộ luật Lao động); chỉ ở Nói dễ hiểu có 'khi đủ tuổi'."
+    severity: warn
+  - issue: "Các con số 330.000, 264.000, 484.000, 387.200 nhất quán nội bộ và đúng tính toán (22% × 1.500.000 = 330.000; 80% = 264.000; 22% × 2.200.000 = 484.000; 80% = 387.200). Mức hỗ trợ 20% chỉ áp dụng cho 'các trường hợp khác'; tldr không nói 50/40/30% cho nhóm khác."
+    severity: warn
+  - issue: "legal_refs: Nghị định 07/2021/NĐ-CP Điều 3 có url: null, effective_from: null, quote: null; mục Nguồn không có link; NĐ 351 không chứa con số 1.500.000 (chỉ dẫn chiếu NĐ 07 Điều 3) nên cite 'NĐ 351 Điều 2 khoản 1' cho số 1.500.000 chưa đủ."
+    severity: warn
+  - issue: "Tiêu đề 'khoảng 8 năm là hoàn vốn' nhưng Lợi ích tính nữ 7,3 / nam 15 năm 8,25 / nam 20 năm 9,78; chấp nhận được nhưng nên nêu rõ giả định (không tính hỗ trợ, trượt giá, tuổi thọ)."
+    severity: warn
+  - issue: "Hưởng một lần: mục chỉ nói 'rút một lần trong các trường hợp luật định'; Bẫy 3 'phải đóng tiếp hoặc rút một lần' bỏ phương thức Điều 36 khoản 2 điểm e (đóng một lần cho thời gian còn thiếu để đủ 15 năm), giải pháp quan trọng cho người thiếu vài tháng/năm."
+    severity: warn
+validity:
+  doc: "Luật BHXH 41/2024/QH15; NĐ 159/2025/NĐ-CP; NĐ 351/2025/NĐ-CP; NĐ 07/2021/NĐ-CP"
+  in_force: unconfirmed
+  effective_from: "2025-07-01 (Luật và NĐ 159); 2026-02-15 (NĐ 351)"
+  amended_by: []
+  basis: "NĐ 159/2025: Điều 17 'có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025' (OCR trang 17). NĐ 351/2025: Điều 5 hiệu lực 15/2/2026, Công báo số 10 ngày 11/1/2026; NĐ 07/2021 Điều 3 hết hiệu lực từ 1/1/2027 theo Điều 2 khoản 1 NĐ 351 (và điều khoản kèm). Luật 41/2024: đọc toàn văn từ cổng chính phủ, không thấy ghi chú sửa đổi nhưng trang là bản đăng toàn văn ban đầu, không phải bản hợp nhất; không tra Công báo/vbpl.vn tình trạng hiệu lực và việc sửa đổi sau 7/2025 nên giữ unconfirmed."
+deliberate_vn_deviation: []
+potential_harm:
+  - "steps[1] và Bẫy 3 ('đóng đều đủ 15 năm; đứt quãng thì chưa đủ điều kiện hưởng') có thể khiến người có thu nhập bấp bênh tin rằng mỗi lần ngưng đóng là mất điều kiện, rồi vay mượn đóng gấp hoặc rút một lần sớm. Luật cho bảo lưu thời gian đóng (Điều 103) và cộng dồn đến đủ 15 năm; rút một lần làm mất thời gian đóng tích lũy cho lương hưu."
+suggested_edits:
+  - "Sửa legal_refs: thay 'Điều 64' bằng 'Điều 98' và 'Điều 66 khoản 1' bằng 'Điều 99 khoản 1' (Luật 41/2024/QH15); đồng bộ mục Pháp luật VN và Nguồn."
+  - "steps[1]: đổi thành 'Tích lũy đủ 15 năm đóng (cộng dồn, có thể gián đoạn; dừng đóng thì được bảo lưu theo Điều 103) và đủ tuổi nghỉ hưu mới được hưởng lương hưu'. Bẫy 3: bỏ 'đứt quãng là mất điều kiện'; thay bằng 'chưa đủ 15 năm thì chưa có lương hưu; thiếu thì đóng tiếp, đóng một lần cho thời gian còn thiếu (Điều 36 khoản 2 điểm e), hoặc bảo lưu, hoặc rút một lần nếu thuộc Điều 102'."
+  - "tldr/title: thêm 'và đủ tuổi nghỉ hưu'. Nêu rõ 20% là mức cho 'người tham gia khác'; nhóm nghèo/cận nghèo/dân tộc thiểu số được 50/40/30%."
+  - "Dòng 'từ 2027 sàn 484.000, thực nộp 387.200' gắn nhãn 'dự kiến, suy ra từ chuẩn nghèo mới' vì chưa có văn bản xác nhận; thêm URL bản chính thống NĐ 07/2021 Điều 3 cho con số 1.500.000."

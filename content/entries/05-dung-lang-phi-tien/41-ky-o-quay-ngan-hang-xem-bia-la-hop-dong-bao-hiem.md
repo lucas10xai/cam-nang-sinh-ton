@@ -14,17 +14,15 @@ evidence: B
 contested: false
 vn_class: vn_native
 rewrite_status: rewritten
-tldr: "Trước khi ký ở quầy ngân hàng, đọc tên đơn vị phát hành trên bìa: ghi công ty bảo hiểm thì đó không phải tiền gửi. Giấy tờ phải ghi bạn tham gia tự nguyện, không bị ép."
+tldr: "Trước khi ký ở quầy ngân hàng, đọc tên đơn vị phát hành trên bìa: ghi công ty bảo hiểm thì đó là hợp đồng bảo hiểm, không phải sổ tiết kiệm. Phần xác nhận phải ghi bạn tham gia tự nguyện, không bị ép."
 steps:
   - "Đọc tên đơn vị phát hành trên bìa và hỏi: \"giấy này của ngân hàng hay của công ty bảo hiểm\"."
   - "Kiểm tra giấy có chữ \"hợp đồng bảo hiểm\" hay không."
-  - "Đòi bảng minh họa quyền lợi, phí, và xác nhận việc tham gia là tự nguyện."
+  - "Kiểm tra phần xác nhận ghi bạn tham gia tự nguyện; với nhân thọ, đòi bảng minh họa quyền lợi, phí."
   - "Với người lớn tuổi, đi cùng và đọc bìa trước khi họ ký."
 legal_refs:
-  - { doc: "Thông tư 37/2019/TT-NHNN", article: "Điều 6 khoản 2 điểm a", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/03/37-nhnn.pdf", effective_from: "2020-03-02", checked_at: "2026-11-02", quote: null }
-  - { doc: "Thông tư 37/2019/TT-NHNN", article: "Điều 3 khoản 2", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/03/37-nhnn.pdf", effective_from: "2020-03-02", checked_at: "2026-11-02", quote: null }
-  - { doc: "Thông tư 67/2023/TT-BTC", article: "Điều 30 khoản 1", url: null, effective_from: null, checked_at: "2026-11-02", quote: null }
-  - { doc: "Thông tư 67/2023/TT-BTC", article: "Điều 29 khoản 4", url: null, effective_from: null, checked_at: "2026-11-02", quote: null }
+  - { doc: "Thông tư 67/2023/TT-BTC (bản dịch tiếng Anh của LuatVietnam)", article: "Điều 30 khoản 1", url: "https://english.luatvietnam.vn/bao-hiem/circular-67-2023-tt-btc-guiding-law-on-insurance-business-and-decree-46-2023-nd-cp-275550-d1.html", effective_from: null, checked_at: "2026-11-08", quote: "In the case where the insurance product is distributed by a corporate agent being a credit institution or foreign bank branch, the confirmation section must indicate that the policyholder purchases insurance on a voluntary basis, without being so coerced." }
+  - { doc: "Thông tư 67/2023/TT-BTC (bản dịch tiếng Anh của LuatVietnam)", article: "Điều 29 khoản 4", url: "https://english.luatvietnam.vn/bao-hiem/circular-67-2023-tt-btc-guiding-law-on-insurance-business-and-decree-46-2023-nd-cp-275550-d1.html", effective_from: null, checked_at: "2026-11-08", quote: "The sales illustration shall be signed off by the policyholder to confirm that he/she is adequately advised on and comprehend details of such sales illustration." }
 verification:
   status: unverified
   checked_at: null
@@ -43,7 +41,7 @@ tags: []
 
 ## Nói dễ hiểu
 
-Ngân hàng được bán bảo hiểm, nhưng phải nói rõ đó không phải sản phẩm của ngân hàng. Giấy tờ phải ghi bạn tham gia tự nguyện, không bị ép. Bìa ghi tên công ty bảo hiểm thì tiền đó không phải tiền gửi.
+Bìa ghi tên công ty bảo hiểm thì đó là hợp đồng bảo hiểm, không phải sổ tiết kiệm hay tiền gửi (suy ra từ thực tiễn, không phải chữ của luật). Khi ngân hàng làm đại lý bảo hiểm, phần xác nhận của người mua phải ghi việc tham gia là tự nguyện, không bị ép.
 
 ## Chi phí
 
@@ -52,32 +50,26 @@ Ngân hàng được bán bảo hiểm, nhưng phải nói rõ đó không phả
 
 ## Lợi ích
 
-Khi ngân hàng giới thiệu bảo hiểm, cần phân biệt rõ đó là sản phẩm của doanh nghiệp bảo hiểm, không phải tài khoản tiết kiệm hay sản phẩm tiền gửi của ngân hàng.
+Khi ngân hàng giới thiệu bảo hiểm, cần phân biệt rõ đó là sản phẩm của doanh nghiệp bảo hiểm, không phải tài khoản tiết kiệm.
 
-Đòi bảng minh họa quyền lợi, phí và xác nhận rằng việc tham gia là tự nguyện.
+Kiểm tra phần xác nhận tự nguyện. Với bảo hiểm nhân thọ, đòi bảng minh họa quyền lợi và phí.
 
 ## Pháp luật Việt Nam
 
-**Thông tư 37/2019/TT-NHNN** (hiệu lực 2/3/2020)
+**Thông tư 67/2023/TT-BTC** (đọc qua bản dịch tiếng Anh của LuatVietnam, chưa mở được bản tiếng Việt chính thống)
 
-- Tổ chức tín dụng phải "giải thích cho khách hàng các sản phẩm bảo hiểm được phân phối thông qua tổ chức tín dụng **không phải là sản phẩm của tổ chức tín dụng**" (Điều 6 khoản 2 điểm a, Thông tư 37/2019/TT-NHNN).
-- Không được dùng phí bảo hiểm thu được cho mục đích khác ngoài thỏa thuận trong hợp đồng đại lý (Điều 3 khoản 2, Thông tư 37/2019/TT-NHNN).
-
-**Thông tư 67/2023/TT-BTC**
-
-- Khi tham gia bảo hiểm qua đại lý là tổ chức tín dụng, phần xác nhận của người mua **phải có thêm nội dung tham gia trên cơ sở tự nguyện, không bị ép buộc** (Điều 30 khoản 1, Thông tư 67/2023/TT-BTC).
-- Tài liệu minh họa bán hàng phải có xác nhận của người mua là đã được tư vấn đầy đủ và hiểu rõ nội dung (Điều 29 khoản 4, Thông tư 67/2023/TT-BTC).
+- Khi sản phẩm bảo hiểm được phân phối bởi đại lý là tổ chức tín dụng, phần xác nhận phải ghi người mua tham gia bảo hiểm trên cơ sở tự nguyện, không bị ép buộc (Điều 30 khoản 1, Thông tư 67/2023/TT-BTC).
+- Tài liệu minh họa bán hàng (Điều 29, áp dụng cho sản phẩm bảo hiểm nhân thọ) phải được người mua ký xác nhận đã được tư vấn đầy đủ và hiểu rõ nội dung (Điều 29 khoản 4).
 
 ## Ghi chú
 
 Ba bẫy.
 
-- **Bẫy 1: "em gửi cho chị gói này lãi cao hơn tiết kiệm".** Đây là chỗ tráo hàng. Hỏi tên đơn vị phát hành, và đòi xem giấy có chữ "hợp đồng bảo hiểm" hay không.
-- **Bẫy 2: tiền đã đóng phí không nằm trong sổ tiết kiệm.** Muốn lấy lại chỉ nhận giá trị hoàn lại, và chỉ trong 21 ngày đầu mới gần như đủ (xem [mục 40](05-dung-lang-phi-tien.md#entry-hop-dong-bao-hiem-tren-mot-nam-co-21-ngay-can-nhac)).
-- **Bẫy 3: người lớn tuổi bị đẩy mạnh nhất.** Hãy đi cùng và đọc bìa trước khi họ ký, đừng để họ tự ký rồi về nhà mới đưa giấy cho xem.
+- **Bẫy 1: "em gửi cho chị gói này lãi cao hơn tiết kiệm".** Đây là chỗ dễ bị tráo hàng. Hỏi tên đơn vị phát hành, và đòi xem giấy có chữ "hợp đồng bảo hiểm" hay không.
+- **Bẫy 2: tiền đã đóng phí không nằm trong sổ tiết kiệm.** Muốn rút lại thì xem điều kiện hoàn phí; trong hạn cân nhắc, phí được hoàn sau khi trừ chi phí hợp lý (xem [mục 40](05-dung-lang-phi-tien.md#entry-hop-dong-bao-hiem-tren-mot-nam-co-21-ngay-can-nhac)).
+- **Bẫy 3: người lớn tuổi dễ bị thuyết phục.** Hãy đi cùng và đọc bìa trước khi họ ký, đừng để họ tự ký rồi về nhà mới đưa giấy cho xem.
 - **Đừng hiểu ngược.** Ngân hàng bán bảo hiểm không có nghĩa là mọi thứ ở quầy đều là bảo hiểm: tiền gửi thật vẫn có. Việc cần làm là đọc tên đơn vị phát hành, không phải từ chối mọi giao dịch ở quầy.
 
 ## Nguồn
 
-- Thông tư 37/2019/TT-NHNN, Điều 3 khoản 2 và Điều 6 khoản 2 điểm a; hiệu lực 2/3/2020; bản ký: <https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/03/37-nhnn.pdf> (tra 2/11/2026).
-- Thông tư 67/2023/TT-BTC, Điều 29 khoản 4 và Điều 30 khoản 1, bản ký (OCR, tra 2/11/2026).
+- Thông tư 67/2023/TT-BTC, Điều 29 khoản 4 và Điều 30 khoản 1, bản dịch tiếng Anh của LuatVietnam: <https://english.luatvietnam.vn/bao-hiem/circular-67-2023-tt-btc-guiding-law-on-insurance-business-and-decree-46-2023-nd-cp-275550-d1.html> (tra 8/11/2026).

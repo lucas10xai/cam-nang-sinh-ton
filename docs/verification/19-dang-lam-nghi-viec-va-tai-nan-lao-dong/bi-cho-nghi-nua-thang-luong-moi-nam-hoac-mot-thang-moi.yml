@@ -1,0 +1,101 @@
+id: bi-cho-nghi-nua-thang-luong-moi-nam-hoac-mot-thang-moi
+checker: agent-V3a19aA
+checked_at: 2026-11-08
+content_sha256: 5f551902e581058837a5f1cc5d5a83ca5867995f340fd0d95a3ec7ba79cafbad
+result: pass-with-edits
+claims:
+  - text: "Trợ cấp thôi việc: nửa tháng lương mỗi năm cho người làm thường xuyên từ đủ 12 tháng khi hợp đồng chấm dứt theo khoản 1, 2, 3, 4, 6, 7, 9, 10 Điều 34; trừ người đủ điều kiện hưởng lương hưu và người tự ý bỏ việc từ 05 ngày làm việc liên tục"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: Khi hợp đồng lao động chấm dứt theo quy định tại các khoản 1, 2, 3, 4, 6, 7, 9 và 10 Điều 34 của Bộ luật này thì người sử dụng lao động có trách nhiệm trả trợ cấp thôi việc cho người lao động đã làm việc thường xuyên cho mình từ đủ 12 tháng trở lên, mỗi năm làm việc được trợ cấp một nửa tháng tiền lương, trừ trường hợp đủ điều kiện hưởng lương hưu theo quy định của pháp luật về bảo hiểm xã hội và trường hợp quy định tại điểm e khoản 1 Điều 36 của Bộ luật này.
+    verdict: match
+    note: BLLĐ Điều 46 khoản 1.
+  - text: Thời gian tính trợ cấp là tổng thời gian làm việc thực tế trừ thời gian đã tham gia bảo hiểm thất nghiệp và thời gian đã được trả trợ cấp; lương tính là bình quân 06 tháng liền kề
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: Thời gian làm việc để tính trợ cấp thôi việc là tổng thời gian người lao động đã làm việc thực tế cho người sử dụng lao động trừ đi thời gian người lao động đã tham gia bảo hiểm thất nghiệp theo quy định của pháp luật về bảo hiểm thất nghiệp và thời gian làm việc đã được người sử dụng lao động chi trả trợ cấp thôi việc, trợ cấp mất việc làm. | Tiền lương để tính trợ cấp thôi việc là tiền lương bình quân của 06 tháng liền kề theo hợp đồng lao động trước khi người lao động thôi việc.
+    verdict: match
+    note: BLLĐ Điều 46 khoản 2, 3.
+  - text: "Trợ cấp mất việc làm: 01 tháng lương mỗi năm, ít nhất 02 tháng, khi mất việc theo khoản 11 Điều 34"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: Người sử dụng lao động trả trợ cấp mất việc làm cho người lao động đã làm việc thường xuyên cho mình từ đủ 12 tháng trở lên mà bị mất việc làm theo quy định tại khoản 11 Điều 34 của Bộ luật này, cứ mỗi năm làm việc trả 01 tháng tiền lương nhưng ít nhất bằng 02 tháng tiền lương.
+    verdict: match
+    note: 'BLLĐ Điều 47 khoản 1. Điều 34 khoản 11: "cho người lao động thôi việc theo quy định tại Điều 42 và Điều 43".'
+  - text: Mức sàn 02 tháng chỉ áp dụng khi thời gian làm việc để tính trợ cấp mất việc làm ít hơn 24 tháng
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2020/12/32732/33806-1-20201203-1204145-2020-nd-cp.pdf
+    quote: Trường hợp người lao động có thời gian làm việc thường xuyên cho người sử dụng lao động từ đủ 12 tháng trở lên mất việc làm nhưng thời gian làm việc để tính trợ cấp mất việc làm quy định tại khoản 3 Điều này ít hơn 24 tháng thì người sử dụng lao động có trách nhiệm chi trả trợ cấp mất việc làm cho người lao động ít nhất bằng 02 tháng tiền lương.
+    verdict: match
+    note: NĐ 145/2020 Điều 8 khoản 2.
+  - text: "Ví dụ: người làm 10 năm nhưng 8 năm đã đóng bảo hiểm thất nghiệp vẫn có thể rơi vào diện sàn"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2020/12/32732/33806-1-20201203-1204145-2020-nd-cp.pdf
+    quote: thời gian làm việc để tính trợ cấp mất việc làm quy định tại khoản 3 Điều này ít hơn 24 tháng
+    verdict: mismatch
+    note: 'Ví dụ không đúng ngưỡng: 10 − 8 = 02 năm = 24 tháng, không "ít hơn 24 tháng" nên không rơi vào diện sàn. Chỉ khi thời gian tính trợ cấp dưới 24 tháng (ví dụ 10 năm với 8,5 năm đóng) mới vào diện sàn.'
+  - text: "Thời gian làm việc thực tế gồm thử việc, nghỉ ốm đau/thai sản BHXH, TNLĐ mà được trả lương, nghỉ hằng tuần/nghỉ hưởng nguyên lương, ngừng việc không do lỗi NLĐ; làm tròn: tháng lẻ ≤ 06 tháng tính 1/2 năm, trên 06 tháng tính 01 năm"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2020/12/32732/33806-1-20201203-1204145-2020-nd-cp.pdf
+    quote: "Tổng thời gian người lao động đã làm việc thực tế cho người sử dụng lao động bao gồm: thời gian người lao động đã trực tiếp làm việc; thời gian thử việc; thời gian được người sử dụng lao động cử đi học; thời gian nghỉ hưởng chế độ ốm đau, thai sản theo quy định của pháp luật về bảo hiểm xã hội; ... thời gian ngừng việc không do lỗi của người lao động; ... | trường hợp có tháng lẻ ít hơn hoặc bằng 06 tháng được tính bằng 1/2 năm, trên 06 tháng được tính bằng 01 năm làm việc."
+    verdict: match
+    note: "NĐ 145/2020 Điều 8 khoản 3 điểm a, c; điểm b còn gồm cả thời gian không phải tham gia BHTN nhưng được trả khoản tương đương. Điều 8 khoản 5 điểm a: lương bình quân 06 tháng liền kề."
+  - text: Hai bên thanh toán đầy đủ trong 14 ngày làm việc kể từ ngày chấm dứt hợp đồng; kéo dài không quá 30 ngày trong bốn trường hợp
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: "Trong thời hạn 14 ngày làm việc kể từ ngày chấm dứt hợp đồng lao động, hai bên có trách nhiệm thanh toán đầy đủ các khoản tiền có liên quan đến quyền lợi của mỗi bên, trừ trường hợp sau đây có thể kéo dài nhưng không được quá 30 ngày: a) Người sử dụng lao động không phải là cá nhân chấm dứt hoạt động; b) Người sử dụng lao động thay đổi cơ cấu, công nghệ hoặc vì lý do kinh tế; c) Chia, tách, hợp nhất, sáp nhập; bán, cho thuê, chuyển đổi loại hình doanh nghiệp; ... d) Do thiên tai, hỏa hoạn, địch họa hoặc dịch bệnh nguy hiểm."
+    verdict: match
+    note: BLLĐ Điều 48 khoản 1.
+  - text: Người sử dụng lao động phải hoàn thành xác nhận thời gian đóng BHXH, BHTN, trả lại bản chính giấy tờ, cung cấp bản sao tài liệu nếu NLĐ yêu cầu
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: Hoàn thành thủ tục xác nhận thời gian đóng bảo hiểm xã hội, bảo hiểm thất nghiệp và trả lại cùng với bản chính giấy tờ khác nếu người sử dụng lao động đã giữ của người lao động; b) Cung cấp bản sao các tài liệu liên quan đến quá trình làm việc của người lao động nếu người lao động có yêu cầu.
+    verdict: match
+    note: BLLĐ Điều 48 khoản 3.
+  - text: Quyền khởi kiện chỉ có 01 năm
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động cá nhân là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm.
+    verdict: partial
+    note: BLLĐ Điều 190 khoản 3. Đúng với Tòa án; mục không nhắc thời hiệu yêu cầu hòa giải viên 06 tháng (khoản 1) và Hội đồng trọng tài 09 tháng (khoản 2), và khoản 4 về bất khả kháng. Tranh chấp trợ cấp khi chấm dứt hợp đồng không bắt buộc qua hòa giải (Điều 188 khoản 1 điểm b) nên "01 năm" là mốc đúng cho đường này.
+  - text: "Không trả/trả không đủ trợ cấp thôi việc, trợ cấp mất việc làm; không thực hiện đúng thời hạn thanh toán: phạt 1–2 triệu (1–10 người)"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/28/470103-1785229247_v1_1785229756_signed.pdf
+    quote: không thực hiện đúng quy định về thời hạn thanh toán các khoản về quyền lợi của người lao động khi chấm dứt hợp đồng lao động; không trả hoặc trả không đủ tiền trợ cấp thôi việc cho người lao động theo quy định của pháp luật; không trả hoặc trả không đủ tiền trợ cấp mất việc làm cho người lao động theo quy định của pháp luật; ... a) Từ 1.000.000 đồng đến 2.000.000 đồng đối với vi phạm từ 01 người đến 10 người lao động;
+    verdict: match
+    note: "NĐ 283 Điều 18 khoản 2 điểm a. Các bậc cao hơn: 11–50: 2–5tr; 51–100: 5–10tr; 101–300: 10–15tr; từ 301: 15–20tr."
+  - text: Buộc trả đủ trợ cấp cộng lãi tính theo lãi suất tiền gửi không kỳ hạn cao nhất của NHTM nhà nước; buộc hoàn thành thủ tục xác nhận và trả lại giấy tờ
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/28/470103-1785229247_v1_1785229756_signed.pdf
+    quote: a) Buộc người sử dụng lao động trả đủ tiền trợ cấp thôi việc hoặc trợ cấp mất việc làm cho người lao động cộng với khoản tiền lãi của số tiền chưa trả tính theo mức lãi suất tiền gửi không kỳ hạn cao nhất của các ngân hàng thương mại nhà nước công bố tại thời điểm xử phạt ...; b) Buộc người sử dụng lao động hoàn thành thủ tục xác nhận và trả lại những giấy tờ khác đã giữ của người lao động
+    verdict: match
+    note: NĐ 283 Điều 18 khoản 4 điểm a, b.
+  - text: Mức phạt trong nghị định là của cá nhân; doanh nghiệp gấp đôi
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/28/470103-1785229247_v1_1785229756_signed.pdf
+    quote: Mức phạt tiền đối với tổ chức bằng 02 lần mức phạt tiền đối với cá nhân.
+    verdict: match
+    note: NĐ 283 Điều 7 khoản 1; Điều 18 không thuộc danh sách ngoại lệ.
+  - text: 'Bẫy 3: "Mốc 14 ngày là mốc tính lãi và tính vi phạm"'
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/28/470103-1785229247_v1_1785229756_signed.pdf
+    quote: Buộc người sử dụng lao động trả đủ tiền trợ cấp thôi việc hoặc trợ cấp mất việc làm cho người lao động cộng với khoản tiền lãi của số tiền chưa trả tính theo mức lãi suất tiền gửi không kỳ hạn cao nhất của các ngân hàng thương mại nhà nước công bố tại thời điểm xử phạt
+    verdict: inference
+    note: 'Điều 48 khoản 1 là mốc hạn thanh toán (vi phạm thời hạn bị phạt theo Điều 18 khoản 2 NĐ 283), đúng. Nhưng không có điều nào nói 14 ngày là mốc "tính lãi": NĐ 283 chỉ buộc trả lãi của "số tiền chưa trả" theo lãi suất tại thời điểm xử phạt, không nêu ngày bắt đầu.'
+  - text: 'Lead/tldr: "Làm đủ 12 tháng rồi nghỉ: trợ cấp thôi việc nửa tháng lương mỗi năm"'
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf
+    quote: Khi hợp đồng lao động chấm dứt theo quy định tại các khoản 1, 2, 3, 4, 6, 7, 9 và 10 Điều 34 ... | Không được trợ cấp thôi việc.
+    verdict: partial
+    note: 'BLLĐ Điều 46 khoản 1 + Điều 40 khoản 1: người lao động đơn phương chấm dứt trái pháp luật "Không được trợ cấp thôi việc"; Điều 34 khoản 8 (sa thải) không nằm trong danh sách có trợ cấp. Nói dễ hiểu "làm đủ 12 tháng rồi nghỉ" bỏ các điều kiện này (thân bài có hưu và bỏ việc 05 ngày, chưa có Điều 40/sa thải).'
+internal_checks:
+  - issue: 'Bẫy 3: "Mốc 14 ngày là mốc tính lãi và tính vi phạm" — không có căn cứ trong nguồn (xem claim): Điều 48.1 chỉ là hạn thanh toán; lãi do NĐ 283 buộc trả theo lãi suất tại thời điểm xử phạt, không có ngày bắt đầu 14.'
+    severity: warn
+  - issue: 'Bẫy 2 / Pháp luật Việt Nam ví dụ "10 năm nhưng 8 năm BHTN vẫn có thể rơi vào diện sàn": 02 năm = 24 tháng, không "ít hơn 24 tháng" của NĐ 145 Điều 8 khoản 2. Ví dụ sai ngưỡng.'
+    severity: error
+  - issue: 'Chi phí nêu "Con số phạt nhỏ hơn nhiều so với khoản trợ cấp, nên riêng mức phạt khó khiến người sử dụng lao động tự trả" là nhận định không nguồn; Nói dễ hiểu/tldr chưa nêu điều kiện loại trừ: Điều 40 khoản 1 (NLĐ đơn phương trái luật không có trợ cấp), sa thải, hưu (thân bài chỉ nhắc hưu và bỏ việc 05 ngày).'
+    severity: warn
+  - issue: Step 5 "Nhớ quyền khởi kiện chỉ có 01 năm" chỉ đúng với Tòa án; Điều 190 còn mốc 06 tháng (hòa giải viên), 09 tháng (trọng tài). Mục 01 nói "6 tháng" cho hòa giải viên; không mâu thuẫn nhưng cần nêu rõ loại thủ tục.
+    severity: warn
+  - issue: Số liệu tldr/steps (nửa tháng, 01 tháng, 02 tháng, 14 ngày làm việc, 06 tháng, 01 năm) đều có trong thân và khớp nhau. legal_refs url đúng văn bản (VBHN 18, NĐ 145, NĐ 283). legal_refs ghi NĐ 145 Điều 8 khoản 2, 3, 5 khớp.
+    severity: warn
+validity:
+  doc: BLLĐ 45/2019/QH14 (VBHN 18), Nghị định 145/2020/NĐ-CP (Điều 8), Nghị định 283/2026/NĐ-CP
+  in_force: unconfirmed
+  effective_from: 2021-01-01 (BLLĐ); 2021-02-01 (NĐ 145); 2026-09-10 (NĐ 283)
+  amended_by:
+    - "NĐ 145/2020: bản thứ cấp cho biết chỉ có sửa đổi lẻ ở Điều 4, 31, 62; chưa xác minh từ nguồn chính thống rằng Điều 8 chưa bị sửa"
+  basis: "BLLĐ và NĐ 283: như báo cáo mục 01 (VBHN 18 ký 05/03/2026; NĐ 283 hiệu lực 10/9/2026). NĐ 145/2020 Điều 8: đọc được trong PDF Công báo 1203+1204; chưa có nguồn chính thống nói không bị sửa/thay (ô quan hệ văn bản trên Công báo là [0]) nên ghi unconfirmed."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - 'Sửa ví dụ ở Pháp luật Việt Nam (Hướng dẫn chi tiết): đổi thành "Người làm 10 năm nhưng 8,5 năm đã đóng bảo hiểm thất nghiệp còn 18 tháng tính trợ cấp, nên được sàn 02 tháng" (dựa vào quote "ít hơn 24 tháng"), hoặc bỏ ví dụ.'
+  - 'Bẫy 3: thay "Mốc 14 ngày là mốc tính lãi và tính vi phạm" bằng "Quá 14 ngày làm việc (hoặc tối đa 30 ngày trong bốn trường hợp) là vi phạm thời hạn thanh toán (Điều 48 khoản 1; NĐ 283 Điều 18 khoản 2); lãi tính trên số tiền chưa trả theo mức lãi suất tại thời điểm xử phạt (Điều 18 khoản 4 điểm a)".'
+  - 'Nói dễ hiểu và tldr: thay "Làm đủ 12 tháng rồi nghỉ" bằng "Khi hợp đồng chấm dứt theo các khoản 1, 2, 3, 4, 6, 7, 9, 10 Điều 34 (không gồm sa thải)"; thêm Điều 40 khoản 1: người lao động đơn phương chấm dứt trái pháp luật không được trợ cấp thôi việc.'
+  - 'Step 5: viết "thời hiệu yêu cầu Tòa án là 01 năm, hòa giải viên lao động 06 tháng, trọng tài 09 tháng kể từ ngày phát hiện ra hành vi (Điều 190)".'

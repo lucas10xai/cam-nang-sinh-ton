@@ -71,6 +71,7 @@ Theo `docs/PHASE1.md`. Ngưỡng ở `config.json` (`rewritten`). Với mục re
 
 Ghi chú:
 - Số trong `tldr`/`steps` dùng lại bộ chuẩn hóa của `numbers` (`1,5 triệu` khớp `1.500.000 đồng`; bỏ qua số điều khoản, số hiệu văn bản, ngày, số điện thoại bắt đầu bằng 0). Khác `numbers`: **không** bỏ qua số nhỏ, năm hay 113/114/115; mọi số còn lại phải có trong thân (kể cả `## Nguồn`). Chỉ so theo giá trị, không biết số viết bằng chữ.
+- Token nguyên khối trong `tldr`/`steps`: **ngày** `D/M/YYYY` và `D/M`, **số hiệu** `N/YYYY[/…]` (ví dụ `284/2026/NĐ-CP`, `45/2019/QH14`, `283/2026`) không bị tách thành số rời. Ngày khớp nguyên cụm; ngày dạng "6 tháng 10 năm 2026" trong thân khớp "6/10/2026"; `D/M` khớp `D/M` của mọi ngày trong thân. Số hiệu ghi tắt (`284/2026`) khớp nếu thân có số hiệu đầy đủ bắt đầu bằng cụm đó; ngược lại (tldr đầy đủ, thân ngắn hơn) hoặc sai số/năm thì lỗi. Số đứng riêng (`2026`, `50 triệu`) vẫn kiểm theo giá trị và không khớp qua số hiệu/ngày.
 - Đếm chữ = số chuỗi cách nhau bởi khoảng trắng có chứa chữ hoặc số (URL bị bỏ).
 - Trạng thái xác minh cao hơn `unverified` mà thiếu `checked_at`/`sources` do check `verification` (mọi mục).
 

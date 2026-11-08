@@ -14,7 +14,7 @@ evidence: B
 contested: false
 vn_class: vn_native
 rewrite_status: rewritten
-tldr: "Chạy lên vỉa hè, đi ngược chiều đường một chiều, vượt đèn đỏ đều bị phạt 4 đến 6 triệu đồng. Mỗi lỗi còn bị trừ 2 đến 6 điểm bằng lái."
+tldr: "Chạy lên vỉa hè, đi ngược chiều đường một chiều, không chấp hành đèn tín hiệu (như vượt đèn đỏ) đều bị phạt 4 đến 6 triệu đồng. Mỗi lỗi còn bị trừ 2 đến 6 điểm bằng lái."
 steps:
   - "Đi đúng chiều và không chạy lên vỉa hè, trừ khi qua vỉa hè để vào nhà, cơ quan."
   - "Dừng chờ đèn đỏ, kể cả lúc vắng."
@@ -42,7 +42,7 @@ tags: []
 
 ## Nói dễ hiểu
 
-Xe máy chạy lên vỉa hè hoặc đi ngược chiều đường một chiều bị phạt 4 đến 6 triệu đồng và trừ 2 điểm. Vượt đèn đỏ cũng 4 đến 6 triệu đồng và trừ 4 điểm. Đi vào đường cao tốc bị trừ 6 điểm.
+Xe máy chạy lên vỉa hè hoặc đi ngược chiều đường một chiều bị phạt 4 đến 6 triệu đồng và trừ 2 điểm. Không chấp hành hiệu lệnh của đèn tín hiệu giao thông, như vượt đèn đỏ, cũng 4 đến 6 triệu đồng và trừ 4 điểm. Đi vào đường cao tốc bị trừ 6 điểm.
 
 ## Chi phí
 
@@ -72,10 +72,11 @@ Một lần "đi tắt" có thể tốn 4 đến 6 triệu đồng và làm bằ
 - Mục này chỉ lấy các lỗi hay gặp nhất trong khoản 7 và 8. Nghị định còn nhiều hành vi khác.
 - **Hai ngoại lệ ghi rõ trong khoản 7.** Được chạy qua vỉa hè để vào nhà hoặc cơ quan. Xe ưu tiên đang làm nhiệm vụ khẩn cấp được đi ngược chiều.
 - **Bẫy 1: "chỉ chạy lên vỉa hè một đoạn ngắn".** Vẫn là lỗi. Ngoại lệ chỉ áp dụng cho việc vào nhà, cơ quan.
-- **Bẫy 2: vượt đèn đỏ lúc vắng.** Nghĩ không sao. Không có ngoại lệ cho giờ vắng trong văn bản.
+- **Bẫy 2: vượt đèn đỏ lúc vắng.** Nghĩ không sao. Lỗi trong nghị định là "không chấp hành hiệu lệnh của đèn tín hiệu giao thông", không có ngoại lệ cho giờ vắng.
 - **Bẫy 3: nghĩ chỉ mất tiền.** Mỗi lỗi nói trên còn bị trừ điểm bằng lái (xem [mục 3](36-xe-may-va-duong-pho.md#entry-bang-lai-co-12-diem-moi-loi-bi-tru-diem-12-thang)).
 - Rượu bia đã có [chương 8 mục 7](08-dung-tu-chuoc-hoa-vao-than.md#entry-da-uong-thi-khong-cam-lai-ke-ca-xe-may-dien-va) (đã uống rượu bia). Không nhắc lại cách tính.
 - Mục này không có thống kê tai nạn theo lỗi.
+- Nghị định 168/2024/NĐ-CP có hiệu lực từ 01/01/2025 (Điều 53 khoản 1). Chưa xác định được Nghị định 336/2025/NĐ-CP (hiệu lực 01/03/2026) có sửa Điều 7 hay không, nên đối chiếu bản hiện hành trước khi nộp phạt.
 
 ## Nguồn
 

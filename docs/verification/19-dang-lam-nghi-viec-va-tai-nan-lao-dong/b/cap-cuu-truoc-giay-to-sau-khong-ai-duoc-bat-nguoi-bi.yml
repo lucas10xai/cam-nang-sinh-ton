@@ -1,0 +1,93 @@
+id: cap-cuu-truoc-giay-to-sau-khong-ai-duoc-bat-nguoi-bi
+checker: agent-V3b19cB
+checked_at: 2026-11-08
+content_sha256: 2b174ae556cbd736e3571d64bca05f667e747966c513baa3547895f77f2fcf8d
+result: pass-with-edits
+claims:
+  - text: NSDLĐ phải kịp thời sơ cứu, cấp cứu và tạm ứng chi phí sơ cứu, cấp cứu, điều trị (Điều 38.1)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: 1. Kịp thời sơ cứu, cấp cứu cho người lao động bị tai nạn lao động và phải tạm ứng chi phí sơ cứu, cấp cứu và điều trị cho người lao động bị tai nạn lao động hoặc bệnh nghề nghiệp;
+    verdict: match
+    note: ""
+  - text: "NSDLĐ thanh toán chi phí y tế từ sơ cứu đến điều trị ổn định: đồng chi trả + ngoài danh mục BHYT (có thẻ), toàn bộ (không thẻ) (Điều 38.2)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: "2. Thanh toán chi phí y tế từ khi sơ cứu, cấp cứu đến khi điều trị ổn định cho người bị tai nạn lao động hoặc bệnh nghề nghiệp như sau: a) Thanh toán phần chi phí đồng chi trả và những chi phí không nằm trong danh mục do bảo hiểm y tế chi trả đối với người lao động tham gia bảo hiểm y tế; [...] c) Thanh toán toàn bộ chi phí y tế đối với người lao động không tham gia bảo hiểm y tế;"
+    verdict: match
+    note: tldr viết gọn "thanh toán chi phí y tế" nhưng thân bài nêu đúng điều kiện.
+  - text: NSDLĐ trả đủ lương trong thời gian điều trị, phục hồi chức năng (Điều 38.3)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: 3. Trả đủ tiền lương cho người lao động bị tai nạn lao động, bệnh nghề nghiệp phải nghỉ việc trong thời gian điều trị, phục hồi chức năng lao động;
+    verdict: match
+    note: ""
+  - text: Hạn trả bồi thường là 05 ngày sau kết luận giám định (tldr; Điều 38.7)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: 7. Thực hiện bồi thường, trợ cấp đối với người bị tai nạn lao động, bệnh nghề nghiệp trong thời hạn 05 ngày, kể từ ngày có kết luận của Hội đồng giám định y khoa về mức suy giảm khả năng lao động hoặc kể từ ngày Đoàn điều tra tai nạn lao động công bố biên bản điều tra tai nạn lao động đối với các vụ tai nạn lao động chết người;
+    verdict: partial
+    note: Tldr và thân bài chỉ nói "sau kết luận giám định"; với vụ chết người mốc là ngày Đoàn điều tra công bố biên bản (mục 19-11 và 19-15 nói đúng).
+  - text: Người biết sự việc báo ngay cho người phụ trách trực tiếp, không cần giấy (Điều 34.1.a)
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: a) Khi xảy ra hoặc có nguy cơ xảy ra tai nạn lao động, sự cố kỹ thuật gây mất an toàn, vệ sinh lao động tại nơi làm việc thì người bị tai nạn hoặc người biết sự việc phải báo ngay cho người phụ trách trực tiếp, người sử dụng lao động biết để kịp thời có biện pháp xử lý, khắc phục hậu quả xảy ra;
+    verdict: match
+    note: Câu "không đòi một tờ giấy nào" là diễn giải của mục, luật chỉ nói "báo ngay".
+  - text: Từ chối hoặc cố ý chậm cấp cứu người bệnh là hành vi bị nghiêm cấm (Luật KCB Điều 7.2)
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-15-2023-qh15-38900.htm
+    quote: 2. Từ chối hoặc cố ý chậm cấp cứu người bệnh, trừ trường hợp quy định tại Điều 40 của Luật này.
+    verdict: match
+    note: Tldr "bệnh viện không được từ chối cấp cứu" bỏ vế "trừ Điều 40"; thân bài có nêu Điều 40 khoản 1 nên chỉ cần đồng bộ câu tldr.
+  - text: Dù từ chối vì vượt khả năng/ngoài phạm vi, vẫn phải sơ cứu, cấp cứu cho đến khi người bệnh được tiếp nhận hoặc chuyển đi (Điều 40.1)
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-15-2023-qh15-38900.htm
+    quote: 1. Tiên lượng tình trạng bệnh vượt quá khả năng hoặc không thuộc phạm vi hành nghề của mình nhưng phải giới thiệu người bệnh đến người hành nghề khác hoặc cơ sở khám bệnh, chữa bệnh khác phù hợp để khám bệnh, chữa bệnh và phải thực hiện việc sơ cứu, cấp cứu, theo dõi, chăm sóc, điều trị người bệnh cho đến khi người bệnh được người hành nghề khác tiếp nhận hoặc chuyển đi cơ sở khám bệnh, chữa bệnh khác;
+    verdict: match
+    note: ""
+  - text: 'Định nghĩa "người bệnh không có thân nhân", điểm a: cấp cứu không giấy tờ tùy thân, không thân nhân, không thông tin liên lạc. Mục trích là "Điều 3 khoản 10"'
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-15-2023-qh15-38900.htm
+    quote: "10. Người bệnh không có thân nhân là người thuộc một trong các trường hợp sau đây: a) Người bệnh đang trong tình trạng cấp cứu không có giấy tờ tùy thân, không có thân nhân đi cùng, không có thông tin để liên lạc với thân nhân;"
+    verdict: mismatch
+    note: 'Nội dung đúng nhưng số điều SAI: đây là Điều 2 khoản 10 (Giải thích từ ngữ) của Luật 15/2023/QH15. Điều 3 là "Nguyên tắc trong khám bệnh, chữa bệnh". Sai ở legal_refs, thân bài và mục Nguồn.'
+  - text: Phạt 2-4 triệu đồng/người lao động, tối đa 75 triệu, với NSDLĐ không kịp thời sơ cứu/cấp cứu, không tạm ứng, không thanh toán toàn bộ chi phí (người không BHYT) (ND 283/2026 Điều 34.1.a, c)
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "1. Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng khi vi phạm đối với mỗi người lao động nhưng tối đa không quá 75.000.000 đồng đối với người sử dụng lao động có một trong các hành vi sau đây: a) Không kịp thời sơ cứu hoặc cấp cứu cho người lao động bị tai nạn lao động; [...] c) Không tạm ứng chi phí sơ cứu, chi phí cấp cứu hoặc không thanh toán toàn bộ chi phí y tế từ khi sơ cứu, cấp cứu đến khi điều trị ổn định đối với người lao động bị tai nạn lao động, bệnh nghề nghiệp không tham gia bảo hiểm y tế;"
+    verdict: match
+    note: Văn bản lấy từ DOCX tải trên trang Công báo số 448.
+  - text: "Điểm e: phạt cả hành vi thực hiện không đúng thời hạn việc bồi thường, trợ cấp (ND 283/2026 Điều 34.1.e)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: e) Không thực hiện hoặc thực hiện không đủ hoặc thực hiện không đúng thời hạn việc bồi thường hoặc chế độ trợ cấp cho người lao động bị tai nạn lao động, bệnh nghề nghiệp theo quy định của pháp luật.
+    verdict: match
+    note: ""
+  - text: "Bước 3: yêu cầu công ty tạm ứng bằng tin nhắn ghi số tiền và tên người nhận; Bẫy 3: cấp cứu trước, không chờ tiền của công ty"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf
+    quote: 1. Kịp thời sơ cứu, cấp cứu cho người lao động bị tai nạn lao động và phải tạm ứng chi phí sơ cứu, cấp cứu và điều trị cho người lao động bị tai nạn lao động hoặc bệnh nghề nghiệp;
+    verdict: inference
+    note: Nghĩa vụ tạm ứng có trong luật; cách làm bằng tin nhắn là lời khuyên thực hành, không có trong nguồn.
+  - text: 'Bước 1/2: tới cơ sở cấp cứu gần nhất ngay, không chờ công ty cử người hay ký giấy; nói ở cửa khoa "giấy tờ và thẻ BHYT sẽ bổ sung sau"'
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-15-2023-qh15-38900.htm
+    quote: 2. Từ chối hoặc cố ý chậm cấp cứu người bệnh, trừ trường hợp quy định tại Điều 40 của Luật này.
+    verdict: inference
+    note: Luật cấm từ chối/chậm cấp cứu và có điều khoản người bệnh cấp cứu không giấy tờ; nhưng luật KCB 15/2023 không viết câu "chưa có thẻ BHYT vẫn được tiếp nhận" như mục. Cách nói ở cửa khoa là lời khuyên.
+internal_checks:
+  - issue: 'Trích sai số điều: định nghĩa "người bệnh không có thân nhân" nằm ở Điều 2 khoản 10 Luật KCB 15/2023/QH15, mục ghi Điều 3 khoản 10 (legal_refs, thân bài, Nguồn).'
+    severity: error
+  - issue: 'tldr: "hạn trả bồi thường là 05 ngày sau kết luận giám định" thiếu trường hợp chết người (tính từ ngày công bố biên bản điều tra), khác mục 19-11/19-15.'
+    severity: warn
+  - issue: steps[0] "tới cơ sở cấp cứu gần nhất ngay" không nêu 115/sơ cứu/cách di chuyển, trong khi thân bài tự nhận khoảng quyết định là chấn thương đầu, cột sống, mất máu (xem potential_harm).
+    severity: warn
+  - issue: Mục này không nhắc điều kiện "không hoàn toàn do lỗi" của Điều 38.4 và Điều 40 (mục 19-11 có nhắc một phần); không mâu thuẫn số liệu giữa các mục.
+    severity: warn
+  - issue: Câu "Mức bằng chứng ... đọc được nguyên văn ba văn bản" chưa đúng cho trích dẫn Điều 3 khoản 10 (sai số điều).
+    severity: warn
+validity:
+  doc: Luật ATVSLĐ 84/2015/QH13 (VBHN 14); Luật KCB 15/2023/QH15; Nghị định 283/2026/NĐ-CP
+  in_force: unconfirmed
+  effective_from: 2016-07-01
+  amended_by:
+    - Luật BHXH 41/2024/QH15 (chỉ các điều BHXH của luật ATVSLĐ)
+  basis: "Luật 84/2015/QH13: bản hợp nhất 14/VBHN-VPQH ngày 16/9/2024 (Công báo 1171+1172 ngày 29/10/2024) có chú thích sửa đổi bởi Luật BHXH 41/2024/QH15 hiệu lực 01/7/2025. Trang Công báo của Luật gốc để trống ô 'Ngày hết hiệu lực' và mục sửa đổi, nên không dùng làm bằng chứng. Tìm kiếm thứ cấp (tháng 11/2026) cho thấy dự án Luật ATVSLĐ sửa đổi mới được Chính phủ trình Quốc hội ngày 21/10/2026, chưa thấy văn bản thông qua; chưa mở được vbpl.vn/văn bản hợp nhất mới hơn 14/VBHN. Luật KCB 15/2023: tải PDF Công báo 489+490 (19/02/2023), trang Công báo không hiển thị thông tin hết hiệu lực/sửa đổi; chưa tra được văn bản sửa đổi sau 2023. ND 283/2026: Công báo 448, hiệu lực 10/09/2026, Lược đồ không có văn bản thay thế; chưa đủ để khẳng định."
+deliberate_vn_deviation: []
+potential_harm:
+  - 'steps[0] ("Đưa người bị nạn tới cơ sở cấp cứu gần nhất ngay; không chờ công ty") và tldr không nói gọi 115, sơ cứu tại chỗ hay cảnh báo di chuyển: với chấn thương đầu/cột sống (chính mục nêu), người đọc làm đúng nguyên văn có thể tự chở nạn nhân không cố định, làm nặng tổn thương hoặc chậm cứu chữa. (Đánh giá theo nguyên tắc sơ cứu chung, chưa đối chiếu hướng dẫn Bộ Y tế/Hội Chữ thập đỏ trong lượt này.)'
+suggested_edits:
+  - 'legal_refs, thân bài ("Điều 3 khoản 10") và Nguồn: đổi thành "Điều 2 khoản 10, Luật Khám bệnh, chữa bệnh 15/2023/QH15" (quote: "10. Người bệnh không có thân nhân là người thuộc một trong các trường hợp sau đây: a) Người bệnh đang trong tình trạng cấp cứu không có giấy tờ tùy thân...").'
+  - 'steps[0]: thêm "gọi 115 ngay, làm theo hướng dẫn tổng đài; không di chuyển người nghi chấn thương cột sống/bị mắc kẹt nếu chưa an toàn" kèm nguồn Bộ Y tế/Hội Chữ thập đỏ.'
+  - 'tldr: sửa "hạn trả bồi thường là 05 ngày sau kết luận giám định" thành "05 ngày kể từ kết luận giám định, hoặc kể từ ngày Đoàn điều tra công bố biên bản nếu có người chết (Điều 38.7)".'
+  - 'tldr "bệnh viện không được từ chối cấp cứu": thêm "kể cả khi vượt khả năng thì vẫn phải sơ cứu, cấp cứu đến khi bàn giao (Điều 7.2, Điều 40.1)".'
+  - Gắn nhãn "lời khuyên thực hành" cho cách yêu cầu tạm ứng bằng tin nhắn và câu nói ở cửa khoa cấp cứu.

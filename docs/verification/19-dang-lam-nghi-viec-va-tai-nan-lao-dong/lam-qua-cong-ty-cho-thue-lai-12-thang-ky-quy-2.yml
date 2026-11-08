@@ -1,0 +1,116 @@
+id: lam-qua-cong-ty-cho-thue-lai-12-thang-ky-quy-2
+checker: agent-V3b19eA
+checked_at: 2026-11-08
+content_sha256: "57a5ce9db022c84857613e70f21187fec49f1d4dea3f7755b540e1232cb3c316"
+result: fail
+claims:
+  - text: "Thời hạn cho thuê lại tối đa 12 tháng (Điều 53 khoản 1 BLLĐ)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "1. Thời hạn cho thuê lại lao động đối với người lao động tối đa là 12 tháng."
+    verdict: match
+    note: "DOCX 18/VBHN-VPQH tải trên trang Công báo. NĐ 283/2026 Điều 19 khoản 6 điểm b phạt doanh nghiệp cho thuê lại 80 đến 100 triệu nếu cho thuê quá 12 tháng, khớp."
+  - text: "Chỉ được dùng lao động thuê lại trong ba trường hợp: gia tăng đột ngột nhu cầu, thay thế người nghỉ thai sản/tai nạn lao động/nghĩa vụ công dân, nhu cầu trình độ chuyên môn kỹ thuật cao (Điều 53 khoản 2)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "a) Đáp ứng tạm thời sự gia tăng đột ngột về nhu cầu sử dụng lao động trong khoảng thời gian nhất định; b) Thay thế người lao động trong thời gian nghỉ thai sản, bị tai nạn lao động, bệnh nghề nghiệp hoặc phải thực hiện các nghĩa vụ công dân; c) Có nhu cầu sử dụng lao động trình độ chuyên môn, kỹ thuật cao."
+    verdict: match
+    note: ""
+  - text: "Có ba trường hợp bị cấm, trong đó thay thế người vừa bị cho thôi việc vì thay đổi cơ cấu, công nghệ, lý do kinh tế (Điều 53 khoản 3)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "c) Thay thế người lao động bị cho thôi việc do thay đổi cơ cấu, công nghệ, vì lý do kinh tế hoặc chia, tách, hợp nhất, sáp nhập."
+    verdict: match
+    note: "Khoản 3 có đúng 3 điểm (a đình công/tranh chấp, b không có thỏa thuận bồi thường tai nạn, c điểm trên)."
+  - text: "Bên thuê lại không được chuyển người lao động thuê lại cho người khác; không được dùng người do doanh nghiệp không có Giấy phép hoạt động cung cấp (Điều 53 khoản 4)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "4. Bên thuê lại lao động không được chuyển người lao động thuê lại cho người sử dụng lao động khác; không được sử dụng người lao động thuê lại được cung cấp bởi doanh nghiệp không có Giấy phép hoạt động cho thuê lại lao động."
+    verdict: partial
+    note: "Khớp chữ VBHN 12/02/2026. Nhưng NĐ 283/2026 Điều 19 khoản 2 điểm b (hiệu lực 10/09/2026) đã viết: 'Sử dụng lao động thuê lại được cung cấp bởi doanh nghiệp không phải là doanh nghiệp cho thuê lại lao động', và Nghị quyết 66.18/2026/NQ-CP (hiệu lực 01/07/2026 đến hết 28/02/2027) viết lại khoản 4 theo hướng này (xem claim về giấy phép). Câu 'dùng người của doanh nghiệp không có giấy phép' không còn là mô tả hành vi bị phạt hiện hành."
+  - text: "Công ty cho thuê lại phải có giấy phép hoạt động (Điều 54 khoản 1; tldr 'công ty cho thuê phải có giấy phép'; steps bước 1 'hỏi giấy phép hoạt động cho thuê lại')"
+    source_url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm"
+    quote: "a) Không thực hiện thông báo hoạt động cho thuê lại lao động với cơ quan nhà nước có thẩm quyền theo quy định của pháp luật, trừ trường hợp doanh nghiệp có giấy phép hoạt động cho thuê lại lao động còn hiệu lực;"
+    verdict: mismatch
+    note: "NĐ 283/2026 Điều 19 khoản 4 điểm a (nguồn chính thức, có lớp chữ) cho thấy cơ chế hiện hành là 'thông báo hoạt động', giấy phép chỉ còn là trường hợp loại trừ cho doanh nghiệp đã có giấy phép còn hiệu lực. Nghị quyết 66.18/2026/NQ-CP (Chính phủ, ký 18/05/2026, hiệu lực 01/07/2026 đến hết 28/02/2027; Phụ lục I.4 mục C): 'Không thực hiện các thủ tục: 1. Cấp giấy phép hoạt động cho thuê lại lao động quy định tại các Điều 21, 22, 23, 24 và 25 Nghị định số 145/2020/NĐ-CP ...', 'Doanh nghiệp cho thuê lại lao động quy định tại Điều 54 Bộ luật Lao động số 45/2019/QH14 phải ký quỹ và thực hiện thông báo hoạt động, chấm dứt hoạt động cho thuê lại lao động với cơ quan nhà nước có thẩm quyền', 'Các doanh nghiệp có giấy phép hoạt động cho thuê lại lao động còn hiệu lực tiếp tục hoạt động ... thì không phải thực hiện thông báo hoạt động'. Chữ Nghị quyết đọc được qua bản toàn văn của luatvietnam.vn (thứ cấp); bản PDF chính thức (bcp.cdnchinhphu.vn, đính kèm bài xaydungchinhsach.chinhphu.vn) là ảnh quét, không trích được chữ. Vì vậy riêng NĐ 283 Điều 19 khoản 4 điểm a là bằng chứng chính thức đọc được; Nghị quyết là match-secondary. Doanh nghiệp mới sau 01/07/2026 không có giấy phép để 'hỏi'. VBHN 18/VBHN-VPQH (12/02/2026) ban hành trước Nghị quyết nên vẫn ghi 'Giấy phép'."
+  - text: "Mức ký quỹ 2.000.000.000 đồng (Điều 21 khoản 2 NĐ 145/2020)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-145-2020-nd-cp-32732.htm"
+    quote: "2. Doanh nghiệp đã thực hiện ký quỹ 2.000.000.000 đồng (hai tỷ đồng)."
+    verdict: match
+    note: "PDF Công báo số 1203+1204 trích được chữ. Điều 21 nằm trong cụm điều kiện cấp giấy phép bị Nghị quyết 66.18 ngừng thủ tục; Nghị quyết giữ mức: 'Doanh nghiệp thực hiện ký quỹ 2.000.000.000 đồng (hai tỷ đồng) tại ngân hàng thương mại...' (bản thứ cấp luatvietnam.vn) nên con số 2 tỷ vẫn đúng."
+  - text: "Giấy phép có thời hạn tối đa 60 tháng, mỗi lần gia hạn tối đa 60 tháng (Điều 23 khoản 3 NĐ 145/2020)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-145-2020-nd-cp-32732.htm"
+    quote: "a) Thời hạn giấy phép tối đa là 60 tháng; b) Giấy phép được gia hạn nhiều lần, mỗi lần gia hạn tối đa là 60 tháng;"
+    verdict: partial
+    note: "Khớp chữ NĐ 145/2020, nhưng Nghị quyết 66.18/2026/NQ-CP (match-secondary, xem claim giấy phép) ngừng cấp, gia hạn, cấp lại, thu hồi giấy phép theo Điều 21 đến 28 NĐ 145 từ 01/07/2026. Với doanh nghiệp mới không còn 'giấy phép tối đa 60 tháng'; chỉ còn ý nghĩa với giấy phép đã cấp trước đó."
+  - text: "Tiền ký quỹ dùng để thanh toán lương, BHXH, BHYT, BHTN, bảo hiểm tai nạn lao động, bồi thường cho người lao động thuê lại (Điều 15 khoản 2)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-145-2020-nd-cp-32732.htm"
+    quote: "Tiền ký quỹ được sử dụng vào mục đích thanh toán tiền lương, bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp, bảo hiểm tai nạn lao động, bệnh nghề nghiệp và các chế độ khác đối với người lao động thuê lại ... hoặc bồi thường cho người lao động thuê lại trong trường hợp doanh nghiệp cho thuê lại vi phạm hợp đồng lao động với người lao động thuê lại hoặc gây thiệt hại ..."
+    verdict: match
+    note: "Điều 15 khoản 2. Nghị quyết 66.18 mục C.V.2 giữ mục đích tương tự (bản thứ cấp)."
+  - text: "Danh mục công việc được cho thuê lại ở Phụ lục II có đúng 20 công việc"
+    source_url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-145-2020-nd-cp-32732.htm"
+    quote: "20 Lái tàu bay, phục vụ trên tàu bay/Bảo dưỡng, sửa chữa tàu bay và thiết bị tàu bay/Điều độ, khai thác bay/Giám sát bay"
+    verdict: match
+    note: "Phụ lục II NĐ 145/2020 (Công báo số 1205+1206) đánh số 1 đến 20, nên con số 20 đúng. Không thấy văn bản nào đã sửa danh mục (chỉ có đề xuất sửa trên báo)."
+  - text: "Bẫy 2: Danh mục Phụ lục II 'không có công việc sản xuất phổ thông, chỉ có lập trình hệ thống máy sản xuất'; Pháp luật VN liệt kê danh mục"
+    source_url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-145-2020-nd-cp-32732.htm"
+    quote: "8 Sản xuất, lắp đặt thiết bị truyền hình, viễn thông; 9 Vận hành/kiểm tra/sửa chữa máy móc xây dựng, hệ thống điện sản xuất; 16 Scan, vẽ kỹ thuật công nghiệp/Trang trí nội thất"
+    verdict: mismatch
+    note: "Danh mục có mục 8 (Sản xuất, lắp đặt thiết bị truyền hình, viễn thông) và mục 9 (Vận hành/kiểm tra/sửa chữa máy móc xây dựng, hệ thống điện sản xuất); mục 'lập trình hệ thống máy sản xuất' là mục 7. Danh sách 20 công việc trong thân mục bỏ sót hai mục 8 và 9 và 'Trang trí nội thất' (mục 16); câu 'chỉ có lập trình hệ thống máy sản xuất' sai. Cần đọc đúng danh mục thay vì khẳng định 'không có công việc sản xuất'. Kết luận thực hành (công nhân sản xuất phổ thông trong nhà máy nói chung không nằm trong danh mục) chưa kiểm được chỉ bằng danh mục, vì mục 8 có chữ 'Sản xuất'."
+  - text: "Doanh nghiệp cho thuê lại phải trả lương không thấp hơn người của bên thuê lại có cùng trình độ, làm cùng công việc (Điều 56 khoản 4; Điều 58 khoản 3)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "4. Bảo đảm trả lương cho người lao động thuê lại không thấp hơn tiền lương của người lao động của bên thuê lại lao động có cùng trình độ, làm cùng công việc hoặc công việc có giá trị như nhau;"
+    verdict: match
+    note: "Điều 58 khoản 3 nêu cùng nội dung ('Được trả lương không thấp hơn ...'). Điều 57 khoản 2 (không phân biệt đối xử) khớp."
+  - text: "Ba bên thỏa thuận để tuyển chính thức khi hợp đồng với doanh nghiệp cho thuê lại chưa chấm dứt (Điều 57 khoản 4); người lao động thỏa thuận chấm dứt hợp đồng với doanh nghiệp cho thuê lại để ký với bên thuê lại (Điều 58 khoản 5)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: "4. Thỏa thuận với người lao động thuê lại và doanh nghiệp cho thuê lại lao động để tuyển dụng chính thức người lao động thuê lại làm việc cho mình trong trường hợp hợp đồng lao động của người lao động thuê lại với doanh nghiệp cho thuê lại lao động chưa chấm dứt."
+    verdict: match
+    note: "Điều 58 khoản 5: 'Thỏa thuận chấm dứt hợp đồng lao động với doanh nghiệp cho thuê lại lao động để giao kết hợp đồng lao động với bên thuê lại lao động.'"
+  - text: "Dùng lao động thuê lại ngoài danh mục, dùng người của doanh nghiệp không phải/không có giấy phép, chuyển người cho đơn vị khác: phạt 40.000.000 đến 50.000.000 đồng (NĐ 283/2026 Điều 19 khoản 2)"
+    source_url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm"
+    quote: "2. Phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng đối với bên thuê lại lao động có một trong các hành vi sau đây: a) Sử dụng lao động thuê lại để làm những công việc không thuộc danh mục các công việc được thực hiện cho thuê lại lao động; b) Sử dụng lao động thuê lại được cung cấp bởi doanh nghiệp không phải là doanh nghiệp cho thuê lại lao động;"
+    verdict: partial
+    note: "Khoản 2 còn các điểm c đến g (thay thế người đình công/tranh chấp, thay người bị cho thôi việc, chuyển người, không có thỏa thuận bồi thường tai nạn, ngoài ba trường hợp được phép). Điều 7 khoản 1 NĐ 283 liệt kê khoản 3, 4, 5, 6 Điều 19 là mức phạt đối với tổ chức; khoản 1, 2 là mức cá nhân, nên bên thuê lại là doanh nghiệp bị gấp đôi: 80.000.000 đến 100.000.000 đồng. Mục chỉ ghi 40 đến 50 triệu cho 'phía bên thuê lại', thấp hơn một nửa mức doanh nghiệp thực tế."
+  - text: "Phân biệt đối xử về điều kiện lao động đối với người lao động thuê lại: phạt 40.000.000 đến 50.000.000 đồng"
+    source_url: "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm"
+    quote: "1. Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với bên thuê lại lao động có một trong các hành vi sau đây: ... d) Phân biệt đối xử về điều kiện lao động đối với người lao động thuê lại so với người lao động của mình."
+    verdict: mismatch
+    note: "Phân biệt đối xử là Điều 19 khoản 1 điểm d, mức 3.000.000 đến 5.000.000 đồng (mức cá nhân; doanh nghiệp gấp đôi 6.000.000 đến 10.000.000 đồng), không phải 40 đến 50 triệu. Mục Chi phí xếp nó vào nhóm 40 đến 50 triệu và để 'không huấn luyện an toàn, không thông báo nội quy' ở nhóm 3 đến 5 triệu: hai khẳng định này mâu thuẫn với chính khoản 1."
+  - text: "Hết 12 tháng thì quan hệ với bên thuê lại không tự động trở thành hợp đồng chính thức"
+    source_url: "https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm"
+    quote: ""
+    verdict: inference
+    note: "Không điều nào nói điều này. Điều 57 khoản 4 và Điều 58 khoản 5 chỉ nói về thỏa thuận tuyển chính thức. Suy ra hợp lý nhưng cần nhãn 'suy ra'; hợp đồng lao động của người lao động là với doanh nghiệp cho thuê lại nên không phát sinh quan hệ chính thức với bên thuê lại."
+internal_checks:
+  - issue: "Chi phí: 'phân biệt đối xử về điều kiện lao động' nằm trong nhóm phạt 40.000.000 đến 50.000.000 đồng; NĐ 283/2026 Điều 19 khoản 1 điểm d phạt 3.000.000 đến 5.000.000 đồng. Sai nhóm mức phạt."
+    severity: error
+  - issue: "Bẫy 2 'Danh mục ... không có công việc sản xuất phổ thông, chỉ có lập trình hệ thống máy sản xuất' sai: Phụ lục II mục 8 (Sản xuất, lắp đặt thiết bị truyền hình, viễn thông) và mục 9 (Vận hành/kiểm tra/sửa chữa máy móc xây dựng, hệ thống điện sản xuất) là công việc sản xuất. Danh sách 'Danh mục gồm' ở Pháp luật VN liệt kê thiếu mục 8, 9 và 'Trang trí nội thất' (mục 16) trong khi khẳng định danh mục có đúng 20 mục."
+    severity: error
+  - issue: "tldr 'công ty cho thuê phải có giấy phép', steps bước 1 'hỏi công ty cho thuê lại giấy phép hoạt động', Nói dễ hiểu 'phải có giấy phép', Chi phí 'giấy phép tối đa 60 tháng', phần Giấy phép và ký quỹ (Điều 54, Điều 23): hết thích hợp từ 01/07/2026 (Nghị quyết 66.18/2026/NQ-CP) và NĐ 283/2026 Điều 19 khoản 4 điểm a (10/09/2026). Cơ chế hiện hành: ký quỹ 2 tỷ + thông báo hoạt động đến Sở Nội vụ nơi đặt trụ sở (Sở Nội vụ công khai danh sách trên trang thông tin điện tử trong 05 ngày làm việc, mục C.XII.3 bản thứ cấp). Giấy phép cấp trước 01/07/2026 còn hiệu lực vẫn hợp lệ."
+    severity: error
+  - issue: "Mức phạt phía bên thuê lại không nêu hệ số gấp đôi cho doanh nghiệp (Điều 7 khoản 1 NĐ 283: khoản 1, 2 Điều 19 là mức cá nhân), dù legal_refs dẫn Điều 7 khoản 1. Bên thuê lại thường là doanh nghiệp: 80 đến 100 triệu (khoản 2) và 6 đến 10 triệu (khoản 1)."
+    severity: warn
+  - issue: "Nghị quyết 66.18/2026/NQ-CP chỉ có hiệu lực đến hết 28/02/2027; mục nên ghi rõ ngày hết hạn chuyển tiếp thay vì chốt 'không còn giấy phép'."
+    severity: warn
+  - issue: "legal_refs (d): URL NĐ 145/2020 (congbao 145-2020-nd-cp-32732) đúng văn bản; URL BLLĐ và NĐ 283 đúng. Trạng thái hiệu lực NĐ 145/2020 không được mục ghi chú: NĐ 145 hết hiệu lực một phần và bị Nghị quyết 66.18 ngừng áp dụng các điều 21 đến 28 thủ tục giấy phép."
+    severity: warn
+  - issue: "(f) Cùng chương: mục 25 dẫn NĐ 12/2022/NĐ-CP (hết hiệu lực 10/09/2026) còn mục 24 dẫn NĐ 283/2026/NĐ-CP."
+    severity: warn
+validity:
+  doc: "NĐ 145/2020/NĐ-CP (Điều 15, 21, 23, 30, Phụ lục II); BLLĐ 45/2019/QH14 Điều 53 đến 58; NĐ 283/2026/NĐ-CP"
+  in_force: unconfirmed
+  effective_from: "2021-02-01"
+  amended_by:
+    - "Nghị định 35/2022/NĐ-CP (sửa khoản 2 Điều 4 và khoản 2 Điều 31 NĐ 145; nguồn thứ cấp hrvnacademy.com, lawgical.vn, lsvn.vn)"
+    - "Nghị quyết 66.18/2026/NQ-CP ngày 18/05/2026, hiệu lực 01/07/2026 đến hết 28/02/2027: ngừng thủ tục giấy phép (Điều 21 đến 28 NĐ 145), thay bằng ký quỹ và thông báo hoạt động (nguồn chính thức là PDF ảnh quét; chữ lấy từ luatvietnam.vn, thứ cấp)"
+  basis: "NĐ 145/2020: trang Công báo ghi 'Hiệu lực: 01/02/2021', không có văn bản thay thế toàn bộ được tìm thấy; trang thứ cấp lawgical.vn và hrvnacademy.com ghi 'hết hiệu lực một phần'. Điều 15, 30 và Phụ lục II chưa thấy bị sửa; Điều 21 đến 25 (cấp phép) bị ngừng thủ tục từ 01/07/2026 theo Nghị quyết 66.18/2026/NQ-CP; NĐ 283/2026 Điều 19 khoản 4 điểm a (chữ đọc được, Công báo số 448 ngày 28-07-2026) đã phản ánh cơ chế thông báo, và Điều 19 khoản 2 điểm b dùng 'doanh nghiệp không phải là doanh nghiệp cho thuê lại lao động'. Không tìm thấy trên nguồn chính thức đọc được văn bản nào tuyên NĐ 145/2020 hết hiệu lực toàn bộ nên ghi unconfirmed cho NĐ 145; BLLĐ (VBHN 18/VBHN-VPQH ngày 12/02/2026) còn hiệu lực; NĐ 283/2026 hiệu lực từ 10/09/2026 (Điều 66 khoản 1)."
+deliberate_vn_deviation: []
+potential_harm:
+  - "[Pháp lý] Steps bước 1 ('trước khi ký, hỏi công ty cho thuê lại giấy phép hoạt động') và tldr có thể khiến người đọc từ chối hoặc nghi ngờ một doanh nghiệp hợp pháp mới (hoạt động theo cơ chế ký quỹ + thông báo từ 01/07/2026, không có giấy phép) hoặc, ngược lại, tin rằng chỉ cần 'có giấy phép' là hợp pháp mà không kiểm ký quỹ và thông báo hoạt động trên trang Sở Nội vụ."
+  - "[Pháp lý] Bẫy 2 khẳng định 'danh mục không có công việc sản xuất phổ thông, chỉ có lập trình hệ thống máy sản xuất': sai chữ Phụ lục II (mục 8 và 9). Người đọc có thể kết luận sai về việc công việc của mình có hợp pháp qua cho thuê lại hay không."
+suggested_edits:
+  - "Chi phí, mục 'Phạt phía bên thuê lại': đưa phân biệt đối xử ra khỏi nhóm 40 đến 50 triệu; ghi: 'ngoài danh mục, dùng người của doanh nghiệp không phải là doanh nghiệp cho thuê lại lao động, chuyển người, thay người đình công hoặc bị cho thôi việc, không có thỏa thuận bồi thường tai nạn, hoặc ngoài ba trường hợp được phép: 40 đến 50 triệu (cá nhân), doanh nghiệp gấp đôi; phân biệt đối xử, không huấn luyện an toàn, không thông báo nội quy, không sơ cứu: 3 đến 5 triệu (cá nhân), doanh nghiệp gấp đôi' (NĐ 283/2026 Điều 19 khoản 1, 2, Điều 7 khoản 1)."
+  - "Bẫy 2 và phần 'Danh mục công việc': liệt kê đủ 20 mục theo Phụ lục II NĐ 145/2020, gồm mục 8 'Sản xuất, lắp đặt thiết bị truyền hình, viễn thông', mục 9 'Vận hành/kiểm tra/sửa chữa máy móc xây dựng, hệ thống điện sản xuất', mục 16 'Scan, vẽ kỹ thuật công nghiệp/Trang trí nội thất'; bỏ câu 'chỉ có lập trình hệ thống máy sản xuất'; viết lại bẫy 2 thành 'đối chiếu công việc của bạn với từng mục của danh mục 20 công việc'."
+  - "tldr, Nói dễ hiểu, Chi phí, steps bước 1, phần 'Giấy phép và ký quỹ': thay 'giấy phép hoạt động' bằng 'từ 01/07/2026 (Nghị quyết 66.18/2026/NQ-CP, đến hết 28/02/2027): doanh nghiệp cho thuê lại phải ký quỹ 2.000.000.000 đồng và thông báo hoạt động với Sở Nội vụ; doanh nghiệp đã có giấy phép còn hiệu lực không phải thông báo. Hỏi công ty bằng chứng ký quỹ/thông báo hoặc kiểm danh sách công khai của Sở Nội vụ'. Dựa vào NĐ 283/2026 Điều 19 khoản 4 điểm a và Nghị quyết 66.18 Phụ lục I.4 mục C.I, C.III, C.IX, C.XII.3, C.XIV; đọc lại và ghi nguồn chính thức khi có bản trích được chữ."
+  - "Điều 53 khoản 4: thay 'doanh nghiệp không có giấy phép' bằng 'doanh nghiệp không phải là doanh nghiệp cho thuê lại lao động (NĐ 283/2026 Điều 19 khoản 2 điểm b)'; ghi chú VBHN 18/VBHN-VPQH vẫn dùng chữ 'Giấy phép' vì ban hành trước Nghị quyết."
+  - "Bỏ 'giấy phép tối đa 60 tháng' khỏi Chi phí và Pháp luật VN (Điều 23 khoản 3 NĐ 145/2020) hoặc ghi 'chỉ với giấy phép cấp trước 01/07/2026'."
+  - "Câu 'hết 12 tháng thì không tự động thành hợp đồng chính thức' gắn nhãn 'suy ra từ Điều 57 khoản 4, Điều 58 khoản 5' hoặc bỏ."
+  - "Thêm vào legal_refs hoặc Nguồn: Nghị quyết 66.18/2026/NQ-CP ngày 18/05/2026 (toàn văn: https://xaydungchinhsach.chinhphu.vn/nghi-quyet-so-6618-2026-nq-cp-cat-giam-don-gian-hoa-tthc-dieu-kien-kinh-doanh-nhieu-nganh-linh-vuc-119260520145049455.htm, PDF ảnh quét) và NĐ 283/2026 Điều 19 khoản 4, khoản 6."
