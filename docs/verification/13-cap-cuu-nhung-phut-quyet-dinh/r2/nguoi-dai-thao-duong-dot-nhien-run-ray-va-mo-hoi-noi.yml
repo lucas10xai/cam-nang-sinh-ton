@@ -1,0 +1,78 @@
+id: nguoi-dai-thao-duong-dot-nhien-run-ray-va-mo-hoi-noi
+content_sha256: bf604cf5c2c2813a3c4a30564c6c5f8fbc12d9d648939bb07b64a7909c08178b
+checker: agent-R2c13d
+checked_at: 2026-11-08
+result: pass-with-edits
+claims:
+  - text: Hạ đường huyết là glucose huyết tương dưới 70 mg/dL (3,9 mmol/L)
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: Hạ đường huyết được định nghĩa khi nồng độ glucose huyết tương thấp dưới 70 mg/dL (hay 3,9 mmol/L)
+    verdict: match
+    note: 'CDC: "Blood sugar below 70 mg/dL is considered low."'
+  - text: "Người tỉnh, ăn uống được: 15 g glucose; tương đương 3 thìa cà phê đường/mật ong pha nước, 1 cốc 300 ml nước trái cây, hoặc 3 chiếc bánh quy"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: Khi đường máu < 70 mg/dL cần cung cấp ngay 15g glucose đường miệng. Tương đương 3 thìa cà phê đường hoặc mật ong pha trong nước hoặc 1 cốc (300 ml) nước trái cây (như táo nho) hoặc 3 chiếc bánh quy.
+    verdict: match
+    note: 'Khớp nguồn VN. LỆCH CDC: "4 ounces (½ cup) of juice or regular (non-diet) soda. 1 tablespoon of sugar, honey, or syrup"; CDC nói thêm "foods high in fat (such as chocolate, baked goods) can slow down how fast you can absorb sugars" (bánh quy là baked goods). 300 ml nước trái cây ≈ gấp đôi 15 g carb của CDC. Mục đã nêu lệch cho nước trái cây nhưng KHÔNG nêu cho bánh quy.'
+  - text: Kiểm tra lại đường máu sau 15 phút; còn thấp thì lặp lại 15 g
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: Kiểm tra lại đường máu sau 15 phút. Nếu vẫn thấp lặp lại 15g glucose.
+    verdict: match
+    note: "CDC 15-15 rule: \"Check your blood sugar again. If it's still less than 70 mg/dL, repeat this process.\""
+  - text: Không dùng thực phẩm nhiều chất béo hoặc đạm khi xử trí cơn
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: Tuyệt đối không dùng thực phẩm nhiều chất béo hoặc protein vì sẽ làm chậm hấp thu glucose
+    verdict: match
+    note: Nguồn dùng chữ "protein"; mục dịch "đạm". CDC chỉ nêu chất béo/chất xơ.
+  - text: Khi đường máu ổn định, ăn nhẹ có carbohydrate và protein
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: Khi đường máu ổn định người bệnh nên ăn nhẹ thêm bữa có carbohydrate và protein để ngăn ngừa hạ đường huyết tái phát.
+    verdict: match
+    note: 'CDC: "eat a balanced snack or meal with protein and carbs."'
+  - text: Không cải thiện sau hai lần xử trí thì đưa tới cơ sở y tế gần nhất
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: Nếu tình trạng không cải thiện sau hai lần xử trí cần đưa ngay người bệnh đến cơ sở y tế gần nhất.
+    verdict: match
+    note: CDC không nêu "hai lần"; nêu "Keep repeating". Mục theo nguồn VN, an toàn.
+  - text: "Rối loạn ý thức/hôn mê: tuyệt đối không cho ăn uống (nguy cơ sặc)"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: Tuyệt đối không cho ăn uống vì có thể gây sặc vào đường hô hấp dẫn đến nguy hiểm cho tính mạng.
+    verdict: match
+    note: ""
+  - text: Có glucagon thì tiêm bắp 1 mg ngay, rồi gọi cấp cứu/đưa đi viện
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: Nếu có sẵn tiêm bắp Glucagon 1 mg cần được thực hiện ngay. … Sau đó cần gọi cấp cứu hoặc đưa người bệnh đến bệnh viện gần nhất.
+    verdict: match
+    note: 'Mục đặt "gọi 115 ngay" lên trước, glucagon sau: an toàn hơn nguồn. "biết dùng" là điều kiện hợp lý (nguồn: "Người thân… cần được hướng dẫn"). CDC: "Injectable glucagon is the best way to treat severely low blood sugar."'
+  - text: Số gọi cấp cứu y tế ở Việt Nam là 115
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: … cần gọi cấp cứu hoặc đưa người bệnh đến bệnh viện gần nhất.
+    verdict: not-found
+    note: Trang HCDC KHÔNG nêu số 115. Mục viết "Số gọi cấp cứu y tế ở Việt Nam là 115" ở Lợi ích như thể thuộc bài; 115 đúng thực tế nhưng nguồn dẫn không chứa. Cần dẫn nguồn khác (vd bài Nhi TW trong mục 20) hoặc bỏ gắn vào bài này.
+  - text: "Suy ra (nhãn của mục): không có máy đo thì vẫn cho đường nếu người tỉnh, nuốt được"
+    source_url: https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html
+    quote: Another symptom of low blood sugar is confusion or brain fog. This could impair your ability to think quickly and make decisions to treat your low blood sugar.
+    verdict: inference
+    note: Nhãn "suy ra, không phải chữ của nguồn" trung thực; suy luận hợp lý và an toàn (thấp đường huyết nguy hiểm hơn cho 15 g đường dư). Không tính vào điều kiện pass.
+internal_checks:
+  - issue: 'Mâu thuẫn trong chính mục: step 2 liệt kê "3 chiếc bánh quy" là 15 g glucose, trong khi step 4 cấm thực phẩm nhiều chất béo vì làm chậm hấp thu; CDC xếp baked goods vào nhóm làm chậm hấp thu. Mục chỉ ghi lệch với CDC về nước trái cây.'
+    severity: warn
+  - issue: Số "115" ở Lợi ích gắn với bài HCDC nhưng bài không chứa (xem claim not-found).
+    severity: warn
+  - issue: 'Ghi chú: "chưa đối chiếu được bản toàn văn Quyết định 5481/QĐ-BYT, nên mục dừng ở mức B" và "mục dừng ở mức B": ngôn ngữ nội bộ về mức bằng chứng lọt ra thân; không phải cụm cấm nhưng nên rút gọn.'
+    severity: warn
+  - issue: Số trong tldr/steps (15 g, 15 phút, 1 mg, 3 thìa, 300 ml, hai lần) đều có trong thân và khớp HCDC; không còn "báo cáo kiểm chứng/Còn treo/sổ kiểm chứng/bản nháp/[INFERENCE]".
+    severity: warn
+validity:
+  doc: HCDC TP.HCM, "Xử trí hạ đường huyết" (cập nhật 15/11/2025) + CDC "Treatment of Low Blood Sugar" (15/05/2024); bài dẫn QĐ 5481/QĐ-BYT (30/12/2020)
+  in_force: true
+  effective_from: 2025-11-15
+  amended_by: []
+  basis: 'Hướng dẫn y tế không có ngày hiệu lực: trang HCDC ghi "Cập nhật 10:46 - 15/11/2025", CDC ghi May 15, 2024. Không mở được toàn văn QĐ 5481 hay ADA 2025; không thấy hướng dẫn mới hơn trái chiều.'
+deliberate_vn_deviation:
+  - "Khẩu phần 15 g: nguồn VN (HCDC) nêu 1 cốc 300 ml nước trái cây, 3 thìa cà phê đường, 3 bánh quy; CDC nêu ½ cup (4 oz) nước ép/nước ngọt có đường, 1 muỗng canh đường/mật ong, tránh baked goods. Mục chỉ ghi lệch ở nước trái cây/nước ngọt."
+potential_harm: []
+suggested_edits:
+  - 'Ghi chú (dòng "Hướng dẫn của CDC (Mỹ) nêu khẩu phần khác"): bổ sung "CDC xếp bánh nướng (baked goods) vào nhóm thực phẩm làm chậm hấp thu đường; bánh quy ở đây là cách quy đổi của bài Việt Nam, có đường nhanh hơn thì ưu tiên nước đường/nước trái cây". Dựa vào quote CDC "foods high in fat (such as chocolate, baked goods) can slow down how fast you can absorb sugars".'
+  - 'Lợi ích, dòng "Số gọi cấp cứu y tế ở Việt Nam là 115": bỏ khỏi phần "Bài của trung tâm hướng dẫn" hoặc ghi "(số 115 theo bài Bệnh viện Nhi Trung ương ở mục 13-20)" vì bài HCDC không nêu số này.'
+  - "Ghi chú: bỏ câu nói về mức B / chưa đối chiếu QĐ 5481 hoặc diễn đạt lại không nhắc quy trình nội bộ."

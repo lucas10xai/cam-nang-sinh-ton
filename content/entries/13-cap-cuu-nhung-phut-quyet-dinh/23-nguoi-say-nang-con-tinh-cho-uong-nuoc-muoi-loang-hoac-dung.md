@@ -65,7 +65,7 @@ Khó ở chỗ người đang khát thường uống một hơi thật nhanh, v�
 - **Bẫy 4: coi mọi ca say nắng chỉ cần uống nước.** Sốc nhiệt cần làm mát và cấp cứu.
 - **Mục này không có nghĩa** là uống càng nhiều càng tốt, hay nước muối thay được việc truyền dịch.
 - **Mục này nói rằng:** người còn tỉnh, chưa có dấu hiệu nặng thì nhấp từng ngụm, còn nôn hoặc có dấu hiệu nặng thì gọi 115.
-- Cần nguồn cho: mốc "còn mệt sau khoảng 30 phút thì gọi cấp cứu" (NHS, chưa có trích dẫn nguyên văn); cách ghi số cấp cứu thống nhất cả chương (mục 49 nêu thêm tổng đài 113 từ 01/11/2026).
+- Mục này chưa có trích dẫn nguyên văn cho mốc "còn mệt sau khoảng 30 phút thì gọi cấp cứu" (NHS). Về số cấp cứu: mục 49 nêu thêm tổng đài 113 từ 01/11/2026, chương chưa thống nhất cách ghi.
 
 ## Nguồn
 

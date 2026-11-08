@@ -53,7 +53,7 @@ tags: []
 
 - Giá và cách định liều phụ thuộc loại bút hoặc ống thuốc. Không có một liều chung cho mọi độ tuổi.
 - Người có nguy cơ phản vệ hỏi bác sĩ về thuốc mang theo và cách dùng, rồi kiểm hạn thuốc theo hướng dẫn.
-- Cần nguồn cho việc cuộc gọi 115 có tính phí hay không; mục này không khẳng định.
+- Mục này chưa kiểm chứng được cuộc gọi 115 có tính phí hay không, nên không nêu.
 
 ## Lợi ích
 

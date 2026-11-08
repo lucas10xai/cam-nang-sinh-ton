@@ -1,0 +1,90 @@
+id: giong-set-khi-o-ngoai-troi-vao-o-to-co-mui-cung
+checked_at: 2026-11-08
+content_sha256: "8803a72f5afb98c34a88c5cbd2d956603e0df442bb12fc6947acd541af0cd943"
+checker: agent-R2c13g
+result: pass-with-edits
+claims:
+  - text: "Chia số giây từ chớp tới sấm cho 3 ra khoảng cách; 3 giây là 1 km"
+    source_url: http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx
+    quote: "Chia số giây cho 3 ta được khoảng cách đến tia sét. Ví dụ đếm được 3 giây thì sét cách vị trí đứng là 3/3= 1km."
+    verdict: match
+    note: ""
+  - text: "Dưới 30 giây là trong tầm sét; dưới 20 giây phải di chuyển tới nơi an toàn hơn (tldr, step 1)"
+    source_url: http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx
+    quote: "Nên nhớ rằng nếu như khoảng thời gian bạn đếm được từ khi thấy chớp và nghe tiếng sấm nhỏ hơn 30 giây, thì bạn đã nằm trong tầm ngắm của tia sét rồi và phải cẩn thận. Nếu thời gian này nhỏ hơn 20 giây thì phải di chuyển đến nơi an toàn hơn."
+    verdict: match
+    note: "Khớp nguyên văn nhưng nguồn VN yếu hơn hướng dẫn quốc tế: NWS/NOAA 'When thunder roars, go indoors' (ngay khi nghe sấm). Xem potential_harm."
+  - text: "Nghe tiếng sấm đầu tiên là coi như nguy hiểm đã tới"
+    source_url: http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx
+    quote: "Khi nghe thấy tiếng sấm đầu tiên bất kể là gì cũng cần phải thấy nguy hiểm đã đến."
+    verdict: match
+    note: ""
+  - text: "Sét có thể đánh cách nơi có mưa tới 15-20 km"
+    source_url: http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx
+    quote: "Sét có thể đánh cách xa nơi có mưa tới 15-20km."
+    verdict: match
+    note: ""
+  - text: "Chỗ an toàn: tòa nhà có hệ thống chống sét"
+    source_url: http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx
+    quote: "Chỗ an toàn để tránh sét là toà nhà, hay công sở có lắp đặt hệ thống chống sét (đơn giản nhất là cột thu lôi Franklin).."
+    verdict: match
+    note: "Mục nói đúng; NWS rộng hơn ('substantial building'), mục không có nguồn cho nhà không chống sét và tự nhận điều đó."
+  - text: "Ô tô, tàu hỏa, xe buýt có vỏ kim loại là an toàn nếu không thò người ra và không chạm vỏ; ô tô hở/không vỏ kim loại thì nguy hiểm"
+    source_url: http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx
+    quote: "Đối với các vật có bề mặt kim loại như xe buýt, tàu hoả, ô tô, ...nếu không thò người ra ngoài và không chạm đến vỏ bọc thì ở những chỗ này là an toàn. Ngược lại đối vơi các ô tô, tàu thuỷ để hở hay không có vỏ bọc kim loại thì lại nguy hiểm."
+    verdict: match
+    note: "NWS (JetStream) khớp: 'Convertible vehicles offer no safety from lightning, even if the top is \"up\".' và 'roll the windows up'."
+  - text: "Trong nhà: tránh cửa sổ, cửa ra vào, buồng tắm, bể nước"
+    source_url: http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx
+    quote: "Khi ở trong nhà thì nên đứng xa cửa sổ, cửa ra vào, các đồ dùng điện, tránh các chỗ ẩm ướt như buồng tắm, bể nước, vòi nước, không nên dùng điện thoại trừ trường hợp rất cần thiết."
+    verdict: match
+    note: ""
+  - text: "Không trú dưới tán cây; tránh khu vực cao hơn xung quanh, vật kim loại; tránh bãi biển, ao, hồ, mương; đỉnh/sườn núi nhô cao; không đứng thành nhóm"
+    source_url: http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx
+    quote: "tuyệt đối không dùng cây cối làm chỗ trú mưa, tránh các khu vực cao hơn xung quanh, tránh xa các vật dụng kim loại như xe đạp, máy, hàng rào sắt... ; Đứng xa các vật cao, ra ngay khỏi những nơi chứa nước như bãi biển, ao, hồ, mương. Các vùng đỉnh núi hay sườn núi nhô cao cũng rất nguy hiểm. ; Không đứng thành nhóm người gần nhau."
+    verdict: match
+    note: "Ba câu liền nhau, ghép bằng dấu ';'. NWS xác nhận cây là chỗ trú nguy hiểm (myths page: 'Being underneath a tree is the second leading cause of lightning casualties.')."
+  - text: "Không kịp vào chỗ trú: ở vị trí thấp nhất, tay ôm cổ, nhón chân, không nằm xuống đất"
+    source_url: http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx
+    quote: "Người ở vị trí càng thấp càng tốt, tay ôm cổ. ... Nhón chân, không được nằm xuống đất."
+    verdict: match
+    note: "Nguyên văn nguồn VN khớp, nhưng lệch hướng dẫn NWS: 'Crouching doesn't make you any safer outdoors. Run to a substantial building or hard topped vehicle.' và 'You are NOT safe anywhere outdoors.' (weather.gov/safety/lightning-myths). Xem deliberate_vn_deviation."
+  - text: "Đợi 30 phút sau tiếng sấm cuối cùng mới trở lại bình thường"
+    source_url: https://www.weather.gov/source/zhu/ZHU_Training_Page/lightning_stuff/lightning2/lightning_safety.html
+    quote: "When thunder roars, go indoors and stay there until 30 minutes after the last clap of thunder."
+    verdict: match
+    note: "Nguồn VN chỉ ghi 'Sau khi nghe thấy tiếng sét 30 phút thì có thể trở lại làm việc bình thường.' Chữ 'sấm cuối cùng' lấy từ NWS. Trang NOAA mục Nguồn (noaa.gov/jetstream/...) trả 403 với máy kiểm; đã đối chiếu bằng bản NWS cùng nội dung và weather.gov/safety/lightning-outdoors ('wait 30 minutes after the last rumble of thunder')."
+  - text: "Không có chỗ nào an toàn ngoài trời khi có giông (theo cơ quan thời tiết Hoa Kỳ)"
+    source_url: https://www.weather.gov/safety/lightning-safety
+    quote: "There is no safe place outside when thunderstorms are in the area."
+    verdict: match
+    note: ""
+  - text: "Sét đánh xuống một cây có thể giết ngay vài người đứng quanh (Ghi chú, bẫy 1)"
+    source_url: http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx
+    quote: "Khi sét đánh xuống cây, thì 1 tia sét có thể giết chết ngay vài người xung quanh."
+    verdict: match
+    note: ""
+internal_checks:
+  - issue: "Không còn chữ nội bộ (kiểm tra: kiểm chứng, bản nháp, Còn treo, sổ kiểm chứng, INFERENCE đều không có). 'Mức bằng chứng B' và câu 'mục không có nguồn cho trường hợp đó' là chú thích bằng chứng hướng người đọc, chấp nhận."
+    severity: warn
+  - issue: "tldr 'dưới 30 giây là trong tầm sét, dưới 20 giây phải tới chỗ an toàn hơn' có thể bị đọc thành: trong khoảng 20-30 giây vẫn được ở ngoài. Mâu thuẫn nội bộ với dòng đầu cùng câu 'nghe tiếng sấm đầu tiên là nguy hiểm đã tới'; số 20/30 giây đều có trong thân, không sai số."
+    severity: warn
+  - issue: "Bước 4 'ở vị trí thấp nhất có thể' có thể dẫn người đọc xuống mương/ao/chỗ trũng đọng nước, trong khi cùng mục (step 3) liệt kê ao hồ, mương là chỗ cấm. Nguồn VN có 'tìm chỗ khô ráo' nhưng mục không lấy."
+    severity: warn
+  - issue: "Ghi chú nói 'Các mốc ... đọc được nguyên văn' và 'chữ sau tiếng sấm cuối cùng lấy từ NOAA' trung thực: tôi xác nhận được qua NWS (NOAA mục Nguồn chặn 403)."
+    severity: warn
+validity:
+  doc: "Cục Quản lý đê điều và Phòng, chống thiên tai: Quy tắc chống sét bảo vệ con người (không ghi ngày); NWS/NOAA lightning safety"
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: "Trang VN không ghi ngày ban hành hay cập nhật; không có văn bản pháp lý. Trang NWS weather.gov/safety/lightning* đang xuất bản (200) và nhất quán về mốc 30 phút. Chưa xác nhận trang VN còn là hướng dẫn hiện hành của Cục."
+deliberate_vn_deviation:
+  - "Nguồn VN (Cục PCTT) dùng ngưỡng 30 giây/20 giây và tư thế 'thấp nhất, ôm cổ, nhón chân' khi ở ngoài trời; NWS: 'When thunder roars, go indoors' (đi vào nhà ngay khi nghe sấm), 'Crouching doesn't make you any safer outdoors', 'The only completely safe action is to get inside a safe building or vehicle' (weather.gov/safety/lightning-myths, lightning-outdoors)."
+potential_harm:
+  - "Step 1/tldr: 'dưới 30 giây là trong tầm sét, dưới 20 giây phải di chuyển ngay' có thể khiến người đọc ở ngoài trời tới 20-30 giây mới đi trú, hoặc đo giờ rồi chờ. NWS: nghe tiếng sấm đầu tiên là vào nhà/xe ngay. Dòng 'nghe sấm đầu tiên là nguy hiểm' có nhưng 20/30 giây làm loãng."
+  - "Step 4 'ở vị trí thấp nhất có thể, tay ôm cổ, nhón chân' (tư thế co người): NWS nói tư thế này không làm an toàn hơn; nếu đọc thành biện pháp bảo vệ thì có thể làm người đọc ở lại ngoài trời thay vì chạy tới nhà/xe nếu còn gần. 'Vị trí thấp nhất' còn có thể là chỗ trũng đọng nước."
+suggested_edits:
+  - "tldr và step 1: đổi 'dưới 30 giây là trong tầm sét, dưới 20 giây phải ... ' thành 'nghe tiếng sấm đầu tiên là vào nhà hoặc ô tô kín ngay; chớp-sấm cách dưới 30 giây là sét đang trong tầm đánh' và bỏ vai trò chờ ngưỡng 20 giây. Dựa vào NWS: 'When thunder roars, go indoors.'"
+  - "Step 4: thêm điều kiện 'chỉ khi đang không thể tới chỗ trú; tư thế này không làm bạn an toàn hơn (theo cơ quan thời tiết Hoa Kỳ), nên ưu tiên chạy tới nhà/ô tô kín nếu còn đi được; tránh chỗ trũng đọng nước, mương'. Dựa vào 'Crouching doesn't make you any safer outdoors. Run to a substantial building or hard topped vehicle.'"
+  - "Mục Nguồn: thay link NOAA JetStream (403) bằng weather.gov/safety/lightning-outdoors hoặc nguồn mở được, để người đọc kiểm chứng được mốc 30 phút."

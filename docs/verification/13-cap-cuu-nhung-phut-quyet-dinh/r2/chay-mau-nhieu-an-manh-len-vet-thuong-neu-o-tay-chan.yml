@@ -1,0 +1,109 @@
+id: chay-mau-nhieu-an-manh-len-vet-thuong-neu-o-tay-chan
+checker: agent-R2c13c
+checked_at: 2026-11-08
+content_sha256: a88397a7f97b0da0a3f46ac8287d863247061f051625504f51ff3c17ec81aa6d
+result: pass-with-edits
+claims:
+  - text: Gọi 115 và mở loa ngoài điện thoại để được hướng dẫn (Phần I mục 4.2)
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: Gọi cấp cứu 115 để được tư vấn, cấp cứu và vận chuyển nạn nhân đến bệnh viện hoặc cơ sở y tế gần nhất. ⟪…⟫ Xin hướng dẫn y tế để thực hiện kỹ thuật sơ cứu, cấp cứu (bằng cách mở loa ngoài điện thoại để nghe hướng dẫn trực tiếp).
+    verdict: match
+    note: Bản PDF Quyết định 636 là ảnh quét có lớp chữ OCR nhiễu dấu; quote đã chuẩn hóa dấu tiếng Việt, từng chữ đối chiếu với lớp OCR, không thêm bớt từ. (hai câu cách nhau vài dòng trong mục 4.2.)
+  - text: Nếu băng ép trực tiếp mà không cầm máu thì phải dùng biện pháp khác (mục 4.3)
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: Nếu băng ép trực tiếp lên vết thương mà không cầm được máu thì phải dùng các biện pháp khác để cầm máu.
+    verdict: match
+    note: Bản PDF Quyết định 636 là ảnh quét có lớp chữ OCR nhiễu dấu; quote đã chuẩn hóa dấu tiếng Việt, từng chữ đối chiếu với lớp OCR, không thêm bớt từ.
+  - text: "Chỉ định ga rô: đứt động mạch lớn chảy ồ ạt, hoặc đã cầm máu tạm thời mà không kết quả (mục 4.6)"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: Vết thương đứt động mạch lớn làm máu chảy ồ ạt hoặc vết thương mạch máu đã áp dụng những biện pháp cầm máu tạm thời trên mà không có kết quả.
+    verdict: match
+    note: Bản PDF Quyết định 636 là ảnh quét có lớp chữ OCR nhiễu dấu; quote đã chuẩn hóa dấu tiếng Việt, từng chữ đối chiếu với lớp OCR, không thêm bớt từ.
+  - text: Người bị thương và người có mặt không biết băng chèn thì bắt buộc đặt ga rô (mục 4.6)
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: Vết thương mà người bị thương và người có mặt tại hiện trường không biết cách băng chèn, bắt buộc phải đặt ga-rô.
+    verdict: match
+    note: 'Bản PDF Quyết định 636 là ảnh quét có lớp chữ OCR nhiễu dấu; quote đã chuẩn hóa dấu tiếng Việt, từng chữ đối chiếu với lớp OCR, không thêm bớt từ. Lưu ý: "bắt buộc" ở đây là điều kiện chỉ định của tài liệu, không phải nghĩa vụ pháp lý.'
+  - text: "Ga rô đặt sát phía trên vết thương, để lộ ra ngoài: vết lớn cách 5 cm, vết nhỏ cách 2 cm (mục 4.6)"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: Ga-rô phải đặt sát ngay phía trên vết thương và để lộ ra ngoài (Đối với vết thương lớn đặt ga-rô phía trên vết thương cách 5 cm, vết thương nhỏ đặt cách 2 cm). Tuyệt đối không để ống quần, tay áo hay vật gì khác che lấp ga-rô
+    verdict: match
+    note: Bản PDF Quyết định 636 là ảnh quét có lớp chữ OCR nhiễu dấu; quote đã chuẩn hóa dấu tiếng Việt, từng chữ đối chiếu với lớp OCR, không thêm bớt từ.
+  - text: "Không ga rô chặt quá hoặc lỏng quá; ga rô cao su: mạch không bắt được hoặc máu ngừng chảy là được (mục 4.6)"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: Không ga rô chặt quá hoặc lỏng quá. ⟪…⟫ Nếu mạch không bắt được nữa hoặc máu ngừng chảy là được.
+    verdict: match
+    note: Bản PDF Quyết định 636 là ảnh quét có lớp chữ OCR nhiễu dấu; quote đã chuẩn hóa dấu tiếng Việt, từng chữ đối chiếu với lớp OCR, không thêm bớt từ.
+  - text: Ghi phiếu giờ đặt ga rô, đặt trước ngực người bị nạn (mục 4.6)
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: Đặt ga-rô xong phải ghi phiếu và đặt ngay trước ngực nạn nhân. Trong phiếu ghi rõ thời gian đặt ga-rô, giờ nới ga-rô, họ tên bệnh nhân
+    verdict: match
+    note: Bản PDF Quyết định 636 là ảnh quét có lớp chữ OCR nhiễu dấu; quote đã chuẩn hóa dấu tiếng Việt, từng chữ đối chiếu với lớp OCR, không thêm bớt từ.
+  - text: Chuyển nhanh tới bệnh viện, tốt nhất xe 115; chỉ đặt lại ga rô nếu máu tiếp tục chảy; việc nới ga rô do nhân viên y tế (mục 4.6)
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: Người bị đặt ga-rô phải được nhanh chóng chuyển đến bệnh viện, tốt nhất là vận chuyển bằng xe cấp cứu 115. Chỉ đặt lại ga rô nếu thấy máu tiếp tục chảy. Việc nới ga-rô chỉ được tiến hành bởi nhân viên y tế.
+    verdict: match
+    note: Bản PDF Quyết định 636 là ảnh quét có lớp chữ OCR nhiễu dấu; quote đã chuẩn hóa dấu tiếng Việt, từng chữ đối chiếu với lớp OCR, không thêm bớt từ.
+  - text: Ga rô cắt hoàn toàn lưu thông máu, có thể cắt cụt; đoạn chi chết nếu thiếu máu quá 60-90 phút
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: Một ga-rô thực hiện đúng yêu cầu kỹ thuật sẽ cắt đứt hoàn toàn sự lưu thông của máu từ trên xuống dưới và ngược lại. Khi quyết định làm ga-rô, người làm cấp cứu cần ý thức được rằng việc này có thể dẫn tới cắt cụt phần chi ở dưới ga-rô, vì đoạn chi này sẽ chết hoàn toàn nếu bị thiếu máu nuôi quá 60-90 phút.
+    verdict: match
+    note: Bản PDF Quyết định 636 là ảnh quét có lớp chữ OCR nhiễu dấu; quote đã chuẩn hóa dấu tiếng Việt, từng chữ đối chiếu với lớp OCR, không thêm bớt từ.
+  - text: Ga rô tiêu chuẩn là băng cao su mỏng, dẻo, bản rộng 3-5 cm (Bẫy 4)
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: "Ga-rô tiêu chuẩn để sử dụng trong một số trường hợp nhất định: băng cao su mỏng, dẻo, bản rộng 3-5cm, dài 1-2m cho chi trên và bản rộng 5-8cm, dài 2-3m cho chi dưới."
+    verdict: partial
+    note: Bản PDF Quyết định 636 là ảnh quét có lớp chữ OCR nhiễu dấu; quote đã chuẩn hóa dấu tiếng Việt, từng chữ đối chiếu với lớp OCR, không thêm bớt từ. Mục chỉ nêu 3-5 cm; nguồn nêu 3-5 cm cho chi trên và 5-8 cm cho chi dưới. Với chi dưới, dây hẹp hơn 5 cm mà người đọc làm theo "3-5 cm" thì hẹp hơn tài liệu.
+  - text: "AHA/Red Cross 2024: ấn trực tiếp là biện pháp chủ đạo; ga rô khi ấn trực tiếp không kiểm soát được"
+    source_url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001281
+    quote: Control of bleeding is a foundational first aid skill, and applying direct pressure is the mainstay of treatment. For extremity bleeding that is not effectively controlled with direct pressure, tourniquet application can be an appropriate intervention.
+    verdict: match
+    note: ahajournals.org trả 403 cho máy; đọc toàn văn qua bản lưu web.archive.org của cùng DOI 10.1161/CIR.0000000000001281 (Circulation 2024;150:e519-e579). Phần bảng khuyến cáo (COR/LOE) không có trong bản lưu; chỉ có phần Background/Supportive Text.
+  - text: '"Ga rô tự chế nên rộng ít nhất 2 inch (khoảng 5 cm)" (AHA/Red Cross 2024)'
+    source_url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001281
+    quote: Narrow tourniquets cause more pain and tissue damage and are less effective than wider tourniquets.
+    verdict: partial
+    note: Không tìm thấy "2 inches" hay "5 cm" trong văn bản đọc được; chỉ có ý "ga rô hẹp đau hơn, kém hiệu quả hơn ga rô rộng". Con số có thể nằm trong bảng khuyến cáo mà bản lưu không có. Chưa xác minh con số này.
+  - text: Ấn bằng hai tay trực tiếp lên vết thương, giữ liên tục (Hartford/Stop the Bleed)
+    source_url: https://www.alabamapublichealth.gov/alphtn/assets/051718booklet.pdf
+    quote: Apply continuous pressure with both hands directly on top of the bleeding wound
+    verdict: match
+    note: 'Sách mỏng Alabama DPH 2018 sao Stop the Bleed; nguồn thứ cấp của Hartford Consensus nhưng là tài liệu gốc cho nội dung này. Tiếp: "Continue pressure until relieved by medical responders".'
+  - text: Không đặt ga rô trên khớp; xoắn đến khi máu ngừng chảy (Hartford/Stop the Bleed)
+    source_url: https://www.alabamapublichealth.gov/alphtn/assets/051718booklet.pdf
+    quote: (be sure NOT to place the tourniquet onto a joint – go above the joint if necessary)
+    verdict: match
+    note: 'Cùng tài liệu: "Twist or wind the windlass until bleeding stops". Sách này nêu 2-3 inch phía trên chỗ chảy máu (≈5-7 cm), không mâu thuẫn với 5 cm của QĐ 636. Nội dung này nguyên văn có trong nguồn, nên nhãn "suy ra" trong Ghi chú Bẫy 4 là quá thận trọng, không sai.'
+  - text: "Red Cross: trong lúc chờ có ga rô, hoặc không có ga rô, thì ấn trực tiếp"
+    source_url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001281
+    quote: ""
+    verdict: unreachable
+    note: Mục này không ghi URL Red Cross trong Nguồn; trang redcross.org thử mở trả 410. Không xác minh được nhận định tách riêng "Red Cross".
+internal_checks:
+  - issue: Các số trong tldr/steps (115, 5 cm, 2 cm) đều có trong thân, khớp mục 4.6 QĐ 636; không có số mâu thuẫn nhau trong mục.
+    severity: warn
+  - issue: 'Khác mục 47 (cùng chương): mục 47 viết "Máu chảy nhiều thì có thể dùng garo, nhưng phải nới lỏng garo và đến bệnh viện trong vòng 2 giờ" (nguồn Bệnh viện Bãi Cháy), trái với mục 12 "Không tự nới ga rô; nới chỉ do nhân viên y tế" (QĐ 636). Mục 12 đúng theo QĐ 636; cần sửa mục 47 cho nhất quán.'
+    severity: warn
+  - issue: 'Step 4 ("không đặt trên khớp") và Ghi chú Bẫy 4 ("không đặt trên khớp ... suy ra") không nhất quán về nhãn: nội dung có nguyên văn trong tài liệu Hartford đã liệt kê ở Nguồn, nên không cần nhãn "suy ra".'
+    severity: warn
+  - issue: 'Ghi chú nêu "Red Cross: ... dùng ga rô ngay cho chảy máu đe dọa tính mạng ở tay chân" nhưng mục Nguồn không có URL Red Cross; AHA trang không truy cập trực tiếp được.'
+    severity: warn
+  - issue: Trường verification.scope trong frontmatter còn trỏ tới đường dẫn nội bộ docs/verification/.../b/...yml; apply.mjs sẽ ghi đè khi chạy lại, nhưng nếu hiển thị ra trang thì là chữ nội bộ lọt vào.
+    severity: warn
+  - issue: "legal_refs[].url: cả hai dòng cùng trỏ PDF QĐ 636 đúng văn bản; mục 4.2 và 4.6 khớp. Không có chữ nội bộ trong thân."
+    severity: warn
+validity:
+  doc: QĐ 636/QĐ-BYT ngày 21/02/2025 (Tài liệu huấn luyện sơ cứu, cấp cứu tại nơi làm việc); AHA/Red Cross First Aid Guidelines 2024
+  in_force: unconfirmed
+  effective_from: 2025-02-21
+  amended_by: []
+  basis: 'QĐ 636 Điều 2: "Quyết định này có hiệu lực kể từ ngày ký ban hành". Chưa mở được CSDL/Công báo cho tình trạng hiệu lực nên không kết luận "còn hiệu lực". AHA/Red Cross 2024 là bản mới nhất (thay 2020/2015 khuyến cáo sơ cứu).'
+deliberate_vn_deviation:
+  - QĐ 636 xếp ga rô sau các kỹ thuật cầm máu tạm thời (băng ép, băng chèn...) nhưng cũng nêu "đứt động mạch lớn làm máu chảy ồ ạt" là chỉ định ga rô riêng; AHA 2024 dùng ga rô khi ấn trực tiếp không kiểm soát được. Mục chọn "chảy ồ ạt thì ga rô ngay, ép tay trong lúc lấy ga rô". Khớp với chỉ định riêng của QĐ 636 và khuyến cáo Stop the Bleed; mục đã nêu rõ trong Ghi chú.
+potential_harm: []
+suggested_edits:
+  - 'Bẫy 4 và step 4: sửa "bản rộng 3-5 cm" thành "chi trên 3-5 cm, chi dưới 5-8 cm (QĐ 636, mục 2 của bài cầm máu)".'
+  - 'Chỉ giữ "AHA/Red Cross: ga rô tự chế nên rộng ít nhất 2 inch (5 cm)" nếu mở được bảng khuyến cáo AHA 2024 có con số này; nếu không, thay bằng "ga rô hẹp đau hơn, kém hiệu quả hơn ga rô rộng" (quote AHA supportive text).'
+  - 'Ghi chú "Red Cross": thêm URL Red Cross vào Nguồn hoặc bỏ câu đó.'
+  - 'Mục 47 cần sửa (không phải mục này): bỏ "nới lỏng garo" cho khớp mục 12.'
+  - 'Bẫy 4: bỏ "suy ra" cho "không đặt trên khớp" (có nguyên văn ở Hartford/Stop the Bleed: "be sure NOT to place the tourniquet onto a joint").'

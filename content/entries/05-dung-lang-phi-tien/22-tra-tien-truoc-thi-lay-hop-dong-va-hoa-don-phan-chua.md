@@ -97,4 +97,4 @@ Bốn bẫy.
 ## Nguồn
 
 - Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15, Điều 10 khoản 1 điểm d, đ, e; Điều 25 khoản 3, 4, 5, 6, 7, 9, 13; Điều 26 khoản 3; Điều 28 khoản 1; Điều 29; Điều 38 khoản 4 (hiệu lực 1/7/2024), bản ký: <https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf> (đọc bằng OCR trang 9–10 và 17–19).
-- Cần nguồn: Nghị định 55/2024/NĐ-CP quy định chi tiết luật này chưa được đối chiếu.
+- Nghị định 55/2024/NĐ-CP quy định chi tiết luật này, mục chưa đối chiếu.

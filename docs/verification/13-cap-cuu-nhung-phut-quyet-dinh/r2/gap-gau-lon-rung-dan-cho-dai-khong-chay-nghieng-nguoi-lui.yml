@@ -1,0 +1,103 @@
+id: gap-gau-lon-rung-dan-cho-dai-khong-chay-nghieng-nguoi-lui
+checked_at: 2026-11-08
+content_sha256: "06a11ea38a700eb724bda772032952ff4e75db394c041094866cf09079407038"
+checker: agent-R2c13g
+result: pass-with-edits
+claims:
+  - text: "Bị chó cắn: xối rửa vết cắn/cào dưới vòi nước chảy liên tục ít nhất 15 phút, dùng xà phòng (steps, tldr)"
+    source_url: https://hcdc.vn/nhung-viec-can-lam-ngay-sau-khi-bi-cho-can-xbcwu7.html
+    quote: "Xối rửa kỹ tất cả các vết cắn hoặc vết cào dưới vòi nước chảy liên tục trong ít nhất 15 phút."
+    verdict: match
+    note: "Bài của Trung tâm Kiểm soát bệnh tật TP.HCM (cập nhật 30/09/2025), dẫn QĐ 1622/QĐ-BYT. Bài nói 'cồn 70 độ hoặc cồn i-ốt', còn mục viết 'cồn 45°-70°' (khớp QĐ 1622 bản luatvietnam, xem claim sau)."
+  - text: "Xối rửa trong 15 phút với nước và xà phòng, sau đó sát khuẩn bằng cồn 45°-70° hoặc cồn i-ốt (mục Pháp luật VN, step 5)"
+    source_url: https://luatvietnam.vn/y-te/quyet-dinh-1622-qd-byt-bo-y-te-86760-d1.html
+    quote: "Xối rửa kỹ tất cả các vết cắn/cào trong 15 phút với nước và xà phòng, hoặc nước sạch, sau đó sát khuẩn bằng cồn 45°-70° hoặc cồn i ốt để làm giảm thiểu lượng vi rút dại tại vết cắn."
+    verdict: match-secondary
+    note: "Mục 3.3.1 Hướng dẫn kèm QĐ 1622/QĐ-BYT. Bản luatvietnam là bản sao thứ cấp; trang Nhi TƯ (legal_refs.url) chỉ có link PDF không tải được từ máy kiểm. Không mở được bản PDF chính thống."
+  - text: "Không băng kín vết thương, không nặn máu (step 5)"
+    source_url: https://hcdc.vn/nhung-viec-can-lam-ngay-sau-khi-bi-cho-can-xbcwu7.html
+    quote: "Không băng kín vết thương, không làm dập nát thêm hoặc nặn máu."
+    verdict: match-secondary
+    note: "Chỉ có ở bài HCDC (thứ cấp). Bản QĐ 1622 đọc được chỉ ghi 'Không làm dập nát thêm vết thương', không có 'không băng kín'. Mục chỉ dẫn câu này vào HCDC ở phần Lợi ích, không gán cho QĐ: đúng."
+  - text: "Tránh khâu kín ngay; nếu bắt buộc khâu thì trì hoãn vài giờ đến 3 ngày, khâu thưa/ngắt quãng sau khi tiêm huyết thanh kháng dại"
+    source_url: https://luatvietnam.vn/y-te/quyet-dinh-1622-qd-byt-bo-y-te-86760-d1.html
+    quote: "Không làm dập nát thêm vết thương hoặc làm tổn thương rộng hơn, tránh khâu kín ngay vết thương. Trường hợp bắt buộc phải khâu thì nên trì hoãn khâu vết thương sau vài giờ đến 3 ngày và nên khâu ngắt quãng/bỏ mũi sau khi đã tiêm phòng bế huyết thanh kháng dại vào tất cả các vết thương."
+    verdict: match-secondary
+    note: "Khớp nội dung; mục viết 'nếu có chỉ định' (từ bài HCDC), điều kiện đó hợp lý."
+  - text: "Bác sĩ có thể chỉ định kháng sinh và tiêm phòng uốn ván"
+    source_url: https://luatvietnam.vn/y-te/quyet-dinh-1622-qd-byt-bo-y-te-86760-d1.html
+    quote: "Tùy trường hợp cụ thể có thể sử dụng kháng sinh và tiêm phòng uốn ván."
+    verdict: match-secondary
+    note: ""
+  - text: "Điều trị dự phòng càng sớm càng tốt: rửa vết thương, tiêm vắc xin, huyết thanh kháng dại nếu có chỉ định"
+    source_url: https://luatvietnam.vn/y-te/quyet-dinh-1622-qd-byt-bo-y-te-86760-d1.html
+    quote: "Điều trị dự phòng nên được tiến hành càng sớm càng tốt sau khi bị phơi nhiễm, bao gồm: rửa vết thương, tiêm vắc xin phòng dại và sử dụng huyết thanh kháng dại nếu có chỉ định."
+    verdict: match-secondary
+    note: "Mục 3.3 của Hướng dẫn."
+  - text: "WHO: mọi vết cắn/cào xuyên da (một hoặc nhiều) là mức III, cần rửa, tiêm vắc xin ngay và kháng thể kháng dại"
+    source_url: https://www.who.int/news-room/fact-sheets/detail/rabies
+    quote: "Category III - single or multiple transdermal bites or scratches, contamination of mucous membrane or broken skin with saliva from animal licks, exposures due to direct contact with bats (severe exposure) Wound washing, immediate vaccination and administration of rabies immunoglobulin/monoclonal antibodies"
+    verdict: match
+    note: "WHO: vết xuyên da một hoặc nhiều = độ III, cần rửa, tiêm vắc xin ngay, và globulin/kháng thể đơn dòng kháng dại. Đúng với câu của mục."
+  - text: "Vết cắn sâu, đầu/mặt/cổ, đầu chi, nhiều vết là trường hợp cần huyết thanh và vắc xin ngay (Lợi ích, đoạn 'Theo ghi chú của người kiểm chứng')"
+    source_url: https://luatvietnam.vn/y-te/quyet-dinh-1622-qd-byt-bo-y-te-86760-d1.html
+    quote: "Vết cắn/cào sâu, nhiều vết - Vết cắn/cào gần thần kinh trung ương như đầu, mặt, cổ - Vết cắn/cào ở vùng có nhiều dây thần kinh như đầu chi, bộ phận sinh dục - Bình thường - Có triệu chứng dại - Không theo dõi được con vật Tiêm huyết thanh kháng dại và vắc xin phòng dại ngay."
+    verdict: partial
+    note: "Đúng ý nhưng thiếu điều kiện: bảng QĐ 1622 độ III chia theo vị trí/vết thương VÀ tình trạng con vật; vết cắn/cào chảy máu ở vùng xa thần kinh trung ương mà con vật bình thường chỉ 'Tiêm vắc xin dại ngay, dừng tiêm sau ngày thứ 10' (không huyết thanh). Mục lại nói WHO yêu cầu kháng thể cho mọi vết xuyên da: đây là lệch giữa WHO và Bộ Y tế VN, mục không nói rõ. Ngoài ra câu này viết bằng chữ nội bộ ('ghi chú của người kiểm chứng')."
+  - text: "Gấu: không chạy, nếu gấu đuổi theo thì dừng lại giữ chỗ; lùi chậm nghiêng người khi gấu đứng yên"
+    source_url: https://www.nps.gov/subjects/bears/safety.htm
+    quote: "If the bear is stationary, move away slowly and sideways ; this allows you to keep an eye on the bear and avoid tripping. ... Do NOT run , but if the bear follows, stop and hold your ground."
+    verdict: match
+    note: "NPS: nếu gấu đứng yên thì lùi chậm, đi ngang; không chạy, nếu gấu theo thì dừng lại giữ chỗ."
+  - text: "Không leo cây (gấu leo cây được); gấu chạy nhanh cả lên và xuống dốc"
+    source_url: https://www.nps.gov/subjects/bears/safety.htm
+    quote: "Bears can run as fast as a racehorse both uphill and down. Like dogs, they will chase ﬂeeing animals. Do NOT climb a tree . Both grizzlies and black bears can climb trees."
+    verdict: match
+    note: ""
+  - text: "Nói bình tĩnh bằng giọng trầm để gấu nhận ra là người; vẫy tay chậm; không hét"
+    source_url: https://www.nps.gov/subjects/bears/safety.htm
+    quote: "Identify yourself by talking calmly so the bear knows you are a human and not a prey animal. ... Continue to talk to the bear in low tones; ... Do not make any loud noises or screams—the bear may think it’s the sound of a prey animal."
+    verdict: match
+    note: "'Low tones' = giọng trầm; 'slowly wave your arms' có trong NPS."
+  - text: "Gấu đen tấn công: đừng giả chết; chạy vào xe/nhà nếu được; không thoát được thì đánh trả"
+    source_url: https://www.nps.gov/subjects/bears/safety.htm
+    quote: "If you are attacked by a black bear, DO NOT PLAY DEAD . Try to escape to a secure place such as a car or building. If escape is not possible, try to ﬁght back using any object available."
+    verdict: match
+    note: "Nguyên văn NPS dành cho gấu đen Bắc Mỹ. Với gấu nâu: PLAY DEAD, mục nêu đúng trong thân bài."
+  - text: "Gấu ở Việt Nam thường là gấu ngựa, gấu chó, thuộc nhóm gấu đen (suy ra, không có nguồn VN xác nhận loài)"
+    source_url: https://www.nps.gov/subjects/bears/safety.htm
+    quote: "Every situation is different, but below are guidelines on how brown bear attacks can differ from black bear attacks."
+    verdict: inference
+    note: "Nhãn 'suy ra' trung thực nhưng bước suy ra không nằm trong nguồn nào được dẫn: NPS chỉ nói về gấu nâu/gấu đen Mỹ; gấu chó (Helarctos) không thuộc chi gấu đen Ursus. Việc áp hướng dẫn Mỹ lên gấu châu Á chưa có nguồn."
+  - text: "Lợn rừng: mục không áp bước 'không leo cây' vì chưa có nguồn chính thống"
+    source_url: https://www.nps.gov/subjects/bears/safety.htm
+    quote: "n/a"
+    verdict: not-found
+    note: "Không có nguồn cho lợn rừng/đàn chó, mục tự nhận. Trung thực, nhưng câu 'Chưa có hướng dẫn chính thống nào được kiểm chứng' là ngôn ngữ nội bộ."
+internal_checks:
+  - issue: "Lọt chữ nội bộ ở mục 'Lợi ích' (chó cắn): 'Theo ghi chú của người kiểm chứng về mục 3.3.2 của Quyết định 1622 ... Chưa có trích dẫn nguyên văn cho phần này.' Người đọc không có ngữ cảnh 'người kiểm chứng'; hơn nữa nay đã có nguyên văn (bảng 3.3.2) và nội dung cần nêu điều kiện (tình trạng con vật)."
+    severity: error
+  - issue: "'Lợn rừng và đàn chó. Chưa có hướng dẫn chính thống nào được kiểm chứng. Một trang không chính thống...' và 'Ghi chú: chữ gốc chưa mở được từ nguồn chính' là ngôn ngữ quy trình kiểm chứng, nên viết lại hướng người đọc ('Chưa có hướng dẫn chính thống về lợn rừng nên mục không đưa lời khuyên').'"
+    severity: warn
+  - issue: "tldr nói 'vết nhỏ xuyên da vẫn có thể cần kháng thể' (đúng với WHO) nhưng QĐ 1622 bảng độ III cho vết chảy máu xa thần kinh trung ương và con vật bình thường chỉ tiêm vắc xin. Mục không nói đây là điểm lệch WHO–Bộ Y tế; 'bác sĩ phân độ' bao được nhưng nên ghi rõ."
+    severity: warn
+  - issue: "Step 5 ghi 'ít nhất 15 phút' (HCDC) trong khi QĐ 1622 ghi 'trong 15 phút'; không mâu thuẫn, nhưng 'Pháp luật Việt Nam' ghi '15 phút' và steps '15 phút' (không 'ít nhất') chỉ khác nhẹ."
+    severity: warn
+  - issue: "Các con số 15 phút, 45°-70°, 3 ngày trong tldr/steps đều có trong thân. Không mâu thuẫn số. 13-13 (cùng chương, chó mèo cắn) nói cùng số (15 phút, cồn 45-70 độ); nhất quán."
+    severity: warn
+  - issue: "legal_refs[0].url (Nhi TƯ) đúng văn bản QĐ 1622 nhưng chỉ là trang thông báo với link PDF, không có nội dung; claim chỉ kiểm được qua luatvietnam (thứ cấp)."
+    severity: warn
+validity:
+  doc: "Quyết định 1622/QĐ-BYT ngày 08/5/2014 của Bộ Y tế (Hướng dẫn giám sát, phòng chống bệnh dại trên người)"
+  in_force: unconfirmed
+  effective_from: "2014-05-08"
+  amended_by: []
+  basis: "Trang luatvietnam ghi 'Điều 3. Quyết định này có hiệu lực kể từ ngày ký' nhưng trường 'Tình trạng hiệu lực', 'Ngày hết hiệu lực' bị che sau đăng nhập. Bài HCDC 30/09/2025 vẫn dẫn QĐ này làm căn cứ, nhưng chưa thấy nguồn chính thống xác nhận chưa bị thay thế. Không kết luận còn hiệu lực."
+deliberate_vn_deviation:
+  - "WHO xếp mọi vết cắn/cào xuyên da (độ III) cần kháng thể (RIG/mAb) ngay; QĐ 1622 (bảng 3.3.2) chỉ yêu cầu huyết thanh kháng dại ngay với vết sâu/nhiều/đầu mặt cổ/đầu chi hoặc khi con vật có triệu chứng/không theo dõi được. Mục đúng ở chỗ 'để bác sĩ phân độ' nhưng cần nêu rõ lệch này."
+potential_harm: []
+suggested_edits:
+  - "Lợi ích, đoạn 'Theo ghi chú của người kiểm chứng ...': xóa; thay bằng: 'Theo mục 3.3.2 Quyết định 1622: vết cắn/cào sâu, nhiều vết, ở đầu, mặt, cổ, đầu chi hoặc bộ phận sinh dục thì tiêm huyết thanh kháng dại và vắc xin ngay khi con vật có triệu chứng hoặc không theo dõi được; vết chảy máu ở vùng xa thần kinh trung ương mà con vật bình thường chỉ tiêm vắc xin. WHO nghiêm hơn: mọi vết xuyên da đều cần kháng thể. Bác sĩ quyết định.' (dựa vào quote bảng 3.3.2 và WHO category III)."
+  - "Đoạn 'Lợn rừng và đàn chó': viết lại không dùng chữ 'được kiểm chứng', ví dụ 'Chưa có hướng dẫn chính thống về lợn rừng và đàn chó, nên mục không đưa lời khuyên cho các trường hợp này.'"
+  - "Đoạn gấu Việt Nam: bỏ hoặc nêu thẳng 'NPS viết cho gấu đen và gấu nâu Bắc Mỹ; chưa có hướng dẫn riêng cho gấu châu Á'. Bỏ câu gấu chó 'thuộc nhóm gấu đen' vì gấu chó không phải gấu đen."
+  - "Ghi chú 'chữ gốc chưa mở được từ nguồn chính': đổi thành 'trích qua bản sao đăng lại của Quyết định 1622' (nội dung đúng, bỏ giọng quy trình)."

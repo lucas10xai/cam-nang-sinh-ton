@@ -1,0 +1,95 @@
+id: mot-mat-toi-nhu-co-man-che-du-vai-phut-tu-het
+checker: agent-R2c13a
+checked_at: 2026-11-08
+content_sha256: ade8794f3ce67d9a0e63472ac7c96e90b0bce6579feeb425c9c4218aaac156ce
+result: pass-with-edits
+claims:
+  - text: "QĐ 40/QĐ-BYT bài 27: mù đột ngột một mắt, không chớp sáng, không đau, không đỏ mắt"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: Mù đột ngột 1 mắt, không kèm các triệu chứng chớp sáng, đau nhức, đỏ mắt, cộm chói.
+    verdict: match
+    note: 'Đọc từ tệp mat.rar (PDF "The final - Mắt 20150112.pdf", bài 27, mục 3a Lâm sàng). QĐ 40/QĐ-BYT ký 12/01/2015, Điều 3: hiệu lực từ ngày ký.'
+  - text: Tiền triệu là những đợt mù thoáng qua một bên
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: Đôi khi có tiền triệu là những đợt mù thoáng qua, đau nhức hố mắt xảy ra ở 1 bên.
+    verdict: match
+    note: Mục bỏ "đau nhức hố mắt", không ảnh hưởng ý.
+  - text: Cấp cứu số một của nhãn khoa, xử lý sớm trong 2 giờ đầu
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: Là cấp cứu số một của nhãn khoa cần xử lý sớm trong vòng 2 giờ đầu.
+    verdict: match
+    note: Mục 4a Nguyên tắc điều trị. Mốc 2 giờ khác 4,5 giờ của AHA 2021 — mục ghi rõ.
+  - text: "Tiên lượng: mù một mắt đột ngột, không hồi phục dù điều trị cấp cứu kịp thời"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: gây ra bệnh cảnh mù một mắt đột ngột, không hồi phục dù có được điều trị cấp cứu kịp thời.
+    verdict: match
+    note: Mục 1 Đại cương.
+  - text: "Mục tiêu điều trị: tạo lại lưu thông mạch máu; sau đó khám tim mạch"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Giải quyết nguyên nhân tắc mạch, tạo lại sự lưu thông của mạch máu.  [...]  Toàn thân: khám tổng quát phát hiện các yếu tố nguy cơ, nhất là các bệnh tim mạch, bệnh máu..."
+    verdict: match
+    note: Mục 4a và 6 (Phòng bệnh). Mục viết "vì mục tiêu là tạo lại lưu thông" là liên kết nhân quả do mục thêm.
+  - text: "AHA/ASA 2021: tắc động mạch trung tâm võng mạc là dạng đột quỵ thiếu máu cục bộ cấp; cấp cứu y khoa cần chuyển ngay tới cấp cứu"
+    source_url: https://newsroom.heart.org/news/stroke-affecting-the-eye-requires-immediate-treatment-can-signal-future-vascular-events
+    quote: Central retinal artery occlusion (CRAO) is a rare form of acute ischemic stroke  [...]  "We know acute CRAO is a medical emergency requiring early recognition and triage to emergency medical treatment," Mac Grory said.
+    verdict: match-secondary
+    note: Bản đọc được là thông cáo của chính AHA (newsroom, 08/03/2021); văn bản tuyên bố gốc (Stroke 2021;52:e282, doi 10.1161/STR.0000000000000366) bị chặn 403. Câu "medical emergency" là lời chủ tịch nhóm soạn trích trong thông cáo, mục đặt vào cạnh "AHA/ASA 2021" như thể trích từ chính tuyên bố.
+  - text: Người được chẩn đoán ở phòng khám phải được chuyển ngay tới khoa cấp cứu bệnh viện
+    source_url: https://newsroom.heart.org/news/stroke-affecting-the-eye-requires-immediate-treatment-can-signal-future-vascular-events
+    quote: if a person is diagnosed in a doctor’s office or other outpatient clinic, they should be immediately sent to a hospital emergency department for further evaluation and treatment.
+    verdict: match-secondary
+    note: Cùng thông cáo AHA. Đây là hướng dẫn cho bác sĩ/phòng khám, không phải lời khuyên tự đi cho người dân.
+  - text: tPA phải dùng trong 4,5 giờ mới hiệu quả và an toàn nhất; dưới 20% lấy lại thị lực chức năng
+    source_url: https://newsroom.heart.org/news/stroke-affecting-the-eye-requires-immediate-treatment-can-signal-future-vascular-events
+    quote: Current literature suggests that treatment with intravenous tissue plasminogen activator (tPA) ... may be effective. But tPA must be administered within 4.5 hours of the first sign of symptoms to be most effective and safe.  [...]  with fewer than 20% of people regaining functional vision in that eye.
+    verdict: match-secondary
+    note: Thông cáo AHA ghi tPA "may be effective" và nhấn mạnh còn thiếu thử nghiệm lớn; mục viết không kèm "có thể" nên mạnh hơn nguồn một chút.
+  - text: "NINDS: khó nhìn một hoặc cả hai mắt phải gọi cấp cứu ngay; không bỏ qua triệu chứng tự hết nhanh"
+    source_url: https://www.ninds.nih.gov/health-information/stroke/signs-and-symptoms
+    quote: Sudden Trouble Seeing | Trouble seeing in one or both eyes  [...]  If stroke symptoms go away after a few minutes, it may be a transient ischemic attack (TIA), also sometimes called a “mini-stroke.”  [...]  paying attention to a TIA can save your life.
+    verdict: match
+    note: NINDS đọc ngày 2026-11-08.
+  - text: Không tự lái xe, không nhờ người chở
+    source_url: https://www.ninds.nih.gov/health-information/stroke/signs-and-symptoms
+    quote: A person having a stroke should not drive to the hospital themselves or have someone else drive them.
+    verdict: match
+    note: NINDS nói cho đột quỵ nói chung và khuyên đi xe cấp cứu; xung đột với phương án "tới ngay khoa cấp cứu" ở bước 1 (xem internal_checks).
+  - text: 'Bước 1: "gọi 115 hoặc tới ngay khoa cấp cứu của bệnh viện"; Bẫy 2: "Gọi 115 hoặc tới khoa cấp cứu trước"'
+    source_url: https://newsroom.heart.org/news/stroke-affecting-the-eye-requires-immediate-treatment-can-signal-future-vascular-events
+    quote: (AHA chỉ nói người được chẩn đoán ở phòng khám phải được chuyển tới khoa cấp cứu; NINDS chỉ khuyên xe cấp cứu. Không có nguồn nói người dân tự tới khoa cấp cứu.)
+    verdict: inference
+    note: Phương án "tự tới khoa cấp cứu" là suy ra và không gắn nhãn; mâu thuẫn bước 4.
+  - text: "Bước 4: không nhỏ thuốc rồi nằm nghỉ (Bẫy 3: nhỏ thuốc nhỏ mắt, nghỉ, chờ hôm sau)"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: (không có câu tương ứng; mục chỉ suy ra từ "cấp cứu số một ... trong vòng 2 giờ đầu")
+    verdict: inference
+    note: Hợp lý nhưng không phải chữ của nguồn, không gắn nhãn.
+  - text: "Gọi 115 không mất tiền (nguồn dẫn: Thông tư 02/2020/TT-BTTTT)"
+    source_url: https://mst.gov.vn/mien-phi-cac-cuoc-goi-den-so-113-114-115-197140697.htm
+    quote: gọi đến các số dịch vụ khẩn cấp (113, 114, 115) được hưởng giá cước 0 đồng/phút.
+    verdict: partial
+    note: Bản tin Cổng Bộ KH&CN (tóm tắt thứ cấp, không phải chính văn) đúng cho thời điểm 2020. Thông tư 02/2020 ("đến năm 2020") được lawplayer (đồng bộ vbpl.vn 2026-07-04) ghi "Hết hiệu lực toàn bộ"; văn bản kế nhiệm Thông tư 14/2022/TT-BTTTT Điều 5 liệt kê "liên lạc khẩn cấp đến các số 113, 114 và 115" là dịch vụ bắt buộc nhưng Điều 7 giao Bộ quyết định giá, tôi chưa thấy mức 0 đồng trong phần đã đọc. Mục đã tự hedge "hiệu lực hiện hành chưa xác nhận", trung thực nhưng dẫn nguồn đã hết hiệu lực.
+internal_checks:
+  - issue: Bước 1 cho phép "tới ngay khoa cấp cứu" nhưng bước 4 cấm tự lái xe và nhờ người chở; không nói người đọc tới khoa cấp cứu bằng cách nào. Mâu thuẫn nội bộ, có thể gây chần chừ.
+    severity: warn
+  - issue: 'Mục Chi phí lọt ghi chú soạn thảo: "Cần nguồn cho mức chi phí và tỷ lệ bảo hiểm y tế chi trả."'
+    severity: error
+  - issue: 'Mục đặt cụm "AHA/ASA 2021: ... " kèm câu trích tiếng Anh nhưng đó là lời chủ tịch nhóm soạn trong thông cáo báo chí, không phải chữ của tuyên bố; tPA được nêu mạnh hơn nguồn ("may be effective").'
+    severity: warn
+  - issue: Mốc 2 giờ (QĐ 40/2015) và 4,5 giờ (AHA 2021) khác nhau, đã được mục nêu rõ trong tldr và Ghi chú. Các con số khác trong tldr/steps đều có trong thân. Có "mục dừng ở B" trong Ghi chú.
+    severity: warn
+validity:
+  doc: QĐ 40/QĐ-BYT ngày 12/01/2015 (BYT); AHA/ASA 2021 Management of CRAO; NINDS
+  in_force: unconfirmed
+  effective_from: 2015-01-12
+  amended_by: []
+  basis: QĐ 40 Điều 3 hiệu lực từ ngày ký; không tìm được bằng chứng đã thay thế hay còn áp dụng (tài liệu 2015, cũ hơn AHA/ASA 2021 và mục đã nêu lệch). TT 02/2020/TT-BTTTT đã hết hiệu lực toàn bộ (lawplayer, đồng bộ vbpl.vn 2026-07-04); TT 14/2022/TT-BTTTT còn hiệu lực nhưng không thấy mức 0 đồng cho 115 trong phần đọc được.
+deliberate_vn_deviation:
+  - "QĐ 40/QĐ-BYT (2015): coi tắc động mạch trung tâm võng mạc là cấp cứu nhãn khoa, xử lý trong 2 giờ đầu, phác đồ tại chỗ (massage nhãn cầu, tiêm hậu nhãn cầu...); AHA/ASA 2021: là đột quỵ thiếu máu cục bộ cấp, tPA tĩnh mạch trong 4,5 giờ, phải chuyển khoa cấp cứu. Mục đã nêu rõ chỗ lệch và theo AHA/NINDS."
+potential_harm:
+  - 'Bước 1 ("gọi 115 hoặc tới ngay khoa cấp cứu") mâu thuẫn bước 4 ("không tự lái xe, không nhờ người chở") và không nêu phương tiện: người đọc có thể mất thời gian phân vân hoặc tự đi bằng phương tiện NINDS khuyên tránh. Mức nguy hại thấp-vừa; sửa được bằng một câu.'
+suggested_edits:
+  - 'Bước 1 và Bẫy 2: bỏ "hoặc tới ngay khoa cấp cứu" hoặc viết "gọi 115; nếu 115 không tới được, nhờ người chở ngay tới khoa cấp cứu (lời khuyên thực hành, nguồn NINDS khuyên xe cấp cứu)", và sửa bước 4 cho khớp.'
+  - 'Chi phí: xóa "Cần nguồn cho mức chi phí và tỷ lệ bảo hiểm y tế chi trả."'
+  - 'Lợi ích: tách rõ "thông cáo AHA 2021 trích lời chủ tịch nhóm soạn" và thêm "có thể" cho tPA.'
+  - "Câu 115 miễn phí: xử lý như mục 01."

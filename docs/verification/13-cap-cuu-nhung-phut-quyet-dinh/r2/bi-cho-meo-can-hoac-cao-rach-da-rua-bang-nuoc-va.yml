@@ -1,0 +1,91 @@
+id: bi-cho-meo-can-hoac-cao-rach-da-rua-bang-nuoc-va
+checker: agent-R2c13c
+checked_at: 2026-11-08
+content_sha256: 6f71a37787ccb914ca337a57bdbff8e94b3a05f6290b38ae5d870167643d29e9
+result: pass-with-edits
+claims:
+  - text: Xối rửa mọi vết cắn/cào 15 phút bằng nước và xà phòng (hoặc nước sạch), rồi sát khuẩn cồn 45-70 độ hoặc cồn i-ốt
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: Xối rửa kỹ tất cả các vết cắn/cào trong 15 phút với nước và xà phòng, hoặc nước sạch, sau đó sát khuẩn bằng cồn 45°-70° hoặc cồn i ốt để làm giảm thiểu lượng vi-rút dại tại vết cắn.
+    verdict: match
+    note: Bài của BS CK1 Nguyễn Đức Minh, Viện Pasteur TP.HCM, đăng 04/11/2024, ghi nguồn QĐ 1622/QĐ-BYT. Nội dung trùng nguyên văn mục 3.3.1 QĐ 1622 (đọc được toàn văn qua luatvietnam.vn, nguồn thứ cấp).
+  - text: Không làm dập nát thêm vết thương, tránh khâu kín ngay
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: Không làm dập nát thêm vết thương hoặc làm tổn thương rộng hơn, tránh khâu kín ngay vết thương.
+    verdict: match
+    note: "Câu tiếp theo trong nguồn: khi bắt buộc phải khâu thì trì hoãn vài giờ đến 3 ngày. Mục không nêu ngoại lệ này (không gây hại)."
+  - text: Điều trị dự phòng nên tiến hành càng sớm càng tốt sau phơi nhiễm
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: "Điều trị dự phòng nên được tiến hành càng sớm càng tốt sau khi bị phơi nhiễm, bao gồm: rửa vết thương, tiêm vắc-xin phòng dại và sử dụng huyết thanh kháng dại nếu có chỉ định."
+    verdict: match
+  - text: '"Nên ngay trong ngày" (tldr, step 3)'
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: Điều trị dự phòng nên được tiến hành càng sớm càng tốt sau khi bị phơi nhiễm
+    verdict: partial
+    note: Nguồn chỉ nói "càng sớm càng tốt". "Nên ngay trong ngày" là cụ thể hóa của người soạn, mục không gắn nhãn "suy ra"; hướng này an toàn nhưng cần nhãn.
+  - text: "Độ II (xước, cào, liếm trên da tổn thương/niêm mạc): tiêm vắc xin ngay; con vật bình thường sau 10 ngày thì dừng"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: Vết xước, vết cào, liếm trên da bị tổn thương, niêm mạc Bình thường Bình thường Tiêm vắc-xin dại ngay, dừng tiêm sau ngày thứ 10
+    verdict: match
+    note: 'Bảng gốc trích dòng ghép (cột: tình trạng con vật lúc cắn / trong 10 ngày). Cùng dòng còn: con vật ốm/mất tích hoặc có triệu chứng dại hoặc không theo dõi được thì "Tiêm vắc-xin dại ngay và đủ liều".'
+  - text: "Độ III cắn/cào chảy máu vùng xa thần kinh trung ương: tiêm vắc xin ngay"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: Vết cắn/cào chảy máu ở vùng xa thần kinh trung ương Bình thường Bình thường Tiêm vắc-xin dại ngay, dừng tiêm sau ngày thứ 10
+    verdict: partial
+    note: 'Mục bỏ điều kiện đi kèm: nếu con vật có triệu chứng dại hoặc không theo dõi được (chó vô chủ, bỏ chạy) thì bảng ghi "Tiêm huyết thanh kháng dại và vắc-xin dại ngay". Với phần lớn người bị chó lạ cắn, điều kiện này là thực tế, nên có thể làm người đọc nghĩ chỉ cần vắc xin. Mục có dặn "quyết định cuối cùng là của bác sĩ", giảm nhưng không bỏ rủi ro hiểu sai.'
+  - text: "Vết cắn/cào sâu, nhiều vết, đầu mặt cổ, đầu chi, sinh dục: tiêm huyết thanh kháng dại và vắc xin"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: "- Vết cắn/cào sâu, nhiều vết - Vết cắn/cào gần thần kinh trung ương như đầu, mặt, cổ - Vết cắn/cào ở vùng có nhiều dây thần kinh như đầu chi, bộ phận sinh dục"
+    verdict: match
+    note: Dòng bảng ghi kết quả "Tiêm huyết thanh kháng dại và vắc-xin phòng dại" ở ô kế bên; trích văn bản chỉ lấy cột chỉ định (bảng bị trải phẳng khi trích). Mục diễn đạt đúng kết luận.
+  - text: "Động vật hoang dã (dơi, khỉ, cầy...) cắn: xử lý và điều trị như với động vật bị dại"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: Các vết thương do động vật hoang dã cắn cần xử lý và điều trị như đối với động vật bị bệnh dại.
+    verdict: match
+    note: 'Nguồn không nêu "dơi, khỉ, cầy" cụ thể; đó là ví dụ của người soạn cho "động vật hoang dã" (hợp lý). Nguồn còn nêu: nếu bắt ngay và xét nghiệm âm tính thì có thể dừng điều trị.'
+  - text: Thời gian ủ bệnh thông thường 1-3 tháng; tử vong gần 100% khi đã lên cơn
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: Thời gian ủ bệnh ở người thông thường là từ 1 - 3 tháng sau phơi nhiễm
+    verdict: match
+    note: 'Tử vong: "Khi đã lên cơn dại, tỷ lệ tử vong gần như 100% (đối với cả người và động vật)." (cùng trang).'
+  - text: Tùy trường hợp bác sĩ dùng kháng sinh và tiêm phòng uốn ván; lịch tiêm do bác sĩ chỉ định
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: Tùy trường hợp cụ thể có thể sử dụng kháng sinh và tiêm phòng uốn ván.
+    verdict: match
+    note: 'Lịch tiêm: Pasteur ghi "tuân thủ theo chỉ định của bác sĩ"; văn bản QĐ 1622 gốc ghi "theo hướng dẫn của nhà sản xuất đã được Bộ Y tế Việt Nam cấp phép" (qua luatvietnam). Hai cách ghi khác nhau về người quyết định; mục theo bài Pasteur.'
+  - text: QĐ 1622/QĐ-BYT 2014 áp dụng cho cơ sở y tế dự phòng và khám chữa bệnh trên toàn quốc, có hiệu lực từ ngày ký
+    source_url: https://luatvietnam.vn/y-te/quyet-dinh-1622-qd-byt-bo-y-te-86760-d1.html
+    quote: Điều 3. Quyết định này có hiệu lực kể từ ngày ký, ban hành.
+    verdict: match-secondary
+    note: Toàn văn QĐ 1622 đọc được trên luatvietnam.vn (bản sao thứ cấp); bản ký (Công báo/vbpl/moh.gov.vn) không mở được. Trường tình trạng hiệu lực trên luatvietnam bị khóa đăng nhập.
+  - text: 'Không chờ xem con vật có ốm: điều trị dự phòng khẩn cấp không chờ chẩn đoán ở động vật (diễn giải mục "Đừng chờ xem con vật có ốm không")'
+    source_url: https://luatvietnam.vn/y-te/quyet-dinh-1622-qd-byt-bo-y-te-86760-d1.html
+    quote: khi bị động vật nghi dại cắn, người bệnh phải được giám sát và điều trị dự phòng khẩn cấp mà không chờ chẩn đoán xác định bệnh dại ở động vật bằng xét nghiệm
+    verdict: match-secondary
+    note: 'Câu này nằm trong QĐ 1622 mục 1.1, đọc qua luatvietnam (thứ cấp). Bài Pasteur dùng bảng: "Tiêm vắc-xin dại ngay". Ý khớp nhưng mục gắn nhãn câu này vào Pasteur chứ không nêu mục 1.1.'
+internal_checks:
+  - issue: Số trong tldr/steps (15 phút, 45-70 độ) có trong thân và khớp nguồn; Ghi chú nêu "10 ngày" cho mốc dừng tiêm, nhất quán với nguồn; không có mâu thuẫn số.
+    severity: warn
+  - issue: 'Mục viết "đọc được nguyên văn ... chưa mở bản ký của quyết định" và legal_refs.article ghi "chưa mở bản ký": lời khai quy trình kiểm chứng lọt vào chữ hiển thị cho người đọc (legal_refs.article). Nên bỏ khỏi thân mục.'
+    severity: warn
+  - issue: Step 3 "(nên ngay trong ngày)" không có nguồn trực tiếp và không gắn nhãn "suy ra".
+    severity: warn
+  - issue: 'Ghi chú "nếu con vật vẫn bình thường sau 10 ngày, bác sĩ có thể dừng tiêm ở vết xước nhẹ": bảng nguồn áp dụng cho cả độ III xa thần kinh trung ương (không chỉ "vết xước nhẹ") và chỉ khi con vật theo dõi được; không nêu điều kiện "theo dõi được" có thể làm người dân dừng tiêm sớm với chó lạ.'
+    severity: warn
+  - issue: Trường verification.scope trong frontmatter còn trỏ tới đường dẫn nội bộ docs/verification/.../b/...yml; apply.mjs sẽ ghi đè khi chạy lại, nhưng nếu hiển thị ra trang thì là chữ nội bộ lọt vào.
+    severity: warn
+  - issue: 'legal_refs[].url: URL bài Pasteur đúng bài ghi ở doc (dẫn QĐ 1622); không phải văn bản QĐ 1622. article "nội dung xử trí vết thương và chỉ định tiêm" khớp mục 3.3.1 và 3.3.2 QĐ 1622.'
+    severity: warn
+validity:
+  doc: QĐ 1622/QĐ-BYT ngày 08/5/2014 (Hướng dẫn giám sát, phòng chống bệnh dại trên người)
+  in_force: unconfirmed
+  effective_from: 2014-05-08
+  amended_by: []
+  basis: 'Điều 3 QĐ 1622: có hiệu lực kể từ ngày ký (08/5/2014). Bài Viện Pasteur đăng 04/11/2024 vẫn dẫn QĐ 1622 làm nguồn bảng chỉ định (dấu hiệu đang áp dụng). Tìm "thay thế QĐ 1622" không thấy văn bản thay thế. Không mở được trang tình trạng hiệu lực (luatvietnam khóa, thuvienphapluat 403) nên không kết luận.'
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - Gắn nhãn "(lời khuyên thực hành)" hoặc "suy ra" cho "nên ngay trong ngày"; dựa vào quote Pasteur "càng sớm càng tốt".
+  - 'Mục "Chỉ định tiêm" (độ III xa thần kinh trung ương): thêm "nếu con vật có triệu chứng dại hoặc không theo dõi được (chó lạ, bỏ chạy) thì tiêm cả huyết thanh kháng dại" (quote bảng Pasteur: "Có triệu chứng dại, hoặc không theo dõi được con vật — Tiêm huyết thanh kháng dại và vắc-xin dại ngay").'
+  - 'Ghi chú "dừng tiêm sau 10 ngày": sửa "vết xước nhẹ" thành "vết xước, cào, hoặc vết cắn chảy máu ở vùng xa thần kinh trung ương, và chỉ khi theo dõi được con vật".'
+  - 'Bỏ cụm "chưa mở bản ký của quyết định" khỏi thân/legal_refs.article; chuyển sang ghi chú nguồn ngắn: "đọc qua bài Viện Pasteur TP.HCM".'

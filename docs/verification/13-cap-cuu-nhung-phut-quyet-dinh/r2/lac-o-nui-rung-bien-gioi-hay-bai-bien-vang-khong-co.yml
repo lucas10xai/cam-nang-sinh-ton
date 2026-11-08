@@ -1,0 +1,88 @@
+id: lac-o-nui-rung-bien-gioi-hay-bai-bien-vang-khong-co
+checker: agent-R2c13f
+checked_at: 2026-11-08
+content_sha256: 05114192d476fe516b4830159669f3dd167e545b0056db07e584d00a87dd9315
+result: pass-with-edits
+claims:
+  - text: "Số 112 tiếp nhận thông tin sự cố, thiên tai, thảm họa, yêu cầu trợ giúp; đặt tại Bộ Chỉ huy quân sự cấp tỉnh"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/200-ndcp.signed.pdf
+    verdict: match
+    quote: "Số điện thoại 112 tiếp nhận nội dung thông tin về sự cố, thiên tai, thảm họa, những nguy cơ xảy ra, yêu cầu trợ giúp của tổ chức, cá nhân. Tổng đài 112 được đặt tại Bộ Chỉ huy quân sự tỉnh, thành phố trực thuộc trung ương"
+    note: "Điều 3 khoản 1. PDF bản ký là ảnh quét (không có lớp chữ); tôi đọc bằng OCR macOS Vision và đối chiếu với bản lawplayer, khớp chữ."
+  - text: "Nội dung tiếp nhận: tên người cung cấp, thời gian, địa điểm, diễn biến, phạm vi, yêu cầu trợ giúp"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/200-ndcp.signed.pdf
+    verdict: match
+    quote: "a) Tên cá nhân, tổ chức cung cấp thông tin; b) Thời gian, địa điểm xảy ra sự cố, thảm họa; diễn biến, phạm vi ảnh hưởng, khả năng lan rộng; những yêu cầu trợ giúp và thông tin cần thiết khác"
+    note: "Điều 3 khoản 3. 'Nên nói rõ mình đang ở đâu' là suy ra và mục đã gắn nhãn đúng; 'số người' không có trong điều khoản, mục cũng ghi là khuyến nghị biên tập."
+  - text: "Tổng đài 112 liên thông 113, 114, 115; hoạt động 24 giờ tất cả các ngày; miễn phí cước gọi"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/200-ndcp.signed.pdf
+    verdict: match
+    quote: "a) Hệ thống Tổng đài 112 liên thông với các Tổng đài 113, 114, 115; b) Hệ thống Tổng đài 112 hoạt động 24 giờ tất cả các ngày; c) Miễn phí cước gọi từ thuê bao điện thoại cố định, di động vào số điện thoại 112;"
+    note: Điều 3 khoản 4.
+  - text: "Khi lạc: tìm nơi nghỉ, không chạy ngược chạy xuôi; ngồi nghỉ, có nước thì uống, lấy lại bình tĩnh"
+    source_url: https://cand.vn/hien-tuong-ma-dua-va-ky-nang-thoat-hiem-khi-bi-lac-trong-rung-post411037.html
+    verdict: match
+    quote: "Khi phát hiện mình bị lạc, trước hết cần tìm một địa điểm thích hợp để nghỉ ngơi, bảo toàn sức khỏe. Không nên cố gắng chạy ngược, chạy xuôi để tìm đường về làm cho cơ thể mệt mỏi và trở nên mất bình tĩnh."
+    note: "Báo CAND 07/11/2016, TS Đoàn Văn Báu. Vế 'nếu đem theo nước hãy uống nước và thư giãn' cũng có trong cùng đoạn."
+  - text: "Không di chuyển ban đêm; định hướng, di chuyển vào ban ngày"
+    source_url: https://cand.vn/hien-tuong-ma-dua-va-ky-nang-thoat-hiem-khi-bi-lac-trong-rung-post411037.html
+    verdict: match
+    quote: "nên định hướng, di chuyển vào ban ngày, không nên di chuyển vào ban đêm."
+  - text: "Trời sắp tối chưa ra được: ở lại qua đêm; hốc đá trên cao, hang động, nhánh cây lớn"
+    source_url: https://cand.vn/hien-tuong-ma-dua-va-ky-nang-thoat-hiem-khi-bi-lac-trong-rung-post411037.html
+    verdict: match
+    quote: "Trước tiên cần phải tìm một vị trí trú ẩn an toàn, có thể chọn hốc đá ở trên cao, hang động, hoặc nhánh cây lớn… để trú ẩn."
+  - text: "Báo hiệu: đốt lửa, tạo khói, xếp cành cây/đá hình tam giác nơi đất trống, hú hồi dài chu kỳ khoảng 30 phút"
+    source_url: https://cand.vn/hien-tuong-ma-dua-va-ky-nang-thoat-hiem-khi-bi-lac-trong-rung-post411037.html
+    verdict: match
+    quote: "Có thể đốt lửa, tạo khói để báo hiệu hoặc tìm nơi đất trống xếp cành cây, đá thành hình tam giác để lực lượng cứu hộ có thể nhìn thấy từ trực thăng. Bạn cũng có thể thử hú thành hồi dài theo chu kỳ khoảng 30 phút"
+    note: "Nguồn gắn các cách báo hiệu này với điều kiện 'Nếu chưa xác định được phương hướng, tốt nhất nên trú ẩn ở nơi an toàn, tìm cách báo hiệu', KHÔNG gắn với 'mất sóng'."
+  - text: "Bước 3 'Mất sóng: báo hiệu bằng lửa, khói, xếp đá, hú' (điều kiện 'mất sóng')"
+    source_url: https://cand.vn/hien-tuong-ma-dua-va-ky-nang-thoat-hiem-khi-bi-lac-trong-rung-post411037.html
+    verdict: partial
+    quote: "Nếu chưa xác định được phương hướng, tốt nhất nên trú ẩn ở nơi an toàn, tìm cách báo hiệu với lực lượng cứu hộ hoặc người dân."
+    note: "Nguồn dùng điều kiện 'chưa xác định được phương hướng'; mục đổi thành 'mất sóng' mà không gắn nhãn suy ra. Hiểu sai: người còn sóng nhưng chưa biết hướng thì vẫn nên báo hiệu, người mất sóng nhưng biết hướng có thể di chuyển ban ngày."
+  - text: "Bước 1: chỗ nghỉ an toàn 'không ngập, không sạt, không dưới vách'"
+    source_url: https://cand.vn/hien-tuong-ma-dua-va-ky-nang-thoat-hiem-khi-bi-lac-trong-rung-post411037.html
+    verdict: inference
+    quote: "Khi phát hiện mình bị lạc, trước hết cần tìm một địa điểm thích hợp để nghỉ ngơi, bảo toàn sức khỏe."
+    note: "Nguồn chỉ nói 'địa điểm thích hợp'. Ba tiêu chí cụ thể là lời khuyên thực hành của biên tập, không được gắn nhãn trong steps/tldr; hợp lý, không gây hại."
+  - text: "Bước 2: có người bị thương nặng thì gọi 115"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/200-ndcp.signed.pdf
+    verdict: inference
+    quote: "Hệ thống Tổng đài 112 liên thông với các Tổng đài 113, 114, 115;"
+    note: "Điều khoản chỉ nói liên thông; 115 là cấp cứu y tế dựa vào trang Công an Điện Biên (mục 28), không có trong nguồn của mục này. Mục Ghi chú đã nói không khẳng định thêm."
+  - text: "Chi phí: dao, bật lửa, la bàn, điện thoại, đèn pin, nước, lương khô"
+    source_url: https://cand.vn/hien-tuong-ma-dua-va-ky-nang-thoat-hiem-khi-bi-lac-trong-rung-post411037.html
+    verdict: match
+    quote: "dao nhọn, bật bật lửa, la bàn, điện thoại, đèn pin, nước uống, lương khô"
+    note: "Nguyên văn là 'dao nhọn, bật lửa, la bàn, điện thoại, đèn pin, nước uống, lương khô…' (tôi gõ lại không đổi nghĩa; lỗi gõ 'bật bật' là của tôi). Mục viết 'dao, ... nước' lược bớt, không sai nghĩa."
+  - text: "Không tách 'còn sóng gọi 112' thành chữ của bài CAND"
+    source_url: https://cand.vn/hien-tuong-ma-dua-va-ky-nang-thoat-hiem-khi-bi-lac-trong-rung-post411037.html
+    verdict: not-found
+    quote: "bạn có đem theo smart phone có chức năng định vị và ở khu vực có phủ sóng điện thoại, việc xác định vị trí của bạn không khó khăn"
+    note: "Bài CAND không khuyên gọi 112 khi còn sóng. Khuyên 'còn sóng gọi 112' đến từ suy luận từ Nghị định 200 (112 tiếp nhận yêu cầu trợ giúp). Hợp lý và có nguồn pháp lý cho số 112; không có nguồn cứu hộ nào nói gọi 112 trước khi tự xử lý."
+internal_checks:
+  - issue: "Bước 3 và tldr dùng điều kiện 'mất sóng' cho báo hiệu, trong khi bài báo dùng điều kiện 'chưa xác định được phương hướng'. Phần 'không chạy lung tung' và 'chỉ đi khi trời sáng' thì đúng."
+    severity: warn
+  - issue: "Chữ nội bộ lọt vào thân: 'Đây là lưu ý an toàn của người soạn', 'khuyến nghị của biên tập', 'lưu ý của người soạn'. Không phải 'báo cáo kiểm chứng/bản nháp', nhưng làm lộ quy trình soạn trước người đọc."
+    severity: warn
+  - issue: "CAND vừa khuyên 'không di chuyển ban đêm' vừa nói ban đêm thấy ánh đèn/đốm lửa ở gần 'có thể di chuyển ngay'; mục chỉ lấy vế 'không di chuyển ban đêm'. Không mâu thuẫn trực tiếp nhưng tldr 'Chỉ đi khi trời sáng' tuyệt đối hơn nguồn."
+    severity: warn
+  - issue: "legal_refs: 3 mục đều có url đúng văn bản Nghị định 200/2025/NĐ-CP, article khớp khoản (1, 3, 4), quote khớp bản scan."
+    severity: warn
+  - issue: "Không có hai mục khác cùng chương nói số khác về 112/115 cần đối chiếu ngoài mục 28 (khớp: 112 liên thông 113/114/115)."
+    severity: warn
+validity:
+  doc: "Nghị định 200/2025/NĐ-CP ngày 09/7/2025 (Điều 3); bài báo CAND 2016 là tài liệu hướng dẫn, không có hiệu lực pháp lý"
+  in_force: true
+  effective_from: 2025-08-23
+  amended_by: []
+  basis: "Bản ký trên datafiles.chinhphu.vn (ảnh quét): 'Điều 53. Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành kể từ ngày 23 tháng 8 năm 2025.' Trang lawplayer.com ghi 'Tình trạng hiệu lực: Còn hiệu lực' (bản thứ cấp). Không tra Công báo/vbpl.vn về sửa đổi; kết luận dựa trên văn bản mới ban hành 7/2025 và trạng thái thứ cấp."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Bước 3 và tldr: đổi điều kiện 'Mất sóng:' thành 'Chưa xác định được hướng ra (kể cả còn hoặc mất sóng):' dựa vào quote 'Nếu chưa xác định được phương hướng, tốt nhất nên trú ẩn ở nơi an toàn, tìm cách báo hiệu...'."
+  - "Bước 1: gắn nhãn 'lời khuyên thực hành' cho ba tiêu chí 'không ngập, không sạt, không dưới vách' hoặc bỏ chúng."
+  - "Bỏ các cụm 'của người soạn/của biên tập' khỏi thân; thay bằng 'lời khuyên thực hành, không phải chữ của nguồn'."
+  - "tldr: 'Chỉ đi khi trời sáng' thêm điều kiện 'và đã xác định được hướng' (đã có ở steps cuối)."

@@ -1,0 +1,71 @@
+id: dong-dat-nha-du-kha-nang-chiu-dong-dat-thi-nup-tai
+checker: agent-R2c13f
+checked_at: 2026-11-08
+content_sha256: 701f326a527140bd925e52994b2643945d99064574a477c28c5d740367853952
+result: pass-with-edits
+claims:
+  - text: Phần lớn người chết và bị thương do vật liệu xây dựng đổ và vật nặng rơi
+    source_url: https://www.cdc.gov/earthquakes/safety/index.html
+    verdict: match
+    quote: "During an earthquake, most deaths and injuries are caused by collapsing building materials and heavy falling objects, such as bookcases, cabinets, and heating units."
+    note: "Trang CDC 'Preparing for Earthquakes' (chặn curl 403; đọc qua trình đọc URL, xem lại 21/8/2026)."
+  - text: "CDC: quỳ bằng tay và gối, che đầu cổ (và cả người nếu được) dưới bàn chắc; không có thì gần tường trong/đồ thấp, che đầu cổ bằng hai tay; bám tới khi hết rung"
+    source_url: https://www.cdc.gov/earthquakes/safety/index.html
+    verdict: match
+    quote: "DROP down onto your hands and knees immediately. ... COVER your head and neck (and your entire body if possible) underneath a sturdy table or desk. If there is no shelter nearby, get down near an interior wall or next to low-lying furniture that won't fall on you, and cover your head and neck with your arms and hands. Try to stay clear of windows or glass that could shatter or objects that could fall on you. HOLD ON to your shelter (or to your head and neck) until the shaking stops."
+  - text: "Red Cross: người chết/bị thương do ngã khi đi hoặc chạy lúc rung, hoặc bị mảnh vỡ rơi trúng"
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/earthquake.html
+    verdict: match
+    quote: Deaths and injuries occur when people fall trying to walk or run during shaking or when they are hit by falling debris.
+  - text: "Red Cross: không có bàn thì bò đến tường trong, xa cửa sổ"
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/earthquake.html
+    verdict: match
+    quote: "If you cannot find a protected space, crawl to an interior wall (away from windows)."
+  - text: "Hết rung đợi một phút; nếu an toàn thì ra ngoài; dư chấn lại quỳ, che, bám"
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/earthquake.html
+    verdict: match
+    quote: "Wait a minute before getting up. ... If it is safe, exit the building. Go outside to a clear area. ... Expect aftershocks. Drop, Cover, and Hold On whenever you feel shaking."
+    note: "Red Cross thêm 'If you do not have a safe area outside, it may be better to remain inside.' và cảnh báo sóng thần ven biển: mục chưa nêu (xem suggested_edits)."
+  - text: "Chuẩn bị: biết chỗ an toàn từng phòng, cố định đồ dễ đổ, kế hoạch thoát"
+    source_url: https://www.cdc.gov/earthquakes/safety/index.html
+    verdict: match
+    quote: "Learn the safe spots in each room of your home. ... Identify potential hazards in each room ... Secure them ... Take a few minutes with your family to discuss a home evacuation plan."
+  - text: "Không nhảy lầu, không vào thang máy, không chen xuống cầu thang lúc rung (suy ra, không phải chữ của nguồn)"
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/earthquake.html
+    verdict: inference
+    quote: Deaths and injuries occur when people fall trying to walk or run during shaking
+    note: "Cả CDC lẫn Red Cross (trang đọc được) không nhắc thang máy/nhảy lầu/cầu thang. Điều suy ra từ 'không đi/chạy khi rung' là hợp lý; mục gắn nhãn 'suy ra' ở bước 4 nhưng tldr và 'Nói dễ hiểu' không có nhãn."
+  - text: "TCVN 9386:2012 mục 2.1: kết cấu chịu động đất thiết kế không sụp đổ cục bộ hay toàn phần, còn một phần khả năng chịu tải"
+    source_url: https://mtu.edu.vn/Resources/Docs/Khoa%20-%20Bo%20mon/Khoa%20Xay%20dung/Tai%20lieu%20tham%20khao/TCVN/Thiet-ke/TCVN9386_2012.pdf
+    verdict: match
+    quote: "Kết cấu phải được thiết kế và thi công để chịu được tác động động đất thiết kế như định nghĩa trong Chương 3 mà không bị sụp đổ cục bộ hay sụp đổ toàn phần, đồng thời giữ được tính toàn vẹn của kết cấu và còn một phần khả năng chịu tải trọng sau khi động đất xảy ra."
+    note: "Bản sao trên mtu.edu.vn, không chính thống: nguồn pháp lý thứ cấp nhưng văn bản là chữ gốc của tiêu chuẩn; vẫn đặt match vì quote khớp bản PDF; hiệu lực để unconfirmed."
+  - text: "Ba mức ag: mạnh >= 0,08g; yếu 0,04g <= ag < 0,08g; rất yếu < 0,04g"
+    source_url: https://mtu.edu.vn/Resources/Docs/Khoa%20-%20Bo%20mon/Khoa%20Xay%20dung/Tai%20lieu%20tham%20khao/TCVN/Thiet-ke/TCVN9386_2012.pdf
+    verdict: match
+    quote: "Theo giá trị gia tốc nền thiết kế ag = I x agR, chia thành ba trường hợp động đất: - Động đất mạnh ag ≥ 0,08g, phải tính toán và cấu tạo kháng chấn; - Động đất yếu 0,04g ≤ ag < 0,08g, chỉ cần áp dụng các giải pháp kháng chấn đã được giảm nhẹ; - Động đất rất yếu ag < 0,04g, không cần thiết kế kháng chấn."
+    note: "Ký hiệu gamma-I bị mất khi trích PDF. Phụ lục H: Ba Đình 0,0976; Cầu Giấy 0,1032; Long Biên 0,0747; Thanh Xuân 0,1097 khớp."
+internal_checks:
+  - issue: "Mục 'Pháp luật Việt Nam' dẫn TCVN 9386:2012 như văn bản hiện hành trong khi nguồn thứ cấp (ketcausoft.com) cho biết Bộ KH&CN công bố TCVN 9386:2025 theo QĐ 4647/QĐ-BKHCN ngày 31/12/2025; chưa xác nhận bản 2012 hết hiệu lực. Mục có nêu nhưng đặt ở Ghi chú cuối, còn Pháp luật VN nêu như hiện hành."
+    severity: error
+  - issue: "Phần TCVN không liên quan hành động người đọc (tiêu chuẩn thiết kế công trình mới), dễ tạo ấn tượng 'nhà đủ khả năng chịu động đất'; thân tiêu đề nói 'nhà đủ khả năng chịu động đất thì núp' (slug) nhưng mục đã loại cách chia này. Không mâu thuẫn số liệu."
+    severity: warn
+  - issue: "Frontmatter legal_refs[0].quote cắt cụt có '…' ở khâu hiển thị công cụ; nội dung quote hợp lệ trong file (đã kiểm)."
+    severity: warn
+  - issue: "Không có chữ nội bộ lọt vào (không thấy 'báo cáo kiểm chứng', 'sổ kiểm chứng', 'bản nháp', '[INFERENCE]'). Có 'Mục này không có nghĩa... Mục này nói rằng' là khuôn mục, không phải chữ nội bộ."
+    severity: warn
+  - issue: "Không có hướng dẫn ngoài trời/trên xe/ven biển (sóng thần) trong khi người đọc VN ở vùng ven biển; Red Cross có. Không mâu thuẫn, chỉ thiếu phạm vi."
+    severity: warn
+validity:
+  doc: TCVN 9386:2012; hướng dẫn CDC (xem lại 21/8/2026) và American Red Cross
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: "TCVN 9386:2012: một bài ketcausoft.com (13/01/2026) cho biết TCVN 9386:2025 công bố 31/12/2025 theo QĐ 4647/QĐ-BKHCN; thuvienphapluat ghi TCVN 9386-1:2025 'Tình trạng: Đã biết'. Không xác nhận bản 2012 hết hiệu lực. Hướng dẫn CDC/Red Cross không có ngày hiệu lực; không thấy bản mới hơn."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Mục 'Pháp luật Việt Nam': thêm ngay trong phần này câu 'TCVN 9386:2012 có thể đã được thay bằng TCVN 9386:2025 (QĐ 4647/QĐ-BKHCN, 31/12/2025); số liệu 0,08g/0,04g dẫn theo bản 2012', hoặc bỏ phần này vì không phục vụ hành động."
+  - "tldr và 'Nói dễ hiểu': gắn nhãn 'suy ra' cho 'không vào thang máy, không nhảy lầu'; hoặc bỏ khỏi tldr."
+  - "Bước 5: thêm dòng Red Cross 'Không có chỗ an toàn bên ngoài thì có thể ở lại trong nhà tốt hơn'; thêm: gần biển, hết rung đi lên cao ngay không chờ cảnh báo (Red Cross: 'Walk quickly to higher ground or inland away from the coast. Don't wait for officials to issue a warning.')."
+  - "Cân nhắc thêm: nằm trên giường thì ở yên, che đầu cổ bằng gối (CDC/Red Cross 'STAY there and COVER your head and neck with a pillow')."

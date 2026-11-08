@@ -1,0 +1,79 @@
+id: run-ray-noi-ngong-di-loang-choang-la-ha-than-nhiet-thay
+checker: agent-R2c13f
+checked_at: 2026-11-08
+content_sha256: ac6f13ca07d9cc7dc046bd6477ba1c53e977132defd84b022b2cad702a7df11c
+result: pass-with-edits
+claims:
+  - text: "Hạ thân nhiệt: nhiệt độ cơ thể dưới 35 độ, là cấp cứu cần điều trị ở bệnh viện; nghi ngờ thì gọi cấp cứu"
+    source_url: https://www.nhs.uk/conditions/hypothermia/
+    verdict: match
+    quote: "Hypothermia is a dangerous drop in body temperature below 35C (normal body temperature is around 37C). It's a medical emergency that needs to be treated in hospital. ... Go to A&E or call 999 if: you think you or your child have hypothermia"
+    note: "Tóm tắt Việt: hạ thân nhiệt là tụt dưới 35°C, là cấp cứu cần điều trị ở bệnh viện; nghi ngờ thì gọi 999 (ở VN là 115)."
+  - text: "Dấu hiệu: da lạnh, có thể ngón tay và môi xanh, giảm tỉnh táo, lú lẫn nhẹ, nói lắp; người cao tuổi có thể không rùng mình"
+    source_url: https://chanthuongvacotsong.bachmai.gov.vn/ha-than-nhiet-o-nguoi-cao-tuoi-va-cach-xu-tri/
+    verdict: match
+    quote: "Trong giai đoạn đầu của hạ thân nhiệt, da lạnh, có thể có ngón tay và môi xanh, giảm sự tỉnh táo, lú lẫn nhẹ, nói lắp. Tuy nhiên, luôn nhớ rằng những người cao tuổi bị hạ thân nhiệt có thể không rùng mình hay phàn nàn về cảm giác lạnh"
+    note: "Bài dịch 7/2/2017 từ health.gov.il, đăng trên trang Khoa CTCH và Cột sống BV Bạch Mai."
+  - text: Gọi trợ giúp y tế ngay; nhẹ nhàng di chuyển tới nơi ấm khô; thay quần áo ướt; cuộn chăn; nằm yên không trở người nhiều
+    source_url: https://chanthuongvacotsong.bachmai.gov.vn/ha-than-nhiet-o-nguoi-cao-tuoi-va-cach-xu-tri/
+    verdict: match
+    quote: "Gọi trợ giúp y tế ngay lập tức tại nhà và/hoặc đi đến bệnh viện ngay lập tức; Trước khi sự hỗ trợ y tế, cần: Nhẹ nhàng di chuyển người cao tuổi đến một nơi ấm và khô; Nếu quần áo đang mặc bị ướt phải thay ngay quần áo khô và cuộn người trong chăn để giữ ấm; Để họ nằm yên, không trở người nhiều"
+    note: "Bài viết cho người cao tuổi, tiếp theo là 'cho uống ngay nước ấm (trà gừng ấm, sữa ấm…)' không điều kiện tỉnh táo; mục đã thay bằng điều kiện 'tỉnh hẳn' của NHS (an toàn hơn)."
+  - text: "NHS: cho uống đồ ấm không cồn nếu tỉnh hẳn; không bồn nước nóng/túi nước nóng/đèn sưởi; không xoa tay chân; không rượu"
+    source_url: https://www.nhs.uk/conditions/hypothermia/
+    verdict: match
+    quote: "give them a warm non-alcoholic drink and some sugary food like chocolate if they're fully awake ... do not use a hot bath, hot water bottle or heat lamp to warm them up; do not rub their arms, legs, feet or hands; do not give them alcohol to drink"
+    note: "Trang NHS xem lại 09/06/2023, 'Next review due: 09 June 2026' (đã quá hạn xem lại tại ngày kiểm). NHS còn dặn giữ tỉnh táo bằng cách nói chuyện, che đầu, ở lại với nạn nhân: mục chưa nêu."
+  - text: "Đắp gạc ấm lên cổ, lồng ngực, háng"
+    source_url: https://suckhoedoisong.vn/cap-cuu-nguoi-bi-ha-than-nhiet-the-nao-16989762.htm
+    verdict: match
+    quote: "Đắp gạc ấm lên cổ, lồng ngực và háng của bệnh nhân."
+    note: "Chỉ có ở một bài báo SKĐS ngày 03-01-2015 (BS Trần Thanh Tâm); NHS không có. ERC 2025 nói bằng chứng cho 'removing wet clothes, drying the person's body, ... isothermal blankets and ... heating pads' (ủ ấm bằng nguồn nhiệt cục bộ) nhưng không nêu vị trí cổ-ngực-háng. Mục đã nêu rõ nguồn là báo 2015."
+  - text: Không cố làm ấm tay chân; không chườm nóng trực tiếp; không đèn sưởi; không rượu; không xoa bóp; động tác nhẹ nhàng
+    source_url: https://suckhoedoisong.vn/cap-cuu-nguoi-bi-ha-than-nhiet-the-nao-16989762.htm
+    verdict: match
+    quote: "Không chườm nóng trực tiếp. Không dùng nước nóng, đệm sưởi hoặc đèn sưởi để làm ấm nạn nhân. Không cố làm ấm tay và chân, bởi làm nóng tay và chân thúc đẩy máu lạnh trở về tim, phổi và não, gây hạ thân nhiệt trung tâm, có thể gây tử vong. Không cho người bệnh uống rượu. Không xoa bóp hoặc chà xát người bệnh. Các động tác với người bệnh cần phải nhẹ nhàng để tránh nguy cơ ngừng tim."
+  - text: "Bước 5: 'Ngừng thở, hoặc thở rất chậm và nông: hà hơi thổi ngạt ngay'"
+    source_url: https://suckhoedoisong.vn/cap-cuu-nguoi-bi-ha-than-nhiet-the-nao-16989762.htm
+    verdict: match
+    quote: "Nếu hơi thở ngừng hay có vẻ chậm hoặc nông trầm trọng, cần hà hơi thổi ngạt ngay."
+    note: "Khớp chữ SKĐS 2015 nhưng LỆCH hướng dẫn hiện hành (ERC 2025 First Aid: 'If unresponsive and not breathing normally, call your local emergency number and start CPR according to dispatcher instructions'; chương này mục 01 dạy ép tim liên tục). Xem potential_harm."
+  - text: 115 là số cấp cứu y tế
+    source_url: https://congan.dienbien.gov.vn/Danh-muc-tin-tuc/tong-hop-cac-so-dien-thoai-khan-cap-quoc-gia-ghi-nho-de-bao-ve-minh-va-ho-tro-nguoi-khac-13182.html
+    verdict: match
+    quote: "115 – Cấp cứu y tế:"
+    note: Trang Công an tỉnh Điện Biên.
+  - text: "Tổng đài 112 liên thông với 113, 114, 115"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/200-ndcp.signed.pdf
+    verdict: match
+    quote: "a) Hệ thống Tổng đài 112 liên thông với các Tổng đài 113, 114, 115;"
+    note: Điều 3 khoản 4. PDF bản ký là ảnh quét; đọc bằng OCR và đối chiếu bản lawplayer.
+  - text: Ngưỡng 33 và 28 độ không dùng để quyết định có đi viện
+    source_url: https://suckhoedoisong.vn/cap-cuu-nguoi-bi-ha-than-nhiet-the-nao-16989762.htm
+    verdict: match
+    quote: Nếu bệnh nhân có thân nhiệt trên 33
+    note: "Bài SKĐS nói trên 33°C chỉ cần ủ ấm thông thường; mục cố ý không dùng mốc này. Ghi nhận lựa chọn an toàn hơn nguồn, không phải lỗi."
+internal_checks:
+  - issue: "Bước 5 trong steps/tldr ('thổi ngạt') mâu thuẫn mục 01 cùng chương (ngừng thở/không thở bình thường: gọi 115 và ÉP TIM ngay; chưa học thổi ngạt thì ép liên tục). Một người đọc theo mục 28 sẽ thổi ngạt thay vì ép tim."
+    severity: error
+  - issue: "Chữ nội bộ nhẹ: 'trong nguồn đã mở' ở Ghi chú đọc như nhật ký soạn thảo."
+    severity: warn
+  - issue: "Số liệu (35 độ, 33, 28, 115) nhất quán trong thân; tldr không có con số ngoài thân. legal_refs: Điều 3 khoản 4 đúng văn bản (NĐ 200/2025), article khớp."
+    severity: warn
+  - issue: "NHS trang đã quá hạn 'Next review due: 09 June 2026'; Bạch Mai (2017) và SKĐS (2015) cũ; chưa có hướng dẫn Bộ Y tế VN."
+    severity: warn
+validity:
+  doc: "Hướng dẫn y tế: NHS Hypothermia (xem 09/06/2023), BV Bạch Mai (2017), SKĐS (2015); NĐ 200/2025/NĐ-CP Điều 3 khoản 4"
+  in_force: unconfirmed
+  effective_from: 2025-08-23
+  amended_by: []
+  basis: "NĐ 200/2025 hiệu lực 23/8/2025 (Điều 53, bản ký). Phần y tế không có ngày hiệu lực; nguồn quốc tế NHS quá hạn xem lại, nguồn trong nước 2015/2017, không xác nhận được là còn phản ánh hướng dẫn hiện hành nên để unconfirmed."
+deliberate_vn_deviation:
+  - "Bước 'hà hơi thổi ngạt ngay khi ngừng thở/thở rất chậm nông' (SKĐS 2015) lệch hướng dẫn hồi sinh hiện hành của ERC 2025 và mục 01 của chương: không thở bình thường thì ép tim (chưa học thổi ngạt thì ép liên tục)."
+potential_harm:
+  - "Bước 5 (steps/tldr 'Ngừng thở: thổi ngạt'): người không được tập huấn dễ thổi ngạt đơn thuần hoặc chờ thổi ngạt thay vì ép tim, làm chậm CPR; 'thở rất chậm và nông' là thở ngáp/giai đoạn gần ngừng tim cần CPR. Cần đổi sang: không phản ứng và không thở bình thường -> gọi 115, ép tim ngay theo mục 01."
+  - "Phần 'Gạc ấm cổ, ngực, háng' và 'không làm ấm tay chân' chỉ có ở một bài báo 2015; nếu người làm tự chế gạc nóng hoặc chậm gọi 115 để làm việc này thì có thể chậm. Mục đã đặt gọi 115 trước, nên mức rủi ro thấp (chỉ nhắc, không tính là blocker)."
+suggested_edits:
+  - "steps bước 5 và tldr: thay bằng 'Không phản ứng và không thở bình thường: bật loa ngoài với 115, ép tim ngay (xem mục về người gục, không tỉnh, không thở bình thường)'. Dựa vào quote ERC 'If unresponsive and not breathing normally, call your local emergency number and start CPR according to dispatcher instructions.'"
+  - "Thêm hai điều của NHS đang thiếu: che đầu nạn nhân, nói chuyện giữ tỉnh táo, ở lại với nạn nhân."
+  - "Ghi chú: thay 'trong nguồn đã mở' bằng 'chưa có hướng dẫn của Bộ Y tế Việt Nam được dẫn ở đây'; ghi ngày xem lại của trang NHS."

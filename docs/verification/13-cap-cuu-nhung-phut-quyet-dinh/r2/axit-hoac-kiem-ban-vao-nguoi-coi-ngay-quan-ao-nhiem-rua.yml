@@ -1,0 +1,103 @@
+id: axit-hoac-kiem-ban-vao-nguoi-coi-ngay-quan-ao-nhiem-rua
+checker: agent-R2c13e
+checked_at: 2026-11-08
+content_sha256: "9a6ceb2bc506030eab1f59f2c8bf83c91230398dd517f0674248e76f18239a50"
+result: pass-with-edits
+claims:
+  - text: "Hóa chất dính da hoặc mắt: gọi 115 và đưa tới cơ sở y tế"
+    source_url: https://www.nhs.uk/conditions/acid-and-chemical-burns/
+    quote: "Call 999 for medical help."
+    verdict: match
+    note: "NHS (page last reviewed 05 June 2024): gọi cấp cứu cho mọi ca hóa chất dính da/mắt. Số 115 là số cấp cứu VN tương ứng, không có trong nguồn (xem internal_checks về 113/115). Bệnh viện Bỏng Bước 4: 'Nhanh chóng chuyển nạn nhân tới cơ sở y tế gần nhất'."
+  - text: "Cởi ngay quần áo dính hóa chất"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-hoa-chat-o-tre-em
+    quote: "Nhanh chóng cởi bỏ quần áo bị dính hoá chất, chánh tiếp xúc với bất cứ vật liệu nào dính hoá chất."
+    verdict: match
+    note: "NHS: 'Carefully remove any clothing that has the chemical on it, if possible.' Chữ 'giày, đồng hồ' trong bước 2 không có trong nguồn nào (suy ra hợp lý, vô hại)."
+  - text: "Hóa chất dạng bột khô (vôi bột): lau sạch bằng khăn khô trước khi xả nước"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-hoa-chat-o-tre-em
+    quote: "Bỏng do vôi bột: Cần lau sạch vôi bám bằng khăn khô."
+    verdict: partial
+    note: "Nguồn chỉ nói vôi bột và chỉ ở bước 1 (tách khỏi tác nhân); không nói rõ 'trước khi xả nước'. NHS: 'Carefully brush dry chemicals off the skin.' (gạt/phủi, không nhắc khăn). Mục khái quát hóa sang mọi bột khô và đặt thứ tự trước-xả; hợp lý nhưng là suy ra."
+  - text: "Rửa vùng bỏng dưới nước sạch ít nhất 30 phút"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-hoa-chat-o-tre-em
+    quote: "Thời gian ngâm rửa nước sạch với bỏng hoá chất từ 30 - 60 phút và thường kéo dài hơn so với bỏng nhiệt."
+    verdict: partial
+    note: "Nguồn ghi 30 đến 60 phút; NHS ghi 'for about 1 hour'. Mục lấy mốc sàn 30 phút ('ít nhất') nhưng bỏ vế 60 phút của chính nguồn đã trích ở phần Lợi ích, nên tldr/steps ngắn hơn cả hai nguồn. Không sai nhưng người đọc có thể dừng ở 30 phút."
+  - text: "Nước chảy liên tục"
+    source_url: https://www.nhs.uk/conditions/acid-and-chemical-burns/
+    quote: "Put the affected area under cool or lukewarm running water or pour lots of water over it for about 1 hour."
+    verdict: match
+    note: "Thân mục tự ghi chữ 'chảy liên tục' suy ra từ NHS (running water): nhãn trung thực. NHS cho nước mát hoặc hơi ấm."
+  - text: "Không dùng nước ấm"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-hoa-chat-o-tre-em
+    quote: "Không dùng nước ấm rửa vì làm tăng khả năng ngấm của hoá chất."
+    verdict: match
+    note: "Lệch NHS ('cool or lukewarm'); mục chọn theo nguồn VN và có ghi ở phần Ghi chú."
+  - text: "Hóa chất độc mạnh: người sơ cứu đeo găng tay, khẩu trang để tự bảo vệ"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-hoa-chat-o-tre-em
+    quote: "Khi hoá chất có độc tính mạnh, bản thân người cấp cứu cần được bảo vệ như: đeo khẩu trang, đi găng tay, mang quần áo bảo hộ."
+    verdict: match
+    note: "NHS: 'Wear gloves to protect yourself from the chemical when helping yourself or someone else, if possible.'"
+  - text: "Mắt: rửa liên tục bằng nước sạch hoặc nước muối sinh lý 15 đến 30 phút"
+    source_url: https://benhvienmathanoi.gov.vn/capcuubonghoachattaimat/
+    quote: "Rửa mắt liên tục dưới vòi nước sạch hoặc dùng bình nước muối sinh lý (NaCl 0,9%) xối mạnh vào mắt trong ít nhất 15–30 phút."
+    verdict: match
+    note: "Bài đăng 02/05/2026. Nguồn thứ hai (Bệnh viện Bỏng) ghi 10 đến 15 phút; mục nêu sự lệch ở Ghi chú. Cả hai nguồn là bệnh viện VN, không phải hướng dẫn Bộ Y tế/AAO/WHO; mục tự ghi như vậy."
+  - text: "Lộn mi trên và dưới"
+    source_url: https://benhvienmathanoi.gov.vn/capcuubonghoachattaimat/
+    quote: "Lộn mi trên và mi dưới để rửa sạch hóa chất còn đọng trong túi kết mạc và chân mi."
+    verdict: match
+    note: ""
+  - text: "Không để nước chảy sang mắt kia"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-hoa-chat-o-tre-em
+    quote: "Không để nước nhiễm bẩn chảy sang mắt kia."
+    verdict: match
+    note: "Câu này nằm trong bài Bệnh viện Bỏng, KHÔNG có trong bài Bệnh viện Mắt Hà Nội; thân mục xếp nó dưới 'Bệnh viện Mắt Hà Nội ghi' (xem internal_checks)."
+  - text: "Sau rửa mắt, đậy nhẹ gạc vô trùng (không băng chặt) và tới cơ sở nhãn khoa; không băng kín/nhỏ thuốc trước khi rửa"
+    source_url: https://benhvienmathanoi.gov.vn/capcuubonghoachattaimat/
+    quote: "Đậy nhẹ mắt bằng gạc vô trùng (không băng chặt). Chuyển ngay người bệnh đến cơ sở nhãn khoa gần nhất hoặc bệnh viện có chuyên khoa Mắt để tiếp tục xử trí."
+    verdict: match
+    note: "Điều cấm: 'Băng kín mắt khi chưa rửa sạch hóa chất hoặc tự ý nhỏ bất kỳ loại thuốc nào trước khi rửa mắt.'"
+  - text: "Không bôi gì lên vết bỏng"
+    source_url: https://www.nhs.uk/conditions/acid-and-chemical-burns/
+    quote: "Do not put anything on the burn, such as skin creams or other chemicals."
+    verdict: match
+    note: ""
+  - text: "Không đổ giấm hoặc nước vôi (không trung hòa tại nhà)"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-hoa-chat-o-tre-em
+    quote: "Việc trung hoà chỉ tiến hành sau khi đã ngâm rửa vết bỏng bằng nước sạch (trung hoà ngay lập tức có thể làm nặng lên tổn thương do phản ứng với tác nhân gây bỏng còn sót lại)."
+    verdict: inference
+    note: "Bệnh viện Bỏng KHÔNG cấm trung hòa: cho phép sau khi đã rửa nước (nước vắt chanh, giấm ăn cho kiềm; nước xà phòng loãng, nước vôi nhì cho axit). Lệnh 'không đổ giấm hoặc nước vôi' suy ra từ NHS 'Do not put anything on the burn' và là lựa chọn thận trọng có chủ ý, thân mục đã ghi trung thực (Bẫy 1)."
+  - text: "Bỏng kiềm nguy hiểm hơn bỏng axit vì kiềm thẩm thấu sâu vào nhãn cầu"
+    source_url: https://benhvienmathanoi.gov.vn/capcuubonghoachattaimat/
+    quote: "Nguy hiểm hơn vì hóa chất kiềm có khả năng thẩm thấu sâu vào nhãn cầu, gây tổn thương nghiêm trọng hơn."
+    verdict: match
+    note: ""
+internal_checks:
+  - issue: "Lợi ích xếp 'Không để nước nhiễm bẩn chảy sang mắt kia' dưới 'Bệnh viện Mắt Hà Nội ghi'; câu đó chỉ có trong bài Bệnh viện Bỏng (bài Mắt Hà Nội không có). Sai nguồn gán."
+    severity: warn
+  - issue: "Ghi chú còn chữ nội bộ của người soạn: 'nguồn người lớn của Bộ Y tế chưa đối chiếu được, cần nguồn cho việc áp dụng nguyên văn cho người lớn' và 'Mức bằng chứng để B' (độc giả không cần thấy). Bỏ hoặc viết lại thành lời cho độc giả (nguồn da là bài về trẻ em)."
+    severity: error
+  - issue: "Frontmatter verification.scope còn trỏ đường dẫn báo cáo kiểm chứng (docs/verification/.../b/...) và 'potential_harm'. Trường do apply.mjs ghi, nhưng sẽ lộ nếu trang render scope; cần ghi đè bằng báo cáo mới."
+    severity: warn
+  - issue: "tldr/steps chỉ ghi 115 trong khi mục 49 cùng chương nêu Thông tư 42/2026/TT-BYT hiệu lực 01/11/2026 chuyển điều phối cấp cứu ngoại viện về đầu số 113 (một số báo đặt tít 'thay thế đầu số 115'). Tôi không xác nhận được 115 đã ngừng hay chưa; chương chưa thống nhất số (mục 49 tự ghi). Cần quyết định chung cho cả chương."
+    severity: warn
+  - issue: "Mọi con số trong tldr/steps (115, 30 phút, 15 đến 30 phút) đều có trong thân. Không mâu thuẫn số trong cùng mục."
+    severity: warn
+validity:
+  doc: "Hướng dẫn y tế: Bệnh viện Bỏng Quốc gia (20/04/2022, bài về trẻ em), Bệnh viện Mắt Hà Nội (02/05/2026), NHS 'Acid and chemical burns' (reviewed 05/06/2024). Không có văn bản Bộ Y tế số hiệu."
+  in_force: unconfirmed
+  effective_from: "2022-04-20"
+  amended_by: []
+  basis: "Nguồn y tế không có ngày hiệu lực. Không tìm hướng dẫn Bộ Y tế/AAO/WHO về bỏng hóa chất người lớn để đối chiếu; bài Bệnh viện Bỏng là cho trẻ em. NHS page ghi next review 05/06/2027."
+deliberate_vn_deviation:
+  - "Rửa 30 đến 60 phút (Bệnh viện Bỏng) và 'cấm nước ấm' vs NHS 'cool or lukewarm water ... about 1 hour': mục theo nguồn VN, không nêu lệch trong tldr nhưng có ở Ghi chú."
+  - "Trung hòa: Bệnh viện Bỏng cho phép sau khi rửa nước; mục bỏ hẳn (theo NHS). Lệch có chủ ý theo hướng thận trọng, đã công khai ở Bẫy 1."
+potential_harm: []
+suggested_edits:
+  - "tldr và steps[2], thân 'Nói dễ hiểu': đổi 'ít nhất 30 phút' thành 'từ 30 đến 60 phút (NHS: khoảng 1 giờ), rửa tới lúc cơ sở y tế/xe cấp cứu tiếp nhận'. Dựa vào quote Bệnh viện Bỏng '30 - 60 phút' và NHS 'for about 1 hour'."
+  - "Phần Lợi ích dưới 'Bệnh viện Mắt Hà Nội ghi': chuyển dòng 'Không để nước nhiễm bẩn chảy sang mắt kia' sang nhóm Bệnh viện Bỏng (nguồn thật của câu đó)."
+  - "Ghi chú: xóa 'nguồn người lớn của Bộ Y tế chưa đối chiếu được, cần nguồn...' và 'Mức bằng chứng để B'; thay bằng một câu cho độc giả: 'Bài của Bệnh viện Bỏng viết cho trẻ em; hướng dẫn cho người lớn tương tự nhưng chưa có văn bản Bộ Y tế riêng.'"
+  - "steps[1]: bỏ 'giày, đồng hồ' hoặc gắn nhãn là suy ra; khẳng định bột khô lau khăn khô nên ghi rõ nguồn chỉ nói vôi bột (NHS: phủi/gạt chất khô)."
+  - "Thống nhất số cấp cứu (115/113) với mục 49 trước khi công bố."

@@ -1,0 +1,92 @@
+id: mot-ben-mieng-meo-mot-tay-yeu-noi-khong-ro-goi-115
+checker: agent-R2c13a
+checked_at: 2026-11-08
+content_sha256: 3e9355c7cd3a10c041e26da48c1311bebbc39281153ac28d61f7b658620d86c4
+result: pass-with-edits
+claims:
+  - text: "Test: bảo cười, giơ hai tay, nói một câu; thấy bất thường gọi cấp cứu ngay"
+    source_url: https://www.ninds.nih.gov/health-information/stroke/signs-and-symptoms
+    quote: "F - Face: Ask the person to smile. Does one side of the face droop?  A - Arms: Ask the person to raise both arms. Does one arm drift downward?  S - Speech: Ask the person to repeat a simple phrase. Is the speech slurred or strange?  T - Time: If you see any of these three signs, call 9-1-1 right away."
+    verdict: match
+    note: 'NINDS (rà soát 23/07/2026). AHA 2024 First Aid COR 1: dùng thang FAST/Cincinnati và "the EMS system should be activated immediately".'
+  - text: Ghi giờ khởi phát; không tự lái xe, không nhờ người chở, đi xe cấp cứu
+    source_url: https://www.ninds.nih.gov/health-information/stroke/signs-and-symptoms
+    quote: Pay attention and note the time when the person first starts showing symptoms. This will help doctors determine the best treatment. A person having a stroke should not drive to the hospital themselves or have someone else drive them. Taking an ambulance will allow medical personnel to begin life-saving treatment on the way to the emergency room.
+    verdict: match
+    note: Bối cảnh Mỹ (9-1-1). Phần "không tự chở bằng xe máy" mục gắn nhãn "suy ra"; không có phương án khi xe cấp cứu không tới.
+  - text: Dù đã nhiều giờ hay ngủ dậy mới thấy vẫn phải gọi 115
+    source_url: https://www.ninds.nih.gov/health-information/stroke/signs-and-symptoms
+    quote: all people who suspect a stroke, even people who wake up with symptoms need to get to the hospital as soon as possible to be evaluated and receive treatment since some people benefit from treatment up to 24 hours after a stroke.
+    verdict: match
+    note: Khớp thêm QĐ 3312 mục 4.5 (điều trị ngoài 4,5 giờ chọn lọc bằng hình ảnh học).
+  - text: "Điều kiện thời gian tiêu huyết khối: khởi phát rõ ràng dưới 270 phút"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: 4.2.2. Các triệu chứng khởi phát đột quỵ rõ ràng dưới 270 phút trước khi dùng thuốc tiêu huyết khối.
+    verdict: match
+    note: Nằm dưới mục 4.2 "Chỉ định điều trị tiêu huyết khối".
+  - text: Tiêu huyết khối đường tĩnh mạch trong 3 giờ đầu, mở rộng lên 4,5 giờ, áp dụng thường quy ở Hoa Kỳ và châu Âu
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: Điều trị tiêu huyết khối đường tĩnh mạch trong 3 giờ đầu và gần đây mở rộng cửa sổ điều trị lên 4,5 giờ đã được áp dụng thường quy tại Hoa Kỳ cũng như tại châu Âu. Vì vậy, việc xác định chính xác thời gian khởi phát đột quỵ là rất quan trọng.
+    verdict: match
+    note: ""
+  - text: Cửa sổ 4,5–9 giờ có thể dùng tiêu huyết khối nếu thỏa điều kiện mục 4.5.2
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "4.5.2. Nhồi máu não 4,5-9 giờ (thời gian khởi phát rõ): Người bệnh nhồi máu não cấp có thời gian khởi phát rõ ràng, trong khoảng 4,5-9 giờ có thể dùng thuốc tiêu huyết khối đường tĩnh mạch nếu thỏa mãn: -Có bất tương xứng giữa lõi nhồi máu và vùng giảm tưới máu trên CLVT/CHT tưới máu não"
+    verdict: match
+    note: Mục nêu đúng điều kiện chung "nếu thỏa mãn các điều kiện mục 4.5.2".
+  - text: "NIHSS: tài liệu quy định phải đánh giá NIHSS; chỉ định tiêu huyết khối dựa trên điểm này và triệu chứng khu trú gây tàn tật"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: Người bệnh đột quỵ não phải được đánh giá theo thang điểm NIHSS. Chỉ định tiêu huyết khối cho những người bệnh có NIHSS ≤ 5 điểm và có triệu chứng thần kinh khu trú gây tàn tật hoặc NIHSS > 5 điểm.
+    verdict: match
+    note: Mục 4.2.3.
+  - text: Định nghĩa cơn thiếu máu não thoáng qua (mục 1.1.2)
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: Cơn thiếu máu não thoáng qua (CTMNTQ) được định nghĩa là sự khởi phát đột ngột triệu chứng thần kinh khu trú do thiếu máu não ở một khu vực hoặc võng mạc, và các triệu chứng này kéo dài không quá 24 giờ và không có sự hiện diện tổn thương nhồi máu não cấp trên hình ảnh cộng hưởng từ.
+    verdict: match
+    note: ""
+  - text: Giữ người bệnh ở tư thế an toàn, đầu nghiêng để tránh sặc, tuyệt đối không cho uống thuốc
+    source_url: http://trungtamytequan6.medinet.gov.vn/tim-mach/gio-vang-quyet-dinh-su-song-cmobile17305-250126.aspx
+    quote: Trong lúc chờ đợi, giữ bệnh nhân ở tư thế an toàn, đầu nghiêng để tránh sặc, tuyệt đối không cho uống thuốc.
+    verdict: partial
+    note: 'Nguồn duy nhất là bài trung tâm y tế trong nước (đăng lại từ HCDC), không phải hướng dẫn gốc. AHA/Red Cross 2024: tư thế hồi sức (nằm nghiêng) chỉ "reasonable" cho người giảm tỉnh táo, thở bình thường, nguyên nhân không chấn thương; người tỉnh nên để ở tư thế thoải mái; tư thế này "may not be ideal if ... breathing is abnormal; or if CPR is needed". Mục viết vô điều kiện cho mọi người bệnh. Không thấy hướng dẫn quốc tế về "không cho uống thuốc" (AHA chỉ khuyên aspirin cho đau ngực, không cho đột quỵ).'
+  - text: "Bẫy 2: Phú Lâm (HCDC) dặn giữ tư thế an toàn, không cho uống thuốc"
+    source_url: http://trungtamytequan6.medinet.gov.vn/tim-mach/gio-vang-quyet-dinh-su-song-cmobile17305-250126.aspx
+    quote: Trong lúc chờ đợi, giữ bệnh nhân ở tư thế an toàn, đầu nghiêng để tránh sặc, tuyệt đối không cho uống thuốc.
+    verdict: match
+    note: Mục dẫn đúng nội dung bài; vấn đề là độ mạnh của nguồn (xem claim trước).
+  - text: 'Bước: "Giữ người bệnh... chờ xe cấp cứu, không tự chở bằng xe máy" (gắn "suy ra từ NINDS, nguồn không nhắc riêng xe máy")'
+    source_url: https://www.ninds.nih.gov/health-information/stroke/signs-and-symptoms
+    quote: '(NINDS chỉ nói: "should not drive to the hospital themselves or have someone else drive them. Taking an ambulance...")'
+    verdict: inference
+    note: Nhãn "suy ra" trung thực. Không có phương án khi 115 không tới/chậm.
+  - text: "Gọi 115 không mất tiền (nguồn dẫn: Thông tư 02/2020/TT-BTTTT)"
+    source_url: https://mst.gov.vn/mien-phi-cac-cuoc-goi-den-so-113-114-115-197140697.htm
+    quote: gọi đến các số dịch vụ khẩn cấp (113, 114, 115) được hưởng giá cước 0 đồng/phút.
+    verdict: partial
+    note: Bản tin Cổng Bộ KH&CN (tóm tắt thứ cấp, không phải chính văn) đúng cho thời điểm 2020. Thông tư 02/2020 ("đến năm 2020") được lawplayer (đồng bộ vbpl.vn 2026-07-04) ghi "Hết hiệu lực toàn bộ"; văn bản kế nhiệm Thông tư 14/2022/TT-BTTTT Điều 5 liệt kê "liên lạc khẩn cấp đến các số 113, 114 và 115" là dịch vụ bắt buộc nhưng Điều 7 giao Bộ quyết định giá, tôi chưa thấy mức 0 đồng trong phần đã đọc. Mục đã tự hedge "hiệu lực hiện hành chưa xác nhận", trung thực nhưng dẫn nguồn đã hết hiệu lực.
+internal_checks:
+  - issue: 'Chữ soạn thảo lọt vào thân bài cho người đọc: mục Chi phí "Cần nguồn cho mức chi phí và tỷ lệ bảo hiểm y tế chi trả." và Bẫy 2 "Cần nguồn cho việc nhịn ăn uống trước khi đến viện."'
+    severity: error
+  - issue: 'steps/tldr không có nhánh "người bệnh không tỉnh, không thở bình thường: gọi 115 và ép tim theo mục 1" (mục 04 có nhánh này; mục 02 cũng có). Hai mục cùng chương không nhất quán.'
+    severity: warn
+  - issue: Bước 4 (tư thế an toàn, đầu nghiêng) chỉ dựa vào một bài trung tâm y tế trong nước, vô điều kiện; AHA 2024 giới hạn tư thế hồi sức cho người giảm tỉnh táo.
+    severity: warn
+  - issue: Bước 5 "chờ xe cấp cứu" không có phương án khi xe không tới được/chậm; nguồn NINDS ở bối cảnh Mỹ.
+    severity: warn
+  - issue: Số liệu nội bộ (270 phút = 4,5 giờ; 4,5–9 giờ; 3 giờ) nhất quán và có trong thân. Không thấy "báo cáo kiểm chứng/Còn treo/sổ kiểm chứng/bản nháp/[INFERENCE]". Có câu "mục dừng ở B" (ngôn ngữ phân hạng nội bộ) trong Ghi chú.
+    severity: warn
+validity:
+  doc: QĐ 3312/QĐ-BYT ngày 05/11/2024 (BYT); NINDS Stroke signs and symptoms; AHA/Red Cross 2024 First Aid
+  in_force: unconfirmed
+  effective_from: 2024-11-05
+  amended_by: []
+  basis: "QĐ 3312: hiệu lực từ ngày ký, thay QĐ 5331/QĐ-BYT 2020 (luatvietnam.vn, thứ cấp; thuvienphapluat 403). Không thấy văn bản thay thế nhưng chưa có bằng chứng trực tiếp. TT 02/2020/TT-BTTTT đã hết hiệu lực toàn bộ (lawplayer, đồng bộ vbpl.vn 2026-07-04); TT 14/2022/TT-BTTTT còn hiệu lực nhưng không thấy mức 0 đồng cho 115 trong phần đọc được."
+deliberate_vn_deviation:
+  - 'Bài trung tâm y tế trong nước (HCDC/Phú Lâm): "giữ ở tư thế an toàn, đầu nghiêng... tuyệt đối không cho uống thuốc" vô điều kiện; AHA/Red Cross 2024: người tỉnh để ở tư thế thoải mái, tư thế hồi sức chỉ cho người giảm tỉnh táo thở bình thường.'
+potential_harm: []
+suggested_edits:
+  - Xóa hai câu "Cần nguồn cho ..." (Chi phí và Bẫy 2) hoặc thay bằng nội dung có nguồn.
+  - 'steps: thêm nhánh "Nếu người bệnh không tỉnh, không thở bình thường: gọi 115 và ép tim theo mục 1" như mục 04.'
+  - 'steps bước 4: giới hạn "đầu nghiêng/tư thế an toàn" cho người giảm tỉnh táo hoặc nôn; người tỉnh để tư thế thoải mái (AHA 2024 mục 3 tư thế).'
+  - 'steps bước 5: nêu rõ đây là khuyến cáo NINDS (bối cảnh có xe cấp cứu) và, nếu muốn có phương án dự phòng, gắn nhãn "lời khuyên thực hành".'
+  - "Câu 115 miễn phí: xử lý như mục 01."

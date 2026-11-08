@@ -1,19 +1,23 @@
 {
-  "generated_at": "2026-11-08T06:49:28.919Z",
+  "generated_at": "2026-11-08T12:10:45.439Z",
   "total": 785,
   "totals": {
     "by_status": {
       "consistency-checked": 1,
-      "needs-legal-review": 1,
-      "needs-medical-review": 2,
+      "needs-legal-review": 5,
+      "needs-medical-review": 45,
       "source-checked": 3,
-      "unverified": 778
+      "unverified": 731
     },
     "by_vn_class": {
-      "unclassified": 785
+      "adapted": 59,
+      "unclassified": 644,
+      "universal": 10,
+      "vn_native": 72
     },
     "by_rewrite_status": {
-      "imported": 785
+      "imported": 644,
+      "rewritten": 141
     }
   },
   "chapters": {
@@ -70,13 +74,15 @@
     "5": {
       "total": 50,
       "by_status": {
-        "unverified": 50
+        "needs-legal-review": 3,
+        "unverified": 47
       },
       "by_vn_class": {
-        "unclassified": 50
+        "adapted": 15,
+        "vn_native": 35
       },
       "by_rewrite_status": {
-        "imported": 50
+        "rewritten": 50
       }
     },
     "6": {
@@ -167,26 +173,30 @@
     "13": {
       "total": 49,
       "by_status": {
-        "needs-medical-review": 2,
-        "unverified": 47
+        "needs-medical-review": 45,
+        "unverified": 4
       },
       "by_vn_class": {
-        "unclassified": 49
+        "adapted": 38,
+        "universal": 10,
+        "vn_native": 1
       },
       "by_rewrite_status": {
-        "imported": 49
+        "rewritten": 49
       }
     },
     "14": {
       "total": 12,
       "by_status": {
-        "unverified": 12
+        "needs-legal-review": 1,
+        "unverified": 11
       },
       "by_vn_class": {
-        "unclassified": 12
+        "adapted": 6,
+        "vn_native": 6
       },
       "by_rewrite_status": {
-        "imported": 12
+        "rewritten": 12
       }
     },
     "15": {
@@ -243,10 +253,10 @@
         "unverified": 25
       },
       "by_vn_class": {
-        "unclassified": 25
+        "vn_native": 25
       },
       "by_rewrite_status": {
-        "imported": 25
+        "rewritten": 25
       }
     },
     "20": {
@@ -449,10 +459,10 @@
         "unverified": 4
       },
       "by_vn_class": {
-        "unclassified": 5
+        "vn_native": 5
       },
       "by_rewrite_status": {
-        "imported": 5
+        "rewritten": 5
       }
     }
   },
@@ -501,10 +511,24 @@
     },
     {
       "chapter": 5,
+      "status": "needs-legal-review",
+      "vn_class": "vn_native",
+      "rewrite_status": "rewritten",
+      "count": 3
+    },
+    {
+      "chapter": 5,
       "status": "unverified",
-      "vn_class": "unclassified",
-      "rewrite_status": "imported",
-      "count": 50
+      "vn_class": "adapted",
+      "rewrite_status": "rewritten",
+      "count": 15
+    },
+    {
+      "chapter": 5,
+      "status": "unverified",
+      "vn_class": "vn_native",
+      "rewrite_status": "rewritten",
+      "count": 32
     },
     {
       "chapter": 6,
@@ -565,23 +589,58 @@
     {
       "chapter": 13,
       "status": "needs-medical-review",
-      "vn_class": "unclassified",
-      "rewrite_status": "imported",
-      "count": 2
+      "vn_class": "adapted",
+      "rewrite_status": "rewritten",
+      "count": 35
+    },
+    {
+      "chapter": 13,
+      "status": "needs-medical-review",
+      "vn_class": "universal",
+      "rewrite_status": "rewritten",
+      "count": 9
+    },
+    {
+      "chapter": 13,
+      "status": "needs-medical-review",
+      "vn_class": "vn_native",
+      "rewrite_status": "rewritten",
+      "count": 1
     },
     {
       "chapter": 13,
       "status": "unverified",
-      "vn_class": "unclassified",
-      "rewrite_status": "imported",
-      "count": 47
+      "vn_class": "adapted",
+      "rewrite_status": "rewritten",
+      "count": 3
+    },
+    {
+      "chapter": 13,
+      "status": "unverified",
+      "vn_class": "universal",
+      "rewrite_status": "rewritten",
+      "count": 1
+    },
+    {
+      "chapter": 14,
+      "status": "needs-legal-review",
+      "vn_class": "vn_native",
+      "rewrite_status": "rewritten",
+      "count": 1
     },
     {
       "chapter": 14,
       "status": "unverified",
-      "vn_class": "unclassified",
-      "rewrite_status": "imported",
-      "count": 12
+      "vn_class": "adapted",
+      "rewrite_status": "rewritten",
+      "count": 6
+    },
+    {
+      "chapter": 14,
+      "status": "unverified",
+      "vn_class": "vn_native",
+      "rewrite_status": "rewritten",
+      "count": 5
     },
     {
       "chapter": 15,
@@ -614,8 +673,8 @@
     {
       "chapter": 19,
       "status": "unverified",
-      "vn_class": "unclassified",
-      "rewrite_status": "imported",
+      "vn_class": "vn_native",
+      "rewrite_status": "rewritten",
       "count": 25
     },
     {
@@ -740,15 +799,15 @@
     {
       "chapter": 36,
       "status": "source-checked",
-      "vn_class": "unclassified",
-      "rewrite_status": "imported",
+      "vn_class": "vn_native",
+      "rewrite_status": "rewritten",
       "count": 1
     },
     {
       "chapter": 36,
       "status": "unverified",
-      "vn_class": "unclassified",
-      "rewrite_status": "imported",
+      "vn_class": "vn_native",
+      "rewrite_status": "rewritten",
       "count": 4
     }
   ]

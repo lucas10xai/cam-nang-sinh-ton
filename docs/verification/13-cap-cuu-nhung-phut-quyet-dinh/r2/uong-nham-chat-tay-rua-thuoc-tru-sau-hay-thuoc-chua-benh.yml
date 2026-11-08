@@ -1,0 +1,94 @@
+id: uong-nham-chat-tay-rua-thuoc-tru-sau-hay-thuoc-chua-benh
+content_sha256: 36c40430d2e7f7e1bfc4a96e9852dfdff7a7b8dde50b586273ac9df4d3eb3d29
+checker: agent-R2c13d
+checked_at: 2026-11-08
+result: pass-with-edits
+claims:
+  - text: Gọi 115 hoặc đưa ngay tới cơ sở y tế gần nhất
+    source_url: https://benhviennhitrunguong.gov.vn/ngo-doc-thuoc-va-hoa-chat-tai-nha-tai-nan-thuong-gap-o-tre-nho-nhung-hau-qua-khon-luong.html
+    quote: Gọi cấp cứu 115 hoặc nhanh chóng đưa trẻ tới ngay cơ sở y tế gần nhất.
+    verdict: match
+    note: 'Nguồn viết cho trẻ em; NHS "Call 999 or go to A&E if: you think you, a child, or someone else may have swallowed, touched or breathed in something harmful" áp dụng cả người lớn.'
+  - text: Mang theo vỏ chai, hộp thuốc
+    source_url: https://benhviennhitrunguong.gov.vn/ngo-doc-thuoc-va-hoa-chat-tai-nha-tai-nan-thuong-gap-o-tre-nho-nhung-hau-qua-khon-luong.html
+    quote: Khi đi cha mẹ nhớ cầm theo thuốc hoặc hóa chất nghi ngờ gây ngộ độc cho trẻ, điều này sẽ giúp cho bác sĩ gợi ý được nguyên nhân và có phương án giải độc phù hợp.
+    verdict: match
+    note: 'NHS: "take some of the substance or its packaging to show doctors at the hospital, if possible".'
+  - text: Không móc họng cho nôn, nhất là khi nghi chất ăn mòn (axit, kiềm), xăng dầu, hoặc li bì/co giật/hôn mê
+    source_url: https://benhviennhitrunguong.gov.vn/ngo-doc-thuoc-va-hoa-chat-tai-nha-tai-nan-thuong-gap-o-tre-nho-nhung-hau-qua-khon-luong.html
+    quote: Cha mẹ tuyệt đối không gây nôn cho trẻ trong trường hợp trẻ hôn mê, li bì, co giật hoặc nghi ngờ uống phải các hóa chất có tính chất ăn mòn như axit, bazơ, xăng dầu,…
+    verdict: match
+    note: "NHS: \"do not try to make someone sick if you think they've swallowed something harmful – they could choke and stop breathing\". Poison Control: \"Do not induce vomiting.\" Chính bài Nhi TW trước đó còn hướng dẫn kích thích sàn họng khi trẻ tỉnh — mục công khai bỏ lệch."
+  - text: Không tự cho ăn uống gì
+    source_url: https://www.nhs.uk/conditions/poisoning/
+    quote: do not give the person anything to eat or drink
+    verdict: match
+    note: 'Poison Control lệch: "Drink a small amount of water or milk immediately if: The product swallowed is burning, irritating or caustic, AND The person is conscious, not having convulsions, and able to swallow." Mục công khai lệch này.'
+  - text: "Chất dính da: tháo quần áo, rửa liên tục dưới vòi nước sạch"
+    source_url: https://benhviennhitrunguong.gov.vn/ngo-doc-thuoc-va-hoa-chat-tai-nha-tai-nan-thuong-gap-o-tre-nho-nhung-hau-qua-khon-luong.html
+    quote: Tháo bỏ ngay quần áo bị dính hóa chất, đồng thời rửa vùng cơ thể tiếp xúc với hóa chất của trẻ liên tục dưới vòi nước sạch.
+    verdict: match
+    note: ""
+  - text: Mục khẳng định "Bài không ghi số phút" và "Mốc 15 đến 30 phút chỉ có cho mắt" (Ghi chú)
+    source_url: https://www.poison.org/first-aid-for-poisonings
+    quote: "Use lots of room temperature running water and rinse for at least 15 minutes. … Important: Rinse for at least 15 minutes."
+    verdict: mismatch
+    note: Nguồn Poison Control mà chính mục dẫn nêu rõ "at least 15 minutes" cho da (và "at least 15 to 20 minutes" cho mắt). Câu "chỉ có cho mắt" đúng với nguồn VN nhưng sai nếu hiểu là mọi nguồn dẫn. Mục 13-21 (cùng chương) nêu da "ít nhất 30 phút" (nguồn Viện Bỏng, hóa chất axit/kiềm) — không có số phút ở mục 20 gây thiếu nhất quán và có thể làm người đọc rửa quá ngắn.
+  - text: "Chất vào mắt: rửa liên tục nước sạch hoặc nước muối sinh lý ít nhất 15-30 phút, lộn mi trên và dưới"
+    source_url: https://benhvienmathanoi.gov.vn/capcuubonghoachattaimat/
+    quote: Rửa mắt liên tục dưới vòi nước sạch hoặc dùng bình nước muối sinh lý (NaCl 0,9%) xối mạnh vào mắt trong ít nhất 15–30 phút. Lộn mi trên và mi dưới để rửa sạch hóa chất còn đọng trong túi kết mạc và chân mi.
+    verdict: match
+    note: 'Poison Control: "irrigate for at least 15 to 20 minutes" và tháo kính áp tròng (mục không nêu).'
+  - text: Không băng kín mắt khi chưa rửa sạch
+    source_url: https://benhvienmathanoi.gov.vn/capcuubonghoachattaimat/
+    quote: Băng kín mắt khi chưa rửa sạch hóa chất hoặc tự ý nhỏ bất kỳ loại thuốc nào trước khi rửa mắt.
+    verdict: match
+    note: Nằm dưới nhãn "Không được:" trong bài.
+  - text: '"Cơ sở sẽ chuyển tuyến chống độc nếu cần" (step 1)'
+    source_url: https://benhviennhitrunguong.gov.vn/ngo-doc-thuoc-va-hoa-chat-tai-nha-tai-nan-thuong-gap-o-tre-nho-nhung-hau-qua-khon-luong.html
+    quote: Gọi cấp cứu 115 hoặc nhanh chóng đưa trẻ tới ngay cơ sở y tế gần nhất.
+    verdict: not-found
+    note: 'Không nguồn nào trong mục nêu câu chuyển tuyến chống độc; Ghi chú còn tự nhận "Cần nguồn cho: có nên bỏ qua cơ sở gần nhất để tới cơ sở chống độc". Câu trong step là khẳng định về hệ thống y tế không có nguồn.'
+  - text: Nếu chất nuốt gây rát và người còn tỉnh, nuốt được, hỏi 115 có nên cho nhấp nước/sữa không (step 3)
+    source_url: https://www.poison.org/first-aid-for-poisonings
+    quote: "Drink a small amount of water or milk immediately if: The product swallowed is burning, irritating or caustic, AND The person is conscious, not having convulsions, and able to swallow."
+    verdict: inference
+    note: 'Hai nguồn lệch (NHS: không cho uống; Poison Control: uống ngay ít nước/sữa); mục trung gian "hỏi 115". Poison Control hướng dẫn gọi trung tâm chống độc, không phải đường dây cấp cứu; 115 là điều phối cấp cứu, chưa nguồn nào nói 115 tư vấn việc này. Là lời khuyên thực hành chưa gắn nhãn; không gây hại vì mặc định là không cho uống.'
+  - text: Trung tâm Chống độc – Bệnh viện Bạch Mai có đơn vị điều trị ngộ độc, xét nghiệm độc chất, thông tin chống độc; BV ở số 78 đường Giải Phóng
+    source_url: https://chanthuongvacotsong.bachmai.gov.vn/benh-vien-bach-mai-ky-niem-25-nam-thanh-lap-trung-tam-chong-doc/
+    quote: "với đủ 3 đơn vị hoạt động: Đơn vị lâm sàng chuyên điều trị ngộ độc; Đơn vị xét nghiệm độc chất; Đơn vị thông tin chống độc."
+    verdict: match
+    note: 'Địa chỉ: trang chủ bachmai.gov.vn ghi "Địa chỉ: Số 78 Đường Giải Phóng, P. Kim Liên, TP Hà Nội".'
+  - text: Hướng dẫn cho thuốc trừ sâu / người lớn (tiêu đề nêu "thuốc trừ sâu")
+    source_url: https://benhviennhitrunguong.gov.vn/ngo-doc-thuoc-va-hoa-chat-tai-nha-tai-nan-thuong-gap-o-tre-nho-nhung-hau-qua-khon-luong.html
+    quote: Chỉ trong thời gian ngắn, Bệnh viện Nhi Trung ương đã tiếp nhận một số trẻ phải vào cấp cứu do uống nhầm thuốc diệt chuột, thuốc trừ sâu, dầu hỏa, hóa chất tẩy rửa
+    verdict: partial
+    note: 'Nguồn chỉ nêu thuốc trừ sâu là nguyên nhân nhập viện ở trẻ em, không có hướng dẫn riêng cho thuốc trừ sâu/người lớn; NHS "Poisoning" nêu "pesticides" là tác nhân nhưng hướng dẫn chung. Tiêu đề nêu "thuốc trừ sâu" nhưng thân không có bước riêng (mục tự nhận "Cần nguồn cho: xử trí riêng với thuốc trừ sâu").'
+internal_checks:
+  - issue: 'Ghi chú có hai dòng "Cần nguồn cho: xử trí riêng với thuốc trừ sâu, và hướng dẫn cho người lớn." và "Cần nguồn cho: có nên bỏ qua cơ sở gần nhất…; số điện thoại riêng của Trung tâm Chống độc (chưa thấy công bố)." — danh sách việc còn treo (tương đương "Còn treo") lọt vào thân bài.'
+    severity: error
+  - issue: 'Ghi chú: "Không có văn bản có số hiệu nào quy định thời gian rửa da tại nhà. Mốc 15 đến 30 phút chỉ có cho mắt." — mâu thuẫn với Poison Control (≥15 phút cho da) mà chính mục dẫn, và với mục 13-21 cùng chương (da ít nhất 30 phút cho bỏng hóa chất axit/kiềm). Mục 20 để da không có số phút.'
+    severity: warn
+  - issue: Step 1 "Cơ sở sẽ chuyển tuyến chống độc nếu cần" không có nguồn (xem claim not-found).
+    severity: warn
+  - issue: 'Thiếu bước cho người li bì/mất ý thức mà còn thở/không thở: NHS "Poisoning" nêu tư thế hồi phục và CPR khi không thở. Steps chỉ nói "không móc họng… gọi 115", không có hướng dẫn trong lúc chờ. Chương 13 mục 01/46 có CPR/nằm nghiêng; mục này không liên kết.'
+    severity: warn
+  - issue: '"Mức bằng chứng để B" trong Ghi chú: ngôn ngữ nội bộ lọt vào thân bài.'
+    severity: warn
+  - issue: Số trong tldr/steps (15–30 phút mắt, 115) khớp thân; không mâu thuẫn nội bộ. Không còn "báo cáo kiểm chứng/sổ kiểm chứng/bản nháp/[INFERENCE]".
+    severity: warn
+validity:
+  doc: BV Nhi TW (24/10/2023, sửa 26/10/2023), BV Mắt Hà Nội (02/05/2026), NHS "Poisoning" (xem lại 12/06/2025), Poison Control, BV Bạch Mai
+  in_force: true
+  effective_from: 2023-10-24
+  amended_by: []
+  basis: Hướng dẫn y tế không có ngày hiệu lực. Trang Nhi TW đăng 24/10/2023; Mắt HN đăng 02/05/2026 (sửa 08/05/2026); NHS xem lại 12/06/2025. Không thấy hướng dẫn mới trái chiều; không mở được AHA/ERC cho mục này.
+deliberate_vn_deviation:
+  - "Bài Nhi TW cho kích thích sàn họng gây nôn khi trẻ tỉnh; mục chọn không gây nôn theo NHS/Poison Control và phần chống chỉ định cùng bài (công khai). Về uống nước/sữa: NHS không, Poison Control có điều kiện, Nhi TW cho Oresol sau nôn; mục chọn trung gian (công khai)."
+potential_harm: []
+suggested_edits:
+  - 'Ghi chú: xóa hai dòng "Cần nguồn cho: …" (hoặc đổi thành "Mục này chưa có hướng dẫn riêng cho thuốc trừ sâu và cho người lớn; số điện thoại riêng của Trung tâm Chống độc chưa thấy công bố").'
+  - 'Step 4 (da) và tldr: thêm "ít nhất 15 phút" theo Poison Control ("rinse for at least 15 minutes") hoặc "ít nhất 30 phút" nếu chất là axit/kiềm theo mục 13-21; sửa Ghi chú "Mốc 15 đến 30 phút chỉ có cho mắt" cho khớp (nguồn VN không ghi số phút, Poison Control ghi 15 phút).'
+  - 'Step 1: bỏ câu "Cơ sở sẽ chuyển tuyến chống độc nếu cần" hoặc gắn nhãn "lời khuyên thực hành, không có trong nguồn".'
+  - "Thêm một step: người li bì/mất ý thức còn thở thì đặt nằm nghiêng, không thở thì ép tim (NHS \"Poisoning\": \"start CPR if someone is unresponsive and not breathing; put the person in the recovery position if they're unconscious and still breathing\"), kèm liên kết mục 13-01."
+  - 'Tiêu đề: bỏ "thuốc trừ sâu" hoặc thêm nguồn riêng cho thuốc trừ sâu.'

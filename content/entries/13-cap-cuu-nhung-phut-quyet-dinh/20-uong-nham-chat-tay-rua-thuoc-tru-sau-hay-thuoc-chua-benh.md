@@ -71,8 +71,8 @@ Nơi chuyên điều trị ngộ độc: Trung tâm Chống độc trong Bệnh 
 
 - **Nguồn Việt Nam không thống nhất với mục về việc gây nôn.** Bài của Bệnh viện Nhi Trung ương còn hướng dẫn: nếu trẻ tỉnh táo, chưa nôn, còn phản ứng tốt thì dùng ngón tay (quấn gạc mềm, sạch) kích thích sàn họng để trẻ nôn. Mục chọn "không móc họng" theo NHS và theo phần chống chỉ định của chính bài đó; Poison Control (Mỹ) cũng ghi "Do not induce vomiting".
 - **Uống nước hay sữa: hướng dẫn quốc tế không thống nhất.** NHS: không cho ăn hoặc uống gì. Poison Control: uống ngay một ít nước hoặc sữa nếu chất nuốt gây rát, ăn mòn và người còn tỉnh, không co giật, nuốt được. Bài Bệnh viện Nhi Trung ương còn cho trẻ uống dung dịch Oresol theo nhu cầu sau khi nôn. Vì vậy mục chỉ dặn không tự cho uống và hỏi 115.
-- Các nguồn nói về ngộ độc thuốc và hóa chất gia dụng, bài chính viết cho trẻ em. Cần nguồn cho: xử trí riêng với thuốc trừ sâu, và hướng dẫn cho người lớn.
-- Cần nguồn cho: có nên bỏ qua cơ sở gần nhất để tới cơ sở chống độc; số điện thoại riêng của Trung tâm Chống độc (chưa thấy công bố).
+- Các nguồn nói về ngộ độc thuốc và hóa chất gia dụng, bài chính viết cho trẻ em. Mục này chưa có nguồn cho xử trí riêng với thuốc trừ sâu và hướng dẫn cho người lớn.
+- Mục này chưa có nguồn cho việc có nên bỏ qua cơ sở gần nhất để tới cơ sở chống độc, và chưa thấy số điện thoại riêng của Trung tâm Chống độc được công bố.
 - Không có văn bản có số hiệu nào quy định thời gian rửa da tại nhà. Mốc 15 đến 30 phút chỉ có cho mắt.
 - **Bẫy 1: móc họng cho nôn với thuốc tẩy, nước tẩy bồn cầu, xăng dầu.** Bệnh viện Nhi Trung ương ghi tuyệt đối không gây nôn với hóa chất ăn mòn và xăng dầu.
 - **Bẫy 2: tự cho uống sữa hoặc nước theo mẹo.** Hướng dẫn không thống nhất (xem trên); hỏi 115 thay vì tự quyết.

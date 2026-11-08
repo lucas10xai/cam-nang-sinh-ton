@@ -75,7 +75,7 @@ Hướng dẫn tại hiện trường lấy từ nguồn nước ngoài, vì bà
 - **Bẫy 3: coi đau đầu, buồn nôn là cảm cúm vì trời lạnh.** CDC ghi triệu chứng CO thường được mô tả giống cúm. Nguồn không nói về "cả nhà cùng bị"; đó là suy ra từ NHS: triệu chứng nặng hơn khi ở trong phòng hoặc nhà bị ảnh hưởng và đỡ khi ra ngoài.
 - Mục này không có nghĩa là cứ có mùi gas mới là nguy hiểm.
 - Cũng không có nghĩa là ra được ngoài thì hết chuyện. Bệnh viện Bỏng ghi người bệnh sau điều trị cần được khám đánh giá di chứng thần kinh có thể xảy ra muộn.
-- Cần nguồn cho: xử trí riêng khi nghi rò rỉ gas LPG; thứ tự gọi 115 theo hướng dẫn của Bộ Y tế.
+- Mục này chưa có nguồn cho cách xử trí riêng khi nghi rò rỉ gas LPG, và chưa nêu thứ tự gọi 115 theo hướng dẫn của Bộ Y tế.
 
 ## Nguồn
 

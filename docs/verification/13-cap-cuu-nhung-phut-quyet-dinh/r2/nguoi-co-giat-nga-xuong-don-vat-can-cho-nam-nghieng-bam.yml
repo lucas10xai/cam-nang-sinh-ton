@@ -1,0 +1,80 @@
+id: nguoi-co-giat-nga-xuong-don-vat-can-cho-nam-nghieng-bam
+content_sha256: 7602ac282a55d50acf5980d13e2f9db45fa682ba5424323e42d647e94bba6dc6
+checker: agent-R2c13d
+checked_at: 2026-11-08
+result: pass-with-edits
+claims:
+  - text: Ở lại bên người bệnh, xem đồng hồ ngay để biết độ dài cơn
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: Ở lại trợ giúp cho bệnh nhân, và giữ bình tĩnh - Lập tức xem đồng hồ, để biết độ dài cơn động kinh.
+    verdict: match
+    note: ""
+  - text: Dọn vật cứng, vật sắc nhọn; kê áo gấp/gối mềm dưới đầu
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: Đặt bệnh nhân tại 1 vị trí an toàn, tránh những vật sắc nhọn, hoặc vật cứng xung quanh có thể gây nguy hiểm … Đặt một vật mềm như gối, áo khoác hay chăn màn gấp gọn dưới đầu bệnh nhân tránh nguy cơ chấn thương.
+    verdict: match
+    note: ""
+  - text: Xoay nghiêng sang một bên khi mất ý thức hoặc không tỉnh lại
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: Đặt bệnh nhân xoay nghiêng sang 1 bên khi bệnh nhân mất ý thức hoặc không tỉnh lại, điều này giúp bệnh nhân dễ thở hơn.
+    verdict: match
+    note: 'CDC: "If the person is lying down, turn them gently on their side, with their mouth pointing to the ground." Khớp.'
+  - text: Không nhét thìa/ngón tay/vật gì vào miệng
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: Không nhét bất cứ vật gì vào miệng, vì có thể bệnh nhân cắn gẫy, hoặc gẫy răng, rơi vào làm tắc thở.
+    verdict: match
+    note: "CDC: \"Don't put anything in their mouth. This can hurt their teeth or jaw.\""
+  - text: Không giữ tay chân
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: Không giữ bệnh nhân, vì cơn động kinh có thể gây trật các khớp, gẫy xương.
+    verdict: match
+    note: ""
+  - text: Không cho uống nước, thuốc, ăn
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: Không cho uống nước, thuốc, hay thức ăn, vì bệnh nhân không tỉnh, nguy cơ làm suy hô hấp.
+    verdict: match
+    note: CDC chỉ cấm "until they are fully alert"; mục theo bài 108 chặt hơn, không gây hại.
+  - text: Không ấn nhân trung, không ấn ngực khi còn thở
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: Không ấn nhân trung, không ấn ngực bệnh nhân vì cơn động kinh sẽ tự hết, mặt khác có thể gây thêm tổn thương cho bệnh nhân.
+    verdict: match
+    note: Nguồn không có điều kiện "khi còn thở"; xem claim dưới.
+  - text: Cơn quá 5 phút / lặp lại / không tỉnh / ngừng thở sau cơn / bị thương / cơn đầu tiên / có thai / trong nước thì gọi 115
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Cơn kéo dài hơn 5 phút … Cơn xuất hiện lặp lại liên tiếp … Người lên cơn động kinh đang mang thai hoặc bị bệnh khác kèm theo: sốt … ở trong môi trường nước … Người bệnh không tỉnh lại sau cơn động kinh … Người bệnh ngừng thở sau cơn co động kinh … Người bệnh bị thương … Nếu bạn biết đây là cơn động kinh đầu tiên"
+    verdict: match
+    note: 'Đủ 8 gạch đầu dòng. Mục viết "có thai" mà bỏ "sốt" ở steps/tldr (CDC cũng không nêu sốt): không nguy hiểm.'
+  - text: Đái tháo đường mất ý thức thì gọi 115 (đối chiếu CDC)
+    source_url: https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html
+    quote: "It is also important to call 911 if the person having the seizure: Has never had a seizure before. Has diabetes and loses consciousness. Is pregnant."
+    verdict: match
+    note: "Tóm tắt Việt: CDC cũng yêu cầu gọi cấp cứu khi cơn đầu tiên, đái tháo đường mất ý thức, có thai."
+  - text: Cơn động kinh thường kéo dài 2 đến 3 phút; 5 phút là mốc gọi
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: Cơn động kinh thường chỉ kéo dài 2-3 phút và sau đó bệnh nhân có thể phục hồi lại trạng thái ban đầu
+    verdict: match
+    note: '"5 phút là mốc để gọi, không phải mốc để chờ thêm" là lời của mục (hợp lý, CDC: "seek immediate medical attention or call 911" khi quá 5 phút).'
+  - text: Sau cơn mà người bệnh không thở thì gọi 115 và ép tim ngay (mục đặt câu này trong gạch đầu dòng "Bệnh viện 108 liệt bốn việc không nên làm" và ở steps/Bẫy 4)
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: Người bệnh ngừng thở sau cơn co động kinh
+    verdict: inference
+    note: "Bài 108 chỉ ghi \"ngừng thở sau cơn\" là một trong các trường hợp gọi 115; KHÔNG nói ép tim. CDC: \"Don't give mouth-to-mouth breaths during the seizure. People usually start breathing again on their own after a seizure.\" Ép tim khi ngừng thở sau cơn là suy ra hợp lý theo hướng dẫn hồi sức (AHA/ERC: không thở bình thường = ép tim) nhưng đặt trong gạch đầu dòng của bệnh viện 108 làm đọc giả hiểu nhầm là nguồn nói. Cần tách thành câu \"Suy ra (không phải chữ của nguồn)\"."
+internal_checks:
+  - issue: 'Lợi ích: câu "Nếu sau cơn người bệnh không thở: gọi 115 và ép tim ngay" nằm trong gạch đầu dòng thứ 4 của danh sách "Bệnh viện 108 liệt bốn việc không nên làm" nên trông như chữ của 108; nguồn không có (xem claim inference). Bẫy 4 và step 5 đã tách tốt hơn (dùng "Nhưng").'
+    severity: warn
+  - issue: tldr/steps nói "cho nằm nghiêng" vô điều kiện ở tldr; 108 chỉ khi mất ý thức/không tỉnh, CDC khi đang nằm. Step 3 có đủ điều kiện. Không mâu thuẫn số liệu.
+    severity: warn
+  - issue: Số trong tldr/steps (5 phút, 115) đều có trong thân; không mâu thuẫn nội bộ; legal_refs rỗng (không có URL cần kiểm). Không còn chữ nội bộ ("kiểm chứng", "bản nháp", "Còn treo", "INFERENCE").
+    severity: warn
+validity:
+  doc: Bệnh viện TWQĐ 108, "Cách sơ cứu khi gặp người bị động kinh" (07/10/2021) + CDC "First Aid for Seizures" (15/05/2024)
+  in_force: true
+  effective_from: 2021-10-07
+  amended_by: []
+  basis: Hướng dẫn y tế không có ngày hiệu lực. Trang 108 mở được ngày 2026-11-08 (bản 2021); trang CDC còn truy cập, ghi May 15, 2024. Không thấy hướng dẫn mới hơn trái chiều. Không mở được AHA/ERC trực tiếp cho mục này; CDC dùng làm nguồn quốc tế đối chiếu.
+deliberate_vn_deviation:
+  - Bài 108 cấm tuyệt đối cho uống/ăn; CDC chỉ cấm đến khi hoàn toàn tỉnh. Mục theo 108 (chặt hơn, không gây hại).
+potential_harm: []
+suggested_edits:
+  - 'Lợi ích, gạch đầu dòng thứ 4 của danh sách "không nên làm": bỏ câu "Nếu sau cơn người bệnh không thở: gọi 115 và ép tim ngay." khỏi danh sách của 108; chuyển xuống Ghi chú thành: "Suy ra (không phải chữ của nguồn): bài 108 chỉ ghi ngừng thở sau cơn là lúc gọi 115; ép tim khi người bệnh không thở bình thường là theo hướng dẫn hồi sức tim phổi chung (mục 13-01)." Dựa vào quote "Người bệnh ngừng thở sau cơn co động kinh".'
+  - 'tldr: đổi "cho nằm nghiêng" thành "khi mất ý thức thì cho nằm nghiêng" để khớp 108.'

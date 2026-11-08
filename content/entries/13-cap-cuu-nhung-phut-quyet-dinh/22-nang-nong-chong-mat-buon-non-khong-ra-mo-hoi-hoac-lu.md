@@ -67,7 +67,7 @@ Các con số 40 độ, 38 độ, 20–22 độ, 25–30 độ đều đọc đ�
 - **Bẫy 4: thấy còn tỉnh thì không gọi, chỉ làm mát.** Bạch Mai ghi tiên lượng xấu theo thời gian đến khi điều trị và mọi bệnh nhân sốc nhiệt đều phải vào viện.
 - **Mục này không có nghĩa** là phải có nước đá mới được làm mát, hay người còn tỉnh thì không cần đi viện.
 - **Mục này nói rằng:** có dấu hiệu nặng thì gọi 115, làm mát là việc làm trong lúc chờ, người lú lẫn thì không cho uống.
-- Cần nguồn cho: mốc "còn mệt sau khoảng 30 phút làm mát thì gọi cấp cứu" (chưa có trích dẫn nguyên văn); ngâm nước lạnh toàn thân; cách ghi số cấp cứu thống nhất cả chương (mục 49 nêu thêm tổng đài 113 từ 01/11/2026).
+- Mục này chưa có trích dẫn nguyên văn cho mốc "còn mệt sau khoảng 30 phút làm mát thì gọi cấp cứu" và cho việc ngâm nước lạnh toàn thân, nên không đưa vào bước hành động. Về số cấp cứu: mục 49 nêu thêm tổng đài 113 từ 01/11/2026, chương chưa thống nhất cách ghi.
 
 ## Nguồn
 

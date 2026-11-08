@@ -1,0 +1,93 @@
+id: coi-bao-khi-co-keu-hoac-ca-nha-cung-dau-dau-buon
+content_sha256: 66e900a88666aed8d8773d2976021c11a9fe05b8235fdf6c42bb95603e9fe76d
+checker: agent-R2c13d
+checked_at: 2026-11-08
+result: pass-with-edits
+claims:
+  - text: CO không màu, không mùi, tích tụ nhanh trong không gian kín
+    source_url: https://vienbongquocgia.vn/tin-dieu-tri/ngo-doc-khi-carbon-monoxide
+    quote: Khí Carbon monoxide (CO) là một loại khí không màu, không mùi nên chúng ta không thể phát hiện được bằng mắt thường, khí có thể tích tụ nhanh chóng trong không gian kín.
+    verdict: match
+    note: 'Trang bỏng dùng chứng chỉ SSL lỗi (curl -k); nội dung đọc được. NHS: "Carbon monoxide gas is colourless and does not smell".'
+  - text: Triệu chứng khởi đầu khó nhận biết (buồn nôn, đau đầu); hít lượng cao có thể tử vong sau vài phút
+    source_url: https://vienbongquocgia.vn/tin-dieu-tri/ngo-doc-khi-carbon-monoxide
+    quote: Các triệu chứng khởi đầu của ngộ độc khí CO rất khó nhận biết như buồn nôn, đau đầu … Khi hít vào một lượng khí CO cao sẽ gây ra những biến chứng rất nặng về thần kinh, tim mạch và có khả năng gây tử vong chỉ sau vài phút.
+    verdict: match
+    note: ""
+  - text: "Nguồn khí: khói xe, bếp gas, than, củi, lò nung, đồ nướng, máy phát điện, khói thuốc lá, khói đám cháy"
+    source_url: https://vienbongquocgia.vn/tin-dieu-tri/ngo-doc-khi-carbon-monoxide
+    quote: Khói từ động cơ xe (ô tô, xe tải, tàu thuyền), thiết bị bếp (bếp gas, bếp than, bếp củi), lò nung, đồ nướng, máy phát điện, khói thuốc lá và một nguồn rất nguy hiểm là khói trong các vụ tai nạn do hỏa hoạn.
+    verdict: match
+    note: ""
+  - text: Kết quả tốt nhất khi điều trị lần đầu trong 6 giờ; nằm trong khuyến cáo cho cơ sở y tế, không phải sơ cứu tại nhà
+    source_url: https://vienbongquocgia.vn/tin-dieu-tri/ngo-doc-khi-carbon-monoxide
+    quote: Kết quả tốt nhất khi bệnh nhân được điều trị lần đầu trong vòng 6 giờ sau khi xảy ra ngộ độc.
+    verdict: match
+    note: Đoạn nằm dưới tiêu đề "Khuyến cáo khi tiếp nhận bệnh nhân ngộ độc khí CO" đúng như mục nói.
+  - text: Sau điều trị cần khám di chứng thần kinh có thể xảy ra muộn
+    source_url: https://vienbongquocgia.vn/tin-dieu-tri/ngo-doc-khi-carbon-monoxide
+    quote: Các bệnh nhân sau điều trị cần được khám đánh giá những di chứng thần kinh có thể xảy ra muộn.
+    verdict: match
+    note: ""
+  - text: Ngừng thiết bị nghi gây CO nếu làm được, ra ngoài, xin tư vấn y tế sớm, không quay lại tòa nhà khi chưa có tư vấn
+    source_url: https://www.nhs.uk/conditions/carbon-monoxide-poisoning/
+    quote: stop using appliances you think might be making carbon monoxide (such as a boiler, cooker or heater) if you can - go outside - get medical advice as soon as possible – do not go back into the affected building until you have got advice
+    verdict: match
+    note: "Tóm tắt Việt: dừng dùng thiết bị nghi tạo CO nếu làm được, ra ngoài, xin tư vấn y tế sớm, không vào lại tòa nhà đến khi có tư vấn."
+  - text: Gọi cấp cứu nếu khó thở, đột ngột lú lẫn, mất ý thức, yếu, đau ngực/cơ
+    source_url: https://www.nhs.uk/conditions/carbon-monoxide-poisoning/
+    quote: "Call 999 or go to A&E if: You think you or someone else has been exposed to carbon monoxide and: are finding it hard to breathe - have suddenly become confused - have lost consciousness - are feeling weak - have chest or muscle pain"
+    verdict: match
+    note: "Tóm tắt Việt: nghi phơi nhiễm CO kèm khó thở, lú lẫn đột ngột, mất ý thức, yếu, đau ngực/cơ thì gọi 999 (ở VN tương ứng 115)."
+  - text: Ra chỗ thoáng ngay; ngã quỵ, co giật, khó thở, không đánh thức được thì gọi cấp cứu
+    source_url: https://www.poison.org/first-aid-for-poisonings
+    quote: "If the individual collapses, has a seizure, has trouble breathing, or can't be awakened: Call 911 IMMEDIATELY. … INHALED: It's important to move to fresh air immediately. Stay away from all toxic fumes and gases."
+    verdict: match
+    note: "Tóm tắt Việt: nạn nhân ngã quỵ/co giật/khó thở/không đánh thức được thì gọi 911 ngay; hít phải thì ra chỗ thoáng ngay, tránh xa khí độc."
+  - text: Người bất tỉnh còn thở thì nằm nghiêng; bất tỉnh không thở thì ép tim (CPR)
+    source_url: https://www.nhs.uk/conditions/poisoning/
+    quote: start CPR if someone is unresponsive and not breathing - put the person in the recovery position if they're unconscious and still breathing
+    verdict: match
+    note: "Tóm tắt Việt: không phản ứng và không thở thì CPR; bất tỉnh còn thở thì tư thế hồi phục."
+  - text: Triệu chứng CO thường được mô tả giống cúm (CDC)
+    source_url: https://www.cdc.gov/carbon-monoxide/about/index.html
+    quote: CO symptoms are often described as “flu-like.”
+    verdict: match
+    note: ""
+  - text: Triệu chứng nặng hơn trong nhà bị ảnh hưởng, đỡ khi ra ngoài (nền cho "cả nhà cùng bị")
+    source_url: https://www.nhs.uk/conditions/carbon-monoxide-poisoning/
+    quote: They may get worse when you spend time in an affected room or building and get better when you leave or go outside.
+    verdict: match
+    note: "Tóm tắt Việt: triệu chứng nặng hơn khi ở trong phòng/nhà bị ảnh hưởng, đỡ khi ra ngoài."
+  - text: Số 115 là số gọi cấp cứu (Bệnh viện Nhi TW)
+    source_url: https://benhviennhitrunguong.gov.vn/ngo-doc-thuoc-va-hoa-chat-tai-nha-tai-nan-thuong-gap-o-tre-nho-nhung-hau-qua-khon-luong.html
+    quote: Gọi cấp cứu 115 hoặc nhanh chóng đưa trẻ tới ngay cơ sở y tế gần nhất.
+    verdict: match
+    note: ""
+  - text: Step 1 "Mở cửa, đưa mọi người ra ngoài…"; step 3 "chỉ tắt thiết bị… nếu làm được trong vài giây" (nhãn "suy ra từ hướng dẫn nước ngoài")
+    source_url: https://www.nhs.uk/conditions/carbon-monoxide-poisoning/
+    quote: stop using appliances you think might be making carbon monoxide (such as a boiler, cooker or heater) if you can
+    verdict: inference
+    note: 'Nhãn "suy ra" trung thực: NHS chỉ nói "if you can", không có "vài giây" hay "mở cửa" (Poison Control: "Thoroughly ventilate the involved area" sau khi ra chỗ thoáng). Bước "mở cửa" không có trong nguồn nào, không nên làm tốn thời gian nên chỉ nên là "mở cửa trên đường ra". Không gây hại.'
+internal_checks:
+  - issue: 'Ghi chú có dòng "Cần nguồn cho: xử trí riêng khi nghi rò rỉ gas LPG; thứ tự gọi 115 theo hướng dẫn của Bộ Y tế." — danh sách việc còn treo (tương đương "Còn treo") lọt vào thân bài.'
+    severity: error
+  - issue: 'Ghi chú "Mục để mức B", "Chưa thấy thống kê Việt Nam nào…": ngôn ngữ nội bộ về quy trình bằng chứng lọt vào thân; nên rút gọn.'
+    severity: warn
+  - issue: Step 1 bảo đưa mọi người ra ngoài "kể cả người còn tỉnh" nhưng không nói gì về người đã bất tỉnh trong nhà (ai kéo ra, người cứu có nguy cơ bị ngộ độc; NHS/Poison Control không đưa ra hướng dẫn kéo người). Nên thêm điều kiện an toàn hoặc ghi rõ nguồn không nói.
+    severity: warn
+  - issue: Số trong tldr/steps (chỉ có 115) khớp thân; không mâu thuẫn số liệu. Thiếu 115 trong nguồn Bộ Y tế đã được tự nêu. legal_refs rỗng.
+    severity: warn
+validity:
+  doc: NHS "Carbon monoxide poisoning" (xem lại 16/12/2025), NHS "Poisoning" (xem lại 12/06/2025), CDC "About carbon monoxide" (cập nhật 26/10/2026), Poison Control, Bệnh viện Bỏng QG (16/05/2024)
+  in_force: true
+  effective_from: 2025-12-16
+  amended_by: []
+  basis: Hướng dẫn y tế không có ngày hiệu lực. Mọi trang quốc tế mở được ngày 2026-11-08 với ngày rà soát trong vòng 12 tháng (NHS CO 16/12/2025; CDC 26/10/2026). Nguồn VN không có phần sơ cứu tại nhà (mục thừa nhận). Không thấy hướng dẫn mới trái chiều.
+deliberate_vn_deviation:
+  - Phần sơ cứu tại chỗ hoàn toàn lấy từ NHS/Poison Control/CDC vì bài Việt Nam (Bệnh viện Bỏng) không có; mục thừa nhận rõ. Không có hướng dẫn Bộ Y tế VN được đối chiếu.
+potential_harm: []
+suggested_edits:
+  - 'Ghi chú: xóa dòng "Cần nguồn cho: xử trí riêng khi nghi rò rỉ gas LPG; thứ tự gọi 115 theo hướng dẫn của Bộ Y tế." (hoặc đổi thành câu thông tin cho người đọc: "Mục chưa có nguồn riêng cho bình gas LPG rò rỉ").'
+  - 'Step 1/Nói dễ hiểu: thêm điều kiện an toàn cho người cứu, vd "Nếu thấy có người bất tỉnh và vào được mà không bị choáng, kéo ra chỗ thoáng; nếu không thì gọi 115 ngay từ ngoài" — nhưng PHẢI gắn nhãn "lời khuyên thực hành, nguồn không nêu" vì NHS/Poison Control/CDC không có câu này.'
+  - 'Ghi chú: bỏ câu "Mục để mức B" khỏi thân.'

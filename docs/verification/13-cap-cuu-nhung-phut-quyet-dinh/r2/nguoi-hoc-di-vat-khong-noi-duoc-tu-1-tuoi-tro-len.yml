@@ -1,0 +1,76 @@
+id: nguoi-hoc-di-vat-khong-noi-duoc-tu-1-tuoi-tro-len
+checker: agent-R2c13f
+checked_at: 2026-11-08
+content_sha256: d27d82c131374efe1d8e7efbd73310a1c96be3cb43ddd19b8b87fdafdf68a9b3
+result: pass-with-edits
+claims:
+  - text: "Dấu hiệu điển hình: đột ngột hoảng hốt ôm chặt cổ, mặt tím tái, không thể ho, nói hay khóc"
+    source_url: https://ttcapcuu115.medinet.gov.vn/chuyen-muc/so-cuu-hoc-di-vat-hieu-dung-de-so-cuu-an-toan-cmobile4472-268683.aspx
+    verdict: match
+    quote: "Dấu hiệu điển hình của hóc dị vật đường thở là khi người bệnh đột ngột hoảng hốt ôm chặt cổ, mặt tím tái, không thể ho, nói hay khóc."
+  - text: "Người lớn và trẻ lớn: đứng sau, một tay đỡ trước ngực, gót bàn tay kia vỗ mạnh 5 nhát giữa hai bả vai"
+    source_url: https://ttcapcuu115.medinet.gov.vn/chuyen-muc/so-cuu-hoc-di-vat-hieu-dung-de-so-cuu-an-toan-cmobile4472-268683.aspx
+    verdict: match
+    quote: "Vỗ lưng: Đứng phía sau, một tay đỡ trước ngực người bệnh. Dùng gót bàn tay kia vỗ mạnh 5 nhát vào giữa hai bả vai."
+  - text: "Nếu chưa ra: ôm eo, nắm tay trên rốn, tay kia bọc, giật ép 5 lần từ ngoài vào trong, từ dưới lên trên"
+    source_url: https://ttcapcuu115.medinet.gov.vn/chuyen-muc/so-cuu-hoc-di-vat-hieu-dung-de-so-cuu-an-toan-cmobile4472-268683.aspx
+    verdict: match
+    quote: "Ấn bụng: Nếu dị vật chưa văng ra, lập tức vòng hai tay ôm lấy eo người bệnh. Đặt một nắm tay lên vùng trên rốn, tay còn lại bọc lấy nắm tay đó và giật ép mạnh theo hướng từ ngoài vào trong, từ dưới lên trên 5 lần."
+  - text: "Bất tỉnh, không thở được: hồi sinh tim phổi ngay và nhờ người gọi 115"
+    source_url: https://ttcapcuu115.medinet.gov.vn/chuyen-muc/so-cuu-hoc-di-vat-hieu-dung-de-so-cuu-an-toan-cmobile4472-268683.aspx
+    verdict: match
+    quote: Nếu nạn nhân bất tỉnh không thở được thì thực hiện hồi sinh tim phổi ngay lập tức theo hướng dẫn đồng thời nhờ người xung quanh hỗ trợ gọi ngay Tổng đài 115
+  - text: "Trẻ dưới 1 tuổi: tuyệt đối không ấn bụng"
+    source_url: https://ttcapcuu115.medinet.gov.vn/chuyen-muc/so-cuu-hoc-di-vat-hieu-dung-de-so-cuu-an-toan-cmobile4472-268683.aspx
+    verdict: match
+    quote: Tuyệt đối không dùng kĩ thuật ấn bụng ở trẻ nhũ nhi dưới 1 tuổi do cơ thể trẻ còn non nớt.
+  - text: "AHA 2025 đổi tên Heimlich thành 'ấn bụng' (lời thuật lại của Trung tâm 115)"
+    source_url: https://ttcapcuu115.medinet.gov.vn/chuyen-muc/so-cuu-hoc-di-vat-hieu-dung-de-so-cuu-an-toan-cmobile4472-268683.aspx
+    verdict: match
+    quote: Thay thế thuật ngữ “Heimlich” trước đây thành “ấn bụng” để dễ dàng tiếp cận cộng đồng.
+    note: "Chỉ là lời thuật lại của trang 115, không mở được nguyên văn AHA; mục đã ghi rõ là lời thuật lại."
+  - text: "Hỏi 'bạn có bị hóc không', khuyến khích ho; không ho được/ho không hiệu quả thì vỗ lưng tối đa 5 nhát"
+    source_url: https://www.ceylonlifesaver.com/wp-content/uploads/2026/07/GL2025-12-FAID-E.pdf
+    verdict: match
+    quote: "Ask the person – “Are you choking?” Encourage the person to cough. If the person is unable to cough or the cough becomes ineffective, give up to 5 back blows (Fig. 5)."
+    note: "ERC 2025 First Aid, Box 'Choking in an adult person'. Bản gương ceylonlifesaver cùng tiêu đề/DOI 10.1016/j.resuscitation.2025.110752 (Resuscitation 215, 110752). Tóm tắt: không ho được thì vỗ lưng tối đa 5 nhát."
+  - text: Vỗ lưng không hiệu quả thì ấn bụng tối đa 5; chưa hết thì xen kẽ 5 vỗ lưng/5 ấn bụng cho tới khi hết tắc hoặc bất tỉnh
+    source_url: https://www.ceylonlifesaver.com/wp-content/uploads/2026/07/GL2025-12-FAID-E.pdf
+    verdict: match
+    quote: "If back blows are ineffective, give up to 5 abdominal thrusts (Fig. 5). If choking has not been relieved after 5 abdominal thrusts, continue alternating 5 back blows with 5 abdominal thrusts until choking is relieved, or the person becomes unresponsive."
+    note: "Tóm tắt Việt: chu kỳ lặp tới khi hết tắc hoặc bất tỉnh."
+  - text: Bất tỉnh thì bắt đầu hồi sinh tim phổi (ép tim)
+    source_url: https://www.ceylonlifesaver.com/wp-content/uploads/2026/07/GL2025-12-FAID-E.pdf
+    verdict: match
+    quote: "If the person becomes unresponsive, start CPR."
+    note: "Mục chính văn ERC: 'chest compressions must be initiated in accordance with standard BLS' khi bất tỉnh, thở không có/bất thường."
+  - text: Người được ấn bụng thành công vẫn nên được nhân viên y tế khám
+    source_url: https://www.ceylonlifesaver.com/wp-content/uploads/2026/07/GL2025-12-FAID-E.pdf
+    verdict: match
+    quote: Any person successfully treated for choking with abdominal thrusts or chest compressions should be evaluated by a healthcare practitioner since complications and injuries may occur.
+  - text: "Mốc 'từ 1 tuổi trở lên' (suy ra từ cặp 'người lớn và trẻ em lớn' đối lập 'nhũ nhi dưới 1 tuổi')"
+    source_url: https://ttcapcuu115.medinet.gov.vn/chuyen-muc/so-cuu-hoc-di-vat-hieu-dung-de-so-cuu-an-toan-cmobile4472-268683.aspx
+    verdict: inference
+    quote: "1. Đối với người lớn và trẻ em lớn (Kỹ thuật Vỗ lưng - Ấn bụng): ... 2. Đối với trẻ nhũ nhi dưới 1 tuổi (Kỹ thuật Vỗ lưng - Ấn ngực):"
+    note: "Nguồn 115 không ghi 'từ 1 tuổi'; mục đã gắn nhãn 'suy ra' ở Ghi chú nhưng tiêu đề, tldr và bước vẫn nêu mốc như chữ của nguồn. ERC First Aid 2025 chỉ mô tả 'adult' và chuyển sang ERC Paediatric Life Support cho trẻ."
+internal_checks:
+  - issue: "Thân 'Ghi chú' còn câu 'Chưa có nguồn trong tay cho người mang thai muộn hoặc rất béo: cần nguồn cho trường hợp này.' đọc như việc cần làm của biên tập, không phải thông tin cho người đọc."
+    severity: error
+  - issue: "Số liệu trong tldr/steps (5 vỗ lưng, 5 ấn bụng, 1 tuổi, 115) đều có trong thân; không mâu thuẫn nội bộ."
+    severity: warn
+  - issue: "Thứ tự 'gọi 115' đứng trước vỗ lưng trong steps; ERC đặt 'Call your emergency number' sau chu kỳ nhưng 115 trung tâm dặn gọi đồng thời; không mâu thuẫn, chỉ là khác thứ tự."
+    severity: warn
+  - issue: "Không có hiệu lực/legal_refs để kiểm (legal_refs rỗng); không có mục cùng chương nói số khác về hóc dị vật (mục 43 là trẻ <1 tuổi, tham chiếu chéo đúng)."
+    severity: warn
+validity:
+  doc: "ERC Guidelines 2025 First Aid (Resuscitation 215, 110752) và hướng dẫn của Trung tâm Cấp cứu 115 TP.HCM (cập nhật 5/4/2026)"
+  in_force: true
+  effective_from: "2025"
+  amended_by: []
+  basis: "Hướng dẫn y tế không có ngày hiệu lực; ERC 2025 là bản mới nhất thấy được, trang 115 cập nhật 2026; không thấy hướng dẫn mới hơn trong nguồn đã mở."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Ghi chú: xóa/viết lại câu 'cần nguồn cho trường hợp này' thành lời cho người đọc, ví dụ 'Mục này chưa có hướng dẫn riêng cho người mang thai muộn hoặc rất béo; hỏi 115 khi gọi.' (115 không nói điều này: gắn nhãn 'lời khuyên của biên tập' hoặc bỏ)."
+  - "Mốc 1 tuổi: dẫn ERC Paediatric Life Support 2025 (hoặc nguồn Bộ Y tế) để chuyển từ 'suy ra' thành chữ của nguồn; nếu chưa có thì ghi 'suy ra' ngay ở tldr/tiêu đề, không chỉ ở Ghi chú."
+  - "Bước 3 nên thêm 'nghiêng người về phía trước' (ERC: 'Lean the person forward' đứng trong mô tả ấn bụng; xác nhận lại vị trí câu này trong bản gốc trước khi thêm)."

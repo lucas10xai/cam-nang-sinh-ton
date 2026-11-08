@@ -1,0 +1,82 @@
+id: chong-mat-dung-khong-vung-nhin-mot-thanh-hai-mot-ben-mat
+checker: agent-R2c13a
+checked_at: 2026-11-08
+content_sha256: d4e4d354bdc95f304f73131d4cbbb9ca93c111dd35ea476a172684238f41c031
+result: pass-with-edits
+claims:
+  - text: Nhìn đôi, mất thị lực một hoặc hai mắt, thất điều, liệt mặt, rối loạn ngôn ngữ, chóng mặt là biểu hiện khởi phát hay gặp của nhồi máu não; chóng mặt hiếm khi đơn độc
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: + Mất thị lực một hoặc hai mắt + Khiếm khuyết trường thị giác + Nhìn đôi + Rối loạn ngôn ngữ + Liệt mặt + Thất điều + Chóng mặt (hiếm khi xuất hiện đơn độc)
+    verdict: match
+    note: Mục 3.1 Lâm sàng, bài nhồi máu não cấp.
+  - text: Đột quỵ không rõ thời điểm khởi phát; thời điểm khởi phát/lần cuối bình thường rất quan trọng
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "Thời điểm khởi phát triệu chứng hoặc thời điểm cuối cùng thấy người bệnh còn bình thường: là rất quan trọng để xét điều trị tái tưới máu. Nếu ngủ dậy đã có triệu chứng hoặc không có người chứng kiến thì gọi là đột quỵ không rõ thời điểm khởi phát."
+    verdict: match
+    note: ""
+  - text: "NINDS: gọi cấp cứu ngay khi khó nhìn ở một hoặc cả hai mắt, chóng mặt/mất thăng bằng/mất phối hợp khi đi"
+    source_url: https://www.ninds.nih.gov/health-information/stroke/signs-and-symptoms
+    quote: Call 9-1-1 immediately if one or more of the following symptoms appear suddenly.  Sudden Trouble Seeing | Trouble seeing in one or both eyes  Sudden Trouble Walking | Dizziness, or loss of balance or coordination
+    verdict: match
+    note: Bảng "Other Stroke Signs". NINDS cũng ghi nhìn đôi, buồn nôn, chóng mặt thuộc nhóm "More rarely".
+  - text: Người đang bị đột quỵ không tự lái xe, không nhờ người chở
+    source_url: https://www.ninds.nih.gov/health-information/stroke/signs-and-symptoms
+    quote: A person having a stroke should not drive to the hospital themselves or have someone else drive them.
+    verdict: match
+    note: Bối cảnh Mỹ; xem internal_checks về phương án dự phòng.
+  - text: "AHA/Red Cross 2024: mất thị lực, thính lực, lời nói, vận động hoặc thăng bằng là dấu hiệu cần trợ giúp chuyên môn"
+    source_url: https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines
+    quote: Loss of vision, hearing, speech, movement, or balance
+    verdict: match
+    note: Mục 4.2 General Approach, "Signs of a first aid emergency requiring professional assistance". AHA chặn 403 với trình đọc; đọc bản lưu web.archive.org (chụp 2026-01) của đúng URL này.
+  - text: Tiêu huyết khối đường tĩnh mạch trong 3 giờ đầu, mở rộng 4,5 giờ, thường quy ở Hoa Kỳ và châu Âu
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: Điều trị tiêu huyết khối đường tĩnh mạch trong 3 giờ đầu và gần đây mở rộng cửa sổ điều trị lên 4,5 giờ đã được áp dụng thường quy tại Hoa Kỳ cũng như tại châu Âu.
+    verdict: match
+    note: ""
+  - text: QĐ 3312 nêu chỉ định điều trị muộn hơn cho một số người bệnh chọn lọc bằng hình ảnh học
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: Sử dụng thuốc tiêu huyết khối alteplase có thể mang lại lợi ích khi tiến hành ở một số người bệnh nhồi máu não ngoài 4,5 giờ được lựa chọn cẩn thận bằng tiêu chuẩn hình ảnh học sọ não.
+    verdict: match
+    note: Mục 4.5.
+  - text: "Không thở bình thường/không tỉnh: gọi 115 và ép tim"
+    source_url: http://www.doctors-service.de/hand_out/ERC%202025/04-Adult%20Basic%20Life%20Support%20ERC%202025.pdf
+    quote: "Call EMS immediately if they are unresponsive. Assess breathing ... CPR: Start CPR immediately if they are unresponsive with abnormal breathing."
+    verdict: match
+    note: ERC 2025 Fig. 1; AHA 2025 mục 6.1.
+  - text: "Bước 1: Đỡ người bệnh ngồi xuống chỗ an toàn, tránh ngã"
+    source_url: https://hcdc.vn/phong-ngua-te-nga-cho-nguoi-cao-tuoi-nhan-dien-nguy-co-chu-dong-phong-ngua-aV9cMP.html
+    quote: '(không có câu tương ứng trong nguồn về đột quỵ; bài HCDC chỉ nói với người cao tuổi choáng: "ngồi hoặc nằm xuống nơi an toàn")'
+    verdict: inference
+    note: "Bước hợp lý nhưng không có cơ sở trong phần Lợi ích/nguồn đột quỵ; AHA 2024: người tỉnh được để ở tư thế thoải mái. Không thấy nguy hại."
+  - text: 'Bẫy 2 (gắn "suy ra"): người chỉ có nhìn đôi/mất thị lực/thất điều có thể bị bỏ sót nếu chỉ kiểm tra mặt-tay-lời nói'
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: (suy ra từ danh sách biểu hiện mục 3.1 của QĐ 3312 so với 3 dấu hiệu FAST)
+    verdict: inference
+    note: Nhãn trung thực, suy luận hợp lý; NINDS còn ghi rõ trouble seeing là dấu hiệu độc lập.
+  - text: "Gọi 115 không mất tiền (nguồn dẫn: Thông tư 02/2020/TT-BTTTT)"
+    source_url: https://mst.gov.vn/mien-phi-cac-cuoc-goi-den-so-113-114-115-197140697.htm
+    quote: gọi đến các số dịch vụ khẩn cấp (113, 114, 115) được hưởng giá cước 0 đồng/phút.
+    verdict: partial
+    note: Bản tin Cổng Bộ KH&CN (tóm tắt thứ cấp, không phải chính văn) đúng cho thời điểm 2020. Thông tư 02/2020 ("đến năm 2020") được lawplayer (đồng bộ vbpl.vn 2026-07-04) ghi "Hết hiệu lực toàn bộ"; văn bản kế nhiệm Thông tư 14/2022/TT-BTTTT Điều 5 liệt kê "liên lạc khẩn cấp đến các số 113, 114 và 115" là dịch vụ bắt buộc nhưng Điều 7 giao Bộ quyết định giá, tôi chưa thấy mức 0 đồng trong phần đã đọc. Mục đã tự hedge "hiệu lực hiện hành chưa xác nhận", trung thực nhưng dẫn nguồn đã hết hiệu lực.
+internal_checks:
+  - issue: 'Câu soạn thảo lọt vào phần tóm tắt cho người đọc (Nói dễ hiểu): "Cần nguồn cho các dấu hiệu khác như đau đầu dữ dội đột ngột, buồn nôn." Mục Chi phí còn "Cần nguồn cho mức chi phí và tỷ lệ bảo hiểm y tế chi trả."'
+    severity: error
+  - issue: Bước 1 (ngồi xuống chỗ an toàn) không có cơ sở trong thân/nguồn đột quỵ.
+    severity: warn
+  - issue: '"Chờ xe cấp cứu" không có phương án khi xe không tới/chậm (nguồn NINDS ở bối cảnh Mỹ).'
+    severity: warn
+  - issue: Số liệu 3 giờ/4,5 giờ khớp với mục 03; "mục 1", "mục 5" trỏ đúng. Không thấy "báo cáo kiểm chứng/Còn treo/sổ kiểm chứng/bản nháp/[INFERENCE]". Có "mục dừng ở B" trong Ghi chú.
+    severity: warn
+validity:
+  doc: QĐ 3312/QĐ-BYT ngày 05/11/2024; NINDS; AHA/Red Cross 2024 First Aid
+  in_force: unconfirmed
+  effective_from: 2024-11-05
+  amended_by: []
+  basis: Như mục 03. TT 02/2020/TT-BTTTT đã hết hiệu lực toàn bộ (lawplayer, đồng bộ vbpl.vn 2026-07-04); TT 14/2022/TT-BTTTT còn hiệu lực nhưng không thấy mức 0 đồng cho 115 trong phần đọc được.
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - Xóa các câu "Cần nguồn cho ..." (Nói dễ hiểu và Chi phí). NINDS có liệt kê "Severe headache with no known cause" nên có thể thêm câu đó với dẫn NINDS thay vì ghi "cần nguồn".
+  - 'steps bước 1: gắn nhãn "lời khuyên thực hành" hoặc bỏ; nếu giữ, nói "nếu người bệnh tỉnh thì để họ ở tư thế thoải mái".'
+  - "Câu 115 miễn phí: xử lý như mục 01."

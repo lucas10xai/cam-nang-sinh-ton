@@ -1,0 +1,108 @@
+id: bong-lam-mat-bang-nuoc-sach-chay-20-phut-khong-boi-kem
+checker: agent-R2c13c
+checked_at: 2026-11-08
+content_sha256: 8b9f83a8d7c67f90bb18b56bc5f202c605f85dc4d4b9acd2589e5708cfbf5ce6
+result: pass-with-edits
+claims:
+  - text: Làm mát dưới nước mát chảy 20 phút, càng sớm càng tốt, trong vòng 3 giờ (NHS, người lớn)
+    source_url: https://www.nhs.uk/conditions/burns-and-scalds/
+    quote: Hold the burn or scald under cool running water for 20 minutes. Do this as soon as possible, within 3 hours of it happening.
+    verdict: match
+    note: Trang NHS xem lại 31/03/2026.
+  - text: "AHA/Red Cross 2024: các tổ chức quốc tế khuyến cáo làm mát 5 đến 20 phút"
+    source_url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001281
+    quote: Leading international organizations recommend active cooling durations of 5 to 20 minutes.
+    verdict: match
+    note: 'ahajournals.org trả 403; đọc qua bản lưu web.archive.org cùng DOI. Cùng đoạn: "There is a lack of international consensus about the optimal duration of cooling" và "the ideal cooling duration is unknown".'
+  - text: Ngâm rửa nước mát càng sớm càng tốt, tốt nhất trong 30 phút; sau đó ít tác dụng
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: Thời điểm ngâm rửa bằng nước mát càng sớm càng tốt, tốt nhất trong 30 phút từ sau khi bị bỏng. Sau khoảng thời gian trên, ngâm rửa ít tác dụng.
+    verdict: match
+    note: Bài "Hướng dẫn sơ cấp cứu Bỏng nhiệt ở trẻ em" (cho trẻ em, mục tự nêu).
+  - text: Nước sạch 16-20 độ C; thời gian ngâm rửa 15-30-45 phút (thường tới khi hết đau rát)
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: Yêu cầu là nước sạch, nhiệt độ nước tiêu chuẩn là từ 16 - 20 độ C.
+    verdict: match
+    note: 'Thời gian: "Thời gian ngâm rửa từ 15 - 30 - 45 phút (thường tới khi hết đau rát)." Mục chọn 20 phút (NHS), nằm trong khung; mục nêu rõ trong Ghi chú.'
+  - text: Không dùng nước đá, không dùng nước ấm
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: Không dùng nước đá gây nhiễm lạnh cho nạn nhân.
+    verdict: match
+    note: 'Tiếp theo: "Không dùng nước ấm, có nhiệt độ cao hơn (ít có tác dụng hạ nhiệt, giảm đau)." AHA cho phép dùng đá bọc vải tối đa 10 phút nếu không có nước chảy; mục theo nguồn VN (chặt hơn).'
+  - text: Không đắp thuốc mỡ, dầu, nước mắm, nước tương hoặc bất kỳ chất gì khi chưa có ý kiến nhân viên y tế
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: Đắp các loại thuốc mỡ, dầu, nước mắm, nước tương hoặc bất kỳ chất gì khi không có ý kiến của nhân viên y tế.
+    verdict: match
+    note: 'Kem đánh răng, mỡ trăn không nằm trong nguồn; mục nhận là ví dụ của người soạn thuộc "bất kỳ chất gì": đúng. NHS: "do not put any creams, oils or butter on burns or scalds". Nguồn VN còn: "Không bôi thuốc gì lên vùng bỏng khi chưa rửa sạch" (ở đoạn khác, điều kiện rộng hơn).'
+  - text: Không bóc/làm vỡ nốt phồng
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: Làm trợt loét vết bỏng, bóc bỏ vòm nốt phồng.
+    verdict: match
+    note: 'Nằm trong mục "Những điều không được làm". NHS: "do not burst any blisters".'
+  - text: Đi cơ sở y tế khi bỏng ≥ 2 bàn tay, kèm chấn thương, đầu mặt cổ, bàn tay, bàn chân, sinh dục; lơ mơ, sốt cao, khó thở (step 4)
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: "Đặc biệt khi trẻ có các dấu hiệu: Diện tích bỏng lớn hơn/bằng 2 bàn tay cơ thể. Bỏng kèm chấn thương. Bỏng ở vùng đầu, mặt, cổ, bàn tay, bàn chân, sinh dục. Lơ mơ, lẫn lộn. Sốt cao, co giật, chân tay lạnh."
+    verdict: partial
+    note: Nguồn cho TRẺ EM; "2 bàn tay cơ thể" không nói của ai (mục thêm "của chính người bị bỏng"). Với người lớn NHS không nêu ngưỡng "2 bàn tay" mà ghi "very large or deep", mặt/sinh dục/mông, hóa chất/điện. Áp ngưỡng trẻ em cho người lớn là suy ra, mục không gắn nhãn (an toàn vì thận trọng hơn).
+  - text: "NHS: cấp cứu nếu bỏng rất lớn/sâu, ở mặt, sinh dục, mông, do hóa chất hoặc điện; không tự lái xe"
+    source_url: https://www.nhs.uk/conditions/burns-and-scalds/
+    quote: "Call 999 or go to A&E if: You have a burn or scald that: is very large or deep is on your face, genitals or bottom has been caused by an acid or chemical, or by electricity"
+    verdict: match
+    note: 'Tiếp: "Do not drive to A&E. Ask someone to drive you or call 999 and ask for an ambulance." Mục step 5 chỉ nói "đi cấp cứu bệnh viện ngay", không nói gọi 115/không tự lái xe (xem potential_harm).'
+  - text: Bỏng toàn bộ chiều dày và nghi tổn thương đường thở cần điều trị tại bệnh viện; nghi tổn thương đường thở thì kích hoạt EMS ngay
+    source_url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001281
+    quote: Large partial-thickness burns (partial-thickness burns that involve the face, hands, feet, or genitalia), all full-thickness burns, and concern for inhalation injury (soot around the nose or mouth, difficulty breathing) require hospital treatment.
+    verdict: match
+    note: 'Bản lưu web.archive.org. Câu khác cùng nguồn: "A person with signs of inhalation injury such as facial burns, difficulty breathing, singed nasal hairs, or soot around the nose or mouth should have EMS activated immediately." Mục chỉ nói "đi cấp cứu bệnh viện ngay" (xem potential_harm).'
+  - text: Cởi quần áo, nhẫn/đồng hồ ở vùng bỏng nhưng KHÔNG gỡ vật dính vào vết bỏng (step 2)
+    source_url: https://www.nhs.uk/conditions/burns-and-scalds/
+    quote: Remove any clothing or jewellery that's near the affected area – but do not remove anything that is stuck to the affected area.
+    verdict: partial
+    note: 'Step 2 chỉ viết "Cởi quần áo chật, nhẫn, đồng hồ ở vùng bỏng", bỏ vế "không gỡ thứ đang dính vào vết bỏng". Viện Bỏng nêu "cởi bỏ quần áo chật, nhẫn hoặc đồng hồ" và (cho bỏng lửa) "cắt bỏ quần áo bị cháy". AHA: tháo trang sức trước khi sưng.'
+  - text: Băng ép nhẹ bằng băng sạch, tránh băng quá chặt; không chọc nốt phồng
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: Sau đó, băng ép nhẹ vết bỏng bằng băng sạch. Băng ép nhẹ vết bỏng làm hạn chế tạo nốt phồng, giảm phù nề chi bị bỏng. Băng ép cần tiến hành sớm, trách băng quá chặt gây chèn ép vùng bỏng.
+    verdict: match
+    note: 'Nguồn cho trẻ em. NHS (người lớn) khuyên phủ màng bọc thực phẩm (cling film), không quấn quanh, và KHÔNG dùng băng dính/băng keo: "do not use plasters or sticky dressings to cover a burn or scald". Xem deliberate_vn_deviation.'
+  - text: "Bỏng rộng trên 10% diện tích cơ thể, nhất là trẻ nhỏ, mùa đông: kiểm soát chặt việc tưới nước (rút ngắn, giữ ấm, theo dõi rét run)"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: Do vậy, việc tưới rửa nước cần kiểm soát chặt chẽ khi diện bỏng rộng trên 10% diện tích cơ thể (DTCT), nhất là trẻ em nhỏ tuổi và tiến hành vào mùa đông.
+    verdict: match
+    note: '"Rút ngắn", "theo dõi rét run" trong step 1 là diễn giải; nguồn VN: "Giữ ấm phần cơ thể không bị bỏng" và "khi thời tiết lạnh nên rút bớt thời gian ngâm" (cho trẻ em). AHA: "preadolescent children are more likely to develop hypothermia than adolescents and adults".'
+  - text: Quá 30 phút vẫn nên làm mát nếu chưa quá vài giờ
+    source_url: https://www.nhs.uk/conditions/burns-and-scalds/
+    quote: Do this as soon as possible, within 3 hours of it happening.
+    verdict: partial
+    note: 'Mục viết "vài giờ"; NHS nêu 3 giờ. Viện Bỏng: sau 30 phút ít tác dụng. Hai nguồn lệch nhau và mục tự nêu; cần ghi "NHS: trong 3 giờ".'
+internal_checks:
+  - issue: Các số trong tldr/steps (20 phút, 30 phút, hai bàn tay) có trong thân. Số 20 phút (NHS) và 15-30-45 (Viện Bỏng) và 5-20 (AHA) được mục nêu rõ cả ba, không mâu thuẫn trong mục.
+    severity: warn
+  - issue: 'Step 5 ("bỏng hóa chất hoặc điện: đi cấp cứu bệnh viện ngay") không nêu việc cần làm tại chỗ: hóa chất cần rửa nước ngay (mục 21 cùng chương: rửa ≥30 phút, gọi 115); điện cần ngắt nguồn trước (mục 18). Thân có câu "xem mục riêng" nhưng related: [] trống và không có liên kết số mục.'
+    severity: warn
+  - issue: Mục 14 dùng ngưỡng "≥ 2 bàn tay" từ nguồn trẻ em cho cả người lớn mà không gắn nhãn "suy ra".
+    severity: warn
+  - issue: Trường verification.scope trong frontmatter còn trỏ tới đường dẫn nội bộ docs/verification/.../b/...yml; apply.mjs sẽ ghi đè khi chạy lại, nhưng nếu hiển thị ra trang thì là chữ nội bộ lọt vào.
+    severity: warn
+  - issue: "legal_refs rỗng: đúng, mục không dẫn văn bản pháp quy (Ghi chú nêu rõ không có văn bản BYT riêng về bỏng tại nhà). Không có chữ nội bộ trong thân."
+    severity: warn
+validity:
+  doc: Viện Bỏng Quốc gia Lê Hữu Trác, "Hướng dẫn sơ cấp cứu bỏng nhiệt ở trẻ em" (04/01/2022); NHS "Burns and scalds"; AHA/Red Cross First Aid 2024
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: 'Hướng dẫn chuyên môn, không có "hiệu lực". Viện Bỏng: đăng 04/01/2022, chưa thấy bản mới hơn trên trang. NHS: xem lại 31/03/2026, tiếp theo 31/03/2029. AHA/Red Cross: ban hành 2024, mới nhất. Không có văn bản pháp quy được dẫn.'
+deliberate_vn_deviation:
+  - "Băng: nguồn VN (Viện Bỏng, trẻ em) băng ép nhẹ bằng băng sạch/gạc; NHS (người lớn) phủ màng bọc thực phẩm, không quấn, không dùng băng dính. Mục theo nguồn VN mà không nêu khác biệt NHS."
+  - "Nước đá: Viện Bỏng cấm; AHA 2024 cho phép nếu không có nước chảy, đá bọc vải và tối đa 10 phút. Mục theo nguồn VN (an toàn hơn)."
+  - "Thời gian làm mát: Viện Bỏng 15-30-45 phút; NHS 20 phút; AHA 5-20 phút. Mục chọn 20 phút và nêu cả ba trong Ghi chú."
+potential_harm:
+  - 'Step 5: "Nghi tổn thương đường thở (muội quanh mũi, miệng, khó thở)... đi cấp cứu bệnh viện ngay" không nói gọi 115 và không tự lái xe. AHA 2024: người có dấu hiệu tổn thương đường thở "should have EMS activated immediately" (đường thở có thể phù nề nhanh); NHS: "Do not drive to A&E... call 999". Người đọc làm đúng chữ có thể tự chở nạn nhân mà không có ai theo dõi đường thở, làm chậm cứu chữa.'
+  - 'Step 5: "bỏng hóa chất hoặc điện: đi cấp cứu bệnh viện ngay" không kèm việc phải làm tại chỗ (rửa nước liên tục với hóa chất; ngắt nguồn điện với bỏng điện) và step 1 (làm mát 20 phút, "rút ngắn" khi bỏng rộng) áp cho bỏng nhiệt. Có thể làm chậm rửa hóa chất (mục 21: rửa ≥ 30 phút). Mức: trung bình.'
+  - 'Step 2: "Cởi quần áo chật, nhẫn, đồng hồ ở vùng bỏng" thiếu điều kiện NHS "không gỡ thứ đang dính vào vết bỏng"; làm đúng chữ có thể lột da. Mức: thấp.'
+suggested_edits:
+  - 'Step 5 và tldr: thêm "Nghi tổn thương đường thở: gọi 115 ngay, không tự đưa đi" (quote AHA "should have EMS activated immediately"; NHS "Do not drive to A&E").'
+  - 'Step 5: bỏng hóa chất: "rửa nước sạch chảy liên tục ít nhất 30 phút, gọi 115 (xem mục 21)"; bỏng điện: "ngắt nguồn điện an toàn trước, rồi gọi 115 (xem mục 18)"; thêm liên kết related thay "xem mục riêng".'
+  - 'Step 2: thêm "không gỡ phần quần áo/vật đang dính vào vết bỏng" (quote NHS "do not remove anything that is stuck to the affected area").'
+  - 'Step 4: gắn nhãn "ngưỡng 2 bàn tay là của nguồn trẻ em; người lớn: bỏng rất lớn hoặc sâu, mặt, sinh dục, mông (NHS)" và bỏ "của chính người bị bỏng" hoặc nêu nguồn.'
+  - 'Ghi chú "Đã quá 30 phút": thay "vài giờ" bằng "NHS: trong 3 giờ".'
+  - "Thêm câu: NHS khuyên màng bọc thực phẩm phủ lỏng và không dùng băng dính; nguồn VN băng ép nhẹ — nêu khác biệt."

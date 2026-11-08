@@ -1,0 +1,104 @@
+id: dot-nhien-noi-man-khap-nguoi-kem-kho-tho-hoac-choang-goi
+checker: agent-R2c13c
+checked_at: 2026-11-08
+content_sha256: 3b28abf4fa68a532fca375fce1912ab258b7a38f22e7a72b156c6a8e7fbbedc1
+result: pass-with-edits
+claims:
+  - text: Phải tiêm bắp adrenalin ngay khi chẩn đoán phản vệ từ độ II trở lên (Điều 6 khoản 1)
+    source_url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-51-2017-tt-byt-huong-dan-phong-chan-doan-va-xu-tri-phan-ve--128248
+    quote: Adrenalin là thuốc quan trọng hàng đầu để tiêm bắp ngay cho người bị phản vệ khi được chẩn đoán phản vệ từ độ II trở lên.
+    verdict: match
+    note: Đọc toàn văn từ trang vbpl.vn (nội dung nhúng trong HTML của trang, trường 128248_body_content.html).
+  - text: "Người có tiền sử phản vệ mang sẵn adrenalin: chính họ hoặc người khác không phải nhân viên y tế được dùng để tiêm bắp khi khẩn cấp lúc không có nhân viên y tế (Điều 6 khoản 3)"
+    source_url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-51-2017-tt-byt-huong-dan-phong-chan-doan-va-xu-tri-phan-ve--128248
+    quote: Đối với người có tiền sử phản vệ có sẵn adrenalin mang theo người thì người bệnh hoặc người khác không phải là nhân viên y tế được phép sử dụng thuốc trong trường hợp khẩn cấp để tiêm bắp cấp cứu khi không có nhân viên y tế.
+    verdict: match
+  - text: Phản vệ độ II có thể nhanh chóng chuyển sang độ III, độ IV (Phụ lục III mục III)
+    source_url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-51-2017-tt-byt-huong-dan-phong-chan-doan-va-xu-tri-phan-ve--128248
+    quote: Phản vệ độ II có thể nhanh chóng chuyển sang độ III, độ IV.
+    verdict: match
+  - text: Tiêm nhắc lại adrenalin 3-5 phút/lần cho đến khi huyết áp và mạch ổn định (Phụ lục III mục IV)
+    source_url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-51-2017-tt-byt-huong-dan-phong-chan-doan-va-xu-tri-phan-ve--128248
+    quote: Tiêm nhắc lại adrenalin liều như khoản 1 mục IV 3-5 phút/lần cho đến khi huyết áp và mạch ổn định.
+    verdict: match
+    note: Phụ lục III mục IV là phác đồ cho nhân viên y tế.
+  - text: '"Liều adrenalin tính theo nhóm tuổi và cân nặng, do nhân viên y tế quyết định" (Phụ lục III mục IV)'
+    source_url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-51-2017-tt-byt-huong-dan-phong-chan-doan-va-xu-tri-phan-ve--128248
+    quote: "Thuốc adrenalin 1mg = 1ml = 1 ống, tiêm bắp: a) Trẻ sơ sinh hoặc trẻ < 10kg: 0,2ml (tương đương 1/5 ống). ⟪…⟫ e) Người lớn: 0,5-1 ml (tương đương 1/2-1 ống)."
+    verdict: partial
+    note: Phụ lục III mục IV nêu liều theo cân nặng (0,2 ml tới 0,5-1 ml) nhưng không có chữ "do nhân viên y tế quyết định". Mục quy cho Phụ lục III một câu không có trong văn bản; ý (người thường không tự định liều ống) là suy ra từ Điều 6 khoản 3 + Phụ lục III.
+  - text: Phải theo dõi ở cơ sở y tế ít nhất 24 giờ sau khi huyết áp ổn định, đề phòng phản vệ pha 2 (Phụ lục III mục VI)
+    source_url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-51-2017-tt-byt-huong-dan-phong-chan-doan-va-xu-tri-phan-ve--128248
+    quote: Tất cả các người bệnh phản vệ cần được theo dõi ở cơ sở khám bệnh, chữa bệnh đến ít nhất 24 giờ sau khi huyết áp đã ổn định và đề phòng phản vệ pha 2.
+    verdict: match
+    note: Mục đặt trích dẫn ở "Phụ lục III" chung; mục VI là mục chính xác.
+  - text: 'Thẻ dị ứng (Phụ lục VII): "Tiêm bắp adrenalin ngay lập tức" và "Gọi 115 hoặc đến cơ sở khám, chữa bệnh gần nhất"'
+    source_url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-51-2017-tt-byt-huong-dan-phong-chan-doan-va-xu-tri-phan-ve--128248
+    quote: "3) Khi có dấu hiệu phản vệ: “Tiêm bắp adrenalin ngay lập tức” “Gọi 115 hoặc đến cơ sở khám, chữa bệnh gần nhất”"
+    verdict: match
+    note: "Thứ tự trên thẻ: tiêm adrenalin trước, gọi 115 sau; khớp step 1."
+  - text: "NHS: dùng bút adrenalin tự tiêm nếu có (hướng dẫn in trên bút), gọi 999 và nói nghi phản vệ"
+    source_url: https://www.nhs.uk/conditions/anaphylaxis/
+    quote: Use an adrenaline auto-injector (such as an EpiPen) if you have one – instructions are included on the side of the injector. Call 999 for an ambulance and say that you think you're having an anaphylactic reaction.
+    verdict: match
+    note: 'Trang NHS ghi "Page last reviewed: 21 June 2023; Next review due: 21 June 2026": đã quá hạn xem lại tính đến 08/11/2026. VN: dùng bút nếu có, gọi cấp cứu.'
+  - text: "NHS: nằm, có thể kê cao chân; khó thở thì nâng vai hoặc ngồi dậy từ từ; có thai nằm nghiêng trái"
+    source_url: https://www.nhs.uk/conditions/anaphylaxis/
+    quote: Lie down – you can raise your legs, and if you're struggling to breathe, raise your shoulders or sit up slowly (if you're pregnant, lie on your left side).
+    verdict: match
+  - text: "NHS: không đứng hay đi lại dù thấy đỡ"
+    source_url: https://www.nhs.uk/conditions/anaphylaxis/
+    quote: Do not stand or walk at any time, even if you feel better.
+    verdict: match
+  - text: "NHS: sau 5 phút chưa đỡ thì dùng bút thứ hai"
+    source_url: https://www.nhs.uk/conditions/anaphylaxis/
+    quote: If your symptoms have not improved after 5 minutes, use a 2nd adrenaline auto-injector.
+    verdict: match
+  - text: "NHS: dùng bút ngay cả khi triệu chứng nhẹ; ở viện thường 2-12 giờ"
+    source_url: https://www.nhs.uk/conditions/anaphylaxis/
+    quote: use your adrenaline auto-injector if you think you may have anaphylaxis, even if your symptoms are mild
+    verdict: match
+    note: "\"You'll usually stay in hospital for around 2 to 12 hours\" (cùng trang). Điều này lệch Thông tư 51 (độ I: methylprednisolon/diphenhydramin, adrenalin từ độ II): xem deliberate_vn_deviation."
+  - text: '"Không lấy thuốc uống thay adrenalin" (mục gắn nhãn "suy ra từ Điều 6 khoản 1")'
+    source_url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-51-2017-tt-byt-huong-dan-phong-chan-doan-va-xu-tri-phan-ve--128248
+    quote: Sử dụng thuốc methylprednisolon hoặc diphenhydramin uống hoặc tiêm tùy tình trạng người bệnh.
+    verdict: inference
+    note: Điều 6 khoản 1 chỉ nói adrenalin là thuốc quan trọng hàng đầu tiêm bắp ngay từ độ II. Suy ra "không dùng thuốc uống thay adrenalin" là hợp lý cho độ II trở lên; nhưng cùng thông tư (Phụ lục III mục II, độ I) cho dùng methylprednisolon/diphenhydramin uống hoặc tiêm. Nhãn "suy ra" trung thực; nên ghi thêm "trừ phản vệ nhẹ độ I do nhân viên y tế xử trí".
+  - text: Cho nằm tại chỗ, đầu thấp, nghiêng trái nếu có nôn (Phụ lục III mục III khoản 3)
+    source_url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-51-2017-tt-byt-huong-dan-phong-chan-doan-va-xu-tri-phan-ve--128248
+    quote: Cho người bệnh nằm tại chỗ, đầu thấp, nghiêng trái nếu có nôn.
+    verdict: partial
+    note: Step 3 viết "Cho nằm tại chỗ, kê cao chân; ... Không đứng dậy" và bỏ điều kiện "nghiêng nếu nôn" (thông tư) trong khi phản vệ thường có nôn (Phụ lục I mục I khoản 1 c). NHS không nêu nôn.
+internal_checks:
+  - issue: Mục Chi phí có câu "Cần nguồn cho việc cuộc gọi 115 có tính phí hay không; mục này không khẳng định." là ghi chú việc cần làm của người soạn, lọt vào thân hiển thị cho người đọc.
+    severity: error
+  - issue: 'Ghi chú cuối: "Trang NHS ghi đến hạn xem lại 21/06/2026, nên cần đối chiếu lại khi có bản mới." là ghi chú bảo trì nội bộ; mốc 21/06/2026 đã qua (hôm nay 08/11/2026), trang vẫn chưa cập nhật bản mới.'
+    severity: warn
+  - issue: Mục gán câu "Liều adrenalin tính theo nhóm tuổi và cân nặng, do nhân viên y tế quyết định" cho Phụ lục III mục IV; văn bản không có chữ "do nhân viên y tế quyết định" (partial).
+    severity: warn
+  - issue: Trích dẫn "Phụ lục III" (24 giờ) nên ghi mục VI khoản 3; legal_refs liệt kê "Phụ lục III mục IV" nhưng điều 24 giờ ở mục VI.
+    severity: warn
+  - issue: Trường verification.scope trong frontmatter còn trỏ tới đường dẫn nội bộ docs/verification/.../b/...yml; apply.mjs sẽ ghi đè khi chạy lại, nhưng nếu hiển thị ra trang thì là chữ nội bộ lọt vào.
+    severity: warn
+  - issue: "legal_refs[].url: cả 5 dòng trỏ đúng văn bản Thông tư 51/2017/TT-BYT (vbpl.vn). article: Điều 5 khoản 1, Điều 6 khoản 1, Điều 6 khoản 3, Phụ lục III mục IV, Phụ lục VII khớp khẳng định tương ứng (Phụ lục III mục IV liều/nhắc lại, không phải 24 giờ). Số trong tldr/steps (24 giờ, 5 phút) có trong thân; 24 giờ (Thông tư) và 2-12 giờ (NHS) được mục tự nêu."
+    severity: warn
+validity:
+  doc: Thông tư 51/2017/TT-BYT ngày 29/12/2017 (hướng dẫn phòng, chẩn đoán và xử trí phản vệ)
+  in_force: true
+  effective_from: 2018-02-15
+  amended_by: []
+  basis: 'Trang vbpl.vn (CSDL quốc gia về văn bản pháp luật), dữ liệu nhúng của trang: "effFrom":"2018-02-15","effTo":null, tình trạng "Còn hiệu lực" (effStatus code CHL); Điều 7 khoản 1: "Thông tư này có hiệu lực từ ngày 15 tháng 02 năm 2018." Trang cập nhật 05/04/2026. Không thấy quan hệ sửa đổi/thay thế trong dữ liệu trang. Đối chiếu quốc tế: NHS Anaphylaxis xem lại 21/06/2023 (quá hạn 21/06/2026).'
+deliberate_vn_deviation:
+  - 'Adrenalin cho phản vệ nhẹ: NHS: dùng bút ngay cả khi triệu chứng nhẹ; Thông tư 51: adrenalin tiêm bắp từ độ II, độ I dùng methylprednisolon/diphenhydramin. Mục chọn theo NHS ("kể cả khi triệu chứng nhẹ") vì người không chuyên khó phân độ; hướng an toàn hơn nhưng khác Thông tư.'
+  - 'Người không phải nhân viên y tế dùng adrenalin: Thông tư 51 Điều 6 khoản 3 cho phép người có tiền sử phản vệ mang sẵn adrenalin (thực tế ở VN thường là ống 1 mg/ml) tự tiêm hoặc nhờ người khác tiêm khi khẩn cấp; mục khuyên "không tự rút thuốc từ ống khi chưa được huấn luyện" (chặt hơn Thông tư, gắn nhãn suy ra).'
+  - "Thời gian theo dõi: Thông tư 51 ≥ 24 giờ sau khi huyết áp ổn định; NHS thường 2-12 giờ. Mục theo Thông tư và nêu cả hai."
+potential_harm:
+  - 'Step 3: "Cho nằm tại chỗ, kê cao chân" bỏ điều kiện của Thông tư 51 (Phụ lục III mục III khoản 3: "nghiêng trái nếu có nôn"); người nôn nằm ngửa có nguy cơ sặc. Mức: thấp đến trung bình.'
+  - 'Step 5: "Không tự rút thuốc từ ống khi chưa được huấn luyện" có thể làm chậm adrenalin khi chỉ có ống adrenalin mang theo (thực tế VN) và Thông tư 51 Điều 6 khoản 3 cho phép dùng trong khẩn cấp; mục dặn chờ nhân viên cấp cứu. Mức: thấp (115 hướng dẫn qua điện thoại; mục có nêu lý do).'
+suggested_edits:
+  - 'Chi phí: bỏ câu "Cần nguồn cho việc cuộc gọi 115 có tính phí hay không; mục này không khẳng định." (hoặc thay bằng sự kiện có nguồn).'
+  - 'Pháp luật VN, "Liều và theo dõi": sửa "Liều adrenalin tính theo nhóm tuổi và cân nặng, do nhân viên y tế quyết định" thành "Phụ lục III mục IV nêu liều theo cân nặng cho nhân viên y tế (ví dụ người lớn 0,5-1 ml); người không chuyên không tự định liều" (quote Phụ lục III mục IV).'
+  - 'Step 3 và "Nói dễ hiểu": thêm "nếu nôn thì cho nằm nghiêng" (quote Thông tư 51 Phụ lục III mục III khoản 3 "nghiêng trái nếu có nôn").'
+  - "Step 5: nêu Điều 6 khoản 3: người có tiền sử phản vệ mang sẵn adrenalin (kể cả ống) hoặc người khác được phép tiêm bắp khi khẩn cấp; làm theo hướng dẫn của 115."
+  - 'Ghi chú: bỏ câu "cần đối chiếu lại khi có bản mới" (nội bộ); ghi rõ nguồn NHS "xem lại 21/06/2023".'
+  - 'Ghi chú "Không lấy thuốc uống thay adrenalin": thêm "từ độ II; độ I do nhân viên y tế quyết định (Phụ lục III mục II)".'

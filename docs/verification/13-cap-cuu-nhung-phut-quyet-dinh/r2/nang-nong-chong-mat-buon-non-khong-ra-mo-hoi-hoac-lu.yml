@@ -1,0 +1,101 @@
+id: nang-nong-chong-mat-buon-non-khong-ra-mo-hoi-hoac-lu
+checker: agent-R2c13e
+checked_at: 2026-11-08
+content_sha256: "6d1ca144e1f7fdd019c816b17437dbe361fa78a2240c33085be57f65f886635d"
+result: pass-with-edits
+claims:
+  - text: "Sốc nhiệt: thân nhiệt thường trên 40 độ, kèm tổn thương thần kinh và bí mồ hôi (Bạch Mai)"
+    source_url: https://bachmai.gov.vn/bai-viet/say-nang-va-benh-ly-than-nhiet?id=aa64d8a6-5900-e87e-e5d4-b34b5c0b70b9
+    quote: "Sốc nhiệt hay say nắng (heat stroke): là tình trạng tăng thân nhiệt quá mức, thường > 40 độ, thường kèm theo đáp ứng viêm hệ thống dẫn tới tổn thương cơ quan đích cùng với tổn thương thần kinh, và tình trạng bí mồ hôI (anhidrosis)"
+    verdict: match
+    note: "Bài đăng 27/05/2014, ThS. BS Nguyễn Hữu Quân, Khoa Cấp cứu: khớp. Bài ghi nguồn tham khảo NEJM 2003/Medscape."
+  - text: "Tất cả bệnh nhân sốc nhiệt đều phải vào viện theo dõi; tiên lượng xấu tỷ lệ với thời gian tới lúc điều trị"
+    source_url: https://bachmai.gov.vn/bai-viet/say-nang-va-benh-ly-than-nhiet?id=aa64d8a6-5900-e87e-e5d4-b34b5c0b70b9
+    quote: "Tất cả bn sốc nhiệt đều phải cho vào viện theo dõi"
+    verdict: match
+    note: "Và: 'Tiên lượng xấu tỉ lệ với thời gian từ lúc tăng thân nhiệt tới lúc được điều trị'."
+  - text: "Bạch Mai: cởi quần áo, lau nước ấm rồi quạt, gói đá ở cổ, nách, bẹn, dừng khi 38 độ"
+    source_url: https://bachmai.gov.vn/bai-viet/say-nang-va-benh-ly-than-nhiet?id=aa64d8a6-5900-e87e-e5d4-b34b5c0b70b9
+    quote: "Cởi bỏ quần áo bệnh nhân lau bằng nước ấm sau đó dùng quạt thổi."
+    verdict: match
+    note: "Cũng: 'Biện pháp hỗ trợ khác là đặt các gói đá lạnh và cổ, nách, bẹn' và 'Nên dừng khi nhiệt độ = 38 độ' (ký tự ≤ có thể mất khi trích). Đây là hướng dẫn tại khoa/cho nhân viên y tế (đo nhiệt độ trung tâm), không phải bước cho người dân; mục chỉ dùng làm bối cảnh."
+  - text: "Bệnh viện 108: phòng lạnh 20–22 độ + quạt; xối nước lạnh 25–30 độ hoặc gạc ướt 20–25 độ; vừa vận chuyển vừa hạ nhiệt"
+    source_url: https://benhvien108.vn/canh-bao-soc-nhiet-do-nang-nong-va-cach-phong-tranh.htm
+    quote: "Đặt bệnh nhân trong phòng lạnh 20- 22 độ C và quạt - Xối nước lạnh 25- 30 độ C vào bệnh nhân hoặc phủ gạc ướt, lạnh 20-25 độ C vào bệnh nhân và quạt"
+    verdict: match
+    note: "Và: 'Việc hạ thân nhiệt bệnh nhân bằng mọi cách cần được thực hiện, tuy nhiên không được gây cản trở việc vận chuyển bệnh nhân đến cơ sở y tế gần nhất, có thể vận chuyển bằng xe có điều hòa nhiệt độ hoặc mở cửa sổ, vừa vận chuyển vừa hạ nhiệt bệnh nhân.' Bài cũng cho 'ngâm nước lạnh 20-25 độ'; mục không dùng."
+  - text: "Dấu hiệu nặng: đau đầu dữ dội, khó thở, buồn nôn/nôn, yếu liệt nửa người, co giật, ngất/hôn mê; có thì gọi 115 hoặc đưa tới cơ sở y tế"
+    source_url: https://baochinhphu.vn/cach-phong-tranh-va-xu-tri-khi-say-nang-dot-quy-do-nong-10223052317263386.htm
+    quote: "Mức độ nặng là đau đầu dữ dội, khó thở tăng dần, cảm giác buồn nôn hoặc nôn, yếu hoặc liệt nửa người, co giật, ngất xỉu hoặc hôn mê, trụy tim mạch (tim đập nhanh, huyết áp tụt…) và có thể tử vong."
+    verdict: match
+    note: "Báo Chính phủ dẫn Bộ Y tế. 'Nếu nạn nhân có các biểu hiện ở mức độ nặng, cần gọi ngay cấp cứu 115 hoặc nhanh chóng đưa nạn nhân đến cơ sở y tế gần nhất.' Nguồn thứ cấp-báo nhưng dẫn Bộ Y tế; 'lú lẫn' không nằm trong danh sách này (có ở NHS/108)."
+  - text: "Làm mát bằng khăn mát hoặc nước mát, khăn ở cổ, nách, bẹn"
+    source_url: https://baochinhphu.vn/cach-phong-tranh-va-xu-tri-khi-say-nang-dot-quy-do-nong-10223052317263386.htm
+    quote: "lau cơ thể nạn nhân bằng khăn mát hoặc có thể dội nước mát vào cơ thể nạn nhân rồi lau khô. Đặt khăn thấm nước mát hoặc nước đá tại các vị trí như vùng nách, vùng bẹn, hai bên cổ để giúp nhanh chóng giảm nhiệt độ cơ thể."
+    verdict: match
+    note: "Đây là phần 'Mức độ nhẹ' của bài; phần mức nặng chỉ ghi 'thường xuyên chườm mát' khi vận chuyển. Thân mục tóm lược 'nước mát', bỏ 'nước đá' của nguồn và có giải thích ở Ghi chú."
+  - text: "Báo Chính phủ: nếu uống được nước thì cho uống từng ngụm nhỏ nước mát (gán trong Lợi ích ngay sau vế 'có biểu hiện nặng thì gọi 115')"
+    source_url: https://baochinhphu.vn/cach-phong-tranh-va-xu-tri-khi-say-nang-dot-quy-do-nong-10223052317263386.htm
+    quote: "Nếu nạn nhân uống được nước, cho uống từng ngụm nhỏ nước mát."
+    verdict: partial
+    note: "Câu nằm ở mục 'Mức độ nhẹ' của nguồn; thân mục 22 đặt nó liền sau câu về mức nặng nên dễ đọc thành áp dụng cho ca nặng. Mục 23 gán đúng ('phần mức độ nhẹ'). Steps của mục 22 thì an toàn (không ép uống)."
+  - text: "Người lú lẫn thì không cho uống"
+    source_url: https://www.cdc.gov/disasters/extremeheat/pdf/Heat_Related_Illness.pdf
+    quote: "Do not give the person anything to drink"
+    verdict: inference
+    note: "CDC áp dụng câu này cho HEAT STROKE (kèm 'Confusion', 'Losing consciousness'); tờ rơi cũng ghi 'Call 911 right away-heat stroke is a medical emergency', 'Move the person to a cooler place', 'Help lower the person's temperature with cool cloths or a cool bath'. 'Người lú lẫn' → heat stroke là suy ra; thân mục đã gắn nhãn suy ra (Bẫy 2). Hướng thận trọng đúng."
+  - text: "Bất tỉnh thì đặt nằm nghiêng; không có dấu hiệu sống thì ép tim"
+    source_url: https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/
+    quote: "If they lose consciousness while you're waiting for help, put them in the recovery position and tell the ambulance service. Check their breathing and pulse and carry out CPR if they show no sign of life."
+    verdict: match
+    note: "Page last reviewed 28 May 2026. Steps[3] ghi 'không có dấu hiệu sống (không thở)': NHS nói kiểm tra thở VÀ mạch; Bệnh viện 108: 'ép tim ngoài lồng ngực nếu người bệnh hôn mê, không bắt được mạch'. Thu gọn thành 'không thở' hợp với hướng dẫn cho người dân (AHA/ERC: không thở bình thường), nhưng nên dẫn chiếu mục 01 về ép tim."
+  - text: "Bệnh viện 108: cho uống nhiều nước hoặc dung dịch điện giải nếu bệnh nhân tỉnh táo, ép tim nếu hôn mê không bắt được mạch"
+    source_url: https://benhvien108.vn/%E2%80%9C-say-nang-say-nong%E2%80%9D-van-la-nhung-van-de-cap-thiet-trong-mua-he.htm
+    quote: "Cho uống nhiều nước hoặc dung dịch điện giải nếu bệnh nhân tỉnh táo, có thể uống được"
+    verdict: match
+    note: "Và: 'Khai thông đường thở, hô hấp nhân tạo và ép tim ngoài lồng ngực nếu người bệnh hôn mê, không bắt được mạch'. Nguồn nói 'nhiều nước'; mục chọn 'nhấp' thận trọng hơn."
+  - text: "Bác sĩ Bạch Mai (SK&ĐS): bất tỉnh thì đặt nằm nghiêng an toàn và gọi cấp cứu; không chườm đá"
+    source_url: https://suckhoedoisong.vn/nang-nhu-do-lua-bac-si-bach-mai-chi-cach-nhan-biet-som-say-nang-de-tranh-nguy-hiem-tinh-mang-169260525161204489.htm
+    quote: "Nếu bất tỉnh, đặt nằm nghiêng an toàn và gọi cấp cứu ngay."
+    verdict: match
+    note: "Cùng đoạn: 'Không chườm đá cho người bệnh khiến mạch co không thải được nhiệt ra'. Bài báo 25/05/2026, lời ThS. BSNT Nguyễn Minh Hiếu."
+  - text: "Bẫy 1: không ra mồ hôi chỉ xuất hiện giai đoạn muộn"
+    source_url: https://bachmai.gov.vn/bai-viet/say-nang-va-benh-ly-than-nhiet?id=aa64d8a6-5900-e87e-e5d4-b34b5c0b70b9
+    quote: "Bn có thể vã mồ hôi, mặc dù ko ra mồ hôi là triệu chứng kinh điển nhưng chỉ xuất hiện ở giai đoạn muộn"
+    verdict: match
+    note: ""
+  - text: "NHS: sốc nhiệt là cấp cứu; gọi cấp cứu"
+    source_url: https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/
+    quote: "Heatstroke is a medical emergency. Get immediate medical help if someone has the symptoms of heatstroke."
+    verdict: match
+    note: "NHS: 'Wrap the person in a cool, wet sheet, or fan them or sponge them down with cold water while you wait for help to arrive.' Cũng ghi 'Do not drive yourself to A&E'."
+  - text: "Vừa làm mát vừa chuyển đi, đừng chờ đủ đá"
+    source_url: https://benhvien108.vn/canh-bao-soc-nhiet-do-nang-nong-va-cach-phong-tranh.htm
+    quote: "không được gây cản trở việc vận chuyển bệnh nhân đến cơ sở y tế gần nhất, có thể vận chuyển bằng xe có điều hòa nhiệt độ hoặc mở cửa sổ, vừa vận chuyển vừa hạ nhiệt bệnh nhân."
+    verdict: match
+    note: "Vế 'đừng chờ đủ đá' là suy ra (thân mục gắn nhãn suy ra ở Bẫy 3)."
+internal_checks:
+  - issue: "Ghi chú còn chữ nội bộ: 'Cần nguồn cho: mốc \"còn mệt sau khoảng 30 phút làm mát thì gọi cấp cứu\" (chưa có trích dẫn nguyên văn); ngâm nước lạnh toàn thân; cách ghi số cấp cứu thống nhất cả chương (mục 49...)'. Đây là ghi chú việc cần làm của người soạn. Riêng mốc 30 phút CÓ nguyên văn trong NHS: 'Call 999 now if ... still being unwell after 30 minutes of resting in a cool place, being cooled and drinking fluids'."
+    severity: error
+  - issue: "Thân gán 'uống từng ngụm nhỏ nước mát' của Báo Chính phủ ngay sau câu về mức nặng, trong khi nguồn đặt ở mục 'Mức độ nhẹ' (xem claim partial)."
+    severity: warn
+  - issue: "Hai chỗ trong Lợi ích khác nhau về nhiệt độ nước làm mát (Bạch Mai: nước ấm; 108: nước lạnh 25–30 độ; Báo Chính phủ: nước mát) và về đá (Bạch Mai, 108 cho đá; bác sĩ Bạch Mai trên SK&ĐS cấm). Mục đã công khai và chọn 'nước mát' trong steps; không lỗi."
+    severity: warn
+  - issue: "Chỉ ghi 115; mục 49 cùng chương nêu Thông tư 42/2026/TT-BYT (hiệu lực 01/11/2026) với đầu số 113 điều phối cấp cứu ngoại viện, một số báo ghi 'thay thế đầu số 115'. Chưa xác nhận được 115 còn dùng đến đâu; chương chưa thống nhất (mục 49 tự ghi)."
+    severity: warn
+  - issue: "Số trong tldr/steps: 115 có trong thân. Các số 40, 38, 20–22, 25–30 chỉ nằm ở Lợi ích/Ghi chú, không vào steps (đúng). Không mâu thuẫn số."
+    severity: warn
+validity:
+  doc: "Hướng dẫn y tế: Bệnh viện Bạch Mai (27/05/2014), Bệnh viện TWQĐ 108 (2023), Báo Chính phủ dẫn Bộ Y tế (2023), SK&ĐS (25/05/2026), CDC tờ rơi 'Heat-Related Illnesses', NHS (reviewed 28/05/2026). Không có hướng dẫn Bộ Y tế số hiệu."
+  in_force: unconfirmed
+  effective_from: "2014-05-27"
+  amended_by: []
+  basis: "Nguồn y tế không có ngày hiệu lực. Bài Bạch Mai là 2014 (cũ, lưu trữ); NHS 2026 và CDC khớp với các bước chính. Không tìm thấy quyết định/hướng dẫn Bộ Y tế riêng về sốc nhiệt để đối chiếu."
+deliberate_vn_deviation:
+  - "Nguồn VN (Bạch Mai, 108) dùng đá/nước ấm-lạnh và cho uống nước khi tỉnh; NHS/CDC cho sốc nhiệt: nước mát + không cho uống gì. Mục chọn 'nước mát, không ép uống, người lú lẫn không uống' (theo CDC): lệch thận trọng có chủ ý, đã ghi ở Ghi chú."
+potential_harm: []
+suggested_edits:
+  - "Ghi chú: xóa mục 'Cần nguồn cho: ...'. Thêm vào steps[0]/Lợi ích mốc NHS: 'Vẫn khó chịu sau 30 phút nghỉ chỗ mát, làm mát và uống nước thì gọi cấp cứu' (quote NHS 'still being unwell after 30 minutes of resting in a cool place, being cooled and drinking fluids')."
+  - "Lợi ích, ý Báo Chính phủ: tách 'uống từng ngụm nhỏ nước mát' thành 'với mức nhẹ, nạn nhân còn tỉnh' để khỏi gắn vào mức nặng."
+  - "Steps[3]: ghi 'không thở bình thường' thay 'không thở' và dẫn chiếu mục 01 cho kỹ thuật ép tim."
+  - "Thống nhất cách ghi số 115/113 với mục 49."
