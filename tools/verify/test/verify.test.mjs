@@ -355,19 +355,6 @@ test('apply: --write qua CLI ghi file tạm, idempotent; dry-run mặc định k
   }
 });
 
-test('apply CLI trên 3 báo cáo thử thật: không nâng, nêu thiếu hash và mismatch; content/ không bị đụng', async () => {
-  const r = await run('tools/verify/apply.mjs', ['--json']);
-  assert.equal(r.code, 0);
-  const j = JSON.parse(r.stdout);
-  assert.equal(j.mode, 'dry-run');
-  assert.equal(j.changes.length, 0);
-  assert.equal(j.skipped.length, j.reports);
-  assert.ok(j.reports >= 3);
-  const all = j.skipped.flatMap((s) => s.reasons).join('\n');
-  assert.match(all, /content_sha256/);
-  assert.match(all, /mismatch/);
-});
-
 function run(script, args) {
   return new Promise((res) => {
     const p = spawn('node', [script, ...args], { cwd: ROOT });

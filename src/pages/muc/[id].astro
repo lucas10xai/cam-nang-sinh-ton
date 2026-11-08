@@ -8,7 +8,7 @@ import VerifyBadge from '../../components/VerifyBadge.astro';
 import HotlineStrip from '../../components/HotlineStrip.astro';
 import {
   loadAll, loadHotlines, fold, renderSections, entryCode, url, fmtDate, worthOf, WORTH_LABELS, WORTH_NOTE,
-  verificationNote, VERIFICATION_TONE, DISCLAIMER, METRIC_LABELS, BENEFIT_LABELS, EVIDENCE_LABELS,
+  verificationNote, VERIFICATION_TONE, reviewKind, REVIEW_WARNINGS, emergencyNumber, DISCLAIMER, METRIC_LABELS, BENEFIT_LABELS, EVIDENCE_LABELS,
 } from '../../lib/site';
 
 export async function getStaticPaths() {
@@ -22,6 +22,8 @@ const chapter = chapters.find((c) => c.data.number === d.chapter);
 const sections = renderSections(e, byId);
 const worth = worthOf(d);
 const rewritten = d.rewrite_status === 'rewritten';
+const review = reviewKind(d.verification.status);
+const reviewText = review === 'medical' ? REVIEW_WARNINGS.medical(emergencyNumber()) : review === 'legal' ? REVIEW_WARNINGS.legal() : null;
 const siblings = entries.filter((x) => x.data.chapter === d.chapter);
 const idx = siblings.findIndex((x) => x.data.id === d.id);
 const prev = siblings[idx - 1];
@@ -60,6 +62,9 @@ const dWords = [...new Set((plain.match(/[\p{L}\p{N}]*[đĐ][\p{L}\p{N}]*/gu) ??
         {d.verification.sources.length > 0 && <p>Đã đối chiếu: {d.verification.sources.length} nguồn.</p>}
         {d.contested && <p><strong>Mục này có điểm còn tranh luận</strong>, xem phần Ghi chú.</p>}
       </div>
+      {reviewText && (
+        <div class="review-warn" role="alert" data-pagefind-ignore><Icon name="shield-alert" size={24} /><p>{reviewText}</p></div>
+      )}
       {rewritten && d.tldr && (
         <aside class="tldr" aria-labelledby="tldr-h"><h2 id="tldr-h">Kết luận ngắn</h2><p>{d.tldr}</p></aside>
       )}
@@ -77,10 +82,12 @@ const dWords = [...new Set((plain.match(/[\p{L}\p{N}]*[đĐ][\p{L}\p{N}]*/gu) ??
           <h2 id="steps-h">Các bước làm</h2>
           <ol class="steps">
             {d.steps.map((t, i) => (
-              <li><label class="step"><input type="checkbox" data-step={i} /><span class="step__text">{t}</span></label></li>
+              review
+                ? <li><div class="step"><span class="step__text">{t}</span></div></li>
+                : <li><label class="step"><input type="checkbox" data-step={i} /><span class="step__text">{t}</span></label></li>
             ))}
           </ol>
-          <p class="steps-count js-only" id="steps-count" role="status" data-pagefind-ignore></p>
+          {!review && <p class="steps-count js-only" id="steps-count" role="status" data-pagefind-ignore></p>}
         </section>
       )}
       {sections.map((s) => {

@@ -2,7 +2,7 @@
 import { load, setStep } from './state';
 
 const id = document.querySelector<HTMLElement>('[data-entry-id]')?.dataset.entryId;
-if (id) {
+if (id && document.querySelector('input[data-step]')) {
   const done = new Set(load().steps[id] ?? []);
   const boxes = document.querySelectorAll<HTMLInputElement>('input[data-step]');
   const count = document.getElementById('steps-count');

@@ -66,6 +66,7 @@ const checked = (st.totals.by_status['source-checked'] ?? 0) + (st.totals.by_sta
         <li><span><span class={`badge badge--${VERIFICATION_TONE[s]}`}>{VERIFICATION_LABELS[s]}</span></span><span>{VERIFICATION_NOTES[s]}</span></li>
       ))}
     </ul>
+    <p><strong>“Đang rà soát”</strong> (cần chuyên gia kiểm tra về y khoa hoặc pháp lý) nghĩa là lượt kiểm chứng độc lập đã tìm ra điểm chưa khớp với nguồn gốc, hoặc thiếu điều kiện an toàn. Với mục y khoa, khi có người cần cấp cứu thật, hãy gọi số cấp cứu trước, đừng chỉ làm theo mục. Với mục pháp lý, hãy đối chiếu văn bản hiện hành hoặc hỏi luật sư. Các mục này không có ô tick “đã làm” ở phần các bước.</p>
     <p>Không mục nào được tự nâng nhãn. Nhãn chỉ đổi khi có người hoặc tác tử kiểm chứng độc lập mở nguồn gốc và ghi lại ngày, phạm vi, nguồn đã dùng.</p>
   </section>
 

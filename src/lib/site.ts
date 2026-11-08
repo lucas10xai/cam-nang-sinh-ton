@@ -90,6 +90,22 @@ export const VERIFICATION_TONE: Record<string, 'none' | 'basic' | 'good' | 'revi
   'needs-medical-review': 'review',
   'expert-reviewed': 'expert',
 };
+/** Mục đang bị rà soát: kiểm chứng đã chỉ ra điểm chưa khớp. */
+export type ReviewKind = 'medical' | 'legal' | null;
+export function reviewKind(status: string): ReviewKind {
+  return status === 'needs-medical-review' ? 'medical' : status === 'needs-legal-review' ? 'legal' : null;
+}
+export const REVIEW_WARNINGS = {
+  medical: (emergencyNumber: string | null) =>
+    `Mục này có điểm đã được kiểm chứng là thiếu điều kiện an toàn hoặc chưa khớp hướng dẫn gốc. Khi có người cần cấp cứu thật: gọi ${emergencyNumber ?? 'số cấp cứu'} trước, đừng chỉ làm theo mục này.`,
+  legal: () =>
+    'Mục này có khẳng định pháp lý chưa khớp văn bản gốc hoặc chưa xác nhận hiệu lực. Đối chiếu văn bản hiện hành hoặc hỏi luật sư trước khi làm theo.',
+} as const;
+/** Số cấp cứu y tế lấy từ data/hotlines.json (không gõ cứng). */
+export function emergencyNumber(): string | null {
+  return loadHotlines().items.find((h) => /cấp cứu/i.test(h.label))?.number ?? null;
+}
+
 export const VN_CLASS_LABELS = {
   unclassified: 'Chưa phân loại',
   universal: 'Dùng chung mọi nơi',
