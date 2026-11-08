@@ -1,0 +1,53 @@
+---
+id: nang-nong-chong-mat-buon-non-khong-ra-mo-hoi-hoac-lu
+legacy: "13-22"
+chapter: 13
+number: 22
+title: "Nắng nóng, chóng mặt buồn nôn, không ra mồ hôi hoặc lú lẫn: đưa ngay vào chỗ mát, cởi bớt áo, làm mát bằng nước, người lú lẫn thì không cho uống, gọi 115"
+cost:
+  money: "0"
+  time: low
+  will: "0"
+benefit: large
+metric: mortality
+evidence: B
+contested: false
+vn_class: unclassified
+rewrite_status: imported
+tldr: null
+steps: []
+legal_refs: []
+verification:
+  status: unverified
+  checked_at: null
+  checker: null
+  scope: null
+  sources: []
+origin:
+  zh: null
+  quangpao: "13-22"
+  luonglb: null
+related: []
+situations: []
+tags: []
+---
+
+## Nói dễ hiểu
+
+Đưa ngay người bệnh vào chỗ mát, cởi bớt áo, dội nước mát lên người, đặt khăn lạnh ở cổ, nách, bẹn. Người lú lẫn thì không cho uống nước, đặt nằm nghiêng và gọi 115.
+
+## Chi phí
+
+Không mất tiền, mất vài phút và một chậu nước mát, mấy chiếc khăn hoặc chai nước lạnh. Khó ở chỗ người bệnh hay nói mình chỉ hơi mệt, trong khi dấu hiệu nặng là da nóng, không ra mồ hôi và nói năng lộn xộn.
+
+## Lợi ích
+
+Bệnh viện Bạch Mai xếp sốc nhiệt là tăng thân nhiệt quá mức, thường trên 40 độ, kèm tổn thương thần kinh và bí mồ hôi; bài của khoa Cấp cứu hướng dẫn cởi bỏ quần áo, lau bằng nước ấm rồi quạt, đặt gói đá ở cổ, nách, bẹn, hạ nhiệt nhanh và dừng khi thân nhiệt về 38 độ. Bệnh viện TWQĐ 108 hướng dẫn cấp cứu ngoài bệnh viện: đưa ra chỗ bóng râm, bỏ bớt quần áo bên ngoài, đặt trong phòng 20–22 độ, xối nước 25–30 độ, phủ gạc ướt 20–25 độ rồi quạt, và chỉ cho uống nước hoặc dung dịch điện giải khi người bệnh tỉnh táo, uống được. Khuyến cáo đăng trên Báo Điện tử Chính phủ cũng chỉ cho uống khi nạn nhân uống được nước, còn mức độ nặng thì gọi ngay cấp cứu 115. Người đang lú lẫn, co giật hoặc hôn mê dễ sặc nước vào đường thở, nên đặt nằm nghiêng, không đưa gì vào miệng và chuyển tới cơ sở y tế.
+
+## Ghi chú
+
+Các con số 40 độ, 38 độ, 20–22 độ, 25–30 độ đều đọc được trong hướng dẫn đã công bố của hai bệnh viện tuyến cuối, nhưng đó là khuyến cáo chuyên môn chứ không phải kết quả thử nghiệm, và không có thống kê tử vong theo từng bước sơ cứu để so sánh. Ba cái bẫy hay gặp. Một: chờ xem người bệnh có ra mồ hôi không rồi mới xử trí, trong khi Bạch Mai ghi bí mồ hôi chỉ xuất hiện ở giai đoạn muộn, nên còn vã mồ hôi không loại trừ sốc nhiệt. Hai: thấy người bệnh khát thì dốc nước cho uống, trong khi cả ba hướng dẫn đều đặt điều kiện người bệnh còn tỉnh và uống được, còn người lú lẫn thì sặc vào phổi. Ba: chườm đá khắp người rồi mới gọi xe, trong khi hướng dẫn của Bệnh viện 108 nói vừa vận chuyển vừa hạ nhiệt, và việc chờ đủ đá làm mất phút đầu. Mục này không có nghĩa là phải có nước đá mới được làm mát, hay người còn tỉnh thì không cần đi viện: nó nói rằng làm mát là việc làm trước, người lú lẫn thì không cho uống, và người lú lẫn phải được đưa tới cơ sở y tế.
+
+## Nguồn
+
+Bệnh viện Bạch Mai, "Say nắng và bệnh lý thân nhiệt" (ThS. BS Nguyễn Hữu Quân, Khoa Cấp cứu) — https://bachmai.gov.vn/bai-viet/say-nang-va-benh-ly-than-nhiet?id=aa64d8a6-5900-e87e-e5d4-b34b5c0b70b9 ; Bệnh viện TWQĐ 108, "Cảnh báo sốc nhiệt do nắng nóng và cách phòng tránh" (Khoa Hồi sức nội và chống độc) — https://benhvien108.vn/canh-bao-soc-nhiet-do-nang-nong-va-cach-phong-tranh.htm ; Báo Điện tử Chính phủ, "Cách phòng tránh và xử trí khi say nắng, đột quỵ do nóng" — https://baochinhphu.vn/cach-phong-tranh-va-xu-tri-khi-say-nang-dot-quy-do-nong-10223052317263386.htm . Tra ngày 3/11/2026.
