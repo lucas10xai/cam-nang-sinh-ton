@@ -1,0 +1,9 @@
+---
+import Icon from './icons/Icon.astro';
+interface Props { summary: string; open?: boolean; class?: string; }
+const { summary, open = false, class: cls } = Astro.props;
+---
+<details class:list={['accordion', cls]} open={open}>
+  <summary><span>{summary}</span><Icon name="chevron-down" size={18} class="accordion__caret" /></summary>
+  <div class="accordion__body"><slot /></div>
+</details>

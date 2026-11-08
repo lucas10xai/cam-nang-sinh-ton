@@ -1,0 +1,41 @@
+{
+  "_note": "Chỉ gồm số có trong nội dung các chương 13, 25, 29, 30 của bản nháp quangpao (nhánh vi). Chưa được kiểm chứng độc lập: verified=false cho tới khi đối chiếu với nguồn của cơ quan nhà nước.",
+  "show_on_chapters": [13],
+  "items": [
+    {
+      "number": "115",
+      "label": "Cấp cứu y tế",
+      "detail": "Tai nạn, chấn thương nặng, ngừng tim, đột quỵ, đau ngực.",
+      "source": { "ref": "_ref/vi-quangpao/book/13-cap-cuu-nhung-phut-quyet-dinh.md, lời mở đầu chương 13 (cấp cứu 115)", "chapter": 13 },
+      "verified": false
+    },
+    {
+      "number": "113",
+      "label": "Công an",
+      "detail": "Tin báo cướp giật, gây rối, bạo hành và hành vi có dấu hiệu tội phạm.",
+      "source": { "ref": "_ref/vi-quangpao/book/13-cap-cuu-nhung-phut-quyet-dinh.md, lời mở đầu chương 13 (công an 113)", "chapter": 13 },
+      "verified": false
+    },
+    {
+      "number": "114",
+      "label": "Cứu hỏa, cứu nạn",
+      "detail": "Cháy nổ và cứu nạn cứu hộ.",
+      "source": { "ref": "_ref/vi-quangpao/book/13-cap-cuu-nhung-phut-quyet-dinh.md, lời mở đầu chương 13 (cứu hỏa và cứu nạn 114)", "chapter": 13 },
+      "verified": false
+    },
+    {
+      "number": "112",
+      "label": "Tìm kiếm cứu nạn trên biển",
+      "detail": "Tàu trôi dạt, mất liên lạc, chìm tàu trên sông biển.",
+      "source": { "ref": "_ref/vi-quangpao/book/13-cap-cuu-nhung-phut-quyet-dinh.md, lời mở đầu chương 13 (cứu nạn cứu hộ trên biển và tìm kiếm cứu nạn 112)", "chapter": 13 },
+      "verified": false
+    },
+    {
+      "number": "111",
+      "label": "Bảo vệ trẻ em",
+      "detail": "Tổng đài quốc gia bảo vệ trẻ em, trực 24 giờ.",
+      "source": { "ref": "_ref/vi-quangpao/book/30-con-di-hoc.md và 29-ung-pho-sau-cu-soc-lon.md, mục 11 (tổng đài quốc gia bảo vệ trẻ em 111)", "chapter": 30 },
+      "verified": false
+    }
+  ]
+}

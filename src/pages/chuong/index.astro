@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+import { loadAll, url } from '../../lib/site';
+const { chapters, entries } = await loadAll();
+const counts = new Map<number, number>();
+for (const e of entries) counts.set(e.data.chapter, (counts.get(e.data.chapter) ?? 0) + 1);
+---
+<Base title="Các chương" description="Danh sách các chương của Cẩm nang sinh tồn.">
+  <div class="page-head"><h1>Các chương</h1><p>{chapters.length} chương, {entries.length} mục. Chọn chương gần với chuyện bạn đang gặp.</p></div>
+  <ol class="chapter-list">
+    {chapters.map((c) => (
+      <li><a href={url.chapter(c.data.number)}><span class="n">{c.data.number}</span><span>{c.data.title}</span><span class="c">{counts.get(c.data.number) ?? 0} mục</span></a></li>
+    ))}
+  </ol>
+</Base>

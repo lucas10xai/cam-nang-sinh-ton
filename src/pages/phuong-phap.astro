@@ -1,0 +1,102 @@
+---
+import Base from '../layouts/Base.astro';
+import VerifyBadge from '../components/VerifyBadge.astro';
+import { loadAll, loadStatus, STATUS_ORDER, VERIFICATION_LABELS, VERIFICATION_NOTES, VERIFICATION_TONE, VN_CLASS_LABELS, WORTH_NOTE, url, DISCLAIMER } from '../lib/site';
+const { chapters, entries } = await loadAll();
+const st = loadStatus(entries);
+const title = new Map(chapters.map((c) => [c.data.number, c.data.title]));
+const cols = STATUS_ORDER;
+const rewritten = st.totals.by_rewrite_status?.rewritten ?? 0;
+const checked = (st.totals.by_status['source-checked'] ?? 0) + (st.totals.by_status['cross-checked'] ?? 0) + (st.totals.by_status['expert-reviewed'] ?? 0);
+---
+<Base title="Phương pháp và trạng thái kiểm chứng" description="Cách biên soạn, cách tính mức đáng làm và bảng tiến độ kiểm chứng theo chương.">
+  <div class="page-head">
+    <h1>Phương pháp và trạng thái kiểm chứng</h1>
+    <p>{DISCLAIMER} Trang này nói rõ điều gì đã kiểm, điều gì chưa.</p>
+  </div>
+
+  <section class="prose" aria-labelledby="tt-h">
+    <h2 id="tt-h">Tiến độ hiện tại</h2>
+    <p>Tổng <strong>{st.total}</strong> mục; <strong>{checked}</strong> mục đã được đối chiếu nguồn trở lên; <strong>{rewritten}</strong> mục đã soạn lại theo định dạng phân lớp. Phần còn lại là bản nháp nhập nguyên văn, <strong>chưa kiểm chứng</strong>.</p>
+  </section>
+
+  <div class="table-wrap" tabindex="0" role="region" aria-label="Bảng mục theo chương và trạng thái kiểm chứng">
+    <table class="data-table">
+      <caption class="visually-hidden">Số mục theo chương và trạng thái kiểm chứng</caption>
+      <thead>
+        <tr>
+          <th scope="col">Chương</th>
+          <th scope="col">Số mục</th>
+          {cols.map((c) => <th scope="col">{VERIFICATION_LABELS[c]}</th>)}
+        </tr>
+      </thead>
+      <tbody>
+        {[...st.chapters.entries()].sort((a, b) => a[0] - b[0]).map(([n, r]) => (
+          <tr>
+            <th scope="row"><a href={url.chapter(n)}>{n}. {title.get(n) ?? ''}</a></th>
+            <td>{r.total}</td>
+            {cols.map((c) => <td>{r.by_status[c] ?? 0}</td>)}
+          </tr>
+        ))}
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Tổng</th>
+          <td>{st.total}</td>
+          {cols.map((c) => <td>{st.totals.by_status[c] ?? 0}</td>)}
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+  <p class="muted">Nguồn số liệu: {st.source}{st.generated_at ? `, sinh lúc ${st.generated_at}` : ''}.</p>
+
+  <section class="prose" aria-labelledby="loai-h">
+    <h2 id="loai-h">Phân loại theo mức độ Việt Nam hóa</h2>
+    <table class="data-table">
+      <tbody>
+        {Object.entries(VN_CLASS_LABELS).map(([k, label]) => <tr><th scope="row">{label}</th><td>{st.totals.by_vn_class[k] ?? 0}</td></tr>)}
+      </tbody>
+    </table>
+  </section>
+
+  <section class="prose" aria-labelledby="nhan-h">
+    <h2 id="nhan-h">Các nhãn kiểm chứng nghĩa là gì</h2>
+    <ul class="legend">
+      {STATUS_ORDER.map((s) => (
+        <li><span><span class={`badge badge--${VERIFICATION_TONE[s]}`}>{VERIFICATION_LABELS[s]}</span></span><span>{VERIFICATION_NOTES[s]}</span></li>
+      ))}
+    </ul>
+    <p>Không mục nào được tự nâng nhãn. Nhãn chỉ đổi khi có người hoặc tác tử kiểm chứng độc lập mở nguồn gốc và ghi lại ngày, phạm vi, nguồn đã dùng.</p>
+  </section>
+
+  <section class="prose" aria-labelledby="bc-h">
+    <h2 id="bc-h">Mức bằng chứng A, B, C</h2>
+    <ul>
+      <li><strong>A</strong>: có thử nghiệm ngẫu nhiên, tổng quan hệ thống gộp nhiều nghiên cứu, hoặc phân loại của cơ quan quốc tế khi chính phân loại đó là nội dung của mục.</li>
+      <li><strong>B</strong>: nhiều nghiên cứu theo dõi, kết quả nhất quán nhưng vẫn là nghiên cứu quan sát nên không chứng minh nhân quả.</li>
+      <li><strong>C</strong>: chỉ một nghiên cứu, hoặc nhiễu nặng, hoặc các nghiên cứu mâu thuẫn, hoặc chỉ có khuyến cáo chuyên môn.</li>
+    </ul>
+    <p>Mức bằng chứng chỉ trả lời “con số này có đáng tin không”. Với mục luật và chính sách, nó không cho biết văn bản còn hiệu lực hay áp dụng đúng trường hợp của bạn.</p>
+  </section>
+
+  <section class="prose" aria-labelledby="dl-h">
+    <h2 id="dl-h">Mức đáng làm tính thế nào</h2>
+    <p>Tính lúc build từ lợi ích và ba loại chi phí, không lưu sẵn. Cộng điểm chi phí: tiền (không = 0, ít = 1, vừa/nhiều = 2), thời gian (ít = 0, vừa = 1, nhiều = 2), ý chí (không = 0, ít = 1, cần = 2).</p>
+    <ul>
+      <li><strong>Rất cao</strong>: lợi ích lớn và tổng điểm chi phí bằng 0.</li>
+      <li><strong>Cao</strong>: lợi ích lớn và tổng điểm chi phí tối đa 2; hoặc lợi ích vừa và tổng điểm bằng 0.</li>
+      <li><strong>Trung bình</strong>: còn lại. Không có nghĩa là đừng làm.</li>
+    </ul>
+    <p><strong>{WORTH_NOTE}</strong> Công thức theo bản nháp gốc của quangpao.</p>
+  </section>
+
+  <section class="prose" aria-labelledby="nd-h">
+    <h2 id="nd-h">Quy trình và giới hạn</h2>
+    <ul>
+      <li>Giai đoạn này chỉ <strong>nhập</strong> bản nháp vào cấu trúc dữ liệu, chưa viết lại chữ. Soạn lại và kiểm chứng làm theo từng chương, theo thứ tự ưu tiên.</li>
+      <li>Trang là tĩnh, không gọi mô hình AI lúc bạn đọc. AI, nếu có, chỉ dùng ở bước soạn và kiểm chứng offline, và kết quả vẫn mang nhãn trạng thái.</li>
+      <li>Luật, mức phạt và giá đổi theo thời gian. Mỗi căn cứ pháp luật có ngày đối chiếu; ngày cũ nghĩa là cần tra lại.</li>
+      <li>Tìm lỗi? <a href="/gioi-thieu/">Xem cách liên hệ và ghi công</a>.</li>
+    </ul>
+  </section>
+</Base>

@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import EntryCard from '../../components/EntryCard.astro';
+import HotlineStrip from '../../components/HotlineStrip.astro';
+import { loadAll, loadHotlines, renderChapterIntro, url } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const { chapters } = await loadAll();
+  return chapters.map((c) => ({ params: { n: String(c.data.number) }, props: { id: c.id } }));
+}
+const { chapters, entries, byId } = await loadAll();
+const n = Number(Astro.params.n);
+const ch = chapters.find((c) => c.data.number === n)!;
+const list = entries.filter((e) => e.data.chapter === n);
+const intro = renderChapterIntro(ch, byId);
+const prev = chapters.find((c) => c.data.number === n - 1);
+const next = chapters.find((c) => c.data.number === n + 1);
+const emergency = loadHotlines().showOnChapters.includes(n);
+---
+<Base title={`Chương ${n}: ${ch.data.title}`} description={`${list.length} mục của chương ${n}: ${ch.data.title}.`}>
+  <nav class="crumbs" aria-label="Vị trí"><ol><li><a href="/">Trang chủ</a></li><li><a href="/chuong/">Chương</a></li><li aria-current="page">Chương {n}</li></ol></nav>
+  <div class="page-head">
+    <p class="entry-code">Chương {n}</p>
+    <h1>{ch.data.title}</h1>
+  </div>
+  {emergency && <HotlineStrip compact />}
+  <div class="chapter-intro" set:html={intro} />
+  <h2>Các mục ({list.length})</h2>
+  <ul class="entry-list">
+    {list.map((e) => <li><EntryCard entry={e} /></li>)}
+  </ul>
+  <nav class="entry-nav" aria-label="Chương khác">
+    {prev ? <a class="prev" href={url.chapter(prev.data.number)}><small>Chương trước</small>{prev.data.number}. {prev.data.title}</a> : <span />}
+    {next ? <a class="next" href={url.chapter(next.data.number)}><small>Chương sau</small>{next.data.number}. {next.data.title}</a> : <span />}
+  </nav>
+</Base>

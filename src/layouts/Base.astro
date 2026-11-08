@@ -1,0 +1,82 @@
+---
+import '../styles/global.css';
+import Icon from '../components/icons/Icon.astro';
+import { SITE_NAME, DISCLAIMER } from '../lib/site';
+interface Props { title?: string; description?: string; wide?: boolean; noindex?: boolean; }
+const { title, description = 'Cẩm nang việc nên làm để sống lâu hơn, đỡ tốn hơn, ít vướng luật hơn, biên soạn theo bối cảnh Việt Nam.', wide = false, noindex = false } = Astro.props;
+const fullTitle = title ? `${title} · ${SITE_NAME}` : `${SITE_NAME}: việc nên làm, theo luật và bối cảnh Việt Nam`;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const nav = [
+  { href: '/chuong/', label: 'Chương' },
+  { href: '/tra-cuu/', label: 'Tra cứu' },
+  { href: '/viec-cua-toi/', label: 'Việc của tôi' },
+  { href: '/phuong-phap/', label: 'Phương pháp' },
+  { href: '/gioi-thieu/', label: 'Giới thiệu' },
+];
+const path = Astro.url.pathname;
+---
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <meta name="color-scheme" content="light dark" />
+    {noindex && <meta name="robots" content="noindex" />}
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="/fonts/be-vietnam-pro-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:locale" content="vi_VN" />
+    <script is:inline>
+      (function () {
+        var d = document.documentElement;
+        d.classList.add('js');
+        try {
+          var t = localStorage.getItem('cnst:theme');
+          if (t === 'light' || t === 'dark') d.dataset.theme = t;
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#noi-dung">Bỏ qua, tới nội dung</a>
+    <div class="disclaimer" role="note">
+      <div class="container disclaimer__in"><Icon name="info" size={16} /><p>{DISCLAIMER}</p></div>
+    </div>
+    <header class="site-header">
+      <div class="container site-header__in">
+        <a class="brand" href="/" aria-label={`${SITE_NAME}, về trang chủ`}>
+          <svg class="brand__mark" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.2 7.8 8 9 4.8-1.2 8-4.5 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg>
+          <span>{SITE_NAME}</span>
+        </a>
+        <div class="site-header__actions">
+          <a class="icon-btn" href="/tim-kiem/" aria-label="Tìm kiếm"><Icon name="search" size={18} /></a>
+          <button class="icon-btn" type="button" id="theme-toggle" aria-label="Đổi giao diện sáng, tối">
+            <span class="theme-ico theme-ico--sun"><Icon name="sun" size={18} /></span>
+            <span class="theme-ico theme-ico--moon"><Icon name="moon" size={18} /></span>
+          </button>
+        </div>
+        <nav class="site-nav" aria-label="Chính">
+          <ul>
+            {nav.map((n) => (
+              <li><a href={n.href} aria-current={path.startsWith(n.href) ? 'page' : undefined}>{n.label}</a></li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="noi-dung" class:list={['container', { 'container--wide': wide }]} tabindex="-1">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <p>{DISCLAIMER}</p>
+        <p>Biên soạn lại từ <em>高性价比人生指南</em> (eternity4719, CC BY 4.0) qua bản nháp tiếng Việt của quangpao, đối chiếu bản của luonglb. Đã sửa cho bối cảnh Việt Nam. Nội dung CC BY 4.0, mã nguồn MIT. Không theo dõi người đọc, không quảng cáo. <a href="/gioi-thieu/">Ghi công đầy đủ</a>.</p>
+      </div>
+    </footer>
+    <script>import "../scripts/theme.ts";</script>
+  </body>
+</html>

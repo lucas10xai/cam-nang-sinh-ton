@@ -1,0 +1,67 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/icons/Icon.astro';
+import EntryCard from '../components/EntryCard.astro';
+import {
+  loadAll, worthOf, fold, WORTH_LABELS, COST_LABELS, METRIC_LABELS, BENEFIT_LABELS, VERIFICATION_LABELS, STATUS_ORDER,
+} from '../lib/site';
+const { chapters, entries } = await loadAll();
+const groups = [
+  { key: 'ev', legend: 'Mức bằng chứng', opts: [['A', 'A'], ['B', 'B'], ['C', 'C']] },
+  { key: 'worth', legend: 'Mức đáng làm (phán đoán của người biên soạn)', opts: Object.entries(WORTH_LABELS).map(([k, v]) => [k, v]) },
+  { key: 'money', legend: 'Chi phí tiền', opts: Object.entries(COST_LABELS.money).map(([k, v]) => [k, v]) },
+  { key: 'time', legend: 'Chi phí thời gian', opts: Object.entries(COST_LABELS.time).map(([k, v]) => [k, v]) },
+  { key: 'will', legend: 'Chi phí ý chí', opts: Object.entries(COST_LABELS.will).map(([k, v]) => [k, v]) },
+  { key: 'benefit', legend: 'Lợi ích', opts: Object.entries(BENEFIT_LABELS).map(([k, v]) => [k, v]) },
+  { key: 'metric', legend: 'Đổi lấy cái gì', opts: Object.entries(METRIC_LABELS).map(([k, v]) => [k, v]) },
+  { key: 'vs', legend: 'Trạng thái kiểm chứng', opts: STATUS_ORDER.map((s) => [s, VERIFICATION_LABELS[s]]) },
+];
+---
+<Base title="Tra cứu và lọc" description="Lọc các mục theo chương, mức bằng chứng, chi phí, mức đáng làm và trạng thái kiểm chứng." wide>
+  <div class="page-head"><h1>Tra cứu và lọc</h1><p>Chọn nhiều điều kiện cùng lúc. Trong cùng một nhóm, chọn nhiều ô nghĩa là “hoặc”; giữa các nhóm là “và”. Muốn tìm theo từ khóa trong nội dung, dùng <a href="/tim-kiem/">Tìm kiếm</a>.</p></div>
+
+  <form class="filters js-only" id="filters" aria-label="Bộ lọc" onsubmit="return false">
+    <div class="filters__row">
+      <div>
+        <label for="f-q"><strong>Lọc theo tiêu đề</strong> (không dấu cũng được)</label>
+        <input id="f-q" type="search" autocomplete="off" />
+      </div>
+      <div class="chapter-opts">
+        <label for="f-ch"><strong>Chương</strong></label><br />
+        <select id="f-ch">
+          <option value="">Tất cả chương</option>
+          {chapters.map((c) => <option value={String(c.data.number)}>{c.data.number}. {c.data.title}</option>)}
+        </select>
+      </div>
+    </div>
+    {groups.map((g) => (
+      <fieldset data-group={g.key}>
+        <legend>{g.legend}</legend>
+        <div class="opts">
+          {g.opts.map(([v, label]) => (
+            <label class="opt"><input type="checkbox" name={g.key} value={v} /><span>{label}</span></label>
+          ))}
+        </div>
+      </fieldset>
+    ))}
+    <div><button class="btn btn--ghost" type="button" id="f-reset"><Icon name="x" size={16} />Xóa bộ lọc</button></div>
+  </form>
+
+  <div class="result-bar js-only">
+    <p id="f-count" role="status" aria-live="polite">{entries.length} mục</p>
+  </div>
+  <p class="no-js-only muted">Bộ lọc cần JavaScript. Dưới đây là toàn bộ danh sách, không lọc.</p>
+
+  <ul class="entry-list" id="f-list">
+    {entries.map((e) => {
+      const d = e.data;
+      return (
+        <li class="entry-row" data-ch={d.chapter} data-ev={d.evidence} data-worth={worthOf(d)} data-money={d.cost.money} data-time={d.cost.time} data-will={d.cost.will} data-benefit={d.benefit} data-metric={d.metric} data-vs={d.verification.status} data-t={fold(d.title)}>
+          <EntryCard entry={e} slim />
+        </li>
+      );
+    })}
+  </ul>
+  <p class="js-only muted" id="f-empty" hidden>Không có mục nào khớp. Bỏ bớt điều kiện lọc.</p>
+  <script>import '../scripts/filter.ts';</script>
+</Base>

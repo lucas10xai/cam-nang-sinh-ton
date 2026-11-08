@@ -1,0 +1,26 @@
+---
+import ghiCong from '../../GHI-CONG.md?raw';
+import Base from '../layouts/Base.astro';
+import { DISCLAIMER, renderPlainMd } from '../lib/site';
+const md = ghiCong.replace(/^# .*\n/, '');
+const credits = renderPlainMd(md);
+---
+<Base title="Giới thiệu và ghi công" description="Dự án công ích mã nguồn mở, biên soạn lại theo luật pháp Việt Nam. Ghi công chuỗi tác giả CC BY 4.0.">
+  <div class="page-head"><h1>Giới thiệu và ghi công</h1></div>
+  <section class="prose" aria-labelledby="gt-h">
+    <h2 id="gt-h">Dự án này là gì</h2>
+    <p><strong>Cẩm nang sinh tồn</strong> là sản phẩm công ích mã nguồn mở: một trang đọc tiếng Việt về những việc nhỏ, rẻ, làm được, giúp sống lâu hơn, đỡ tốn hơn và ít vướng luật hơn. Nội dung được biên soạn lại từ <em>高性价比人生指南</em> theo bối cảnh, luật pháp và đời sống ở Việt Nam.</p>
+    <h2>Nguyên tắc</h2>
+    <ul>
+      <li><strong>Đúng hơn là nhiều.</strong> Không bịa số, không bịa điều luật. Điều chưa kiểm chứng được gắn nhãn, không giấu.</li>
+      <li><strong>Chưa có chuyên gia duyệt.</strong> {DISCLAIMER} Mỗi mục hiển thị trạng thái kiểm chứng của chính nó.</li>
+      <li><strong>Dữ liệu tách khỏi giao diện.</strong> Luật đổi thì sửa dữ liệu, không sửa mã.</li>
+      <li><strong>Riêng tư.</strong> Không theo dõi, không quảng cáo, không font hay thư viện từ máy chủ ngoài, không tài khoản. Phần “đã đọc, đã làm” chỉ nằm trong trình duyệt của bạn.</li>
+      <li><strong>Ghi công đầy đủ</strong> theo CC BY 4.0 và nói rõ nội dung đã bị sửa. Mã nguồn theo giấy phép MIT.</li>
+    </ul>
+  </section>
+  <section class="prose" aria-labelledby="gc-h">
+    <h2 id="gc-h">Ghi công</h2>
+    <div class="credits" set:html={credits} />
+  </section>
+</Base>

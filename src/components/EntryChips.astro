@@ -1,0 +1,16 @@
+---
+import Chip from './Chip.astro';
+import { COST_LABELS, WORTH_LABELS, WORTH_NOTE, worthOf, type Entry } from '../lib/site';
+interface Props { entry: Entry; compact?: boolean; slim?: boolean; }
+const { entry, slim = false } = Astro.props;
+const ic = (n: string) => (slim ? undefined : n);
+const d = entry.data;
+const worth = worthOf(d);
+---
+<ul class="chips" data-pagefind-ignore aria-label="Chi phí, bằng chứng và mức đáng làm">
+  <li><Chip icon={ic("banknote")} tone={d.cost.money === '0' ? 'good' : 'plain'}>{COST_LABELS.money[d.cost.money]}</Chip></li>
+  <li><Chip icon={ic("clock")}>{COST_LABELS.time[d.cost.time]}</Chip></li>
+  <li><Chip icon={ic("zap")}>{COST_LABELS.will[d.cost.will]}</Chip></li>
+  <li><Chip icon={ic("file-text")} tone={`ev-${d.evidence}`}>Bằng chứng {d.evidence}</Chip></li>
+  <li><Chip icon={ic("check")} tone={`worth-${worth}`} title={WORTH_NOTE}>Đáng làm: {WORTH_LABELS[worth].toLowerCase()}</Chip></li>
+</ul>

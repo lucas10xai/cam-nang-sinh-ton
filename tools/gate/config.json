@@ -1,0 +1,42 @@
+{
+  "requiredSections": ["Nói dễ hiểu", "Chi phí", "Lợi ích", "Ghi chú", "Nguồn"],
+  "optionalSections": ["Pháp luật Việt Nam"],
+  "sectionOrder": ["Nói dễ hiểu", "Chi phí", "Lợi ích", "Pháp luật Việt Nam", "Ghi chú", "Nguồn"],
+  "trustedDomains": [
+    "gov.vn",
+    "chinhphu.vn",
+    "vbpl.vn",
+    "quochoi.vn",
+    "moh.gov.vn",
+    "moj.gov.vn",
+    "molisa.gov.vn",
+    "toaan.gov.vn",
+    "vksndtc.gov.vn",
+    "gdt.gov.vn",
+    "vss.gov.vn",
+    "baohiemxahoi.gov.vn"
+  ],
+  "forbiddenKeywords": [
+    { "pattern": "\\[chưa kiểm chứng\\]", "flags": "iu", "label": "[chưa kiểm chứng]" },
+    { "pattern": "\\bTODO\\b", "flags": "u", "label": "TODO" },
+    { "pattern": "\\bXXX\\b", "flags": "u", "label": "XXX" },
+    { "pattern": "lorem", "flags": "iu", "label": "lorem" }
+  ],
+  "numbers": {
+    "minSignificantInteger": 11,
+    "ignoreNumbers": [111, 112, 113, 114, 115, 1900]
+  },
+  "links": {
+    "timeoutMs": 15000,
+    "retries": 2,
+    "backoffBaseMs": 1000,
+    "maxRetryAfterMs": 10000,
+    "globalConcurrency": 8,
+    "perHostConcurrency": 2,
+    "perHostMinIntervalMs": 1000,
+    "cacheFile": ".cache/gate-links.json",
+    "okTtlHours": 168,
+    "deadTtlHours": 24,
+    "userAgent": "CamNangSinhTon-LinkCheck/1.0 (+http://2k.io.vn)"
+  }
+}

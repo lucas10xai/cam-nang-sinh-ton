@@ -1,0 +1,11 @@
+---
+import Icon from './icons/Icon.astro';
+import { VERIFICATION_TONE, verificationLabel, verificationNote, type Entry } from '../lib/site';
+interface Props { v: Entry['data']['verification']; slim?: boolean; }
+const { v, slim = false } = Astro.props;
+const note = verificationNote(v);
+const tip = [note.lead, note.text].filter(Boolean).join(' ');
+const tone = VERIFICATION_TONE[v.status] ?? 'none';
+const icon = tone === 'none' ? 'alert-triangle' : tone === 'review' ? 'shield-alert' : 'shield-check';
+---
+<span class={`badge badge--${tone}`} title={tip}>{!slim && <Icon name={icon} size={14} />}{verificationLabel(v)}</span>

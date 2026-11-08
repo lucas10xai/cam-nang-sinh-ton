@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/icons/Icon.astro';
+import { loadAll, entryCode } from '../lib/site';
+const { entries } = await loadAll();
+const index = entries.map((e) => ({ id: e.data.id, code: entryCode(e), title: e.data.title }));
+---
+<Base title="Việc của tôi" description="Các mục bạn đã đọc và đã làm, lưu trong trình duyệt của bạn." noindex>
+  <div class="page-head">
+    <h1>Việc của tôi</h1>
+    <p>Danh sách này chỉ nằm trong trình duyệt này (localStorage). Không có tài khoản, không gửi đi đâu. Xóa dữ liệu trình duyệt là mất, và nó không chuyển sang máy khác.</p>
+  </div>
+  <noscript><p>Trang này cần JavaScript để đọc danh sách đã lưu.</p></noscript>
+  <div id="todo-root" class="js-only">
+    <section aria-labelledby="done-h"><h2 id="done-h">Đã làm <span id="done-n" class="muted"></span></h2><ul class="todo-list" id="done-list"></ul><p id="done-empty" class="muted" hidden>Chưa có mục nào. Mở một mục và bấm “Đánh dấu đã làm”.</p></section>
+    <section aria-labelledby="read-h"><h2 id="read-h">Đã đọc <span id="read-n" class="muted"></span></h2><ul class="todo-list" id="read-list"></ul><p id="read-empty" class="muted" hidden>Chưa có mục nào. Mở một mục và bấm “Đánh dấu đã đọc”.</p></section>
+    <p><button class="btn btn--ghost" type="button" id="clear-all"><Icon name="trash" size={16} />Xóa toàn bộ đánh dấu</button></p>
+  </div>
+  <script type="application/json" id="entry-index" set:html={JSON.stringify(index)} />
+  <script>import '../scripts/todo.ts';</script>
+</Base>

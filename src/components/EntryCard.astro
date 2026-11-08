@@ -1,0 +1,12 @@
+---
+import EntryChips from './EntryChips.astro';
+import VerifyBadge from './VerifyBadge.astro';
+import { url, entryCode, type Entry } from '../lib/site';
+interface Props { entry: Entry; badge?: boolean; slim?: boolean; }
+const { entry, badge = true, slim = false } = Astro.props;
+---
+<article class="card entry-card">
+  <h3 class="entry-card__title"><span class="entry-card__code">{entryCode(entry)}</span> <a href={url.entry(entry.data.id)}>{entry.data.title}</a></h3>
+  <EntryChips entry={entry} slim={slim} />
+  {badge && <p class="entry-card__v"><VerifyBadge v={entry.data.verification} slim={slim} /></p>}
+</article>

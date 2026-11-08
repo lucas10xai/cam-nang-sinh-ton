@@ -1,0 +1,755 @@
+{
+  "generated_at": "2026-11-08T06:49:28.919Z",
+  "total": 785,
+  "totals": {
+    "by_status": {
+      "consistency-checked": 1,
+      "needs-legal-review": 1,
+      "needs-medical-review": 2,
+      "source-checked": 3,
+      "unverified": 778
+    },
+    "by_vn_class": {
+      "unclassified": 785
+    },
+    "by_rewrite_status": {
+      "imported": 785
+    }
+  },
+  "chapters": {
+    "1": {
+      "total": 49,
+      "by_status": {
+        "source-checked": 1,
+        "unverified": 48
+      },
+      "by_vn_class": {
+        "unclassified": 49
+      },
+      "by_rewrite_status": {
+        "imported": 49
+      }
+    },
+    "2": {
+      "total": 47,
+      "by_status": {
+        "source-checked": 1,
+        "unverified": 46
+      },
+      "by_vn_class": {
+        "unclassified": 47
+      },
+      "by_rewrite_status": {
+        "imported": 47
+      }
+    },
+    "3": {
+      "total": 27,
+      "by_status": {
+        "unverified": 27
+      },
+      "by_vn_class": {
+        "unclassified": 27
+      },
+      "by_rewrite_status": {
+        "imported": 27
+      }
+    },
+    "4": {
+      "total": 18,
+      "by_status": {
+        "unverified": 18
+      },
+      "by_vn_class": {
+        "unclassified": 18
+      },
+      "by_rewrite_status": {
+        "imported": 18
+      }
+    },
+    "5": {
+      "total": 50,
+      "by_status": {
+        "unverified": 50
+      },
+      "by_vn_class": {
+        "unclassified": 50
+      },
+      "by_rewrite_status": {
+        "imported": 50
+      }
+    },
+    "6": {
+      "total": 35,
+      "by_status": {
+        "unverified": 35
+      },
+      "by_vn_class": {
+        "unclassified": 35
+      },
+      "by_rewrite_status": {
+        "imported": 35
+      }
+    },
+    "7": {
+      "total": 23,
+      "by_status": {
+        "needs-legal-review": 1,
+        "unverified": 22
+      },
+      "by_vn_class": {
+        "unclassified": 23
+      },
+      "by_rewrite_status": {
+        "imported": 23
+      }
+    },
+    "8": {
+      "total": 46,
+      "by_status": {
+        "unverified": 46
+      },
+      "by_vn_class": {
+        "unclassified": 46
+      },
+      "by_rewrite_status": {
+        "imported": 46
+      }
+    },
+    "9": {
+      "total": 29,
+      "by_status": {
+        "unverified": 29
+      },
+      "by_vn_class": {
+        "unclassified": 29
+      },
+      "by_rewrite_status": {
+        "imported": 29
+      }
+    },
+    "10": {
+      "total": 23,
+      "by_status": {
+        "unverified": 23
+      },
+      "by_vn_class": {
+        "unclassified": 23
+      },
+      "by_rewrite_status": {
+        "imported": 23
+      }
+    },
+    "11": {
+      "total": 21,
+      "by_status": {
+        "unverified": 21
+      },
+      "by_vn_class": {
+        "unclassified": 21
+      },
+      "by_rewrite_status": {
+        "imported": 21
+      }
+    },
+    "12": {
+      "total": 28,
+      "by_status": {
+        "unverified": 28
+      },
+      "by_vn_class": {
+        "unclassified": 28
+      },
+      "by_rewrite_status": {
+        "imported": 28
+      }
+    },
+    "13": {
+      "total": 49,
+      "by_status": {
+        "needs-medical-review": 2,
+        "unverified": 47
+      },
+      "by_vn_class": {
+        "unclassified": 49
+      },
+      "by_rewrite_status": {
+        "imported": 49
+      }
+    },
+    "14": {
+      "total": 12,
+      "by_status": {
+        "unverified": 12
+      },
+      "by_vn_class": {
+        "unclassified": 12
+      },
+      "by_rewrite_status": {
+        "imported": 12
+      }
+    },
+    "15": {
+      "total": 18,
+      "by_status": {
+        "unverified": 18
+      },
+      "by_vn_class": {
+        "unclassified": 18
+      },
+      "by_rewrite_status": {
+        "imported": 18
+      }
+    },
+    "16": {
+      "total": 14,
+      "by_status": {
+        "unverified": 14
+      },
+      "by_vn_class": {
+        "unclassified": 14
+      },
+      "by_rewrite_status": {
+        "imported": 14
+      }
+    },
+    "17": {
+      "total": 12,
+      "by_status": {
+        "unverified": 12
+      },
+      "by_vn_class": {
+        "unclassified": 12
+      },
+      "by_rewrite_status": {
+        "imported": 12
+      }
+    },
+    "18": {
+      "total": 7,
+      "by_status": {
+        "unverified": 7
+      },
+      "by_vn_class": {
+        "unclassified": 7
+      },
+      "by_rewrite_status": {
+        "imported": 7
+      }
+    },
+    "19": {
+      "total": 25,
+      "by_status": {
+        "unverified": 25
+      },
+      "by_vn_class": {
+        "unclassified": 25
+      },
+      "by_rewrite_status": {
+        "imported": 25
+      }
+    },
+    "20": {
+      "total": 17,
+      "by_status": {
+        "unverified": 17
+      },
+      "by_vn_class": {
+        "unclassified": 17
+      },
+      "by_rewrite_status": {
+        "imported": 17
+      }
+    },
+    "21": {
+      "total": 13,
+      "by_status": {
+        "unverified": 13
+      },
+      "by_vn_class": {
+        "unclassified": 13
+      },
+      "by_rewrite_status": {
+        "imported": 13
+      }
+    },
+    "22": {
+      "total": 13,
+      "by_status": {
+        "unverified": 13
+      },
+      "by_vn_class": {
+        "unclassified": 13
+      },
+      "by_rewrite_status": {
+        "imported": 13
+      }
+    },
+    "23": {
+      "total": 25,
+      "by_status": {
+        "unverified": 25
+      },
+      "by_vn_class": {
+        "unclassified": 25
+      },
+      "by_rewrite_status": {
+        "imported": 25
+      }
+    },
+    "24": {
+      "total": 15,
+      "by_status": {
+        "unverified": 15
+      },
+      "by_vn_class": {
+        "unclassified": 15
+      },
+      "by_rewrite_status": {
+        "imported": 15
+      }
+    },
+    "25": {
+      "total": 12,
+      "by_status": {
+        "unverified": 12
+      },
+      "by_vn_class": {
+        "unclassified": 12
+      },
+      "by_rewrite_status": {
+        "imported": 12
+      }
+    },
+    "26": {
+      "total": 13,
+      "by_status": {
+        "unverified": 13
+      },
+      "by_vn_class": {
+        "unclassified": 13
+      },
+      "by_rewrite_status": {
+        "imported": 13
+      }
+    },
+    "27": {
+      "total": 20,
+      "by_status": {
+        "unverified": 20
+      },
+      "by_vn_class": {
+        "unclassified": 20
+      },
+      "by_rewrite_status": {
+        "imported": 20
+      }
+    },
+    "28": {
+      "total": 10,
+      "by_status": {
+        "unverified": 10
+      },
+      "by_vn_class": {
+        "unclassified": 10
+      },
+      "by_rewrite_status": {
+        "imported": 10
+      }
+    },
+    "29": {
+      "total": 14,
+      "by_status": {
+        "unverified": 14
+      },
+      "by_vn_class": {
+        "unclassified": 14
+      },
+      "by_rewrite_status": {
+        "imported": 14
+      }
+    },
+    "30": {
+      "total": 21,
+      "by_status": {
+        "unverified": 21
+      },
+      "by_vn_class": {
+        "unclassified": 21
+      },
+      "by_rewrite_status": {
+        "imported": 21
+      }
+    },
+    "31": {
+      "total": 17,
+      "by_status": {
+        "consistency-checked": 1,
+        "unverified": 16
+      },
+      "by_vn_class": {
+        "unclassified": 17
+      },
+      "by_rewrite_status": {
+        "imported": 17
+      }
+    },
+    "32": {
+      "total": 12,
+      "by_status": {
+        "unverified": 12
+      },
+      "by_vn_class": {
+        "unclassified": 12
+      },
+      "by_rewrite_status": {
+        "imported": 12
+      }
+    },
+    "33": {
+      "total": 21,
+      "by_status": {
+        "unverified": 21
+      },
+      "by_vn_class": {
+        "unclassified": 21
+      },
+      "by_rewrite_status": {
+        "imported": 21
+      }
+    },
+    "34": {
+      "total": 14,
+      "by_status": {
+        "unverified": 14
+      },
+      "by_vn_class": {
+        "unclassified": 14
+      },
+      "by_rewrite_status": {
+        "imported": 14
+      }
+    },
+    "35": {
+      "total": 10,
+      "by_status": {
+        "unverified": 10
+      },
+      "by_vn_class": {
+        "unclassified": 10
+      },
+      "by_rewrite_status": {
+        "imported": 10
+      }
+    },
+    "36": {
+      "total": 5,
+      "by_status": {
+        "source-checked": 1,
+        "unverified": 4
+      },
+      "by_vn_class": {
+        "unclassified": 5
+      },
+      "by_rewrite_status": {
+        "imported": 5
+      }
+    }
+  },
+  "cells": [
+    {
+      "chapter": 1,
+      "status": "source-checked",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 1
+    },
+    {
+      "chapter": 1,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 48
+    },
+    {
+      "chapter": 2,
+      "status": "source-checked",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 1
+    },
+    {
+      "chapter": 2,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 46
+    },
+    {
+      "chapter": 3,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 27
+    },
+    {
+      "chapter": 4,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 18
+    },
+    {
+      "chapter": 5,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 50
+    },
+    {
+      "chapter": 6,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 35
+    },
+    {
+      "chapter": 7,
+      "status": "needs-legal-review",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 1
+    },
+    {
+      "chapter": 7,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 22
+    },
+    {
+      "chapter": 8,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 46
+    },
+    {
+      "chapter": 9,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 29
+    },
+    {
+      "chapter": 10,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 23
+    },
+    {
+      "chapter": 11,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 21
+    },
+    {
+      "chapter": 12,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 28
+    },
+    {
+      "chapter": 13,
+      "status": "needs-medical-review",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 2
+    },
+    {
+      "chapter": 13,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 47
+    },
+    {
+      "chapter": 14,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 12
+    },
+    {
+      "chapter": 15,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 18
+    },
+    {
+      "chapter": 16,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 14
+    },
+    {
+      "chapter": 17,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 12
+    },
+    {
+      "chapter": 18,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 7
+    },
+    {
+      "chapter": 19,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 25
+    },
+    {
+      "chapter": 20,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 17
+    },
+    {
+      "chapter": 21,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 13
+    },
+    {
+      "chapter": 22,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 13
+    },
+    {
+      "chapter": 23,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 25
+    },
+    {
+      "chapter": 24,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 15
+    },
+    {
+      "chapter": 25,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 12
+    },
+    {
+      "chapter": 26,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 13
+    },
+    {
+      "chapter": 27,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 20
+    },
+    {
+      "chapter": 28,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 10
+    },
+    {
+      "chapter": 29,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 14
+    },
+    {
+      "chapter": 30,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 21
+    },
+    {
+      "chapter": 31,
+      "status": "consistency-checked",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 1
+    },
+    {
+      "chapter": 31,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 16
+    },
+    {
+      "chapter": 32,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 12
+    },
+    {
+      "chapter": 33,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 21
+    },
+    {
+      "chapter": 34,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 14
+    },
+    {
+      "chapter": 35,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 10
+    },
+    {
+      "chapter": 36,
+      "status": "source-checked",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 1
+    },
+    {
+      "chapter": 36,
+      "status": "unverified",
+      "vn_class": "unclassified",
+      "rewrite_status": "imported",
+      "count": 4
+    }
+  ]
+}
