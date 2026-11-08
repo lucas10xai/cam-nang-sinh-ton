@@ -21,10 +21,10 @@ steps:
   - "Không chờ hết đau mới đi."
 legal_refs: []
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13bB
+  scope: "Chặn nâng trạng thái: 1 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/mat-sung-dau-do-nhin-den-thay-quang-cau-vong-dau-dau.yml)"
   sources: []
 origin:
   zh: null

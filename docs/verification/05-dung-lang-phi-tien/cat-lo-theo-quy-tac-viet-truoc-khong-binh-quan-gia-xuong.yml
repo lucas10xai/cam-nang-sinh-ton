@@ -1,0 +1,73 @@
+id: cat-lo-theo-quy-tac-viet-truoc-khong-binh-quan-gia-xuong
+checker: agent-Vf05h
+checked_at: 2026-11-08
+content_sha256: "34d3c814cbf185afd2aafd0d29c42850625a76f625422a06f6bd71007d70cd16"
+result: pass-with-edits
+claims:
+  - text: "10.000 tài khoản tại một công ty môi giới chiết khấu ở Mỹ, giai đoạn 1987–1993"
+    source_url: https://faculty.haas.berkeley.edu/odean/papers%20current%20versions/areinvestorsreluctant.pdf
+    quote: "To test the disposition effect, I obtained the trading records from 1987 through 1993 for 10,000 accounts at a large discount brokerage house."
+    verdict: match
+    note: "Bản PDF do chính tác giả đăng (Berkeley Haas), cùng tiêu đề/DOI 10.1111/0022-1082.00072 (Crossref xác nhận J. Finance 53(5):1775-1798). doi.org chưa mở trực tiếp, dùng bản tác giả."
+  - text: "Tỷ lệ bán cổ phiếu đang lãi 0,148 so với 0,098 ở cổ phiếu đang lỗ; chênh 0,050, t lớn hơn 35"
+    source_url: https://faculty.haas.berkeley.edu/odean/papers%20current%20versions/areinvestorsreluctant.pdf
+    quote: "Entire Year December Jan.–Nov. PLR 0.098 0.128 0.094 PGR 0.148 0.108 0.152"
+    verdict: match
+    note: "Bảng I, cột Entire Year: PGR 0.148, PLR 0.098. Dòng Difference/t-statistic bị trích máy hỏng dấu trừ (hiện '20.050', '235' = -0.050, -35); độ lớn |t|=35 khớp 'lớn hơn 35'."
+  - text: "Cổ phiếu lãi bị bán cao hơn khoảng 50% so với cổ phiếu lỗ"
+    source_url: https://faculty.haas.berkeley.edu/odean/papers%20current%20versions/areinvestorsreluctant.pdf
+    quote: "In Table I the ratio of PGR to PLR for the entire year is a little over 1.5, indicating that a stock that is up in value is more than 50 percent more likely to be sold from day to day than a stock that is down."
+    verdict: match
+    note: "Tóm tắt Việt: tỷ số PGR/PLR hơn 1,5, cổ phiếu đang lãi có khả năng bị bán mỗi ngày cao hơn trên 50% so với cổ phiếu đang lỗ."
+  - text: "Cổ phiếu lãi bị bán có lợi suất vượt thị trường một năm sau cao hơn cổ phiếu lỗ được giữ khoảng 3,4 điểm %"
+    source_url: https://faculty.haas.berkeley.edu/odean/papers%20current%20versions/areinvestorsreluctant.pdf
+    quote: "For winners that are sold, the average excess return over the following year is 3.4 percent more than it is for losers that are not sold."
+    verdict: match
+    note: "Tóm tắt Việt: lợi suất vượt chỉ số CRSP trong năm sau của cổ phiếu lãi đã bán cao hơn của cổ phiếu lỗ không bán 3,4%. Bài viết đọc là 'điểm %' (chênh lệch lợi suất vượt) là hợp lý. Đây là trung bình của dữ liệu Mỹ 1987-93, không chứng minh 'cắt lỗ' nói chung có lợi."
+  - text: "Cùng nhóm nhà đầu tư mua lại cổ phiếu lỗ nhiều hơn (0,135 so với 0,094)"
+    source_url: https://faculty.haas.berkeley.edu/odean/papers%20current%20versions/areinvestorsreluctant.pdf
+    quote: "For the entire sample PLPA 5 0.135 and PGPA 5 0.094."
+    verdict: partial
+    note: "PLPA/PGPA là tỷ lệ MUA THÊM cổ phiếu cùng mã đang lỗ/lãi (additional purchases), không phải 'mua lại' sau khi bán. Chữ 'mua lại' dễ hiểu thành bán rồi mua lại. Nên sửa thành 'mua thêm cổ phiếu đang lỗ'."
+  - text: "Mỗi lần bán chịu thuế 0,1% giá trị (Điều 13 khoản 2 Luật TNCN 109/2025/QH15)"
+    source_url: https://cdn.thuvienphapluat.vn/uploads/tintuc/2025/12/30/Lu%E1%BA%ADt-109-2025-QH15.pdf
+    quote: "Thuế thu nhập cá nhân đối với thu nhập từ chuyển nhượng chứng khoán được xác định bằng giá chuyển nhượng nhân (x) với thuế suất 0,1% theo từng lần chuyển nhượng."
+    verdict: match-secondary
+    note: "Bản PDF do thuvienphapluat đăng (bản sao thứ cấp), nội dung Điều 13 khoản 2 khớp. Chưa tải được bản Công báo/quochoi.vn nên không ghi match. Điều 29 khoản 1: luật có hiệu lực từ 01/7/2026."
+  - text: "Bán cắt lỗ rồi mua lại tốn thêm một vòng thuế và phí"
+    source_url: https://cdn.thuvienphapluat.vn/uploads/tintuc/2025/12/30/Lu%E1%BA%ADt-109-2025-QH15.pdf
+    quote: "xác định bằng giá chuyển nhượng nhân (x) với thuế suất 0,1% theo từng lần chuyển nhượng"
+    verdict: inference
+    note: "Suy ra từ thuế tính theo từng lần chuyển nhượng trên giá chuyển nhượng; phần 'mua lại' và 'phí' không phải chữ của luật."
+  - text: "Các bước: bán khi lý do mua không còn đúng; không mua thêm để hạ giá vốn nếu chưa xem lại luận điểm"
+    source_url: https://doi.org/10.1111/0022-1082.00072
+    quote: "Investors who sell winners and hold losers because they expect the losers to outperform the winners in the future are, on average, mistaken."
+    verdict: inference
+    note: "Odean chỉ đo hiệu ứng 'giữ lỗ bán lãi' trong dữ liệu Mỹ. Quy tắc 'viết trước điều kiện bán / bán khi luận điểm sai' là lời khuyên hành vi suy ra, không phải kết quả bài báo. Cần gắn nhãn 'suy ra từ' hoặc ghi chú rằng bằng chứng không kiểm tra quy tắc cắt lỗ."
+  - text: "Bẫy 2: mã bị kiểm soát/tạm ngừng giao dịch/hủy niêm yết là chuyện có thật trên HOSE, HNX, UPCoM"
+    source_url: https://doi.org/10.1111/0022-1082.00072
+    quote: "(không có nguồn trong mục)"
+    verdict: not-found
+    note: "Không dẫn quy chế niêm yết/giao dịch nào của HOSE/HNX trong mục. Cần dẫn Quy chế niêm yết hoặc bỏ."
+internal_checks:
+  - issue: "legal_refs[0].url = null, effective_from/checked_at/quote = null: không kiểm được liên kết văn bản (tiêu chí d) và không có ngày kiểm hiệu lực."
+    severity: warn
+  - issue: "Con số trong tldr (50%, 3,4 điểm %) đều có trong thân; không mâu thuẫn số nội bộ (0,148/0,098 = 1,51 khớp 'khoảng 50%')."
+    severity: warn
+  - issue: "steps[1], steps[2], steps[3] (bán khi lý do sai, không mua thêm hạ giá vốn, mua thêm theo quy tắc viết trước) chỉ có cơ sở ở phần Ghi chú (Bẫy 1, Bẫy 4) là lời khuyên không dẫn nguồn, không phải kết quả của Odean."
+    severity: warn
+  - issue: "Số liệu Odean là thị trường Mỹ 1987-1993 (nhà đầu tư cá nhân, có thuế lãi vốn); thân bài chỉ nói 'ở Mỹ' ở tldr/đoạn đầu nhưng mục áp dụng cho nhà đầu tư Việt Nam mà không có dữ liệu Việt Nam."
+    severity: warn
+validity:
+  doc: "Luật Thuế thu nhập cá nhân 109/2025/QH15"
+  in_force: true
+  effective_from: "2026-07-01"
+  amended_by: []
+  basis: "Điều 29 khoản 1 của chính văn bản: 'Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026'. Ngày kiểm 2026-11-08 sau mốc đó. Chưa tìm được văn bản sửa đổi; đọc từ bản sao thứ cấp (thuvienphapluat). Odean (1998) là bài báo, không có hiệu lực pháp lý."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Thân, mục Lợi ích: đổi 'Cùng nhóm nhà đầu tư mua lại cổ phiếu lỗ nhiều hơn (0,135 so với 0,094)' thành 'mua thêm cổ phiếu đang lỗ nhiều hơn cổ phiếu đang lãi (0,135 so với 0,094)', dựa vào 'PLPA 5 0.135 and PGPA 5 0.094'."
+  - "Thêm một câu nêu rõ bằng chứng Odean chỉ cho thấy xu hướng giữ lỗ bán lãi và lợi suất sau đó, không kiểm tra quy tắc 'cắt lỗ'; gắn nhãn 'suy ra từ' cho các bước 2-4."
+  - "Bẫy 2: dẫn quy chế niêm yết/giao dịch tương ứng hoặc xóa câu khẳng định về HOSE/HNX/UPCoM."
+  - "legal_refs: điền url (vbpl.vn hoặc Công báo của Luật 109/2025/QH15), effective_from 2026-07-01, checked_at, quote lấy từ Điều 13 khoản 2; thay bản sao thuvienphapluat bằng nguồn chính thống."

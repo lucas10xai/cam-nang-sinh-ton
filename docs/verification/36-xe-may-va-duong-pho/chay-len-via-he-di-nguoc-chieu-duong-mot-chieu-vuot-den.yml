@@ -1,0 +1,75 @@
+id: chay-len-via-he-di-nguoc-chieu-duong-mot-chieu-vuot-den
+checker: agent-Vf36a
+checked_at: 2026-11-08
+content_sha256: 7bc48ed5cd1b4b60910c39a2c32995302b9e6014a9d8b496d877437cc639d318
+result: pass-with-edits
+claims:
+  - text: 'Phạt 4.000.000-6.000.000 đồng: đi ngược chiều đường một chiều hoặc biển "Cấm đi ngược chiều"; đi trên vỉa hè (trừ vào nhà, cơ quan)'
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: '7. Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: a) Đi ngược chiều của đường một chiều, đi ngược chiều trên đường có biển "Cấm đi ngược chiều", trừ hành vi vi phạm quy định tại điểm b khoản này và các trường hợp xe ưu tiên đang đi làm nhiệm vụ khẩn cấp theo quy định; điều khiển xe đi trên vỉa hè, trừ trường hợp điều khiển xe đi qua vỉa hè để vào nhà, cơ quan;'
+    verdict: match
+    note: Điều 7 khoản 7 điểm a.
+  - text: "Phạt 4-6 triệu: đi vào đường cao tốc"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: b) Điều khiển xe đi vào đường cao tốc, trừ xe phục vụ việc quản lý, bảo trì đường cao tốc;
+    verdict: match
+    note: Điều 7 khoản 7 điểm b.
+  - text: "Phạt 4-6 triệu: không chấp hành hiệu lệnh của đèn tín hiệu giao thông"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: c) Không chấp hành hiệu lệnh của đèn tín hiệu giao thông;
+    verdict: partial
+    note: Điều 7 khoản 7 điểm c. Lỗi là "không chấp hành hiệu lệnh của đèn tín hiệu" (gồm cả đèn vàng), mục chỉ nói "vượt đèn đỏ"/"dừng chờ đèn đỏ". Đúng ý nhưng thu hẹp.
+  - text: "Phạt 4-6 triệu: không chấp hành hiệu lệnh người điều khiển giao thông; không nhường xe ưu tiên"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: d) Không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông; đ) Không nhường đường hoặc gây cản trở xe được quyền ưu tiên đang phát tín hiệu ưu tiên đi làm nhiệm vụ.
+    verdict: match
+    note: Điều 7 khoản 7 điểm d, đ.
+  - text: "Trừ 2 điểm: ngược chiều, vỉa hè (điểm a khoản 7)"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: a) Thực hiện hành vi quy định tại điểm b khoản 3; khoản 5; điểm b, điểm c, điểm d khoản 6; điểm a khoản 7 Điều này bị trừ điểm giấy phép lái xe 02 điểm;
+    verdict: match
+    note: Điều 7 khoản 13 điểm a.
+  - text: "Trừ 4 điểm: không chấp hành đèn tín hiệu, hiệu lệnh người điều khiển, không nhường xe ưu tiên"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: b) Thực hiện hành vi quy định tại điểm đ khoản 4; điểm a khoản 6; điểm c, điểm d, điểm đ khoản 7; điểm a khoản 8 Điều này bị trừ điểm giấy phép lái xe 04 điểm;
+    verdict: match
+    note: Điều 7 khoản 13 điểm b (điểm c, d, đ khoản 7). Mục ghi đúng điểm d, đ khoản 7 trừ 4 điểm.
+  - text: "Trừ 6 điểm: vào đường cao tốc"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: c) Thực hiện hành vi quy định tại điểm b khoản 7, điểm c khoản 9 Điều này bị trừ điểm giấy phép lái xe 06 điểm;
+    verdict: match
+    note: Điều 7 khoản 13 điểm c.
+  - text: "Phạt 6-8 triệu: quá tốc độ trên 20 km/h (trừ 4 điểm); nồng độ cồn 50-80 mg (trừ 10 điểm)"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: "8. Phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: a) Điều khiển xe chạy quá tốc độ quy định trên 20 km/h; b) Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 50 miligam đến 80 miligam/100 mililít máu hoặc vượt quá 0,25 miligam đến 0,4 miligam/1 lít khí thở."
+    verdict: match
+    note: 'Điều 7 khoản 8 điểm a, b; trừ điểm: khoản 13 điểm b (điểm a khoản 8: 4 điểm) và điểm d (điểm b khoản 8: 10 điểm), đã trích ở các claim trên (điểm d: "d) Thực hiện hành vi quy định tại điểm b khoản 8, khoản 10 Điều này bị trừ điểm giấy phép lái xe 10 điểm.").'
+  - text: "Ngoại lệ: qua vỉa hè vào nhà, cơ quan; xe ưu tiên làm nhiệm vụ khẩn cấp được đi ngược chiều"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: trừ các trường hợp xe ưu tiên đang đi làm nhiệm vụ khẩn cấp theo quy định; điều khiển xe đi trên vỉa hè, trừ trường hợp điều khiển xe đi qua vỉa hè để vào nhà, cơ quan;
+    verdict: match
+    note: Điều 7 khoản 7 điểm a.
+internal_checks:
+  - issue: 'Bẫy 2 "Không có ngoại lệ cho giờ vắng trong văn bản" và bước 2 "kể cả lúc vắng": đúng (điểm c khoản 7 không có ngoại lệ). Nhưng lỗi nêu là "không chấp hành hiệu lệnh của đèn tín hiệu", gồm cả đèn vàng; mục chỉ nói đèn đỏ.'
+    severity: warn
+  - issue: 'Tiêu đề: "mỗi lỗi bị phạt 4 đến 6 triệu đồng và trừ 2 đến 6 điểm": lỗi "vượt đèn đỏ" ghi "trừ 4 điểm" nhất quán (Nói dễ hiểu); mục 3 cùng chương nêu "ngược chiều đường một chiều 2 điểm, vượt đèn đỏ 4 điểm, vào cao tốc 6 điểm" và nhất quán với mục 5. Không mâu thuẫn số giữa mục 3, 4, 5.'
+    severity: warn
+  - issue: 'Tldr: "Chạy lên vỉa hè, đi ngược chiều đường một chiều, vượt đèn đỏ đều bị phạt 4 đến 6 triệu... Mỗi lỗi còn bị trừ 2 đến 6 điểm": đúng (2/2/4). 6 điểm chỉ cho cao tốc (không nằm trong tldr), chấp nhận.'
+    severity: warn
+  - issue: Ghi chú nhắc "chương 8 mục 7" (rượu bia); related có id da-uong-thi-khong-cam-lai-ke-ca-xe-may-dien-va, file tồn tại tại content/entries/08-.../07-da-uong-thi-khong-cam-lai-ke-ca-xe-may-dien-va.md. Không vấn đề.
+    severity: warn
+  - issue: legal_refs (Điều 7 khoản 7, 8, 13) dùng URL NĐ 168 (chinhphu.vn) đúng văn bản; khớp khẳng định. Mức "vượt quá 50 đến 80 mg" nhất quán.
+    severity: warn
+  - issue: Ghi chú viết "Mục này chỉ lấy các lỗi hay gặp nhất trong khoản 7 và 8", nhưng mục có trích điểm d, đ khoản 7 (hiệu lệnh người điều khiển, xe ưu tiên) hai điểm này không có trong tldr/steps; không sai.
+    severity: warn
+validity:
+  doc: Nghị định 168/2024/NĐ-CP (Điều 7 khoản 7, 8, 13)
+  in_force: unconfirmed
+  effective_from: 2025-01-01
+  amended_by: []
+  basis: 'Điều 53 khoản 1 Nghị định 168: "Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025". Chưa tìm được văn bản chính thống nêu 168 hết hiệu lực hay còn nguyên Điều 7/18. Có Nghị định 336/2025/NĐ-CP (22/12/2025, hiệu lực 01/03/2026) mà bản tóm tắt chinhphu.vn nói "bãi bỏ một số điều, khoản, điểm" của NĐ 100/2019 "được sửa đổi, bổ sung bởi" NĐ 123/2021 và NĐ 168/2024; PDF toàn văn của 336 là ảnh quét (không trích được chữ), bản thuvienphapluat bị chặn 403, nên không xác định được 336 có đụng tới Điều 7/18 của NĐ 168 hay không. Không kết luận còn hiệu lực chỉ vì không thấy văn bản thay thế.'
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - 'Tldr, steps, Bẫy 2: nói "không chấp hành hiệu lệnh của đèn tín hiệu giao thông (gồm đèn đỏ, đèn vàng)" thay vì chỉ "vượt đèn đỏ" (Điều 7 khoản 7 điểm c). Phần "đèn vàng" suy ra từ chữ "hiệu lệnh của đèn tín hiệu giao thông", cần gắn nhãn suy ra hoặc bỏ.'
+  - Cân nhắc đối chiếu Nghị định 336/2025/NĐ-CP (hiệu lực 01/03/2026) khi có bản chữ trích được; trước khi đặt source-checked cần xác nhận hiệu lực của Điều 7 NĐ 168.

@@ -1,0 +1,86 @@
+id: bi-nguoi-la-chan-duong-doi-tien-o-noi-vang-dua-tien
+checker: agent-Vf13hA
+checked_at: 2026-11-08
+content_sha256: "ba09414d34a706b58e406bf64737fa08b2c82c2bbd5057c8a0295c8d18b25689"
+result: pass-with-edits
+claims:
+  - text: "Điều 168 khoản 1: dùng vũ lực/đe dọa dùng vũ lực ngay tức khắc... nhằm chiếm đoạt tài sản thì phạt tù 03-10 năm"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "Người nào dùng vũ lực, đe dọa dùng vũ lực ngay tức khắc hoặc có hành vi khác làm cho người bị tấn công lâm vào tình trạng không thể chống cự được nhằm chiếm đoạt tài sản, thì bị phạt tù từ 03 năm đến 10 năm."
+    verdict: match
+    note: "Bản trong mục bỏ cụm “hoặc có hành vi khác”; không đổi nghĩa. PDF trích chữ được (có vài lỗi flate ở trang cuối, không ảnh hưởng Điều 168/22)."
+  - text: "Điều 168 khoản 2: phạt tù 07-15 năm, gồm có tổ chức; gây thương tích 11%-30%; chiếm đoạt 50-dưới 200 triệu"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm: a) Có tổ chức; ... c) Gây thương tích hoặc gây tổn hại cho sức khỏe của người khác mà tỷ lệ tổn thương cơ thể từ 11% đến 30%; d) Sử dụng vũ khí, phương tiện hoặc thủ đoạn nguy hiểm khác; đ) Chiếm đoạt tài sản trị giá từ 50.000.000 đồng đến dưới 200.000.000 đồng;"
+    verdict: match
+    note: "Các con số khớp. Mục viết “có hung khí” cho điểm d (luật: “vũ khí, phương tiện hoặc thủ đoạn nguy hiểm khác”) là diễn đạt gọn, chấp nhận được."
+  - text: "Danh sách tình tiết khoản 2 trong mục (có hung khí, có tổ chức, thương tích 11-30%, 50-<200 triệu) nối bằng “hoặc” như thể là đầy đủ"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "e) Phạm tội đối với người dưới 16 tuổi, phụ nữ mà biết là có thai, người già yếu hoặc người không có khả năng tự vệ; g) Gây ảnh hưởng xấu đến an ninh, trật tự, an toàn xã hội; h) Tái phạm nguy hiểm."
+    verdict: partial
+    note: "Khoản 2 có 8 điểm (a-h), mục chỉ nêu 4 mà không nói “ví dụ”. Cũng không nêu khoản 3 (12-20 năm) và khoản 4 (18-20 năm, chung thân, kể cả “Làm chết người”). Không gây hại nhưng nên ghi “một trong các trường hợp, ví dụ”."
+  - text: "Điều 22 khoản 1: chỉ là phòng vệ chính đáng khi chống trả cần thiết người đang có hành vi xâm phạm"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "Phòng vệ chính đáng là hành vi của người vì bảo vệ quyền hoặc lợi ích chính đáng của mình, của người khác hoặc lợi ích của Nhà nước, của cơ quan, tổ chức mà chống trả lại một cách cần thiết người đang có hành vi xâm phạm các lợi ích nói trên."
+    verdict: match
+    note: "Mục chỉ viết “chống trả cần thiết người đang có hành vi xâm phạm”, đúng ý nhưng lược “quyền hoặc lợi ích chính đáng của mình, của người khác”."
+  - text: "Điều 22 khoản 2: chống trả rõ ràng quá mức cần thiết thì vẫn phải chịu trách nhiệm hình sự"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "Vượt quá giới hạn phòng vệ chính đáng là hành vi chống trả rõ ràng quá mức cần thiết, không phù hợp với tính chất và mức độ nguy hiểm cho xã hội của hành vi xâm hại. Người có hành vi vượt quá giới hạn phòng vệ chính đáng phải chịu trách nhiệm hình sự theo quy định của Bộ luật này."
+    verdict: match
+    note: ""
+  - text: "113 tiếp nhận tin báo về cướp giật, gây rối, bạo hành và các hành vi có dấu hiệu tội phạm"
+    source_url: https://congan.dienbien.gov.vn/Danh-muc-tin-tuc/tong-hop-cac-so-dien-thoai-khan-cap-quoc-gia-ghi-nho-de-bao-ve-minh-va-ho-tro-nguoi-khac-13182.html
+    quote: "113 – Lực lượng Công an: Tiếp nhận tin báo về cướp giật, trộm cắp, gây rối, bạo hành, tai nạn giao thông và các hành vi có dấu hiệu tội phạm, ảnh hưởng đến an ninh trật tự."
+    verdict: match
+    note: "Nguồn là trang tin của Công an tỉnh Điện Biên (cơ quan công an, đã mở được, chữ trích được), không phải văn bản quy phạm. Mức độ tin cậy chấp nhận được cho đầu số."
+  - text: "Gọi 113 miễn phí trên toàn quốc"
+    source_url: https://congan.dienbien.gov.vn/Danh-muc-tin-tuc/tong-hop-cac-so-dien-thoai-khan-cap-quoc-gia-ghi-nho-de-bao-ve-minh-va-ho-tro-nguoi-khac-13182.html
+    quote: "Theo quy định của Luật Viễn thông, các cuộc gọi đến số khẩn cấp hoàn toàn miễn phí."
+    verdict: match
+    note: "Cụm “toàn quốc” trong trang gắn với số 112; với 113 trang nói bấm trực tiếp không cần mã vùng khi cùng khu vực, gọi sang địa phương khác phải thêm mã vùng. Mục không nói điều này (xem suggested_edits)."
+  - text: "Đưa tiền, không giằng co thì an toàn hơn chống lại"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: ""
+    verdict: inference
+    note: "Mục tự nhận (Ghi chú) đây là suy luận, không có nghiên cứu/hướng dẫn nào. Điều 22 không dặn nên hay không nên chống trả. Evidence C phù hợp. Không có hướng dẫn công an/Bộ Công an được dẫn."
+  - text: "Đưa tiền không xóa hành vi cướp và không làm mất quyền yêu cầu xử lý (Bẫy 1)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: ""
+    verdict: inference
+    note: "Hợp lý theo cấu thành Điều 168 (chiếm đoạt bằng đe dọa), nhưng không có câu nào trong nguồn nói vậy."
+  - text: "Đuổi theo đánh khi người ta đã bỏ chạy thì không còn là phòng vệ (Bẫy 2)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "chống trả lại một cách cần thiết người đang có hành vi xâm phạm các lợi ích nói trên."
+    verdict: inference
+    note: "Suy ra từ “đang có hành vi xâm phạm”; luật không nói riêng trường hợp bỏ chạy."
+  - text: "Đưa điện thoại đang mở khóa/mã khóa hoặc đi theo lên xe 'biến một vụ mất đồ thành một vụ khác nặng hơn' (Bẫy 3 / steps[2])"
+    source_url: https://congan.dienbien.gov.vn/Danh-muc-tin-tuc/tong-hop-cac-so-dien-thoai-khan-cap-quoc-gia-ghi-nho-de-bao-ve-minh-va-ho-tro-nguoi-khac-13182.html
+    quote: ""
+    verdict: not-found
+    note: "Không nguồn nào được dẫn nói điều này. Lời khuyên an toàn có lý (không để lộ mã khóa, không bị đưa đi nơi khác) nhưng mục không dẫn bất kỳ hướng dẫn nào."
+internal_checks:
+  - issue: "Tiêu đề/tình huống “chặn đường đòi tiền” nhưng cả mục áp Điều 168 (cướp: vũ lực/đe dọa dùng vũ lực NGAY TỨC KHẮC). Nếu chỉ đe dọa gây hại trong tương lai thì cấu thành khác (cưỡng đoạt, Điều 170). Mục không nói rõ phạm vi áp dụng Điều 168."
+    severity: warn
+  - issue: "Chi phí nói mất “có khi cả điện thoại và đồng hồ” nhưng steps[2] bảo không đưa điện thoại đang mở khóa/mã khóa. Hai câu không mâu thuẫn hẳn (đưa máy khóa được, không đưa mã) nhưng không được làm rõ; người đọc có thể hiểu là được từ chối đưa điện thoại."
+    severity: warn
+  - issue: "steps[2] (không đưa mã khóa, không đi theo lên xe) không có cơ sở trong phần Pháp luật/Lợi ích; chỉ có ở Ghi chú Bẫy 3, không nguồn."
+    severity: warn
+  - issue: "Mọi con số trong tldr/steps (113, miễn phí) có trong thân. Không có số nào mâu thuẫn nhau. legal_refs[].url cùng trỏ BLHS VBHN 135 trên datafiles.chinhphu.vn; PDF nội dung đúng là Bộ luật Hình sự (đã thấy Điều 22, 168); số hiệu “135/VBHN-VPQH” không đọc được trong chữ trích (trang ký cuối lỗi giải nén), chỉ suy từ tên file."
+    severity: warn
+  - issue: "legal_refs[].article (Điều 168 khoản 1/2, Điều 22 khoản 1,2) đều khớp khẳng định tương ứng. Không có mục cùng chương (37, 39) nêu số khác về 113/115."
+    severity: warn
+validity:
+  doc: "Bộ luật Hình sự 100/2015/QH13 (VBHN 135/VBHN-VPQH, bản hợp nhất 2025)"
+  in_force: true
+  effective_from: "2018-01-01"
+  amended_by: ["Luật 12/2017/QH14", "Luật 59/2024/QH15 (Tư pháp người chưa thành niên)", "Luật 86/2025/QH15 (hiệu lực 2025-07-01)"]
+  basis: "Trang đầu VBHN liệt kê các luật sửa đổi mới nhất là Luật 86/2025/QH15 (hiệu lực 01/7/2025). Tìm tin tháng 10/2026: Bộ luật Hình sự (sửa đổi) còn đang được Quốc hội thảo luận (phiên 27/10/2026), chưa thấy bản đã thông qua; vì vậy Điều 22, 168 hiện vẫn áp dụng. Cần kiểm lại sau kỳ họp thứ 2 Quốc hội khóa XVI vì BLHS sửa đổi sắp được thông qua."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Mục Pháp luật, khoản 2 Điều 168: đổi “khi có hung khí, có tổ chức, ...” thành “Phạm tội thuộc một trong các trường hợp sau, ví dụ: có tổ chức; sử dụng vũ khí, phương tiện hoặc thủ đoạn nguy hiểm khác; ...” và thêm một dòng nói khoản 3-4 nặng hơn (12-20 năm; 18-20 năm, chung thân khi làm chết người...), dựa vào quote khoản 2 điểm e-h và khoản 3, 4."
+  - "Thêm câu giới hạn phạm vi: Điều 168 áp dụng khi có vũ lực hoặc đe dọa dùng vũ lực ngay tức khắc; các kiểu đòi tiền khác có thể là tội khác."
+  - "Làm rõ steps[2]: “Nếu bị buộc đưa điện thoại thì đưa máy, không đưa mật khẩu/mã mở khóa”, hoặc bỏ, vì không nguồn."
+  - "Lợi ích: thêm nửa câu “bấm trực tiếp không cần mã vùng khi ở cùng khu vực” nếu giữ câu “miễn phí”, theo trang Công an Điện Biên."
+  - "Chỗ nào nói “nghĩa là ... tự đẩy mình vào khung rất nặng” nên ghi nhãn suy ra từ Điều 168."

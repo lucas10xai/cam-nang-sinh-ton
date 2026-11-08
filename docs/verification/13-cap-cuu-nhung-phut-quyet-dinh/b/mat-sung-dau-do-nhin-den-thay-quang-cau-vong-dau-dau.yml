@@ -1,0 +1,100 @@
+id: mat-sung-dau-do-nhin-den-thay-quang-cau-vong-dau-dau
+checker: agent-Vf13bB
+checked_at: 2026-11-08
+content_sha256: "0ad119f859908be033c43ad986ec8f6be90fd1b4aac362b9731f1557f547ebfe"
+result: pass-with-edits
+claims:
+  - text: "Quyết định 40/QĐ-BYT ngày 12/01/2015 ban hành Hướng dẫn chẩn đoán và điều trị các bệnh về mắt; bài 17 là Glôcôm góc đóng nguyên phát"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Số: 40/QĐ-BYT Hà Nội, ngày 12 tháng 01 năm 2015 ... Về việc ban hành tài liệu chuyên môn “Hướng dẫn chẩn đoán và điều trị các bệnh về mắt” ... 17. GLÔCÔM GÓC ĐÓNG NGUYÊN PHÁT ... 78"
+    verdict: match
+    note: "Tải mat.rar, giải nén được 2 PDF: Quyết định - BỘ Y TẾ.pdf (quyết định) và The final - Mắt 20150112.pdf (tài liệu, bài 17 ở tr. 78-84). Có chữ trích được."
+  - text: "Lâm sàng cơn cấp: khởi phát đột ngột, diễn biến rầm rộ, thường chiều tối hoặc sau xúc động mạnh; đau nhức mắt, quanh hố mắt, lan lên nửa đầu cùng bên"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Bệnh khởi phát đột ngột, diễn biến rầm rộ, thường xảy ra vào chiều tối, sau một xúc động mạnh bệnh nhân đột ngột đau nhức mắt, nhức xung quanh hố mắt, nhức lan lên nửa đầu cùng bên"
+    verdict: match
+    note: ""
+  - text: "Nhìn mờ như qua màn sương, nhìn đèn có quầng xanh đỏ, sợ ánh sáng, chói, chảy nước mắt; có thể buồn nôn/nôn, đau bụng, vã mồ hôi, sốt"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "nhìn mờ như qua màn sương, nhìn đèn có quầng xanh đỏ, sợ ánh sáng, chói chảy nước mắt kèm theo, bệnh nhân có thể buồn nôn hoặc nôn, đau bụng, vã mồ hôi, sốt..."
+    verdict: match
+    note: "Đối chiếu quốc tế: AAO Primary Angle-Closure Disease PPP 2025: 'Symptoms of AACC include eye pain, headache, nausea/vomiting, and blurred vision with halos.'"
+  - text: "Khám: mi sưng nề, mắt cương tụ đỏ, giác mạc phù mờ, đồng tử giãn méo, tiền phòng nông, góc tiền phòng đóng; nhãn áp tăng rất cao"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Khám: mi mắt sưng nề, mắt cương tụ đỏ, giác mạc phù mờ có thể có bọng biểu mô, đồng tử giãn méo, giảm hoặc mất phản xạ với ánh sáng, tiền phòng nông, góc tiền phòng đóng"
+    verdict: match
+    note: "'Nhãn áp tăng rất cao' ở dòng 'Dấu hiệu thực thể'. Mục bỏ cụm 'có thể có bọng biểu mô' và 'giảm hoặc mất phản xạ ánh sáng' (không gây hiểu sai)."
+  - text: "Nguyên tắc điều trị: tích cực, khẩn trương hạ nhãn áp bằng thuốc để chống tổn hại thêm cho thị thần kinh"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Tích cực, khẩn trương làm hạ nhãn áp bằng thuốc để chống tổn hại thêm cho thị thần kinh"
+    verdict: match
+    note: ""
+  - text: "Tra thuốc co đồng tử 15 đến 20 phút một lần cho tới khi đồng tử co lại và nhãn áp hạ"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Tra thuốc co đồng tử cứ 15-20 phút/1 lần cho đến khi đồng tử co lại được và nhãn áp hạ. Sau đó có thể tra 1 giờ/1 lần và dùng liều duy trì 3-4 lần/ngày."
+    verdict: match
+    note: "Đây là phác đồ do thầy thuốc thực hiện tại cơ sở y tế (xem potential_harm về việc trình bày liều cho người đọc phổ thông)."
+  - text: "Tra thuốc chẹn beta giao cảm 2 lần mỗi ngày"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Tra phối hợp nhóm thuốc chẹn bêta giao cảm 2 lần/ngày (thận trọng nếu bệnh nhân có bệnh phổi, tim, mạch) hoặc nhóm thuốc ức chế men Anhydraza cacbonic 2-3 lần/ngày."
+    verdict: partial
+    note: "Mục bỏ cảnh báo 'thận trọng nếu có bệnh phổi, tim, mạch' và lựa chọn thay thế 'hoặc ức chế men anhydraza cacbonic'. Người hen/COPD/tim mạch đọc nguyên văn có thể hiểu thuốc này an toàn cho mình."
+  - text: "Uống acetazolamid 0,25 g từ 2 đến 4 viên mỗi ngày, hoặc tiêm tĩnh mạch khi nôn nhiều"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Uống Acetazolamide 0,25g x 2-4 viên/ngày hoặc tiêm tĩnh mạch Acetazolamide 500g x 1 ống nếu bệnh nhân nôn nhiều, thuốc uống không có tác dụng. ... Chú ý: thuốc có nhiều tác dụng phụ toàn thân nên chỉ dùng trong thời gian chờ phẫu thuật, không dùng kéo dài và cần bổ sung thêm Kali."
+    verdict: partial
+    note: "Thiếu chú ý 'nhiều tác dụng phụ toàn thân, chỉ dùng trong thời gian chờ phẫu thuật, cần bổ sung Kali'. (Nguồn ghi 'Acetazolamide 500g' là lỗi chữ của chính văn bản, đúng ra 500 mg; mục không lặp lỗi này.)"
+  - text: "Truyền mannitol 20% 200 ml khi nhãn áp rất cao"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Trong trường hợp nhãn áp tăng rất cao có thể bổ sung các loại thuốc thẩm thấu như truyền tĩnh mạch nhanh Mannitol 20% x 200ml hoặc uống Glyxerol 50% ( 1ml/1 kilô cân nặng)"
+    verdict: match
+    note: "Nguồn ghi 'có thể bổ sung', mục viết mệnh lệnh; bỏ phương án glyxerol uống."
+  - text: "Điều trị bằng phẫu thuật là bắt buộc với glôcôm góc đóng"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Điều trị bằng phẫu thuật: là bắt buộc đối với hình thái glôcôm góc đóng"
+    verdict: match
+    note: ""
+  - text: "Tra pilocacpin 1% cho mắt thứ hai để dự phòng cơn tăng nhãn áp"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Để đề phòng xuất hiện cơn tăng nhãn áp ở mắt thứ 2 : nên tra 1-2 giọt pilocacpin 1% cho mắt thứ 2"
+    verdict: match
+    note: ""
+  - text: "tldr/steps: 'Không nhỏ thuốc giảm đau, không chườm nóng'; Bẫy 2: chườm nóng, xông hơi, nhỏ thuốc nhỏ mắt mua sẵn là sai"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Không có câu nào về chườm nóng, xông hơi hay thuốc nhỏ mắt mua sẵn trong bài 17. Phần điều trị toàn thân của chính bài còn liệt kê: 'Thuốc giảm đau, an thần.'"
+    verdict: not-found
+    note: "Hai điều cấm này không phải chữ của Quyết định 40. Cụm 'thuốc giảm đau, an thần' trong nguồn là thuốc do bác sĩ cho. Bước 'không nhỏ thuốc giảm đau' cũng lệch nghĩa (thuốc giảm đau không phải thuốc nhỏ mắt). Khuyên không tự điều trị là hợp lý nhưng là suy ra."
+  - text: "Đi khám mắt ngay trong ngày, không chờ hết đau (tldr, steps, tiêu đề)"
+    source_url: https://www.aao.org/education/preferred-practice-pattern/primary-angle-closure-disease-ppp
+    quote: "Patients should also be informed about the symptoms of AACC and instructed to seek immediate ophthalmic care if symptoms occur."
+    verdict: inference
+    note: "Quyết định 40 chỉ nói 'khẩn trương hạ nhãn áp', không có mốc 'trong ngày'. AAO PPP 2025 (Primary Angle-Closure Disease) nói 'seek immediate ophthalmic care'; 'Patients experiencing AACC should receive medical treatment or other interventions ... to lower the IOP promptly'. Hướng khuyên khớp quốc tế (đi ngay, không phải 'trong ngày'). Tóm tắt Việt: người có triệu chứng phải tìm chăm sóc nhãn khoa ngay."
+  - text: "Chi phí: khám mắt thường vài trăm nghìn đồng, BHYT trả một phần; có thể phải nằm lại truyền thuốc hạ nhãn áp"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Không có số liệu chi phí hay mức chi trả BHYT trong Quyết định 40."
+    verdict: not-found
+    note: "Con số 'vài trăm nghìn' không có nguồn trong mục Nguồn."
+internal_checks:
+  - issue: "Phần 'Lợi ích' chép phác đồ thuốc cụ thể (liều acetazolamid, mannitol, nhịp tra thuốc) dành cho bác sĩ vào bài cho người đọc phổ thông, trong khi bước hành động chỉ là 'đi khám ngay'. Liều thuốc không phục vụ bước nào trong steps."
+    severity: warn
+  - issue: "Mục Nguồn trỏ tới file nén .rar (mat.rar) chứa 2 PDF, người đọc không mở trực tiếp được; không có số trang. Nên dẫn trang Bộ Y tế/Cục KCB của Quyết định 40 hoặc nêu rõ 'tr. 78-84'."
+    severity: warn
+  - issue: "Tiêu đề/tldr 'ngay trong ngày' nhưng thân dùng 'khẩn trương' và Bẫy 3 'không chờ hết cơn': cách nói không nhất quán về mốc thời gian; nguồn quốc tế nói 'ngay lập tức'."
+    severity: warn
+  - issue: "Không có con số trong tldr/steps ngoài nội dung đã kiểm; legal_refs rỗng nên không có URL để đối chiếu (d, e)."
+    severity: warn
+validity:
+  doc: "Quyết định 40/QĐ-BYT ngày 12/01/2015 (Hướng dẫn chẩn đoán và điều trị các bệnh về mắt)"
+  in_force: unconfirmed
+  effective_from: "2015-01-12"
+  amended_by: []
+  basis: "Điều 3 của quyết định: 'Quyết định này có hiệu lực kể từ ngày ký ban hành.' Tìm 'hết hiệu lực/thay thế' chỉ ra các trang sao chép (vnras, luatvietnam, thuvienphapluat), không mở được trang Liên quan hiệu lực; không thấy bằng chứng bị thay thế nhưng cũng chưa có xác nhận từ Công báo/CSDL Bộ Y tế. Tài liệu 2015 (hơn 10 năm), AAO PPP 2025 là bản mới hơn về nội dung nhưng không mâu thuẫn triệu chứng."
+deliberate_vn_deviation: []
+potential_harm:
+  - "Phần 'Phác đồ cụ thể trong tài liệu' đưa liều thuốc chẹn beta, acetazolamid, mannitol, pilocacpin cho người đọc phổ thông mà bỏ cảnh báo của nguồn (chẹn beta: thận trọng bệnh phổi/tim/mạch; acetazolamid: tác dụng phụ toàn thân, chỉ dùng chờ phẫu thuật, bổ sung Kali). Người đọc có thể tự mua và dùng thuốc trong lúc chờ khám, gây hại (đặc biệt hen/COPD với thuốc chẹn beta)."
+suggested_edits:
+  - "Mục 'Lợi ích', 'Phác đồ cụ thể trong tài liệu': bỏ liều/nhịp thuốc, hoặc ghi rõ 'do bác sĩ nhãn khoa thực hiện, không tự dùng', và nếu giữ chẹn beta thì thêm 'thận trọng nếu có bệnh phổi, tim, mạch' (quote: 'thận trọng nếu bệnh nhân có bệnh phổi, tim, mạch'); acetazolamid thêm 'chỉ dùng trong thời gian chờ phẫu thuật' (quote: 'chỉ dùng trong thời gian chờ phẫu thuật, không dùng kéo dài')."
+  - "tldr/steps/Bẫy 2: gắn nhãn 'suy ra' cho 'không chườm nóng, không xông hơi'; đổi 'không nhỏ thuốc giảm đau' thành 'không tự nhỏ thuốc mắt hay uống thuốc giảm đau rồi nằm chờ' để rõ nghĩa. Dựa quote AAO: 'seek immediate ophthalmic care'."
+  - "Tiêu đề/tldr: đổi 'ngay trong ngày' thành 'ngay (đi trong vài giờ đầu)' hoặc ít nhất thống nhất với 'khẩn trương'; dẫn AAO PPP 2025 cho ý 'immediate'."
+  - "Mục 'Chi phí': bỏ 'vài trăm nghìn đồng' và 'BHYT trả một phần' hoặc dẫn nguồn (bảng giá viện phí/Thông tư giá dịch vụ)."
+  - "Mục Nguồn: dẫn trang tải trực tiếp Quyết định 40 và ghi trang 78-84 của tài liệu."

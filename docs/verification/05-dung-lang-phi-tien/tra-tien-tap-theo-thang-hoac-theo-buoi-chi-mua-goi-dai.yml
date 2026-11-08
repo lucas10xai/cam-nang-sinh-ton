@@ -1,0 +1,86 @@
+id: tra-tien-tap-theo-thang-hoac-theo-buoi-chi-mua-goi-dai
+checked_at: 2026-11-08
+content_sha256: "c667e19370a5772a20e3337f9ed10c06f924a8ef8a8e583dd153664b67b8370b"
+checker: agent-Vf05e
+result: pass-with-edits
+claims:
+  - text: "DellaVigna và Malmendier (AER 2006) theo dõi 7.752 hội viên ở 3 câu lạc bộ trong 3 năm"
+    source_url: https://doi.org/10.1257/aer.96.3.694
+    quote: "We analyze a novel dataset from three U.S. health clubs with information on both the contractual choice and the day-to-day attendance decisions of 7,752 members over three years."
+    verdict: match
+    note: "Trích từ abstract (CrossRef). Chưa mở toàn văn."
+  - text: "Người chọn hợp đồng trên 70 USD/tháng chỉ đến TB 4,3 buổi/tháng, hơn 17 USD/buổi; thẻ 10 lượt 10 USD/buổi; trả thừa TB 600 USD"
+    source_url: https://doi.org/10.1257/aer.96.3.694
+    quote: "members who choose a contract with a flat monthly fee of over $70 attend on average 4.3 times per month. They pay a price per expected visit of more than $17, even though they could pay $10 per visit using a 10-visit pass. On average, these users forgo savings of $600 during their membership."
+    verdict: match
+    note: "Số đúng. Lưu ý: hợp đồng đó CHÍNH LÀ hợp đồng theo THÁNG (flat monthly fee), so với thẻ 10 lượt. Mục không nói rõ điều này (xem claim kế)."
+  - text: "Dùng nghiên cứu trên làm bằng chứng ủng hộ lời khuyên 'trả theo tháng/theo buổi, tránh gói dài' (mục Lợi ích)"
+    source_url: https://doi.org/10.1257/aer.96.3.694
+    quote: "consumers who choose a monthly contract are 17 percent more likely to stay enrolled beyond one year than users committing for a year. This is surprising because monthly members pay higher fees for the option to cancel each month."
+    verdict: partial
+    note: "Nghiên cứu cho thấy người trả theo THÁNG mới là nhóm trả thừa 600 USD so với thẻ lẻ, và còn ở lại lâu hơn nhóm cam kết 1 năm. Nó ủng hộ 'trả theo buổi/thẻ lẻ khi chưa chắc đi', không ủng hộ nguyên văn 'theo tháng tốt hơn gói dài'. Mục nêu số liệu mà không nói đó là hợp đồng tháng nên dễ đọc ngược chiều."
+  - text: "Cấm điều khoản cho phép doanh nghiệp tự gia hạn hợp đồng mà không quy định trách nhiệm thông báo trước, hoặc không có cơ chế để NTD chọn gia hạn hay chấm dứt (Điều 25 khoản 13, Luật 19/2023/QH15)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "13. Cho phép tổ chức, cá nhân kinh doanh gia hạn hợp đồng đã thỏa thuận với người tiêu dùng mà không quy định trách nhiệm thông báo trước hoặc không có cơ chế để người tiêu dùng lựa chọn gia hạn hay chấm dứt thực hiện hợp đồng;"
+    verdict: match
+    note: "Bản ký, PDF ảnh quét, đọc bằng mắt trên ảnh trang 17 (không có lớp chữ). Chapeau Điều 25 (trang 16): trong hợp đồng giao kết với NTD, hợp đồng theo mẫu, điều kiện giao dịch chung, doanh nghiệp không được quy định các điều khoản sau."
+  - text: "Vì vậy gói 'tự động gia hạn' phải cho bạn lựa chọn, không được mặc định trừ tiền"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "không quy định trách nhiệm thông báo trước hoặc không có cơ chế để người tiêu dùng lựa chọn gia hạn hay chấm dứt thực hiện hợp đồng"
+    verdict: partial
+    note: "Luật cấm điều khoản gia hạn KHÔNG kèm nghĩa vụ báo trước hoặc cơ chế chọn. Gia hạn tự động có thông báo trước và cơ chế dừng vẫn hợp pháp (The New Gym còn bán gói Tự động gia hạn, hủy khi báo trước 4 ngày). 'Không được mặc định trừ tiền' nói quá chữ của luật."
+  - text: "The New Gym: gói 1 tháng 319.000 đến 399.000 đồng; gói 6 tháng 1.799.000 đồng (khoảng 300.000 đồng/tháng)"
+    source_url: https://thenewgym.vn/bang-gia-the-new-gym/
+    quote: "Gói 1 tháng tại The New Gym dao động từ 319.000đ đến 399.000đ tùy chi nhánh và loại gói bạn chọn. Gói 6 tháng có tổng phí 1.799.000đ, tương đương khoảng 300.000đ mỗi tháng"
+    verdict: match
+    note: "Trang đề ngày 29/09/2025; mở hôm nay (2026-11-08) vẫn đúng số. Meta description của trang ghi 'từ 299.000 VNĐ/tháng' (2026) trong khi thân bài ghi 319.000: trang không nhất quán, nên ghi rõ 'bảng giá ngày 29/09/2025' như mục đã làm."
+  - text: "Đóng lẻ 6 tháng theo giá 399.000 là 2.394.000 đồng; gói 6 tháng tiết kiệm 595.000 đồng"
+    source_url: https://thenewgym.vn/bang-gia-the-new-gym/
+    quote: "Ví dụ với chi nhánh có gói Linh hoạt 399.000đ: đóng lẻ 6 tháng là 2.394.000đ, mua gói 6 tháng là 1.799.000đ. Chênh lệch 595.000đ"
+    verdict: match
+    note: "6 x 399.000 = 2.394.000; 2.394.000 - 1.799.000 = 595.000, khớp."
+  - text: "Đi 4 buổi/tháng với gói tháng 399.000 là 99.750 đồng/buổi"
+    source_url: https://thenewgym.vn/bang-gia-the-new-gym/
+    quote: "Gói 1 tháng Linh hoạt: Thanh toán một lần bằng tiền mặt, chuyển khoản hoặc thẻ. Hết tháng bạn chủ động gia hạn nếu muốn tiếp tục."
+    verdict: inference
+    note: "399.000 / 4 = 99.750 là phép tính của mục, không phải chữ của nguồn. Câu 'đắt hơn nhiều mức giá trị bạn nhận được' là nhận định chủ quan, không có nguồn; trang cũng có gói 1 ngày 199.000 và gói 6 tháng ~75.000/buổi ở 4 buổi/tháng."
+  - text: "Chỉ mua gói dài khi đã có một năm đi đều, mỗi tuần từ 2 buổi trở lên"
+    source_url: https://doi.org/10.1257/aer.96.3.694
+    quote: "Leading explanations for our findings are overconfidence about future self-control or about future efficiency."
+    verdict: inference
+    note: "Ngưỡng 1 năm và 2 buổi/tuần là quy tắc kinh nghiệm của người soạn; nguồn chỉ cho thấy người ta tự tin thái quá về việc sẽ đi. Cần gắn nhãn 'quy tắc kinh nghiệm', không trình bày như kết quả nghiên cứu (evidence B trong frontmatter cũng cao so với căn cứ này)."
+  - text: "Cam kết miệng của nhân viên không phải hợp đồng; lời nói của nhân viên không có giá trị (bước 3, Bẫy 2)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "3. Điều kiện giao dịch chung chỉ có hiệu lực với người tiêu dùng trong trường hợp điều kiện giao dịch chung đã được công khai để người tiêu dùng biết về điều kiện đó trước khi giao dịch."
+    verdict: inference
+    note: "Điều 27 khoản 3 chỉ nói điều kiện giao dịch chung phải được công khai mới có hiệu lực. Nguồn không nói lời hứa miệng 'không có giá trị' (thỏa thuận miệng vẫn có thể ràng buộc theo luật dân sự; vấn đề là chứng minh). Nên đổi thành 'khó chứng minh, hãy ghi vào hợp đồng'."
+  - text: "Bẫy 1: 'tặng tháng/giảm 50%' thường là gói 12-24 tháng; phòng tập đổi chủ hoặc đóng cửa thì bạn là người chờ"
+    source_url: https://thenewgym.vn/bang-gia-the-new-gym/
+    quote: "Gói Tự động gia hạn luôn thấp hơn gói Linh hoạt từ 30.000đ đến 50.000đ mỗi tháng."
+    verdict: not-found
+    note: "Không có nguồn nào ở mục Nguồn cho khẳng định 'thường là gói 12-24 tháng' hay rủi ro đóng cửa. Câu quote chỉ là chữ gần nhất trên trang giá, không chứng minh claim."
+internal_checks:
+  - issue: "legal_refs có Điều 28 khoản 1 (đăng ký hợp đồng theo mẫu) nhưng thân mục không có khẳng định nào dùng điều này; Điều 28.1 chỉ áp dụng cho sản phẩm trong Danh mục do Thủ tướng ban hành, chưa chứng minh phòng tập có trong danh mục."
+    severity: warn
+  - issue: "Mục 'Lợi ích' dùng nghiên cứu về hợp đồng THÁNG để ủng hộ lời khuyên chọn tháng/buổi thay gói dài; chiều dẫn chứng không khớp tiêu đề."
+    severity: warn
+  - issue: "Con số trong tldr/steps (một năm, 2 buổi/tuần) có trong thân nhưng chỉ ở dạng khẳng định, không có nguồn (xem claim 'quy tắc kinh nghiệm')."
+    severity: warn
+  - issue: "Bước 3 'lời nói của nhân viên không có giá trị' quá lời so với Bẫy 2 ('chỉ có giá trị nếu ghi trong hợp đồng'); đều không có cơ sở pháp lý."
+    severity: warn
+  - issue: "Thân mục nói 'tra 2/11/2026' nhưng đây là ngày tra của người soạn; trang giá meta ghi 299.000 (khác 319.000 trong bảng) nên ghi rõ bảng giá ngày 29/09/2025."
+    severity: warn
+validity:
+  doc: "Luật Bảo vệ quyền lợi người tiêu dùng 19/2023/QH15"
+  in_force: unconfirmed
+  effective_from: "2024-07-01"
+  amended_by: []
+  basis: "Bản ký trên moit.gov.vn, Điều 79 khoản 1 (trang 45, đọc ảnh): 'Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024.' và khoản 2 hết hiệu lực Luật 59/2010. Chưa tìm được nguồn xác nhận chưa bị sửa đổi sau 2024; chưa tra Công báo/vbpl.vn."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Mục Lợi ích, đoạn DellaVigna: nêu rõ 'hợp đồng THÁNG hơn 70 USD' và đối chiếu với 'thẻ 10 lượt'; thêm câu của abstract: người trả theo tháng ở lại quá 1 năm nhiều hơn 17% so với nhóm cam kết 1 năm. Hoặc bỏ nghiên cứu khỏi lập luận 'gói dài' và dùng đúng nó cho ý 'nếu chưa chắc đi, trả lẻ'. Dựa vào quote claim 2 và 3."
+  - "Mục Pháp luật VN, gạch 2: bỏ 'không được mặc định trừ tiền'; viết 'gói tự động gia hạn phải có thông báo trước hoặc cơ chế để bạn chọn gia hạn hay chấm dứt'. Dựa vào quote Điều 25 khoản 13."
+  - "Bước 3 và Bẫy 2: bỏ 'lời nói của nhân viên không có giá trị'; đổi thành 'cam kết miệng khó chứng minh, hãy ghi vào hợp đồng'."
+  - "Gắn nhãn 'quy tắc kinh nghiệm, không có nghiên cứu' cho ngưỡng 'một năm, 2 buổi/tuần'; bỏ hoặc nguồn hóa Bẫy 1 (12-24 tháng, đóng cửa)."
+  - "Bỏ legal_refs Điều 28 khoản 1 hoặc thêm một câu giải thích vì sao liên quan; cập nhật ghi chú giá The New Gym: bảng giá ngày 29/09/2025, trang hiện còn meta 299.000."

@@ -27,10 +27,10 @@ legal_refs:
   - { doc: "Luật Bảo vệ quyền lợi người tiêu dùng 19/2023/QH15", article: "Điều 28 khoản 1", url: "https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf", effective_from: null, checked_at: null, quote: null }
   - { doc: "Luật Bảo vệ quyền lợi người tiêu dùng 19/2023/QH15", article: "Điều 29", url: "https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf", effective_from: "2024-07-01", checked_at: null, quote: null }
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-legal-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf05e
+  scope: "Chặn nâng trạng thái: result=fail, 1 mục potential_harm (docs/verification/05-dung-lang-phi-tien/tra-tien-truoc-thi-lay-hop-dong-va-hoa-don-phan-chua.yml)"
   sources: []
 origin:
   zh: null

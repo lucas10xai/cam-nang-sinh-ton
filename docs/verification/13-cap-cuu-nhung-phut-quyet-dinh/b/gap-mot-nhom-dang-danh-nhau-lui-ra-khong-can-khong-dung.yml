@@ -1,0 +1,75 @@
+id: gap-mot-nhom-dang-danh-nhau-lui-ra-khong-can-khong-dung
+checker: agent-Vf13hB
+checked_at: 2026-11-08
+content_sha256: "be0ec8a7f80d98d381db1c0af86ce5e1303b99bb6e1041b3864c9c27552d7972"
+result: pass-with-edits
+claims:
+  - text: "Điều 22 khoản 1: chỉ coi là phòng vệ chính đáng khi chống trả cần thiết trước người đang xâm phạm"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "Phòng vệ chính đáng là hành vi của người vì bảo vệ quyền hoặc lợi ích chính đáng của mình, của người khác hoặc lợi ích của Nhà nước, của cơ quan, tổ chức mà chống trả lại một cách cần thiết người đang có hành vi xâm phạm các lợi ích nói trên."
+    verdict: partial
+    note: "Khớp ý. Nhưng điều luật nói rõ phòng vệ cho “người khác”; mục chỉ nói “chống trả cần thiết trước người đang xâm phạm” và Bẫy 1 hàm ý can thiệp luôn bị tính là một bên, dễ khiến người đọc tưởng luật không bảo vệ người can thiệp hợp lý."
+  - text: "Điều 22 khoản 2: chống trả rõ ràng quá mức cần thiết thì vẫn chịu trách nhiệm hình sự"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "Vượt quá giới hạn phòng vệ chính đáng là hành vi chống trả rõ ràng quá mức cần thiết, không phù hợp với tính chất và mức độ nguy hiểm cho xã hội của hành vi xâm hại. Người có hành vi vượt quá giới hạn phòng vệ chính đáng phải chịu trách nhiệm hình sự theo quy định của Bộ luật này."
+    verdict: match
+    note: ""
+  - text: "113 tiếp nhận tin báo cướp giật, gây rối, bạo hành, hành vi có dấu hiệu tội phạm"
+    source_url: https://congan.dienbien.gov.vn/Danh-muc-tin-tuc/tong-hop-cac-so-dien-thoai-khan-cap-quoc-gia-ghi-nho-de-bao-ve-minh-va-ho-tro-nguoi-khac-13182.html
+    quote: "113 – Lực lượng Công an: Tiếp nhận tin báo về cướp giật, trộm cắp, gây rối, bạo hành, tai nạn giao thông và các hành vi có dấu hiệu tội phạm, ảnh hưởng đến an ninh trật tự."
+    verdict: match
+    note: ""
+  - text: "115 là số cấp cứu y tế cho tai nạn, chấn thương nặng"
+    source_url: https://congan.dienbien.gov.vn/Danh-muc-tin-tuc/tong-hop-cac-so-dien-thoai-khan-cap-quoc-gia-ghi-nho-de-bao-ve-minh-va-ho-tro-nguoi-khac-13182.html
+    quote: "115 – Cấp cứu y tế: Sử dụng khi có tai nạn, chấn thương nặng, các tình huống bệnh lý nguy hiểm đến tính mạng cần cấp cứu khẩn cấp."
+    verdict: match
+    note: ""
+  - text: "Cả hai miễn phí, bấm trực tiếp không cần mã vùng khi cùng khu vực"
+    source_url: https://congan.dienbien.gov.vn/Danh-muc-tin-tuc/tong-hop-cac-so-dien-thoai-khan-cap-quoc-gia-ghi-nho-de-bao-ve-minh-va-ho-tro-nguoi-khac-13182.html
+    quote: "người dân khi ở trong cùng khu vực chỉ cần bấm trực tiếp số 113, 114, 115… mà không cần mã vùng. ... các cuộc gọi đến số khẩn cấp hoàn toàn miễn phí."
+    verdict: match
+    note: ""
+  - text: "Giữ tay người đang đánh cũng là tác động vào thân thể người khác và bị tính như một bên tham gia (Bẫy 1)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: ""
+    verdict: not-found
+    note: "Không có điều luật nào trong nguồn nói vậy; đây là khẳng định pháp lý không nguồn. Điều 22 khoản 1 còn cho phép bảo vệ người khác."
+  - text: "Cầm hung khí trong một vụ ẩu đả là tình tiết nặng nhất (Bẫy 3)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: ""
+    verdict: not-found
+    note: "Không có điều khoản được trích (ví dụ tội cố ý gây thương tích). “Nặng nhất” là phóng đại không nguồn."
+  - text: "Bạn vào can một nhóm đang đánh nhau thì rất khó chứng minh mình chỉ can; không ai đo được ai ra tay trước"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: ""
+    verdict: inference
+    note: "Suy ra từ ranh giới Điều 22; mục tự nhận ở Ghi chú."
+  - text: "Quay clip từ xa, sau vật cản rồi rời đi; hô to để người xung quanh cùng nhìn"
+    source_url: https://congan.dienbien.gov.vn/Danh-muc-tin-tuc/tong-hop-cac-so-dien-thoai-khan-cap-quoc-gia-ghi-nho-de-bao-ve-minh-va-ho-tro-nguoi-khac-13182.html
+    quote: ""
+    verdict: inference
+    note: "Không có nguồn cho hai bước này."
+internal_checks:
+  - issue: "Điều 132 BLHS (tội không cứu giúp người đang nguy hiểm đến tính mạng): quote “tuy có điều kiện mà không cứu giúp dẫn đến hậu quả người đó chết”. Mục dặn “không can, không đứng xem” mà không nhắc điều này; nên nói rõ gọi 113/115 từ nơi an toàn chính là cách cứu giúp hợp pháp. Không phải lỗi sai nhưng thiếu cân đối."
+    severity: warn
+  - issue: "Chi phí “có thể nửa ngày nếu được mời làm chứng” không có nguồn (không có con số trong luật)."
+    severity: warn
+  - issue: "Step 4 chỉ gọi 115 “nếu có người nằm xuống”; thân bài Lợi ích nói 115 cho “tai nạn, chấn thương nặng”. Nhất quán nhưng chưa cho phép gọi 115 khi người bị đâm/chảy máu nhưng vẫn đứng."
+    severity: warn
+  - issue: "legal_refs url đúng là VBHN 135/VBHN-VPQH; Điều 22 khoản 1, 2 khớp."
+    severity: warn
+validity:
+  doc: "Bộ luật Hình sự 100/2015/QH13 (bản hợp nhất 135/VBHN-VPQH)"
+  in_force: true
+  effective_from: "2018-01-01"
+  amended_by: ["Luật 12/2017/QH14", "Luật 59/2024/QH15", "Luật 86/2025/QH15"]
+  basis: "VBHN 135 liệt kê sửa đổi đến Luật 86/2025/QH15 (hiệu lực 2025-07-01); Điều 22 có trong bản này (có chú thích sửa bởi Luật 12/2017). Báo Học viện Chính trị CAND 07/10/2026 nói BLHS sửa đổi 2026 còn là dự thảo; chưa thấy luật được thông qua. Kiểm lại định kỳ."
+deliberate_vn_deviation: []
+potential_harm:
+  - "Step 3 “Hô to để người xung quanh cùng nhìn” trong ẩu đả có hung khí có thể thu hút sự chú ý của nhóm đánh nhau về phía người hô, không có nguồn; nên gắn điều kiện “từ khoảng cách an toàn”."
+  - "Step 4: chỉ gọi 115 “nếu có người nằm xuống”; người bị đâm/chém có thể vẫn đứng nhưng chảy máu nặng. Nếu làm đúng nguyên văn có thể chậm gọi cấp cứu."
+suggested_edits:
+  - "Bẫy 1: bỏ khẳng định “bị tính như một bên tham gia” hoặc dán nhãn “suy ra, không phải điều luật”; thêm câu: pháp luật (Điều 22 khoản 1) có bảo vệ người chống trả vì người khác khi cần thiết, nhưng rất khó ra khỏi giới hạn trong ẩu đả đông người."
+  - "Bẫy 3: bỏ “tình tiết nặng nhất”; nói “rất bất lợi” hoặc dẫn điều luật cụ thể có quote."
+  - "Step 4: sửa thành “Gọi 115 nếu có người bị thương nặng, chảy máu nhiều hoặc nằm xuống”."
+  - "Thêm 1 dòng về Điều 132 BLHS (quote trên) để người đọc không hiểu “lùi ra” là được phép bỏ mặc nếu có thể gọi cứu giúp."

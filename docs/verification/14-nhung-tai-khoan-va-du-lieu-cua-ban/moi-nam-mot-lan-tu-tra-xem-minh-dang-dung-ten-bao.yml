@@ -1,0 +1,89 @@
+id: moi-nam-mot-lan-tu-tra-xem-minh-dang-dung-ten-bao
+checker: agent-Vf14b
+checked_at: 2026-11-08
+content_sha256: "e2d17e761e29701025ce4c09a6ffbd650e5578317151bc439ec77d33d5b3a159"
+result: pass-with-edits
+claims:
+  - text: "Khi tự kiểm tra thấy thông tin không đúng, có quyền yêu cầu doanh nghiệp cập nhật lại thông tin thuê bao (Điều 24 khoản 4)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "Yêu cầu doanh nghiệp viễn thông cập nhật lại thông tin thuê bao của mình theo quy định khi có thay đổi giấy tờ tùy thân đã xuất trình khi giao kết hợp đồng hoặc khi tự kiểm tra thông tin thuê bao của mình, phát hiện thông tin thuê bao của mình không đúng hoặc khi nhận được thông báo của doanh nghiệp cung cấp dịch vụ viễn thông di động mặt đất về thông tin thuê bao không đúng quy định."
+    verdict: match
+    note: "Công báo số 31+32 (09/01/2025). Đối chiếu thêm bản hợp nhất 19/2026/VBHN-NĐ-BKHCN (07/9/2026, bản đăng luatvietnam.vn): Điều 24 giữ nguyên."
+  - text: "Quyền yêu cầu doanh nghiệp chấm dứt hợp đồng đối với các số dùng thông tin trên giấy tờ tùy thân của mình (Điều 24 khoản 5)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "Yêu cầu doanh nghiệp cung cấp dịch vụ viễn thông di động mặt đất chấm dứt hợp đồng theo mẫu, điều kiện giao dịch chung đối với các số thuê bao sử dụng thông tin trên giấy tờ tùy thân hoặc giấy tờ tổ chức của mình."
+    verdict: match
+    note: ""
+  - text: "Đăng ký trực tuyến chỉ được 03 số thuê bao đầu tiên trên một giấy tờ (Điều 16 khoản 3)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "Việc đăng ký thông tin thuê bao theo hình thức trực tuyến chỉ áp dụng đối với 03 số thuê bao đầu tiên trên 01 giấy tờ quy định tại Điều 17 Nghị định này."
+    verdict: match
+    note: "Cùng khoản: hình thức trực tuyến là 'thông qua sử dụng ứng dụng của chính doanh nghiệp'; ứng dụng không xác thực được thì phải đăng ký trực tiếp."
+  - text: "Từ số thứ tư trở lên phải giao kết hợp đồng tại điểm có địa chỉ xác định do chính doanh nghiệp thiết lập (Điều 21 khoản 2)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "Đối với số thuê bao thứ tư trở lên, thực hiện giao kết hợp đồng theo mẫu với doanh nghiệp cung cấp dịch vụ viễn thông di động mặt đất tại điểm có địa chỉ xác định do chính doanh nghiệp cung cấp dịch vụ viễn thông di động mặt đất thiết lập."
+    verdict: match
+    note: "Điều 21 áp dụng cho 'số thuê bao di động trả trước của mỗi mạng viễn thông di động'."
+  - text: "Kích hoạt SIM thứ hai trở đi phải xác thực bằng mã OTP gửi tới SIM đăng ký trước đó (Điều 18 khoản 2 điểm b)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "b) Khi đăng ký, kích hoạt từ SIM thuê bao di động H2H thứ hai trở đi phải xác thực thông qua mã xác thực một lần (mã OTP) gửi đến SIM đăng ký, kích hoạt trước đó;"
+    verdict: partial
+    note: "Nguồn chỉ nói 'SIM thuê bao di động H2H' (người-người); bản soạn bỏ giới hạn. Vế 'nên việc kích hoạt số đứng tên bạn thường cần mã xác thực mà bạn nhận được' là suy luận. Không dùng cho hành động nào trong steps."
+  - text: "Doanh nghiệp phải lưu cả số lượng số thuê bao mà một cá nhân đang sử dụng (Điều 22 khoản 2)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "số lượng số thuê bao mà cá nhân, tổ chức đang sử dụng;"
+    verdict: match
+    note: "Điều 22 khoản 2: doanh nghiệp 'xây dựng hệ thống kỹ thuật, cơ sở dữ liệu thông tin thuê bao tập trung để nhập, lưu giữ, quản lý thông tin'."
+  - text: "Nghị định 49/2017/NĐ-CP đã bị bãi bỏ (Điều 84 khoản 2)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "Bãi bỏ Nghị định số 25/2011/NĐ-CP ngày 06 tháng 4 năm 2011 của Chính phủ ... Nghị định số 49/2017/NĐ-CP ngày 24 tháng 4 năm 2017 của Chính phủ sửa đổi, bổ sung Điều 15 của Nghị định số 25/2011/NĐ-CP"
+    verdict: match
+    note: "Điều 84 khoản 2 (cùng bãi bỏ NĐ 25/2011, 81/2016). Câu 'một người được mấy số trả lời theo Nghị định 163' đúng ở chỗ 03 số/giấy tờ cho đăng ký trực tuyến; NĐ 163 không đặt trần tổng số."
+  - text: "Bẫy 1: Khoản 2 Điều 24 chỉ cho phép đăng ký cho chính mình, con đẻ hoặc con nuôi dưới 15 tuổi và người thuộc quyền giám hộ"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "Cá nhân chỉ thực hiện giao kết hợp đồng theo mẫu, điều kiện giao dịch chung sử dụng các số thuê bao cho bản thân mình, con đẻ hoặc con nuôi dưới 15 tuổi và những người thuộc quyền giám hộ của mình theo quy định của pháp luật; cho các thiết bị dùng cho bản thân mình hoặc gia đình mình."
+    verdict: partial
+    note: "Thiếu vế 'cho các thiết bị dùng cho bản thân mình hoặc gia đình mình'. Điều 24 khoản 2 không được liệt kê trong legal_refs của mục này (chỉ có mục 12 dẫn)."
+  - text: "Bẫy 2: không làm giấy yêu cầu chấm dứt, 'hợp đồng vẫn treo và trách nhiệm pháp lý với số đó vẫn mang tên mình'"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "Chịu hoàn toàn trách nhiệm trước pháp luật trong việc sử dụng các số thuê bao đã được cung cấp."
+    verdict: inference
+    note: "Điều 24 khoản 1 và 3: thuê bao chịu trách nhiệm về giấy tờ và việc sử dụng số. Suy ra 'vẫn mang tên mình nếu chưa chấm dứt' hợp lý nhưng không phải chữ trực tiếp. Phần 'ra quầy ký giấy đề nghị chấm dứt hợp đồng, đừng chỉ nhắn tổng đài' (steps[2]) không có điều khoản nào quy định hình thức yêu cầu; Điều 25 khoản 7 chỉ nói 'Khi nhận được yêu cầu ... phải xác minh, thông báo tới thuê bao phải cập nhật lại thông tin..., thông báo kết quả'."
+  - text: "steps[0]: 'mở app của từng nhà mạng, đăng nhập bằng chính số đang dùng và tra' (cách tự tra)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "Triển khai, hướng dẫn để cá nhân, tổ chức tự kiểm tra được thông tin thuê bao di động mặt đất của mình trên ứng dụng của doanh nghiệp viễn thông hoặc nhắn tin theo cú pháp “TTTB” kết hợp với “Số giấy tờ tùy thân” gửi 1414, gửi lại bản tin thông báo cho cá nhân, tổ chức biết tối thiểu các thông tin sau: họ tên; ngày sinh; danh sách toàn bộ các số thuê bao mà cá nhân đang sử dụng (đối với thuê bao là cá nhân)"
+    verdict: partial
+    note: "Nguồn (Điều 25 khoản 5, không được dẫn trong legal_refs) cho hai cách tự tra: app nhà mạng HOẶC nhắn 'TTTB <số giấy tờ>' gửi 1414; mục chỉ nêu app và còn viết 'không gửi ảnh căn cước hay OTP cho dịch vụ kiểm tra SIM rác'. 'Đăng nhập bằng chính số đang dùng' không có trong nguồn: nguồn không nêu cách đăng nhập. Cú pháp 1414 là chữ của Nghị định, chưa kiểm xem nhà mạng còn vận hành không."
+  - text: "Mỗi năm một lần (tần suất tự tra)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "Thường xuyên rà soát, khi phát hiện hoặc khi nhận được văn bản thông báo của cơ quan quản lý nhà nước về thuê bao có thông tin thuê bao không đúng quy định"
+    verdict: not-found
+    note: "Không có nguồn nào ghi 'mỗi năm một lần'; đây là khuyến nghị của biên tập. Nghị định chỉ quy định trách nhiệm 'thường xuyên rà soát' của doanh nghiệp."
+internal_checks:
+  - issue: "Tiêu đề, tldr, steps[0] viết 'mỗi năm một lần' như thể là quy định; không có nguồn nào cho tần suất đó. Cần ghi là khuyến nghị."
+    severity: warn
+  - issue: "steps[2] 'Thấy số lạ thì ra quầy ký giấy đề nghị chấm dứt hợp đồng, đừng chỉ nhắn tổng đài' không có cơ sở trong thân hoặc nguồn: Điều 24 khoản 5 chỉ nói 'yêu cầu doanh nghiệp ... chấm dứt hợp đồng'; không nói phải ra quầy hay ký giấy. Thân (Nói dễ hiểu, Chi phí) lặp lại nhưng vẫn không dẫn điều khoản."
+    severity: error
+  - issue: "steps[0] 'đăng nhập bằng chính số đang dùng' và Chi phí 'muốn tra đúng thì phải đăng nhập bằng chính số đang dùng': không có trong nguồn. Điều 25 khoản 5 còn nêu cách thứ hai (nhắn TTTB gửi 1414), mục không nhắc."
+    severity: warn
+  - issue: "Nội dung Ghi chú nói 'Nghị định cũng không đặt ra một cổng tra cứu chung cho cả ba nhà mạng': đúng với đọc Điều 25 khoản 5 (tra qua ứng dụng của từng doanh nghiệp hoặc nhắn 1414 theo từng doanh nghiệp); chưa kiểm xem Bộ KH&CN đã có hướng dẫn riêng ('Trong từng thời kỳ... hướng dẫn việc tự kiểm tra')."
+    severity: warn
+  - issue: "legal_refs không có Điều 24 khoản 2 (được dùng ở Bẫy 1) và Điều 25 khoản 5 (căn cứ cho việc tự tra); ngược lại legal_refs[3] và Điều 21 khoản 2 được dẫn trong thân đều khớp. Mọi legal_refs[].url trỏ vbpl.vn (trang khung), nên thêm bản Công báo để kiểm được."
+    severity: warn
+  - issue: "Cùng chương: mục 12 dẫn cùng Điều 18 khoản 2 điểm b và Điều 24 khoản 2 nội dung nhất quán với mục này."
+    severity: warn
+validity:
+  doc: "Nghị định 163/2024/NĐ-CP"
+  in_force: true
+  effective_from: "2024-12-24"
+  amended_by:
+    - "Nghị định 15/2026/NĐ-CP ngày 14/01/2026 (cắt giảm thủ tục hành chính; không chạm Điều 16, 18, 21, 22, 24, 25, 84 trong bản hợp nhất)"
+  basis: "Văn bản hợp nhất 19/2026/VBHN-NĐ-BKHCN ký ngày 07/9/2026 (bản đăng luatvietnam.vn, thứ cấp) ghi 'có hiệu lực kể từ ngày 24 tháng 12 năm 2024, được sửa đổi, bổ sung bởi Nghị định số 15/2026/NĐ-CP' và nội dung Điều 16, 18, 24, 25 trong bản hợp nhất giống chữ bản gốc Công báo. Điều 84 khoản 1: hiệu lực 24/12/2024. Chưa mở được bản hợp nhất trên Công báo/vbpl (403/khung)."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Tiêu đề, tldr, steps[0]: thêm nhãn 'nên' trước 'mỗi năm một lần' (khuyến nghị, không phải quy định) hoặc đổi thành 'định kỳ'."
+  - "steps[2]: sửa thành 'Thấy số lạ thì gửi yêu cầu chấm dứt hợp đồng cho nhà mạng (Điều 24 khoản 5) và giữ bằng chứng đã gửi; hỏi nhà mạng hình thức nhận yêu cầu'. Bỏ 'ra quầy ký giấy... đừng chỉ nhắn tổng đài' trừ khi có dẫn văn bản; Điều 25 khoản 7 chỉ nói doanh nghiệp phải 'xác minh, thông báo ...'."
+  - "steps[0]/Nói dễ hiểu: thêm cách thứ hai theo Điều 25 khoản 5: 'nhắn tin cú pháp TTTB + số giấy tờ gửi 1414' (kiểm lại xem còn hoạt động) và bỏ 'đăng nhập bằng chính số đang dùng' hoặc ghi 'tùy ứng dụng'."
+  - "legal_refs: thêm Điều 24 khoản 2 và Điều 25 khoản 5; đổi/ bổ sung url Công báo https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-163-2024-nd-cp-43647.htm; điền effective_from '2024-12-24'."
+  - "Gạch Điều 18 khoản 2 điểm b: thêm 'SIM thuê bao di động H2H'; gạch Điều 24 khoản 2 (Bẫy 1): thêm vế 'cho các thiết bị dùng cho bản thân mình hoặc gia đình mình'."

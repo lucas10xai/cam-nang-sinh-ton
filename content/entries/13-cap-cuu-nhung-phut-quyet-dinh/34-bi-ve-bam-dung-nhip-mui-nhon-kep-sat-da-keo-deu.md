@@ -24,10 +24,10 @@ steps:
 legal_refs:
   - { doc: "Quyết định 5642/QĐ-BYT ngày 31/12/2015 của Bộ Y tế (Hướng dẫn chẩn đoán và điều trị một số bệnh truyền nhiễm), chương Bệnh sốt mò", article: "Mục 3.1 (thời gian ủ bệnh); mục 4.2 (phác đồ); mục 6 (dự phòng)", url: "https://kcb.vn/upload/2005611/20210723//Truyen-nhiem-1.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13gB
+  scope: "Chặn nâng trạng thái: 2 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/bi-ve-bam-dung-nhip-mui-nhon-kep-sat-da-keo-deu.yml)"
   sources: []
 origin:
   zh: null

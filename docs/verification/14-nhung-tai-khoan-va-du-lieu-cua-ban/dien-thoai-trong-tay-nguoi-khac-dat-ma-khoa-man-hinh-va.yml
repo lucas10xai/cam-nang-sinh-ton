@@ -1,0 +1,70 @@
+id: dien-thoai-trong-tay-nguoi-khac-dat-ma-khoa-man-hinh-va
+content_sha256: "2e6a26cd111346491f75e27ab27932f2d3a543e9fa03a305bd50e60efe7059da"
+checker: agent-Vf14a
+checked_at: 2026-11-08
+result: pass-with-edits
+claims:
+  - text: "Ba số thuê bao đầu tiên của mỗi mạng chỉ cần xuất trình giấy tờ và ký bản xác nhận thông tin thuê bao (Điều 21 khoản 1, NĐ 163/2024)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "1. Đối với 03 số thuê bao đầu tiên, cá nhân, tổ chức xuất trình giấy tờ và ký vào bản giấy hoặc bản điện tử bản xác nhận thông tin thuê bao."
+    verdict: partial
+    note: "Tiêu đề Điều 21 giới hạn cho 'số thuê bao di động trả trước của mỗi mạng viễn thông di động'; mục bỏ 'trả trước'. Điều 18 khoản 2 vẫn buộc xác thực (CSDL dân cư, OTP từ SIM thứ hai, video call) nên 'chỉ cần' đơn giản hóa quá mức."
+  - text: "Từ số thứ tư trở lên phải giao kết hợp đồng theo mẫu tại điểm có địa chỉ xác định do doanh nghiệp thiết lập (Điều 21 khoản 2)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "2. Đối với số thuê bao thứ tư trở lên, thực hiện giao kết hợp đồng theo mẫu với doanh nghiệp cung cấp dịch vụ viễn thông di động mặt đất tại điểm có địa chỉ xác định do chính doanh nghiệp cung cấp dịch vụ viễn thông di động mặt đất thiết lập."
+    verdict: match
+    note: "Cùng giới hạn 'trả trước' như trên."
+  - text: "Khi đăng ký, kích hoạt từ SIM thuê bao thứ hai trở đi, doanh nghiệp phải xác thực bằng OTP gửi đến SIM đã đăng ký, kích hoạt trước đó (Điều 18 khoản 2 điểm b)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "b) Khi đăng ký, kích hoạt từ SIM thuê bao di động H2H thứ hai trở đi phải xác thực thông qua mã xác thực một lần (mã OTP) gửi đến SIM đăng ký, kích hoạt trước đó;"
+    verdict: partial
+    note: "Mục bỏ 'di động H2H' (số giao tiếp người-người, không gồm SIM IoT/M2M). Điều khoản này chỉ là một trong nhiều biện pháp tối thiểu (a: đối chiếu 03 trường với CSDL quốc gia về dân cư; c: video call) nên không đủ để kết luận cầm SIM là mở được SIM khác."
+  - text: "Nghĩa là chiếc SIM đang nằm trong máy bạn là chìa khóa để mở thêm SIM khác đứng tên bạn; chỉ cần một lần đọc được tin nhắn trong máy bạn, người cầm máy mở được đường sang các SIM đăng ký sau đó dưới tên bạn"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "a) Xác thực, đảm bảo trùng khớp với Cơ sở dữ liệu quốc gia về dân cư tối thiểu 03 trường thông tin trên giấy tờ tùy thân của công dân Việt Nam quy định tại điểm a khoản 1 Điều 17 Nghị định này, bao gồm số định danh cá nhân; họ, chữ đệm và tên; ngày, tháng, năm sinh;"
+    verdict: inference
+    note: "Suy ra của tác giả, không phải chữ của nghị định. Nguồn còn đòi khớp 03 trường với CSDL dân cư và video call (điểm c) nên kẻ cầm máy còn cần dữ liệu giấy tờ và vượt xác minh khuôn mặt; mục không nêu các lớp này."
+  - text: "NĐ 163/2024/NĐ-CP có hiệu lực từ ngày 24/12/2024"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "1. Nghị định này có hiệu lực thi hành từ ngày 24 tháng 12 năm 2024."
+    verdict: match
+    note: "Điều 84 khoản 1 (mục chỉ dẫn khoản 2). Một số nội dung (trung tâm dữ liệu, điện toán đám mây, dịch vụ viễn thông cơ bản trên Internet) hiệu lực 01/01/2025, không liên quan."
+  - text: "NĐ 163/2024 bãi bỏ NĐ 25/2011, NĐ 81/2016 và NĐ 49/2017 (Điều 84 khoản 2)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "2. Bãi bỏ Nghị định số 25/2011/NĐ-CP ngày 06 tháng 4 năm 2011 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Viễn thông, Nghị định số 81/2016/NĐ-CP ngày 01 tháng 7 năm 2016"
+    verdict: match
+    note: "Phần NĐ 49/2017 nằm tiếp câu: 'Nghị định số 49/2017/NĐ-CP ngày 24 tháng 4 năm 2017 của Chính phủ sửa đổi, bổ sung Điều 15 của Nghị định số 25/2011/NĐ-CP'. Đã đối chiếu."
+  - text: "Các con số về số thuê bao mỗi người trong bài cũ (dẫn NĐ 49/2017) không còn đúng"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "1. Đối với 03 số thuê bao đầu tiên, cá nhân, tổ chức xuất trình giấy tờ và ký vào bản giấy hoặc bản điện tử bản xác nhận thông tin thuê bao."
+    verdict: inference
+    note: "Không đối chiếu được nội dung NĐ 49/2017 (không mở bản gốc). NĐ 163 vẫn giữ con số '03' nên khẳng định 'không còn đúng' không có bằng chứng; có thể số 03 vẫn trùng. Cần mở NĐ 49/2017 để kết luận."
+  - text: "Khách hàng có nghĩa vụ tuân thủ các biện pháp bảo đảm an toàn thanh toán (Điều 29 khoản 1, NĐ 52/2024)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/5/41938/50259-1-2024679-68052-2024-nd-cp.pdf
+    quote: "Khách hàng sử dụng dịch vụ có nghĩa vụ tuân thủ các biện pháp đảm bảo an toàn, bảo mật trong thanh toán theo quy định và hướng dẫn của các tổ chức cung ứng dịch vụ."
+    verdict: match
+    note: "Mục ghi 'Khách hàng phải tuân thủ các biện pháp bảo đảm an toàn' - khớp ý. Điều 29.1 áp cho thanh toán, không liên quan trực tiếp đến mã PIN SIM."
+internal_checks:
+  - issue: "Đoạn 'chỉ cần một lần đọc được tin nhắn trong máy bạn, người cầm máy mở được đường sang các SIM đăng ký sau đó dưới tên bạn... Mỗi SIM mở thêm là một số điện thoại đứng tên bạn mà bạn không biết' trình bày như hệ quả pháp lý của Điều 18.2.b, nhưng nghị định đồng thời buộc khớp CSDL dân cư và video call (Điều 18.2.a, c); mục bỏ qua các lớp này, có thể làm người đọc hiểu sai cơ chế và mức rủi ro."
+    severity: error
+  - issue: "Bẫy 3 nói 'Các con số về số thuê bao mỗi người trong bài cũ không còn đúng' nhưng thân tự nêu con số '03 số' trong NĐ 163 mới; không đưa số của NĐ 49/2017 để đối chiếu. Khẳng định chưa có chứng cứ."
+    severity: warn
+  - issue: "Số trong tldr/steps: 'sáu số', 'nửa phút' (steps) có trong Nói dễ hiểu/steps nhưng không có nguồn nào (pháp luật hay kỹ thuật); 'ba lần' (Bẫy 2) không có nguồn; số lần nhập sai PIN và PUK tùy nhà mạng, không phải cố định. tldr 'quá số lần cho phép' đúng hơn 'ba lần'."
+    severity: warn
+  - issue: "Mục tự thừa nhận không có văn bản VN yêu cầu mã PIN SIM, nên toàn bộ khuyến nghị PIN/mã khóa là kỹ thuật, không phải nguồn pháp lý. Hai legal_refs NĐ 52 Điều 29 khoản 1 chỉ liên quan gián tiếp (nghĩa vụ chung của khách hàng)."
+    severity: warn
+  - issue: "legal_refs[].effective_from của NĐ 52/2024 để null; hiệu lực thực tế 01/07/2024 (điều khoản thi hành cuối NĐ 52). Url và article các legal_refs khớp văn bản tương ứng."
+    severity: warn
+validity:
+  doc: "Nghị định 163/2024/NĐ-CP; Nghị định 52/2024/NĐ-CP"
+  in_force: unconfirmed
+  effective_from: "2024-12-24"
+  amended_by: []
+  basis: "NĐ 163: Điều 84 khoản 1 hiệu lực 24/12/2024; Công báo ghi Hiệu lực 24/12/2024. NĐ 52: cuối văn bản ghi hiệu lực 01/7/2024. Tìm kiếm không thấy văn bản sửa đổi đã ban hành, nhưng có dự thảo NĐ sửa NĐ 52 (thuvienphapluat, 01/6/2026) và không tra được lược đồ sửa đổi trên Công báo (tải động). Không kết luận còn nguyên hiệu lực."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Mục 'Đăng ký SIM': sửa bullet 1 và 2 thành 'Với số thuê bao di động trả trước, ba số đầu của mỗi mạng...' (thêm 'trả trước'); sửa bullet 3 thành 'SIM thuê bao di động giao tiếp người-người (H2H) thứ hai trở đi' (dựa vào quote Điều 18.2.b)."
+  - "Bỏ hoặc gắn nhãn 'suy ra, không phải chữ của nghị định' cho đoạn 'Chỉ cần một lần đọc được tin nhắn... Mỗi SIM mở thêm là một số...'; nêu thêm rằng nhà mạng còn phải khớp 03 trường với CSDL dân cư và video call (Điều 18.2.a, c)."
+  - "Bẫy 3: bỏ câu 'Các con số về số thuê bao mỗi người trong bài cũ không còn đúng' hoặc đối chiếu NĐ 49/2017 và nêu số cụ thể trước/sau."
+  - "Bẫy 2 / tldr: thay 'Nhập sai ba lần' bằng 'nhập sai quá số lần cho phép (thường 3 lần, tùy nhà mạng)' hoặc dẫn hướng dẫn nhà mạng; gắn nhãn 'khuyến nghị kỹ thuật' cho 'sáu số' và 'nửa phút'."

@@ -29,10 +29,10 @@ legal_refs:
   - { doc: "Nghị định 163/2024/NĐ-CP", article: "Điều 25", url: "https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-163-2024-nd-cp-quy-dinh-chi-tiet-mot-so-dieu-va-bien-phap-thi-hanh-luat-vien-thong--173776", effective_from: null, checked_at: "2026-11-03", quote: null }
   - { doc: "Nghị định 69/2024/NĐ-CP", article: "Điều 14 khoản 1", url: "https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-69-2024-nd-cp-quy-dinh-ve-dinh-danh-va-xac-thuc-dien-tu--168331", effective_from: null, checked_at: "2026-11-03", quote: null }
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-legal-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf14b
+  scope: "Chặn nâng trạng thái: result=fail (docs/verification/14-nhung-tai-khoan-va-du-lieu-cua-ban/doi-so-dien-thoai-giu-so-cu-song-toi-khi-doi-xong.yml)"
   sources: []
 origin:
   zh: null

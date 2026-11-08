@@ -1,0 +1,74 @@
+id: tat-het-gia-han-tu-dong-toi-han-thi-tu-bam
+checker: agent-Vf05a
+checked_at: 2026-11-08
+content_sha256: "4d220535c42cf002c98c084bfbe4071b9e0dbd82c418cd1521977ad162aab17b"
+result: pass-with-edits
+claims:
+  - text: "Hợp đồng dịch vụ liên tục phải lập thành văn bản và giao cho người tiêu dùng 1 bản (Điều 42 khoản 2)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "Hợp đồng cung cấp dịch vụ liên tục phải được lập thành văn bản và cung cấp cho người tiêu dùng 01 bản."
+    verdict: partial
+    note: "Đây là Điều 42 KHOẢN 1, không phải khoản 2 như mục ghi. Khoản 2 chỉ áp dụng cho “Hợp đồng theo mẫu về cung cấp dịch vụ liên tục”. PDF Bộ Công Thương là ảnh quét, đã OCR (Apple Vision) và đối chiếu lại; mục không nói gói thuê bao điện tử (App Store, nhà mạng) có thuộc diện văn bản giấy hay không."
+  - text: "Hợp đồng phải có điều khoản thông báo việc nộp phí để tiếp tục sử dụng tối thiểu 07 ngày làm việc trước ngày hết hạn (Điều 42 khoản 2 điểm d)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "đ) Thông báo cho người tiêu dùng về việc nộp phí để tiếp tục sử dụng dịch vụ theo cách thức đã được thỏa thuận tối thiểu 07 ngày làm việc trước ngày hết hạn sử dụng dịch vụ;"
+    verdict: partial
+    note: "Nội dung đúng nhưng là điểm đ (chữ đ), không phải điểm d (điểm d là thông tin về phí). Mục viết “điểm d” cho cả hai điều khoản. Chỉ áp dụng cho hợp đồng theo mẫu (khoản 2). Câu ở mục “Nói dễ hiểu” (“Luật buộc bên bán báo trước 7 ngày làm việc”) bỏ qua điều kiện “theo cách thức đã được thỏa thuận” và “hợp đồng theo mẫu”."
+  - text: "Hợp đồng phải có điều khoản thông báo thời điểm kết thúc hợp đồng tối thiểu 07 ngày làm việc trước ngày kết thúc (Điều 42 khoản 2 điểm e)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "e) Thông báo cho người tiêu dùng về thời điểm kết thúc hợp đồng theo cách thức đã được thỏa thuận tối thiểu 07 ngày làm việc trước ngày hợp đồng kết thúc."
+    verdict: partial
+    note: "Số liệu và điểm e đúng. Cùng điều kiện “hợp đồng theo mẫu” và “theo cách thức đã được thỏa thuận” như trên."
+  - text: "Người tiêu dùng có quyền đơn phương chấm dứt hợp đồng dịch vụ liên tục tại bất kỳ thời điểm nào, chỉ phải thanh toán phần dịch vụ đã sử dụng (Điều 42 khoản 3); tldr: “Luật cho bạn hủy dịch vụ liên tục bất cứ lúc nào, chỉ trả phần đã dùng”"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "Trừ trường hợp các bên có thỏa thuận khác, người tiêu dùng có quyền đơn phương chấm dứt thực hiện hợp đồng cung cấp dịch vụ liên tục tại bất kỳ thời điểm nào và thông báo cho tổ chức, cá nhân kinh doanh cung cấp dịch vụ. Trong trường hợp người tiêu dùng đơn phương chấm dứt thực hiện hợp đồng, người tiêu dùng chỉ phải thanh toán đối với phần dịch vụ mà mình đã sử dụng."
+    verdict: partial
+    note: "Mục bỏ mất mệnh đề mở đầu “Trừ trường hợp các bên có thỏa thuận khác” và nghĩa vụ “thông báo cho tổ chức, cá nhân kinh doanh”. Có thể gây hiểu sai: gói trả trước dài hạn (xem mục 05-04: gói năm 360 ngày) thường có điều khoản khác; câu “chỉ trả phần đã dùng” không hứa hoàn tiền phần chưa dùng."
+  - text: "Bên bán không được đơn phương cắt dịch vụ trái hợp đồng; muốn ngừng vì sửa chữa, bảo trì hay lý do bắt buộc khác phải báo trước tối thiểu 03 ngày làm việc, trừ bất khả kháng (Điều 41 khoản 3)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "Không được đơn phương chấm dứt thực hiện hợp đồng, ngừng cung cấp dịch vụ không đúng hợp đồng hoặc trái quy định của pháp luật. Trường hợp cần sửa chữa, bảo trì hoặc vì lý do khác bắt buộc phải ngừng cung cấp dịch vụ, tổ chức, cá nhân kinh doanh cung cấp dịch vụ phải thông báo trước cho người tiêu dùng về thời gian ngừng cung cấp dịch vụ và thời gian cung cấp lại dịch vụ chậm nhất là 03 ngày làm việc trước ngày ngừng cung cấp dịch vụ, trừ trường hợp bất khả kháng."
+    verdict: match
+    note: "OCR trang ảnh quét; văn bản đúng (Điều 41 khoản 3). Mục tóm tắt: “báo trước tối thiểu 03 ngày làm việc” khớp “chậm nhất là 03 ngày làm việc trước”."
+  - text: "Luật 19/2023/QH15 có hiệu lực 1/7/2024 (Điều 79)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024."
+    verdict: match
+    note: "Điều 79 khoản 1 (OCR)."
+  - text: "Luật có riêng một mục về dịch vụ liên tục; hợp đồng dịch vụ liên tục áp dụng cho các gói App Store/Google Play/ví điện tử/thẻ (ngầm định trong thân mục)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "Điều 42. Hợp đồng cung cấp dịch vụ liên tục"
+    verdict: inference
+    note: "Luật có Điều 41-42 về “dịch vụ liên tục” nhưng mục không dẫn định nghĩa “dịch vụ liên tục” (Điều 3) để chứng minh gói App Store/Google Play, ví điện tử hay nhà mạng thuộc diện. Việc áp Điều 42 cho từng loại gói là suy luận của người soạn; chưa đối chiếu định nghĩa."
+  - text: "Bẫy 1 và 3: xóa app không hủy đăng ký; ủy quyền thanh toán định kỳ trên thẻ không cắt được bằng cách xóa app/hủy trong ví, phải yêu cầu nơi bán hủy hoặc ngân hàng khóa thẻ (steps 1, 4)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "(không có câu tương ứng trong nguồn)"
+    verdict: not-found
+    note: "Không có trong nguồn luật dẫn và mục không nêu nguồn nào cho các khẳng định về cơ chế App Store, Google Play, thẻ. Chỉ là lời khuyên thực hành; cần nguồn của Apple/Google/ngân hàng hoặc gắn nhãn kinh nghiệm."
+internal_checks:
+  - issue: "(e) legal_refs[0].article ghi “Điều 42 khoản 2 (điểm d, điểm e)”: thông báo nộp phí tiếp tục là điểm đ (chữ đ), không phải điểm d; thân mục lặp lỗi này (“điểm d”). Khoản “lập thành văn bản” (thân mục ghi khoản 2) thực ra là khoản 1."
+    severity: error
+  - issue: "(f) Xung đột với mục 05-04 (cùng chương): mục này nói “được hủy bất cứ lúc nào và chỉ trả phần đã dùng”; mục 05-04 nói gói năm khóa 360 ngày, đổi ý giữa đường thì phần còn lại không lấy lại được. Hai mục không nối được với nhau nếu không nêu ngoại lệ “trừ trường hợp các bên có thỏa thuận khác” (Điều 42 khoản 3)."
+    severity: warn
+  - issue: "(c) Câu “gói bạn dùng thật, trả theo năm thường rẻ hơn trả theo tháng” ở “Đừng hiểu ngược” không có cơ sở trong thân hay nguồn. Giá niêm yết Viettel (đã tra khi kiểm mục 05-04): 12SD100 = 1.200.000 đ/360 ngày = 100.000 đ/tháng, bằng SD100 hàng tháng; V180B 30 ngày = 180.000 đ, bằng 12V180B quy tháng. Tức không rẻ hơn."
+    severity: warn
+  - issue: "(c) Step 3 (nhà mạng: “hủy bằng ứng dụng hoặc cú pháp”) và step 4 (khóa thẻ) không có cơ sở trong phần Pháp luật Việt Nam; Ghi chú Bẫy 2 nói “Chỉ ngừng nạp tiền thì gói vẫn sống tới hết chu kỳ và có thể tự trừ tiếp khi bạn nạp” không có nguồn."
+    severity: warn
+  - issue: "(a) Con số 7 ngày làm việc trong tldr/Nói dễ hiểu có trong thân (khớp). Không thấy số nào mâu thuẫn nhau."
+    severity: warn
+  - issue: "(d) Cả 3 legal_refs[].url đều trỏ đúng Luật 19/2023/QH15 (bản ký đăng moit.gov.vn). Không lỗi URL."
+    severity: warn
+validity:
+  doc: "Luật Bảo vệ quyền lợi người tiêu dùng 19/2023/QH15"
+  in_force: unconfirmed
+  effective_from: "2024-07-01"
+  amended_by: []
+  basis: "Điều 79 khoản 1 của bản ký ghi hiệu lực từ 01/7/2024. Không mở được bản hợp nhất/trang hiệu lực (vbpl.vn, Công báo); chưa kiểm có văn bản sửa đổi. Theo giao thức không kết luận còn hiệu lực chỉ vì không thấy văn bản thay thế."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "legal_refs[0].article và thân mục: đổi “Điều 42 khoản 2 (điểm d, điểm e)” thành “Điều 42 khoản 2 (điểm đ, điểm e)”; câu “lập thành văn bản” ghi Điều 42 khoản 1."
+  - "Thân mục (điểm cho phép hủy) và tldr: thêm “trừ trường hợp hợp đồng có thỏa thuận khác” và “phải thông báo cho bên bán”, dựa vào quote Điều 42 khoản 3 “Trừ trường hợp các bên có thỏa thuận khác… và thông báo cho tổ chức, cá nhân kinh doanh”."
+  - "Câu “Luật buộc bên bán báo trước 7 ngày làm việc”: sửa thành “hợp đồng theo mẫu về dịch vụ liên tục phải có điều khoản bên bán thông báo…” (Điều 42 khoản 2)."
+  - "Bỏ hoặc có nguồn cho câu “gói trả theo năm thường rẻ hơn trả theo tháng” (giá niêm yết Viettel không cho thấy chênh lệch)."
+  - "Gắn nhãn kinh nghiệm/không phải luật cho Bẫy 1 và Bẫy 3, hoặc dẫn trang hỗ trợ chính thức của Apple/Google/ngân hàng."
+  - "Nếu muốn khẳng định App Store/nhà mạng thuộc “dịch vụ liên tục”, dẫn định nghĩa tại Điều 3 Luật 19/2023/QH15."

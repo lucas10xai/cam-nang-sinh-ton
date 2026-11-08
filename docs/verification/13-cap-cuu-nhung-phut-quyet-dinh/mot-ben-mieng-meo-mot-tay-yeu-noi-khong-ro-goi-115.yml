@@ -1,0 +1,100 @@
+id: mot-ben-mieng-meo-mot-tay-yeu-noi-khong-ro-goi-115
+checker: agent-Vf13aA
+checked_at: 2026-11-08
+content_sha256: "9779e4405523707fad41f2118fe16b487f61c13c745be881b5498f6603de34bb"
+result: pass-with-edits
+claims:
+  - text: "Triệu chứng khởi phát đột quỵ rõ ràng dưới 270 phút trước khi dùng thuốc tiêu huyết khối (QĐ 3312 mục 4.2.2)"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "4.2.2. Các triệu chứng khởi phát đột quỵ rõ ràng dưới 270 phút trước khi dùng thuốc tiêu huyết khối."
+    verdict: match
+    note: "Số mục khớp."
+  - text: "Tiêu huyết khối tĩnh mạch trong 3 giờ đầu, gần đây mở rộng lên 4,5 giờ, áp dụng thường quy tại Hoa Kỳ và châu Âu; vì vậy xác định chính xác thời gian khởi phát là rất quan trọng"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "Điều trị tiêu huyết khối đường tĩnh mạch trong 3 giờ đầu và gần đây mở rộng cửa sổ điều trị lên 4,5 giờ đã được áp dụng thường quy tại Hoa Kỳ cũng như tại châu Âu. Vì vậy, việc xác định chính xác thời gian khởi phát đột quỵ là rất quan trọng."
+    verdict: match
+    note: ""
+  - text: "Mốc 270 phút là hạn cuối dùng thuốc; qua mốc đó thì mất một lựa chọn điều trị (Bẫy 1) và tldr 'cần triệu chứng dưới 270 phút'"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "Sử dụng thuốc tiêu huyết khối alteplase có thể mang lại lợi ích khi tiến hành ở một số người bệnh nhồi máu não ngoài 4,5 giờ được lựa chọn cẩn thận bằng tiêu chuẩn hình ảnh học sọ não."
+    verdict: partial
+    note: "Cùng QĐ 3312, mục 4.5 'Mở rộng cửa sổ thời gian tiêu huyết khối' nêu alteplase vẫn có thể dùng ngoài 4,5 giờ cho người chọn lọc bằng hình ảnh (nhồi máu não thức giấc, mục 4.5.1) và lấy huyết khối cơ học tới 24 giờ (mục 2.3.4). NINDS: 'some people benefit from treatment up to 24 hours after a stroke' và 'even people who wake up with symptoms need to get to the hospital as soon as possible'. Mục viết '270 phút là hạn cuối' và 'cần dưới 270 phút' có thể khiến người đến muộn hoặc không rõ giờ bỏ không đi viện; câu chính xác là 270 phút là điều kiện của tiêu huyết khối thường quy."
+  - text: "Cơn thiếu máu não thoáng qua: khởi phát đột ngột triệu chứng thần kinh khu trú, kéo dài không quá 24 giờ, không có tổn thương nhồi máu não cấp trên hình ảnh (mục 1.1.2)"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "Cơn thiếu máu não thoáng qua (CTMNTQ) được định nghĩa là sự khởi phát đột ngột triệu chứng thần kinh khu trú do thiếu máu não ở một khu vực hoặc võng mạc, và các triệu chứng này kéo dài không quá 24 giờ và không có sự hiện diện tổn thương nhồi máu não cấp trên hình ảnh cộng hưởng từ."
+    verdict: match
+    note: "Mục viết 'hình ảnh học'; nguồn ghi 'hình ảnh cộng hưởng từ'. Mục cũng bỏ ý 'hoặc võng mạc'."
+  - text: "Biểu hiện khởi phát hay gặp: liệt nửa người, liệt một chi, liệt mặt, rối loạn ngôn ngữ, mất ngôn ngữ, nhìn đôi, thất điều, chóng mặt, rối loạn tri giác đột ngột"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "Liệt nửa người, liệt một chi hoặc liệt tứ chi (hiếm gặp) + Mất hoặc giảm cảm giác nửa người + Mất thị lực một hoặc hai mắt + Khiếm khuyết trường thị giác + Nhìn đôi + Rối loạn ngôn ngữ + Liệt mặt + Thất điều + Chóng mặt (hiếm khi xuất hiện đơn độc) + Mất ngôn ngữ + Rối loạn tri giác đột ngột"
+    verdict: match
+    note: "Mục 3.1 Lâm sàng, nhồi máu não. 'Méo miệng' là chữ của người soạn tương ứng liệt mặt; QĐ cũng ghi ở mục 3.1 của bài khác 'méo miệng nhẹ' là dấu hiệu dễ bị bỏ qua."
+  - text: "Tài liệu buộc đánh giá bằng thang NIHSS để quyết định có tiêu huyết khối hay không"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "Người bệnh đột quỵ não phải được đánh giá theo thang điểm NIHSS. Chỉ định tiêu huyết khối cho những người bệnh có NIHSS ≤ 5 điểm và có triệu chứng thần kinh khu trú gây tàn tật hoặc NIHSS > 5 điểm."
+    verdict: match
+    note: "Mục 4.2.3. NIHSS là thang của Viện Sức khỏe Quốc gia Hoa Kỳ (mục 3.1 Lâm sàng nhồi máu não)."
+  - text: "Bảo người bệnh cười, giơ hai tay và nói một câu (steps bước 1)"
+    source_url: https://www.ninds.nih.gov/health-information/stroke/signs-and-symptoms
+    quote: "F - Face: Ask the person to smile. Does one side of the face droop? A - Arms: Ask the person to raise both arms. Does one arm drift downward? S - Speech: Ask the person to repeat a simple phrase. Is the speech slurred or strange?"
+    verdict: partial
+    note: "NINDS (rà soát 23/07/2026) hướng dẫn FAST đúng như bước 1 và 'If you see any of these three signs, call 9-1-1 right away'. QĐ 3312 (nguồn duy nhất trong mục Nguồn) không có thang FAST hay bước này; trang HCDC/Phú Lâm (30/9/2025) cũng nêu FAST: 'F (Face) - mặt bị méo, A (Arm) - tay yếu hoặc không giơ được, S (Speech) - giọng nói khó, ngọng'. Nội dung đúng nhưng nguồn của bước không có trong Nguồn của mục. Cần thêm nguồn."
+  - text: "Gọi 115 ngay khi thấy méo miệng, yếu một bên, nói ngọng; không cần chờ đủ ba dấu hiệu"
+    source_url: https://www.ninds.nih.gov/health-information/stroke/signs-and-symptoms
+    quote: "Call 9-1-1 immediately if one or more of the following symptoms appear suddenly."
+    verdict: match
+    note: "NINDS: gọi cấp cứu ngay khi có một hoặc nhiều triệu chứng, kể cả 'Numbness or weakness of face, arm, or leg, especially on one side' và 'Trouble speaking'. QĐ 3312 không có câu 'gọi 115'. Số 115 của Việt Nam."
+  - text: "Ghi lại giờ khởi phát"
+    source_url: https://www.ninds.nih.gov/health-information/stroke/signs-and-symptoms
+    quote: "Pay attention and note the time when the person first starts showing symptoms. This will help doctors determine the best treatment."
+    verdict: match
+    note: "Khớp QĐ 3312 mục 4.2.2 và mục 3.1 (thời điểm khởi phát hoặc lúc cuối cùng còn bình thường)."
+  - text: "Không chở bằng xe máy; xe cấp cứu điều phối tới đúng cơ sở"
+    source_url: https://www.ninds.nih.gov/health-information/stroke/signs-and-symptoms
+    quote: "A person having a stroke should not drive to the hospital themselves or have someone else drive them. Taking an ambulance will allow medical personnel to begin life-saving treatment on the way to the emergency room."
+    verdict: partial
+    note: "NINDS không cho người bệnh tự lái hay nhờ người khác chở, nên đi xe cấp cứu; không nhắc riêng xe máy. QĐ 3312 không có câu này. Nội dung đúng hướng nhưng mục không dẫn NINDS/AHA. Câu 'cơ sở có máy chụp cắt lớp và bác sĩ xử trí tiêu huyết khối, xe cấp cứu điều phối chỗ đó' là suy ra."
+  - text: "Không cho ăn uống; người bệnh có nguy cơ viêm phổi nếu sặc"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "Khoảng 42-67% người bệnh bị rối loạn nuốt trong vòng 3 ngày đầu sau đột quỵ. ... Hít sặc vào phổi là biến chứng nặng nhất của rối loạn nuốt."
+    verdict: inference
+    note: "Cơ sở: bài Phục hồi chức năng của QĐ 3312 (mục 1.2.5). QĐ không có lệnh 'không cho ăn uống' ở giai đoạn trước viện. Trang Phú Lâm/HCDC ghi 'giữ bệnh nhân ở tư thế an toàn, đầu nghiêng để tránh sặc, tuyệt đối không cho uống thuốc' (chỉ thuốc). Hướng đi đúng và không gây hại nhưng là suy ra."
+  - text: "Bẫy 2: cho uống thuốc hạ huyết áp, ngậm thuốc an thần, hoặc uống nước"
+    source_url: http://trungtamytequan6.medinet.gov.vn/tim-mach/gio-vang-quyet-dinh-su-song-cmobile17305-250126.aspx
+    quote: "Trong lúc chờ đợi, giữ bệnh nhân ở tư thế an toàn, đầu nghiêng để tránh sặc, tuyệt đối không cho uống thuốc."
+    verdict: partial
+    note: "Khớp phần 'không cho uống thuốc'. Mục viết 'rối loạn tri giác và rối loạn ngôn ngữ ... nhóm biểu hiện khởi phát' như lý do; đó là suy ra, QĐ 3312 không nêu lý do này."
+  - text: "Chi phí: bảo hiểm y tế trả phần lớn; mỗi phút chờ là một phần vùng não chết thêm"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: ""
+    verdict: not-found
+    note: "Không có nguồn trong mục cho tỷ lệ chi trả bảo hiểm y tế; câu 'mỗi phút chờ ... không mọc lại' không có trong nguồn đã dẫn."
+  - text: "Số hiệu và ngày Quyết định 3312/QĐ-BYT ngày 05/11/2024"
+    source_url: https://bvtn.org.vn/huong-dan-chan-doan-va-dieu-tri-dot-quy-nao/
+    quote: "Quyết định số 3312/QĐ-BYT của Bộ Y tế ngày 05/11/2024 về việc ban hành tài liệu chuyên môn “hướng dẫn chẩn đoán và điều trị đột quỵ não”"
+    verdict: match-secondary
+    note: "Trang bìa file PDF ghi 'Quyết định số /QĐ-BYT ngày tháng năm 2024' (để trống). thuvienphapluat.vn: 'Số: 3312/QĐ-BYT | Hà Nội, ngày 05 tháng 11 năm 2024'. Chưa lấy được bản ký chính thức trên Công báo/moh.gov.vn."
+internal_checks:
+  - issue: "tldr và Bẫy 1 viết '270 phút là hạn cuối', trong khi cùng QĐ 3312 mục 4.5 và mục 2.3.4 cho điều trị ngoài 4,5 giờ (alteplase chọn lọc, lấy huyết khối tới 24 giờ). Mục 13-04 của cùng chương nêu các cửa sổ 6, 12, 24 giờ. Hai mục trong chương đưa mốc thời gian khác nhau cho cùng một bệnh mà không giải thích."
+    severity: warn
+  - issue: "Bước 1 (cười, giơ hai tay, nói một câu) và bước 'không chở bằng xe máy' không có trong QĐ 3312 (nguồn duy nhất trong mục Nguồn). Các bước cốt lõi của steps thiếu nguồn dẫn trong mục."
+    severity: warn
+  - issue: "Chương 13 mục 13-03 và 13-04 dẫn cùng QĐ 3312; hai mục nhất quán về 4,5 giờ nhưng 13-03 không nhắc cửa sổ lấy huyết khối cơ học mà 13-04 nêu."
+    severity: warn
+  - issue: "Các con số trong tldr/steps (270 phút) có trong thân mục. Không mâu thuẫn số trong mục (270 phút = 4,5 giờ)."
+    severity: warn
+validity:
+  doc: "Quyết định 3312/QĐ-BYT ngày 05/11/2024 của Bộ Y tế (Hướng dẫn chẩn đoán và điều trị đột quỵ não)"
+  in_force: unconfirmed
+  effective_from: "2024-11-05"
+  amended_by: []
+  basis: "Hai trang thứ cấp (bvtn.org.vn, thuvienphapluat.vn) dẫn quyết định; chưa tìm thấy văn bản thay thế, nhưng chưa mở được Công báo hoặc moh.gov.vn; trang bìa PDF để trống số và ngày. Hướng dẫn chuyên môn không có ngày hiệu lực riêng."
+deliberate_vn_deviation: []
+potential_harm:
+  - "tldr và Bẫy 1: 'cần triệu chứng dưới 270 phút' và '270 phút là hạn cuối ... qua mốc đó thì mất một lựa chọn điều trị' có thể khiến người đến muộn, ngủ dậy mới thấy triệu chứng hoặc không rõ giờ nghĩ là đã hết cơ hội và không đi viện. QĐ 3312 mục 4.5/2.3.4 và NINDS cho thấy vẫn có điều trị tới 24 giờ cho một số người."
+suggested_edits:
+  - "tldr: đổi 'Thuốc tiêu huyết khối cần triệu chứng dưới 270 phút, nên không chờ xem có đỡ không' thành 'Thuốc tiêu huyết khối thường quy cần triệu chứng dưới 270 phút; nhiều ca vẫn điều trị được muộn hơn nên vẫn phải đi viện ngay, kể cả khi ngủ dậy mới thấy', dựa vào QĐ 3312 mục 4.5 và NINDS 'some people benefit from treatment up to 24 hours'."
+  - "Ghi chú Bẫy 1: bỏ 'hạn cuối' và 'mất một lựa chọn điều trị', thay bằng mô tả đúng 4.2.2 ('điều kiện của tiêu huyết khối thường quy')."
+  - "Nguồn: thêm NINDS Signs and Symptoms (ninds.nih.gov/health-information/stroke/signs-and-symptoms) làm nguồn cho FAST, gọi cấp cứu, không tự lái xe, ghi giờ."
+  - "Ghi chú Bẫy 2: bỏ lý do 'tài liệu xếp rối loạn tri giác và rối loạn ngôn ngữ vào nhóm biểu hiện khởi phát' làm lý do không cho uống thuốc; dẫn nguồn 'không cho uống thuốc' (Phú Lâm/HCDC) hoặc ghi 'suy ra'."
+  - "Chi phí: bỏ hoặc dẫn nguồn cho 'bảo hiểm y tế trả phần lớn' và 'mỗi phút chờ là một phần vùng não chết thêm'."

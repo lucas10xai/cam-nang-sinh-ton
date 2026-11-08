@@ -1,0 +1,91 @@
+id: bong-lam-mat-bang-nuoc-sach-chay-20-phut-khong-boi-kem
+checker: agent-Vf13cB
+checked_at: 2026-11-08
+content_sha256: "ad91a3dcc90976623b67d073adb3f72ffd364ea7236b664ec1a27fd95b66b428"
+result: pass-with-edits
+claims:
+  - text: "Ngâm rửa nước sạch càng sớm càng tốt, tốt nhất trong 30 phút sau khi bỏng"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: "Thời điểm ngâm rửa bằng nước mát càng sớm càng tốt, tốt nhất trong 30 phút từ sau khi bị bỏng. Sau khoảng thời gian trên, ngâm rửa ít tác dụng."
+    verdict: match
+    note: "Trang Viện Bỏng Quốc gia (cert SSL không xác thực được bằng công cụ đọc, tải bằng curl -k, ngày 04/01/2022). Nguồn là hướng dẫn cho TRẺ EM ('Bỏng nhiệt ở trẻ em'); mục áp dụng cho mọi người. 'Sau khoảng thời gian trên, ngâm rửa ít tác dụng' không có trong mục."
+  - text: "Nước sạch nhiệt độ 16-20 độ C"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: "Yêu cầu là nước sạch, nhiệt độ nước tiêu chuẩn là từ 16 - 20 độ C. Tuy nhiên, vì là cấp cứu, cần tận dụng nguồn nước sẵn có ngay tại nơi bị nạn."
+    verdict: match
+    note: "Nguồn cho phép dùng nước sẵn có; mục chỉ ghi 'nước sạch mát' trong steps, 16-20 độ ở thân."
+  - text: "Thời gian ngâm rửa 15-30-45 phút, thường tới khi hết đau rát"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: "Thời gian ngâm rửa từ 15 - 30 - 45 phút (thường tới khi hết đau rát)."
+    verdict: match
+    note: "Cũng trong trang: 'Đặc biệt với trẻ em, khi thời tiết lạnh nên rút bớt thời gian ngâm, đề phòng nhiễm lạnh.'"
+  - text: "Con số 20 phút (title, tldr, steps)"
+    source_url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001281
+    quote: "It may be reasonable to cool thermal burns for 5 to 20 minutes."
+    verdict: inference
+    note: "AHA/Red Cross 2024 (COR 2b, B-NR): làm mát 5-20 phút; 'There is a lack of international consensus about the optimal duration'. Viện Bỏng: 15-30-45 phút. 20 phút nằm trong cả hai khung, không phải con số của nguồn nào; mục tự thừa nhận. Hợp lý, không gây hại."
+  - text: "Không dùng nước đá, không ngâm nước ấm"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: "Không dùng nước đá gây nhiễm lạnh cho nạn nhân. Không dùng nước ấm, có nhiệt độ cao hơn (ít tác dụng hạ nhiệt, giảm đau)."
+    verdict: match
+    note: "AHA 2024 mềm hơn: 'If clean running water is not available, it may be reasonable to cool superficial burns (with the skin intact) with ice wrapped in cloth' (COR 2b), tối đa 10 phút. Mục theo Viện Bỏng; xem deliberate_vn_deviation."
+  - text: "Không bôi kem đánh răng, nước mắm, mỡ trăn (steps)"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: "Đắp các loại thuốc mỡ, dầu, nước mắm, nước tương hoặc bất kỳ chất gì khi không có ý kiến của nhân viên y tế."
+    verdict: partial
+    note: "Nước mắm có tên; 'kem đánh răng', 'mỡ trăn' thuộc 'bất kỳ chất gì' nhưng không được nêu. Bẫy 1 nói 'Tất cả nằm trong danh sách cấm vì làm bẩn vết thương và che mất độ sâu' - lý do này không có trong nguồn."
+  - text: "Không chọc nốt phồng; băng ép nhẹ"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: "Không làm vỡ, làm trợt vòm nốt phồng."
+    verdict: match
+    note: "Nguồn: 'Băng ép nhẹ vết bỏng làm hạn chế tạo nốt phồng, giảm phù nề chi bị bỏng. Băng ép cần tiến hành sớm, trách băng quá chặt gây chèn ép vùng bỏng.' Với bỏng mặt/sinh dục: 'chỉ cần phủ một lớp gạc.'"
+  - text: "Đi viện nếu bỏng rộng hơn hai bàn tay, hoặc ở mặt, tay, chân, sinh dục, hoặc lơ mơ, sốt cao, khó thở (steps, tldr)"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: "Diện tích bỏng lớn hơn/bằng 2 bàn tay cơ thể. Bỏng kèm chấn thương. Bỏng ở vùng đầu, mặt, cổ, bàn tay, bàn chân, sinh dục. Lơ mơ, lẫn lộn. Sốt cao, co giật, chân tay lạnh. Bỏ bú, khó thở, xanh tím, đái ít, bụng chướng."
+    verdict: partial
+    note: "(1) Ngưỡng nguồn là 'lớn hơn/bằng 2 bàn tay' (mục Lợi ích ghi đúng 'hơn hoặc bằng'); title/tldr/steps/Nói dễ hiểu ghi 'rộng hơn hai bàn tay', bỏ 'bằng'. (2) Nguồn là hướng dẫn cho trẻ em; bàn tay là bàn tay của người bị bỏng. (3) AHA 2024: 'Large partial-thickness burns (partial-thickness burns that involve the face, hands, feet, or genitalia), all full-thickness burns, and concern for inhalation injury (soot around the nose or mouth, difficulty breathing) require hospital treatment' - mục không có bỏng toàn bộ chiều dày/bỏng đường thở, bỏng kèm chấn thương, bỏng điện/hóa chất."
+  - text: "Nước chảy liên tục cho vùng bỏng nhiệt (đối chiếu quốc tế)"
+    source_url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001281
+    quote: "Thermal burns should be cooled immediately, preferably with clean running water."
+    verdict: match
+    note: "AHA/Red Cross 2024, COR 1, B-NR. Bản gương PDF cùng DOI (sae-emergencias.org). Tóm tắt: làm mát ngay bằng nước sạch chảy."
+  - text: "Trẻ nhỏ/bỏng rộng có nguy cơ hạ thân nhiệt khi ngâm nước lạnh lâu (Bẫy 2)"
+    source_url: https://www.ahajournals.org/doi/10.1161/CIR.0000000000001281
+    quote: "Preadolescent children with thermal burns being actively cooled with running water should be monitored for signs or symptoms of hypothermia."
+    verdict: partial
+    note: "AHA 2024 COR 1, C-LD. Viện Bỏng: 'việc tưới rửa nước cần kiểm soát chặt chẽ khi diện bỏng rộng trên 10% diện tích cơ thể, nhất là trẻ em nhỏ tuổi'. Mục đưa cảnh báo ở Bẫy 2 nhưng steps ('20 phút liên tục') không kèm điều kiện này."
+  - text: "Quần áo, nhẫn, đồng hồ: cởi bỏ tại vùng bỏng (nguồn dặn, mục bỏ)"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: "Kết hợp nhanh chóng cởi bò quần áo chật, nhẫn hoặc đồng hồ tại vùng bỏng."
+    verdict: not-found
+    note: "Mục không có bước này (không phải khẳng định sai, là chỗ thiếu); nhẫn/đồng hồ dễ siết khi sưng. Ghi ở suggested_edits."
+internal_checks:
+  - issue: "'rộng hơn hai bàn tay' (title không, tldr/steps/Nói dễ hiểu có) so với 'rộng hơn hoặc bằng hai bàn tay' (Lợi ích): không nhất quán về dấu bằng."
+    severity: warn
+  - issue: "Con số 20 phút ở title/tldr/steps không nằm trong khung 15-30-45 phút của nguồn mà mục dẫn (mục tự ghi: giữa khung); không có mâu thuẫn số liệu nhưng không phải con số nguồn nào."
+    severity: warn
+  - issue: "Toàn bộ khẳng định dựa vào MỘT trang hướng dẫn trẻ em; không có nguồn quốc tế trong mục Nguồn. AHA/Red Cross 2024 và NHS chưa được dẫn."
+    severity: warn
+  - issue: "Lý do 'làm bẩn vết thương và che mất độ sâu của bỏng' (Bẫy 1) và 'chườm đá quá lâu' không có trong nguồn."
+    severity: warn
+  - issue: "legal_refs rỗng; không có văn bản pháp luật; mục tự ghi chưa có văn bản Bộ Y tế riêng. Không kiểm được khẳng định 'Việt Nam chưa có văn bản của Bộ Y tế riêng về xử trí bỏng tại nhà'."
+    severity: warn
+validity:
+  doc: "Hướng dẫn sơ cấp cứu bỏng nhiệt ở trẻ em, Viện Bỏng Quốc gia Lê Hữu Trác (04/01/2022); AHA/Red Cross First Aid 2024"
+  in_force: unconfirmed
+  effective_from: "2022-01-04 (ngày đăng trên trang)"
+  amended_by: []
+  basis: "Hướng dẫn y tế, không có 'hiệu lực'. Trang đăng 04/01/2022. AHA/Red Cross 2024 (Circulation 2024;150) là hướng dẫn mới hơn, khung 5-20 phút, không mâu thuẫn mục. Không thấy phiên bản mới hơn của Viện Bỏng; không kiểm được."
+deliberate_vn_deviation:
+  - "Thời gian làm mát: Viện Bỏng 15-30-45 phút; AHA 2024 5-20 phút ('lack of international consensus'). Mục chọn 20 phút (trong cả hai)."
+  - "Nước đá: Viện Bỏng 'Không dùng nước đá'; AHA 2024 cho phép đá bọc vải ≤10 phút cho bỏng nông khi không có nước chảy (COR 2b). Mục theo Viện Bỏng (an toàn hơn cho bỏng rộng và trẻ nhỏ)."
+potential_harm:
+  - "steps[0] '20 phút liên tục' không kèm điều kiện: nguồn (Viện Bỏng) cần kiểm soát chặt khi bỏng >10% diện tích cơ thể, nhất là trẻ nhỏ, mùa lạnh (rút ngắn thời gian, giữ ấm phần không bỏng); AHA: theo dõi hạ thân nhiệt ở trẻ chưa dậy thì. Làm đúng nguyên văn với trẻ nhỏ bỏng rộng có thể gây hạ thân nhiệt; Bẫy 2 có cảnh báo nhưng không ở steps. Mức: trung bình."
+  - "steps[3] (đi viện) bỏ dấu hiệu AHA 'bỏng toàn bộ chiều dày' và 'nghi tổn thương đường thở (muội quanh mũi miệng, khó thở)', bỏng kèm chấn thương: người bỏng nhà cháy, hít khói chỉ có 'khó thở' mới thấy. Mức: thấp-trung bình."
+suggested_edits:
+  - "title/tldr/steps/Nói dễ hiểu: đổi 'rộng hơn hai bàn tay' thành 'lớn hơn hoặc bằng hai bàn tay (bàn tay của người bị bỏng)', dựa vào quote 'Diện tích bỏng lớn hơn/bằng 2 bàn tay cơ thể'."
+  - "steps[0]: thêm 'Bỏng rộng hoặc trẻ nhỏ, trời lạnh: rút ngắn thời gian, giữ ấm phần cơ thể không bị bỏng, theo dõi rét run', dựa vào Viện Bỏng (>10% diện tích cơ thể) và AHA 2024 ('monitored for signs or symptoms of hypothermia')."
+  - "steps: thêm 'Cởi bỏ quần áo chật, nhẫn, đồng hồ ở vùng bỏng trước khi sưng' (Viện Bỏng: 'cởi bỏ quần áo chật, nhẫn hoặc đồng hồ tại vùng bỏng')."
+  - "steps[3]: thêm bỏng nghi chiều sâu (da trắng/đen, không đau), bỏng kèm hít khói/muội quanh mũi miệng, bỏng kèm chấn thương; thêm 'bỏng điện hoặc hóa chất: làm theo mục khác' (AHA 2024: 'all full-thickness burns, and concern for inhalation injury')."
+  - "Bẫy 1: thay 'Tất cả nằm trong danh sách cấm vì làm bẩn vết thương và che mất độ sâu' bằng 'Viện Bỏng cấm đắp thuốc mỡ, dầu, nước mắm, nước tương hoặc bất kỳ chất gì khi chưa có ý kiến nhân viên y tế'; lý do 'che độ sâu' ghi là suy ra."
+  - "Ghi rõ ở Nguồn rằng bài của Viện Bỏng là hướng dẫn cho trẻ em; thêm AHA/Red Cross 2024 (https://www.ahajournals.org/doi/10.1161/CIR.0000000000001281) làm nguồn quốc tế cho 'làm mát ngay bằng nước chảy' và khung 5-20 phút."

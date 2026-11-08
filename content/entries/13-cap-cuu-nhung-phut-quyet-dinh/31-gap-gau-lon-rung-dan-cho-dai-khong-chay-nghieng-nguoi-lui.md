@@ -24,10 +24,10 @@ steps:
 legal_refs:
   - { doc: "Quyết định 1622/QĐ-BYT ngày 08/5/2014 của Bộ Y tế (Hướng dẫn giám sát, phòng chống bệnh dại trên người)", article: "Hướng dẫn xử trí vết cắn: rửa vết thương, khâu, đánh giá và tiêm vắc xin, kháng thể", url: "https://benhviennhitrunguong.gov.vn/quyet-dinh-so-1622qd-byt-ngay-0852014-cua-bo-y-te-ve-viec-phe-duyet-huong-dan-giam-sat-phong-chong-benh-dai-tren-nguoi.html", effective_from: null, checked_at: "2026-11-03", quote: null }
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13gB
+  scope: "Chặn nâng trạng thái: 3 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/gap-gau-lon-rung-dan-cho-dai-khong-chay-nghieng-nguoi-lui.yml)"
   sources: []
 origin:
   zh: null

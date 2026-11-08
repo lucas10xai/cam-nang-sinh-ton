@@ -1,0 +1,78 @@
+id: bong-lam-mat-bang-nuoc-sach-chay-20-phut-khong-boi-kem
+checker: agent-Vf13cA
+checked_at: 2026-11-08
+content_sha256: "ad91a3dcc90976623b67d073adb3f72ffd364ea7236b664ec1a27fd95b66b428"
+result: pass-with-edits
+claims:
+  - text: "Ngâm rửa nước sạch càng sớm càng tốt, tốt nhất trong 30 phút sau khi bỏng"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: "Thời điểm ngâm rửa bằng nước mát càng sớm càng tốt, tốt nhất trong 30 phút từ sau khi bị bỏng. Sau khoảng thời gian trên, ngâm rửa ít tác dụng."
+    verdict: partial
+    note: "Khớp chữ, nhưng bài là 'Hướng dẫn sơ cấp cứu bỏng nhiệt Ở TRẺ EM' (04/01/2022), mục không nói giới hạn đối tượng. Phần 'Sau khoảng thời gian trên, ngâm rửa ít tác dụng' bị bỏ: người đọc mốc 30 phút có thể không làm mát nếu đã quá 30 phút. NHS: 'Do this as soon as possible, within 3 hours of it happening.'"
+  - text: "Nước sạch ở nhiệt độ 16-20 độ C; thời gian ngâm rửa 15-30-45 phút, thường tới khi hết đau rát"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: "Yêu cầu là nước sạch, nhiệt độ nước tiêu chuẩn là từ 16 - 20 độ C. ... Thời gian ngâm rửa từ 15 - 30 - 45 phút (thường tới khi hết đau rát)."
+    verdict: match
+    note: "Câu đầu có thêm 'vì là cấp cứu, cần tận dụng nguồn nước sẵn có ngay tại nơi bị nạn', mục không nêu nhưng không lệch."
+  - text: "Làm mát bằng nước sạch chảy liên tục khoảng 20 phút (tldr, steps)"
+    source_url: https://www.nhs.uk/conditions/burns-and-scalds/
+    quote: "Hold the burn or scald under cool running water for 20 minutes. Do this as soon as possible, within 3 hours of it happening."
+    verdict: match
+    note: "NHS (đối chiếu hướng quốc tế, truy cập 2026-11-08, trang xem xét 31/03/2026). Tóm tắt: giữ vết bỏng dưới nước mát chảy 20 phút, càng sớm càng tốt, trong 3 giờ đầu. Con số 20 phút khớp NHS; nguồn VN chỉ nêu khung 15-30-45 (mục thừa nhận điều này)."
+  - text: "Không dùng nước đá, không ngâm nước ấm"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: "Không dùng nước đá gây nhiễm lạnh cho nạn nhân. Không dùng nước ấm, có nhiệt độ cao hơn (ít tác dụng hạ nhiệt, giảm đau)."
+    verdict: match
+    note: ""
+  - text: "Cấm đắp thuốc mỡ, dầu, nước mắm, nước tương khi chưa có ý kiến của nhân viên y tế; không bôi kem đánh răng, mỡ trăn"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: "Đắp các loại thuốc mỡ, dầu, nước mắm, nước tương hoặc bất kỳ chất gì khi không có ý kiến của nhân viên y tế."
+    verdict: partial
+    note: "Phần 'thuốc mỡ, dầu, nước mắm, nước tương' và 'bất kỳ chất gì' khớp. 'Kem đánh răng', 'mỡ trăn' (có ở title, tldr, steps[1], Bẫy 1) không có tên trong bài; được bao trùm bởi 'bất kỳ chất gì' nên đúng ý nhưng không phải chữ của nguồn. NHS: 'do not put any creams, oils or butter on burns or scalds'."
+  - text: "Không chọc nốt phồng, không làm vỡ vòm nốt phồng; băng ép nhẹ"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: "Không làm vỡ, làm trợt vòm nốt phồng. ... Sau đó, băng ép nhẹ vết bỏng bằng băng sạch. Băng ép nhẹ vết bỏng làm hạn chế tạo nốt phồng, giảm phù nề chi bị bỏng. Băng ép cần tiến hành sớm, tránh băng quá chặt gây chèn ép vùng bỏng."
+    verdict: match
+    note: "NHS: 'do not burst any blisters' và khuyên phủ màng bọc thực phẩm (cling film) sau khi làm mát, không dùng băng dính; khác chi tiết băng (VN: băng sạch băng ép nhẹ)."
+  - text: "Đi viện khi bỏng rộng hơn hoặc bằng hai bàn tay, hoặc bỏng ở đầu mặt cổ, bàn tay, bàn chân, sinh dục"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: "Diện tích bỏng lớn hơn/bằng 2 bàn tay cơ thể. Bỏng kèm chấn thương. Bỏng ở vùng đầu, mặt, cổ, bàn tay, bàn chân, sinh dục."
+    verdict: partial
+    note: "Khớp chữ, nhưng nguồn nói 'bàn tay cơ thể [của trẻ]' (2 bàn tay của trẻ), tức ngưỡng cho TRẺ EM. Mục áp dụng cho mọi người và bỏ 'bỏng kèm chấn thương'. Mục viết 'mặt, tay, chân' (tldr/steps) rộng hơn 'bàn tay, bàn chân' của nguồn, an toàn hơn. NHS: bỏng rất lớn/sâu, ở mặt, sinh dục, mông, hoặc do hóa chất/điện cần cấp cứu."
+  - text: "Đi viện khi người bị bỏng lơ mơ, sốt cao, khó thở"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: "Lơ mơ, lẫn lộn. Sốt cao, co giật, chân tay lạnh. Bỏ bú, khó thở, xanh tím, đái ít, bụng chướng."
+    verdict: match
+    note: ""
+  - text: "Ngâm lâu hoặc chườm đá làm hạ thân nhiệt, nguy hiểm nhất với trẻ nhỏ và khi bỏng rộng (Bẫy 2)"
+    source_url: https://vienbongquocgia.vn/huong-dan-so-cap-cuu-bong/huong-dan-so-cap-cuu-bong-nhiet-o-tre-em
+    quote: "Ngâm rửa nước lạnh cũng làm tăng mất nhiệt. Việc làm ấm lại khó khăn. ... Do vậy, việc tưới rửa nước cần kiểm soát chặt chẽ khi diện bỏng rộng trên 10% diện tích cơ thể (DTCT), nhất là trẻ em nhỏ tuổi và tiến hành vào mùa đông."
+    verdict: match
+    note: "Mục chỉ nêu trong Bẫy 2; steps[0] và tldr vẫn nói '20 phút liên tục' không kèm điều kiện diện bỏng rộng >10%."
+internal_checks:
+  - issue: "Nguồn duy nhất là 'Hướng dẫn sơ cấp cứu bỏng nhiệt ở trẻ em', nhưng title/tldr/steps áp dụng cho mọi người (kể cả người lớn) và mục Lợi ích ghi 'Viện Bỏng Quốc gia Lê Hữu Trác hướng dẫn' không nói là cho trẻ em; ngưỡng 'hai bàn tay' là của trẻ em."
+    severity: error
+  - issue: "'Ghi chú: Việt Nam chưa có văn bản của Bộ Y tế riêng về xử trí bỏng tại nhà' là khẳng định phủ định không kiểm chứng được; legal_refs rỗng nên không có hiệu lực pháp lý để kiểm. Mục chỉ nói bỏng nhiệt nhưng title chỉ viết 'Bỏng'; không loại trừ bỏng hóa chất (mục 13-21) và điện giật (mục 13-18)."
+    severity: warn
+  - issue: "Steps[3]/tldr 'tay, chân' rộng hơn 'bàn tay, bàn chân' ở nguồn và thân (Lợi ích)."
+    severity: warn
+  - issue: "Mục Lợi ích ghi 'Thời gian ngâm rửa 15-30-45 phút' còn title/tldr ghi '20 phút' (đã nêu 'nằm giữa khung' trong Ghi chú); không mâu thuẫn thực chất, 20 phút khớp NHS."
+    severity: warn
+validity:
+  doc: "Viện Bỏng Quốc gia Lê Hữu Trác, 'Hướng dẫn sơ cấp cứu bỏng nhiệt ở trẻ em' (04/01/2022); không có văn bản pháp luật"
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: "Hướng dẫn của bệnh viện chuyên ngành, không có ngày hiệu lực. Ngày đăng 04/01/2022 trên trang. Không thấy hướng dẫn mới hơn cùng đơn vị trong phạm vi tra cứu nhưng chưa tra tìm; NHS Burns and scalds (xem xét 31/03/2026) cho 20 phút làm mát và tương thích."
+deliberate_vn_deviation:
+  - "Mốc thời gian làm mát: Viện Bỏng 'tốt nhất trong 30 phút từ sau khi bị bỏng. Sau khoảng thời gian trên, ngâm rửa ít tác dụng'; NHS: 'as soon as possible, within 3 hours'. Thời lượng: VN khung 15-30-45 phút, NHS 20 phút."
+  - "Băng: VN 'băng ép nhẹ bằng băng sạch'; NHS phủ màng bọc thực phẩm lỏng (không quấn), không dùng băng dính."
+potential_harm:
+  - "tldr/steps[0] 'trong 30 phút đầu nếu được' không nói rõ 'quá 30 phút vẫn nên làm mát'. Người đến muộn có thể bỏ qua làm mát (NHS: làm trong 3 giờ). Nhẹ-vừa; sửa lời là đủ."
+  - "steps[0]/tldr ngâm '20 phút liên tục' không kèm điều kiện bỏng rộng (>10% diện tích cơ thể) hoặc trẻ nhỏ cần kiểm soát để tránh hạ thân nhiệt (nguồn có nêu, mục chỉ để trong Bẫy 2)."
+suggested_edits:
+  - "Nêu rõ trong tldr/Lợi ích: nguồn là hướng dẫn cho trẻ em (Viện Bỏng) và đối chiếu thêm NHS cho người lớn; thêm NHS 'Burns and scalds' vào mục Nguồn."
+  - "steps[0]: đổi 'trong 30 phút đầu nếu được' thành 'càng sớm càng tốt; quá 30 phút vẫn nên làm mát nếu chưa quá vài giờ' (NHS 'within 3 hours'). Thêm 'cởi bỏ quần áo, nhẫn gần vùng bỏng (trừ chỗ dính vào da)'."
+  - "steps[3]: thêm bỏng do hóa chất hoặc điện giật cần đi cấp cứu ngay (NHS: 'has been caused by an acid or chemical, or by electricity') hoặc nêu mục này chỉ cho bỏng nhiệt và trỏ 13-21 (hóa chất) / 13-18 (điện giật)."
+  - "steps[1]: đổi 'kem đánh răng, nước mắm, mỡ trăn' thành 'bất kỳ chất gì (thuốc mỡ, dầu, nước mắm, nước tương)' theo đúng quote hoặc gắn 'ví dụ: kem đánh răng, mỡ trăn' là ví dụ của người soạn."
+  - "steps[3]: nếu muốn giữ 'hai bàn tay', ghi 'hai bàn tay của chính người bị bỏng (trẻ em)'; người lớn đối chiếu thêm NHS (bỏng lớn hoặc sâu)."

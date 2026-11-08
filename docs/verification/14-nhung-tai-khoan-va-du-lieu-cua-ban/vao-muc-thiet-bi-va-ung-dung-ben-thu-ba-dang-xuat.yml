@@ -1,0 +1,80 @@
+id: vao-muc-thiet-bi-va-ung-dung-ben-thu-ba-dang-xuat
+content_sha256: "3276a42b68eebc2c03103fc0be446cd25d22ad02e69f77170f6e8d24d932dd33"
+checker: agent-Vf14a
+checked_at: 2026-11-08
+result: pass-with-edits
+claims:
+  - text: "Chủ thể dữ liệu có quyền được biết về hoạt động xử lý dữ liệu cá nhân (Điều 4 khoản 1 điểm a, Luật 91/2025)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "a) Được biết về hoạt động xử lý dữ liệu cá nhân;"
+    verdict: match
+    note: ""
+  - text: "Quyền đồng ý hoặc không đồng ý, và yêu cầu rút lại sự đồng ý (Điều 4 khoản 1 điểm b)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "b) Đồng ý hoặc không đồng ý, yêu cầu rút lại sự đồng ý cho phép xử lý dữ liệu cá nhân;"
+    verdict: match
+    note: "Điều kiện thực hiện quyền rút lại sự đồng ý nằm ở Điều 10 (xem claim sau), mục không dẫn."
+  - text: "Quyền rút lại sự đồng ý chỉ áp dụng khi nào (điều kiện ở Điều 10 khoản 1) - mục không nêu"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "1. Chủ thể dữ liệu cá nhân có quyền yêu cầu rút lại sự đồng ý cho phép xử lý dữ liệu cá nhân, yêu cầu hạn chế xử lý dữ liệu cá nhân của mình khi có nghi ngờ phạm vi, mục đích xử lý dữ liệu cá nhân hoặc tính chính xác của dữ liệu cá nhân, trừ trường hợp quy định tại Điều 19 của Luật này hoặc trường hợp pháp luật có quy định khác."
+    verdict: partial
+    note: "Mục viết 'Bạn có quyền đồng ý hoặc không đồng ý, và yêu cầu rút lại sự đồng ý' không kèm điều kiện 'khi có nghi ngờ phạm vi, mục đích xử lý hoặc tính chính xác' và ngoại lệ Điều 19 (không cần đồng ý). Điều 10 khoản 2: yêu cầu bằng văn bản, kể cả điện tử, gửi cho bên kiểm soát dữ liệu - đây là căn cứ của bước 'gửi email', mục chưa dẫn."
+  - text: "Cơ quan, tổ chức, cá nhân không được gây khó khăn, cản trở khi bạn thực hiện quyền (Điều 4 khoản 4)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "4. Cơ quan, tổ chức, cá nhân có trách nhiệm tạo điều kiện thuận lợi, không được gây khó khăn, cản trở việc thực hiện quyền và nghĩa vụ của chủ thể dữ liệu cá nhân theo quy định của pháp luật."
+    verdict: match
+    note: ""
+  - text: "Bên kiểm soát phải xây dựng quy trình, thủ tục, biểu mẫu rõ ràng để thực hiện quyền và bảo đảm bạn được biết thủ tục (Điều 5 khoản 1, NĐ 356/2025)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-356-2025-nd-cp-468371.htm
+    quote: "1. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân phải xây dựng quy trình, thủ tục, biểu mẫu rõ ràng để thực hiện các quyền của chủ thể dữ liệu cá nhân phù hợp với hoạt động xử lý dữ liệu cá nhân và trách nhiệm các bộ phận có liên quan; đảm bảo chủ thể dữ liệu cá nhân được biết về thủ tục thực hiện các quyền quy định tại khoản 1 Điều 4 của Luật Bảo vệ dữ liệu cá nhân."
+    verdict: match
+    note: "Bản PDF Công báo số 18 tải qua trang congbao.chinhphu.vn có lớp text."
+  - text: "Khi nhận yêu cầu rút lại sự đồng ý hoặc hạn chế xử lý, họ phải phản hồi trong 02 ngày làm việc và cung cấp đầy đủ thông tin về thủ tục ngừng xử lý (Điều 5 khoản 2)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-356-2025-nd-cp-468371.htm
+    quote: "2. Khi nhận được yêu cầu rút lại sự đồng ý cho phép xử lý dữ liệu cá nhân, hạn chế xử lý dữ liệu cá nhân, phản đối xử lý dữ liệu cá nhân theo đúng thủ tục của chủ thể dữ liệu cá nhân, bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân phải phản hồi trong thời hạn 02 ngày làm việc, cung cấp đầy đủ thông tin cho chủ thể dữ liệu cá nhân về thủ tục ngừng xử lý dữ liệu cá nhân và thực hiện trong thời hạn 15 ngày,"
+    verdict: partial
+    note: "Điều kiện 'theo đúng thủ tục' (yêu cầu phải làm theo quy trình của bên kiểm soát) và ngoại lệ 'trừ trường hợp xử lý không cần sự đồng ý theo Điều 19 Luật' bị lược. Hạn 02 ngày làm việc tính theo ngày làm việc, 15/20/15 ngày không ghi 'làm việc'. Mục ghi 'phản hồi trong 02 ngày làm việc' đúng chữ."
+  - text: "Họ phải thực hiện trong 15 ngày, hoặc 20 ngày nếu phải yêu cầu bên thứ ba ngừng xử lý; gia hạn một lần không quá 15 ngày kèm lý do (Điều 5 khoản 2)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-356-2025-nd-cp-468371.htm
+    quote: "Trường hợp cần yêu cầu bên xử lý dữ liệu cá nhân, bên thứ ba ngừng xử lý dữ liệu cá nhân của chủ thể dữ liệu cá nhân thì thực hiện trong thời hạn 20 ngày. Tùy theo tính chất, mức độ phức tạp của yêu cầu, trường hợp cần gia hạn thời gian xử lý thì kéo dài thêm tối đa 01 lần gia hạn trong thời hạn không quá 15 ngày, bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân thông báo cho chủ thể dữ liệu cá nhân lý do cần gia hạn và chịu trách nhiệm chứng minh việc gia hạn là cần thiết, hợp lý."
+    verdict: match
+    note: "Nghĩa vụ 'thực hiện trong 15 ngày' nằm cuối câu trước ('...và thực hiện trong thời hạn 15 ngày,'). Mục mô tả đúng."
+  - text: "Áp hạn 02 ngày/15 ngày cho việc thu hồi quyền truy cập của ứng dụng bên thứ ba (Vì vậy câu hỏi 'thủ tục rút lại quyền truy cập của ứng dụng này là gì' là câu hỏi có chỗ dựa)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-356-2025-nd-cp-468371.htm
+    quote: "phải phản hồi trong thời hạn 02 ngày làm việc, cung cấp đầy đủ thông tin cho chủ thể dữ liệu cá nhân về thủ tục ngừng xử lý dữ liệu cá nhân"
+    verdict: inference
+    note: "Nghị định nói về 'rút lại sự đồng ý cho phép xử lý dữ liệu cá nhân' nói chung, không nói về OAuth/quyền truy cập ứng dụng. Gán hạn này cho 'thu hồi quyền truy cập' là suy ra hợp lý nhưng không phải chữ nguồn; Ghi chú mục đã nói phạm vi nhưng không gọi là suy ra."
+  - text: "Mạng xã hội trong nước phải lưu trữ tối thiểu 02 năm thông tin về tài khoản, thời gian đăng nhập, đăng xuất và địa chỉ IP, rồi xóa sau khi hết hạn lưu trữ (Điều 27 khoản 2 điểm b, NĐ 147/2024)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/11/147-nd.signed.pdf
+    quote: "b) Đối với mạng xã hội: Lưu trữ tối thiểu 02 năm đối với các thông tin về tài khoản, thời gian đăng nhập, đăng xuất, địa chỉ IP của người sử dụng dịch vụ và nhật ký xử lý thông tin được đăng tải; thực hiện xóa thông tin của người sử dụng dịch vụ tại Việt Nam sau khi hết hạn thời gian lưu trữ theo quy định của pháp luật;"
+    verdict: match
+    note: "PDF là ảnh quét (không có lớp text). Tôi OCR bằng macOS Vision trang 45/223 (mở bằng pdftotext rỗng) và đối chiếu thủ công; quote trên là bản đọc đúng chính tả. Điều 27 áp cho 'trang thông tin điện tử tổng hợp, mạng xã hội trong nước' (tiêu đề Điều 27, trang 44). Mục nói đúng phạm vi ở Ghi chú."
+  - text: "Nghĩa là lịch sử đăng nhập có tồn tại thật để đối chiếu khi bạn nghi có người lạ"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/11/147-nd.signed.pdf
+    quote: "Lưu trữ tối thiểu 02 năm đối với các thông tin về tài khoản, thời gian đăng nhập, đăng xuất, địa chỉ IP của người sử dụng dịch vụ"
+    verdict: inference
+    note: "Điều khoản là nghĩa vụ lưu trữ của nhà cung cấp để phục vụ cơ quan nhà nước, không phải quyền của người dùng được xem hay đối chiếu lịch sử này. Thân mục dùng cho mục đích đối chiếu của người dùng, không có chữ nguồn; danh sách thiết bị đăng nhập hiện trong ứng dụng là tính năng của nhà cung cấp, không do NĐ 147 quy định."
+internal_checks:
+  - issue: "Câu 'Vì vậy câu hỏi ... là câu hỏi có chỗ dựa' và ghi chú 'quyền ... nằm trong luật có số hiệu. Hạn phản hồi nằm trong nghị định hướng dẫn... không phải suy đoán từ thông lệ' khẳng định chắc hơn bằng chứng: áp hạn 02 ngày/15 ngày cho việc thu hồi quyền ứng dụng bên thứ ba là suy ra (nghị định không nhắc OAuth/ứng dụng bên thứ ba). Người đọc có thể kỳ vọng hạn pháp lý với ứng dụng của nhà phát triển nước ngoài (phạm vi áp dụng chưa kiểm)."
+    severity: warn
+  - issue: "Thiếu điều kiện: Điều 10 khoản 1 Luật 91 giới hạn quyền rút lại sự đồng ý 'khi có nghi ngờ phạm vi, mục đích xử lý... hoặc tính chính xác', trừ Điều 19; Điều 5 khoản 2 NĐ 356 chỉ áp 'theo đúng thủ tục' và trừ Điều 19. Mục không nêu điều kiện/ngoại lệ, dễ hiểu quyền vô điều kiện."
+    severity: warn
+  - issue: "legal_refs Luật 91/2025 trỏ vbpl.vn (trả khung, không có chữ). legal_refs NĐ 147/2024 trỏ vanban.chinhphu.vn (cũng chỉ khung; bản PDF ở datafiles.chinhphu.vn là ảnh quét). URL đúng văn bản nhưng không có lớp text; đã đối chiếu bằng PDF Công báo (Luật) và OCR trang 45/223 (NĐ 147)."
+    severity: warn
+  - issue: "Số trong tldr/steps: không có. Số '10 phút' mỗi tài khoản (Chi phí) không có nguồn. Bước 'Gửi email cho nhà cung cấp ứng dụng, yêu cầu chấm dứt quyền truy cập' có gốc ở Điều 10 khoản 2 Luật (văn bản kể cả điện tử) nhưng mục chưa dẫn điều này; legal_refs không có Điều 10."
+    severity: warn
+  - issue: "Thân Lợi ích/Bẫy: 'Đổi mật khẩu không thu hồi quyền đã cấp cho ứng dụng' (tldr) là khẳng định kỹ thuật không có nguồn pháp lý; đúng với quyền OAuth tiêu chuẩn nhưng không chứng minh trong mục."
+    severity: warn
+validity:
+  doc: "Luật 91/2025/QH15; Nghị định 356/2025/NĐ-CP; Nghị định 147/2024/NĐ-CP"
+  in_force: unconfirmed
+  effective_from: "2026-01-01"
+  amended_by: []
+  basis: "Luật 91: Điều 38 khoản 1 hiệu lực 01/01/2026. NĐ 356: trang Công báo ghi hiệu lực 01/01/2026 (Công báo số 18 ngày 18/01/2026). NĐ 147: hiệu lực 25/12/2024 theo các bài hướng dẫn (thứ cấp, chưa đọc điều khoản thi hành trong bản quét). Chưa tra được văn bản sửa đổi/thay thế cho cả ba (lược đồ Công báo tải động, vbpl.vn trả khung), không kết luận còn nguyên hiệu lực."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Pháp luật VN, bullet quyền đồng ý/rút lại: thêm 'Quyền rút lại sự đồng ý áp dụng khi bạn nghi ngờ phạm vi, mục đích xử lý hoặc tính chính xác của dữ liệu, trừ các trường hợp xử lý không cần sự đồng ý (Điều 10 khoản 1, Luật 91/2025/QH15)'; thêm Điều 10 vào legal_refs."
+  - "Bullet hạn phản hồi: thêm 'khi bạn gửi yêu cầu theo đúng thủ tục của bên kiểm soát' và 'trừ trường hợp xử lý không cần sự đồng ý theo Điều 19 Luật'; thêm 'Áp dụng cho yêu cầu rút lại sự đồng ý xử lý dữ liệu cá nhân; việc áp cho thu hồi quyền ứng dụng bên thứ ba là suy ra'."
+  - "Bullet nhật ký đăng nhập: đổi 'Nghĩa là lịch sử đăng nhập có tồn tại thật để đối chiếu' thành 'luật buộc nhà mạng xã hội trong nước lưu nhật ký; không có điều luật nói bạn được xem nhật ký này, hãy dùng danh sách thiết bị đăng nhập trong ứng dụng'."
+  - "legal_refs/Nguồn: đổi url Luật 91/2025 sang PDF Công báo https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf; đổi url NĐ 147 sang https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/11/147-nd.signed.pdf và ghi 'bản quét, không có lớp text'."

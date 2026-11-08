@@ -23,10 +23,10 @@ steps:
   - "Người lú lẫn hoặc mê man: không đút ăn uống gì, gọi 115 (có glucagon 1 mg thì tiêm bắp)."
 legal_refs: []
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13dB
+  scope: "Chặn nâng trạng thái: result=fail, 2 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/nguoi-dai-thao-duong-dot-nhien-run-ray-va-mo-hoi-noi.yml)"
   sources: []
 origin:
   zh: null

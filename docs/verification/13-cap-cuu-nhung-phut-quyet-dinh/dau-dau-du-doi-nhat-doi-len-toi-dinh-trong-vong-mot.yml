@@ -1,0 +1,85 @@
+id: dau-dau-du-doi-nhat-doi-len-toi-dinh-trong-vong-mot
+checked_at: 2026-11-08
+content_sha256: "ff44bf5c4776935a9c326ee0892a62813ecbeb95e3bda9d1463aabc13cc705c4"
+checker: agent-Vf13bA
+result: pass-with-edits
+claims:
+  - text: "10% người bệnh chảy máu dưới nhện tử vong mà không kịp cấp cứu"
+    source_url: https://bvcdn.org.vn/wp-content/uploads/2024/12/QD-3312.pdf
+    quote: "Bệnh cảnh lâm sàng chảy máu dưới nhện: - 10% số người bệnh tử vong mà không kịp cấp cứu"
+    verdict: match
+    note: "PDF 148 trang có lớp chữ (hướng dẫn 'Phình động mạch não vỡ', mục 3.1). Số mục '3.1' lặp lại ở nhiều hướng dẫn con trong cùng quyết định; mục đúng là trong hướng dẫn 'phình động mạch não vỡ'."
+  - text: "Đau đầu dữ dội như sét đánh, như muốn vỡ tung đầu, lan xuống vùng gáy chẩm; nôn và cứng gáy là thường gặp"
+    source_url: https://bvcdn.org.vn/wp-content/uploads/2024/12/QD-3312.pdf
+    quote: "Đau đầu dữ dội, cảm giác như “đau đầu sét đánh”, đau như muốn \"vỡ tung đầu\", đau lan xuống vùng gáy chẩm. - Nôn: là triệu chứng thường gặp ... Khám: có các dấu hiệu màng não trong đó dấu hiệu cứng gáy là dấu hiệu thường gặp có giá trị chẩn đoán cao."
+    verdict: match
+    note: "Cùng mục 3.1. Nguồn không nói 'đau đầu dữ dội nhất đời', 'lên đỉnh trong vòng một giờ' (xem claim dưới)."
+  - text: "Chụp cắt lớp vi tính sọ não không tiêm thuốc cản quang là bước chẩn đoán đầu tiên (mục 3.2.1)"
+    source_url: https://bvcdn.org.vn/wp-content/uploads/2024/12/QD-3312.pdf
+    quote: "Đau đầu “sét đánh” xảy ra đột ngột, có các dấu hiệu màng não; xác định bằng hình ảnh học thần kinh, nếu bình thường thì chọc dịch não tủy."
+    verdict: partial
+    note: "Câu trên nằm ở bảng chẩn đoán phân biệt của hướng dẫn nhồi máu não cấp (không phải mục 3.2.1). Mục 3.2.1 'Chụp cắt lớp vi tính sọ não' có trong hướng dẫn CHẢY MÁU NÃO (xuất huyết nội sọ), không phải chảy máu dưới nhện. Hướng dẫn phình động mạch não vỡ ghi 'Chẩn đoán hình ảnh: Chụp cắt lớp vi tính (CLVT): Phát hiện 99% ở ngày đầu, 85% trường hợp chảy máu dưới nhện trong 5 ngày đầu.' (mục 3.2, không có số 3.2.1). Không có chữ nào ghi 'bước đầu tiên' và 'không tiêm thuốc cản quang' cho chảy máu dưới nhện; ý đúng, trích dẫn mục sai."
+  - text: "Nếu hình ảnh bình thường mà vẫn nghi thì chọc dịch não tủy"
+    source_url: https://bvcdn.org.vn/wp-content/uploads/2024/12/QD-3312.pdf
+    quote: "Chọc dịch não tủy: có máu hoặc các thành phần thoái biến từ hemoglobin (xanthochromia) là tiêu chuẩn vàng chẩn đoán chảy máu dưới nhện khi lâm sàng nghi ngờ chảy máu dưới nhện mà cắt lớp vi tính hoặc cộng hưởng từ không phát hiện"
+    verdict: match
+    note: "Hướng dẫn phình động mạch não vỡ, mục 3.2 (không phải 3.2.1). Khác NICE NG228 (xem deliberate_vn_deviation)."
+  - text: "Nguyên tắc chung: nhanh chóng vận chuyển người bệnh tới cơ sở có khả năng điều trị đột quỵ não (mục 4.1)"
+    source_url: https://bvcdn.org.vn/wp-content/uploads/2024/12/QD-3312.pdf
+    quote: "Khi phát hiện người bệnh đột quỵ cấp, cần nhanh chóng vận chuyển người bệnh an toàn đến cơ sở y tế có khả năng điều trị đột quỵ não với mục tiêu là giảm thiểu tối đa nguy cơ khuyết tật và tử vong cho người bệnh."
+    verdict: partial
+    note: "Mục 4.1 này thuộc hướng dẫn NHỒI MÁU NÃO CẤP. 4.1 của hướng dẫn phình động mạch não vỡ viết: 'Điều trị càng sớm càng tốt, ngăn chặn chảy máu tái phát...' (không nói vận chuyển). Ý chung dùng được cho đột quỵ cấp nhưng mục dẫn sai chỗ."
+  - text: "Ngưỡng một giờ: đau đầu 'lên đỉnh trong vòng một giờ' (tiêu đề, tldr)"
+    source_url: https://www.nice.org.uk/guidance/ng228/chapter/Recommendations
+    quote: "A 'thunderclap' headache (a sudden severe headache, typically peaking in intensity within 1 to 5 minutes) is a red-flag symptom of subarachnoid haemorrhage."
+    verdict: mismatch
+    note: "NICE NG228 (2022), mục 1.1.3. Tóm tắt Việt: đau đầu sét đánh thường đạt đỉnh trong 1 đến 5 phút, không phải một giờ. Chính mục tự nhận 'ngưỡng một giờ không phải con số của Quyết định 3312' nhưng đặt vào tiêu đề và tldr như tiêu chí."
+  - text: "Điều kiện tldr: 'đau đầu dữ dội nhất đời ... kèm nôn hoặc cứng gáy: gọi 115'"
+    source_url: https://www.nice.org.uk/guidance/ng228/chapter/Recommendations
+    quote: "Most people with a thunderclap headache do not have a subarachnoid haemorrhage, but this should not deter further investigation if subarachnoid haemorrhage is suspected."
+    verdict: partial
+    note: "NICE 1.1.2-1.1.5: đau đầu dữ dội cấp tính không giải thích được: nghi ngờ cao, chuyển ngay tới khoa cấp cứu ('Refer people with suspected subarachnoid haemorrhage seen outside of acute hospital settings to an emergency department immediately'); nôn, cứng cổ chỉ là triệu chứng đi kèm 'include, but are not limited to'. Nguồn VN (3.1) cũng không đặt nôn/cứng gáy là điều kiện bắt buộc: 'Rối loạn ý thức phục nhanh ... Các triệu chứng khác: co giật...'."
+  - text: "Đi cấp cứu ngay: nói rõ giờ khởi phát (steps[1])"
+    source_url: https://www.nice.org.uk/guidance/ng228/chapter/Recommendations
+    quote: "Be aware that the diagnostic accuracy of CT head scans is highest within 6 hours of symptom onset."
+    verdict: inference
+    note: "NICE 1.1.7. Tóm tắt Việt: độ chính xác CT cao nhất trong 6 giờ đầu, nên giờ khởi phát có ý nghĩa. Thân mục không giải thích lý do của bước 'nói rõ giờ đau' (không có trong QĐ 3312); đúng lâm sàng nhưng mục không có cơ sở trích."
+  - text: "115 là số cấp cứu y tế dành cho xe cấp cứu (mục 4.6, Quyết định 636/QĐ-BYT 2025)"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: "Người bị đặt ga-rô phải được nhanh chóng chuyển đến bệnh viện, tốt nhất là vận chuyển bằng xe cấp cứu 115."
+    verdict: match
+    note: "Mục 4.6 của QĐ 636 là 'Phương pháp đặt ga-rô' (chữ trích đã chuẩn hóa dấu từ lớp OCR); mục 4.2 'Gọi cấp cứu 115 để được tư vấn, cấp cứu và vận chuyển nạn nhân đến bệnh viện' phù hợp hơn."
+  - text: "Quyết định 3312/QĐ-BYT ngày 05/11/2024 ban hành 'Hướng dẫn chẩn đoán và điều trị đột quỵ não'; PDF có chữ ký số Bộ Y tế 05-11-2024"
+    source_url: https://bvcdn.org.vn/wp-content/uploads/2024/12/QD-3312.pdf
+    quote: "Ký bởi: BỘ Y TẾ Cơ quan: BỘ Y TẾ Ngày ký: 05-11-2024 18:22:47"
+    verdict: match
+    note: "Dòng chữ ký số ở trang đầu (lớp chữ PDF đọc 'Ngày ký: 05-112024'). Bản lưu bvcdn.org.vn (Bệnh viện C Đà Nẵng) là bản sao của bệnh viện, không phải trang Bộ Y tế; nội dung quyết định thật."
+internal_checks:
+  - issue: "Số mục dẫn sai chỗ: mục 3.2.1 (CLVT sọ não) và mục 4.1 (vận chuyển) thuộc các hướng dẫn con khác (chảy máu não; nhồi máu não cấp), không phải hướng dẫn chảy máu dưới nhện (phình động mạch não vỡ) nơi có mục 3.1 và 3.2 (chọc dịch não tủy)."
+    severity: error
+  - issue: "'Ngưỡng một giờ' ở tiêu đề/tldr mâu thuẫn định nghĩa quốc tế (1-5 phút) và chính Ghi chú thừa nhận không có trong QĐ 3312."
+    severity: warn
+  - issue: "tldr đặt điều kiện 'kèm nôn hoặc cứng gáy' cho việc gọi 115; nguồn VN và NICE không đặt điều kiện đó (đau đầu sét đánh đột ngột đã cần đi cấp cứu)."
+    severity: error
+  - issue: "Chi phí 'thêm một ngày nằm theo dõi' sau chọc dịch não tủy không có nguồn. Cả mục không có số liệu tiền."
+    severity: warn
+  - issue: "steps[1] 'Nói rõ cơn đau bắt đầu lúc mấy giờ' không có cơ sở trong thân (chỉ nhắc ở mục 'Nói dễ hiểu')."
+    severity: warn
+  - issue: "Mục 'Lợi ích' viết 'Quyết định 3312/QĐ-BYT 2024 ghi về bệnh cảnh... (xem mục Pháp luật Việt Nam bên dưới)': dùng tên 'Pháp luật Việt Nam' cho hướng dẫn chuyên môn, và lặp 3.1 hai lần."
+    severity: warn
+validity:
+  doc: "Quyết định 3312/QĐ-BYT ngày 05/11/2024, Hướng dẫn chẩn đoán và điều trị đột quỵ não"
+  in_force: unconfirmed
+  effective_from: "2024-11-05"
+  amended_by: []
+  basis: "PDF có chữ ký số Bộ Y tế 05-11-2024 và còn đăng trên trang bệnh viện/luatvietnam (bản 'cập nhật 16/04/2025'), không thấy văn bản thay thế; không mở được trang tình trạng hiệu lực chính thức nên không xác nhận. Hướng dẫn quốc tế mới hơn: AHA/ASA 2023 aSAH guideline; NICE NG228 (23/11/2022)."
+deliberate_vn_deviation:
+  - "Chọc dịch não tủy: QĐ 3312 ghi 'nếu hình ảnh bình thường mà vẫn nghi thì chọc dịch não tủy' (không nêu mốc giờ); NICE NG228 1.1.11-1.1.13 khuyên không chọc thường quy nếu CLVT trong 6 giờ đầu do bác sĩ X-quang đọc là bình thường, chỉ cân nhắc chọc khi CLVT sau 6 giờ và đợi ít nhất 12 giờ từ khởi phát. Mục theo nguồn VN ('chấp nhận chọc dịch não tủy'), không gây hại vì quyết định ở bác sĩ."
+potential_harm:
+  - "tldr 'đau đầu dữ dội nhất đời, lên đỉnh trong vòng một giờ, kèm nôn hoặc cứng gáy': người có đau đầu sét đánh đột ngột nhưng chưa nôn/cứng gáy có thể tự cho là không đủ điều kiện và chờ; NICE: đau đầu sét đánh cần chuyển cấp cứu ngay dù chưa có dấu hiệu khác (cứng cổ/nôn chỉ là triệu chứng có thể có, không bắt buộc)."
+suggested_edits:
+  - "Tiêu đề và tldr: đổi 'lên tới đỉnh trong vòng một giờ' thành 'đột ngột, đạt đỉnh trong vài giây đến vài phút (thường 1-5 phút)' dựa vào NICE NG228 1.1.3; bỏ điều kiện 'kèm nôn hoặc cứng gáy', ghi 'nôn, cứng gáy, lơ mơ càng cần đi ngay'."
+  - "Mục 'Pháp luật Việt Nam'/Nguồn: sửa số mục: bệnh cảnh = hướng dẫn 'Phình động mạch não vỡ' mục 3.1; chẩn đoán hình ảnh = mục 3.2 và bảng chẩn đoán phân biệt của hướng dẫn nhồi máu não cấp; chọc dịch não tủy = mục 3.2; nguyên tắc 'vận chuyển nhanh tới cơ sở điều trị đột quỵ' = mục 4.1 của hướng dẫn nhồi máu não cấp (ghi rõ), và 4.1 của phình mạch vỡ 'Điều trị càng sớm càng tốt'."
+  - "Bỏ 'không tiêm thuốc cản quang là bước chẩn đoán đầu tiên' khỏi Lợi ích nếu không dẫn mục có chữ này; hoặc dẫn mục 3.2.1 hướng dẫn chảy máu não (nêu rõ đó là chảy máu trong não, không phải dưới nhện)."
+  - "steps[1]: thêm lý do 'CLVT chính xác nhất trong 6 giờ đầu' kèm nguồn NICE 1.1.7."
+  - "steps[0]: ưu tiên 'gọi 115'; nếu phải đi thì có người chở; theo NICE 'Refer ... to an emergency department immediately'."

@@ -1,0 +1,87 @@
+id: nguoi-co-giat-nga-xuong-don-vat-can-cho-nam-nghieng-bam
+checker: agent-Vf13dA
+checked_at: 2026-11-08
+content_sha256: "c744a0ca56534612ad9e0e8aa3302a558225280d445e94e7bf1ba2bc9c3e0e7a"
+result: pass-with-edits
+claims:
+  - text: "Ở lại bên người bệnh và xem đồng hồ ngay để biết độ dài cơn"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Ở lại trợ giúp cho bệnh nhân, và giữ bình tĩnh - Lập tức xem đồng hồ, để biết độ dài cơn động kinh."
+    verdict: match
+    note: "Khớp BV 108 (07/10/2021). NHS cũng: 'note the time the seizure starts and finishes'."
+  - text: "Dọn vật cứng/sắc nhọn quanh người; kê áo gấp hoặc gối mềm dưới đầu"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Đặt bệnh nhân tại 1 vị trí an toàn, tránh những vật sắc nhọn, hoặc vật cứng xung quanh có thể gây nguy hiểm ... Đặt một vật mềm như gối, áo khoác hay chăn màn gấp gọn dưới đầu bệnh nhân tránh nguy cơ chấn thương."
+    verdict: match
+    note: "NHS: 'cushion their head if they're on the ground'. Nguồn còn có 'nới lỏng quần áo, kính mắt, khăn' (mục không nêu; không gây hại)."
+  - text: "Khi mất ý thức, xoay nghiêng sang một bên"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Đặt bệnh nhân xoay nghiêng sang 1 bên khi bệnh nhân mất ý thức hoặc không tỉnh lại, điều này giúp bệnh nhân dễ thở hơn."
+    verdict: match
+    note: "NHS: 'turn them on to their side after their convulsions stop' (xoay SAU KHI hết co giật). Mục (step 3, 'khi mất ý thức') không nói rõ thời điểm; nên ghi 'khi hết co giật hoặc khi vẫn chưa tỉnh' để người đọc không cố lật người đang co cứng. Chưa tính là lỗi nặng."
+  - text: "Không nhét thìa, ngón tay hay vật gì vào miệng"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Không nhét bất cứ vật gì vào miệng, vì có thể bệnh nhân cắn gẫy, hoặc gẫy răng, rơi vào làm tắc thở."
+    verdict: match
+    note: "NHS: 'Do not put anything in their mouth, including your fingers.'"
+  - text: "Không giữ tay chân"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Không giữ bệnh nhân, vì cơn động kinh có thể gây trật các khớp, gẫy xương."
+    verdict: match
+    note: ""
+  - text: "Không cho uống nước, thuốc hay ăn"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Không cho uống nước, thuốc, hay thức ăn, vì bệnh nhân không tỉnh, nguy cơ làm suy hô hấp."
+    verdict: match
+    note: "NHS: 'They should not have any food or drink until they have fully recovered.' Mục viết vô điều kiện thời gian; hợp lý vì chỉ áp dụng trong cơn/chưa tỉnh hẳn."
+  - text: "Không ấn nhân trung và không ấn ngực (mục Lợi ích, gạch thứ 4)"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Không ấn nhân trung, không ấn ngực bệnh nhân vì cơn động kinh sẽ tự hết, mặt khác có thể gây thêm tổn thương cho bệnh nhân."
+    verdict: partial
+    note: "Đúng chữ nguồn, nhưng viết vô điều kiện. Nếu người bệnh ngừng thở/không thở bình thường sau cơn thì phải ép tim (CPR); câu 'không ấn ngực' có thể làm chậm CPR. Xem potential_harm."
+  - text: "Gọi 115 nếu cơn quá 5 phút"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Cơn kéo dài hơn 5 phút"
+    verdict: match
+    note: "NHS: 'the seizure lasts more than 5 minutes, if you do not know how long their seizures usually last' và 'lasts longer than is usual for them'. Mục thiếu ngoại lệ NHS (người có kế hoạch chăm sóc riêng; cơn dài hơn thường lệ), không gây hại."
+  - text: "Gọi 115 nếu là cơn đầu tiên / không tỉnh lại / ngừng thở / bị thương / lặp lại liên tiếp; 'tám trường hợp' gọi 115"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Nếu bạn biết đây là cơn động kinh đầu tiên của bệnh nhân"
+    verdict: match
+    note: "Đếm đúng 8 gạch: >5 phút; lặp lại liên tiếp; mang thai/bệnh khác kèm sốt; trong nước/bơi; không tỉnh lại; ngừng thở sau cơn; bị thương; cơn đầu tiên. Mục 'Lợi ích' liệt kê 6 trong 8 ('trong đó có'), không mâu thuẫn. Mang thai và trong nước đáng được đưa vào steps."
+  - text: "Cơn động kinh thường kéo dài 2 đến 3 phút rồi người bệnh phục hồi"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Cơn động kinh thường chỉ kéo dài 2-3 phút và sau đó bệnh nhân có thể phục hồi lại trạng thái ban đầu"
+    verdict: match
+    note: ""
+  - text: "Bẫy 3: trạng thái động kinh kéo dài càng lâu thì càng khó cắt cơn"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Cơn kéo dài hơn 5 phút"
+    verdict: inference
+    note: "Nguồn chỉ cho mốc 5 phút, không có câu 'càng lâu càng khó cắt cơn' (đúng về y học nhưng là suy ra; cần gắn nguồn quốc tế hoặc bỏ)."
+  - text: "Bẫy 1: hàm co cứng cắn đứt thứ được nhét vào, mảnh gãy rơi vào đường thở"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "vì có thể bệnh nhân cắn gẫy, hoặc gẫy răng, rơi vào làm tắc thở."
+    verdict: partial
+    note: "Nguồn nói cắn gãy (vật hoặc răng) rơi vào tắc thở; không nói 'cắn đứt thứ được nhét' cụ thể; diễn đạt hơi rộng nhưng cùng ý."
+internal_checks:
+  - issue: "Số trong tldr/steps (5 phút, 115) đều có trong thân. Không mâu thuẫn số nội bộ."
+    severity: warn
+  - issue: "Thân nêu 'bốn việc nên làm' nhưng nguồn có thêm 'giữ an toàn', 'nới lỏng quần áo/kính/khăn'; không ảnh hưởng tính đúng."
+    severity: warn
+  - issue: "steps không có bước xử trí khi người bệnh không thở bình thường sau cơn (nguồn có 'ngừng thở sau cơn' là lý do gọi 115) nên người đọc không biết phải làm gì trong lúc chờ."
+    severity: warn
+validity:
+  doc: "BV Trung ương Quân đội 108, 'Cách sơ cứu khi gặp người bị động kinh' (07/10/2021); đối chiếu NHS 'What to do if someone has a seizure (fit)'"
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: "Hướng dẫn y tế không có ngày hiệu lực. Bài BV 108 đăng 2021 (ngày bài ghi trong mục; trang tôi mở không hiện ngày đăng, chỉ thấy ảnh đường dẫn 2021/10/08). NHS bản sửa 7/8/2026, vẫn cùng hướng dẫn nghiêng sau cơn, không nhét vật, gọi khi >5 phút. Không thấy hướng dẫn quốc tế mới hơn mâu thuẫn. Giữ unconfirmed theo giao thức."
+deliberate_vn_deviation: []
+potential_harm:
+  - "Mục Lợi ích gạch 'Không ấn nhân trung và không ấn ngực' không kèm điều kiện: người bệnh ngừng thở/không thở bình thường sau cơn cần CPR ngay. Người đọc làm đúng nguyên văn có thể không ép tim. Cần thêm 'trừ khi người bệnh không thở bình thường sau cơn: gọi 115 và ép tim'."
+suggested_edits:
+  - "Mục Lợi ích, 'Bệnh viện 108 liệt bốn việc không nên làm', gạch 4: thêm 'Không ấn ngực khi người bệnh đang thở. Nếu sau cơn người bệnh không thở hoặc thở hắt, gọi 115 và ép tim ngay'. Dựa quote: 'Người bệnh ngừng thở sau cơn co động kinh' (BV 108, danh sách gọi 115)."
+  - "steps[2]: 'Khi hết co giật hoặc khi người bệnh vẫn chưa tỉnh, xoay nghiêng sang một bên' (NHS: 'turn them on to their side after their convulsions stop')."
+  - "steps[4] hoặc Lợi ích: thêm hai trường hợp gọi 115: đang mang thai; xảy ra khi đang bơi/trong nước (BV 108)."
+  - "Bẫy 3: bỏ câu 'trạng thái động kinh kéo dài càng lâu thì càng khó cắt cơn' hoặc gắn nguồn ILAE/NHS/CDC."

@@ -1,0 +1,77 @@
+id: moi-nam-lam-mot-lan-quyet-toan-thue-thu-nhap-ca-nhan
+checker: agent-Vf05a
+checked_at: 2026-11-08
+content_sha256: "02ef699121cb257a9ed31115f1e047bf01ac7a5efe64b2ad8395ef7b55d4218a"
+result: pass-with-edits
+claims:
+  - text: "Giảm trừ gia cảnh cho người nộp thuế là 15,5 triệu đồng/tháng (186 triệu đồng/năm)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "a) Mức giảm trừ đối với người nộp thuế là 15,5 triệu đồng/tháng (186 triệu đồng/năm);"
+    verdict: match
+    note: "Điều 10 khoản 1 điểm a. PDF là ảnh quét; đã OCR rồi xem lại ảnh trang 8 bằng mắt, số khớp."
+  - text: "Giảm trừ cho mỗi người phụ thuộc là 6,2 triệu đồng/tháng"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "b) Mức giảm trừ đối với mỗi người phụ thuộc là 6,2 triệu đồng/tháng."
+    verdict: match
+    note: "Điều 10 khoản 1 điểm b (xem ảnh trang 8)."
+  - text: "Mức này thay mức 11 triệu và 4,4 triệu đang áp dụng cho các kỳ trước (Điều 10)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "(không có trong Điều 10; Điều 10 không nhắc mức cũ)"
+    verdict: not-found
+    note: "Luật 109/2025/QH15 không nêu 11 triệu/4,4 triệu. Hai con số này thuộc Nghị quyết 954/2020/UBTVQH14, văn bản mục không dẫn và tôi không mở. Cần dẫn nguồn đó hoặc bỏ phần “thay mức…” khỏi chú thích Điều 10."
+  - text: "Biểu thuế lũy tiến còn 5 bậc: 5% đến 120 triệu/năm (10 triệu/tháng); 10% trên 120-360 (10-30); 20% trên 360-720 (30-60); 30% trên 720-1.200 (60-100); 35% trên 1.200 (100) (Điều 9)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "1 Đến 120 Đến 10 5 | 2 Trên 120 đến 360 Trên 10 đến 30 10 | 3 Trên 360 đến 720 Trên 30 đến 60 20 | 4 Trên 720 đến 1.200 Trên 60 đến 100 30 | 5 Trên 1.200 Trên 100 35"
+    verdict: match
+    note: "Bảng ở Điều 9 khoản 2 (cột bậc, phần thu nhập tính thuế/năm, /tháng, thuế suất %), xem ảnh trang 8. Số bậc “5 thay vì 7” (7 bậc là luật cũ) không có trong Luật 109/2025, chỉ phần 5 bậc được xác nhận. Quote là trích từ bảng, định dạng bảng được nối thành dòng."
+  - text: "Luật thông qua 10/12/2025, hiệu lực 1/7/2026; các quy định về thu nhập từ tiền lương, tiền công áp dụng từ kỳ tính thuế 2026 (ghi là Điều 31)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026, trừ trường hợp quy định tại khoản 2 Điều này. 2. Các quy định liên quan đến thu nhập từ kinh doanh, từ tiền lương, tiền công của cá nhân cư trú áp dụng từ kỳ tính thuế năm 2026."
+    verdict: partial
+    note: "Nội dung đúng và ngày thông qua “10 tháng 12 năm 2025” cũng có trong bản ký. NHƯNG điều khoản này là Điều 29 (Hiệu lực thi hành), không phải Điều 31: Luật 109/2025/QH15 chỉ có 29 điều (Chương IV: Điều 29 là điều cuối). Điều 31 không tồn tại."
+  - text: "Ví dụ: lương 30 triệu/tháng, không người phụ thuộc, thu nhập chịu thuế giảm từ 19 triệu xuống 14,5 triệu; thuế từ 2,15 triệu xuống 0,95 triệu/tháng (giảm 1,2 triệu/tháng, 14,4 triệu/năm); lương 20 triệu giảm 0,425 triệu; lương 40 triệu giảm 2,2 triệu"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "(tính toán của người soạn, không phải chữ của nguồn)"
+    verdict: inference
+    note: "Tôi tính lại: mới 30-15,5=14,5 → 5%x10 + 10%x4,5 = 0,95; cũ (11 triệu, biểu 7 bậc 5/10/15/20…) 30-11=19 → 2,15; 20 triệu: mới 4,5→0,225, cũ 9→0,65, chênh 0,425; 40 triệu: mới 24,5→1,95, cũ 29→4,15, chênh 2,2. Số học đúng, nhưng vế “cũ” dựa vào biểu thuế/mức giảm trừ cũ không có trong nguồn dẫn (Luật 04/2007/QH12 và NQ 954/2020). Chưa tính BHXH/BHYT (Điều 8 khoản 2 trừ cả các khoản đóng bảo hiểm)."
+  - text: "Quyết toán thuế để đòi lại thuế nộp thừa; hạn nộp hồ sơ quyết toán do Chính phủ quy định theo Luật Quản lý thuế 108/2025/QH15 (thay Luật 38/2019/QH14 từ 1/7/2026)"
+    source_url: https://xaydungchinhsach.chinhphu.vn/nhung-diem-moi-noi-dung-trong-tam-cua-luat-quan-ly-thue-so-108-2025-qh15-119260713105610538.htm
+    quote: "Luật Quản lý thuế số 108/2025/QH15 có hiệu lực thi hành từ ngày 01/7/2026; riêng Điều 13 và việc sử dụng hóa đơn điện tử của hộ kinh doanh, cá nhân kinh doanh tại Điều 26 có hiệu lực từ ngày 01/01/2026."
+    verdict: partial
+    note: "Hiệu lực 1/7/2026 đúng, và có đoạn “kế thừa những quy định còn phù hợp của Luật Quản lý thuế số 38/2019/QH14”. Câu “giao Chính phủ quy định thời hạn nộp hồ sơ khai thuế” không thấy trong trang này; Luật 109/2025 Điều 6 giao Chính phủ quy định “quyết toán thuế… phù hợp với quy định của Luật Quản lý thuế”. Không mở được toàn văn Luật 108/2025 từ nguồn chính thống (datafiles URL đoán đều 404; trang TVPL chặn). Legal_refs[3] không có url/article."
+  - text: "Có thu nhập từ hai nơi trở lên: tự quyết toán, không ủy quyền cho một nơi trả thu nhập (step 4, Bẫy 2)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "(không có câu tương ứng; Điều 6 chỉ giao Chính phủ quy định quyết toán thuế)"
+    verdict: not-found
+    note: "Quy tắc này thuộc văn bản hướng dẫn (trước đây Nghị định 126/2020/NĐ-CP và Thông tư 80/2021/TT-BTC) và mục không dẫn điều khoản nào của Luật 108/2025 hay văn bản hướng dẫn mới. Điều 8 khoản 1 Luật 109/2025 nói “không phân biệt nơi trả thu nhập” (cộng thu nhập các nơi) nhưng không nói về ủy quyền. Cần nguồn hiện hành trước khi giữ làm step."
+  - text: "Người phụ thuộc phải đăng ký và có giấy tờ chứng minh; khai khống bị truy thu cộng phạt (Bẫy 1, step 2)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
+    quote: "4. Người phụ thuộc là người mà người nộp thuế có trách nhiệm nuôi dưỡng, bao gồm: a) Con chưa thành niên; con là người mất năng lực hành vi dân sự, người khuyết tật, không có khả năng lao động;"
+    verdict: partial
+    note: "Điều 10 khoản 4 định nghĩa người phụ thuộc (và khoản 3: mỗi người phụ thuộc chỉ được tính giảm trừ một lần vào một người nộp thuế). Luật không nêu thủ tục đăng ký/giấy tờ hay mức truy thu, phạt: các phần đó nằm ở văn bản hướng dẫn mục không dẫn."
+internal_checks:
+  - issue: "(e) legal_refs[2].article và thân mục/nguồn ghi “Điều 31” cho hiệu lực thi hành; điều đúng là Điều 29 (Luật chỉ có 29 điều). Trích dẫn điều không tồn tại."
+    severity: error
+  - issue: "(c) Step 4 (“Có thu nhập từ hai nơi trở lên: tự quyết toán, không ủy quyền”) và Bẫy 1 (phạt/truy thu) không có cơ sở trong phần Pháp luật Việt Nam của thân mục."
+    severity: warn
+  - issue: "(d) legal_refs[3] (Luật Quản lý thuế 108/2025/QH15) có url null và article null: không có chỗ để kiểm khẳng định “giao Chính phủ quy định thời hạn nộp”."
+    severity: warn
+  - issue: "(a) Các số trong tldr/steps (15,5 triệu; 6,2 triệu) đều có trong thân. Không thấy mâu thuẫn số học giữa Nói dễ hiểu, Pháp luật và Ví dụ."
+    severity: warn
+  - issue: "Mục Lợi ích: “Ví dụ trong sách… giảm khoảng 1,2 triệu đồng… theo giả định đã nêu” là mô tả mơ hồ về một nguồn khác (“sách”) không được dẫn trong Nguồn."
+    severity: warn
+validity:
+  doc: "Luật Thuế thu nhập cá nhân 109/2025/QH15"
+  in_force: unconfirmed
+  effective_from: "2026-07-01"
+  amended_by: []
+  basis: "Điều 29 khoản 1 của bản ký (OCR) ghi hiệu lực 01/7/2026; kỳ tính thuế 2026 áp dụng cho thu nhập tiền lương. Chưa mở trang hiệu lực/bản hợp nhất trên vbpl.vn/Công báo để loại trừ sửa đổi. Điều 29 khoản 3 xác nhận Luật 04/2007/QH12 hết hiệu lực từ kỳ tính thuế 2026."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "legal_refs[2].article, thân mục (“Điều 31, Luật 109/2025/QH15”) và Nguồn: đổi “Điều 31” thành “Điều 29” (khoản 1 và khoản 2), dựa vào quote “Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026… áp dụng từ kỳ tính thuế năm 2026”."
+  - "Chú thích Điều 10: bỏ “Mức này thay mức 11 triệu và 4,4 triệu…” hoặc dẫn Nghị quyết 954/2020/UBTVQH14 làm nguồn riêng."
+  - "Phần ví dụ: ghi rõ vế “cũ” dựa vào biểu 7 bậc và giảm trừ 11 triệu của luật cũ (dẫn nguồn), và ghi chưa tính BHXH/BHYT."
+  - "Step 4 và Bẫy 2: dẫn điều khoản hiện hành về ủy quyền quyết toán (văn bản hướng dẫn Luật 108/2025), nếu không tìm được thì bỏ hoặc ghi “kiểm tra với cơ quan thuế”."
+  - "Bẫy 1: tách phần định nghĩa người phụ thuộc (Điều 10 khoản 4) khỏi phần thủ tục đăng ký/phạt; dẫn văn bản hướng dẫn cho phần sau hoặc ghi nhãn kinh nghiệm."
+  - "legal_refs[3]: bổ sung url và article của Luật Quản lý thuế 108/2025/QH15 (điều quy định thời hạn nộp hồ sơ quyết toán/ủy quyền) hoặc bỏ mục."

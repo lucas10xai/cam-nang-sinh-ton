@@ -21,10 +21,10 @@ steps:
   - "Đừng bỏ qua dù người bệnh nói không nhớ có té."
 legal_refs: []
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13bB
+  scope: "Chặn nâng trạng thái: 1 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/nguoi-gia-dap-dau-vai-tuan-den-vai-thang-sau-di-loang.yml)"
   sources: []
 origin:
   zh: null

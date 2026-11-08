@@ -1,0 +1,103 @@
+id: nguoi-gia-nga-nguoi-nam-duoi-dat-khom-xuong-goi-hoi-goi
+checker: agent-Vf13aA
+checked_at: 2026-11-08
+content_sha256: "07b752d82942240841cbd901ad1d4dbb5793ec5f9d25cdc375d16fe2aef0c3e3"
+result: pass-with-edits
+claims:
+  - text: "HCDC 2025: 117.328 ca mắc và 218 ca chết do tai nạn thương tích"
+    source_url: https://hcdc.vn/phong-ngua-te-nga-cho-nguoi-cao-tuoi-nhan-dien-nguy-co-chu-dong-phong-ngua-aV9cMP.html
+    quote: "có 117.328 ca mắc và 218 ca chết do tai nạn thương tích xảy ra."
+    verdict: match
+    note: "Bài trang HCDC, ghi 'Cập nhật: 17:42 - 02/10/2026'. Mục ghi 'đăng ngày 2/10/2026'; trang chỉ nói 'Cập nhật', không nói 'đăng'."
+  - text: "Té ngã: 35.272 ca, 30%, 29 ca chết"
+    source_url: https://hcdc.vn/phong-ngua-te-nga-cho-nguoi-cao-tuoi-nhan-dien-nguy-co-chu-dong-phong-ngua-aV9cMP.html
+    quote: "Trong đó, 35.272 ca mắc, chiếm tỷ lệ 30%, và 29 ca chết do nguyên nhân té ngã."
+    verdict: match
+    note: ""
+  - text: "Nhóm trên 60 tuổi: 8.536 ca, 24%, 11 ca chết"
+    source_url: https://hcdc.vn/phong-ngua-te-nga-cho-nguoi-cao-tuoi-nhan-dien-nguy-co-chu-dong-phong-ngua-aV9cMP.html
+    quote: "Riêng nhóm tuổi trên 60 tuổi có 8.536 ca, chiếm tỷ lệ 24%, và 11 ca chết do nguyên nhân té ngã."
+    verdict: match
+    note: "Trang không nói 24% là của mẫu số nào (có thể 24% của 35.272 ca té ngã); mục chép đúng như nguồn."
+  - text: "Người cao tuổi đứng lên từ từ; khi choáng thì dừng lại, ngồi hoặc nằm ở nơi an toàn rồi báo người thân"
+    source_url: https://hcdc.vn/phong-ngua-te-nga-cho-nguoi-cao-tuoi-nhan-dien-nguy-co-chu-dong-phong-ngua-aV9cMP.html
+    quote: "Nếu cảm thấy choáng hoặc mất thăng bằng, cần dừng lại, ngồi hoặc nằm xuống nơi an toàn và báo cho người thân."
+    verdict: match
+    note: "Đây là lời khuyên phòng ngừa cho người cao tuổi, không phải hướng dẫn xử trí khi đã ngã."
+  - text: "QĐ 3312: liệt mặt, liệt nửa người, rối loạn ngôn ngữ, nhìn đôi, thất điều, chóng mặt thuộc nhóm biểu hiện khởi phát của nhồi máu não"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "Biểu hiện khởi phát hay gặp của nhồi máu não thường đột ngột với sự xuất hiện đơn độc hoặc phối hợp của các dấu hiệu và triệu chứng hay gặp sau: + Liệt nửa người, liệt một chi hoặc liệt tứ chi (hiếm gặp) ... + Nhìn đôi + Rối loạn ngôn ngữ + Liệt mặt + Thất điều + Chóng mặt (hiếm khi xuất hiện đơn độc) + Mất ngôn ngữ"
+    verdict: match
+    note: "Phần Bài về nhồi máu não, mục 3.1 Lâm sàng. Danh sách này không có 'ngã' hay 'khom xuống/không bế dậy'."
+  - text: "Thời điểm khởi phát (hoặc lúc cuối cùng còn bình thường) rất quan trọng; ngủ dậy đã có triệu chứng thì gọi là đột quỵ không rõ thời điểm khởi phát"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "Thời điểm khởi phát triệu chứng hoặc thời điểm cuối cùng thấy người bệnh còn bình thường: là rất quan trọng để xét điều trị tái tưới máu. Nếu ngủ dậy đã có triệu chứng hoặc không có người chứng kiến thì gọi là đột quỵ không rõ thời điểm khởi phát."
+    verdict: match
+    note: "Câu 'khi đó bác sĩ phải dựa vào hình ảnh học chứ không dựa vào giờ' của mục là diễn giải: mục 4.5.1 của QĐ có tiêu chuẩn tiêu huyết khối cho nhồi máu não thức giấc dựa vào chụp cộng hưởng từ (DWI/FLAIR), nên ý đúng nhưng đã rút gọn."
+  - text: "Gọi 115 nếu người ngã không đứng dậy được (tldr, steps)"
+    source_url: https://www.nhs.uk/conditions/falls/
+    quote: "Immediate action required: Call 999 if: You or someone else has fallen and: may have injured the head, back, neck or hip; cannot get up"
+    verdict: partial
+    note: "NHS (reviewed 06/03/2025) khớp 'cannot get up' nhưng còn một điều kiện gọi cấp cứu nữa là nghi chấn thương đầu, lưng, cổ, hông. tldr/steps của mục chỉ nêu 'không đứng dậy được' và dấu hiệu đột quỵ, bỏ điều kiện chấn thương, nên người ngã đập đầu hay đau hông nhưng đứng được sẽ không được dặn gọi cấp cứu. Số 115 là Việt Nam. QĐ 3312 không nói 'không đứng dậy được thì gọi 115'."
+  - text: "Không bế hay kéo ngồi dậy (steps, tldr)"
+    source_url: https://www.nhs.uk/conditions/falls/
+    quote: "If someone else has fallen, keep them comfortable and warm. Carefully help them get up if they can, but do not try to lift them yourself."
+    verdict: partial
+    note: "NHS: không tự nhấc người ngã, nhưng cho phép nhẹ nhàng giúp người ngã tự đứng lên nếu họ làm được; chỉ cấp cứu khi nghi chấn thương hoặc không dậy được. Mục cấm tuyệt đối bế hoặc kéo ngồi dậy và không phân biệt người tỉnh, đứng được với người nghi chấn thương. Không có nguồn nào trong Nguồn của mục nói 'không bế dậy' (cả HCDC lẫn QĐ 3312 đều không)."
+  - text: "Nhìn ngực xem có thở (steps bước 2)"
+    source_url: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support
+    quote: "If an adult is unconscious/unresponsive, with absent or abnormal breathing (ie, only gasping), the lay rescuer should assume the person is in cardiac arrest."
+    verdict: partial
+    note: "Bước kiểm tra thở đúng hướng AHA nhưng mục không nói phải làm gì nếu không thở hoặc chỉ thở ngáp (gọi 115, ép tim, xem mục 13-01). Xem potential_harm."
+  - text: "Bẫy 1: kéo ngồi lên làm cơn nặng thêm trước khi có ai đo huyết áp"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: ""
+    verdict: not-found
+    note: "Không có trong QĐ 3312 hay HCDC (đã tìm các từ liên quan tư thế, ngồi, kéo dậy). Khẳng định cơ chế bệnh lý không có căn cứ trong nguồn đã dẫn."
+  - text: "Bẫy 2: QĐ 3312 xếp mấy dấu hiệu yếu tay, méo miệng, nói khó vào nhóm phải xét tái tưới máu"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "Thời điểm khởi phát triệu chứng hoặc thời điểm cuối cùng thấy người bệnh còn bình thường: là rất quan trọng để xét điều trị tái tưới máu."
+    verdict: inference
+    note: "QĐ 3312 liệt kê các dấu hiệu lâm sàng ở một mục và nói thời điểm khởi phát quan trọng ở mục khác; không có câu xếp các dấu hiệu 'vào nhóm phải xét tái tưới máu'. Cần gắn nhãn 'suy ra'."
+  - text: "Chi phí: vài trăm nghìn tới vài triệu đồng; bảo hiểm y tế trả một phần"
+    source_url: https://hcdc.vn/phong-ngua-te-nga-cho-nguoi-cao-tuoi-nhan-dien-nguy-co-chu-dong-phong-ngua-aV9cMP.html
+    quote: ""
+    verdict: not-found
+    note: "Không có nguồn nào trong mục chứa con số chi phí; ước lượng của người soạn."
+  - text: "Gọi 115 không mất tiền"
+    source_url: https://mst.gov.vn/mien-phi-cac-cuoc-goi-den-so-113-114-115-197140697.htm
+    quote: "người sử dụng dịch vụ điện thoại cố định mặt đất hoặc dịch vụ thông tin di động mặt đất gọi đến các số dịch vụ khẩn cấp (113, 114, 115) được hưởng giá cước 0 đồng/phút."
+    verdict: match-secondary
+    note: "Cổng TTĐT Bộ Khoa học và Công nghệ tóm tắt Thông tư 02/2020/TT-BTTTT; mục này không dẫn nguồn cho khẳng định. Bản PDF thông tư là ảnh quét nên không đối chiếu được nguyên văn."
+  - text: "Số hiệu và ngày Quyết định 3312/QĐ-BYT ngày 05/11/2024"
+    source_url: https://bvtn.org.vn/huong-dan-chan-doan-va-dieu-tri-dot-quy-nao/
+    quote: "Quyết định số 3312/QĐ-BYT của Bộ Y tế ngày 05/11/2024 về việc ban hành tài liệu chuyên môn “hướng dẫn chẩn đoán và điều trị đột quỵ não”"
+    verdict: match-secondary
+    note: "Trang bệnh viện Thống Nhất (thứ cấp) dẫn số và ngày. Trang bìa của file PDF ghi 'Ban hành kèm theo Quyết định số /QĐ-BYT ngày tháng năm 2024' (để trống); thuvienphapluat.vn ghi 'Số: 3312/QĐ-BYT | Hà Nội, ngày 05 tháng 11 năm 2024'. Chưa lấy được bản Quyết định ký trên Công báo hay moh.gov.vn."
+internal_checks:
+  - issue: "Mục dùng QĐ 3312 (hướng dẫn điều trị nhồi máu não) làm cơ sở cho toàn bộ quy trình xử trí người ngã, nhưng QĐ không bàn về ngã, tư thế, bế/kéo dậy. Bước 'không bế/kéo dậy' và 'gọi 115 nếu không đứng dậy được' không có căn cứ trong hai nguồn đã dẫn (steps bước 3 và 4)."
+    severity: error
+  - issue: "Các con số trong tldr/steps: mục không có con số định lượng nào trong tldr/steps; số liệu HCDC chỉ nằm ở phần Lợi ích. Không có mâu thuẫn số trong mục."
+    severity: warn
+  - issue: "Mục 13-02 và 13-01 trong cùng chương: bước 'Nhìn ngực xem có thở' không dẫn sang xử trí ngừng tim (13-01). Hai mục chưa nối với nhau."
+    severity: warn
+  - issue: "Ghi chú tự nhận 'chưa có nghiên cứu Việt Nam nào đo được việc không bế dậy sớm cứu thêm bao nhiêu người' nhưng không nguồn quốc tế nào được dẫn cho chính lời khuyên không bế dậy."
+    severity: warn
+validity:
+  doc: "Quyết định 3312/QĐ-BYT ngày 05/11/2024 của Bộ Y tế (Hướng dẫn chẩn đoán và điều trị đột quỵ não)"
+  in_force: unconfirmed
+  effective_from: "2024-11-05"
+  amended_by: []
+  basis: "Hai trang thứ cấp (bvtn.org.vn, thuvienphapluat.vn) dẫn quyết định; trang bệnh viện Thống Nhất còn hiển thị đến 2025-07-21. Chưa tìm thấy văn bản thay thế nhưng chưa mở được Công báo/moh.gov.vn để xác nhận. Bản PDF của mục có số và ngày bỏ trống ở trang bìa. Văn bản là hướng dẫn chuyên môn, không có ngày hiệu lực riêng."
+deliberate_vn_deviation:
+  - "Không có hướng dẫn quốc tế nào được đối chiếu trong mục. NHS (nhs.uk/conditions/falls, rà soát 06/03/2025) cho phép nhẹ nhàng giúp người ngã tự đứng lên nếu họ không có dấu hiệu chấn thương và gọi cấp cứu khi nghi chấn thương đầu, lưng, cổ, hông hoặc không dậy được; mục lệch ở chỗ cấm bế/kéo dậy tuyệt đối và bỏ điều kiện chấn thương."
+potential_harm:
+  - "steps/tldr: gọi 115 chỉ khi 'không đứng dậy được hoặc yếu tay, méo miệng, nói khó'. Người ngã đập đầu, đau cổ, lưng hoặc hông nhưng vẫn đứng được, hoặc đang dùng thuốc chống đông, không được dặn gọi cấp cứu hay đi khám. NHS liệt kê nghi chấn thương đầu, lưng, cổ, hông là điều kiện gọi cấp cứu."
+  - "steps bước 2: 'Nhìn ngực xem có thở' không có bước tiếp theo. Người đọc làm đúng nguyên văn mà thấy không thở hoặc thở ngáp có thể không biết phải ép tim, làm chậm cứu chữa. Cần nối sang mục 13-01 (AHA: không đáp ứng + thở bất thường là ngừng tim)."
+suggested_edits:
+  - "tldr/steps bước 4: sửa thành 'Gọi 115 nếu người ngã không đứng dậy được, nghi đập đầu, đau cổ, lưng hoặc hông, hoặc có yếu tay, méo miệng, nói khó', dựa vào NHS 'may have injured the head, back, neck or hip; cannot get up'."
+  - "steps bước 2: thêm 'Không thở hoặc chỉ thở ngáp: gọi 115 và ép tim theo mục 13-01', dựa vào AHA 6.1 khuyến nghị 1."
+  - "steps bước 3 và Ghi chú: đổi 'Không bế hay kéo ngồi dậy' thành 'Không tự nhấc người; chỉ nhẹ nhàng đỡ dậy khi họ tỉnh, không đau, tự làm được', theo NHS 'Carefully help them get up if they can, but do not try to lift them yourself'; hoặc dẫn nguồn khác cho lệnh cấm tuyệt đối."
+  - "Ghi chú Bẫy 1: bỏ câu 'Kéo ngồi lên làm cơn nặng thêm trước khi có ai đo huyết áp' (không có nguồn) hoặc dẫn nguồn."
+  - "Ghi chú Bẫy 2: đổi 'Quyết định 3312 xếp đúng mấy dấu hiệu đó vào nhóm phải xét tái tưới máu' thành mô tả đúng chữ của QĐ (3.1: biểu hiện khởi phát hay gặp; thời điểm khởi phát quan trọng để xét tái tưới máu) hoặc ghi 'suy ra'."
+  - "Chi phí: bỏ hoặc dẫn nguồn cho 'vài trăm nghìn tới vài triệu đồng'; dẫn Thông tư 02/2020/TT-BTTTT cho 115 miễn phí; sửa 'đăng ngày' thành 'cập nhật ngày' 2/10/2026."

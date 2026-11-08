@@ -1,0 +1,104 @@
+id: lac-o-nui-rung-bien-gioi-hay-bai-bien-vang-khong-co
+checker: agent-Vf13fB
+checked_at: 2026-11-08
+content_sha256: "1e5b4dbd0940671bfa6d1afbc5c3f658f8378cd2310f4b192b9f0dc0da5753f4"
+result: fail
+claims:
+  - text: "Số 112 tiếp nhận thông tin về sự cố, thiên tai, thảm họa và yêu cầu trợ giúp; tổng đài đặt tại Bộ Chỉ huy quân sự cấp tỉnh (Điều 3 khoản 1)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/200-ndcp.signed.pdf
+    quote: "Số điện thoại 112 tiếp nhận nội dung thông tin về sự cố, thiên tai, thảm họa, những nguy cơ xảy ra, yêu cầu trợ giúp của tổ chức, cá nhân. Tổng đài 112 được đặt tại Bộ Chỉ huy quân sự tỉnh, thành phố trực thuộc trung ương, Bộ Tư lệnh Thủ đô Hà Nội, Bộ Tư lệnh Thành phố Hồ Chí Minh (gọi chung là Bộ Chỉ huy quân sự cấp tỉnh)."
+    verdict: match
+    note: "PDF của chinhphu.vn là bản quét ảnh, không trích chữ được; tôi render trang 1 và đọc từ ảnh (trang 1, Điều 3 khoản 1). Đây là văn bản gốc có chữ ký số VPCP."
+  - text: "Nội dung tiếp nhận gồm tên người cung cấp tin, thời gian, địa điểm, diễn biến, phạm vi ảnh hưởng và yêu cầu trợ giúp (Điều 3 khoản 3)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/200-ndcp.signed.pdf
+    quote: "a) Tên cá nhân, tổ chức cung cấp thông tin; b) Thời gian, địa điểm xảy ra sự cố, thảm họa; diễn biến, phạm vi ảnh hưởng, khả năng lan rộng; những yêu cầu trợ giúp và thông tin cần thiết khác phục vụ công tác ứng phó, khắc phục hậu quả sự cố, thảm họa."
+    verdict: match
+    note: "Trang 2 bản quét. Nghị định không có 'số người' và không có 'nên nói rõ mình đang ở đâu'; đó là suy ra của mục (xem claim dưới)."
+  - text: "Tổng đài hoạt động 24 giờ mọi ngày và miễn phí cước gọi (Điều 3 khoản 4)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/200-ndcp.signed.pdf
+    quote: "b) Hệ thống Tổng đài 112 hoạt động 24 giờ tất cả các ngày; c) Miễn phí cước gọi từ thuê bao điện thoại cố định, di động vào số điện thoại 112;"
+    verdict: match
+    note: "Trang 2 bản quét."
+  - text: "tldr/step 2: còn bắt được sóng thì gọi 112, báo vị trí và số người trước"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/200-ndcp.signed.pdf
+    quote: "b) Thời gian, địa điểm xảy ra sự cố, thảm họa; diễn biến, phạm vi ảnh hưởng, khả năng lan rộng; những yêu cầu trợ giúp"
+    verdict: partial
+    note: "Nghị định chỉ liệt kê nội dung tổng đài ghi nhận, gồm địa điểm; không có 'số người' và không nói 'báo vị trí trước'. Đây là lời khuyên thực hành hợp lý nhưng là suy ra, chưa phải chữ của nghị định. Ngoài ra không nêu đến trường hợp hết sóng thì 112 vẫn gọi được hay không (không có trong nguồn)."
+  - text: "Việc tìm người lạc thuộc tổng đài 112 và lực lượng địa phương; 115 là cấp cứu y tế, không điều phối tìm kiếm (Bẫy 2)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/200-ndcp.signed.pdf
+    quote: "2. Hệ thống Tổng đài 112 tiếp nhận thông tin từ: a) Tổ chức, cá nhân; b) Hệ thống Tổng đài 113, 114, 115; c) Hệ thống thông tin liên lạc khác phục vụ trong lĩnh vực phòng thủ dân sự."
+    verdict: inference
+    note: "Nghị định 200/2025 không nhắc 'người đi lạc' hay 'tìm kiếm người lạc'; chỉ nói 112 tiếp nhận 'sự cố, thiên tai, thảm họa... yêu cầu trợ giúp' và liên thông 113/114/115 (Điều 3 khoản 2, khoản 4 điểm a; Điều 4 khoản 2 chuyển thông tin sang 113/114/115 theo phạm vi). Cảnh sát PCCC và CNCH (114) cũng làm cứu nạn cứu hộ. Công an Điện Biên (nguồn khác) mô tả 112 là 'cứu nạn khẩn cấp: thiên tai, sự cố sông biển'. Khẳng định 'không gọi 115' có thể gây hại nếu người lạc bị thương (xem potential_harm)."
+  - text: "Ở yên hoặc ngồi nghỉ khi bị lạc, không chạy ngược chạy xuôi tìm đường"
+    source_url: https://cand.vn/hien-tuong-ma-dua-va-ky-nang-thoat-hiem-khi-bi-lac-trong-rung-post411037.html
+    quote: "Khi phát hiện mình bị lạc, trước hết cần tìm một địa điểm thích hợp để nghỉ ngơi, bảo toàn sức khỏe. Không nên cố gắng chạy ngược, chạy xuôi để tìm đường về làm cho cơ thể mệt mỏi và trở nên mất bình tĩnh."
+    verdict: partial
+    note: "Bài báo CAND 07/11/2016 (TS Đoàn Văn Báu) nói 'nghỉ ngơi tại địa điểm thích hợp' để bình tĩnh rồi tính tiếp, và cho phép di chuyển nếu 'xác định được phương hướng' (đánh dấu đường đi). Không nói 'ở yên chờ cứu hộ', không nói 'cạnh xe'. Mục dùng 'ở yên tại chỗ hoặc cạnh xe' như nguyên tắc chính; 'cạnh xe' không có trong nguồn nào mục dẫn."
+  - text: "Chỉ di chuyển khi trời sáng và có điểm mốc rõ ràng"
+    source_url: https://cand.vn/hien-tuong-ma-dua-va-ky-nang-thoat-hiem-khi-bi-lac-trong-rung-post411037.html
+    quote: "Nếu là ban đêm, bạn có thể quan sát sao để định hướng nhưng cách này thường phức tạp và nên định hướng, di chuyển vào ban ngày, không nên di chuyển vào ban đêm."
+    verdict: partial
+    note: "Phần 'ban ngày, không di chuyển ban đêm' khớp. 'Có điểm mốc rõ ràng' không có trong nguồn: bài báo khuyên di chuyển khi 'xác định được phương hướng', để lại ký hiệu."
+  - text: "Che nắng hoặc giữ ấm, chia nước uống từng ngụm"
+    source_url: https://cand.vn/hien-tuong-ma-dua-va-ky-nang-thoat-hiem-khi-bi-lac-trong-rung-post411037.html
+    quote: "Phải bình tĩnh, không được hoảng loạn và suy nghĩ tiêu cực, hãy ngồi nghỉ cho đỡ mệt, nếu đem theo nước hãy uống nước và thư giãn để lấy lại sự bình tĩnh."
+    verdict: not-found
+    note: "Bài báo CAND nói 'nếu đem theo nước hãy uống nước', không có 'chia từng ngụm / tiết kiệm nước', không có 'che nắng'. [INFERENCE, chưa mở nguồn hoang dã nào]: hướng dẫn sống sót thông dụng thường khuyên uống khi khát, chia nước chỉ khi nước thật khan. Ghi chú trong mục thừa nhận 'không có mốc đo', nhưng step vẫn viết như lệnh."
+  - text: "Nếu trời sắp tối mà chưa chắc ra được thì tính chuyện ở lại qua đêm; tìm hốc đá, hang hoặc gốc cây lớn để trú"
+    source_url: https://cand.vn/hien-tuong-ma-dua-va-ky-nang-thoat-hiem-khi-bi-lac-trong-rung-post411037.html
+    quote: "Khi trời sắp tối, nếu nhận thấy chưa tìm được lối ra hoặc không chắc chắn sẽ thoát ra khỏi rừng an toàn nên tính đến phương án ở lại qua đêm trong rừng"
+    verdict: partial
+    note: "Nguồn: 'hốc đá ở trên cao, hang động, hoặc nhánh cây lớn' (nhánh cây lớn, không phải gốc cây). Mục viết 'gốc cây lớn' lệch. 'Hốc đá/hang động' trong nguồn đi kèm bối cảnh rừng; bài còn khuyên dùng que tự vệ thú dữ."
+  - text: "Ban ngày định hướng theo khói bếp, ánh đèn hoặc âm thanh (tiếng xe, tiếng nước chảy) thay vì đi lòng vòng trong đêm"
+    source_url: https://cand.vn/hien-tuong-ma-dua-va-ky-nang-thoat-hiem-khi-bi-lac-trong-rung-post411037.html
+    quote: "Nếu bạn trèo lên cây hoặc điểm cao, cố gắng quan sát xung quanh, nếu thấy có khói, nóc nhà dân cần định hướng để đi theo hướng đó. Ban đêm cũng có thể treo lên cây hoặc điểm cao để quan sát ánh đèn, đốm lửa nếu khoảng cách gần có thể di chuyển ngay nhưng nếu xa cần phải nghỉ lại qua đêm"
+    verdict: partial
+    note: "Bài nói khói/nóc nhà dân ban ngày; ánh đèn, đốm lửa là ban đêm, và với ánh đèn gần thì 'có thể di chuyển ngay' (trái với 'không di chuyển ban đêm' của mục). 'Khói bếp' là người soạn thêm. Hướng dẫn trèo cây/điểm cao không được mục chuyển tải; trèo cây tự nó có nguy cơ ngã."
+  - text: "Đốt lửa sưởi và giữ lửa cẩn thận"
+    source_url: https://cand.vn/hien-tuong-ma-dua-va-ky-nang-thoat-hiem-khi-bi-lac-trong-rung-post411037.html
+    quote: "Nếu có theo bật lửa hãy giữ cẩn thận tránh bị mất hoặc ướt không sử dụng được, nhóm lửa khi trời tối."
+    verdict: partial
+    note: "Nguồn nói giữ 'bật lửa' cẩn thận (tránh mất, ướt), không nói 'giữ lửa cẩn thận'. Bẫy 3 (đốt lửa giữa rừng khô, dập hẳn) là bổ sung an toàn của người soạn, không có trong nguồn; hướng đúng nhưng ngược với nguồn khuyến khích 'cố gắng nhóm lửa trong đêm'."
+  - text: "Bẫy 1: men theo suối xuống vì nghĩ suối dẫn ra sông rồi ra biển; ở núi phía Bắc suối thường đổ vào vực, đi theo suối dễ trượt đá"
+    source_url: https://cand.vn/hien-tuong-ma-dua-va-ky-nang-thoat-hiem-khi-bi-lac-trong-rung-post411037.html
+    quote: "Hoặc nếu bạn gặp sông suối mà bạn chưa đi qua hay men xuôi dòng vì chắc chắn dọc theo sông suối sẽ đổ về đồng bằng hoặc có người ở, khả năng thoát hiểm của bạn sẽ cao hơn đi hướng khác."
+    verdict: mismatch
+    note: "Nguồn duy nhất về kỹ năng lạc rừng mà mục dẫn khuyên đúng điều mục gọi là 'bẫy': men xuôi dòng suối. Mục không có nguồn nào cho 'suối đổ vào vực'. Hai chỉ dẫn mâu thuẫn mà không giải thích; không thể đánh dấu 'khớp nguồn'."
+  - text: "Nguồn bài báo CAND là hướng dẫn khuyên (mục nêu: 'hướng dẫn của báo ngành công an và kinh nghiệm thực hành')"
+    source_url: https://cand.vn/hien-tuong-ma-dua-va-ky-nang-thoat-hiem-khi-bi-lac-trong-rung-post411037.html
+    quote: "Khi bị lạc trong rừng, để được an toàn cần phải thực hiện một số bước cơ bản sau:"
+    verdict: match
+    note: "Mục tự ghi nhận đúng bản chất nguồn. Bài đăng 2016 (published_time 2016-11-07), tác giả TS Đoàn Văn Báu; chủ đề là rừng, không phải biển hoặc rừng biên giới. Không phải AHA/WHO/Bộ Y tế; không có mốc đo."
+internal_checks:
+  - issue: "Tiêu đề/tldr nói 'núi, rừng biên giới hay bãi biển vắng không có sóng' nhưng nguồn y tế/cứu nạn duy nhất chỉ nói về rừng. Không có nguồn nào cho bãi biển (thủy triều, vách đá), biên giới, hoặc 'cạnh xe'."
+    severity: error
+  - issue: "Tiêu đề và step 2 nói 'còn bắt được sóng thì gọi 112', nhưng mục không nói gì khi hết sóng (nội dung tiêu đề là 'không có sóng'). Tiêu đề mâu thuẫn với điều kiện 'còn sóng' ở tldr/steps; không có bước nào cho trường hợp thật sự không có sóng ngoài 'ở yên'."
+    severity: error
+  - issue: "Bẫy 1 (không men theo suối) trái trực tiếp với nguồn CAND (nên men xuôi dòng suối)."
+    severity: error
+  - issue: "Chi phí liệt kê 'một bình nước hai lít, một áo khoác mỏng' và 'điện thoại tắt dữ liệu di động để giữ pin'; hai lít, áo khoác mỏng không có trong nguồn nào; bài báo CAND chỉ liệt kê dao, bật lửa, la bàn, điện thoại, đèn pin, nước, lương khô."
+    severity: warn
+  - issue: "legal_refs[0..2].url là PDF Nghị định 200/2025/NĐ-CP, đúng văn bản; article (Điều 3 khoản 1, 3, 4) đúng khẳng định tương ứng. Nhưng legal_refs[].quote đều null và effective_from null; Nghị định có hiệu lực từ 23/8/2025 (Điều 53 khoản 1) — nên điền."
+    severity: warn
+  - issue: "Mọi con số trong tldr/steps (112) có trong thân. Không mâu thuẫn số liệu."
+    severity: warn
+validity:
+  doc: "Nghị định 200/2025/NĐ-CP ngày 09/7/2025 của Chính phủ quy định chi tiết một số điều của Luật Phòng thủ dân sự"
+  in_force: unconfirmed
+  effective_from: "2025-08-23"
+  amended_by: []
+  basis: "Điều 53 khoản 1 (trang 31 bản quét): 'Nghị định này có hiệu lực thi hành kể từ ngày 23 tháng 8 năm 2025'; khoản 2: Nghị định 30/2017/NĐ-CP và 02/2019/NĐ-CP hết hiệu lực từ ngày đó. Chưa tra Công báo/vbpl.vn để xác nhận không bị sửa đổi, thay thế sau 10/7/2025 nên để unconfirmed."
+deliberate_vn_deviation: []
+potential_harm:
+  - "steps[0] / tldr 'ở yên tại chỗ hoặc cạnh xe' áp dụng cho cả 'bãi biển vắng' (tiêu đề). Ở bãi biển, thủy triều dâng, sóng, vách đá hoặc mặt nước lên có thể làm ở yên nguy hiểm; ở suối/khe núi có lũ quét cũng vậy. Mục không có điều kiện 'chỗ đang đứng phải an toàn'; nguồn CAND nói 'tìm một địa điểm thích hợp'."
+  - "Bẫy 2 'gọi 115 trước vì nhớ số cấp cứu... Việc tìm người lạc thuộc 112': nếu người lạc/bạn đi cùng bị thương, sốc nhiệt, rắn cắn thì không gọi 115. Cũng không nhắc 114 (cứu nạn cứu hộ). Nghị định cho phép 112 liên thông 113/114/115 nên gọi số nào cũng được chuyển, nhưng người đọc có thể hiểu không được gọi 115."
+  - "steps[2] 'chia nước uống từng ngụm' là hạn chế uống nước không có nguồn cho điều kiện này. Trong nắng nóng, hạn chế nước khi còn đủ nước gây mất nước nhanh hơn; [INFERENCE, chưa đối chiếu nguồn] thông lệ hoang dã là uống khi khát và chỉ chia khi nguồn nước thật sự hết."
+  - "Bẫy 1 'không men theo suối' trái nguồn dẫn; nếu theo mục, người lạc bỏ một cách thoát hiểm mà nguồn dẫn khuyến nghị. Ngược lại nguồn không đề cập nguy cơ vực/thác/lũ. Cần một nguồn chính thống (NPS, Cục Cứu nạn cứu hộ, hướng dẫn kỹ năng của Bộ Công an) cho quyết định này."
+suggested_edits:
+  - "Tiêu đề, tldr: bỏ 'bãi biển vắng' và 'cạnh xe' hoặc thêm nguồn riêng. Nếu giữ, thêm điều kiện 'chỗ đang đứng an toàn (không ngập, không sạt, không dưới vách)'."
+  - "steps[1]: đổi thành 'Còn sóng thì gọi 112 (cứu nạn); bị thương/ốm nặng gọi 115; cháy/cứu hộ gọi 114. Nói rõ vị trí (địa danh, điểm mốc, tọa độ nếu có), số người, tình trạng', dựa vào quote Điều 3 khoản 3b ('Thời gian, địa điểm... yêu cầu trợ giúp') và Điều 3 khoản 2b/4a (112 liên thông 113, 114, 115). Ghi rõ 'số người' là khuyến nghị của biên tập, không phải chữ của nghị định."
+  - "steps[2]: bỏ 'chia nước từng ngụm' hoặc thay 'uống khi khát, giữ nước còn lại nếu chưa có nguồn nước' kèm nguồn; hoặc nêu trong Ghi chú là kinh nghiệm không có nguồn."
+  - "Bẫy 1: bỏ hoặc nêu 'chỉ nên men theo suối nếu biết chắc đường ra; suối có thể có thác, vực' kèm nguồn; hiện mâu thuẫn quote CAND 'men xuôi dòng vì chắc chắn dọc theo sông suối sẽ đổ về đồng bằng hoặc có người ở'."
+  - "Bẫy 2: sửa thành 'nếu có người bị thương nặng thì gọi 115; 112 là đầu mối cứu nạn', bỏ câu khẳng định 'việc tìm người lạc thuộc 112' vì Nghị định 200/2025 không nói."
+  - "Điền legal_refs[].effective_from = 2025-08-23, tra Công báo/vbpl.vn để xác nhận hiệu lực rồi cập nhật validity."
+  - "Thay hoặc bổ sung nguồn: một hướng dẫn kỹ năng sinh tồn của cơ quan chức năng (Bộ Công an, Cục Cứu nạn cứu hộ, Bộ Chỉ huy quân sự) hoặc hướng dẫn quốc tế (NPS/Red Cross) cho nguyên tắc 'ở yên' và uống nước; bài CAND 2016 chỉ nói 'nghỉ ngơi tại địa điểm thích hợp'."

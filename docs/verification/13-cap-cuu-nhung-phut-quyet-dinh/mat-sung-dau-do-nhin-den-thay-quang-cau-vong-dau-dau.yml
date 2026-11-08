@@ -1,0 +1,112 @@
+id: mat-sung-dau-do-nhin-den-thay-quang-cau-vong-dau-dau
+checked_at: 2026-11-08
+content_sha256: "0ad119f859908be033c43ad986ec8f6be90fd1b4aac362b9731f1557f547ebfe"
+checker: agent-Vf13bA
+result: pass-with-edits
+claims:
+  - text: "Quyết định 40/QĐ-BYT dành bài 17 cho glôcôm góc đóng nguyên phát"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "17. GLÔCÔM GÓC ĐÓNG NGUYÊN PHÁT"
+    verdict: match
+    note: "Mục lục tài liệu trong .rar (file The final - Mắt 20150112.pdf, đã giải nén và trích chữ). Quyết định ký 12/01/2015, số 40/QĐ-BYT (file Quyết định - BỘ Y TẾ.pdf cùng .rar)."
+  - text: "Lâm sàng cơn cấp: khởi phát đột ngột, thường chiều tối/sau xúc động; đau nhức mắt, nhức quanh hố mắt, lan lên nửa đầu; nhìn mờ, quầng xanh đỏ, sợ ánh sáng; buồn nôn/nôn, đau bụng, vã mồ hôi, sốt"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Bệnh khởi phát đột ngột, diễn biến rầm rộ, thường xảy ra vào chiều tối, sau một xúc động mạnh bệnh nhân đột ngột đau nhức mắt, nhức xung quanh hố mắt, nhức lan lên nửa đầu cùng bên, nhìn mờ như qua màn sương, nhìn đèn có quầng xanh đỏ, sợ ánh sáng, chói chảy nước mắt kèm theo, bệnh nhân có thể buồn nôn hoặc nôn, đau bụng, vã mồ hôi, sốt..."
+    verdict: match
+    note: "Chữ trích từ lớp văn bản PDF; đã chuẩn hóa dấu (ƣ→ư, ơ). Tài liệu nói 'quầng xanh đỏ', mục viết 'cầu vồng' ở tiêu đề (NHS dùng 'rainbow-coloured circles') - chấp nhận được."
+  - text: "Dấu hiệu khi khám: mi sưng nề, cương tụ đỏ, giác mạc phù mờ, đồng tử giãn méo, tiền phòng nông, góc đóng; nhãn áp tăng rất cao"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Khám: mi mắt xưng nề, mắt cương tụ đỏ, giác mạc phù mờ có thể có bọng biểu mô, đồng tử giãn méo, giảm hoặc mất phản xạ với ánh sáng, tiền phòng nông, góc tiền phòng đóng"
+    verdict: match
+    note: "Cùng mục: 'Nhãn áp tăng rất cao'."
+  - text: "Nguyên tắc điều trị: tích cực, khẩn trương hạ nhãn áp bằng thuốc để chống tổn hại thêm cho thị thần kinh"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Tích cực, khẩn trương làm hạ nhãn áp bằng thuốc để chống tổn hại thêm cho thị thần kinh"
+    verdict: match
+    note: ""
+  - text: "Tra thuốc co đồng tử 15 đến 20 phút một lần cho tới khi đồng tử co lại và nhãn áp hạ"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Tra thuốc co đồng tử cứ 15-20 phút/1 lần cho đến khi đồng tử co lại được và nhãn áp hạ. Sau đó có thể tra 1 giờ/1 lần và dùng liều duy trì 3-4 lần/ngày."
+    verdict: match
+    note: "Đây là phác đồ của thầy thuốc, đặt trong mục 'Lợi ích' cho người đọc phổ thông (xem internal_checks)."
+  - text: "Tra thuốc chẹn beta giao cảm 2 lần mỗi ngày"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Tra phối hợp nhóm thuốc chẹn bêta giao cảm 2 lần/ngày (thận trọng nếu bệnh nhân có bệnh phổi, tim, mạch) hoặc nhóm thuốc ức chế men Anhydraza cacbonic 2-3 lần/ngày."
+    verdict: partial
+    note: "Mục bỏ điều kiện 'thận trọng nếu có bệnh phổi, tim, mạch' và lựa chọn thay thế 'hoặc ức chế men anhydraza cacbonic'. Người đọc hen/COPD/nhịp chậm có thể hiểu thành thuốc dùng cho mọi người."
+  - text: "Uống acetazolamid 0,25 g từ 2 đến 4 viên mỗi ngày, hoặc tiêm tĩnh mạch khi nôn nhiều"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Uống Acetazolamide 0,25g x 2-4 viên/ngày hoặc tiêm tĩnh mạch Acetazolamide 500g x 1 ống nếu bệnh nhân nôn nhiều, thuốc uống không có tác dụng."
+    verdict: match
+    note: "Tài liệu thêm 'Chú ý: thuốc có nhiều tác dụng phụ toàn thân nên chỉ dùng trong thời gian chờ phẫu thuật, không dùng kéo dài và cần bổ sung thêm Kali' - mục không nhắc. (Bản gốc ghi '500g' là lỗi in, mục đúng khi không nhắc.)"
+  - text: "Truyền mannitol 20% 200 ml khi nhãn áp rất cao"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Trong trường hợp nhãn áp tăng rất cao có thể bổ sung các loại thuốc thẩm thấu như truyền tĩnh mạch nhanh Mannitol 20% x 200ml hoặc uống Glyxerol 50% ( 1ml/1 kilô cân nặng)"
+    verdict: match
+    note: "Nguồn nói 'có thể bổ sung', mục viết 'truyền ... khi nhãn áp rất cao' - đúng ý."
+  - text: "Điều trị bằng phẫu thuật là bắt buộc với hình thái glôcôm góc đóng"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Điều trị bằng phẫu thuật: là bắt buộc đối với hình thái glôcôm góc đóng"
+    verdict: match
+    note: ""
+  - text: "Tra pilocacpin 1% cho mắt thứ hai để dự phòng cơn tăng nhãn áp"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Để đề phòng xuất hiện cơn tăng nhãn áp ở mắt thứ 2 : nên tra 1-2 giọt pilocacpin 1% cho mắt thứ 2"
+    verdict: match
+    note: "Cũng là thao tác của thầy thuốc."
+  - text: "Tiêu đề/tldr/steps: 'Đi khám mắt ngay trong ngày' (được phép chờ trong ngày)"
+    source_url: https://www.nhs.uk/conditions/glaucoma/
+    quote: "Immediate action required: Call 999 or go to A&E if: you develop symptoms of glaucoma suddenly. This is a medical emergency that may require immediate treatment."
+    verdict: partial
+    note: "NHS (xem lại 10/07/2025... trang ghi 'Page last reviewed: 13 June 2025'): cấp cứu, xử trí ngay, không tự lái xe. Tài liệu Bộ Y tế chỉ ghi 'khẩn trương'. 'Trong ngày' của mục yếu hơn cả hai nguồn."
+  - text: "Không nhỏ thuốc giảm đau, không chườm nóng (tldr, steps, Bẫy 2)"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Thuốc giảm đau, an thần."
+    verdict: not-found
+    note: "Tài liệu không có chữ nào cấm chườm nóng/xông hơi/nhỏ thuốc mua sẵn; ngược lại mục điều trị toàn thân còn liệt kê 'Thuốc giảm đau, an thần' (do thầy thuốc chỉ định). Câu của mục là suy diễn an toàn nhưng không phải chữ của nguồn; 'nhỏ thuốc giảm đau' cũng không rõ nghĩa (thuốc giảm đau không phải thuốc nhỏ mắt)."
+  - text: "Bài 17 xếp buồn nôn và nôn vào triệu chứng của cơn glôcôm cấp, dấu hiệu quyết định là mắt đỏ, nhãn áp tăng rất cao (Bẫy 1)"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Chẩn đoán xác định: Triệu chứng chủ quan điển hình; Thị lực giảm nhiều; Nhãn áp tăng cao; Đồng tử giãn, méo; Các góc tiền phòng đóng."
+    verdict: partial
+    note: "Tiêu chuẩn chẩn đoán xác định của tài liệu là thị lực giảm nhiều, nhãn áp cao, đồng tử giãn méo, góc đóng; 'mắt đỏ' chỉ nằm ở dấu hiệu khám ('mắt cương tụ đỏ'), không phải 'dấu hiệu quyết định'. Cách nói của mục là diễn giải."
+  - text: "Triệu chứng glôcôm cấp theo nguồn quốc tế: đau mắt dữ dội, đỏ mắt, thấy vòng cầu vồng quanh đèn, buồn nôn/nôn, đau đầu"
+    source_url: https://www.nhs.uk/conditions/glaucoma/
+    quote: "Sometimes glaucoma can develop suddenly and cause symptoms such as: intense eye pain; a red eye; tenderness around the eyes; seeing rainbow-coloured circles around bright lights; blurred vision; feeling sick (nausea) and being sick; a headache"
+    verdict: match
+    note: "Bản NHS tiếng Anh; tóm tắt Việt: nghi glôcôm cấp khi có đủ nhóm triệu chứng trên. NHS cũng ghi 'Other conditions can cause similar symptoms, including uveitis and an eye injury' - khớp câu 'không phải mắt đỏ nào cũng là glôcôm'."
+  - text: "Chi phí: khám thường vài trăm nghìn đồng, BHYT trả một phần; phải nằm lại truyền thuốc hạ nhãn áp"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Mổ cắt bè (xem trong qui trình kỹ thuật bệnh viện)."
+    verdict: not-found
+    note: "Tài liệu không có số tiền nào; 'vài trăm nghìn' và 'BHYT trả một phần' không có nguồn trong mục (mục Nguồn chỉ dẫn QĐ 40). Chỉ đúng phần phẫu thuật cắt bè/laser tồn tại."
+internal_checks:
+  - issue: "Con số trong tldr/steps: tldr và steps không có số liệu; các số 15-20 phút, 0,25 g, 20% 200 ml, 1% đều có trong thân. Không mâu thuẫn."
+    severity: warn
+  - issue: "steps[2] 'Không nhỏ thuốc giảm đau, không chườm nóng' không có cơ sở trong nguồn đã dẫn (chỉ là Bẫy 2 suy diễn); nên ghi rõ là khuyến cáo thận trọng, hoặc thay bằng 'không tự dùng thuốc mua sẵn, không trì hoãn'."
+    severity: warn
+  - issue: "Mục 'Lợi ích' trình bày liều và nhịp thuốc của bác sĩ (acetazolamid, mannitol, pilocacpin...) cho người đọc phổ thông mà không nói rõ chỉ do thầy thuốc chỉ định, bỏ cảnh báo 'thận trọng bệnh phổi, tim, mạch' và 'chỉ dùng trong thời gian chờ phẫu thuật'."
+    severity: warn
+  - issue: "Tiêu đề và tldr dùng 'ngay trong ngày' trong chương cấp cứu 'những phút quyết định', trong khi thân nói 'không chờ hết đau', nhãn 'khẩn trương'. Mức khẩn không nhất quán."
+    severity: warn
+  - issue: "Chi phí 'vài trăm nghìn đồng', 'BHYT trả một phần' không có trong nguồn dẫn."
+    severity: warn
+  - issue: "legal_refs rỗng (không có văn bản pháp luật, chỉ hướng dẫn chuyên môn); URL nguồn duy nhất là file .rar, người đọc phải giải nén để thấy quyết định."
+    severity: warn
+validity:
+  doc: "Quyết định 40/QĐ-BYT ngày 12/01/2015, Hướng dẫn chẩn đoán và điều trị các bệnh về mắt (bài 17)"
+  in_force: unconfirmed
+  effective_from: "2015-01-12"
+  amended_by: []
+  basis: "Điều 3 của quyết định: 'Quyết định này có hiệu lực kể từ ngày ký ban hành'. Không tìm thấy văn bản thay thế/bãi bỏ qua tìm kiếm, nhưng trang tình trạng hiệu lực (thuvienphapluat/vbpl) không truy cập được trong phiên nên không xác nhận; tài liệu 11 năm tuổi, chưa có bằng chứng còn áp dụng."
+deliberate_vn_deviation:
+  - "Mức khẩn: NHS và thực hành quốc tế coi glôcôm góc đóng cấp là cấp cứu xử trí ngay (đến A&E/gọi xe cấp cứu, không tự lái xe); mục dùng 'ngay trong ngày'. Không thấy VN nguồn ghi 'trong ngày'; đây là lệch do người soạn."
+potential_harm:
+  - "'Đi khám mắt ngay trong ngày' (tiêu đề, tldr, steps[0]) có thể khiến người bệnh trì hoãn nhiều giờ; glôcôm góc đóng cấp gây tổn thương thị thần kinh không hồi phục (chính tài liệu: 'không có khả năng hồi phục'), NHS xếp là cấp cứu xử trí ngay."
+  - "Mục không dặn tránh tự lái xe khi đang đau, nhìn mờ vì cơn cấp (NHS: 'Do not drive to A&E')."
+suggested_edits:
+  - "Tiêu đề, tldr, steps[0]: đổi 'ngay trong ngày' thành 'ngay (đi cấp cứu mắt, không chờ)'; nếu xa bệnh viện mắt thì tới khoa cấp cứu/mắt gần nhất. Dựa vào quote NHS 'This is a medical emergency that may require immediate treatment' và QĐ 40 'Tích cực, khẩn trương làm hạ nhãn áp'."
+  - "Thêm vào steps: nhờ người chở, không tự lái xe khi nhìn mờ, đau dữ dội (NHS 'Do not drive to A&E')."
+  - "steps[1] và Bẫy 2: bỏ khẳng định 'không chườm nóng' như thể là chữ của QĐ 40, hoặc ghi rõ là lời dặn thận trọng; sửa 'nhỏ thuốc giảm đau' thành 'tự nhỏ thuốc mua sẵn'."
+  - "Mục 'Lợi ích': thêm câu 'Các thuốc dưới đây do bác sĩ chỉ định và theo dõi, không tự dùng'; nêu đủ 'chẹn bêta... thận trọng nếu có bệnh phổi, tim, mạch' và 'acetazolamid chỉ dùng chờ phẫu thuật, bổ sung kali'."
+  - "Bẫy 1: sửa 'dấu hiệu quyết định là mắt đỏ, nhãn áp tăng rất cao' thành 'tiêu chuẩn chẩn đoán là thị lực giảm nhiều, nhãn áp cao, đồng tử giãn méo, góc tiền phòng đóng'."
+  - "Chi phí: bỏ 'vài trăm nghìn' và 'BHYT trả một phần' hoặc dẫn nguồn giá/BHYT."

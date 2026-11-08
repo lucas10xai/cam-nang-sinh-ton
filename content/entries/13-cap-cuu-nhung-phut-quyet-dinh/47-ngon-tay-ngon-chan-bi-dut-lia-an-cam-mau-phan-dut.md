@@ -22,10 +22,10 @@ steps:
   - "Đưa người bị nạn tới khoa chấn thương chỉnh hình hoặc phẫu thuật tạo hình có kính vi phẫu. Không dừng ở trạm y tế xã hay bệnh viện huyện."
 legal_refs: []
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13jB
+  scope: "Chặn nâng trạng thái: result=fail, 4 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/ngon-tay-ngon-chan-bi-dut-lia-an-cam-mau-phan-dut.yml)"
   sources: []
 origin:
   zh: null

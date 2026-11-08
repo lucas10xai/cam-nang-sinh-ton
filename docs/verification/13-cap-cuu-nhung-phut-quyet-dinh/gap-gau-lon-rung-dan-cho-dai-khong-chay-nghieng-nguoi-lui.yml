@@ -1,0 +1,88 @@
+id: gap-gau-lon-rung-dan-cho-dai-khong-chay-nghieng-nguoi-lui
+checker: agent-Vf13gA
+checked_at: 2026-11-08
+content_sha256: "146330b7e7c925f7723231de67fa660fb0c42ed2b8f1d42dd521cd6274066afd"
+result: pass-with-edits
+claims:
+  - text: "Bị chó cắn: xối rửa vết cắn/cào dưới vòi nước chảy liên tục ít nhất 15 phút, dùng xà phòng (QĐ 1622/QĐ-BYT)"
+    source_url: https://hcdc.vn/nhung-viec-can-lam-ngay-sau-khi-bi-cho-can-xbcwu7.html
+    quote: "Xối rửa kỹ tất cả các vết cắn hoặc vết cào dưới vòi nước chảy liên tục trong ít nhất 15 phút. Bạn có thể sử dụng xà phòng hoặc các chất tẩy rửa thông thường như dầu gội, sữa tắm."
+    verdict: match-secondary
+    note: "Bản chữ của chính QĐ 1622/QĐ-BYT KHÔNG đọc được: trang BV Nhi TW (legal_refs.url) chỉ là trang đăng, link PDF trỏ syt.kontum.gov.vn không tải được (không có phản hồi). HCDC TP.HCM là bản dẫn lại, ghi nguồn QĐ 1622. Hướng dẫn quốc tế (xem claim kế) khớp con số 15 phút."
+  - text: "Rửa vết thương dưới nước xà phòng ít nhất 15 phút rồi tìm chăm sóc y tế (đối chiếu hướng dẫn quốc tế)"
+    source_url: https://www.who.int/news-room/fact-sheets/detail/rabies
+    quote: "If a person is bitten or scratched by a potentially rabid animal, they should immediately and always wash the wound with water and soap for at least 15 minutes and seek medical attention."
+    verdict: match
+    note: "WHO fact sheet Rabies, cập nhật 17/9/2026. Tóm tắt: bị cắn/cào thì rửa ngay bằng nước xà phòng ít nhất 15 phút và đi khám. Không có lệch giữa VN và WHO về mốc này."
+  - text: "Sau khi rửa, sát khuẩn bằng cồn 70 độ"
+    source_url: https://hcdc.vn/nhung-viec-can-lam-ngay-sau-khi-bi-cho-can-xbcwu7.html
+    quote: "Sau khi rửa sạch, sát khuẩn vết thương bằng cồn 70 độ hoặc cồn i-ốt."
+    verdict: match-secondary
+    note: "Nguồn thứ cấp (dẫn QĐ 1622). Bản dẫn còn cho phép cồn i-ốt; mục chỉ nêu cồn 70 độ (không sai, chỉ hẹp hơn). WHO không nêu bước sát khuẩn."
+  - text: "Không băng kín, không nặn máu, không khâu kín ngay; nếu buộc phải khâu thì trì hoãn vài giờ đến ba ngày, khâu thưa sau khi tiêm huyết thanh kháng dại"
+    source_url: https://hcdc.vn/nhung-viec-can-lam-ngay-sau-khi-bi-cho-can-xbcwu7.html
+    quote: "Không băng kín vết thương, không làm dập nát thêm hoặc nặn máu. Tránh khâu kín vết thương ngay lập tức. Nếu bắt buộc phải khâu, hãy trì hoãn khâu sau vài giờ đến 3 ngày và nên khâu thưa, ngắt quãng sau khi đã tiêm huyết thanh kháng dại (nếu có chỉ định) vào tất cả các vết thương."
+    verdict: match-secondary
+    note: "Nguồn thứ cấp. Mục bỏ cụm 'nếu có chỉ định' và bỏ ý kháng sinh/uốn ván (bản dẫn: 'bác sĩ có thể chỉ định sử dụng kháng sinh và tiêm phòng uốn ván')."
+  - text: "Sau sơ cứu tới ngay cơ sở y tế để bác sĩ quyết định tiêm vắc xin"
+    source_url: https://hcdc.vn/nhung-viec-can-lam-ngay-sau-khi-bi-cho-can-xbcwu7.html
+    quote: "Sau khi sơ cứu vết thương, việc quan trọng nhất là đến ngay cơ sở y tế gần nhất để được thăm khám và tư vấn điều trị dự phòng kịp thời."
+    verdict: match-secondary
+    note: "Nguồn thứ cấp."
+  - text: "Tiêm kháng thể (huyết thanh/globulin kháng dại) 'nếu vết thương nặng'"
+    source_url: https://www.who.int/news-room/fact-sheets/detail/rabies
+    quote: "Category III - single or multiple transdermal bites or scratches, contamination of mucous membrane or broken skin with saliva from animal licks, exposures due to direct contact with bats (severe exposure) | Wound washing, immediate vaccination and administration of rabies immunoglobulin/monoclonal antibodies"
+    verdict: partial
+    note: "WHO: mọi vết cắn/cào xuyên da (một hoặc nhiều) là mức III, chỉ định kháng thể. 'Vết thương nặng' dễ bị hiểu là vết to/sâu/chảy nhiều, khiến người đọc cho rằng vết cắn nhỏ không cần kháng thể. Mục có nói bác sĩ quyết định, nhưng nên viết rõ tiêu chí. Chưa đối chiếu được chữ của QĐ 1622 về phân độ."
+  - text: "Gặp gấu: không quay lưng bỏ chạy, không leo cây, lùi từng bước chậm theo hướng nghiêng người, mắt nhìn con vật"
+    source_url: https://www.nps.gov/subjects/bears/safety.htm
+    quote: "If the bear is stationary, move away slowly and sideways; this allows you to keep an eye on the bear and avoid tripping. Moving sideways is also non-threatening to bears. Do NOT run, but if the bear follows, stop and hold your ground. Bears can run as fast as a racehorse both uphill and down. Like dogs, they will chase fleeing animals. Do NOT climb a tree. Both grizzlies and black bears can climb trees."
+    verdict: match
+    note: "Nguồn ngoài danh sách nguồn của mục (US National Park Service, cập nhật 8/9/2025). Tóm tắt: nếu gấu đứng yên thì lùi chậm, nghiêng người; không chạy; không leo cây vì gấu leo cây được. Khớp bước 1 và 3 với gấu. Mục tự nhận chưa có văn bản VN."
+  - text: "Nói to giọng trầm, giơ hai tay cho mình trông lớn hơn"
+    source_url: https://www.nps.gov/subjects/bears/safety.htm
+    quote: "Identify yourself by talking calmly so the bear knows you are a human and not a prey animal. Remain still; stand your ground but slowly wave your arms. ... A scream or sudden movement may trigger an attack."
+    verdict: partial
+    note: "NPS: nói bình tĩnh, giọng thấp, vẫy tay chậm; cảnh báo la hét hoặc động tác đột ngột có thể kích hoạt tấn công. 'Nói to' có thể bị hiểu là la lớn. Đề nghị 'nói bình tĩnh, giọng trầm', 'giơ/vẫy tay chậm'."
+  - text: "Không nằm xuống"
+    source_url: https://www.nps.gov/subjects/bears/safety.htm
+    quote: "Black Bears: If you are attacked by a black bear, DO NOT PLAY DEAD. ... Brown/Grizzly Bears: If you are attacked by a brown/grizzly bear, leave your pack on and PLAY DEAD."
+    verdict: partial
+    note: "Đúng với gấu đen (gấu ngựa/gấu chó ở VN thuộc nhóm gấu đen/gấu chó, [INFERENCE] không có nguồn VN xác nhận loài). Mục tách 'nằm xuống' chỉ là xử lý một tình huống cụ thể, nhưng bước 1 viết vô điều kiện. Chấp nhận được, nên ghi 'khi chưa bị tấn công'."
+  - text: "Gặp lợn rừng: đứng lại, không chạy, không leo cây, lùi chậm"
+    source_url: https://www.forestwildlife.org/what-to-do-if-you-see-a-wild-boar/
+    quote: "If there is a tree nearby, climb the tree. Alternatively, you can scramble up on top of the nearest car, boulder, fence, or building."
+    verdict: mismatch
+    note: "Không tìm được hướng dẫn cơ quan chính thống (VN hay quốc tế) cho lợn rừng; mục cũng thừa nhận. Chỉ tìm được blog (không đủ làm nguồn y tế) nhưng nó ĐỐI NGHỊCH với 'không leo cây': khi bị lợn rừng lao tới thì leo lên chỗ cao được khuyên. Bước 1 'không leo cây' đúng cho gấu nhưng áp cho lợn rừng là chưa có cơ sở, có thể tước đường thoát. Cùng blog đồng ý 'Do not run' và lùi chậm khi chưa bị đuổi. Verdict nêu theo claim gộp 'gấu, lợn rừng' dùng chung bước."
+  - text: "Đàn chó (dại) cũng xử lý bằng 'đứng lại, không chạy, nghiêng người lùi chậm' (tiêu đề)"
+    source_url: https://www.nps.gov/subjects/bears/safety.htm
+    quote: "Do NOT run, but if the bear follows, stop and hold your ground. ... Like dogs, they will chase fleeing animals."
+    verdict: not-found
+    note: "Không có nguồn nào mở được hướng dẫn xử trí khi gặp đàn chó. Thân bài và steps chỉ nói gấu, lợn rừng và sơ cứu vết chó cắn; tiêu đề hứa nội dung về đàn chó nhưng không có. Câu NPS chỉ so sánh gấu với chó, không phải hướng dẫn cho chó."
+internal_checks:
+  - issue: "Tiêu đề nêu 'đàn chó dại' nhưng thân bài/steps không có hướng dẫn đối phó với đàn chó (chỉ có sơ cứu sau khi đã bị cắn). Tiêu đề hứa nhiều hơn nội dung."
+    severity: warn
+  - issue: "legal_refs[0].url là trang đăng của BV Nhi TW, không chứa văn bản QĐ 1622 (chỉ có link PDF ngoài, không tải được). Mọi con số (15 phút, 70 độ, vài giờ đến 3 ngày) chưa được đối chiếu với chữ của chính QĐ; mới thấy qua bản dẫn HCDC. legal_refs.quote để null."
+    severity: warn
+  - issue: "legal_refs[0].article ('Hướng dẫn xử trí vết cắn...') không ghi số mục/điều của QĐ 1622; không kiểm được khớp."
+    severity: warn
+  - issue: "Steps 1-3 (gấu, lợn rừng) không có cơ sở trong 'Pháp luật Việt Nam' (đúng như thân bài thừa nhận mức bằng chứng C); tldr vẫn viết như chỉ dẫn chắc chắn cho cả hai loài, trong khi lợn rừng không có nguồn."
+    severity: warn
+  - issue: "Con số trong tldr/steps (15 phút, 70 độ) đều có trong thân. Không thấy mâu thuẫn số liệu nội bộ."
+    severity: warn
+validity:
+  doc: "Quyết định 1622/QĐ-BYT ngày 08/5/2014 của Bộ Y tế (Hướng dẫn giám sát, phòng chống bệnh dại trên người)"
+  in_force: unconfirmed
+  effective_from: "2014-05-08"
+  amended_by: []
+  basis: "Không mở được chữ văn bản gốc (PDF ngoài không tải được; thuvienphapluat trả 403). Bài HCDC TP.HCM cập nhật 30/09/2025 vẫn dẫn QĐ 1622 làm căn cứ, và Sở Y tế An Giang cũng dẫn; chưa tìm thấy văn bản thay thế, nhưng chưa xem được bảng hiệu lực (Công báo/vbpl) nên không kết luận còn hiệu lực. Ngày hiệu lực lấy theo ngày ký, chưa kiểm."
+deliberate_vn_deviation: []
+potential_harm:
+  - "Bước 5 / tldr: 'tiêm kháng thể nếu vết thương nặng'. Theo WHO, bất kỳ vết cắn/cào xuyên da nào (mức III) đều chỉ định kháng thể cùng vắc xin. Người đọc có vết cắn nhỏ nhưng xuyên da có thể bỏ qua hoặc không yêu cầu kháng thể, làm chậm điều trị dự phòng bệnh dại (gần như tử vong 100% khi phát bệnh)."
+  - "Bước 1: 'không leo cây' áp cho cả lợn rừng. Nguồn (blog, chưa phải chính thống) khuyên leo lên chỗ cao khi bị lợn rừng lao tới; không có nguồn chính thống nào ủng hộ 'không leo cây' cho lợn rừng, và đây là lời khuyên vô điều kiện có thể làm người đọc bỏ qua đường thoát duy nhất."
+suggested_edits:
+  - "Bước 5, tldr và 'Lợi ích' (chó cắn): đổi 'tiêm kháng thể nếu vết thương nặng' thành 'bác sĩ phân độ phơi nhiễm; mọi vết cắn hoặc cào làm rách da đều có thể cần cả vắc xin lẫn huyết thanh/kháng thể kháng dại, đừng tự coi vết nhỏ là không cần', dựa vào quote WHO Category III. Thêm cụm 'nếu có chỉ định' và kháng sinh/uốn ván cho khớp bản dẫn QĐ 1622."
+  - "Bước 1 và 2: tách riêng gấu và lợn rừng. Gấu: 'không chạy, không leo cây, nói bình tĩnh giọng trầm, vẫy tay chậm, lùi chậm nghiêng người' (dựa vào NPS). Lợn rừng: bỏ 'không leo cây' hoặc bỏ lợn rừng khỏi tldr/tiêu đề cho tới khi có nguồn chính thống; nếu giữ, ghi rõ 'chưa có hướng dẫn chính thống'."
+  - "Bước 2: 'Nói to giọng trầm' đổi thành 'nói bình tĩnh, giọng trầm'; 'giơ hai tay' đổi thành 'giơ/vẫy tay chậm'. Bước 1: thêm 'khi chưa bị tấn công' sau 'không nằm xuống'."
+  - "Tiêu đề và thân: hoặc bổ sung hướng dẫn gặp đàn chó có nguồn, hoặc bỏ 'đàn chó dại' khỏi tiêu đề."
+  - "Thêm vào legal_refs một URL tải được chữ của QĐ 1622 (PDF) và ghi quote nguyên văn mốc 15 phút; sửa mục Nguồn để dẫn NPS cho phần gấu và WHO cho mốc 15 phút/phân độ."

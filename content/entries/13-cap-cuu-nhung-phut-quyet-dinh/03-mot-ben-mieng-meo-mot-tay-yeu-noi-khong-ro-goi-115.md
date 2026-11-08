@@ -22,10 +22,10 @@ steps:
   - "Không cho ăn uống, không chở bằng xe máy."
 legal_refs: []
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13aB
+  scope: "Chặn nâng trạng thái: result=fail, 1 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/mot-ben-mieng-meo-mot-tay-yeu-noi-khong-ro-goi-115.yml)"
   sources: []
 origin:
   zh: null

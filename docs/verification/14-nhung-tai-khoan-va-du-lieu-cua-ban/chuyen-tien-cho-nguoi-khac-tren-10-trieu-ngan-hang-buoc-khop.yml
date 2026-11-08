@@ -1,0 +1,105 @@
+id: chuyen-tien-cho-nguoi-khac-tren-10-trieu-ngan-hang-buoc-khop
+checker: agent-Vf14b
+checked_at: 2026-11-08
+content_sha256: "84e4fecab4f02a18868f3c28e0025fbb65763081c210c2553bf600989c2cd3da"
+result: pass-with-edits
+claims:
+  - text: "Phải phân loại giao dịch theo Phụ lục 01 và áp dụng hình thức xác nhận theo Phụ lục 02 (Điều 10 khoản 1 điểm a)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-25-vbhn-nhnn-469216.htm
+    quote: "đơn vị thực hiện phân loại giao dịch theo các nhóm loại hình giao dịch quy định tại Phụ lục 01 ban hành kèm theo Thông tư này và áp dụng hình thức xác nhận quy định tại Phụ lục 02 ban hành kèm theo Thông tư này"
+    verdict: match
+    note: "Văn bản hợp nhất 25/VBHN-NHNN, Công báo số 206 (12/04/2026), PDF trích được chữ. Điểm a được sửa theo khoản 1 Điều 6 TT 77/2025/TT-NHNN, hiệu lực 01/3/2026. Phụ lục 01, 02 được thay bằng Điều 10 TT 77/2025; khoản 2 Điều 12 TT 77: các đơn vị phục vụ cả cá nhân và tổ chức áp dụng Điều 10 'kể từ ngày 01 tháng 7 năm 2026'. Bản soạn không ghi mốc 01/07/2026 này."
+  - text: "Chuyển tiền giữa tài khoản/thẻ/ví của người khác nhau là loại B khi từng lệnh không quá 10 triệu và tổng trong ngày không quá 20 triệu; vượt một trong hai thì loại C (Phụ lục 01 nhóm I.3)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-25-vbhn-nhnn-469216.htm
+    quote: "(i) G ≤ 10 triệu VND. (ii) G + Tksth ≤ 20 triệu VND. [loại B] ... Giao dịch thỏa mãn một trong các trường hợp sau: 1. Trường hợp 1: Giao dịch thỏa mãn các điều kiện: (i) G ≤ 10 triệu VND. (ii) G + Tksth > 20 triệu VND. (iii) G + T ≤ 1,5 tỷ VND. 2. Trường hợp 2: Giao dịch thỏa mãn các điều kiện: (i) G > 10 triệu VND. (ii) G ≤ 500 triệu VND. (iii) G + T ≤ 1,5 tỷ VND. [loại C]"
+    verdict: partial
+    note: "Bảng PDF đọc từ ảnh trang 79 Công báo 206 (nhóm I.3, cột B và C). Ngưỡng 10 triệu/20 triệu đúng. Thiếu điều kiện: (1) Tksth = tổng giá trị các giao dịch loại A, B (và C2 của tổ chức) đã thực hiện của một tài khoản/thẻ/ví trong nhóm loại hình giao dịch, KHÔNG gồm giao dịch chủ động trích nợ, và 'được tính giá trị bằng 0 tại thời điểm đầu ngày hoặc ngay sau khi khách hàng có phát sinh giao dịch trong ngày sử dụng hình thức xác nhận cho giao dịch loại C hoặc loại D' (tức bộ đếm 20 triệu về 0 sau mỗi lần đã xác nhận bằng sinh trắc học: không phải tổng cả ngày). (2) Loại C chỉ tới G ≤ 500 triệu (và G+T ≤ 1,5 tỷ); G > 500 triệu là loại D (trường hợp 3)."
+  - text: "Khi tổng giá trị vượt 1,5 tỷ đồng thì lên loại D, cũng buộc khớp khuôn mặt, chỉ khác OTP phải là loại nâng cao, FIDO hoặc chữ ký điện tử an toàn"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-25-vbhn-nhnn-469216.htm
+    quote: "Giao dịch loại D: Soft OTP/Token OTP loại nâng cao hoặc FIDO hoặc chữ ký điện tử an toàn, - Và kết hợp khớp đúng thông tin sinh trắc học."
+    verdict: partial
+    note: "Đúng mục D (cá nhân), nhưng điều kiện lên loại D chưa đủ: Phụ lục 01 nhóm I.3 còn loại D khi 'Trường hợp 3: G > 500 triệu VND' (một lệnh trên 500 triệu), và khi 1 lệnh ≤ 10 triệu/≤ 500 triệu nhưng G + T > 1,5 tỷ. Bản soạn chỉ nêu '1,5 tỷ'."
+  - text: "Khách hàng cá nhân, giao dịch loại C: OTP gửi qua SMS hoặc Voice, hoặc Soft OTP, kết hợp khớp đúng thông tin sinh trắc học (Phụ lục 02)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-25-vbhn-nhnn-469216.htm
+    quote: "Giao dịch loại C: - OTP gửi qua SMS/Voice hoặc Soft OTP/Token OTP loại cơ bản. - Và kết hợp khớp đúng thông tin sinh trắc học."
+    verdict: match
+    note: "Bản soạn bỏ 'Token OTP loại cơ bản', không đổi ý."
+  - text: "Dưới cả hai ngưỡng (loại B) thì chỉ cần mã OTP"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-25-vbhn-nhnn-469216.htm
+    quote: "Giao dịch loại B: - SMS OTP hoặc Voice OTP hoặc Email OTP; - Hoặc Thẻ ma trận OTP; - Hoặc Soft OTP/ Token OTP loại cơ bản hoặc nâng cao; - Hoặc hai kênh; - Hoặc khớp đúng thông tin sinh trắc học thiết bị(1); - Hoặc FIDO; - Hoặc chữ ký điện tử an toàn."
+    verdict: partial
+    note: "'Chỉ cần mã OTP' đơn giản hóa: loại B chấp nhận nhiều hình thức (OTP các loại, hai kênh, sinh trắc học thiết bị, FIDO, chữ ký điện tử). Không gây hại; chỉ cần nói 'không bắt buộc quét khuôn mặt'."
+  - text: "tldr/Nói dễ hiểu: lệnh trên 10 triệu hoặc tổng trong ngày trên 20 triệu 'phải khớp khuôn mặt'"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-25-vbhn-nhnn-469216.htm
+    quote: "5. Hình thức xác nhận khớp đúng thông tin sinh trắc học là việc đối chiếu, so sánh để bảo đảm trùng khớp thông tin sinh trắc học của khách hàng đang thực hiện giao dịch với thông tin sinh trắc học của khách hàng đã thu thập, lưu trữ tại đơn vị theo quy định của Thống đốc Ngân hàng Nhà nước."
+    verdict: partial
+    note: "Văn bản yêu cầu 'khớp đúng thông tin sinh trắc học' nói chung; khuôn mặt là một trường hợp (điểm a), điểm b cho phép 'các hình thức khớp đúng thông tin sinh trắc học khác'. 'Khuôn mặt' chưa phải chữ của luật; thêm lưu ý loại C còn phải kết hợp OTP, không thay OTP."
+  - text: "Khớp khuôn mặt phải chống được ảnh, video, mặt nạ 3D theo tiêu chuẩn ISO 30107 cấp độ 2 (Điều 11)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-25-vbhn-nhnn-469216.htm
+    quote: "phải được cấp chứng nhận của tổ chức/phòng thí nghiệm sinh trắc học được Liên minh FIDO (FIDO Alliance) công nhận hoặc của Tổ chức chứng nhận (Certification Body) cấp phép xác nhận tuân thủ tiêu chuẩn quốc tế (ISO), đáp ứng tiêu chuẩn ISO 30107 cấp độ 2 (Level 2) hoặc tương đương."
+    verdict: partial
+    note: "Điều 11 khoản 5 điểm a(ii): PAD 'dựa trên các tiêu chuẩn quốc tế (như NIST SP 800-63B ... hoặc ISO 30107 ... hoặc FIDO Biometric Requirements) để phòng, chống gian lận, giả mạo khách hàng qua hình ảnh, video, mặt nạ 3D'; điểm c (sửa bởi TT 77/2025) mới đòi chứng nhận ISO 30107 cấp độ 2 'hoặc tương đương'. Bản soạn bỏ 'hoặc tương đương' và các chuẩn thay thế."
+  - text: "Mỗi lần quét tối đa 3 phút (Điều 11)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-25-vbhn-nhnn-469216.htm
+    quote: "đ) Thời gian thực hiện khớp đúng thông tin sinh trắc học tối đa 03 phút."
+    verdict: match
+    note: "Điều 11 khoản 5 điểm đ."
+  - text: "Sai liên tiếp quá số lần đơn vị quy định, không quá 10 lần, thì khóa chức năng cho tới khi khách hàng yêu cầu mở (Điều 11)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-25-vbhn-nhnn-469216.htm
+    quote: "quá số lần sai liên tiếp do đơn vị quy định (nhưng không quá 10 lần): khóa chức năng thực hiện xác nhận giao dịch bằng hình thức khớp đúng thông tin sinh trắc học, chỉ mở khóa khi khách hàng yêu cầu và phải kiểm tra khách hàng trước khi thực hiện, bảo đảm chống gian lận, giả mạo;"
+    verdict: partial
+    note: "Thiếu vế đơn vị 'phải kiểm tra khách hàng trước khi' mở khóa; không gây hiểu sai nguy hiểm. Chỉ khóa chức năng xác nhận bằng sinh trắc học, không khóa cả tài khoản."
+  - text: "Người khuyết tật: đơn vị hướng dẫn chọn hình thức xác nhận phù hợp, không bắt buộc áp dụng khoản 1 (Điều 10 khoản 4)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-25-vbhn-nhnn-469216.htm
+    quote: "Trường hợp khách hàng là người khuyết tật, đơn vị căn cứ điều kiện, khả năng cung ứng của đơn vị mình để cung cấp và hướng dẫn khách hàng là người khuyết tật lựa chọn hình thức xác nhận phù hợp, không bắt buộc áp dụng quy định tại khoản 1, khoản 2, khoản 3 Điều này, nhưng phải bảo đảm kiểm tra, xác nhận được sự chấp thuận của khách hàng khi thực hiện giao dịch"
+    verdict: partial
+    note: "Bản soạn nói 'không bắt buộc áp dụng khoản 1'; nguồn là khoản 1, 2, 3, kèm điều kiện 'căn cứ điều kiện, khả năng cung ứng' và 'phải bảo đảm kiểm tra, xác nhận được sự chấp thuận'. Bản soạn đúng nhận định 'chỉ miễn cho khuyết tật'."
+  - text: "Chủ thể dữ liệu được đồng ý hoặc không đồng ý, yêu cầu rút lại sự đồng ý (Luật 91 Điều 4 khoản 1 điểm b)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "b) Đồng ý hoặc không đồng ý, yêu cầu rút lại sự đồng ý cho phép xử lý dữ liệu cá nhân;"
+    verdict: match
+    note: ""
+  - text: "Sự đồng ý theo từng mục đích, không kèm điều kiện bắt buộc đồng ý mục đích khác; im lặng không phải đồng ý (Điều 9 khoản 4)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "a) Thể hiện sự đồng ý đối với từng mục đích; b) Không được kèm theo điều kiện bắt buộc phải đồng ý với các mục đích khác với nội dung thỏa thuận; ... d) Sự im lặng hoặc không phản hồi không được coi là sự đồng ý."
+    verdict: match
+    note: "Luật 91 Điều 10 khoản 1 còn 'trừ trường hợp quy định tại Điều 19... hoặc pháp luật có quy định khác' cho quyền rút lại đồng ý; bản soạn không nêu. Trường hợp xác thực giao dịch ngân hàng bắt buộc theo TT 50 có thể thuộc ngoại lệ 'pháp luật có quy định khác': không rõ."
+  - text: "Biện pháp bảo mật khi thu thập dữ liệu sinh trắc học; thông báo chủ thể khi xử lý gây thiệt hại (Điều 31 khoản 4)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "phải có biện pháp bảo mật vật lý đối với thiết bị lưu trữ và truyền tải dữ liệu sinh trắc học của mình; hạn chế quyền truy cập vào dữ liệu sinh trắc học; có hệ thống theo dõi để phòng ngừa, phát hiện hành vi xâm phạm dữ liệu sinh trắc học; tuân thủ quy định của pháp luật và tiêu chuẩn quốc tế có liên quan"
+    verdict: match
+    note: "Điểm b: 'Trường hợp xử lý dữ liệu sinh trắc học gây thiệt hại cho chủ thể dữ liệu cá nhân thì ... phải thông báo cho chủ thể dữ liệu cá nhân đó theo quy định của Chính phủ'."
+  - text: "steps[1]: 'Không muốn quét thì ra quầy làm, mang theo thẻ căn cước.' và Chi phí 'Nếu từ chối quét: một chuyến ra quầy... chỉ làm được trong giờ giao dịch'"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-25-vbhn-nhnn-469216.htm
+    quote: "Đối với khách hàng cá nhân, phải có chức năng kiểm tra khách hàng khi khách hàng truy cập lần đầu hoặc khi khách hàng truy cập trên thiết bị khác với thiết bị đã truy cập phần mềm ứng dụng Mobile Banking lần gần nhất."
+    verdict: not-found
+    note: "Không tìm thấy điều khoản nào của TT 50/VBHN 25 hoặc Luật 91 nói khách hàng được từ chối quét và làm tại quầy; chính 'Chỗ còn treo' của bản soạn thừa nhận 'Pháp luật chưa quy định rõ việc chọn cách xác thực khác' và 'Đây chưa phải một quyền đã có'. Bước 2 vì thế mâu thuẫn với thân bài và không có cơ sở; có thể sai thực tế nếu ngân hàng không có đường quầy cho mức giao dịch này."
+internal_checks:
+  - issue: "steps[1] ('Không muốn quét thì ra quầy làm, mang theo thẻ căn cước') và Chi phí ('Nếu từ chối quét: chi phí thật là một chuyến ra quầy') khẳng định một đường đi thay thế, trong khi mục 'Chỗ còn treo' ngay trong thân nói pháp luật chưa quy định cách xác thực thay thế khuôn mặt và đó chưa phải quyền đã có. Tự mâu thuẫn; bước 2 không có cơ sở."
+    severity: error
+  - issue: "Số liệu '20 triệu tổng các lệnh trong ngày' trong tldr/steps/Nói dễ hiểu bỏ điều kiện Tksth (chỉ tính giao dịch loại A, B chưa tính từ lần xác nhận C/D gần nhất, bộ đếm về 0 sau giao dịch xác nhận loại C/D; không tính giao dịch chủ động trích nợ). Người đọc có thể đếm sai tổng 'trong ngày'."
+    severity: warn
+  - issue: "Bẫy 1 nói 'Cũng quên rằng đăng nhập ứng dụng trên điện thoại mới phải qua bước kiểm tra khách hàng' không có cite; căn cứ là Điều 8 khoản 6 TT 50 (kiểm tra khi truy cập lần đầu/thiết bị khác: SMS/Voice OTP hoặc Soft OTP/Token OTP; khớp sinh trắc học nếu luật chuyên ngành đòi hỏi), nên thêm vào legal_refs."
+    severity: warn
+  - issue: "Đoạn 'Khi tổng giá trị vượt 1,5 tỷ đồng thì lên loại D' thiếu trường hợp một lệnh trên 500 triệu đồng (loại D) nên người đọc có thể nghĩ lệnh 600 triệu vẫn chỉ cần loại C."
+    severity: warn
+  - issue: "Nguồn dẫn Phụ lục 01 và 02 được thay bằng Điều 10 TT 77/2025/TT-NHNN, áp dụng từ 01/07/2026 (khoản 2, 3 Điều 12); legal_refs/thân chưa ghi mốc áp dụng này và legal_refs[].effective_from đều null."
+    severity: warn
+  - issue: "Cùng chương, mục 12 dùng cùng văn bản và nói SMS OTP là 'hình thức hợp lệ cho giao dịch loại B' (Phụ lục 02): nhất quán với mục này."
+    severity: warn
+validity:
+  doc: "Thông tư 50/2024/TT-NHNN (VBHN 25/VBHN-NHNN, đã sửa bởi TT 77/2025/TT-NHNN)"
+  in_force: unconfirmed
+  effective_from: "2025-01-01"
+  amended_by:
+    - "Thông tư 77/2025/TT-NHNN ngày 31/12/2025 (hiệu lực 01/3/2026; Điều 10 thay Phụ lục 01, 02, 03, 04 áp dụng từ 01/07/2026 cho đơn vị phục vụ cả cá nhân và tổ chức)"
+  basis: "Công báo số 206 (12/04/2026) đăng văn bản hợp nhất 25/VBHN-NHNN, nêu các điểm sửa theo TT 77/2025. Trang Công báo để trống ô 'Hiệu lực' và vbpl.vn chỉ trả khung. Không thấy văn bản thay thế sau 04/2026 nhưng không có trang chính thức xác nhận tình trạng tại 08/11/2026 nên giữ unconfirmed. Điều 22 khoản 1 VBHN 25: TT 50 hiệu lực từ 01/01/2025; khoản 4: điểm c khoản 5 Điều 11 (chứng nhận PAD ISO 30107 cấp độ 2) hiệu lực từ 01/07/2026; Phụ lục 01-04 mới áp dụng từ 01/07/2026."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Bỏ steps[1] và câu 'Nếu từ chối quét: một chuyến ra quầy...' ở Chi phí, hoặc đổi thành: 'Nếu không quét được, hỏi ngân hàng cách xác thực khác; pháp luật chưa buộc ngân hàng phải có (Điều 10 khoản 4 chỉ riêng người khuyết tật)'. Dựa vào quote Điều 10 khoản 4 và nhận định 'Chỗ còn treo' của chính mục."
+  - "tldr, steps[0], Nói dễ hiểu: đổi 'tổng các lệnh trong ngày trên 20 triệu' thành 'tổng các lệnh nhỏ đã làm (chưa tính từ lần xác nhận sinh trắc học gần nhất trong ngày) cộng lệnh này trên 20 triệu'. Căn cứ Ghi chú Tksth ở Phụ lục 01."
+  - "Pháp luật VN, gạch loại D: sửa thành 'Lên loại D khi một lệnh trên 500 triệu đồng, hoặc khi tổng giá trị trong ngày (G + T) vượt 1,5 tỷ đồng' (Phụ lục 01 nhóm I.3, trường hợp 1-3)."
+  - "Gạch ISO 30107: thêm 'hoặc tương đương' và dẫn 'phát hiện giả mạo dựa trên NIST SP 800-63B, ISO 30107 hoặc FIDO'; gạch khóa chức năng: thêm 'ngân hàng phải kiểm tra khách hàng trước khi mở khóa'."
+  - "Thêm legal_refs: Điều 8 khoản 6 TT 50 (kiểm tra khi truy cập lần đầu/thiết bị khác); ghi mốc áp dụng Phụ lục mới 01/07/2026 theo khoản 2 Điều 12 TT 77/2025; điền effective_from."
+  - "Chỗ 'phải khớp khuôn mặt': ghi 'khớp thông tin sinh trắc học (thường là khuôn mặt)'."

@@ -1,0 +1,92 @@
+id: tra-tien-truoc-thi-lay-hop-dong-va-hoa-don-phan-chua
+checked_at: 2026-11-08
+content_sha256: "746b0c773e77505bf9680b113a020543a8c548878ea0c191e1d8093478049b60"
+checker: agent-Vf05e
+result: fail
+claims:
+  - text: "Phần dịch vụ chưa dùng vẫn phải hoàn; Điều 10 khoản 1 điểm e là căn cứ để đòi lại phần tiền chưa dùng (tldr, bước 4, mục Pháp luật VN, Bẫy 1)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "e) Không đền bù, trả lại tiền hoặc đổi lại sản phẩm, hàng hóa, dịch vụ cho người tiêu dùng do sản phẩm, hàng hóa, dịch vụ không đúng với đăng ký, thông báo, công bố, niêm yết, quảng cáo, giới thiệu, giao kết, cam kết của tổ chức, cá nhân kinh doanh;"
+    verdict: mismatch
+    note: "Điều 10 khoản 1 điểm e chỉ cấm không đền bù/trả tiền khi sản phẩm, dịch vụ KHÔNG ĐÚNG với đăng ký, công bố, cam kết. Không có chữ nào về 'phần dịch vụ chưa dùng' của gói trả trước (phòng tập, khóa học). Mục dùng nó làm căn cứ chính, lặp ở tldr, steps và Bẫy 1, nên người đọc có thể viết yêu cầu hoàn tiền dẫn sai điều luật. Căn cứ đúng gần nhất cho 'hoàn phần chưa dùng' chỉ có ở giao dịch từ xa: Điều 38 khoản 4. Bản ký đọc ảnh trang 8."
+  - text: "Điều 10 khoản 1 điểm đ: cấm không đền bù, trả lại tiền hoặc đổi lại khi doanh nghiệp gây nhầm lẫn"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "đ) Không đền bù, trả lại tiền hoặc đổi lại sản phẩm, hàng hóa, dịch vụ cho người tiêu dùng do nhầm lẫn của tổ chức, cá nhân kinh doanh;"
+    verdict: match
+    note: "Mục tóm 'doanh nghiệp gây nhầm lẫn'; chữ luật là 'do nhầm lẫn của tổ chức, cá nhân kinh doanh'. Chấp nhận."
+  - text: "Cấm buộc người tiêu dùng thanh toán cho hàng hóa, dịch vụ đã cung cấp mà không có thỏa thuận trước (Điều 10 khoản 1 điểm d)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "d) Ép buộc người tiêu dùng thanh toán cho sản phẩm, hàng hóa, dịch vụ đã cung cấp mà không có thỏa thuận trước với người tiêu dùng;"
+    verdict: match
+    note: ""
+  - text: "Hợp đồng theo mẫu phải được công khai tại trụ sở, địa điểm kinh doanh và trên trang thông tin điện tử, phần mềm ứng dụng, để NTD biết nội dung trước khi giao kết hoặc trước khi đặt cọc, thanh toán trước (Điều 26 khoản 3)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "3. Hợp đồng theo mẫu phải được tổ chức, cá nhân kinh doanh công khai theo hình thức niêm yết ở vị trí dễ nhìn thấy tại trụ sở, địa điểm kinh doanh và đăng tải trên trang thông tin điện tử, phần mềm ứng dụng (nếu có) để người tiêu dùng biết về nội dung của hợp đồng trước khi người tiêu dùng giao kết hợp đồng hoặc thực hiện hoạt động đặt cọc, thanh toán trước khi hợp đồng được giao kết."
+    verdict: match
+    note: "Đọc ảnh trang 18. Mục bỏ 'ở vị trí dễ nhìn thấy' và '(nếu có)'; không đổi nghĩa."
+  - text: "Doanh nghiệp có hàng hóa, dịch vụ mà số lượng lớn NTD mua, sử dụng thường xuyên, liên tục phải đăng ký hợp đồng theo mẫu với cơ quan quản lý (Điều 28 khoản 1)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "1. Tổ chức, cá nhân kinh doanh sản phẩm, hàng hóa, dịch vụ có số lượng lớn người tiêu dùng mua, sử dụng thường xuyên, liên tục, có tác động trực tiếp, lâu dài đến người tiêu dùng phải đăng ký hợp đồng theo mẫu, điều kiện giao dịch chung với cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng trước khi sử dụng để giao kết với người tiêu dùng."
+    verdict: partial
+    note: "Mục bỏ điều kiện 'có tác động trực tiếp, lâu dài đến người tiêu dùng' và đoạn sau: 'Thủ tướng Chính phủ ban hành, sửa đổi Danh mục sản phẩm, hàng hóa, dịch vụ phải đăng ký'. Chỉ hàng hóa/dịch vụ thuộc Danh mục mới phải đăng ký; người đọc có thể tưởng mọi dịch vụ trả trước đều phải đăng ký."
+  - text: "Doanh nghiệp phải cung cấp hóa đơn, chứng từ, tài liệu liên quan đến giao dịch theo yêu cầu của bạn (Điều 29)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "1. Tổ chức, cá nhân kinh doanh có trách nhiệm cung cấp cho người tiêu dùng hóa đơn, chứng từ, tài liệu liên quan đến giao dịch theo quy định của pháp luật hoặc theo yêu cầu của người tiêu dùng."
+    verdict: match
+    note: "Điều 29 tên 'Cung cấp bằng chứng giao dịch'."
+  - text: "Điều 25 khoản 3: cho phép doanh nghiệp đơn phương thay đổi quy định của hợp đồng đã giao kết; khoản 4: đơn phương thay đổi điều kiện giao dịch chung mà không quy định quyền chấm dứt cho NTD"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "3. Cho phép tổ chức, cá nhân kinh doanh đơn phương thay đổi quy định của hợp đồng đã giao kết với người tiêu dùng; 4. Cho phép tổ chức, cá nhân kinh doanh đơn phương thay đổi điều kiện giao dịch chung mà không quy định quyền chấm dứt thực hiện hợp đồng cho người tiêu dùng;"
+    verdict: match
+    note: "Đọc ảnh trang 17."
+  - text: "Điều 25 khoản 5: đơn phương quy định người tiêu dùng không thực hiện một hoặc một số trách nhiệm"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "5. Cho phép tổ chức, cá nhân kinh doanh đơn phương xác định người tiêu dùng không thực hiện một hoặc một số trách nhiệm;"
+    verdict: partial
+    note: "Luật dùng 'đơn phương XÁC ĐỊNH NTD không thực hiện trách nhiệm' (doanh nghiệp tự kết luận NTD vi phạm), mục viết 'quy định NTD không thực hiện' làm nghĩa khác đi (nghe như miễn trách nhiệm cho NTD)."
+  - text: "Điều 25 khoản 6, 7, 9: quy định hoặc thay đổi giá tại thời điểm giao hàng; thay đổi giá trong dịch vụ liên tục mà không quy định quyền chấm dứt; loại trừ trách nhiệm khi bán qua bên thứ ba"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "6. Cho phép tổ chức, cá nhân kinh doanh quy định hoặc thay đổi giá tại thời điểm giao sản phẩm, hàng hóa, cung cấp dịch vụ, trừ trường hợp pháp luật có quy định khác; 7. Cho phép tổ chức, cá nhân kinh doanh thay đổi giá trong quá trình cung cấp dịch vụ liên tục mà không quy định quyền chấm dứt thực hiện hợp đồng cho người tiêu dùng; ... 9. Loại trừ trách nhiệm của tổ chức, cá nhân kinh doanh trong trường hợp tổ chức, cá nhân kinh doanh bán sản phẩm, hàng hóa, cung cấp dịch vụ thông qua bên thứ ba;"
+    verdict: match
+    note: "Khoản 6 mục bỏ 'trừ trường hợp pháp luật có quy định khác' (ngoại lệ nhỏ). Dấu '...' là khoản 8 bị lược khi trích."
+  - text: "Điều 25 khoản 13: tự gia hạn hợp đồng mà không cho NTD lựa chọn"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "13. Cho phép tổ chức, cá nhân kinh doanh gia hạn hợp đồng đã thỏa thuận với người tiêu dùng mà không quy định trách nhiệm thông báo trước hoặc không có cơ chế để người tiêu dùng lựa chọn gia hạn hay chấm dứt thực hiện hợp đồng;"
+    verdict: partial
+    note: "Mục tóm gọn 'mà không cho NTD lựa chọn' bỏ vế 'không quy định trách nhiệm thông báo trước'. Gia hạn có thông báo + cơ chế chọn vẫn hợp pháp."
+  - text: "Việt Nam chưa có luật riêng về tiền trả trước; không có quy định buộc doanh nghiệp ngừng thu tiền trước khi thấy rủi ro (Bẫy 2)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "Điều 29. Cung cấp bằng chứng giao dịch"
+    verdict: not-found
+    note: "Khẳng định phủ định, không chứng minh được bằng việc đọc một luật. Mục tự ghi chưa mở được Nghị định 55/2024/NĐ-CP. Cần bỏ hoặc nêu rõ 'chúng tôi chưa tìm thấy'."
+  - text: "Nếu phải khởi kiện thì thêm án phí cùng vài tháng chờ"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "Điều 29. Cung cấp bằng chứng giao dịch"
+    verdict: not-found
+    note: "Không có nguồn cho án phí hay thời gian. Có quy định thủ tục rút gọn cho vụ dưới 100 triệu (Điều 70 khoản 2 Luật 19/2023, nhắc ở trang 45) mà mục không dùng; không nêu số cụ thể nên mức độ rủi ro thấp."
+internal_checks:
+  - issue: "tldr, bước 4 và Bẫy 1 gọi Điều 10 khoản 1 điểm e là căn cứ để đòi 'phần dịch vụ chưa dùng'; điều luật không nói điều đó (xem claim mismatch). Đây là lỗi cốt lõi của mục, lặp ở 3 chỗ."
+    severity: error
+  - issue: "legal_refs Điều 28 khoản 1 và Điều 25 khoản 3, 4, 5, 6, 7, 9, 13 được nêu trong thân, nhưng bước hành động không dùng; trong khi chính điều luật hoàn tiền đúng (Điều 38 khoản 4, hoàn trong 30 ngày cho giao dịch từ xa) không được dẫn."
+    severity: warn
+  - issue: "Mục Nguồn tự thừa nhận chưa mở được Nghị định 55/2024/NĐ-CP (quy định chi tiết); bốn Điều dẫn có thể có hướng dẫn thêm."
+    severity: warn
+  - issue: "Tỉ lệ khác với mục 21 cùng chương: mục 21 dẫn Điều 25 khoản 13 là chỗ để 'đòi quyền chọn' (đúng), nhưng mục 22 dùng điểm e để 'đòi phần chưa dùng' mà không phân biệt gói trả trước tại cửa hàng và giao dịch từ xa."
+    severity: warn
+  - issue: "Liên kết nội bộ [mục 21](05-dung-lang-phi-tien.md#entry-...) cần kiểm tra bởi bước build, không nằm trong phạm vi nguồn."
+    severity: warn
+validity:
+  doc: "Luật Bảo vệ quyền lợi người tiêu dùng 19/2023/QH15"
+  in_force: unconfirmed
+  effective_from: "2024-07-01"
+  amended_by: []
+  basis: "Bản ký moit.gov.vn, Điều 79 khoản 1 (trang 45): 'Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024.' Chưa tra Công báo/vbpl.vn về sửa đổi sau đó; chưa đọc Nghị định 55/2024/NĐ-CP."
+deliberate_vn_deviation: []
+potential_harm:
+  - "tldr/bước 4/Bẫy 1: người đọc gửi yêu cầu bằng văn bản đòi hoàn 'phần chưa dùng' dẫn Điều 10 khoản 1 điểm e. Doanh nghiệp có thể từ chối đúng luật vì điểm e chỉ áp dụng khi dịch vụ không đúng cam kết; người đọc tưởng mình có quyền đương nhiên và có thể tiếp tục đóng tiền trả trước hoặc bỏ lỡ cách đòi đúng (Điều 38 cho giao dịch từ xa, thỏa thuận hợp đồng, luật dân sự)."
+suggested_edits:
+  - "tldr: bỏ 'Phần dịch vụ chưa dùng vẫn phải hoàn; Điều 10 khoản 1 điểm e là căn cứ để đòi.' Thay bằng 'Hợp đồng theo mẫu phải công khai trước khi bạn thanh toán trước; hóa đơn, chứng từ doanh nghiệp phải đưa khi bạn yêu cầu (Điều 26 khoản 3, Điều 29).'"
+  - "Bước 4: đổi thành 'Cần đòi phần chưa dùng thì viết yêu cầu bằng văn bản, dẫn điều khoản hoàn/hủy trong hợp đồng của bạn; nếu giao dịch từ xa (mua qua mạng, điện thoại) thì dẫn Điều 38 khoản 3 điểm b và khoản 4 (hoàn trong 30 ngày).' Dựa vào quote Điều 10.1.e (không có chữ 'chưa dùng') và Điều 38 khoản 4 (xem mục 23)."
+  - "Bẫy 1: bỏ 'Phần dịch vụ chưa dùng vẫn là nghĩa vụ phải hoàn, và Điều 10 khoản 1 điểm e là chỗ để đòi.' Viết lại: 'Điều 10 khoản 1 điểm đ, e chỉ áp dụng khi doanh nghiệp nhầm lẫn hoặc dịch vụ không đúng cam kết; còn lại quyền hoàn tiền phụ thuộc điều khoản hợp đồng.'"
+  - "Điều 25 khoản 5: sửa 'quy định NTD không thực hiện' thành 'tự xác định NTD không thực hiện'; khoản 13 thêm 'không báo trước'; Điều 28 khoản 1 thêm 'thuộc Danh mục do Thủ tướng ban hành'."
+  - "Bỏ hoặc ghi rõ 'chưa tìm thấy' cho khẳng định 'Việt Nam chưa có luật riêng về tiền trả trước' và Bẫy 2; thêm kiểm Nghị định 55/2024/NĐ-CP trước khi kết luận."

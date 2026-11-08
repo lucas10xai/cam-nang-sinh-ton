@@ -1,0 +1,95 @@
+id: chong-mat-dung-khong-vung-nhin-mot-thanh-hai-mot-ben-mat
+checker: agent-Vf13aA
+checked_at: 2026-11-08
+content_sha256: "e45fba698b4037fdc04ac89fc336f565514fe6062170b0c35bdda092dfa87d32"
+result: pass-with-edits
+claims:
+  - text: "Nhìn đôi, thất điều và chóng mặt thuộc nhóm biểu hiện khởi phát hay gặp của nhồi máu não"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "Biểu hiện khởi phát hay gặp của nhồi máu não thường đột ngột với sự xuất hiện đơn độc hoặc phối hợp của các dấu hiệu và triệu chứng hay gặp sau: ... + Nhìn đôi + Rối loạn ngôn ngữ + Liệt mặt + Thất điều + Chóng mặt (hiếm khi xuất hiện đơn độc)"
+    verdict: match
+    note: "Bài về nhồi máu não, mục 3.1 Lâm sàng."
+  - text: "Chóng mặt hiếm khi xuất hiện đơn độc: khi chỉ kêu chóng mặt thì phải hỏi thêm dấu hiệu đi kèm"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "Chóng mặt (hiếm khi xuất hiện đơn độc)"
+    verdict: partial
+    note: "Nguồn chỉ có câu trong ngoặc. Lệnh 'phải hỏi thêm các dấu hiệu đi kèm' là suy ra của người soạn."
+  - text: "Một bên mắt tối là dấu hiệu cần xử trí như đột quỵ (steps)"
+    source_url: https://www.ninds.nih.gov/health-information/stroke/signs-and-symptoms
+    quote: "Sudden Trouble Seeing: Trouble seeing in one or both eyes"
+    verdict: match
+    note: "NINDS xếp mất thị lực một hoặc hai mắt vào dấu hiệu 'Call 9-1-1 immediately'. QĐ 3312 mục 3.1 ghi 'Mất thị lực một hoặc hai mắt' trong danh sách biểu hiện khởi phát."
+  - text: "Đi loạng choạng, mất thăng bằng là dấu hiệu gọi cấp cứu"
+    source_url: https://www.ninds.nih.gov/health-information/stroke/signs-and-symptoms
+    quote: "Sudden Trouble Walking: Dizziness, or loss of balance or coordination"
+    verdict: match
+    note: "QĐ 3312: 'Thất điều' cùng danh sách."
+  - text: "Có một trong ba dấu hiệu đó thì gọi 115 và ghi giờ khởi phát"
+    source_url: https://www.ninds.nih.gov/health-information/stroke/signs-and-symptoms
+    quote: "Call 9-1-1 immediately if one or more of the following symptoms appear suddenly."
+    verdict: partial
+    note: "NINDS ủng hộ gọi cấp cứu khi có một trong các dấu hiệu, nhưng đòi hỏi 'appear suddenly' (khởi phát đột ngột). Mục không nêu điều kiện 'đột ngột' trong steps; chóng mặt kéo dài nhiều ngày từ từ không cùng xử trí. QĐ 3312 không có câu 'gọi 115'."
+  - text: "Không để người bệnh tự đi bộ hay tự lái xe"
+    source_url: https://www.ninds.nih.gov/health-information/stroke/signs-and-symptoms
+    quote: "A person having a stroke should not drive to the hospital themselves or have someone else drive them."
+    verdict: partial
+    note: "NINDS chỉ nói không tự lái hoặc nhờ người lái; 'không tự đi bộ' không có trong nguồn (hợp lý khi mất thăng bằng, nhưng là suy ra). QĐ 3312 không có câu này."
+  - text: "Đột quỵ không rõ thời điểm khởi phát là khi ngủ dậy đã có triệu chứng hoặc không có người chứng kiến; xác định thời điểm rất quan trọng để xét tái tưới máu"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "Thời điểm khởi phát triệu chứng hoặc thời điểm cuối cùng thấy người bệnh còn bình thường: là rất quan trọng để xét điều trị tái tưới máu. Nếu ngủ dậy đã có triệu chứng hoặc không có người chứng kiến thì gọi là đột quỵ không rõ thời điểm khởi phát."
+    verdict: match
+    note: ""
+  - text: "Tiêu huyết khối trong cửa sổ 4,5 giờ"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "Điều trị tiêu huyết khối đường tĩnh mạch trong 3 giờ đầu và gần đây mở rộng cửa sổ điều trị lên 4,5 giờ đã được áp dụng thường quy tại Hoa Kỳ cũng như tại châu Âu."
+    verdict: match
+    note: "Mục 4.2.2: 'dưới 270 phút'."
+  - text: "Lấy huyết khối cơ học trong cửa sổ 6 giờ với người bệnh có điểm ASPECTS từ 6 trở lên"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "Nhồi máu não cấp do tắc mạch lớn hệ tuần hoàn trước trong cửa sổ 6 giờ: - ASPECTS ≥ 6 điểm có chỉ định lấy huyết khối cơ học - ASPECTS 3-5 điểm nên chỉ định can thiệp lấy huyết khối cơ học."
+    verdict: partial
+    note: "Đúng cho tắc mạch lớn hệ tuần hoàn trước. Mục bỏ điều kiện 'tắc mạch lớn hệ tuần hoàn trước' và ASPECTS 3-5 cũng 'nên chỉ định' trong 6 giờ. Mục này dành cho chóng mặt, nhìn đôi, loạng choạng là tuần hoàn sau (vertebrobasilar): QĐ mục 2.3.5 cho tắc động mạch thân nền trong 12 giờ với NIHSS ≥ 6 ('lợi ích chưa chắc chắn'), không phải tiêu chí 6 giờ ASPECTS ≥ 6."
+  - text: "Mở rộng sang cửa sổ 6 đến 12 giờ và 6 đến 24 giờ khi hình ảnh tưới máu còn vùng tranh tối tranh sáng"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "Nhồi máu não cấp do tắc mạch lớn hệ tuần hoàn trước trong cửa sổ 6 - 12 giờ: - ASPECTS 3-5 điểm có thể chỉ định can thiệp lấy huyết khối cơ học sau khi tham khảo ý kiến chuyên gia."
+    verdict: partial
+    note: "Mục 6-12 giờ của QĐ chỉ nêu ASPECTS 3-5 và cần ý kiến chuyên gia; cửa sổ 6-24 giờ (mục 2.3.3) đòi mRS ≤ 1, tắc ICA/M1, NIHSS và thể tích lõi theo tuổi hoặc không tương xứng tưới máu (lõi < 70 ml; tỷ lệ > 1,8; vùng thiếu máu trừ lõi > 15 ml). Câu của mục chỉ giữ ý 'bất tương xứng' và bỏ phần còn lại."
+  - text: "Lõi nhồi máu lớn: lấy huyết khối tới cửa sổ 24 giờ nếu thể tích lõi trên 50 ml, hoặc ASPECTS 3-5 mà còn bất tương xứng rõ"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "Chỉ định can thiệp lấy huyết khối cơ học được mở rộng với người bệnh đột quỵ cấp trong cửa sổ 24 giờ với thể tích thiếu máu rộng (ASPECTS 3-5 hoặc V>50ml) và còn sự khác biệt ‘‘bất tương xứng’’ đáng kể giữa vùng tranh tối-tranh sáng với lõi nhồi máu."
+    verdict: partial
+    note: "Mục 2.3.4. Điều kiện 'còn bất tương xứng đáng kể' áp dụng cho cả hai nhánh (ASPECTS 3-5 hoặc V>50 ml). Câu mục viết 'nếu thể tích lõi trên 50 ml, hoặc ASPECTS 3-5 mà còn bất tương xứng rõ' làm nhánh V>50 ml tưởng không cần bất tương xứng. Toàn bộ khối này là chi tiết chỉ định bác sĩ, không có bước hành động nào của người đọc dựa vào."
+  - text: "Bẫy 2: chỉ nhớ méo miệng, yếu tay, nói khó nên bỏ sót đột quỵ vùng sau vì người bệnh vẫn cười được, nói được"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "Đột quỵ vòng tuần hoàn sau Mặc dù các lợi ích thì chưa chắc chắn, lấy huyết khối cơ học có thể là một lựa chọn điều trị hợp lý cho các người bệnh có đột quỵ cấp do tắc động mạch thân nền, động mạch đốt sống, hay các động mạch não sau khi được thực hiện ở các trung tâm có chuyên môn phù hợp."
+    verdict: inference
+    note: "Mục 2.3.5 chỉ nói về lấy huyết khối ở tuần hoàn sau; không nói FAST bỏ sót đột quỵ vùng sau. Ý đúng với lâm sàng và ASA đã bổ sung B/E (balance, eyes) vào FAST nhưng chưa có nguồn trong mục (chưa mở được trang stroke.org, HTTP 403)."
+  - text: "Số hiệu và ngày Quyết định 3312/QĐ-BYT ngày 05/11/2024"
+    source_url: https://bvtn.org.vn/huong-dan-chan-doan-va-dieu-tri-dot-quy-nao/
+    quote: "Quyết định số 3312/QĐ-BYT của Bộ Y tế ngày 05/11/2024 về việc ban hành tài liệu chuyên môn “hướng dẫn chẩn đoán và điều trị đột quỵ não”"
+    verdict: match-secondary
+    note: "Trang bìa PDF để trống số và ngày; thuvienphapluat.vn ghi 'Số: 3312/QĐ-BYT | Hà Nội, ngày 05 tháng 11 năm 2024'."
+internal_checks:
+  - issue: "Mâu thuẫn giữa 13-04 và 13-05 trong cùng chương cho cùng một tình huống: 13-04 nói một bên mắt tối thì xử như đột quỵ, gọi 115 và coi 'đi khám mắt trước' là bẫy (mất buổi đầu ở phòng khám không có máy chụp cắt lớp); 13-05 nói một mắt tối đột ngột thì đi khám mắt ngay ở bệnh viện có khoa mắt và máy chụp mạch, không nhắc 115 hay khoa cấp cứu. Hai mục chỉ dẫn hai nơi đến khác nhau cho cùng một triệu chứng. AHA/ASA 2021 và NINDS ủng hộ hướng cấp cứu như 13-04."
+    severity: error
+  - issue: "Mục 'Lợi ích' mô tả chi tiết các cửa sổ lấy huyết khối (6, 12, 24 giờ, ASPECTS, 50 ml) nhưng không bước nào trong steps dùng đến; mục dành cho người dân. Các điều kiện đã bị rút gọn thành câu có thể hiểu sai (xem claims partial)."
+    severity: warn
+  - issue: "Mục dẫn các tiêu chí lấy huyết khối cho tuần hoàn trước (ASPECTS) trong khi triệu chứng của mục (chóng mặt, nhìn đôi, loạng choạng) gợi ý tuần hoàn sau; QĐ 3312 mục 2.3.5 áp dụng tiêu chí khác (thân nền, NIHSS ≥ 6, 12 giờ)."
+    severity: warn
+  - issue: "Các con số trong tldr/steps: mục không có con số định lượng trong tldr/steps. Các mốc 4,5/6/12/24 giờ và ASPECTS 3-5, 50 ml chỉ ở thân mục và khớp phần lớn với QĐ 3312 (xem claims partial). Không mâu thuẫn số nội bộ."
+    severity: warn
+validity:
+  doc: "Quyết định 3312/QĐ-BYT ngày 05/11/2024 của Bộ Y tế (Hướng dẫn chẩn đoán và điều trị đột quỵ não)"
+  in_force: unconfirmed
+  effective_from: "2024-11-05"
+  amended_by: []
+  basis: "Hai trang thứ cấp (bvtn.org.vn, thuvienphapluat.vn) dẫn quyết định; chưa tìm thấy văn bản thay thế nhưng chưa mở được Công báo/moh.gov.vn; trang bìa PDF để trống số và ngày. Hướng dẫn chuyên môn không có ngày hiệu lực riêng."
+deliberate_vn_deviation: []
+potential_harm:
+  - "Mâu thuẫn với 13-05: người đọc gặp một mắt tối đột ngột có thể làm theo 13-05 (đi bệnh viện mắt, không gọi 115) hoặc 13-04 (gọi 115). Chỉ dẫn của 13-05 có thể làm chậm điều trị đột quỵ võng mạc/não (xem báo cáo 13-05)."
+suggested_edits:
+  - "Lợi ích: viết lại 'Lấy huyết khối cơ học trong cửa sổ 6 giờ với ASPECTS từ 6 trở lên' thành 'đối với tắc mạch lớn hệ tuần hoàn trước' hoặc bỏ cả khối cửa sổ, thay bằng một câu: các thời hạn điều trị tính theo giờ và cần chụp hình ảnh để bác sĩ quyết định (QĐ 3312 mục 4.2.2, 2.3.4)."
+  - "Lợi ích mục 24 giờ: sửa thành 'thể tích thiếu máu rộng (ASPECTS 3-5 hoặc V>50 ml) và còn sự khác biệt bất tương xứng đáng kể giữa vùng tranh tối-tranh sáng với lõi nhồi máu' đúng chữ mục 2.3.4."
+  - "steps bước 3: thêm 'đột ngột' vào 'Hỏi xem có nhìn đôi, một bên mắt tối, đi loạng choạng xuất hiện đột ngột không'; dẫn NINDS 'appear suddenly'."
+  - "steps bước 4 / Nguồn: thêm NINDS Signs and Symptoms làm nguồn cho 'gọi 115' và 'không tự lái xe'; đổi 'không tự đi bộ' thành 'không để tự đi vì dễ ngã' hoặc ghi suy ra."
+  - "Thống nhất với 13-05 về nơi đến cho 'một mắt tối đột ngột' (xem báo cáo 13-05)."

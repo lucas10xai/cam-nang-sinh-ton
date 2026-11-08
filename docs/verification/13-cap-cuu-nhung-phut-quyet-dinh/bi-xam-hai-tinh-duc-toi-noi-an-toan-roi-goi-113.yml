@@ -1,0 +1,98 @@
+id: bi-xam-hai-tinh-duc-toi-noi-an-toan-roi-goi-113
+checker: agent-Vf13iA
+checked_at: 2026-11-08
+content_sha256: "7fc6969adc7ba417e446d063496a5a0d1d8d54e2140dfbce833278def3dba322"
+result: pass-with-edits
+claims:
+  - text: "Hướng dẫn ban hành kèm Quyết định 3133/QĐ-BYT ngày 17/7/2020 của Bộ Y tế"
+    source_url: https://syt.dongnai.gov.vn/vi/van-ban/detail/Huong-dan-cham-soc-va-ho-tro-y-te-cho-nguoi-bi-xam-hai-tinh-duc-4261/
+    quote: 'Phụ lục đính kèm Quyết định 3133/QĐ-BYT ngày 17/7/2020'
+    verdict: match-secondary
+    note: "Số/ngày quyết định chỉ có ở trang Sở Y tế Đồng Nai (bản sao). Trang bìa trong file PDF đính kèm (pl-dinh-kem-qd3133.pdf, 30 trang) ghi 'Quyết định số   /QĐ-BYT ngày   tháng năm 2020' để trống, nên không tự xác nhận được số và ngày từ văn bản gốc. Chưa mở được bản trên moh.gov.vn/vbpl.vn."
+  - text: "Cán bộ y tế hỏi người bị hại đã tắm, tiểu tiện, đại tiện, nôn, dùng dung dịch rửa, thay quần áo chưa vì có thể ảnh hưởng chứng cứ pháp y (mục III.2.1)"
+    source_url: https://syt.dongnai.gov.vn/vi/van-ban/detail/Huong-dan-cham-soc-va-ho-tro-y-te-cho-nguoi-bi-xam-hai-tinh-duc-4261/
+    quote: 'Nếu sự việc mới xảy ra, hỏi người bị hại đã tắm, tiểu tiện, đại tiện, nôn, sử dụng dung dịch rửa vệ sinh hay thay quần áo kể từ sau sự việc đó hay chưa. Những việc này có thể ảnh hưởng đến chứng cứ pháp y.'
+    verdict: match
+    note: "Đọc từ PDF đính kèm tải trực tiếp trên trang (bản trích được chữ)."
+  - text: "Khuyến khích giữ lại quần áo, đồ lót, tóc, dịch, máu để thu thập bằng chứng"
+    source_url: https://syt.dongnai.gov.vn/vi/van-ban/detail/Huong-dan-cham-soc-va-ho-tro-y-te-cho-nguoi-bi-xam-hai-tinh-duc-4261/
+    quote: 'Khuyến khích bệnh nhân cố gắng nhớ và lưu lại những vật phẩm có thể lưu lại dấu tích của thủ phạm (tóc, tinh dịch, máu…) như quần áo, đồ lót hoặc các đồ vật khác để kịp thời thu thập bằng chứng.'
+    verdict: match
+    note: ""
+  - text: "steps[1]: 'Đừng tắm, đừng giặt quần áo, đừng dọn phòng; cho quần áo, đồ lót vào túi giấy'"
+    source_url: https://syt.dongnai.gov.vn/vi/van-ban/detail/Huong-dan-cham-soc-va-ho-tro-y-te-cho-nguoi-bi-xam-hai-tinh-duc-4261/
+    quote: ''
+    verdict: inference
+    note: "Tài liệu BYT chỉ dành cho cán bộ y tế: dặn HỎI xem nạn nhân đã tắm... chưa và khuyến khích LƯU LẠI vật phẩm. Không có chỗ nào bảo nạn nhân 'đừng tắm/đừng giặt/đừng dọn phòng' và không có 'túi giấy' hay 'dọn phòng'. Mục 'Bẫy 1' ('Tài liệu của Bộ Y tế xếp việc tắm và thay quần áo vào nhóm làm mất chứng cứ pháp y') là suy ra từ câu hỏi khai thác thông tin."
+  - text: "Khám trong vòng 72 giờ chỉ thấy tổn thương thực thể ở gần 50% trường hợp, không thấy thương tích không có nghĩa là không có chuyện"
+    source_url: https://syt.dongnai.gov.vn/vi/van-ban/detail/Huong-dan-cham-soc-va-ho-tro-y-te-cho-nguoi-bi-xam-hai-tinh-duc-4261/
+    quote: 'Không loại trừ XHTD khi không phát hiện được thương tổn vì ngay cả khi việc thăm khám cơ quan sinh dục được thực hiện trong vòng 72 giờ sau khi vụ hiếp dâm xảy ra, việc thăm khám chỉ xác định được tổn thương thực thể trong khoảng gần 50% trường hợp.'
+    verdict: match
+    note: ""
+  - text: "steps[2]/tldr/tiêu đề: 'Tới bệnh viện trong 72 giờ để khám, lấy chứng cứ, dự phòng'"
+    source_url: https://syt.dongnai.gov.vn/vi/van-ban/detail/Huong-dan-cham-soc-va-ho-tro-y-te-cho-nguoi-bi-xam-hai-tinh-duc-4261/
+    quote: ''
+    verdict: inference
+    note: "Trong tài liệu BYT, 72 giờ chỉ là mốc mô tả tỷ lệ phát hiện tổn thương khi khám; không có hạn 'phải tới viện trong 72 giờ'. Mốc 72 giờ của thuốc dự phòng HIV (PEP) có ở nguồn khác (dòng dưới). Mốc thuốc tránh thai khẩn cấp không có trong tài liệu BYT. Không có câu nào cho người đọc biết quá 72 giờ vẫn nên đi khám."
+  - text: "Xử trí gồm thuốc tránh thai khẩn cấp khi có nguy cơ mang thai, dự phòng STI, chuyển gửi dự phòng HIV (mục III.3.2)"
+    source_url: https://syt.dongnai.gov.vn/vi/van-ban/detail/Huong-dan-cham-soc-va-ho-tro-y-te-cho-nguoi-bi-xam-hai-tinh-duc-4261/
+    quote: 'Khi nghi ngờ nguy cơ mang thai, cho người bị XHTD dùng thuốc tránh thai khẩn cấp phòng mang thai ngoài ý muốn; Điều trị dự phòng các viêm nhiễm LTQĐTD như lậu, giang mai, chlamydia, trùng roi nếu có chỉ định. ... Điều trị dự phòng lây nhiễm HIV cho những người có nguy cơ: Chuyển gửi người bị XHTD đến cơ sở có chuyên môn phù hợp.'
+    verdict: partial
+    note: "Đúng cho người lớn nhưng có điều kiện ('nếu có chỉ định', 'người có nguy cơ'). Cùng tài liệu mục dành cho trẻ em: 'Dự phòng nhiễm các bệnh LTQĐTD không được khuyến cáo áp dụng cho trẻ em. Tuy nhiên, ở những khu vực có tỷ lệ lây nhiễm cao cần xem xét điều trị dự phòng.' và 'Không khuyến cáo việc sử dụng thuốc dự phòng sau phơi nhiễm HIV ở trẻ em trừ khi biết chắc kẻ xâm hại nhiễm HIV hoặc ở khu vực có tỷ lệ nhiễm cao.' steps[2] viết chung cho mọi nạn nhân, kể cả trẻ em (steps[0] có nhánh 'nạn nhân là trẻ em')."
+  - text: "Phụ lục 3: đường dây nóng toàn quốc 111 cho trẻ em là nạn nhân bạo lực, xâm hại tình dục"
+    source_url: https://syt.dongnai.gov.vn/vi/van-ban/detail/Huong-dan-cham-soc-va-ho-tro-y-te-cho-nguoi-bi-xam-hai-tinh-duc-4261/
+    quote: 'Đường dây nóng toàn quốc: 111 (tư vấn hỗ trợ trẻ em là nạn nhân bị bạo lực, xâm hại tình dục với trẻ em)'
+    verdict: partial
+    note: "111 là đường dây tư vấn hỗ trợ (nằm trong danh sách cơ sở kết nối tư vấn tâm lý/xã hội), không phải đường báo công an/cấp cứu. steps[0] viết 'Nếu nạn nhân là trẻ em, gọi 111' ngay sau 'gọi 113' dễ bị đọc thành thay 113."
+  - text: "'Tới chỗ an toàn rồi gọi 113'"
+    source_url: https://syt.dongnai.gov.vn/vi/van-ban/detail/Huong-dan-cham-soc-va-ho-tro-y-te-cho-nguoi-bi-xam-hai-tinh-duc-4261/
+    quote: ''
+    verdict: not-found
+    note: "Tài liệu BYT không nhắc 113 hay thứ tự an toàn rồi báo công an. 113 là số công an, kiến thức chung; mục không dẫn nguồn nào cho bước này."
+  - text: "'Không phải trình báo trước mới được khám'"
+    source_url: https://syt.dongnai.gov.vn/vi/van-ban/detail/Huong-dan-cham-soc-va-ho-tro-y-te-cho-nguoi-bi-xam-hai-tinh-duc-4261/
+    quote: ''
+    verdict: inference
+    note: "Suy ra hợp lý từ: 'Vì nhiều lý do, người bị XHTD và gia đình không muốn hoặc không thể tố cáo sự việc ra cơ quan pháp luật ngay, thậm chí có thể trì hoãn tới vài năm. Việc ghi chép chi tiết thông tin hỏi, khám và cấp Giấy chứng nhận khám chữa bệnh cho khách hàng là rất quan trọng vì đây có thể là cơ sở duy nhất giúp nạn nhân tố cáo thủ phạm.' Nhưng không có câu nào nói thẳng 'không cần báo công an trước khi khám'."
+  - text: "Thuốc dự phòng sau phơi nhiễm HIV theo QĐ 5968/QĐ-BYT: tốt nhất trong 24 giờ, không muộn hơn 72 giờ, uống đủ 28 ngày"
+    source_url: https://www.benhnhietdoi.vn/loai-benh/huong-dan-dieu-tri-du-phong-nhiem-hiv-prep-pep/
+    quote: 'PEP là việc sử dụng thuốc ARV càng sớm càng tốt, tốt nhất trong vòng 24 giờ và không muộn hơn 72 giờ sau khi phơi nhiễm HIV. Thời gian điều trị chuẩn là 28 ngày liên tục.'
+    verdict: match-secondary
+    note: "Trang của Bệnh viện Bệnh Nhiệt đới TW, trích QĐ 5968/QĐ-BYT 'năm 2021' (không ghi ngày). Ngày 31/12/2021 mục ghi không kiểm được từ trang này; chưa mở QĐ 5968 gốc. Trang này liệt kê 'bị hiếp dâm hoặc cưỡng dâm' là tình huống phơi nhiễm."
+  - text: "Điều 71 BLTTHS: cơ quan tiến hành tố tụng giải thích quyền được trợ giúp pháp lý cho người bị hại thuộc diện, và thông báo cho Trung tâm trợ giúp pháp lý nhà nước"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/104-vbhn-vpqh.pdf
+    quote: 'Trường hợp người bị buộc tội, người bị hại thuộc diện được trợ giúp pháp lý theo quy định của Luật Trợ giúp pháp lý thì cơ quan, người có thẩm quyền tiến hành tố tụng có trách nhiệm giải thích cho họ quyền được trợ giúp pháp lý; nếu họ đề nghị được trợ giúp pháp lý thì cơ quan, người có thẩm quyền tiến hành tố tụng thông báo cho Trung tâm trợ giúp pháp lý nhà nước.'
+    verdict: partial
+    note: "Quote lấy từ Văn bản hợp nhất 104/VBHN-VPQH (chinhphu.vn, 2025), Điều 71 khoản 1, không phải từ URL mục dẫn. Mục bỏ điều kiện 'nếu họ đề nghị được trợ giúp pháp lý' khi nói 'thông báo cho Trung tâm'. Điều 71 áp dụng cho người bị hại trong vụ án đã được tiến hành tố tụng, tức sau khi trình báo; steps[3] 'hỏi về trợ giúp pháp lý' vẫn hợp lý nhưng cần nói đó là sau khi có vụ việc."
+internal_checks:
+  - issue: "legal_refs[0].url (tgpl.angiang.gov.vn, tin 'Điều kiện nào để được trợ giúp pháp lý trong vụ việc hình sự') không phải văn bản BLTTHS ghi ở doc; là bài hướng dẫn của Trung tâm TGPL. Thân bài trang chỉ tải về khung (menu), không lấy được nội dung bài, nên không xác nhận Điều 71 qua URL đó. legal_refs.quote cũng null."
+    severity: error
+  - issue: "Mục dẫn QĐ 3133/QĐ-BYT ngày 17/7/2020 nhưng PDF tải về để trống số và ngày; số/ngày chỉ có ở trang Sở Y tế Đồng Nai."
+    severity: warn
+  - issue: "Mốc '72 giờ' dùng ở 3 nghĩa khác nhau (tỷ lệ phát hiện tổn thương khi khám; mốc PEP HIV; hạn đi viện trong steps). Người đọc dễ hiểu là hạn chót."
+    severity: warn
+  - issue: "'Trẻ em: gọi 111' (tldr không có; steps[0] và Ghi chú có) mâu thuẫn ý với gọi 113 trước đó: không rõ 111 thay hay thêm."
+    severity: warn
+  - issue: "Tài liệu BYT nói xét nghiệm tìm tinh trùng/độc tố 'không thuộc xét nghiệm thường qui do vậy nạn nhân sẽ phải tự chi trả', còn giám định chính thức thì miễn phí; mục Chi phí chỉ nói 'có BHYT thì phần thuộc quyền lợi được quỹ trả'."
+    severity: warn
+validity:
+  doc: "Hướng dẫn chăm sóc và hỗ trợ y tế cho người bị xâm hại tình dục (QĐ 3133/QĐ-BYT 2020); QĐ 5968/QĐ-BYT 2021 (HIV); BLTTHS 101/2015/QH13 (VBHN 104/2025)"
+  in_force: unconfirmed
+  effective_from: "2020-07-17"
+  amended_by: []
+  basis: "BLTTHS: VBHN 104/VBHN-VPQH (2025) trên chinhphu.vn liệt kê sửa đổi đến Luật 99/2025/QH15 (hiệu lực 1/7/2025), Điều 71 còn nguyên nội dung nêu trên: còn hiệu lực. QĐ 3133 và QĐ 5968: trang nguồn không ghi tình trạng hiệu lực, chưa kiểm vbpl.vn/moh.gov.vn xem có văn bản thay thế, nên in_force chung đặt unconfirmed."
+deliberate_vn_deviation:
+  - "steps[2] áp dụng dự phòng STI/HIV chung cho mọi nạn nhân, trái hướng dẫn trẻ em của chính QĐ 3133 (không khuyến cáo thường quy cho trẻ em). Không đối chiếu được hướng dẫn quốc tế (WHO/CDC) trong lượt này."
+potential_harm:
+  - "steps[0] 'Nếu nạn nhân là trẻ em, gọi 111' và Ghi chú 'Trẻ em. ... gọi 111': 111 là đường tư vấn, không phải báo công an/cấp cứu; người đọc có thể gọi 111 thay vì 113/115 khi trẻ đang nguy hiểm hoặc đang bị thương."
+  - "Không có câu nào về thương tích cần cấp cứu (chảy máu, bất tỉnh, nghi bị cho thuốc) thì gọi 115 hoặc đi viện ngay; chỉ có thứ tự 'gọi 113 rồi đừng tắm'. Tài liệu BYT mục III.3.1 có xử trí tổn thương thực thể (cầm máu, cố định xương gãy) và xét nghiệm độc tố khi nghi bị ép dùng thuốc."
+  - "'Tới bệnh viện trong 72 giờ' trình bày như hạn chót; người đọc quá 72 giờ có thể bỏ không đi (tài liệu BYT vẫn khám, ghi chép và cấp giấy xác nhận kể cả trì hoãn nhiều tháng đến vài năm)."
+  - "'Đừng tắm... đừng dọn phòng' vô điều kiện, không nói gì về đi tiểu/uống nước/đánh răng, và không nói người bị hại vẫn có thể tắm nếu không chịu nổi (đừng hiểu ngược chỉ ở cuối)."
+suggested_edits:
+  - "steps[1] và tldr: đổi sang chữ của nguồn, ví dụ 'Nếu có thể, tạm chưa tắm, đi vệ sinh, thay hoặc giặt quần áo; giữ lại quần áo, đồ lót (bao riêng, không phải túi nhựa kín) để cán bộ y tế thu thập' hoặc ghi rõ đây là suy ra từ mục III.2.1; bỏ 'dọn phòng' và 'túi giấy' hoặc gắn nhãn 'khuyến cáo pháp y thông dụng', không phải chữ của BYT."
+  - "Tiêu đề/steps[2]: đổi 'trong 72 giờ' thành 'càng sớm càng tốt, tốt nhất trong 72 giờ (thuốc dự phòng HIV, thuốc tránh thai khẩn cấp); quá 72 giờ vẫn nên đi khám'. Dựa vào quote PEP ('không muộn hơn 72 giờ') và tài liệu BYT về ghi chép khi trì hoãn."
+  - "steps[0] và Ghi chú trẻ em: viết 'trẻ em: gọi 113 nếu đang nguy hiểm, 115 nếu bị thương nặng; 111 để được tư vấn hỗ trợ'. Dựa vào quote Phụ lục 3 ('tư vấn hỗ trợ')."
+  - "steps[2]: thêm 'với trẻ em, bác sĩ quyết định dự phòng STI/HIV theo hướng dẫn riêng cho trẻ em'; bỏ nhận định chung. Dựa vào mục IV (trẻ em) của tài liệu BYT."
+  - "legal_refs[0]: thay url bằng https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/104-vbhn-vpqh.pdf (VBHN 104/2025 BLTTHS), điền quote nguyên văn Điều 71 khoản 1 và thêm 'nếu họ đề nghị'."
+  - "Mục Chi phí/Pháp luật: thêm rằng xét nghiệm tinh trùng/độc tố không thường quy phải tự trả nhưng giám định chính thức (sau khi báo cơ quan chức năng) miễn phí, theo mục III.2.4 của tài liệu BYT."
+  - "Nguồn: ghi chú rằng số/ngày QĐ 3133 lấy từ trang Sở Y tế Đồng Nai, PDF đính kèm để trống; thay bằng link moh.gov.vn/vbpl.vn nếu có."

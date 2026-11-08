@@ -1,0 +1,88 @@
+id: mot-chan-dot-nhien-sung-cang-an-dau-di-kham-som-kem
+checker: agent-Vf13cA
+checked_at: 2026-11-08
+content_sha256: "7f87b020386cb2129ac2a7fcd6f33d9dbe5a8d5185e6c6d202c72358ec5957c2"
+result: pass-with-edits
+claims:
+  - text: "Huyết khối tĩnh mạch sâu chi dưới và thuyên tắc động mạch phổi là hai biểu hiện cấp tính của cùng một quá trình bệnh lý (QĐ 3908, chương 1 mục 1)"
+    source_url: https://kcb.vn/upload/2005611/20231028/3908__QD__ban_hanh_HD_thuyen_tac_huyet_khoi_tinh_mach_signed_12ec6.pdf
+    quote: "Huyết khối tĩnh mạch sâu (HKTMS) chi dưới và thuyên tắc động mạch phổi được coi là hai biểu hiện cấp tính có chung một quá trình bệnh lý, gọi là thuyên tắc huyết khối tĩnh mạch (TTHKTM)."
+    verdict: match
+    note: "PDF bản ký trên kcb.vn (trang mô tả URL ở legal_refs dẫn tới đúng file này); lớp chữ có xen ký tự watermark, câu trích đã ghép lại theo thứ tự đọc."
+  - text: "Cục máu bứt khỏi thành mạch sẽ theo dòng máu về tim phải rồi lên phổi (QĐ 3908, chương 1 mục 1)"
+    source_url: https://kcb.vn/upload/2005611/20231028/3908__QD__ban_hanh_HD_thuyen_tac_huyet_khoi_tinh_mach_signed_12ec6.pdf
+    quote: "Khi huyết khối này bứt ra khỏi lòng mạch, sẽ di chuyển theo dòng máu về tim phải lên động mạch phổi, dẫn đến bệnh cảnh tắc động mạch phổi."
+    verdict: match
+    note: ""
+  - text: "115 là số cấp cứu y tế dành cho xe cấp cứu (QĐ 636, mục 4.6)"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: "Người bị đặt ga-rô phải được nhanh chóng chuyển đến bệnh viện, tốt nhất là vận chuyển bằng xe cấp cứu 115."
+    verdict: partial
+    note: "Câu trích (mục 4.6, tr.32, đã đối chiếu bằng ảnh trang) chỉ gọi 'xe cấp cứu 115' trong ngữ cảnh ga-rô; không nêu 115 là số gọi cấp cứu cho chân sưng/khó thở. Dùng được làm bằng chứng 115 = xe cấp cứu, không phải bằng chứng cho hướng xử trí này. Hướng xử trí khó thở/đau ngực được kiểm riêng ở claim NHS bên dưới."
+  - text: "90% ca thuyên tắc phổi khởi nguồn từ một cục máu đông ở chân"
+    source_url: https://chanthuongvacotsong.bachmai.gov.vn/thuyen-tac-phoi-va-nhung-van-de-dieu-tri/
+    quote: "90% trường hợp thuyên tắc phổi xuất phát từ cục máu đông hình thành trong bệnh huyết khối tĩnh mạch sâu."
+    verdict: partial
+    note: "Nguồn nói 'huyết khối tĩnh mạch sâu' (nói chung), không nói 'ở chân'. QĐ 3908 nói huyết khối 'thường gặp nhất là tĩnh mạch chi dưới'. Sửa 'ở chân' thành 'trong tĩnh mạch sâu (thường ở chân)'."
+  - text: "Dấu hiệu: sưng to bất thường một bên, nặng chân, đau chân; khuyên làm siêu âm Doppler"
+    source_url: https://chanthuongvacotsong.bachmai.gov.vn/thuyen-tac-phoi-va-nhung-van-de-dieu-tri/
+    quote: "do vậy nên đến bác sĩ chuyên khoa khám nếu thấy dấu hiệu sưng to bất thường một chân, nặng chân, đau chân, cũng có thể đến bệnh viện lớn để làm siêu âm Doppler nếu có điều kiện."
+    verdict: partial
+    note: "Nguồn nói 'đến bác sĩ chuyên khoa khám'; Doppler chỉ là 'cũng có thể ... nếu có điều kiện'. Không nêu mức khẩn ('sớm'). Mục viết 'đi khám sớm để siêu âm Doppler' mạnh và vội hơn nguồn."
+  - text: "Giai đoạn cấp: chân sưng nhiều, đau dọc theo đường đi tĩnh mạch; khoảng một nửa số người bệnh không có triệu chứng"
+    source_url: https://chanthuongvacotsong.bachmai.gov.vn/nhan-dien-benh-thuyen-tac-huyet-khoi-tinh-mach-sau-chi-duoi/
+    quote: "thì 50% bệnh nhân mắc thuyên tắc tĩnh mạch chi dưới không có dấu hiệu, triệu chứng nên rất khó phát hiện bệnh sớm"
+    verdict: match
+    note: "Triệu chứng giai đoạn cấp: 'Bệnh nhân vào viện với triệu chứng, chân sưng nhiều, nặng chân, tức, đau dọc theo đường đi của tĩnh mạch'. Đây là bài đăng lại từ GD&TĐ trên trang Bạch Mai, trích BS Nguyễn Anh Quân; trang không ghi 'Viện Tim mạch' (xem internal_checks)."
+  - text: "Sưng chân kèm khó thở hoặc đau ngực: gọi cấp cứu ngay (115)"
+    source_url: https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/
+    quote: "Call 999 or go to A&E if: You have symptoms of DVT (deep vein thrombosis), such as pain and swelling, and: feel short of breath; have chest pain"
+    verdict: match
+    note: "NHS (không có trong mục Nguồn; dùng để đối chiếu hướng quốc tế). Tóm tắt: sưng/đau chân kèm khó thở hoặc đau ngực thì gọi cấp cứu, không tự lái xe đến viện. Mục khớp hướng này (VN: 115). Mục không nhắc 'ngất' ở NHS nhưng thêm ngất là an toàn."
+  - text: "Chân đột nhiên sưng, nghi huyết khối: 'đi khám sớm'"
+    source_url: https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/
+    quote: "Ask for an urgent GP appointment or get help from NHS 111 if: you think you have DVT (deep vein thrombosis)"
+    verdict: partial
+    note: "NHS yêu cầu khám khẩn (urgent), 'Get medical help as soon as possible'. Mục chỉ viết 'khám sớm', không đặt mốc thời gian; Chi phí còn viết 'chờ vài ngày'. Nên viết 'khám trong ngày'. Xem potential_harm."
+  - text: "Nằm bất động là yếu tố làm cục máu lớn thêm và tăng nguy cơ thuyên tắc phổi (Bẫy 2); step 'không nằm bất động chờ chân xẹp'"
+    source_url: https://kcb.vn/upload/2005611/20231028/3908__QD__ban_hanh_HD_thuyen_tac_huyet_khoi_tinh_mach_signed_12ec6.pdf
+    quote: "Ứ máu tĩnh mạch: tuần hoàn tĩnh mạch kém và ứ trệ thúc đẩy sự hình thành huyết khối. Các yếu tố làm tăng nguy cơ bị ứ máu tĩnh mạch là tình trạng bất động"
+    verdict: inference
+    note: "Nguồn nói bất động là yếu tố nguy cơ HÌNH THÀNH huyết khối, không nói nằm yên làm cục máu đã có 'lớn thêm' hay tăng nguy cơ thuyên tắc. Mục suy ra sang người đang nghi huyết khối cấp. Nên bỏ hoặc gắn nhãn 'suy ra'."
+  - text: "Không xoa bóp, giác hơi, lăn chân vùng đang sưng vì có thể làm cục máu bứt ra"
+    source_url: https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/
+    quote: ""
+    verdict: not-found
+    note: "Không có câu nào trong QĐ 3908, hai bài Bạch Mai, NHS DVT nói về xoa bóp/giác hơi/lăn. Đây là lời khuyên thận trọng hợp lý nhưng không có nguồn; step 3 và tldr đang trình bày như hướng dẫn có căn cứ."
+  - text: "Không tự uống thuốc chống đông của người khác"
+    source_url: https://chanthuongvacotsong.bachmai.gov.vn/thuyen-tac-phoi-va-nhung-van-de-dieu-tri/
+    quote: ""
+    verdict: not-found
+    note: "Nguồn chỉ nói chống đông (heparin, warfarin) là thuốc điều trị do thầy thuốc chỉ định, không có câu cấm tự uống thuốc của người khác. Vô hại nhưng không có nguồn."
+internal_checks:
+  - issue: "Steps 3 và 4 (không xoa bóp/giác hơi/lăn chân; không nằm bất động; không tự uống thuốc chống đông) chỉ có cơ sở ở mục 'Ghi chú' do người soạn viết, không có trong 'Pháp luật'/'Lợi ích' và không có nguồn nào ủng hộ (xem claims not-found/inference)."
+    severity: warn
+  - issue: "Lợi ích ghi 'Bác sĩ Viện Tim mạch của bệnh viện này'; trang Bạch Mai dẫn chỉ ghi 'Bác sĩ Nguyễn Anh Quân' (bài đăng lại từ GD&TĐ), không nêu đơn vị là Viện Tim mạch. Trang thuộc Khoa Chấn thương chỉnh hình & Cột sống. Cần xóa hoặc sửa phần gán đơn vị."
+    severity: warn
+  - issue: "Chi phí viết 'chờ vài ngày cho chân xẹp thì cục máu có thể đã đi lên phổi' không có trong nguồn; Bạch Mai nói 80% cục máu tự tan, 20% có thể di chuyển. Là lập luận của người soạn, không phải số liệu."
+    severity: warn
+  - issue: "legal_refs[0].url (kcb.vn trang QĐ 3908) và legal_refs[1].url (cucgiamdinh.gov.vn PDF QĐ 636) đều đúng văn bản ghi ở doc; mục 4.6 của QĐ 636 là ga-rô, nhắc 115 chỉ qua ngữ cảnh ga-rô nên article '(xe cấp cứu 115)' chỉ khớp lỏng."
+    severity: warn
+  - issue: "Con số trong tldr/steps (115) đều có trong thân; không mâu thuẫn số liệu nội bộ."
+    severity: warn
+validity:
+  doc: "QĐ 3908/QĐ-BYT 20/10/2023 (hướng dẫn dự phòng TTHKTM) và QĐ 636/QĐ-BYT 21/02/2025"
+  in_force: unconfirmed
+  effective_from: "2023-10-20"
+  amended_by: []
+  basis: "Hướng dẫn y tế, không có ô hiệu lực. QĐ 3908 ký ngày 20-10-2023 (dấu chữ ký số trong PDF), đăng 28/10/2023 trên kcb.vn; không thấy văn bản thay thế nhưng không tra Công báo/vbpl nên không kết luận in_force. QĐ 636 đề ngày 21/02/2025 (đối chiếu trang PDF), chưa tra tình trạng hiệu lực. Hướng quốc tế đối chiếu: NHS DVT (trang truy cập 2026-11-08)."
+deliberate_vn_deviation:
+  - "Nguồn VN (Bạch Mai) chỉ nói 'đến bác sĩ chuyên khoa khám'; NHS yêu cầu khám khẩn trong ngày (urgent) khi nghi DVT. Mục theo hướng VN 'đi khám sớm', yếu hơn hướng quốc tế."
+potential_harm:
+  - "Step 1 / tldr 'đi khám sớm' không có mốc thời gian, trong khi nghi huyết khối tĩnh mạch sâu cần khám khẩn (NHS: urgent same-day / as soon as possible). Người đọc có thể hiểu là 'khi rảnh' hoặc chờ vài ngày và làm chậm chẩn đoán khi cục máu có thể lên phổi."
+suggested_edits:
+  - "tldr và steps[0]: đổi 'đi khám sớm' thành 'đi khám trong ngày (ngay hôm nay)'; dựa vào NHS: 'Get medical help as soon as possible if you think you have DVT' / 'Ask for an urgent GP appointment'."
+  - "Lợi ích: sửa '90% ca thuyên tắc phổi khởi nguồn từ một cục máu đông ở chân' thành 'từ huyết khối tĩnh mạch sâu (thường ở chân)'; dựa vào quote Bạch Mai '90% trường hợp thuyên tắc phổi xuất phát từ cục máu đông hình thành trong bệnh huyết khối tĩnh mạch sâu'."
+  - "Lợi ích: bỏ 'Bác sĩ Viện Tim mạch của bệnh viện này', đổi thành 'bác sĩ Nguyễn Anh Quân (bài đăng lại trên trang Bạch Mai)' hoặc dẫn đúng đơn vị nếu xác minh được."
+  - "Ghi chú Bẫy 2 và Bẫy 3 (nằm bất động làm cục máu lớn thêm; xoa bóp làm bứt cục máu) và steps tương ứng: gắn nhãn 'suy ra, chưa có nguồn' hoặc xóa, vì không nguồn nào trong mục Nguồn nói vậy; có thể thêm NHS DVT làm nguồn cho phần gọi cấp cứu."
+  - "Pháp luật VN dòng 3: đổi nguồn 115 sang văn bản nói 115 là số gọi cấp cứu (QĐ 636 mục 4.6 chỉ nhắc 'xe cấp cứu 115' trong ngữ cảnh ga-rô); hoặc bỏ dòng này."

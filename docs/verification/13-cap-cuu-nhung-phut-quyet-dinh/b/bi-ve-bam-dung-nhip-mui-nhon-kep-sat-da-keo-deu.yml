@@ -1,0 +1,141 @@
+{
+  "id": "bi-ve-bam-dung-nhip-mui-nhon-kep-sat-da-keo-deu",
+  "checker": "agent-Vf13gB",
+  "checked_at": "2026-11-08",
+  "content_sha256": "9ec7392396413ca1b654f195adb4c327df6fdb171366a0cdf7314a473a6210e5",
+  "result": "pass-with-edits",
+  "claims": [
+    {
+      "text": "Sốt mò ủ bệnh 6-21 ngày, trung bình 9-12 ngày (mục 3.1)",
+      "source_url": "https://kcb.vn/upload/2005611/20210723//Truyen-nhiem-1.pdf",
+      "quote": "Thời gian ủ bệnh của sốt mò kéo dài từ 6 ngày đến 21 ngày (trung bình từ 9 đến 12 ngày).",
+      "verdict": "match",
+      "note": "Bản PDF toàn văn kèm QĐ 5642/QĐ-BYT, tr.60 của tài liệu. Đây là bệnh do ấu trùng MÒ (Leptotrombidium), không phải ve."
+    },
+    {
+      "text": "Vết loét hình bầu dục 0,5-2 cm, vẩy đen, thường không đau, ở nách, ngực, cổ, bẹn, bụng",
+      "source_url": "https://kcb.vn/upload/2005611/20210723//Truyen-nhiem-1.pdf",
+      "quote": "vết loét có hình bầu dục, kích thước từ 0,5-2 cm, có vẩy đen hoặc đã bong vẩy tạo thành vết loét có gờ, không tiết dịch; các vết loét thường không đau, khu trú ở những vùng da mềm như nách, ngực, cổ, bẹn, bụng, v.v...",
+      "verdict": "match",
+      "note": ""
+    },
+    {
+      "text": "Hạch sưng 1,5-2 cm",
+      "source_url": "https://kcb.vn/upload/2005611/20210723//Truyen-nhiem-1.pdf",
+      "quote": "hạch có kích thước 1,5-2 cm, mềm, không đau, di dộng bình thường.",
+      "verdict": "match",
+      "note": ""
+    },
+    {
+      "text": "Không điều trị kháng sinh thích hợp có thể nặng, tử vong; có điều trị hết sốt trong 1-3 ngày",
+      "source_url": "https://kcb.vn/upload/2005611/20210723//Truyen-nhiem-1.pdf",
+      "quote": "Nếu không được điều trị kháng sinh thích hợp, người bệnh sốt mò có thể tiến triển nặng dẫn tới biến chứng hô hấp và tim mạch gây tử vong. ... Người bệnh sốt mò được điều trị kháng sinh đặc hiệu thường hết sốt trong vòng từ 1 đến 3 ngày",
+      "verdict": "match",
+      "note": ""
+    },
+    {
+      "text": "Doxycyclin 0,1 g, ngày 2 viên chia 2 lần, 5 ngày (mục 4.2)",
+      "source_url": "https://kcb.vn/upload/2005611/20210723//Truyen-nhiem-1.pdf",
+      "quote": "Doxycyclin: liều 0,1 g x 2 viên uống chia 2 lần/ngày trong 5 ngày.",
+      "verdict": "match",
+      "note": "Nguồn ghi \"0,1 g x 2 viên\", mục viết \"0,1 g, ngày uống 2 viên chia 2 lần\" dễ hiểu nhầm 0,1 g là tổng liều/ngày hoặc là tổng 2 viên. Nên viết \"viên 0,1 g, 2 viên/ngày chia 2 lần\"."
+    },
+    {
+      "text": "Phụ nữ có thai, trẻ <10 tuổi: azithromycin 500 mg một lần/ngày 1-3 ngày",
+      "source_url": "https://kcb.vn/upload/2005611/20210723//Truyen-nhiem-1.pdf",
+      "quote": "Azithromycin 500 mg uống một lần/ngày x 1-3 ngày; chỉ định cho phụ nữ có thai, trẻ dưới 10 tuổi, và những người có chống chỉ định với các thuốc tetracyclin và chloramphenicol.",
+      "verdict": "partial",
+      "note": "Nguồn còn nhóm thứ ba (chống chỉ định tetracyclin/chloramphenicol); mục bỏ. Trẻ em: 500 mg là liều người lớn, nguồn không ghi liều trẻ em; mục để nguyên \"500 mg\" cho trẻ <10 tuổi nên có thể bị hiểu là liều cho trẻ nhỏ."
+    },
+    {
+      "text": "Phòng bệnh: mặc quần áo kín, ngâm tẩm hóa chất chống côn trùng khi vào vùng lưu hành (mục 6)",
+      "source_url": "https://kcb.vn/upload/2005611/20210723//Truyen-nhiem-1.pdf",
+      "quote": "áp dụng những biện pháp chống ấu trùng mò đốt như mặc quần áo kín, mặc quần áo có ngâm tẩm các hóa chất chống côn trùng như benzyl benzoat, bôi các hóa chất xua côn trùng như diethyltoluamide lên các vùng da hở.",
+      "verdict": "match",
+      "note": ""
+    },
+    {
+      "text": "Kẹp nhíp mũi nhọn sát mặt da, kéo thẳng lên với lực đều, không xoay, không giật",
+      "source_url": "https://www.cdc.gov/ticks/removing_a_tick.html",
+      "quote": "Grasp the tick as close to the skin's surface as possible using clean fine-tipped tweezers. ... Pull tick away from the skin with steady, even pressure. Don't twist or jerk the tick. This can cause the tick mouthparts to break off and remain in the skin.",
+      "verdict": "match",
+      "note": "CDC \"What to Do After a Tick Bite\", 9/6/2026. Mục KHÔNG dẫn nguồn này; QĐ 5642 không có thao tác gắp ve (mục tự nhận). Tóm tắt: kẹp nhíp mũi nhỏ sát da, kéo đều, không xoay/giật."
+    },
+    {
+      "text": "Không bôi dầu, không châm lửa, không đè bóp bụng ve",
+      "source_url": "https://www.cdc.gov/ticks/removing_a_tick.html",
+      "quote": "Do not use petroleum jelly, heat, nail polish, or other substances to try and make the tick detach from the skin. This may agitate the tick and force infected fluid from the tick into the skin. ... Do not crush the tick with your fingers.",
+      "verdict": "match",
+      "note": "Mục thêm \"cồn\" vào danh sách chất không bôi (Bẫy 1): CDC không nêu cồn trong danh sách này, và dùng cồn để lau sạch sau khi gắp. Ý \"để lại phần đầu trong da\" CDC gắn với xoay/giật, không phải bôi dầu."
+    },
+    {
+      "text": "Rửa chỗ cắn bằng xà phòng",
+      "source_url": "https://www.cdc.gov/ticks/removing_a_tick.html",
+      "quote": "After removing the tick, thoroughly clean the bite area and your hands with soap and water, rubbing alcohol, or hand sanitizer.",
+      "verdict": "match",
+      "note": ""
+    },
+    {
+      "text": "Ghi ngày bị bám; sốt trong ba tuần sau thì nói với bác sĩ",
+      "source_url": "https://www.cdc.gov/ticks/removing_a_tick.html",
+      "quote": "If you develop a rash or fever within several weeks of removing a tick, see your doctor: Tell the doctor about your recent tick bite, When the bite occurred, and Where you most likely acquired the tick.",
+      "verdict": "partial",
+      "note": "CDC: \"within several weeks\" (không đóng khung 3 tuần; trang khác ghi \"several days to weeks\") và thêm phát ban. Mục thu hẹp thành \"ba tuần\" dựa vào ủ bệnh sốt MÒ 6-21 ngày của QĐ 5642, là bệnh khác, không phải bệnh do ve. Đồng thời bỏ \"phát ban\" và \"nơi bị ve bám\"."
+    },
+    {
+      "text": "Văn bản QĐ 5642 là nguồn của các bước nhíp/gắp (steps 1-3) và \"ba tuần\" (tldr, steps 5)",
+      "source_url": "https://kcb.vn/upload/2005611/20210723//Truyen-nhiem-1.pdf",
+      "quote": "(QĐ 5642, chương Bệnh sốt mò, không có đoạn nào về ve, nhíp, gắp, hoặc bôi dầu)",
+      "verdict": "not-found",
+      "note": "Tìm toàn văn chương sốt mò: không có từ \"ve\" theo nghĩa côn trùng, không có hướng dẫn gắp. legal_refs gắn QĐ 5642 cho mục về ve là khác đối tượng (mò ≠ ve)."
+    }
+  ],
+  "internal_checks": [
+    {
+      "issue": "legal_refs[0] (QĐ 5642, chương sốt mò) và các số 6-21 ngày, doxycyclin, azithromycin trong mục \"Lợi ích/Pháp luật VN\" là về sốt mò do ấu trùng mò, không phải về ve; tiêu đề mục là bị ve bám. Người đọc có thể hiểu bị ve bám là phải nghĩ đến sốt mò. Mục có nói ở Ghi chú nhưng \"legal_refs\" và các bullet pháp luật vẫn xếp như căn cứ của mục.",
+      "severity": "error"
+    },
+    {
+      "issue": "tldr/steps 5 \"sốt trong ba tuần\": con số 3 tuần lấy từ ủ bệnh sốt mò (21 ngày), không phải từ hướng dẫn về ve (CDC: \"within several weeks\").",
+      "severity": "error"
+    },
+    {
+      "issue": "Steps 1-3 (gắp ve, không bôi dầu, rửa xà phòng) không có cơ sở trong QĐ 5642 và không dẫn nguồn nào trong \"Nguồn\"; CDC khớp nhưng không được liệt kê.",
+      "severity": "error"
+    },
+    {
+      "issue": "Bẫy 3 nói vết loét đặc hiệu ở \"nách, bẹn, dưới vú\"; QĐ ghi \"nách, ngực, cổ, bẹn, bụng\". \"Dưới vú\" không có trong nguồn.",
+      "severity": "warn"
+    },
+    {
+      "issue": "Bẫy 1: \"bôi dầu, mỡ, cồn...\" làm ve \"nôn dịch vào vết cắn và dễ để lại phần đầu\": CDC chỉ nói chất bôi \"may agitate the tick and force infected fluid\"; phần đầu để lại là do xoay/giật. Cồn không có trong danh sách của CDC.",
+      "severity": "warn"
+    },
+    {
+      "issue": "Chi phí nói \"dùng được nhiều năm\", \"vài chục nghìn đồng\" cho nhíp+cồn: không nguồn (con số tiền, không nằm trong khẳng định y tế).",
+      "severity": "warn"
+    }
+  ],
+  "validity": {
+    "doc": "Quyết định 5642/QĐ-BYT ngày 31/12/2015 của Bộ Y tế (Hướng dẫn chẩn đoán và điều trị một số bệnh truyền nhiễm), chương Bệnh sốt mò; và CDC \"What to Do After a Tick Bite\" (9/6/2026) cho phần gắp ve",
+    "in_force": "unconfirmed",
+    "effective_from": "2015-12-31",
+    "amended_by": [],
+    "basis": "Điều 3 QĐ: \"có hiệu lực kể từ ngày ký ban hành\" (PDF toàn văn trên kcb.vn). Chưa kiểm được bản sửa/thay thế sau 2015 (vbpl.vn/Công báo không mở được trong phạm vi kiểm); không kết luận còn hiệu lực. CDC page đề 9/6/2026."
+  },
+  "deliberate_vn_deviation": [
+    "Hướng dẫn gắp ve của mục khớp CDC, không phải của Bộ Y tế VN (QĐ 5642 không có thao tác này): mục tự nhận, nhưng legal_refs làm nó trông như có căn cứ VN."
+  ],
+  "potential_harm": [
+    "tldr + steps 5: \"Sốt trong ba tuần sau thì báo bác sĩ\": hẹp hơn CDC (\"within several weeks\"; \"several days to weeks\"). Người bị ve bám sốt hoặc phát ban ở tuần 4-5 theo nguyên văn có thể không nói với bác sĩ là từng bị ve. Cũng bỏ \"phát ban\".",
+    "Steps 4 (azithromycin 500 mg cho trẻ <10 tuổi) trong \"Lợi ích\": liều 500 mg là liều của văn bản (nguồn không ghi liều theo cân nặng cho trẻ), hiển thị cạnh \"trẻ dưới 10 tuổi\" có thể bị người đọc dùng làm liều tự mua thuốc; mục có nói thuốc do bác sĩ chỉ định nhưng nên bỏ phần liều."
+  ],
+  "suggested_edits": [
+    "tldr/steps 5 và Nói dễ hiểu: đổi \"ba tuần\" thành \"trong vài tuần (CDC: within several weeks)\", thêm \"sốt hoặc phát ban\", nói rõ bác sĩ cần biết ngày bị cắn và nơi bị cắn.",
+    "Nguồn + legal_refs: thêm CDC \"What to Do After a Tick Bite\" làm nguồn của steps 1-5; chuyển QĐ 5642 xuống thành \"tham khảo bệnh sốt mò do ấu trùng mò (không phải ve)\" hoặc bỏ khỏi legal_refs.",
+    "Pháp luật Việt Nam/Lợi ích: ghi rõ \"sốt mò do ấu trùng mò, khác ve\" ngay đầu mục; không dùng ủ bệnh 6-21 ngày để đặt thời hạn theo dõi sau ve cắn.",
+    "Ghi chú Bẫy 1: bỏ \"cồn\" khỏi danh sách chất không bôi; sửa lý do (CDC: \"force infected fluid ... into the skin\"); phần đầu còn trong da do xoay/giật.",
+    "Bẫy 3: sửa \"nách, bẹn, dưới vú\" thành \"nách, ngực, cổ, bẹn, bụng\" (QĐ mục 3.1).",
+    "Lợi ích: viết \"viên doxycyclin 0,1 g, uống 2 viên/ngày chia 2 lần\" và bỏ liều azithromycin cho trẻ em, hoặc nêu đủ ba nhóm chỉ định."
+  ]
+}

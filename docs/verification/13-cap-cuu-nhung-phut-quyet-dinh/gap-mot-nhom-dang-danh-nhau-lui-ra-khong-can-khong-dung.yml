@@ -1,0 +1,81 @@
+id: gap-mot-nhom-dang-danh-nhau-lui-ra-khong-can-khong-dung
+checker: agent-Vf13hA
+checked_at: 2026-11-08
+content_sha256: "be0ec8a7f80d98d381db1c0af86ce5e1303b99bb6e1041b3864c9c27552d7972"
+result: pass-with-edits
+claims:
+  - text: "Điều 22 khoản 1: chỉ coi là phòng vệ chính đáng khi chống trả cần thiết trước người đang có hành vi xâm phạm"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "Phòng vệ chính đáng là hành vi của người vì bảo vệ quyền hoặc lợi ích chính đáng của mình, của người khác hoặc lợi ích của Nhà nước, của cơ quan, tổ chức mà chống trả lại một cách cần thiết người đang có hành vi xâm phạm các lợi ích nói trên."
+    verdict: partial
+    note: "Chữ luật khớp ý, nhưng mục lược “của người khác”: luật CHO PHÉP phòng vệ để bảo vệ người khác. Cùng với câu mục viết “Bạn vào can ... rất khó chứng minh mình chỉ can” và Bẫy 1 (“giữ tay ... bị tính như một bên tham gia”), người đọc có thể hiểu là can thiệp bảo vệ người khác luôn bị coi là đánh nhau. Đúng ý bước hành động (lùi ra vì an toàn) nhưng phần lập luận pháp lý thiếu điều kiện."
+  - text: "Điều 22 khoản 2: chống trả rõ ràng quá mức cần thiết thì vẫn phải chịu trách nhiệm hình sự"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "Vượt quá giới hạn phòng vệ chính đáng là hành vi chống trả rõ ràng quá mức cần thiết, không phù hợp với tính chất và mức độ nguy hiểm cho xã hội của hành vi xâm hại. Người có hành vi vượt quá giới hạn phòng vệ chính đáng phải chịu trách nhiệm hình sự theo quy định của Bộ luật này."
+    verdict: match
+    note: ""
+  - text: "113 là số tiếp nhận tin báo về cướp giật, gây rối, bạo hành và các hành vi có dấu hiệu tội phạm"
+    source_url: https://congan.dienbien.gov.vn/Danh-muc-tin-tuc/tong-hop-cac-so-dien-thoai-khan-cap-quoc-gia-ghi-nho-de-bao-ve-minh-va-ho-tro-nguoi-khac-13182.html
+    quote: "113 – Lực lượng Công an: Tiếp nhận tin báo về cướp giật, trộm cắp, gây rối, bạo hành, tai nạn giao thông và các hành vi có dấu hiệu tội phạm, ảnh hưởng đến an ninh trật tự."
+    verdict: match
+    note: "Nguồn: trang Công an tỉnh Điện Biên (đã mở được)."
+  - text: "115 là số cấp cứu y tế cho tai nạn, chấn thương nặng"
+    source_url: https://congan.dienbien.gov.vn/Danh-muc-tin-tuc/tong-hop-cac-so-dien-thoai-khan-cap-quoc-gia-ghi-nho-de-bao-ve-minh-va-ho-tro-nguoi-khac-13182.html
+    quote: "115 – Cấp cứu y tế: Sử dụng khi có tai nạn, chấn thương nặng, các tình huống bệnh lý nguy hiểm đến tính mạng cần cấp cứu khẩn cấp."
+    verdict: match
+    note: ""
+  - text: "Cả hai miễn phí, bấm trực tiếp không cần mã vùng khi ở cùng khu vực"
+    source_url: https://congan.dienbien.gov.vn/Danh-muc-tin-tuc/tong-hop-cac-so-dien-thoai-khan-cap-quoc-gia-ghi-nho-de-bao-ve-minh-va-ho-tro-nguoi-khac-13182.html
+    quote: "người dân khi ở trong cùng khu vực chỉ cần bấm trực tiếp số 113, 114, 115… mà không cần mã vùng. ... Theo quy định của Luật Viễn thông, các cuộc gọi đến số khẩn cấp hoàn toàn miễn phí."
+    verdict: match
+    note: "Trang còn nói gọi hỗ trợ người ở địa phương khác phải bấm mã vùng trước số khẩn cấp."
+  - text: "Giữ tay người đang đánh cũng bị tính như một bên tham gia (Bẫy 1)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: ""
+    verdict: not-found
+    note: "Không có điều luật nào được dẫn nói điều này; Điều 22 thậm chí bảo vệ hành vi chống trả cần thiết để bảo vệ người khác. Mục trình bày như sự thật pháp lý. Cần sửa thành lời khuyên an toàn có nhãn “suy ra”."
+  - text: "Cầm hung khí trong một vụ ẩu đả là tình tiết nặng nhất mà người ta sẽ nhớ về bạn (Bẫy 3)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: ""
+    verdict: not-found
+    note: "Câu mang tính nhận định, không phải chữ của luật. Không có nguồn."
+  - text: "Đứng xem: người có mặt tại chỗ thường là người được hỏi đầu tiên và có thể phải ở lại nói mình đã thấy gì; có thể mất nửa ngày nếu bị mời làm chứng"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: ""
+    verdict: not-found
+    note: "Không nguồn."
+  - text: "Quay clip từ xa, sau vật cản, rồi rời đi; hô to để người xung quanh cùng nhìn (steps[2])"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: ""
+    verdict: inference
+    note: "Không có hướng dẫn công an hay nguồn nào được dẫn. Đây là lời khuyên thực hành của người soạn."
+  - text: "Bước 'lùi ra rồi mới gọi' là suy ra từ ranh giới phòng vệ"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: ""
+    verdict: inference
+    note: "Mục tự nhận đúng (Ghi chú). Đúng nhãn, không sửa."
+internal_checks:
+  - issue: "Phần Pháp luật chỉ trích Điều 22; hai Bẫy (Bẫy 1 “giữ tay = một bên tham gia”, Bẫy 3 “tình tiết nặng nhất”) là khẳng định pháp lý không nguồn, trình bày như thực tế. Điều 22 khoản 1 còn bảo vệ hành vi vì “người khác”, nên Bẫy 1 có thể gây hiểu sai (người đọc nghĩ cứu người bị đánh hội đồng là tự chuốc tội). Cần nhãn “suy ra” hoặc bỏ."
+    severity: error
+  - issue: "steps[2] (hô to, quay clip từ xa) và Lợi ích (đứng xem bị hỏi đầu tiên, nửa ngày) không có cơ sở trong thân ngoài Ghi chú/nhận định; không nguồn."
+    severity: warn
+  - issue: "Chi phí ghi “Không mất tiền” (money: 0) nhưng cùng mục nói có thể mất nửa ngày làm chứng; không mâu thuẫn số liệu."
+    severity: warn
+  - issue: "tldr/steps: 113, 115 có trong thân; không số nào mâu thuẫn. legal_refs có đúng 1 mục (Điều 22 khoản 1 và 2) khớp khẳng định; url trỏ BLHS VBHN 135 (nội dung PDF đúng là BLHS, số hiệu VBHN suy từ tên file)."
+    severity: warn
+  - issue: "Cùng chương: mục 36 nêu 113 “miễn phí trên toàn quốc”, mục 37 “bấm trực tiếp không cần mã vùng khi cùng khu vực”; hai mô tả không mâu thuẫn nhưng nên thống nhất."
+    severity: warn
+validity:
+  doc: "Bộ luật Hình sự 100/2015/QH13 (VBHN 135/VBHN-VPQH, bản hợp nhất 2025), Điều 22"
+  in_force: true
+  effective_from: "2018-01-01"
+  amended_by: ["Luật 12/2017/QH14 (khoản 5 Điều 1 sửa Điều 22, hiệu lực 2018-01-01)", "Luật 86/2025/QH15"]
+  basis: "Trang đầu VBHN: sửa đổi mới nhất là Luật 86/2025/QH15 (hiệu lực 01/7/2025); chú thích 8 trong PDF xác nhận Điều 22 được sửa theo Luật 12/2017. Tin tháng 10/2026 cho thấy BLHS (sửa đổi) mới còn đang thảo luận tại Quốc hội, chưa thấy đã thông qua. Cần kiểm lại sau kỳ họp."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Lợi ích, đoạn “Bạn vào can một nhóm ... rất khó chứng minh mình chỉ can”: đổi thành “Điều 22 cho phép chống trả cần thiết để bảo vệ người khác, nhưng trong một vụ ẩu đả nhiều người, việc chứng minh mình chỉ can ngăn là khó” và gắn nhãn suy ra; dựa vào quote Điều 22 khoản 1 (“của người khác”)."
+  - "Ghi chú Bẫy 1: bỏ khẳng định “bị tính như một bên tham gia”, thay bằng “có thể bị hiểu là xô xát, và người can ngăn tay không dễ bị thương”, gắn nhãn suy ra."
+  - "Ghi chú Bẫy 3: bỏ cụm “tình tiết nặng nhất mà người ta sẽ nhớ” hoặc đánh dấu là nhận định; giữ lời khuyên không nhặt vũ khí."
+  - "Pháp luật VN: thêm dòng Điều 22 khoản 1 gồm cả bảo vệ “của người khác”, để người đọc không hiểu là cấm giúp người bị đánh."
+  - "steps[2]: ghi rõ đây là lời khuyên thực hành (không nguồn) hoặc bỏ phần “hô to”."

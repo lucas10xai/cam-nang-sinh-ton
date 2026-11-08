@@ -1,0 +1,133 @@
+{
+  "id": "gap-gau-lon-rung-dan-cho-dai-khong-chay-nghieng-nguoi-lui",
+  "checker": "agent-Vf13gB",
+  "checked_at": "2026-11-08",
+  "content_sha256": "146330b7e7c925f7723231de67fa660fb0c42ed2b8f1d42dd521cd6274066afd",
+  "result": "pass-with-edits",
+  "claims": [
+    {
+      "text": "Rửa vết cắn/cào dưới vòi nước chảy liên tục ít nhất 15 phút, dùng xà phòng (steps, tldr)",
+      "source_url": "https://luatvietnam.vn/y-te/quyet-dinh-1622-qd-byt-bo-y-te-86760-d1.html",
+      "quote": "Xối rửa kỹ tất cả các vết cắn/cào trong 15 phút với nước và xà phòng, hoặc nước sạch, sau đó sát khuẩn bằng cồn 45°-70° hoặc cồn i ốt",
+      "verdict": "match-secondary",
+      "note": "Nguồn chính (trang Bệnh viện Nhi TW trong ref) chỉ trả khung trang, không có thân văn bản, nên dùng bản luatvietnam.vn (thứ cấp). Văn bản gốc nói \"trong 15 phút\", không có \"ít nhất\" và không có \"vòi nước chảy liên tục\"; hai chi tiết đó chỉ có ở bản HCDC (c2)."
+    },
+    {
+      "text": "\"Ít nhất 15 phút\", vòi nước chảy liên tục (HCDC dẫn QĐ 1622)",
+      "source_url": "https://hcdc.vn/nhung-viec-can-lam-ngay-sau-khi-bi-cho-can-xbcwu7.html",
+      "quote": "Xối rửa kỹ tất cả các vết cắn hoặc vết cào dưới vòi nước chảy liên tục trong ít nhất 15 phút. Bạn có thể sử dụng xà phòng hoặc các chất tẩy rửa thông thường như dầu gội, sữa tắm.",
+      "verdict": "match-secondary",
+      "note": "Trang Trung tâm Kiểm soát bệnh tật TP.HCM (tin sức khỏe), không phải toàn văn QĐ. Mục gán câu này cho QĐ 1622 là gán hộ."
+    },
+    {
+      "text": "Sát khuẩn bằng cồn 70 độ (mục ghi là của QĐ 1622)",
+      "source_url": "https://luatvietnam.vn/y-te/quyet-dinh-1622-qd-byt-bo-y-te-86760-d1.html",
+      "quote": "sau đó sát khuẩn bằng cồn 45°-70° hoặc cồn i ốt",
+      "verdict": "partial",
+      "note": "QĐ ghi cồn 45°-70° hoặc cồn i-ốt; \"cồn 70 độ\" là chữ của HCDC. Mục gán \"cồn 70 độ\" cho QĐ 1622 là hẹp hơn nguyên văn."
+    },
+    {
+      "text": "Không băng kín, không nặn máu (steps, Lợi ích; Pháp luật VN gán cho QĐ 1622)",
+      "source_url": "https://hcdc.vn/nhung-viec-can-lam-ngay-sau-khi-bi-cho-can-xbcwu7.html",
+      "quote": "Không băng kín vết thương, không làm dập nát thêm hoặc nặn máu. Tránh khâu kín vết thương ngay lập tức.",
+      "verdict": "match-secondary",
+      "note": "Chữ \"không băng kín\", \"nặn máu\" KHÔNG có trong QĐ 1622 (bản luatvietnam chỉ có \"Không làm dập nát thêm vết thương hoặc làm tổn thương rộng hơn, tránh khâu kín ngay vết thương\"). Chỉ có ở HCDC. Mục \"Pháp luật Việt Nam\" gán sai nguồn."
+    },
+    {
+      "text": "Nếu buộc phải khâu: trì hoãn vài giờ đến 3 ngày, khâu thưa sau khi tiêm huyết thanh kháng dại",
+      "source_url": "https://luatvietnam.vn/y-te/quyet-dinh-1622-qd-byt-bo-y-te-86760-d1.html",
+      "quote": "Trường hợp bắt buộc phải khâu thì nên trì hoãn khâu vết thương sau vài giờ đến 3 ngày và nên khâu ngắt quãng/bỏ mũi sau khi đã tiêm phòng bế huyết thanh kháng dại vào tất cả các vết thương.",
+      "verdict": "match-secondary",
+      "note": ""
+    },
+    {
+      "text": "Sau sơ cứu tới ngay cơ sở y tế, bác sĩ quyết định vắc xin, kháng thể nếu vết thương nặng",
+      "source_url": "https://luatvietnam.vn/y-te/quyet-dinh-1622-qd-byt-bo-y-te-86760-d1.html",
+      "quote": "Điều trị dự phòng nên được tiến hành càng sớm càng tốt sau khi bị phơi nhiễm, bao gồm: rửa vết thương, tiêm vắc xin phòng dại và sử dụng huyết thanh kháng dại nếu có chỉ định.",
+      "verdict": "match-secondary",
+      "note": "Chữ \"ngay\" là \"càng sớm càng tốt\". Chỉ định theo \"tình trạng động vật, hoàn cảnh bị cắn..., vị trí bị cắn, số lượng, tình trạng vết cắn\" (mục 3.3.2); độ III/vết sâu/đầu mặt cổ/đầu chi thì tiêm huyết thanh + vắc xin ngay. Mục nói đúng ý, thiếu tiêu chí \"gần thần kinh trung ương\" để người đọc biết vết nào cấp bách."
+    },
+    {
+      "text": "Văn bản còn nhắc kháng sinh và phòng uốn ván tùy trường hợp (mục KHÔNG nhắc)",
+      "source_url": "https://luatvietnam.vn/y-te/quyet-dinh-1622-qd-byt-bo-y-te-86760-d1.html",
+      "quote": "Tùy trường hợp cụ thể có thể sử dụng kháng sinh và tiêm phòng uốn ván.",
+      "verdict": "partial",
+      "note": "Mục bỏ hẳn uốn ván/kháng sinh khỏi steps; một bước đáng có cho vết chó cắn."
+    },
+    {
+      "text": "Gấu: không quay lưng chạy, đứng lại, lùi chéo người chậm",
+      "source_url": "https://www.nps.gov/subjects/bears/safety.htm",
+      "quote": "If the bear is stationary, move away slowly and sideways ; this allows you to keep an eye on the bear and avoid tripping. Moving sideways is also non-threatening to bears. Do NOT run , but if the bear follows, stop and hold your ground. Bears can run as fast as a racehorse both uphill and down.",
+      "verdict": "match",
+      "note": "Nguồn Mỹ (NPS), không phải VN. Tóm tắt: lùi chậm sang bên, không chạy, gấu theo thì đứng yên giữ chỗ. Mục tự nhận chưa có văn bản VN."
+    },
+    {
+      "text": "Gấu: không leo cây",
+      "source_url": "https://www.nps.gov/subjects/bears/safety.htm",
+      "quote": "Do NOT climb a tree . Both grizzlies and black bears can climb trees.",
+      "verdict": "match",
+      "note": ""
+    },
+    {
+      "text": "\"Nói to giọng trầm, giơ hai tay cho mình trông lớn hơn\" (steps)",
+      "source_url": "https://www.nps.gov/subjects/bears/safety.htm",
+      "quote": "Identify yourself  by talking calmly so the bear knows you are a human and not a prey animal. Remain still; stand your ground but slowly wave your arms. ... Do not make any loud noises or screams—the bear may think it's the sound of a prey animal.",
+      "verdict": "partial",
+      "note": "NPS: nói bình tĩnh, KHÔNG hét/gào to; vẫy tay chậm. \"Nói to\" dễ bị hiểu thành quát. Nên sửa thành \"nói bình tĩnh, giọng trầm, đủ để con vật nhận ra là người\"."
+    },
+    {
+      "text": "Không nằm xuống (steps 1)",
+      "source_url": "https://www.nps.gov/subjects/bears/safety.htm",
+      "quote": "Brown/Grizzly Bears:  If you are attacked by a brown/grizzly bear, leave your pack on and  PLAY DEAD . ... Black Bears:  If you are attacked by a black bear,  DO NOT PLAY DEAD . Try to escape to a secure place such as a car or building. If escape is not possible, try to ﬁght back",
+      "verdict": "partial",
+      "note": "Đúng cho gấu đen (loài ở VN: gấu ngựa, gấu chó) và khi con vật chưa tấn công. Nhưng \"không nằm xuống\" nói vô điều kiện lệch hướng dẫn gấu nâu (giả chết khi bị tấn công); và mục không nói gì về bước tiếp theo khi bị tấn công thật (đánh trả vào mặt/mõm với gấu đen). Phần Ghi chú Bẫy 2 có nhắc \"nằm là xử lý một tình huống cụ thể\" nhưng steps không."
+    },
+    {
+      "text": "Lợn rừng húc vào chân người bỏ chạy; đàn chó dại: không chạy, nghiêng người lùi",
+      "source_url": "https://hcdc.vn/nhung-viec-can-lam-ngay-sau-khi-bi-cho-can-xbcwu7.html",
+      "quote": "(không có nguồn nào được dẫn cho lợn rừng và đàn chó dại)",
+      "verdict": "not-found",
+      "note": "Không có nguồn nào trong mục nói về lợn rừng hay đàn chó, kể cả hướng dẫn \"không chạy, lùi chéo\". Tiêu đề, tldr và steps 1-3 áp cho \"gấu, lợn rừng\" (và tiêu đề cả \"đàn chó dại\") mà chỉ có NPS cho gấu. Phần này là kinh nghiệm không nguồn."
+    }
+  ],
+  "internal_checks": [
+    {
+      "issue": "Tiêu đề nêu \"đàn chó dại\", tldr/steps 1-3 áp hướng dẫn \"không chạy, lùi chậm\" cho gấu và lợn rừng; cả mục không có nguồn nào cho lợn rừng/đàn chó (chỉ có NPS cho gấu mà mục không dẫn). Phần Nguồn của mục không liệt kê nguồn cho phần động vật hoang dã.",
+      "severity": "warn"
+    },
+    {
+      "issue": "\"Pháp luật Việt Nam\" gán cho QĐ 1622 các chữ \"ít nhất 15 phút\", \"vòi nước chảy liên tục\", \"cồn 70 độ\", \"không băng kín\", \"không nặn máu\" mà QĐ không có (có ở bài HCDC). Chỉ \"15 phút\", cồn 45°-70° hoặc i-ốt, \"tránh khâu kín\", \"trì hoãn khâu vài giờ đến 3 ngày\" là chữ của QĐ.",
+      "severity": "error"
+    },
+    {
+      "issue": "legal_refs[0].url (benhviennhitrunguong.gov.vn) đúng tiêu đề văn bản nhưng trang chỉ trả khung/menu, không có thân văn bản (đã mở, ~6.900 ký tự, không có \"15 phút\"/\"khâu\"). Không xác minh được nguyên văn từ nguồn chính.",
+      "severity": "warn"
+    },
+    {
+      "issue": "tldr/steps \"đàn chó dại\" không có trong steps (steps chỉ có gấu, lợn rừng ở bước 1-3), tiêu đề lại có \"đàn chó dại\": lệch nội dung.",
+      "severity": "warn"
+    }
+  ],
+  "validity": {
+    "doc": "Quyết định 1622/QĐ-BYT ngày 08/5/2014 của Bộ Y tế (Hướng dẫn giám sát, phòng chống bệnh dại trên người)",
+    "in_force": "unconfirmed",
+    "effective_from": "2014-05-08",
+    "amended_by": [],
+    "basis": "Điều 3 QĐ: \"có hiệu lực kể từ ngày ký, ban hành\" (luatvietnam). Ô tình trạng hiệu lực trên luatvietnam bị che (\"Đã biết\", cần đăng nhập). Không thấy văn bản thay thế nhưng không có bằng chứng hiệu lực hiện nay; bài HCDC đăng 30/09/2025 vẫn dẫn QĐ này. Không đủ để kết luận true."
+  },
+  "deliberate_vn_deviation": [
+    "Mục dẫn QĐ 1622 (VN) cho chó cắn, khớp WHO về 15 phút rửa; không thấy lệch lớn. Phần gấu/lợn rừng không có nguồn VN (mục tự nhận)."
+  ],
+  "potential_harm": [
+    "Steps 1: \"không nằm xuống\" nói vô điều kiện, không kèm bước khi bị tấn công thật (gấu đen: đánh trả vào mặt/mõm; gấu nâu: giả chết theo NPS). Người đọc không biết làm gì khi lùi mà con vật vẫn lao tới.",
+    "Steps 2: \"Nói to\" có thể khiến người đọc hét, trái NPS (\"Do not make any loud noises or screams\").",
+    "Steps 4-5 bỏ phòng uốn ván và không nói vết nào là cấp bách (đầu/mặt/cổ/đầu chi, vết sâu, nhiều vết => huyết thanh + vắc xin ngay): có thể làm chậm điều trị dại."
+  ],
+  "suggested_edits": [
+    "Steps 2: đổi \"Nói to giọng trầm\" thành \"Nói bình tĩnh bằng giọng trầm để con vật nhận ra mình là người, không hét\" (NPS: \"Identify yourself by talking calmly... Do not make any loud noises or screams\").",
+    "Steps 1 và Ghi chú: bỏ \"không nằm xuống\" vô điều kiện hoặc thêm \"nếu bị tấn công: gấu đen thì đánh trả vào mặt/mõm; không nằm im\" kèm nguồn NPS; hoặc thu hẹp mục chỉ còn gấu, lợn rừng ghi rõ là không nguồn VN.",
+    "Tiêu đề: bỏ \"đàn chó dại\" hoặc thêm bước cho đàn chó (hiện không nguồn).",
+    "Steps 4: dẫn đúng nguồn: \"15 phút\" (QĐ 1622), \"ít nhất\", \"vòi nước chảy liên tục\", \"không băng kín\", \"không nặn máu\" thuộc bài HCDC, không phải QĐ. Cồn: \"45°-70° hoặc cồn i-ốt\".",
+    "Steps 5: thêm \"hỏi bác sĩ về phòng uốn ván\" và nêu vết sâu/đầu mặt cổ/nhiều vết là cần tiêm huyết thanh + vắc xin ngay (QĐ 1622 mục 3.3.2)."
+  ]
+}

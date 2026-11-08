@@ -23,10 +23,10 @@ steps:
   - "Gọi 115 nếu cơn quá 5 phút, là cơn đầu tiên, hoặc thôi co giật mà không tỉnh."
 legal_refs: []
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13dB
+  scope: "Chặn nâng trạng thái: 1 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/nguoi-co-giat-nga-xuong-don-vat-can-cho-nam-nghieng-bam.yml)"
   sources: []
 origin:
   zh: null

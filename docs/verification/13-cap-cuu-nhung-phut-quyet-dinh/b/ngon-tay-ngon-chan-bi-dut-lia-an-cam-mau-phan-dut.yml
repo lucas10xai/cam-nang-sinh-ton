@@ -1,0 +1,95 @@
+id: ngon-tay-ngon-chan-bi-dut-lia-an-cam-mau-phan-dut
+checker: agent-Vf13jB
+checked_at: 2026-11-08
+content_sha256: "cedc5907040b3810be4f382a5b441eae61c1d1050b82b89cc3bd5e9dc7d301ce"
+result: fail
+claims:
+  - text: "Thời gian vàng vi phẫu nối chi thể trong 6 đến 8 giờ đầu"
+    source_url: "http://phacdo.soytequangninh.gov.vn/news/tin-tuc-su-kien/benh-vien-bai-chay-vi-phau-tai-lap-tuan-hoan-trong-thoi-gian-vang-bao-ton-ban-ngon-tay-bi-chan-thuong-phuc-tap-dut-gan-roi-cho-nguoi-benh-tai-nan-lao-dong.html"
+    quote: "“thời gian vàng” để thực hiện vi phẫu nối chi thể đạt hiệu quả cao nhất thường trong vòng 6–8 giờ đầu kể từ khi xảy ra tổn thương, đặc biệt với các trường hợp đứt rời hoàn toàn."
+    verdict: match
+    note: "Bài đăng 2026/03/04. Mục bỏ 'đặc biệt với đứt rời hoàn toàn' và 'thời gian có thể kéo dài hơn khi bảo quản lạnh đúng cách' (phần sau có trong mục)."
+  - text: "Ép cầm máu: băng ép (mục dùng 'ép mạnh')"
+    source_url: "http://phacdo.soytequangninh.gov.vn/news/tin-tuc-su-kien/benh-vien-bai-chay-vi-phau-tai-lap-tuan-hoan-trong-thoi-gian-vang-bao-ton-ban-ngon-tay-bi-chan-thuong-phuc-tap-dut-gan-roi-cho-nguoi-benh-tai-nan-lao-dong.html"
+    quote: "Sử dụng băng hoặc vải sạch để băng ép nhẹ nhàng vùng chảy máu."
+    verdict: mismatch
+    note: "Nguồn: 'băng ép nhẹ nhàng'. Steps[0], tldr và 'Nói dễ hiểu' viết 'Ép mạnh'. Phần 'Lợi ích' của chính mục lại ghi 'Băng ép nhẹ vùng chảy máu'. Mâu thuẫn nội bộ và lệch nguồn."
+  - text: "Garo: nếu đã dùng garo thì nới lỏng garo và tới viện trong vòng 2 giờ"
+    source_url: "http://phacdo.soytequangninh.gov.vn/news/tin-tuc-su-kien/benh-vien-bai-chay-vi-phau-tai-lap-tuan-hoan-trong-thoi-gian-vang-bao-ton-ban-ngon-tay-bi-chan-thuong-phuc-tap-dut-gan-roi-cho-nguoi-benh-tai-nan-lao-dong.html"
+    quote: "Trong trường hợp máu chảy nhiều, có thể dùng garo, nhưng phải đảm bảo nới lỏng garo và đến bệnh viện trong vòng 2 giờ."
+    verdict: partial
+    note: "Khớp chữ nguồn, nhưng thiếu điều kiện: nguồn chỉ cho garo khi 'máu chảy nhiều' (ép không cầm); mục 12 cùng chương (QĐ 636/QĐ-BYT mục 4.6) nói 'nới ga rô chỉ do nhân viên y tế làm'. Mục 47 steps để người dân tự nới → mâu thuẫn hướng dẫn trong cùng chương; xem potential_harm."
+  - text: "Rửa phần đứt bằng nước muối sinh lý hoặc nước sạch, bọc vải/gạc sạch, cho vào túi nilon sạch"
+    source_url: "http://phacdo.soytequangninh.gov.vn/news/tin-tuc-su-kien/benh-vien-bai-chay-vi-phau-tai-lap-tuan-hoan-trong-thoi-gian-vang-bao-ton-ban-ngon-tay-bi-chan-thuong-phuc-tap-dut-gan-roi-cho-nguoi-benh-tai-nan-lao-dong.html"
+    quote: "Nhanh chóng rửa chi thể đứt rời bằng nước muối sinh lý hoặc nước sạch. + Bọc chi thể trong một lớp vải sạch hoặc gạc y tế. + Bảo quản trong túi linon sạch"
+    verdict: match
+    note: "Nguồn không nói 'gạc ẩm'. 'Gạc ẩm' là của AAOS OrthoInfo ('Cover it in a moistened gauze wrap'), nhưng Việt Đức dặn không ngâm/không làm ướt, nguồn VN ghi 'gạc sạch'. Steps[1] ghi 'gạc sạch (gạc ẩm)' là trộn nguồn không gắn nhãn."
+  - text: "Đặt túi trong thùng nước đá đang tan, tỉ lệ đá/nước 1/4; không để chạm trực tiếp đá"
+    source_url: "http://phacdo.soytequangninh.gov.vn/news/tin-tuc-su-kien/benh-vien-bai-chay-vi-phau-tai-lap-tuan-hoan-trong-thoi-gian-vang-bao-ton-ban-ngon-tay-bi-chan-thuong-phuc-tap-dut-gan-roi-cho-nguoi-benh-tai-nan-lao-dong.html"
+    quote: "đặt túi trong thùng nước đá lạnh đang tan (tỉ lệ đá/nước là ¼). Lưu ý: Tránh để chi thể tiếp xúc trực tiếp với đá."
+    verdict: match
+    note: "Việt Đức hướng dẫn khác: 'đặt vào một túi khác có chứa đá lạnh' (không đề cập nước đá/tỉ lệ). AAOS: 'Place the bag on ice in a sealed container ... Do not allow the amputated part to be in direct contact with ice.' Ba nguồn cùng ý chính: túi kín, không chạm đá."
+  - text: "Việt Đức dặn không rửa, không ngâm phần đứt vào bất kỳ dung dịch nào; bọc gạc sạch, túi nylon buộc kín, đặt vào túi khác có đá lạnh"
+    source_url: "https://benhvienvietduc.org/ky-tich-lan-dau-tien-tai-viet-nam-vi-phau-thuat-thanh-cong-cuu-song-ngon-tay-thuy-thu-bi-dut-roi-sau-25-gio.html"
+    quote: "Không rửa, không ngâm chi thể đứt rời vào bất kỳ dung dịch nào. Trong trường hợp phần đứt rời trong môi trường bẩn nhiều dị vật, có thể rửa dưới vòi nước sạch, tốt hơn là nước uống tinh khiết hoặc nước đun sôi để nguội."
+    verdict: match
+    note: "Việt Đức cho rửa dưới nước sạch khi bẩn; 'tốt hơn là nước uống tinh khiết hoặc nước đun sôi để nguội', mục chỉ ghi 'vòi nước sạch'. Phần bẩn đất: mục nói 'rửa nhanh dưới vòi nước sạch', chấp nhận được nhưng bỏ gợi ý nước tinh khiết."
+  - text: "Ca nối lại ngón trỏ sau 25 giờ nhờ bảo quản trong bình giữ nhiệt trên tàu"
+    source_url: "https://benhvienvietduc.org/ky-tich-lan-dau-tien-tai-viet-nam-vi-phau-thuat-thanh-cong-cuu-song-ngon-tay-thuy-thu-bi-dut-roi-sau-25-gio.html"
+    quote: "Tổng thời gian thiếu máu lên tới 25 giờ."
+    verdict: match
+    note: "Nguồn: 'phần chi thể đứt rời đã được sơ cứu – bảo quản đúng cách' và 'được đặt vào bình giữ nhiệt'; tiêu đề: 'lần đầu tiên tại Việt Nam'. Là một ca đơn lẻ, mục dùng để nói 'quá giờ vẫn phải đi' là suy ra từ ca này."
+  - text: "Quá 8 giờ vẫn phải đưa tới nơi có vi phẫu"
+    source_url: "http://phacdo.soytequangninh.gov.vn/news/tin-tuc-su-kien/benh-vien-bai-chay-vi-phau-tai-lap-tuan-hoan-trong-thoi-gian-vang-bao-ton-ban-ngon-tay-bi-chan-thuong-phuc-tap-dut-gan-roi-cho-nguoi-benh-tai-nan-lao-dong.html"
+    quote: "việc đưa người bệnh đến cơ sở y tế có khả năng thực hiện vi phẫu càng sớm càng tốt vẫn là yếu tố quyết định."
+    verdict: inference
+    note: "Nguồn nói 'càng sớm càng tốt', không nói 'quá 8 giờ vẫn phải đi'. Ca 25 giờ ủng hộ nhưng là suy ra; nên gắn nhãn."
+  - text: "Đưa tới khoa CTCH/tạo hình có kính vi phẫu. Không dừng ở trạm y tế xã hay bệnh viện huyện."
+    source_url: "https://benhvienvietduc.org/ky-tich-lan-dau-tien-tai-viet-nam-vi-phau-thuat-thanh-cong-cuu-song-ngon-tay-thuy-thu-bi-dut-roi-sau-25-gio.html"
+    quote: "Đưa người bị nạn đến cơ sở y tế gần nhất để được xử trí và hướng dẫn tiếp theo."
+    verdict: mismatch
+    note: "Việt Đức dặn 'cơ sở y tế gần nhất'; Bãi Cháy: 'Nhanh chóng đến cơ sở Y tế gần nhất' (cùng câu có 'cơ sở y tế có khả năng thực hiện vi phẫu' ở đoạn trước). Mục viết 'Không dừng ở trạm y tế xã' đối nghịch với chữ cả hai nguồn và 'Bẫy 3' là diễn giải của người soạn, không có nguồn. Nội dung thực tế (ưu tiên nơi có vi phẫu) phù hợp AAOS ('preferably at a hospital that has hand specialists immediately available') nhưng cần sơ cứu/cầm máu đầu tiên ở cơ sở gần nhất nếu chảy máu nhiều."
+  - text: "Ngón chân (tiêu đề) cũng áp dụng"
+    source_url: "https://orthoinfo.aaos.org/en/diseases--conditions/fingertip-injuries-and-amputations"
+    quote: "If your fingertip is completely cut off, do the following: Gently clean the amputated part with water or, if possible, with sterile saline solution. Cover it in a moistened gauze wrap."
+    verdict: partial
+    note: "Cả hai nguồn VN chỉ nói ngón tay/bàn tay. Ngón chân và chi thể khác là suy rộng; hướng dẫn chung chi thể đứt rời cùng nguyên tắc nhưng chưa có nguồn trực tiếp cho ngón chân. Tóm tắt Việt: AAOS: rửa nhẹ bằng nước/nước muối vô trùng, bọc gạc ẩm, túi kín, đặt trên đá, không chạm trực tiếp."
+  - text: "Bẫy 1: nước đá làm mô lạnh cóng; nước làm dây chằng trương lên, cả hai làm hỏng phần đứt"
+    source_url: "https://benhvienvietduc.org/ky-tich-lan-dau-tien-tai-viet-nam-vi-phau-thuat-thanh-cong-cuu-song-ngon-tay-thuy-thu-bi-dut-roi-sau-25-gio.html"
+    quote: "tránh tiếp xúc trực tiếp với đá lạnh"
+    verdict: inference
+    note: "Cơ chế 'lạnh cóng'/'dây chằng trương' không có trong nguồn. AAOS: 'You could damage it further.' Nên bỏ phần cơ chế hoặc gắn nhãn suy ra."
+internal_checks:
+  - issue: "Mâu thuẫn nội bộ: tldr, steps[0], 'Nói dễ hiểu' ghi 'Ép mạnh'; 'Lợi ích' ghi 'Băng ép nhẹ vùng chảy máu' (đúng nguồn Bãi Cháy)."
+    severity: error
+  - issue: "Mâu thuẫn trong chương: steps[0] và Bẫy 2 bảo người dân nới garo và tới viện trong 2 giờ; mục 12 (chay-mau-nhieu-an-manh-len-vet-thuong-neu-o-tay-chan) nói 'Không tự nới ga rô', 'Nới ga rô chỉ do nhân viên y tế làm' (QĐ 636/QĐ-BYT). Mục 47 tự thừa nhận mâu thuẫn trong Bẫy 2 nhưng steps vẫn giữ lệnh 'phải nới lỏng garo'."
+    severity: error
+  - issue: "Số liệu 6-8 giờ, 2 giờ, 1/4, 25 giờ đều có trong thân và khớp nguồn; không có mâu thuẫn giữa các con số."
+    severity: warn
+  - issue: "Tỉ lệ 1/4 'đá và nước' trong steps[2] nguồn ghi 'đá/nước là ¼'. Khớp chữ nhưng mơ hồ (1 phần đá : 4 phần nước hay ngược lại); mục không làm rõ."
+    severity: warn
+  - issue: "steps không có bước gọi 115/cấp cứu và không nói người bị nạn chảy nhiều máu hoặc có chấn thương khác thì ưu tiên cầm máu/gọi cấp cứu trước; nguồn VN cũng không có. Dù vậy cần thêm điều kiện để tránh trì hoãn."
+    severity: warn
+  - issue: "Mục dẫn related tới mục 12 bằng link nhưng không thống nhất nội dung (xem trên)."
+    severity: warn
+  - issue: "Nguồn chính là tin bệnh viện (bài báo bệnh viện Bãi Cháy, Việt Đức), không phải hướng dẫn Bộ Y tế/AHA/ERC; chỉ có AAOS đối chiếu độc lập."
+    severity: warn
+validity:
+  doc: "Bệnh viện Bãi Cháy (04/03/2026); Bệnh viện Hữu nghị Việt Đức (09/12/2025); đối chiếu AAOS OrthoInfo"
+  in_force: unconfirmed
+  effective_from: "2026-03-04"
+  amended_by: []
+  basis: "Hướng dẫn y tế không có ngày hiệu lực. Hai bài tin bệnh viện mới (2025-2026). AAOS OrthoInfo nhất quán ở nguyên tắc túi kín, không chạm đá; khác ở 'gạc ẩm' (AAOS) và 'không rửa/ngâm' (Việt Đức). Không có hướng dẫn Bộ Y tế VN riêng cho bảo quản chi đứt rời trong phạm vi kiểm."
+deliberate_vn_deviation:
+  - "Việt Đức: không rửa, không ngâm phần đứt; Bãi Cháy: rửa nước muối sinh lý hoặc nước sạch; AAOS: rửa nhẹ bằng nước/nước muối vô trùng, bọc gạc ẩm. Ba nguồn không thống nhất; mục chọn 'bọc luôn nếu sạch, rửa nhanh nếu bẩn', là một cách hòa giải của người soạn."
+potential_harm:
+  - "steps[0]/tldr 'Ép mạnh' chỗ chảy máu: nguồn Bãi Cháy 'băng ép nhẹ nhàng'. Với ngón đứt gần rời, ép mạnh có thể làm tổn thương thêm mô còn sống. Nếu chảy máu nặng, hướng dẫn chuẩn là ép trực tiếp chắc; cần giữ nhất quán và ghi điều kiện."
+  - "steps[0] 'Nếu đã dùng garo thì phải nới lỏng garo': người dân tự nới garo khi mất máu nặng có thể chảy máu lại nguy hiểm; mâu thuẫn mục 12 (chỉ nhân viên y tế nới)."
+  - "steps[3] 'Không dừng ở trạm y tế xã hay bệnh viện huyện... Làm vậy mất vài giờ': nếu người bị nạn chảy máu nặng, sốc, hoặc cách xa bệnh viện có vi phẫu, bỏ qua cơ sở gần nhất có thể làm chậm cầm máu/cứu mạng; cả hai nguồn dẫn đều viết 'cơ sở y tế gần nhất'. Tính mạng người bị nạn ưu tiên hơn ngón tay."
+  - "steps[1] 'gạc ẩm' đi cùng 'Bọc... cho vào túi': người dân có thể làm ướt phần đứt rồi cho nước vào túi; Việt Đức dặn tránh nước, AAOS dặn túi kín không rách để nước vào. Thiếu cảnh báo túi phải kín nước."
+suggested_edits:
+  - "tldr, steps[0], 'Nói dễ hiểu': đổi 'Ép mạnh' thành 'Băng ép chắc nhưng nhẹ nhàng' hoặc ghi rõ 'ép trực tiếp liên tục; nếu máu vẫn chảy nhiều và ép không cầm thì gọi 115'; dựa quote Bãi Cháy 'băng ép nhẹ nhàng vùng chảy máu'."
+  - "steps[0]: bỏ lệnh 'phải nới lỏng garo' dành cho người dân; thay bằng 'Nếu máu chảy nhiều và ép không cầm mới dùng garo, ghi giờ đặt, đưa tới viện trong vòng 2 giờ; không tự nới (xem mục 12); nhân viên y tế sẽ nới'. Dẫn quote Bãi Cháy 'có thể dùng garo, nhưng phải đảm bảo nới lỏng garo và đến bệnh viện trong vòng 2 giờ' và gắn nhãn khác biệt."
+  - "steps[3] và Bẫy 3: sửa thành 'Gọi 115 hoặc đến cơ sở y tế gần nhất để cầm máu, đồng thời yêu cầu chuyển tới nơi có vi phẫu' và bỏ lời khuyên 'không dừng ở trạm y tế'; dựa quote Việt Đức 'Đưa người bị nạn đến cơ sở y tế gần nhất để được xử trí và hướng dẫn tiếp theo'."
+  - "steps[1]: bỏ '(gạc ẩm)' hoặc ghi rõ 'gạc hơi ẩm nước muối sinh lý (AAOS)' kèm 'túi kín không rách, không để nước vào túi' và nêu khác biệt Việt Đức/Bãi Cháy/AAOS."
+  - "Tiêu đề/tldr: bỏ 'ngón chân' hoặc gắn nhãn suy ra (nguồn chỉ nói ngón tay/bàn tay); bỏ cơ chế 'lạnh cóng', 'dây chằng trương lên' ở Bẫy 1 hoặc gắn nhãn suy ra; ghi 'quá 8 giờ vẫn nên đi' là suy ra từ ca 25 giờ."

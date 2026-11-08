@@ -1,0 +1,82 @@
+id: nguoi-dai-thao-duong-dot-nhien-run-ray-va-mo-hoi-noi
+checker: agent-Vf13dA
+checked_at: 2026-11-08
+content_sha256: "353d95a2166cb39a8f6fc5175b6ec212ebd2d59c0717ad69d051655d58351709"
+result: pass-with-edits
+claims:
+  - text: "Hạ đường huyết khi glucose huyết tương dưới 70 mg/dL (3,9 mmol/L)"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "Hạ đường huyết được định nghĩa khi nồng độ glucose huyết tương thấp dưới 70 mg/dL (hay 3,9 mmol/L)"
+    verdict: match
+    note: "CDC: 'Blood sugar below 70 mg/dL is considered low.'"
+  - text: "Cho 15 g glucose đường miệng; tương đương 3 thìa cà phê đường hoặc mật ong pha nước"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "Khi đường máu < 70 mg/dL cần cung cấp ngay 15g glucose đường miệng. Tương đương 3 thìa cà phê đường hoặc mật ong pha trong nước hoặc 1 cốc (300 ml) nước trái cây (như táo nho) hoặc 3 chiếc bánh quy."
+    verdict: match
+    note: "Phần 'Lợi ích' của mục chép đúng ý này. CDC dùng '1 tablespoon of sugar' (~12-15 g) hoặc 4 oz (1/2 cup) nước ép/soda thường, 3-4 viên glucose; HCDC '3 thìa cà phê' ~ 1 thìa canh, khớp."
+  - text: "steps[0]: '15 g đường (3 thìa cà phê đường pha nước, nửa cốc nước ngọt hoặc 3 viên kẹo)'"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "1 cốc (300 ml) nước trái cây (như táo nho) hoặc 3 chiếc bánh quy"
+    verdict: mismatch
+    note: "Nguồn HCDC KHÔNG có 'nửa cốc nước ngọt' hay '3 viên kẹo'; nguồn nói 1 cốc 300 ml nước trái cây hoặc 3 bánh quy. Hai quy đổi trong steps tự thêm, lệch với thân (thân ghi 'một cốc 300 ml nước trái cây, 3 chiếc bánh quy') => mâu thuẫn nội bộ. CDC: '4 ounces (½ cup) of juice or regular (non-diet) soda' (nên 'nửa cốc nước ngọt' ĐÚNG theo CDC nếu là nước ngọt thường/nước ép, không phải của HCDC) và 'Hard candies, jellybeans, or gumdrops (see food label for how much to eat)' (kẹo phải xem nhãn; '3 viên' không có căn cứ, một viên kẹo cứng thường chỉ ~4 g)."
+  - text: "Kiểm tra lại sau 15 phút; còn thấp thì lặp lại 15 g"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "Kiểm tra lại đường máu sau 15 phút. Nếu vẫn thấp lặp lại 15g glucose."
+    verdict: match
+    note: "CDC: 'Check your blood sugar again. If it's still less than 70 mg/dL, repeat this process.' (CDC: lặp đến khi ổn, không giới hạn hai lần)."
+  - text: "Không dùng thực phẩm nhiều chất béo hoặc đạm"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "Tuyệt đối không dùng thực phẩm nhiều chất béo hoặc protein vì sẽ làm chậm hấp thu glucose"
+    verdict: match
+    note: "CDC: 'foods high in fat ... can slow down how fast you can absorb sugars'. Lưu ý: sau khi ổn, CDC/HCDC bảo ăn nhẹ có carb+protein; Bẫy 3 của mục có nói."
+  - text: "Không cải thiện sau hai lần xử trí thì đưa tới cơ sở y tế"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "Nếu tình trạng không cải thiện sau hai lần xử trí cần đưa ngay người bệnh đến cơ sở y tế gần nhất."
+    verdict: match
+    note: "Ghi chú: CDC không đặt giới hạn 2 lần; bản VN thận trọng hơn (an toàn)."
+  - text: "Người rối loạn ý thức/hôn mê: không cho ăn uống; có glucagon thì tiêm bắp 1 mg rồi gọi cấp cứu"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "Tuyệt đối không cho ăn uống vì có thể gây sặc vào đường hô hấp dẫn đến nguy hiểm cho tính mạng. Nếu có sẵn tiêm bắp Glucagon 1 mg cần được thực hiện ngay."
+    verdict: match
+    note: "CDC: 'Injectable glucagon is the best way to treat severely low blood sugar ... Contact a doctor for emergency medical treatment immediately after a glucagon injection.' Liều 1 mg là liều người lớn/trẻ >=25 kg theo nhãn; nguồn HCDC không nêu giới hạn trẻ nhỏ (mục không nói trẻ). Thêm 'liều theo nhãn thuốc' là hợp lý."
+  - text: "Quy tắc 15-15 / quyết định 5481/QĐ-BYT ngày 30/12/2020 là nguồn của bài"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "Quyết định 5481/QĐ-BYT ngày 30/12/2020 của Bộ Y tế về việc ban hành tài liệu chuyên môn “Hướng dẫn chẩn đoán và điều trị đái tháo đường típ 2”"
+    verdict: match
+    note: "Chỉ khớp việc bài HCDC có liệt kê quyết định này trong tài liệu tham khảo. Chưa mở toàn văn QĐ 5481; mục đã tự thừa nhận. Bài HCDC cập nhật 15/11/2025 (mục ghi 'tra 3/11/2026': cập nhật bài sau ngày... không mâu thuẫn)."
+  - text: "Người còn tỉnh nhưng không có máy đo: vẫn cho đường (Chi phí)"
+    source_url: https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html
+    quote: "Have 15 grams of carbs, then wait 15 minutes. Check your blood sugar again."
+    verdict: inference
+    note: "Cả hai nguồn đều nói 'kiểm tra lại đường máu' bằng máy; câu 'không có máy vẫn cho đường' là suy ra (hợp lý, mới lấy triệu chứng làm mốc) và mục không nói phải làm gì sau 15 phút nếu không đo được (dựa triệu chứng, lặp lại nếu vẫn run/lú lẫn)."
+  - text: "Bẫy 2 / Lợi ích: không cho người lú lẫn uống nước đường vì sặc"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "Tuyệt đối không cho ăn uống vì có thể gây sặc vào đường hô hấp"
+    verdict: partial
+    note: "Nguồn nói 'rối loạn ý thức, hôn mê'. Mục tldr/steps viết 'lú lẫn hoặc mê man: không đút ăn uống gì'. Người chỉ hơi lú lẫn nhưng còn tự nuốt được thường vẫn được cho đường (CDC: 'If the person is awake and able to swallow'); 'lú lẫn' là dấu hiệu chính của hạ đường huyết nên bước này có thể làm người nhẹ-vừa bị bỏ sót điều trị. Cần phân biệt: lú lẫn nhưng còn nuốt tốt và tự ngồi được vs. không tỉnh/không nuốt được."
+internal_checks:
+  - issue: "steps[0] (nửa cốc nước ngọt, 3 viên kẹo) mâu thuẫn với mục 'Lợi ích' (1 cốc 300 ml nước trái cây, 3 bánh quy) và với nguồn HCDC; 'nửa cốc nước ngọt' lại khớp CDC nhưng 'nửa cốc' ~120 ml khác 300 ml nước trái cây của nguồn VN. Số liệu cùng một thứ nói khác nhau trong cùng mục."
+    severity: error
+  - issue: "'3 viên kẹo' không có trong thân lẫn nguồn VN; CDC nói phải xem nhãn."
+    severity: error
+  - issue: "tldr/steps nói 'còn thấp thì lặp lại 15 g một lần nữa' (steps[1]) và steps[3] 'không cải thiện sau hai lần xử trí thì đi cơ sở y tế'. Nhất quán với nguồn VN, nhưng CDC cho lặp đến khi hết thấp; không mâu thuẫn."
+    severity: warn
+  - issue: "legal_refs rỗng; mục dẫn 'Quyết định 5481/QĐ-BYT' trong thân/nguồn nhưng chưa mở toàn văn, nên không có claim pháp lý được kiểm."
+    severity: warn
+validity:
+  doc: "HCDC TP.HCM 'Xử trí hạ đường huyết' (cập nhật 15/11/2025), dẫn QĐ 5481/QĐ-BYT 30/12/2020 và ADA/CDC; đối chiếu CDC 'Treatment of Low Blood Sugar (Hypoglycemia)' (14/05/2024)"
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: "Hướng dẫn y tế không có ngày hiệu lực. HCDC cập nhật 15/11/2025; CDC ngày 14-15/05/2024. Không mở được toàn văn QĐ 5481/QĐ-BYT nên không xác nhận hiệu lực/sửa đổi của nó."
+deliberate_vn_deviation:
+  - "CDC: không nói 'lặp đến hết 2 lần rồi đi viện'; HCDC giới hạn hai lần trước khi đưa tới cơ sở y tế. Lệch theo hướng thận trọng, không nguy hiểm."
+  - "CDC liệt kê '4 ounces (½ cup) of juice or regular soda'; HCDC liệt kê 1 cốc 300 ml nước trái cây (nhiều hơn 15 g). Lệch số lượng giữa hai nguồn; mục chọn lẫn cả hai."
+potential_harm:
+  - "steps[0] '3 viên kẹo' không đảm bảo 15 g carb (kẹo cứng ~4 g/viên, nhãn phải xem) nên có thể điều trị thiếu liều và hạ đường huyết kéo dài; người đọc làm đúng nguyên văn có thể không đạt mục tiêu 15 g."
+  - "steps[4] 'Người lú lẫn hoặc mê man: không đút ăn uống gì' mở rộng nguồn ('rối loạn ý thức, hôn mê'): người lú lẫn nhẹ nhưng còn nuốt tốt có thể bị bỏ qua bước cho đường (chậm xử trí)."
+suggested_edits:
+  - "steps[0]: sửa thành '15 g đường (3 thìa cà phê đường hoặc mật ong pha nước; hoặc nửa cốc nước ép/nước ngọt thường, loại có đường; hoặc viên glucose theo nhãn)' và bỏ '3 viên kẹo' hoặc thêm 'xem nhãn để đủ 15 g'. Dựa quote CDC: '4 ounces (½ cup) of juice or regular (non-diet) soda.' và 'Hard candies, jellybeans, or gumdrops (see food label for how much to eat).'"
+  - "Phần Lợi ích: ghi rõ HCDC nói 1 cốc 300 ml nước trái cây có 15 g và CDC nói 1/2 cốc; chọn một con số và nêu nguồn, để steps khớp thân."
+  - "steps[4]: thay 'lú lẫn hoặc mê man' thành 'không tỉnh, không nuốt được hoặc co giật' (nguồn: 'rối loạn ý thức, hôn mê'); người lú lẫn nhưng nuốt được thì vẫn cho đường như trên và gọi 115."
+  - "Chi phí: nêu cách làm khi không có máy đo (dựa triệu chứng, nhưng vẫn sau 15 phút nếu còn run/lú thì lặp lại) và ghi 'suy ra' vì nguồn chỉ nói kiểm tra bằng đường máu."

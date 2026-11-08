@@ -1,0 +1,101 @@
+id: run-ray-noi-ngong-di-loang-choang-la-ha-than-nhiet-thay
+checker: agent-Vf13fB
+checked_at: 2026-11-08
+content_sha256: "0a3bb61fc2985609cb476e478d4d5818ad0e337a013f6e5c3c06007caae4c914"
+result: fail
+claims:
+  - text: "Hạ thân nhiệt là thân nhiệt dưới 35 độ"
+    source_url: https://suckhoedoisong.vn/cap-cuu-nguoi-bi-ha-than-nhiet-the-nao-16989762.htm
+    quote: "Hạ thân nhiệt là tình trạng nhiệt độ bên trong cơ thể xuống dưới 35oC."
+    verdict: match
+    note: "Báo Sức khỏe và Đời sống 03/01/2015 (BS Trần Thanh Tâm). NHS cũng: 'a dangerous drop in body temperature below 35C'. Bài Bạch Mai 07/02/2017: 'dưới 35 độ hoặc hơn'. Mục ghi 'nhiệt độ bên trong'. Người đọc không đo được thân nhiệt trung tâm tại chỗ."
+  - text: "Dấu hiệu: da lạnh, ngón tay và môi xanh, giảm tỉnh táo, lú lẫn nhẹ, nói lắp; người cao tuổi có thể không rùng mình hay kêu lạnh"
+    source_url: https://chanthuongvacotsong.bachmai.gov.vn/ha-than-nhiet-o-nguoi-cao-tuoi-va-cach-xu-tri/
+    quote: "Trong giai đoạn đầu của hạ thân nhiệt, da lạnh, có thể có ngón tay và môi xanh, giảm sự tỉnh táo, lú lẫn nhẹ, nói lắp. Tuy nhiên, luôn nhớ rằng những người cao tuổi bị hạ thân nhiệt có thể không rùng mình hay phàn nàn về cảm giác lạnh"
+    verdict: match
+    note: "Trang của Khoa Chấn thương chỉnh hình và Cột sống BV Bạch Mai; cuối bài ghi '(Theo health.gov.il)' — dịch từ Bộ Y tế Israel, không phải hướng dẫn Bộ Y tế Việt Nam."
+  - text: "Xử trí theo Bạch Mai: gọi trợ giúp y tế, đưa tới nơi ấm và khô, thay ngay quần áo ướt, cuộn trong chăn, nằm yên, uống nước ấm"
+    source_url: https://chanthuongvacotsong.bachmai.gov.vn/ha-than-nhiet-o-nguoi-cao-tuoi-va-cach-xu-tri/
+    quote: "Gọi trợ giúp y tế ngay lập tức tại nhà và/hoặc đi đến bệnh viện ngay lập tức; Trước khi sự hỗ trợ y tế, cần: Nhẹ nhàng di chuyển người cao tuổi đến một nơi ấm và khô; Nếu quần áo đang mặc bị ướt phải thay ngay quần áo khô và cuộn người trong chăn để giữ ấm; Để họ nằm yên, không trở người nhiều, cho uống ngay nước ấm (trà gừng ấm, sữa ấm…)."
+    verdict: partial
+    note: "Nguồn bắt đầu bằng 'Gọi trợ giúp y tế ngay lập tức ... và/hoặc đi đến bệnh viện ngay lập tức' khi nghi ngờ hạ thân nhiệt, và là cho người cao tuổi. Mục chuyển lệnh gọi thành bước 4 và chỉ khi 'lú lẫn, gọi không đáp'. Lệnh 'nhẹ nhàng, không trở người nhiều' không có trong steps."
+  - text: "Đắp gạc ấm lên cổ, lồng ngực và háng; không chườm nóng trực tiếp"
+    source_url: https://suckhoedoisong.vn/cap-cuu-nguoi-bi-ha-than-nhiet-the-nao-16989762.htm
+    quote: "Đắp gạc ấm lên cổ, lồng ngực và háng của bệnh nhân."
+    verdict: match-secondary
+    note: "Đúng chữ bài báo SKĐS (2015), nhưng không có trong ERC 2025, NHS hay Red Cross (mục hạ thân nhiệt của ERC chỉ liệt kê: bỏ quần áo ướt, bọc chăn cách nhiệt, chắn gió, cách ly khỏi nền đất lạnh). Báo không phải nguồn y tế theo EDITORIAL §3.5."
+  - text: "Không làm ấm tay chân trước vì máu lạnh dồn về tim, phổi, não"
+    source_url: https://suckhoedoisong.vn/cap-cuu-nguoi-bi-ha-than-nhiet-the-nao-16989762.htm
+    quote: "Không cố làm ấm tay và chân, bởi làm nóng tay và chân thúc đẩy máu lạnh trở về tim, phổi và não, gây hạ thân nhiệt trung tâm, có thể gây tử vong."
+    verdict: match-secondary
+    note: "Khớp bài SKĐS. NHS chỉ nói 'do not rub their arms, legs, feet or hands' và 'do not use a hot bath, hot water bottle or heat lamp'; không nêu cơ chế dồn máu lạnh. Không tìm thấy trong ERC 2025 First Aid."
+  - text: "Không cho uống rượu, không xoa bóp hay chà xát"
+    source_url: https://www.nhs.uk/conditions/hypothermia
+    quote: "do not give them alcohol to drink; do not rub their arms, legs, feet or hands"
+    verdict: match
+    note: "NHS 'Hypothermia' (sửa lần cuối 22/05/2025). Tóm tắt: không rượu, không chà xát tay chân. Khớp cả bài SKĐS."
+  - text: "Cho uống nước ấm từng ngụm"
+    source_url: https://www.nhs.uk/conditions/hypothermia
+    quote: "give them a warm non-alcoholic drink and some sugary food like chocolate if they're fully awake"
+    verdict: partial
+    note: "NHS chỉ cho uống nếu người bệnh 'fully awake' (tỉnh hoàn toàn). Mục không có điều kiện 'tỉnh táo, nuốt được', trong khi chính mục nói người này có thể 'nói ngọng, đi loạng choạng, lú lẫn'. Bạch Mai viết 'cho uống ngay nước ấm' cho người còn tỉnh; không có điều kiện này trong steps."
+  - text: "Mốc thân nhiệt: trên 33 độ chỉ cần ủ ấm; từ 28 đến 33 độ chuyển viện; dưới 28 độ điều trị tuần hoàn ngoài cơ thể"
+    source_url: https://suckhoedoisong.vn/cap-cuu-nguoi-bi-ha-than-nhiet-the-nao-16989762.htm
+    quote: "Nếu bệnh nhân có thân nhiệt trên 33oC thì chỉ cần dùng các biện pháp ủ ấm thông thường như mặc thêm quần áo ấm, uống nước ấm, đắp gạc ấm là đủ. Cần chuyển nhanh đến bệnh viện điều trị các trường hợp: thân nhiệt từ 28 - 33oC: ... Dưới 28oC: phải điều trị bằng tuần hoàn ngoài cơ thể, thay thế thận hoặc lọc màng bụng."
+    verdict: match-secondary
+    note: "Đúng chữ SKĐS 2015. NHS: 'It's a medical emergency that needs to be treated in hospital... Go to A&E or call 999 if you think you or your child have hypothermia.' Tức nguồn quốc tế không cho 'trên 33 độ chỉ ủ ấm là đủ'. Mục kết 'thân nhiệt xuống dưới 33 độ thì phải tới cơ sở y tế' (Ghi chú) là diễn giải ngược lại, và dễ làm người đọc ở nhà ủ ấm người 34 độ không đi viện."
+  - text: "steps/tldr: người lú lẫn, gọi không đáp thì gọi 115 (chỉ khi đó)"
+    source_url: https://www.nhs.uk/conditions/hypothermia
+    quote: "Immediate action required: Go to A&E or call 999 if: you think you or your child have hypothermia"
+    verdict: mismatch
+    note: "NHS: nghi hạ thân nhiệt là gọi cấp cứu ngay, không đợi lú lẫn. Bạch Mai: 'Gọi trợ giúp y tế ngay lập tức'. SKĐS: 'Gọi xe cấp cứu' là bước đầu. Mục đặt gọi 115 là điều kiện 'lú lẫn, gọi không đáp', ngược cả ba nguồn."
+  - text: "Số cấp cứu y tế ở Việt Nam là 115 (Điều 3 khoản 4, Nghị định 200/2025/NĐ-CP)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/200-ndcp.signed.pdf
+    quote: "4. Hoạt động của hệ thống Tổng đài 112: a) Hệ thống Tổng đài 112 liên thông với các Tổng đài 113, 114, 115;"
+    verdict: partial
+    note: "Điều 3 khoản 4 (bản quét, trang 2) chỉ nói tổng đài 112 liên thông với 113, 114, 115, không nói 115 là số cấp cứu y tế. Điều đó nằm ở nguồn Công an Điện Biên (16/12/2025): '115 – Cấp cứu y tế: Sử dụng khi có tai nạn, chấn thương nặng, các tình huống bệnh lý nguy hiểm đến tính mạng cần cấp cứu khẩn cấp.' Trích dẫn pháp lý không đỡ cho khẳng định; nguồn Điện Biên đúng nhưng là trang tuyên truyền của công an tỉnh."
+  - text: "Bẫy 2: rượu làm giãn mạch nên mất nhiệt nhanh hơn"
+    source_url: https://suckhoedoisong.vn/cap-cuu-nguoi-bi-ha-than-nhiet-the-nao-16989762.htm
+    quote: "Không cho người bệnh uống rượu."
+    verdict: inference
+    note: "Nguồn chỉ cấm rượu, không giải thích cơ chế giãn mạch. Mục ghi 'bài hướng dẫn xếp rượu vào việc không được làm, và rượu làm giãn mạch...'; vế sau là suy ra (đúng sinh lý thông thường nhưng không phải chữ nguồn)."
+  - text: "Mục: ủ ấm từ thân trước và thay đồ ướt là việc làm ngay; người lú lẫn, gọi không đáp hoặc dưới 33 độ phải tới cơ sở y tế"
+    source_url: https://suckhoedoisong.vn/cap-cuu-nguoi-bi-ha-than-nhiet-the-nao-16989762.htm
+    quote: "Cách xử lý cấp cứu khi gặp người bị hạ thân nhiệt: Gọi xe cấp cứu. Trong khi chờ người giúp đỡ, cần theo dõi hơi thở của người bệnh. Nếu hơi thở ngừng hay có vẻ chậm hoặc nông trầm trọng, cần hà hơi thổi ngạt ngay."
+    verdict: partial
+    note: "Nguồn mục dẫn đặt 'gọi xe cấp cứu' và 'theo dõi hơi thở, nếu ngừng thì hà hơi thổi ngạt' trước các bước ủ ấm; mục bỏ cả hai (không gọi sớm, không theo dõi hơi thở, không nói 'ngừng thở thì hồi sinh'). ERC 2025: 'If unresponsive and not breathing normally, call... and start CPR'."
+internal_checks:
+  - issue: "Chi phí viết 'Túi chườm hoặc chăn giữ nhiệt thì vài chục nghìn đồng', còn step 2 và Bẫy 1 nói 'không chườm nóng trực tiếp'. Hai chỗ trong cùng mục mâu thuẫn nhau về chườm; người đọc không rõ có dùng túi chườm hay không."
+    severity: warn
+  - issue: "Ngưỡng hạ thân nhiệt dưới 35 độ (Lợi ích) và 'trên 33 độ chỉ cần ủ ấm thông thường' (cùng mục) mâu thuẫn ngầm: người 34 độ là hạ thân nhiệt theo định nghĩa của chính mục nhưng được xếp 'ủ ấm ở nhà'. Mục cũng không nói người đọc đo bằng gì (nguồn Bạch Mai: 'phải sử dụng nhiệt kế y tế', nhiệt kế gia dụng không xác định được)."
+    severity: error
+  - issue: "tldr, steps đặt gọi 115 chỉ khi 'lú lẫn, gọi không đáp', trong khi tiêu đề/steps lại liệt kê 'run rẩy, nói ngọng, đi loạng choạng' là hạ thân nhiệt (đã là dấu hiệu nặng vừa). Các nguồn (NHS, Bạch Mai, SKĐS) đều nói nghi ngờ là gọi cấp cứu."
+    severity: error
+  - issue: "legal_refs[0] (Nghị định 200/2025/NĐ-CP Điều 3 khoản 4) không phải căn cứ cho khẳng định 'Số gọi cấp cứu y tế là 115'; văn bản chỉ nói liên thông 112 với 113/114/115. Phần Pháp luật Việt Nam cũng ghi 'theo mô tả của Công an tỉnh Điện Biên và theo quy định về liên thông', tức dựa vào trang tuyên truyền. URL đúng văn bản 200/2025/NĐ-CP nhưng article không khớp khẳng định."
+    severity: error
+  - issue: "Nguồn y tế chính là một bài báo (SKĐS 2015) và một trang dịch từ Bộ Y tế Israel (Bạch Mai Khoa CTCH 2017); không có AHA/ERC/Bộ Y tế VN. EDITORIAL §3.5: 'không chấp nhận báo/blog'. Nội dung 'gạc ấm lên cổ, ngực, háng' và 'không làm ấm tay chân trước' chỉ có trong báo."
+    severity: error
+  - issue: "Con số trong tldr/steps: không có số nào ngoài 115. Con số 35/33/28 trong thân khớp SKĐS. Không mâu thuẫn số liệu khác."
+    severity: warn
+validity:
+  doc: "Hướng dẫn xử trí hạ thân nhiệt (Bạch Mai 2017; Báo SKĐS 2015; Nghị định 200/2025/NĐ-CP; đối chiếu NHS 2025, ERC 2025 First Aid)"
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: "Các bài nguồn VN cũ (2015, 2017). ERC First Aid 2025 (DOI 10.1016/j.resuscitation.2025.110752) là hướng dẫn mới hơn, nội dung ngắn hơn (bỏ quần áo ướt, bọc chăn cách nhiệt, chắn gió, cách nền lạnh) và không có 'gạc ấm cổ-ngực-háng'. Nghị định 200/2025/NĐ-CP: hiệu lực từ 2025-08-23 (Điều 53 khoản 1) nhưng chưa tra sửa đổi nên unconfirmed. Không đặt true."
+deliberate_vn_deviation:
+  - "VN (SKĐS 2015): 'trên 33 độ chỉ cần ủ ấm thông thường' và 'đắp gạc ấm lên cổ, lồng ngực, háng' và 'không cố làm ấm tay và chân'. Quốc tế (NHS 2025): mọi nghi ngờ hạ thân nhiệt là cấp cứu: 'Go to A&E or call 999'; ERC 2025: 'Prevention of hypothermia ... remove wet clothes and use blankets', cách nhiệt khỏi nền, chắn gió, không có bước 'gạc ấm' hay 'không làm ấm tay chân trước'. Mục theo nguồn VN mà không ghi sự lệch."
+potential_harm:
+  - "steps[3] / tldr: 'Người lú lẫn, gọi không đáp: gọi 115' ngầm báo người run rẩy, nói ngọng, đi loạng choạng (đã là hạ thân nhiệt) thì chưa cần gọi. NHS/Bạch Mai/SKĐS: nghi hạ thân nhiệt là gọi cấp cứu ngay. Người đọc làm đúng chữ có thể chờ tới khi lú lẫn mới gọi, làm chậm cứu chữa."
+  - "Ghi chú: 'thân nhiệt xuống dưới 33 độ thì phải tới cơ sở y tế' cùng 'trên 33 độ chỉ cần ủ ấm' (Lợi ích): người đọc không đo được thân nhiệt trung tâm bằng nhiệt kế gia dụng (Bạch Mai: nhiệt kế gia dụng không xác định hạ thân nhiệt) nhưng được cho một ngưỡng để quyết định có đi viện hay không; nguồn NHS không có ngưỡng này."
+  - "steps[2] 'Cho uống nước ấm từng ngụm' không điều kiện 'tỉnh táo, nuốt được'. Người đang nói ngọng, loạng choạng, lú lẫn có nguy cơ sặc; NHS: 'if they're fully awake'."
+  - "Thiếu bước theo dõi hơi thở và hồi sinh khi ngừng thở/không đáp: SKĐS (nguồn dẫn) và ERC 2025 đều có; mục bỏ hoàn toàn. Người đọc chỉ có 'gọi 115' khi lú lẫn, không có hướng dẫn nếu nạn nhân ngừng thở."
+  - "steps[1] không nói thao tác nhẹ nhàng (SKĐS: 'Các động tác với người bệnh cần phải nhẹ nhàng để tránh nguy cơ ngừng tim'; Bạch Mai: 'không trở người nhiều'). Mục cho lệnh thay đồ ướt, quấn chăn, đắp gạc nhưng không giới hạn thao tác mạnh; ở hạ thân nhiệt nặng, thao tác mạnh có thể gây loạn nhịp."
+suggested_edits:
+  - "tldr, steps[3]: đổi thành 'Nghi hạ thân nhiệt (run lẩy bẩy, nói ngọng, loạng choạng, da lạnh xám): gọi 115 ngay, trong lúc chờ thì thay đồ ướt, ủ ấm. Nếu lú lẫn, không đáp, hoặc ngừng thở: gọi 115, theo dõi hơi thở, ngừng thở thì ép tim theo hướng dẫn tổng đài.' Dựa vào quote NHS 'Go to A&E or call 999 if you think... hypothermia', Bạch Mai 'Gọi trợ giúp y tế ngay lập tức', SKĐS 'Gọi xe cấp cứu... theo dõi hơi thở'."
+  - "steps[2]: 'Chỉ cho uống nước ấm (không rượu) khi người đó tỉnh táo, tự cầm và nuốt được', dựa vào NHS 'if they're fully awake'."
+  - "steps[1]: 'Thay đồ ướt, bọc chăn khô kể cả đầu, cách khỏi nền lạnh, chắn gió; thao tác nhẹ nhàng, không xoa bóp', dựa vào ERC 2025 (Wet clothing removal; Ground isolation; Wind protection) và NHS. Bỏ hoặc dán nhãn 'theo báo SKĐS 2015' cho 'đắp gạc ấm lên cổ-ngực-háng' và 'không làm ấm tay chân trước'."
+  - "Bỏ 'Từ 33 độ... chỉ cần ủ ấm' ra khỏi lời khuyên hành động và bỏ câu 'thân nhiệt xuống dưới 33 độ thì phải tới cơ sở y tế' trong Ghi chú; thay bằng 'mọi nghi hạ thân nhiệt đều cần cơ sở y tế đánh giá' (NHS: 'It's a medical emergency that needs to be treated in hospital')."
+  - "Chi phí: sửa 'Túi chườm' thành 'chăn giữ nhiệt/chăn khô', bỏ 'túi chườm' vì step cấm chườm nóng."
+  - "Pháp luật VN: bỏ legal_refs hoặc thay bằng nguồn đúng cho '115 là cấp cứu y tế' (Bộ Y tế/Cục Quản lý Khám chữa bệnh về tổng đài cấp cứu 115). Nghị định 200/2025 Điều 3 khoản 4 chỉ liệt kê 112 liên thông 113-114-115."
+  - "Nguồn y tế: bổ sung ERC 2025 First Aid hoặc NHS/Red Cross làm nguồn gốc; ghi rõ bài Bạch Mai là bản dịch từ health.gov.il."

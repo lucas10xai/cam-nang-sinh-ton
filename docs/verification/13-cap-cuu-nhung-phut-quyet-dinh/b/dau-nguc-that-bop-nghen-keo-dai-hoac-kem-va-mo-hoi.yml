@@ -1,0 +1,105 @@
+id: dau-nguc-that-bop-nghen-keo-dai-hoac-kem-va-mo-hoi
+checker: agent-Vf13bB
+checked_at: 2026-11-08
+content_sha256: "c6a32d5523d00930ee868f4325d8ded12d912ccec3f3ba82a0613072a5a93eed"
+result: pass-with-edits
+claims:
+  - text: "Cửa sổ can thiệp tính từ lúc khởi phát triệu chứng là 0 đến 12 giờ; can thiệp thì đầu được ưu tiên (mục 4.3)"
+    source_url: http://trungtamytehtn.vn/wp-content/uploads/2021/01/4404-kem-5332Q_-BYT-dong-mach-vanh.pdf
+    quote: "Từ 0 - 12 giờ kể từ khi khởi phát triệu chứng: Can thiệp ĐMV thì đầu được ưu tiên lựa chọn hàng đầu: Nếu bệnh nhân đến bệnh viện có khả năng can thiệp ĐMV thì lựa chọn chiến lược can thiệp ngay."
+    verdict: partial
+    note: "Trích sạch dấu từ text-layer PDF (lỗi mã hóa nhẹ). Văn bản ghi mục 4.2 'Lựa chọn chiến lược tái thông ĐMV', KHÔNG phải 4.3 như mục dẫn. Cùng chỗ đó văn bản còn ghi 'Từ 12 - 48 giờ ... Bắt buộc chỉ định chụp và can thiệp ĐMV thì đầu nếu bệnh nhân có đau ngực tái phát, rối loạn nhịp hoặc huyết động không ổn định' và 'Có thể can thiệp ... cho bệnh nhân nhập viện muộn (12 - 48 giờ)'. Gọi 0-12 giờ là 'cửa sổ' mà không nói sau 12 giờ vẫn còn chỉ định có thể khiến người đọc nghĩ quá 12 giờ là hết cứu. Quyết định 5332 chính thức do trang syt.gialai chỉ phát qua trình xem PDF (không tải được); đã dùng bản PDF ký số cùng số hiệu (Số: 5332/QĐ-BYT, 23/12/2020) hiện trên trungtamytehtn.vn, kèm chữ ký 'Nguyễn Trường Sơn'."
+  - text: "Nếu thời gian từ lúc chẩn đoán tới lúc đưa dây dẫn qua tổn thương dưới 2 giờ thì chuyển tới cơ sở can thiệp"
+    source_url: http://trungtamytehtn.vn/wp-content/uploads/2021/01/4404-kem-5332Q_-BYT-dong-mach-vanh.pdf
+    quote: "Nếu việc chuyển bệnh nhân đến bệnh viện có khả năng can thiệp tính từ lúc được chẩn đoán đến lúc được can thiệp (đưa được dây dẫn qua tổn thương tắc ĐMV) dưới 120 phút thì sẽ chuyển bệnh nhân đến để tiến hành can thiệp."
+    verdict: match
+    note: "Văn bản ghi 120 phút, mục viết 2 giờ: tương đương."
+  - text: "Can thiệp thì đầu nếu dự tính từ lúc tiếp cận NVYT đến lúc mở mạch: không quá 2 giờ (chuyển từ nơi khác), không quá 90 phút (đến thẳng cơ sở can thiệp), lý tưởng không quá 60 phút (đến sớm trong 2 giờ đầu)"
+    source_url: http://trungtamytehtn.vn/wp-content/uploads/2021/01/4404-kem-5332Q_-BYT-dong-mach-vanh.pdf
+    quote: "thời gian dự tính từ lúc tiếp cận với nhân viên y tế ban đầu đến lúc mở thông mạch vành ≤ 120 phút (nếu từ nơi khác chuyển đến) hoặc ≤ 90 phút (nếu bệnh nhân đến ngay cơ sở y tế làm được can thiệp cấp), lý tưởng là ≤ 60 phút đối với các trường hợp NMCT cấp đến sớm ≤ 2 giờ hoặc vùng nhồi máu cơ tim rộng (ví dụ NMCT thành trước)."
+    verdict: match
+    note: "Mục 4.3.2 đúng. Mục bỏ vế 'hoặc vùng nhồi máu rộng (NMCT thành trước)' của mốc 60 phút."
+  - text: "Nếu không can thiệp được kịp: ưu tiên tiêu sợi huyết, tiêm trong vòng 10 phút từ lúc có chẩn đoán, rồi chuyển tới cơ sở can thiệp trong 2 đến 24 giờ"
+    source_url: http://trungtamytehtn.vn/wp-content/uploads/2021/01/4404-kem-5332Q_-BYT-dong-mach-vanh.pdf
+    quote: "Nếu không thể can thiệp cấp cứu trong vòng 120 phút kể từ khi người bệnh tiếp xúc với nhân viên y tế đầu tiên, do quá xa nơi can thiệp (vận chuyển > 2 giờ), thì nên ưu tiên dùng thuốc tiêu sợi huyết, đảm bảo thời gian dự tính từ lúc tiếp cận với nhân viên y tế ban đầu đến lúc tiêm thuốc tiêu sợi huyết ≤ 10 phút, sau đó chuyển người bệnh đến cơ sở gần nhất có khả năng can thiệp trong vòng 2 – 24 giờ."
+    verdict: match
+    note: "Mục 4.3.2. Mốc 10 phút là chỉ tiêu của cơ sở y tế, không phải thời gian người bệnh phải chờ ở nhà (xem internal_checks về Bẫy 2). Tiêu sợi huyết còn có danh sách chống chỉ định ở 4.3.1.2 (mục không nêu; do bác sĩ quyết)."
+  - text: "Thời gian tiêu sợi huyết là trong 12 giờ đầu, nên sớm, đặc biệt trong 4 giờ đầu"
+    source_url: http://trungtamytehtn.vn/wp-content/uploads/2021/01/4404-kem-5332Q_-BYT-dong-mach-vanh.pdf
+    quote: "Trong vòng 12 giờ đầu: Nên tiến hành sớm (đặc biệt trong 4 giờ đầu) nếu các bệnh nhân không thể đến được các trung tâm có can thiệp ĐMV qua da trong vòng 2 giờ kể từ khi được chẩn đoán NMCT cấp có ST chênh lên."
+    verdict: match
+    note: "Mục 4.3.1.3 đúng. Mục dẫn thêm '4.3.1.4' nhưng 4.3.1.4 là 'Chọn thuốc tiêu sợi huyết', không chứa mốc nào trong ngoặc."
+  - text: "Không tự lái xe; gọi 115 (step 1, 3)"
+    source_url: http://trungtamytehtn.vn/wp-content/uploads/2021/01/4404-kem-5332Q_-BYT-dong-mach-vanh.pdf
+    quote: "Nếu bệnh nhân đau ngực nghi ngờ hội chứng động mạch vành cấp thì cần liên lạc ngay với trạm vận chuyển cấp cứu (115). Nếu không có điều kiện, cần có người nhà vận chuyển bệnh nhân. Không khuyến cáo bệnh nhân tự động lái (đi) xe đến bệnh viện."
+    verdict: match
+    note: "Ở chương Hội chứng vành cấp không ST chênh lên, mục 6.2.1 'Trước khi nhập viện'. Văn bản có phương án phụ 'người nhà vận chuyển' khi không có 115; mục không nêu (chấp nhận được). Khớp ERC 2021: 'Call for help'."
+  - text: "Cho người bệnh ngồi nghỉ, nới áo (step 2)"
+    source_url: http://trungtamytehtn.vn/wp-content/uploads/2021/01/4404-kem-5332Q_-BYT-dong-mach-vanh.pdf
+    quote: "Để bệnh nhân nằm nghỉ, tránh vận động nhiều"
+    verdict: partial
+    note: "Mục 6.2.1 của Quyết định 5332 ghi 'nằm nghỉ' (cho nhân viên cấp cứu), không phải 'ngồi nghỉ'. Chữ 'ngồi nghỉ' và 'nới áo' chỉ có trong bài truyền thông HCDC ('cho người bệnh ngồi nghỉ'). ERC 2021 First aid: 'Sit or lie the casualty in a comfortable position' (tóm tắt Việt: cho ngồi hoặc nằm ở tư thế thoải mái). Cả hai hợp lệ; 'nới áo' không có nguồn nào."
+  - text: "Không tự dùng thuốc giảm đau, không chờ xem có đỡ không (step 3, 4); Bẫy 2 bác thuốc giảm đau, thuốc dạ dày"
+    source_url: http://trungtamytequan6.medinet.gov.vn/tim-mach/gio-vang-quyet-dinh-su-song-cmobile17305-250126.aspx
+    quote: "Tuyệt đối không để người bệnh tự lái xe, chần chừ quan sát thêm, tự ý dùng thuốc giảm đau."
+    verdict: match
+    note: "Khớp bài HCDC (30/9/2025), là nguồn truyền thông. Nhưng Quyết định 5332 mục 6.2.1 cho phép 'Có thể cho dùng aspirin liều từ 150-325 mg nếu không có chống chỉ định' khi nhân viên cấp cứu đến, và ERC 2021: 'First aid providers should encourage and assist the casualty in the self-administration of 150–300 mg chewable aspirin as soon as possible after the onset of chest pain' / 'Do not administer aspirin to adults with chest pain of unclear or traumatic aetiology'. Mục không nhắc aspirin: xem potential_harm và deliberate_vn_deviation."
+  - text: "Triệu chứng: đau, nặng ngực lan lên vai, cổ, hàm, cánh tay, kèm vã mồ hôi, buồn nôn, chóng mặt (bài HCDC)"
+    source_url: http://trungtamytequan6.medinet.gov.vn/tim-mach/gio-vang-quyet-dinh-su-song-cmobile17305-250126.aspx
+    quote: "đau, nặng ngực lan lên vai, cổ, hàm, cánh tay; vã mồ hôi, buồn nôn, chóng mặt."
+    verdict: match
+    note: "Bài đăng ngày 30/9/2025 (Cập nhật 8:12, 30/9/2025) của Trung tâm Y tế khu vực Phú Lâm, nguồn tin HCDC. Đây là bài truyền thông, không phải hướng dẫn chuyên môn; không dùng làm nguồn con số."
+  - text: "tldr: đau 'như vật nặng đè', lan lên cổ, hàm, tay trái; title: 'thắt, bóp nghẹn kéo dài'"
+    source_url: http://trungtamytequan6.medinet.gov.vn/tim-mach/gio-vang-quyet-dinh-su-song-cmobile17305-250126.aspx
+    quote: "Không có cụm 'như vật nặng đè', 'bóp nghẹn' hay 'tay trái' trong hai nguồn của mục."
+    verdict: inference
+    note: "Bài HCDC chỉ ghi 'cánh tay'; Quyết định 5332 mục 6.2.1 ghi 'cơn đau ngực kéo dài trên 20 phút' là một mốc chuyển ngay. Mục không nêu 20 phút."
+  - text: "Bẫy 1: cơn đau có thể chuyển thành rối loạn nhịp trên đường, không ai ép tim kịp; xe cấp cứu có máy sốc điện và điều phối được tới cơ sở can thiệp"
+    source_url: http://trungtamytequan6.medinet.gov.vn/tim-mach/gio-vang-quyet-dinh-su-song-cmobile17305-250126.aspx
+    quote: "Không có câu tương ứng trong hai nguồn."
+    verdict: not-found
+    note: "Lý do hợp lý, nhưng là suy ra từ kiến thức chung, không phải chữ của nguồn nào mục dẫn. Bài HCDC có đoạn ép tim/AED khi ngừng tim (100-120 lần/phút, sâu 5-6 cm); mục không có bước xử trí nếu người bệnh ngất, ngừng thở."
+  - text: "Gọi 115 không mất tiền; BHYT trả phần lớn chi phí can thiệp, vật tư có loại phải cùng chi trả"
+    source_url: http://trungtamytehtn.vn/wp-content/uploads/2021/01/4404-kem-5332Q_-BYT-dong-mach-vanh.pdf
+    quote: "Không có số liệu về phí gọi 115 hay mức chi trả BHYT trong Quyết định 5332."
+    verdict: not-found
+    note: "Không có nguồn trong mục Nguồn."
+  - text: "Quyết định 5332/QĐ-BYT ngày 23/12/2020 ban hành tài liệu Thực hành chẩn đoán và điều trị bệnh động mạch vành"
+    source_url: http://trungtamytehtn.vn/wp-content/uploads/2021/01/4404-kem-5332Q_-BYT-dong-mach-vanh.pdf
+    quote: "Số:5332/QĐ-BYT Hà Nội, ngày 23 tháng12 năm 2020 ... Ban hành kèm theo Quyết định này tài liệu chuyên môn “Thực hành chẩn đoán và điều trị bệnh động mạch vành”."
+    verdict: match
+    note: "Điều 3: 'Quyết định này có hiệu lực kể từ ngày ký, ban hành.'"
+internal_checks:
+  - issue: "Dòng Nguồn ghi 'mục 4.3.1.3, 4.3.1.4 và 4.3.2' cho 'cửa sổ 0 đến 12 giờ, mốc 2 giờ, 90 phút, 60 phút, 10 phút, 2 đến 24 giờ'. Thực tế: mốc 0-12 giờ và 'dưới 120 phút' nằm ở mục 4.2; 90/60 phút và 10 phút/2-24 giờ ở 4.3.2; 4.3.1.4 là chọn thuốc tiêu sợi huyết, không chứa mốc nào. Thân 'Cửa sổ can thiệp (mục 4.3)' cũng sai số mục."
+    severity: warn
+  - issue: "tldr 'Cửa sổ can thiệp tính từ lúc khởi phát, 0 đến 12 giờ' là con số có trong thân nhưng bỏ vế 12-48 giờ vẫn còn chỉ định can thiệp (đau ngực tái phát, rối loạn nhịp, huyết động không ổn định). Xem potential_harm."
+    severity: warn
+  - issue: "Bẫy 2 dùng mốc 'tiêm tiêu sợi huyết trong vòng 10 phút kể từ lúc có chẩn đoán' làm lý do để người bệnh không chờ ở nhà. Mốc này là chỉ tiêu của bệnh viện/nhân viên y tế sau khi tiếp xúc, không liên quan hành vi người bệnh; dùng sai chỗ."
+    severity: warn
+  - issue: "Chi phí: 'Gọi 115 không mất tiền' và các câu về BHYT không có nguồn."
+    severity: warn
+  - issue: "steps không có bước cho trường hợp người bệnh ngất, không đáp ứng, ngừng thở (ép tim + AED) dù bài HCDC được dẫn có đoạn đó; thân cũng không nói ở đâu. Thuộc chương 13 mục 1/44."
+    severity: warn
+  - issue: "Mâu thuẫn chéo trong chương: mục này khuyên 'không tự dùng thuốc giảm đau' và không nói aspirin; mục 13-08 (đau xé ngực ra sau lưng) cần tránh aspirin vì nghi lóc tách. Khi sửa mục này thêm aspirin phải kèm điều kiện loại trừ (đau xé lan ra sau lưng, dị ứng aspirin, không rõ nguyên nhân) và chỉ khi 115 hướng dẫn."
+    severity: warn
+validity:
+  doc: "Quyết định 5332/QĐ-BYT ngày 23/12/2020 (Thực hành chẩn đoán và điều trị bệnh động mạch vành)"
+  in_force: unconfirmed
+  effective_from: "2020-12-23"
+  amended_by: []
+  basis: "Bản PDF ký số trên trungtamytehtn.vn: Điều 3 'có hiệu lực kể từ ngày ký'. Tìm kiếm 'còn hiệu lực/thay thế' không thấy văn bản thay thế trong kết quả (thuvienphapluat, nhuthanh, canhgiacduoc chỉ là bản sao), nhưng không mở được trang 'Liên quan hiệu lực' của CSDL chính thống nên không kết luận còn hiệu lực. Hướng dẫn tiêu sợi huyết/can thiệp dựa trên ESC 2017-2020; chưa đối chiếu hướng dẫn ESC/AHA mới hơn."
+deliberate_vn_deviation:
+  - "Quyết định 5332 mục 6.2.1 cho phép aspirin 150-325 mg khi nhân viên cấp cứu đến nhà; ERC 2021 First aid khuyến nghị người sơ cứu hỗ trợ tự nhai aspirin 150-300 mg sớm khi nghi nhồi máu. Bài truyền thông HCDC dẫn trong mục (và mục này) khuyên 'không tự dùng thuốc giảm đau' mà không nêu ngoại lệ aspirin: lệch hướng dẫn Bộ Y tế/ERC."
+  - "Tư thế: Quyết định 5332 'nằm nghỉ'; mục viết 'ngồi nghỉ' theo bài HCDC; ERC: 'Sit or lie ... in a comfortable position'. Không lệch đáng kể."
+potential_harm:
+  - "tldr/title nêu 'cửa sổ 0 đến 12 giờ' mà không nói sau 12 giờ vẫn có chỉ định can thiệp (12-48 giờ nếu còn đau ngực/rối loạn nhịp/huyết động không ổn định): người đến sau 12 giờ có thể tự cho là muộn, không đi cấp cứu hoặc chờ thêm."
+  - "Không nhắc aspirin nhai sớm (ERC 2021 / Quyết định 5332 6.2.1) trong khi cấm chung 'thuốc giảm đau', người đọc có thể bỏ lỡ can thiệp có lợi trong lúc chờ 115. Mức độ: lợi ích bị bỏ lỡ, không phải làm theo gây hại trực tiếp; nếu thêm aspirin phải kèm ngoại lệ (xem internal_checks)."
+  - "Không có bước nào cho người ngất/ngừng thở (ép tim + AED + 115): người đọc chỉ làm theo 4 bước có thể ngồi nhìn người bệnh ngừng tim."
+suggested_edits:
+  - "tldr + 'Cửa sổ can thiệp': đổi 'Cửa sổ can thiệp ... 0 đến 12 giờ' thành 'Mở mạch kịp thời nhất trong 12 giờ đầu; sau 12 giờ vẫn có thể cần can thiệp, nên vẫn đi ngay' (dựa quote 'Từ 12 - 48 giờ ... bắt buộc chỉ định chụp và can thiệp ĐMV thì đầu nếu bệnh nhân có đau ngực tái phát, rối loạn nhịp hoặc huyết động không ổn định')."
+  - "steps 3: đổi 'không tự dùng thuốc giảm đau' thành 'không tự uống thuốc giảm đau/thuốc dạ dày; chỉ nhai aspirin 150-300 mg nếu 115 hướng dẫn và không dị ứng, không nghi đau xé ra sau lưng' (dựa ERC 2021 'Early aspirin for chest pain' + Quyết định 5332 6.2.1 'Có thể cho dùng aspirin liều từ 150-325 mg nếu không có chống chỉ định'), hoặc bỏ cụm này và để 115 quyết."
+  - "steps 2: đổi 'ngồi nghỉ' thành 'ngồi hoặc nằm ở tư thế thoải mái' (dựa ERC 2021 'Sit or lie the casualty in a comfortable position'); bỏ 'nới áo' hoặc gắn nhãn suy ra."
+  - "Thêm bước: nếu người bệnh ngất, không đáp ứng, không thở hoặc thở ngáp: ép tim và dùng AED (liên kết mục 13-01), dựa bài HCDC ('ép tim ngay (100–120 lần/phút, sâu 5–6 cm)...')."
+  - "Sửa số mục dẫn: 0-12 giờ và 120 phút → mục 4.2; 90/60/10 phút, 2-24 giờ → 4.3.2; 4.3.1.3 → 12 giờ/4 giờ; bỏ 4.3.1.4. Thêm chương 'Hội chứng vành cấp không ST chênh lên, 6.2.1' cho 115/không tự lái xe/aspirin."
+  - "Bẫy 2: bỏ ý dùng mốc 10 phút để thúc người bệnh; viết 'càng chờ, cơ tim càng mất' dựa quote 'Thời gian là cơ tim, cơ tim là sự sống'."
+  - "Chi phí: bỏ 'Gọi 115 không mất tiền' hoặc dẫn nguồn, bỏ ý BHYT nếu không có nguồn."

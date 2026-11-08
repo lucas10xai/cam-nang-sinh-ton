@@ -1,0 +1,81 @@
+id: tre-nuot-pin-cuc-ao-hoac-nuot-tu-hai-vien-nam-cham
+checker: agent-Vf13iA
+checked_at: 2026-11-08
+content_sha256: "93bba6251088511fbef929da5c2f0b6057c6c912892f6925638935207fe65d32"
+result: pass-with-edits
+claims:
+  - text: "Bệnh nhi 4 tuổi: khi nội soi, thực quản quanh viên pin đã loét hết, phía trên và dưới phù nề chít hẹp"
+    source_url: https://vov.gov.vn/noi-soi-cap-cuu-thanh-cong-be-trai-4-tuoi-nuot-phai-pin-cuc-ao-dtnew-1070104
+    quote: 'Khi tiến hành nội soi, ekip thấy thực quản chu vi xung quanh pin đã loét hết, phía trên và phía dưới dị vật đều phù nề chít hẹp hết đường ra cũng như đường xuống dạ dày.'
+    verdict: match
+    note: "VOV 10/3/2025. Ca nuốt lúc 14h ngày 8/3 (bài ghi 'chụp X-quang phát hiện dị vật pin mắc ở thực quản ngang mức xương đòn')."
+  - text: "Pin cúc áo gây tổn thương nặng nề chỉ trong vài giờ đầu (BS Ninh Quốc Đạt)"
+    source_url: https://vov.gov.vn/noi-soi-cap-cuu-thanh-cong-be-trai-4-tuoi-nuot-phai-pin-cuc-ao-dtnew-1070104
+    quote: 'Theo TS.BS Ninh Quốc Đạt, Bệnh viện Nhi Hà Nội, pin cúc áo không chỉ là một dị vật thông thường mà còn có thể gây tổn thương nặng nề chỉ trong vài giờ đầu.'
+    verdict: match
+    note: ""
+  - text: "Cơ chế: hai cực sát nhau, gặp dịch sinh dòng điện, giải phóng hydroxyl radical, tăng pH, ăn mòn; rất dễ thủng thực quản, khí quản, động mạch chủ; nặng có thể tử vong trong vòng 2 giờ"
+    source_url: https://vov.gov.vn/noi-soi-cap-cuu-thanh-cong-be-trai-4-tuoi-nuot-phai-pin-cuc-ao-dtnew-1070104
+    quote: 'Pin cúc áo có cực âm và cực dương sát nhau, khi nuốt vào trong đường tiêu hoá, gặp nước, dịch nhày sẽ sinh ra dòng điện, giải phóng nhanh và nhiều hydroxyl radical (OH•), tăng nhanh pH, gây ăn mòn mạnh, rất dễ thủng thực quản, thủng lan sang khí quản, động mạch chủ, thủng dạ dày,... trường hợp nặng có thể gây tử vong trong vòng 2 giờ.'
+    verdict: match
+    note: "Quote khớp. Đối chiếu quốc tế: National Capital Poison Center (poison.org/battery/guideline): 'Batteries lodged in the esophagus may cause serious burns in as little as 2 hours' và 'Immediately remove batteries lodged in the esophagus. Serious burns can occur in 2 hours.' Tức quốc tế nói BỎNG NẶNG trong 2 giờ, VOV nói 'tử vong trong 2 giờ'; tldr của mục 'có thể tử vong trong 2 giờ' mạnh hơn quốc tế."
+  - text: "BV Nhi TW mổ cấp cứu bệnh nhi rò khí-thực quản sau khi nuốt pin"
+    source_url: https://benhviennhitrunguong.gov.vn/phau-thuat-thanh-cong-cuu-song-benh-nhi-ro-khi-thuc-quan-do-nuot-phai-pin.html
+    quote: 'Ngay lập tức, trẻ được các bác sĩ chỉ định phẫu thuật mở ngực.'
+    verdict: match
+    note: "Bài: bé gái 22 tháng tuổi, pin cúc áo đường kính 2.5cm ở thực quản ngực, rò khí thực quản 'vị trí lỗ rò nằm trên ngã ba khí phế quản 1.5cm với đường kính 1cm'; phẫu thuật mở ngực sau 3 giờ thành công."
+  - text: "Nam châm: trẻ nuốt từ hai viên trở lên thì các viên hút nhau qua thành ruột, thành ruột bị chèn giữa nên hoại tử và thủng"
+    source_url: https://vov.gov.vn/noi-soi-cap-cuu-thanh-cong-be-trai-4-tuoi-nuot-phai-pin-cuc-ao-dtnew-1070104
+    quote: ''
+    verdict: not-found
+    note: "KHÔNG có nguồn nào của mục (VOV pin, BV Nhi TW pin) nhắc tới nam châm. Toàn bộ phần 'Nam châm' ở Lợi ích và nửa sau tiêu đề không có nguồn. Tìm được nguồn ngoài: NHS England National Patient Safety Alert NatPSA/2021/002/NHSPS (England.nhs.uk): 'If more than one super strong magnet is swallowed separately, or a super strong magnet is swallowed with a metallic object, then they can be strongly attracted together from different parts of the intestines. This compression of bowel tissue can cause necrosis and perforation of the intestines and/or blood vessels within hours.' Khớp ý nhưng nguồn nói cả trường hợp 1 nam châm mạnh + 1 vật kim loại (kể cả pin), mục bỏ trường hợp này."
+  - text: "'Việc gắp chỉ làm được ở cơ sở có nội soi cùng phẫu thuật'; steps[0] 'Đưa trẻ đi ngay bệnh viện có nội soi, không dừng ở trạm y tế xã hoặc phòng khám không có máy nội soi'"
+    source_url: https://vov.gov.vn/noi-soi-cap-cuu-thanh-cong-be-trai-4-tuoi-nuot-phai-pin-cuc-ao-dtnew-1070104
+    quote: ''
+    verdict: inference
+    note: "Không có trong hai nguồn của mục. Bài VOV chỉ nói gia đình 'nhanh chóng đưa bé đến bệnh viện gần nhà, chụp X-quang' rồi nội soi. Hướng 'tới viện ngay, không chờ' khớp NCPC ('Don’t delay!' ... 'Immediately remove batteries lodged in the esophagus') và NHS (khám cấp cứu, chụp X-quang thẳng và nghiêng, hội chẩn ngoại khoa cho nam châm); phần 'bệnh viện có nội soi/trạm y tế xã' là suy ra của người soạn."
+  - text: "steps[1]: Không gây nôn, không móc họng, không cho uống nước để trôi xuống, không cho ăn"
+    source_url: https://vov.gov.vn/noi-soi-cap-cuu-thanh-cong-be-trai-4-tuoi-nuot-phai-pin-cuc-ao-dtnew-1070104
+    quote: ''
+    verdict: not-found
+    note: "Không nguồn nào của mục nói điều này; Bẫy 2 ('đẩy dị vật vào sâu và làm bỏng lan rộng') cũng không có nguồn. NCPC: '1. Do not induce vomiting.' và 'Other than giving honey, keep the patient NPO until an esophageal battery position is ruled out by x-ray.' (xem deliberate_vn_deviation về mật ong)."
+  - text: "steps[2]: Mang theo chiếc pin cùng loại, hoặc vỏ thiết bị vừa tháo pin"
+    source_url: https://vov.gov.vn/noi-soi-cap-cuu-thanh-cong-be-trai-4-tuoi-nuot-phai-pin-cuc-ao-dtnew-1070104
+    quote: ''
+    verdict: not-found
+    note: "Không có trong nguồn của mục. NCPC: 'If the patient is asymptomatic, take up to 5 minutes to determine the imprint code from a companion or replacement battery, battery packaging, or product instructions.' Hướng hợp lý, giới hạn 5 phút khi trẻ không triệu chứng, mục không nói 'đừng mất thêm thời gian tìm'."
+  - text: "Tổn thương thực quản bắt đầu từ giờ đầu và trẻ thường không có triệu chứng (Bẫy 1: thấy trẻ vẫn chơi, vẫn ăn được nên chờ)"
+    source_url: https://vov.gov.vn/noi-soi-cap-cuu-thanh-cong-be-trai-4-tuoi-nuot-phai-pin-cuc-ao-dtnew-1070104
+    quote: ''
+    verdict: inference
+    note: "Nguồn VOV/BV Nhi TW không nói 'thường không có triệu chứng'. NCPC: 'Do not wait for symptoms to develop. Patients with a battery in the esophagus may be asymptomatic initially.' Khớp ý nhưng là nguồn khác."
+internal_checks:
+  - issue: "steps[3] và Ghi chú: 'Trẻ đang khó thở, tím tái: xử trí hóc dị vật trước theo mục 43' nhưng mục 43 dành cho trẻ DƯỚI 1 TUỔI (nằm sấp dọc cẳng tay, vỗ lưng, ấn ngực) và ca nguồn là trẻ 4 tuổi, 22 tháng; kỹ thuật không áp dụng cho trẻ lớn. Dẫn sai/không đủ."
+    severity: error
+  - issue: "Nửa tiêu đề + tldr + steps + toàn bộ mục 'Nam châm' không có nguồn ở phần Nguồn (chỉ 2 nguồn về pin). 'Từ hai viên nam châm mạnh trở lên' không kèm nguồn."
+    severity: error
+  - issue: "tldr 'Ca nặng với pin có thể tử vong trong 2 giờ' sát chữ VOV, nhưng chữ NCPC là 'serious burns in as little as 2 hours'. Số 2 giờ có trong thân (Nói dễ hiểu, Lợi ích): không mâu thuẫn nội bộ."
+    severity: warn
+  - issue: "Cùng chương: mục 43 (hóc dị vật) và mục này có liên kết related một chiều; mục 43 không nhắc nuốt pin."
+    severity: warn
+validity:
+  doc: "VOV 10/3/2025 (lời TS.BS Ninh Quốc Đạt, BV Nhi Hà Nội); BV Nhi TW (bài ca rò khí-thực quản, không ghi ngày trong bản đọc); đối chiếu National Capital Poison Center battery guideline (rev. 6/2018) và NHS NatPSA/2021/002/NHSPS"
+  in_force: unconfirmed
+  effective_from: "2025-03-10"
+  amended_by: []
+  basis: "Hai nguồn là bản tin báo/bệnh viện về ca bệnh, không phải hướng dẫn xử trí của Bộ Y tế/WHO/CDC/AHA; không có 'hiệu lực'. NCPC (cập nhật 6/2018, trang nhãn © 2010-2026) và NHS 2021 là hướng dẫn quốc tế đối chiếu."
+deliberate_vn_deviation:
+  - "Mục: 'không cho ăn, không cho uống'. NCPC: cho mật ong 10 mL mỗi 10 phút, tối đa 6 liều, khi trên đường tới viện nếu: trẻ ≥12 tháng (mật ong không an toàn dưới 1 tuổi), nghi pin lithium dạng đồng xu, nuốt trong vòng 12 giờ, trẻ nuốt được, 'Honey is NOT a substitute for immediate removal'. Không phải khuyến cáo bắt buộc; mục chọn lời khuyên an toàn đơn giản hơn. Nên ghi rõ đây là lựa chọn của mục, không phải 'nguồn nói'."
+  - "Mục: 'không đợi tự thải'. NCPC cho pin đã qua thực quản (dạ dày trở xuống), không triệu chứng thì 'Allow batteries to pass spontaneously'. Đúng với tình huống chưa biết pin ở đâu: cần chụp X-quang, nên 'đi ngay' là đúng, nhưng mục nói tuyệt đối."
+  - "Nam châm: NHS/RCEM: 'more than one super strong magnet' HOẶC 'a super strong magnet with a metallic object' đều là cấp cứu; mục chỉ nói '2 viên nam châm mạnh trở lên', bỏ trường hợp 1 nam châm + pin hoặc vật kim loại."
+potential_harm:
+  - "steps[3] 'Trẻ đang khó thở, tím tái: xử trí hóc dị vật trước theo mục 43': mục 43 viết cho nhũ nhi dưới 1 tuổi. Trẻ nuốt pin thường là trẻ 1-5 tuổi (ca nguồn 4 tuổi và 22 tháng): làm nằm sấp dọc cẳng tay vỗ lưng/ấn ngực kiểu nhũ nhi cho trẻ lớn là sai kỹ thuật và làm chậm xử trí. Có thể làm chậm cấp cứu đường thở."
+  - "Không nói gì về tư thế đưa đi/gọi cấp cứu: trẻ khó thở, chảy dãi, nôn ra máu, đau ngực, hoặc sốt thì gọi 115 thay vì tự chở (NCPC liệt kê các dấu hiệu nghi nuốt pin: tắc đường thở, thở khò khè, chảy dãi, nôn, đau ngực/bụng, khó nuốt, bỏ ăn). Mục chỉ nói 'đưa đi ngay'."
+  - "'Mang theo chiếc pin cùng loại' không có giới hạn thời gian: người nhà có thể mất thời gian tìm pin trước khi đi (NCPC: tối đa 5 phút khi trẻ không triệu chứng)."
+suggested_edits:
+  - "steps[3] và Ghi chú: thay 'xử trí hóc dị vật theo mục 43' bằng 'gọi 115. Nếu trẻ dưới 1 tuổi: xem mục 43; trẻ lớn hơn: cúi người ra trước, vỗ lưng 5 cái rồi ấn bụng (Heimlich)' hoặc chỉ ghi 'gọi 115 ngay' nếu không có mục dành cho trẻ lớn. Dựa vào nguồn BV Nhi TW (bài hóc dị vật 20/12/2024, mục 'Đối với trẻ lớn') và ERC 2025 PLS."
+  - "Thêm nguồn cho phần Nam châm (NHS NatPSA/2021/002/NHSPS hoặc ESPGHAN/NASPGHAN 'Management of Ingested Magnets in Children') và nội dung 'một nam châm mạnh + vật kim loại'; nếu không thêm được, gỡ phần nam châm khỏi tiêu đề."
+  - "steps[0], steps[1], steps[2] và Bẫy 1-3: gắn nhãn nguồn: 'không gây nôn' (NCPC 'Do not induce vomiting'), 'đưa ngay' (NCPC 'Don’t delay!'), 'bệnh viện có nội soi/trạm xá' là lời khuyên của người soạn, hoặc xóa."
+  - "tldr: đổi 'có thể tử vong trong 2 giờ' thành 'có thể gây bỏng nặng thực quản chỉ trong vài giờ (nguồn nói tử vong trong 2 giờ ở ca nặng)'. Hoặc giữ chữ VOV và ghi 'theo BV Nhi Hà Nội'."
+  - "steps[2]: 'mang theo pin/vỏ thiết bị nếu có sẵn, không mất quá vài phút tìm'. Dựa vào NCPC ('take up to 5 minutes')."
+  - "Ghi rõ lựa chọn 'không cho ăn uống' khác hướng dẫn mật ong của NCPC (xem deliberate_vn_deviation) để người soạn quyết định có giữ không."

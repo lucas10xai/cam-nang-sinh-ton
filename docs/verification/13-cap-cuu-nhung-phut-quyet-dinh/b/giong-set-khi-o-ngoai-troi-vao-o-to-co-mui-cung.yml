@@ -1,0 +1,121 @@
+{
+  "id": "giong-set-khi-o-ngoai-troi-vao-o-to-co-mui-cung",
+  "checker": "agent-Vf13gB",
+  "checked_at": "2026-11-08",
+  "content_sha256": "a10d6556290861bd40452154918e1830d2f2e6d23f9c660294ddf0253ca904fa",
+  "result": "pass-with-edits",
+  "claims": [
+    {
+      "text": "Chia số giây từ chớp tới sấm cho 3 ra khoảng cách (km)",
+      "source_url": "http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx",
+      "quote": "Chia số giây cho 3 ta được khoảng cách đến tia sét. Ví dụ đếm được 3 giây thì sét cách vị trí đứng là 3/3= 1km.",
+      "verdict": "match",
+      "note": ""
+    },
+    {
+      "text": "Dưới 30 giây là trong tầm với; dưới 20 giây phải di chuyển tới nơi an toàn hơn",
+      "source_url": "http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx",
+      "quote": "nếu như khoảng thời gian bạn đếm được từ khi thấy chớp và nghe tiếng sấm nhỏ hơn 30 giây, thì bạn đã nằm trong tầm ngắm của tia sét rồi và phải cẩn thận. Nếu thời gian này nhỏ hơn 20 giây thì phải di chuyển đến nơi an toàn hơn.",
+      "verdict": "match",
+      "note": ""
+    },
+    {
+      "text": "tldr: \"dưới 30 giây là phải vào nhà có chống sét hoặc ô tô kín\"",
+      "source_url": "http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx",
+      "quote": "Nếu thời gian này nhỏ hơn 20 giây thì phải di chuyển đến nơi an toàn hơn.",
+      "verdict": "partial",
+      "note": "Nguồn: dưới 30 giây \"phải cẩn thận\", dưới 20 giây mới \"phải di chuyển đến nơi an toàn\". tldr nâng ngưỡng hành động xuống 30 giây (thận trọng hơn nguồn, không gây hại), nhưng steps bước 1 lại giữ 20 giây: tldr và steps lệch nhau. Cũng bỏ câu \"Khi nghe thấy tiếng sấm đầu tiên bất kể là gì cũng cần phải thấy nguy hiểm đã đến\"."
+    },
+    {
+      "text": "Sét có thể đánh cách nơi có mưa tới 15-20 km",
+      "source_url": "http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx",
+      "quote": "Sét có thể đánh cách xa nơi có mưa tới 15-20km.",
+      "verdict": "match",
+      "note": ""
+    },
+    {
+      "text": "Chỗ an toàn: tòa nhà có hệ thống chống sét",
+      "source_url": "http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx",
+      "quote": "Chỗ an toàn để tránh sét là toà nhà, hay công sở có lắp đặt hệ thống chống sét (đơn giản nhất là cột thu lôi Franklin).",
+      "verdict": "partial",
+      "note": "Đúng chữ nguồn, nhưng người đọc có thể hiểu nhà không có cột thu lôi là không an toàn và ở ngoài trời. Nguồn không nêu rõ; không kiểm được hướng dẫn quốc tế (trang weather.gov trả 404/không tìm được trang tương ứng). Nên viết \"vào nhà kiên cố/ô tô kín; nơi có chống sét an toàn hơn\"."
+    },
+    {
+      "text": "Ô tô/tàu hỏa/xe buýt vỏ kim loại: an toàn nếu không thò người ra ngoài và không chạm vỏ",
+      "source_url": "http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx",
+      "quote": "Đối với các vật có bề mặt kim loại như xe buýt, tàu hoả, ô tô, ...nếu không thò người ra ngoài và không chạm đến vỏ bọc thì ở những chỗ này là an toàn. Ngược lại đối vơi các ô tô, tàu thuỷ để hở hay không có vỏ bọc kim loại thì lại nguy hiểm.",
+      "verdict": "match",
+      "note": ""
+    },
+    {
+      "text": "Không trú dưới tán cây; tránh khu vực cao, vật kim loại",
+      "source_url": "http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx",
+      "quote": "tuyệt đối không dùng cây cối làm chỗ trú mưa, tránh các khu vực cao hơn xung quanh, tránh xa các vật dụng kim loại như xe đạp, máy, hàng rào sắt...",
+      "verdict": "match",
+      "note": ""
+    },
+    {
+      "text": "Tránh đỉnh/sườn núi nhô cao, ao hồ, mương, bãi biển",
+      "source_url": "http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx",
+      "quote": "ra ngay khỏi những nơi chứa nước như bãi biển, ao, hồ, mương. Các vùng đỉnh núi hay sườn núi nhô cao cũng rất nguy hiểm.",
+      "verdict": "match",
+      "note": ""
+    },
+    {
+      "text": "Đứng tản ra, đừng túm thành đám",
+      "source_url": "http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx",
+      "quote": "Không đứng thành nhóm người gần nhau.",
+      "verdict": "match",
+      "note": "Nguồn dùng \"không đứng thành nhóm người gần nhau\"; \"tản ra\" là diễn đạt lại, ý đúng."
+    },
+    {
+      "text": "Chờ 30 phút sau tiếng sét cuối rồi mới trở lại làm việc",
+      "source_url": "http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx",
+      "quote": "Sau khi nghe thấy tiếng sét 30 phút thì có thể trở lại làm việc bình thường.",
+      "verdict": "partial",
+      "note": "Nguồn viết \"Sau khi nghe thấy tiếng sét 30 phút\", không có chữ \"cuối cùng\"; ý hợp lý nhưng \"tiếng sét cuối cùng\" là suy ra."
+    },
+    {
+      "text": "Nguồn nêu cách xử lý khi không kịp vào chỗ trú (cúi/ngồi thấp, nhón chân, không nằm đất)",
+      "source_url": "http://phongchongthientai.mard.gov.vn/Pages/quy-tac-chong-set-bao-ve-con-nguoi.aspx",
+      "quote": "Người ở vị trí càng thấp càng tốt, tay ôm cổ. Phần tiếp xúc của người với mặt đất là ít nhất. Nhón chân, không được nằm xuống đất.",
+      "verdict": "not-found",
+      "note": "Mục KHÔNG có bước này dù nguồn có. Xem potential_harm."
+    }
+  ],
+  "internal_checks": [
+    {
+      "issue": "tldr nói dưới 30 giây phải vào chỗ trú; steps 1 nói dưới 30 giây \"trong tầm với\", dưới 20 giây mới \"phải di chuyển tới nơi an toàn hơn\". Hai chỗ đặt ngưỡng hành động khác nhau trong cùng mục.",
+      "severity": "warn"
+    },
+    {
+      "issue": "steps bước 3 chỉ liệt kê điều CẤM, không có hành động khi ở ngoài trời không có chỗ trú, trong khi nguồn có (ngồi/cúi thấp, nhón chân, không nằm đất, tóc dựng thì cúi ngay). Với đề bài \"giông sét khi ở ngoài trời\" đây là thiếu bước chính.",
+      "severity": "warn"
+    },
+    {
+      "issue": "legal_refs rỗng, không có văn bản pháp quy; chỉ một nguồn (trang Cục Quản lý đê điều và PCTT), không có nguồn quốc tế (WMO/NWS/WHO) để đối chiếu; cho cả mục mức bằng chứng B và \"benefit: large, metric: mortality\" chưa được nguồn nào chứng minh.",
+      "severity": "warn"
+    }
+  ],
+  "validity": {
+    "doc": "Cục Quản lý đê điều và Phòng, chống thiên tai, bài \"Quy tắc chống sét bảo vệ con người\" (không phải văn bản pháp quy)",
+    "in_force": "unconfirmed",
+    "effective_from": null,
+    "amended_by": [],
+    "basis": "Trang hướng dẫn, không có ngày ban hành hay ngày hiệu lực hiển thị trong thân trang đã mở; hướng dẫn y tế/an toàn không có \"hiệu lực\". Không tìm thấy hướng dẫn quốc tế để đối chiếu năm."
+  },
+  "deliberate_vn_deviation": [
+    "Không có nguồn quốc tế để so sánh; chưa phát hiện lệch."
+  ],
+  "potential_harm": [
+    "Steps 3 chỉ nêu điều cấm; nếu bị bắt gặp ngoài trời không có chỗ trú, người đọc làm đúng nguyên văn không có bước hành động (nguồn: ngồi thấp, nhón chân, không nằm xuống đất), có thể đứng yên giữa trống hoặc chạy lung tung.",
+    "Steps 2 + tldr: \"nhà có hệ thống chống sét\" (đúng chữ nguồn) có thể khiến người ở nhà không có cột thu lôi ở lại ngoài trời hoặc trong lều thay vì vào nhà; cần nêu nhà kiên cố/ô tô kín là nơi trú tốt."
+  ],
+  "suggested_edits": [
+    "Steps 3: thêm bước \"Nếu không kịp vào chỗ trú: tìm chỗ thấp, ngồi cúi thấp, nhón chân, hạn chế tiếp xúc đất, tay ôm cổ; không nằm xuống đất; tóc dựng thì cúi ngay\" (nguồn: \"Người ở vị trí càng thấp càng tốt... không được nằm xuống đất\").",
+    "tldr và steps 2: đổi \"nhà có chống sét\" thành \"nhà kiên cố (ưu tiên nơi có chống sét) hoặc ô tô kín\", ghi rõ bỏ qua cửa sổ, cửa ra vào, buồng tắm.",
+    "steps 1 và tldr: thống nhất ngưỡng (đề xuất: dưới 30 giây vào chỗ trú; nguồn VN chỉ nói 20 giây là phải di chuyển, ghi rõ là mức thận trọng hơn nguồn).",
+    "steps 4: sửa \"sau tiếng sét cuối cùng\" cho khớp nguồn, hoặc gắn nhãn \"suy ra\".",
+    "Bổ sung nguồn quốc tế (WMO/NWS) và hạ benefit/metric nếu không có số liệu tử vong."
+  ]
+}

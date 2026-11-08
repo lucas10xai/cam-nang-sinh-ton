@@ -1,0 +1,88 @@
+id: mot-ben-mieng-meo-mot-tay-yeu-noi-khong-ro-goi-115
+content_sha256: 9779e4405523707fad41f2118fe16b487f61c13c745be881b5498f6603de34bb
+checker: agent-Vf13aB
+checked_at: 2026-11-08
+result: fail
+claims:
+  - text: Triệu chứng khởi phát đột quỵ rõ ràng dưới 270 phút trước khi dùng thuốc tiêu huyết khối (mục 4.2.2)
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: 4.2.2. Các triệu chứng khởi phát đột quỵ rõ ràng dưới 270 phút trước khi dùng thuốc tiêu huyết khối.
+    verdict: match
+    note: Số/ngày 3312/QĐ-BYT 05/11/2024 chỉ xác nhận qua bản thứ cấp (luatvietnam.vn), vì trang 1 PDF là ảnh quét.
+  - text: Tiêu huyết khối đường tĩnh mạch trong 3 giờ đầu, gần đây mở rộng lên 4,5 giờ, áp dụng thường quy tại Hoa Kỳ và châu Âu; vì vậy xác định chính xác thời gian khởi phát là rất quan trọng
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: Điều trị tiêu huyết khối đường tĩnh mạch trong 3 giờ đầu và gần đây mở rộng cửa sổ điều trị lên 4,5 giờ đã được áp dụng thường quy tại Hoa Kỳ cũng như tại châu Âu. Vì vậy, việc xác định chính xác thời gian khởi phát đột quỵ là rất quan trọng.
+    verdict: match
+    note: ""
+  - text: '"270 phút là hạn cuối để dùng thuốc tiêu huyết khối ... Qua mốc đó thì mất một lựa chọn điều trị" (Bẫy 1) và tldr "thuốc tiêu huyết khối cần triệu chứng dưới 270 phút"'
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "Người bệnh nhồi máu não cấp có thời gian khởi phát rõ ràng, trong khoảng 4,5-9 giờ có thể dùng thuốc tiêu huyết khối đường tĩnh mạch nếu thỏa mãn:"
+    verdict: mismatch
+    note: Chính QĐ 3312 (mục 4.5.2) cho phép tiêu huyết khối 4,5–9 giờ khi có bất tương xứng trên CT/MRI tưới máu; mục 4.5.1 cho đột quỵ thức giấc ("Trong vòng 9 giờ kể từ điểm giữa giấc ngủ"); mục 2.3 cho lấy huyết khối cơ học tới 6–24 giờ. Câu "hạn cuối ... mất một lựa chọn" sai so với nguồn và có thể làm người đến muộn nghĩ hết cách.
+  - text: "Cơn thiếu máu não thoáng qua: khởi phát đột ngột triệu chứng thần kinh khu trú, kéo dài không quá 24 giờ, không có tổn thương nhồi máu não cấp trên hình ảnh (mục 1.1.2)"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: Cơn thiếu máu não thoáng qua (CTMNTQ) được định nghĩa là sự khởi phát đột ngột triệu chứng thần kinh khu trú do thiếu máu não ở một khu vực hoặc võng mạc, và các triệu chứng này kéo dài không quá 24 giờ và không có sự hiện diện tổn thương nhồi máu não cấp trên hình ảnh cộng hưởng từ.
+    verdict: partial
+    note: Mục bỏ "hoặc võng mạc" và "cộng hưởng từ" (nguồn nói cụ thể là hình ảnh MRI). Không làm sai hướng xử trí nhưng thiếu chính xác; "ở một khu vực hoặc võng mạc" liên quan trực tiếp mục 05.
+  - text: "Biểu hiện khởi phát hay gặp: liệt nửa người, liệt một chi, liệt mặt, rối loạn ngôn ngữ, mất ngôn ngữ, nhìn đôi, thất điều, chóng mặt, rối loạn tri giác đột ngột"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: + Liệt nửa người, liệt một chi hoặc liệt tứ chi (hiếm gặp) ... + Nhìn đôi + Rối loạn ngôn ngữ + Liệt mặt + Thất điều + Chóng mặt (hiếm khi xuất hiện đơn độc) + Mất ngôn ngữ + Rối loạn tri giác đột ngột
+    verdict: match
+    note: Danh sách còn "Mất hoặc giảm cảm giác nửa người", "Mất thị lực một hoặc hai mắt", "Khiếm khuyết trường thị giác"; mục không nêu nhưng không làm sai.
+  - text: Tài liệu buộc đánh giá bằng thang NIHSS để quyết định có tiêu huyết khối hay không
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: Người bệnh đột quỵ não phải được đánh giá theo thang điểm NIHSS. Chỉ định tiêu huyết khối cho những người bệnh có NIHSS ≤ 5 điểm và có triệu chứng thần kinh khu trú gây tàn tật hoặc NIHSS > 5 điểm.
+    verdict: partial
+    note: Đúng ý nhưng câu của mục ("để quyết định có tiêu huyết khối hay không") chưa nêu tiêu chí NIHSS; không gây hại.
+  - text: Bảo người bệnh cười, giơ hai tay, nói một câu để nhận biết đột quỵ
+    source_url: https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines
+    quote: The use of a stroke recognition scale such as Face, Arms, Speech, Time is recommended to aid in the recognition of acute stroke in adults
+    verdict: partial
+    note: 'cpr.heart.org trả 403; quote đọc từ bản gương u1-cd-cpr.sc.heart.org (2024 AHA and American Red Cross Guidelines for First Aid, Circulation 2024;150:e519, doi 10.1161/CIR.0000000000001281). FAST = Face, Arms, Speech, Time: khớp ba động tác. Nhưng nguồn duy nhất của mục (QĐ 3312) không có FAST; và FAST bỏ sót đột quỵ vùng sau (thăng bằng, thị lực) — xem mục 04 (BE-FAST). Bài Phú Lâm/HCDC có FAST: "F (Face) - mặt bị méo, A (Arm) - tay yếu hoặc không giơ được, S (Speech) - giọng nói khó, ngọng, và T (Time) ... cần gọi cấp cứu 115 ngay lập tức".'
+  - text: Thấy méo miệng, yếu một bên, nói ngọng thì gọi 115 ngay và ghi giờ khởi phát
+    source_url: http://trungtamytequan6.medinet.gov.vn/tim-mach/gio-vang-quyet-dinh-su-song-cmobile17305-250126.aspx
+    quote: T (Time) - thời gian là yếu tố quyết định, cần gọi cấp cứu 115 ngay lập tức.
+    verdict: match-secondary
+    note: 'Bài của Trung tâm Y tế khu vực Phú Lâm (nguồn tin HCDC, 30/9/2025), không thuộc mục Nguồn của mục 03. Việc ghi giờ khởi phát có căn cứ trong QĐ 3312 (mục 4.2.2: "việc xác định chính xác thời gian khởi phát đột quỵ là rất quan trọng").'
+  - text: Không cho ăn uống; không cho uống thuốc
+    source_url: http://trungtamytequan6.medinet.gov.vn/tim-mach/gio-vang-quyet-dinh-su-song-cmobile17305-250126.aspx
+    quote: Trong lúc chờ đợi, giữ bệnh nhân ở tư thế an toàn, đầu nghiêng để tránh sặc, tuyệt đối không cho uống thuốc.
+    verdict: partial
+    note: 'Nguồn Việt chỉ nói "không cho uống thuốc" và tư thế đầu nghiêng; "không cho ăn uống" không có trong QĐ 3312 hay bài này (suy ra từ nguy cơ sặc; QĐ 3312 chỉ nói "Rối loạn nuốt: sàng lọc"). Hướng dẫn AHA/ASA về nhịn ăn uống đến khi sàng lọc nuốt không được mở được trong lượt này.'
+  - text: Không chở bằng xe máy; xe cấp cứu điều phối được tới cơ sở có CT và xử trí được tiêu huyết khối
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: ""
+    verdict: not-found
+    note: 'Không nguồn nào trong mục (QĐ 3312) nói về xe máy/xe cấp cứu/điều phối. Bài Phú Lâm chỉ: "tuyệt đối không để bệnh nhân tự lái xe đi cấp cứu". Phần này là suy luận hợp lý, cần nhãn "suy ra" hoặc nguồn.'
+  - text: "Bẫy 2: nguy cơ viêm phổi nếu bị sặc; tri giác/ngôn ngữ là lý do không uống thuốc/nước"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: ""
+    verdict: inference
+    note: 'QĐ 3312 có nhắc "viêm phổi sặc" như biến chứng và "Rối loạn nuốt: sàng lọc" nhưng không có đoạn nào lập luận như mục; ghép nhiều ý.'
+  - text: Gọi 115 không mất tiền; BHYT trả phần lớn chi phí chụp CT/thuốc tiêu huyết khối/đơn vị đột quỵ
+    source_url: https://mst.gov.vn/mien-phi-cac-cuoc-goi-den-so-113-114-115-197140697.htm
+    quote: Người sử dụng dịch vụ điện thoại cố định mặt đất hoặc dịch vụ thông tin di động mặt đất gọi đến các số dịch vụ khẩn cấp (113, 114, 115) được miễn phí.
+    verdict: match-secondary
+    note: Chỉ phần gọi 115 miễn phí có (nguồn thứ cấp). "Quỹ bảo hiểm y tế trả phần lớn" và "mỗi phút chờ là một phần vùng não chết thêm" không có nguồn trong mục.
+internal_checks:
+  - issue: 'Bẫy 1 ("270 phút là hạn cuối") mâu thuẫn với nguồn của chính mục (QĐ 3312 mục 4.5: 4,5–9 giờ có tiêu chuẩn hình ảnh, đột quỵ thức giấc, và lấy huyết khối 6–24 giờ) và với mục 04 cùng chương (liệt kê cửa sổ 4,5 giờ, 6 giờ, 6–12, 6–24 giờ).'
+    severity: error
+  - issue: Khẳng định hành động (không chở xe máy, tới cơ sở có CT và bác sĩ tiêu huyết khối, không cho ăn uống) không có trong nguồn duy nhất đã dẫn (QĐ 3312); QĐ 3312 là hướng dẫn cho cơ sở khám chữa bệnh, không phải hướng dẫn sơ cứu cho người dân.
+    severity: warn
+  - issue: Con số 270 phút trong tldr/steps có trong thân và khớp QĐ 3312 mục 4.2.2; không con số nào mâu thuẫn trong nội bộ mục.
+    severity: warn
+validity:
+  doc: QĐ 3312/QĐ-BYT ngày 05/11/2024 (Hướng dẫn chẩn đoán và điều trị đột quỵ não)
+  in_force: unconfirmed
+  effective_from: 2024-11-05
+  amended_by: []
+  basis: 'Bản PDF bvtn.org.vn: trang 1 (quyết định) là ảnh quét, phần văn bản trích được ghi "Quyết định số /QĐ-BYT ngày tháng năm 2024" (trống); số/ngày chỉ xác nhận qua luatvietnam.vn (thứ cấp): "Số hiệu 3312/QĐ-BYT", "Ngày ban hành 05/11/2024", Điều 3 "có hiệu lực kể từ ngày ký, ban hành và thay thế Quyết định số 5331/QĐ-BYT ngày 23 tháng 12 năm 2020". Ô "Tình trạng hiệu lực" bị che (cần đăng nhập). Chưa có bằng chứng sơ cấp về việc còn hiệu lực/chưa bị thay thế.'
+deliberate_vn_deviation: []
+potential_harm:
+  - 'Bẫy 1: "270 phút là hạn cuối để dùng thuốc tiêu huyết khối, không phải hạn để quan sát. Qua mốc đó thì mất một lựa chọn điều trị" + tldr. Người đọc có triệu chứng quá 4,5 giờ hoặc ngủ dậy mới thấy triệu chứng có thể kết luận đã hết cách và trì hoãn/bỏ đi viện, trong khi QĐ 3312 vẫn cho tiêu huyết khối 4,5–9 giờ theo hình ảnh, đột quỵ thức giấc và lấy huyết khối cơ học tới 24 giờ. Mọi trường hợp đột quỵ nghi ngờ đều phải gọi 115 bất kể giờ.'
+suggested_edits:
+  - 'tldr: thay "Thuốc tiêu huyết khối cần triệu chứng dưới 270 phút, nên không chờ xem có đỡ không" bằng "Điều trị mở lại mạch máu phụ thuộc giờ khởi phát (thường trong 4,5 giờ, một số ca tới 9 giờ hoặc hơn khi có hình ảnh phù hợp), nên gọi 115 ngay và ghi giờ" — dựa vào quote mục 4.2.2 và 4.5.2 ("trong khoảng 4,5-9 giờ có thể dùng thuốc tiêu huyết khối đường tĩnh mạch nếu thỏa mãn").'
+  - 'Bẫy 1: bỏ "hạn cuối ... mất một lựa chọn". Viết: "Mốc 270 phút là điều kiện thông thường; ngoài mốc vẫn có thể có điều trị nhưng chọn lọc hơn. Đừng chờ; đi càng sớm càng nhiều lựa chọn."'
+  - 'Mục Nguồn: thêm AHA/Red Cross 2024 First Aid (FAST) và/hoặc bài HCDC 30/9/2025 cho các bước người dân (cười/giơ tay/nói, gọi 115, không cho uống thuốc, đầu nghiêng); gắn nhãn "suy ra" cho "không chở xe máy" và "không cho ăn uống".'
+  - 'Định nghĩa TIA: viết đủ "triệu chứng thần kinh khu trú do thiếu máu não ở một khu vực hoặc võng mạc ... không có tổn thương nhồi máu cấp trên hình ảnh cộng hưởng từ".'
+  - Bỏ hoặc tìm nguồn cho "Quỹ bảo hiểm y tế trả phần lớn" và "mỗi phút chờ là một phần vùng não chết thêm".

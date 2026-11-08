@@ -21,10 +21,10 @@ steps:
   - "Xét nghiệm lại HIV sau 1 tháng và 3 tháng kể từ lúc phơi nhiễm."
 legal_refs: []
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13hA
+  scope: "Chặn nâng trạng thái: 2 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/co-nguy-co-phoi-nhiem-hiv-toi-co-so-y-te-trong.yml)"
   sources: []
 origin:
   zh: null

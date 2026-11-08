@@ -1,0 +1,80 @@
+id: mot-mat-toi-nhu-co-man-che-du-vai-phut-tu-het
+content_sha256: 26a241b28cddfff781434120f285c9aa40e18c285b52e600132ac3b0862535a7
+checker: agent-Vf13aB
+checked_at: 2026-11-08
+result: fail
+claims:
+  - text: QĐ 40/QĐ-BYT ngày 12/01/2015 ban hành Hướng dẫn chẩn đoán và điều trị các bệnh về mắt; bài 27 là Tắc động mạch trung tâm võng mạc
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: (ban hành kèm theo Quyết định số 40/QĐ-BYT ngày 12/01/2015)
+    verdict: match
+    note: 'URL của mục là tệp RAR (hai PDF bên trong: "Quyết định - BỘ Y TẾ.pdf" và "The final - Mắt 20150112.pdf"), tải được; mục lục ghi "27. TẮC ĐỘNG MẠCH TRUNG TÂM VÕNG MẠC ... 132". PDF quét nhưng có lớp chữ trích được.'
+  - text: "Triệu chứng cơ năng: mù đột ngột một mắt, không chớp sáng, không đau nhức, không đỏ mắt, không cộm chói"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: Mù đột ngột 1 mắt, không kèm các triệu chứng chớp sáng, đau nhức, đỏ mắt, cộm chói.
+    verdict: match
+    note: ""
+  - text: Đôi khi có tiền triệu là những đợt mù thoáng qua ở một bên
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: Đôi khi có tiền triệu là những đợt mù thoáng qua, đau nhức hố mắt xảy ra ở 1 bên.
+    verdict: match
+    note: 'Nguồn thêm "đau nhức hố mắt" (mục bỏ, không sai). Phần Phòng bệnh: "khám, phát hiện những trường hợp mù thoáng qua xảy ra ở 1 mắt".'
+  - text: Đây là cấp cứu số một của nhãn khoa, cần xử lý sớm trong vòng 2 giờ đầu; mục tiêu tạo lại lưu thông mạch máu
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: Là cấp cứu số một của nhãn khoa cần xử lý sớm trong vòng 2 giờ đầu. - Giải quyết nguyên nhân tắc mạch, tạo lại sự lưu thông của mạch máu.
+    verdict: match
+    note: "Mốc 2 giờ khớp văn bản VN 2015. Xem deliberate_vn_deviation: lệch hướng dẫn AHA 2021 (4,5 giờ, coi là đột quỵ)."
+  - text: "Tiên lượng: tai biến gây mù một mắt đột ngột, không hồi phục dù được điều trị cấp cứu kịp thời"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: ...gây ra bệnh cảnh mù một mắt đột ngột, không hồi phục dù có được điều trị cấp cứu kịp thời. Bệnh hay gặp trên người có bệnh lý tim mạch.
+    verdict: match
+    note: Mục đã nói thẳng điều này, tốt. Tuy nhiên AHA 2021 (xem claim sau) nói "fewer than 20% of people regaining functional vision" (không phải 0%).
+  - text: Đi khám tới bệnh viện có khoa mắt và máy chụp mạch (huỳnh quang); phòng khám mắt gần nhà không làm được các bước hạ nhãn áp, tăng áp lực tưới máu
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Chụp mạch huỳnh quang võng mạc: thời gian tay-võng mạc kéo dài, chậm ngấm thuốc ở động mạch, hình ảnh của điểm tắc mạch và cục nghẽn, chậm ngấm thuốc ở tĩnh mạch."
+    verdict: partial
+    note: 'Chụp mạch huỳnh quang là cận lâm sàng của văn bản, còn "phải tới bệnh viện có khoa mắt và máy chụp mạch" là suy ra. Phác đồ của văn bản: "Tại chỗ: thay đổi áp lực động mạch và áp lực nội nhãn"; "Toàn thân: thuốc hạ nhãn áp, giãn mạch, tiêu cục máu đông, chống đông, chống ngưng tập tiểu cầu"; "Ngoại khoa: chọc tiền phòng". Không có "tăng áp lực tưới máu". Văn bản không nói cơ sở nào làm được.'
+  - text: Khám tim mạch để tìm nguồn tắc
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Điều trị nguyên nhân: điều trị các bệnh tim mạch bằng thuốc và phẫu thuật"
+    verdict: partial
+    note: Văn bản chỉ nói "Bệnh hay gặp trên người có bệnh lý tim mạch", điều trị nguyên nhân và phòng bệnh "khám tổng quát phát hiện các yếu tố nguy cơ, nhất là các bệnh tim mạch, bệnh máu". Không có bước "khám tim mạch trong ngày để tìm nguồn tắc"; đây là suy ra hợp lý.
+  - text: "Tắc động mạch trung tâm võng mạc xử trí như đột quỵ: phải tới khoa cấp cứu/bệnh viện ngay (nguồn quốc tế); mốc thuốc tiêu sợi huyết 4,5 giờ"
+    source_url: https://newsroom.heart.org/news/stroke-affecting-the-eye-requires-immediate-treatment-can-signal-future-vascular-events
+    quote: Central retinal artery occlusion (CRAO) is a rare form of acute ischemic stroke that occurs when blood flow is blocked to the main artery of the eye. It typically causes painless, immediate vision loss in the impacted eye, with fewer than 20% of people regaining functional vision in that eye. ... tPA must be administered within 4.5 hours of the first sign of symptoms to be most effective and safe.
+    verdict: partial
+    note: 'AHA Scientific Statement 2021 "Management of Central Retinal Artery Occlusion" (Stroke; doi 10.1161/STR.0000000000000366), tóm tắt trên newsroom.heart.org. Cùng bài: "acute CRAO is a medical emergency requiring early recognition and triage to emergency medical treatment ... if a person is diagnosed in a doctor’s office or other outpatient clinic, they should be immediately sent to a hospital emergency department". Mục 05 không nêu "đột quỵ", "gọi 115"/khoa cấp cứu và nói mốc 2 giờ: lệch.'
+  - text: 'Bẫy 2: phòng khám mắt gần nhà "không có máy chụp mạch huỳnh quang" nên mất buổi đầu'
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: ""
+    verdict: inference
+    note: Không có trong văn bản.
+  - text: 'Chi phí: tiền khám và chụp mạch huỳnh quang "thường vài trăm nghìn đồng", BHYT trả một phần'
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: ""
+    verdict: not-found
+    note: Không nguồn nào trong mục có giá.
+internal_checks:
+  - issue: Mục Nguồn trỏ tới tệp .rar (mat.rar chứa 2 PDF); không phải văn bản mở được trực tiếp bằng trình duyệt. Số bài/trang nên ghi rõ (Bài 27, tr. 132–135 của PDF "The final - Mắt 20150112.pdf").
+    severity: warn
+  - issue: Con số duy nhất trong tldr/steps là "2 giờ đầu", có trong thân và khớp văn bản; không có mâu thuẫn số liệu trong mục. Các cụm "hạ nhãn áp, tăng áp lực tưới máu" ở Bẫy 2 không có trong văn bản (chỉ "thuốc hạ nhãn áp", "thay đổi áp lực động mạch và áp lực nội nhãn").
+    severity: warn
+  - issue: steps không có "gọi 115"/đi cấp cứu bằng xe cấp cứu và không nói không tự lái xe; tldr chỉ nói "đi ngay tới bệnh viện có khoa mắt và máy chụp mạch".
+    severity: error
+validity:
+  doc: QĐ 40/QĐ-BYT ngày 12/01/2015 (Hướng dẫn chẩn đoán và điều trị các bệnh về mắt), bài 27; AHA Scientific Statement CRAO 2021
+  in_force: unconfirmed
+  effective_from: 2015-01-12
+  amended_by: []
+  basis: Tệp mat.rar từ kcb.vn (Cục Quản lý Khám, chữa bệnh) có bản quyết định và văn bản; không tìm thấy bằng chứng sơ cấp về tình trạng hiệu lực hay thay thế (không tra được Công báo/vbpl.vn trong lượt này). Văn bản đã 11 năm tuổi, phác đồ dùng Cerebrolysin/tolazolinium; AHA 2021 là hướng dẫn quốc tế mới hơn.
+deliberate_vn_deviation:
+  - 'QĐ 40/QĐ-BYT (2015): "cấp cứu số một của nhãn khoa ... trong vòng 2 giờ đầu"; AHA Scientific Statement 2021: CRAO là đột quỵ thiếu máu cục bộ cấp, phải chuyển ngay tới khoa cấp cứu (không phải phòng khám), tPA có thể có hiệu quả trong 4,5 giờ. Mục theo mốc 2 giờ và định hướng "bệnh viện có khoa mắt", không nêu 4,5 giờ hay khoa cấp cứu đột quỵ.'
+potential_harm:
+  - 'tldr/steps bước 2: "Đi khám mắt ngay, càng sớm càng tốt, tới bệnh viện có khoa mắt và máy chụp mạch" cùng Bẫy 2 chê phòng khám gần nhà. Theo AHA 2021 đây là đột quỵ mắt cần khoa cấp cứu/đơn vị đột quỵ (có CT/MRI, khám thần kinh-tim mạch); đi theo tên "khoa mắt" có thể làm chậm khi bệnh viện không có đơn vị cấp cứu đột quỵ. Mục không bảo gọi 115, không bảo không tự lái xe.'
+  - 'tldr "mốc xử lý sớm trong 2 giờ đầu": người đọc đến sau 2 giờ (còn trong 4,5 giờ theo AHA) có thể nghĩ đã muộn và bỏ qua khám cấp cứu; tiêu chuẩn nên là "ngay lập tức, kể cả khi mắt đã sáng lại" (mù thoáng qua cũng là cảnh báo đột quỵ, QĐ 3312 mục 1.1.2: TIA gồm triệu chứng "ở một khu vực hoặc võng mạc").'
+suggested_edits:
+  - 'tldr, steps bước 2: viết "Gọi 115 hoặc tới ngay khoa cấp cứu của bệnh viện lớn (có CT/MRI và khám thần kinh); nói rõ: mất thị lực một mắt đột ngột, ghi giờ; không tự lái xe" — căn cứ AHA 2021: "acute CRAO is a medical emergency requiring early recognition and triage to emergency medical treatment". Giữ câu "khám mắt" như bước phối hợp, không thay khoa cấp cứu.'
+  - 'Gắn nhãn deliberate_vn_deviation: nêu mốc 2 giờ của QĐ 40/2015 và AHA 2021 4,5 giờ; thêm câu "Mắt sáng lại sau vài phút vẫn là cấp cứu" (căn cứ bài 27: "tiền triệu là những đợt mù thoáng qua" và định nghĩa TIA của QĐ 3312 mục 1.1.2).'
+  - 'Bẫy 2: bỏ "không làm được các bước hạ nhãn áp, tăng áp lực tưới máu như tài liệu mô tả" hoặc sửa đúng chữ nguồn ("thay đổi áp lực động mạch và áp lực nội nhãn"; "thuốc hạ nhãn áp"). Bỏ/nguồn hóa "thường vài trăm nghìn đồng".'
+  - 'Mục Nguồn: ghi "tệp mat.rar → The final - Mắt 20150112.pdf, bài 27, tr. 132–135"; thêm AHA Scientific Statement CRAO 2021 (doi 10.1161/STR.0000000000000366).'
+  - 'Mục "Khám tim mạch ...": sửa thành "Sau cấp cứu, cần khám nguyên nhân tim mạch/mạch cảnh" dựa trên "Bệnh hay gặp trên người có bệnh lý tim mạch" và "khám tổng quát phát hiện các yếu tố nguy cơ".'

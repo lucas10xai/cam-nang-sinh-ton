@@ -1,0 +1,82 @@
+id: tre-duoi-1-tuoi-hoc-di-vat-khoc-khong-ra-tieng-cho
+checker: agent-Vf13iA
+checked_at: 2026-11-08
+content_sha256: "fd18172808fb4d71de389faa144d386fc168facb088c134f0de63f8da72afbb0"
+result: pass-with-edits
+claims:
+  - text: "Trẻ còn hồng hào, khóc được, ho có hiệu quả: khuyến khích trẻ ho, đưa tới cơ sở y tế"
+    source_url: https://benhviennhitrunguong.gov.vn/lien-tiep-tre-nhap-vien-do-hoc-di-vat-duong-tho-nguoi-lon-can-hoc-ngay-cach-so-cuu-dung.html
+    quote: 'Nếu trẻ còn hồng hào, khóc được, nói được, ho có hiệu quả, không ảnh hưởng đến các chức năng sống: Hãy khuyến khích trẻ ho, tiếp tục theo dõi, đánh giá và nhanh chóng đưa trẻ đến cơ sở y tế gần nhất để được sơ cấp cứu.'
+    verdict: match
+    note: "BV Nhi TW 20/12/2024 (sửa 14/1/2025), BSCKII Nguyễn Tân Hùng. ERC 2025 PLS (Resuscitation 215:110767) cùng ý: 'Encourage an older child or adolescent to cough', còn trẻ nhũ nhi thì back blows khi ho không hiệu quả."
+  - text: "Trẻ tím tái, khóc yếu/không khóc, ho không hiệu quả: gọi cấp cứu và làm thủ thuật ngay"
+    source_url: https://benhviennhitrunguong.gov.vn/lien-tiep-tre-nhap-vien-do-hoc-di-vat-duong-tho-nguoi-lon-can-hoc-ngay-cach-so-cuu-dung.html
+    quote: 'Nếu trẻ tím tái, không khóc hoặc khóc yếu, ho không hiệu quả. Nhanh chóng gọi cấp cứu và thực hiện các thủ thuật sơ cứu sau:'
+    verdict: match
+    note: "Mục viết 'khóc không ra tiếng, môi tím' thay cho 'không khóc hoặc khóc yếu, tím tái'; ý khớp."
+  - text: "Trẻ nhỏ: nằm sấp, đầu thấp, dọc cẳng tay, bàn tay đỡ ngực và xương hàm, gót bàn tay vỗ 5 cái giữa hai bả vai"
+    source_url: https://benhviennhitrunguong.gov.vn/lien-tiep-tre-nhap-vien-do-hoc-di-vat-duong-tho-nguoi-lon-can-hoc-ngay-cach-so-cuu-dung.html
+    quote: 'Đặt trẻ nằm sấp, đầu thấp, dọc theo cánh tay một bên, bàn tay đỡ vùng ngực xương hàm dưới của trẻ. Dùng gót bàn tay còn lại vỗ 5 cái vào lưng trẻ ở khoảng giữa hai bả vai theo hướng xuống dưới và ra phía trước.'
+    verdict: match
+    note: "ERC 2025 PLS: 'Give up to 5 back blows ... Turn the infant face-down on your forearm with your forearm resting on your leg. Support the head of the infant with your hand. Try to hold the head below the level of the thorax'. Khớp."
+  - text: "Dị vật chưa ra: lật ngửa, ấn mạnh 1/2 dưới xương ức 5 cái, 1 lần/giây; luân phiên vỗ lưng và ấn ngực"
+    source_url: https://benhviennhitrunguong.gov.vn/lien-tiep-tre-nhap-vien-do-hoc-di-vat-duong-tho-nguoi-lon-can-hoc-ngay-cach-so-cuu-dung.html
+    quote: 'Nếu vẫn chưa bật được dị vật ra tiến hành lật ngửa trẻ vẫn để dọc cánh tay, dùng hai ngón tay trái ấn mạnh ở vùng 1/2 dưới xương ức 5 cái (tần suất 1 lần/ 1 giây)'
+    verdict: match
+    note: "Nguồn nêu 'dùng hai ngón tay'; mục không nêu kỹ thuật ấn ngực. ERC 2025 (đổi so với 2021): 'Use the two-thumbs encircling technique to perform chest thrusts ... compressing the sternum more sharply. Repeat up to five times or until the obstruction is relieved.' Đây là chỗ nguồn VN (hai ngón tay) lệch ERC 2025 (hai ngón cái ôm ngực). Mục bỏ trống kỹ thuật nên người đọc không biết ấn bằng gì."
+  - text: "Luân phiên vỗ lưng và ấn ngực đến khi dị vật rơi ra"
+    source_url: https://benhviennhitrunguong.gov.vn/lien-tiep-tre-nhap-vien-do-hoc-di-vat-duong-tho-nguoi-lon-can-hoc-ngay-cach-so-cuu-dung.html
+    quote: 'Luân phiên vỗ lưng và ấn ngực cho tới khi dị vật rơi khỏi đường thở.'
+    verdict: partial
+    note: "Câu của nguồn nằm trong nhánh 'Nếu trẻ còn tỉnh'. Cùng nguồn có nhánh 'Nếu trẻ không tỉnh: Mở thông đường thở bằng cách ngửa đầu, nâng cằm - Thổi ngạt 2 lần - Hồi sức tim phổi ... 30 lần ép tim : 2 lần thổi ngạt'. ERC 2025: 'Call for help and the EMS ... at the latest when the child loses consciousness. Start CPR immediately with five rescue breaths as soon as the child becomes unconscious.' Mục không có nhánh trẻ bất tỉnh, nên 'lặp lại đến khi dị vật rơi ra' không có điều kiện dừng khi trẻ mềm nhũn/ngừng thở."
+  - text: "Bệnh viện chỉ dùng nghiệm pháp Heimlich cho trẻ lớn, không dùng cho trẻ nhỏ; ấn bụng có thể làm tổn thương tạng trong ổ bụng"
+    source_url: https://benhviennhitrunguong.gov.vn/lien-tiep-tre-nhap-vien-do-hoc-di-vat-duong-tho-nguoi-lon-can-hoc-ngay-cach-so-cuu-dung.html
+    quote: 'Ngoài sử dụng biện pháp vỗ lưng ấn ngực có thể trẻ lớn người cấp cứu có thể sử dụng nghiệm pháp Heimlich với trẻ ở tư thế đứng hoặc ngồi'
+    verdict: partial
+    note: "Nguồn chỉ xếp Heimlich dưới mục 'Đối với trẻ lớn'; không có câu 'không dùng cho trẻ nhỏ' và không có lý do 'tổn thương tạng'. ERC 2025 cho thấy trẻ nhũ nhi dùng chest thrusts, trẻ lớn dùng abdominal thrusts ('In children and adolescents ... Stand behind the child and put your arms around the upper part of the abdomen'). Hướng làm đúng, lý do là suy ra."
+  - text: "Không móc họng bằng tay, không gây nôn, không cho ăn uống; móc họng đẩy dị vật xuống sâu hơn"
+    source_url: https://benhviennhitrunguong.gov.vn/lien-tiep-tre-nhap-vien-do-hoc-di-vat-duong-tho-nguoi-lon-can-hoc-ngay-cach-so-cuu-dung.html
+    quote: 'Tuyệt đối không dùng tay móc dị vật, không gây nôn hoặc cho ăn uống'
+    verdict: match
+    note: "Phần cơ chế 'đẩy dị vật xuống sâu hơn' (Bẫy 2) không có trong nguồn (suy ra). ERC 2025: 'Do not use blind sweeps ... but use a single sweep to remove a clearly visible obstruction' (ERC cho phép lấy dị vật nhìn thấy rõ, nguồn VN cấm tuyệt đối: hướng thận trọng hơn, không gây hại)."
+  - text: "Gọi cấp cứu: bấm số 115 trên điện thoại"
+    source_url: https://ttcc115.medinet.gov.vn/trung-tam-cap-cuu-115-tphcm-cm7/Contact.aspx
+    quote: 'Để gọi cấp cứu, nhấn số 115 trên điện thoại.'
+    verdict: match
+    note: "Trang Trung tâm cấp cứu 115 TP.HCM (đọc ngày 8/11/2026)."
+  - text: "steps[0]: 'Không bế dốc ngược, không lắc'; Bẫy 1 trẻ còn khóc"
+    source_url: https://benhviennhitrunguong.gov.vn/lien-tiep-tre-nhap-vien-do-hoc-di-vat-duong-tho-nguoi-lon-can-hoc-ngay-cach-so-cuu-dung.html
+    quote: ''
+    verdict: not-found
+    note: "Nguồn không nói bế dốc ngược/lắc. Nguồn chỉ nói 'Ho tự nhiên có hiệu quả hơn bất kì biện pháp can thiệp vật lí nào khác. Các biện pháp vật lí (vỗ lưng, ấn ngực, Heimlich) chỉ được thực hiện khi trẻ không ho được, ho không hiệu quả và khó thở tăng dần.'"
+  - text: "Dị vật ra rồi vẫn cho trẻ đi khám; mảnh còn lại trong phế quản gây viêm phổi sau vài ngày"
+    source_url: https://benhviennhitrunguong.gov.vn/lien-tiep-tre-nhap-vien-do-hoc-di-vat-duong-tho-nguoi-lon-can-hoc-ngay-cach-so-cuu-dung.html
+    quote: ''
+    verdict: inference
+    note: "Hướng 'vẫn đi khám' phù hợp hai ca hạt lạc trong nguồn (một phần hạt rơi ra, vẫn phải nội soi gắp phần còn sót) nhưng không có câu hướng dẫn tường minh, và 'viêm phổi sau vài ngày' không có trong nguồn."
+internal_checks:
+  - issue: "Mục (tiêu đề/tldr/steps) chỉ dành cho trẻ dưới 1 tuổi, nhưng mục 45 (trẻ 4 tuổi nuốt pin) dẫn sang mục này để xử trí hóc dị vật: kỹ thuật nằm sấp trên cẳng tay không dùng cho trẻ lớn. Xem mục 45."
+    severity: error
+  - issue: "Phân tích số: 5 vỗ lưng, 5 ấn ngực, 1 lần/giây đều có trong thân; không thấy mâu thuẫn số."
+    severity: warn
+  - issue: "Mục 44 (cùng chương) nói thổi ngạt 5 nhịp đầu rồi ép tim 30:2; mục 43 không có nhánh trẻ bất tỉnh để nối sang mục 44 (không có related/liên kết sang mục 44)."
+    severity: warn
+validity:
+  doc: "Bệnh viện Nhi Trung ương, Liên tiếp trẻ nhập viện do hóc dị vật đường thở (20/12/2024; sửa 14/1/2025); đối chiếu ERC Guidelines 2025 Paediatric Life Support"
+  in_force: true
+  effective_from: "2024-12-20"
+  amended_by: []
+  basis: "Bài hướng dẫn ra 12/2024, sửa 1/2025; so với ERC 2025 PLS (đăng 10/2025) thì trình tự back blows 5 / chest thrusts 5 và 'không dùng ngón tay móc mù' khớp. Chưa tìm hướng dẫn nào mới hơn của Bộ Y tế ghi khác; chưa kiểm AHA bản mới nhất."
+deliberate_vn_deviation:
+  - "Kỹ thuật ấn ngực: nguồn VN (BV Nhi TW) 'hai ngón tay', ERC 2025 PLS đổi sang 'two-thumbs encircling technique' cho chest thrusts ở trẻ nhũ nhi. Mục không nêu kỹ thuật."
+  - "Nguồn VN 'Tuyệt đối không dùng tay móc dị vật'; ERC 'single sweep' được phép với dị vật nhìn thấy rõ. Mục theo hướng VN (thận trọng hơn)."
+potential_harm:
+  - "Thiếu nhánh trẻ mất ý thức/ngừng thở: steps[3] 'Lặp vỗ lưng và ấn ngực đến khi dị vật rơi ra' không nói khi trẻ bất tỉnh phải đặt nằm ngửa, mở đường thở, thổi ngạt 5 nhịp (ERC) rồi ép tim 30:2 (và 115). Làm đúng nguyên văn trên trẻ đã ngừng thở thì trì hoãn hồi sinh tim phổi."
+  - "steps[3] ấn ngực bằng gì không nói (nguồn: hai ngón tay; ERC 2025: hai ngón cái ôm ngực): người đọc có thể dùng cả bàn tay hoặc ấn bụng."
+  - "Mục 45 dùng mục này cho trẻ lớn nuốt pin: kỹ thuật nằm sấp dọc cẳng tay không áp dụng cho trẻ lớn; trẻ lớn dùng vỗ lưng cúi người + ấn bụng (ERC)."
+suggested_edits:
+  - "Thêm vào steps (và tldr): 'Nếu trẻ lả đi, không thở hoặc không phản ứng: đặt nằm ngửa trên mặt cứng, mở đường thở, thổi ngạt 5 nhịp rồi ép tim 30:2 (xem mục 44), gọi 115 nếu chưa gọi'. Dựa vào nhánh 'Nếu trẻ không tỉnh' của BV Nhi TW và ERC 2025 ('Start CPR immediately with five rescue breaths as soon as the child becomes unconscious')."
+  - "steps[3]: nêu kỹ thuật ấn ngực theo nguồn ('hai ngón tay') và ghi chú ERC 2025 chuyển sang hai ngón cái ôm ngực; hoặc nói 'ấn ngực mạnh, dứt khoát như ép tim'."
+  - "Bẫy 3 và câu 'Bệnh viện chỉ dùng cho trẻ lớn... vì ấn bụng có thể làm tổn thương tạng': bỏ phần lý do hoặc gắn 'suy ra'; dẫn thêm ERC 2025 cho phân biệt chest thrusts (nhũ nhi) và abdominal thrusts (trẻ lớn)."
+  - "steps[0] 'Không bế dốc ngược, không lắc', Bẫy 2 cơ chế 'đẩy xuống sâu', và 'viêm phổi sau vài ngày': gắn 'suy ra' hoặc xóa."
+  - "Tiêu đề/tldr nói rõ 'trẻ dưới 1 tuổi' và thêm dòng 'trẻ trên 1 tuổi: vỗ lưng cúi người và ấn bụng (Heimlich)' hoặc liên kết mục khác, để mục 45 không dẫn sai."

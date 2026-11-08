@@ -1,0 +1,90 @@
+id: dau-du-doi-nhu-bi-xe-tu-nguc-chay-ra-sau-lung
+checker: agent-Vf13bB
+checked_at: 2026-11-08
+content_sha256: "928950ca07c9cb07a446a803fed1a0d91c9f28e38a703275d29f0c526e749c55"
+result: pass-with-edits
+claims:
+  - text: "Lóc tách động mạch chủ loại A cấp tính là bệnh lý tim mạch rất nặng, phải được chẩn đoán và phẫu thuật cấp cứu kịp thời"
+    source_url: https://benhvienvietduc.org/8-gio-pha%CC%83u-thua%CC%A3t-mang-su%CC%A3-song-cho-be%CC%A3nh-nhan-bi%CC%A3-loc-tach-do%CC%A3ng-ma%CC%A3ch-chu%CC%89-nhieu-bien-chung-nguy-ki%CC%A3ch-2.html
+    quote: "lóc động mạch chủ loại A cấp tính là bệnh lý tim mạch rất nặng, đe dọa tính mạng người bệnh, nên đòi hỏi phải được chẩn đoán và phẫu thuật cấp cứu kịp thời."
+    verdict: match
+    note: "Bài đăng lại từ Báo Sức khỏe & Đời sống (09/08/2019, sửa 12/02/2025), lời PGS.TS Nguyễn Hữu Ước. Là bài báo qua website bệnh viện, không phải hướng dẫn chuyên môn."
+  - text: "Khi đã chẩn đoán thì chuyển ngay tới bệnh viện có khả năng phẫu thuật, tránh đi qua nhiều tuyến trung gian"
+    source_url: https://benhvienvietduc.org/8-gio-pha%CC%83u-thua%CC%A3t-mang-su%CC%A3-song-cho-be%CC%A3nh-nhan-bi%CC%A3-loc-tach-do%CC%A3ng-ma%CC%A3ch-chu%CC%89-nhieu-bien-chung-nguy-ki%CC%A3ch-2.html
+    quote: "Khi đã chẩn đoán lóc động mạch chủ type A cấp tính, người bệnh cần được chuyển ngay đến các bệnh viện có khả năng phẫu thuật, tránh phải trải qua nhiều tuyến trung gian, kéo dài thời gian làm nguy hiểm đến tính mạng"
+    verdict: partial
+    note: "Điều kiện 'khi đã chẩn đoán ... type A' là câu về chuyển viện giữa các cơ sở y tế. Mục dùng nó để bảo người đọc, trước khi có chẩn đoán, 'yêu cầu đưa thẳng tới bệnh viện mổ được động mạch chủ', 'đừng ghé tuyến gần': suy rộng quá nguồn. Đối chiếu ACC/AHA 2022 Aortic Disease guideline (PMC10784847): 'Patients with acute type A aortic dissection, if clinically stable, should be considered for transfer to a high-volume aortic center to improve survival.' (tóm tắt Việt: bệnh nhân lóc tách type A cấp, nếu lâm sàng ổn định, nên cân nhắc chuyển tới trung tâm động mạch chủ khối lượng lớn). Có điều kiện 'ổn định' và chỉ 'should be considered'."
+  - text: "Bệnh viện Việt Đức đã mổ cấp cứu thường quy hơn 250 ca trong gần 10 năm; những năm gần đây thành công trên 90%"
+    source_url: https://benhvienvietduc.org/8-gio-pha%CC%83u-thua%CC%A3t-mang-su%CC%A3-song-cho-be%CC%A3nh-nhan-bi%CC%A3-loc-tach-do%CC%A3ng-ma%CC%A3ch-chu%CC%89-nhieu-bien-chung-nguy-ki%CC%A3ch-2.html
+    quote: "đã thực hiện phẫu thuật cấp cứu thường quy điều trị lóc động mạch chủ loại A cho hơn 250 bệnh nhân trong gần 10 năm trở lại đây, nhiều nhất ở miền Bắc, với tỷ lệ thành công tới hơn 90% trong những năm gần đây"
+    verdict: match
+    note: "Số liệu từ năm 2019 (bài 09/08/2019); 'gần 10 năm' tính tới 2019, mục không ghi mốc năm nên có thể gây hiểu là đến nay. Số liệu do bệnh viện tự công bố trên báo."
+  - text: "Cơn đau điển hình: đau ngực dữ dội như dao đâm hay như xé ngực, xuyên ra sau lưng, kéo dài nhiều giờ"
+    source_url: https://www.vinmec.com/vie/benh/loc-tach-dong-mach-chu-2993
+    quote: "Đau ngực thường dữ dội, như dao đâm hay như xé ngực, xuyên ra sau lưng, kéo dài trong nhiều giờ."
+    verdict: match
+    note: "Trang Vinmec là nguồn thương mại, không có tác giả/ngày; không đối chiếu được hướng dẫn ESC/AHA cho mô tả cơn đau trong phạm vi lần này ngoài đoạn AHA ở trên."
+  - text: "Đau lan 'xuống thắt lưng' (tiêu đề, bước 2)"
+    source_url: https://www.vinmec.com/vie/benh/loc-tach-dong-mach-chu-2993
+    quote: "Đau ngực/lưng: đây là triệu chứng hay gặp nhất."
+    verdict: inference
+    note: "Vinmec chỉ ghi 'xuyên ra sau lưng'; cụm 'xuống thắt lưng' không có trong nguồn nào của mục. Đây là suy ra từ mô tả bóc tách lan xuống bụng (Vinmec: 'đau bụng, chướng bụng: lóc tách lan xuống động mạch chủ bụng')."
+  - text: "Chụp cắt lớp vi tính đa dãy dựng hình động mạch chủ là cách chẩn đoán chính xác nhất"
+    source_url: https://www.vinmec.com/vie/benh/loc-tach-dong-mach-chu-2993
+    quote: "Chụp cắt lớp vi tính đa dãy có dựng hình động mạch chủ: là phương pháp chẩn đoán chính xác nhất."
+    verdict: match
+    note: ""
+  - text: "115 là số cấp cứu y tế dành cho xe cấp cứu (mục 4.6, Quyết định 636/QĐ-BYT 2025)"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: "Người bị đặt ga-rô phải được nhanh chóng chuyển đến bệnh viện, tốt nhất là vận chuyển bằng xe cấp cứu 115."
+    verdict: partial
+    note: "Văn bản là 'Số: 636 /QĐ-BYT, Hà Nội, ngày 21 tháng 02 năm 2025', URL đúng văn bản. Nhưng mục 4.6 của tài liệu là 'Phương pháp đặt ga-rô' (cầm máu), câu 115 ở đó chỉ nói về người bị đặt ga-rô, không tuyên bố '115 là số cấp cứu y tế'. Chỗ đúng hơn: mục 4.2 Phần I, 'Gọi cấp cứu 115 để được tư vấn, cấp cứu và vận chuyển nạn nhân đến bệnh viện hoặc cơ sở y tế gần nhất.' PDF là bản quét, text-layer có nhiều lỗi nhận dạng; trích đã sửa dấu theo ngữ cảnh. Tài liệu là huấn luyện sơ cứu tại nơi làm việc, không nói về lóc tách động mạch chủ."
+  - text: "Bước 3 'Không tự lái xe, không tự chở bằng xe máy, không ghé phòng khám gần nhà'; Bẫy 2 'ghé phòng khám gần nhà rồi mất thêm một lượt chuyển viện, đúng cái bác sĩ Việt Đức khuyên tránh'"
+    source_url: https://benhvienvietduc.org/8-gio-pha%CC%83u-thua%CC%A3t-mang-su%CC%A3-song-cho-be%CC%A3nh-nhan-bi%CC%A3-loc-tach-do%CC%A3ng-ma%CC%A3ch-chu%CC%89-nhieu-bien-chung-nguy-ki%CC%A3ch-2.html
+    quote: "tránh phải trải qua nhiều tuyến trung gian, kéo dài thời gian làm nguy hiểm đến tính mạng"
+    verdict: inference
+    note: "Nguồn chỉ nói về chuyển viện đã chẩn đoán. Không có nguồn nào cho 'không tự lái xe' trong riêng bệnh này; 'không ghé phòng khám gần nhà' là suy ra. Bài đăng ca ông V. còn cho thấy bệnh nhân đi qua bệnh viện địa phương, trung ương rồi mới tới Việt Đức nhưng bài không kết luận người nhà phải tự chọn nơi đến."
+  - text: "Bẫy 3: gọi 115 nhưng chỉ nói 'đau ngực' thì tổng đài không xếp vào nhóm tối khẩn"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: "Không có câu tương ứng."
+    verdict: not-found
+    note: "Không nguồn nào nói về cách tổng đài 115 phân loại cuộc gọi. Khẳng định về nội bộ tổng đài chưa có căn cứ."
+  - text: "Bẫy 1: lóc tách không dịu vì thuốc thông thường, bị đoán là đau lưng do bưng bê"
+    source_url: https://www.vinmec.com/vie/benh/loc-tach-dong-mach-chu-2993
+    quote: "Nhiều khi cần phải dùng thuốc giảm đau loại morphin mới làm dịu được cơn đau"
+    verdict: inference
+    note: "Vinmec nói cơn đau cần morphin nhiều khi mới dịu; 'không dịu vì thuốc thông thường' là diễn đạt lại; hợp lý."
+  - text: "Chi phí: cuộc gọi 115 không mất đồng nào; phim CT và ca mổ phụ thuộc bệnh viện và vật tư; vài giờ chờ ở phòng cấp cứu"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: "Không có câu tương ứng về giá/phí gọi 115."
+    verdict: not-found
+    note: "Không có nguồn."
+internal_checks:
+  - issue: "legal_refs[0] và dòng Nguồn ghi 'mục 4.6 (xe cấp cứu 115)' nhưng mục 4.6 của Quyết định 636 là 'Phương pháp đặt ga-rô'. Câu về 115 đúng chủ đề nằm ở Phần I mục 4.2. (e) article không khớp khẳng định."
+    severity: error
+  - issue: "Mục 'Pháp luật Việt Nam' dùng văn bản về sơ cứu tại nơi làm việc để khẳng định 115 là số cấp cứu; không phải căn cứ pháp lý cho bước 'đưa thẳng tới bệnh viện mổ được động mạch chủ'. Bước 3/4 của steps không có căn cứ trong thân (xem inference)."
+    severity: warn
+  - issue: "Mâu thuẫn trong nguồn dẫn: Quyết định 636 mục 4.2 hướng dẫn gọi 115 để chuyển nạn nhân 'đến bệnh viện hoặc cơ sở y tế gần nhất', trong khi mục khuyên 'đừng ghé tuyến gần' mà không giải thích phạm vi áp dụng."
+    severity: warn
+  - issue: "Số liệu '250 ca trong gần 10 năm' và 'thành công trên 90%' không ghi năm; nguồn năm 2019."
+    severity: warn
+  - issue: "Cross-chapter: mục 13-07 (đau ngực thắt): nếu thêm aspirin cần nêu ngoại lệ đau xé ra sau lưng; hiện hai mục không giao nhau, nhưng nên có liên kết chéo 'nếu đau xé ra sau lưng thì đừng tự cho aspirin'."
+    severity: warn
+validity:
+  doc: "Quyết định 636/QĐ-BYT ngày 21/02/2025 (Tài liệu huấn luyện sơ cứu, cấp cứu tại nơi làm việc)"
+  in_force: unconfirmed
+  effective_from: "2025-02-21"
+  amended_by: []
+  basis: "Quyết định ghi 'Điều 2. Quyết định này có hiệu lực kể từ ngày ký ban hành.' (text-layer quét). Không có bằng chứng bị sửa/thay thế nhưng chưa tra Công báo/CSDL văn bản. Hai nguồn y tế còn lại (Việt Đức 2019, Vinmec không ghi ngày) không có 'hiệu lực'; chưa có hướng dẫn Bộ Y tế riêng cho lóc tách động mạch chủ (mục tự nhận). Hướng dẫn quốc tế đối chiếu: ACC/AHA 2022 Aortic Disease."
+deliberate_vn_deviation:
+  - "ACC/AHA 2022: 'if clinically stable, should be considered for transfer to a high-volume aortic center'; mục (theo bài Việt Đức) viết thành lệnh vô điều kiện: 'yêu cầu đưa thẳng ... đừng ghé tuyến gần', áp cho người chưa có chẩn đoán, không nêu điều kiện ổn định huyết động."
+potential_harm:
+  - "Bước 3/4 bảo người đọc 'yêu cầu đưa thẳng tới bệnh viện mổ được động mạch chủ', 'không ghé tuyến gần' và 'không tự chở': với người sốc/tụt huyết áp/nghi vỡ, quãng đường tới bệnh viện xa có thể làm chậm hồi sức. Nguồn (Việt Đức) chỉ nói về người đã chẩn đoán type A; ACC/AHA nói 'nếu lâm sàng ổn định'. Người đọc phổ thông không tự quyết được điểm đến; nên để tổng đài 115 điều phối."
+  - "Bước 2 'nói rõ ... xuống thắt lưng' và Bẫy 3 'tổng đài không xếp tối khẩn' khiến người đọc tin rằng họ phải dùng đúng cụm từ; nếu gọi mà không nhớ cụm, họ có thể trì hoãn hoặc cho rằng cuộc gọi bị đánh giá thấp. Không có nguồn."
+suggested_edits:
+  - "steps 3/4 và tldr: đổi 'Yêu cầu đưa thẳng tới bệnh viện mổ được động mạch chủ. Đừng ghé tuyến gần' thành 'Mô tả cơn đau cho tổng đài 115 và làm theo điều phối; nếu bác sĩ nghi lóc tách động mạch chủ, họ sẽ chuyển tới nơi mổ được' (dựa quote Việt Đức 'Khi đã chẩn đoán lóc động mạch chủ type A cấp tính, người bệnh cần được chuyển ngay đến các bệnh viện có khả năng phẫu thuật' và ACC/AHA 'if clinically stable')."
+  - "Bẫy 2: bỏ 'ghé phòng khám gần nhà ... đúng cái bác sĩ Việt Đức khuyên tránh' hoặc viết lại đúng phạm vi: 'sau khi đã chẩn đoán, tránh chuyển nhiều tuyến'."
+  - "Bẫy 3: bỏ ý 'tổng đài không xếp vào nhóm tối khẩn' (không nguồn)."
+  - "Tiêu đề/bước 2: bỏ 'xuống thắt lưng' hoặc đổi 'ra sau lưng' (đúng Vinmec: 'xuyên ra sau lưng')."
+  - "legal_refs/Nguồn/'Pháp luật Việt Nam': đổi 'mục 4.6' thành 'Phần I, mục 4.2 (Kêu gọi sự trợ giúp ...: Gọi cấp cứu 115)'; hoặc bỏ phần Pháp luật vì không liên quan bước chính."
+  - "'Việt Đức đã mổ hơn 250 ca trong gần 10 năm': thêm 'tính đến 2019'."

@@ -1,0 +1,89 @@
+id: bi-xam-hai-tinh-duc-toi-noi-an-toan-roi-goi-113
+checker: agent-Vf13iB
+checked_at: 2026-11-08
+content_sha256: 7fc6969adc7ba417e446d063496a5a0d1d8d54e2140dfbce833278def3dba322
+result: fail
+claims:
+  - text: 'BYT: hỏi người bị hại đã tắm, thay quần áo... vì "có thể ảnh hưởng đến chứng cứ pháp y"; khuyến khích giữ quần áo, đồ lót'
+    source_url: https://syt.dongnai.gov.vn/vi/van-ban/detail/Huong-dan-cham-soc-va-ho-tro-y-te-cho-nguoi-bi-xam-hai-tinh-duc-4261/
+    quote: hỏi người bị hại đã tắm, tiểu tiện, đại tiện, nôn, sử dụng dung dịch rửa vệ sinh hay thay quần áo kể từ sau sự việc đó hay chưa. Những việc này có thể ảnh hưởng đến chứng cứ pháp y. Khuyến khích bệnh nhân cố gắng nhớ và lưu lại những vật phẩm có thể lưu lại dấu tích của thủ phạm (tóc, tinh dịch, máu…) như quần áo, đồ lót hoặc các đồ vật khác để kịp thời thu thập bằng chứng.
+    verdict: match
+    note: PDF phụ lục QĐ 3133/QĐ-BYT lấy từ link tải trên trang SYT Đồng Nai (mục III 2.1). Nguồn là câu hỏi dành cho cán bộ y tế, không phải lệnh "đừng tắm" cho nạn nhân.
+  - text: '"Đừng tắm, đừng giặt quần áo, đừng dọn phòng; cho quần áo, đồ lót vào túi giấy" (hướng dẫn cho nạn nhân)'
+    source_url: https://syt.dongnai.gov.vn/vi/van-ban/detail/Huong-dan-cham-soc-va-ho-tro-y-te-cho-nguoi-bi-xam-hai-tinh-duc-4261/
+    quote: Các vật phẩm cần được lưu giữ theo các quy định chuyên ngành. Việc tự lưu giữ trong điều kiện không đảm bảo có thể làm mất giá trị pháp y của các vật phẩm.
+    verdict: inference
+    note: BYT không có câu "đừng tắm/dọn phòng/túi giấy"; mục suy từ phần hỏi của cán bộ y tế. Chính BYT cảnh báo người dân tự lưu giữ có thể làm mất giá trị pháp y. "Túi giấy" và "dọn phòng" không có trong nguồn.
+  - text: Khám sinh dục trong 72 giờ chỉ xác định tổn thương thực thể ở gần 50%
+    source_url: https://syt.dongnai.gov.vn/vi/van-ban/detail/Huong-dan-cham-soc-va-ho-tro-y-te-cho-nguoi-bi-xam-hai-tinh-duc-4261/
+    quote: ngay cả khi việc thăm khám cơ quan sinh dục được thực hiện trong vòng 72 giờ sau khi vụ hiếp dâm xảy ra, việc thăm khám chỉ xác định được tổn thương thực thể trong khoảng gần 50% trường hợp.
+    verdict: match
+    note: ""
+  - text: '"Tới bệnh viện trong 72 giờ để khám, lấy chứng cứ, dự phòng" (72 giờ như hạn chót đi khám)'
+    source_url: https://syt.dongnai.gov.vn/vi/van-ban/detail/Huong-dan-cham-soc-va-ho-tro-y-te-cho-nguoi-bi-xam-hai-tinh-duc-4261/
+    quote: Nếu vụ việc đã xảy ra hơn một tuần trước đó và nếu người bị hại không có vết thâm tím, vết rách, vết loét, chảy dịch, chảy máu hoặc không kêu đau, có nghĩa là có rất ít chỉ báo cho việc cần khám tiểu khung.
+    verdict: partial
+    note: '72 giờ trong QĐ 3133 chỉ là ngữ cảnh tỉ lệ phát hiện tổn thương, không phải thời hạn đi khám. BYT dùng mốc "hơn một tuần". WHO: tránh thai khẩn cấp trong 5 ngày; PEP HIV không muộn quá 72 giờ. Trình bày "trong 72 giờ" làm người đến sau 72 giờ nghĩ là hết cơ hội/không cần đi.'
+  - text: "Xử trí: thuốc tránh thai khẩn cấp khi nguy cơ mang thai, dự phòng STI, chuyển gửi dự phòng HIV"
+    source_url: https://syt.dongnai.gov.vn/vi/van-ban/detail/Huong-dan-cham-soc-va-ho-tro-y-te-cho-nguoi-bi-xam-hai-tinh-duc-4261/
+    quote: Khi nghi ngờ nguy cơ mang thai, cho người bị XHTD dùng thuốc tránh thai khẩn cấp phòng mang thai ngoài ý muốn; - Điều trị dự phòng các viêm nhiễm LTQĐTD như lậu, giang mai, chlamydia, trùng roi nếu có chỉ định.
+    verdict: match
+    note: 'Câu dự phòng HIV: "Điều trị dự phòng lây nhiễm HIV cho những người có nguy cơ: Chuyển gửi người bị XHTD đến cơ sở có chuyên môn phù hợp." Với trẻ em BYT "Không khuyến cáo việc sử dụng thuốc dự phòng sau phơi nhiễm HIV ở trẻ em trừ khi biết chắc kẻ xâm hại nhiễm HIV hoặc ở khu vực có tỷ lệ nhiễm cao" - mục không nêu ngoại lệ này khi bước 3 hứa chung "dự phòng... HIV".'
+  - text: "Phụ lục 3: đường dây nóng 111 cho trẻ em là nạn nhân bạo lực, xâm hại"
+    source_url: https://syt.dongnai.gov.vn/vi/van-ban/detail/Huong-dan-cham-soc-va-ho-tro-y-te-cho-nguoi-bi-xam-hai-tinh-duc-4261/
+    quote: "Đường dây nóng toàn quốc: 111 (tư vấn hỗ trợ trẻ em là nạn nhân bị bạo lực, xâm hại tình dục với trẻ em)"
+    verdict: match
+    note: ""
+  - text: Gọi 113 sau khi tới nơi an toàn (tiêu đề, tldr, bước 1)
+    source_url: https://syt.dongnai.gov.vn/vi/van-ban/detail/Huong-dan-cham-soc-va-ho-tro-y-te-cho-nguoi-bi-xam-hai-tinh-duc-4261/
+    quote: Chăm sóc y tế cho người bị XHTD ưu tiên trước hết vào các vấn đề sức khỏe của người bị hại. 2. Thu thập bằng chứng pháp y là ưu tiên thứ hai trừ trường hợp người bị hại được chuyển đến theo yêu cầu của cơ quan giám định.
+    verdict: not-found
+    note: 'Không nguồn nào trong mục nói gọi 113 hay nêu 113 là số công an. Nguồn BYT xếp chăm sóc y tế ưu tiên một, thu thập chứng cứ ưu tiên hai; mục đặt "gọi 113" và chứng cứ lên đầu, mâu thuẫn thứ tự ưu tiên, và mâu thuẫn "không phải trình báo trước mới được khám". Nguyên tắc 4 BYT: dịch vụ dựa trên nhu cầu và sự đồng thuận của người bị XHTD.'
+  - text: Không phải trình báo trước mới được khám
+    source_url: https://syt.dongnai.gov.vn/vi/van-ban/detail/Huong-dan-cham-soc-va-ho-tro-y-te-cho-nguoi-bi-xam-hai-tinh-duc-4261/
+    quote: Tôn trọng quyền của người bị XHTD, các dịch vụ cung cấp dựa trên nhu cầu và sự đồng thuận của người bị XHTD hoặc người bảo hộ
+    verdict: inference
+    note: Suy ra từ nguyên tắc II.4 và đoạn "Trong trường hợp người bệnh và người nhà quyết định không báo cáo cơ quan chức năng mà cán bộ y tế phát hiện các vật phẩm...". Hợp lý nhưng không phải câu nguyên văn.
+  - text: "PEP HIV: tốt nhất trong 24 giờ, không muộn hơn 72 giờ, 28 ngày (QĐ 5968/QĐ-BYT)"
+    source_url: https://www.benhnhietdoi.vn/loai-benh/huong-dan-dieu-tri-du-phong-nhiem-hiv-prep-pep/
+    quote: PEP là việc sử dụng thuốc ARV càng sớm càng tốt, tốt nhất trong vòng 24 giờ và không muộn hơn 72 giờ sau khi phơi nhiễm HIV. Thời gian điều trị chuẩn là 28 ngày liên tục.
+    verdict: match-secondary
+    note: Trang Bệnh viện Bệnh Nhiệt đới TW dẫn lại QĐ 5968/QĐ-BYT; không mở được bản gốc QĐ 5968 trong thời gian này nên chỉ match-secondary. Trang liệt kê "bị hiếp dâm" là tình huống phơi nhiễm.
+  - text: Cơ quan tiến hành tố tụng phải giải thích quyền trợ giúp pháp lý cho người bị hại thuộc diện được trợ giúp và thông báo cho Trung tâm TGPL nhà nước (Điều 71 BLTTHS)
+    source_url: https://lawplayer.com/vn/article/vn-congbao-470669/e0071
+    quote: Trường hợp người bị buộc tội, người bị hại thuộc diện được trợ giúp pháp lý theo quy định của Luật Trợ giúp pháp lý thì cơ quan, người có thẩm quyền tiến hành tố tụng có trách nhiệm giải thích cho họ quyền được trợ giúp pháp lý; nếu họ đề nghị được trợ giúp pháp lý thì cơ quan, người có thẩm quyền tiến hành tố tụng thông báo cho Trung tâm trợ giúp pháp lý nhà nước.
+    verdict: match-secondary
+    note: 'LawPlayer (Văn bản hợp nhất 172/2026/VBHN-LQ-VPQH ngày 01/10/2026, Điều 71), bản sao thứ cấp. URL trong legal_refs (trang tgpl.angiang.gov.vn) tải được nhưng phần thân bài do JavaScript nạp, không trích được chữ nên không kiểm được trực tiếp. Mục viết "phải... thông báo" bỏ điều kiện "nếu họ đề nghị": đúng ý nhưng thiếu điều kiện.'
+  - text: "WHO (đối chiếu quốc tế): tránh thai khẩn cấp trong 5 ngày; PEP HIV không muộn hơn 72 giờ"
+    source_url: https://iris.who.int/server/api/core/bitstreams/2faedeba-98a0-4347-be03-111577199fa8/content
+    quote: Offer emergency contraception to sexual assault survivors presenting within five days of sexual assault, ideally as soon as possible after the exposure. to maximize effectiveness.
+    verdict: match
+    note: 'WHO 2013 "Responding to intimate partner violence and sexual violence against women", Recommendation 12; Recommendation 15: "Consider offering HIV PEP for women presenting within 72 hours of sexual assault." Tóm tắt: EC trong 5 ngày; PEP trong 72 giờ. Mục chỉ có mốc 72 giờ.'
+internal_checks:
+  - issue: (d) legal_refs[0].url trỏ trang hướng dẫn của TTTGPL tỉnh An Giang, không phải văn bản Bộ luật Tố tụng hình sự; phần thân trang không trích được chữ. Nên dẫn văn bản hợp nhất (Công báo/vbpl.vn).
+    severity: warn
+  - issue: Mục ghi "Bộ luật Tố tụng hình sự... Điều 71" không ghi năm/số văn bản (101/2015/QH13, VBHN 172/2026/VBHN-LQ-VPQH).
+    severity: warn
+  - issue: (c) Bước 1 "Tới chỗ an toàn rồi gọi 113" và "túi giấy", "dọn phòng" không có cơ sở trong thân/nguồn BYT (xem claims).
+    severity: error
+  - issue: '(b) Mốc 72 giờ dùng cho hai việc khác nhau: tỉ lệ phát hiện tổn thương (QĐ 3133) và hạn PEP (QĐ 5968); tldr gộp thành "tới bệnh viện trong 72 giờ để khám, lấy chứng cứ, dự phòng". Bỏ qua mốc EC 5 ngày (WHO).'
+    severity: error
+  - issue: 'Thân mục nói "không phải trình báo trước mới được khám" nhưng tiêu đề/bước 1 đặt "gọi 113" đầu tiên: dễ hiểu là phải báo công an trước.'
+    severity: warn
+validity:
+  doc: Quyết định 3133/QĐ-BYT ngày 17/7/2020 (Hướng dẫn chăm sóc và hỗ trợ y tế cho người bị xâm hại tình dục); QĐ 5968/QĐ-BYT ngày 31/12/2021; BLTTHS 101/2015/QH13 Điều 71
+  in_force: unconfirmed
+  effective_from: 2020-07-17
+  amended_by: []
+  basis: 'Trang SYT Đồng Nai liệt kê QĐ 3133 là "Văn bản Quy phạm pháp luật", ngày ban hành 17/07/2020; không thấy ghi thay thế nhưng không có trang xác nhận hiệu lực từ Bộ Y tế/vbpl. BLTTHS: LawPlayer ghi VBHN 172/2026/VBHN-LQ-VPQH ngày 01/10/2026 (thứ cấp) cho thấy Điều 71 còn trong văn bản hợp nhất mới nhất.'
+deliberate_vn_deviation: []
+potential_harm:
+  - '"Tới bệnh viện trong 72 giờ": người đến sau 72 giờ có thể bỏ qua việc đi khám; WHO: EC trong 5 ngày, và điều trị STI/viêm gan B/uốn ván/hỗ trợ tâm lý không phụ thuộc mốc 72 giờ. BYT: nên khám đến hơn 1 tuần nếu có tổn thương.'
+  - 'Thứ tự "gọi 113, đừng tắm, giữ chứng cứ" đặt trước chăm sóc y tế, trong khi BYT xếp "chăm sóc y tế ưu tiên trước hết", chứng cứ ưu tiên hai: có thể làm người bị hại trì hoãn đi viện hoặc cảm thấy bị ép báo công an. Với chấn thương/chảy máu cần cấp cứu ngay thì lời khuyên "không tắm, không giặt" không được kèm "nếu bị thương nặng gọi 115/đi viện ngay".'
+  - Bước 3 hứa "dự phòng HIV" cho mọi nạn nhân, nhưng BYT không khuyến cáo PEP HIV cho trẻ em trừ ngoại lệ; có thể gây kỳ vọng sai.
+suggested_edits:
+  - 'Đảo thứ tự bước 1: "Đến nơi an toàn. Nếu bị thương nặng hoặc cần cấp cứu, gọi 115 hoặc đi cấp cứu ngay. Khám y tế là ưu tiên; có thể báo công an (113) khi sẵn sàng hoặc nhờ bệnh viện hỗ trợ" (dựa vào quote nguyên tắc II.1-2 và II.4). Bỏ "gọi 113" khỏi tiêu đề hoặc nêu rõ là tùy chọn, không có trong BYT.'
+  - Thay "tới bệnh viện trong 72 giờ" bằng "càng sớm càng tốt; thuốc dự phòng HIV phải bắt đầu trong 72 giờ (tốt nhất 24 giờ), thuốc tránh thai khẩn cấp trong 5 ngày; sau 72 giờ vẫn nên đi khám" (dựa vào quote PEP QĐ 5968 và WHO Recommendation 12/15).
+  - 'Câu "đừng tắm, đừng giặt, túi giấy, đừng dọn phòng": gắn nhãn "suy ra từ hướng dẫn BYT; không bắt buộc, vẫn nên đi khám nếu đã tắm" và thêm lưu ý của BYT rằng tự lưu giữ có thể làm mất giá trị pháp y; hoặc dẫn nguồn quốc tế (WHO/NHS) cho "túi giấy".'
+  - 'Bước 3: thêm "trẻ em: BYT không khuyến cáo PEP HIV thường quy; bác sĩ quyết định" và đổi thuật ngữ "Điều 71... phải thông báo" thành "thông báo cho Trung tâm TGPL nếu người bị hại đề nghị".'
+  - "legal_refs: thay URL bằng văn bản hợp nhất BLTTHS trên Công báo/vbpl.vn, ghi số 101/2015/QH13 và VBHN."

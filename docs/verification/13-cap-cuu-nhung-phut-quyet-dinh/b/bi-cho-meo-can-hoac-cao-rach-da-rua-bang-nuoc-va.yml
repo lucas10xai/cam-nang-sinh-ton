@@ -1,0 +1,88 @@
+id: bi-cho-meo-can-hoac-cao-rach-da-rua-bang-nuoc-va
+checker: agent-Vf13cB
+checked_at: 2026-11-08
+content_sha256: "b0716c7a124ca2dba4804c8a8cc1c135bffd0d0a58698d4a991161272db02b4f"
+result: pass-with-edits
+claims:
+  - text: "Xối rửa kỹ vết cắn/cào 15 phút bằng nước và xà phòng, sau đó sát khuẩn cồn 45-70 độ hoặc cồn i-ốt (QĐ 1622/QĐ-BYT 2014, qua Viện Pasteur TP.HCM)"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: "Xối rửa kỹ tất cả các vết cắn/cào trong 15 phút với nước và xà phòng, hoặc nước sạch, sau đó sát khuẩn bằng cồn 45°-70° hoặc cồn i ốt để làm giảm thiểu lượng vi-rút dại tại vết cắn."
+    verdict: match-secondary
+    note: "Chỉ khớp qua bài của Viện Pasteur TP.HCM (đăng 04/11/2024) dẫn QĐ 1622; không mở được bản ký của QĐ 1622 (mục tự ghi). Nguồn nói 'nước và xà phòng, hoặc nước sạch': xà phòng không bắt buộc."
+  - text: "Không làm dập nát thêm vết thương, tránh khâu kín ngay"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: "Không làm dập nát thêm vết thương hoặc làm tổn thương rộng hơn, tránh khâu kín ngay vết thương."
+    verdict: match-secondary
+    note: "Nguồn tiếp: 'Trường hợp bắt buộc phải khâu thì nên trì hoãn khâu vết thương sau vài giờ đến 3 ngày' và 'Tùy trường hợp cụ thể có thể sử dụng kháng sinh và tiêm phòng uốn ván.' Mục không nhắc uốn ván/kháng sinh."
+  - text: "Vết xước, vết cào, hoặc chỗ da bị tổn thương do động vật liếm: tiêm vắc xin dại ngay (độ II)"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: "Vết xước, vết cào, liếm trên da bị tổn thương, niêm mạc"
+    verdict: partial
+    note: "Hàng bảng Độ II (QĐ 1622): 'Tiêm vắc-xin dại ngay, dừng tiêm sau ngày thứ 10' nếu con vật bình thường; 'Tiêm vắc-xin dại ngay và đủ liều' nếu ốm/có triệu chứng/mất tích. Mục (a) bỏ 'niêm mạc' (liếm lên niêm mạc mắt, miệng cũng thuộc độ II), (b) bỏ độ III: 'Vết cắn/cào chảy máu ở vùng xa thần kinh trung ương' → vắc-xin; người đọc có vết cắn chảy máu không thấy mình trong danh sách. Bảng do tôi ghép từ văn bản bị tách dòng trong trang."
+  - text: "Vết cắn sâu, nhiều vết, ở đầu mặt cổ hoặc gần thần kinh trung ương: tiêm thêm huyết thanh kháng dại"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: "Tiêm huyết thanh kháng dại và vắc-xin phòng dại"
+    verdict: partial
+    note: "Hàng độ III: '- Vết cắn/cào sâu, nhiều vết - Vết cắn/cào gần thần kinh trung ương như đầu, mặt, cổ - Vết cắn/cào ở vùng có nhiều dây thần kinh như đầu chi, bộ phận sinh dục'. Mục bỏ nhóm đầu chi/sinh dục, và điều kiện tình trạng con vật (bình thường / có triệu chứng / không theo dõi được). Quan trọng: WHO phân loại rộng hơn, xem deliberate_vn_deviation."
+  - text: "Thời gian ủ bệnh thường 1-3 tháng"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: "Thời gian ủ bệnh ở người thông thường là từ 1 - 3 tháng sau phơi nhiễm, hiếm khi có trường hợp thời gian ủ bệnh ngắn dưới 9 ngày hoặc dài tới một vài năm."
+    verdict: match
+    note: "Nguồn gốc là bài Pasteur chứ không phải QĐ 1622, mục đã ghi đúng nhãn."
+  - text: "Tỷ lệ tử vong gần 100% khi đã lên cơn"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: "Khi đã lên cơn dại, tỷ lệ tử vong gần như 100% (đối với cả người và động vật)."
+    verdict: match
+    note: "WHO fact sheet (2026-11-08): 'rabies is fatal in 100% of cases' khi có triệu chứng."
+  - text: "Có việc theo dõi con vật trong 10 ngày; tiêm ngay, đừng chờ xem con vật có ốm không"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: "Điều trị dự phòng nên được tiến hành càng sớm càng tốt sau khi bị phơi nhiễm, bao gồm: rửa vết thương, tiêm vắc-xin phòng dại và sử dụng huyết thanh kháng dại nếu có chỉ định."
+    verdict: partial
+    note: "Cột 'Trong vòng 10 ngày' của bảng cho phép dừng tiêm sau ngày thứ 10 nếu con vật khỏe (độ II, độ III xa thần kinh trung ương). Mục 'Đừng chờ xem con vật ốm' đúng với 'tiêm ngay' nhưng không nói 'dừng sau ngày 10 nếu con vật bình thường': người đọc có thể không theo dõi con vật và chịu đủ liều không cần thiết. 'Trong ngày' (title/steps) là diễn giải của 'càng sớm càng tốt', đồng chiều, không sai."
+  - text: "WHO: rửa vết thương với nước và xà phòng ít nhất 15 phút (đối chiếu quốc tế)"
+    source_url: https://www.who.int/news-room/fact-sheets/detail/rabies
+    quote: "extensive wound washing with water and soap for at least 15 minutes soon after an exposure;"
+    verdict: match
+    note: "WHO fact sheet Rabies (truy cập 2026-11-08). Tóm tắt: rửa vết thương kỹ ≥15 phút, sau đó tiêm vắc-xin, và globulin miễn dịch/kháng thể đơn dòng nếu có chỉ định."
+  - text: "Chỉ định huyết thanh kháng dại: chỉ vết sâu/nhiều vết/đầu mặt cổ (WHO đối chiếu)"
+    source_url: https://www.who.int/news-room/fact-sheets/detail/rabies
+    quote: "Category III - single or multiple transdermal bites or scratches, contamination of mucous membrane or broken skin with saliva from animal licks, exposures due to direct contact with bats (severe exposure) | Wound washing, immediate vaccination and administration of rabies immunoglobulin/monoclonal antibodies"
+    verdict: partial
+    note: "WHO: mọi vết cắn/cào xuyên da, hoặc nước bọt dính niêm mạc/da trầy, hoặc tiếp xúc dơi, là độ III cần cả globulin miễn dịch. QĐ 1622 (qua Pasteur) chỉ cho huyết thanh ở vết sâu/nhiều vết/gần thần kinh/đầu chi/sinh dục hoặc khi con vật có triệu chứng/không theo dõi được. Mục theo QĐ 1622, hẹp hơn WHO."
+  - text: "Bẫy 3: đắp lá, bôi nước mắm hoặc đòi khâu kín vết thương; 'Hướng dẫn xếp cả ba việc vào nhóm phải tránh'"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: ""
+    verdict: mismatch
+    note: "Trang Pasteur chỉ nói tránh làm dập nát và tránh khâu kín ngay. Không có 'đắp lá' hay 'nước mắm'. Mục gán cho hướng dẫn điều nó không viết. Lời dặn bản thân vô hại."
+  - text: "Bẫy 2: trạm y tế xã gần nhà thường không có vắc xin dại; 'cơ sở tiêm chủng'"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: ""
+    verdict: not-found
+    note: "Không có trong nguồn; nhận định thực tế, không phải chữ của nguồn. Nên gắn 'gọi trước hoặc hỏi số cơ sở tiêm gần nhất'."
+internal_checks:
+  - issue: "Mục Pháp luật mô tả chỉ định tiêm gồm hai gạch: bỏ độ III (cắn/cào chảy máu xa thần kinh) và 'niêm mạc', và bỏ điều kiện tình trạng con vật; ghi chú 'Mục này không có nghĩa là chỉ vết cắn chảy máu mới phải tiêm' nhưng không nói vết cắn chảy máu thường phải tiêm huyết thanh ở WHO."
+    severity: warn
+  - issue: "Mục không nhắc uốn ván/kháng sinh dù nguồn dẫn có dòng đó."
+    severity: warn
+  - issue: "Mọi khẳng định pháp lý dựa vào bài của Viện Pasteur dẫn QĐ 1622; legal_refs.article ghi 'chưa mở bản ký' (đúng). Không có url bản QĐ 1622; URL legal_refs là bài Pasteur, không phải văn bản ghi ở doc."
+    severity: warn
+  - issue: "Con số 15 phút, 45-70 độ, 10 ngày, 1-3 tháng đều có trong thân, khớp tldr/steps; không mâu thuẫn nội bộ."
+    severity: warn
+validity:
+  doc: "QĐ 1622/QĐ-BYT ngày 08/5/2014 (Hướng dẫn giám sát, phòng chống bệnh dại trên người)"
+  in_force: unconfirmed
+  effective_from: "2014-05-08"
+  amended_by: []
+  basis: "Bài Pasteur TP.HCM đăng 04/11/2024 vẫn dẫn QĐ 1622 làm nguồn bảng chỉ định, tức viện của Bộ Y tế còn dùng năm 2024. Không mở được trang tình trạng hiệu lực chính thức hay bản ký; chưa mở được thuvienphapluat; kết quả tìm kiếm không cho thấy văn bản thay thế nhưng không dùng điều đó làm bằng chứng. WHO (fact sheet) mới hơn cho phân loại rộng hơn."
+deliberate_vn_deviation:
+  - "Chỉ định huyết thanh/globulin kháng dại: QĐ 1622 (Độ III) giới hạn theo vị trí/độ sâu/số vết cắn/tình trạng con vật; WHO đặt mọi vết cắn/cào xuyên da, nước bọt dính niêm mạc/da trầy hoặc tiếp xúc dơi vào độ III cần vắc-xin kèm immunoglobulin/mAb. Cơ sở VN theo bảng QĐ 1622: vết cắn chảy máu ở chi và con vật bình thường chỉ được vắc-xin."
+  - "QĐ 1622 cho phép dừng tiêm sau ngày thứ 10 nếu con vật (chó, mèo) khỏe; WHO cũng chấp nhận quan sát 10 ngày với chó/mèo, nên không lệch có hại."
+potential_harm:
+  - "Danh sách chỉ định (Pháp luật + Ghi chú) khiến người có vết cắn chảy máu ở tay/chân hay niêm mạc bị liếm nghĩ mình chỉ cần vắc-xin hoặc không thuộc nhóm nào; WHO coi các ca này là độ III cần immunoglobulin, và 'niêm mạc' bị bỏ khỏi chỉ định độ II. Mục có câu 'quyết định cuối cùng là của bác sĩ' giảm nhẹ. Mức: thấp đến trung bình."
+suggested_edits:
+  - "Mục Pháp luật > Chỉ định tiêm: đổi dòng 1 thành 'Vết xước, vết cào, liếm trên da bị tổn thương hoặc niêm mạc: tiêm vắc-xin dại ngay' (đúng chữ QĐ 1622 qua Pasteur) và thêm dòng 'Vết cắn/cào chảy máu ở vùng xa thần kinh trung ương: tiêm vắc-xin dại ngay'; thêm nhóm 'vùng nhiều dây thần kinh như đầu chi, bộ phận sinh dục' vào dòng huyết thanh."
+  - "Thêm câu WHO: 'Category III - single or multiple transdermal bites or scratches, contamination of mucous membrane...' kèm ghi chú WHO cần immunoglobulin rộng hơn QĐ 1622 ('hỏi bác sĩ về globulin kháng dại nếu vết cắn chảy máu')."
+  - "Bẫy 3: bỏ 'Hướng dẫn xếp cả ba việc vào nhóm phải tránh' hoặc sửa thành 'hướng dẫn chỉ nêu không làm dập nát và tránh khâu kín; đắp lá và nước mắm không nằm trong nguồn nhưng nên tránh'."
+  - "Thêm 'hỏi bác sĩ về tiêm phòng uốn ván và kháng sinh' (Pasteur: 'Tùy trường hợp cụ thể có thể sử dụng kháng sinh và tiêm phòng uốn ván')."
+  - "Nói rõ 'nếu con vật bình thường sau 10 ngày, bác sĩ có thể dừng tiêm' để người đọc theo dõi con vật nhưng không bỏ mũi ngày đầu (QĐ 1622 cột 'Trong vòng 10 ngày')."
+  - "Xin bản ký QĐ 1622 (Công báo/vbpl) để nâng khẳng định pháp lý từ match-secondary lên match; hiện chỉ có bài Pasteur."

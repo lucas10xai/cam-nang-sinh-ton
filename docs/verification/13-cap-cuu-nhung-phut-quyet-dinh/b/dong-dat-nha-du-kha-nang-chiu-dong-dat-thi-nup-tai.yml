@@ -1,0 +1,93 @@
+id: dong-dat-nha-du-kha-nang-chiu-dong-dat-thi-nup-tai
+checker: agent-Vf13fB
+checked_at: 2026-11-08
+content_sha256: "d0e427ca5cdbf6bb60d362fdf4bf3f06dbcb6a0b2cacb93ab73472c66055d8b5"
+result: fail
+claims:
+  - text: "Yêu cầu không sụp đổ: kết cấu phải chịu được tác động động đất thiết kế mà không sụp đổ cục bộ hay toàn phần, giữ tính toàn vẹn và còn một phần khả năng chịu tải sau động đất (mục 2.1)"
+    source_url: https://mtu.edu.vn/Resources/Docs/Khoa%20-%20Bo%20mon/Khoa%20Xay%20dung/Tai%20lieu%20tham%20khao/TCVN/Thiet-ke/TCVN9386_2012.pdf
+    quote: "Kết cấu phải được thiết kế và thi công để chịu được tác động động đất thiết kế như định nghĩa trong Chương 3 mà không bị sụp đổ cục bộ hay sụp đổ toàn phần, đồng thời giữ được tính toàn vẹn của kết cấu và còn một phần khả năng chịu tải trọng sau khi động đất xảy ra."
+    verdict: match-secondary
+    note: "Mục 2.1(1)P, 'Yêu cầu không sụp đổ'. Bản PDF 230 trang trích được chữ, lưu trên website mtu.edu.vn (thư mục tài liệu tham khảo của Khoa Xây dựng một trường đại học), không phải bản của Bộ Khoa học và Công nghệ/Bộ Xây dựng; nội dung tương ứng với TCVN 9386:2012 (đầu bản: 'TCVN 9386:2012 được chuyển đổi từ TCXDVN 375:2006'). Không có bản chính thống để đối chiếu nên match-secondary."
+  - text: "Động đất mạnh, từ 0,08g trở lên: phải tính toán và cấu tạo kháng chấn (mục 3.1.3)"
+    source_url: https://mtu.edu.vn/Resources/Docs/Khoa%20-%20Bo%20mon/Khoa%20Xay%20dung/Tai%20lieu%20tham%20khao/TCVN/Thiet-ke/TCVN9386_2012.pdf
+    quote: "Theo giá trị gia tốc nền thiết kế ag = γI x agR, chia thành ba trường hợp động đất: - Động đất mạnh ag ≥ 0,08g, phải tính toán và cấu tạo kháng chấn;"
+    verdict: match-secondary
+    note: "Chữ đúng nhưng nằm trong LỜI NÓI ĐẦU (và 3.2.1(4),(5)), không phải 'mục 3.1.3'. Trong bản này 3.1 là 'Điều kiện nền đất' (3.1.1 Tổng quát, 3.1.2 Nhận dạng các loại nền đất); không có mục 3.1.3 chứa nội dung này (tìm thấy dòng 3.1.2 rồi 3.2.1 'Các vùng động đất'). Tham chiếu article sai. Thêm: ngưỡng áp dụng cho ag = γI·agR (gia tốc nền thiết kế = hệ số tầm quan trọng × gia tốc nền tham chiếu), trên nền loại A."
+  - text: "Động đất yếu, từ 0,04g đến dưới 0,08g: chỉ cần giải pháp kháng chấn giảm nhẹ"
+    source_url: https://mtu.edu.vn/Resources/Docs/Khoa%20-%20Bo%20mon/Khoa%20Xay%20dung/Tai%20lieu%20tham%20khao/TCVN/Thiet-ke/TCVN9386_2012.pdf
+    quote: "Động đất yếu 0,04g ≤ ag < 0,08g, chỉ cần áp dụng các giải pháp kháng chấn đã được giảm nhẹ;"
+    verdict: match-secondary
+    note: "Cùng vị trí: Lời nói đầu. Mục 3.2.1(4): 'Trường hợp động đất yếu, có thể sử dụng các quy trình thiết kế chịu động đất được giảm nhẹ hoặc đơn giản hóa cho một số loại, dạng kết cấu.' ('có thể' cho 'một số loại, dạng kết cấu', không phải 'chỉ cần' cho mọi công trình)."
+  - text: "Động đất rất yếu, dưới 0,04g: không cần thiết kế kháng chấn"
+    source_url: https://mtu.edu.vn/Resources/Docs/Khoa%20-%20Bo%20mon/Khoa%20Xay%20dung/Tai%20lieu%20tham%20khao/TCVN/Thiet-ke/TCVN9386_2012.pdf
+    quote: "Động đất rất yếu ag < 0,04g, không cần thiết kế kháng chấn."
+    verdict: match-secondary
+    note: "Lời nói đầu; 3.2.1(5)P: 'Trong trường hợp động đất rất yếu, không cần phải tuân theo những điều khoản của tiêu chuẩn này.'"
+  - text: "Phụ lục H ghi nội thành Hà Nội ở mức 0,0976g đến 0,1032g, tức nằm trong nhóm phải tính kháng chấn"
+    source_url: https://mtu.edu.vn/Resources/Docs/Khoa%20-%20Bo%20mon/Khoa%20Xay%20dung/Tai%20lieu%20tham%20khao/TCVN/Thiet-ke/TCVN9386_2012.pdf
+    quote: "1. Thủ đô Hà Nội - Nội thành: Quận Ba Đình (P. Cống Vị) 0.0976; Quận Cầu Giấy (P. Quan Hoa) 0.1032; Quận Đống Đa 0.0983; Quận Hai Bà Trưng 0.0959; Quận Hoàn Kiếm 0.0892; Quận Hoàng Mai 0.1001; Quận Long Biên (P. Ngọc Thụy) 0.0747; Quận Tây Hồ 0.0819; Quận Thanh Xuân 0.1097"
+    verdict: mismatch
+    note: "Hai giá trị 0,0976 (Ba Đình) và 0,1032 (Cầu Giấy) có thật ở Phụ lục H, nhưng không phải 'mức' của cả nội thành. Bảng cho nội thành Hà Nội từ 0,0747 (Long Biên) đến 0,1097 (Thanh Xuân). Long Biên 0,0747 < 0,08 (động đất yếu, không phải 'phải tính kháng chấn' nếu γI=1). Giá trị trong bảng là agR (gia tốc nền tham chiếu), theo ag = γI·agR; công trình quan trọng có γI > 1."
+  - text: "Tiêu chuẩn nói về nhà được thiết kế theo nó, không nói cách nhận biết một căn nhà cụ thể đã được thiết kế như vậy (Ghi chú)"
+    source_url: https://mtu.edu.vn/Resources/Docs/Khoa%20-%20Bo%20mon/Khoa%20Xay%20dung/Tai%20lieu%20tham%20khao/TCVN/Thiet-ke/TCVN9386_2012.pdf
+    quote: "Tiêu chuẩn này áp dụng để thiết kế nhà và công trình xây dựng trong vùng có động đất."
+    verdict: match-secondary
+    note: "Mục 1.1.1(1)P; khớp ý. Chính sự thừa nhận này cho thấy tiêu chuẩn không hỗ trợ khẳng định hành động (núp hay chạy)."
+  - text: "Nhà xây theo chuẩn kháng chấn: chui xuống gầm bàn chắc, hai tay ôm đầu che gáy, bám chân bàn cho tới khi hết rung (steps[0])"
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/earthquake.html
+    quote: "COVER your head and neck with your arms. If a sturdy table or desk is nearby, crawl underneath it for protection. ... HOLD ON until the shaking stops. If you are under a table or desk, hold onto it as things will be moving."
+    verdict: partial
+    note: "American Red Cross: Drop, Cover, and Hold On (DROP onto hands and knees first), cũng áp dụng cho mọi toà nhà, không chỉ 'nhà chuẩn kháng chấn'. TCVN 9386 không có hướng dẫn hành động; nguồn mục dẫn (TCVN) KHÔNG chứa 'núp gầm bàn'. Mục thiếu 'DROP (quỳ xuống tay gối)', thiếu 'tránh xa cửa kính' ('crawl to an interior wall (away from windows)'), và thiếu điều kiện 'nếu không có bàn chắc'."
+  - text: "Nhà cũ, tường gạch không giằng, cửa ra sân chỉ vài bước: chạy ra bãi trống (tldr/steps[1])"
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/earthquake.html
+    quote: "Deaths and injuries occur when people fall trying to walk or run during shaking or when they are hit by falling debris."
+    verdict: mismatch
+    note: "Red Cross (nguồn quốc tế gần nhất mở được): tử vong/chấn thương xảy ra khi người ngã lúc đi hoặc chạy trong lúc rung hoặc bị vật rơi; hướng dẫn 'Drop, Cover, Hold On' cho mọi tòa nhà, và 'If it is safe, exit the building' CHỈ SAU khi hết rung ('Wait a minute before getting up'). Không có nguồn nào mục dẫn nói 'nhà cũ thì chạy ra ngoài'; TCVN 9386 không đề cập. Đây là lệch công khai khỏi hướng dẫn quốc tế mà mục không gắn nhãn 'deliberate_vn_deviation' và không có nguồn VN (không có trích dẫn Bộ Xây dựng/Bộ Y tế/Cục Quản lý đê điều và PCTT)."
+  - text: "Không nhảy lầu, không vào thang máy, không chen xuống cầu thang lúc đang rung"
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/earthquake.html
+    quote: "Deaths and injuries occur when people fall trying to walk or run during shaking or when they are hit by falling debris."
+    verdict: inference
+    note: "Hướng đúng (Red Cross: ở yên và che chở trong lúc rung) nhưng 'không vào thang máy' và 'không nhảy lầu' không có chữ trong trang Red Cross đã mở, càng không có trong TCVN 9386. Là suy ra, hợp lý."
+  - text: "Bẫy 3: đứng ngay ô cửa vì nghĩ khung cửa chắc nhất; gạch và tấm đan phía trên khung cửa là thứ rơi trước"
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/earthquake.html
+    quote: "If you cannot find a protected space, crawl to an interior wall (away from windows)."
+    verdict: inference
+    note: "Không có chữ về 'khung cửa'; Red Cross khuyên tránh cửa kính. 'Gạch và tấm đan phía trên khung cửa rơi trước' là khẳng định cơ học không có nguồn."
+  - text: "Việc cần làm khi chưa có động đất: đi một vòng, đếm số bước từ chỗ hay ngồi ra sân, chọn bàn chắc, tìm lối cầu thang thoát ra, hỏi nhà xây năm nào và có bản vẽ thiết kế không"
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/earthquake.html
+    quote: "If you live in an area prone to earthquakes, get your building evaluated and consider structural improvements."
+    verdict: partial
+    note: "Ý chuẩn bị khớp (Red Cross: 'Identify things that might fall during shaking... Secure these items'; đánh giá công trình). Mục không nói buộc cố định tủ, kệ, TV, không nhắc đồ dùng trong giày dép (Bed-kit: 'sturdy shoes to protect your feet from glass')."
+internal_checks:
+  - issue: "legal_refs[0].article ghi 'mục 3.1.3 (động đất mạnh, yếu, rất yếu)'. Trong TCVN 9386:2012, nội dung ba mức động đất nằm ở Lời nói đầu và 3.2.1(4),(5); 3.1 là 'Điều kiện nền đất'. Sai vị trí điều khoản; phần Pháp luật Việt Nam cũng ghi 'mục 3.1.3' ba lần."
+    severity: error
+  - issue: "Mục nêu 'nội thành Hà Nội ở mức 0,0976g đến 0,1032g' nhưng bảng cho nội thành Hà Nội từ 0,0747 đến 0,1097; Long Biên (0,0747) nằm dưới ngưỡng 0,08. Tuyên bố 'tức nằm trong nhóm phải tính kháng chấn' sai cho cả nội thành; đúng cho các quận được nêu nếu γI=1."
+    severity: error
+  - issue: "Cả mục 'Lợi ích' và 'Pháp luật Việt Nam' đều là TCVN thiết kế công trình, không phải hướng dẫn hành động khi có động đất. Quy trình 'núp hay chạy' (đỉnh của tldr/steps/tiêu đề) không có nguồn nào; Ghi chú thừa nhận 'không có thống kê Việt Nam' nhưng tldr/steps viết như chỉ dẫn chắc chắn. EDITORIAL §4: chương 13 mọi bước sơ cứu phải khớp AHA/ERC/Bộ Y tế."
+    severity: error
+  - issue: "Tiêu chí 'nhà xây theo chuẩn kháng chấn' không thể kiểm bởi người đọc. Mục tự thừa nhận (Ghi chú) 'tiêu chuẩn... không nói cách nhận biết một căn nhà cụ thể đã được thiết kế như vậy', nhưng tldr/step đưa điều kiện này làm cơ sở chọn núp hay chạy. Bước 4 hỏi 'nhà xây năm nào và có bản vẽ thiết kế không' không nói câu trả lời dẫn đến quyết định nào."
+    severity: error
+  - issue: "legal_refs[0].url là PDF trên mtu.edu.vn (trang trường đại học), không phải bản chính thống; effective_from null; quote null. TCVN 9386:2012 vẫn là bản ghi năm 2012: chưa xác nhận còn hiệu lực hoặc đã có phiên bản/QCVN thay thế (chưa tra)."
+    severity: warn
+  - issue: "Chi phí 'Không mất tiền'. Con số trong tldr/steps: không có số. Các con số 0,08/0,04/0,0976/0,1032 trong thân khớp bản mtu.edu.vn (xem claim). Không mâu thuẫn số liệu nội bộ ngoài khoảng Hà Nội."
+    severity: warn
+validity:
+  doc: "TCVN 9386:2012 Thiết kế công trình chịu động đất (Phần 1 và 2)"
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: "Bản PDF mtu.edu.vn không ghi quyết định ban hành hay ngày hiệu lực trong phần trích được; Lời nói đầu: 'TCVN 9386:2012 được chuyển đổi từ TCXDVN 375:2006 thành Tiêu chuẩn Quốc gia theo quy định tại khoản 1 Điều 69 của Luật Tiêu chuẩn và Quy chuẩn kỹ thuật'. Không tra Công báo/Bộ Khoa học Công nghệ nên unconfirmed. Hướng dẫn hành động khi động đất không có văn bản VN nào được mục dẫn."
+deliberate_vn_deviation:
+  - "Red Cross (và FEMA/USGS 'Drop, Cover, Hold On'): ở trong nhà, che chắn tại chỗ trong lúc rung rồi mới ra ngoài khi hết rung nếu an toàn. Mục: nhà cũ dễ sập mà cửa ra sân vài bước thì CHẠY ra bãi trống trong lúc rung. Không có nguồn VN; không có nhãn lệch trong mục."
+potential_harm:
+  - "tldr/steps[1]: 'Nhà cũ... cửa ra sân chỉ vài bước: chạy ra bãi trống' làm người đọc chạy trong lúc đất còn rung. Red Cross: 'Deaths and injuries occur when people fall trying to walk or run during shaking or when they are hit by falling debris.' Gạch/ngói/tấm đan ở lối ra, mái hiên, ban công thường rơi ra ngoài trước. Mục tự nêu Bẫy 3 'gạch và tấm đan phía trên khung cửa là thứ rơi trước' cho ô cửa, nhưng lệnh chạy qua đúng ô cửa đó."
+  - "tldr/steps[0]: điều kiện 'Nhà xây theo chuẩn kháng chấn' không kiểm được. Nhà ở riêng lẻ VN, đa số không thiết kế theo TCVN 9386; người đọc không biết mình ở loại nào, nên có thể quyết định chạy ra ngoài (rủi ro ở trên) hoặc núp trong nhà dễ sập mà không có hướng dẫn thứ ba. Nguyên tắc chuẩn: núp gầm/che đầu cổ trong lúc rung rồi rời đi sau khi hết rung."
+  - "steps[0] bỏ 'quỳ xuống tay gối (DROP)' và 'tránh xa cửa kính, cửa sổ' nếu không có bàn: Red Cross 'crawl to an interior wall (away from windows)'; dễ bị ngã hoặc kính vỡ."
+suggested_edits:
+  - "tldr, steps[0] và steps[1]: thay toàn bộ quy tắc 'nhà chuẩn/nhà cũ' bằng 'Quỳ xuống, che đầu cổ, chui xuống gầm bàn chắc (hoặc ép sát tường trong, tránh kính), bám chắc cho tới khi hết rung; hết rung mới ra ngoài nếu thấy nhà hư hại', dựa vào quote Red Cross (Drop/Cover/Hold On; 'Wait a minute before getting up... If it is safe, exit the building'). Nếu biên tập muốn giữ ngoại lệ 'nhà cũ, chạy ra', phải có nguồn VN hoặc quốc tế cụ thể (ví dụ hướng dẫn của IFRC/Cục Quản lý đê điều và PCTT) và ghi deliberate_vn_deviation."
+  - "legal_refs[0].article: sửa 'mục 3.1.3' thành 'Lời nói đầu và mục 3.2.1(4),(5) (ba mức động đất); mục 2.1 (yêu cầu không sụp đổ); Phụ lục H'. Sửa cả phần Pháp luật Việt Nam."
+  - "Phần Lợi ích và Pháp luật Việt Nam: bỏ câu 'nội thành Hà Nội ở mức 0,0976g đến 0,1032g, tức nằm trong nhóm phải tính kháng chấn'; thay bằng 'Phụ lục H: Ba Đình 0,0976; Cầu Giấy 0,1032; Long Biên 0,0747 (nội thành Hà Nội từ 0,0747 đến 0,1097; giá trị agR)'."
+  - "Ghi rõ TCVN 9386 là tiêu chuẩn thiết kế, không phải hướng dẫn hành động, và đặt tldr/steps trên nguồn hướng dẫn hành động riêng (Red Cross/FEMA/USGS hoặc cơ quan VN)."
+  - "Thay URL bằng bản chính thống của TCVN 9386:2012 (Bộ Khoa học Công nghệ/Bộ Xây dựng) hoặc ghi rõ là bản sao thứ cấp; tra hiệu lực/phiên bản mới."
+  - "Thêm bước: hết rung thì rời nhà nếu hư hại, tránh dây điện, ngửi gas, dự trù dư chấn ('Expect aftershocks. Drop, Cover, and Hold On whenever you feel shaking')."

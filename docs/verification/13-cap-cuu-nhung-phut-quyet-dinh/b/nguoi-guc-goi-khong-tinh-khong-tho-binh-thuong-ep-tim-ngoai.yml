@@ -1,0 +1,79 @@
+id: nguoi-guc-goi-khong-tinh-khong-tho-binh-thuong-ep-tim-ngoai
+content_sha256: 382331576a309fa3336f8ec7812fdc19df60d1e7a19a8af103394b01036e018b
+checker: agent-Vf13aB
+checked_at: 2026-11-08
+result: pass-with-edits
+claims:
+  - text: Không đáp ứng + không thở bình thường (kể cả thở ngáp) = coi là ngừng tim; người cứu bắt đầu CPR ngay
+    source_url: http://www.doctors-service.de/hand_out/ERC%202025/04-Adult%20Basic%20Life%20Support%20ERC%202025.pdf
+    quote: Slow, laboured breathing, as well as other abnormal patterns such as agonal gasping or panting, must be recognised as signs of cardiac arrest.
+    verdict: match
+    note: 'Bản ERC 2025 đọc qua bản sao doctors-service.de (đúng tiêu đề/số Resuscitation 215 (2025) 110771). Tóm tắt: thở ngáp, thở chậm nặng nhọc phải coi là dấu hiệu ngừng tim. AHA 2025 Rec 6.1.1 (bản gương): "If an adult is unconscious/unresponsive, with absent or abnormal breathing (ie, only gasping), the lay rescuer should assume the person is in cardiac arrest."'
+  - text: Gọi 115, bật loa ngoài rồi ép tim; không chờ xe tới mới ép
+    source_url: http://www.doctors-service.de/hand_out/ERC%202025/04-Adult%20Basic%20Life%20Support%20ERC%202025.pdf
+    quote: If you have a mobile phone, activate speaker mode, call the local emergency number without delay.
+    verdict: match
+    note: 'ERC cũng: "3. CPR: Start CPR immediately if they are unresponsive with abnormal breathing." AHA 2025 Rec 6.2 #3: lone rescuer with mobile phone should activate the emergency response system and immediately begin CPR. Số 115 là số cấp cứu VN, không có trong nguồn quốc tế (xem claim về 115).'
+  - text: Ép nửa dưới xương ức
+    source_url: http://www.doctors-service.de/hand_out/ERC%202025/04-Adult%20Basic%20Life%20Support%20ERC%202025.pdf
+    quote: Place the heel of one hand on the lower half of the sternum (‘in the centre of the chest’).
+    verdict: match
+    note: 'AHA 2025 Rec 7.1 #2: "the center (middle) of the person’s chest (the lower half to lower third of the sternum)". Tóm tắt: gót bàn tay đặt nửa dưới xương ức/giữa ngực.'
+  - text: Ép sâu ít nhất 5 cm nhưng không quá 6 cm
+    source_url: http://www.doctors-service.de/hand_out/ERC%202025/04-Adult%20Basic%20Life%20Support%20ERC%202025.pdf
+    quote: Compress to a depth of at least 5 cm, but not more than 6 cm.
+    verdict: match
+    note: 'AHA 2025 Rec 7.3 #1: "rescuers should perform chest compressions to a depth of at least 2 inches, or 5 cm, for an average adult while avoiding excessive chest compression depths (greater than 2.4 inches, or 6cm)". Khớp.'
+  - text: Tần số 100–120 lần/phút; để ngực nảy lại hoàn toàn sau mỗi lần ép
+    source_url: http://www.doctors-service.de/hand_out/ERC%202025/04-Adult%20Basic%20Life%20Support%20ERC%202025.pdf
+    quote: Compress the chest at a rate of 100–120 min 1 with as few interruptions as possible. Allow the chest to recoil completely after each compression; avoid leaning on the chest.
+    verdict: match
+    note: 'AHA 2025 Rec 7.3 #3: "at a rate of 100 to 120/min"; #4: allow complete chest wall recoil.'
+  - text: Nền chắc nếu làm được ngay; không chuyển người từ giường xuống sàn làm chậm; ép ngay trên giường và ép sâu hơn
+    source_url: http://www.doctors-service.de/hand_out/ERC%202025/04-Adult%20Basic%20Life%20Support%20ERC%202025.pdf
+    quote: CPR is most effective when performed on a firm surface. However, rescuers should not move a person from a ‘soft’ surface e.g. bed, to the floor. Start CPR on the bed and, if needed, compress the chest deeper to compensate for the soft mattress.
+    verdict: match
+    note: 'Điều kiện đi kèm đã có đủ. AHA 2025 Rec 7.1 #4: "it is preferred to perform CPR on a firm surface and with the person in the supine position, when feasible and does not delay chest compressions."'
+  - text: "Chưa học thổi ngạt: ép liên tục; đã học: 30 ép 2 thổi"
+    source_url: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support
+    quote: All lay rescuers should provide chest compressions for adults with presumed cardiac arrest. ... For lay rescuers trained in performing CPR, it is reasonable to provide ventilation (breaths) in addition to chest compressions for an adult in cardiac arrest.
+    verdict: match
+    note: 'cpr.heart.org trả 403 Cloudflare; quote đọc từ bản gương cùng tiêu đề u1-cd-cpr.sc.heart.org (Part 7: Adult Basic Life Support, 2025 AHA Guidelines). Tóm tắt: người không biết thổi ngạt chỉ ép tim; người đã học có thể thổi (30:2). ERC 2025 cũng nêu "If they are not trained, able or willing they should deliver CCC".'
+  - text: "Có máy AED: làm theo hướng dẫn của máy; nếu có nhiều người cứu thì tiếp tục ép tim trong lúc dán điện cực"
+    source_url: http://www.doctors-service.de/hand_out/ERC%202025/04-Adult%20Basic%20Life%20Support%20ERC%202025.pdf
+    quote: If more than one rescuer is present, continue CPR while the defibrillation pads are being attached.
+    verdict: match
+    note: 'Cùng mục: "Use an AED as soon as it is available." và "Follow the audio/visual prompts from the AED." Khớp.'
+  - text: Mất 4–5 cm, 100 lần/phút, đập mạnh vào ngực, thổi ngạt 2 lần trước khi kiểm tra mạch, kiểm tra mạch cảnh là nội dung của Quyết định 1904/QĐ-BYT (2014) và lệch AHA/ERC 2025
+    source_url: https://kcb.vn/upload/2005611/20210723//H%E1%BB%93i-s%E1%BB%A9c-c%E1%BA%A5p-c%E1%BB%A9u-Ch%E1%BB%91ng-%C4%91%E1%BB%99c.pdf
+    quote: Ép tim ở 1/2 dưới xương ức, lún 1/3-1/2 ngực (4-5 cm với người lớn) đủ để sờ thấy mạch khi ép; tần số 100 lần/phút.
+    verdict: match
+    note: 'Cùng quy trình (tr. 371-373 của PDF): "dùng tay đập mạnh lên vùng ngực Người bệnh"; "thổi ngạt hoặc bóp bóng 2 lần liên tiếp. Sau đó kiểm tra mạch"; "Kiểm tra mạch cảnh trong vòng 10 giây"; tham khảo "American Heart Association. 2005 AHA Guideline for CPR and ECC". Mô tả của mục chính xác.'
+  - text: Cuộc gọi 115 không tính phí
+    source_url: https://mst.gov.vn/mien-phi-cac-cuoc-goi-den-so-113-114-115-197140697.htm
+    quote: Người sử dụng dịch vụ điện thoại cố định mặt đất hoặc dịch vụ thông tin di động mặt đất gọi đến các số dịch vụ khẩn cấp (113, 114, 115) được miễn phí.
+    verdict: match-secondary
+    note: 'Nguồn là bản tin Cổng TTĐT Bộ KH&CN (21/02/2020) tường thuật Thông tư 02/2020/TT-BTTTT, KHÔNG phải văn bản gốc; Thông tư 02/2020/TT-BTTTT không nằm trong mục Nguồn của bài. Bản tin: "được hưởng giá cước 0 đồng/phút"; Thông tư quy định "đến năm 2020", có hiệu lực 1/4/2020.'
+  - text: Bài CDC TP.HCM 2025 nêu vị trí nửa dưới xương ức và sâu 5–6 cm
+    source_url: http://trungtamytequan6.medinet.gov.vn/tim-mach/gio-vang-quyet-dinh-su-song-cmobile17305-250126.aspx
+    quote: ép tim ngay (100–120 lần/phút, sâu 5–6 cm, vị trí 1/2 dưới xương ức), dùng máy khử rung tim tự động (AED) nếu có.
+    verdict: match
+    note: 'Trang Trung tâm Y tế khu vực Phú Lâm, cuối bài: "Nguồn tin : HCDC"; "Cập nhật: 8:12, 30/9/2025". Cùng bài: "Dấu hiệu ngừng tim bao gồm mất ý thức, ngừng thở hoặc thở ngáp cá, không bắt được mạch" (nhắc mạch, lệch hướng dẫn cho người không chuyên; mục không dùng câu này).'
+internal_checks:
+  - issue: Thân bài (mục Ghi chú) dẫn Thông tư 02/2020/TT-BTTTT về 115 miễn phí nhưng Thông tư không có trong mục Nguồn và legal_refs rỗng.
+    severity: warn
+  - issue: Nguồn ERC dẫn qua bản sao doctors-service.de (bên thứ ba), nên thêm DOI/URL resuscitationjournal.com của ERC 2025 cho bản gốc.
+    severity: warn
+validity:
+  doc: AHA 2025 Part 7 Adult Basic Life Support; ERC 2025 Adult Basic Life Support; QĐ 1904/QĐ-BYT (2014); Thông tư 02/2020/TT-BTTTT
+  in_force: unconfirmed
+  effective_from: "2025"
+  amended_by: []
+  basis: AHA 2025 và ERC 2025 là bản mới nhất mà chính tài liệu AHA ghi "supersede ... published in 2020"; hướng dẫn y tế không có ngày hiệu lực. Không kiểm được tình trạng hiệu lực của QĐ 1904/2014 (bài đã nói rõ chưa kiểm) và của TT 02/2020 (chỉ có bản tin thứ cấp, tên thông tư "đến năm 2020"); không thấy văn bản thay thế nhưng chưa chứng minh được.
+deliberate_vn_deviation:
+  - "QĐ 1904/QĐ-BYT (2014): ép lún 4–5 cm, 100 lần/phút, đập mạnh vào ngực, thổi ngạt 2 lần rồi kiểm tra mạch cảnh, tham khảo AHA 2005 — lệch AHA/ERC 2025 (5–6 cm, 100–120, không kiểm mạch với người không chuyên). Mục đã nêu rõ và chọn theo AHA/ERC 2025: đúng cách xử lý."
+potential_harm: []
+suggested_edits:
+  - 'Mục Ghi chú, câu về 115: thêm Thông tư 02/2020/TT-BTTTT (hoặc bản tin MST) vào mục Nguồn kèm quote "được miễn phí", hoặc bỏ câu; nêu "xác nhận thời điểm 2020" như đang viết.'
+  - "Mục Nguồn ERC: thêm URL/DOI gốc của ERC 2025 (Resuscitation 215:110771) bên cạnh bản sao doctors-service.de."
+  - 'Cân nhắc đưa thêm vào steps ý "dán điện cực AED theo hình vẽ trên miếng dán, không ai chạm vào người khi máy phân tích/sốc" (ERC: "Ensure that nobody touches the person whilst the AED is analysing the heart rhythm") vì bước 5 chỉ nói "làm theo hướng dẫn của máy".'

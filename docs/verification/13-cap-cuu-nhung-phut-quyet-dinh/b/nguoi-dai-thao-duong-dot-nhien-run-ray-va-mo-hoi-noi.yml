@@ -1,0 +1,102 @@
+id: nguoi-dai-thao-duong-dot-nhien-run-ray-va-mo-hoi-noi
+checked_at: 2026-11-08
+content_sha256: "353d95a2166cb39a8f6fc5175b6ec212ebd2d59c0717ad69d051655d58351709"
+checker: agent-Vf13dB
+result: fail
+claims:
+  - text: "Hạ đường huyết là khi glucose huyết tương dưới 70 mg/dL (3,9 mmol/L)"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "Hạ đường huyết được định nghĩa khi nồng độ glucose huyết tương thấp dưới 70 mg/dL (hay 3,9 mmol/L) gây ra các triệu chứng như suy giảm chức năng não"
+    verdict: match
+    note: "Trang HCDC trả chữ đúng (chữ số tách dòng trong HTML)."
+  - text: "Người còn tỉnh: cho ngay 15 g glucose đường miệng"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "Khi đường máu < 70 mg/dL cần cung cấp ngay 15g glucose đường miệng."
+    verdict: partial
+    note: "Nguồn đặt điều kiện nhóm 'Trường hợp còn tỉnh, ăn uống được'. Steps bước 1 chỉ ghi 'Người còn tỉnh', thiếu 'ăn uống được'/nuốt được (xem potential_harm)."
+  - text: "15 g tương đương 3 thìa cà phê đường pha nước"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "Tương đương 3 thìa cà phê đường hoặc mật ong pha trong nước hoặc 1 cốc (300 ml) nước trái cây (như táo nho) hoặc 3 chiếc bánh quy."
+    verdict: match
+    note: "Nguồn đồng thời nêu 1 cốc 300 ml nước trái cây và 3 bánh quy."
+  - text: "15 g tương đương nửa cốc nước ngọt hoặc 3 viên kẹo (steps bước 1 và 'Nói dễ hiểu')"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "Tương đương 3 thìa cà phê đường hoặc mật ong pha trong nước hoặc 1 cốc (300 ml) nước trái cây (như táo nho) hoặc 3 chiếc bánh quy."
+    verdict: mismatch
+    note: "Nguồn không có 'nửa cốc nước ngọt' lẫn 'kẹo'; nguồn là 1 cốc 300 ml nước trái cây hoặc 3 bánh quy. Thân mục (Lợi ích) chép đúng 300 ml/bánh quy, nên steps/tldr mâu thuẫn thân. 'Nước ngọt' không rõ loại (nước ngọt không đường/ăn kiêng không có glucose), '3 viên kẹo' phụ thuộc cỡ kẹo."
+  - text: "15 phút sau kiểm tra lại, còn thấp thì lặp lại 15 g"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "Kiểm tra lại đường máu sau 15 phút. Nếu vẫn thấp lặp lại 15g glucose."
+    verdict: match
+    note: ""
+  - text: "Không dùng thực phẩm nhiều chất béo hoặc đạm vì làm chậm hấp thu"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "Tuyệt đối không dùng thực phẩm nhiều chất béo hoặc protein vì sẽ làm chậm hấp thu glucose"
+    verdict: match
+    note: ""
+  - text: "Không cải thiện sau hai lần xử trí thì đưa tới cơ sở y tế"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "Nếu tình trạng không cải thiện sau hai lần xử trí cần đưa ngay người bệnh đến cơ sở y tế gần nhất."
+    verdict: match
+    note: ""
+  - text: "Người lú lẫn/mê man: không cho ăn uống (nguy cơ sặc)"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "Tuyệt đối không cho ăn uống vì có thể gây sặc vào đường hô hấp dẫn đến nguy hiểm cho tính mạng."
+    verdict: match
+    note: "Nguồn đặt tiêu đề nhóm 'rối loạn ý thức, hôn mê'. Mục viết 'lú lẫn hoặc mê man' là diễn đạt gần đúng."
+  - text: "Có glucagon thì tiêm bắp 1 mg rồi gọi cấp cứu"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "Nếu có sẵn tiêm bắp Glucagon 1 mg cần được thực hiện ngay. Người thân hoặc nhân viên chăm sóc cần được hướng dẫn vị trí và cách sử dụng thuốc. ... Sau đó cần gọi cấp cứu hoặc đưa người bệnh đến bệnh viện gần nhất."
+    verdict: match
+    note: "Nguồn không ghi chữ '115'; số 115 chỉ thấy ở nguồn khác (BV Nhi TW: 'Gọi cấp cứu 115'). Trình tự steps bước 5 ('gọi 115 (có glucagon thì tiêm)') hơi đảo so với nguồn 'tiêm ngay ... sau đó gọi cấp cứu'; người không có/không biết dùng glucagon phải gọi 115 ngay."
+  - text: "Sau khi đường máu ổn định nên ăn nhẹ có carbohydrate và protein để ngừa tái phát (mục viết: 'bữa ăn nhẹ có tinh bột', không có trong steps)"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "Khi đường máu ổn định người bệnh nên ăn nhẹ thêm bữa có carbohydrate và protein để ngăn ngừa hạ đường huyết tái phát."
+    verdict: partial
+    note: "Nguồn nói carbohydrate VÀ protein; mục (Bẫy 3) chỉ nói 'tinh bột'. Bước này vắng hẳn trong steps/tldr dù thân coi là bẫy."
+  - text: "Bẫy 3: cơn hạ đường huyết quay lại 'sau một hai giờ'"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "để ngăn ngừa hạ đường huyết tái phát."
+    verdict: inference
+    note: "Mốc 'một hai giờ' không có trong nguồn."
+  - text: "Người không bị đái tháo đường thì cho đường không phải cách xử trí mặc định; run, vã mồ hôi còn do sốt, tim nhanh, lo lắng"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "Hạ đường huyết thường xuất hiện đột ngột với các biểu hiện thể chất và thần kinh."
+    verdict: inference
+    note: "Nguồn không bàn người không đái tháo đường hay nguyên nhân khác của run/vã mồ hôi. Là suy diễn hợp lý, nên gắn nhãn."
+  - text: "Bài dẫn lại hướng dẫn BV Nội tiết TW (2023) và Quyết định 5481/QĐ-BYT ngày 30/12/2020"
+    source_url: https://hcdc.vn/xu-tri-ha-duong-huyet--ban-da-biet-cach-chua-7M9Q0n.html
+    quote: "Quyết định 5481/QĐ-BYT ngày 30/12/2020 của Bộ Y tế về việc ban hành tài liệu chuyên môn “Hướng dẫn chẩn đoán và điều trị đái tháo đường típ 2”"
+    verdict: match
+    note: "Cũng liệt kê 'American Diabetes Association (2024). Glycemic Goals and Hypoglycemia: Standards of care in Diabetes-2025'. Không mở được toàn văn QĐ 5481; ADA trả 403 nên không đối chiếu được nguyên văn ADA."
+  - text: "Quy tắc 15-15 theo ADA Standards of Care 2025 (đối chiếu quốc tế)"
+    source_url: https://diabetesjournals.org/care/article/48/Supplement_1/S128/157566/6-Glycemic-Goals-and-Hypoglycemia-Standards-of
+    quote: "(không mở được: HTTP 403)"
+    verdict: unreachable
+    note: "ADA bị chặn 403, chưa đối chiếu được độc lập 15-20 g/15 phút và việc dùng nước ngọt có đường. Mục không dẫn nguồn quốc tế nào."
+internal_checks:
+  - issue: "Steps bước 1 và tldr/'Nói dễ hiểu' đưa 'nửa cốc nước ngọt hoặc 3 viên kẹo', mâu thuẫn với thân (Lợi ích): '1 cốc 300 ml nước trái cây ... 3 chiếc bánh quy'. Bước trong steps không có cơ sở trong thân."
+    severity: error
+  - issue: "Thân nói 'ăn nhẹ thêm bữa' để ngừa tái phát (Bẫy 3) nhưng steps không có bước này."
+    severity: warn
+  - issue: "Ghi chú nói 'Con số 15 g, 15 phút và ngưỡng 70 mg/dL đọc được nguyên văn' đúng; nhưng 'nửa cốc nước ngọt/3 viên kẹo' KHÔNG đọc được nguyên văn (xem claim)."
+    severity: error
+  - issue: "Tiêu đề chương nêu triệu chứng 'nói không rõ' nhưng nguồn xếp 'nói khó' vào triệu chứng thần kinh mức nặng, trong khi steps coi 'người còn tỉnh' là cho uống. Ranh giới 'còn tỉnh' vs 'lú lẫn' không được định nghĩa tiêu chí nuốt được."
+    severity: warn
+validity:
+  doc: "HCDC TP.HCM 'Xử trí hạ đường huyết' (không rõ ngày đăng); dẫn QĐ 5481/QĐ-BYT ngày 30/12/2020 và tài liệu BV Nội tiết TW 2023; ADA Standards of Care 2025"
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: "Trang HCDC không hiện ngày đăng; không mở được toàn văn QĐ 5481/QĐ-BYT và ADA (403). Không xác nhận được QĐ 5481 còn được dùng hay đã có hướng dẫn thay thế."
+deliberate_vn_deviation: []
+potential_harm:
+  - "Steps bước 1 'nửa cốc nước ngọt hoặc 3 viên kẹo': không có trong nguồn. 'Nước ngọt' không đường/ăn kiêng không chứa glucose, kẹo cỡ nhỏ không đủ 15 g; người đọc làm đúng nguyên văn có thể không nâng được đường huyết trong mốc 15 phút và làm chậm xử trí."
+  - "Steps bước 1 chỉ ghi 'Người còn tỉnh' mà nguồn ghi 'còn tỉnh, ăn uống được'; tiêu đề lại nêu triệu chứng 'nói không rõ' (nguồn xếp nói khó là triệu chứng thần kinh nặng). Người đọc có thể đút nước ngọt cho người nói khó, lơ mơ, nuốt kém và gây sặc. Cần tiêu chí rõ: tỉnh hoàn toàn, tự cầm cốc và nuốt được; nếu không thì không đút và gọi 115."
+suggested_edits:
+  - "steps[0], tldr-liên quan và 'Nói dễ hiểu': đổi 'nửa cốc nước ngọt hoặc 3 viên kẹo' thành 'một cốc 300 ml nước trái cây hoặc 3 chiếc bánh quy' (nguồn HCDC: 'Tương đương 3 thìa cà phê đường hoặc mật ong pha trong nước hoặc 1 cốc (300 ml) nước trái cây ... hoặc 3 chiếc bánh quy'). Nếu muốn giữ 'nước ngọt' hay 'kẹo', phải có nguồn và ghi rõ 'loại có đường'."
+  - "steps[0]: đổi 'Người còn tỉnh' thành 'Người tỉnh, tự nuốt được' (nguồn: 'Trường hợp còn tỉnh, ăn uống được')."
+  - "steps: thêm bước 'Khi đường máu ổn định, cho ăn nhẹ có carbohydrate và protein để ngừa tái phát' (quote HCDC: 'nên ăn nhẹ thêm bữa có carbohydrate và protein'); sửa Bẫy 3 từ 'tinh bột' thành 'carbohydrate và protein'."
+  - "steps[4]: viết 'gọi 115 ngay; nếu có glucagon và biết dùng thì tiêm bắp 1 mg' để người không có glucagon không chậm gọi."
+  - "Bẫy 3: bỏ 'sau một hai giờ' hoặc gắn 'suy ra'. Dòng 'người không bị đái tháo đường' gắn 'suy ra' hoặc bỏ."
+  - "Nguồn: bổ sung nguồn quốc tế (ADA Standards of Care 2025 mục 6 hoặc hướng dẫn BV Nội tiết TW bản gốc) sau khi mở được."

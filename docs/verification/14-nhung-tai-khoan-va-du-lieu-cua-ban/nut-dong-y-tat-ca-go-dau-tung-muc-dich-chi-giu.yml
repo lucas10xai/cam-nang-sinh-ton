@@ -1,0 +1,89 @@
+id: nut-dong-y-tat-ca-go-dau-tung-muc-dich-chi-giu
+checker: agent-Vf14b
+checked_at: 2026-11-08
+content_sha256: "e850044b6417ffa6d5f6fd0a6465c5eefe24d180eb207cd3d574177b93a88d15"
+result: pass-with-edits
+claims:
+  - text: "Sự đồng ý chỉ có hiệu lực khi dựa trên sự tự nguyện và khi biết rõ loại dữ liệu, mục đích xử lý, bên kiểm soát, quyền và nghĩa vụ (Điều 9 khoản 2)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "Sự đồng ý của chủ thể dữ liệu cá nhân chỉ có hiệu lực khi dựa trên sự tự nguyện và biết rõ các thông tin sau đây: a) Loại dữ liệu cá nhân được xử lý, mục đích xử lý dữ liệu cá nhân; b) Bên kiểm soát dữ liệu cá nhân hoặc bên kiểm soát và xử lý dữ liệu cá nhân; c) Các quyền, nghĩa vụ của chủ thể dữ liệu cá nhân."
+    verdict: match
+    note: "Công báo số 971+972 (24/7/2025), PDF có lớp chữ."
+  - text: "Sự đồng ý phải thể hiện bằng phương thức rõ ràng, cụ thể, có thể in và sao chép bằng văn bản (Điều 9 khoản 3)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "Sự đồng ý của chủ thể dữ liệu cá nhân được thể hiện bằng phương thức rõ ràng, cụ thể, có thể in, sao chép bằng văn bản, bao gồm cả dưới dạng điện tử hoặc định dạng kiểm chứng được."
+    verdict: match
+    note: "Bản soạn lược cụm 'bao gồm cả dưới dạng điện tử...'; không làm sai ý."
+  - text: "Sự đồng ý phải thể hiện đối với từng mục đích (Điều 9 khoản 4 điểm a)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "a) Thể hiện sự đồng ý đối với từng mục đích;"
+    verdict: match
+    note: ""
+  - text: "Cấm kèm điều kiện bắt buộc phải đồng ý với các mục đích khác nội dung thỏa thuận (Điều 9 khoản 4 điểm b)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "b) Không được kèm theo điều kiện bắt buộc phải đồng ý với các mục đích khác với nội dung thỏa thuận;"
+    verdict: match
+    note: ""
+  - text: "Sự im lặng hoặc không phản hồi không được coi là sự đồng ý (Điều 9 khoản 4 điểm d)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "d) Sự im lặng hoặc không phản hồi không được coi là sự đồng ý."
+    verdict: match
+    note: ""
+  - text: "Bẫy 3: sự đồng ý cũ có hiệu lực cho tới khi bạn thay đổi nó (Điều 9 khoản 4 điểm c)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "c) Sự đồng ý có hiệu lực cho đến khi chủ thể dữ liệu cá nhân thay đổi sự đồng ý đó hoặc theo quy định của pháp luật;"
+    verdict: partial
+    note: "Điều luật đúng, nhưng thiếu 'hoặc theo quy định của pháp luật'. Câu đặt trong ngữ cảnh 'sau khi họ đã đổi mục đích' dễ khiến người đọc hiểu sự đồng ý cũ phủ cả mục đích mới; trong khi điểm a buộc đồng ý theo từng mục đích. Cần nói rõ: mục đích mới cần sự đồng ý mới."
+  - text: "Bên kiểm soát phải lưu trữ sự đồng ý; khi tranh chấp phải chứng minh (NĐ 356 Điều 6 khoản 2)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-356-2025-nd-cp-468371.htm
+    quote: "Bên kiểm soát dữ liệu, bên kiểm soát và xử lý dữ liệu cá nhân phải lưu trữ sự đồng ý của chủ thể dữ liệu. Trong trường hợp có tranh chấp, trách nhiệm chứng minh sự đồng ý của chủ thể dữ liệu thuộc về bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân."
+    verdict: match
+    note: "Công báo số 18 (18/01/2026), PDF 2026_18_356/2025/NĐ-CP, trích được chữ."
+  - text: "Cấm thiết lập phương thức mặc định đồng ý và chỉ dẫn không rõ ràng, gây hiểu lầm giữa đồng ý với không đồng ý (NĐ 356 Điều 6 khoản 3)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-356-2025-nd-cp-468371.htm
+    quote: "không được thiết lập phương thức mặc định đồng ý hoặc tạo ra các chỉ dẫn không rõ ràng, gây hiểu lầm giữa đồng ý và không đồng ý cho chủ thể dữ liệu."
+    verdict: match
+    note: ""
+  - text: "Khi xin đồng ý với dữ liệu nhạy cảm phải thông báo rõ (NĐ 356 Điều 6 khoản 4)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-356-2025-nd-cp-468371.htm
+    quote: "Đối với việc xin sự đồng ý xử lý dữ liệu cá nhân nhạy cảm, chủ thể dữ liệu phải được thông báo rằng dữ liệu cần xử lý là dữ liệu cá nhân nhạy cảm."
+    verdict: match
+    note: ""
+  - text: "Việc dùng dữ liệu khách hàng để kinh doanh dịch vụ quảng cáo bị giới hạn trong phạm vi được chuyển giao theo thỏa thuận, và phải bảo đảm quyền của chủ thể (Điều 28)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "chỉ được sử dụng dữ liệu cá nhân của khách hàng được bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân chuyển giao theo thỏa thuận hoặc thu thập qua hoạt động kinh doanh của mình để kinh doanh dịch vụ quảng cáo."
+    verdict: partial
+    note: "Thiếu vế 'hoặc thu thập qua hoạt động kinh doanh của mình'. Điều 28 khoản 3, 5, 8 (xử lý dữ liệu để quảng cáo phải được đồng ý; cho khách hàng cơ chế từ chối; có quyền yêu cầu ngừng nhận quảng cáo; quảng cáo theo hành vi chỉ thu thập khi có đồng ý) mới là phần sát nhất với việc 'bỏ chọn mục đích quảng cáo' nhưng không được dẫn."
+  - text: "Điều 28 khoản 3: 'phải được sự đồng ý của khách hàng... cung cấp phương thức cho khách hàng để có thể từ chối nhận các thông tin quảng cáo' (khẳng định đề xuất, bản soạn chưa nêu)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "Việc xử lý dữ liệu cá nhân của khách hàng để kinh doanh dịch vụ quảng cáo phải được sự đồng ý của khách hàng, trên cơ sở khách hàng biết rõ nội dung, phương thức, hình thức, tần suất giới thiệu sản phẩm; cung cấp phương thức cho khách hàng để có thể từ chối nhận các thông tin quảng cáo."
+    verdict: match
+    note: "Dùng làm căn cứ đề xuất sửa; không phải câu của bản soạn."
+  - text: "Ghi chú: 'Nghị định cấm thẳng kiểu thiết lập mặc định đồng ý nên phần hướng dẫn đứng trên văn bản' và Bẫy 2 'đóng trang rồi coi như từ chối: không có bản ghi nào'"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-356-2025-nd-cp-468371.htm
+    quote: "Các thiết lập mặc định sẵn có phải đảm bảo nguyên tắc bảo vệ dữ liệu cá nhân, tôn trọng các quyền của chủ thể dữ liệu cá nhân."
+    verdict: inference
+    note: "Phần 'đóng trang = không có bản ghi, không chứng minh được' là suy luận thực tế, không phải chữ của nguồn (luật còn đặt nghĩa vụ chứng minh lên bên kiểm soát, khoản 2). Bước 1 'chụp màn hình' là mẹo thực hành, nguồn không yêu cầu; nên gắn nhãn là lời khuyên."
+internal_checks:
+  - issue: "Bước 2-4 trong steps (bỏ dấu từng mục, bấm nút từ chối, không bấm đồng ý gộp) khớp thân bài; bước 1 'chụp màn hình' chỉ là mẹo thực hành, không có điều khoản nào yêu cầu hoặc nói về giá trị chứng cứ của ảnh chụp. Thân dùng nó trong tldr như 'để chứng minh'. Nên nói rõ là khuyên làm thêm, vì gánh nặng chứng minh theo Điều 6 khoản 2 NĐ 356 nằm ở bên kiểm soát."
+    severity: warn
+  - issue: "legal_refs trích Điều 28 nhưng thân chỉ nêu khoản 1 (một vế); khoản 3, 5, 8 Điều 28 về quyền từ chối quảng cáo, thứ thật sự liên quan tới 'bỏ chọn mục đích quảng cáo' ở phần Chi phí/Ghi chú, không được dẫn. legal_refs[1].article nên ghi đúng các khoản được dùng."
+    severity: warn
+  - issue: "Bẫy 3 ('Sự đồng ý cũ có hiệu lực cho tới khi bạn thay đổi nó') có thể bị hiểu là sự đồng ý cũ áp dụng cho mục đích mới; xung đột nhẹ với Điều 9 khoản 4 điểm a (đồng ý theo từng mục đích)."
+    severity: warn
+  - issue: "legal_refs[].effective_from đều null dù Luật 91/2025 hiệu lực 01/01/2026 và NĐ 356/2025 hiệu lực 01/01/2026 (đọc được trên Công báo)."
+    severity: warn
+validity:
+  doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15; Nghị định 356/2025/NĐ-CP"
+  in_force: unconfirmed
+  effective_from: "2026-01-01"
+  amended_by: []
+  basis: "Luật 91: Công báo 971+972 ghi hiệu lực 01/01/2026 (Điều 38 khoản 1). NĐ 356: trang Công báo ghi 'Ban hành 31/12/2025 - Hiệu lực 01/01/2026', mục 'Văn bản sửa đổi/thay thế' = 0. Tìm kiếm web không thấy văn bản sửa đổi, nhưng không có trang chính thức xác nhận tình trạng hiệu lực tại 08/11/2026 nên không kết luận true."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Pháp luật VN, gạch Điều 28: viết lại thành hai gạch: (1) 'Xử lý dữ liệu cá nhân của khách hàng để kinh doanh dịch vụ quảng cáo phải được khách hàng đồng ý; phải cung cấp phương thức để từ chối nhận quảng cáo.' (Điều 28 khoản 3); (2) 'Chủ thể dữ liệu có quyền yêu cầu ngừng nhận thông tin từ dịch vụ quảng cáo; bên quảng cáo phải cung cấp cơ chế và ngừng.' (Điều 28 khoản 5). Dựa vào quote Điều 28 khoản 3 ở trên. Cập nhật legal_refs[1].article thành 'Điều 28 khoản 3, 5'."
+  - "Nếu giữ câu cũ về Điều 28 khoản 1, thêm vế 'hoặc thu thập qua hoạt động kinh doanh của mình'."
+  - "Ghi chú, Bẫy 3: đổi thành 'Sự đồng ý có hiệu lực cho đến khi bạn thay đổi hoặc theo quy định pháp luật (Điều 9 khoản 4 điểm c); nhưng mỗi mục đích cần sự đồng ý riêng (điểm a), nên mục đích mới phải xin lại.'"
+  - "tldr/steps: bước chụp màn hình ghi rõ là 'nên làm thêm để tự lưu bằng chứng'; không nói nó là điều kiện pháp lý."
+  - "Điền effective_from: '2026-01-01' cho cả 3 legal_refs."

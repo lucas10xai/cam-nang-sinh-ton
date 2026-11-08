@@ -29,9 +29,9 @@ legal_refs:
   - { doc: "Thông tư 51/2017/TT-BYT", article: "Phụ lục VII", url: "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-51-2017-tt-byt-huong-dan-phong-chan-doan-va-xu-tri-phan-ve--128248", effective_from: null, checked_at: "2026-11-03", quote: null }
 verification:
   status: needs-medical-review
-  checked_at: "2026-11-06"
-  checker: null
-  scope: Giải nghĩa phản vệ/sốc phản vệ và điều kiện dùng bút adrenalin đã được kê và hướng dẫn
+  checked_at: "2026-11-08"
+  checker: agent-Vf13cB
+  scope: "Chặn nâng trạng thái: 5 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/dot-nhien-noi-man-khap-nguoi-kem-kho-tho-hoac-choang-goi.yml)"
   sources:
     - https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-51-2017-tt-byt-huong-dan-phong-chan-doan-va-xu-tri-phan-ve--128248
     - https://www.nhs.uk/conditions/anaphylaxis/

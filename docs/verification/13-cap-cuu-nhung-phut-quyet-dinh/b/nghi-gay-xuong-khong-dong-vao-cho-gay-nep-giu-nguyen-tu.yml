@@ -1,0 +1,67 @@
+id: nghi-gay-xuong-khong-dong-vao-cho-gay-nep-giu-nguyen-tu
+checker: agent-Vf13iB
+checked_at: 2026-11-08
+content_sha256: 6d64cdbd2f30a61cc8ace08063e9961bf8761dab05e19fe33972d7dceb3a972a
+result: fail
+claims:
+  - text: Bạch Mai hướng dẫn bất động ngay sau khi xác định chi gãy; mục đích ngăn tổn thương phần mềm, giảm đau, ngăn sốc, giảm gãy hở
+    source_url: https://chanthuongvacotsong.bachmai.gov.vn/cap-cuu-gay-xuong-chi/
+    quote: Sau khi đã xác định được chi gãy cần bất động ngay để ngăn ngừa tổn thương thêm phần mềm do đầu xương sắc gây ra, làm giảm đau và ngăn ngừa sốc, giảm nguy cơ gãy hở do đầu xương có thể chọc thủng da.
+    verdict: match
+    note: ""
+  - text: "Nguyên tắc đặt nẹp: không nắn lại xương, không ấn xương chồi; đệm lót; theo dõi tuần hoàn ngoại vi trước và sau nẹp"
+    source_url: https://chanthuongvacotsong.bachmai.gov.vn/cap-cuu-gay-xuong-chi/
+    quote: "Đặt nẹp: – Không nắn lại xương, không ấn xương chồi"
+    verdict: match
+    note: Cũng có các dòng "Theo dõi tuần hoàn ngoại vi trước khi nẹp", "Đệm lút nẹp", "Theo dõi tuần hoàn sau nẹp" cùng trang.
+  - text: Bước 1 "Để nguyên tư thế, không nắn lại xương" (vô điều kiện)
+    source_url: https://chanthuongvacotsong.bachmai.gov.vn/cap-cuu-gay-xuong-chi/
+    quote: "Bất động nẹp trong tư thế gãy ngoại trừ: Chi biến dạng nặng nề không thể nẹp, khó khăn cho vận chuyển / Đầu xương gãy có nguy cơ chọc thủng da / Rối loạn tuần hoàn / Nếu vậy – Hãy kéo chi theo trục hoặc chỉnh lại trục xoay hoặc chỉ cần chỉnh lại cho thẳng tương đối để có thể bất động tốt hơn."
+    verdict: partial
+    note: Chính nguồn Bạch Mai nêu 3 ngoại lệ (biến dạng nặng, nguy cơ chọc thủng da, rối loạn tuần hoàn) cho nhân viên y tế được chỉnh trục. Mục viết "Hướng dẫn của Bạch Mai cấm đúng việc đó" và "Nắn tay là đẩy đầu xương vào dây thần kinh và mạch máu" (câu sau không có trong nguồn). Với người đọc không chuyên, lời "không tự nắn" là hợp lý nhưng mục không nói khi mất mạch/tím/lạnh chi sau nẹp thì làm gì (gọi 115, nới nẹp) nên đây là chỗ thiếu.
+  - text: Chườm lạnh 15 đến 20 phút giúp giảm sưng và đau; không chườm trực tiếp đá lên da để tránh bỏng lạnh; rồi đưa tới cơ sở y tế chụp X-quang
+    source_url: https://tytphuongcholon.medinet.gov.vn/chuyen-muc/5-dau-hieu-nhan-biet-gay-xuong-nhung-canh-bao-som-cmobile17616-272249.aspx
+    quote: Dùng túi đá hoặc khăn lạnh chườm lên vùng bị thương trong 15–20 phút giúp giảm sưng và đau. Lưu ý không chườm trực tiếp đá lên da để tránh bỏng lạnh.
+    verdict: match
+    note: 'Dòng kế: "Sau khi sơ cứu, người bệnh cần được đưa đến bệnh viện để kiểm tra bằng các phương tiện chẩn đoán như X-quang hoặc CT scan". Nguồn là trang trạm y tế phường, không phải hướng dẫn Bộ Y tế/AAOS/Red Cross; con số 15–20 phút chỉ có nguồn này.'
+  - text: 'Nguồn tl: "mỗi lần chườm 15 đến 20 phút" và đó là giới hạn (title ghi "không quá 20 phút")'
+    source_url: https://tytphuongcholon.medinet.gov.vn/chuyen-muc/5-dau-hieu-nhan-biet-gay-xuong-nhung-canh-bao-som-cmobile17616-272249.aspx
+    quote: Dùng túi đá hoặc khăn lạnh chườm lên vùng bị thương trong 15–20 phút giúp giảm sưng và đau.
+    verdict: partial
+    note: Nguồn không nói "không quá 20 phút", cũng không nói khoảng nghỉ giữa các lần chườm. Mục tự thêm "mỗi lần... rồi" (ngụ ý lặp lại) mà không nói nghỉ bao lâu.
+  - text: '"Bẫy 2: chườm nóng, xoa dầu nóng, đắp lá thuốc ngay sau chấn thương làm sưng thêm"'
+    source_url: https://tytphuongcholon.medinet.gov.vn/chuyen-muc/5-dau-hieu-nhan-biet-gay-xuong-nhung-canh-bao-som-cmobile17616-272249.aspx
+    quote: Chườm lạnh giảm sưng
+    verdict: inference
+    note: Không nguồn nào nêu chườm nóng/dầu nóng/lá thuốc làm sưng thêm. Là suy ra hợp lý (nguyên tắc RICE) nhưng phải gắn nhãn hoặc dẫn nguồn.
+  - text: Mục không nói gì về gãy hở/chảy máu, nghi chấn thương cột sống/cổ/chậu/đùi, hoặc khi nào gọi 115 thay vì tự đi viện
+    source_url: https://chanthuongvacotsong.bachmai.gov.vn/cap-cuu-gay-xuong-chi/
+    quote: Trong trường hợp gãy xương hở cần tuân thủ nghiêm ngặt các nguyên tắc vô khuẩn trong sơ cứu
+    verdict: partial
+    note: Nguồn có nhánh gãy hở (băng vô khuẩn, không đổ thuốc sát khuẩn, không đẩy xương chồi). Mục lược bỏ hoàn toàn nên "tới cơ sở y tế chụp phim" là bước duy nhất cho mọi loại gãy.
+internal_checks:
+  - issue: (a)(c) Mọi con số (15-20 phút) có trong thân; các bước đều có cơ sở trong thân. Không mâu thuẫn số liệu.
+    severity: warn
+  - issue: Title ghi "chườm lạnh không quá 20 phút" nhưng thân/nguồn chỉ nói "15–20 phút"; "không quá" là diễn đạt lại.
+    severity: warn
+  - issue: 'Bước 2 yêu cầu "theo dõi tuần hoàn ngoại vi trước và sau khi nẹp" nhưng không giải thích cho người không chuyên (kiểm tra gì: màu da, tê, lạnh, mạch) và không nêu hành động khi bất thường. Lời gốc là thuật ngữ cho nhân viên y tế.'
+    severity: error
+  - issue: Mục lược bỏ nhánh gãy hở, chảy máu, cột sống/cổ/chậu/đùi và gọi 115; xem potential_harm.
+    severity: error
+validity:
+  doc: "Hướng dẫn y tế: Bệnh viện Bạch Mai (Ths. Đào Xuân Thành) và Trạm y tế phường Chợ Lớn (không phải văn bản pháp quy)"
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: Trang Bạch Mai không có ngày đăng/ngày ban hành thấy được khi tải (không xác định năm); trang Chợ Lớn cũng không ghi năm rõ trong phần trích. Chưa đối chiếu được AHA/ERC/Red Cross/AAOS (không mở được trong khuôn thời gian).
+deliberate_vn_deviation: []
+potential_harm:
+  - 'Step 1/tldr "Để nguyên tư thế... không nắn" nói vô điều kiện, không có ngoại lệ nguồn chính nêu (rối loạn tuần hoàn/biến dạng nặng) và không dặn gọi 115/đưa đi ngay khi chi lạnh, tím, mất mạch: có thể làm chậm cứu chi.'
+  - 'Mục không phân biệt gãy hở (chảy máu, lộ xương: cần cầm máu, băng vô khuẩn, không chườm đá lên vết thương hở) và không nhắc nghi gãy cột sống/cổ, xương chậu, xương đùi thì không di chuyển nạn nhân, gọi 115. Người đọc làm theo "nẹp rồi tự tới viện" có thể di chuyển nạn nhân chấn thương cột sống/chậu hoặc chậm cầm máu.'
+suggested_edits:
+  - 'Thêm bước 0 trước các bước hiện có: "Chảy máu nhiều, xương lộ ra, chi lạnh tím hoặc mất cảm giác, nghi gãy cổ/lưng/chậu/đùi, hoặc nạn nhân đau dữ dội/choáng: gọi 115, không di chuyển nạn nhân" (dựa vào Bạch Mai: "Gãy xương lớn có thể gây sốc chấn thương"; "Garô chỉ là biện pháp cuối cùng"; nhánh gãy hở).'
+  - 'Bước 2: thay "theo dõi tuần hoàn ngoại vi" bằng ngôn ngữ thường: "Sau khi nẹp, kiểm tra đầu ngón: màu hồng, ấm, còn cảm giác; nếu tím, lạnh, tê hoặc đau tăng thì nới băng và gọi 115" (dựa vào quote "Theo dõi tuần hoàn sau nẹp"); gắn nhãn đây là diễn giải.'
+  - 'Thêm 1 câu về gãy hở: băng sạch lên vết thương, không đẩy xương chồi, không rửa/đổ thuốc vào vết thương (dựa vào quote "Không thăm dò vết thương, không nắn đẩy đầu xương chồi.").'
+  - Sửa "Nắn tay là đẩy đầu xương vào dây thần kinh và mạch máu" thành "Nắn có thể làm tổn thương thêm dây thần kinh, mạch máu; việc nắn thuộc về bác sĩ" hoặc bỏ; sửa "Bẫy 2... làm sưng thêm" gắn nhãn suy ra.
+  - 'Title/tldr: đổi "không quá 20 phút" thành "15 đến 20 phút mỗi lần" cho khớp nguồn; thêm "nghỉ giữa các lần" nếu có nguồn.'
+  - Thay/bổ sung nguồn quốc tế (Red Cross/AAOS/NHS) cho nhánh gọi cấp cứu và chườm lạnh.

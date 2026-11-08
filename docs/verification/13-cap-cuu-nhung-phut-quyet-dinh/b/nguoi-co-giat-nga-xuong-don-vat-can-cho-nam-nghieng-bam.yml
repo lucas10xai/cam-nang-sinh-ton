@@ -1,0 +1,103 @@
+id: nguoi-co-giat-nga-xuong-don-vat-can-cho-nam-nghieng-bam
+checked_at: 2026-11-08
+content_sha256: "c744a0ca56534612ad9e0e8aa3302a558225280d445e94e7bf1ba2bc9c3e0e7a"
+checker: agent-Vf13dB
+result: pass-with-edits
+claims:
+  - text: "Ở lại bên người bệnh và xem đồng hồ ngay để biết độ dài cơn"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Ở lại trợ giúp cho bệnh nhân, và giữ bình tĩnh - Lập tức xem đồng hồ, để biết độ dài cơn động kinh."
+    verdict: match
+    note: "Trang BV 108 đề ngày 07/10/2021."
+  - text: "Dọn vật cứng/sắc nhọn quanh người; kê áo gấp hoặc gối mềm dưới đầu"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Đặt bệnh nhân tại 1 vị trí an toàn, tránh những vật sắc nhọn, hoặc vật cứng xung quanh có thể gây nguy hiểm"
+    verdict: match
+    note: "Dòng sau: 'Đặt một vật mềm như gối, áo khoác hay chăn màn gấp gọn dưới đầu bệnh nhân tránh nguy cơ chấn thương.'"
+  - text: "Khi mất ý thức thì xoay nghiêng sang một bên"
+    source_url: https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html
+    quote: "If the person is lying down, turn them gently on their side, with their mouth pointing to the ground. This will keep their airway clear."
+    verdict: match
+    note: "CDC, First Aid for Seizures, 15/05/2024. Tóm tắt: nếu đang nằm thì xoay nghiêng nhẹ, miệng hướng xuống đất để thông đường thở. BV 108 cũng có câu tương đương: 'Đặt bệnh nhân xoay nghiêng sang 1 bên khi bệnh nhân mất ý thức hoặc không tỉnh lại'."
+  - text: "Không nhét thìa, ngón tay hay vật gì vào miệng"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Không nhét bất cứ vật gì vào miệng, vì có thể bệnh nhân cắn gẫy, hoặc gẫy răng, rơi vào làm tắc thở."
+    verdict: match
+    note: "CDC: 'Don't put anything in their mouth. This can hurt their teeth or jaw.'"
+  - text: "Không giữ tay chân người bệnh (có thể trật khớp, gãy xương)"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Không giữ bệnh nhân, vì cơn động kinh có thể gây trật các khớp, gẫy xương."
+    verdict: match
+    note: ""
+  - text: "Không cho uống nước, thuốc hay ăn"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Không cho uống nước, thuốc, hay thức ăn, vì bệnh nhân không tỉnh, nguy cơ làm suy hô hấp."
+    verdict: match
+    note: "CDC chỉ cấm 'until they are fully alert' (không cho ăn uống đến khi hoàn toàn tỉnh); mục viết tuyệt đối hơn nhưng an toàn."
+  - text: "Không ấn nhân trung, không ấn ngực (mục 'Lợi ích')"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Không ấn nhân trung, không ấn ngực bệnh nhân vì cơn động kinh sẽ tự hết, mặt khác có thể gây thêm tổn thương cho bệnh nhân."
+    verdict: match
+    note: "CDC: 'Don't give mouth-to-mouth breaths during the seizure.' Mốc ép tim khi ngừng thở sau cơn vẫn phải theo quy trình ngừng tim (chương 13 mục 1); mục này chỉ nói không ép trong cơn nên không mâu thuẫn."
+  - text: "Gọi 115 nếu cơn kéo dài quá 5 phút"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Cơn kéo dài hơn 5 phút"
+    verdict: match
+    note: "CDC: 'Time the seizure to track if it lasts more than 5 minutes. If it does, seek immediate medical attention or call 911.'"
+  - text: "Gọi 115 nếu là cơn đầu tiên"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Nếu bạn biết đây là cơn động kinh đầu tiên của bệnh nhân"
+    verdict: match
+    note: "CDC: 'Has never had a seizure before.'"
+  - text: "Gọi 115 nếu thôi co giật mà không tỉnh / ngừng thở sau cơn / bị thương / lặp lại liên tiếp"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Người bệnh không tỉnh lại sau cơn động kinh - Người bệnh ngừng thở sau cơn co động kinh - Người bệnh bị thương trong lúc có cơn - Cơn xuất hiện lặp lại liên tiếp"
+    verdict: match
+    note: "Nguồn liệt kê đúng 8 mục (5 phút; lặp lại; mang thai hoặc có bệnh kèm theo sốt; đang bơi/trong nước; không tỉnh; ngừng thở; bị thương; cơn đầu tiên). Mục viết 'tám trường hợp' là đúng số."
+  - text: "Gọi 115 cũng khi người lên cơn đang mang thai, bị sốt, đang ở trong nước, có đái tháo đường mất ý thức (chỉ có trong nguồn, KHÔNG có trong tldr/steps)"
+    source_url: https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html
+    quote: "The seizure happens in water. ... Has diabetes and loses consciousness. Is pregnant."
+    verdict: partial
+    note: "Nguồn BV 108: 'Người lên cơn động kinh đang mang thai hoặc bị bệnh khác kèm theo: sốt' và 'đang bơi lội hoặc ở trong môi trường nước'. CDC thêm đái tháo đường mất ý thức và 'trouble breathing or waking up'. Tldr và steps chỉ nêu 3 điều kiện gọi 115 (quá 5 phút, cơn đầu tiên, không tỉnh) nên thiếu các điều kiện có thể gây hiểu sai."
+  - text: "Cơn động kinh thường kéo dài 2 đến 3 phút rồi người bệnh phục hồi"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Cơn động kinh thường chỉ kéo dài 2-3 phút và sau đó bệnh nhân có thể phục hồi lại trạng thái ban đầu"
+    verdict: match
+    note: "CDC: 'Most seizures last just a few minutes.'"
+  - text: "Bẫy 2: nước/thuốc an thần đổ vào miệng, 'phản xạ nuốt chưa về và chất lỏng đi thẳng vào phổi'"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Không cho uống nước, thuốc, hay thức ăn, vì bệnh nhân không tỉnh, nguy cơ làm suy hô hấp."
+    verdict: inference
+    note: "Nguồn chỉ nói 'không tỉnh, nguy cơ suy hô hấp'. Cơ chế 'phản xạ nuốt', 'thẳng vào phổi' và từ 'thuốc an thần' là suy diễn của người soạn. CDC: 'could cause them to choke'."
+  - text: "Bẫy 3: trạng thái động kinh kéo dài càng lâu càng khó cắt cơn; hàm co cứng cắn đứt vật nhét vào"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Cơn kéo dài hơn 5 phút"
+    verdict: inference
+    note: "Không nguồn nào được dẫn nói 'càng lâu càng khó cắt cơn' hay 'hàm co cứng cắn đứt'. Nguồn chỉ nêu mốc 5 phút. Cần gắn nhãn 'suy ra' hoặc bỏ, hoặc dẫn hướng dẫn (ví dụ Epilepsy Foundation, ILAE) cho cơ chế này."
+  - text: "Trẻ sốt co giật: không hạ sốt bằng nước lạnh, việc đầu tiên vẫn là dọn chỗ, nằm nghiêng, bấm giờ"
+    source_url: https://www.benhvien108.vn/cach-so-cuu-khi-gap-nguoi-bi-dong-kinh.htm
+    quote: "Người lên cơn động kinh đang mang thai hoặc bị bệnh khác kèm theo: sốt"
+    verdict: not-found
+    note: "Câu về nước lạnh và sốt co giật ở trẻ không có trong bài. Bài nói sốt là điều kiện gọi 115. Cần nguồn riêng hoặc bỏ."
+internal_checks:
+  - issue: "Số 5 phút và 2-3 phút trong tldr/steps đều có trong thân; không có mâu thuẫn số liệu."
+    severity: warn
+  - issue: "Steps bước 5 và tldr chỉ liệt kê 3 điều kiện gọi 115, trong khi thân/nguồn nêu 8 điều kiện (thiếu: mang thai, trong nước, sốt, bị thương, ngừng thở, lặp lại, đái tháo đường theo CDC). Bước thiếu điều kiện so với thân."
+    severity: warn
+  - issue: "legal_refs rỗng, hợp lệ cho mục không có văn bản luật."
+    severity: warn
+validity:
+  doc: "BV TW Quân đội 108, bài 'Cách sơ cứu khi gặp người bị động kinh' (07/10/2021); CDC 'First Aid for Seizures' (15/05/2024)"
+  in_force: true
+  effective_from: "2024-05-15"
+  amended_by: []
+  basis: "Hướng dẫn y tế không có ngày hiệu lực. CDC cập nhật 15/05/2024 (đã mở được), khớp 4 bước chính và mốc 5 phút; không thấy hướng dẫn quốc tế mới hơn trái ngược trong phạm vi đã kiểm (không mở được ERC/NHS cho mục này, NHS trả 404)."
+deliberate_vn_deviation: []
+potential_harm:
+  - "Steps bước 5 và tldr ('Gọi 115 nếu cơn quá 5 phút hoặc là cơn đầu tiên') thiếu các điều kiện gọi 115 ngay: đang mang thai, cơn xảy ra trong nước, người có đái tháo đường mất ý thức, khó thở/không tỉnh, bị thương (CDC; BV 108 cũng liệt kê mang thai, trong nước, sốt). Người đọc làm đúng nguyên văn có thể chờ đủ 5 phút khi đã cần cấp cứu ngay."
+suggested_edits:
+  - "steps[4] và tldr: bổ sung 'hoặc xảy ra khi mang thai, khi đang trong nước, người có đái tháo đường, bị thương, khó thở' theo quote CDC 'The seizure happens in water... Is pregnant' và BV 108 'đang mang thai... đang bơi lội hoặc ở trong môi trường nước'."
+  - "Ghi chú Bẫy 3: bỏ hoặc gắn 'suy ra từ' câu 'trạng thái động kinh kéo dài càng lâu càng khó cắt cơn'; bỏ 'hàm co cứng cắn đứt' nếu không có nguồn."
+  - "Ghi chú Bẫy 2: bỏ 'thuốc an thần' và cơ chế 'phản xạ nuốt chưa về' hoặc gắn nhãn suy ra; chỉ nên giữ 'nguy cơ suy hô hấp/sặc' như nguồn."
+  - "Ghi chú dòng 'trẻ sốt co giật... nước lạnh': bỏ hoặc thêm nguồn riêng, vì bài 108 không nói."
+  - "Nguồn: thêm CDC First Aid for Seizures (https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html) để mục có nguồn quốc tế."

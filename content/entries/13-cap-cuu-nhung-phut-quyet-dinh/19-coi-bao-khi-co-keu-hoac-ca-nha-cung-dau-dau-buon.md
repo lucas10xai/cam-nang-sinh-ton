@@ -24,10 +24,10 @@ steps:
 legal_refs:
   - { doc: "Thông tư 51/2017/TT-BYT", article: "Phụ lục VII (số 115)", url: "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-51-2017-tt-byt-huong-dan-phong-chan-doan-va-xu-tri-phan-ve--128248", effective_from: null, checked_at: "2026-11-03", quote: null }
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13dB
+  scope: "Chặn nâng trạng thái: result=fail, 1 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/coi-bao-khi-co-keu-hoac-ca-nha-cung-dau-dau-buon.yml)"
   sources: []
 origin:
   zh: null

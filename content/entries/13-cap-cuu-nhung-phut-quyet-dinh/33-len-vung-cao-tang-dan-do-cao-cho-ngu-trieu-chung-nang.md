@@ -22,10 +22,10 @@ steps:
   - "Nặng lên, đi loạng choạng hoặc thở dốc khi ngồi yên: xuống thấp ngay. Nghi phù não hoặc phù phổi thì xuống và thở oxy."
 legal_refs: []
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13gB
+  scope: "Chặn nâng trạng thái: 2 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/len-vung-cao-tang-dan-do-cao-cho-ngu-trieu-chung-nang.yml)"
   sources: []
 origin:
   zh: null

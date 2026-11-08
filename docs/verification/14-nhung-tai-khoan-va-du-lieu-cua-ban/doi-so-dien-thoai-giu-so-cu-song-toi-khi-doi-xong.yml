@@ -1,0 +1,95 @@
+id: doi-so-dien-thoai-giu-so-cu-song-toi-khi-doi-xong
+checker: agent-Vf14b
+checked_at: 2026-11-08
+content_sha256: "e533ca80b7c9bbe2016fe52dd25dba7e11f4786124d40791da06da3a9e9b019e"
+result: fail
+claims:
+  - text: "Khi truy cập ứng dụng ngân hàng lần đầu hoặc trên thiết bị mới, bước kiểm tra khách hàng phải dùng SMS OTP/Voice OTP gửi tới số điện thoại đã đăng ký, hoặc Soft OTP/Token OTP (dẫn Điều 9 TT 50/2024)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-25-vbhn-nhnn-469216.htm
+    quote: "Đối với khách hàng cá nhân, phải có chức năng kiểm tra khách hàng khi khách hàng truy cập lần đầu hoặc khi khách hàng truy cập trên thiết bị khác với thiết bị đã truy cập phần mềm ứng dụng Mobile Banking lần gần nhất. Việc kiểm tra khách hàng tối thiểu bao gồm: a) Khớp đúng SMS OTP hoặc Voice OTP thông qua số điện thoại đã được khách hàng đăng ký hoặc Soft OTP/Token OTP;"
+    verdict: mismatch
+    note: "Nội dung đúng nhưng nằm ở Điều 8 khoản 6 (Mobile Banking), KHÔNG phải Điều 9. Điều 9 là 'Truy cập phần mềm ứng dụng Online Banking' (đơn vị cấp tài khoản giao dịch điện tử; đăng nhập một lần). Bản soạn dẫn sai điều. Điều 8 khoản 6 còn có điểm b: khớp sinh trắc học nếu luật chuyên ngành đòi hỏi. Công báo số 206 (12/04/2026), VBHN 25/VBHN-NHNN."
+  - text: "SMS OTP là hình thức xác nhận hợp lệ cho giao dịch loại B (Phụ lục 02)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-25-vbhn-nhnn-469216.htm
+    quote: "Giao dịch loại B: - SMS OTP hoặc Voice OTP hoặc Email OTP;"
+    verdict: match
+    note: "Phụ lục 02 cho khách hàng cá nhân; loại C cũng cần OTP SMS/Voice hoặc Soft OTP/Token OTP kết hợp sinh trắc học (bản soạn không nêu: không sai). Phụ lục 02 mới áp dụng từ 01/07/2026 theo khoản 2 Điều 12 TT 77/2025."
+  - text: "SMS OTP chỉ có hiệu lực tối đa 5 phút (Điều 11)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-25-vbhn-nhnn-469216.htm
+    quote: "(ii) OTP có hiệu lực tối đa 05 phút."
+    verdict: match
+    note: "Điều 11 khoản 3 điểm a (SMS OTP); Voice OTP tối đa 03 phút."
+  - text: "Kích hoạt SIM thứ hai trở đi phải xác thực bằng OTP gửi tới SIM đăng ký trước đó, nên số cũ là chốt để lấy lại các số sau (Điều 18 khoản 2 điểm b NĐ 163)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "b) Khi đăng ký, kích hoạt từ SIM thuê bao di động H2H thứ hai trở đi phải xác thực thông qua mã xác thực một lần (mã OTP) gửi đến SIM đăng ký, kích hoạt trước đó;"
+    verdict: partial
+    note: "Phần trích dẫn đúng (chỉ với 'SIM thuê bao di động H2H'). 'nên số cũ chính là chốt để bạn lấy lại được các số sau' là suy luận."
+  - text: "Nếu bạn bỏ số cũ mà không cập nhật: thông báo liên tục 5 ngày; tạm dừng một chiều sau 15 ngày kể từ ngày đầu thông báo; tạm dừng hai chiều sau 15 ngày nữa; thanh lý hợp đồng sau 5 ngày (Điều 25 NĐ 163)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "Khi rà soát, phát hiện hoặc khi nhận được văn bản thông báo của cơ quan quản lý nhà nước về thuê bao di động mặt đất có thông tin thuê bao không đúng quy định, doanh nghiệp cung cấp dịch vụ viễn thông di động mặt đất có trách nhiệm thông báo liên tục trong vòng 05 ngày, mỗi ngày ít nhất một lần yêu cầu cá nhân, tổ chức thực hiện lại việc giao kết hợp đồng theo quy định. Trường hợp cá nhân, tổ chức không thực hiện theo yêu cầu, tạm dừng cung cấp dịch vụ viễn thông một chiều (chỉ nhận được cuộc gọi đến) sau 15 ngày kể từ ngày đầu tiên gửi thông báo"
+    verdict: mismatch
+    note: "Các con số 5/15/15/5 đúng, nhưng điều kiện sai: Điều 25 áp dụng cho thuê bao 'có thông tin thuê bao không đúng quy định' phải 'thực hiện lại việc giao kết hợp đồng', KHÔNG phải cho trường hợp 'bỏ số cũ mà không cập nhật' (đổi số). Không điều nào trong nguồn dẫn nói việc bỏ/không dùng số cũ dẫn tới chuỗi tạm dừng này. Đặt trong mục này gây hiểu sai hậu quả của việc đổi số. Văn bản hợp nhất 19/2026/VBHN-NĐ-BKHCN giữ nguyên Điều 25."
+  - text: "Phải kích hoạt tài khoản định danh điện tử trong vòng 7 ngày kể từ ngày nhận thông báo (Điều 14 khoản 1 NĐ 69/2024)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/6/42118/50600-1-2024767-76869-2024-nd-cp.pdf
+    quote: "Chủ thể danh tính điện tử thực hiện kích hoạt tài khoản định danh điện tử của cá nhân, cơ quan, tổ chức trên Ứng dụng định danh quốc gia trong vòng 07 ngày kể từ ngày nhận được thông báo kết quả cấp tài khoản định danh điện tử."
+    verdict: partial
+    note: "Số 7 ngày đúng, nhưng đây là thời hạn kích hoạt tài khoản mới được cấp, không liên quan tới việc đổi số điện thoại; sau 07 ngày thì 'liên hệ với cơ quan quản lý ... thông qua tổng đài' để kích hoạt (không có hậu quả khác nêu trong Điều 14). Câu đặt dưới 'Định danh điện tử' dễ khiến người đọc tưởng có hạn 7 ngày cho việc cập nhật số."
+  - text: "Việc xác thực qua hệ thống định danh dùng tin nhắn SMS gửi tới số điện thoại chính chủ (dẫn Điều 14 khoản 1 NĐ 69/2024)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/6/42118/50600-1-2024767-76869-2024-nd-cp.pdf
+    quote: "việc thực hiện xác thực điện tử đối với danh tính điện tử, tài khoản định danh điện tử theo yêu cầu của tổ chức, cá nhân quy định tại khoản này phải được sự đồng ý của chủ thể danh tính điện tử thông qua việc xác nhận trên Ứng dụng định danh quốc gia, tin nhắn SMS qua số điện thoại chính chủ hoặc các hình thức xác nhận khác theo quy định."
+    verdict: mismatch
+    note: "Câu SMS nằm ở Điều 19 khoản 3 (Xác thực điện tử), không phải Điều 14 khoản 1. Ngữ nghĩa cũng lệch: Điều 19 khoản 3 chỉ nói sự đồng ý của chủ thể cho một yêu cầu xác thực điện tử của tổ chức/cá nhân khác có thể qua Ứng dụng định danh quốc gia, SMS số chính chủ 'hoặc các hình thức xác nhận khác'. Không nói mọi xác thực qua hệ thống định danh dùng SMS. Điều 19 cũng không bị sửa bởi NĐ 320/2026 (NĐ 320 sửa Điều 3, 4, 7, 11, 13, 15, 16, 18, 24, 25, 28, 33, 35, 36, 40; Điều 14 và 19 không có trong danh sách)."
+  - text: "steps[1]: 'Cập nhật số mới ở ngân hàng, ví điện tử, VNeID trước' (cơ sở pháp lý cho việc phải cập nhật số ở VNeID/ví điện tử)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/6/42118/50600-1-2024767-76869-2024-nd-cp.pdf
+    quote: "việc thực hiện xác thực điện tử đối với danh tính điện tử, tài khoản định danh điện tử theo yêu cầu của tổ chức, cá nhân quy định tại khoản này phải được sự đồng ý của chủ thể danh tính điện tử thông qua việc xác nhận trên Ứng dụng định danh quốc gia, tin nhắn SMS qua số điện thoại chính chủ hoặc các hình thức xác nhận khác theo quy định."
+    verdict: not-found
+    note: "Không có điều khoản nào dẫn nói số điện thoại ở VNeID/ví điện tử phải khớp số nhận mã. NĐ 69 chỉ nhắc 'số điện thoại chính chủ' trong Điều 19 khoản 3. Về ví điện tử: không có cơ sở nào trong các nguồn dẫn. Bước vẫn là lời khuyên hợp lý, nhưng chưa có nguồn."
+  - text: "Bẫy 3: Điều 24 khoản 2 NĐ 163 chỉ cho cá nhân đăng ký số cho chính mình, con dưới 15 tuổi và người mình giám hộ"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "Cá nhân chỉ thực hiện giao kết hợp đồng theo mẫu, điều kiện giao dịch chung sử dụng các số thuê bao cho bản thân mình, con đẻ hoặc con nuôi dưới 15 tuổi và những người thuộc quyền giám hộ của mình theo quy định của pháp luật; cho các thiết bị dùng cho bản thân mình hoặc gia đình mình."
+    verdict: partial
+    note: "Thiếu vế 'cho các thiết bị dùng cho bản thân mình hoặc gia đình mình'. Điều 24 khoản 2 được dùng trong Ghi chú nhưng khoản này có trong legal_refs[4]: khớp."
+  - text: "Bẫy 1: số đã trả có thể được cấp cho người khác, nghĩa là người đó nhận được mã của bạn"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "Đối với các số thuê bao đã bị thanh lý hợp đồng, chấm dứt cung cấp dịch vụ viễn thông theo quy định, doanh nghiệp cung cấp dịch vụ viễn thông di động mặt đất có quyền cung cấp cho cá nhân, tổ chức khác có nhu cầu trừ trường hợp số thuê bao được phân bổ qua hình thức đấu giá."
+    verdict: inference
+    note: "Điều 25 khoản 4 cho phép nhà mạng cấp lại số đã thanh lý/chấm dứt cho người khác: đây là căn cứ tốt cho Bẫy 1 nhưng không được dẫn trong legal_refs; mục thay vào đó dùng Điều 25 (sai ngữ cảnh) cho hậu quả khác. Việc 'người đó nhận được mã của bạn' là suy luận kỹ thuật."
+  - text: "Mã xác thực gửi về số đã đăng ký (tldr) và 'số điện thoại chính là chìa khóa vào tài khoản'"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-25-vbhn-nhnn-469216.htm
+    quote: "Khớp đúng SMS OTP hoặc Voice OTP thông qua số điện thoại đã được khách hàng đăng ký hoặc Soft OTP/Token OTP"
+    verdict: partial
+    note: "Đúng cho bước kiểm tra lần đầu/thiết bị mới (Điều 8 khoản 6) và SMS/Voice OTP. Ngân hàng còn cho Soft OTP/Token OTP, FIDO, hai kênh, sinh trắc học thiết bị (Phụ lục 02) mà không phụ thuộc số điện thoại; nói 'chìa khóa' tuyệt đối là quá mạnh."
+internal_checks:
+  - issue: "legal_refs[0] và thân ('Ngân hàng') dẫn Điều 9 TT 50/2024 cho quy định kiểm tra khách hàng khi truy cập lần đầu/thiết bị mới. Điều 9 là về truy cập Online Banking/cấp tài khoản giao dịch điện tử; nội dung thật ở Điều 8 khoản 6. Dẫn sai điều."
+    severity: error
+  - issue: "Thân dẫn Điều 25 NĐ 163 cho 'Nếu bạn bỏ số cũ mà không cập nhật' (chuỗi thông báo 5 ngày → tạm dừng 1 chiều sau 15 ngày → 2 chiều sau 15 ngày → thanh lý sau 5 ngày). Điều 25 áp dụng cho thuê bao có THÔNG TIN KHÔNG ĐÚNG QUY ĐỊNH, không phải cho việc bỏ số/không cập nhật số cũ. Hậu quả pháp lý bị gán sai."
+    severity: error
+  - issue: "Thân dẫn Điều 14 khoản 1 NĐ 69/2024 cho 'xác thực qua hệ thống định danh dùng SMS tới số chính chủ'; câu này thuộc Điều 19 khoản 3 và có nghĩa khác. Khoản 1 Điều 14 chỉ là thời hạn kích hoạt 07 ngày sau khi được cấp tài khoản."
+    severity: error
+  - issue: "Mục 'Chi phí' nêu 'vài chục nghìn' khi mua SIM mới và 'trả cước cho số cũ thêm một hai tháng' không có nguồn trong thân hay nguồn dẫn. Các con số tiền/thời gian này không nằm trong tldr/steps nên mức warn."
+    severity: warn
+  - issue: "Ghi chú nói 'Ba văn bản đều có số hiệu và điều khoản đọc được nguyên văn... nên trình tự suy ra trực tiếp từ văn bản' trong khi 3 trong 7 dẫn chiếu không khớp nguyên văn (Điều 9, Điều 25, Điều 14). Kết luận 'suy ra trực tiếp' không đứng được. Thân nên nói rõ trình tự 'giữ số cũ → đổi ở nơi nhận mã → trả số' là lời khuyên suy ra từ Điều 8 khoản 6 và Phụ lục 02, không phải điều khoản ghi thẳng."
+    severity: warn
+  - issue: "Thân nói 'Ngân hàng... SMS OTP ... Điều 11' và 'Điều 9' lẫn lộn trong cùng gạch đầu dòng đầu tiên; legal_refs[0] (Điều 9) cần đổi thành Điều 8 khoản 6."
+    severity: warn
+  - issue: "Steps[2] liệt kê 'thẻ tín dụng, bảo hiểm, sổ tiết kiệm online, tài khoản định danh' để rà số: không có gạch pháp luật nào cho bảo hiểm/thẻ tín dụng; là mẹo thực hành, đã có trong Ghi chú Bẫy 2 nhưng không có nguồn."
+    severity: warn
+validity:
+  doc: "Thông tư 50/2024/TT-NHNN (VBHN 25/VBHN-NHNN); Nghị định 163/2024/NĐ-CP; Nghị định 69/2024/NĐ-CP"
+  in_force: unconfirmed
+  effective_from: "2025-01-01"
+  amended_by:
+    - "TT 50/2024: Thông tư 77/2025/TT-NHNN (hiệu lực 01/3/2026; Phụ lục mới áp dụng từ 01/07/2026)"
+    - "NĐ 163/2024: Nghị định 15/2026/NĐ-CP (không chạm Điều 18, 24, 25)"
+    - "NĐ 69/2024: Nghị định 320/2026/NĐ-CP ngày 13/8/2026 (hiệu lực 28/09/2026 theo trang Công báo; không chạm Điều 14, 19)"
+  basis: "TT 50: VBHN 25/VBHN-NHNN Công báo số 206 (12/04/2026) Điều 22 khoản 1: hiệu lực 01/01/2025; Công báo để trống ô hiệu lực nên không xác nhận được tình trạng sau 04/2026. NĐ 163: VBHN 19/2026/VBHN-NĐ-BKHCN (07/9/2026, bản thứ cấp luatvietnam.vn) liệt kê chỉ NĐ 15/2026. NĐ 69: NĐ 320/2026 (Công báo số 479, 25/08/2026) sửa nhiều điều; Điều 14 và Điều 19 không có trong danh sách sửa, nhưng chưa tìm văn bản hợp nhất của NĐ 69 để xác nhận. Vì có 3 văn bản, đặt unconfirmed."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "legal_refs[0] và thân 'Ngân hàng', gạch đầu: đổi 'Điều 9, Thông tư 50/2024/TT-NHNN' thành 'Điều 8 khoản 6'; nội dung giữ nguyên nhưng thêm 'Việc kiểm tra áp dụng cho khách hàng cá nhân của ứng dụng Mobile Banking; khớp sinh trắc học nếu luật chuyên ngành đòi hỏi (điểm b)'. Dựa vào quote Điều 8 khoản 6 ở trên."
+  - "Gạch Nhà mạng thứ hai: bỏ 'Nếu bạn bỏ số cũ mà không cập nhật: thông báo liên tục 5 ngày; ...' (Điều 25 chỉ áp dụng khi thông tin thuê bao không đúng quy định). Thay bằng Điều 25 khoản 4: 'Số thuê bao đã bị thanh lý hợp đồng, chấm dứt cung cấp dịch vụ thì nhà mạng có quyền cấp cho người khác (trừ số đấu giá).' (dùng làm căn cứ Bẫy 1). Sửa legal_refs 'Điều 25' thành 'Điều 25 khoản 4'."
+  - "Gạch Định danh điện tử: bỏ dẫn 'Điều 14 khoản 1 ... SMS'. Nếu giữ nội dung SMS, dẫn Điều 19 khoản 3 và chỉnh cho đúng nghĩa: 'Sự đồng ý của chủ thể danh tính điện tử cho một yêu cầu xác thực điện tử có thể thể hiện qua Ứng dụng định danh quốc gia, SMS qua số điện thoại chính chủ hoặc hình thức khác theo quy định.' Gạch 7 ngày: thêm 'là thời hạn kích hoạt tài khoản mới được cấp, không phải thời hạn đổi số'. Hoặc bỏ gạch này nếu không có cơ sở liên quan tới đổi số."
+  - "steps[1]: giữ 'ngân hàng' (có căn cứ Điều 8 khoản 6 và Phụ lục 02); gắn nhãn 'lời khuyên' cho 'ví điện tử, VNeID' vì chưa có điều khoản dẫn; hoặc bổ sung nguồn thực hành (hướng dẫn của VNeID/ví)."
+  - "Ghi chú: đổi 'trình tự suy ra trực tiếp từ văn bản' thành 'trình tự là lời khuyên rút ra từ quy định mã OTP gửi về số đã đăng ký (Điều 8 khoản 6, Điều 11, Phụ lục 02 TT 50) và việc nhà mạng có thể cấp lại số đã chấm dứt (Điều 25 khoản 4 NĐ 163)'."
+  - "Chi phí: gắn nhãn 'ước lượng' cho 'vài chục nghìn' và 'một hai tháng' hoặc dẫn nguồn giá SIM."
+  - "Điền effective_from cho 7 legal_refs: TT 50 '2025-01-01'; NĐ 163 '2024-12-24'; NĐ 69 '2024-07-01'."

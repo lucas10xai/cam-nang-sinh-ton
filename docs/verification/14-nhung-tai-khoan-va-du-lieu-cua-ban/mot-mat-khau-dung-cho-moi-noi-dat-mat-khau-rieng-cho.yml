@@ -1,0 +1,60 @@
+id: mot-mat-khau-dung-cho-moi-noi-dat-mat-khau-rieng-cho
+content_sha256: "d44fef56af0f28d46b21c726c978729b493830af7c0b3478c798314532b32b7f"
+checker: agent-Vf14a
+checked_at: 2026-11-08
+result: pass-with-edits
+claims:
+  - text: "Tổ chức tài chính, ngân hàng phải thông báo cho chủ thể dữ liệu khi lộ, mất thông tin tài khoản ngân hàng, tài chính, tín dụng (Điều 27 khoản 1 điểm d)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "d) Thông báo cho chủ thể dữ liệu cá nhân trong trường hợp lộ, mất thông tin về tài khoản ngân hàng, tài chính, tín dụng, thông tin tín dụng."
+    verdict: match
+    note: "Dấu ngoặc kép trong mục trích đúng. Mục thêm 'Với tài khoản ngân hàng, bạn sẽ có người báo' là hứa hẹn quá mức (luật không nêu hạn, kênh, hay chế tài tại điều này)."
+  - text: "Nền tảng chỉ bị buộc công khai chính sách bảo mật và báo cáo các vi phạm về bảo mật và quyền riêng tư (Điều 29 khoản 6)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "6. Công khai chính sách bảo mật, giải thích rõ cách thức thu thập, sử dụng và chia sẻ dữ liệu cá nhân; cung cấp cho người dùng cơ chế truy cập, chỉnh sửa, xóa dữ liệu và thiết lập quyền riêng tư cho dữ liệu cá nhân, báo cáo các vi phạm về bảo mật và quyền riêng tư; bảo vệ dữ liệu cá nhân của công dân Việt Nam khi chuyển dữ liệu xuyên biên giới; xây dựng quy trình xử lý vi phạm về bảo vệ dữ liệu cá nhân nhanh chóng và hiệu quả."
+    verdict: partial
+    note: "Từ 'chỉ' sai: khoản 6 còn buộc cơ chế truy cập/xóa dữ liệu, bảo vệ dữ liệu khi chuyển xuyên biên giới, quy trình xử lý vi phạm nhanh chóng; Điều 23 còn buộc báo cơ quan chuyên trách. Cụm 'báo cáo các vi phạm...' trong luật mơ hồ (cung cấp cho người dùng cơ chế báo cáo vi phạm, hay nền tảng báo cáo); mục hiểu theo nghĩa nền tảng báo cáo vi phạm, không chắc đúng."
+  - text: "Bên kiểm soát dữ liệu phải thông báo cho cơ quan chuyên trách trong 72 giờ khi vi phạm có thể gây tổn hại; đồng hồ bắt đầu từ lúc họ phát hiện (Điều 23 khoản 1)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "phát hiện vi phạm quy định về bảo vệ dữ liệu cá nhân có thể gây tổn hại đến quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội hoặc xâm phạm đến tính mạng, sức khỏe, danh dự, nhân phẩm, tài sản của chủ thể dữ liệu cá nhân thì phải thông báo cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân chậm nhất là 72 giờ kể từ khi phát hiện hành vi vi phạm."
+    verdict: match
+    note: "Chủ thể thông báo gồm bên kiểm soát, bên kiểm soát và xử lý, bên thứ ba. Thông báo cho cơ quan chuyên trách, không phải cho chủ tài khoản."
+  - text: "Nghĩa vụ tự bảo vệ dữ liệu cá nhân ở Điều 4 khoản 2 điểm a (Ghi chú)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "a) Tự bảo vệ dữ liệu cá nhân của mình;"
+    verdict: match
+    note: ""
+  - text: "Luật chỉ đặt nghĩa vụ tự bảo vệ dữ liệu ở Điều 4 khoản 2 điểm a và nghĩa vụ thông báo lên tổ chức (Ghi chú)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "1. Tổ chức, cá nhân hoạt động trong lĩnh vực tài chính, ngân hàng, hoạt động thông tin tín dụng có trách nhiệm sau đây:"
+    verdict: partial
+    note: "Từ 'chỉ' quá tuyệt đối: Điều 29 khoản 6, Điều 37 (trách nhiệm bên kiểm soát), Điều 23 khoản 4 (ngăn chặn, khắc phục) cũng đặt nghĩa vụ bảo mật lên tổ chức. Chưa đọc toàn bộ Luật để khẳng định 'chỉ'."
+  - text: "Không có văn bản VN nào yêu cầu người dùng đặt mật khẩu riêng cho hộp thư (Ghi chú, giới hạn bằng chứng)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "Tự bảo vệ dữ liệu cá nhân của mình;"
+    verdict: inference
+    note: "Phủ định tồn tại, không kiểm được toàn bộ pháp luật VN. Đồng ý đây là cách nói thận trọng đúng hướng (Điều 4.2.a chỉ là nghĩa vụ chung)."
+internal_checks:
+  - issue: "Câu 'Nền tảng chỉ bị buộc công khai chính sách bảo mật và báo cáo...' (từ 'chỉ') thu hẹp sai Điều 29 khoản 6 và mâu thuẫn Điều 23 mà mục dẫn ngay dưới. Có thể khiến người đọc tin nền tảng không có nghĩa vụ gì khác khi bị lộ."
+    severity: warn
+  - issue: "Câu 'Với tài khoản ngân hàng, bạn sẽ có người báo' hứa chắc hơn chữ luật (luật chỉ nói tổ chức 'có trách nhiệm... thông báo', không nêu hạn/kênh)."
+    severity: warn
+  - issue: "legal_refs 4 điều đều trỏ PDF Luật 91/2025/QH15 đúng văn bản. article khớp (27.1.d, 29.6, 23.1, 4.2.a). effective_from để null; Điều 38.1 cho 01/01/2026 (nên điền)."
+    severity: warn
+  - issue: "Mục không có con số trong tldr/steps; chỉ có 72 giờ trong thân, khớp nguồn."
+    severity: warn
+  - issue: "Steps 'Bảo vệ cả nơi ghi mật khẩu' và tldr 'đăng xuất các máy lạ' không có hướng dẫn chi tiết trong thân (thân chỉ nhắc 'giữ kín nơi lưu mật khẩu'); bước 'đăng xuất máy lạ' có gốc trong Nói dễ hiểu. Không lỗi thực chất. Thân nói 'nhiều dịch vụ gửi thư đặt lại mật khẩu' đã tự gắn nhãn 'suy ra'."
+    severity: warn
+validity:
+  doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15"
+  in_force: unconfirmed
+  effective_from: "2026-01-01"
+  amended_by: []
+  basis: "Điều 38 khoản 1: hiệu lực 01/01/2026. Chưa tra được văn bản sửa đổi (vbpl.vn trả khung, lược đồ Công báo tải động) nên không kết luận còn nguyên hiệu lực."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Pháp luật VN, bullet Điều 29 khoản 6: đổi 'Nền tảng chỉ bị buộc công khai chính sách bảo mật và \"báo cáo các vi phạm...\"' thành 'Nền tảng phải công khai chính sách bảo mật, cung cấp cơ chế truy cập, chỉnh sửa, xóa dữ liệu và xây dựng quy trình xử lý vi phạm nhanh chóng (Điều 29 khoản 6); luật không nêu cam kết báo riêng cho chủ tài khoản'. Dựa vào quote Điều 29.6."
+  - "Bullet Điều 27 khoản 1 điểm d: bỏ 'bạn sẽ có người báo', thay bằng 'luật buộc tổ chức báo cho bạn, nhưng không nêu hạn'."
+  - "Ghi chú: đổi 'Luật chỉ đặt nghĩa vụ...' thành 'Trong các điều đã dẫn, luật đặt nghĩa vụ tự bảo vệ ở Điều 4 khoản 2 điểm a và nghĩa vụ thông báo lên tổ chức'."
+  - "legal_refs: điền effective_from 2026-01-01 (Điều 38 khoản 1)."

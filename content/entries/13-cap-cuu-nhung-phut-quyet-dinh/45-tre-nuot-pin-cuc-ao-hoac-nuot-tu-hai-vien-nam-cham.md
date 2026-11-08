@@ -22,10 +22,10 @@ steps:
   - "Trẻ đang khó thở, tím tái: xử trí hóc dị vật trước theo mục 43, rồi chuyển viện ngay."
 legal_refs: []
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13iB
+  scope: "Chặn nâng trạng thái: result=fail, 4 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/tre-nuot-pin-cuc-ao-hoac-nuot-tu-hai-vien-nam-cham.yml)"
   sources: []
 origin:
   zh: null

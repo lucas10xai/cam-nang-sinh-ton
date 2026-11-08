@@ -23,10 +23,10 @@ steps:
 legal_refs:
   - { doc: "Bộ luật Hình sự (bản hợp nhất 135/VBHN-VPQH)", article: "Điều 22 khoản 1 và khoản 2", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13hB
+  scope: "Chặn nâng trạng thái: 2 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/gap-mot-nhom-dang-danh-nhau-lui-ra-khong-can-khong-dung.yml)"
   sources: []
 origin:
   zh: null

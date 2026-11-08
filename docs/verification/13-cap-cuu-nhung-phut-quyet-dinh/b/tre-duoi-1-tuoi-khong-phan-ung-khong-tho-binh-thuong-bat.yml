@@ -1,0 +1,88 @@
+id: tre-duoi-1-tuoi-khong-phan-ung-khong-tho-binh-thuong-bat
+checker: agent-Vf13iB
+checked_at: 2026-11-08
+content_sha256: c23a814e7ebc6f298732743e1a741db594991b80a905a93fbc07e2623e13bbdf
+result: fail
+claims:
+  - text: Thổi ngạt 5 nhịp đầu tiên; trẻ nhỏ trùm miệng lên cả mũi và miệng
+    source_url: https://benhviennhitrunguong.gov.vn/5-buoc-cap-cuu-tre-duoi-nuoc-dung-cach-va-nhung-sai-lam-can-tranh.html
+    quote: Với trẻ nhỏ, đặt miệng của bạn trên cả mũi và miệng của trẻ để thổi ngạt được kín. Với trẻ lớn hơn, một tay ép cánh mũi và đưa miệng của bạn thổi vào miệng của trẻ. Thổi chậm, đều trong 1- 2 giây và ngực của trẻ sẽ phồng lên, thổi ngạt 5 nhịp thở đầu tiên.
+    verdict: match
+    note: 'Bài viết về trẻ ĐUỐI NƯỚC (02/06/2023). ERC 2021: "In the unresponsive child, if breathing is absent or abnormal: give five initial rescue breaths." Áp dụng cho trẻ ngừng thở nói chung là đúng ERC nhưng AHA 2020 không có 5 nhịp thở đầu (chưa mở được AHA).'
+  - text: Ép tim 1/2 dưới xương ức, lún khoảng 1/3 đến 1/2 đường kính trước sau, 100 lần/phút; chu kỳ 30:2
+    source_url: https://benhviennhitrunguong.gov.vn/5-buoc-cap-cuu-tre-duoi-nuoc-dung-cach-va-nhung-sai-lam-can-tranh.html
+    quote: "Ngay sau thổi ngạt 5 nhịp đầu tiên, tiến hành ép tim ngoài lồng ngực. Sử dụng một tay đặt vuông góc với lồng ngực, (trẻ lớn/người lớn có thể dùng hai tay).Vị trí ép tim: 1/2 dưới xương ức, ấn xuống ngực sâu khoảng 1/3 -1/2 lồng ngực theo đường kính trước sau. Tốc độ ép tim 100 -120 lần/phút. Những lần tiếp theo tiếp tục thực hiện theo chu kỳ 30 lần ép tim/2 lần thổi ngạt."
+    verdict: partial
+    note: Nguồn ghi tốc độ 100-120 lần/phút (mục viết "khoảng 100" ở tldr/step và "trên 100" ở ghi chú). Nguồn nói "Sử dụng một tay" - không phải kỹ thuật chuẩn cho nhũ nhi (2 ngón/2 ngón cái ôm ngực); mục không nêu kỹ thuật tay nào cho nhũ nhi.
+  - text: "QĐ 1904/QĐ-BYT: tỷ lệ 30:2 khi có một người, 15:2 khi có từ hai người trở lên"
+    source_url: https://kcb.vn/upload/2005611/20210723//H%E1%BB%93i-s%E1%BB%A9c-c%E1%BA%A5p-c%E1%BB%A9u-Ch%E1%BB%91ng-%C4%91%E1%BB%99c.pdf
+    quote: "Tiến hành ép tim ngoài lồng ngực: thông khí nhân tạo 30:2 nếu Ngƣời bệnhlà ngƣời lớn, trẻ nhỏ và nhũ nhi khi có 1 ngƣời cấp cứu. Tỷ lệ 15:2 nếu Ngƣời bệnhlà trẻ nhỏ hoặc nhũ nhi khi có trên 2 ngƣời cấp cứu."
+    verdict: match
+    note: 'Văn bản trong PDF có lỗi OCR font. Phần nhũ nhi (tr. 268) ghi "Nếu có từ 2 Người thực hiện cấp cứu trở lên có thể áp dụng tỷ lệ ép tim/thông khí 15/2 đến khi đặt được đường thở hỗ trợ". "trên 2" ở mục 1.2 khác "từ 2 trở lên" ở phần nhũ nhi: nguồn tự không nhất quán. Mục dùng "từ hai người trở lên" (khớp phần nhũ nhi).'
+  - text: "Nhũ nhi dưới 1 tuổi: ép nửa dưới xương ức, lún 1/3 đến 1/2 bề dày lồng ngực, tần số 100 lần/phút"
+    source_url: https://kcb.vn/upload/2005611/20210723//H%E1%BB%93i-s%E1%BB%A9c-c%E1%BA%A5p-c%E1%BB%A9u-Ch%E1%BB%91ng-%C4%91%E1%BB%99c.pdf
+    quote: Ép tại ½ dƣới xƣơng ức, lún từ 1/3 đến ½ bề dầy lồng ngực và tần số 100 lần/phút
+    verdict: match
+    note: Dòng này nằm ở mục 1.2 chung (ngay trước "2. Trẻ nhũ nhi (dưới 1 tuổi)"). Mục dẫn "Quyết định 1904/QĐ-BYT, quy trình hồi sinh tim phổi cơ bản" nhưng tiêu đề thực trong PDF là "QUY TRÌNH KỸ THUẬT ÉP TIM NGOÀI LỒNG NGỰC" (trang 267-269).
+  - text: "Kỹ thuật ép tim nhũ nhi: 2 ngón tay (một người) hoặc 2 ngón cái ôm ngực (nhiều người) - mục không nêu"
+    source_url: https://kcb.vn/upload/2005611/20210723//H%E1%BB%93i-s%E1%BB%A9c-c%E1%BA%A5p-c%E1%BB%A9u-Ch%E1%BB%91ng-%C4%91%E1%BB%99c.pdf
+    quote: Có thể dùng 2 ngón tay để ép tim (nếu là ngƣời cấp cứu không chuyên hoặc chỉ có 1 Ngƣời thực hiệncấp cứu) với tỷ lệ ép tim/thông khí là 30/2 - Nếu có từ 2 Ngƣời thực hiệncấp cứu trở lên có thể áp dụng tỷ lệ ép tim/thông khí 15/2 đến khi đặt được đường thở hỗ trợ.
+    verdict: partial
+    note: 'Mục thiếu hẳn kỹ thuật tay. ERC 2021: "Preferably use a two-thumb encircling technique for chest compression in infants... Single rescuers might alternatively use a two-finger technique." Ép bằng bàn tay người lớn lên ngực nhũ nhi là sai kỹ thuật.'
+  - text: Gọi 115 và bật loa ngoài, tiếp tục ép tim thổi ngạt trong khi gọi
+    source_url: https://cprguidelines-old.erc.edu/assets/guidelines/European-Resuscitation-Council-Guidelines-2021-Pa.pdf
+    quote: If there is only one rescuer, with a mobile phone, he or she should call help first (and activate the speaker function) immediately after the initial rescue breaths. Proceed to the next step while waiting for an answer. If no phone is readily available perform 1 min of CPR before leaving the child.
+    verdict: inference
+    note: 'Không nguồn VN trong mục nói "bật loa ngoài". ERC 2021 (EN, mục PBLS): người cứu một mình gọi (loa ngoài) NGAY SAU 5 nhịp thở đầu; có từ hai người thì người thứ hai gọi ngay: "a second rescuer should call the EMS immediately upon recognition of unconsciousness, preferably using the speaker function". Mục đặt gọi 115 trước thổi ngạt; hợp lý nhưng khác thứ tự ERC (không gây hại).'
+  - text: "Ép tim: không ấn nông vì sợ gãy xương sườn"
+    source_url: https://benhviennhitrunguong.gov.vn/5-buoc-cap-cuu-tre-duoi-nuoc-dung-cach-va-nhung-sai-lam-can-tranh.html
+    quote: Khi ép tim ngoài lồng ngực, không ấn ngực quá mạnh sẽ gây gãy xương sườn, đụng dập phổi.
+    verdict: mismatch
+    note: Nguồn mục dẫn (BV Nhi TW) liệt kê "ấn ngực quá mạnh" như sai lầm cần tránh; mục viết ngược "Đừng ấn nông vì sợ gãy xương sườn... Hướng dẫn yêu cầu lún từ một phần ba". Độ sâu 1/3 đúng với ERC ("at least one third of the AP dimension... never deeper than the adult 6 cm limit") nhưng mục gán sai cho nguồn và bỏ giới hạn trên.
+  - text: 'Thân: "Hướng dẫn của bệnh viện yêu cầu ép nhanh, trên 100 lần mỗi phút"'
+    source_url: https://benhviennhitrunguong.gov.vn/5-buoc-cap-cuu-tre-duoi-nuoc-dung-cach-va-nhung-sai-lam-can-tranh.html
+    quote: Tốc độ ép tim 100 -120 lần/phút.
+    verdict: mismatch
+    note: 'Nguồn nói 100-120, không "trên 100". Mâu thuẫn nội bộ: tldr/step "khoảng 100", thân "trên 100", BYT QĐ 1904 "100 lần/phút". ERC: 100-120/phút.'
+  - text: Năm bước cấp cứu trẻ (gọi 115, đưa ra khỏi nước, kiểm tra thở, hồi sinh...)
+    source_url: https://benhviennhitrunguong.gov.vn/5-buoc-cap-cuu-tre-duoi-nuoc-dung-cach-va-nhung-sai-lam-can-tranh.html
+    quote: cần nhanh chóng tìm sự trợ giúp của những người xung quanh khi thấy trẻ bị đuối nước bằng cách gọi to, gọi cấp cứu 115.
+    verdict: match
+    note: Nguồn là hướng dẫn cho trẻ đuối nước; mục tổng quát hóa cho "trẻ dưới 1 tuổi không phản ứng, không thở bình thường" mà không dán nhãn.
+  - text: 'Bẫy: "Chỉ ấn ngực mà không thổi ngạt... trẻ ngừng tim thường vì thiếu oxy trước"'
+    source_url: https://cprguidelines-old.erc.edu/assets/guidelines/European-Resuscitation-Council-Guidelines-2021-Pa.pdf
+    quote: In cases where PBLS providers are unable or unwilling to start with ventilations, they should proceed with compressions and add into the sequence ventilations as soon as these can be performed.
+    verdict: inference
+    note: 'Không có trong nguồn VN. ERC cũng nói người không thể/không muốn thổi ngạt vẫn nên ép tim; ERC dispatcher-assisted: "If bystanders cannot provide rescue breaths, they should proceed with chest compressions only." Mục nên nói rõ: nếu không dám thổi ngạt vẫn ép tim.'
+internal_checks:
+  - issue: '(b) Tốc độ ép tim: "khoảng 100" (tldr, steps, nói dễ hiểu), "trên 100" (ghi chú), nguồn BV Nhi TW 100-120, BYT 100 lần/phút. Độ sâu: tldr "khoảng 1/3", steps "1/3 đến 1/2".'
+    severity: error
+  - issue: (c) Bước 1 "bật loa ngoài" không có cơ sở trong nguồn dẫn của mục (chỉ ERC).
+    severity: warn
+  - issue: '(d) legal_refs url kcb.vn/…Chống-độc.pdf đúng là QĐ 1904/QĐ-BYT (PDF 9 MB tải được, trích chữ được); tên quy trình ghi sai ("hồi sinh tim phổi cơ bản" vs tiêu đề thật "Quy trình kỹ thuật ép tim ngoài lồng ngực"). effective_from: null.'
+    severity: warn
+  - issue: (e) article "Quy trình hồi sinh tim phổi cơ bản, tr. 267-270" khớp nội dung nhưng tên quy trình không khớp tiêu đề trong PDF.
+    severity: warn
+  - issue: '(f) Chương 13 mục 25 (đuối nước) và 43 (hóc dị vật) dùng cùng mức độ sâu/tần số: cần kiểm 25 có nhất quán "100-120" không (không đọc báo cáo khác; chưa kiểm).'
+    severity: warn
+  - issue: Mục không nêu cách xác định "không thở bình thường" cho người không chuyên, cũng không nêu kỹ thuật tay cho nhũ nhi.
+    severity: error
+validity:
+  doc: Quyết định 1904/QĐ-BYT ngày 30/5/2014 (Hướng dẫn quy trình kỹ thuật chuyên ngành Hồi sức, cấp cứu và chống độc); Bệnh viện Nhi TW 02/06/2023; ERC 2021
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: PDF kcb.vn đăng 2021-07-23 (đường dẫn), nội dung đúng QĐ 1904; chưa tìm trang vbpl/Công báo xác nhận còn hiệu lực/bị thay thế. ERC 2021 là bản mới nhất ERC thấy được (hiện có ERC 2025 nhưng chưa kiểm). AHA 2020/2025 không mở được (403).
+deliberate_vn_deviation:
+  - "Tỷ lệ: BYT QĐ 1904 và mục dùng 30:2 (một người) và 15:2 (từ hai người) cho nhũ nhi, giống AHA 2020. ERC 2021 dùng 15:2 cho người được đào tạo PBLS và 30:2 cho người không chuyên qua điều phối viên (khuyến nghị 30:2 để giảm số lần chuyển). Không gây hại nhưng mục không nói đây là sự lệch giữa các hướng dẫn."
+  - BV Nhi TW (nguồn của mục) 100-120 lần/phút; BYT QĐ 1904 là "100 lần/phút". Mục không chọn rõ.
+potential_harm:
+  - 'Thiếu kỹ thuật ép tim cho nhũ nhi (2 ngón tay/2 ngón cái ôm ngực) và nguồn BV Nhi TW tả "một tay": người đọc có thể ép nhũ nhi bằng cả gót bàn tay, gây tổn thương, hoặc ép không hiệu quả.'
+  - 'Bẫy 3 gán cho nguồn lời khuyên "đừng ấn nông" trong khi nguồn dặn tránh ấn quá mạnh; không nêu giới hạn trên (ERC: không sâu hơn 6 cm).'
+  - Mục tổng quát hóa quy trình đuối nước ("5 nhịp thở đầu") cho mọi trẻ không phản ứng; người đọc không nhận ra nhánh đuối nước có khác (ví dụ không dốc ngược nước) và mục không nói "nếu không dám/không biết thổi ngạt vẫn ép tim liên tục".
+suggested_edits:
+  - 'Step 4: thêm "Nhũ nhi: ép bằng hai ngón tay đặt dưới đường ngang hai núm vú, hoặc hai ngón cái với hai bàn tay ôm ngực (khi có hai người)" (dựa vào quote QĐ 1904 tr. 268 "Có thể dùng 2 ngón tay để ép tim..." và ERC "two-thumb encircling technique").'
+  - 'Đổi "khoảng 100 lần mỗi phút" và "trên 100" thành thống nhất "100 đến 120 lần mỗi phút" (dựa vào "Tốc độ ép tim 100 -120 lần/phút", ERC). Đổi bẫy 3: "Ép đủ sâu (ít nhất 1/3 bề dày ngực) nhưng không quá mạnh" và sửa tldr/step cho cùng "1/3 đến 1/2".'
+  - Sửa tên quy trình trong legal_refs và mục Pháp luật thành "Quy trình kỹ thuật ép tim ngoài lồng ngực (QĐ 1904/QĐ-BYT, tr. 267-270)".
+  - 'Thêm câu: "Nếu bạn không biết/không dám thổi ngạt: vẫn ép tim liên tục" (dựa vào ERC 2021) hoặc gắn nhãn suy ra; gắn nhãn đây là quy trình cho trẻ không phản ứng, không thở (kể cả đuối nước).'
+  - "Thêm related: mục 43 (hóc dị vật chuyển sang CPR khi trẻ mất ý thức)."

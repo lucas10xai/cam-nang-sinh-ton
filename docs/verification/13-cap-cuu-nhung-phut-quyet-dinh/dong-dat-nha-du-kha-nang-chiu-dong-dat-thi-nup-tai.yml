@@ -1,0 +1,91 @@
+id: dong-dat-nha-du-kha-nang-chiu-dong-dat-thi-nup-tai
+checker: agent-Vf13fA
+checked_at: 2026-11-08
+content_sha256: "d0e427ca5cdbf6bb60d362fdf4bf3f06dbcb6a0b2cacb93ab73472c66055d8b5"
+result: fail
+claims:
+  - text: "Yêu cầu không sụp đổ: kết cấu phải chịu được tác động động đất thiết kế mà không sụp đổ cục bộ hay toàn phần, giữ toàn vẹn, còn một phần khả năng chịu tải (mục 2.1)"
+    source_url: https://mtu.edu.vn/Resources/Docs/Khoa%20-%20Bo%20mon/Khoa%20Xay%20dung/Tai%20lieu%20tham%20khao/TCVN/Thiet-ke/TCVN9386_2012.pdf
+    quote: |-
+      Kết cấu phải được thiết kế và thi công để chịu được tác động động đất thiết kế như định nghĩa trong Chương 3 mà không bị sụp đổ cục bộ hay sụp đổ toàn phần, đồng thời giữ được tính toàn vẹn của kết cấu và còn một phần khả năng chịu tải trọng sau khi động đất xảy ra.
+    verdict: match-secondary
+    note: "Tải PDF 230 trang (có text) từ trang khoa của trường mtu.edu.vn, một bản sao trên máy chủ trường đại học, không phải TCVN do Bộ KH&CN/Tổng cục TCĐLCL công bố; đối chiếu nội dung Lời nói đầu khớp. Quote ở mục 2.1(1)P."
+  - text: "Động đất mạnh ag >= 0,08g: phải tính toán và cấu tạo kháng chấn"
+    source_url: https://mtu.edu.vn/Resources/Docs/Khoa%20-%20Bo%20mon/Khoa%20Xay%20dung/Tai%20lieu%20tham%20khao/TCVN/Thiet-ke/TCVN9386_2012.pdf
+    quote: |-
+      Động đất mạnh ag ≥ 0,08g, phải tính toán và cấu tạo kháng chấn;
+    verdict: match-secondary
+    note: "Quote nằm ở Lời giới thiệu (trước mục 1), không phải mục 3.1.3 như legal_refs/ thân bài ghi. Mục 3.1.3 trong bản PDF là 'Nhận dạng các loại nền đất'; phân loại mạnh/yếu/rất yếu ở Lời giới thiệu, ghi chú (4),(5) của 3.2.1. Sai số điều khoản."
+  - text: "Động đất yếu 0,04g <= ag < 0,08g: chỉ cần giải pháp kháng chấn giảm nhẹ"
+    source_url: https://mtu.edu.vn/Resources/Docs/Khoa%20-%20Bo%20mon/Khoa%20Xay%20dung/Tai%20lieu%20tham%20khao/TCVN/Thiet-ke/TCVN9386_2012.pdf
+    quote: |-
+      Động đất yếu 0,04g ≤ ag < 0,08g, chỉ cần áp dụng các giải pháp kháng chấn đã được giảm nhẹ;
+    verdict: match-secondary
+    note: "Cùng vị trí Lời giới thiệu. Mục 3.2.1(4) dùng chữ 'có thể sử dụng các quy trình thiết kế chịu động đất được giảm nhẹ hoặc đơn giản hóa', yếu hơn chữ 'chỉ cần'."
+  - text: "Động đất rất yếu ag < 0,04g: không cần thiết kế kháng chấn"
+    source_url: https://mtu.edu.vn/Resources/Docs/Khoa%20-%20Bo%20mon/Khoa%20Xay%20dung/Tai%20lieu%20tham%20khao/TCVN/Thiet-ke/TCVN9386_2012.pdf
+    quote: |-
+      Động đất rất yếu ag < 0,04g, không cần thiết kế kháng chấn.
+    verdict: match-secondary
+    note: "Mục 3.2.1(5)P: 'Trong trường hợp động đất rất yếu, không cần phải tuân theo những điều khoản của tiêu chuẩn này.' Lưu ý ag là gia tốc nền THIẾT KẾ (ag = γI·agR), không phải agR trong Phụ lục H; mục dùng lẫn."
+  - text: "Phụ lục H: Hà Nội nội thành Ba Đình 0,0976g, Cầu Giấy 0,1032g"
+    source_url: https://mtu.edu.vn/Resources/Docs/Khoa%20-%20Bo%20mon/Khoa%20Xay%20dung/Tai%20lieu%20tham%20khao/TCVN/Thiet-ke/TCVN9386_2012.pdf
+    quote: |-
+      Quận Ba Đình           (P. Cống Vị)          105.81285    21.039762   0.0976
+      Quận Cầu Giấy          (P. Quan Hoa)         105.799494   21.033276   0.1032
+    verdict: match-secondary
+    note: "Số khớp. Chú thích (*) Phụ lục H: 'Đỉnh gia tốc nền agR đã được quy đổi theo gia tốc trọng trường g' tức đây là agR (tham chiếu), không phải ag thiết kế. Phụ lục H có đơn vị hành chính cũ (quận Ba Đình 'P. Cống Vị'); phân vùng hành chính Hà Nội đã đổi (sáp nhập từ 2025): TCVN 9386:2025 cập nhật phân vùng hành chính theo ketcausoft.com."
+  - text: "Step 1/tldr: nhà kháng chấn: chui xuống gầm bàn chắc, ôm đầu che gáy, bám chân bàn tới khi hết rung"
+    source_url: https://www.cdc.gov/earthquakes/safety/index.html
+    quote: |-
+      COVER your head and neck (and your entire body if possible) underneath a sturdy table or desk. If there is no shelter nearby, get down near an interior wall or next to low-lying furniture that won't fall on you, and cover your head and neck with your arms and hands. ... HOLD ON to your shelter (or to your head and neck) until the shaking stops.
+    verdict: partial
+    note: "Mục KHÔNG dẫn nguồn nào cho phần hành động (chỉ dẫn TCVN thiết kế). Tôi đối chiếu CDC (Reviewed Aug 21, 2026): 'DROP down onto your hands and knees' trước, rồi cover và hold on. Mục thiếu 'DROP' (quỳ xuống bằng tay và gối) và 'tránh cửa sổ/kính' nhưng đúng hướng. Tóm tắt Việt: quỳ xuống, che đầu cổ dưới bàn chắc, bám tới khi hết rung."
+  - text: "Step 2/title: nhà cũ dễ sập, cửa ra sân chỉ vài bước thì chạy ra bãi trống"
+    source_url: https://www.cdc.gov/earthquakes/safety/index.html
+    quote: |-
+      During an earthquake, most deaths and injuries are caused by collapsing building materials and heavy falling objects, such as bookcases, cabinets, and heating units.
+    verdict: not-found
+    note: "Không có nguồn nào trong mục (kể cả TCVN) nói chạy ra ngoài nếu nhà cũ, và CDC không có hướng dẫn này: CDC dạy Drop-Cover-Hold On trong nhà và 'If you are outside, stay outside' (infographic). Hướng dẫn quốc tế (CDC/FEMA/Red Cross/USGS) không khuyến nghị chạy ra ngoài khi đang rung vì nguy cơ gạch/kính rơi từ mặt tiền. Đây là lời khuyên của người soạn. Tóm tắt Việt: CDC: nguyên nhân chết chính là vật liệu xây dựng đổ và vật nặng rơi."
+  - text: "Step 3: không nhảy lầu, không vào thang máy, không chen xuống cầu thang lúc đang rung"
+    source_url: https://www.cdc.gov/earthquakes/safety/index.html
+    quote: |-
+      Drop to your hands and knees, cover your head and neck, and hold on to your shelter until shaking stops.
+    verdict: inference
+    note: "Phần 'không ... thang máy/nhảy lầu/chen cầu thang' không có trong nguồn đã dẫn hay CDC trang này (không thấy từ khóa 'elevator'). Hợp lý nhưng là suy ra."
+  - text: "Step 4: kiểm tra trước (đếm số bước ra sân, chọn bàn chắc, hỏi nhà xây năm nào có bản vẽ)"
+    source_url: https://www.cdc.gov/earthquakes/safety/index.html
+    quote: |-
+      Learn the safe spots in each room of your home. ... Create an evacuation plan.
+    verdict: inference
+    note: "CDC nói biết chỗ an toàn từng phòng và lập kế hoạch sơ tán; không nói 'hỏi năm xây/bản vẽ' hay 'đếm bước ra sân'."
+internal_checks:
+  - issue: "Bẫy 3 viết 'Gạch và tấm đan phía trên khung cửa là thứ rơi trước' (khung cửa không chắc nhất) nhưng không có nguồn; đồng thời CDC (nguồn quốc tế) không dạy đứng ở khung cửa. Ngược lại, step 2 dạy chạy ra ngoài từ nhà cũ qua khung cửa/lối đi dưới mặt tiền, mâu thuẫn tinh thần cảnh báo gạch rơi của chính Bẫy 3."
+    severity: error
+  - issue: "legal_refs.article ghi 'mục 3.1.3 (động đất mạnh, yếu, rất yếu)'. Trong bản PDF dẫn, mục 3.1.3 là phần nền đất; phân loại nằm ở Lời giới thiệu và 3.2.1. Thân bài 'Pháp luật Việt Nam' lặp 'mục 3.1.3' ba lần."
+    severity: error
+  - issue: "Ba ngưỡng 0,08g/0,04g áp dụng cho ag (gia tốc thiết kế = γI × agR). Phụ lục H cho agR. Thân bài ghi 'Hà Nội 0,0976g đến 0,1032g, tức nằm trong nhóm phải tính kháng chấn' — kết luận đúng (agR > 0,08g, còn nếu γI=0,75 thì ag>0,0732 vẫn có thể <0,08) nhưng lẫn agR với ag và 'đến 0,1032g' chỉ trích hai quận trong khi cả nội thành có Long Biên 0,0747g (<0,08g)."
+    severity: warn
+  - issue: "Tiêu chuẩn thiết kế công trình chỉ áp dụng cho công trình xây MỚI/thiết kế; mục tự nói điều này ở Ghi chú. Không có cách nào người đọc 'biết nhà đủ khả năng chịu động đất' (Ghi chú thừa nhận). Tiêu đề và steps vẫn dùng điều kiện này để rẽ nhánh hành động (núp vs chạy)."
+    severity: error
+  - issue: "Điều kiện 'cửa ra sân chỉ vài bước' không định nghĩa 'vài bước' (mấy mét, bao nhiêu giây); 'tường gạch không giằng' không đo được cho người dân."
+    severity: warn
+  - issue: "Chi phí 'Không mất tiền' khớp thân bài; không có số liệu mâu thuẫn khác. Không có số tiền/ngày."
+    severity: warn
+validity:
+  doc: "TCVN 9386:2012 Thiết kế công trình chịu động đất (chuyển đổi từ TCXDVN 375:2006); công bố bởi Bộ KH&CN"
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: "Kết quả tìm kiếm thứ cấp (ketcausoft.com 13/01/2026; thuvienphapluat/vietq liệt kê) cho thấy Bộ KH&CN công bố TCVN 9386:2025 (Quyết định 4647/QĐ-BKHCN ngày 31/12/2025; TCVN 9386-1:2025 và 9386-5:2025) 'ban hành nhằm thay thế phiên bản năm 2012', phân vùng theo địa danh hành chính hiện tại và 2 loại phổ phản ứng. Nghĩa là TCVN 9386:2012 mà mục dẫn rất có thể đã bị thay thế và Phụ lục H (bảng gia tốc nền theo địa danh) có thể đã đổi. Không mở được văn bản chính thức (thuvienphapluat 403), nên in_force: unconfirmed, nhưng có dấu hiệu mạnh là lạc hậu."
+deliberate_vn_deviation:
+  - "Hành động 'nhà cũ dễ sập, cửa vài bước thì chạy ra ngoài' lệch hướng dẫn quốc tế (CDC/FEMA/USGS-ShakeOut: Drop-Cover-Hold On tại chỗ, không chạy ra ngoài lúc đang rung). Mục không trình bày là ngoại lệ có chủ ý và không dẫn nguồn trong nước (Bộ Xây dựng/Bộ NN&MT/Viện Vật lý địa cầu) cho lời khuyên chạy ra ngoài."
+potential_harm:
+  - "Step 2/title dạy chạy ra ngoài lúc đang rung ở nhà cũ: nguy cơ bị gạch/ngói/ban công/kính rơi từ mặt tiền hoặc ngã khi đang rung. CDC: nguyên nhân tử vong chính là vật liệu xây dựng đổ và vật nặng rơi. Nguồn quốc tế khuyến nghị Drop-Cover-Hold On tại chỗ rồi di chuyển khi hết rung. Lời khuyên chạy ra là ý của người soạn, không nguồn, và còn phụ thuộc điều kiện không đo được ('nhà đủ khả năng chịu động đất')."
+  - "Tldr/step 1 điều kiện 'nhà xây theo chuẩn kháng chấn': người đọc không biết nhà mình có phải hay không (tiêu chuẩn không cho cách nhận biết), nên dễ tự coi nhà là 'cũ' hoặc 'đủ chuẩn' sai và chọn nhánh sai."
+suggested_edits:
+  - "Tldr/title/steps: viết lại hành động chính thành 'Khi đang rung: quỳ xuống (Drop), che đầu và cổ dưới bàn chắc (Cover), bám chặt (Hold on) cho đến khi hết rung; tránh cửa sổ/kính' theo CDC (quote 'COVER your head and neck... HOLD ON to your shelter ... until the shaking stops'). Bỏ nhánh 'chạy ra bãi trống khi đang rung'; thay bằng 'hết rung mới ra ngoài theo lối thoát đã chọn, tránh mặt tiền/dây điện'."
+  - "Nếu vẫn muốn giữ nhánh nhà dễ sập, phải dẫn nguồn trong nước hoặc quốc tế xác nhận và gắn nhãn 'suy ra từ ...'; thêm cảnh báo gạch rơi khi chạy qua ngoài mặt tiền (đang mâu thuẫn với Bẫy 3)."
+  - "legal_refs và thân bài: sửa 'mục 3.1.3' thành 'Lời giới thiệu và mục 3.2.1(4),(5)'; ghi rõ ag = γI·agR, Phụ lục H là agR; chỉ nói Hà Nội nội thành (trừ Long Biên 0,0747g, Tây Hồ 0,0819g...) ... hoặc bỏ liệt kê quận khỏi mục."
+  - "Cập nhật nguồn: kiểm TCVN 9386-1:2025 (QĐ 4647/QĐ-BKHCN ngày 31/12/2025) và thay legal_refs/nguồn; nếu số phân vùng đổi, sửa bảng. Dùng bản PDF chính thức (không phải trang khoa trường)."
+  - "Step 3 và 4: ghi nhãn 'suy ra' hoặc dẫn nguồn (CDC/Bộ Y tế/Bộ NN&MT) cho 'không thang máy/không nhảy lầu' và 'hỏi năm xây/bản vẽ'; đổi 'cửa chỉ vài bước' thành tiêu chí đo được hoặc bỏ."

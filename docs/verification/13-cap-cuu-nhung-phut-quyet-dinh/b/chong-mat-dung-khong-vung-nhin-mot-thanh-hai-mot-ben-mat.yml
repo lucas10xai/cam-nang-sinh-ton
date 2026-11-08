@@ -1,0 +1,77 @@
+id: chong-mat-dung-khong-vung-nhin-mot-thanh-hai-mot-ben-mat
+content_sha256: e45fba698b4037fdc04ac89fc336f565514fe6062170b0c35bdda092dfa87d32
+checker: agent-Vf13aB
+checked_at: 2026-11-08
+result: pass-with-edits
+claims:
+  - text: QĐ 3312 liệt kê nhìn đôi, thất điều, chóng mặt vào biểu hiện khởi phát hay gặp của nhồi máu não; chóng mặt hiếm khi đơn độc
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: + Nhìn đôi + Rối loạn ngôn ngữ + Liệt mặt + Thất điều + Chóng mặt (hiếm khi xuất hiện đơn độc)
+    verdict: match
+    note: Số/ngày 3312/QĐ-BYT 05/11/2024 chỉ xác nhận qua luatvietnam.vn (thứ cấp) vì trang 1 PDF là ảnh quét. Danh sách còn "Mất thị lực một hoặc hai mắt" (khớp "một bên mắt tối").
+  - text: Đột quỵ không rõ thời điểm khởi phát là ngủ dậy đã có triệu chứng hoặc không có người chứng kiến; xác định thời điểm rất quan trọng để xét tái tưới máu
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: Nếu ngủ dậy đã có triệu chứng hoặc không có người chứng kiến thì gọi là đột quỵ không rõ thời điểm khởi phát.
+    verdict: match
+    note: Ý "rất quan trọng để xét điều trị tái tưới máu" ở câu liền trước.
+  - text: "Lưu đồ hình ảnh học: tiêu huyết khối trong cửa sổ 4,5 giờ"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: Điều trị tiêu huyết khối đường tĩnh mạch trong 3 giờ đầu và gần đây mở rộng cửa sổ điều trị lên 4,5 giờ đã được áp dụng thường quy tại Hoa Kỳ cũng như tại châu Âu.
+    verdict: partial
+    note: Mốc 4,5 giờ có trong tài liệu (mục 4.2.2 bài tiêu huyết khối) nhưng không nằm trong lưu đồ hình ảnh học 6.2 (ô "TIÊU HUYẾT KHỐI - ASPECTS ≥ 7"); mục quy sai vị trí. Tài liệu còn cho 4,5–9 giờ có tiêu chuẩn hình ảnh.
+  - text: Lấy huyết khối cơ học trong cửa sổ 6 giờ với ASPECTS từ 6 trở lên
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: Cửa sổ ≤ 6 giờ ... ASPECTS TRÊN CẮT LỚP VI TÍNH ≥ 6 (lưu đồ 6.2); ASPECTS ≥ 6 điểm có chỉ định lấy huyết khối cơ học (mục 3.1.2 bài hình ảnh học)
+    verdict: match
+    note: Trích từ lưu đồ 6.2 và mục "Thang điểm ASPECTS" (ghép hai chỗ vì lưu đồ trích ra dạng bảng).
+  - text: Mở rộng sang cửa sổ 6–12 giờ và 6–24 giờ khi hình ảnh tưới máu còn vùng tranh tối tranh sáng
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: "Chỉ định điều trị can thiệp nội mạch trong cửa sổ mở rộng (trên 6 giờ) dựa trên 1 trong 2 tiêu chuẩn hình ảnh học tưới máu não: 5.4.1. Tiêu chuẩn DAWN (6-24 giờ) ... 5.4.2. Tiêu chuẩn DEFUSE III (6-16 giờ)"
+    verdict: partial
+    note: '6–24 giờ (DAWN) và 6–16 giờ (DEFUSE III) đúng, nhưng lưu đồ 6.2 đặt "Cửa sổ 6-12 giờ" với "ASPECTS 3-5" và "Cần tham khảo thêm ý kiến chuyên gia", còn "6-24 giờ" mới dùng CT/MRI tưới máu. Mục gộp hai điều kiện khác nhau và bỏ điều kiện NIHSS, thể tích lõi (DAWN: NIHSS ≥ 10, lõi < 21/31/51 ml).'
+  - text: Với lõi nhồi máu lớn, mở rộng lấy huyết khối tới cửa sổ 24 giờ nếu thể tích lõi trên 50 ml, hoặc ASPECTS 3–5 mà còn bất tương xứng rõ
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: Chỉ định can thiệp lấy huyết khối cơ học được mở rộng với người bệnh đột quỵ cấp trong cửa sổ 24 giờ với thể tích thiếu máu rộng (ASPECTS 3-5 hoặc V>50ml) và còn sự khác biệt ‘‘bất tương xứng’’ đáng kể giữa vùng tranh tối-tranh sáng với lõi nhồi máu.
+    verdict: partial
+    note: Tiêu đề mục 2.3.4 đúng như mục viết, nhưng các tiêu chí chọn bệnh ngay dưới đó ghi "Cửa sổ 6 giờ đầu từ thời điểm cuối cùng người bệnh còn bình thường. Có thể mở rộng chỉ định LHK cửa sổ 6-12 giờ nhưng cần thảo luận tiên lượng với gia đình và tham khảo ý kiến chuyên gia" (tự mâu thuẫn trong tài liệu) và kèm NIHSS ≥ 6, tắc ICA/M1, mRS ≤ 1. Mục bỏ các điều kiện này; đây là nội dung chuyên khoa không cần cho người đọc phổ thông.
+  - text: Gọi 115 và ghi giờ khởi phát nếu có nhìn đôi, một bên mắt tối hoặc đi loạng choạng; xử như đột quỵ
+    source_url: https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines
+    quote: Loss of vision, hearing, speech, movement, or balance
+    verdict: partial
+    note: 'cpr.heart.org trả 403; quote đọc từ bản gương u1-cd-cpr.sc.heart.org (2024 AHA and American Red Cross Guidelines for First Aid, doi 10.1161/CIR.0000000000001281). Nằm trong danh sách "Signs of a first aid emergency requiring professional assistance". AHA cũng khuyến cáo thang nhận biết đột quỵ (FAST). Ba dấu hiệu của mục khớp "Eyes/Balance" của BE-FAST, nhưng mục giới hạn lý do gọi 115 ở ba dấu hiệu này: xem potential_harm. Không nguồn nào trong mục nói "gọi 115": mục dựa vào QĐ 3312 (không có chỉ dẫn gọi 115).'
+  - text: Không để người bệnh tự đi bộ hay tự lái xe
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: ""
+    verdict: inference
+    note: Không có trong QĐ 3312. Bài HCDC/Phú Lâm (30/9/2025) có "tuyệt đối không để người bệnh tự lái xe" nhưng trong phần nhồi máu cơ tim, không phải đột quỵ/chóng mặt. Hợp lý nhưng là suy ra.
+  - text: "Bẫy 2: đột quỵ vùng sau của não bị bỏ sót vì người bệnh vẫn cười được và nói được"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: ""
+    verdict: inference
+    note: QĐ 3312 chỉ có mục 2.3.5 "Đột quỵ vòng tuần hoàn sau" (lấy huyết khối); không có câu nào nói FAST bỏ sót đột quỵ vùng sau. Đúng về mặt y văn chung (BE-FAST) nhưng không có trong nguồn đã dẫn.
+  - text: "Bẫy 3 và Chi phí: đi khám mắt mất buổi đầu; nếu là tiền đình cũng phải loại trừ mạch máu trước; BHYT trả phần lớn"
+    source_url: https://bvtn.org.vn/wp-content/uploads/2025/07/Q-Ban-hanh-HD-t-qu-nao.signed.pdf
+    quote: ""
+    verdict: not-found
+    note: Không nguồn nào trong mục.
+internal_checks:
+  - issue: 'Mục 03 (cùng chương) viết "270 phút là hạn cuối" trong khi mục 04 liệt kê cửa sổ 4,5 giờ, 6 giờ, 6–12, 6–24 giờ cho cùng chủ đề (đột quỵ do mạch máu): hai mục nói số khác nhau về cùng một thứ.'
+    severity: warn
+  - issue: Mốc 4,5 giờ được gán cho "lưu đồ hình ảnh học" nhưng nằm ở mục 4.2.2/4.2.5 của bài tiêu huyết khối; 6–12 giờ gán nhầm điều kiện "tưới máu" (lưu đồ ghi ASPECTS 3-5 + ý kiến chuyên gia).
+    severity: warn
+  - issue: 'tldr/steps không có con số nào cần đối chiếu; steps bước 3 chỉ gọi 115 khi có "một trong ba dấu hiệu" nhưng thân mục (Bẫy 2) nhắc cả méo miệng, yếu tay, nói khó: không đồng nhất.'
+    severity: warn
+validity:
+  doc: QĐ 3312/QĐ-BYT ngày 05/11/2024 (Hướng dẫn chẩn đoán và điều trị đột quỵ não)
+  in_force: unconfirmed
+  effective_from: 2024-11-05
+  amended_by: []
+  basis: 'Bản PDF bvtn.org.vn: trang 1 là ảnh quét, phần văn bản trích được ghi "Quyết định số /QĐ-BYT ngày tháng năm 2024" (trống). luatvietnam.vn (thứ cấp): "Số hiệu 3312/QĐ-BYT", "05/11/2024", Điều 3 "có hiệu lực kể từ ngày ký, ban hành và thay thế Quyết định số 5331/QĐ-BYT"; ô tình trạng hiệu lực bị che. Chưa có bằng chứng sơ cấp về việc còn hiệu lực.'
+deliberate_vn_deviation: []
+potential_harm:
+  - 'steps bước 3: "Có một trong ba dấu hiệu đó thì gọi 115" (nhìn đôi, một bên mắt tối, đi loạng choạng). Người đọc làm đúng nguyên văn có thể không gọi 115 khi chóng mặt kèm yếu/tê tay chân, méo miệng, nói khó, đau đầu dữ dội đột ngột, buồn nôn/nôn hoặc không ngồi/đứng được vì dấu hiệu khác ngoài ba dấu hiệu trên; tldr cũng giới hạn "kèm nhìn đôi, một bên mắt tối hoặc đi loạng choạng". Cần gộp với FAST (mục 03) thành bộ dấu hiệu chung (BE-FAST).'
+suggested_edits:
+  - 'steps bước 3 và tldr: đổi thành "Chóng mặt đột ngột kèm bất kỳ dấu hiệu đột quỵ (nhìn đôi, mất thị lực một bên mắt, đi loạng choạng/mất thăng bằng, méo miệng, yếu hoặc tê một bên, nói khó, đau đầu dữ dội đột ngột): gọi 115 và ghi giờ" — căn cứ QĐ 3312 mục 3.1 và AHA/Red Cross 2024 ("Loss of vision, hearing, speech, movement, or balance"; FAST).'
+  - 'Mục Lợi ích, mục "Các mốc trong lưu đồ hình ảnh học": sửa 4,5 giờ là mốc của tiêu huyết khối (4.2.2); 6–12 giờ gắn với ASPECTS 3–5 và ý kiến chuyên gia; 6–24 giờ (DAWN) cần NIHSS ≥ 10 và lõi hoại tử nhỏ. Hoặc bỏ gạch đầu dòng này vì thông tin dành cho bác sĩ, không đổi hành động của người đọc.'
+  - Gắn nhãn "suy ra" cho "không để tự đi bộ hay tự lái xe" hoặc dẫn nguồn khác; bỏ/tìm nguồn cho Bẫy 2 (đột quỵ vùng sau) và Bẫy 3.
+  - Thêm liên kết sang mục 03 (FAST) và mục 01-02 cho trường hợp người bệnh ngất, không thở bình thường.

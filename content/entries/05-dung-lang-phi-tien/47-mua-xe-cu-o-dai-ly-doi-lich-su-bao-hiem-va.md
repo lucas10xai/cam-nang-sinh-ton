@@ -26,10 +26,10 @@ legal_refs:
   - { doc: "Bộ luật Dân sự 91/2015/QH15", article: "Điều 132", url: null, effective_from: null, checked_at: null, quote: null }
   - { doc: "Bộ luật Dân sự 91/2015/QH15", article: "Điều 429", url: null, effective_from: null, checked_at: null, quote: null }
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-legal-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf05j
+  scope: "Chặn nâng trạng thái: result=fail, 1 mục potential_harm (docs/verification/05-dung-lang-phi-tien/mua-xe-cu-o-dai-ly-doi-lich-su-bao-hiem-va.yml)"
   sources: []
 origin:
   zh: null

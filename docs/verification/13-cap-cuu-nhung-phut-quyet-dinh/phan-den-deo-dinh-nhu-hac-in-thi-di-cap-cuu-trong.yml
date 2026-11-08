@@ -1,0 +1,91 @@
+id: phan-den-deo-dinh-nhu-hac-in-thi-di-cap-cuu-trong
+checker: agent-Vf13jA
+checked_at: 2026-11-08
+content_sha256: "309899b199b9ee19abbbbe05fc19e4883bbbec79bcb0fc4a017f4dc1ee94e6c9"
+result: pass-with-edits
+claims:
+  - text: "Nghiên cứu tiến cứu: 6 bệnh viện ghi nhận liên tiếp 2944 người vào cấp cứu vì xuất huyết tiêu hóa trên; 36% đến trong 6 giờ, 20% sau 48 giờ"
+    source_url: https://pubmed.ncbi.nlm.nih.gov/28396275
+    quote: "Consecutive patients presenting with overt UGIB (red-blood emesis, coffee-ground emesis, and/or melena) from March 2014 to March 2015 at 6 hospitals were included. ... Among 2944 patients, 1068 (36%) presented within 6 hours and 576 (20%) beyond 48 hours."
+    verdict: match
+    note: "Laine L et al., Gastrointest Endosc 2017;86(6):1028-1037, doi 10.1016/j.gie.2017.03.1549. Bản abstract PubMed (doi.org chỉ trả metadata CrossRef). Tóm tắt Việt: 6 bệnh viện, 2944 người, 36% trong 6 giờ, 20% sau 48 giờ."
+  - text: "Người chỉ có phân đen đến muộn hơn: tỷ số odds 0,22 (KTC 95% 0,18-0,28)"
+    source_url: https://pubmed.ncbi.nlm.nih.gov/28396275
+    quote: "Significant independent factors associated with presentation ≤6 hours versus >6 hours on logistic regression included melena (odds ratio [OR], 0.22; 95% CI, 0.18-0.28)"
+    verdict: match
+    note: "OR là cho 'có melena' so với đến ≤6 giờ trong mô hình hồi quy đa biến, không riêng 'chỉ có phân đen'; kết luận tác giả: 'Patients with melena alone delay their presentation to the hospital.' Mục nói 'chỉ có phân đen... đến muộn hơn hẳn' - đúng ý."
+  - text: "Nhóm đến trong 6 giờ phải truyền máu 27%, nhóm đến muộn hơn 42%, chênh 15 điểm phần trăm (KTC 95% -19% đến -12%)"
+    source_url: https://pubmed.ncbi.nlm.nih.gov/28396275
+    quote: "Patients presenting ≤6 hours versus >6 hours required transfusion less often (286 [27%] vs 791 [42%]; difference, -15%; 95% CI, -19% to -12%) because of a smaller proportion with low hemoglobin levels"
+    verdict: match
+    note: "Tóm tắt Việt: 27% so với 42%, vì nhóm đến sớm ít người hemoglobin thấp hơn."
+  - text: "Giới hạn: không ngẫu nhiên, tử vong 30 ngày hai nhóm gần bằng nhau; điểm khác rõ nhất là truyền máu"
+    source_url: https://pubmed.ncbi.nlm.nih.gov/28396275
+    quote: "but were similar with regard to hemostatic intervention (189 [18%] vs 371 [20%]), 30-day mortality (80 [7%] vs 121 [6%]), and hospital days (5.0 ± 0.2 vs 5.0 ± 0.2)."
+    verdict: match
+    note: "Mục nêu đúng giới hạn. Nhưng nguồn còn viết: 'Time to presentation should not be used as an indicator for poor outcome. Patients with delayed presentation should be managed with the same degree of care as those with rapid presentation.' (Thời gian đến viện không nên dùng làm chỉ báo kết cục xấu.) Mục không nêu câu này."
+  - text: "Phân đen, dẻo, dính như hắc ín thì đi khoa cấp cứu ngay trong ngày, đừng chờ hết đen (steps[0], tldr, tiêu đề)"
+    source_url: https://www.nhs.uk/conditions/stomach-ulcer/
+    quote: "Immediate action required: Call 999 or go to A&E if: ... your poo has blood in it, or is black, sticky and very smelly"
+    verdict: partial
+    note: "NHS (rà soát 12/08/2025) ủng hộ hướng (còn mạnh hơn: gọi 999 hoặc đi A&E; 'Do not drive to A&E. Ask someone to drive you or call 999'). Bài Laine KHÔNG cho khuyến cáo 'đi trong ngày'; nó chỉ mô tả ai đến muộn và hệ quả là phải truyền máu. Mục đặt benefit: large, metric: mortality, trong khi nghiên cứu cho thấy tử vong 30 ngày giống nhau (7% vs 6%): khuyến cáo là suy ra từ nguồn khác, chưa nêu nguồn khuyến cáo trong mục."
+  - text: "Thuốc sắt, thuốc bismuth và tiết canh cũng làm phân đen (steps[1], Ghi chú)"
+    source_url: https://doi.org/10.1016/j.gie.2017.03.1549
+    quote: "Không có câu nào trong bài Laine hoặc hai nguồn khác của mục nêu thuốc sắt, bismuth hay tiết canh."
+    verdict: not-found
+    note: "Y khoa phổ biến là đúng với sắt và bismuth, nhưng không có nguồn nào trong mục Nguồn; 'tiết canh' cũng không có nguồn. Cần dẫn nguồn (NHS/Bộ Y tế) hoặc gắn nhãn."
+  - text: "Nhóm dễ mất máu hơn: người trên 60 tuổi, người dùng thuốc chống đông/kháng kết tập tiểu cầu, người từng loét dạ dày"
+    source_url: https://pubmed.ncbi.nlm.nih.gov/28396275
+    quote: "Significant independent factors ... included melena (OR 0.22), hemoglobin ≤80 g/L (OR 0.47; 95% CI, 0.36-0.61), altered mental status (OR 2.06), albumin ≤30 g/L (OR 1.43), and red-blood emesis (OR 1.29)."
+    verdict: not-found
+    note: "Danh sách yếu tố nguy cơ trong mục không có trong bài Laine (các yếu tố độc lập là melena, hemoglobin, rối loạn ý thức, albumin, nôn máu đỏ). Có thể đúng về y khoa nhưng chưa có nguồn."
+  - text: "Chóng mặt, vã mồ hôi, ngất, mạch nhanh, huyết áp thấp, nôn ra máu hoặc ra chất như bã cà phê thì gọi cấp cứu, đừng tự đi"
+    source_url: https://www.nhs.uk/conditions/stomach-ulcer/
+    quote: "you're vomiting bright red blood or your vomit looks like ground coffee"
+    verdict: partial
+    note: "NHS khớp nôn máu/bã cà phê (gọi 999). Chóng mặt, vã mồ hôi, ngất, mạch nhanh, huyết áp thấp không có trong NHS hay Laine (bài Laine chỉ có 'altered mental status', 'hemoglobin <=80'). Là suy ra hợp lý về sốc mất máu nhưng chưa gắn nguồn. 'Mạch nhanh, huyết áp thấp' người thường khó đo."
+  - text: "Từ 01/11/2026, cấp cứu ngoài bệnh viện do tổng đài 113 tiếp nhận và điều phối (Thông tư 42/2026/TT-BYT)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/42-byt.signed.pdf
+    quote: "Mọi thông tin đề nghị hỗ trợ về y tế đến đầu số 113 phải được phân nhánh đến nhân viên y tế trực Tổng đài 113 tại Trung tâm Thông tin chỉ huy Công an tỉnh, thành phố."
+    verdict: partial
+    note: "Đã mở PDF ký số trên chinhphu.vn (trang chinhphu.vn/?pageid=27160&docid=220146 chỉ có khung, link PDF ngay trong trang). Điều 2 khoản 1: cuộc gọi y tế đến 113 phải được chuyển đến nhân viên y tế trực. Thông tư KHÔNG nói rõ 'cấp cứu ngoài bệnh viện do 113 tiếp nhận từ 1/11' là chuyển hẳn từ 115 và không nhắc 114/115. Điều 7 còn đặt hạn rà soát danh sách cơ sở trước 01/01/2027 và nhân lực trực trước 01/07/2027: hệ thống chưa vận hành đầy đủ."
+  - text: "Hiệu lực Thông tư 42/2026/TT-BYT từ ngày 01/11/2026"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/42-byt.signed.pdf
+    quote: "Điều 8. Hiệu lực thi hành. Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 11 năm 2026."
+    verdict: match
+    note: "Văn bản ký 31/10/2026 (Thứ trưởng Vũ Mạnh Hà), trang chinhphu.vn ghi 'Ngày có hiệu lực 01-11-2026'."
+  - text: "Trong thời gian chuyển tiếp người dân vẫn gọi được cả 113, 114 và 115 (nguồn UBND TP.HCM)"
+    source_url: https://hochiminhcity.gov.vn/vi/w/tpho-chi-minh-trien-khai-tich-hop-cac-so-khan-cap-113-114-115-thanh-tong-ai-dung-chung-113
+    quote: "Trong thời gian chuyển tiếp, khi các điều kiện pháp lý, kỹ thuật và tổ chức chưa hoàn thiện, người dân vẫn được sử dụng cả ba số 113, 114, 115 theo quy định hiện hành; các cuộc gọi được định tuyến về đầu mối tiếp nhận thống nhất theo phương án triển khai."
+    verdict: partial
+    note: "Đúng cho TP.HCM (bài ngày 02/11/2026, kế hoạch triển khai Quyết định 1166/QĐ-TTg ngày 29/6/2026), không phải quy định toàn quốc. Mục viết chung 'người dân vẫn gọi được cả 113, 114 và 115' - cần ghi 'tại TP.HCM' hoặc có nguồn toàn quốc. Giai đoạn 1 kéo đến năm 2027."
+internal_checks:
+  - issue: "Mục đặt benefit: large, metric: mortality, nhưng chính nghiên cứu dẫn kết luận tử vong 30 ngày giống nhau (7% vs 6%) và 'Time to presentation should not be used as an indicator for poor outcome'; điểm kết cục duy nhất khác là truyền máu (điểm kết thúc thay thế). Phần Ghi chú thừa nhận nhưng metric/benefit ở frontmatter chưa phản ánh."
+    severity: error
+  - issue: "'Đi cấp cứu ngay trong ngày' (tiêu đề, tldr, steps[0]) là khuyến cáo hành động; không câu nào trong nguồn Laine nói vậy, và mục không dẫn hướng dẫn nào (NHS/ACG/Bộ Y tế) làm cơ sở."
+    severity: error
+  - issue: "Tiêu đề 'gọi 113 hoặc 115'; tldr/steps[2] chỉ nói 'gọi cấp cứu' không có số; mục 13-46 và các mục 13-40, 13-43... cùng chương dùng '115'. Mục 13-42 dùng '113' cho trường hợp xâm hại tình dục. Số cấp cứu không thống nhất trong chương."
+    severity: warn
+  - issue: "legal_refs[0]: article 'toàn văn; quy định cấp cứu ngoài bệnh viện do tổng đài 113 tiếp nhận và điều phối' không tương ứng một điều cụ thể; điều khớp là Điều 2 khoản 1. URL đúng văn bản (chinhphu.vn docid=220146). checked_at và quote để null."
+    severity: warn
+  - issue: "steps[2] 'mạch nhanh, huyết áp thấp': người nhà không đo được, và không có trong nguồn."
+    severity: warn
+  - issue: "Mọi con số trong tldr/steps (6 giờ, 36%, 20%...) ở tldr: tldr không có con số riêng; các con số trong thân khớp nhau (không mâu thuẫn)."
+    severity: warn
+validity:
+  doc: "Thông tư 42/2026/TT-BYT của Bộ Y tế quy định tiếp nhận thông tin và quy trình cấp cứu ngoại viện (ngày ban hành 31/10/2026)"
+  in_force: true
+  effective_from: "2026-11-01"
+  amended_by: []
+  basis: "PDF ký số trên datafiles.chinhphu.vn, Điều 8: 'có hiệu lực thi hành kể từ ngày 01 tháng 11 năm 2026'; trang chinhphu.vn ghi 'Ngày có hiệu lực 01-11-2026'. Văn bản mới 8 ngày tuổi, chưa thấy bản sửa đổi; hiệu lực đã có từ 01/11/2026. Hạn triển khai trong Thông tư kéo đến 01/07/2027, nên 'hiệu lực' khác 'đã vận hành'. Laine 2017 (nghiên cứu) không có hiệu lực; NHS stomach ulcer rà soát 12/08/2025."
+deliberate_vn_deviation: []
+potential_harm:
+  - "steps[0]/Nói dễ hiểu 'đi cấp cứu trong ngày' không phân biệt phân đen kèm dấu hiệu mất máu: người đọc có thể chờ 'trong ngày' khi đã chóng mặt/yếu. NHS xếp phân đen sệt hôi vào 'Immediate action: Call 999 or go to A&E'; steps[2] có xử lý trường hợp nặng nhưng 'trong ngày' ở tldr/tiêu đề có thể được hiểu là có thể đợi vài giờ."
+  - "steps[3] 'Đi bằng xe nhà' cạnh 'đừng tự lái xe': nếu người bệnh đã chóng mặt, đi xe nhà thay vì gọi cấp cứu có thể làm chậm cứu chữa; cần nói rõ khi nào bắt buộc gọi cấp cứu (xem steps[2]) và NHS khuyên 'Do not drive to A&E'."
+suggested_edits:
+  - "Frontmatter: đổi metric/benefit cho khớp bằng chứng (nghiên cứu chỉ cho thấy khác biệt truyền máu, không khác biệt tử vong); hoặc chuyển trọng tâm nguồn sang hướng dẫn lâm sàng (NHS/ACG/Bộ Y tế) cho khuyến cáo 'đi ngay'."
+  - "Thêm nguồn khuyến cáo cho 'phân đen đi cấp cứu': NHS https://www.nhs.uk/conditions/stomach-ulcer/ ('Immediate action required: Call 999 or go to A&E if ... your poo has blood in it, or is black, sticky and very smelly') và/hoặc hướng dẫn của Bộ Y tế; ghi 'khuyến cáo này không đến từ nghiên cứu Laine'."
+  - "Ghi chú: thêm câu của tác giả Laine 'Patients with delayed presentation should be managed with the same degree of care as those with rapid presentation' hoặc bỏ ngụ ý 'đi muộn sống ít hơn'."
+  - "Bỏ hoặc nguồn hóa: 'thuốc bismuth', 'tiết canh', danh sách nhóm nguy cơ >60 tuổi/thuốc chống đông/loét dạ dày; bỏ 'mạch nhanh, huyết áp thấp' khỏi steps cho người nhà."
+  - "Pháp luật: viết 'từ 01/11/2026 mọi cuộc gọi y tế đến 113 được chuyển đến nhân viên y tế trực Tổng đài 113 (Thông tư 42, Điều 2 khoản 1)'; ghi rõ 'tại TP.HCM' cho câu '113, 114, 115 vẫn gọi được'; nhắc hạn triển khai 01/01/2027 và 01/07/2027."
+  - "Sửa legal_refs[0].article thành 'Điều 2 khoản 1' và điền quote đã trích; thống nhất cách ghi số cấp cứu trong chương."

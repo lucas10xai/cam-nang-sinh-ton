@@ -1,0 +1,67 @@
+id: mat-khau-dung-ma-van-mat-tai-khoan-bat-xac-thuc-hai
+content_sha256: "eac4114cc15923b71b602acac2c8ce289f671f57e4250e3fe9f2f2535eb0bf85"
+checker: agent-Vf14a
+checked_at: 2026-11-08
+result: pass-with-edits
+claims:
+  - text: "Tự bảo vệ dữ liệu cá nhân là nghĩa vụ của chủ thể dữ liệu (Điều 4 khoản 2 điểm a, Luật 91/2025/QH15)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "2. Nghĩa vụ của chủ thể dữ liệu cá nhân bao gồm: a) Tự bảo vệ dữ liệu cá nhân của mình;"
+    verdict: match
+    note: "PDF Công báo 971+972 có lớp text, đã trích bằng pdftotext."
+  - text: "Luật có hiệu lực từ ngày 01/01/2026 (Điều 38 khoản 1)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026."
+    verdict: match
+    note: ""
+  - text: "Hệ thống và dịch vụ dùng dữ liệu lớn, AI, chuỗi khối, điện toán đám mây phải sử dụng phương thức xác thực, định danh phù hợp và phân quyền truy cập (Điều 30 khoản 3)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "phải sử dụng phương thức xác thực, định danh phù hợp và phân quyền truy cập để xử lý dữ liệu cá nhân."
+    verdict: match
+    note: "Trích dẫn trong ngoặc kép của mục đúng nguyên văn."
+  - text: "Từ Điều 30 khoản 3: Vì vậy lớp xác nhận thứ hai là thứ bên cung cấp phải có."
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "Hệ thống và dịch vụ sử dụng dữ liệu lớn, trí tuệ nhân tạo, chuỗi khối, vũ trụ ảo và điện toán đám mây phải được tích hợp các biện pháp bảo mật dữ liệu cá nhân phù hợp; phải sử dụng phương thức xác thực, định danh phù hợp và phân quyền truy cập để xử lý dữ liệu cá nhân."
+    verdict: inference
+    note: "Luật chỉ nói 'phương thức xác thực, định danh phù hợp', không nói xác thực hai lớp/2FA; và chỉ áp cho hệ thống dùng dữ liệu lớn/AI/chuỗi khối/vũ trụ ảo/đám mây, không phải mọi dịch vụ (hộp thư, ngân hàng, mạng xã hội). Kết luận 'phải có lớp thứ hai' không có trong chữ luật."
+  - text: "Nền tảng mạng xã hội bị cấm yêu cầu ảnh/video chứa đầy đủ hoặc một phần giấy tờ tùy thân làm yếu tố xác thực tài khoản (Điều 29 khoản 2)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "2. Không được yêu cầu cung cấp hình ảnh, video chứa nội dung đầy đủ hoặc một phần giấy tờ tùy thân làm yếu tố xác thực tài khoản;"
+    verdict: match
+    note: "Điều 29 áp cho 'Tổ chức, cá nhân cung cấp dịch vụ mạng xã hội, dịch vụ truyền thông trực tuyến'."
+  - text: "Bên kiểm soát dữ liệu phải thông báo cơ quan chuyên trách chậm nhất 72 giờ kể từ khi phát hiện vi phạm có thể gây tổn hại (Điều 23 khoản 1)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "thì phải thông báo cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân chậm nhất là 72 giờ kể từ khi phát hiện hành vi vi phạm."
+    verdict: match
+    note: "Đã kèm điều kiện 'có thể gây tổn hại' trong câu của mục. Đối tượng thông báo là cơ quan chuyên trách, không phải chủ tài khoản."
+  - text: "Bẫy 3: Điều 29 khoản 2 đã cấm nền tảng đòi ảnh giấy tờ làm yếu tố xác thực, nên yêu cầu đó tự nó là dấu hiệu sai"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "Không được yêu cầu cung cấp hình ảnh, video chứa nội dung đầy đủ hoặc một phần giấy tờ tùy thân làm yếu tố xác thực tài khoản;"
+    verdict: inference
+    note: "Suy ra hợp lý nhưng là kết luận của mục; điều luật chỉ cấm nhà cung cấp, và nền tảng nước ngoài thuộc phạm vi áp dụng theo Điều 1 chưa được kiểm trong lượt này."
+  - text: "Xác nhận hiện trên máy an toàn hơn nhận mã qua tin nhắn (khuyến nghị cốt lõi; mất SIM là mất lớp thứ hai)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "Việt Nam chưa có nghiên cứu đo việc bật lớp thứ hai giảm được bao nhiêu vụ chiếm tài khoản."
+    verdict: inference
+    note: "Quote là chính câu thừa nhận của mục (Ghi chú), không phải nguồn ngoài. Mục không dẫn nguồn quốc tế nào (CISA/NIST/Google) cho khuyến nghị push thay SMS. Không có nguồn độc lập trong Nguồn; không thể ghi match."
+internal_checks:
+  - issue: "Câu 'Vì vậy lớp xác nhận thứ hai là thứ bên cung cấp phải có' (mục Pháp luật VN) suy diễn vượt chữ Điều 30 khoản 3: luật không đòi 2FA và chỉ nhắm hệ thống dữ liệu lớn/AI/chuỗi khối/vũ trụ ảo/đám mây. Người đọc có thể tin 2FA là bắt buộc theo luật."
+    severity: error
+  - issue: "Số trong tldr/steps: không có con số. Số '10 phút' chỉ ở thân (Chi phí), không có nguồn, là ước lượng của tác giả."
+    severity: warn
+  - issue: "Điều 23 khoản 1 (72 giờ) liên quan thế nào với việc chọn 2FA: mục tự nói 'chỉ có ích khi bạn còn giữ được đường vào tài khoản'; đó là diễn giải, không phải chữ luật. Hạn 72 giờ là nghĩa vụ báo cơ quan chuyên trách, không phải báo cho chủ tài khoản."
+    severity: warn
+  - issue: "Bước 'Ghi lại mã dự phòng và lưu mã khôi phục ở nơi an toàn' có trong steps và Lợi ích nhưng thân (Chi phí) chỉ nhắc 'ghi lại mã dự phòng khi đổi máy'; thiếu hướng dẫn cụ thể nơi lưu an toàn (không lưu cùng điện thoại/hộp thư đang bảo vệ)."
+    severity: warn
+validity:
+  doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15"
+  in_force: unconfirmed
+  effective_from: "2026-01-01"
+  amended_by: []
+  basis: "Điều 38 khoản 1 ghi hiệu lực 01/01/2026 (đã qua so với 2026-11-08); văn bản đăng Công báo 971+972 ngày 24/7/2025. Chưa tra được danh sách văn bản sửa đổi/thay thế (trang vbpl.vn chỉ trả khung, Công báo lược đồ tải động) nên không kết luận chưa bị sửa."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Mục 'Pháp luật Việt Nam', bullet Điều 30 khoản 3: bỏ câu 'Vì vậy lớp xác nhận thứ hai là thứ bên cung cấp phải có'. Thay bằng: 'Luật chỉ đòi các hệ thống dữ liệu lớn, AI, chuỗi khối, vũ trụ ảo, điện toán đám mây dùng phương thức xác thực phù hợp; luật không đòi xác thực hai lớp, nên bạn phải tự bật.' (dựa vào quote Điều 30.3)."
+  - "Ghi chú hoặc Lợi ích: gắn nhãn 'suy luận kỹ thuật' cho khuyến nghị xác nhận trên máy thay SMS, hoặc dẫn một nguồn quốc tế (CISA/NIST SP 800-63B) mô tả SMS là kênh yếu hơn; hiện không có nguồn."
+  - "Pháp luật VN, bullet Điều 23 khoản 1: nói rõ 72 giờ là hạn báo cơ quan chuyên trách, không bảo đảm bạn được báo trong 72 giờ."

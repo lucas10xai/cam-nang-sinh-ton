@@ -1,0 +1,67 @@
+id: do-xe-may-sai-cho-bi-phat-400-000-den-600-000
+checker: agent-Vf36a
+checked_at: 2026-11-08
+content_sha256: 1f69c3d861b8563c080c58723db17a46976721185c16cca9aa45ca99a82b0863
+result: pass-with-edits
+claims:
+  - text: "Phạt 400.000-600.000: dừng, đỗ ở lòng đường gây cản trở; đỗ, để xe ở lòng đường, vỉa hè trái phép"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: d) Dừng xe, đỗ xe ở lòng đường gây cản trở giao thông; tụ tập từ 03 xe trở lên ở lòng đường, trong hầm đường bộ; đỗ, để xe ở lòng đường, vỉa hè trái phép;
+    verdict: match
+    note: Điều 7 khoản 2 điểm d; khoản 2 mức "từ 400.000 đồng đến 600.000 đồng".
+  - text: "Phạt 400.000-600.000: dừng, đỗ trên điểm đón trả khách, nơi giao nhau, phần đường người đi bộ, nơi có biển cấm"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: e) Dừng xe, đỗ xe trên điểm đón, trả khách, nơi đường bộ giao nhau, trên phần đường dành cho người đi bộ qua đường; dừng xe nơi có biển "Cấm dừng xe và đỗ xe"; đỗ xe tại nơi có biển "Cấm đỗ xe" hoặc biển "Cấm dừng xe và đỗ xe";
+    verdict: match
+    note: Điều 7 khoản 2 điểm e. Điểm này còn gồm đường sắt (cùng mức, hành lang an toàn); mục không nêu, không gây hại.
+  - text: "Phạt 600.000-800.000 đồng: dừng, đỗ trên cầu"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: c) Dừng xe, đỗ xe trên cầu;
+    verdict: match
+    note: Điều 7 khoản 3 điểm c; khoản 3 mức "từ 600.000 đồng đến 800.000 đồng". Khác Điều 8 (xe máy chuyên dùng), khoản 3 xe máy không có ngoại lệ "tổ chức giao thông cho phép".
+  - text: "Phạt 800.000-1.000.000 đồng: dừng, đỗ trong hầm đường bộ không đúng nơi quy định"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: b) Dừng xe, đỗ xe trong hầm đường bộ không đúng nơi quy định;
+    verdict: match
+    note: Điều 7 khoản 4 điểm b; khoản 4 mức "từ 800.000 đồng đến 1.000.000 đồng".
+  - text: Cảnh sát giao thông di chuyển xe đỗ trái quy định gây cản trở khi chủ không có mặt hoặc không chấp hành, được thuê tổ chức/cá nhân
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm
+    quote: 1. Khi phát hiện phương tiện giao thông đường bộ vi phạm quy định dừng, đỗ trên đường bộ gây cản trở, ùn tắc giao thông hoặc nguy cơ dẫn đến tai nạn giao thông đường bộ nhưng người điều khiển phương tiện tham gia giao thông đường bộ, chủ phương tiện giao thông đường bộ không có mặt tại nơi xảy ra vi phạm hoặc có mặt nhưng không chấp hành yêu cầu của Cảnh sát giao thông thì Cảnh sát giao thông thực hiện việc di chuyển phương tiện vi phạm ra khỏi vị trí dừng, đỗ trên. Trường hợp không đủ điều kiện thực hiện thì Cảnh sát giao thông được thuê tổ chức, cá nhân thực hiện việc di chuyển phương tiện đó.
+    verdict: match
+    note: Điều 69 khoản 1. Mục viết "được thuê" khi không đủ điều kiện; mục viết "và được thuê tổ chức hoặc cá nhân thực hiện" không nêu điều kiện "Trường hợp không đủ điều kiện thực hiện" (nhỏ).
+  - text: Người vi phạm phải trả chi phí di chuyển
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm
+    quote: 3. Người điều khiển phương tiện tham gia giao thông đường bộ hoặc chủ phương tiện giao thông đường bộ vi phạm phải trả chi phí cho việc di chuyển hoặc thuê di chuyển phương tiện đó.
+    verdict: match
+    note: Điều 69 khoản 3.
+  - text: Cưỡng chế khi cản trở, chống đối; bảo đảm an toàn khi di chuyển
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm
+    quote: 4. Trong quá trình thực hiện việc di chuyển phương tiện theo quy định tại khoản 1 Điều này, Cảnh sát giao thông, tổ chức, cá nhân được thuê thực hiện việc di chuyển phương tiện phải có trách nhiệm bảo đảm an toàn cho phương tiện được di chuyển.
+    verdict: match
+    note: 'Điều 69 khoản 4; khoản 2 về cưỡng chế: "nếu người đó vẫn tiếp tục cản trở, chống đối thì Cảnh sát giao thông được cưỡng chế thi hành".'
+  - text: "Đỗ xe trên vỉa hè bị phạt nhẹ hơn nhiều so với chạy lên vỉa hè (mục 5: 4-6 triệu)"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: a) Đi ngược chiều của đường một chiều, ... điều khiển xe đi trên vỉa hè, trừ trường hợp điều khiển xe đi qua vỉa hè để vào nhà, cơ quan;
+    verdict: match
+    note: Điều 7 khoản 7 điểm a (4-6 triệu) so với khoản 2 điểm d (400-600 nghìn).
+internal_checks:
+  - issue: Chữ "cẩu đi" (Nói dễ hiểu) không có trong luật; luật nói "di chuyển phương tiện". Với xe máy thường nhấc/chở đi; dùng "di chuyển" cho khớp.
+    severity: warn
+  - issue: Bước 2 liệt kê "vỉa hè trái phép, nơi có biển cấm, phần đường cho người đi bộ, cầu" nhưng không nêu hầm đường bộ (800.000-1.000.000, đã có ở thân). Không mâu thuẫn số; tldr nêu 400.000-600.000 và 600.000-800.000 (cầu), nhất quán với thân.
+    severity: warn
+  - issue: 'Mục viết "Xe cản trở có thể bị cẩu đi và bạn trả phí" (Nói dễ hiểu): điều kiện là xe đỗ trái quy định gây cản trở và chủ không có mặt hoặc không chấp hành; thân (Điều 69) đã nêu đủ, chấp nhận. Mức "phí" trả cho di chuyển là "chi phí", không phải "phí" cố định; mục không ghi số, đúng.'
+    severity: warn
+  - issue: 'Các tham chiếu: URL NĐ 168 (chinhphu.vn) đúng; URL Luật vbpl.vn đúng Luật 36, chỉ trả khung. Điều 69 khớp khẳng định. Số "400.000-600.000" nhất quán với mục 2 và 3 cùng chương (khoản 2 Điều 7).'
+    severity: warn
+validity:
+  doc: Nghị định 168/2024/NĐ-CP (Điều 7) và Luật 36/2024/QH15 (Điều 69)
+  in_force: unconfirmed
+  effective_from: 2025-01-01
+  amended_by: []
+  basis: 'Điều 53 khoản 1 Nghị định 168: "Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025". Chưa tìm được văn bản chính thống nêu 168 hết hiệu lực hay còn nguyên Điều 7/18. Có Nghị định 336/2025/NĐ-CP (22/12/2025, hiệu lực 01/03/2026) mà bản tóm tắt chinhphu.vn nói "bãi bỏ một số điều, khoản, điểm" của NĐ 100/2019 "được sửa đổi, bổ sung bởi" NĐ 123/2021 và NĐ 168/2024; PDF toàn văn của 336 là ảnh quét (không trích được chữ), bản thuvienphapluat bị chặn 403, nên không xác định được 336 có đụng tới Điều 7/18 của NĐ 168 hay không. Không kết luận còn hiệu lực chỉ vì không thấy văn bản thay thế. Luật: Điều 90 khoản 1 hiệu lực 01/01/2025.'
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - 'Nói dễ hiểu và tldr: thay "bị cẩu đi" bằng "bị di chuyển khỏi vị trí đỗ" cho khớp Điều 69 khoản 1.'
+  - 'Điều 69 khoản 1: thêm điều kiện "nếu Cảnh sát giao thông không đủ điều kiện tự thực hiện thì được thuê tổ chức, cá nhân" (dựa vào quote claim 5).'
+  - 'Cân nhắc nêu rõ điều kiện kích hoạt di chuyển: "chủ xe không có mặt hoặc có mặt mà không chấp hành yêu cầu của Cảnh sát giao thông" (đã có trong thân, nhưng chưa có trong tldr).'

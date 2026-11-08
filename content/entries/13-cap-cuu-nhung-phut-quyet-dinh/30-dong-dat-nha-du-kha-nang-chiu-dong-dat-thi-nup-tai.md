@@ -23,10 +23,10 @@ steps:
 legal_refs:
   - { doc: "TCVN 9386:2012 Thiết kế công trình chịu động đất", article: "Mục 2.1 (yêu cầu không sụp đổ); mục 3.1.3 (động đất mạnh, yếu, rất yếu); phụ lục G, H (phân vùng gia tốc nền)", url: "https://mtu.edu.vn/Resources/Docs/Khoa%20-%20Bo%20mon/Khoa%20Xay%20dung/Tai%20lieu%20tham%20khao/TCVN/Thiet-ke/TCVN9386_2012.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13fB
+  scope: "Chặn nâng trạng thái: result=fail, 3 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/dong-dat-nha-du-kha-nang-chiu-dong-dat-thi-nup-tai.yml)"
   sources: []
 origin:
   zh: null

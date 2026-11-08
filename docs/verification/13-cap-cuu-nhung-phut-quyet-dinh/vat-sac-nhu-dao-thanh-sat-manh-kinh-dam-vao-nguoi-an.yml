@@ -1,0 +1,91 @@
+id: vat-sac-nhu-dao-thanh-sat-manh-kinh-dam-vao-nguoi-an
+checker: agent-Vf13hA
+checked_at: 2026-11-08
+content_sha256: "2d80be2a0766f3c24c9bbb0c7aeba18dee7536b5aac6ae9186b1c9ba767facc4"
+result: pass-with-edits
+claims:
+  - text: "Không rút vật đâm ra"
+    source_url: https://benhviennhitrunguong.gov.vn/so-cuu-nan-nhan-co-vet-thuong-chay-mau.html
+    quote: "Nếu các vết thương chảy máu có dị vật như mảnh gỗ, kim loại hoặc bất kỳ vật gì đâm vào và vẫn cắm ở vết thương thì KHÔNG được rút dị vật ra."
+    verdict: match
+    note: "Bệnh viện Nhi Trung ương, mục “Vết thương đâm xuyên còn dị vật”, đăng 24/09/2016, tác giả BS Trần Thu Thủy, dẫn tài liệu của St John New Zealand. Đây là tờ rơi bệnh viện, không phải hướng dẫn gốc; đã đối chiếu thêm hai nguồn quốc tế (xem các claim sau)."
+  - text: "Không rút vật (quốc tế): có thể đang cầm máu, tháo ra gây tổn thương"
+    source_url: https://www.stjohnvic.com.au/news/provide-first-aid-major-wound
+    quote: "DO NOT remove the embedded object as it may be preventing significant blood loss. The removal of the object could also cause major structural and nerve damage; it must always be removed by a professional"
+    verdict: match
+    note: "St John Ambulance Victoria (Australia), 2022. Tóm tắt: không rút vật vì nó có thể đang cản mất máu nhiều; rút có thể gây tổn thương cấu trúc và thần kinh nặng. Canadian Red Cross First Aid & CPR Learner Guide 2025, mục Impaled Objects: “Leave the object in place.”"
+  - text: "Ép mép vết thương sát với dị vật để bịt kín cầm máu"
+    source_url: https://benhviennhitrunguong.gov.vn/so-cuu-nan-nhan-co-vet-thuong-chay-mau.html
+    quote: "Bịt kín vết thương bằng cách ép mép vết thương sát với dị vật."
+    verdict: match
+    note: "St John Vic: “Use gauze and apply pressure surrounding the protruding object to control bleeding” (khớp)."
+  - text: "Quấn vải/khăn thành vòng đệm quanh vật rồi băng ép lại, không gây áp lực trực tiếp lên vật"
+    source_url: https://benhviennhitrunguong.gov.vn/so-cuu-nan-nhan-co-vet-thuong-chay-mau.html
+    quote: "Dùng miếng vải vuông hoặc một khăn tam giác quấn lại thành vòng đệm xung quanh dị vật, sau đó dùng băng ép lại như với vết thương không có dị vật, chú ý không gây áp lực trực tiếp lên dị vật."
+    verdict: match
+    note: "St John Vic: “Position padding around the object to prevent the object from twisting or moving; bandage over and around the padding”, “DO NOT put any pressure on the object”. Canadian Red Cross: “Stabilize the object without putting direct pressure on it.”"
+  - text: "Không băng chặt như ga rô"
+    source_url: https://benhviennhitrunguong.gov.vn/so-cuu-nan-nhan-co-vet-thuong-chay-mau.html
+    quote: "Dùng băng cuộn hoặc dây vải băng ép miếng gạc hoặc miếng vải vào vết thương. Không băng quá chặt như hình thức ga rô."
+    verdict: match
+    note: "Câu này nằm ở bước “Nâng cao vùng bị tổn thương” (vết thương chảy máu nói chung), không riêng mục dị vật; mục áp dụng cho dị vật là hợp lý. Mục Lợi ích trình bày như một ý trong nhóm dị vật."
+  - text: "Giữ người bị thương yên tại chỗ"
+    source_url: https://benhviennhitrunguong.gov.vn/so-cuu-nan-nhan-co-vet-thuong-chay-mau.html
+    quote: "4. Để bệnh nhân nghỉ ngơi tuyệt đối - Kể cả khi bị thương ở tay hay nửa trên của người, bệnh nhân cũng cần được nghỉ ngơi trong tư thế thuận tiện ít nhất 10 phút để giúp cầm máu."
+    verdict: partial
+    note: "Nguồn nói nghỉ ngơi tư thế thuận tiện (≥10 phút) để cầm máu, không nói “yên tại chỗ” vì vật cắm. Hợp lý nhưng mục diễn giải thêm."
+  - text: "Gọi 115 càng sớm càng tốt (steps[3]; tldr)"
+    source_url: https://benhviennhitrunguong.gov.vn/so-cuu-nan-nhan-co-vet-thuong-chay-mau.html
+    quote: "Nếu vết thương nặng hay tình trạng nạn nhân xấu thì gọi cấu cứu 115 càng sớm càng tốt."
+    verdict: partial
+    note: "Nguồn VN đặt điều kiện “nếu vết thương nặng hay tình trạng nạn nhân xấu” (kèm nhận định “vết thương nhỏ ... chuyển ngay tới cơ sở y tế gần đó bằng ô tô xe máy”); mục viết vô điều kiện và đặt bước gọi 115 ở CUỐI cùng. Hướng dẫn Chữ thập đỏ Canada 2025 đặt “Call EMS/9-1-1” đầu tiên cho vật đâm xuyên. Xem potential_harm."
+  - text: "Không tự chở người bị thương bằng xe máy (steps[0])"
+    source_url: https://benhviennhitrunguong.gov.vn/so-cuu-nan-nhan-co-vet-thuong-chay-mau.html
+    quote: "Nếu vết thương nhỏ và nạn nhân có thể di chuyển bằng ô tô xe máy thông thường thì chuyển ngay nạn nhân tới cơ sở y tế gần đó."
+    verdict: inference
+    note: "Nguồn VN KHÔNG cấm chở bằng xe máy, thậm chí cho phép với vết thương nhỏ. Lời cấm trong mục là suy luận của người soạn (rung lắc làm vật xê dịch), tương đồng St John Vic (“Seek medical assistance ... or if you are unable to safely move the casualty; call triple zero”) nhưng cả hai nguồn không nói “cấm xe máy”. Hướng an toàn, không gây hại; nên gắn nhãn suy ra."
+  - text: "Vật ở bụng hay ngực thì để nguyên, không ấn lên vật (steps[1])"
+    source_url: https://cdn.redcross.ca/prodmedia/crc/azure/documents/first-aid-program-2025/fa_cpr_learner_guide_en.pdf
+    quote: "Impaled Objects: Call EMS/9-1-1. Care: 1. Leave the object in place. 2. Stabilize the object without putting direct pressure on it. 3. Secure the dressings in place."
+    verdict: partial
+    note: "Câu riêng về “bụng hay ngực” không có trong nguồn BVNTW. Nguyên tắc chung (không rút, không ấn lên vật) khớp Canadian Red Cross 2025 và St John Vic. Nhưng hướng dẫn chấn thương ngực/bụng riêng (bên dưới) khác nhau, xem potential_harm."
+  - text: "Chấn thương ngực: băng/ép vết thương ngực có thể gây hại; chỉ ép khi chảy máu nhiều"
+    source_url: https://cdn.redcross.ca/prodmedia/crc/azure/documents/first-aid-program-2025/fa_cpr_learner_guide_en.pdf
+    quote: "If the wound is bleeding profusely, apply direct pressure. If bleeding is minor, do not apply pressure or a dressing. ... If you must apply a dressing, ensure that it does not become saturated with blood, as saturation will prevent air from escaping and create pressure in the chest."
+    verdict: partial
+    note: "Đối chiếu với mục (ép mép vết thương, bịt kín, băng ép cho mọi vị trí): với vật đâm vào NGỰC, Chữ thập đỏ Canada dặn khác (chỉ ép khi chảy nhiều; băng không được bít khí). Mục không phân biệt vị trí. Chữ quote ở đây đến từ mục “Chest Injuries”, không phải “Impaled Objects”; ghi để người soạn cân nhắc."
+  - text: "Vì rung lắc, vật còn cắm thì mọi rung lắc đều làm nó ngoáy trong thịt (Bẫy 3)"
+    source_url: https://www.stjohnvic.com.au/news/provide-first-aid-major-wound
+    quote: "Position padding around the object to prevent the object from twisting or moving"
+    verdict: inference
+    note: "St John Vic nói cố định để vật không xoay/xê dịch; mục diễn giải thành “rung lắc ... ngoáy trong thịt”. Hợp lý."
+  - text: "Rút vật ra là bỏ thứ đang bịt chỗ rách của mạch máu (Lợi ích)"
+    source_url: https://www.stjohnvic.com.au/news/provide-first-aid-major-wound
+    quote: "DO NOT remove the embedded object as it may be preventing significant blood loss."
+    verdict: match
+    note: "Ý khớp. BVNTW không nêu lý do này."
+internal_checks:
+  - issue: "steps tự mâu thuẫn nhẹ: steps[1] bảo “Ép mép vết thương sát với vật để cầm máu” (áp lực lên mô sát vật) nhưng đồng thời “không ấn lên vật” và steps[2] “không băng chặt như ga rô”. Nguồn cũng nói vậy; chỉ là diễn đạt, không mâu thuẫn số."
+    severity: warn
+  - issue: "Mục không có con số nào ngoài 115; không có con số mâu thuẫn. Mọi bước trong steps có trong thân. steps[0] (“không tự chở bằng xe máy”) và steps[1] (bụng/ngực) có trong thân Nói dễ hiểu/Bẫy nhưng không có trong nguồn dẫn: là suy luận."
+    severity: warn
+  - issue: "legal_refs rỗng (hợp lý với mục y tế). Nguồn duy nhất là tờ rơi bệnh viện (2016) dẫn St John NZ; đối chiếu được St John Vic (2022) và Canadian Red Cross (2025): khớp ở ý chính."
+    severity: warn
+  - issue: "Mục không nói gì về vật đâm vào cổ, mặt/má, mắt, hoặc vật cản đường thở/ép tim: một số hướng dẫn quốc tế có ngoại lệ (ví dụ vật đâm vào miệng/má làm tắc đường thở), và với vật quá dài/ cồng kềnh thì cố định rồi cắt ngắn nếu bất khả kháng (St John Vic: “DO NOT cut the end of the object unless it is completely unmanageable”). Thiếu so với nguồn: chưa kiểm ngoại lệ về đường thở trong nguồn nào đã mở."
+    severity: warn
+validity:
+  doc: "Bệnh viện Nhi Trung ương, Sơ cứu nạn nhân có vết thương chảy máu (24/09/2016, dẫn St John NZ); đối chiếu St John Ambulance Victoria (2022), Canadian Red Cross First Aid & CPR Learner Guide (2025)"
+  in_force: unconfirmed
+  effective_from: "2016-09-24"
+  amended_by: []
+  basis: "Hướng dẫn sơ cứu không có ngày hiệu lực. Trang BVNTW đăng 2016 (cũ >10 năm so với 2026), dạng bài truyền thông. Hướng dẫn quốc tế mới hơn (Chữ thập đỏ Canada 2025, St John Vic 2022) vẫn dặn không rút vật và không ấn lên vật. Chưa tìm AHA/ERC bản riêng cho vật đâm xuyên (đã thử tìm); không thấy hướng dẫn Bộ Y tế VN riêng cho vết thương dị vật."
+deliberate_vn_deviation: []
+potential_harm:
+  - "steps[1]/tldr “ép mép vết thương sát vật ... băng lại” áp cho mọi vị trí. Với vật đâm vào ngực, hướng dẫn Chữ thập đỏ Canada 2025 dặn chỉ ép trực tiếp khi chảy máu nhiều; nếu máu ít thì không ép/không băng, vì băng kín thấm máu có thể giữ khí và tăng áp lực trong lồng ngực. Mục chỉ dặn “không ấn lên vật” nên người đọc có thể bịt kín vết thương ngực. Mức độ: vừa; cần tách ngực/bụng thành nhánh riêng và nêu ‘gọi 115 ngay, giữ yên, cố định vật, không bịt kín khi vật ở ngực’ (cần nguồn như Red Cross/St John về impaled object in chest)."
+  - "Thứ tự steps đặt “Gọi 115” ở bước cuối cùng; nếu người cứu làm đúng nguyên văn thì gọi sau khi ép và băng xong, có thể làm chậm cứu chữa khi chỉ có một người. Chữ thập đỏ Canada đặt “Call EMS/9-1-1” trước các bước chăm sóc. Mức độ: vừa."
+suggested_edits:
+  - "steps: đưa “Gọi 115 ngay (hoặc nhờ người khác gọi, bật loa)” lên bước đầu; mục lý do dựa vào Canadian Red Cross 2025, mục Impaled Objects: “Call EMS/9-1-1”."
+  - "steps[1]: thêm nhánh “Nếu vật ở ngực hoặc bụng: không bịt kín cố định, đừng ép lên vật, để người bị thương ở tư thế dễ thở, chờ 115” và thêm nguồn riêng; nếu không có nguồn thì chỉ giữ “để nguyên, không ấn lên vật” và gắn nhãn “suy ra”, không nói “ép mép” cho ngực."
+  - "steps[0]: đổi “không tự chở bằng xe máy” thành “nếu 115 tới được thì chờ; không tự chở nếu vật còn cắm vì rung lắc” và gắn nhãn suy ra (nguồn BVNTW cho phép chở với vết thương nhỏ)."
+  - "Mục Nguồn: thêm St John Ambulance Victoria (https://www.stjohnvic.com.au/news/provide-first-aid-major-wound) và Chữ thập đỏ Canada 2025 (https://cdn.redcross.ca/prodmedia/crc/azure/documents/first-aid-program-2025/fa_cpr_learner_guide_en.pdf) làm nguồn đối chiếu; ghi trang BVNTW là bản 2016."
+  - "Thêm cảnh báo một dòng: không cắt đuôi vật trừ khi bắt buộc (St John Vic) và với vật ở cổ/mặt/miệng làm khó thở thì gọi 115 ngay và hỏi tổng đài; cần nguồn trước khi viết thêm."

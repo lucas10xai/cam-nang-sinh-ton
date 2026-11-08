@@ -23,10 +23,10 @@ steps:
 legal_refs:
   - { doc: "Bộ luật Tố tụng hình sự", article: "Điều 71", url: "https://tgpl.angiang.gov.vn/trang/TinTuc/130/1647/dieu-kien-nao-de-duoc-tro-giup-phap-ly-trong-vu-viec-hinh-su.html", effective_from: null, checked_at: "2026-11-03", quote: null }
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13iB
+  scope: "Chặn nâng trạng thái: result=fail, 3 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/bi-xam-hai-tinh-duc-toi-noi-an-toan-roi-goi-113.yml)"
   sources: []
 origin:
   zh: null

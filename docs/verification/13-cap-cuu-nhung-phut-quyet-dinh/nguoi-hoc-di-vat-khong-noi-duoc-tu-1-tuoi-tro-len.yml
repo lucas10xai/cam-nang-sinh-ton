@@ -1,0 +1,84 @@
+id: nguoi-hoc-di-vat-khong-noi-duoc-tu-1-tuoi-tro-len
+checker: agent-Vf13fA
+checked_at: 2026-11-08
+content_sha256: "122698c6a846fe86419ca9a427dccf5a6265da9e6f2b4ca8f9f224191a62069d"
+result: pass-with-edits
+claims:
+  - text: "Dấu hiệu điển hình: hoảng hốt ôm chặt cổ, mặt tím tái, không thể ho, nói hay khóc"
+    source_url: https://ttcapcuu115.medinet.gov.vn/chuyen-muc/so-cuu-hoc-di-vat-hieu-dung-de-so-cuu-an-toan-cmobile4472-268683.aspx
+    quote: |-
+      Dấu hiệu điển hình của hóc dị vật đường thở là khi người bệnh đột ngột hoảng hốt ôm chặt cổ, mặt tím tái, không thể ho, nói hay khóc.
+    verdict: match
+    note: "Trang đọc được bằng :raw (HTML thân bài, cập nhật 6:45 5/4/2026)."
+  - text: "Người lớn và trẻ lớn: đứng sau, một tay đỡ trước ngực, gót bàn tay kia vỗ mạnh 5 nhát vào giữa hai bả vai"
+    source_url: https://ttcapcuu115.medinet.gov.vn/chuyen-muc/so-cuu-hoc-di-vat-hieu-dung-de-so-cuu-an-toan-cmobile4472-268683.aspx
+    quote: |-
+      Vỗ lưng: Đứng phía sau, một tay đỡ trước ngực người bệnh. Dùng gót bàn tay kia vỗ mạnh 5 nhát vào giữa hai bả vai.
+    verdict: match
+    note: "Nguồn ghi đối tượng là 'người lớn và trẻ em lớn' (tiêu đề mục 1), đối lập với 'trẻ nhũ nhi dưới 1 tuổi' (mục 2). Mốc 'từ 1 tuổi trở lên' của mục là suy ra từ cặp này; khớp với hướng dẫn AHA/ERC (trẻ >= 1 tuổi dùng cách người lớn)."
+  - text: "Chưa ra thì ôm eo từ sau, nắm tay trên rốn, tay kia bọc, giật ép 5 lần từ ngoài vào trong, từ dưới lên trên"
+    source_url: https://ttcapcuu115.medinet.gov.vn/chuyen-muc/so-cuu-hoc-di-vat-hieu-dung-de-so-cuu-an-toan-cmobile4472-268683.aspx
+    quote: |-
+      Ấn bụng: Nếu dị vật chưa văng ra, lập tức vòng hai tay ôm lấy eo người bệnh. Đặt một nắm tay lên vùng trên rốn, tay còn lại bọc lấy nắm tay đó và giật ép mạnh theo hướng từ ngoài vào trong, từ dưới lên trên 5 lần.
+    verdict: match
+    note: ""
+  - text: "Lặp lại chu kỳ vỗ lưng và ấn bụng (tới khi dị vật ra hoặc người bệnh bất tỉnh)"
+    source_url: https://ttcapcuu115.medinet.gov.vn/chuyen-muc/so-cuu-hoc-di-vat-hieu-dung-de-so-cuu-an-toan-cmobile4472-268683.aspx
+    quote: |-
+      Thực hiện nhanh chóng các phương pháp như Vỗ lưng - ấn bụng và Vỗ lưng - Ấn ngực có thể giải phóng dị vật, khôi phục đường thở.
+    verdict: partial
+    note: "Trang 115 KHÔNG có câu 'lặp lại theo chu kỳ' cho người lớn (chỉ nói 5 nhát vỗ rồi 5 lần ấn). Mục lại gán 'Lặp lại theo chu kỳ' cho nguồn này ở phần Lợi ích. Việc lặp là đúng theo AHA 2025 (xem claim AHA) nhưng nguồn dẫn không nói; cần dẫn AHA/ERC hoặc bỏ câu gán nguồn."
+  - text: "Nạn nhân bất tỉnh: hồi sinh tim phổi ngay, nhờ người xung quanh gọi 115"
+    source_url: https://ttcapcuu115.medinet.gov.vn/chuyen-muc/so-cuu-hoc-di-vat-hieu-dung-de-so-cuu-an-toan-cmobile4472-268683.aspx
+    quote: |-
+      Nếu nạn nhân bất tỉnh không thở được thì thực hiện hồi sinh tim phổi ngay lập tức theo hướng dẫn đồng thời nhờ người xung quanh hỗ trợ gọi ngay Tổng đài 115
+    verdict: match
+    note: "Mục bỏ điều kiện 'không thở được' (tldr/steps ghi 'bất tỉnh: ép tim ngay'); khác biệt nhỏ, không gây hại."
+  - text: "Trẻ dưới 1 tuổi: tuyệt đối không dùng ấn bụng"
+    source_url: https://ttcapcuu115.medinet.gov.vn/chuyen-muc/so-cuu-hoc-di-vat-hieu-dung-de-so-cuu-an-toan-cmobile4472-268683.aspx
+    quote: |-
+      Tuyệt đối không dùng kĩ thuật ấn bụng ở trẻ nhũ nhi dưới 1 tuổi do cơ thể trẻ còn non nớt.
+    verdict: match
+    note: ""
+  - text: "Theo AHA 2025, 'Heimlich' đổi tên thành 'ấn bụng'"
+    source_url: https://ttcapcuu115.medinet.gov.vn/chuyen-muc/so-cuu-hoc-di-vat-hieu-dung-de-so-cuu-an-toan-cmobile4472-268683.aspx
+    quote: |-
+      Thay thế thuật ngữ “Heimlich” trước đây thành “ấn bụng” để dễ dàng tiếp cận cộng đồng.
+    verdict: match
+    note: "Khớp nguyên văn trang 115. Chưa kiểm được gốc AHA (heart.org trả 403)."
+  - text: "Còn ho, còn nói thì để họ tự ho (bước 1)"
+    source_url: https://ttcapcuu115.medinet.gov.vn/chuyen-muc/so-cuu-hoc-di-vat-hieu-dung-de-so-cuu-an-toan-cmobile4472-268683.aspx
+    quote: |-
+      Dấu hiệu điển hình của hóc dị vật đường thở là khi người bệnh đột ngột hoảng hốt ôm chặt cổ, mặt tím tái, không thể ho, nói hay khóc.
+    verdict: inference
+    note: "Trang 115 chỉ nêu dấu hiệu tắc hoàn toàn; không nói 'còn ho thì để tự ho'. Ý này đúng theo AHA/ERC (tắc một phần: khuyến khích ho) nhưng không phải chữ của nguồn đã dẫn. Bẫy 1 'vỗ sai lúc có thể đẩy dị vật vào sâu hơn' cũng không có trong nguồn (trang 115 nói câu đó về MÁY HÚT, không phải vỗ lưng)."
+  - text: "Người lớn/trẻ >= 1 tuổi: 5 vỗ lưng xen 5 ấn bụng lặp lại (AHA 2025)"
+    source_url: https://www.heart.org/en/-/media/CPR-Files/2025-documents-for-cpr-heart-edits-posting/Resuscitation-Science/252500_Hghlghts_2025ECCGuidelines.pdf
+    quote: |-
+      2025 (Updated): For children with severe foreign-body airway obstruction (FBAO), repeated cycles of 5 back blows alternated with 5 abdominal thrusts should be performed until the object is expelled or the ch…
+    verdict: match-secondary
+    note: "heart.org và cpr.heart.org trả 403 cho công cụ đọc; quote lấy từ đoạn trích của công cụ tìm kiếm (cắt cụt), chưa mở được văn bản đầy đủ. Về người lớn: bản tin Univ. of Calgary 18/11/2025 viết 'The new guidelines now recommend starting with back blows rather than the traditional abdominal thrusts (Heimlich maneuver) for adults with a severe foreign body airway obstruction' (thứ cấp). Tóm tắt Việt: AHA 2025 cho trẻ bị tắc nặng: lặp chu kỳ 5 vỗ lưng xen 5 ấn bụng tới khi dị vật ra; người lớn bắt đầu bằng vỗ lưng."
+internal_checks:
+  - issue: "Phần Lợi ích gán 'Lặp lại theo chu kỳ' cho Trung tâm 115 TP.HCM, nhưng trang không có câu đó (chỉ có trong AHA). Ghi chú cũng khẳng định 'chu kỳ ... lặp tới khi dị vật ra hoặc người bệnh bất tỉnh' như thể là chữ của nguồn."
+    severity: warn
+  - issue: "Bẫy 2 ('đặt nắm tay quá cao lên xương ức hoặc quá thấp xuống bụng dưới ... Hướng dẫn nói ...') và Bẫy 1 ('vỗ sai lúc có thể đẩy dị vật vào sâu hơn') được viết như lời của hướng dẫn nhưng nguồn chỉ nói 'vùng trên rốn'; hai bẫy này là suy diễn của người soạn."
+    severity: warn
+  - issue: "Nguồn duy nhất là một bài truyền thông của Trung tâm 115 TP.HCM; chương này yêu cầu đối chiếu AHA/ERC. Chưa có nguồn AHA/ERC/Bộ Y tế mở được trực tiếp trong mục."
+    severity: warn
+  - issue: "Không có mâu thuẫn số nội bộ: các con số 5 / 5 / 1 tuổi / 115 trong tldr, steps khớp thân bài."
+    severity: warn
+validity:
+  doc: "Hướng dẫn sơ cứu hóc dị vật của Trung tâm Cấp cứu 115 TP.HCM (đăng 5/4/2026); đối chiếu AHA 2025 Guidelines for CPR and ECC"
+  in_force: unconfirmed
+  effective_from: "2026-04-05"
+  amended_by: []
+  basis: "Hướng dẫn y tế không có ngày hiệu lực; trang 115 đăng 5/4/2026 và trích AHA 2025 nên là bản mới. Chưa mở được AHA 2025 (403) nên chưa xác nhận người lớn/trẻ >= 1 tuổi trong văn bản gốc; chưa thấy hướng dẫn mới hơn."
+deliberate_vn_deviation: []
+potential_harm:
+  - "Bước 2 chỉ nói 'đứng sau lưng, một tay đỡ trước ngực' mà không nói cho nạn nhân cúi người ra trước khi vỗ lưng (AHA/ERC: nghiêng người ra trước để dị vật rơi ra miệng thay vì tụt sâu hơn). Không gây hại nặng nhưng làm giảm hiệu quả; nên thêm."
+  - "Steps không có trường hợp mang thai muộn/rất béo (ấn bụng không làm được: dùng ấn ngực) và không nhắc gọi 115 sớm trong lúc cứu người còn tỉnh (trang 115 có nhắc). Thiếu điều kiện, có thể làm chậm gọi cấp cứu."
+suggested_edits:
+  - "Phần Lợi ích: sửa 'Lặp lại theo chu kỳ.' thành câu có nguồn AHA 2025 (5 vỗ lưng xen 5 ấn bụng, lặp tới khi dị vật ra hoặc nạn nhân bất tỉnh) và dẫn trực tiếp heart.org/AHA Part 7/Part 6 (DOI 10.1161/CIR.0000000000001369 và CIR.0000000000001370); hoặc bỏ gán nguồn 115."
+  - "Step 1: gắn nhãn 'suy ra từ hướng dẫn AHA/ERC' hoặc dẫn nguồn AHA cho 'còn ho thì để tự ho'; xóa câu 'vỗ sai lúc có thể đẩy dị vật vào sâu hơn' khỏi Bẫy 1 (nguồn nói về máy hút) hoặc dẫn nguồn khác."
+  - "Step 2: thêm 'cho người đó cúi người ra trước' (AHA/ERC) và 'gọi 115 hoặc nhờ người gọi ngay' vào tldr/steps."
+  - "Step 5/tldr: 'bất tỉnh không thở được: ép tim ngay' (thêm điều kiện theo quote 115). Bẫy 2: bỏ cụm 'Hướng dẫn nói ...' hoặc chỉ giữ 'vùng trên rốn'."

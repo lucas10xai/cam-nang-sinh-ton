@@ -1,0 +1,93 @@
+id: bi-cho-meo-can-hoac-cao-rach-da-rua-bang-nuoc-va
+checker: agent-Vf13cA
+checked_at: 2026-11-08
+content_sha256: "b0716c7a124ca2dba4804c8a8cc1c135bffd0d0a58698d4a991161272db02b4f"
+result: pass-with-edits
+claims:
+  - text: "Xối rửa kỹ mọi vết cắn hoặc vết cào trong 15 phút bằng nước và xà phòng (QĐ 1622/2014 qua bài Viện Pasteur TP.HCM)"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: "Xối rửa kỹ tất cả các vết cắn/cào trong 15 phút với nước và xà phòng, hoặc nước sạch, sau đó sát khuẩn bằng cồn 45°-70° hoặc cồn i ốt để làm giảm thiểu lượng vi-rút dại tại vết cắn."
+    verdict: match-secondary
+    note: "Chữ khớp bài Pasteur (Bs. CK1 Nguyễn Đức Minh, đăng 04/11/2024). Bài không ghi câu này thuộc QĐ 1622; chỉ bảng chỉ định có chú '(Nguồn: Quyết định 1622/QĐ-BYT năm 2014)'. Bản ký QĐ 1622 chưa mở nên việc gán cho QĐ là thứ cấp. Nội dung 15 phút được WHO xác nhận (claim sau)."
+  - text: "Rửa vết thương bằng nước và xà phòng ít nhất 15 phút"
+    source_url: https://www.who.int/news-room/fact-sheets/detail/rabies
+    quote: "If a person is bitten or scratched by a potentially rabid animal, they should immediately and always wash the wound with water and soap for at least 15 minutes and seek medical attention."
+    verdict: match
+    note: "WHO Rabies fact sheet (truy cập 2026-11-08). Tóm tắt: bị cắn/cào bởi động vật có thể bị dại thì rửa ngay bằng nước và xà phòng ít nhất 15 phút rồi đi khám."
+  - text: "Sau đó sát khuẩn bằng cồn 45-70 độ hoặc cồn i-ốt"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: "sau đó sát khuẩn bằng cồn 45°-70° hoặc cồn i ốt để làm giảm thiểu lượng vi-rút dại tại vết cắn."
+    verdict: match
+    note: "Khớp bài Pasteur (cơ quan thuộc Bộ Y tế)."
+  - text: "Không làm dập nát thêm vết thương và tránh khâu kín ngay"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: "Không làm dập nát thêm vết thương hoặc làm tổn thương rộng hơn, tránh khâu kín ngay vết thương. Trường hợp bắt buộc phải khâu thì nên trì hoãn khâu vết thương sau vài giờ đến 3 ngày"
+    verdict: match
+    note: "Mục bỏ phần 'bắt buộc phải khâu thì trì hoãn' (không nguy hiểm). Mục lại viết trong steps 'không khâu kín ngay' khớp nguồn."
+  - text: "Vết xước, vết cào hoặc chỗ da bị tổn thương do động vật liếm: tiêm vắc xin dại ngay"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: "Độ II: Vết xước, vết cào, liếm trên da bị tổn thương, niêm mạc ... Tiêm vắc-xin dại ngay, dừng tiêm sau ngày thứ 10 (Nguồn: Quyết định 1622/QĐ-BYT năm 2014)"
+    verdict: partial
+    note: "Bảng của Pasteur (đã ghép lại từ bảng bị vỡ cột): độ II vết xước/cào/liếm da tổn thương: tiêm ngay, nếu con vật bình thường sau 10 ngày thì dừng tiêm; con vật ốm/mất tích/không theo dõi được thì tiêm đủ liều. Độ III (cắn/cào chảy máu xa thần kinh trung ương): vắc xin ngay, huyết thanh khi con vật có triệu chứng hoặc không theo dõi được. Mục không nêu 'dừng tiêm sau ngày thứ 10' và điều kiện theo dõi con vật; đáng chú ý vì nó giải thích vì sao 'không chờ xem con vật ốm' nhưng vẫn theo dõi 10 ngày."
+  - text: "Vết cắn sâu, nhiều vết, ở đầu mặt cổ hoặc gần thần kinh trung ương: tiêm thêm huyết thanh kháng dại"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: "- Vết cắn/cào sâu, nhiều vết - Vết cắn/cào gần thần kinh trung ương như đầu, mặt, cổ - Vết cắn/cào ở vùng có nhiều dây thần kinh như đầu chi, bộ phận sinh dục ... Tiêm huyết thanh kháng dại và vắc-xin phòng dại"
+    verdict: match
+    note: "Nguồn thêm vùng nhiều dây thần kinh (đầu chi, bộ phận sinh dục); mục không nêu, thiếu nhưng không sai."
+  - text: "Thời gian ủ bệnh thường 1-3 tháng"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: "Thời gian ủ bệnh ở người thông thường là từ 1 - 3 tháng sau phơi nhiễm, hiếm khi có trường hợp thời gian ủ bệnh ngắn dưới 9 ngày hoặc dài tới một vài năm."
+    verdict: match
+    note: ""
+  - text: "Tỷ lệ tử vong gần 100% khi đã lên cơn"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: "Khi đã lên cơn dại, tỷ lệ tử vong gần như 100% (đối với cả người và động vật)."
+    verdict: match
+    note: ""
+  - text: "Tiêm vắc xin 'ngay trong ngày' (tldr, title, steps)"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: "Điều trị dự phòng nên được tiến hành càng sớm càng tốt sau khi bị phơi nhiễm, bao gồm: rửa vết thương, tiêm vắc-xin phòng dại và sử dụng huyết thanh kháng dại nếu có chỉ định."
+    verdict: partial
+    note: "Nguồn: 'càng sớm càng tốt', không có mốc 'trong ngày'. 'Trong ngày' là cách diễn đạt của người soạn (vô hại, thiên về an toàn). WHO: 'wound washing and immediate vaccination'."
+  - text: "Quyết định vẫn là của bác sĩ; lịch tiêm và số mũi do bác sĩ chỉ định"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: "Sử dụng vắc-xin phòng dại và huyết thanh kháng dại: đường tiêm, lịch tiêm và liều lượng cần tuân thủ theo chỉ định của bác sĩ"
+    verdict: match
+    note: ""
+  - text: "Phân độ phơi nhiễm theo WHO: da nguyên liếm không điều trị; cào/cắn có chảy máu cần rửa + tiêm ngay; cắn nặng cần thêm RIG"
+    source_url: https://www.who.int/news-room/fact-sheets/detail/rabies
+    quote: "Wound washing, immediate vaccination and administration of rabies immunoglobulin/monoclonal antibodies"
+    verdict: match
+    note: "Tóm tắt VN: WHO category III cần rửa vết thương, tiêm vắc xin ngay và huyết thanh/kháng thể đơn dòng. Hướng của Pasteur/QĐ 1622 tương đồng."
+  - text: "Bẫy 2: tới trạm y tế xã gần nhà mà nơi đó không có vắc xin dại; Bẫy 3: đắp lá, bôi nước mắm được 'hướng dẫn xếp vào nhóm phải tránh'"
+    source_url: http://www.pasteurhcm.gov.vn/news/benh-dai-tren-nguoi-4594.html
+    quote: ""
+    verdict: not-found
+    note: "Bài Pasteur không nhắc trạm y tế xã, đắp lá, nước mắm. Ghi chú viết 'Hướng dẫn xếp cả ba việc vào nhóm phải tránh' (rửa qua loa/đắp lá/khâu kín) sai: nguồn chỉ cấm làm dập nát và khâu kín ngay; không có 'đắp lá' hay 'nước mắm'."
+internal_checks:
+  - issue: "Ghi chú Bẫy 3 nói 'Hướng dẫn xếp cả ba việc vào nhóm phải tránh' (đắp lá, bôi nước mắm, khâu kín) nhưng nguồn chỉ có 'không làm dập nát thêm' và 'tránh khâu kín ngay'; đắp lá/nước mắm không có trong nguồn."
+    severity: error
+  - issue: "Ghi chú nói 'mốc 15 phút, cách sát khuẩn và bảng chỉ định đọc được nguyên văn' nhưng đó là nội dung bài Pasteur, không phải bản ký QĐ 1622; mục đã tự thừa nhận 'chưa mở bản ký'. Mục vẫn đặt tiêu đề pháp lý 'Pháp luật Việt Nam' với '(Quyết định 1622/QĐ-BYT 2014, qua bài của Viện Pasteur TP.HCM)'."
+    severity: warn
+  - issue: "legal_refs[0].url trỏ bài Pasteur (không phải văn bản QĐ 1622) nên không phải URL của văn bản ghi ở doc; có ghi chú 'chưa mở bản ký' nhưng cổng vẫn coi là nguồn thứ cấp."
+    severity: warn
+  - issue: "Mục không nêu 'Điều trị dự phòng ... tiêm phòng uốn ván/kháng sinh tùy trường hợp' và 'động vật hoang dã cắn xử trí như động vật dại' dù cả hai nằm ngay trong bài nguồn; đây là điều kiện/ngoại lệ có thể gây hại khi vắng mặt."
+    severity: warn
+  - issue: "Số liệu trong tldr/steps (15 phút, 45-70 độ, 10 ngày không có trong tldr) đều có trong thân; không mâu thuẫn nội bộ. Ngày 'cập nhật tháng 11/2024' thực ra là 'Ngày đăng 04/11/2024' trên trang."
+    severity: warn
+validity:
+  doc: "Quyết định 1622/QĐ-BYT ngày 08/5/2014 (Hướng dẫn giám sát, phòng chống bệnh dại trên người), qua bài Viện Pasteur TP.HCM đăng 04/11/2024"
+  in_force: unconfirmed
+  effective_from: "2014-05-08"
+  amended_by: []
+  basis: "Không mở được bản ký QĐ 1622 (tìm kiếm chỉ ra thuvienphapluat/luatvietnam, không mở được trạng thái hiệu lực). Bài Pasteur 2024 vẫn dẫn QĐ 1622 là tài liệu tham khảo và dùng bảng chỉ định của nó, là dấu hiệu còn áp dụng nhưng không đủ để kết luận in_force. Hướng quốc tế: WHO Rabies fact sheet (truy cập 2026-11-08) cùng nội dung rửa 15 phút, tiêm ngay, RIG khi độ III."
+deliberate_vn_deviation: []
+potential_harm:
+  - "Step 3 và title chỉ hướng đến 'cơ sở tiêm chủng có vắc xin dại'. Với vết cắn sâu/nhiều vết/đầu mặt cổ/đầu chi, sinh dục cần thêm huyết thanh kháng dại (chính mục nêu ở Pháp luật) mà nhiều cơ sở tiêm chủng không có; mục không bảo người đọc nói rõ vết thương và đến cơ sở có huyết thanh, nên có thể mất thời gian đi vòng."
+  - "Mục chỉ nói 'chó, mèo'. Bài nguồn ghi 'Các vết thương do động vật hoang dã cắn cần xử lý và điều trị như đối với động vật bị bệnh dại' (dơi, khỉ, cầy...). Thiếu điều kiện này khiến người bị khỉ/dơi cắn có thể không đi tiêm."
+suggested_edits:
+  - "Ghi chú, Bẫy 3: xóa 'đắp lá, bôi nước mắm' hoặc ghi rõ đó là suy ra; sửa câu 'Hướng dẫn xếp cả ba việc vào nhóm phải tránh' thành 'Hướng dẫn nêu: không làm dập nát thêm vết thương; tránh khâu kín ngay'. Dựa vào quote Pasteur 'Không làm dập nát thêm vết thương ... tránh khâu kín ngay vết thương'."
+  - "Steps/Pháp luật: thêm 'vết cắn sâu, nhiều vết, ở đầu mặt cổ hoặc đầu chi, sinh dục: đến cơ sở có huyết thanh kháng dại (bệnh viện/viện Pasteur)'; dựa vào bảng chỉ định Pasteur."
+  - "Thêm dòng: động vật hoang dã (dơi, khỉ, cầy...) cắn xử trí như động vật dại; hỏi bác sĩ về tiêm phòng uốn ván và kháng sinh. Dựa vào 'Các vết thương do động vật hoang dã cắn cần xử lý và điều trị như đối với động vật bị bệnh dại' và 'Tùy trường hợp cụ thể có thể sử dụng kháng sinh và tiêm phòng uốn ván'."
+  - "Thêm nguồn WHO Rabies fact sheet vào mục Nguồn; mở và dẫn bản ký QĐ 1622 (vbpl/Công báo) hoặc ghi rõ 'theo Viện Pasteur TP.HCM' thay vì gán cho QĐ."
+  - "Chuyển 'tiêm ngay trong ngày' thành 'tiêm càng sớm càng tốt (nên ngay trong ngày)'."

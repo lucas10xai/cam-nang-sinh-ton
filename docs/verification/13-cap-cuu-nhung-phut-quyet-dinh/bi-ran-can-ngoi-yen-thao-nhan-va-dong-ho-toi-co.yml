@@ -1,0 +1,90 @@
+id: bi-ran-can-ngoi-yen-thao-nhan-va-dong-ho-toi-co
+checker: agent-Vf13fA
+checked_at: 2026-11-08
+content_sha256: "9b71b0fb7bba1ff929147da31a78ba7f3e8c671516de2746a9e2e0bfd38d1c5b"
+result: fail
+claims:
+  - text: "Bệnh nhân bị rắn lục cắn có rối loạn đông máu phải được điều trị ở nơi có khả năng truyền máu và có huyết thanh kháng nọc"
+    source_url: https://benhvientinh.quangtri.gov.vn/vi/news/kien-thuc-y-khoa/chan-doan-va-dieu-tri-ran-luc-duoi-do-can-562.html
+    quote: |-
+      Bệnh nhân bị C. albolabris cắn có rối loạn đông máu phải được điều trị ở nơi có có khả năng truyền máu (và các chế phẩm máu) và có huyết thanh kháng nọc rắn lục
+    verdict: match-secondary
+    note: "Bài đăng lại trên trang BV Đa khoa tỉnh Quảng Trị (22/09/2020, BS Đặng Công Hợp), phần tài liệu tham khảo ghi 'Quyết định số 5152/QĐ-BYT ngày 12/12/2014'. Không mở được văn bản Quyết định gốc (thuvienphapluat chỉ định vị). Phạm vi QĐ này: CHỈ rắn lục xanh đuôi đỏ (Cryptelytrops albolabris)."
+  - text: "Sơ cứu: trấn an, rửa vết thương, cởi đồ trang sức, bất động chi bằng nẹp, không để tự đi lại, chuyển ngay không mất thời gian tìm thầy lang"
+    source_url: https://benhvientinh.quangtri.gov.vn/vi/news/kien-thuc-y-khoa/chan-doan-va-dieu-tri-ran-luc-duoi-do-can-562.html
+    quote: |-
+      Trấn an và giảm lo lắng cho bệnh nhân. Rửa vết thương. Cởi bỏ đồ trang sức ở chi bị cắn tránh gây chèn ép khi chi sưng nề. Băng ép tại chỗ cắn trở lên gốc chi hoặc garô tĩnh mạch, không garô động mạch. ... Không để bệnh nhân tự đi lại. Bất động chi bị cắn bằng nẹp. ... Phải chuyển nạn nhân đến bệnh viện ngay không được để mất quá nhiều thời gian tìm thầy lang thuốc lá.
+    verdict: partial
+    note: "Nguồn có thêm bước 'Băng ép tại chỗ cắn trở lên gốc chi ... băng tương đối chặt nhưng không quá mức (còn sờ thấy động mạch đập)' mà steps/tldr của mục bỏ hẳn (chỉ cấm ga-rô), dù Bẫy 1 lại viện dẫn 'chỉ cho băng ép tương đối chặt'. Nguồn nói 'chuyển nạn nhân đến bệnh viện ngay', KHÔNG nói 'hỏi trước cơ sở nào có huyết thanh' hay 'gọi 115 điều phối thẳng lên tuyến tỉnh'."
+  - text: "Việc gây hại thêm: ga-rô động mạch, trích/rạch/trâm/chọc, chườm đá, thuốc dân gian, cố bắt/giết rắn"
+    source_url: https://benhvientinh.quangtri.gov.vn/vi/news/kien-thuc-y-khoa/chan-doan-va-dieu-tri-ran-luc-duoi-do-can-562.html
+    quote: |-
+      Không sử dụng các biện pháp sau: Garo động mạch; Trích, rạch, trâm, chọc tại vùng vết cắn ... Chườm đá (chườm lạnh): Đã được chứng minh là có thể gây hại. Sử dụng các loại thuốc dân gian, cổ truyền, chữa bằng mẹo ... Cố gắng bắt hoặc giết rắn: Nếu rắn đã chết hoặc bắt được rắn phải đem cùng với bệnh nhân đến bệnh viện để nhận dạng.
+    verdict: partial
+    note: "Mục xếp 'không buộc ga-rô' (chung) trong khi nguồn chỉ cấm ga-rô ĐỘNG MẠCH và cho 'garô tĩnh mạch'/băng ép. Nguồn không cấm 'hút bằng miệng' (mục thêm 'không hút' vào tldr/title; WHO SEARO cũng cấm can thiệp vết cắn kể cả rubbing/hút nên đúng ý, nhưng không phải chữ của nguồn). Nguồn nói nếu rắn đã chết thì đem theo để nhận dạng; mục chỉ nói 'không cố bắt hay giết rắn' (đúng) nhưng bỏ ý chụp ảnh/mang rắn chết."
+  - text: "Huyết thanh dùng càng sớm càng tốt; đến muộn mà còn rối loạn đông máu vẫn còn chỉ định; xét nghiệm đông máu 20 phút"
+    source_url: https://benhvientinh.quangtri.gov.vn/vi/news/kien-thuc-y-khoa/chan-doan-va-dieu-tri-ran-luc-duoi-do-can-562.html
+    quote: |-
+      HTKN được điều trị càng sớm càng tốt, nếu người bệnh đến muộn nhưng vẫn có rối loạn đông máu thì vẫn còn chỉ định HTKN. ... Xét nghiệm đông máu 20 phút tại giường (theo WHO 2010): ... sau 20 phút máu còn ở dạng lỏng, không đông thì xét nghiệm này dương tính, đồng nghĩa với chẩn đoán xác định rắn lục cắn gây rối loạn đông máu, có chỉ định huyết thanh kháng nọc rắn.
+    verdict: match-secondary
+    note: ""
+  - text: "Ngồi hoặc nằm yên, giữ chi bị cắn bất động NGANG TẦM TIM"
+    source_url: https://benhvientinh.quangtri.gov.vn/vi/news/kien-thuc-y-khoa/chan-doan-va-dieu-tri-ran-luc-duoi-do-can-562.html
+    quote: |-
+      Không để bệnh nhân tự đi lại. Bất động chi bị cắn bằng nẹp.
+    verdict: inference
+    note: "'Ngang tầm tim' không có trong QĐ 5152 (bản đăng lại) cũng không có trong WHO SEARO 2016 (đọc mục 6.2.3: 'Immobilize the whole of the patient’s body by laying him/her down ... and immobilize the bitten limb with a splint or sling'). Không phải chữ nguồn."
+  - text: "Bẫy 3/Lợi ích: tuyến huyện thường không có huyết thanh; huyết thanh tập trung ở tuyến tỉnh và trung tâm chống độc Bạch Mai, Chợ Rẫy; phải hỏi trước cơ sở nào có"
+    source_url: https://chanthuongvacotsong.bachmai.gov.vn/huyet-thanh-khang-noc-ran/
+    quote: |-
+      Ở Việt Nam có các loại rắn độc như rắn hổ mang, rắn cặp nong, rắn hổ lục, nhưng cho tới thời điểm này, chưa có cơ sở nào trong nước sản xuất huyết thanh kháng nọc rắn đặc hiệu cho các loài rắn cư trú ở Việt Nam.
+    verdict: not-found
+    note: "Cả hai nguồn dẫn đều không nêu phân bố huyết thanh theo tuyến, tên BV Chợ Rẫy, hay 'tuyến huyện thường không có'. Trang Bạch Mai là chuyên luận 'Dược thư 2002' (đăng 24/12/2025) về huyết thanh Crotalidae đa giá Bắc/Nam Mỹ, không phải hướng dẫn VN; còn ghi 'chưa có cơ sở nào trong nước sản xuất huyết thanh ... đặc hiệu' cho rắn VN. Mục không dẫn nguồn cho 'ở tuyến tỉnh ... Bạch Mai, Chợ Rẫy'."
+  - text: "Ga-rô: chi bị thắt sẽ hoại tử trước khi nọc kịp giết (Bẫy 1)"
+    source_url: https://cdn.who.int/media/docs/default-source/searo/india/health-topic-pdf/who-guidance-on-management-of-snakebites.pdf
+    quote: |-
+      Tight (arterial) tourniquets must never be recommended or condoned! Traditional tight (arterial) tourniquets. If applied tightly around the upper part of the limb, these bands, bandages or ligatures are extremely painful as the limb becomes ischaemic and are very dangerous if left in place for long periods. Many gangrenous limbs have resulted!
+    verdict: partial
+    note: "WHO SEARO 2016 (mục 6.2.3) xác nhận hại của ga-rô chặt. Tóm tắt Việt: ga-rô động mạch chặt gây thiếu máu chi, rất nguy hiểm nếu để lâu, nhiều ca hoại tử. Cụm 'trước khi nọc kịp giết' là phóng đại của mục. WHO cũng dặn: nếu nạn nhân đã tự ga-rô thì CHƯA tháo cho tới khi vào cơ sở có hồi sức và huyết thanh ('Delay the release of tight bands, bandages and ligatures') — mục không có dặn này."
+  - text: "Quốc tế (WHO SEARO 2016): trừ khi chắc chắn loại trừ rắn hổ (elapid), phải băng bất động có đệm ép (pressure-pad)/băng ép"
+    source_url: https://cdn.who.int/media/docs/default-source/searo/india/health-topic-pdf/who-guidance-on-management-of-snakebites.pdf
+    quote: |-
+      Unless the possibility of an elapid bite can confidently be excluded, apply pressure-pad immobilization (See ANNEX 4), or, if the necessary equipment and skills are available, pressure-bandage immobilization.
+    verdict: mismatch
+    note: "Tóm tắt Việt: WHO khuyến cáo băng ép bất động nếu không loại trừ được rắn hổ (hổ mang, cạp nia có ở VN, độc thần kinh). Mục dạy chung 'Bị rắn cắn' dựa trên hướng dẫn riêng cho rắn lục xanh đuôi đỏ và không nhắc băng ép/băng bất động; chỉ cấm ga-rô. Không có bước nào phân biệt loài."
+  - text: "Quốc tế (WHO SEARO 2016): đưa đến nơi có thể hồi sức càng nhanh càng tốt; bất động toàn thân, tư thế hồi phục"
+    source_url: https://cdn.who.int/media/docs/default-source/searo/india/health-topic-pdf/who-guidance-on-management-of-snakebites.pdf
+    quote: |-
+      The patient must be transported to a place where they can receive medical care (dispensary or hospital) as quickly, but as safely and comfortably as possible. Any movement, but especially movement of the bitten limb, must be reduced to an absolute minimum
+    verdict: partial
+    note: "Nguồn quốc tế ưu tiên nhanh chóng tới nơi chăm sóc y tế; liệt hô hấp có thể cần xử trí đường thở. Mục yêu cầu hỏi trước/gọi 115 để chọn cơ sở có huyết thanh — có thể làm chậm hoặc dẫn qua cơ sở không có khả năng hồi sức (xem potential_harm)."
+internal_checks:
+  - issue: "Phạm vi: toàn bộ căn cứ là QĐ 5152/QĐ-BYT về rắn LỤC XANH ĐUÔI ĐỎ, nhưng tiêu đề, tldr, steps viết chung cho 'Bị rắn cắn'. Ở Việt Nam có rắn hổ mang, cạp nia (độc thần kinh, cần băng ép bất động theo WHO). Mục không nêu phạm vi này ở tldr/steps, chỉ ở legal_refs.doc."
+    severity: error
+  - issue: "steps/tldr cấm ga-rô nhưng nguồn QĐ 5152 CHO PHÉP 'băng ép tại chỗ cắn trở lên gốc chi hoặc garô tĩnh mạch' và Bẫy 1 của mục tự nói 'chỉ cho băng ép tương đối chặt'. Steps không có băng ép: mâu thuẫn giữa Bẫy 1 và steps."
+    severity: error
+  - issue: "legal_refs[].url là trang BV Quảng Trị đăng lại hướng dẫn, không phải văn bản Quyết định 5152/QĐ-BYT; article ('Hướng dẫn xử trí: nơi điều trị, việc nên làm, việc gây hại thêm, chỉ định huyết thanh') là mô tả chung, không phải số điều/mục. Hiệu lực của QĐ 5152 chưa tra được."
+    severity: warn
+  - issue: "'Ngang tầm tim', 'không hút bằng miệng', 'tuyến huyện thường không có huyết thanh', 'có khi qua hai tỉnh', 'Mỗi giờ chậm là thêm phần nọc đã ngấm' xuất hiện trong thân/steps nhưng không có trong bất kỳ nguồn dẫn nào."
+    severity: warn
+  - issue: "Bước 2 ('tháo ngay nhẫn... trước khi sưng') và bước 4 nằm cùng mục với 'Không tự đi lại' — bước 'hỏi trước cơ sở' đòi người bệnh/người nhà gọi điện trước khi đi, trong khi nguồn nói 'chuyển ngay'. Thứ tự hành động chưa rõ gọi trong lúc đã di chuyển."
+    severity: warn
+validity:
+  doc: "Quyết định 5152/QĐ-BYT ngày 12/12/2014 (Hướng dẫn chẩn đoán và điều trị rắn lục xanh đuôi đỏ cắn); đối chiếu WHO SEARO Guidelines for the Management of Snakebites, 2nd ed., 2016"
+  in_force: unconfirmed
+  effective_from: "2014-12-12"
+  amended_by: []
+  basis: "Không mở được văn bản Quyết định gốc; thuvienphapluat chỉ trả khung (ngày hiệu lực 'Đã biết'). Bản đăng lại Quảng Trị 2020 vẫn dùng. QĐ đã 12 năm tuổi, trước WHO SEARO 2016 (khuyến cáo pressure-pad/băng ép bất động cho nghi rắn hổ); chưa tra được phiên bản thay thế của Bộ Y tế."
+deliberate_vn_deviation:
+  - "QĐ 5152 (rắn lục) cho băng ép tương đối chặt/ga-rô tĩnh mạch; WHO SEARO 2016 khuyến cáo pressure-pad hoặc băng ép bất động nếu không loại trừ rắn hổ, và dặn giữ nguyên băng ga-rô nạn nhân đã tự buộc cho tới khi tới cơ sở có hồi sức. Mục không có cả hai."
+  - "Mục bổ sung 'hỏi trước cơ sở có huyết thanh' (QĐ nói chuyển viện ngay); WHO nhấn mạnh vận chuyển nhanh tới nơi hồi sức."
+potential_harm:
+  - "Tldr/steps dạy chung cho mọi rắn, cấm ga-rô và không có băng ép/băng bất động: người bị rắn hổ/cạp nia cắn (độc thần kinh, tiến triển liệt hô hấp nhanh) mất biện pháp làm chậm hấp thu nọc mà WHO khuyến cáo. Cần giới hạn phạm vi hoặc bổ sung nhánh."
+  - "Step 4 'Hỏi trước cơ sở nào có huyết thanh' trước khi đi: người đọc có thể mất thời gian gọi điện hoặc bỏ qua bệnh viện gần nhất có khả năng hồi sức (liệt hô hấp, sốc, sốc phản vệ). Nguồn QĐ: 'chuyển ngay'; WHO: tới nơi có thể điều trị 'as quickly ... as possible'. Phải đảo thứ tự: đi ngay (nhờ người gọi trên đường) và đến cơ sở gần nhất có khả năng cấp cứu nếu chưa biết nơi có huyết thanh."
+  - "Bẫy 3 nói tuyến huyện 'thường không có' huyết thanh, không nguồn; nếu sai/lạc hậu, dẫn đến bỏ qua cơ sở có sẵn huyết thanh gần hơn."
+suggested_edits:
+  - "Tiêu đề/tldr: thu hẹp thành 'Bị rắn lục cắn (rắn lục xanh đuôi đỏ)' hoặc thêm câu 'Chưa biết loài: nếu nghi rắn hổ mang/cạp nia, băng ép bất động theo WHO'. Dẫn WHO SEARO 2016 (quote 'Unless the possibility of an elapid bite can confidently be excluded, apply pressure-pad immobilization')."
+  - "Steps: thêm bước 'băng ép tại chỗ cắn trở lên gốc chi, tương đối chặt nhưng vẫn sờ thấy mạch' (QĐ 5152) hoặc nêu rõ lý do không dạy; sửa 'không buộc ga-rô' thành 'không ga-rô động mạch chặt' theo quote nguồn."
+  - "Step 4: viết lại thành 'đưa đi ngay tới cơ sở cấp cứu gần nhất có khả năng hồi sức; trên đường nhờ người gọi 115/hỏi nơi có huyết thanh' ; xóa 'hỏi trước' làm điều kiện trước khi đi."
+  - "Xóa hoặc dẫn nguồn cho: 'ngang tầm tim', 'tuyến huyện thường không có huyết thanh', 'Bạch Mai, Chợ Rẫy', 'có khi qua hai tỉnh'; xóa 'không hút bằng miệng' khỏi lời nguồn hoặc dẫn WHO ('Avoid any interference with the bite wound (incisions, rubbing, vigorous cleaning...)')."
+  - "legal_refs: đổi url sang văn bản Quyết định 5152/QĐ-BYT gốc nếu tìm được; nếu không, ghi 'bản đăng lại'. Sửa 'rửa vết thương' kèm 'nhẹ nhàng' theo WHO (tránh chà xát mạnh)."

@@ -1,0 +1,93 @@
+id: bao-hiem-bat-buoc-xe-may-chi-tra-150-trieu-mot-nguoi
+checker: agent-Vf05f
+checked_at: 2026-11-08
+content_sha256: "7746edc1a02eab6820815f736db3c143ceec4257489ea61e3f4cb8c785bbcea2"
+result: pass-with-edits
+claims:
+  - text: "Bảo hiểm bắt buộc trả tối đa 150 triệu đồng một người một vụ về sức khỏe, tính mạng (Điều 6)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf
+    quote: "1. Giới hạn trách nhiệm bảo hiểm đối với thiệt hại về sức khỏe, tính mạng do xe cơ giới gây ra là 150 triệu đồng cho một người trong một vụ tai nạn."
+    verdict: match
+    note: "Bản ký là PDF quét ảnh; đã OCR (Apple Vision) trang 5 và đối chiếu bằng mắt các chỗ quan trọng. Quote đã sửa lỗi dấu OCR."
+  - text: "Thiệt hại tài sản do xe mô tô hai bánh, ba bánh, xe gắn máy (kể cả xe máy điện): 50 triệu đồng một vụ"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf
+    quote: "a) Do xe mô tô hai bánh; xe mô tô ba bánh; xe gắn máy (kể cả xe máy điện) và các loại xe có kết cấu tương tự theo quy định của Luật Giao thông đường bộ gây ra là 50 triệu đồng trong một vụ tai nạn."
+    verdict: match
+    note: "Điều 6 khoản 2 điểm a."
+  - text: "Thiệt hại tài sản do ô tô, máy kéo, rơ moóc: 100 triệu đồng một vụ"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf
+    quote: "b) Do xe ô tô; máy kéo; rơ moóc hoặc sơ mi rơ moóc được kéo bởi xe ô tô, máy kéo theo quy định của Luật Giao thông đường bộ gây ra là 100 triệu đồng trong một vụ tai nạn."
+    verdict: match
+    note: "Điều 6 khoản 2 điểm b."
+  - text: "Phí một năm mô tô hai bánh từ 50cc trở lên: 60.000 đồng (tldr, Chi phí, Pháp luật)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf
+    quote: "A. Phí bảo hiểm cho thời hạn bảo hiểm 1 năm (chưa bao gồm thuế giá trị gia tăng) ... Mô tô 2 bánh: 1. Dưới 50 cc 55.000; 2. Từ 50 cc trở lên 60.000"
+    verdict: partial
+    note: "Số khớp Phụ lục I nhưng Phụ lục ghi rõ phí CHƯA gồm VAT. Mục không nêu VAT nên người đọc có thể hiểu số tiền phải trả là 60.000. Cần thêm 'chưa gồm VAT' hoặc ghi rõ số thực trả."
+  - text: "Xe dưới 50cc và xe máy điện: 55.000 đồng một năm"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf
+    quote: "III. Xe gắn máy (bao gồm xe máy điện) và các loại xe cơ giới tương tự: 1. Xe máy điện 55.000; 2. Các loại xe còn lại 290.000"
+    verdict: match
+    note: "Mô tô 2 bánh dưới 50cc cũng 55.000 (mục I.1). Cũng chưa gồm VAT. Lưu ý hàng III.2 (xe gắn máy và xe tương tự còn lại, không phải xe máy điện) là 290.000, mục không nói."
+  - text: "Mô tô ba bánh: 290.000 đồng; ô tô không kinh doanh dưới 6 chỗ: 437.000 đồng"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf
+    quote: "II. Mô tô 3 bánh 290.000 ... IV. Xe ô tô không kinh doanh vận tải: 1. Loại xe dưới 6 chỗ 437.000"
+    verdict: match
+    note: "Đọc trực tiếp ảnh trang 52 (bảng). Cùng lưu ý chưa gồm VAT."
+  - text: "Xe máy điện thuộc diện mua bảo hiểm bắt buộc (Bẫy 2, steps[0])"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf
+    quote: "xe gắn máy (kể cả xe máy điện) và các loại xe có kết cấu tương tự theo quy định của Luật Giao thông đường bộ"
+    verdict: inference
+    note: "Điều 6 và Phụ lục I có mức giới hạn và mức phí riêng cho xe máy điện, nên suy ra thuộc diện. Điều khoản nêu nghĩa vụ mua (Luật Kinh doanh bảo hiểm 08/2022/QH15) không được mở trong lượt này, và mục không dẫn nó."
+  - text: "Loại trừ khi người lái không đủ tuổi, không có giấy phép hoặc đang bị tước giấy phép (steps[1], Bẫy 3)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf
+    quote: "c) Người lái xe không đủ điều kiện về độ tuổi theo quy định của Luật Giao thông đường bộ; người lái xe không có Giấy phép lái xe hoặc sử dụng Giấy phép lái xe không hợp lệ ... Trường hợp người lái xe bị tước quyền sử dụng Giấy phép lái xe có thời hạn hoặc bị thu hồi Giấy phép lái xe thì được coi là không có Giấy phép lái xe."
+    verdict: partial
+    note: "Đúng điểm c khoản 2 Điều 7. Nhưng mục trình bày như thể đây (cộng 'cố ý') là toàn bộ loại trừ. Điều 7 khoản 2 còn loại trừ: bỏ chạy không thực hiện trách nhiệm dân sự (điểm b, có ngoại lệ), thiệt hại tài sản khi lái xe có nồng độ cồn vượt mức hoặc dùng ma túy (điểm đ), tài sản bị mất cắp/cướp, tài sản đặc biệt, chiến tranh/khủng bố/động đất, hậu quả gián tiếp. Người đọc có thể nghĩ chỉ ba lỗi kia mới mất bảo hiểm."
+  - text: "Loại trừ khi thiệt hại do hành động cố ý"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf
+    quote: "a) Hành động cố ý gây thiệt hại của chủ xe cơ giới, người lái xe hoặc người bị thiệt hại."
+    verdict: match
+    note: "Điều 7 khoản 2 điểm a."
+  - text: "Hạn mức tính theo từng người và từng vụ, không cộng dồn theo năm; hai người bị thương một vụ là 2 x 150 triệu"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf
+    quote: "150 triệu đồng cho một người trong một vụ tai nạn."
+    verdict: inference
+    note: "Câu 'một người trong một vụ' ủng hộ ý 'mỗi người mỗi vụ'. 'Không cộng dồn theo năm' và 'vụ khác tính riêng' là suy ra, không có chữ nào nói. Hợp lý nhưng nên gắn nhãn 'suy ra'."
+  - text: "Tòa có thể buộc bồi thường cao hơn hạn mức, phần vượt do người gây tai nạn tự trả"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf
+    quote: "(không có nguyên văn trong Nghị định 67/2023/NĐ-CP)"
+    verdict: not-found
+    note: "Đây là hệ quả của luật dân sự về bồi thường ngoài hợp đồng, không phải chữ của ND 67. Không có nguồn nào trong mục dẫn cho câu này. Cần dẫn Bộ luật Dân sự 2015 (Điều 585, 589) hoặc gắn nhãn suy ra. Không đủ thời gian mở BLDS trong lượt này."
+  - text: "60.000 đồng mua được 150 triệu hạn mức, 1 đồng phí đổi 2.500 đồng bảo vệ"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf
+    quote: "(tính toán: 150.000.000 / 60.000 = 2.500)"
+    verdict: inference
+    note: "Phép chia đúng với số liệu ghi, nhưng bỏ qua VAT (phí thực trả cao hơn 60.000) và coi hạn mức là chắc chắn được trả hết. Chỉ là minh họa."
+internal_checks:
+  - issue: "(a) Mọi con số trong tldr/steps (150 triệu, 50 triệu, 60.000, 55.000) đều có trong thân và khớp nguồn. Không thấy mâu thuẫn số trong nội bộ."
+    severity: warn
+  - issue: "(c) steps[2] và steps[3] (mua tự nguyện, chỉ mua khi số tiền đủ lớn) chỉ dựa vào đoạn 'Đừng hiểu ngược' trong thân; là lời khuyên, không có điều luật. Chấp nhận được nhưng nên nói rõ là lời khuyên."
+    severity: warn
+  - issue: "(d)(e) Cả 3 legal_refs[].url đều là ND 67/2023/NĐ-CP (đúng văn bản); article khớp: Điều 6, Điều 7 khoản 2, Điều 8 và Phụ lục I. Nhưng bảng phí trong Phụ lục I, không phải Điều 8 (Điều 8 chỉ dẫn tới Phụ lục I và quy định tăng/giảm phí tối đa 15% theo lịch sử bồi thường), mục chưa nhắc tăng/giảm phí. Không phải lỗi."
+    severity: warn
+  - issue: "(b) Mục nói 'Hạn mức đã tính' nhưng không nêu VAT; so sánh số 60.000 với 150 triệu bỏ qua VAT (xem claim 4)."
+    severity: warn
+  - issue: "(f) Không có mục nào khác trong lượt này nói khác về bảo hiểm xe máy."
+    severity: warn
+validity:
+  doc: "Nghị định 67/2023/NĐ-CP (Điều 6, 7, 8, Phụ lục I)"
+  in_force: true
+  effective_from: "2023-09-06"
+  amended_by:
+    - "Nghị định 220/2026/NĐ-CP ngày 22/6/2026, hiệu lực 01/7/2026: chỉ sửa Điều 32, 33, 34(m,n), 37, 45, 58, Phụ lục III, Mẫu số 3 Phụ lục X (bảo hiểm công trình xây dựng) và đổi cụm từ 'người thứ ba' thành 'bên thứ ba' tại điểm a khoản 1 Điều 7. Không sửa Điều 6, khoản 2 Điều 7 hay Phụ lục I."
+  basis: "Công báo congbao.chinhphu.vn ghi 'Ban hành: 06/09/2023 - Hiệu lực: 06/09/2023'. Đã tải và đọc toàn văn bản sửa đổi ND 220/2026 (docx Công báo): nội dung sửa không đụng các điều mục dẫn. Mục lược đồ của Công báo vẫn ghi 0 văn bản sửa đổi nên không dùng làm bằng chứng. Không tìm được văn bản thay thế khác; nhưng chưa có văn bản hợp nhất chính thức nên kết luận dựa trên việc đọc văn bản sửa đổi đã biết."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Phần Chi phí và Pháp luật Việt Nam (Phụ lục I): thêm 'chưa gồm VAT' sau mỗi mức phí hoặc một câu chung (dựa vào quote: 'Phí bảo hiểm cho thời hạn bảo hiểm 1 năm (chưa bao gồm thuế giá trị gia tăng)'). Sửa tldr/steps nếu muốn con số khớp số tiền thực trả."
+  - "Bẫy 3: đổi 'Điều 7 khoản 2 loại trừ khi...' thành danh sách đủ hơn hoặc thêm 'trong đó có' và nêu ít nhất bỏ chạy (có ngoại lệ) và nồng độ cồn/ma túy (thiệt hại tài sản), theo Điều 7 khoản 2 điểm b, đ."
+  - "Câu 'Tòa có thể buộc bồi thường cao hơn hai mức đó' (Nói dễ hiểu): dẫn Bộ luật Dân sự hoặc ghi 'theo luật dân sự'; hiện không có nguồn."
+  - "Bẫy 1: gắn nhãn 'suy ra' cho 'không cộng dồn theo năm' hoặc bỏ; chữ của nguồn chỉ là 'một người trong một vụ tai nạn'."
+  - "Bẫy 2 'Xe máy điện cũng thuộc diện bắt buộc': thêm legal_ref cho điều khoản nêu nghĩa vụ mua (Luật Kinh doanh bảo hiểm 08/2022/QH15) hoặc diễn đạt theo Điều 6/Phụ lục I."
+  - "legal_refs: thêm effective_from/checked_at và quote; cân nhắc ghi ND 220/2026/NĐ-CP không ảnh hưởng."

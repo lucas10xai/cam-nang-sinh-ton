@@ -22,10 +22,10 @@ steps:
   - "Gọi 115 nếu gọi không tỉnh, thở chậm hoặc không đều, co giật, da lạnh tím."
 legal_refs: []
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13jB
+  scope: "Chặn nâng trạng thái: 3 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/nguoi-say-ruou-cho-nam-nghieng-co-nguoi-trong-lien-tuc-khong.yml)"
   sources: []
 origin:
   zh: null

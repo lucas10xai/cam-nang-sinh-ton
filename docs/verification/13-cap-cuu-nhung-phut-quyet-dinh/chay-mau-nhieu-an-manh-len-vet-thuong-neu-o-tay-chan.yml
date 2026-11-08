@@ -1,0 +1,93 @@
+id: chay-mau-nhieu-an-manh-len-vet-thuong-neu-o-tay-chan
+checker: agent-Vf13cA
+checked_at: 2026-11-08
+content_sha256: "7bc6edadf75e9b3169dd370280639b189dd1d381d488ded9595eab2568005d0d"
+result: fail
+claims:
+  - text: "Chỉ định ga rô: vết thương đứt động mạch lớn làm máu chảy ồ ạt; hoặc đã áp dụng biện pháp cầm máu tạm thời mà không có kết quả"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: "Vết thương đứt động mạch lớn làm máu chảy ồ ạt hoặc vết thương mạch máu đã áp dụng những biện pháp cầm máu tạm thời trên mà không có kết quả."
+    verdict: match
+    note: "Mục 4.6, tr.32 (PDF trang 40), đối chiếu bằng ảnh trang. Nguồn dùng 'hoặc': đứt động mạch lớn chảy ồ ạt là chỉ định ĐỘC LẬP, không cần ép thất bại trước. Mục tldr/steps/title viết 'ấn không cầm được máu thì ga rô' tức chỉ nêu chỉ định thứ hai (xem claim tiếp theo và potential_harm)."
+  - text: "Thứ tự (title/tldr/steps): ép trực tiếp trước; ga rô chỉ khi 'ấn không cầm được máu'"
+    source_url: https://www.alabamapublichealth.gov/alphtn/assets/051718booklet.pdf
+    quote: "For life-threatening bleeding from an arm or leg and a tourniquet is available: Apply the tourniquet"
+    verdict: mismatch
+    note: "Hartford Consensus/Stop the Bleed (American College of Surgeons) và Red Cross ('For life-threatening bleeding on an arm or leg, use a tourniquet. While waiting for a tourniquet, or if a tourniquet is not available, use direct pressure.'): chảy máu đe dọa tính mạng ở tay chân và có ga rô thì đặt ga rô ngay, ép trực tiếp là bước thay thế khi chưa có ga rô. QĐ 636 cũng liệt kê 'đứt động mạch lớn chảy ồ ạt' là chỉ định ga rô riêng. Mục đặt ép trực tiếp là bước 1 bắt buộc, khác hướng quốc tế và hẹp hơn chính nguồn VN. Tóm tắt VN: chảy ồ ạt ở tay chân thì ga rô ngay."
+  - text: "Ga rô đặt sát ngay phía trên vết thương, để lộ ra ngoài; vết thương lớn cách 5 cm, vết thương nhỏ cách 2 cm"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: "Ga-rô phải đặt sát ngay phía trên vết thương và để lộ ra ngoài (Đối với vết thương lớn đặt ga-rô phía trên vết thương cách 5 cm, vết thương nhỏ đặt cách 2 cm)."
+    verdict: match
+    note: "Khớp nguồn VN. Hướng Mỹ: 'about 2 to 3 inches above the bleeding site (be sure NOT to place the tourniquet onto a joint – go above the joint if necessary)' (Stop the Bleed/Hartford), tức ~5-7,5 cm và phải tránh khớp. Xem deliberate_vn_deviation. tldr viết 'cách 2-5 cm' đồng thời 'sát', không ghi quy tắc 'vết lớn 5, vết nhỏ 2' và không có điều kiện 'không đặt lên khớp'."
+  - text: "Không ga rô chặt quá hoặc lỏng quá"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: "Không ga rô chặt quá hoặc lỏng quá."
+    verdict: partial
+    note: "Khớp nguyên văn nguồn VN, nhưng thiếu tiêu chí dừng. Cũng mục 4.6 (ga-rô cao su): 'Nếu mạch không bắt được nữa hoặc máu ngừng chảy là được.' Hướng Mỹ: 'Twist or wind the windlass until bleeding stops', 'tighten it as much as you can'. Mục không đưa tiêu chí 'siết đến khi máu ngừng chảy'; người đọc sợ 'chặt quá' có thể siết lỏng và máu vẫn chảy (ga-rô lỏng làm ứ máu tĩnh mạch, chảy nhiều hơn). Xem potential_harm."
+  - text: "Ghi giờ đặt ga rô vào phiếu và đặt lên trước ngực người bị nạn"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: "Đặt ga-rô xong phải ghi phiếu và đặt ngay trước ngực nạn nhân. Trong phiếu ghi rõ thời gian đặt ga-rô, giờ nới ga-rô, họ tên bệnh nhân."
+    verdict: match
+    note: "Cũng khớp hướng Mỹ ('Note the time the tourniquet was applied')."
+  - text: "Nới ga rô chỉ do nhân viên y tế; người bị đặt ga rô phải được chuyển nhanh tới bệnh viện, tốt nhất xe cấp cứu 115"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: "Người bị đặt ga-rô phải được nhanh chóng chuyển đến bệnh viện, tốt nhất là vận chuyển bằng xe cấp cứu 115. Chỉ đặt lại ga rô nếu thấy máu tiếp tục chảy. Việc nới ga-rô chỉ được tiến hành bởi nhân viên y tế."
+    verdict: match
+    note: "Lưu ý nguồn kết thúc bằng 'đặt lại ga rô nếu máu tiếp tục chảy'. Mục bỏ ý 'siết lại / đặt cái thứ hai nếu vẫn chảy' (Red Cross: 'you can use a second tourniquet ... above the first')."
+  - text: "Đoạn chi thiếu máu nuôi quá 60-90 phút sẽ chết hoàn toàn"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: "đoạn chi này sẽ chết hoàn toàn nếu bị thiếu máu nuôi quá 60-90 phút."
+    verdict: match
+    note: "Câu đầy đủ trong nguồn: 'việc này có thể dẫn tới cắt cụt phần chi ở dưới ga-rô, vì đoạn chi này sẽ chết hoàn toàn nếu bị thiếu máu nuôi quá 60-90 phút.' Mục trích rút gọn; đáng chú ý nguồn nêu hệ quả này để răn người làm ga-rô, mục dùng làm 'lợi ích' khiến người đọc có thể thấy ga-rô là rủi ro lớn hơn lợi (xem suggested_edits)."
+  - text: "Bước 1: ấn mạnh bằng cả hai tay lên đúng vết thương, giữ liên tục, không bỏ tay ra xem"
+    source_url: https://www.alabamapublichealth.gov/alphtn/assets/051718booklet.pdf
+    quote: "Cover the wound with a clean cloth and apply pressure by pushing directly on it with both hands"
+    verdict: partial
+    note: "Phần 'ấn bằng cả hai tay' có trong Hartford Consensus/ACS (cầm máu trực tiếp). QĐ 636 (mục 4.2 'Ấn mạch máu' và 4.3 'Băng ép') KHÔNG có câu 'ấn mạnh bằng cả hai tay lên vết thương' hay 'không bỏ tay ra xem'. Ý 'không bỏ tay ra xem' và Bẫy 1 'mỗi lần bỏ cục máu vừa đông bị bong' không có ở nguồn nào đã mở (suy ra, hợp lý). Mục lại gán 'Lợi ích: QĐ 636 liệt kê các bước theo thứ tự: ấn chẹn động mạch, băng ép, rồi ga rô', trong khi 4.2 là ấn MẠCH MÁU phía trên vết thương, không phải ép trực tiếp lên vết thương."
+  - text: "QĐ 636 liệt kê các bước cầm máu theo thứ tự: ấn chẹn động mạch, băng ép, rồi ga rô"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: "4.1. Gấp chi tối đa ... 4.2. Ấn mạch máu (chẹn mạch máu) ... 4.3. Băng ép ... 4.4. Băng chèn ... 4.5. Phương pháp băng nhồi ... 4.6. Phương pháp đặt ga-rô"
+    verdict: partial
+    note: "Đề mục các kỹ thuật 'cầm máu tạm thời' theo thứ tự 4.1-4.6, có thêm gấp chi, băng chèn, băng nhồi mà mục bỏ qua; nguồn không tuyên bố đó là 'thứ tự bắt buộc'. Nguồn còn ghi 4.6: 'Vết thương mà người bị thương và người có mặt tại hiện trường không biết cách băng chèn, bắt buộc phải đặt ga-rô.' (chỉ định ga-rô khác, mục bỏ)."
+  - text: "Bẫy 3: dùng dây mảnh (dây giày, dây điện), siết qua khớp, hoặc trùm vải kín chỗ ga rô"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: "Tuyệt đối không để ống quần, tay áo hay vật gì khác che lấp ga-rô, làm cho người vận chuyển và tuyến sau khó thấy, có thể bỏ qua không xử lý ưu tiên."
+    verdict: partial
+    note: "Phần 'không che lấp' khớp. Dây mảnh: QĐ 636 chỉ nêu ga-rô tiêu chuẩn 'băng cao su mỏng, dẻo, bản rộng 3-5cm' (mục 2, tr.29), không có câu cấm dây giày/dây điện. 'Siết qua khớp': không có ở QĐ 636; có ở Hartford ('NOT ... onto a joint'). Mục lại không đưa quy tắc tránh khớp vào steps/tldr, chỉ đưa vào 'Bẫy'."
+  - text: "Ga rô dùng khi tay hoặc chân vẫn chảy; không dùng cho vết cắt nhỏ"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: "Chi bị giập nát quá nhiều biết chắc không thể bảo tồn được."
+    verdict: inference
+    note: "Các chỉ định còn lại (chi đã cụt vẫn chảy, giập nát, đứt rời) được mục liệt kê đầy đủ. 'Không dùng cho vết cắt nhỏ' là suy ra hợp lý, không phải chữ của nguồn."
+internal_checks:
+  - issue: "tldr nêu 'cách 2-5 cm' còn steps ghi 'sát trên vết thương'; thân ghi 'vết thương lớn cách 5 cm, vết thương nhỏ cách 2 cm'. tldr làm mất quy tắc theo kích thước vết thương và không ghi 'không đặt trên khớp'."
+    severity: warn
+  - issue: "Mục 'Lợi ích' khẳng định thứ tự 'ấn chẹn động mạch, băng ép, rồi ga rô' nhưng ý nghĩa 'ấn chẹn động mạch' (4.2) khác 'ấn mạnh bằng cả hai tay lên vết thương' (steps[0]); QĐ 636 4.2: 'Là phương pháp dùng ngón tay ấn đè chặt vào mạch máu ở vị trí phía trên vết thương'. Steps[0] không có trong QĐ 636."
+    severity: error
+  - issue: "Thân mục (Lợi ích) dùng chính câu '60-90 phút chết hoàn toàn' làm lợi ích của ga-rô, trong khi nguồn dùng nó để cảnh báo hệ quả cắt cụt của ga-rô. Dễ làm người đọc lo, nới ga-rô hoặc không dám đặt (mục Bẫy 2 đã thừa nhận nguy cơ này)."
+    severity: warn
+  - issue: "legal_refs[0].url đúng văn bản (QĐ 636, bản PDF scan trên cucgiamdinh.gov.vn, ảnh trang có watermark ThuVienPhapLuat) và article 'mục 4.6' khớp; mục 4.6 không có câu về ép trực tiếp bằng hai tay, steps[0] không có căn cứ ở văn bản dẫn."
+    severity: warn
+  - issue: "Chỉ có một nguồn duy nhất (QĐ 636, tài liệu huấn luyện tại nơi làm việc), không có AHA/ERC/ACS/Bộ Y tế sơ cứu cộng đồng; EDITORIAL §3 mục 5 yêu cầu đối chiếu hướng quốc tế với chương 13."
+    severity: error
+validity:
+  doc: "QĐ 636/QĐ-BYT ngày 21/02/2025 (Tài liệu huấn luyện sơ cứu, cấp cứu tại nơi làm việc)"
+  in_force: unconfirmed
+  effective_from: "2025-02-21"
+  amended_by: []
+  basis: "Ngày ký 21 tháng 02 năm 2025 đọc trực tiếp từ trang đầu PDF. Không có ô hiệu lực; không tra Công báo/vbpl nên không kết luận còn hiệu lực. Là tài liệu huấn luyện, không phải phác đồ. Hướng quốc tế đối chiếu: Hartford Consensus/ACS Stop the Bleed (sách mỏng Alabama Dept of Public Health, 2018) và Red Cross 'How to Apply a Tourniquet' (truy cập 2026-11-08); chưa mở trang AHA 2020 Guidelines vì chỉ đối chiếu qua nguồn ACS/Red Cross."
+deliberate_vn_deviation:
+  - "Thứ tự: QĐ 636 liệt kê ga-rô sau gấp chi, ấn mạch, băng ép, băng chèn, băng nhồi (kỹ thuật tạm thời); hướng ACS/Red Cross: chảy máu đe dọa tính mạng ở tay chân thì ga-rô trước (ép trực tiếp khi chưa có ga-rô). Mục chọn thứ tự VN 'ép trước, ga-rô sau', còn QĐ 636 đặt đứt động mạch lớn chảy ồ ạt là chỉ định ga-rô độc lập."
+  - "Khoảng cách: VN (QĐ 636) 5 cm với vết lớn, 2 cm với vết nhỏ, 'sát ngay trên vết thương'; ACS/Red Cross: 2-3 inch (khoảng 5-7,5 cm) trên vết thương, không đặt trên khớp (đi lên trên khớp nếu cần)."
+  - "Nới ga-rô: VN chỉ nhân viên y tế; ACS: không nới tại hiện trường. Cùng hướng, không lệch."
+potential_harm:
+  - "Title, tldr, steps[0-1] và 'Chỉ định' trong thân nói ga rô CHỈ khi 'ấn không cầm được máu'. Với chảy máu ồ ạt/phun thành tia ở tay chân (nguồn VN: 'đứt động mạch lớn làm máu chảy ồ ạt' là chỉ định riêng; ACS: đặt ga rô ngay), người làm đúng nguyên văn mục sẽ mất vài phút ép trước, mất máu thêm và có thể sốc trước khi đặt ga rô."
+  - "steps[1] 'không quá chặt hoặc quá lỏng' không kèm tiêu chí 'siết đến khi máu ngừng chảy' (QĐ 636 4.6 ga-rô cao su: 'mạch không bắt được nữa hoặc máu ngừng chảy là được'; ACS: 'as tight as possible ... until bleeding stops'). Người lo 'chặt quá' siết lỏng thì không cầm được máu, thậm chí chảy nhiều hơn vì chỉ chặn tĩnh mạch."
+  - "Mục không nêu 'không đặt ga rô lên khớp' trong steps/tldr; đặt qua khớp làm ga-rô không chặn hết động mạch và dễ trượt. Có trong ACS/Red Cross, chỉ xuất hiện trong Bẫy 3 như suy ra."
+  - "Mục không nói gì khi đã đặt ga rô mà máu vẫn chảy (QĐ 636: 'Chỉ đặt lại ga rô nếu thấy máu tiếp tục chảy'; Red Cross: có thể đặt ga rô thứ hai phía trên cái đầu). Steps[3] 'không tự nới' đúng nhưng người đọc không biết phải siết thêm."
+suggested_edits:
+  - "Title, tldr, steps[0-1]: viết lại theo nhánh: (a) máu phun thành tia hoặc chảy ồ ạt ở tay/chân, hoặc máu thấm qua gạc vẫn chảy: đặt ga rô ngay (ép trực tiếp trong lúc chờ lấy ga rô); (b) chảy nhiều nhưng không ồ ạt: ép trực tiếp, nếu vẫn chảy thì ga rô. Dựa vào quote QĐ 636 4.6 ('Vết thương đứt động mạch lớn làm máu chảy ồ ạt hoặc ... không có kết quả') và Red Cross/ACS."
+  - "steps[1]: thêm 'siết đến khi máu ngừng chảy; nếu vẫn chảy thì siết thêm hoặc đặt ga rô thứ hai phía trên' và 'không đặt trên khớp'; dựa vào QĐ 636 4.6 ('Nếu mạch không bắt được nữa hoặc máu ngừng chảy là được') và ACS 'Twist ... until bleeding stops'."
+  - "Lợi ích, dòng 1: sửa 'ấn chẹn động mạch, băng ép, rồi ga rô' cho khớp 4.1-4.6, hoặc bỏ; và bỏ câu 'ấn mạnh bằng cả hai tay' khỏi phần gán QĐ 636, chuyển sang nguồn ACS/Hartford (thêm vào mục Nguồn)."
+  - "Thêm nguồn quốc tế vào legal_refs/Nguồn: ACS Stop the Bleed (Hartford Consensus) hoặc AHA/Red Cross First Aid Guidelines 2020; ghi rõ 'ép trực tiếp' (Bẫy 1) và 'không bỏ tay ra xem' là suy ra nếu không có nguồn."
+  - "Lợi ích dòng 60-90 phút: chuyển xuống phần cảnh báo ('ga-rô làm mất chi nếu để quá 60-90 phút, vì vậy phải chuyển viện nhanh và không tháo tại chỗ') thay vì liệt kê như lợi ích."

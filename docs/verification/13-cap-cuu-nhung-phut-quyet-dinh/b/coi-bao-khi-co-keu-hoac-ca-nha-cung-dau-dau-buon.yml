@@ -1,0 +1,96 @@
+id: coi-bao-khi-co-keu-hoac-ca-nha-cung-dau-dau-buon
+checked_at: 2026-11-08
+content_sha256: "ef961cde68e8b59abcd8bb179aa4f801c98f75eea68b4e79e6695b3030a95d41"
+checker: agent-Vf13dB
+result: fail
+claims:
+  - text: "CO không màu, không mùi, tích tụ nhanh trong không gian kín"
+    source_url: https://vienbongquocgia.vn/tin-dieu-tri/ngo-doc-khi-carbon-monoxide
+    quote: "Khí Carbon monoxide (CO) là một loại khí không màu, không mùi nên chúng ta không thể phát hiện được bằng mắt thường, khí có thể tích tụ nhanh chóng trong không gian kín."
+    verdict: match
+    note: ""
+  - text: "Triệu chứng khởi đầu thường chỉ là buồn nôn, đau đầu nên nạn nhân không được cấp cứu đúng cách"
+    source_url: https://vienbongquocgia.vn/tin-dieu-tri/ngo-doc-khi-carbon-monoxide
+    quote: "Các triệu chứng khởi đầu của ngộ độc khí CO rất khó nhận biết như buồn nôn, đau đầu thường làm cho các nạn nhân không được cấp cứu đúng cách."
+    verdict: match
+    note: ""
+  - text: "Hít lượng cao gây biến chứng thần kinh, tim mạch và có thể tử vong chỉ sau vài phút"
+    source_url: https://vienbongquocgia.vn/tin-dieu-tri/ngo-doc-khi-carbon-monoxide
+    quote: "Khi hít vào một lượng khí CO cao sẽ gây ra những biến chứng rất nặng về thần kinh, tim mạch và có khả năng gây tử vong chỉ sau vài phút."
+    verdict: match
+    note: ""
+  - text: "Nguồn khí CO: khói động cơ, bếp gas, bếp than, bếp củi, lò nung, đồ nướng, máy phát điện, khói đám cháy"
+    source_url: https://vienbongquocgia.vn/tin-dieu-tri/ngo-doc-khi-carbon-monoxide
+    quote: "Khói từ động cơ xe (ô tô, xe tải, tàu thuyền), thiết bị bếp (bếp gas, bếp than, bếp củi), lò nung, đồ nướng, máy phát điện, khói thuốc lá và một nguồn rất nguy hiểm là khói trong các vụ tai n"
+    verdict: match
+    note: "Đoạn bị cắt ở 768 byte khi trích; phần cuối là 'khói trong các vụ tai nạn cháy'. Nguồn còn có 'khói thuốc lá' mà mục bỏ. NHS: gas boilers/cookers, portable generators, barbecues trong nhà."
+  - text: "Kết quả điều trị tốt nhất khi được điều trị lần đầu trong vòng 6 giờ sau ngộ độc"
+    source_url: https://vienbongquocgia.vn/tin-dieu-tri/ngo-doc-khi-carbon-monoxide
+    quote: "Kết quả tốt nhất khi bệnh nhân được điều trị lần đầu trong vòng 6 giờ sau khi xảy ra ngộ độc."
+    verdict: match
+    note: "Ngữ cảnh nguồn là mục 'Khuyến cáo khi tiếp nhận bệnh nhân' (oxy 100%, oxy cao áp tại cơ sở y tế), không phải hướng dẫn cho người tại hiện trường. Đưa số '6 giờ' vào tldr dễ gây hiểu là còn 6 giờ để chần chừ."
+  - text: "Người đã hít khí vẫn phải tới cơ sở y tế, kể cả khi đã ra ngoài; tổn thương thần kinh có thể xuất hiện muộn"
+    source_url: https://vienbongquocgia.vn/tin-dieu-tri/ngo-doc-khi-carbon-monoxide
+    quote: "Các bệnh nhân sau điều trị cần được khám đánh giá những di chứng thần kinh có thể xảy ra muộn."
+    verdict: partial
+    note: "Nguồn nói di chứng thần kinh muộn sau điều trị, không nói trực tiếp 'ra ngoài rồi vẫn phải đến viện'. NHS: 'get medical advice as soon as possible – do not go back into the affected building until you have got advice'. Ý của mục đúng nhưng phải ghép hai nguồn."
+  - text: "Mở cửa, đưa mọi người ra ngoài ngay, kể cả người còn tỉnh"
+    source_url: https://www.nhs.uk/conditions/carbon-monoxide-poisoning/
+    quote: "stop using appliances you think might be making carbon monoxide (such as a boiler, cooker or heater) if you can; go outside; get medical advice as soon as possible – do not go back into the affected building until you have got advice"
+    verdict: match
+    note: "NHS (Next review ghi trên trang đã mở). Tóm tắt: ngừng dùng thiết bị nghi gây CO nếu làm được, ra ngoài, xin tư vấn y tế sớm, không quay lại nhà. Nguồn BV Bỏng được dẫn KHÔNG có hướng dẫn 'ra ngoài, gọi 115'; bước này chỉ có ở NHS."
+  - text: "Ra tới chỗ thoáng mới gọi 115"
+    source_url: https://www.nhs.uk/conditions/carbon-monoxide-poisoning/
+    quote: "Call 999 or go to A&E if: ... are finding it hard to breathe; have suddenly become confused; have lost consciousness; are feeling weak; have chest or muscle pain"
+    verdict: inference
+    note: "NHS không quy định thứ tự gọi trước/sau khi ra ngoài; hợp lý nhưng là suy luận. Cũng cần nêu rõ: nếu có người bất tỉnh, khó thở, lú lẫn thì gọi cấp cứu ngay (NHS), không chỉ 'người bất tỉnh nằm nghiêng'."
+  - text: "Không quay lại tìm nguyên nhân, không đi đóng van bình gas"
+    source_url: https://www.nhs.uk/conditions/carbon-monoxide-poisoning/
+    quote: "stop using appliances you think might be making carbon monoxide (such as a boiler, cooker or heater) if you can"
+    verdict: inference
+    note: "NHS khuyên ngừng dùng thiết bị nếu có thể làm được ('if you can'), không cấm đóng nguồn; nguồn VN không có câu về van gas. Bước 'không đóng van gas' là quyết định của người soạn, ghi rõ trong deliberate_vn_deviation."
+  - text: "Người bất tỉnh thì đặt nằm nghiêng và chờ xe cấp cứu"
+    source_url: https://www.nhs.uk/conditions/poisoning/
+    quote: "put the person in the recovery position if they're unconscious and still breathing"
+    verdict: match
+    note: "Trang NHS về ngộ độc nói chung (không riêng CO). Nguồn dẫn của mục không có bước này. Cũng 'start CPR if someone is unresponsive and not breathing' không có trong steps."
+  - text: "Số gọi cấp cứu y tế VN là 115 (Phụ lục VII, Thông tư 51/2017/TT-BYT)"
+    source_url: https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-51-2017-tt-byt-huong-dan-phong-chan-doan-va-xu-tri-phan-ve--128248
+    quote: "Khi có dấu hiệu phản vệ: “Tiêm bắp adrenalin ngay lập tức” “Gọi 115 hoặc đến cơ sở khám, chữa bệnh gần nhất”"
+    verdict: partial
+    note: "PHỤ LỤC VII của TT 51/2017 là 'MẪU THẺ THEO DÕI DỊ ỨNG' (thẻ dị ứng); chữ '115' xuất hiện trên thẻ này trong ngữ cảnh phản vệ. Văn bản này là hướng dẫn phản vệ, KHÔNG quy định 115 là số cấp cứu y tế toàn quốc; dùng nó làm căn cứ pháp lý cho 'số gọi cấp cứu ở Việt Nam là 115' là sai đối tượng. URL đúng văn bản ghi ở doc. Căn cứ đúng hơn cho số 115 cần văn bản về mạng cấp cứu/đầu số 115 (chưa tìm trong lượt này)."
+  - text: "Bẫy 3: cả nhà cùng đau đầu trong một buổi tối là dấu hiệu của một nguồn khí trong nhà, không phải bốn người cùng bị cúm"
+    source_url: https://www.nhs.uk/conditions/carbon-monoxide-poisoning/
+    quote: "The symptoms may come and go. They may get worse when you spend time in an affected room or building and get better when you leave or go outside."
+    verdict: inference
+    note: "Nguồn không nói về 'cả nhà cùng bị'. Là suy luận hợp lý từ nguồn."
+  - text: "Bẫy 1: ở lại mở cửa sổ tìm chỗ rò; nồng độ khí vẫn tăng và 'người đi tìm là người ngã tiếp theo'"
+    source_url: https://vienbongquocgia.vn/tin-dieu-tri/ngo-doc-khi-carbon-monoxide
+    quote: "khí có thể tích tụ nhanh chóng trong không gian kín"
+    verdict: inference
+    note: "Nguồn chỉ nói tích tụ nhanh trong không gian kín; 'mở cửa sổ' làm 'nồng độ vẫn tăng' và 'người đi tìm ngã tiếp' là suy diễn."
+internal_checks:
+  - issue: "legal_refs[0].article là 'Phụ lục VII (số 115)' nhưng Phụ lục VII là mẫu thẻ theo dõi dị ứng; văn bản TT 51/2017/TT-BYT là về phản vệ. Dẫn pháp lý cho số 115 sai đối tượng (url đúng văn bản ghi ở doc nhưng không hỗ trợ khẳng định 115 là số cấp cứu chung)."
+    severity: error
+  - issue: "Steps bước 1-4 (ra ngoài, gọi 115 sau khi ra, không đóng van gas, nằm nghiêng) không có cơ sở trong nguồn VN được dẫn (BV Bỏng không có hướng dẫn xử trí tại hiện trường); thân mục (Lợi ích) chỉ chép đặc tính CO và mốc 6 giờ."
+    severity: error
+  - issue: "Tldr đưa mốc '6 giờ' (điều trị tại cơ sở y tế) vào hướng dẫn hiện trường, dễ hiểu là còn thời gian."
+    severity: warn
+  - issue: "Mục 'Pháp luật Việt Nam' chỉ có một dòng về số 115; không đối chiếu được Thông tư 51 với CO."
+    severity: warn
+validity:
+  doc: "Thông tư 51/2017/TT-BYT ngày 29/12/2017 (hướng dẫn phòng, chẩn đoán và xử trí phản vệ)"
+  in_force: true
+  effective_from: "2018-02-15"
+  amended_by: []
+  basis: "vbpl.vn trang chi tiết: trạng thái hiệu lực 'Còn hiệu lực' (effStatus CHL trong dữ liệu trang); điều khoản thi hành trong văn bản: 'Thông tư này có hiệu lực từ ngày 15 tháng 02 năm 2018'. Không thấy văn bản sửa đổi/thay thế liệt kê trong trang. Lưu ý đây là hiệu lực của văn bản phản vệ, không phải căn cứ cho số 115."
+deliberate_vn_deviation:
+  - "NHS: 'stop using appliances you think might be making carbon monoxide ... if you can'. Mục: 'không đi đóng van bình gas' (lệch nhẹ, không có nguồn VN)."
+potential_harm:
+  - "Steps bước 3 'không đi đóng van bình gas' không phân biệt cảnh báo CO (cháy không hoàn toàn) với rò rỉ gas/mùi gas. Nếu thật sự rò rỉ LPG, để nguyên van mở trong khi chờ có thể gây cháy nổ; người đọc có thể hiểu là cấm đóng van ngay cả khi đóng được trong vài giây. NHS chỉ khuyên ngừng dùng thiết bị nếu làm được an toàn. Cần sửa thành 'ra ngoài trước; chỉ tắt thiết bị nếu ở ngay cạnh và mất vài giây, không tìm nguyên nhân'."
+suggested_edits:
+  - "legal_refs[0] và mục 'Pháp luật Việt Nam': bỏ dẫn TT 51/2017 Phụ lục VII làm căn cứ số cấp cứu; thay bằng văn bản nói về số 115/hệ thống cấp cứu (cần tìm), hoặc dẫn bài BV Nhi TW 'Gọi cấp cứu 115' như nguồn y tế, không gắn nhãn 'pháp luật'."
+  - "steps[0-3]: thêm nguồn NHS CO poisoning (https://www.nhs.uk/conditions/carbon-monoxide-poisoning/) cho 'ra ngoài, không quay lại nhà, gọi cấp cứu khi khó thở/lú lẫn/bất tỉnh/yếu/đau ngực'; hoặc dẫn hướng dẫn Bộ Y tế/CDC; nếu giữ 'gọi 115 sau khi ra ngoài' thì ghi 'suy ra'."
+  - "steps[2]: sửa theo potential_harm."
+  - "tldr: tách '6 giờ' khỏi hướng dẫn hiện trường hoặc ghi rõ 'tại cơ sở y tế (oxy cao áp/oxy 100%)', quote: 'Kết quả tốt nhất khi bệnh nhân được điều trị lần đầu trong vòng 6 giờ sau khi xảy ra ngộ độc.'"
+  - "Bẫy 1 và Bẫy 3: gắn nhãn 'suy ra' hoặc dẫn nguồn (NHS: triệu chứng nặng khi ở trong nhà, đỡ khi ra ngoài)."

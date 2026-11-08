@@ -1,0 +1,88 @@
+id: nguoi-gia-dap-dau-vai-tuan-den-vai-thang-sau-di-loang
+checker: agent-Vf13bB
+checked_at: 2026-11-08
+content_sha256: "f340bf60eb9ace378354c553f6e1ead926ce6d22eed03b959584a85b63cfa7c5"
+result: pass-with-edits
+claims:
+  - text: "Triệu chứng máu tụ dưới màng cứng mạn tính thường xuất hiện sau một khoảng dài, từ 3 tuần đến vài tháng"
+    source_url: https://bvydhue.vn/tin-tuc/thong-tin-y-te/canh-giac-voi-mau-tu-duoi-mang-cung-man-tinh-o-nguoi-lon-tuoi-1233
+    quote: "Triệu chứng thường biểu hiện sau một khoảng thời gian dài, từ 3 tuần đến vài tháng."
+    verdict: match
+    note: "Bài tóm tắt báo cáo ca của Khoa Ngoại Thần kinh, Bệnh viện Đại học Y-Dược Huế, 23-07-2021. Bài báo cáo ca/truyền thông của bệnh viện, không phải hướng dẫn chuyên môn."
+  - text: "Triệu chứng gồm đau đầu, lú lẫn, yếu liệt nửa người, thay đổi tính cách"
+    source_url: https://bvydhue.vn/tin-tuc/thong-tin-y-te/canh-giac-voi-mau-tu-duoi-mang-cung-man-tinh-o-nguoi-lon-tuoi-1233
+    quote: "Triệu chứng thường gặp của MTDMCMT là đau đầu, lú lẫn, yếu liệt nửa người, thay đổi tính cách, thỉnh thoảng có co giật [2]. Các triệu chứng này thường diễn ra từ từ và khó phát hiện."
+    verdict: match
+    note: "Nguồn còn ghi tỷ lệ: 'đau đầu (89,6%), lú lẫn (71,7%), liệt nửa người (70,5%)'. Nguồn KHÔNG liệt kê 'đi loạng choạng', 'chậm chạp', 'ngủ nhiều' (xem claim riêng)."
+  - text: "Chẩn đoán nhờ CT-scan sọ não"
+    source_url: https://bvydhue.vn/tin-tuc/thong-tin-y-te/canh-giac-voi-mau-tu-duoi-mang-cung-man-tinh-o-nguoi-lon-tuoi-1233
+    quote: "MTDMCMT được chẩn đoán nhờ CT-scan sọ não."
+    verdict: match
+    note: ""
+  - text: "Tỷ lệ khoảng 5/100.000 dân, tăng lên 58/100.000 ở nhóm trên 70 tuổi"
+    source_url: https://bvydhue.vn/tin-tuc/thong-tin-y-te/canh-giac-voi-mau-tu-duoi-mang-cung-man-tinh-o-nguoi-lon-tuoi-1233
+    quote: "với tỷ lệ khoảng 5/100 000 dân số chung và tăng lên đến 58/100 000 dân đối với nhóm trên 70 tuổi [1]."
+    verdict: match
+    note: "Số liệu trong bài Huế, dẫn tài liệu tham khảo [1] của họ (không phải số liệu Việt Nam; mục tự nhận ở Ghi chú rằng không có số liệu VN). Số liệu duy nhất đến từ một bài web bệnh viện; chương 13 yêu cầu con số có nguồn gốc hướng dẫn/nghiên cứu có DOI: nên lần theo tham khảo [1]."
+  - text: "Nhóm nguy cơ: người cao tuổi đang dùng thuốc chống đông và người nghiện rượu"
+    source_url: https://benhvien108.vn/mau-tu-duoi-mang-cung-man-tinh-o-nguoi-cao-tuoi.htm
+    quote: "Những người đang điều trị và sử dụng thuốc kháng đông cũng có nguy cơ làm tăng khả năng bị máu tụ dưới màng cứng sau chấn thương đầu do bị rối loạn chức năng đông máu. Đối với người nghiện rượu, chức năng đông máu thường bị rối loạn, não teo nhanh và sớm hơn bình thường."
+    verdict: match
+    note: "Bài của Khoa Cấp cứu, Bệnh viện TW Quân đội 108, 06/10/2020 (ThS.BS Nguyễn Hải Ghi). Huế còn ghi nguy cơ 'thuốc chống ngưng tập tiểu cầu', sa sút trí tuệ."
+  - text: "Nhiều ca không nhớ rõ chấn thương đầu (Ghi chú: 'bài của bệnh viện 108 ghi nhiều ca không có cơ chế chấn thương rõ ràng')"
+    source_url: https://benhvien108.vn/mau-tu-duoi-mang-cung-man-tinh-o-nguoi-cao-tuoi.htm
+    quote: "Một số trường hợp có cơ chế chấn thương trước đó trong khi một số khác không có cơ chế chấn thương rõ ràng."
+    verdict: partial
+    note: "Nguồn ghi 'một số', không phải 'nhiều'; và 'không có cơ chế chấn thương rõ ràng' khác 'không nhớ'. Ý 'bệnh nhân thường quên rằng mình bị té ngã' có trong bài Huế: 'bệnh nhân MTDMCMT thường quên rằng mình bị té ngã trước đó dẫn đến việc tiếp cận điều trị khá muộn và dễ nhầm lẫn với bệnh lý khác [7]'. Mục nên dẫn câu Huế cho ý này."
+  - text: "Ca 72 tuổi vào viện vì đau đầu liên tục được chụp CT sọ não rồi mổ lấy máu tụ"
+    source_url: https://benhvien108.vn/mau-tu-duoi-mang-cung-man-tinh-o-nguoi-cao-tuoi.htm
+    quote: "bệnh nhân Nguyễn Văn Đ, 72 tuổi, đang dùng thuốc chống đông điều trị bệnh tim mạch, vào viện ngày 06/9/2020 với triệu chứng đau đầu liên tục, không có chấn thương đầu trong vài tháng gần đây. Sau khi được khám lâm sàng nghi có tổn thương sọ não, bệnh nhân được chụp cắt lớp vi tính sọ não phát hiện khối máu tụ mạn tính lớn và được phẫu thuật lấy máu tụ."
+    verdict: match
+    note: "Mục bỏ chi tiết 'không có chấn thương đầu trong vài tháng gần đây' và 'đang dùng thuốc chống đông' (có nêu ở nhóm nguy cơ)."
+  - text: "Đi loạng choạng, chậm chạp, ngủ nhiều là dấu hiệu cần đi chụp CT (tiêu đề, tldr, Nói dễ hiểu: 'nói chậm, ngủ nhiều')"
+    source_url: https://bvydhue.vn/tin-tuc/thong-tin-y-te/canh-giac-voi-mau-tu-duoi-mang-cung-man-tinh-o-nguoi-lon-tuoi-1233
+    quote: "Triệu chứng thường gặp của MTDMCMT là đau đầu, lú lẫn, yếu liệt nửa người, thay đổi tính cách, thỉnh thoảng có co giật"
+    verdict: inference
+    note: "Hai nguồn đều không liệt kê 'đi loạng choạng', 'chậm chạp', 'ngủ nhiều' hay 'nói chậm'. Có liên quan hợp lý đến lú lẫn/thay đổi tính cách nhưng là diễn đạt lại (suy ra). Triệu chứng đau đầu, lú lẫn, co giật (nguồn) lại không có trong tiêu đề/tldr; ngược lại tiêu đề thiếu 'đau đầu'."
+  - text: "Đi khám ngoại thần kinh và chụp CT sọ (step 1)"
+    source_url: https://benhvien108.vn/mau-tu-duoi-mang-cung-man-tinh-o-nguoi-cao-tuoi.htm
+    quote: "Người có những nguy cơ cao nên đi khám bệnh tại các tuyến bệnh viện có chuyên khoa khi có những chấn thương về đầu dù nhẹ, để có thể được phát hiện kịp thời."
+    verdict: partial
+    note: "Hướng khuyên có cơ sở, nhưng cả hai nguồn là bài của bệnh viện (không phải hướng dẫn), và không nguồn nào nói mức khẩn cấp: cả 2 ca Huế vào viện vì yếu nửa người (qua khoa cấp cứu), ca 108 vào vì đau đầu liên tục. Mục không phân biệt 'đi khám trong vài ngày' với 'đi cấp cứu ngay' (xem potential_harm)."
+  - text: "Khai với bác sĩ nếu đang dùng thuốc chống đông hoặc kháng kết tập tiểu cầu (step 2); Bẫy 3: 'liều và hướng xử trí bị tính sai'"
+    source_url: https://bvydhue.vn/tin-tuc/thong-tin-y-te/canh-giac-voi-mau-tu-duoi-mang-cung-man-tinh-o-nguoi-lon-tuoi-1233
+    quote: "sử dụng thuốc chống đông hoặc thuốc chống ngưng tập tiểu cầu [2, 3]"
+    verdict: partial
+    note: "Nguồn chỉ nêu đây là yếu tố nguy cơ. Câu 'Liều và hướng xử trí bị tính sai' không có trong nguồn (suy ra). Báo cáo ca 2 của Huế còn ghi: 'Bệnh nhân tự dùng Aspirin khả năng để giảm đau đầu, tuy nhiên chúng tôi đã cho bệnh nhân ngưng thuốc vì mục đích điều trị.' Mục không nói 'không tự uống thuốc giảm đau/aspirin' khi đau đầu mới xuất hiện ở người già (không có nguồn nào cấm trực tiếp)."
+  - text: "Chi phí: nếu có máu tụ phải mổ thì thêm vài ngày nằm viện và tiền phẫu thuật; nếu không mổ thì phần lớn chi phí dừng ở lần chụp và lần khám lại"
+    source_url: https://bvydhue.vn/tin-tuc/thong-tin-y-te/canh-giac-voi-mau-tu-duoi-mang-cung-man-tinh-o-nguoi-lon-tuoi-1233
+    quote: "Không có câu tương ứng về chi phí hoặc thời gian nằm viện."
+    verdict: not-found
+    note: "Không có nguồn; trong Huế, ca 1 mổ sau 5 giờ nhập viện và rút dẫn lưu sau 1 ngày, không nêu 'vài ngày'."
+internal_checks:
+  - issue: "tldr/title gọi 'đi khám ngoại thần kinh' như hành động thường (cost.time: mid) nhưng cả hai ca trong nguồn Huế vào viện vì 'yếu nửa người' khởi phát cấp, và yếu nửa người đột ngột là dấu hiệu đột quỵ. Mục chương 13 này không nói khi nào phải gọi 115/đi cấp cứu ngay (yếu liệt nửa người mới xuất hiện, lơ mơ, co giật, nôn, đau đầu tăng nhanh). Không có mâu thuẫn số liệu nhưng thiếu ngưỡng khẩn."
+    severity: warn
+  - issue: "'đi loạng choạng, chậm chạp, ngủ nhiều' (title, tldr) không có trong hai nguồn; dấu hiệu đau đầu, lú lẫn, co giật (có trong nguồn) vắng trong title/tldr/steps."
+    severity: warn
+  - issue: "Ghi chú: 'Bẫy 2 ... bài của bệnh viện 108 ghi nhiều ca không có cơ chế chấn thương rõ ràng' nguồn ghi 'một số'; 'Ghi chú: mốc ba tuần đến vài tháng và vai trò CT có trong bài của hai bệnh viện, một trong đó là tuyến cuối' thực tế mốc 3 tuần-vài tháng chỉ có trong bài Huế, bài 108 không nêu mốc thời gian và không nêu 'ba tuần'."
+    severity: warn
+  - issue: "Số 5/100.000 và 58/100.000 chỉ lấy từ một bài web bệnh viện (EDITORIAL §3.5/ chương 13: không chấp nhận bài bệnh viện làm nguồn duy nhất cho con số)."
+    severity: warn
+  - issue: "Các nguồn: bài 108 06/10/2020 và Huế 23/07/2021 (5-6 năm trước); không có hướng dẫn Bộ Y tế/quốc tế nào được dẫn cho dấu hiệu nguy hiểm của máu tụ dưới màng cứng mạn tính."
+    severity: warn
+validity:
+  doc: "Bài báo cáo ca/truyền thông của Bệnh viện TW Quân đội 108 (06/10/2020) và Bệnh viện Đại học Y-Dược Huế (23/07/2021); không phải văn bản pháp luật"
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: "legal_refs rỗng; hai nguồn là bài truyền thông bệnh viện, không có ngày hiệu lực. Không có hướng dẫn Bộ Y tế riêng (mục tự nhận). Không đối chiếu được hướng dẫn quốc tế (CDC/NHS/WHO) về chụp CT cho người cao tuổi té đầu trong phạm vi lần kiểm này."
+deliberate_vn_deviation: []
+potential_harm:
+  - "Mục chỉ khuyên 'đi khám ngoại thần kinh, chụp CT' mà không nêu mức khẩn khi có yếu liệt nửa người mới xuất hiện, lơ mơ, co giật, nôn, đau đầu tăng nhanh. Hai ca trong nguồn đều nhập viện vì yếu nửa người; người đọc làm đúng bước 1 có thể hẹn khám chuyên khoa vài ngày sau thay vì đi cấp cứu hoặc gọi 115 (và dấu hiệu yếu nửa người đột ngột cần quy trình đột quỵ, chương 13-03/04)."
+suggested_edits:
+  - "steps: thêm bước đầu 'Nếu người bệnh đột ngột yếu liệt nửa người, méo miệng, nói khó, lơ mơ, co giật hoặc nôn nhiều: gọi 115/đi cấp cứu ngay (xem mục dấu hiệu đột quỵ). Nếu chỉ thay đổi chậm vài tuần: đi khám ngoại thần kinh và chụp CT sọ trong vài ngày.' Dựa Huế: 'yếu nửa người phải ... khởi phát cách ngày nhập viện 3 ngày'; ca 2: 'đau đầu và yếu nửa người phải trước đó 2 ngày'."
+  - "tldr/title/Nói dễ hiểu: thay 'đi loạng choạng, chậm chạp, ngủ nhiều' bằng triệu chứng có trong nguồn: 'đau đầu, lú lẫn, yếu liệt nửa người, thay đổi tính cách, có khi co giật' (quote Huế); hoặc gắn nhãn 'suy ra' cho 'loạng choạng, chậm chạp, ngủ nhiều'."
+  - "Ghi chú: sửa 'nhiều ca không có cơ chế chấn thương rõ ràng' thành 'một số ca' (108) và dẫn câu Huế 'bệnh nhân MTDMCMT thường quên rằng mình bị té ngã trước đó' cho ý 'không nhớ có té'; bỏ 'trong đó một là tuyến cuối' hoặc nói rõ mốc 3 tuần chỉ từ bài Huế."
+  - "Bẫy 3: bỏ 'Liều và hướng xử trí bị tính sai' (không nguồn) hoặc thay bằng nguồn; có thể thêm 'đừng tự uống aspirin/thuốc giảm đau chờ cho hết đau đầu' chỉ nếu có nguồn (Huế ca 2 chỉ ghi bệnh nhân tự dùng aspirin và được ngưng)."
+  - "Số 5/100.000, 58/100.000: dẫn tài liệu gốc ([1] của bài Huế) hoặc đánh dấu 'theo bài của BV Huế'."
+  - "Chi phí: bỏ 'vài ngày nằm viện' hoặc dẫn nguồn."

@@ -23,10 +23,10 @@ steps:
   - "Đến cơ sở y tế (khám răng) ngay. Răng sữa rơi thì không tự đặt lại."
 legal_refs: []
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13jA
+  scope: "Chặn nâng trạng thái: 2 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/rang-vinh-vien-bi-roi-ca-chiec-cam-phan-than-rang-rua.yml)"
   sources: []
 origin:
   zh: null

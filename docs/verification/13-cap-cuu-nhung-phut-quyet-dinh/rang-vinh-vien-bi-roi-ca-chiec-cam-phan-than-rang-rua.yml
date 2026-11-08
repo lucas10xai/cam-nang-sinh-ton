@@ -1,0 +1,88 @@
+id: rang-vinh-vien-bi-roi-ca-chiec-cam-phan-than-rang-rua
+checker: agent-Vf13jA
+checked_at: 2026-11-08
+content_sha256: "453b8e8b006dfdfb956dbc9daa39d742b874cd97b3f72ce7b7a40b3ac305f1f6"
+result: pass-with-edits
+claims:
+  - text: "Tìm lại răng; chỉ cầm thân răng, không chạm vùng chân răng, kể cả lúc rửa"
+    source_url: https://ranghammat.org.vn/chan-thuong-rang-va-cach-xu-ly
+    quote: "Chỉ cầm vào thân răng (vùng nhẵn, bóng), không chạm vào vùng chân răng (kể cả trong lúc rửa răng)"
+    verdict: match
+    note: "IADT 2020: 'pick it up by the crown (the white part). Avoid touching the root.' (cầm phần thân răng, tránh chạm chân)."
+  - text: "Cắm lại răng ngay tại chỗ nếu có thể, sau khi rửa nhẹ bằng sữa tươi không đường, nước muối sinh lý hoặc nước bọt; không dùng nước máy"
+    source_url: https://ranghammat.org.vn/chan-thuong-rang-va-cach-xu-ly
+    quote: "Cắm lại răng ngay tại hiện trường tai nạn nếu có thể: trước hết cần rửa răng nhẹ nhàng bằng sữa tươi không đường, nước muối sinh lý hoặc thậm chí dùng ngay nước bọt của bệnh nhân (không sử dụng nước máy). Cắm răng nhẹ nhàng vào huyệt ổ răng."
+    verdict: match
+    note: "IADT 2020 (aapd.org E_Avulsion.pdf): 'If the tooth is dirty, rinse it gently in milk, saline or in the patient's saliva and replant' - IADT chỉ rửa khi răng bẩn; bản BV RHM viết 'trước hết cần rửa'. Mục viết 'rửa nhẹ' vô điều kiện."
+  - text: "Không cắm lại được: ngâm ngay vào sữa tươi không đường, nước muối sinh lý hoặc nước bọt, tuyệt đối không để răng khô"
+    source_url: https://ranghammat.org.vn/chan-thuong-rang-va-cach-xu-ly
+    quote: "Nếu không thể cắm lại răng: tuyệt đối không để răng khô, ngâm ngay vào sữa tươi không đường, nước muối sinh lý hoặc nước bọt của bệnh nhân"
+    verdict: match
+    note: "IADT 2020: 'In descending order of preference, milk, HBSS, saliva ... or saline are suitable ... Although water is a poor medium, it is better than leaving the tooth to air-dry.' Tóm tắt Việt: nước là môi trường kém nhưng còn hơn để răng khô; mục không nêu phương án này."
+  - text: "Cho người bị nạn cắn gạc hoặc khăn tay sạch ở vị trí răng"
+    source_url: https://ranghammat.org.vn/chan-thuong-rang-va-cach-xu-ly
+    quote: "Cho bệnh nhân cắn gạc hoặc khăn tay sạch giữa hai hàm tại vị trí răng bị tổn thương"
+    verdict: match
+    note: "IADT: bite on gauze, handkerchief or napkin 'once the tooth has been returned to its original position' (sau khi đã đặt lại răng). Mục steps[2] đặt đúng sau khi cắm lại."
+  - text: "Đến cơ sở y tế ngay"
+    source_url: https://ranghammat.org.vn/chan-thuong-rang-va-cach-xu-ly
+    quote: "Đến cơ sở y tế ngay lập tức"
+    verdict: match
+    note: ""
+  - text: "Răng sữa rơi khỏi huyệt ổ răng thì không có chỉ định đặt lại như với răng vĩnh viễn; chỉ theo dõi, tái khám định kỳ"
+    source_url: https://benhvien108.vn/chan-thuong-rang-sua.htm
+    quote: "Với trường hợp răng sữa rơi ra khỏi huyệt ổ răng thì không có chỉ định đặt lại như với răng vĩnh viễn mà chỉ theo dõi tái khám định kỳ sự phát triển và mọc răng vĩnh viễn."
+    verdict: match
+    note: "IADT 2020: 'primary teeth should not be replanted'. Bài 108 cũng nêu lý do: đặt lại phức tạp, nguy cơ làm tổn thương mầm răng vĩnh viễn và nguy cơ răng rơi vào đường thở."
+  - text: "Bẫy 3: răng sữa tự đặt lại có thể làm hỏng mầm răng vĩnh viễn đang nằm dưới"
+    source_url: https://benhvien108.vn/chan-thuong-rang-sua.htm
+    quote: "việc cắm lại răng gồm nhiều bước (đặt lại răng vào ổ, nẹp cố định, điều trị tủy) với trẻ nhỏ là quá phức tạp và có nguy cơ làm tổn thương nặng hơn cho răng vĩnh viễn và sự mọc của răng vĩnh viễn."
+    verdict: match
+    note: "Nguồn nói về việc đặt lại tại cơ sở nha khoa; áp dụng cho người nhà tự đặt là suy rộng nhẹ nhưng cùng hướng."
+  - text: "Bẫy 1: lau răng bằng khăn giấy làm bóc lớp dây chằng nơi chân răng và răng không bám lại được; steps[0] 'Không lau răng bằng giấy'"
+    source_url: https://ranghammat.org.vn/chan-thuong-rang-va-cach-xu-ly
+    quote: "Không có câu nào trong bài nói về lau bằng giấy; bài chỉ nói không chạm vùng chân răng và rửa nhẹ nhàng."
+    verdict: not-found
+    note: "Hướng đúng (không cọ chân răng) nhưng lệnh 'không lau bằng giấy' và cơ chế 'bóc lớp dây chằng' không có trong cả hai nguồn."
+  - text: "Bẫy 2: ngâm răng trong nước máy hoặc cồn; nước máy làm chân răng trương lên và hỏng tế bào dây chằng"
+    source_url: https://ranghammat.org.vn/chan-thuong-rang-va-cach-xu-ly
+    quote: "(không sử dụng nước máy)"
+    verdict: inference
+    note: "Nguồn chỉ cấm nước máy; không nhắc cồn hay cơ chế. IADT nói nước 'poor medium' (tạm được hơn để khô) - mức độ 'hỏng' trong mục nặng hơn IADT."
+  - text: "Răng vĩnh viễn đặt lại sớm có cơ hội bám lại cao hơn nhiều so với để khô"
+    source_url: https://www.aapd.org/media/Policies_Guidelines/E_Avulsion.pdf
+    quote: "the decision to replant a permanent tooth is almost always the correct decision even if the extra-oral dry time is more than 60 minutes."
+    verdict: inference
+    note: "IADT 2020 ủng hộ hướng, nhưng 'cao hơn nhiều' không phải chữ của nguồn; IADT cũng nêu 'After an extra-alveolar dry time of 30 minutes, most PDL cells are non-viable' (sau 30 phút khô, đa số tế bào dây chằng chết). Nguồn VN không có số liệu."
+  - text: "Trẻ ngã đập miệng mà không thấy răng rơi ra vẫn phải đi khám vì răng có thể bị đẩy lún vào xương ổ hoặc gãy chân răng"
+    source_url: https://ranghammat.org.vn/chan-thuong-rang-va-cach-xu-ly
+    quote: "Răng bị lún: Tuyệt đối không tự ý lôi răng ra, đến cơ sở y tế ngay lập tức"
+    verdict: partial
+    note: "Bài RHM có 'răng bị lún' và 'gãy chân răng' (tiêu đề ảnh) nhưng không nói 'trẻ ngã không thấy răng thì vẫn phải đi khám'; 108 cũng nói lún răng sữa có thể tự mọc lại và theo dõi là chính. Suy ra hợp lý."
+internal_checks:
+  - issue: "tldr và steps[1] nói 'rửa nhẹ' vô điều kiện; IADT chỉ rửa khi răng bẩn (bản RHM viết 'trước hết cần rửa'). Không mâu thuẫn số liệu nhưng thao tác rửa có thể làm trì hoãn việc cắm lại."
+    severity: warn
+  - issue: "steps[1] 'Không dùng nước máy' tuyệt đối, nhưng steps không nêu phương án khi chỉ có nước máy: IADT nói nước tuy kém nhưng tốt hơn để răng khô. Nguy cơ người đọc để khô răng vì không có sữa/nước muối."
+    severity: warn
+  - issue: "steps[2] 'Cắm lại răng vào ổ ngay tại chỗ nếu làm được' không có điều kiện loại trừ (người bị nạn bất tỉnh/không hợp tác, trẻ nhỏ nuốt/hít răng, không chắc răng vĩnh viễn hay răng sữa). IADT: 'when ... replantation of the avulsed tooth is not feasible (eg, an unconscious patient)' thì bảo quản trong môi trường."
+    severity: error
+  - issue: "Không có con số trong tldr/steps nào vắng trong thân; không có số liệu mâu thuẫn. Chỉ thiếu thời gian: IADT nhấn mạnh thời gian khô <60 phút, mục không nêu số nào ('ngay lập tức')."
+    severity: warn
+validity:
+  doc: "Bệnh viện Răng Hàm Mặt Trung ương Hà Nội (20/09/2021) 'Chấn thương răng và cách xử lý'; Bệnh viện Trung ương Quân đội 108 'Chấn thương răng sữa' (không ghi ngày; trích khuyến cáo IADT 2020); đối chiếu IADT Guidelines 2020 (Fouad et al., Dent Traumatol, doi 10.1111/edt.12573, qua bản AAPD)"
+  in_force: unconfirmed
+  effective_from: "2021-09-20"
+  amended_by: []
+  basis: "Hướng dẫn y tế không có ngày hiệu lực. Bài RHM 20/09/2021 theo IADT 2020. Tìm kiếm cho thấy AAPD đã đăng tệp 'e_iadt-avulsion25.pdf' (có thể là bản IADT cập nhật 2025) nhưng tôi không mở được bản đó; chưa xác nhận có hướng dẫn IADT mới hơn thay đổi các bước. Bài 108 không ghi ngày đăng. Bản gốc IADT trên Wiley trả 403, dùng bản gương AAPD cùng tiêu đề."
+deliberate_vn_deviation:
+  - "RHM nêu 'rửa nhẹ trước' khi cắm lại; IADT 2020 chỉ rửa nếu răng bẩn. Nguồn VN cấm nước máy tuyệt đối, IADT coi nước là môi trường kém nhưng tốt hơn để khô."
+potential_harm:
+  - "steps[2] 'Cắm lại răng vào ổ ngay tại chỗ nếu làm được': không có điều kiện loại trừ người bất tỉnh/trẻ nhỏ/không chắc răng vĩnh viễn; cắm sai chiều/sai răng hoặc người không tỉnh có thể làm răng bị hít vào đường thở."
+  - "steps[1] 'Không dùng nước máy' tuyệt đối, không có phương án thay: nếu chỉ có nước máy, người đọc có thể để răng khô (xấu hơn nước máy theo IADT)."
+suggested_edits:
+  - "steps[2]: thêm điều kiện 'chỉ cắm lại khi chắc là răng vĩnh viễn và người bị nạn tỉnh táo, hợp tác; không cắm lại khi bất tỉnh, trẻ nhỏ không hợp tác, hoặc không chắc là răng gì - khi đó ngâm sữa/nước muối rồi đi khám' (căn cứ IADT: 'when ... replantation ... is not feasible (eg, an unconscious patient)')."
+  - "steps[1]: đổi 'rửa nhẹ' thành 'nếu răng bẩn thì rửa nhẹ'; thêm 'nếu không có sữa/nước muối: nước sạch vẫn tốt hơn để khô, đừng để răng khô' (căn cứ IADT 'Although water is a poor medium, it is better than leaving the tooth to air-dry')."
+  - "Bẫy 1 và steps[0]: bỏ 'không lau răng bằng giấy' hoặc gắn nhãn 'suy ra'; bỏ cơ chế 'bóc dây chằng' vì không có trong nguồn."
+  - "Bẫy 2: bỏ 'cồn' hoặc gắn nhãn 'suy ra'; hạ mức 'hỏng tế bào dây chằng' xuống ngang IADT (nước là môi trường kém)."
+  - "Thêm yếu tố thời gian: IADT nêu sau khoảng 30 phút răng khô thì đa số tế bào dây chằng không còn sống; ghi 'càng sớm càng tốt, trong khoảng 60 phút'."
+  - "Mở bản IADT mới (nếu có) trước khi công bố để xác nhận không đổi bước."

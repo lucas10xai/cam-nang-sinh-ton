@@ -22,10 +22,10 @@ steps:
   - "Khám thêm tim mạch để tìm nguồn tắc nếu được chỉ định."
 legal_refs: []
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13aB
+  scope: "Chặn nâng trạng thái: result=fail, 2 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/mot-mat-toi-nhu-co-man-che-du-vai-phut-tu-het.yml)"
   sources: []
 origin:
   zh: null

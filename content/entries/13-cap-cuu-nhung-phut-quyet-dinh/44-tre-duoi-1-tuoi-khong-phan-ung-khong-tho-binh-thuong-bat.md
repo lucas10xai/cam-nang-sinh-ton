@@ -24,10 +24,10 @@ steps:
 legal_refs:
   - { doc: "Quyết định 1904/QĐ-BYT ngày 30/5/2014 của Bộ Y tế ban hành Hướng dẫn quy trình kỹ thuật chuyên ngành Hồi sức, cấp cứu và chống độc", article: "Quy trình hồi sinh tim phổi cơ bản, tr. 267-270", url: "https://kcb.vn/upload/2005611/20210723//H%E1%BB%93i-s%E1%BB%A9c-c%E1%BA%A5p-c%E1%BB%A9u-Ch%E1%BB%91ng-%C4%91%E1%BB%99c.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13iB
+  scope: "Chặn nâng trạng thái: result=fail, 3 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/tre-duoi-1-tuoi-khong-phan-ung-khong-tho-binh-thuong-bat.yml)"
   sources: []
 origin:
   zh: null

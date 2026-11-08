@@ -1,0 +1,85 @@
+id: mua-xe-cu-o-dai-ly-doi-lich-su-bao-hiem-va
+checker: agent-Vf05j
+checked_at: 2026-11-08
+content_sha256: "42c374df5c8d6d884abd130c56d34b5af3da6e5ae8fdcd1a022bf41a0c950de2"
+result: fail
+claims:
+  - text: "Cấm cung cấp thông tin sai lệch, không đầy đủ, không chính xác về hàng hóa (Điều 10 khoản 1 điểm a)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "a) Lừa dối hoặc gây nhầm lẫn cho người tiêu dùng thông qua việc cung cấp thông tin sai lệch, không đầy đủ, không chính xác về một trong các nội dung sau đây: sản phẩm, hàng hóa, dịch vụ mà tổ chức, cá nhân kinh doanh bán, cung cấp;"
+    verdict: match
+    note: "Đọc trực tiếp ảnh trang 8 bản ký Bộ Công Thương (PDF quét ảnh)."
+  - text: "Cấm không đền bù, không đổi trả khi hàng không đúng cam kết (Điều 10 khoản 1 điểm đ và e)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "e) Không đền bù, trả lại tiền hoặc đổi lại sản phẩm, hàng hóa, dịch vụ cho người tiêu dùng do sản phẩm, hàng hóa, dịch vụ không đúng với đăng ký, thông báo, công bố, niêm yết, quảng cáo, giới thiệu, giao kết, cam kết của tổ chức, cá nhân kinh doanh;"
+    verdict: partial
+    note: "Điểm e khớp. Điểm đ chỉ nói 'do nhầm lẫn của tổ chức, cá nhân kinh doanh', không phải 'không đúng cam kết'; mục gộp hai điểm thành một câu. Khoản 1 chỉ áp dụng cho 'Tổ chức, cá nhân kinh doanh'."
+  - text: "Giao dịch dân sự vô hiệu khi bị lừa dối (mục ghi Điều 132)"
+    source_url: https://hethongphapluat.com/bo-luat-dan-su-2015/dieu-127
+    quote: "Điều 127. Giao dịch dân sự vô hiệu do bị lừa dối, đe dọa, cưỡng ép. Khi một bên tham gia giao dịch dân sự do bị lừa dối hoặc bị đe dọa, cưỡng ép thì có quyền yêu cầu Tòa án tuyên bố giao dịch dân sự đó là vô hiệu."
+    verdict: mismatch
+    note: "Sai điều luật: vô hiệu do lừa dối là Điều 127 BLDS 2015. Điều 132 là 'Thời hiệu yêu cầu Tòa án tuyên bố giao dịch dân sự vô hiệu'. Nguồn thứ cấp (hethongphapluat.com); không mở được bản ký/Công báo của BLDS (datafiles.chinhphu.vn 404, thuvienphapluat 403)."
+  - text: "Các bên hoàn trả cho nhau những gì đã nhận; bên có lỗi bồi thường thiệt hại (Điều 131)"
+    source_url: https://hethongphapluat.com/bo-luat-dan-su-2015/dieu-131
+    quote: "2. Khi giao dịch dân sự vô hiệu thì các bên khôi phục lại tình trạng ban đầu, hoàn trả cho nhau những gì đã nhận. ... 4. Bên có lỗi gây thiệt hại thì phải bồi thường."
+    verdict: match-secondary
+    note: "Chỉ có bản thứ cấp. Khớp nội dung."
+  - text: "Thời hiệu khởi kiện tranh chấp hợp đồng là 3 năm (Điều 429)"
+    source_url: https://hethongphapluat.com/bo-luat-dan-su-2015/dieu-429
+    quote: "Thời hiệu khởi kiện để yêu cầu Tòa án giải quyết tranh chấp hợp đồng là 03 năm, kể từ ngày người có quyền yêu cầu biết hoặc phải biết quyền và lợi ích hợp pháp của mình bị xâm phạm."
+    verdict: match-secondary
+    note: "Số 3 năm khớp riêng Điều 429. Nhưng xem claim kế tiếp: áp dụng sai cho yêu cầu hủy/tuyên vô hiệu."
+  - text: "Bị giấu xe đâm/ngập thì hủy được hợp đồng, đòi lại tiền và khởi kiện trong 3 năm (tldr, Nói dễ hiểu, steps 4)"
+    source_url: https://hethongphapluat.com/bo-luat-dan-su-2015/dieu-132
+    quote: "1. Thời hiệu yêu cầu Tòa án tuyên bố giao dịch dân sự vô hiệu quy định tại các Điều 125, 126, 127, 128 và 129 của Bộ luật này là 02 năm, kể từ ngày: ... b) Người bị nhầm lẫn, bị lừa dối biết hoặc phải biết giao dịch được xác lập do bị nhầm lẫn, do bị lừa dối;"
+    verdict: mismatch
+    note: "Đường 'hủy hợp đồng vì bị lừa dối' (Điều 127) có thời hiệu 2 năm (Điều 132 khoản 1 điểm b), không phải 3 năm. 3 năm (Điều 429) chỉ cho tranh chấp hợp đồng nói chung (ví dụ đòi bồi thường do vi phạm hợp đồng). Mục đang ghi 3 năm cho mọi trường hợp và còn dẫn Điều 132 sai chủ đề. Người đọc chờ năm thứ 3 mới kiện có thể mất quyền yêu cầu tuyên vô hiệu."
+  - text: "Muốn vậy phải chứng minh người bán biết mà vẫn nói sai"
+    source_url: https://hethongphapluat.com/bo-luat-dan-su-2015/dieu-127
+    quote: "Khi một bên tham gia giao dịch dân sự do bị lừa dối hoặc bị đe dọa, cưỡng ép thì có quyền yêu cầu Tòa án tuyên bố giao dịch dân sự đó là vô hiệu."
+    verdict: inference
+    note: "Đoạn tôi đọc được của Điều 127 không nêu yêu cầu chứng minh 'người bán biết'; định nghĩa lừa dối (hành vi cố ý) nằm ở phần sau của điều này mà bản tôi lấy bị cụt, chưa đối chiếu. Nên trích định nghĩa đầy đủ."
+  - text: "Việt Nam không có mức phạt gấp ba tiền xe / không có điều nào cho nhân ba giá trị xe"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "Không tìm thấy điều khoản bồi thường gấp ba trong các điều đã đọc (Điều 10, 25, 29, 30, 31 Luật BVQLNTD 2023)."
+    verdict: not-found
+    note: "Khẳng định phủ định. Chưa đọc toàn bộ Luật 19/2023 (46 trang quét ảnh), chưa đọc NĐ 98/2020 và NĐ 24/2025 về xử phạt."
+  - text: "Mua từ người bán tư nhân thì luật bảo vệ người tiêu dùng không áp dụng (Bẫy 3)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "1. Tổ chức, cá nhân kinh doanh bị nghiêm cấm thực hiện các hành vi sau đây:"
+    verdict: inference
+    note: "Điều 10 khoản 1 nhắm vào 'Tổ chức, cá nhân kinh doanh' nên suy ra không áp dụng cho người bán không kinh doanh. Chưa đọc Điều 2 (đối tượng áp dụng) để khẳng định."
+  - text: "Việt Nam không có cơ sở dữ liệu công khai về lịch sử tai nạn của xe (Bẫy 1)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "Nguồn đã dẫn không nói gì về cơ sở dữ liệu lịch sử tai nạn xe."
+    verdict: not-found
+    note: "Không có nguồn nào trong mục Nguồn cho khẳng định này; không kiểm được."
+internal_checks:
+  - issue: "Mục ghi 'Bộ luật Dân sự 91/2015/QH15'; số hiệu đúng là 91/2015/QH13 (Quốc hội khóa XIII, thông qua 24/11/2015, hiệu lực 01/01/2017)."
+    severity: error
+  - issue: "Điều 132 bị dùng cho 'vô hiệu khi bị lừa dối' (đó là Điều 127) và bị bỏ qua đúng nội dung của nó (thời hiệu 2 năm). legal_refs Điều 132 không khớp khẳng định tương ứng."
+    severity: error
+  - issue: "tldr/steps nói 'khởi kiện trong 3 năm' cho hủy hợp đồng, mâu thuẫn với Điều 132 khoản 1 điểm b (2 năm). Mục không nêu hạn 2 năm ở bất kỳ đâu."
+    severity: error
+  - issue: "Phần Nguồn nói 'xem Còn treo' nhưng mục không có mục 'Còn treo'."
+    severity: warn
+  - issue: "legal_refs của BLDS có url null (3 mục); legal_refs[0] có url đúng văn bản (Luật 19/2023)."
+    severity: warn
+  - issue: "Step 1 'đòi xem giấy tờ bảo hiểm của chủ cũ' không có cơ sở pháp lý trong thân (chủ cũ/đại lý không bắt buộc cung cấp); là lời khuyên thực hành."
+    severity: warn
+validity:
+  doc: "Bộ luật Dân sự 91/2015/QH13 (Điều 127, 131, 132, 429); Luật BVQLNTD 19/2023/QH15"
+  in_force: unconfirmed
+  effective_from: "2017-01-01"
+  amended_by: []
+  basis: "BLDS: chỉ có trang thứ cấp (hethongphapluat.com ghi hiệu lực 01/01/2017, ô tình trạng 'Kiểm tra'); không mở được bản ký/Công báo/vbpl nên chưa xác nhận tình trạng sửa đổi của Điều 127, 131, 132, 429. Luật BVQLNTD 2023: Điều 79 khoản 1 ghi hiệu lực 01/7/2024 (đọc trực tiếp bản ký)."
+deliberate_vn_deviation: []
+potential_harm:
+  - "Tldr, Nói dễ hiểu và steps 4 ghi 'khởi kiện trong 3 năm' cho việc hủy hợp đồng vì bị lừa dối; thời hiệu yêu cầu Tòa tuyên vô hiệu do lừa dối là 2 năm (BLDS Điều 132 khoản 1 điểm b). Người đọc làm đúng nguyên văn có thể để quá hạn và mất quyền hủy hợp đồng/đòi hoàn trả (hại tài chính lớn: giá trị xe)."
+suggested_edits:
+  - "tldr, Nói dễ hiểu, steps 4, Pháp luật VN: viết 'yêu cầu Tòa tuyên hợp đồng vô hiệu do bị lừa dối trong 2 năm kể từ ngày biết (Điều 132 khoản 1 điểm b); đòi bồi thường/giải quyết tranh chấp hợp đồng nói chung trong 3 năm (Điều 429)'; khuyên khởi kiện sớm, không chờ hết hạn."
+  - "Sửa 'Giao dịch dân sự vô hiệu khi bị lừa dối (Điều 132)' thành Điều 127; thêm một dòng riêng cho Điều 132 (thời hiệu 2 năm)."
+  - "Sửa mọi chỗ 'Bộ luật Dân sự 91/2015/QH15' thành '91/2015/QH13', điền url bản ký/Công báo cho BLDS (hiện null) và checked_at."
+  - "Bỏ hoặc gắn nhãn 'suy ra' cho 'phải chứng minh người bán biết mà vẫn nói sai'; nếu giữ thì trích định nghĩa lừa dối trong Điều 127."
+  - "Bỏ dòng 'xem Còn treo' trong Nguồn hoặc thêm mục đó."
+  - "Bẫy 1 và 'không có mức phạt gấp ba': bỏ hoặc nêu rõ 'chúng tôi không tìm thấy' vì chưa có nguồn xác nhận phủ định."

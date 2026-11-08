@@ -1,0 +1,108 @@
+id: bi-ve-bam-dung-nhip-mui-nhon-kep-sat-da-keo-deu
+checker: agent-Vf13gA
+checked_at: 2026-11-08
+content_sha256: "9ec7392396413ca1b654f195adb4c327df6fdb171366a0cdf7314a473a6210e5"
+result: fail
+claims:
+  - text: "Kẹp nhíp mũi nhọn sát mặt da, kéo thẳng lên với lực đều, không xoay, không giật (bước 1)"
+    source_url: https://www.cdc.gov/ticks/after-a-tick-bite/index.html
+    quote: "Grasp the tick as close to the skin's surface as possible using clean fine-tipped tweezers. ... Pull tick away from the skin with steady, even pressure. Don't twist or jerk the tick. This can cause the tick mouthparts to break off and remain in the skin."
+    verdict: match
+    note: "CDC, trang What to Do After a Tick Bite, đề ngày 9/6/2026. Tóm tắt: kẹp sát mặt da bằng nhíp mũi nhọn, kéo đều, không xoay/giật vì phần miệng có thể gãy lại trong da. Nguồn này KHÔNG có trong mục Nguồn của mục; mục chỉ dẫn QĐ 5642 (sốt mò), không có chữ nào về thao tác gắp. Trang cũng nói nếu phần miệng còn lại thì cơ thể tự đẩy ra hoặc gắp bằng nhíp, 'If you cannot remove the mouthparts easily with tweezers, leave them alone.' Mục không nêu."
+  - text: "Không bôi dầu, không châm lửa, không đè bóp bụng con ve (bước 2)"
+    source_url: https://www.cdc.gov/ticks/after-a-tick-bite/index.html
+    quote: "Do not use petroleum jelly, heat, nail polish, or other substances to try and make the tick detach from the skin. This may agitate the tick and force infected fluid from the tick into the skin."
+    verdict: match
+    note: "Tóm tắt: không dùng vaseline, nhiệt, sơn móng tay hay chất khác để ép ve nhả; làm ve bị kích thích và có thể đẩy dịch nhiễm vào da. 'Không bóp': CDC nói 'Grasp the tick close to the skin's surface to avoid squeezing the tick's body.'"
+  - text: "Bẫy 1: dầu, mỡ, cồn, lửa 'làm con vật nôn dịch vào vết cắn và dễ để lại phần đầu trong da'"
+    source_url: https://www.cdc.gov/ticks/after-a-tick-bite/index.html
+    quote: "This may agitate the tick and force infected fluid from the tick into the skin."
+    verdict: partial
+    note: "CDC chỉ nói chất/nhiệt có thể kích thích ve đẩy dịch vào da; việc phần miệng gãy lại là do xoay/giật, không phải do dầu. Cồn không nằm trong danh sách CDC (cồn chỉ dùng để sát khuẩn và bỏ ve). Ghép hai cơ chế là suy diễn của người soạn."
+  - text: "Rửa chỗ cắn bằng xà phòng (bước 3)"
+    source_url: https://www.cdc.gov/ticks/after-a-tick-bite/index.html
+    quote: "After removing the tick, thoroughly clean the bite area and your hands with soap and water, rubbing alcohol, or hand sanitizer."
+    verdict: match
+    note: "Tóm tắt: rửa vùng cắn và tay bằng xà phòng và nước, cồn hoặc nước rửa tay khô."
+  - text: "Ghi lại ngày bị bám (bước 4)"
+    source_url: https://www.cdc.gov/ticks/after-a-tick-bite/index.html
+    quote: "If you develop a rash or fever within several weeks of removing a tick, see your doctor: Tell the doctor about your recent tick bite, When the bite occurred, and Where you most likely acquired the tick."
+    verdict: match
+    note: "CDC: nói với bác sĩ về lần bị ve cắn, thời điểm và nơi bị."
+  - text: "Sốt trong ba tuần sau đó thì nói với bác sĩ là mình từng bị ve bám (bước 5, tldr)"
+    source_url: https://www.cdc.gov/ticks/after-a-tick-bite/index.html
+    quote: "If you develop a rash or fever within several weeks of removing a tick, see your doctor"
+    verdict: partial
+    note: "CDC: phát ban HOẶC sốt, trong 'several weeks' (vài tuần). Mục chỉ nói sốt và chốt ba tuần, con số lấy từ thời gian ủ bệnh sốt mò (6 đến 21 ngày) là bệnh khác, không phải từ hướng dẫn về ve. Người có ban (ví dụ ban đỏ lan rộng) mà không sốt, hoặc triệu chứng sau tuần thứ ba, có thể không báo bác sĩ."
+  - text: "Thời gian ủ bệnh sốt mò kéo dài từ 6 đến 21 ngày, trung bình 9 đến 12 ngày (mục 3.1)"
+    source_url: https://kcb.vn/upload/2005611/20210723//Truyen-nhiem-1.pdf
+    quote: "Thời gian ủ bệnh của sốt mò kéo dài từ 6 ngày đến 21 ngày (trung bình từ 9 đến 12 ngày)."
+    verdict: match
+    note: "Khớp văn bản, nhưng đây là bệnh sốt mò do ấu trùng mò (Leptotrombidium) đốt, không phải ve (tick). Văn bản viết: 'Người nhiễm sốt mò khi đi vào vùng lưu hành tự nhiên của bệnh và bị ấu trùng mò nhiễm Orientia đốt.' Không dùng được làm căn cứ cho ve bám."
+  - text: "Vết loét đặc hiệu hình bầu dục 0,5 đến 2 cm, có vẩy đen, thường không đau, ở nách, ngực, cổ, bẹn, bụng"
+    source_url: https://kcb.vn/upload/2005611/20210723//Truyen-nhiem-1.pdf
+    quote: "vết loét có hình bầu dục, kích thước từ 0,5-2 cm, có vẩy đen hoặc đã bong vẩy tạo thành vết loét có gờ, không tiết dịch; các vết loét thường không đau, khu trú ở những vùng da mềm như nách, ngực, cổ, bẹn, bụng"
+    verdict: match
+    note: "Khớp văn bản về sốt mò (mục 3.1). Là bệnh mò, không phải ve."
+  - text: "Hạch sưng tại chỗ loét và toàn thân, cỡ 1,5 đến 2 cm"
+    source_url: https://kcb.vn/upload/2005611/20210723//Truyen-nhiem-1.pdf
+    quote: "người bệnh thường có hạch sưng tại chỗ vết loét và hạch toàn thân; hạch có kích thước 1,5-2 cm, mềm, không đau"
+    verdict: match
+    note: "Văn bản sốt mò."
+  - text: "Không điều trị kháng sinh thích hợp thì nặng, có thể tử vong; có điều trị thì hết sốt trong 1 đến 3 ngày"
+    source_url: https://kcb.vn/upload/2005611/20210723//Truyen-nhiem-1.pdf
+    quote: "Nếu không được điều trị kháng sinh thích hợp, người bệnh sốt mò có thể tiến triển nặng dẫn tới biến chứng hô hấp và tim mạch gây tử vong. ... Người bệnh sốt mò được điều trị kháng sinh đặc hiệu thường hết sốt trong vòng từ 1 đến 3 ngày"
+    verdict: match
+    note: "Văn bản sốt mò (mục 3.1 và 5)."
+  - text: "Doxycyclin 0,1 g, ngày uống 2 viên chia 2 lần, 5 ngày (mục 4.2)"
+    source_url: https://kcb.vn/upload/2005611/20210723//Truyen-nhiem-1.pdf
+    quote: "Doxycyclin: liều 0,1 g x 2 viên uống chia 2 lần/ngày trong 5 ngày."
+    verdict: match
+    note: "Phác đồ điều trị sốt mò đã chẩn đoán, không phải dự phòng sau ve cắn."
+  - text: "Phụ nữ có thai, trẻ dưới 10 tuổi dùng azithromycin 500 mg ngày một lần, 1 đến 3 hôm"
+    source_url: https://kcb.vn/upload/2005611/20210723//Truyen-nhiem-1.pdf
+    quote: "Azithromycin 500 mg uống một lần/ngày x 1-3 ngày; chỉ định cho phụ nữ có thai, trẻ dưới 10 tuổi, và những người có chống chỉ định với các thuốc tetracyclin và chloramphenicol."
+    verdict: match
+    note: "Mục bỏ vế 'những người có chống chỉ định với tetracyclin và chloramphenicol'."
+  - text: "Phòng bệnh: mặc quần áo kín, ngâm tẩm hóa chất chống côn trùng khi vào vùng có bệnh lưu hành (mục 6)"
+    source_url: https://kcb.vn/upload/2005611/20210723//Truyen-nhiem-1.pdf
+    quote: "áp dụng những biện pháp chống ấu trùng mò đốt như mặc quần áo kín, mặc quần áo có ngâm tẩm các hóa chất chống côn trùng như benzyl benzoat, bôi các hóa chất xua côn trùng như diethyltoluamide lên các vùng da hở."
+    verdict: match
+    note: "Văn bản sốt mò, nhắm vào ấu trùng mò."
+  - text: "Bẫy 3: vết loét đặc hiệu nằm ở nách, bẹn, dưới vú"
+    source_url: https://kcb.vn/upload/2005611/20210723//Truyen-nhiem-1.pdf
+    quote: "khu trú ở những vùng da mềm như nách, ngực, cổ, bẹn, bụng, v.v..."
+    verdict: mismatch
+    note: "Văn bản không có 'dưới vú'; liệt kê nách, ngực, cổ, bẹn, bụng. Cụm này không có trong nguồn."
+internal_checks:
+  - issue: "Toàn bộ căn cứ pháp lý/y tế của mục (legal_refs, 'Lợi ích', 'Pháp luật Việt Nam', mục Nguồn duy nhất) nói về bệnh sốt mò do ấu trùng mò đốt (Leptotrombidium, vi khuẩn Orientia tsutsugamushi), không phải ve (tick). Tiêu đề và steps nói về ve. Không có dòng nào của QĐ 5642 hỗ trợ thao tác gắp ve, tldr hay lời dặn 3 tuần. Mục tự nói ở cuối 'con mò trong văn bản là không phải con ve to nhìn thấy rõ', tức là chính mục thừa nhận hai thứ khác nhau mà vẫn dùng làm bằng chứng."
+    severity: error
+  - issue: "legal_refs[0].article ('Mục 3.1, 4.2, 6') khớp mục trong PDF nhưng khẳng định tương ứng của mục (gắp ve) không có trong các mục đó: khớp số mục, sai chủ đề."
+    severity: error
+  - issue: "Steps 1-4 (gắp bằng nhíp, không dầu/lửa, rửa xà phòng, ghi ngày) không có cơ sở trong thân bài nếu chỉ đọc nguồn đã liệt kê; chỉ có phần Ghi chú thừa nhận thiếu nguồn ('hướng dẫn gắp hiện có là của nước ngoài') mà không dẫn nguồn nào."
+    severity: error
+  - issue: "Con số 'ba tuần' trong tldr/steps[4] lấy từ thời gian ủ bệnh sốt mò (tối đa 21 ngày), không phải từ hướng dẫn về ve (CDC: vài tuần, ban hoặc sốt)."
+    severity: error
+  - issue: "'Dưới vú' trong Bẫy 3 không có trong văn bản nguồn."
+    severity: error
+  - issue: "Phần Lợi ích đưa liều doxycyclin/azithromycin (phác đồ sốt mò) vào mục tự xử lý ve bám; liều dành cho bệnh nhân đã chẩn đoán, không phải dự phòng sau ve cắn."
+    severity: warn
+  - issue: "Mục không cung cấp nguồn bác sĩ cho nhận định 'Bẫy 1 ... dễ để lại phần đầu trong da'."
+    severity: warn
+validity:
+  doc: "Quyết định 5642/QĐ-BYT ngày 31/12/2015 của Bộ Y tế (Hướng dẫn chẩn đoán và điều trị một số bệnh truyền nhiễm), chương Bệnh sốt mò"
+  in_force: unconfirmed
+  effective_from: "2015-12-31"
+  amended_by: []
+  basis: "PDF tại kcb.vn tải được (86 trang; trang bìa ghi 'Ban hành kèm theo Quyết định số 5642/QĐ-BYT ngày 31/12/2015'; chương sốt mò ở mục 10, trang 60-63). Chưa tìm được văn bản sửa đổi/thay thế cũng chưa xem được bảng hiệu lực trên Công báo/vbpl, nên không kết luận còn hiệu lực. Hướng dẫn CDC về ve (trang đề 9/6/2026) là bản hiện hành."
+deliberate_vn_deviation: []
+potential_harm:
+  - "Bước 5/tldr: 'Sốt trong ba tuần sau thì báo bác sĩ'. CDC khuyên báo bác sĩ khi có phát ban hoặc sốt trong vài tuần. Người bị ve cắn chỉ có phát ban (ví dụ ban đỏ lan rộng, thường gặp ở bệnh Lyme) hoặc khởi phát sau tuần thứ ba có thể không đi khám vì nghĩ chưa đến hạn hoặc không sốt, làm chậm chẩn đoán/điều trị bệnh do ve."
+  - "Phần 'Lợi ích'/'Pháp luật Việt Nam' đưa phác đồ kháng sinh của sốt mò (doxycyclin, azithromycin kèm liều) trong mục dành cho ve bám, dễ khiến người đọc tự uống kháng sinh sau khi bị ve cắn; không có căn cứ rằng đó là dự phòng cho ve."
+suggested_edits:
+  - "Viết lại cơ sở bằng chứng cho đúng đối tượng: thay mục Nguồn và legal_refs bằng hướng dẫn gắp ve của CDC (cdc.gov/ticks/after-a-tick-bite/index.html, quote: 'Pull tick away from the skin with steady, even pressure. Don't twist or jerk the tick.') và nguồn VN về bệnh do ve (nếu có). Chuyển toàn bộ phần sốt mò sang mục riêng (ấu trùng mò) hoặc xóa khỏi mục này."
+  - "Bước 5 và tldr: đổi 'Sốt trong ba tuần' thành 'Có ban hoặc sốt trong vài tuần sau khi gắp ve, báo bác sĩ: nói rõ ngày và nơi bị ve cắn', dựa vào quote 'If you develop a rash or fever within several weeks of removing a tick, see your doctor'."
+  - "Bước 1: thêm 'nếu phần miệng còn lại và không gắp dễ dàng bằng nhíp thì để nguyên' và 'không chờ đến cơ sở y tế mới gắp' (CDC: 'Do not wait to go to a healthcare provider to remove the tick')."
+  - "Xóa 'dưới vú' khỏi Bẫy 3 hoặc thay bằng 'nách, ngực, cổ, bẹn, bụng' đúng văn bản."
+  - "Bỏ phần liều doxycyclin/azithromycin khỏi mục này, hoặc ghi rõ đây là điều trị sốt mò đã chẩn đoán, không tự dùng."
+  - "Bẫy 1: bỏ 'cồn' khỏi danh sách chất không được dùng để ép ve nhả, hoặc dẫn nguồn; tách rõ 'dịch từ ve đẩy vào da' với 'phần miệng gãy do xoay/giật'."

@@ -1,0 +1,72 @@
+id: chi-mua-bao-hiem-cho-khoan-mat-mat-ban-khong-tu-tra
+checker: agent-Vf05h
+checked_at: 2026-11-08
+content_sha256: "0abce7033a99e61deba9801b584d867db2554fc76479c602d266a8358b8aec70"
+result: pass-with-edits
+claims:
+  - text: "Hạn mức bảo hiểm bắt buộc 150 triệu đồng/người/vụ"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf
+    quote: "1. Giới hạn trách nhiệm bảo hiểm đối với thiệt hại về sức khỏe, tính mạng do xe cơ giới gây ra là 150 triệu đồng cho một người trong một vụ tai nạn."
+    verdict: match
+    note: "PDF ký số, là ảnh quét (không trích được chữ); đọc trực tiếp ảnh trang 5 (Điều 6 khoản 1) và đối chiếu bản chữ của MSIG (tructuyen.msig.com.vn/assets/documents/motor/compulsory-tpl/ND-CP.pdf). Số khớp. Xem claim sau về điều kiện: 150 triệu là hạn mức cho thiệt hại sức khỏe/tính mạng của NGƯỜI THỨ BA và hành khách."
+  - text: "Phí bảo hiểm bắt buộc xe máy 60.000 đồng/năm"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf
+    quote: "A. Phí bảo hiểm cho thời hạn bảo hiểm 1 năm (chưa bao gồm thuế giá trị gia tăng) ... I Mô tô 2 bánh: 1 Dưới 50 cc 55.000; 2 Từ 50 cc trở lên 60.000 ... III Xe gắn máy (bao gồm xe máy điện) và các loại xe cơ giới tương tự: 1 Xe máy điện 55.000; 2 Các loại xe còn lại 290.000"
+    verdict: partial
+    note: "Đọc trực tiếp ảnh trang 52 (Phụ lục I). 60.000 đúng cho mô tô 2 bánh từ 50 cc trở lên, CHƯA gồm VAT (nên giá phải trả cao hơn, 66.000 nếu VAT 10%, con số 10% chưa kiểm ở nguồn); xe máy điện 55.000; mô tô 3 bánh 290.000; xe gắn máy khác 290.000. 'Xe máy' không nói rõ loại và chưa gồm VAT. Điều 8 khoản 2: doanh nghiệp được tăng/giảm tối đa 15% theo lịch sử bồi thường."
+  - text: "Bảo hiểm xe máy là bảo hiểm bắt buộc (trách nhiệm dân sự của chủ xe) trả cho người thứ ba/hành khách"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf
+    quote: "Đối tượng bảo hiểm bắt buộc trách nhiệm dân sự của chủ xe cơ giới là trách nhiệm dân sự của chủ xe cơ giới đối với người thứ ba, hành khách theo quy định của pháp luật."
+    verdict: match
+    note: "Điều 5, đọc từ ảnh trang 5. Luật KDBH Điều 8 khoản 2 điểm a và khoản 3 cũng quy định bắt buộc mua. Hệ quả: gói này bồi thường cho người bị mình gây hại, không bồi thường thương tích của chính chủ xe."
+  - text: "Một đồng phí mua 2.500 đồng bảo vệ (150.000.000 / 60.000)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf
+    quote: "150 triệu đồng cho một người trong một vụ tai nạn"
+    verdict: inference
+    note: "Phép chia đúng (150.000.000/60.000 = 2.500) nhưng bỏ qua VAT, và 150 triệu là trần trách nhiệm, không phải khoản chắc chắn nhận được."
+  - text: "Bảo hiểm bắt buộc trả trong mọi vụ tai nạn xe máy (ngầm hiểu qua ví dụ 'nên mua')"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/9/67-cp.signed.pdf
+    quote: "c) Người lái xe không đủ điều kiện về độ tuổi theo quy định của Luật Giao thông đường bộ; người lái xe không có Giấy phép lái xe hoặc sử dụng Giấy phép lái xe không hợp lệ ..."
+    verdict: partial
+    note: "Điều 7 khoản 2 (đọc từ ảnh trang 5-6) liệt kê loại trừ: cố ý gây thiệt hại, bỏ chạy, người lái không đủ tuổi/không có hoặc dùng giấy phép lái xe không hợp lệ, nồng độ cồn vượt mức hoặc ma túy (đối với thiệt hại tài sản), tài sản bị mất cắp/cướp... Mục không nhắc loại trừ nào nên 'đổi lấy hạn mức 150 triệu' dễ bị hiểu là vô điều kiện. Điều 6 khoản 2: thiệt hại tài sản chỉ 50 triệu/vụ (xe máy)."
+  - text: "Bảo hiểm y tế là bảo hiểm bắt buộc theo Luật Bảo hiểm y tế, quyền lợi tính theo mức hưởng, không theo phí"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "2. Luật này không áp dụng đối với bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm tiền gửi và các loại bảo hiểm khác do Nhà nước thực hiện không mang tính kinh doanh."
+    verdict: inference
+    note: "Luật KDBH Điều 1 khoản 2 chỉ xác nhận BHYT nằm ngoài Luật KDBH. Mục không dẫn Luật Bảo hiểm y tế; 'bắt buộc' và 'quyền lợi theo mức hưởng' chưa kiểm ở nguồn."
+  - text: "Bảo hiểm sức khỏe ở Việt Nam tăng phí theo tuổi và thường loại trừ bệnh có sẵn"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "(không có nguồn)"
+    verdict: not-found
+    note: "Không có nguồn trong mục. Luật chỉ có Điều 19 về điều khoản loại trừ nói chung."
+  - text: "Gói nhân thọ gộp ba thứ là bảo vệ, tiết kiệm, đầu tư; phần lớn phí bảo hiểm không quay lại"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "(không có nguồn)"
+    verdict: not-found
+    note: "Khẳng định mô tả thị trường, không có nguồn trong mục."
+internal_checks:
+  - issue: "legal_refs[0] ghi 'Điều 6 và Phụ lục I' nhưng 'mức phí' nằm ở Điều 8 khoản 1 (dẫn tới Phụ lục I); Điều 6 chỉ là giới hạn trách nhiệm. Không sai nhưng nên ghi 'Điều 6, Điều 8 và Phụ lục I'."
+    severity: warn
+  - issue: "Ví dụ 'nên mua' là bảo hiểm BẮT BUỘC (Luật KDBH Điều 8 khoản 3: có nghĩa vụ mua); người đọc không có lựa chọn, nên ví dụ không minh họa được quyết định 'mua hay không mua'. Mục cũng không nói bảo hiểm này chỉ trả cho thiệt hại gây cho người khác."
+    severity: warn
+  - issue: "tldr và thân ghi 60.000 đồng/năm; Phụ lục I ghi giá chưa gồm VAT và phân theo loại xe (55.000/60.000/290.000), nên con số người đọc phải trả khác 60.000."
+    severity: error
+  - issue: "legal_refs[0].effective_from = null, quote = null; không ghi Nghị định 220/2026/NĐ-CP đã sửa đổi Nghị định 67/2023 (xem validity)."
+    severity: warn
+  - issue: "Bẫy 1-3 (BHYT, nhân thọ gộp, bảo hiểm sức khỏe tăng phí theo tuổi) không có nguồn; steps[2] (tách phần bảo vệ ra) không có cơ sở pháp lý trong thân."
+    severity: warn
+validity:
+  doc: "Nghị định 67/2023/NĐ-CP"
+  in_force: true
+  effective_from: "2023-09-06"
+  amended_by:
+    - "Nghị định 220/2026/NĐ-CP ngày 22/06/2026, hiệu lực 01/07/2026 (theo bản tin hungyen.gov.vn chỉ sửa Điều 32, 33, 37, 38 về bảo hiểm xây dựng, không thấy sửa Điều 6, Điều 8, Phụ lục I)"
+  basis: "Nghị quyết 32/NQ-CP (baochinhphu.vn, 05/03/2026) công bố Nghị định 67/2023/NĐ-CP tiếp tục có hiệu lực từ 01/01/2026 'cho đến khi có văn bản sửa đổi, bổ sung'. Công báo ghi Nghị định 220/2026/NĐ-CP ban hành 22/06/2026, hiệu lực 01/07/2026. Chưa tải toàn văn Nghị định 220/2026 để xác nhận không đụng Điều 6/8/Phụ lục I (chỉ dựa tóm tắt trên cổng hungyen.gov.vn). Ngày hiệu lực 2023-09-06 là ngày ban hành ghi trên văn bản; chưa xác nhận ngày có hiệu lực trực tiếp."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "tldr, Lợi ích, Pháp luật Việt Nam: sửa 'phí 60.000 đồng/năm' thành 'từ 55.000 đồng/năm (xe máy điện, mô tô dưới 50 cc) đến 60.000 đồng/năm (mô tô 2 bánh từ 50 cc), chưa gồm VAT', dựa vào Phụ lục I 'A. Phí bảo hiểm cho thời hạn bảo hiểm 1 năm (chưa bao gồm thuế giá trị gia tăng)'."
+  - "Thêm câu: gói này bồi thường thiệt hại về sức khỏe, tính mạng, tài sản cho người thứ ba và hành khách do xe mình gây ra; thiệt hại tài sản tối đa 50 triệu đồng/vụ với xe máy (Điều 6 khoản 2 điểm a); có loại trừ ở Điều 7 khoản 2 (ví dụ người lái không có giấy phép lái xe hợp lệ)."
+  - "Thêm chú thích rằng đây là bảo hiểm bắt buộc theo Điều 8 Luật Kinh doanh bảo hiểm, nên dùng làm ví dụ cho tiêu chí chứ không phải lựa chọn mua hay bỏ."
+  - "Bỏ hoặc dẫn nguồn cho: BHYT 'bắt buộc theo Luật BHYT'; bảo hiểm sức khỏe tăng phí theo tuổi/loại trừ bệnh có sẵn; nhân thọ gộp ba thứ."
+  - "legal_refs: đổi article thành 'Điều 6, Điều 8 và Phụ lục I', điền effective_from và amended_by (Nghị định 220/2026/NĐ-CP) sau khi đọc toàn văn Nghị định 220/2026."

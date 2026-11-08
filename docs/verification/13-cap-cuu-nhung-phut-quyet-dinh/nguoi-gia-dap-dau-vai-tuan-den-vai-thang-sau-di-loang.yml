@@ -1,0 +1,84 @@
+id: nguoi-gia-dap-dau-vai-tuan-den-vai-thang-sau-di-loang
+checked_at: 2026-11-08
+content_sha256: "f340bf60eb9ace378354c553f6e1ead926ce6d22eed03b959584a85b63cfa7c5"
+checker: agent-Vf13bA
+result: pass-with-edits
+claims:
+  - text: "Triệu chứng máu tụ dưới màng cứng mạn tính thường xuất hiện sau một khoảng dài, từ 3 tuần đến vài tháng"
+    source_url: https://bvydhue.vn/tin-tuc/thong-tin-y-te/canh-giac-voi-mau-tu-duoi-mang-cung-man-tinh-o-nguoi-lon-tuoi-1233
+    quote: "Triệu chứng thường biểu hiện sau một khoảng thời gian dài, từ 3 tuần đến vài tháng."
+    verdict: match
+    note: "Bài trên trang Bệnh viện Đại học Y-Dược Huế (báo cáo hai ca bệnh, có tóm tắt/từ khóa); trang không ghi ngày hiển thị rõ trong lớp chữ trích, mục ghi 23/07/2021 (không xác nhận được từ trang)."
+  - text: "Triệu chứng thường gặp: đau đầu, lú lẫn, yếu liệt nửa người, thay đổi tính cách, thỉnh thoảng co giật; diễn ra từ từ và khó phát hiện"
+    source_url: https://bvydhue.vn/tin-tuc/thong-tin-y-te/canh-giac-voi-mau-tu-duoi-mang-cung-man-tinh-o-nguoi-lon-tuoi-1233
+    quote: "Triệu chứng thường gặp của MTDMCMT là đau đầu, lú lẫn, yếu liệt nửa người, thay đổi tính cách, thỉnh thoảng có co giật [2]. Các triệu chứng này thường diễn ra từ từ và khó phát hiện."
+    verdict: match
+    note: ""
+  - text: "Chẩn đoán nhờ CT-scan sọ não"
+    source_url: https://bvydhue.vn/tin-tuc/thong-tin-y-te/canh-giac-voi-mau-tu-duoi-mang-cung-man-tinh-o-nguoi-lon-tuoi-1233
+    quote: "MTDMCMT được chẩn đoán nhờ CT-scan sọ não."
+    verdict: match
+    note: ""
+  - text: "Tỷ lệ khoảng 5/100.000 dân, tăng lên 58/100.000 ở nhóm trên 70 tuổi"
+    source_url: https://bvydhue.vn/tin-tuc/thong-tin-y-te/canh-giac-voi-mau-tu-duoi-mang-cung-man-tinh-o-nguoi-lon-tuoi-1233
+    quote: "với tỷ lệ khoảng 5/100 000 dân số chung và tăng lên đến 58/100 000 dân đối với nhóm trên 70 tuổi [1]."
+    verdict: match
+    note: "Nguồn trích từ tài liệu [1] (không phải số liệu Việt Nam; mục tự ghi chưa có thống kê VN)."
+  - text: "Người cao tuổi đang dùng thuốc chống đông và người nghiện rượu là nhóm nguy cơ"
+    source_url: https://benhvien108.vn/mau-tu-duoi-mang-cung-man-tinh-o-nguoi-cao-tuoi.htm
+    quote: "Những người đang điều trị và sử dụng thuốc kháng đông cũng có nguy cơ làm tăng khả năng bị máu tụ dưới màng cứng sau chấn thương đầu do bị rối loạn chức năng đông máu. Đối với người nghiện rượu, chức năng đông máu thường bị rối loạn, não teo nhanh và sớm hơn bình thường."
+    verdict: match
+    note: "Bài ngày 06/10/2020 của ThS.BS Nguyễn Hải, Khoa Cấp cứu BV TƯ Quân đội 108 (lớp chữ trang có lỗi dấu nhỏ). Nguồn dùng 'thuốc kháng đông'; Huế dùng 'thuốc chống đông hoặc chống ngưng tập tiểu cầu'."
+  - text: "Nhiều ca không nhớ rõ chấn thương đầu"
+    source_url: https://benhvien108.vn/mau-tu-duoi-mang-cung-man-tinh-o-nguoi-cao-tuoi.htm
+    quote: "Một số trường hợp có cơ chế chấn thương trước đó trong khi một số khác không có cơ chế chấn thương rõ ràng."
+    verdict: partial
+    note: "Nguồn nói 'một số khác không có cơ chế chấn thương rõ ràng' (không có chấn thương rõ), không nói 'nhiều ca' hay 'người bệnh không nhớ'. steps[2] 'dù người bệnh nói không nhớ có té' là diễn giải."
+  - text: "Một ca 72 tuổi vào viện vì đau đầu liên tục được chụp CT sọ rồi mổ lấy máu tụ"
+    source_url: https://benhvien108.vn/mau-tu-duoi-mang-cung-man-tinh-o-nguoi-cao-tuoi.htm
+    quote: "Nguyễn Văn Đ, 72 tuổi, đang dùng thuốc chống đông điều trị bệnh tim mạch, vào viện ngày 06/9/2020 với triệu chứng đau đầu liên tục, không có chấn thương đầu trong vài tháng gần đây. Sau khi được khám lâm sàng nghi có tổn thương sọ não, bệnh nhân được chụp cắt lớp vi tính sọ não phát hiện khối máu tụ mạn tính lớn và được phẫu thuật lấy máu tụ."
+    verdict: match
+    note: "Chữ trích đã khôi phục dấu từ lớp chữ có ký tự bị mất. Nguồn ghi 'không có chấn thương đầu trong vài tháng gần đây', không nói 'đập đầu vài tuần trước'."
+  - text: "Đi loạng choạng, nói chậm, ngủ nhiều hoặc yếu nửa người là biểu hiện cần cảnh giác (tiêu đề, tldr)"
+    source_url: https://www.nhs.uk/conditions/subdural-haematoma/
+    quote: "loss of balance and having falls; drowsiness; slurred speech and problems with swallowing; having problems moving one side of your body (paralysis); seizures (fits)"
+    verdict: match
+    note: "NHS (trang xem lại 10/07/2025). Tóm tắt Việt: mất thăng bằng/té ngã, ngủ lịm, nói ngọng, yếu liệt một bên, co giật là triệu chứng. Hai nguồn VN đã dẫn không nêu 'đi loạng choạng', 'ngủ nhiều', 'nói chậm'; chỉ NHS có. NHS: 'The symptoms may start straight away, or come on gradually over a few weeks.'"
+  - text: "Mức khẩn: yếu một bên người, khó đi/mất thăng bằng, buồn ngủ khó tỉnh => gọi cấp cứu; không tự lái xe"
+    source_url: https://www.nhs.uk/conditions/subdural-haematoma/
+    quote: "Immediate action required: Call 999 if: Someone has hit their head and has: ... difficulty staying awake or keeping their eyes open; a fit (seizure); ... numbness or weakness in part of their body; problems with walking, balance, understanding, speaking or writing ... Information: Do not drive to A&E."
+    verdict: partial
+    note: "NHS xếp các dấu hiệu này vào mức gọi xe cấp cứu (999 = 115 ở VN). Mục chỉ nói 'đi khám ngoại thần kinh' mà không có mốc khẩn: lệch so với NHS. NHS cũng: 'go to A&E if... you take medicine to thin your blood'."
+  - text: "Bẫy 1/Bẫy 3: 'nhận về thuốc bổ và thuốc ngủ'; 'Liều và hướng xử trí bị tính sai' nếu không khai thuốc chống đông"
+    source_url: https://benhvien108.vn/mau-tu-duoi-mang-cung-man-tinh-o-nguoi-cao-tuoi.htm
+    quote: "Nếu người bệnh đang sử dụng thuốc kháng đông nên đi khám và làm các xét nghiệm máu kiểm tra định kỳ để kiểm soát việc dùng đúng liều, lượng thuốc."
+    verdict: inference
+    note: "Nguồn chỉ khuyên kiểm tra định kỳ khi dùng thuốc kháng đông; 'thuốc bổ, thuốc ngủ' và 'liều bị tính sai' là suy đoán của người soạn."
+internal_checks:
+  - issue: "tldr/title nêu 'đi loạng choạng, chậm, ngủ nhiều' nhưng hai nguồn đã dẫn (Huế, 108) không có các triệu chứng này (chỉ đau đầu, lú lẫn, yếu liệt nửa người, thay đổi tính cách, co giật)."
+    severity: warn
+  - issue: "steps[0] 'đưa đi khám ngoại thần kinh' không nêu mức khẩn; đây là chương cấp cứu, trong khi triệu chứng 'yếu nửa người' và 'ngủ nhiều' (thân và NHS) là dấu hiệu cần gọi cấp cứu."
+    severity: error
+  - issue: "Thân không giải thích được bước 'đừng bỏ qua dù người bệnh nói không nhớ có té' (nguồn nói 'không có cơ chế chấn thương rõ ràng'); Ghi chú Bẫy 2 viết đúng, nhưng steps[2] nói 'không nhớ'."
+    severity: warn
+  - issue: "Chi phí 'phần lớn chi phí dừng ở lần chụp và lần khám lại', 'vài ngày nằm viện' không có nguồn."
+    severity: warn
+  - issue: "Mục tự ghi mức B và 'không có văn bản BYT'; cả hai nguồn là truyền thông bệnh viện (108, Huế). Quy tắc chương 13: không chấp nhận tờ rơi bệnh viện làm nguồn duy nhất cho con số: số 5/100.000 và 58/100.000 chỉ dựa vào bài báo cáo ca của BV Huế (trích tài liệu [1] chưa rõ)."
+    severity: warn
+validity:
+  doc: "Bệnh viện TƯ Quân đội 108 (06/10/2020) và Bệnh viện Đại học Y-Dược Huế (bài tham khảo); không có văn bản pháp luật"
+  in_force: unconfirmed
+  effective_from: "2020-10-06"
+  amended_by: []
+  basis: "Hai bài truyền thông bệnh viện, không có 'ngày hiệu lực' hay hướng dẫn thay thế. Đối chiếu bổ sung: NHS 'Subdural haematoma' (xem lại 10/07/2025, hạn xem lại 10/07/2028)."
+deliberate_vn_deviation:
+  - "Nguồn VN dẫn (108, Huế) chỉ nêu 'đi khám' và không nêu mốc cấp cứu; NHS xếp yếu liệt một phần cơ thể, khó đi/thăng bằng, khó tỉnh vào mức 'Call 999'. Mục theo nguồn VN, lệch so với NHS."
+potential_harm:
+  - "steps[0] và tldr 'yếu nửa người: đi khám ngoại thần kinh' không nói gọi 115: yếu liệt nửa người mới xuất hiện cũng là dấu hiệu đột quỵ (cần cấp cứu ngay, mục 03 cùng chương), người đọc có thể chờ lịch khám; NHS xếp vào mức 'Call 999'."
+  - "Không có cảnh báo nếu người bệnh buồn ngủ khó tỉnh, nôn, co giật, đau đầu tăng nhanh: các dấu hiệu máu tụ lan rộng/chèn ép não cần cấp cứu ngay."
+suggested_edits:
+  - "tldr và steps: thêm 'Nếu yếu liệt nửa người mới xuất hiện, nói ngọng, khó tỉnh, nôn nhiều, co giật: gọi 115, không chờ lịch khám'; vẫn giữ 'chụp cắt lớp vi tính sọ' cho các dấu hiệu nhẹ hơn (dựa vào NHS: 'Call 999 if ... numbness or weakness in part of their body')."
+  - "Tiêu đề/tldr: ghi nguồn cho 'đi loạng choạng, nói chậm, ngủ nhiều' là NHS (hoặc bỏ); sửa 'dù người bệnh nói không nhớ có té' thành 'dù không có chấn thương rõ ràng (BV 108)'."
+  - "steps[1]: thêm 'mang theo danh sách thuốc; nếu đang dùng thuốc chống đông/chống kết tập tiểu cầu, báo ngay' và ghi nguồn NHS ('you take medicine to thin your blood')."
+  - "Bẫy 1 và Bẫy 3: bỏ 'thuốc bổ và thuốc ngủ' và 'Liều và hướng xử trí bị tính sai' hoặc ghi rõ là suy luận."
+  - "Chi phí: bỏ hoặc dẫn nguồn; thêm một nguồn y khoa gốc (hướng dẫn BYT/hội thần kinh/NHS) cho số 5 và 58/100.000."

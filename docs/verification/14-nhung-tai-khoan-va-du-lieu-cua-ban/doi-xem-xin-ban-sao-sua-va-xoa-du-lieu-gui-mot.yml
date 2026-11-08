@@ -1,0 +1,102 @@
+id: doi-xem-xin-ban-sao-sua-va-xoa-du-lieu-gui-mot
+checker: agent-Vf14b
+checked_at: 2026-11-08
+content_sha256: "590a5bdaa17861c598b05f8e633dd84ce67a8cf9ece7e65cef97e74704f9dc2e"
+result: pass-with-edits
+claims:
+  - text: "Quyền xem, chỉnh sửa hoặc yêu cầu chỉnh sửa dữ liệu cá nhân (Điều 4 khoản 1 điểm c)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "c) Xem, chỉnh sửa hoặc yêu cầu chỉnh sửa dữ liệu cá nhân;"
+    verdict: match
+    note: "Công báo số 971+972."
+  - text: "Quyền yêu cầu cung cấp, xóa, hạn chế xử lý, phản đối xử lý (Điều 4 khoản 1 điểm d)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "d) Yêu cầu cung cấp, xóa, hạn chế xử lý dữ liệu cá nhân; gửi yêu cầu phản đối xử lý dữ liệu cá nhân;"
+    verdict: match
+    note: ""
+  - text: "Quyền khiếu nại, tố cáo, khởi kiện, bồi thường (Điều 4 khoản 1 điểm đ)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "đ) Khiếu nại, tố cáo, khởi kiện, yêu cầu bồi thường thiệt hại theo quy định của pháp luật;"
+    verdict: match
+    note: ""
+  - text: "Cơ quan, tổ chức không được gây khó khăn, cản trở (Điều 4 khoản 4)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "Cơ quan, tổ chức, cá nhân có trách nhiệm tạo điều kiện thuận lợi, không được gây khó khăn, cản trở việc thực hiện quyền và nghĩa vụ của chủ thể dữ liệu cá nhân theo quy định của pháp luật."
+    verdict: match
+    note: ""
+  - text: "Yêu cầu rút lại sự đồng ý phải bằng văn bản, kể cả dạng điện tử, nên email là hình thức hợp lệ (Điều 10 khoản 2)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "Yêu cầu rút lại sự đồng ý, yêu cầu hạn chế xử lý dữ liệu cá nhân của chủ thể dữ liệu cá nhân phải được thể hiện bằng văn bản, bao gồm cả dạng điện tử hoặc định dạng kiểm chứng được và được gửi cho bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân."
+    verdict: partial
+    note: "Điều 10 chỉ nói về yêu cầu RÚT LẠI ĐỒNG Ý / HẠN CHẾ XỬ LÝ, không phải yêu cầu xem/sao/sửa/xóa (các yêu cầu đó theo NĐ 356 Điều 5 khoản 1: 'theo quy trình, thủ tục, biểu mẫu' do bên kiểm soát xây dựng). 'Email là hình thức hợp lệ' là suy ra từ 'dạng điện tử', không phải chữ của luật; và còn 'theo thỏa thuận giữa các bên'."
+  - text: "Bên kiểm soát phải chỉnh sửa khi chủ thể yêu cầu (Điều 13 khoản 1, 2)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân chỉnh sửa dữ liệu cá nhân sau khi chủ thể dữ liệu cá nhân yêu cầu hoặc chỉnh sửa dữ liệu cá nhân theo quy định của pháp luật;"
+    verdict: match
+    note: "Điều 13 khoản 1 còn cho tự chỉnh sửa 'đối với một số loại dữ liệu cá nhân theo thỏa thuận'."
+  - text: "Khi không thể chỉnh sửa vì lý do chính đáng, phải thông báo (Điều 13 khoản 3)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "Trường hợp không thể chỉnh sửa dữ liệu cá nhân vì lý do chính đáng, bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân phải thông báo để cơ quan, tổ chức, cá nhân yêu cầu biết."
+    verdict: match
+    note: ""
+  - text: "Được xóa theo yêu cầu của chính bạn, với điều kiện chấp nhận rủi ro, thiệt hại và tuân thủ khoản 3 Điều 4 (Điều 14 khoản 1 điểm a)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "a) Chủ thể dữ liệu cá nhân có yêu cầu và chấp nhận các rủi ro, thiệt hại có thể xảy ra đối với mình. Yêu cầu của chủ thể dữ liệu cá nhân trong trường hợp này phải tuân thủ đầy đủ các nguyên tắc quy định tại khoản 3 Điều 4 của Luật này;"
+    verdict: match
+    note: ""
+  - text: "Các trường hợp được từ chối xóa nằm ở Điều 19 (Điều 14 khoản 2)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "Không thực hiện yêu cầu của chủ thể dữ liệu cá nhân về việc xóa, hủy dữ liệu cá nhân trong các trường hợp quy định tại Điều 19 của Luật này hoặc việc xóa, hủy dữ liệu cá nhân vi phạm quy định tại khoản 3 Điều 4 của Luật này."
+    verdict: partial
+    note: "Điều 19 là các trường hợp xử lý KHÔNG CẦN sự đồng ý. Ngoài ra khoản 2 còn một trường hợp từ chối thứ hai (xóa vi phạm Điều 4 khoản 3) bản soạn không nêu. 'Nghĩa vụ lưu trữ của luật chuyên ngành' trong Ghi chú không có trong nguồn dẫn: là suy luận (Điều 14 khoản 1 điểm c, e; Điều 19 khoản 1 điểm đ nói 'trường hợp khác theo quy định của pháp luật' nên hợp lý nhưng chưa phải chữ cụ thể về kế toán/ngân hàng/thuế)."
+  - text: "Khi không thể xóa phải thông báo (Điều 14 khoản 5)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "Trường hợp không thể xóa, hủy dữ liệu cá nhân vì lý do chính đáng sau khi nhận được yêu cầu của chủ thể dữ liệu cá nhân, bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân phải thông báo để chủ thể dữ liệu cá nhân biết."
+    verdict: match
+    note: ""
+  - text: "Xem, cung cấp, chỉnh sửa: phản hồi trong 02 ngày làm việc; thực hiện trong 10 ngày, hoặc 15 ngày nếu phải yêu cầu bên thứ ba; gia hạn một lần không quá 10 ngày (NĐ 356 Điều 5 khoản 3)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-356-2025-nd-cp-468371.htm
+    quote: "phải phản hồi trong thời hạn 02 ngày làm việc, cung cấp đầy đủ thông tin cho chủ thể dữ liệu cá nhân về thủ tục và thực hiện trong thời hạn 10 ngày. Trường hợp cần yêu cầu bên xử lý dữ liệu cá nhân, bên thứ ba chỉnh sửa dữ liệu cá nhân của chủ thể dữ liệu cá nhân thì thực hiện trong thời hạn 15 ngày."
+    verdict: match
+    note: "Công báo số 18/2026, PDF trích được chữ. Gia hạn: 'kéo dài thêm tối đa 01 lần gia hạn trong thời hạn không quá 10 ngày'. Lưu ý: 15 ngày áp dụng khi cần bên thứ ba CHỈNH SỬA; với yêu cầu xem/cung cấp qua bên thứ ba khoản 3 không nêu mốc riêng. Nguồn không nói '10 ngày' là ngày lịch hay ngày làm việc (chỉ '02 ngày làm việc' ghi rõ)."
+  - text: "Xóa: phản hồi trong 02 ngày làm việc; thực hiện trong 20 ngày, hoặc 30 ngày nếu phải yêu cầu bên thứ ba; gia hạn một lần không quá 20 ngày (NĐ 356 Điều 5 khoản 4)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-356-2025-nd-cp-468371.htm
+    quote: "phải phản hồi trong thời hạn 02 ngày làm việc, cung cấp đầy đủ thông tin cho chủ thể dữ liệu cá nhân về thủ tục và thực hiện trong thời hạn 20 ngày. Trường hợp cần yêu cầu bên xử lý dữ liệu cá nhân, bên thứ ba cung cấp, xóa, hạn chế xử lý dữ liệu của chủ thể dữ liệu cá nhân thì thực hiện trong thời hạn 30 ngày."
+    verdict: match
+    note: "Gia hạn: 'tối đa 01 lần gia hạn trong thời hạn không quá 20 ngày'; bên kiểm soát phải thông báo lý do và chứng minh cần thiết, hợp lý (khớp Chi phí)."
+  - text: "Hạn 02 ngày làm việc chỉ bắt đầu từ lúc yêu cầu đúng thủ tục tới bên kiểm soát (Bẫy 1)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-356-2025-nd-cp-468371.htm
+    quote: "Khi nhận được yêu cầu xóa dữ liệu cá nhân theo đúng thủ tục của chủ thể dữ liệu cá nhân"
+    verdict: inference
+    note: "Nguồn nói 'theo đúng thủ tục', suy ra đồng hồ chỉ chạy khi yêu cầu đúng thủ tục: hợp lý nhưng là suy luận. Điều 5 khoản 1 buộc bên kiểm soát 'xây dựng quy trình, thủ tục, biểu mẫu rõ ràng'; vì vậy bước 'gửi email cho bộ phận bảo vệ dữ liệu' chỉ chắc chắn kích hoạt hạn nếu đó là kênh/biểu mẫu mà bên kiểm soát công bố."
+  - text: "tldr/steps: 'Gửi email cho bộ phận bảo vệ dữ liệu'"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-356-2025-nd-cp-468371.htm
+    quote: "phải xây dựng quy trình, thủ tục, biểu mẫu rõ ràng để thực hiện các quyền của chủ thể dữ liệu cá nhân phù hợp với hoạt động xử lý dữ liệu cá nhân và trách nhiệm các bộ phận có liên quan"
+    verdict: inference
+    note: "Không có điều khoản nào quy định phải/được gửi 'email cho bộ phận bảo vệ dữ liệu'. Bản soạn là mẹo thực hành, trái với ngữ cảnh pháp lý (bên kiểm soát định kênh). Cần nói: dùng đúng kênh bên kiểm soát công bố (biểu mẫu/email chỉ định); email là kênh phụ để lưu dấu."
+internal_checks:
+  - issue: "tldr nói 'phản hồi trong 02 ngày làm việc; làm xong trong 10 ngày (xem) hoặc 20 ngày (xóa)': khớp Điều 5 khoản 3, 4 NĐ 356, nhưng bỏ mốc 15/30 ngày khi cần bên thứ ba và gia hạn (có trong thân). Không mâu thuẫn, nhưng người đọc chỉ đọc tldr sẽ khiếu nại quá sớm khi bên kiểm soát đang dùng quyền gia hạn hợp lệ."
+    severity: warn
+  - issue: "Điều 10 khoản 2 Luật 91 (thân, mục Quyền của bạn) nói về yêu cầu rút lại đồng ý/hạn chế xử lý, nhưng được dùng để kết luận 'email là hình thức hợp lệ' cho yêu cầu xem/sao/sửa/xóa. Sai phạm vi điều khoản."
+    severity: warn
+  - issue: "Ghi chú: 'Hạn trả lời và hạn làm xong tính khác đơn vị nhau' (02 ngày LÀM VIỆC vs 10/20 'ngày'). Nguồn không định nghĩa 10/20 ngày là ngày lịch; bản soạn chưa nói rõ đây là cách hiểu hay chữ của nguồn."
+    severity: warn
+  - issue: "Điều 5 khoản 2 NĐ 356 (rút lại đồng ý/hạn chế/phản đối: phản hồi 02 ngày làm việc, thực hiện 15 ngày, bên thứ ba 20 ngày) có liên quan nhưng không nêu; mục 07/09 trong cùng chương nhắc quyền rút lại đồng ý (Điều 10). Cùng chương không mâu thuẫn số liệu, chỉ thiếu liên kết."
+    severity: warn
+  - issue: "legal_refs[].effective_from đều null (Luật 91, NĐ 356 hiệu lực 01/01/2026)."
+    severity: warn
+validity:
+  doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15; Nghị định 356/2025/NĐ-CP"
+  in_force: unconfirmed
+  effective_from: "2026-01-01"
+  amended_by: []
+  basis: "Công báo: Luật 91 hiệu lực 01/01/2026 (Điều 38 khoản 1); NĐ 356 'Ban hành 31/12/2025 - Hiệu lực 01/01/2026', mục sửa đổi/thay thế = 0. Không tìm thấy văn bản sửa đổi qua tìm kiếm web nhưng không có nguồn chính thức xác nhận tình trạng hiệu lực tại 08/11/2026."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "steps[0] và tldr: đổi 'Gửi email cho bộ phận bảo vệ dữ liệu' thành 'Gửi yêu cầu qua kênh/biểu mẫu mà bên kiểm soát công bố (thường là email hoặc biểu mẫu của bộ phận bảo vệ dữ liệu); giữ bản gửi'. Căn cứ: NĐ 356 Điều 5 khoản 1 ('xây dựng quy trình, thủ tục, biểu mẫu') và 'theo đúng thủ tục' ở khoản 3, 4."
+  - "Pháp luật VN, gạch Điều 10 khoản 2: tách rõ 'Điều 10 áp dụng cho yêu cầu RÚT LẠI ĐỒNG Ý/HẠN CHẾ XỬ LÝ'; bỏ 'nên email là hình thức hợp lệ' hoặc đổi thành 'văn bản điện tử được chấp nhận cho loại yêu cầu này'."
+  - "Gạch Điều 14 khoản 2: thêm 'hoặc việc xóa vi phạm khoản 3 Điều 4'; gạch Điều 19: ghi 'Điều 19 là các trường hợp xử lý không cần đồng ý' để người đọc hiểu."
+  - "Ghi chú: gắn nhãn 'suy ra' cho câu 'Nghĩa vụ lưu trữ của luật chuyên ngành như kế toán, ngân hàng, thuế vẫn có thể chặn yêu cầu xóa' hoặc dẫn Điều 14 khoản 1 điểm c/e và Điều 19 khoản 1 điểm đ."
+  - "Chi phí/tldr: thêm 'Nguồn không nói rõ 10 và 20 ngày là ngày lịch hay ngày làm việc' hoặc bỏ lời giải thích khác đơn vị; đồng thời ghi mốc 15/30 ngày khi cần bên thứ ba vào tldr hoặc chỉ nói 'từ 10-30 ngày tùy loại'."
+  - "Điền effective_from: '2026-01-01' cho 6 legal_refs."

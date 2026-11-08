@@ -1,0 +1,75 @@
+id: dan-ma-nguon-vao-o-chat-cua-dich-vu-ai-khoa-bi
+checker: agent-Vf14b
+checked_at: 2026-11-08
+content_sha256: "f0ee0383ac67f64f0345f6295dac9bd11f86b4e835e5240797c980e47afb2f69"
+result: pass-with-edits
+claims:
+  - text: "Dùng nền tảng đặt ngoài lãnh thổ Việt Nam để xử lý dữ liệu cá nhân thu thập tại Việt Nam thuộc nhóm chuyển dữ liệu cá nhân xuyên biên giới (Điều 20 khoản 1 điểm c)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "c) Cơ quan, tổ chức, cá nhân tại Việt Nam hoặc ở nước ngoài sử dụng nền tảng ở ngoài lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam để xử lý dữ liệu cá nhân được thu thập tại Việt Nam."
+    verdict: match
+    note: "Công báo số 971+972 (24/7/2025), PDF trích được chữ."
+  - text: "Chuyển xuyên biên giới phải lập hồ sơ đánh giá tác động, gửi một bản chính cho cơ quan chuyên trách (Điều 20 khoản 2)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "phải lập hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới và gửi 01 bản chính cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong thời gian 60 ngày kể từ ngày đầu tiên chuyển dữ liệu cá nhân xuyên biên giới, trừ trường hợp quy định tại khoản 6 Điều này."
+    verdict: partial
+    note: "Thiếu mốc '60 ngày kể từ ngày đầu tiên chuyển' và ngoại lệ khoản 6, trong đó điểm c: 'Chủ thể dữ liệu cá nhân tự chuyển dữ liệu cá nhân của mình xuyên biên giới'; điểm b: tổ chức lưu dữ liệu người lao động của mình trên điện toán đám mây. Khoản 3: 'thực hiện 01 lần cho suốt thời gian hoạt động'. Với người dán dữ liệu khách hàng (không phải dữ liệu của chính mình) ngoại lệ điểm c không áp dụng, nhưng bản soạn không nói rõ giữa dữ liệu của mình và của người khác. Câu 'bạn tự mình thực hiện một lần chuyển dữ liệu ra ngoài' thuộc suy luận."
+  - text: "Hệ thống dùng trí tuệ nhân tạo phải tích hợp biện pháp bảo mật dữ liệu cá nhân, dùng xác thực, định danh phù hợp và phân quyền truy cập (Điều 30 khoản 3)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "Hệ thống và dịch vụ sử dụng dữ liệu lớn, trí tuệ nhân tạo, chuỗi khối, vũ trụ ảo và điện toán đám mây phải được tích hợp các biện pháp bảo mật dữ liệu cá nhân phù hợp; phải sử dụng phương thức xác thực, định danh phù hợp và phân quyền truy cập để xử lý dữ liệu cá nhân."
+    verdict: match
+    note: "Nghĩa vụ của hệ thống/dịch vụ (phía nhà cung cấp), không phải nghĩa vụ người dùng; bản soạn đã nói đúng ở Ghi chú."
+  - text: "Xử lý dữ liệu cá nhân bằng trí tuệ nhân tạo phải phân loại theo mức độ rủi ro (Điều 30 khoản 4)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "Việc xử lý dữ liệu cá nhân bằng trí tuệ nhân tạo phải thực hiện phân loại theo mức độ rủi ro để có biện pháp bảo vệ dữ liệu cá nhân phù hợp."
+    verdict: match
+    note: ""
+  - text: "Luật AI có ba mức rủi ro (Điều 9)"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-134-2025-qh15-468694.htm
+    quote: "Hệ thống trí tuệ nhân tạo được phân loại theo các mức độ rủi ro sau đây: a) Hệ thống trí tuệ nhân tạo có rủi ro cao ... b) Hệ thống trí tuệ nhân tạo có rủi ro trung bình ... c) Hệ thống trí tuệ nhân tạo có rủi ro thấp"
+    verdict: match
+    note: "Công báo số 40 (22/01/2026), PDF 2026_40_134/2025/QH15 trích được chữ. Điều 9 khoản 1."
+  - text: "Nhà cung cấp phải tự phân loại trước khi đưa vào sử dụng (Điều 10 khoản 1)"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-134-2025-qh15-468694.htm
+    quote: "Nhà cung cấp tự phân loại hệ thống trí tuệ nhân tạo trước khi đưa vào sử dụng. Hệ thống được phân loại là rủi ro trung bình hoặc rủi ro cao phải có hồ sơ phân loại kèm theo."
+    verdict: match
+    note: ""
+  - text: "Nhà cung cấp phải thông báo kết quả cho Bộ KH&CN qua Cổng thông tin điện tử một cửa (Điều 10 khoản 3)"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-134-2025-qh15-468694.htm
+    quote: "Đối với hệ thống được phân loại là rủi ro trung bình hoặc rủi ro cao, nhà cung cấp phải thông báo kết quả phân loại cho Bộ Khoa học và Công nghệ thông qua Cổng thông tin điện tử một cửa về trí tuệ nhân tạo trước khi đưa vào sử dụng."
+    verdict: partial
+    note: "Nghĩa vụ thông báo chỉ áp dụng cho rủi ro TRUNG BÌNH hoặc CAO; rủi ro thấp chỉ 'khuyến khích công khai thông tin cơ bản'. Câu 'một dịch vụ AI tử tế phải nói được nó thuộc mức rủi ro nào và đã thông báo chưa' khái quát quá rộng. Thêm: Điều 35 khoản 1 cho hệ thống đã hoạt động trước 01/03/2026 thời hạn tuân thủ 12 tháng (18 tháng với y tế, giáo dục, tài chính), nghĩa là chưa tới hạn tại 08/11/2026. Bản soạn không nêu."
+  - text: "Luật 91/2025 hiệu lực 01/01/2026; Luật AI 134/2025 ngày 10/12/2025, hiệu lực 01/3/2026 (mục Nguồn)"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-134-2025-qh15-468694.htm
+    quote: "Luật này có hiệu lực thi hành từ ngày 01 tháng 3 năm 2026, trừ các nội dung liên quan quy định tại Điều 35 của Luật này."
+    verdict: match
+    note: "Luật 134 'Kỳ họp thứ 10 thông qua ngày 10 tháng 12 năm 2025'; Luật 91: 'Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026' (Điều 38 khoản 1) và thông qua ngày 26/6/2025 (khớp)."
+  - text: "Tldr/steps: 'Che khóa, tách khóa ra tệp cấu hình, cấp khóa chỉ có quyền cần dùng, thu hồi khi xong; lỡ dán khóa thật thì đổi ngay, xem lại log và hóa đơn'"
+    source_url: https://congbao.chinhphu.vn/van-ban/luat-so-134-2025-qh15-468694.htm
+    quote: "phải sử dụng phương thức xác thực, định danh phù hợp và phân quyền truy cập để xử lý dữ liệu cá nhân"
+    verdict: inference
+    note: "Các bước kỹ thuật là thông lệ bảo mật chung (xoay khóa, quyền tối thiểu), không phải nội dung luật. Bản soạn tự nhận 'nghĩa vụ của người dùng chỉ suy ra được'. Nguồn thực hành (OWASP Secrets Management, hướng dẫn thu hồi khóa của nhà cung cấp) chưa được dẫn: chưa kiểm được ở đợt này vì mục không dẫn; cần gắn nhãn là khuyến nghị an toàn."
+internal_checks:
+  - issue: "Cả 4 steps (che khóa, tách tệp cấu hình, cấp khóa riêng, đổi khóa khi lỡ dán) là thông lệ bảo mật chung không có điều luật hay nguồn được dẫn. Phần Ghi chú thừa nhận việc 'nghĩa vụ của người dùng chỉ suy ra được', nhưng tldr/steps viết như mệnh lệnh pháp lý."
+    severity: warn
+  - issue: "Phần 'Chi phí' nêu 'Một khóa bị lạm dụng có thể phát sinh phí dịch vụ trong vài giờ' và 'nặng hơn nhiều so với việc đổi một chuỗi ký tự' không có nguồn; là mô tả định tính."
+    severity: warn
+  - issue: "Bẫy 3: 'Một khóa đã nằm trong lịch sử chat thì phải coi là đã công khai, kể cả khi bạn đã xóa hội thoại' là khuyến nghị thận trọng, không có nguồn; câu viết như sự thật tuyệt đối."
+    severity: warn
+  - issue: "Ghi chú 'Chưa có mức phạt cụ thể cho cá nhân dán mã, chưa có vụ nào bị xử lý' là khẳng định phủ định chưa được kiểm; nên viết 'chúng tôi chưa tìm thấy'."
+    severity: warn
+  - issue: "legal_refs[2] Luật AI Điều 9 đúng và url congbao.chinhphu.vn/van-ban/luat-so-134-2025-qh15-468694.htm đúng văn bản (kiểm). legal_refs[0..1] url vbpl.vn trả trang khung (SPA) không trích được chữ; đã đối chiếu bằng bản Công báo 971+972 nhưng url trong legal_refs nên đổi sang Công báo để người đọc kiểm được."
+    severity: warn
+validity:
+  doc: "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15; Luật Trí tuệ nhân tạo 134/2025/QH15"
+  in_force: unconfirmed
+  effective_from: "2026-01-01"
+  amended_by: []
+  basis: "Luật 91: Điều 38 khoản 1 hiệu lực 01/01/2026. Luật 134: Điều 34 'từ ngày 01 tháng 3 năm 2026, trừ các nội dung liên quan quy định tại Điều 35', Điều 35 cho 12-18 tháng với hệ thống đã hoạt động. Không tìm thấy văn bản sửa đổi qua tìm kiếm web nhưng không có nguồn chính thức xác nhận tình trạng tại 08/11/2026. Luật 134: effective_from của riêng Luật AI là 2026-03-01."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Pháp luật VN, gạch Điều 20 khoản 2: sửa thành 'Chuyển xuyên biên giới phải lập hồ sơ đánh giá tác động và gửi 01 bản chính cho cơ quan chuyên trách trong 60 ngày kể từ ngày đầu tiên chuyển, trừ các trường hợp khoản 6 (trong đó có: chủ thể tự chuyển dữ liệu của chính mình).' Thêm một câu phân biệt: dán dữ liệu của chính bạn khác với dán dữ liệu khách hàng."
+  - "Gạch Điều 10 khoản 3: sửa thành 'Với hệ thống rủi ro trung bình hoặc cao, nhà cung cấp phải thông báo kết quả phân loại cho Bộ KH&CN trước khi đưa vào sử dụng.' Bỏ hoặc sửa câu 'một dịch vụ AI tử tế phải nói được nó thuộc mức rủi ro nào và đã thông báo chưa' (rủi ro thấp không phải thông báo). Thêm chú thích Điều 35 khoản 1 (12/18 tháng cho hệ thống đang hoạt động)."
+  - "Gắn nhãn 'khuyến nghị an toàn thông tin, không phải nghĩa vụ pháp lý' cho steps và dẫn một nguồn thực hành (ví dụ hướng dẫn quản lý khóa bí mật của nhà cung cấp AI/đám mây hoặc OWASP) vào mục Nguồn."
+  - "legal_refs[0..1]: đổi url sang bản Công báo https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf; điền effective_from cho từng văn bản."

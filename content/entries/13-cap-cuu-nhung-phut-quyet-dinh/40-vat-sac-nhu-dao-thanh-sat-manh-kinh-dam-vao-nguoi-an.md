@@ -22,10 +22,10 @@ steps:
   - "Gọi 115 càng sớm càng tốt."
 legal_refs: []
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13hB
+  scope: "Chặn nâng trạng thái: 4 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/vat-sac-nhu-dao-thanh-sat-manh-kinh-dam-vao-nguoi-an.yml)"
   sources: []
 origin:
   zh: null

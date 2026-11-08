@@ -1,0 +1,74 @@
+id: nguoi-dang-nuoi-nha-phai-mua-bao-hiem-tu-ky-truoc-khong
+checker: agent-Vf05h
+checked_at: 2026-11-08
+content_sha256: "6f4d94248ba41f9bbad7c55237ed0790ee9f47f7f3710c0507f26191486563be"
+result: pass-with-edits
+claims:
+  - text: "Mua bảo hiểm nhân thọ cho trường hợp chết của người khác phải được người đó đồng ý bằng văn bản, ghi rõ số tiền bảo hiểm và người thụ hưởng (Điều 39 khoản 1)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "1. Khi bên mua bảo hiểm giao kết hợp đồng bảo hiểm nhân thọ, hợp đồng bảo hiểm sức khỏe cho trường hợp chết của người khác thì phải được người đó đồng ý bằng văn bản, trong đó ghi rõ số tiền bảo hiểm và người thụ hưởng."
+    verdict: match
+    note: "VBHN 31/VBHN-VPQH (13/03/2026), bản chữ trích được. Mục chỉ nhắc 'nhân thọ'; luật nói cả hợp đồng bảo hiểm sức khỏe cho trường hợp chết."
+  - text: "Không được mua cho trường hợp chết của người chưa thành niên, trừ khi cha, mẹ hoặc người giám hộ đồng ý bằng văn bản (Điều 39 khoản 2 điểm a); tldr: cần chữ ký bằng văn bản của cha, mẹ hoặc người giám hộ"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "2. Không được giao kết hợp đồng bảo hiểm nhân thọ, hợp đồng bảo hiểm sức khỏe cho trường hợp chết của những người sau đây: a) Người chưa thành niên, trừ trường hợp cha, mẹ hoặc người giám hộ của người đó đồng ý bằng văn bản;"
+    verdict: match
+    note: ""
+  - text: "Có quyền chỉ định người thụ hưởng; thay đổi phải thông báo bằng văn bản cho doanh nghiệp bảo hiểm (Điều 41)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "3. Bên mua bảo hiểm có thể thay đổi người thụ hưởng nhưng phải được sự đồng ý bằng văn bản của người được bảo hiểm và phải thông báo bằng văn bản cho doanh nghiệp bảo hiểm, chi nhánh doanh nghiệp bảo hiểm phi nhân thọ nước ngoài."
+    verdict: partial
+    note: "Mục bỏ điều kiện: bên mua không đồng thời là người được bảo hiểm thì cần sự đồng ý bằng văn bản của người được bảo hiểm (khoản 1 và khoản 3), và người được bảo hiểm chưa thành niên... thì cần người đại diện theo pháp luật đồng ý. Người đọc làm theo nguyên văn mục có thể đổi người thụ hưởng mà không có đồng ý của người được bảo hiểm."
+  - text: "Luật nói tới 'sản phẩm bảo hiểm tử kỳ có thời hạn từ 01 năm trở xuống' do doanh nghiệp bảo hiểm phi nhân thọ kinh doanh (Điều 63 khoản 3 điểm b)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "b)8 Doanh nghiệp bảo hiểm phi nhân thọ, chi nhánh doanh nghiệp bảo hiểm phi nhân thọ nước ngoài kinh doanh các sản phẩm thuộc loại hình bảo hiểm sức khỏe có thời hạn từ 01 năm trở xuống và các sản phẩm bảo hiểm tử kỳ có thời hạn từ 01 năm trở xuống;"
+    verdict: match
+    note: "Chữ khớp, nhưng đây là bản đã sửa bởi Luật 139/2025/QH15 (chú thích 8, hiệu lực 01/01/2026). Quy định này nói về phạm vi kinh doanh của doanh nghiệp phi nhân thọ, không phải về lợi ích cho người mua."
+  - text: "Đó là loại thuần rủi ro, không có phần tiết kiệm, đúng là thứ nên mua cho người đang nuôi nhà"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "(Điều 63 khoản 3 điểm b chỉ liệt kê loại sản phẩm doanh nghiệp phi nhân thọ được kinh doanh; không có chữ nào về 'thuần rủi ro', 'không có phần tiết kiệm' hay 'nên mua'.)"
+    verdict: inference
+    note: "Suy ra, không phải chữ của luật. Luật không định nghĩa 'tử kỳ'. Đáng chú ý: sản phẩm nêu trong điều luật có thời hạn tối đa 01 năm, trong khi nhu cầu của người nuôi nhà thường là thời hạn nhiều năm (tới khi hết nợ nhà, con trưởng thành). Dẫn điều này dễ khiến người đọc nghĩ loại 1 năm là sản phẩm cần tìm."
+  - text: "Doanh nghiệp có quyền hủy hợp đồng khi người mua cố ý cung cấp thông tin sai để được chi trả (Điều 22 khoản 2); Bẫy 2: khai sai là mất quyền lợi"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "2. Trường hợp bên mua bảo hiểm cố ý cung cấp không đầy đủ thông tin hoặc cung cấp thông tin sai sự thật nhằm giao kết hợp đồng bảo hiểm để được bồi thường, trả tiền bảo hiểm thì doanh nghiệp bảo hiểm, chi nhánh doanh nghiệp bảo hiểm phi nhân thọ nước ngoài có quyền hủy bỏ hợp đồng bảo hiểm."
+    verdict: partial
+    note: "Bullet ở Pháp luật Việt Nam có chữ 'cố ý' nên đúng. Bẫy 2 và step 4 viết 'khai sai là mất quyền lợi' không có chữ 'cố ý'; luật cũng quy định doanh nghiệp không phải bồi thường nhưng phải hoàn phí sau khi trừ chi phí hợp lý. Nên giữ chữ 'cố ý' ở cả Bẫy 2."
+  - text: "Phần lớn hợp đồng bán ở Việt Nam là gói gộp tiết kiệm, và người bán đẩy gói lớn cho trẻ vì dễ bán"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "(không có nguồn)"
+    verdict: not-found
+    note: "Khẳng định thị trường không dẫn nguồn."
+  - text: "Chi phí: mất khoảng nửa ngày cho khám và giấy tờ"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "(không có nguồn)"
+    verdict: not-found
+    note: "Ước lượng thời gian không dẫn nguồn."
+internal_checks:
+  - issue: "legal_refs[0].article = '=Điều 39 khoản 1' có ký tự '=' thừa ở đầu (lỗi gõ); các legal_refs khác không có."
+    severity: warn
+  - issue: "legal_refs[3] (Điều 63 khoản 3 điểm b) và Nguồn dùng điều này để chứng minh 'nên mua cho người nuôi nhà'; điều luật chỉ nói phạm vi kinh doanh và có thời hạn 01 năm trở xuống. Không phải cơ sở của khuyến nghị."
+    severity: error
+  - issue: "Điều 41 khoản 3 yêu cầu đồng ý bằng văn bản của người được bảo hiểm khi đổi người thụ hưởng, không có trong mục (xem claim 3)."
+    severity: warn
+  - issue: "legal_refs[1..4] trỏ cùng URL VBHN 31 (đúng văn bản). Mục Nguồn ghi 'Điều 39, Điều 41, Điều 63 khoản 3 điểm b' nhưng bỏ Điều 22 khoản 2 đã dùng ở thân (legal_refs[4])."
+    severity: warn
+  - issue: "legal_refs[*].effective_from và quote đều null."
+    severity: warn
+  - issue: "steps 1-4 (hỏi riêng giá thuần tử kỳ, chọn số tiền bảo vệ, chọn người thụ hưởng, kê khai trung thực) có cơ sở ở thân (Bẫy 1, Bẫy 3, Điều 41, Điều 22) nhưng 'số tiền từ dư nợ nhà, chi phí nuôi con, vài năm chi tiêu' là công thức không dẫn nguồn (mục tự ghi 'không có con số chung')."
+    severity: warn
+validity:
+  doc: "Luật Kinh doanh bảo hiểm 08/2022/QH15 (VBHN 31/VBHN-VPQH ngày 13/03/2026)"
+  in_force: true
+  effective_from: "2023-01-01"
+  amended_by:
+    - "Luật 139/2025/QH15 ngày 10/12/2025 (hiệu lực 01/01/2026, một số điểm 01/7/2026); Điều 63 khoản 3 điểm b và c đã được sửa theo chú thích 8, 9 của VBHN"
+  basis: "Trang đầu VBHN 31 ghi: 'Luật Kinh doanh bảo hiểm số 08/2022/QH15 ... có hiệu lực kể từ ngày 01 tháng 01 năm 2023, được sửa đổi, bổ sung bởi: Luật số 139/2025/QH15 ... có hiệu lực kể từ ngày 01 tháng 01 năm 2026.' Tìm kiếm ngày 2026-11-08 không thấy luật mới thay thế hay sửa đổi sau 139/2025; Điều 22, 39, 41 không có chú thích sửa đổi trong VBHN."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Pháp luật Việt Nam, bullet Điều 63: bỏ câu 'Đó là loại thuần rủi ro ... đúng là thứ nên mua cho người đang nuôi nhà' hoặc gắn nhãn 'suy ra' và nêu rằng điều luật chỉ nói về sản phẩm thời hạn từ 01 năm trở xuống của doanh nghiệp phi nhân thọ; không dùng làm cơ sở khuyến nghị. Bỏ Điều 63 khỏi legal_refs nếu không có nguồn khác."
+  - "Điều 41 bullet: thêm 'Nếu bên mua không phải người được bảo hiểm thì cần sự đồng ý bằng văn bản của người được bảo hiểm khi chỉ định và khi thay đổi người thụ hưởng', theo Điều 41 khoản 1 và khoản 3."
+  - "Bẫy 2: đổi 'Khai sai' thành 'Cố ý khai thiếu hoặc khai sai', theo Điều 22 khoản 2."
+  - "legal_refs[0].article: sửa '=Điều 39 khoản 1' thành 'Điều 39 khoản 1'; điền effective_from (2023-01-01) và quote."
+  - "Bẫy 1 và Chi phí ('nửa ngày'): dẫn nguồn hoặc gắn nhãn là nhận định/ước lượng."

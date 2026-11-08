@@ -1,0 +1,86 @@
+id: dau-nguc-that-bop-nghen-keo-dai-hoac-kem-va-mo-hoi
+checked_at: 2026-11-08
+content_sha256: "c6a32d5523d00930ee868f4325d8ded12d912ccec3f3ba82a0613072a5a93eed"
+checker: agent-Vf13bA
+result: pass-with-edits
+claims:
+  - text: "Cửa sổ can thiệp tính từ lúc khởi phát triệu chứng là 0 đến 12 giờ; can thiệp thì đầu được ưu tiên (mục viết 'mục 4.3')"
+    source_url: https://syt.gialai.gov.vn/index.php/vi/download/Thu-vien-Huong-dan-chan-doan-dieu-tri-Quy-trinh-ky-thuat-va-cac-Tai-lieu-chuyen-mon-kham-chua-benh/Quyet-dinh-so-5332-QD-BYT-ngay-23-12-2020-cua-Bo-Y-te-V-v-Ban-hanh-tai-lieu-chuyen-mon-Thuc-hanh-chan-doan-va-dieu-tri-benh-dong-mach-vanh.html
+    quote: "Từ 0 - 12 giờ kể từ khi khởi phát triệu chứng: Can thiệp ĐMV thì đầu được ưu tiên lựa chọn hàng đầu: Nếu bệnh nhân đến bệnh viện có khả năng can thiệp ĐMV thì lựa chọn chiến lược can thiệp ngay."
+    verdict: partial
+    note: "Đúng chữ nhưng (1) nằm ở mục 4.2 'Lựa chọn chiến lược tái thông ĐMV', không phải 4.3; (2) chỉ áp dụng cho nhồi máu cơ tim cấp CÓ ST CHÊNH LÊN (chẩn đoán bằng điện tâm đồ), còn mục viết như áp dụng cho mọi người đau ngực; (3) cùng mục tài liệu ghi 'Từ 12 - 48 giờ ...: Bắt buộc chỉ định chụp và can thiệp ĐMV thì đầu nếu bệnh nhân có đau ngực tái phát, rối loạn nhịp hoặc huyết động không ổn định' nên 'đã quá 12 giờ' không có nghĩa là hết can thiệp. PDF lấy qua liên kết tải của trang Sở Y tế Gia Lai (172 trang, có lớp chữ)."
+  - text: "Nếu thời gian từ lúc chẩn đoán tới lúc đưa được dây dẫn qua tổn thương dưới 2 giờ thì chuyển người bệnh tới cơ sở can thiệp"
+    source_url: https://syt.gialai.gov.vn/index.php/vi/download/Thu-vien-Huong-dan-chan-doan-dieu-tri-Quy-trinh-ky-thuat-va-cac-Tai-lieu-chuyen-mon-kham-chua-benh/Quyet-dinh-so-5332-QD-BYT-ngay-23-12-2020-cua-Bo-Y-te-V-v-Ban-hanh-tai-lieu-chuyen-mon-Thuc-hanh-chan-doan-va-dieu-tri-benh-dong-mach-vanh.html
+    quote: "Nếu việc chuyển bệnh nhân đến bệnh viện có khả năng can thiệp tính từ lúc được chẩn đoán đến lúc được can thiệp (đưa được dây dẫn qua tổn thương tắc ĐMV) dưới 120 phút thì sẽ chuyển bệnh nhân đến để tiến hành can thiệp."
+    verdict: match
+    note: "Cũng ở mục 4.2. Mục viết '2 giờ' = 120 phút."
+  - text: "Chọn can thiệp thì đầu nếu thời gian dự tính ≤ 2 giờ (chuyển từ nơi khác), ≤ 90 phút (đến thẳng cơ sở can thiệp), lý tưởng ≤ 60 phút với ca đến sớm trong 2 giờ đầu"
+    source_url: https://syt.gialai.gov.vn/index.php/vi/download/Thu-vien-Huong-dan-chan-doan-dieu-tri-Quy-trinh-ky-thuat-va-cac-Tai-lieu-chuyen-mon-kham-chua-benh/Quyet-dinh-so-5332-QD-BYT-ngay-23-12-2020-cua-Bo-Y-te-V-v-Ban-hanh-tai-lieu-chuyen-mon-Thuc-hanh-chan-doan-va-dieu-tri-benh-dong-mach-vanh.html
+    quote: "Nên lựa chọn can thiệp thì đầu tại các cơ sở có đủ điều kiện và kinh nghiệm nếu thời gian dự tính từ lúc tiếp cận với nhân viên y tế ban đầu đến lúc mở thông mạch vành ≤ 120 phút (nếu từ nơi khác chuyển đến) hoặc ≤ 90 phút (nếu bệnh nhân đến ngay cơ sở y tế làm được can thiệp cấp), lý tưởng là ≤ 60 phút đối với các trường hợp NMCT cấp đến sớm ≤ 2 giờ hoặc vùng nhồi máu cơ tim rộng (ví dụ NMCT thành trước)."
+    verdict: match
+    note: "Mục 4.3.2 đúng số hiệu. Mục bỏ vế 'hoặc vùng nhồi máu rộng', không đổi nghĩa chính."
+  - text: "Nếu không can thiệp được trong khoảng đó: ưu tiên tiêu sợi huyết, tiêm trong vòng 10 phút từ lúc có chẩn đoán, rồi chuyển tới cơ sở can thiệp trong 2 đến 24 giờ"
+    source_url: https://syt.gialai.gov.vn/index.php/vi/download/Thu-vien-Huong-dan-chan-doan-dieu-tri-Quy-trinh-ky-thuat-va-cac-Tai-lieu-chuyen-mon-kham-chua-benh/Quyet-dinh-so-5332-QD-BYT-ngay-23-12-2020-cua-Bo-Y-te-V-v-Ban-hanh-tai-lieu-chuyen-mon-Thuc-hanh-chan-doan-va-dieu-tri-benh-dong-mach-vanh.html
+    quote: "Nếu không thể can thiệp cấp cứu trong vòng 120 phút kể từ khi người bệnh tiếp xúc với nhân viên y tế đầu tiên, do quá xa nơi can thiệp (vận chuyển > 2 giờ), thì nên ưu tiên dùng thuốc tiêu sợi huyết, đảm bảo thời gian dự tính từ lúc tiếp cận với nhân viên y tế ban đầu đến lúc tiêm thuốc tiêu sợi huyết ≤ 10 phút, sau đó chuyển người bệnh đến cơ sở gần nhất có khả năng can thiệp trong vòng 2 – 24 giờ ."
+    verdict: match
+    note: "Mục 4.3.2. Lưu ý: mục 4.2 của tài liệu viết '10 phút kể từ lúc có chẩn đoán'; mục 4.3.2 viết '10 phút kể từ lúc tiếp cận nhân viên y tế đầu tiên' - hai mốc khác nhau trong tài liệu gốc; bản mục chọn mốc 'từ lúc có chẩn đoán' (đúng với 4.2)."
+  - text: "Tài liệu ghi thời gian tiêu sợi huyết là trong 12 giờ đầu, nên sớm, đặc biệt trong 4 giờ đầu"
+    source_url: https://syt.gialai.gov.vn/index.php/vi/download/Thu-vien-Huong-dan-chan-doan-dieu-tri-Quy-trinh-ky-thuat-va-cac-Tai-lieu-chuyen-mon-kham-chua-benh/Quyet-dinh-so-5332-QD-BYT-ngay-23-12-2020-cua-Bo-Y-te-V-v-Ban-hanh-tai-lieu-chuyen-mon-Thuc-hanh-chan-doan-va-dieu-tri-benh-dong-mach-vanh.html
+    quote: "Trong vòng 12 giờ đầu: Nên tiến hành sớm (đặc biệt trong 4 giờ đầu) nếu các bệnh nhân không thể đến được các trung tâm có can thiệp ĐMV qua da trong vòng 2 giờ kể từ khi được chẩn đoán NMCT cấp có ST chênh lên."
+    verdict: partial
+    note: "Mục 4.3.1.3. Mục bỏ điều kiện 'nếu không thể đến trung tâm can thiệp trong 2 giờ' và 'có ST chênh lên'."
+  - text: "Đau, nặng ngực lan lên vai, cổ, hàm, cánh tay, kèm vã mồ hôi, buồn nôn, chóng mặt; gọi 115, không để tự lái xe, chần chừ, tự ý dùng thuốc giảm đau"
+    source_url: http://trungtamytequan6.medinet.gov.vn/tim-mach/gio-vang-quyet-dinh-su-song-cmobile17305-250126.aspx
+    quote: "Bạn có thể nhận biết nhồi máu cơ tim qua các dấu hiệu:đau, nặng ngực lan lên vai, cổ, hàm, cánh tay; vã mồ hôi, buồn nôn, chóng mặt. Khi gặp tình huống trên bạn xử tríbằng cách cho người bệnh ngồi nghỉ, gọi cấp cứu 115, đưa đến bệnh viện an toàn. Tuyệt đối không để người bệnh tự lái xe, chần chừ quan sát thêm, tự ý dùng thuốc giảm đau."
+    verdict: match
+    note: "Bài đăng 8:12, 30/9/2025 trên trang Trung tâm Y tế khu vực Phú Lâm (medinet), KHÔNG phải 'Trung tâm Kiểm soát bệnh tật TP.HCM' như mục viết (lỗi gán nguồn). Là truyền thông của đơn vị y tế, không phải hướng dẫn gốc; chỉ dùng được cho câu truyền thông, không dùng làm nguồn duy nhất cho con số (không có con số)."
+  - text: "Khuyến cáo quốc tế: người lớn tỉnh, đau ngực nghi nhồi máu cơ tim: trấn an, ngồi/nằm tư thế thoải mái, gọi giúp đỡ, khuyến khích nhai aspirin 150-300 mg sớm nhất có thể"
+    source_url: https://www.cebap.org/storage/cebap/zideman-2021-erc-guidelines-2021-first-aid.pdf
+    quote: "For conscious adults with non-traumatic chest pain due to suspected myocardial infarction: Reassure the casualty; Sit or lie the casualty in a comfortable position; Call for help; First aid providers should encourage and assist the casualty in the self-administration of 150 300 mg chewable aspirin as soon as possible after the onset of chest pain; Do not administer aspirin to adults with chest pain of unclear or traumatic aetiology"
+    verdict: partial
+    note: "ERC 2021 First aid (Resuscitation 161:270-290), bản gương cebap.org (bản gốc chính thức cprguidelines.erc.edu). Tóm tắt Việt: ngồi nghỉ, gọi cấp cứu, nhai aspirin 150-300 mg nếu không dị ứng/không chống chỉ định và đau ngực không rõ nguyên nhân/không do chấn thương. Mục khớp 'ngồi nghỉ, gọi cấp cứu' nhưng chỉ nói 'không tự dùng thuốc giảm đau' mà không nhắc aspirin; người đọc có thể hiểu aspirin cũng bị cấm."
+  - text: "Không tự lái xe (steps[2])"
+    source_url: https://www.nhs.uk/conditions/glaucoma/
+    quote: "Do not drive to A&E. Ask someone to drive you or call 999 and ask for an ambulance."
+    verdict: inference
+    note: "Dùng khuyến cáo NHS chung về cấp cứu làm đối chiếu vì nguồn VN (medinet) chỉ là bài truyền thông. Ý khớp ('không tự lái, gọi xe cấp cứu'). Lập luận trong Bẫy 1 ('có thể chuyển thành rối loạn nhịp... xe cấp cứu có máy sốc điện') không có trong nguồn đã dẫn: là suy diễn hợp lý."
+  - text: "Bẫy 2: thuốc dạ dày, giảm đau, chờ xem cơn có dịu; 'tài liệu đặt mốc tiêm tiêu sợi huyết trong vòng 10 phút kể từ lúc có chẩn đoán'"
+    source_url: https://syt.gialai.gov.vn/index.php/vi/download/Thu-vien-Huong-dan-chan-doan-dieu-tri-Quy-trinh-ky-thuat-va-cac-Tai-lieu-chuyen-mon-kham-chua-benh/Quyet-dinh-so-5332-QD-BYT-ngay-23-12-2020-cua-Bo-Y-te-V-v-Ban-hanh-tai-lieu-chuyen-mon-Thuc-hanh-chan-doan-va-dieu-tri-benh-dong-mach-vanh.html
+    quote: "thời gian được dùng thuốc tiêu sợi huyết trong vòng 10 phút kể từ lúc có chẩn đoán."
+    verdict: match
+    note: "Mốc 10 phút là mốc của bệnh viện sau khi có chẩn đoán, không liên quan việc người đọc tự uống thuốc; lập luận nối 'chờ xem dịu' với mốc 10 phút là diễn giải."
+  - text: "Quyết định 5332/QĐ-BYT ngày 23/12/2020 ban hành tài liệu Thực hành chẩn đoán và điều trị bệnh động mạch vành"
+    source_url: https://syt.gialai.gov.vn/index.php/vi/download/Thu-vien-Huong-dan-chan-doan-dieu-tri-Quy-trinh-ky-thuat-va-cac-Tai-lieu-chuyen-mon-kham-chua-benh/Quyet-dinh-so-5332-QD-BYT-ngay-23-12-2020-cua-Bo-Y-te-V-v-Ban-hanh-tai-lieu-chuyen-mon-Thuc-hanh-chan-doan-va-dieu-tri-benh-dong-mach-vanh.html
+    quote: "Quyet_dinh_so_5332_QD_BYT_ngay_23_12_2020_cua_Bo_Y_te_V_v_Ban_hanh_tai_lieu_chuyen_mon_Thuc_hanh_chan_doan_va_dieu_tri_benh_dong_mach_vanh.pdf"
+    verdict: match
+    note: "Tên tệp đính kèm trên trang; PDF 172 trang mở được qua liên kết tải. Tiêu đề trang: 'Quyết định số 5332/QĐ-BYT ngày 23/12/2020 của Bộ Y tế V/v Ban hành tài liệu chuyên môn Thực hành chẩn đoán và điều trị bệnh động mạch vành'."
+internal_checks:
+  - issue: "Mục viết 'Cửa sổ can thiệp (mục 4.3)' và Nguồn ghi 'mục 4.3.1.3, 4.3.1.4 và 4.3.2 (cửa sổ 0 đến 12 giờ, mốc 2 giờ...)': cửa sổ 0-12 giờ và 'dưới 120 phút' nằm ở mục 4.2; 4.3.1.4 là 'Chọn thuốc tiêu sợi huyết' (không có mốc nào trong mục). Sai số mục."
+    severity: warn
+  - issue: "Nguồn thứ hai bị gán sai cơ quan: 'Trung tâm Kiểm soát bệnh tật Thành phố Hồ Chí Minh' nhưng URL và trang là Trung tâm Y tế khu vực Phú Lâm (trungtamytequan6.medinet.gov.vn)."
+    severity: error
+  - issue: "tldr nói 'Cửa sổ can thiệp tính từ lúc khởi phát, 0 đến 12 giờ' không nêu điều kiện (nhồi máu có ST chênh lên, xác định bằng điện tâm đồ) và không nói 'sau 12 giờ vẫn có thể can thiệp'. Con số có trong thân nên không vi phạm quy tắc (a), nhưng thiếu điều kiện."
+    severity: warn
+  - issue: "steps không có bước 'nếu ngất, ngừng thở bình thường: ép tim, AED' dù Bẫy 1 nói 'không ai ép tim kịp'; liên kết tới mục 01 của chương."
+    severity: warn
+  - issue: "Câu 'Cơn đau có thể chuyển thành rối loạn nhịp trên đường... Xe cấp cứu có máy sốc điện và điều phối được tới cơ sở can thiệp' và 'nới áo' không có trong nguồn đã dẫn."
+    severity: warn
+  - issue: "Chi phí 'Quỹ BHYT trả phần lớn nhưng vật tư có loại phải cùng chi trả' không có nguồn."
+    severity: warn
+validity:
+  doc: "Quyết định 5332/QĐ-BYT ngày 23/12/2020, Thực hành chẩn đoán và điều trị bệnh động mạch vành"
+  in_force: unconfirmed
+  effective_from: "2020-12-23"
+  amended_by: []
+  basis: "Trang Sở Y tế Gia Lai còn đăng tài liệu (thư viện hướng dẫn chuyên môn); tìm kiếm không thấy văn bản thay thế/bãi bỏ, nhưng trang tình trạng hiệu lực thuvienphapluat/vbpl không truy cập được nên không xác nhận được. Bản PDF không có ngày hết hiệu lực."
+deliberate_vn_deviation:
+  - "Mục (theo bài medinet) dặn 'không tự dùng thuốc giảm đau' mà không nhắc aspirin nhai 150-300 mg; ERC 2021 khuyến cáo sơ cứu nhân viên khuyến khích nhai aspirin khi nghi nhồi máu cơ tim ở người lớn tỉnh. Phân tích: tổng đài 115/người sơ cứu có thể hướng dẫn; mục không nên cấm chung chung."
+potential_harm:
+  - "tldr 'Cửa sổ can thiệp ... 0 đến 12 giờ' không điều kiện có thể khiến người bệnh đau ngực đã 12-48 giờ nghĩ rằng đã quá muộn và không đi (tài liệu: 12-48 giờ vẫn bắt buộc chụp và can thiệp nếu đau ngực tái phát, rối loạn nhịp hoặc huyết động không ổn định)."
+  - "Câu 'không tự dùng thuốc giảm đau' không phân biệt aspirin: người đọc có thể bỏ aspirin trong khi ERC khuyến cáo nhai 150-300 mg sớm (đồng thời chống chỉ định khi dị ứng hoặc đau ngực chưa rõ nguyên nhân/chấn thương, và mục 08 cùng chương: nghi bóc tách động mạch chủ thì aspirin có hại), nên cần diễn đạt 'làm theo hướng dẫn của tổng đài 115'."
+suggested_edits:
+  - "Nguồn: đổi 'Trung tâm Kiểm soát bệnh tật Thành phố Hồ Chí Minh' thành 'Trung tâm Y tế khu vực Phú Lâm' (dựa vào trang medinet: 'Trung Tâm Y tế khu vực Phú Lâm', 'Cập nhật: 8:12, 30/9/2025')."
+  - "'Lợi ích' / Nguồn: đổi 'mục 4.3' thành 'mục 4.2' cho cửa sổ 0-12 giờ và mốc 120 phút; bỏ '4.3.1.4' khỏi danh sách mục; giữ 4.3.1.3 và 4.3.2."
+  - "tldr: viết 'Với nhồi máu cơ tim có ST chênh lên (bác sĩ xác định bằng điện tâm đồ), can thiệp ưu tiên trong 12 giờ đầu; sau 12 giờ vẫn phải đi nếu còn đau, hồi hộp, choáng' (dựa vào quote 'Từ 12 - 48 giờ...')."
+  - "steps[2]: thay 'không tự dùng thuốc giảm đau' bằng 'không tự uống thuốc giảm đau; làm theo hướng dẫn của 115 về aspirin' và ghi rõ aspirin (nếu 115 hoặc nhân viên y tế đồng ý, không dị ứng) theo ERC 2021 150-300 mg nhai."
+  - "Thêm bước: nếu người bệnh bất tỉnh, không thở bình thường thì ép tim và dùng AED (xem mục 01 chương 13)."

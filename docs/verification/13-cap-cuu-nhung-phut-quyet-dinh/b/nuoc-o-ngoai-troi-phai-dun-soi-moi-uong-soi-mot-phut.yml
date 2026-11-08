@@ -1,0 +1,116 @@
+{
+  "id": "nuoc-o-ngoai-troi-phai-dun-soi-moi-uong-soi-mot-phut",
+  "checker": "agent-Vf13gB",
+  "checked_at": "2026-11-08",
+  "content_sha256": "00dae2a58ad814953709ba18527b2505b5b2e6c03d7c0ae65bc55cea83af8578",
+  "result": "pass-with-edits",
+  "claims": [
+    {
+      "text": "Đun sôi nước trong ít nhất 1 phút (tldr, steps 1)",
+      "source_url": "https://syt.gialai.gov.vn/vi/news/tin-hoat-dong-so/infographic-huong-dan-ve-sinh-ca-nhan-ve-sinh-moi-truong-va-xu-ly-nuoc-an-uong-mua-bao-lu-2792.html",
+      "quote": "Uống nước đóng chai, dùng viên khử trùng nước hoặc đun sôi nước trong ít nhất 1 phút",
+      "verdict": "match",
+      "note": "Sở Y tế Gia Lai đăng lại infographic WHO/Bộ Y tế sau bão Noru (bối cảnh bão lũ, không phải đi rừng). Cùng câu liệt kê \"uống nước đóng chai, dùng viên khử trùng nước hoặc đun sôi\" là các lựa chọn ngang nhau."
+    },
+    {
+      "text": "Giữ sôi thêm một phút; CDC khuyến cáo đun sôi trọn một phút",
+      "source_url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html",
+      "quote": "CDC recommends that travelers boil water for a full minute to account for user variability in identifying boiling points and to add a margin of safety.",
+      "verdict": "match",
+      "note": "Tóm tắt VN: CDC khuyên đun sôi đủ 1 phút để chừa biên an toàn. Bước \"đun cho sôi thật rồi giữ sôi thêm một phút\" khớp."
+    },
+    {
+      "text": "Mọi mầm bệnh đường uống bị giết trong vài giây ở nhiệt độ sôi",
+      "source_url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html",
+      "quote": "All organisms that may cause illness from drinking water are killed within seconds at boiling temperature.",
+      "verdict": "match",
+      "note": ""
+    },
+    {
+      "text": "Ở độ cao thường gặp không cần đun lâu hơn",
+      "source_url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html",
+      "quote": "Although the boiling point for water decreases with increasing elevation, at common travel elevations the temperature needed to achieve boiling is still well above the temperature required to inactivate enteric pathogens. For example, at approximately 4,900 m (16,000 ft) elevation, the boiling temperature of water is approximately 83°C (182°F).",
+      "verdict": "match",
+      "note": "CDC không nêu \"đun lâu hơn ở độ cao\" nhưng nói nhiệt sôi vẫn đủ. Mục suy ra \"không cần đun lâu hơn\": hợp lý, mức suy ra nhẹ."
+    },
+    {
+      "text": "Nhiều bộ lọc xách tay không giữ được vi rút",
+      "source_url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html",
+      "quote": "Portable microfilters do not reliably remove enteric viruses (e.g., norovirus) that have an average size of 0.03 µm",
+      "verdict": "match",
+      "note": ""
+    },
+    {
+      "text": "Clo, i-ốt ở liều thực tế diệt rất kém ký sinh trùng gây tiêu chảy kéo dài",
+      "source_url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html",
+      "quote": "Cryptosporidium, is poorly inactivated by chlorine- or iodine-based disinfection at practical concentrations, even with extended contact times.",
+      "verdict": "match",
+      "note": "Chỉ nêu Cryptosporidium; mục diễn đạt \"ký sinh trùng gây tiêu chảy kéo dài\" (không có chữ này). Chlorine dioxide diệt được Crypto theo CDC (mục không nói); tuy vậy không gây hại."
+    },
+    {
+      "text": "Viên Cloramin B 0,25 g cho 25 lít nước, Aquatabs 67 mg cho 20 lít, khuấy đều, đậy nắp, chờ 30 phút",
+      "source_url": "https://soyte.hatinh.gov.vn/tin-tuc-su-kien/thong-tin-y-te/y-te-du-phong/bo-y-te-huong-dan-cach-xu-ly-nuoc-sinh-hoat-trong-mua-mua-ba.html",
+      "quote": "Cho 1 viên Cloramin B 0,25g vào thùng đựng 25 lít nước đã được làm trong, khuấy đều, đậy nắp, chờ 30 phút sau có thể sử dụng làm nước sinh hoạt được. – Viên Aquatab 67mg: Cho 1 viên Aquatabs 67mg vào thùng đựng 20 lít nước đã được làm trong, khuấy đều, đậy nắp chờ 30 phút có thể sử dụng được.",
+      "verdict": "partial",
+      "note": "Nguồn chỉ áp cho nước \"đã được làm trong\" và \"sử dụng làm nước sinh hoạt\"; mục bỏ điều kiện \"làm trong\" khỏi steps 3 (nước khe có thể đục, lại là nước mặt). Cũng không nói \"uống\"."
+    },
+    {
+      "text": "Nước đã khử trùng bằng clo vẫn phải đun sôi mới uống trực tiếp",
+      "source_url": "https://soyte.hatinh.gov.vn/tin-tuc-su-kien/thong-tin-y-te/y-te-du-phong/bo-y-te-huong-dan-cach-xu-ly-nuoc-sinh-hoat-trong-mua-mua-ba.html",
+      "quote": "Nước đã được khử trùng có thể sử dụng cho mục đích sinh hoạt. Tuy nhiên nước này vẫn phải đun sôi rồi mới uống trực tiếp được.",
+      "verdict": "match",
+      "note": "Xung đột trực tiếp với steps 3 của chính mục: \"Không đun được: dùng bộ lọc hoặc viên khử trùng... chờ 30 phút mới uống\". Xem internal_checks."
+    },
+    {
+      "text": "Nguyên tắc chỉ uống trực tiếp sau khi đã đun sôi (Bộ Y tế)",
+      "source_url": "https://soyte.hatinh.gov.vn/tin-tuc-su-kien/thong-tin-y-te/y-te-du-phong/bo-y-te-huong-dan-cach-xu-ly-nuoc-sinh-hoat-trong-mua-mua-ba.html",
+      "quote": "Chỉ sử dụng nước để uống trực tiếp sau khi đã đun sôi.",
+      "verdict": "match",
+      "note": ""
+    },
+    {
+      "text": "Viên/bộ lọc không diệt hết mọi mầm bệnh; vẫn là lựa chọn khi không đun được (steps 3)",
+      "source_url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html",
+      "quote": "Heat ... Single step that inactivates all enteric pathogens ... Many filters do not reliably remove viruses ... Not readily effective against Cryptosporidium oocysts",
+      "verdict": "inference",
+      "note": "Mục đưa lọc/viên làm phương án thay thế mà không nói bộ lọc nào và dùng ở nguồn nước nào. CDC (bảng 1.8.3) phân theo nguồn: nước mặt gần người/gia súc cần heat/UV hoặc microfilter + halogen/ultrafilter; nước đục cần làm trong trước. Mục không có thông tin này nên người đọc không biết lọc/viên có đủ cho nước khe của mình không."
+    }
+  ],
+  "internal_checks": [
+    {
+      "issue": "Steps 3 nói không đun được thì dùng lọc/viên, pha viên chờ 30 phút \"mới uống\"; Lợi ích/Bẫy 3 nói (theo Bộ Y tế) nước đã khử trùng vẫn phải đun sôi mới uống trực tiếp và coi \"nước đã khử trùng là uống được\" là bẫy. Hai chỗ trong cùng mục trái nhau về việc uống nước chỉ khử trùng bằng viên.",
+      "severity": "error"
+    },
+    {
+      "issue": "Liều viên (25 lít, 20 lít) là liều cho nước đã làm trong dùng cho sinh hoạt hộ gia đình, mục đặt vào ngữ cảnh đi rừng uống nước khe mà không nêu điều kiện \"đã làm trong\" (nước đục cần thêm clo/thời gian theo CDC).",
+      "severity": "warn"
+    },
+    {
+      "issue": "Mục dẫn Sở Y tế Gia Lai (infographic bão lũ) làm nguồn cho mốc 1 phút và gọi là \"WHO và Bộ Y tế\"; trang không có văn bản gốc kèm theo. Mốc 1 phút nay đã được CDC xác nhận độc lập (c2).",
+      "severity": "warn"
+    },
+    {
+      "issue": "Tên \"Bẫy 2\" dẫn \"Ở Việt Nam điểm cao nhất chỉ 3.147,3 mét\" khớp mục 33 (cùng chương); không mâu thuẫn.",
+      "severity": "warn"
+    }
+  ],
+  "validity": {
+    "doc": "Hướng dẫn xử lý nước ăn uống mùa mưa lũ (Bộ Y tế, qua Sở Y tế Gia Lai/Hà Tĩnh); CDC Yellow Book 2026 \"Water Disinfection for Travelers\", 23/4/2025",
+    "in_force": "unconfirmed",
+    "effective_from": null,
+    "amended_by": [],
+    "basis": "Hướng dẫn y tế, không có ngày hiệu lực; bài Gia Lai/Hà Tĩnh không ghi số/ngày văn bản gốc của Bộ Y tế trong phạm vi đã đọc. CDC page đề 23/4/2025 (Edition 2026); WHO \"Boil water technical brief\" (2015) được CDC dẫn nhưng chưa mở."
+  },
+  "deliberate_vn_deviation": [
+    "Bộ Y tế (qua Hà Tĩnh/Gia Lai) ghi nước đã khử trùng bằng clo vẫn phải đun sôi mới uống; CDC (và Gia Lai: \"uống nước đóng chai, dùng viên khử trùng nước hoặc đun sôi\") coi khử trùng hóa chất là phương án chấp nhận được, trừ Cryptosporidium. Mục lẫn hai quan điểm."
+  ],
+  "potential_harm": [
+    "Steps 3: dùng viên khử trùng/lọc rồi uống sau 30 phút cho nước khe: nếu nước đục hoặc là nước mặt gần người/gia súc (thường gặp ở rừng, rẫy VN), viên clo diệt kém Cryptosporidium và liều ghi sẵn chỉ đúng cho nước đã làm trong; theo nguyên văn người đọc có thể uống nước chưa đủ an toàn. Đồng thời mâu thuẫn với hướng dẫn Bộ Y tế được chính mục dẫn (phải đun sôi sau khử trùng)."
+  ],
+  "suggested_edits": [
+    "Steps 3: sửa thành \"Không đun được: làm trong nước trước (lọc vải/để lắng), rồi dùng bộ lọc vi lọc kèm viên khử trùng hoặc bộ lọc siêu lọc; viên clo và lọc vi lọc không chắc diệt Cryptosporidium và vi rút. Ưu tiên đun sôi (Bộ Y tế VN yêu cầu đun sôi cả nước đã khử trùng)\". Dựa: Hà Tĩnh \"vẫn phải đun sôi rồi mới uống trực tiếp\"; CDC Table 1.8.3.",
+    "Lợi ích: thêm \"đã làm trong\" khi nêu liều viên, chỉ rõ đây là liều nước sinh hoạt hộ gia đình của Bộ Y tế, không phải liều đi rừng.",
+    "Nói rõ hai hướng dẫn lệch (VN: đun sôi sau khử trùng; CDC: khử trùng hóa chất đủ cho nước ít ô nhiễm) và chọn một cách trình bày nhất quán trong tldr, steps và Bẫy 3.",
+    "Nguồn: thêm bản gốc/số văn bản của Bộ Y tế nếu có, thay vì chỉ trang tỉnh; có thể thêm WHO Boil water technical brief (2015, CDC dẫn)."
+  ]
+}

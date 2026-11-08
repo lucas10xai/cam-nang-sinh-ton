@@ -22,10 +22,10 @@ steps:
   - "Không để người bệnh tự đi bộ hay tự lái xe."
 legal_refs: []
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13aB
+  scope: "Chặn nâng trạng thái: 1 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/chong-mat-dung-khong-vung-nhin-mot-thanh-hai-mot-ben-mat.yml)"
   sources: []
 origin:
   zh: null

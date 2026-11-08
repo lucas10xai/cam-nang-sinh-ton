@@ -1,0 +1,80 @@
+id: vat-sac-nhu-dao-thanh-sat-manh-kinh-dam-vao-nguoi-an
+checker: agent-Vf13hB
+checked_at: 2026-11-08
+content_sha256: "2d80be2a0766f3c24c9bbb0c7aeba18dee7536b5aac6ae9186b1c9ba767facc4"
+result: pass-with-edits
+claims:
+  - text: "Không rút vật đâm ra"
+    source_url: https://benhviennhitrunguong.gov.vn/so-cuu-nan-nhan-co-vet-thuong-chay-mau.html
+    quote: "Nếu các vết thương chảy máu có dị vật như mảnh gỗ, kim loại hoặc bất kỳ vật gì đâm vào và vẫn cắm ở vết thương thì KHÔNG được rút dị vật ra."
+    verdict: match
+    note: "Bệnh viện Nhi Trung ương (2016, sửa 2021), tham khảo St John New Zealand. Không thuộc AHA/ERC/WHO/CDC/NHS/Bộ Y tế; xem claim tiếp theo."
+  - text: "Không rút vật vì vật đang bịt chỗ rách; ép quanh vật"
+    source_url: https://www.redcross.org.uk/first-aid/learn-first-aid/bleeding-heavily
+    quote: "Do not remove it – it's helping plug the hole and stop the blood flow. Instead, apply pressure around the object. Removing the object from the wound can make the bleeding much worse."
+    verdict: match
+    note: "British Red Cross (tổ chức sơ cứu quốc tế, không nằm trong danh sách nguồn bắt buộc của quy trình). Tóm tắt Việt: không rút vật cắm vì nó đang chèn lỗ thủng; ép quanh vật; rút ra có thể làm chảy máu nặng hơn. Chưa mở được AHA/ERC/NHS cho đoạn này."
+  - text: "Ép mép vết thương sát với dị vật để bịt kín"
+    source_url: https://benhviennhitrunguong.gov.vn/so-cuu-nan-nhan-co-vet-thuong-chay-mau.html
+    quote: "Bịt kín vết thương bằng cách ép mép vết thương sát với dị vật."
+    verdict: match
+    note: ""
+  - text: "Quấn vải/khăn thành vòng đệm quanh vật rồi băng ép, không gây áp lực trực tiếp lên vật"
+    source_url: https://benhviennhitrunguong.gov.vn/so-cuu-nan-nhan-co-vet-thuong-chay-mau.html
+    quote: "Dùng miếng vải vuông hoặc một khăn tam giác quấn lại thành vòng đệm xung quanh dị vật, sau đó dùng băng ép lại như với vết thương không có dị vật, chú ý không gây áp lực trực tiếp lên dị vật."
+    verdict: match
+    note: ""
+  - text: "Không băng quá chặt như ga rô"
+    source_url: https://benhviennhitrunguong.gov.vn/so-cuu-nan-nhan-co-vet-thuong-chay-mau.html
+    quote: "Dùng băng cuộn hoặc dây vải băng ép miếng gạc hoặc miếng vải vào vết thương. Không băng quá chặt như hình thức ga rô."
+    verdict: partial
+    note: "Câu nằm trong mục “Nâng cao vùng bị tổn thương”, không phải mục vết thương đâm xuyên (mục 3). Nguồn dùng cho vết thương thông thường; mục lại ghép vào step 3 vật cắm. Tourniquet vẫn được các hướng dẫn quốc tế dùng khi chảy máu đe dọa tính mạng ở tay chân mà ép trực tiếp không cầm được (xem potential_harm)."
+  - text: "Gọi 115 càng sớm càng tốt (step 4)"
+    source_url: https://benhviennhitrunguong.gov.vn/so-cuu-nan-nhan-co-vet-thuong-chay-mau.html
+    quote: "Nếu vết thương nặng hay tình trạng nạn nhân xấu thì gọi cấu cứu 115 càng sớm càng tốt."
+    verdict: partial
+    note: "Nguồn gắn lời gọi 115 với điều kiện “vết thương nặng hay tình trạng nạn nhân xấu”; mục đặt 115 ở bước cuối. British Red Cross xếp “Call 999” ở bước 2, ngay sau khi ép chảy máu, và không để cuối."
+  - text: "Giữ người bị thương yên tại chỗ"
+    source_url: https://benhviennhitrunguong.gov.vn/so-cuu-nan-nhan-co-vet-thuong-chay-mau.html
+    quote: "Kể cả khi bị thương ở tay hay nửa trên của người, bệnh nhân cũng cần được nghỉ ngơi trong tư thế thuận tiện ít nhất 10 phút để giúp cầm máu."
+    verdict: partial
+    note: "Nguồn nói “nghỉ ngơi tuyệt đối ... ít nhất 10 phút”, không nói “giữ yên tại chỗ chờ 115” cho vật cắm."
+  - text: "Không tự chở bằng xe máy"
+    source_url: https://benhviennhitrunguong.gov.vn/so-cuu-nan-nhan-co-vet-thuong-chay-mau.html
+    quote: "Nếu vết thương nhỏ và nạn nhân có thể di chuyển bằng ô tô xe máy thông thường thì chuyển ngay nạn nhân tới cơ sở y tế gần đó."
+    verdict: inference
+    note: "Không có câu nào trong nguồn cấm chở bằng xe máy cho vết thương có vật cắm; mục tự suy ra (Bẫy 3 nói “mọi rung lắc làm nó ngoáy trong thịt”, không nguồn). Hợp lý về y khoa nhưng phải dán nhãn “suy ra”. Nguồn còn chỉ ra chuyển ngay bằng xe thường chỉ cho vết thương nhỏ."
+  - text: "Vật ở bụng hay ngực thì để nguyên, không ấn lên vật"
+    source_url: https://benhviennhitrunguong.gov.vn/so-cuu-nan-nhan-co-vet-thuong-chay-mau.html
+    quote: ""
+    verdict: inference
+    note: "Nguồn không đề cập vị trí bụng/ngực. Nguyên tắc chung (không rút, không ấn lên vật) áp dụng, nhưng riêng thủ thuật “bịt kín” vết thương ở ngực chưa có nguồn."
+internal_checks:
+  - issue: "Thân Lợi ích trích đúng nguồn nhưng bỏ điều kiện “khi vết thương nặng” ở câu gọi 115 (nguồn); steps/tldr đặt 115 ở cuối. Thứ tự này làm chậm cứu chữa."
+    severity: error
+  - issue: "Steps dùng “ép mép vết thương sát với vật để cầm máu” (step 2) và “quấn vòng đệm quanh vật” (step 3) như hai bước tuần tự, trong khi nguồn gom thành một quy trình; không mâu thuẫn nhưng người đọc có thể không biết làm trước làm sau."
+    severity: warn
+  - issue: "Bẫy 1 và Bẫy 3 (“rút ra để xem sâu bao nhiêu”, “xe máy làm vật ngoáy”) không có nguồn; Chi phí không có con số nào."
+    severity: warn
+  - issue: "Không có legal_refs (đúng, mục y tế). Nguồn duy nhất là trang bệnh viện nhi (tham khảo St John NZ), không phải AHA/ERC/Bộ Y tế. Hướng dẫn cho trẻ em/ người lớn chưa phân biệt."
+    severity: warn
+  - issue: "Mục không nêu ngoại lệ: vật cắm làm tắc đường thở (má, miệng, họng) hoặc cản trở ép tim khi ngừng tuần hoàn. Tôi chưa mở nguồn AHA/ERC/Red Cross Mỹ để trích nguyên văn ngoại lệ này; ghi cần kiểm."
+    severity: warn
+validity:
+  doc: "Hướng dẫn sơ cứu chảy máu, Bệnh viện Nhi Trung ương (đăng 24/09/2016, sửa 14/07/2021), tham khảo St John (New Zealand)"
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: "Hướng dẫn y tế không có ngày hiệu lực. Trang đăng 2016, chỉnh 2021 (meta modified_time 2021-07-14), cũ hơn 5 năm. British Red Cross (trang còn hoạt động, chưa thấy ngày sửa) có cùng nguyên tắc không rút vật. Chưa kiểm AHA/ERC mới nhất."
+deliberate_vn_deviation:
+  - "Nguồn VN (BV Nhi TW) dặn “Không băng quá chặt như hình thức ga rô” như quy tắc chung; hướng dẫn quốc tế gần đây (Red Cross, PAcT kit của British Red Cross) dùng tourniquet cho chảy máu đe dọa tính mạng ở tay chân khi ép trực tiếp không cầm được. Quy tắc VN này đến từ tài liệu cũ (2016)."
+potential_harm:
+  - "Step 3 “không băng chặt như ga rô” viết vô điều kiện. Nếu vật cắm ở tay/chân và máu phun/chảy ồ ạt không cầm được bằng ép quanh vật, người đọc có thể không dùng garô theo hướng dẫn quốc tế và để mất máu nguy kịch. Cần điều kiện: nếu cầm không được, gọi 115 và làm theo tổng đài viên; garô chỉ khi được hướng dẫn hoặc đã học."
+  - "Step 4 đặt “Gọi 115” ở cuối. Vật cắm sâu là vết thương nặng; làm đúng thứ tự có thể trì hoãn gọi cấp cứu. Nên gọi 115 ngay (bật loa) khi bắt đầu ép."
+  - "Step 1 “không tự chở bằng xe máy” không nguồn, nếu 115 không tới được (vùng xa) người đọc không biết lựa chọn thay thế; nguồn nói vết thương nhỏ thì chuyển ngay bằng xe thường."
+  - "Thiếu ngoại lệ: vật cắm làm tắc đường thở hoặc cản trở ép tim khi ngừng tuần hoàn (chưa kiểm nguồn nên không khẳng định nguyên văn)."
+suggested_edits:
+  - "Steps: đổi thứ tự, đưa “Gọi 115 ngay (bật loa) rồi mới ép quanh vật”, dựa trên British Red Cross: “Step 2. Call 999.” và nguồn BV Nhi: “gọi cấp cứu 115 càng sớm càng tốt”."
+  - "Step 3: sửa thành “băng ép đủ chặt để cầm máu nhưng không chặn hết máu cả chi như dây buộc; nếu máu vẫn chảy ồ ạt từ tay/chân, nói với tổng đài 115 và làm theo hướng dẫn của họ (có thể phải dùng garô)”."
+  - "Step 1: bỏ “không tự chở bằng xe máy” hoặc dán nhãn “suy ra” và nêu điều kiện (chỉ khi 115 không đến được thì chở bằng phương tiện êm nhất, giữ vật cố định)."
+  - "Nguồn: thêm một hướng dẫn trong danh sách bắt buộc (AHA/ERC/NHS/WHO) cho đoạn vật cắm và ngoại lệ đường thở/ép tim; hiện chỉ có BV Nhi TW và British Red Cross."

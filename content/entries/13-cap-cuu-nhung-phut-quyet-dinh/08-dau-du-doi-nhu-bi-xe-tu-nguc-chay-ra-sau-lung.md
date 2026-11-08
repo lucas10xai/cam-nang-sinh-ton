@@ -23,10 +23,10 @@ steps:
 legal_refs:
   - { doc: "Quyết định 636/QĐ-BYT ngày 21/02/2025 (Tài liệu huấn luyện sơ cứu, cấp cứu tại nơi làm việc)", article: "mục 4.6 (xe cấp cứu 115)", url: "https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13bB
+  scope: "Chặn nâng trạng thái: 2 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/dau-du-doi-nhu-bi-xe-tu-nguc-chay-ra-sau-lung.yml)"
   sources: []
 origin:
   zh: null

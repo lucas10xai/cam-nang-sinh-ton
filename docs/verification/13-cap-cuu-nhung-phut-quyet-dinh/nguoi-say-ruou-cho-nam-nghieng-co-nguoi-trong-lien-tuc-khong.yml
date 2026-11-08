@@ -1,0 +1,92 @@
+id: nguoi-say-ruou-cho-nam-nghieng-co-nguoi-trong-lien-tuc-khong
+checker: agent-Vf13jA
+checked_at: 2026-11-08
+content_sha256: "559058e4e06f10f54a583574ef49747bae896667029153cef210fe7629de99ab"
+result: pass-with-edits
+claims:
+  - text: "Đặt người say nằm nghiêng sang bên phải (tư thế nghiêng an toàn) để dẫn lưu đờm dãi, hạn chế hít vào phổi khi nôn"
+    source_url: https://bachmai.gov.vn/bai-viet/8-dau-hieu-cua-nguoi-say-ruou-can-nhap-vien-ngay?id=40c426de-8996-f44c-dc28-346659b6bf98
+    quote: "sau khi uống rượu, bị say cần đặt người say nằm nghiêng sang bên phải. Đây là tư thế nghiêng an toàn, có tác dụng dẫn lưu đờm dãi ra ngoài, hạn chế nguy cơ hít vào phổi, đặc biệt trong trường hợp bệnh nhân bị nôn."
+    verdict: match
+    note: "Nguồn trong nước. ERC/AHA không bắt buộc phải là bên phải (chỉ cần nằm nghiêng, miệng thấp); không gây hại."
+  - text: "Cứ vài giờ đánh thức người say dậy để tránh hôn mê mà không biết"
+    source_url: https://bachmai.gov.vn/bai-viet/8-dau-hieu-cua-nguoi-say-ruou-can-nhap-vien-ngay?id=40c426de-8996-f44c-dc28-346659b6bf98
+    quote: "Trong khi để bệnh nhân nằm nghiêng, cứ vài giờ phải đánh thức bệnh nhân dậy, tránh bị hôn mê mà không biết."
+    verdict: match
+    note: ""
+  - text: "Đặt nằm nghiêng sang phải, ĐẦU KÊ CAO (steps[0], Nói dễ hiểu, và gán cho Bạch Mai ở mục Lợi ích)"
+    source_url: https://bachmai.gov.vn/bai-viet/8-dau-hieu-cua-nguoi-say-ruou-can-nhap-vien-ngay?id=40c426de-8996-f44c-dc28-346659b6bf98
+    quote: "Không có câu nào trong bài Bạch Mai nói 'đầu kê cao'; bài chỉ nói 'đặt người say nằm nghiêng sang bên phải'."
+    verdict: not-found
+    note: "Chi tiết 'đầu kê cao' do người soạn thêm. NHS còn nói 'sit them up if they're awake, or put them in the recovery position if they've passed out' - không có kê gối cho người bất tỉnh. Với người say sắp mất ý thức, gối kê cao có thể gập cổ, làm tắc đường thở."
+  - text: "Dấu hiệu phải đưa vào viện: bất tỉnh, co giật, thở khò khè/ứ đờm/thở yếu/không đều/chậm, da môi móng tím hoặc nhợt lạnh, đái ỉa ra quần"
+    source_url: https://bachmai.gov.vn/bai-viet/8-dau-hieu-cua-nguoi-say-ruou-can-nhap-vien-ngay?id=40c426de-8996-f44c-dc28-346659b6bf98
+    quote: "- Tê, yếu chân tay một bên chân tay hoặc một bên mặt, nói ngọng trong khi đã tỉnh táo. ... - Nhìn mờ, nhìn một vật thành hai. - Nôn nhiều, đau bụng, bụng chướng."
+    verdict: partial
+    note: "Nguồn có 8 dấu hiệu; mục chỉ nêu 5 (bất tỉnh, co giật, thở, da tím, đái ỉa). Thiếu: tê/yếu một bên hoặc nói ngọng khi tỉnh (đột quỵ/chấn thương đầu), nhìn mờ/nhìn đôi (dấu hiệu gợi ý ngộ độc methanol, nguồn nhắc rượu giả), nôn nhiều/đau bụng/chướng bụng, đái ít. tldr và steps[3] chỉ có 4 dấu hiệu nên người đọc có thể bỏ sót."
+  - text: "Co giật: gọi 115; nguồn dặn khi co giật giữ nằm nghiêng, không để va đập, không cho vật cứng vào miệng, thở yếu/tím tái thì hô hấp nhân tạo"
+    source_url: https://bachmai.gov.vn/bai-viet/8-dau-hieu-cua-nguoi-say-ruou-can-nhap-vien-ngay?id=40c426de-8996-f44c-dc28-346659b6bf98
+    quote: "Co giật. Khi bệnh nhân bị co giật, giữ tư thế nằm nghiên an toàn. Không để người bệnh ngã hoặc va đập vào các vật cứng, không cho các vật cứng vào miệng. Quan sát kỹ người bệnh, nếu thở yếu, ngừng thở hoặc tím tái thì hô hấp nhân tạo."
+    verdict: partial
+    note: "Mục chỉ ghi 'co giật thì gọi 115', bỏ hướng dẫn trong lúc chờ (không nhét vật vào miệng, nằm nghiêng). Nguồn chỉ nói 'đưa đến cơ sở y tế', không nói 'gọi 115'; việc gọi 115 là suy ra hợp lý."
+  - text: "Mức cồn trong máu 200 đến 400 mg/dL đã gây ức chế hô hấp, thở yếu, giảm thân nhiệt và hôn mê"
+    source_url: https://bachmai.gov.vn/bai-viet/8-dau-hieu-cua-nguoi-say-ruou-can-nhap-vien-ngay?id=40c426de-8996-f44c-dc28-346659b6bf98
+    quote: "Từ 200 – 400mg/dL, người say bị ức chế hô hấp, thở yếu, thở chậm, ngừng thở, thở khò khè, ứ đọng đờm dãi, ho hoặc khạc yếu, giảm thân nhiệt (da lạnh), đái ỉa ra quần, tụt huyết áp, hôn mê."
+    verdict: match
+    note: "Bài ghi 'nồng độ rượu trong máu', đơn vị mg/dL, đúng như mục."
+  - text: "Đắp chăn cho người say, nhất là nơi lạnh; người say nằm nơi lạnh dễ hạ thân nhiệt"
+    source_url: https://www.nhs.uk/conditions/alcohol-poisoning/
+    quote: "keep them warm with a jacket or blanket"
+    verdict: match
+    note: "Bản NHS (xem lại 04/06/2026). Bạch Mai chỉ nói 'giảm thân nhiệt (da lạnh)' ở mức cồn 200-400, không hướng dẫn đắp chăn. Phần 'mở cửa sổ' trong steps[2] là cách nói khó hiểu, nên bỏ."
+  - text: "Bẫy 2: đổ cà phê, dội nước lạnh, bắt đi bộ cho tỉnh không làm giảm cồn và còn gây hại"
+    source_url: https://www.nhs.uk/conditions/alcohol-poisoning/
+    quote: "do not give them coffee or drinks containing caffeine because this can dehydrate people with alcohol poisoning; do not put them in a cold shower or bath because there's a risk they could get too cold, fall or lose consciousness in the water"
+    verdict: partial
+    note: "NHS khớp cà phê và tắm nước lạnh. 'Bắt đi bộ' và vế 'không làm giảm lượng cồn trong máu' không có trong NHS hay Bạch Mai: suy ra. Tóm tắt Việt: không cho cà phê (mất nước), không tắm nước lạnh (lạnh, ngã, mất ý thức)."
+  - text: "Người còn tỉnh, gọi dậy được, thở đều thì trông tại nhà (Ghi chú)"
+    source_url: https://www.nhs.uk/conditions/alcohol-poisoning/
+    quote: "Call 999 if: you think someone has alcohol poisoning"
+    verdict: inference
+    note: "Không nguồn nào dặn 'trông tại nhà nếu còn tỉnh và thở đều'. Bạch Mai chỉ nêu ngưỡng 8 dấu hiệu để đưa đi viện; NHS gọi cấp cứu ngay khi nghi ngộ độc rượu. Tóm tắt Việt: NHS bảo gọi 999 nếu nghi ngộ độc rượu."
+  - text: "Gọi cấp cứu 115: bấm số 115 trên điện thoại"
+    source_url: https://ttcc115.medinet.gov.vn/trung-tam-cap-cuu-115-tphcm-cm7/Contact.aspx
+    quote: "Để gọi cấp cứu, nhấn số 115 trên điện thoại"
+    verdict: match
+    note: "Trang Trung tâm cấp cứu 115 TP.HCM. Chú ý: mục 13-49 viết 113 hoặc 115 do Thông tư 42/2026/TT-BYT (hiệu lực 01/11/2026); mục này chỉ ghi 115 (xem internal_checks)."
+  - text: "Da lạnh tím thì gọi 115"
+    source_url: https://bachmai.gov.vn/bai-viet/8-dau-hieu-cua-nguoi-say-ruou-can-nhap-vien-ngay?id=40c426de-8996-f44c-dc28-346659b6bf98
+    quote: "Da, môi, móng tay tím tái hoặc nhợt, lạnh."
+    verdict: match
+    note: ""
+internal_checks:
+  - issue: "steps[0], 'Nói dễ hiểu' và mục Lợi ích ghi 'đầu kê cao' và gán cho hướng dẫn Bạch Mai ngày 03/02/2017, nhưng bài Bạch Mai không có chi tiết này."
+    severity: error
+  - issue: "tldr/steps[3] liệt kê 4 dấu hiệu gọi 115, mục Lợi ích 5 dấu hiệu, nguồn có 8. Ba nhóm dấu hiệu bị bỏ (yếu liệt một bên/nói ngọng; nhìn mờ/nhìn đôi; nôn nhiều/đau bụng/chướng) gồm các dấu hiệu gợi ý đột quỵ hoặc ngộ độc methanol."
+    severity: error
+  - issue: "'Gọi không tỉnh, thở chậm...' dùng '115' còn mục 13-49 (cùng chương) dùng '113 hoặc 115' theo Thông tư 42/2026/TT-BYT hiệu lực 01/11/2026 và nói người dân vẫn gọi được cả 113/114/115. Mục này không nhắc đến 113 nên hai mục lệch nhau."
+    severity: warn
+  - issue: "Đoạn 'đánh thức vài giờ một lần' dễ bị hiểu là chỉ cần kiểm tra mỗi vài giờ; đã có câu 'trông liên tục' nhưng steps[2] đặt hai việc cạnh nhau, cần nói rõ: người trông phải để ý hơi thở liên tục, còn đánh thức là kiểm tra thêm."
+    severity: warn
+  - issue: "Phần Nguồn ghi 'Tra ngày 3/11/2026' đã đúng mốc; con số 200-400 mg/dL có trong thân, không có số nào trong tldr/steps vắng mặt trong thân."
+    severity: warn
+validity:
+  doc: "Bệnh viện Bạch Mai, Trung tâm chống độc (03/02/2017), bài báo y học thường thức; Trung tâm cấp cứu 115 TP.HCM (trang liên hệ)"
+  in_force: unconfirmed
+  effective_from: "2017-02-03"
+  amended_by: []
+  basis: "Hướng dẫn y tế không có ngày hiệu lực. Bài Bạch Mai ban hành 03/02/2017 (9 năm trước), thực chất là bài báo lại từ Dân trí, không phải văn bản hướng dẫn chính thức của Bộ Y tế. NHS (rà soát 04/06/2026) khuyên gọi 999 ngay khi nghi ngộ độc rượu, ngưỡng thấp hơn mục này. Không tìm được hướng dẫn mới hơn của Bộ Y tế/AHA/ERC về người say rượu."
+deliberate_vn_deviation:
+  - "Bạch Mai: đưa đi viện khi có 1 trong 8 dấu hiệu; NHS: gọi 999 khi nghi ngộ độc rượu, và dặn không cho ăn (Bạch Mai dặn cho ăn cháo loãng nếu tỉnh). Mục này theo Bạch Mai và còn thêm câu trông tại nhà nếu còn tỉnh (suy ra)."
+  - "Bạch Mai dặn 'nghiêng sang bên phải'; ERC/AHA chỉ cần tư thế nằm nghiêng có miệng thấp, không quy định bên."
+potential_harm:
+  - "steps[0] 'đầu kê cao': nếu người đọc kê gối cao cho người say đang buồn ngủ/bất tỉnh, cổ có thể gập và làm tắc đường thở; nguồn không có chi tiết này."
+  - "tldr/steps[3] bỏ các dấu hiệu nhìn mờ/nhìn đôi, yếu liệt một bên, nói ngọng, nôn nhiều/đau bụng: người nhà có thể 'trông tại nhà' khi thực ra là ngộ độc rượu giả pha methanol hoặc đột quỵ/chấn thương đầu."
+  - "Ghi chú 'người còn tỉnh, gọi dậy được, thở đều thì trông tại nhà' là suy ra, không có nguồn; NHS khuyên gọi cấp cứu ngay khi nghi ngộ độc rượu."
+suggested_edits:
+  - "Xóa 'đầu kê cao' ở steps[0], 'Nói dễ hiểu' và mục Lợi ích (căn cứ: bài Bạch Mai chỉ nói nằm nghiêng sang bên phải)."
+  - "Thêm đủ 8 dấu hiệu của Bạch Mai vào mục Lợi ích và rút gọn vào steps[3]/tldr, ít nhất: yếu liệt một bên hoặc nói ngọng khi tỉnh, nhìn mờ/nhìn đôi, nôn nhiều/đau bụng (căn cứ: danh sách 8 biểu hiện của Bạch Mai)."
+  - "Thêm hướng dẫn khi co giật: giữ nằm nghiêng, không nhét vật vào miệng (căn cứ: quote co giật của Bạch Mai)."
+  - "Đổi câu 'phải trông tại nhà' ở Ghi chú thành ghi nhãn 'suy ra' hoặc bỏ, và thêm 'nghi ngộ độc rượu thì gọi cấp cứu' theo NHS; ghi vào Ghi chú sự khác biệt với NHS."
+  - "Sửa steps[2] 'Đắp chăn, nhất là nơi lạnh hoặc mở cửa sổ' thành 'Đắp chăn, tránh để nơi lạnh' (căn cứ: NHS 'keep them warm')."
+  - "Thống nhất cách ghi số cấp cứu giữa 13-46 và 13-49 (113/115)."

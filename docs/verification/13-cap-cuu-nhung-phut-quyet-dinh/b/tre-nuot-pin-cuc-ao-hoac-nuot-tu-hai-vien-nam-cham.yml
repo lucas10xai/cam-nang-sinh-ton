@@ -1,0 +1,74 @@
+id: tre-nuot-pin-cuc-ao-hoac-nuot-tu-hai-vien-nam-cham
+checker: agent-Vf13iB
+checked_at: 2026-11-08
+content_sha256: 93bba6251088511fbef929da5c2f0b6057c6c912892f6925638935207fe65d32
+result: fail
+claims:
+  - text: Pin cúc áo gây tổn thương nặng chỉ trong vài giờ đầu; cơ chế dòng điện, hydroxyl, tăng pH; thủng thực quản/khí quản/động mạch chủ; có thể tử vong trong vòng 2 giờ
+    source_url: https://vov.gov.vn/noi-soi-cap-cuu-thanh-cong-be-trai-4-tuoi-nuot-phai-pin-cuc-ao-dtnew-1070104
+    quote: “Pin cúc áo có cực âm và cực dương sát nhau, khi nuốt vào trong đường tiêu hoá, gặp nước, dịch nhày sẽ sinh ra dòng điện, giải phóng nhanh và nhiều hydroxyl radical (OH•), tăng nhanh pH, gây ăn mòn mạnh, rất dễ thủng thực quản, thủng lan sang khí quản, động mạch chủ, thủng dạ dày,... trường hợp nặng có thể gây tử vong trong vòng 2 giờ.
+    verdict: match
+    note: VOV 10/03/2025, lời TS.BS Ninh Quốc Đạt. Đúng với "chỉ trong vài giờ đầu" ở đoạn trên cùng bài.
+  - text: "Ca bé trai 4 tuổi: thực quản quanh pin loét hết, phía trên và dưới phù nề chít hẹp"
+    source_url: https://vov.gov.vn/noi-soi-cap-cuu-thanh-cong-be-trai-4-tuoi-nuot-phai-pin-cuc-ao-dtnew-1070104
+    quote: Khi tiến hành nội soi, ekip thấy thực quản chu vi xung quanh pin đã loét hết, phía trên và phía dưới dị vật đều phù nề chít hẹp hết đường ra cũng như đường xuống dạ dày.
+    verdict: match
+    note: Bài nói đã nội soi sau khoảng 3,5 giờ từ lúc nuốt (14h → 17h30 chuyển viện), gắp mất 3 giờ, không mổ mở.
+  - text: BV Nhi TW mổ bé gái bị rò khí - thực quản sau nuốt pin
+    source_url: https://benhviennhitrunguong.gov.vn/phau-thuat-thanh-cong-cuu-song-benh-nhi-ro-khi-thuc-quan-do-nuot-phai-pin.html
+    quote: Các bác sĩ Khoa Ngoại tổng hợp, Bệnh viện Nhi Trung ương đã tiếp nhận và phẫu thuật nội soi thành công, cứu sống bé gái N.M.A (22 tháng tuổi, ở Thái Bình) bị tổn thương thực quản phức tạp do nuốt phải dị vật là pin dạng cúc áo.
+    verdict: partial
+    note: Bài nói bệnh nhi đến muộn (khoảng một tuần ho, khò khè rồi mới chụp X-quang), phẫu thuật nội soi (không phải "mổ cấp cứu" mở) - mục tả "mổ cấp cứu" hơi khác. Không phải khẳng định số liệu then chốt.
+  - text: Không cho ăn, không cho uống nước để "trôi xuống"
+    source_url: https://www.cuh.nhs.uk/patient-information/button-battery-ingestion-in-children-advice-for-parents-and-carers/
+    quote: Prior to arrival at hospital, where there is known or suspected button battery ingestion within the last 12 hours, it is advised that the children over the age of 12 months are given 2 teaspoons (10ml) of honey every 10 minutes.
+    verdict: mismatch
+    note: "NHS (Cambridge University Hospitals, bệnh viện NHS) khuyên: trẻ trên 12 tháng nghi nuốt pin trong 12 giờ qua cho 10 ml mật ong mỗi 10 phút trên đường tới viện. Mục tuyệt đối \"không cho ăn\" - lệch hướng dẫn quốc tế (ESPGHAN/NASPGHAN, Children's Health Queensland cũng khuyến cáo mật ong/sucralfate trong 12 giờ, chưa mở được toàn văn). Mục không nêu hoặc giải thích sự lệch này. Mật ong không dùng cho dưới 12 tháng."
+  - text: "Nuốt từ hai viên nam châm: các viên hút nhau qua thành ruột, hoại tử, thủng; chỉ gắp được ở cơ sở có nội soi + phẫu thuật"
+    source_url: https://www.cuh.nhs.uk/patient-information/button-battery-ingestion-in-children-advice-for-parents-and-carers/
+    quote: Button batteries can get stuck within the food pipe (oesophagus) or the windpipe (trachea or bronchus) and have the potential to cause a hole through the wall of the food pipe or wind pipe, which is a serious complication.
+    verdict: not-found
+    note: Mục không có nguồn nào cho nam châm (mục Nguồn chỉ có VOV và BV Nhi TW đều nói về pin). Tiêu đề, tldr, steps và toàn bộ phần nam châm là khẳng định không có nguồn trong mục. Không mở được ESPGHAN 2026 (Wiley 403) trong thời gian. Quote ở đây chỉ là câu pin, không phải nam châm.
+  - text: Không dừng ở trạm y tế xã/phòng khám không có nội soi; đi thẳng bệnh viện có nội soi
+    source_url: https://vov.gov.vn/noi-soi-cap-cuu-thanh-cong-be-trai-4-tuoi-nuot-phai-pin-cuc-ao-dtnew-1070104
+    quote: Sau 3 giờ nỗ lực, bác sĩ Quách Văn Nam (Khoa Tiêu hoá) cùng ekip đã thành công lấy được dị vật mà không cần can thiệp phẫu thuật mở, giúp bé tránh khỏi nguy cơ thủng thực quản và hồi phục tốt hơn sau can thiệp.
+    verdict: inference
+    note: "Nguồn dẫn không có câu khuyên bỏ qua cơ sở y tế gần nhất; ca VOV thực tế đến bệnh viện gần nhà chụp X-quang rồi chuyển. Đây là suy ra; X-quang xác định vị trí pin (thực quản vs dạ dày) quyết định việc cấp cứu nội soi (NHS: pin đã vào dạ dày có thể theo dõi tại nhà)."
+  - text: Không móc họng, không gây nôn
+    source_url: https://benhviennhitrunguong.gov.vn/lien-tiep-tre-nhap-vien-do-hoc-di-vat-duong-tho-nguoi-lon-can-hoc-ngay-cach-so-cuu-dung.html
+    quote: Tuyệt đối không dùng tay móc dị vật, không gây nôn hoặc cho ăn uống
+    verdict: partial
+    note: Câu này trong bài hóc dị vật đường thở BV Nhi TW (không nằm trong mục Nguồn của mục 45). Không có nguồn nào cho pin/nam châm cụ thể; "đẩy dị vật vào sâu và làm bỏng lan rộng" là suy luận.
+  - text: "Khó thở, tím tái: xử trí hóc dị vật theo mục 43 rồi chuyển viện"
+    source_url: https://benhviennhitrunguong.gov.vn/lien-tiep-tre-nhap-vien-do-hoc-di-vat-duong-tho-nguoi-lon-can-hoc-ngay-cach-so-cuu-dung.html
+    quote: "Nếu trẻ tím tái, không khóc hoặc khóc yếu, ho không hiệu quả. Nhanh chóng gọi cấp cứu và thực hiện các thủ thuật sơ cứu sau:"
+    verdict: inference
+    note: Không nguồn nào nói trẻ nuốt pin mà khó thở thì vỗ lưng/ấn ngực. Pin ở thực quản chèn khí quản gây khó thở không giải được bằng thủ thuật hóc đường thở; chỉ đúng khi pin/dị vật đang ở đường thở. Đây là suy ra; cần gọi 115 ngay.
+internal_checks:
+  - issue: (a) "tử vong trong 2 giờ" có trong thân và nguồn VOV. Số "2 viên" nam châm không có nguồn.
+    severity: error
+  - issue: '(c) steps 1-4: bước "Mang theo chiếc pin cùng loại" không có nguồn trong thân/mục Nguồn; phần nam châm toàn bộ không có nguồn.'
+    severity: error
+  - issue: 'Thân nói "Gia đình không mất tiền" nhưng sau đó nói trả tiền chụp phim, nội soi: mâu thuẫn nhẹ (chi phí đi viện nói là 0 trong frontmatter money: "0").'
+    severity: warn
+  - issue: Mục Nguồn chỉ có 2 nguồn (báo VOV và tin bệnh viện); không có hướng dẫn gốc của Bộ Y tế/WHO/AAP/ESPGHAN/NASPGHAN. EDITORIAL §3.5 không chấp nhận báo làm nguồn duy nhất.
+    severity: error
+validity:
+  doc: "Không có văn bản hướng dẫn: nguồn là tin báo VOV 10/03/2025 và tin Bệnh viện Nhi Trung ương; đối chiếu NHS (Cambridge University Hospitals)"
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: Không có hướng dẫn chính thức của Bộ Y tế được dẫn. Chưa mở được ESPGHAN 2026, AAP, NPIS (403/không tìm).
+deliberate_vn_deviation:
+  - Mật ong cho trẻ ≥12 tháng (≤12 giờ sau nuốt pin) hoặc sucralfate theo NHS/ESPGHAN/NASPGHAN; mục ghi tuyệt đối "không cho ăn", nguồn VN không đề cập. Mục không nêu đây là sự lệch có chủ ý.
+potential_harm:
+  - '"Không cho ăn... không cho uống" vô điều kiện: bỏ qua biện pháp giảm tổn thương trước viện theo NHS (mật ong 10 ml mỗi 10 phút cho trẻ >12 tháng nghi nuốt pin ≤12 giờ, không chậm đi viện). Làm theo nguyên văn không gây hại trực tiếp nhưng bỏ biện pháp được khuyến cáo.'
+  - 'Phần nam châm không có nguồn: số "hai viên trở lên", "không đợi tự thải" và "gắp chỉ ở cơ sở có nội soi cùng phẫu thuật" chưa kiểm. Hướng dẫn quốc tế còn nêu 1 nam châm kèm vật kim loại cũng nguy hiểm. Người đọc nuốt 1 nam châm có thể bị trấn an sai.'
+  - 'Step 4 "khó thở, tím tái: xử trí hóc dị vật theo mục 43" có thể làm người đọc vỗ lưng/ấn ngực trên trẻ có pin ở thực quản chèn ép khí quản, mất thời gian cấp cứu; nên là gọi 115/đi ngay, chỉ làm thủ thuật nếu dị vật gây tắc đường thở.'
+  - Step 1 "không dừng ở trạm y tế xã" có thể làm người đọc bỏ qua chụp X-quang ở nơi gần nhất (cần để xác định vị trí pin), chậm trong 2 giờ; không nói gọi 115/xe cấp cứu.
+suggested_edits:
+  - Thêm nguồn gốc cho nam châm (ESPGHAN/NASPGHAN/AAP/NHS) hoặc bỏ nam châm khỏi tiêu đề/steps; chưa có nguồn thì không công bố phần này.
+  - 'Step 2: thay "không cho ăn" bằng: "Không gây nôn. Nếu trẻ từ 12 tháng trở lên, mới nuốt trong 12 giờ, không khó thở, có thể cho 10 ml (2 thìa cà phê) mật ong mỗi 10 phút (tối đa 6 lần) trên đường đi viện, không được vì thế mà chậm trễ" hoặc nêu rõ là VN không hướng dẫn và để bác sĩ quyết (dựa vào quote CUH "it is advised that the children over the age of 12 months are given 2 teaspoons (10ml) of honey every 10 minutes").'
+  - 'Step 4: đổi thành "Trẻ khó thở, thở rít, tím tái: gọi 115 ngay; chỉ làm thủ thuật hóc dị vật (mục 43) nếu trẻ không khóc/không ho được".'
+  - 'Step 1: thêm "gọi 115 nếu xa" và "chụp X-quang xác định vị trí pin"; sửa "không dừng ở trạm y tế" thành "chuyển ngay tới nơi có chụp X-quang và nội soi, không chờ quan sát".'
+  - 'Thân: gắn nhãn "suy luận" cho "đẩy dị vật vào sâu và làm bỏng lan rộng" và các câu về nam châm; sửa mâu thuẫn "không mất tiền".'

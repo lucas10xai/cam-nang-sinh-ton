@@ -24,10 +24,10 @@ situations: []
 legal_refs:
   - { doc: "Nghị định 200/2025/NĐ-CP", article: "Điều 3 khoản 4", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/200-ndcp.signed.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13fB
+  scope: "Chặn nâng trạng thái: result=fail, 5 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/run-ray-noi-ngong-di-loang-choang-la-ha-than-nhiet-thay.yml)"
   sources: []
 origin:
   zh: null

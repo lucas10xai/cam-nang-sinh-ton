@@ -1,0 +1,78 @@
+id: dau-du-doi-nhu-bi-xe-tu-nguc-chay-ra-sau-lung
+checked_at: 2026-11-08
+content_sha256: "928950ca07c9cb07a446a803fed1a0d91c9f28e38a703275d29f0c526e749c55"
+checker: agent-Vf13bA
+result: pass-with-edits
+claims:
+  - text: "Lóc tách động mạch chủ loại A cấp tính là bệnh lý tim mạch rất nặng, phải được chẩn đoán và phẫu thuật cấp cứu kịp thời"
+    source_url: https://benhvienvietduc.org/8-gio-pha%CC%83u-thua%CC%A3t-mang-su%CC%A3-song-cho-be%CC%A3nh-nhan-bi%CC%A3-loc-tach-do%CC%A3ng-ma%CC%A3ch-chu%CC%89-nhieu-bien-chung-nguy-ki%CC%A3ch-2.html
+    quote: "lóc động mạch chủ loại A cấp tính là bệnh lý tim mạch rất nặng, đe dọa tính mạng người bệnh, nên đòi hỏi phải được chẩn đoán và phẫu thuật cấp cứu kịp thời."
+    verdict: match
+    note: "Bài đăng lại từ Báo Sức khỏe & Đời sống, ngày 09/08/2019 trên trang Bệnh viện Hữu nghị Việt Đức, lời PGS.TS Nguyễn Hữu Ước. Nguồn là bài báo/truyền thông bệnh viện, không phải hướng dẫn BYT."
+  - text: "Khi đã chẩn đoán thì chuyển ngay tới bệnh viện có khả năng phẫu thuật, tránh đi qua nhiều tuyến trung gian"
+    source_url: https://benhvienvietduc.org/8-gio-pha%CC%83u-thua%CC%A3t-mang-su%CC%A3-song-cho-be%CC%A3nh-nhan-bi%CC%A3-loc-tach-do%CC%A3ng-ma%CC%A3ch-chu%CC%89-nhieu-bien-chung-nguy-ki%CC%A3ch-2.html
+    quote: "Khi đã chẩn đoán lóc động mạch chủ type A cấp tính, người bệnh cần được chuyển ngay đến các bệnh viện có khả năng phẫu thuật, tránh phải trải qua nhiều tuyến trung gian, kéo dài thời gian làm nguy hiểm đến tính mạng"
+    verdict: partial
+    note: "Lời khuyên áp dụng cho người ĐÃ ĐƯỢC CHẨN ĐOÁN type A (bác sĩ chuyển viện). Tldr/steps chuyển thành lời dặn người nhà chưa có chẩn đoán: 'đừng ghé tuyến gần', 'yêu cầu đưa thẳng tới bệnh viện mổ được' - mở rộng so với nguồn."
+  - text: "Bệnh viện này đã mổ cấp cứu thường quy hơn 250 ca trong gần 10 năm; những năm gần đây thành công trên 90%"
+    source_url: https://benhvienvietduc.org/8-gio-pha%CC%83u-thua%CC%A3t-mang-su%CC%A3-song-cho-be%CC%A3nh-nhan-bi%CC%A3-loc-tach-do%CC%A3ng-ma%CC%A3ch-chu%CC%89-nhieu-bien-chung-nguy-ki%CC%A3ch-2.html
+    quote: "đã thực hiện phẫu thuật cấp cứu thường quy điều trị lóc động mạch chủ loại A cho hơn 250 bệnh nhân trong gần 10 năm trở lại đây, nhiều nhất ở miền Bắc, với tỷ lệ thành công tới hơn 90% trong những năm gần đây"
+    verdict: match
+    note: "Số liệu tính đến 2019, không cập nhật đến 2026."
+  - text: "Cơn đau điển hình: đau ngực dữ dội như dao đâm hay như xé ngực, xuyên ra sau lưng, kéo dài nhiều giờ"
+    source_url: https://www.vinmec.com/vie/benh/loc-tach-dong-mach-chu-2993
+    quote: "Đau ngực thường dữ dội, như dao đâm hay như xé ngực, xuyên ra sau lưng, kéo dài trong nhiều giờ."
+    verdict: match
+    note: "Vinmec là bệnh viện tư; trang không ghi ngày. Là bài kiến thức bệnh, không phải hướng dẫn BYT/AHA."
+  - text: "Chụp cắt lớp vi tính đa dãy dựng hình động mạch chủ là cách chẩn đoán chính xác nhất"
+    source_url: https://www.vinmec.com/vie/benh/loc-tach-dong-mach-chu-2993
+    quote: "Chụp cắt lớp vi tính đa dãy có dựng hình động mạch chủ: là phương pháp chẩn đoán chính xác nhất."
+    verdict: match
+    note: ""
+  - text: "Nói rõ: đau dữ dội như bị xé, từ ngực chạy ra sau lưng và xuống thắt lưng (steps[1], Bẫy 3)"
+    source_url: https://www.vinmec.com/vie/benh/loc-tach-dong-mach-chu-2993
+    quote: "Đau ngực thường dữ dội, như dao đâm hay như xé ngực, xuyên ra sau lưng, kéo dài trong nhiều giờ."
+    verdict: partial
+    note: "Cả hai nguồn không có 'xuống thắt lưng'; thân mục cũng chỉ nói 'ra sau lưng'. Thêm chi tiết không có nguồn."
+  - text: "Gọi 115 nhưng chỉ nói 'đau ngực' thì tổng đài không xếp vào nhóm tối khẩn (Bẫy 3)"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: "Gọi cấp cứu 115 để được tư vấn, cấp cứu và vận chuyển nạn nhân đến bệnh viện hoặc cơ sở y tế gần nhất."
+    verdict: not-found
+    note: "Không nguồn nào nói về cách tổng đài 115 phân loại cuộc gọi. QĐ 636 (mục 4.2) chỉ nói gọi 115 để được tư vấn, cấp cứu, vận chuyển 'đến bệnh viện hoặc cơ sở y tế gần nhất' (OCR đã sửa dấu)."
+  - text: "115 là số cấp cứu y tế dành cho xe cấp cứu (mục 4.6, Quyết định 636/QĐ-BYT 2025)"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: "Người bị đặt ga-rô phải được nhanh chóng chuyển đến bệnh viện, tốt nhất là vận chuyển bằng xe cấp cứu 115."
+    verdict: match
+    note: "Mục 4.6 là 'Phương pháp đặt ga-rô': câu trên đúng chữ (lớp chữ PDF là OCR lỗi dấu, đã chuẩn hóa) và chỉ nhắc 115 qua loa. Câu rõ hơn nằm ở mục 4.2 'Kêu gọi sự trợ giúp': 'Gọi cấp cứu 115 để được tư vấn, cấp cứu và vận chuyển nạn nhân đến bệnh viện'. Quyết định ký 21/02/2025, 136 trang."
+  - text: "Đối chiếu quốc tế: lóc tách type A cấp cần mổ khẩn, không phải mọi lóc tách (type B không biến chứng điều trị nội khoa ban đầu)"
+    source_url: https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2022/11/01/12/21/2022-guideline-on-aortic-disease-2-gl-ad
+    quote: "Medical therapy is recommended as the initial management in patients with uncomplicated acute type B dissection."
+    verdict: partial
+    note: "ACC/AHA 2022 Aortic Disease Guideline (bản tóm tắt ACC). Tóm tắt Việt: lóc type B không biến chứng ban đầu dùng thuốc, không mổ. Tiêu đề/steps 'bệnh viện mổ được động mạch chủ' đúng cho type A nhưng người đọc không tự phân biệt được type; tài liệu quốc tế cũng nói ổn định huyết áp/nhịp tim (SBP<120, HR 60-80) ngay: không phải việc người nhà."
+internal_checks:
+  - issue: "steps[1] và Bẫy 3 có 'xuống thắt lưng' nhưng không nguồn nào có (thân chỉ có 'ra sau lưng')."
+    severity: warn
+  - issue: "Khẳng định 'đừng ghé tuyến gần' (tldr, steps[3]) và 'đúng cái mà bác sĩ Việt Đức khuyên tránh' (Bẫy 2) dựa trên câu Việt Đức nói về người ĐÃ chẩn đoán type A; người đọc chưa có chẩn đoán."
+    severity: error
+  - issue: "Bẫy 3 'tổng đài không xếp vào nhóm tối khẩn' và Ghi chú 'Việt Đức là tuyến cuối về phẫu thuật tim mạch' không có nguồn."
+    severity: warn
+  - issue: "Mục dùng đề mục 'Pháp luật Việt Nam' để dẫn QĐ 636 về số 115 (không phải luật); QĐ 636 mục 4.6 là ga-rô. Cột mốc cập nhật: số liệu >250 ca/90% là của năm 2019."
+    severity: warn
+  - issue: "Chi phí ('vài giờ nằm chờ ở phòng cấp cứu') không có nguồn."
+    severity: warn
+validity:
+  doc: "Bệnh viện Hữu nghị Việt Đức (bài 09/08/2019) + Vinmec + Quyết định 636/QĐ-BYT ngày 21/02/2025"
+  in_force: unconfirmed
+  effective_from: "2025-02-21"
+  amended_by: []
+  basis: "Hai nguồn y khoa chính là bài báo/truyền thông bệnh viện, không có 'ngày hiệu lực'; không thấy hướng dẫn mới mâu thuẫn nhưng mục tự ghi chưa có hướng dẫn BYT riêng về lóc tách động mạch chủ. Không mở được trang tình trạng hiệu lực QĐ 636. Hướng dẫn quốc tế mới hơn tồn tại: ACC/AHA 2022 Aortic Disease Guideline (Circulation 2022;146:e334)."
+deliberate_vn_deviation: []
+potential_harm:
+  - "Lời dặn 'đừng ghé tuyến gần' / 'yêu cầu đưa thẳng tới bệnh viện mổ được động mạch chủ' cho người chưa chẩn đoán: nếu bệnh viện mổ được ở xa hoặc người bệnh sốc/huyết áp tụt, đi thẳng có thể làm chậm cứu chữa; nguồn Việt Đức chỉ khuyên chuyển thẳng sau chẩn đoán, và quyết định điểm đến thuộc về 115/bác sĩ cấp cứu."
+  - "Người nhà có thể từ chối đưa vào cơ sở gần nhất để 'yêu cầu' xe chở xa; tài liệu gốc không nói người nhà tự chọn nơi."
+suggested_edits:
+  - "tldr và steps[3]: đổi 'Đừng ghé tuyến gần' thành 'Làm theo hướng dẫn của tổng đài 115 về nơi đến; nếu bác sĩ đã chẩn đoán lóc tách động mạch chủ, đề nghị chuyển thẳng tới nơi mổ được, tránh qua nhiều tuyến trung gian (Việt Đức)'."
+  - "steps[1]: bỏ 'và xuống thắt lưng' hoặc thay bằng 'ra sau lưng' (Vinmec: 'xuyên ra sau lưng')."
+  - "Bẫy 2 và Bẫy 3: bỏ câu 'đúng cái mà bác sĩ Việt Đức khuyên tránh' và 'tổng đài không xếp vào nhóm tối khẩn' (không nguồn), hoặc ghi là suy luận của người soạn."
+  - "Mục 'Pháp luật Việt Nam' đổi tên thành 'Số điện thoại cấp cứu' và dẫn mục 4.2 của QĐ 636 ('Gọi cấp cứu 115 để được tư vấn, cấp cứu và vận chuyển nạn nhân đến bệnh viện') thay cho 4.6 (ga-rô)."
+  - "Bổ sung nguồn quốc tế (ACC/AHA 2022 aortic disease guideline) hoặc ghi rõ đây là nguồn truyền thông bệnh viện, mức B."

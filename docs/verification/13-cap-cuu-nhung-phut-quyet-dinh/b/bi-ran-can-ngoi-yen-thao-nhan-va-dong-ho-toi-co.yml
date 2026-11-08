@@ -1,0 +1,99 @@
+id: bi-ran-can-ngoi-yen-thao-nhan-va-dong-ho-toi-co
+checker: agent-Vf13fB
+checked_at: 2026-11-08
+content_sha256: "9b71b0fb7bba1ff929147da31a78ba7f3e8c671516de2746a9e2e0bfd38d1c5b"
+result: fail
+claims:
+  - text: "Bệnh nhân bị rắn lục cắn có rối loạn đông máu phải được điều trị ở nơi có khả năng truyền máu và có huyết thanh kháng nọc rắn lục"
+    source_url: https://benhvientinh.quangtri.gov.vn/vi/news/kien-thuc-y-khoa/chan-doan-va-dieu-tri-ran-luc-duoi-do-can-562.html
+    quote: "Bệnh nhân bị C. albolabris cắn có rối loạn đông máu phải được điều trị ở nơi có có khả năng truyền máu (và các chế phẩm máu) và có huyết thanh kháng nọc rắn lục"
+    verdict: match-secondary
+    note: "Trang của Bệnh viện đa khoa tỉnh Quảng Trị đăng lại Hướng dẫn kèm Quyết định 5152/QĐ-BYT ngày 12/12/2014 (tài liệu tham khảo cuối bài; tác giả Bs Đặng Công Hợp). Không phải bản gốc của Bộ Y tế; không mở được văn bản QĐ 5152 gốc. Phạm vi của hướng dẫn: RẮN LỤC XANH ĐUÔI ĐỎ (C. albolabris), không phải 'rắn cắn' nói chung."
+  - text: "Việc phải làm: trấn an, rửa vết thương, cởi đồ trang sức ở chi bị cắn, bất động chi bằng nẹp, không để bệnh nhân tự đi lại, chuyển đi ngay không mất thời gian tìm thầy lang"
+    source_url: https://benhvientinh.quangtri.gov.vn/vi/news/kien-thuc-y-khoa/chan-doan-va-dieu-tri-ran-luc-duoi-do-can-562.html
+    quote: "Trấn an và giảm lo lắng cho bệnh nhân. Rửa vết thương. Cởi bỏ đồ trang sức ở chi bị cắn tránh gây chèn ép khi chi sưng nề. ... Không để bệnh nhân tự đi lại. Bất động chi bị cắn bằng nẹp. ... Phải chuyển nạn nhân đến bệnh viện ngay không được để mất quá nhiều thời gian tìm thầy lang thuốc lá."
+    verdict: match-secondary
+    note: "Khớp các việc nêu trong mục. Nguồn còn một bước mà mục không đưa: 'Băng ép tại chỗ cắn trở lên gốc chi hoặc garô tĩnh mạch, không garô động mạch... Băng tương đối chặt nhưng không quá mức (còn sờ thấy động mạch đập)'. Xem claim ga-rô và potential_harm."
+  - text: "Ga-rô: 'không buộc ga-rô' (tldr, tiêu đề, step 3)"
+    source_url: https://benhvientinh.quangtri.gov.vn/vi/news/kien-thuc-y-khoa/chan-doan-va-dieu-tri-ran-luc-duoi-do-can-562.html
+    quote: "Băng ép tại chỗ cắn trở lên gốc chi hoặc garô tĩnh mạch, không garô động mạch.Dùng các băng chun giãn, băng vải hoặc tự tạo từ khăn, quần áo. Băng tương đối chặt nhưng không quá mức (còn sờ thấy động mạch đập)"
+    verdict: partial
+    note: "Nguồn chỉ cấm 'garo động mạch' (mục 2.1.3) và cho 'băng ép... hoặc garô tĩnh mạch' (2.1.2). Mục cấm chung 'ga-rô' và không nêu băng ép. WHO (Treatment page, Box 1): 'Never use a tight arterial tourniquet. The Australian Pressure Immobilization Bandage (PIB) Method is only recommended for bites by neurotoxic snakes that do not cause local swelling.' Tức ép chặt không dành cho rắn lục (độc gây sưng, hoại tử), nhưng dành cho nọc thần kinh không sưng (cạp nia, cạp nong, hổ mang ở VN theo Bạch Mai: 'rắn hổ mang, rắn cặp nong, rắn hổ lục'). Nguồn QĐ 5152 chỉ nói về rắn lục."
+  - text: "Việc gây hại: ga-rô động mạch; trích, rạch, trâm, chọc; chườm đá; đắp thuốc dân gian; cố bắt hoặc giết rắn"
+    source_url: https://benhvientinh.quangtri.gov.vn/vi/news/kien-thuc-y-khoa/chan-doan-va-dieu-tri-ran-luc-duoi-do-can-562.html
+    quote: "Không sử dụng các biện pháp sau: Garo động mạch. Trích, rạch, trâm, chọc tại vùng vết cắn: các biện pháp này không có lợi ích, rõ ràng gây hại thêm cho bệnh nhân (tổn thương thêm mạch máu, dây thần kinh,...nhiễm trùng nặng thêm). Chườm đá (chườm lạnh): Đã được chứng minh là có thể gây hại. Sử dụng các loại thuốc dân gian, cổ truyền, chữa bằng mẹo ... Cố gắng bắt hoặc giết rắn: Nếu rắn đã chết hoặc bắt được rắn phải đem cùng với bệnh nhân đến bệnh viện để nhận dạng."
+    verdict: partial
+    note: "Khớp danh mục. Nhưng 'cố bắt hoặc giết rắn' trong nguồn đi kèm điều kiện 'nếu rắn đã chết hoặc bắt được rắn phải đem cùng bệnh nhân đến bệnh viện để nhận dạng'. Mục (steps[4]) viết 'không cố bắt hay giết rắn' mà bỏ vế này; mất cơ hội nhận dạng rắn. Cũng ERC 2025/WHO: không cắt, không hút nọc ('do not cut the wound and never try to suck out the venom')."
+  - text: "Không hút bằng miệng (tldr/step 3/Bẫy 2: 'rạch chữ thập và hút bằng miệng theo mẹo truyền miệng là đúng những động tác văn bản xếp vào loại gây hại thêm')"
+    source_url: https://benhvientinh.quangtri.gov.vn/vi/news/kien-thuc-y-khoa/chan-doan-va-dieu-tri-ran-luc-duoi-do-can-562.html
+    quote: "Trích, rạch, trâm, chọc tại vùng vết cắn: các biện pháp này không có lợi ích, rõ ràng gây hại thêm cho bệnh nhân"
+    verdict: partial
+    note: "Danh sách 'không sử dụng' trong nguồn không có chữ 'hút'; trong mục 2.1.2 có dòng bị lỗi hiển thị 'tại vết cắnvà rửa vết cắn dưới vòi nước sạch với xà phòng', có thể là chữ 'Hút' bị mất. Không thể xác nhận từ trang này. Khẳng định đúng y học (WHO: 'Traditional medicines and other treatments such as wound incision or excision, suction, or application of black stones should be avoided'; ERC 2025: 'never try to suck out the venom') nhưng mục gán cho 'văn bản xếp vào' là sai nguồn; chuyển nguồn sang WHO/ERC."
+  - text: "Huyết thanh dùng càng sớm càng tốt; đến muộn mà còn rối loạn đông máu vẫn còn chỉ định"
+    source_url: https://benhvientinh.quangtri.gov.vn/vi/news/kien-thuc-y-khoa/chan-doan-va-dieu-tri-ran-luc-duoi-do-can-562.html
+    quote: "HTKN được điều trị càng sớm càng tốt, nếu người bệnh đến muộn nhưng vẫn có rối loạn đông máu thì vẫn còn chỉ định HTKN."
+    verdict: match-secondary
+    note: "Nguồn gốc thứ cấp (bài đăng lại). 'Rối loạn đông máu' đo bằng xét nghiệm đông máu 20 phút (nguồn: 'sau 20 phút máu còn ở dạng lỏng... dương tính'). WHO cũng dùng 20WBCT."
+  - text: "Xét nghiệm đông máu 20 phút tại giường là mốc chỉ định huyết thanh"
+    source_url: https://benhvientinh.quangtri.gov.vn/vi/news/kien-thuc-y-khoa/chan-doan-va-dieu-tri-ran-luc-duoi-do-can-562.html
+    quote: "Xét nghiệm đông máu 20 phút tại giường (theo WHO 2010): lấy máu cho vào ống nghiệm không có chống đông (không được lắc hoặc nghiêng ống) sau 20 phút máu còn ở dạng lỏng, không đông thì xét nghiệm này dương tính, đồng nghĩa với chẩn đoán xác định rắn lục cắn gây rối loạn đông máu, có chỉ định huyết thanh kháng nọc rắn."
+    verdict: match-secondary
+    note: "Mục viết 'đánh giá lại khi nhiễm độc tiến triển, với xét nghiệm đông máu 20 phút tại giường làm mốc chỉ định huyết thanh'. 'Đánh giá lại khi nhiễm độc tiến triển' không nằm trong nguồn QĐ; nằm trong trang Bạch Mai về huyết thanh ('cần phải đánh giá lại khi nhiễm độc tiến triển') — trang đó là tờ Dược thư 2002 về huyết thanh Crotalidae Mỹ, không phải hướng dẫn rắn VN."
+  - text: "Ở Việt Nam, huyết thanh kháng nọc rắn tập trung ở bệnh viện tuyến tỉnh và trung tâm chống độc các bệnh viện tuyến cuối như Bạch Mai, Chợ Rẫy; tuyến huyện và trạm y tế xã thường không có"
+    source_url: https://chanthuongvacotsong.bachmai.gov.vn/huyet-thanh-khang-noc-ran/
+    quote: "Ở Việt Nam có các loại rắn độc như rắn hổ mang, rắn cặp nong, rắn hổ lục, nhưng cho tới thời điểm này, chưa có cơ sở nào trong nước sản xuất huyết thanh kháng nọc rắn đặc hiệu cho các loài rắn cư trú ở Việt Nam."
+    verdict: not-found
+    note: "Trang Bạch Mai (Dược thư 2002, đăng 24/12/2025) không nói huyết thanh 'tập trung ở tuyến tỉnh', không nêu Chợ Rẫy, không nói tuyến huyện/trạm xã thường không có. Không tìm thấy câu tương đương trong QĐ 5152. Trang Bạch Mai còn nói chưa có nơi nào trong nước sản xuất huyết thanh đặc hiệu cho rắn Việt Nam. Câu hướng dẫn hành động (phải hỏi trước cơ sở nào có huyết thanh) hợp lý nhưng dữ kiện phân bố cơ sở là không có nguồn; Ghi chú mục còn thừa nhận 'không có thống kê công bố'. Mục nêu nguồn Bạch Mai 'chỉ định, cách dùng, phản ứng trong 30 phút' nhưng không dùng nội dung đó."
+  - text: "Gọi 115 nhờ điều phối thẳng lên tuyến tỉnh (step 4, Bẫy 3)"
+    source_url: https://benhvientinh.quangtri.gov.vn/vi/news/kien-thuc-y-khoa/chan-doan-va-dieu-tri-ran-luc-duoi-do-can-562.html
+    quote: "Bệnh nhân bị rắn lục xanh đuôi đỏ cắn cần được sơ cứu thích hợp, vận chuyển nhanh chóng và an toàn tới các khoa Cấp cứu hoặc khoa Hồi sức chống độc."
+    verdict: inference
+    note: "Không có nguồn nào mục dẫn nói 115 'điều phối thẳng lên tuyến tỉnh'. Nguồn: vận chuyển tới khoa Cấp cứu/Hồi sức chống độc. Đây là hướng dẫn thực hành của người soạn. Không có số 115 nào trong hai nguồn."
+  - text: "Ngồi hoặc nằm yên, để tay chân bị cắn bất động ngang tầm tim"
+    source_url: https://benhvientinh.quangtri.gov.vn/vi/news/kien-thuc-y-khoa/chan-doan-va-dieu-tri-ran-luc-duoi-do-can-562.html
+    quote: "Không để bệnh nhân tự đi lại. Bất động chi bị cắn bằng nẹp."
+    verdict: partial
+    note: "Nguồn chỉ nói bất động bằng nẹp, không có 'ngang tầm tim'. Đây là khuyến nghị cũ lưu hành rộng nhưng không có trong QĐ 5152 và không có trong WHO Box 1 (WHO: 'Immobilize the person completely. Splint the limb to keep it still'). 'Ngang tầm tim' là bổ sung không nguồn."
+  - text: "Không cố bắt hay giết rắn; WHO: nếu bị cắn, di chuyển khỏi nơi cắn; đặt người bệnh nghiêng trái khi vận chuyển (nôn, liệt cơ)"
+    source_url: https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment
+    quote: "Many people die every year on the way to a health facility as a result of being transported lying flat on their backs and having their upper airway obstructed by vomit, or paralysis of muscles in the tongue. Keep them on their left side with mouth turned down so that the risk of this is reduced."
+    verdict: not-found
+    note: "Đây là khuyến nghị WHO không có trong mục: mục không hướng dẫn tư thế nằm nghiêng khi vận chuyển (nguy cơ nôn, liệt đường thở) và không có lệnh 'theo dõi hơi thở'. Ghi thành claim vì ảnh hưởng đến potential_harm; verdict not-found nghĩa là mục không có."
+  - text: "Mỗi giờ chậm là thêm phần nọc đã ngấm (Chi phí)"
+    source_url: https://chanthuongvacotsong.bachmai.gov.vn/huyet-thanh-khang-noc-ran/
+    quote: "Toàn bộ liều đầu tiên huyết thanh kháng nọc rắn phải được tiêm càng sớm càng tốt để có hiệu quả cao, tốt nhất là trong vòng 4 giờ sau khi bị rắn cắn. Huyết thanh kháng nọc rắn kém hiệu quả khi dùng sau 8 giờ, và không chắc chắn có hiệu quả khi dùng sau 12 giờ."
+    verdict: inference
+    note: "Nguồn nêu cửa sổ 4/8/12 giờ cho huyết thanh (Dược thư 2002, huyết thanh Crotalidae Mỹ), không phải 'mỗi giờ thêm phần nọc ngấm'. Câu của mục là diễn giải. Mục không dùng các con số 4/8/12 giờ."
+internal_checks:
+  - issue: "Phạm vi lệch: tiêu đề/tldr/steps viết cho 'bị rắn cắn' nói chung, nhưng nguồn pháp lý/y tế duy nhất (QĐ 5152/QĐ-BYT) chỉ là hướng dẫn cho rắn lục xanh đuôi đỏ (C. albolabris). Mục không nói điều này ở phần steps/tldr. Với rắn hổ mang, cạp nong, cạp nia (nọc thần kinh) WHO nêu băng ép bất động là phương án; với rắn lục thì không."
+    severity: error
+  - issue: "Nội bộ mâu thuẫn: Bẫy 1 nói 'Hướng dẫn chỉ cho băng ép tương đối chặt' nhưng steps/tldr/tiêu đề không có băng ép; chỉ có 'bất động bằng nẹp' và 'không buộc ga-rô'. Người đọc không biết có nên băng ép hay không."
+    severity: error
+  - issue: "legal_refs[0].url là bài đăng lại trên trang Bệnh viện Quảng Trị (benhvientinh.quangtri.gov.vn), không phải văn bản QĐ 5152/QĐ-BYT gốc; legal_refs[0].article là cụm mô tả, không phải điều khoản; quote null; effective_from null. Quyết định 5152/QĐ-BYT ngày 12/12/2014 nhưng chưa xác nhận số, ngày bằng Công báo/trang Bộ Y tế (bài đăng chỉ ghi 'Ban hành kèm Quyết định số 5152/QĐ-BYT ngày 12/12/2014 của Bộ trưởng Bộ Y tế')."
+    severity: warn
+  - issue: "Con số trong tldr/steps: chỉ có 115. Thân không có mâu thuẫn số liệu. Thân nói 'tới ngay cơ sở có huyết thanh kháng nọc' (tldr) nhưng step 3 chỉ nói 'rửa vết thương', thiếu 'băng ép'; steps không có bước nào ngoài cơ sở của thân, trừ 'ngang tầm tim' và 'gọi 115 điều phối thẳng lên tuyến tỉnh'."
+    severity: warn
+  - issue: "Mục mô tả huyết thanh 'ở Việt Nam' và 'tuyến huyện thường không có huyết thanh' như sự thật; nguồn dẫn không nói. Cùng chương: chưa thấy mục khác trong 26-30 nói khác."
+    severity: warn
+validity:
+  doc: "Quyết định 5152/QĐ-BYT ngày 12/12/2014 của Bộ Y tế (Hướng dẫn chẩn đoán và xử trí rắn lục xanh đuôi đỏ cắn); WHO Guidelines for the management of snakebites (2016); ERC 2025 First Aid"
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: "Chỉ có bản đăng lại (2020, sửa 22/08/2022) trên trang Bệnh viện Quảng Trị; không mở được văn bản gốc, không tìm thấy dấu hiệu thay thế bằng hướng dẫn mới hơn. Có thể đã có hướng dẫn Bộ Y tế mới về rắn độc cắn (chưa tra). WHO Treatment page (2016/2019) còn đang dùng: 'Never use a tight arterial tourniquet'. ERC 2025: 'Do not apply a pressure dressing, ice, heat, or use tourniquets' (cho European viper)."
+deliberate_vn_deviation:
+  - "QĐ 5152/QĐ-BYT (rắn lục): 'Băng ép tại chỗ cắn trở lên gốc chi... Băng tương đối chặt nhưng không quá mức'. ERC 2025 (rắn lục châu Âu): 'Do not apply a pressure dressing, ice, heat, or use tourniquets'. WHO: PIB 'only recommended for bites by neurotoxic snakes that do not cause local swelling'. Hướng dẫn VN cho rắn lục cho băng ép nhẹ, ERC cấm băng ép cho rắn lục. Mục thì không băng ép (đúng với ERC, lệch với QĐ 5152) nhưng không ghi sự lệch."
+potential_harm:
+  - "Tiêu đề/tldr/step 3 'Không buộc ga-rô' cho mọi rắn cắn mà không nêu băng ép bất động cho rắn có nọc thần kinh (cạp nong, cạp nia, hổ mang). WHO coi PIB là phương án cho các loài này; người bị rắn thần kinh cắn làm đúng nguyên văn mục thì thiếu biện pháp làm chậm lan nọc (potential delay in effective first aid). Nguồn mục dẫn không phải cho các loài này."
+  - "Thiếu hướng dẫn tư thế vận chuyển và theo dõi thở: WHO: 'Many people die every year on the way to a health facility as a result of being transported lying flat on their backs and having their upper airway obstructed by vomit, or paralysis of muscles in the tongue. Keep them on their left side'. Mục viết 'Ngồi hoặc nằm yên... không tự đi lại', không có tư thế nghiêng trái, không có 'theo dõi hơi thở, sẵn sàng hồi sức'."
+  - "Step 4 'hỏi trước cơ sở nào có huyết thanh... hoặc gọi 115 nhờ điều phối' có thể làm chậm khởi hành nếu người đọc dừng để gọi hỏi nhiều nơi trước khi đi; mục không nói 'đi ngay trong lúc gọi' hoặc 'đến cơ sở cấp cứu gần nhất nếu không biết nơi nào có'. Nguồn QĐ: 'chuyển nạn nhân đến bệnh viện ngay'; WHO: transport 'without delay'. Bẫy 3 nói 'tới bệnh viện huyện... rồi nằm chờ' là sai, nhưng cách mục đối phó (hỏi trước) có thể tốn thời gian; nguồn nào cũng không cho ưu tiên hỏi trước."
+  - "steps[0] 'ngang tầm tim' và 'không tự đi lại' không kèm 'dừng mọi vận động, đừng uống rượu/cà phê', một số nơi dùng 'ngang tầm tim' mà nguồn mục dẫn không có; không gây hại rõ nhưng là hướng dẫn không nguồn."
+suggested_edits:
+  - "Tiêu đề, tldr, steps: thu hẹp hoặc nêu rõ phạm vi. Đề xuất 'Bị rắn độc cắn (rắn lục, hổ mang, cạp nong...): ...' và thêm bước 'nếu biết hoặc nghi là rắn hổ mang/cạp nong (liệt, sụp mi, khó thở, không sưng), hỏi tổng đài 115 về băng ép bất động'. Dựa vào quote WHO 'only recommended for bites by neurotoxic snakes that do not cause local swelling' và QĐ 5152 (hướng dẫn riêng rắn lục xanh đuôi đỏ). Nếu không thêm nguồn cho rắn thần kinh thì ghi rõ 'mục này chỉ cho rắn lục'."
+  - "step 3, Bẫy 1: chỉnh 'không buộc ga-rô' thành 'không buộc ga-rô chặt vào động mạch' khớp quote 'không garô động mạch', hoặc chọn một dòng nhất quán với WHO 'Never use a tight arterial tourniquet' và nói rõ có/không băng ép."
+  - "step 4: 'Đi ngay đến cơ sở cấp cứu gần nhất có khoa cấp cứu/hồi sức; vừa đi vừa gọi 115 hỏi nơi có huyết thanh; không đợi', dựa vào quote QĐ 5152 'Phải chuyển nạn nhân đến bệnh viện ngay' và WHO 'transported to a health facility without delay'."
+  - "Thêm bước vận chuyển: 'Nằm nghiêng trái, miệng hướng xuống nếu nôn hoặc mệt; theo dõi thở; thở yếu thì gọi 115 và hồi sức', dựa vào WHO ('Keep them on their left side with mouth turned down')."
+  - "step 5: 'Không cố bắt hay giết rắn; nếu rắn đã chết hoặc bắt được an toàn thì mang theo hoặc chụp ảnh', dựa vào quote QĐ 5152 'phải đem cùng với bệnh nhân đến bệnh viện để nhận dạng' (bỏ phần chụp ảnh nếu muốn bám sát nguồn)."
+  - "Bỏ 'ngang tầm tim' hoặc dán nguồn. Bỏ 'hút bằng miệng' khỏi 'văn bản xếp vào loại gây hại' và nguồn bằng WHO ('suction') / ERC ('never try to suck out the venom')."
+  - "Mục 'Ở Việt Nam. Huyết thanh... tập trung ở tuyến tỉnh... Chợ Rẫy... tuyến huyện thường không có': bỏ hoặc dẫn nguồn (Bộ Y tế/Trung tâm chống độc); trang Bạch Mai đã dẫn không chứa câu này."
+  - "legal_refs: thay URL bằng văn bản QĐ 5152/QĐ-BYT gốc (Bộ Y tế/Cục Quản lý Khám chữa bệnh), điền effective_from, điền quote."

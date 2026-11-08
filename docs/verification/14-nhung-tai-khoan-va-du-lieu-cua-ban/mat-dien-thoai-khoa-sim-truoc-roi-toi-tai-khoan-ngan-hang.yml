@@ -1,0 +1,77 @@
+id: mat-dien-thoai-khoa-sim-truoc-roi-toi-tai-khoan-ngan-hang
+content_sha256: "f785c7eed1125df95fd89b88e118cfcd36885dd976f22eb6f2f1132b90d9dd0b"
+checker: agent-Vf14a
+checked_at: 2026-11-08
+result: pass-with-edits
+claims:
+  - text: "Tài khoản thanh toán có thể bị phong tỏa một phần hoặc toàn bộ số dư theo yêu cầu của chủ tài khoản (Điều 11 khoản 1 điểm a, NĐ 52/2024)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/5/41938/50259-1-2024679-68052-2024-nd-cp.pdf
+    quote: "1. Tài khoản thanh toán bị phong toả một phần hoặc toàn bộ số dư trên tài khoản thanh toán trong các trường hợp sau: a) Theo thỏa thuận trước giữa chủ tài khoản thanh toán và tổ chức cung ứng dịch vụ thanh toán hoặc theo yêu cầu của chủ tài khoản;"
+    verdict: match
+    note: "Điểm a còn có trường hợp 'theo thỏa thuận trước'. Điều luật nêu căn cứ phong tỏa, KHÔNG nêu kênh (tổng đài/quầy)."
+  - text: "Bạn không phải chờ ai phê duyệt mới khóa được tiền của mình"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/5/41938/50259-1-2024679-68052-2024-nd-cp.pdf
+    quote: "theo yêu cầu của chủ tài khoản;"
+    verdict: inference
+    note: "Luật cho phép phong tỏa theo yêu cầu chủ tài khoản nhưng không quy định ngân hàng phải thực hiện trong thời hạn nào, không nói về phê duyệt hay xác minh danh tính của ngân hàng."
+  - text: "Yêu cầu phong tỏa làm được ngay từ tổng đài (tldr, steps, Bẫy 3: 'Điều 11 khoản 1 điểm a cho phép yêu cầu phong tỏa ngay từ tổng đài')"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/5/41938/50259-1-2024679-68052-2024-nd-cp.pdf
+    quote: "theo yêu cầu của chủ tài khoản;"
+    verdict: mismatch
+    note: "Điều 11 không nhắc tổng đài/hotline/kênh; tìm toàn văn NĐ 52/2024 (pdftotext) không thấy từ 'tổng đài', 'hotline'. Việc phong tỏa qua tổng đài tùy ngân hàng (chính sách/hợp đồng), nhiều ngân hàng chỉ khóa tạm thẻ/ứng dụng qua tổng đài, còn phong tỏa tài khoản cần thủ tục khác [INFERENCE, chưa kiểm]. Gán chữ cho Điều 11 là sai nguồn."
+  - text: "Phong tỏa theo quyết định hoặc yêu cầu bằng văn bản của cơ quan có thẩm quyền là đường của cơ quan điều tra, chậm hơn đường bạn tự gọi (Điều 11 khoản 1 điểm b)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/5/41938/50259-1-2024679-68052-2024-nd-cp.pdf
+    quote: "b) Khi có quyết định hoặc yêu cầu bằng văn bản của cơ quan có thẩm quyền theo quy định của pháp luật;"
+    verdict: partial
+    note: "Điểm b nói 'cơ quan có thẩm quyền', không chỉ 'cơ quan điều tra' và không so sánh tốc độ; 'chậm hơn' là suy ra."
+  - text: "Khách hàng phải tuân thủ biện pháp đảm bảo an toàn theo hướng dẫn của tổ chức cung ứng dịch vụ; bạn có nghĩa vụ giữ kín mã và báo mất (Điều 29 khoản 1)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/5/41938/50259-1-2024679-68052-2024-nd-cp.pdf
+    quote: "Khách hàng sử dụng dịch vụ có nghĩa vụ tuân thủ các biện pháp đảm bảo an toàn, bảo mật trong thanh toán theo quy định và hướng dẫn của các tổ chức cung ứng dịch vụ."
+    verdict: partial
+    note: "Điều 29 khoản 1 là nghĩa vụ chung tuân thủ biện pháp an toàn; không chữ nào nói 'giữ kín mã' hay 'báo mất' (báo mất thẻ nằm ở TT 18/2024 Điều 18). Mục diễn giải rộng hơn chữ nguồn."
+  - text: "Nhà mạng nhận thẻ căn cước và tài khoản định danh điện tử làm giấy tờ khi đăng ký thông tin thuê bao (Điều 17 khoản 1 điểm a, NĐ 163/2024)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "Đối với người có quốc tịch Việt Nam: Giấy tờ tùy thân (bao gồm thẻ căn cước hoặc thẻ căn cước công dân hoặc căn cước điện tử hoặc tài khoản định danh điện tử (VNeID) hoặc các giấy tờ khác có thể sử dụng để thực hiện giao dịch dân sự theo quy định của pháp luật) còn thời hạn sử dụng"
+    verdict: match
+    note: "Đây là quy định về ĐĂNG KÝ thông tin thuê bao (Điều 17 tiêu đề). Không có điều nào trong NĐ 163 nói về cấp lại SIM / khóa SIM do mất máy (tìm 'cấp lại SIM', 'đổi SIM', 'khóa SIM', 'mất SIM' không thấy)."
+  - text: "Gọi tổng đài nhà mạng khóa SIM trước; ra điểm giao dịch lấy lại số, mang giấy tờ tùy thân (steps 1 và 5)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/12/43647/53840-1-202531-32163-2024-nd-cp.pdf
+    quote: "Khi đăng ký thông tin thuê bao viễn thông dùng cho dịch vụ viễn thông di động mặt đất, tổ chức, cá nhân có trách nhiệm xuất trình bản gốc hoặc bản sao được chứng thực từ bản gốc hoặc bản điện tử hoặc thông điệp dữ liệu có giá trị như bản gốc giấy tờ sau đây:"
+    verdict: not-found
+    note: "Nguồn dẫn không quy định thủ tục khóa SIM hoặc cấp lại SIM; mục đã tự nói 'từng bước đều đứng trên câu chữ' nhưng bước 1, 5 không có chữ nghị định nào. Cần nguồn từ nhà mạng (Viettel/VinaPhone/MobiFone) hoặc ghi 'kinh nghiệm thực hành'."
+  - text: "Tội thu thập, tàng trữ, trao đổi, mua bán, công khai hóa trái phép thông tin tài khoản ngân hàng: 20 đến dưới 50 tài khoản hoặc thu lợi 20-50 triệu, phạt tiền 20-100 triệu hoặc cải tạo không giam giữ đến 3 năm (Điều 291 khoản 1)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "1. Người nào thu thập, tàng trữ, trao đổi, mua bán, công khai hóa trái phép thông tin về tài khoản ngân hàng của người khác với số lượng từ 20 tài khoản đến dưới 50 tài khoản hoặc thu lợi bất chính từ 20.000.000 đồng đến dưới 50.000.000 đồng, thì bị phạt tiền từ 20.000.000 đồng đến 100.000.000 đồng hoặc phạt cải tạo không giam giữ đến 03 năm."
+    verdict: match
+    note: "Văn bản hợp nhất 135/VBHN-VPQH (BLHS 2015, đã gồm Luật 86/2025/QH15 hiệu lực 01/7/2025). Mục chỉ nêu khung thấp nhất; khoản 2 (50-200 tài khoản, 100-200 triệu hoặc tù 3 tháng-2 năm), khoản 3 (≥200 tài khoản: 200-500 triệu hoặc tù 2-7 năm) bỏ qua."
+  - text: "Nghĩa là thông tin trong chiếc máy mất bán được tiền, và kẻ gian không chờ bạn khóa xong mới ra tay"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "Người nào thu thập, tàng trữ, trao đổi, mua bán, công khai hóa trái phép thông tin về tài khoản ngân hàng của người khác"
+    verdict: inference
+    note: "Điều 291 là tội của kẻ thu thập/mua bán hàng loạt (ngưỡng từ 20 tài khoản hoặc thu lợi từ 20 triệu); không phải bằng chứng cho tốc độ hành động của kẻ gian khi mất một điện thoại. Điều luật không liên quan đến thứ tự khóa."
+internal_checks:
+  - issue: "Mục gán cho Điều 11 khoản 1 điểm a căn cứ 'làm được ngay từ tổng đài' (tldr, steps 2, Bẫy 3). Điều 11 không nói về kênh; đây là kết luận sai nguồn trong mục tự nhận 'từng bước đứng trên câu chữ'. Người đọc có thể tin ngân hàng bắt buộc phong tỏa qua hotline."
+    severity: error
+  - issue: "Steps 1 (khóa SIM qua tổng đài nhà mạng) và 5 (lấy lại số tại điểm giao dịch) không có cơ sở trong các nguồn đã dẫn (NĐ 163 Điều 17/21 chỉ nói về đăng ký thông tin thuê bao). Thứ tự các bước mục đã thừa nhận không có văn bản; 'Ghi chú: từng bước đều đứng trên câu chữ' mâu thuẫn với đoạn đó."
+    severity: error
+  - issue: "legal_refs Điều 21 NĐ 163 (đăng ký thuê bao trả trước theo số lượng) và Điều 291 BLHS không hỗ trợ bước hành động nào trong steps."
+    severity: warn
+  - issue: "Chi phí nêu 'vài chục nghìn' (làm lại SIM) và 'vài triệu' (máy mới) không có nguồn; không có con số trong tldr/steps."
+    severity: warn
+  - issue: "Mục nói tài khoản bị phong tỏa 'tiền lương, tiền nhà, tiền học đều đứng yên cho tới khi ra ngân hàng' - thân khuyên phong tỏa toàn bộ (rủi ro tiền mặt thiếu); không nêu rõ phong tỏa một phần hoặc khóa tạm kênh số (ứng dụng, thẻ) nhẹ hơn dù Điều 11.1 cho phép 'một phần hoặc toàn bộ số dư'."
+    severity: warn
+  - issue: "tldr nói 'đổi mật khẩu hộp thư' trước 'khóa máy từ xa'; thân Bẫy 1 lại cảnh báo đổi mật khẩu hộp thư trước tiên là bẫy; thứ tự ổn vì SIM đã khóa. Không mâu thuẫn số liệu."
+    severity: warn
+validity:
+  doc: "Nghị định 52/2024/NĐ-CP; Nghị định 163/2024/NĐ-CP; Bộ luật Hình sự (VBHN 135/VBHN-VPQH)"
+  in_force: unconfirmed
+  effective_from: "2024-07-01"
+  amended_by: []
+  basis: "NĐ 52: hiệu lực 01/7/2024 (điều khoản thi hành). NĐ 163: hiệu lực 24/12/2024. VBHN 135 đề cập sửa đổi gần nhất bằng Luật 86/2025/QH15 (hiệu lực 01/7/2025), Điều 291 nguyên bản. Không tra được lược đồ sửa đổi NĐ 52/NĐ 163; có dự thảo NĐ sửa NĐ 52 (thuvienphapluat, 01/6/2026), không biết đã ban hành chưa."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "tldr, steps 2 và Bẫy 3: bỏ 'Yêu cầu này làm được ngay từ tổng đài' và câu 'Điều 11 khoản 1 điểm a cho phép yêu cầu phong tỏa ngay từ tổng đài'. Thay bằng 'Điều 11 khoản 1 điểm a cho phép phong tỏa tài khoản theo yêu cầu của chủ tài khoản; hỏi ngân hàng của bạn xem hotline có nhận yêu cầu này không, và nếu không thì khóa tạm thẻ/ứng dụng qua hotline trước'. Cần xác nhận kênh với từng ngân hàng."
+  - "Steps 1 và 5: gắn nhãn 'thực hành khuyến nghị, không có điều luật quy định' hoặc dẫn hướng dẫn chính thức của nhà mạng; sửa Ghi chú 'từng bước đều đứng trên câu chữ' thành chỉ nói phần phong tỏa (Điều 11) và giấy tờ (Điều 17)."
+  - "Pháp luật VN, đoạn 'Vì sao phải làm nhanh': bỏ hoặc gắn nhãn suy ra; nêu rõ Điều 291 là tội của người thu thập từ 20 tài khoản trở lên hoặc thu lợi từ 20 triệu, không chứng minh tốc độ ra tay."
+  - "Bullet Điều 29 khoản 1: bỏ 'giữ kín mã và báo mất', chỉ nói nghĩa vụ tuân thủ biện pháp an toàn theo hướng dẫn của tổ chức cung ứng dịch vụ."

@@ -23,10 +23,10 @@ steps:
 legal_refs:
   - { doc: "Thông tư 42/2026/TT-BYT của Bộ Y tế quy định tiếp nhận thông tin và quy trình cấp cứu ngoại viện", article: "toàn văn; quy định cấp cứu ngoài bệnh viện do tổng đài 113 tiếp nhận và điều phối", url: "https://chinhphu.vn/?pageid=27160&docid=220146", effective_from: "2026-11-01", checked_at: null, quote: null }
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13jA
+  scope: "Chặn nâng trạng thái: 2 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/phan-den-deo-dinh-nhu-hac-in-thi-di-cap-cuu-trong.yml)"
   sources: []
 origin:
   zh: null

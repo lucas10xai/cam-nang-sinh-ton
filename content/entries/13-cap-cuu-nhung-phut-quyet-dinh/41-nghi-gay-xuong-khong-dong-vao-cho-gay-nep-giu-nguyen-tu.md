@@ -22,10 +22,10 @@ steps:
   - "Tới cơ sở y tế chụp phim."
 legal_refs: []
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13iB
+  scope: "Chặn nâng trạng thái: result=fail, 2 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/nghi-gay-xuong-khong-dong-vao-cho-gay-nep-giu-nguyen-tu.yml)"
   sources: []
 origin:
   zh: null

@@ -1,0 +1,69 @@
+id: xe-may-chi-duoc-cho-mot-nguoi-cho-hai-nguoi-khi-do
+checker: agent-Vf36a
+checked_at: 2026-11-08
+content_sha256: 326ec353b7c6ba49388c2c2c3c843e33df708060d146710a0cfe0339979990d4
+result: pass-with-edits
+claims:
+  - text: Xe mô tô hai bánh, xe gắn máy chỉ chở một người; được chở tối đa hai người trong 4 trường hợp
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm
+    quote: "1. Người lái xe mô tô hai bánh, xe gắn máy chỉ được chở một người, trừ những trường hợp sau thì được chở tối đa hai người: a) Chở người bệnh đi cấp cứu; b) Áp giải người có hành vi vi phạm pháp luật; c) Trẻ em dưới 12 tuổi; d) Người già yếu hoặc người khuyết tật."
+    verdict: match
+    note: Điều 33 khoản 1. Đối chiếu qua bản toàn văn Luật 36/2024/QH15 trên xaydungchinhsach.chinhphu.vn (Cổng TTĐT Chính phủ), nguồn chính thống trích được chữ; trang vbpl.vn ở mục Nguồn chỉ trả khung, không trích được nội dung.
+  - text: Người được chở phải đội mũ bảo hiểm đúng quy chuẩn và cài quai đúng quy cách
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm
+    quote: 2. Người lái xe, người được chở trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy phải đội mũ bảo hiểm theo đúng quy chuẩn kỹ thuật quốc gia và cài quai đúng quy cách.
+    verdict: match
+    note: Điều 33 khoản 2. Luật không có ngoại lệ tuổi/cấp cứu cho nghĩa vụ đội mũ; ngoại lệ chỉ ở phần xử phạt (xem claim sau).
+  - text: Chở theo hai người (trừ ngoại lệ) phạt 400.000-600.000 đồng
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: g) Chở theo 02 người trên xe, trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 12 tuổi, người già yếu hoặc người khuyết tật, áp giải người có hành vi vi phạm pháp luật;
+    verdict: match
+    note: Điều 7 khoản 2 điểm g; khoản 2 là mức "từ 400.000 đồng đến 600.000 đồng".
+  - text: Chở theo từ ba người trở lên phạt 600.000-800.000 đồng
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: "3. Phạt tiền từ 600.000 đồng đến 800.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: ... b) Chở theo từ 03 người trở lên trên xe;"
+    verdict: match
+    note: Điều 7 khoản 3 điểm b (đã rút gọn dấu "..." giữa hai đoạn liền kề của nguồn).
+  - text: Chở từ ba người trở lên bị trừ 2 điểm
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: a) Thực hiện hành vi quy định tại điểm b khoản 3; khoản 5; điểm b, điểm c, điểm d khoản 6; điểm a khoản 7 Điều này bị trừ điểm giấy phép lái xe 02 điểm;
+    verdict: match
+    note: Điều 7 khoản 13 điểm a. Điểm g khoản 2 (chở hai người) KHÔNG nằm trong danh sách trừ điểm.
+  - text: Chở người không đội mũ phạt 400.000-600.000 đồng, trừ cấp cứu, trẻ dưới 6 tuổi, áp giải
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: i) Chở người ngồi trên xe không đội "mũ bảo hiểm cho người đi mô tô, xe máy" hoặc đội "mũ bảo hiểm cho người đi mô tô, xe máy" không cài quai đúng quy cách, trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 06 tuổi, áp giải người có hành vi vi phạm pháp luật;
+    verdict: match
+    note: Điều 7 khoản 2 điểm i.
+  - text: "Hai mốc tuổi khác nhau: 12 tuổi (chở hai người) và 6 tuổi (miễn phạt không đội mũ)"
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: trẻ em dưới 12 tuổi, người già yếu hoặc người khuyết tật, áp giải người có hành vi vi phạm pháp luật;
+    verdict: match
+    note: Điều 7 khoản 2 điểm g (12 tuổi) cùng điểm i (06 tuổi), hai trích dẫn ở claim 3 và 6.
+  - text: '"Văn bản không nói rõ cả hai đều phải thuộc nhóm được phép" (khi chở hai người ngồi sau)'
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm
+    quote: "Người lái xe mô tô hai bánh, xe gắn máy chỉ được chở một người, trừ những trường hợp sau thì được chở tối đa hai người:"
+    verdict: inference
+    note: 'Nguồn không trả lời câu hỏi này: Điều 33 khoản 1 chỉ nói "chở tối đa hai người" và NĐ 168 phạt "chở theo 02 người"/"từ 03 người trở lên" ngoài ngoại lệ; không nói cả hai người ngồi sau đều phải thuộc nhóm ngoại lệ hay chỉ một. Mục để ngỏ và không đoán: thận trọng, chấp nhận. Cách đếm người (có tính người lái hay không) cũng không được nguồn nói thẳng.'
+internal_checks:
+  - issue: 'Điểm mâu thuẫn tiềm ẩn về cách đếm: mục viết "Chở một người" / "Chở hai người" nhưng không nói "chở theo" tính người ngồi sau (không tính người lái). Câu "Xe máy hai bánh chỉ chở một người" (Nói dễ hiểu, tldr) chưa nói rõ "một người ngoài người lái"; có thể bị hiểu nhầm là cả xe chỉ 1 người. Nguồn Điều 33 khoản 1: "chỉ được chở một người".'
+    severity: warn
+  - issue: Tiêu đề "chở hai người khi đó là người cấp cứu" khác chữ luật "người bệnh đi cấp cứu"; Nói dễ hiểu dùng đúng "người bệnh đi cấp cứu". Nên sửa tiêu đề cho khớp.
+    severity: warn
+  - issue: Các số trong tldr (600.000-800.000 đồng, 2 điểm) đều có trong thân; "400.000-600.000 đồng" (chở hai người, không đội mũ) nhất quán với mục 4 và 5 cùng chương (khoản 2 Điều 7). Không mâu thuẫn số liệu giữa mục 2 và mục 3, 4, 5.
+    severity: warn
+  - issue: Bẫy 2 "miễn phạt cho trẻ dưới 6 tuổi không đội mũ" đúng với điểm i nhưng Điều 33 khoản 2 vẫn buộc "người được chở" đội mũ; mục đã nhắc "không có nghĩa là an toàn", chấp nhận.
+    severity: warn
+  - issue: "legal_refs url: các URL (vbpl.vn Luật 36; chinhphu.vn NĐ 168) đúng văn bản ghi ở doc; vbpl.vn chỉ trả khung."
+    severity: warn
+validity:
+  doc: Luật 36/2024/QH15 (Điều 33) và Nghị định 168/2024/NĐ-CP (Điều 7)
+  in_force: unconfirmed
+  effective_from: 2025-01-01
+  amended_by: []
+  basis: 'Điều 53 khoản 1 Nghị định 168: "Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025". Chưa tìm được văn bản chính thống nêu 168 hết hiệu lực hay còn nguyên Điều 7/18. Có Nghị định 336/2025/NĐ-CP (22/12/2025, hiệu lực 01/03/2026) mà bản tóm tắt chinhphu.vn nói "bãi bỏ một số điều, khoản, điểm" của NĐ 100/2019 "được sửa đổi, bổ sung bởi" NĐ 123/2021 và NĐ 168/2024; PDF toàn văn của 336 là ảnh quét (không trích được chữ), bản thuvienphapluat bị chặn 403, nên không xác định được 336 có đụng tới Điều 7/18 của NĐ 168 hay không. Không kết luận còn hiệu lực chỉ vì không thấy văn bản thay thế. Luật: Điều 90 khoản 1 hiệu lực 01/01/2025.'
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - 'Tiêu đề: thay "khi đó là người cấp cứu" bằng "khi đó là người bệnh đi cấp cứu" (Điều 33 khoản 1 điểm a).'
+  - 'Nói dễ hiểu/tldr: thêm cụm "ngoài người lái" hoặc nói "chỉ chở một người ngồi sau" nếu đó là cách đếm đúng; hiện nguồn chỉ ghi "chỉ được chở một người" nên cân nhắc giữ nguyên chữ luật và nêu "chở theo 02 người/03 người" như NĐ 168.'
+  - 'Ghi chú "Chưa rõ: hai người ngồi sau": giữ, nhưng nên viết đúng vào "tối đa hai người" (Điều 33 khoản 1) thay vì "hai người ngồi sau".'

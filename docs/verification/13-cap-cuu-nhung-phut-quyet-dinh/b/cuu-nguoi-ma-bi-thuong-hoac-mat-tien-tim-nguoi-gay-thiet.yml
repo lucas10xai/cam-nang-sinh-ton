@@ -1,0 +1,96 @@
+id: cuu-nguoi-ma-bi-thuong-hoac-mat-tien-tim-nguoi-gay-thiet
+checker: agent-Vf13hB
+checked_at: 2026-11-08
+content_sha256: "90c87e19e0c81390ff11ead1641f4399f32088b9c227de1f4ffb11094bc02bc3"
+result: fail
+claims:
+  - text: "Điều 52 Luật TĐKT: Huân chương Dũng cảm tặng cho cá nhân có hành động dũng cảm khi cứu người trong thảm họa, thiên tai, dịch bệnh, tai nạn, cháy, nổ hoặc đấu tranh phòng, chống tội phạm"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/07/06-2022-qh15..pdf
+    quote: "“Huân chương Dũng cảm” để tặng hoặc truy tặng cho cá nhân có hành động dũng cảm khi cứu người, cứu tài sản của Nhà nước, của Nhân dân trong thảm họa, thiên tai, dịch bệnh, tai nạn, cháy, nổ, đấu tranh phòng, chống tội phạm hoặc dũng cảm xung phong vào nơi nguy hiểm nhằm bảo vệ tính mạng của người dân và thành tích đạt được có tác dụng động viên, giáo dục, nêu gương trong phạm vi quản lý của Bộ, ban, ngành, tỉnh hoặc toàn quốc."
+    verdict: partial
+    note: "Bỏ điều kiện cuối: thành tích phải “có tác dụng động viên, giáo dục, nêu gương trong phạm vi quản lý của Bộ, ban, ngành, tỉnh hoặc toàn quốc”. Mục tldr và steps khiến người đọc tưởng cứu người là đủ để xin Huân chương Dũng cảm; luật cho phép các hình thức khen thưởng khác (không đề cập)."
+  - text: "Điều 85 khoản 1 điểm b: hành động dũng cảm cứu người được khen thưởng theo thủ tục đơn giản"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/07/06-2022-qh15..pdf
+    quote: "b) Cá nhân, tập thể lập được thành tích xuất sắc đột xuất trong chiến đấu, phục vụ chiến đấu, trong lao động, công tác, sản xuất, kinh doanh, học tập và nghiên cứu khoa học hoặc lĩnh vực khác hoặc có hành động dũng cảm cứu người, cứu tài sản của Nhà nước, của Nhân dân hoặc được giải thưởng quốc tế của khu vực hoặc thế giới;"
+    verdict: match
+    note: "Vế “tức không phải chờ bình xét cuối năm” là diễn giải của mục, không phải chữ luật. Luật sửa đổi Luật TĐKT (Luật 06/2026/QH16 ngày 23/04/2026 theo Thông tư 25/2026/TT-BNV) có sửa điểm a khoản 1 Điều 85 (dự thảo); chưa đọc bản chính thức xem điểm b còn nguyên."
+  - text: "Nghị định 98/2023 Điều 3 khoản 4: “thành tích đặc biệt xuất sắc đột xuất” khi dũng cảm cứu người"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-98-2023-nd-cp-41047.htm
+    quote: "4. Thành tích đặc biệt xuất sắc đột xuất là thành tích đột xuất đạt được ở mức độ đặc biệt xuất sắc khi dũng cảm cứu người, cứu tài sản của Nhân dân, của Nhà nước hoặc trong chiến đấu, phục vụ chiến đấu hoặc lập được thành tích đặc biệt xuất sắc trong các lĩnh vực kinh tế xã hội, văn hóa, thể thao và các lĩnh vực khác ở trong nước hoặc khu vực, thế giới."
+    verdict: partial
+    note: "Trích từ file PDF Công báo 147+148 (tải qua trang Công báo). Mục viết “Đây được gọi là ‘thành tích đặc biệt xuất sắc đột xuất’” cho mọi trường hợp cứu người; định nghĩa đòi “ở mức độ đặc biệt xuất sắc”. Văn bản này có thể đã bị thay thế (xem validity)."
+  - text: "Tiền thưởng Huân chương Dũng cảm là 4,5 lần mức lương cơ sở (NĐ 98/2023 Điều 55 khoản 1 điểm h)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-98-2023-nd-cp-41047.htm
+    quote: "h) “Huân chương Lao động” hạng Ba, “Huân chương Chiến công” hạng Ba, “Huân chương Bảo vệ Tổ quốc” hạng Ba và “Huân chương Dũng cảm”: 4,5 lần mức lương cơ sở."
+    verdict: match
+    note: "Khớp văn bản được dẫn, nhưng NĐ 98/2023 đã được thay (xem claim kế tiếp và validity): con số hiện hành nằm ở Điều 54 NĐ 368/2026."
+  - text: "Hiện hành: Điều 54 khoản 1 điểm h NĐ 368/2026/NĐ-CP (hiệu lực 01/10/2026) cũng 4,5 lần"
+    source_url: https://lawplayer.com/vn/article/vn-congbao-470594/e0054
+    quote: "h) “Huân chương Lao động” hạng Ba, “Huân chương Chiến công” hạng Ba, “Huân chương Bảo vệ Tổ quốc” hạng Ba, “Huân chương Dũng cảm”, “Huân chương Hữu nghị”: 4,5 lần mức lương cơ sở."
+    verdict: match-secondary
+    note: "Bản sao LawPlayer (đồng bộ vbpl.vn 08/10/2026); bài tcnnld.vn ngày 29/09/2026 cũng nêu cùng mức và “có hiệu lực thi hành từ ngày 01/10/2026”. Chưa mở được PDF Công báo của NĐ 368/2026. Số 4,5 không đổi, nhưng điều khoản dẫn trong mục (NĐ 98, Điều 55) là văn bản cũ."
+  - text: "Tiền thưởng tính theo lương cơ sở lúc ban hành quyết định, làm tròn lên hàng chục nghìn đồng (NĐ 98 Điều 53 khoản 1, 2)"
+    source_url: https://lawplayer.com/vn/article/vn-congbao-470594/e0052
+    quote: "1. Tiền thưởng cho cá nhân, tập thể, hộ gia đình được khen thưởng được tính trên cơ sở mức lương cơ sở do Chính phủ quy định đang có hiệu lực vào thời điểm ban hành quyết định công nhận danh hiệu thi đua, quyết định hình thức khen thưởng. 2. Tiền thưởng sau khi nhân với hệ số mức lương cơ sở được làm tròn số lên hàng chục nghìn đồng tiền Việt Nam."
+    verdict: match-secondary
+    note: "Khớp ở NĐ 368/2026 Điều 52 (bản sao LawPlayer). Văn bản NĐ 98 Điều 53 khoản 1, 2 (PDF Công báo) cũng có cùng nội dung nên claim đúng ý, nhưng số điều trong mục đã lạc hậu."
+  - text: "Mức lương cơ sở từ 01/7/2026 là 2.530.000 đồng (NĐ 161/2026/NĐ-CP)"
+    source_url: https://xaydungchinhsach.chinhphu.vn/tu-01-7-chinh-phu-tang-luong-co-so-119260517100243881.htm
+    quote: "Theo Nghị định số 161/2026/NĐ-CP, mức lương cơ sở từ ngày 01/7/2026 là 2.530.000 đồng/tháng (mức lương cơ sở hiện nay là 2.340.000 đồng/tháng)."
+    verdict: match-secondary
+    note: "Báo chính phủ (Chinhphu.vn), không phải văn bản NĐ 161/2026. Nghị định này đồng thời quy định “chế độ tiền thưởng” cho cán bộ, công chức; không thấy nó đổi quy tắc tiền thưởng khen thưởng. Mục dẫn NĐ 161 trong Nguồn nhưng không có trong legal_refs."
+  - text: "Mức thưởng tương đương 11.390.000 đồng"
+    source_url: https://xaydungchinhsach.chinhphu.vn/tu-01-7-chinh-phu-tang-luong-co-so-119260517100243881.htm
+    quote: ""
+    verdict: inference
+    note: "Phép tính: 4,5 × 2.530.000 = 11.385.000, làm tròn lên hàng chục nghìn = 11.390.000. Đúng số học; là suy ra từ hai nguồn trên, không phải chữ của nguồn."
+  - text: "Điều 7 khoản 2 Luật KCB: từ chối hoặc cố ý chậm cấp cứu người bệnh là hành vi bị nghiêm cấm"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/26-vbhn-vpqh.pdf
+    quote: "2. Từ chối hoặc cố ý chậm cấp cứu người bệnh, trừ trường hợp quy định tại Điều 40 của Luật này."
+    verdict: partial
+    note: "Mục bỏ ngoại lệ “trừ trường hợp quy định tại Điều 40”; không đọc Điều 40 nên không rõ ngoại lệ là gì. Không gây hại hành động của người đọc."
+  - text: "Điều 61 khoản 7 điểm a Luật KCB: ngân sách nhà nước trả chi phí vận chuyển và dịch vụ KCB trong quá trình vận chuyển cấp cứu với trường hợp tai nạn"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/26-vbhn-vpqh.pdf
+    quote: "a) Ngân sách nhà nước bảo đảm kinh phí cho đầu tư thiết lập hệ thống cơ sở cấp cứu ngoại viện của Nhà nước; ... chi phí vận chuyển và sử dụng dịch vụ khám bệnh, chữa bệnh trong quá trình vận chuyển cấp cứu đối với trường hợp tai nạn, thiên tai, thảm họa, dịch bệnh truyền nhiễm đặc biệt nguy hiểm ..."
+    verdict: match
+    note: "Điều khoản về cấp cứu ngoại viện (hệ thống cấp cứu của Nhà nước). Mục dùng để nói người cứu người không phải trả tiền xe cấp cứu; luật không nêu rõ cho từng trường hợp (hoàn cảnh cụ thể do cơ quan có thẩm quyền quy định)."
+  - text: "Việc lập hồ sơ do cơ quan nơi làm việc hoặc xã phường nơi xảy ra việc (step 4, Bẫy 1)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-98-2023-nd-cp-41047.htm
+    quote: "3. Người đứng đầu bộ, ban, ngành, tỉnh; người đứng đầu cơ quan, tổ chức, đơn vị khen thưởng và đề nghị khen thưởng ngay sau khi cá nhân, tập thể lập được thành tích xuất sắc, đột xuất theo quy định tại điểm b khoản 1 Điều 85 của Luật Thi đua, khen thưởng."
+    verdict: inference
+    note: "NĐ 98 Điều 40 khoản 3 nói người đứng đầu cơ quan, tổ chức, đơn vị khen thưởng và đề nghị khen thưởng, và khoản 2 b nói “cơ quan, tổ chức, đơn vị quản lý trực tiếp”. “Xã phường nơi xảy ra việc” không có trong chữ; là suy ra. Cũng không có thủ tục cho người không thuộc cơ quan nào (người dân tự do)."
+  - text: "Bẫy 2: người cứu người ngoài đường thì đường đi là BHYT, bồi thường dân sự và khen thưởng; chế độ thương binh chỉ cho nhóm đối tượng theo pháp lệnh người có công"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/8/2026-123-phap-lenh-uu-dai-nguoi-co-cong-voi-cach-mang-thanh-trang.pdf
+    quote: "h) Dũng cảm cứu người, cứu tài sản của Nhà nước, của Nhân dân hoặc dũng cảm ngăn chặn, bắt giữ người có hành vi phạm tội. 2. Người không phải là sĩ quan, quân nhân chuyên nghiệp, hạ sĩ quan, binh sĩ trong Quân đội nhân dân và sĩ quan, hạ sĩ quan, chiến sĩ trong Công an nhân dân bị thương có tỷ lệ tổn thương cơ thể từ 21% trở lên thuộc một trong các trường hợp quy định tại khoản 1 Điều này thì được cơ quan, đơn vị có thẩm quyền xem xét công nhận là người hưởng chính sách như thương binh"
+    verdict: mismatch
+    note: "VBHN 123/2026 Pháp lệnh Ưu đãi người có công, Điều 23 khoản 1 điểm h và khoản 2. Người dân thường bị thương ≥21% khi dũng cảm cứu người CÓ thể được xem xét công nhận “người hưởng chính sách như thương binh”; nếu hy sinh thì Điều 14 khoản 1 điểm h (liệt sĩ). Mục dặn “đường đi là BHYT, bồi thường dân sự và khen thưởng” và bác bỏ chế độ này, gây hiểu sai; người thương tật nặng có thể bỏ lỡ chế độ. “Đương nhiên được hưởng” đúng là sai (cần cơ quan xem xét), nhưng phần còn lại thì sai."
+internal_checks:
+  - issue: "legal_refs ghi NĐ 98/2023 Điều 3 khoản 4, Điều 53, Điều 55 khoản 1 điểm h dẫn tới văn bản đã được thay thế bởi NĐ 368/2026/NĐ-CP (Điều 52, 54 hiện hành); Thông tư 25/2026/TT-BNV (01/10/2026) hướng dẫn thi hành Luật TĐKT và NĐ 368/2026. Số điều trong mục không còn đúng với văn bản đang áp dụng."
+    severity: error
+  - issue: "Bẫy 2 và dòng “Đừng hiểu ngược” (không có chế độ cho người cứu người ngoài BHYT, bồi thường, khen thưởng) mâu thuẫn Pháp lệnh Ưu đãi người có công Điều 23 khoản 1 điểm h, khoản 2."
+    severity: error
+  - issue: "legal_refs không có Nghị định 161/2026/NĐ-CP, văn bản duy nhất quyết định con số 2.530.000 (và 11.390.000); số này chỉ có ở phần Nguồn."
+    severity: warn
+  - issue: "Điều 3 khoản 4 NĐ 98: mục dùng “thành tích đặc biệt xuất sắc đột xuất” cho mọi trường hợp cứu người; luật đòi “ở mức độ đặc biệt xuất sắc”."
+    severity: warn
+  - issue: "Tldr “khen thưởng đột xuất ... Huân chương Dũng cảm thưởng 4,5 lần lương cơ sở” nêu mức tiền của một hình thức mà điều kiện Điều 52 (phạm vi Bộ/ngành/tỉnh/toàn quốc) hầu hết vụ cứu người thường không đạt; dễ kỳ vọng sai."
+    severity: warn
+  - issue: "Nguồn thứ nhất ghi Điều 8 khoản 2 nhưng không có claim tương ứng trong thân; legal_refs không nêu Điều 8."
+    severity: warn
+  - issue: "legal_refs Luật KCB bản hợp nhất 26/VBHN-VPQH; url datafiles .../2026/3/26-vbhn-vpqh.pdf đúng văn bản Luật Khám bệnh, chữa bệnh và có Điều 7 khoản 2, Điều 61 khoản 7 điểm a."
+    severity: warn
+validity:
+  doc: "Nghị định 98/2023/NĐ-CP (hướng dẫn Luật Thi đua, khen thưởng)"
+  in_force: unconfirmed
+  effective_from: "2024-01-01"
+  amended_by: ["Nghị định 152/2025/NĐ-CP (phân cấp, phân quyền, hiệu lực 2025-07-01)", "Nghị định 368/2026/NĐ-CP (25/9/2026, hiệu lực 2026-10-01)"]
+  basis: "Bài thuvienphapluat 10/07/2025 kết luận NĐ 98/2023 hết hiệu lực từ 01/7/2025 (có chuyển tiếp áp dụng đến hết 31/12/2025 nếu chưa có quy định phân cấp); bài tcnnld.vn 29/09/2026 nói NĐ 368/2026/NĐ-CP có hiệu lực 01/10/2026 và thay NĐ 152/2025; Thông tư 25/2026/TT-BNV (01/10/2026) căn cứ NĐ 368/2026. Chưa mở văn bản gốc NĐ 368/2026 để đọc điều khoản bãi bỏ NĐ 98 và chưa tìm điều tương ứng Điều 3 khoản 4 NĐ 98. Luật Thi đua, khen thưởng 06/2022/QH15 được sửa bởi Luật 06/2026/QH16 (23/04/2026); chỉ đọc bản dự thảo, thấy sửa điểm a khoản 1 Điều 85, chưa thấy sửa Điều 52. Luật KCB 15/2023 (hợp nhất 2026) còn hiệu lực theo VBHN 26/2026. Pháp lệnh Ưu đãi người có công có VBHN 123/2026 (05/8/2026); Pháp lệnh 05/2026/UBTVQH16 sửa Điều 14 có hiệu lực 01/01/2027."
+deliberate_vn_deviation: []
+potential_harm:
+  - "Bẫy 2 / “Đừng hiểu ngược”: người bị thương nặng khi cứu người đọc xong tin rằng chỉ có BHYT, bồi thường và khen thưởng, và bỏ qua đề nghị công nhận “người hưởng chính sách như thương binh” (Điều 23 khoản 2 Pháp lệnh, tỷ lệ tổn thương ≥21%) có thể mất quyền lợi (chế độ lâu dài). Đây là sai pháp lý gây thiệt hại thực, không phải y tế cấp cứu."
+suggested_edits:
+  - "Pháp luật VN, thêm mục “Chế độ ưu đãi” dựa trên quote Pháp lệnh Ưu đãi người có công Điều 23 khoản 1 điểm h và khoản 2 (người dân thường bị thương ≥21% do dũng cảm cứu người được xem xét công nhận người hưởng chính sách như thương binh) và Điều 14 khoản 1 điểm h (liệt sĩ khi hy sinh); sửa Bẫy 2 thành “không đương nhiên được; phải có cơ quan có thẩm quyền xem xét, hồ sơ xin ở UBND xã/phường hoặc cơ quan quản lý”. Cần kiểm tên cơ quan nộp hồ sơ (chưa kiểm)."
+  - "legal_refs và Pháp luật VN: thay NĐ 98/2023 Điều 3 khoản 4, Điều 53, Điều 55 bằng NĐ 368/2026/NĐ-CP (Điều 52 nguyên tắc tính tiền thưởng, Điều 54 khoản 1 điểm h), kiểm Điều giải thích “thành tích đặc biệt xuất sắc đột xuất” trong NĐ 368 và thủ tục đơn giản (tương ứng Điều 40 NĐ 98); thêm NĐ 161/2026/NĐ-CP vào legal_refs."
+  - "Điều 52 Luật TĐKT: thêm điều kiện “thành tích có tác dụng động viên, giáo dục, nêu gương trong phạm vi Bộ, ban, ngành, tỉnh hoặc toàn quốc” và nói thẳng nhiều vụ cứu người sẽ nhận hình thức khen thưởng khác (Bằng khen, Giấy khen) theo mức do NĐ 368/2026 Điều 57 quy định (chưa kiểm)."
+  - "Step 4 và Bẫy 1: bỏ “xã phường nơi xảy ra việc” hoặc dán nhãn “suy ra”; dẫn NĐ 98 Điều 40 khoản 2, 3 (nay cần dẫn điều tương ứng của NĐ 368) rằng người đứng đầu cơ quan, tổ chức, đơn vị đề nghị ngay sau khi lập thành tích."
+  - "Điều 7 khoản 2 Luật KCB: thêm “trừ trường hợp quy định tại Điều 40 Luật KCB” hoặc bỏ dòng này, vì không liên quan trực tiếp tới việc người dân cứu người."

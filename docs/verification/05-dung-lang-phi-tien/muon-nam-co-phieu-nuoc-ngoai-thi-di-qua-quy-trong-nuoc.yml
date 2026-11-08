@@ -1,0 +1,74 @@
+id: muon-nam-co-phieu-nuoc-ngoai-thi-di-qua-quy-trong-nuoc
+checker: agent-Vf05h
+checked_at: 2026-11-08
+content_sha256: "b0083d7269d1bbc5d03df9aeebf11a0fb8fdf76b9718c0654ac066428efed95b"
+result: fail
+claims:
+  - text: "Cấm kinh doanh, cung cấp dịch vụ chứng khoán khi chưa được cấp phép (Điều 12 khoản 4 Luật Chứng khoán)"
+    source_url: https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=APPSSCGOVVN1620160383&dID=167130&filename=VBHN%20so%2024%20-%20Luat%20CK.pdf
+    quote: "4. Thực hiện hoạt động kinh doanh chứng khoán, cung cấp dịch vụ về chứng khoán khi chưa được Ủy ban Chứng khoán Nhà nước cấp giấy phép, cấp giấy chứng nhận hoặc chấp thuận."
+    verdict: match
+    note: "Bản PDF VBHN 24/VBHN-VPQH (Công báo 531+532 ngày 18/3/2025) do ssc.gov.vn đăng. Chữ khớp. Lưu ý: số hiệu luật là 54/2019/QH14, không phải QH15 như mục ghi."
+  - text: "Mở tài khoản ở công ty chứng khoán nước ngoài để giao dịch không có kênh pháp lý trong nước; không có cơ chế bảo vệ nhà đầu tư"
+    source_url: https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=APPSSCGOVVN1620160383&dID=167130&filename=VBHN%20so%2024%20-%20Luat%20CK.pdf
+    quote: "(Điều 12 khoản 4 chỉ cấm bên cung cấp dịch vụ chưa được UBCKNN cấp phép; không có điều nào trong văn bản nói cá nhân mở tài khoản ở công ty chứng khoán nước ngoài là không có kênh pháp lý.)"
+    verdict: inference
+    note: "Điều 12.4 cấm hoạt động kinh doanh/cung cấp dịch vụ không phép, không phải quy định về cá nhân trong nước mở tài khoản ngoài. Kết luận 'không có kênh pháp lý trong nước' là suy ra, chưa dẫn quy định ngoại hối/đầu tư gián tiếp ra nước ngoài."
+  - text: "Cá nhân ở Việt Nam chỉ nắm cổ phiếu nước ngoài hợp pháp qua quỹ trong nước có điều lệ cho phép đầu tư ra nước ngoài (tldr)"
+    source_url: https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=APPSSCGOVVN1620160383&dID=167130&filename=VBHN%20so%2024%20-%20Luat%20CK.pdf
+    quote: "(không có nguồn)"
+    verdict: not-found
+    note: "Khẳng định lõi 'chỉ qua quỹ' (loại trừ mọi kênh khác) không có điều khoản nào trong nguồn dẫn. Tìm thấy Nghị định 135/2015/NĐ-CP về đầu tư gián tiếp ra nước ngoài (thuvienphapluat trả 403, chưa đọc được nội dung đầy đủ), cho thấy có khung pháp lý riêng mà mục không dẫn; không thể loại trừ ngoại lệ (ví dụ người lao động tham gia kế hoạch cổ phiếu của công ty nước ngoài)."
+  - text: "Việt Nam không có kênh QDII và cũng không có cổng mua cổ phiếu Hong Kong"
+    source_url: https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=APPSSCGOVVN1620160383&dID=167130&filename=VBHN%20so%2024%20-%20Luat%20CK.pdf
+    quote: "(không có nguồn)"
+    verdict: not-found
+    note: "Không có nguồn nào trong mục cho khẳng định này."
+  - text: "Điều lệ Quỹ VCBF-BCF ghi: Quỹ được phép đầu tư ra nước ngoài theo quy định của pháp luật"
+    source_url: https://www.vcbf.com/images/2026/260508_i_u_l_qu_vcbf-bcf.pdf
+    quote: "(URL trả về HTTP 404: The webpage cannot be found)"
+    verdict: unreachable
+    note: "URL ghi trong mục không mở được (HTTP 404, kiểm 2026-11-08, hai lần). Điều lệ VCBF-BCF bản 2016 (vcbf.com/images/2016/v_160510_vcbf-bcf_fund_charter.pdf) mở được nhưng không chứa cụm 'ra nước ngoài' hay 'đầu tư ra nước ngoài'. Không xác nhận được câu trích."
+  - text: "Chỉ quỹ có điều lệ cho phép đầu tư ra nước ngoài mới nắm tài sản ở nước ngoài, và phần đó chịu thêm quy định ngoại hối; công ty quản lý quỹ phải được UBCKNN cấp phép"
+    source_url: https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=APPSSCGOVVN1620160383&dID=167130&filename=VBHN%20so%2024%20-%20Luat%20CK.pdf
+    quote: "(không có nguồn)"
+    verdict: not-found
+    note: "Không có điều khoản dẫn. Mục tự ghi 'Xem Còn treo về quy định chi tiết tỷ lệ đầu tư ra nước ngoài' nhưng không có mục 'Còn treo' trong file."
+  - text: "Người trong nước nhận lệnh hộ, nạp rút hộ cho sàn ngoại đang làm một việc không có giấy phép"
+    source_url: https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=APPSSCGOVVN1620160383&dID=167130&filename=VBHN%20so%2024%20-%20Luat%20CK.pdf
+    quote: "4. Thực hiện hoạt động kinh doanh chứng khoán, cung cấp dịch vụ về chứng khoán khi chưa được Ủy ban Chứng khoán Nhà nước cấp giấy phép, cấp giấy chứng nhận hoặc chấp thuận."
+    verdict: inference
+    note: "Suy ra Điều 12.4 áp dụng cho người nhận lệnh hộ. Luật không nêu 'nạp rút hộ'; việc có cấu thành 'cung cấp dịch vụ chứng khoán' tùy sự việc."
+  - text: "Bẫy 2: dùng hạn mức mua ngoại tệ chuyển tiền mua chứng khoán nước ngoài là dùng sai mục đích; ngân hàng có thể yêu cầu giải trình rồi chặn giao dịch sau"
+    source_url: https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=APPSSCGOVVN1620160383&dID=167130&filename=VBHN%20so%2024%20-%20Luat%20CK.pdf
+    quote: "(không có nguồn)"
+    verdict: not-found
+    note: "Không dẫn quy định ngoại hối nào (Pháp lệnh ngoại hối, Thông tư NHNN về mua/chuyển ngoại tệ của cá nhân)."
+internal_checks:
+  - issue: "legal_refs[0].doc và mục Nguồn ghi 'Luật Chứng khoán 54/2019/QH15'. Số hiệu đúng là 54/2019/QH14 (ngày 26/11/2019; VBHN 24 ghi 'Luật Chứng khoán số 54/2019/QH14')."
+    severity: error
+  - issue: "legal_refs[0].url = null (và effective_from, checked_at, quote = null): không có đường dẫn văn bản để kiểm."
+    severity: warn
+  - issue: "URL Điều lệ VCBF bản 2026 (nguồn duy nhất cho ví dụ quỹ) trả 404."
+    severity: error
+  - issue: "Tham chiếu 'Xem Còn treo' ở mục Nguồn trỏ tới mục không có trong file."
+    severity: warn
+  - issue: "Điều 12 khoản 4 chỉ là điều cấm cung cấp dịch vụ khi chưa được cấp phép; mục dùng điều này làm cơ sở duy nhất cho các kết luận rộng hơn (không có kênh pháp lý, chỉ đi qua quỹ). Không có điều khoản nào về đầu tư ra nước ngoài của cá nhân/quỹ được dẫn."
+    severity: error
+  - issue: "tldr nói 'không có kênh pháp lý trong nước' nhưng phần Pháp luật Việt Nam tự nhận 'Quy định này áp dụng cho bên cung cấp dịch vụ': tldr mạnh hơn nguồn."
+    severity: warn
+validity:
+  doc: "Luật Chứng khoán 54/2019/QH14 (VBHN 24/VBHN-VPQH, Công báo 531+532 ngày 18/3/2025)"
+  in_force: true
+  effective_from: "unconfirmed"
+  amended_by:
+    - "Luật 56/2024/QH15 (khoản 3 Điều 12 đã được sửa theo khoản 5 Điều 1, ghi trong chú thích VBHN 24); khoản 4 Điều 12 giữ nguyên chữ"
+  basis: "VBHN 24/VBHN-VPQH ban hành 26/02/2025 hợp nhất các luật sửa đổi tới 56/2024/QH15. Tìm kiếm ngày 2026-11-08 chỉ thấy dự thảo Luật sửa đổi Luật Chứng khoán (đang trình Quốc hội, chưa ban hành), chưa thấy văn bản thay thế. Ngày có hiệu lực của luật gốc chưa đọc trực tiếp trong văn bản nên ghi unconfirmed."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "legal_refs[0].doc và mục Nguồn: sửa 'Luật Chứng khoán 54/2019/QH15' thành 'Luật Chứng khoán 54/2019/QH14'; điền url (ssc.gov.vn VBHN 24 hoặc congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-24-vbhn-vpqh-44452.htm), quote lấy từ Điều 12 khoản 4."
+  - "tldr và Nói dễ hiểu: bỏ 'chỉ ... hợp pháp qua quỹ' và 'Việt Nam không có kênh QDII' trừ khi dẫn quy định cụ thể (Nghị định 135/2015/NĐ-CP, quy định ngoại hối, thông tư về quỹ đầu tư ra nước ngoài). Hiện chỉ Điều 12.4 được xác minh, và nó chỉ nói về dịch vụ không phép."
+  - "Pháp luật Việt Nam, VCBF: sửa URL (404) bằng điều lệ hiện hành mở được và trích đúng câu, hoặc xóa ví dụ."
+  - "Bẫy 2 (hạn mức mua ngoại tệ): dẫn văn bản ngoại hối hoặc xóa."
+  - "Xóa hoặc thay tham chiếu 'Còn treo'."

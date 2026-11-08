@@ -1,0 +1,90 @@
+id: xe-mo-to-hai-banh-tren-125-cm-can-bang-hang-a
+checker: agent-Vf36a
+checked_at: 2026-11-08
+content_sha256: 07a8dff52966a978ca0f1717b262757b198616a27c12e4e3acc26117e1b9db16
+result: pass-with-edits
+claims:
+  - text: Hạng A1 cấp cho xe mô tô hai bánh đến 125 cm³ hoặc điện đến 11 kW
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm
+    quote: a) Hạng A1 cấp cho người lái xe mô tô hai bánh có dung tích xi-lanh đến 125 cm3 hoặc có công suất động cơ điện đến 11 kW;
+    verdict: match
+    note: Điều 57 khoản 1 điểm a. Đối chiếu qua bản toàn văn Luật 36/2024/QH15 trên xaydungchinhsach.chinhphu.vn (Cổng TTĐT Chính phủ), nguồn chính thống trích được chữ; trang vbpl.vn ở mục Nguồn chỉ trả khung, không trích được nội dung.
+  - text: Hạng A cấp cho xe trên 125 cm³ hoặc điện trên 11 kW và lái được xe hạng A1
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm
+    quote: b) Hạng A cấp cho người lái xe mô tô hai bánh có dung tích xi-lanh trên 125 cm3 hoặc có công suất động cơ điện trên 11 kW và các loại xe quy định cho giấy phép lái xe hạng A1;
+    verdict: match
+    note: Điều 57 khoản 1 điểm b. Đối chiếu qua bản toàn văn Luật 36/2024/QH15 trên xaydungchinhsach.chinhphu.vn (Cổng TTĐT Chính phủ), nguồn chính thống trích được chữ; trang vbpl.vn ở mục Nguồn chỉ trả khung, không trích được nội dung.
+  - text: Bằng A1, A, B1 không có thời hạn
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm
+    quote: a) Giấy phép lái xe các hạng A1, A, B1 không thời hạn;
+    verdict: match
+    note: Điều 57 khoản 5 điểm a. Đối chiếu qua bản toàn văn Luật 36/2024/QH15 trên xaydungchinhsach.chinhphu.vn (Cổng TTĐT Chính phủ), nguồn chính thống trích được chữ; trang vbpl.vn ở mục Nguồn chỉ trả khung, không trích được nội dung.
+  - text: Đủ 18 tuổi mới được cấp bằng A1, A
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm
+    quote: b) Người đủ 18 tuổi trở lên được cấp giấy phép lái xe hạng A1, A, B1, B, C1,
+    verdict: match
+    note: Điều 59 khoản 1 điểm b. Đối chiếu qua bản toàn văn Luật 36/2024/QH15 trên xaydungchinhsach.chinhphu.vn (Cổng TTĐT Chính phủ), nguồn chính thống trích được chữ; trang vbpl.vn ở mục Nguồn chỉ trả khung, không trích được nội dung.
+  - text: Bằng cấp trước 01/01/2025 vẫn dùng được
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm
+    quote: 1. Giấy phép lái xe được cấp trước ngày Luật này có hiệu lực thi hành được tiếp tục sử dụng theo thời hạn ghi trên giấy phép lái xe.
+    verdict: match
+    note: Đây là khoản 1 Điều 89; mục dẫn "Điều 89 khoản 2" cho câu này (xem suggested_edits). Luật có hiệu lực 01/01/2025 (Điều 90 khoản 1).
+  - text: Bằng A1 cũ (chưa đổi, cấp lại) lái xe 50 đến dưới 175 cm³ hoặc điện 4 đến dưới 14 kW
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm
+    quote: a) Giấy phép lái xe hạng A1 được tiếp tục điều khiển xe mô tô hai bánh có dung tích xi-lanh từ 50 cm3 đến dưới 175 cm3 hoặc có công suất động cơ điện từ 04 kW đến dưới 14 kW;
+    verdict: match
+    note: Điều 89 khoản 2 điểm a. Điều kiện đi kèm "chưa thực hiện đổi, cấp lại" có ở chapeau khoản 2 và có trong "Nói dễ hiểu".
+  - text: Bằng A2 cũ lái xe từ 175 cm³ trở lên
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm
+    quote: b) Giấy phép lái xe hạng A2 được tiếp tục điều khiển xe mô tô hai bánh có dung tích xi-lanh từ 175 cm3 trở lên hoặc có công suất động cơ điện từ 14 kW trở lên và các loại xe quy định cho giấy phép lái xe hạng A1 quy định tại điểm a khoản này;
+    verdict: match
+    note: Điều 89 khoản 2 điểm b.
+  - text: Khi đổi/cấp lại, A1 cũ thành hạng A hạn chế dưới 175 cm³ (mục không nêu)
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm
+    quote: a) Giấy phép lái xe hạng A1 được đổi, cấp lại sang giấy phép lái xe hạng A với điều kiện hạn chế là chỉ được điều khiển xe mô tô hai bánh có dung tích xi-lanh đến dưới 175 cm3 hoặc có công suất động cơ điện đến dưới 14 kW;
+    verdict: partial
+    note: Điều 89 khoản 3 điểm a. Mục nói "bằng A1 cũ ... chưa đổi hoặc cấp lại" đúng, nhưng không nói người đổi/cấp lại bằng A1 cũ sẽ nhận hạng A hạn chế (<175 cm³/<14 kW), không phải "A1 mới" (≤125 cm³). Người đọc có thể hiểu sai khi đi đổi bằng. Đề xuất bổ sung một câu.
+  - text: Phạt 2.000.000-4.000.000 đồng, mô tô hai bánh đến 125 cm³ hoặc điện đến 11 kW, không có bằng/bằng hết điểm/không phù hợp loại xe
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: "5. Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với người điều khiển xe mô tô hai bánh có dung tích xi-lanh đến 125 cm3 hoặc có công suất động cơ điện đến 11 kW và các loại xe tương tự xe mô tô thực hiện một trong các hành vi vi phạm sau đây: a) Không có giấy phép lái xe hoặc sử dụng giấy phép lái xe đã bị trừ hết điểm hoặc sử dụng giấy phép lái xe không do cơ quan có thẩm quyền cấp, giấy phép lái xe bị tẩy xóa, giấy phép lái xe không còn hiệu lực, giấy phép lái xe không phù hợp với loại xe đang điều khiển;"
+    verdict: match
+    note: Điều 18 khoản 5 điểm a, NĐ 168 (bản chinhphu.vn, nguồn chính thống).
+  - text: Phạt 6.000.000-8.000.000 đồng, xe trên 125 cm³ hoặc điện trên 11 kW, có bằng không phù hợp hoặc không có bằng
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: "7. Phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng đối với người điều khiển xe mô tô hai bánh có dung tích xi-lanh trên 125 cm3 trở lên hoặc có công suất động cơ điện trên 11 kW, xe mô tô ba bánh thực hiện một trong các hành vi vi phạm sau đây: a) Có giấy phép lái xe nhưng không phù hợp với loại xe đang điều khiển; b) Không có giấy phép lái xe hoặc sử dụng giấy phép lái xe đã bị trừ hết điểm,"
+    verdict: match
+    note: Điều 18 khoản 7 điểm a, b. Khoản này gồm cả xe mô tô ba bánh (mục không nói, không gây hại).
+  - text: Luật tính xe điện theo công suất động cơ (trên 11 kW là hạng A)
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm
+    quote: b) Hạng A cấp cho người lái xe mô tô hai bánh có dung tích xi-lanh trên 125 cm3 hoặc có công suất động cơ điện trên 11 kW
+    verdict: match
+    note: Điều 57 khoản 1 điểm b.
+  - text: '"Nghị định 168/2024/NĐ-CP được ghi là hết hiệu lực một phần ở nguồn tôi dùng"'
+    source_url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm
+    quote: ""
+    verdict: not-found
+    note: Bản toàn văn chinhphu.vn mục dẫn không có chữ "hết hiệu lực" cho NĐ 168; khẳng định này không có cơ sở trong nguồn đã dẫn (xem internal_checks).
+internal_checks:
+  - issue: 'Frontmatter verification.status = source-checked, checked_at 2026-11-06, scope "Ngoại lệ chuyển tiếp bằng A1; không xác nhận lại mọi mức phạt" nhưng checker: null và không có báo cáo nào trước báo cáo này; trạng thái do bản soạn/đợt trước đặt, không do báo cáo kiểm chứng lập. Chief of Staff cần đặt lại theo báo cáo này.'
+    severity: warn
+  - issue: Ghi chú viết "Nghị định 168/2024/NĐ-CP được ghi là hết hiệu lực một phần ở nguồn tôi dùng" nhưng nguồn đã dẫn (chinhphu.vn toàn văn) không nói vậy; câu mơ hồ, người đọc không biết phần nào, nguồn nào.
+    severity: warn
+  - issue: legal_refs "Điều 89 khoản 2" dùng cho câu "Bằng cấp trước 01/01/2025 vẫn dùng được" nhưng câu này nằm ở Điều 89 khoản 1; khoản 2 là hiệu lực sử dụng theo hạng cũ.
+    severity: warn
+  - issue: 'legal_refs[].url (vbpl.vn) đúng trang Luật 36/2024/QH15 (tiêu đề trang: "Luật 36/2024/QH15 của Quốc hội | CSDL quốc gia về pháp luật") nhưng chỉ trả khung, không trích được chữ; URL NĐ 168 đúng văn bản. Các số tldr (125 cm³, 11 kW, 175 cm³, 2 đến 8 triệu) đều có trong thân và nhất quán.'
+    severity: warn
+  - issue: 'tldr "Bằng A1 cấp từ 01/01/2025 chỉ lái xe đến 125 cm³": luật quy định theo hạng (Điều 57), còn mốc "cấp từ 01/01/2025" chỉ suy ra từ Điều 89 (bằng cấp trước ngày luật có hiệu lực là bằng cũ). Chấp nhận được nhưng là suy ra.'
+    severity: warn
+validity:
+  doc: Luật 36/2024/QH15 (Điều 57, 59, 89) và Nghị định 168/2024/NĐ-CP (Điều 18)
+  in_force: unconfirmed
+  effective_from: 2025-01-01
+  amended_by: []
+  basis: 'Luật: Điều 90 khoản 1 "có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025". NĐ 168: Điều 53 khoản 1 hiệu lực 01/01/2025. Chưa có bằng chứng chính thống về việc còn nguyên hiệu lực của Điều 18 NĐ 168 sau Nghị định 336/2025/NĐ-CP (hiệu lực 01/03/2026, PDF toàn văn là ảnh quét không trích được chữ; bản tóm tắt chinhphu.vn nói bãi bỏ điều khoản của NĐ 100/2019 "được sửa đổi, bổ sung bởi" NĐ 168). Không kết luận còn hiệu lực.'
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - 'Mục "Ghi chú", câu "Nghị định 168/2024/NĐ-CP được ghi là hết hiệu lực một phần ở nguồn tôi dùng": xóa hoặc thay bằng "Nghị định 168/2024/NĐ-CP có hiệu lực từ 01/01/2025 (Điều 53 khoản 1); nghị định xử phạt giao thông mới hơn có thể sửa mức phạt, hãy đối chiếu bản hiện hành trước khi nộp phạt" (dựa vào Điều 53 khoản 1 NĐ 168).'
+  - 'Mục "Bằng cấp trước 01/01/2025": thêm một dòng "Khi đổi hoặc cấp lại, bằng A1 cũ được đổi sang hạng A với điều kiện hạn chế, chỉ lái xe mô tô hai bánh dưới 175 cm³ hoặc điện dưới 14 kW (Điều 89 khoản 3 điểm a)". Quote: "a) Giấy phép lái xe hạng A1 được đổi, cấp lại sang giấy phép lái xe hạng A với điều kiện hạn chế là chỉ được điều khiển xe mô tô hai bánh có dung tích xi-lanh đến dưới 175 cm3 hoặc có công suất động cơ điện đến dưới 14 kW;".'
+  - 'Sửa tham chiếu pháp lý: câu "Bằng cấp trước 01/01/2025 vẫn dùng được" dẫn Điều 89 khoản 1 (không phải khoản 2); thêm legal_ref Điều 89 khoản 1 và Điều 89 khoản 3 điểm a.'
+  - Nên đổi URL luật sang bản trích được chữ (xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm) hoặc giữ vbpl.vn kèm link PDF/DOCX tải từ trang đó.

@@ -1,0 +1,99 @@
+id: nuoc-o-ngoai-troi-phai-dun-soi-moi-uong-soi-mot-phut
+checker: agent-Vf13gA
+checked_at: 2026-11-08
+content_sha256: "00dae2a58ad814953709ba18527b2505b5b2e6c03d7c0ae65bc55cea83af8578"
+result: pass-with-edits
+claims:
+  - text: "Đun sôi nước, giữ sôi thêm một phút rồi mới uống"
+    source_url: https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html
+    quote: "Any water brought to a boil should be adequately disinfected; however, CDC recommends that travelers boil water for a full minute to account for user variability in identifying boiling points and to add a margin of safety."
+    verdict: match
+    note: "CDC Yellow Book 2026 (23/4/2025). Tóm tắt: nước đã sôi là đủ khử trùng; CDC khuyên sôi trọn một phút để dự phòng sai số khi nhận biết điểm sôi."
+  - text: "Mọi vi sinh vật gây bệnh qua đường uống bị giết trong vài giây ở nhiệt độ sôi"
+    source_url: https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html
+    quote: "All organisms that may cause illness from drinking water are killed within seconds at boiling temperature."
+    verdict: match
+    note: ""
+  - text: "Ở độ cao du lịch thường gặp, điểm sôi vẫn cao hơn nhiều mức cần để diệt mầm bệnh; không cần đun lâu hơn"
+    source_url: https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html
+    quote: "Although the boiling point for water decreases with increasing elevation, at common travel elevations the temperature needed to achieve boiling is still well above the temperature required to inactivate enteric pathogens. For example, at approximately 4,900 m (16,000 ft) elevation, the boiling temperature of water is approximately 83°C (182°F)."
+    verdict: match
+    note: "WHO Boil water technical brief 2015 (WHO/FWC/WSH/15.02, bản PDF iris.who.int) cũng nói: 'It is highly efficacious, killing human pathogens even in turbid water and at high altitude.' Không thấy lệch giữa CDC và WHO."
+  - text: "Hướng dẫn ngành y tế VN/WHO nêu mốc đun sôi ít nhất 1 phút"
+    source_url: https://syt.gialai.gov.vn/vi/news/tin-hoat-dong-so/infographic-huong-dan-ve-sinh-ca-nhan-ve-sinh-moi-truong-va-xu-ly-nuoc-an-uong-mua-bao-lu-2792.html
+    quote: "Uống nước đóng chai, dùng viên khử trùng nước hoặc đun sôi nước trong ít nhất 1 phút"
+    verdict: match-secondary
+    note: "Trang Sở Y tế Gia Lai (14/10/2022), là infographic tổng hợp lời khuyên 'WHO và Bộ Y tế' sau bão Noru; không phải văn bản gốc của Bộ Y tế. Lưu ý ngữ cảnh: lời khuyên cho sau bão lũ, kèm 'dùng viên khử trùng nước' như phương án THAY THẾ cho đun sôi."
+  - text: "Chỉ dùng nước để uống trực tiếp sau khi đã đun sôi (hướng dẫn Bộ Y tế xử lý nước sinh hoạt)"
+    source_url: https://soyte.hatinh.gov.vn/tin-tuc-su-kien/thong-tin-y-te/y-te-du-phong/bo-y-te-huong-dan-cach-xu-ly-nuoc-sinh-hoat-trong-mua-mua-ba.html
+    quote: "Chỉ sử dụng nước để uống trực tiếp sau khi đã đun sôi."
+    verdict: match-secondary
+    note: "Trang Sở Y tế Hà Tĩnh đăng lại, ghi nguồn 'Cục phòng bệnh - Bộ Y tế'; chưa mở bản gốc trên moh.gov.vn, không có ngày."
+  - text: "Nước đã khử trùng bằng cloramin vẫn phải đun sôi rồi mới uống trực tiếp"
+    source_url: https://soyte.hatinh.gov.vn/tin-tuc-su-kien/thong-tin-y-te/y-te-du-phong/bo-y-te-huong-dan-cach-xu-ly-nuoc-sinh-hoat-trong-mua-mua-ba.html
+    quote: "Nước đã được khử trùng có thể sử dụng cho mục đích sinh hoạt. Tuy nhiên nước này vẫn phải đun sôi rồi mới uống trực tiếp được."
+    verdict: match-secondary
+    note: "Khớp thân bài; MÂU THUẪN với bước 3 của mục (xem internal_checks). Nguồn thứ cấp."
+  - text: "Một viên cloramin B 0,25 g cho 25 lít nước, một viên Aquatabs 67 mg cho 20 lít; khuấy đều, đậy nắp, chờ 30 phút"
+    source_url: https://soyte.hatinh.gov.vn/tin-tuc-su-kien/thong-tin-y-te/y-te-du-phong/bo-y-te-huong-dan-cach-xu-ly-nuoc-sinh-hoat-trong-mua-mua-ba.html
+    quote: "Một viên Cloramin B 0,25g có thể khử trùng được 25 lít nước, một viên Aquatabs 67mg có thể khử trùng được 20 lít nước trong. ... Cho 1 viên Cloramin B 0,25g vào thùng đựng 25 lít nước đã được làm trong, khuấy đều, đậy nắp, chờ 30 phút sau có thể sử dụng làm nước sinh hoạt được."
+    verdict: partial
+    note: "Liều và 30 phút đúng, nhưng nguồn nói rõ 'nước đã được làm trong' và 'nước sinh hoạt' (không phải nước uống trực tiếp). Mục bước 3 và 'Lợi ích' bỏ điều kiện làm trong. CDC: nước đục chứa chất trung hòa chất khử trùng, cần làm trong trước ('Cloudy water contains substances that neutralize chemical disinfectants'). Nguồn VN còn: 'Không tiến hành khử trùng đồng thời với đánh phèn' và 'Sau khi khử trùng ngửi thấy mùi Clo thì việc khử trùng mới có tác dụng.'"
+  - text: "Nhiều bộ lọc xách tay không giữ được vi rút"
+    source_url: https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html
+    quote: "Portable microfilters do not reliably remove enteric viruses (e.g., norovirus) that have an average size of 0.03 µm"
+    verdict: match
+    note: "Bảng 1.8.1 cũng ghi: 'Many filters do not reliably remove viruses'."
+  - text: "Clo, i-ốt ở nồng độ dùng thực tế diệt rất kém ký sinh trùng gây tiêu chảy kéo dài (Cryptosporidium)"
+    source_url: https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html
+    quote: "Another common protozoan parasite, Cryptosporidium, is poorly inactivated by chlorine- or iodine-based disinfection at practical concentrations, even with extended contact times."
+    verdict: match
+    note: ""
+  - text: "Không đun được: dùng bộ lọc hoặc viên khử trùng (bước 3, một trong hai là đủ)"
+    source_url: https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html
+    quote: "Clear surface water near human and animal activity | All enteric pathogens, including Cryptosporidium | Heat, UVR Microfilter plus halogen (can be done in either order); ultrafiltration"
+    verdict: partial
+    note: "Bảng 1.8.3 của CDC: với nước mặt trong gần nơi người/động vật hoạt động, cần nhiệt, UV, hoặc phối hợp microfilter + halogen, hoặc ultrafilter; một bước viên clo đơn lẻ không diệt Cryptosporidium, microfilter đơn lẻ không giữ vi rút. Chỉ với 'Wilderness water with little human or animal activity' mới 'Any single step method'. Bước 3 viết 'dùng bộ lọc hoặc viên khử trùng' như thế thay thế đủ cho đun sôi, trong khi tldr lại nói 'không diệt hết mọi mầm bệnh'."
+  - text: "Nước khe trong vẫn mang trứng giun, sán, vi khuẩn"
+    source_url: https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html
+    quote: "Parasitic worms are not commonly transmitted through drinking water, but drinking water is a potential means of transmission for some."
+    verdict: partial
+    note: "Nước mặt (kể cả trong) có thể mang vi khuẩn, vi rút, Giardia, Cryptosporidium (bảng 1.8.3); giun sán 'không thường truyền qua nước uống'. Câu 'nhìn trong vẫn mang trứng giun, sán, vi khuẩn' của 'Nói dễ hiểu' nhấn giun sán hơn mức nguồn."
+  - text: "Nước đã đun sôi để quá lâu thì không còn sạch"
+    source_url: https://soyte.hatinh.gov.vn/tin-tuc-su-kien/thong-tin-y-te/y-te-du-phong/bo-y-te-huong-dan-cach-xu-ly-nuoc-sinh-hoat-trong-mua-mua-ba.html
+    quote: "Nước sau khi đun sôi không được để quá lâu, nên thường xuyên đun nước mới hàng ngày để uống."
+    verdict: match-secondary
+    note: "CDC cùng ý: nhiệt 'Does not prevent recontamination during storage'. Mục viết 'để vài ngày vẫn sạch' là Bẫy rút từ đây, nguồn không nói 'vài ngày'."
+  - text: "Ở Việt Nam điểm cao nhất chỉ 3.147,3 mét (dùng làm ví dụ cho độ cao thường gặp)"
+    source_url: https://baolaocai.vn/do-cao-chinh-xac-cua-dinh-fansipan-la-31473-met-post665611.html
+    quote: "Kết quả giá trị độ cao quốc gia được xác định tại vị trí cao nhất trên đỉnh Phan Xi Păng là 3.147,3 mét."
+    verdict: match-secondary
+    note: "Nguồn không nằm trong mục Nguồn của mục 35 (có ở mục 33). Khớp số với mục 33."
+internal_checks:
+  - issue: "Mâu thuẫn bước 3 và thân bài: bước 3 'Không đun được: dùng bộ lọc hoặc viên khử trùng. Pha viên rồi khuấy đều, đậy nắp, chờ 30 phút mới uống' coi nước sau viên là uống được; mục 'Lợi ích' lại ghi 'Nước đã khử trùng bằng cloramin vẫn phải đun sôi rồi mới uống trực tiếp' (theo nguồn Bộ Y tế). Hai chỉ dẫn xung đột nhau về việc uống nước đã khử trùng bằng viên."
+    severity: error
+  - issue: "Bước 3 và tldr không nêu điều kiện của nguồn: liều cloramin/Aquatabs dành cho 'nước đã được làm trong'; nước đục cần làm trong trước."
+    severity: error
+  - issue: "Hai trong ba nguồn VN là trang tỉnh đăng lại (Sở Y tế Gia Lai, Hà Tĩnh), không phải văn bản của Bộ Y tế; một trang là hướng dẫn mùa bão lũ, không phải đi rừng. Mục viết 'Bộ Y tế, hướng dẫn xử lý nước sinh hoạt' mà không dẫn trang moh.gov.vn."
+    severity: warn
+  - issue: "Mục 'Ghi chú' và bẫy 2 nêu 3.147,3 m nhưng mục không có nguồn cho con số này trong phần Nguồn."
+    severity: warn
+  - issue: "Nhận xét 'Ở Việt Nam điểm cao nhất chỉ 3.147,3 mét' dùng để chứng minh đun 1 phút đủ; CDC nói điều này cho cả 4.900 m (sôi 83°C), nên ví dụ 3.147,3 m không cần thiết và không gây mâu thuẫn."
+    severity: warn
+validity:
+  doc: "CDC Yellow Book 2026, Water Disinfection for Travelers; WHO Boil water technical brief 2015; hướng dẫn xử lý nước của Cục Phòng bệnh, Bộ Y tế (qua trang Sở Y tế Hà Tĩnh, Gia Lai)"
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: "CDC Yellow Book đề 23/4/2025 (ấn bản 2026) và WHO 14/01/2015 đều tải được ngày 2026-11-08 và nhất quán về 1 phút/mọi mầm bệnh. Hai trang tỉnh dẫn Bộ Y tế: Gia Lai đề 14/10/2022; Hà Tĩnh không ghi ngày. Chưa mở bản gốc moh.gov.vn nên in_force để unconfirmed (không phải văn bản quy phạm có ngày hiệu lực)."
+deliberate_vn_deviation:
+  - "Hướng dẫn VN (qua Cục Phòng bệnh) yêu cầu nước khử trùng bằng cloramin vẫn phải đun sôi mới uống trực tiếp; CDC/WHO coi khử trùng hóa học là một phương pháp xử lý nước uống hợp lệ (kèm giới hạn với Cryptosporidium). Bối cảnh VN là nước sinh hoạt sau bão lũ, không phải nước đi rừng; mục trộn hai bối cảnh."
+potential_harm:
+  - "Bước 3: 'Không đun được: dùng bộ lọc hoặc viên khử trùng ... chờ 30 phút mới uống'. Nếu nước là nước mặt gần nơi người/gia súc hoạt động, một bước viên clo không diệt Cryptosporidium, một microfilter không giữ vi rút (CDC Bảng 1.8.3 yêu cầu nhiệt/UV hoặc microfilter + halogen hoặc ultrafilter); nếu nước đục, liều viên 25 lít/20 lít không đủ hiệu quả. Người đọc làm đúng nguyên văn bước 3 có thể uống nước chưa an toàn, dẫn tới tiêu chảy kéo dài. Tldr có cảnh báo 'không diệt hết mọi mầm bệnh' nhưng steps không chỉ ra khi nào phương án này đủ."
+suggested_edits:
+  - "Bước 3: viết lại thành 'Không đun được: làm trong nước (lọc vải, để lắng) trước, rồi dùng bộ lọc loại ngăn được vi rút (hoặc ultrafilter) hoặc viên khử trùng; với nước khe gần nơi có người/gia súc, nên phối hợp lọc + viên khử trùng, hoặc đun sôi/UV', dựa vào CDC Bảng 1.8.3 và quote 'Cloudy water contains substances that neutralize chemical disinfectants'."
+  - "Giải quyết mâu thuẫn viên khử trùng: ghi rõ 'Hướng dẫn VN (mùa lũ): nước khử trùng bằng cloramin dùng cho sinh hoạt, vẫn đun sôi mới uống; CDC/WHO chấp nhận khử trùng hóa học làm phương án khi không đun được' và nêu bối cảnh của từng nguồn."
+  - "Thêm 'Nước đã làm trong' vào câu liều viên (25 lít cho 1 viên cloramin B 0,25 g, 20 lít cho 1 viên Aquatabs 67 mg) và thêm 'không khử trùng cùng lúc đánh phèn'."
+  - "Thêm cho trường hợp thiếu nhiên liệu của CDC: 'đun tới khi bắt đầu sủi tăm, tắt bếp, đậy nắp 30 phút' (quote: 'heat water until first sign of simmering ..., reduce or remove heat, and leave the container covered for 30 minutes')."
+  - "'Nói dễ hiểu': đổi 'mang trứng giun, sán, vi khuẩn' thành 'có thể mang vi khuẩn, vi rút, đơn bào như Giardia, Cryptosporidium (giun sán ít gặp hơn)'."
+  - "Thay nguồn thứ cấp bằng bản gốc moh.gov.vn của hướng dẫn xử lý nước, hoặc ghi rõ 'qua Sở Y tế ...'; thêm nguồn cho 3.147,3 m hoặc bỏ ví dụ."

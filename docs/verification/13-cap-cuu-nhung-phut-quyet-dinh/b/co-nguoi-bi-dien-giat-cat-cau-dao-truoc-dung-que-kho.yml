@@ -1,0 +1,89 @@
+id: co-nguoi-bi-dien-giat-cat-cau-dao-truoc-dung-que-kho
+checked_at: 2026-11-08
+content_sha256: "24f22041737e746af7bf10c4d74c0a6dd6174bf63c36ef7bb47c9ee843ca8e1e"
+checker: agent-Vf13dB
+result: pass-with-edits
+claims:
+  - text: "HCDC in 5 bước sơ cấp cứu điện giật (ngắt điện, đánh giá, kiểm tra mạch/nhịp thở, hồi sức tim phổi nếu ngừng tim ngừng thở, gọi 115 rồi ép tim liên tục)"
+    source_url: https://hcdc.vn/public/img/02bf8460bf0d6384849ca010eda38cf8e9dbc4c7/images/dangbai1/images/5-buoc-so-cap-cuu-do-dien-giat/files/%C4%91i%E1%BB%87n%20gi%E1%BA%ADt.pdf
+    quote: "Ngắt nguồn điện, nhanh chóng đưa nạn nhân ra khỏi hiện trường. ... Đánh giá tình trạng bệnh nhân. Kiểm tra mạch, nhịp thở. ... Nếu nạn nhân ngưng tim ngưng thở thì hồi sức tim phổi ngay. ... Gọi cấp cứu 115, cơ sở y tế gần nhất đến hỗ trợ. ... Trong lúc đợi cấp cứu đến, vẫn thực hiện hồi sức tim phổi liên tục."
+    verdict: match
+    note: "Trang HTML chỉ chứa nút tải file; PDF 1 trang trích được chữ bằng pdftotext. Thứ tự trong tờ rơi: gọi 115 là bước 4 sau hồi sức tim phổi. Mục (steps 4-5) đặt gọi 115 trước ép tim, khớp hơn với khuyến cáo gọi sớm (xem claim MedlinePlus)."
+  - text: "Phải bảo đảm nguyên tắc cách điện trước khi tiếp xúc người bệnh"
+    source_url: https://hcdc.vn/public/img/02bf8460bf0d6384849ca010eda38cf8e9dbc4c7/images/dangbai1/images/5-buoc-so-cap-cuu-do-dien-giat/files/%C4%91i%E1%BB%87n%20gi%E1%BA%ADt.pdf
+    quote: "Phải đảm bảo nguyên tắc cách điện trước khi tiếp xúc với bệnh nhân."
+    verdict: match
+    note: ""
+  - text: "Tờ rơi cập nhật 21/04/2024"
+    source_url: https://hcdc.vn/5-buoc-so-cap-cuu-do-dien-giat-WMkVoP.html
+    quote: "Cập nhật: 19:04 - 21/04/2024"
+    verdict: match
+    note: ""
+  - text: "Cắt cầu dao/aptomat trước khi chạm người bị nạn"
+    source_url: https://vienbongquocgia.vn/huong-dan-phong-tranh-tai-nan-bong/gia-tang-bong-dien-nhieu-truong-hop-bi-cat-cut-chi
+    quote: "Khi phát hiện người bị điện giật cần nhanh chóng tìm cách tách người bị nạn ra khỏi nguồn điện bằng cách ngắt thiết bị đóng cắt điện, cầu dao, rút phíc cắm, cầu chì…"
+    verdict: match
+    note: "Từ 'aptomat' không có trong nguồn nhưng 'thiết bị đóng cắt điện' bao gồm. MedlinePlus: 'Unplug the cord, remove the fuse from the fuse box, or turn off the circuit breakers.'"
+  - text: "Không cắt được thì đứng trên vật khô, dùng cán chổi hoặc que gỗ khô gạt dây ra"
+    source_url: https://www.nlm.nih.gov/medlineplus/ency/article/000053.htm
+    quote: "If the current can't be turned off, use a non-conducting object, such as a broom, chair, rug, or rubber doormat to push the person away from the source of the current. Do not use a wet or metal object. If possible, stand on something dry that doesn't conduct electricity, such as a rubber mat or folded newspapers."
+    verdict: match
+    note: "Nguồn này (MedlinePlus, NIH, review 14/10/2025) KHÔNG nằm trong mục Nguồn của bài. Hai nguồn VN được dẫn không có câu này: BV Bỏng chỉ nói 'Túm vào quần, áo khô của người bị nạn để kéo người bị nạn ra khỏi nguồn điện... đứng ở nơi khô ráo, trên vật cách điện, tay có găng tay cách điện hoặc quấn thêm vải khô, túi nilông'. Tóm tắt: nếu không tắt được dòng điện thì dùng vật không dẫn điện (chổi, ghế, thảm, thảm cao su) đẩy người ra; không dùng vật ướt/kim loại; nếu được thì đứng trên vật khô không dẫn điện. 'Que gỗ khô' không có nguyên văn (vật gần nhất: chổi)."
+  - text: "Bẫy 2: không dùng cán chổi ướt, dây nhựa mềm hoặc que sắt để gạt dây"
+    source_url: https://www.nlm.nih.gov/medlineplus/ency/article/000053.htm
+    quote: "Do not use a wet or metal object."
+    verdict: match
+    note: "'Dây nhựa mềm' không có trong nguồn."
+  - text: "Bẫy 1: không kéo tay trần người bị nạn ra khỏi dây"
+    source_url: https://www.nlm.nih.gov/medlineplus/ency/article/000053.htm
+    quote: "Do not touch the person with your bare hands if the body is still touching the source of electricity."
+    verdict: match
+    note: "Nguồn VN có cách kéo bằng quần áo khô kèm điều kiện cách điện; mục chọn lập trường chặt hơn (an toàn)."
+  - text: "Dây cao thế rơi xuống đất: tránh xa, gọi điện lực và cứu hỏa cứu nạn"
+    source_url: https://www.nlm.nih.gov/medlineplus/ency/article/000053.htm
+    quote: "Do not get within 20 feet (6 meters) of a person who is being electrocuted by high-voltage electrical current (such as power lines) until the power is turned off."
+    verdict: partial
+    note: "Hai nguồn VN không nói gì về dây cao thế rơi; 'gọi điện lực và cứu hỏa cứu nạn' không có nguồn nào. MedlinePlus có khoảng cách 20 feet (6 m), mục bỏ mất con số này; MedlinePlus cũng nói 'Do not attempt to rescue a person near active high-voltage lines.' Mục chỉ giới hạn bước 'tránh xa' cho 'dây cao thế rơi xuống đất' chứ không cho người đang dính dây cao thế trên không."
+  - text: "Ngừng thở, ngừng tim thì ép tim ngay tại chỗ"
+    source_url: https://www.nlm.nih.gov/medlineplus/ency/article/000053.htm
+    quote: "CPR should be started if the person is unconscious and you can't feel a pulse. Perform rescue breathing on a person who is unconscious and not breathing or is breathing ineffectively."
+    verdict: partial
+    note: "Tờ rơi HCDC: 'Nếu nạn nhân ngưng tim ngưng thở thì hồi sức tim phổi ngay'. Steps/tldr viết 'Ngừng thở thì ép tim' (tldr) hoặc 'ngừng thở, ngừng tim' (steps) — dạng 'ngừng thở còn mạch' cần thổi ngạt chứ không ép tim. Tldr chỉ nói 'ngừng thở' dễ gây hiểu sai."
+  - text: "Gọi 115 sau khi tách nạn nhân; kiểm tra mạch và nhịp thở"
+    source_url: https://www.nlm.nih.gov/medlineplus/ency/article/000053.htm
+    quote: "Call 911 or the local emergency number, if a person has been injured by electricity."
+    verdict: match
+    note: "MedlinePlus: 'Call 911 or the local emergency number.' ngay sau bước tắt điện. Cũng: 'check the person's airway, breathing, and pulse.'"
+  - text: "Hai ca điện cao thế năm 2022 phải cắt cụt một phần cẳng tay và cẳng chân; một người mất 85% sức lao động"
+    source_url: https://vienbongquocgia.vn/huong-dan-phong-tranh-tai-nan-bong/gia-tang-bong-dien-nhieu-truong-hop-bi-cat-cut-chi
+    quote: "Tình trạng cắt cụt các chi như vậy, sau khi bình phục anh Q. sẽ mất đi 85% sức lao động."
+    verdict: match
+    note: "Ca anh L.V.T cắt 1/3 trên cẳng tay phải; ca anh V.V.Q cắt 1/3 cẳng chân trái, tháo khớp ngón chân phải, cắt 1/3 cẳng tay phải. '85%' là dự báo sau bình phục chứ chưa phải đã xảy ra; mục viết 'mất 85%' hơi chắc hơn nguồn."
+  - text: "Điện giật thường tổn thương sâu bên trong; người bệnh vẫn phải khám dù ngoài da bình thường"
+    source_url: https://vienbongquocgia.vn/huong-dan-phong-tranh-tai-nan-bong/gia-tang-bong-dien-nhieu-truong-hop-bi-cat-cut-chi
+    quote: "Bỏng điện thường sâu, tổn thương tại chỗ biểu hiện ở điểm vào và ra của luồng điện, vị trí thường gặp là bàn tay, bàn chân"
+    verdict: partial
+    note: "Nguồn nói bỏng điện sâu, giới hạn không rõ; không nói 'đi theo đường ngắn nhất' hay 'dù ngoài da bình thường vẫn phải khám'. Ý đi khám có ở MedlinePlus: 'Call 911 ... if a person has been injured by electricity.' Cũng cần: nạn nhân có ngừng tim/nhịp tim thoáng loạn; không có trong mục."
+internal_checks:
+  - issue: "Steps bước 2 và 3 (cán chổi/que gỗ khô; dây cao thế rơi; gọi điện lực/cứu hỏa) không có trong hai nguồn VN được dẫn; nguồn VN BV Bỏng thậm chí hướng dẫn 'túm quần áo khô để kéo', trong khi mục cấm kéo. Cơ sở thực chất là MedlinePlus nhưng chưa dẫn."
+    severity: warn
+  - issue: "Thân nói tờ rơi 'in năm bước' và 'gọi 115 ... rồi trong lúc chờ vẫn ép tim', nhưng trong tờ rơi gọi 115 là bước 4 SAU hồi sức tim phổi; steps của mục đảo thứ tự (gọi 115 trước)."
+    severity: warn
+  - issue: "Ghi chú nói 'Tờ rơi ... không nêu thời gian tối thiểu phải chờ trước khi chạm' — đúng; nhưng mục không nêu khoảng cách an toàn cho dây cao thế dù có nguồn quốc tế (20 feet/6 m)."
+    severity: warn
+validity:
+  doc: "HCDC 'Tờ rơi 5 bước sơ cấp cứu do điện giật' (21/04/2024); BV Bỏng QG Lê Hữu Trác (24/08/2022); MedlinePlus 'Electrical injury' (review 14/10/2025)"
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: "Hướng dẫn y tế không có ngày hiệu lực. Không mở được AHA/ERC/Red Cross (Red Cross trả trang bảo trì) để so; chỉ đối chiếu được MedlinePlus (NIH) mới 2025. Không thể khẳng định không có hướng dẫn mới hơn trái chiều."
+deliberate_vn_deviation:
+  - "BV Bỏng QG (nguồn VN) hướng dẫn túm quần áo khô để kéo nạn nhân ra khi người cứu đứng nơi khô, vật cách điện, có găng/vải khô; mục chọn 'không kéo tay trần' và dùng vật khô gạt dây. Gần với MedlinePlus ('Do not touch the person with your bare hands ...') hơn nguồn VN; nên nêu rõ nguồn."
+potential_harm:
+  - "Steps bước 2 áp dụng chung ('đứng trên vật khô, dùng cán chổi hoặc que gỗ khô gạt dây điện ra') không loại trừ trường hợp người bị nạn đang dính dây cao thế. Bước 3 chỉ cấm gạt dây cao thế 'rơi xuống đất'. Nạn nhân chạm đường cao thế/trạm biến áp hoặc dây cao thế còn trên không: MedlinePlus 'Do not attempt to rescue a person near active high-voltage lines' và 'Do not get within 20 feet (6 meters)'. Người đọc làm đúng bước 2 có thể lại gần dây cao thế (hồ quang, điện áp bước) và thành nạn nhân thứ hai; cần ghi rõ bước 2 chỉ dành cho điện hạ thế gia dụng."
+suggested_edits:
+  - "steps[1]: thêm tiền đề 'điện gia dụng/hạ thế'; thêm 'người bị nạn chạm đường dây, trạm điện cao thế: không lại gần, đứng cách tối thiểu 6 m, gọi điện lực/115 chờ cắt điện' dựa trên quote MedlinePlus 'Do not get within 20 feet (6 meters) ...'."
+  - "steps[4] và tldr: sửa 'ngừng thở thì ép tim' thành 'không đáp ứng, không thở hoặc thở bất thường/không mạch thì ép tim'; ngừng thở còn mạch cần thổi ngạt (MedlinePlus: 'Perform rescue breathing...')."
+  - "Nguồn: thêm MedlinePlus Electrical injury (https://www.nlm.nih.gov/medlineplus/ency/article/000053.htm) làm nguồn cho gạt dây bằng vật khô, khoảng cách cao thế; hoặc bỏ 'que gỗ khô' nếu không dẫn."
+  - "Ghi chú 'Bẫy 3': 'gọi điện lực cùng cứu hỏa cứu nạn' cần nguồn; hiện không có trong nguồn dẫn."
+  - "Câu 'dòng điện đi qua người theo đường ngắn nhất' không có trong nguồn; bỏ hoặc gắn 'suy ra'."

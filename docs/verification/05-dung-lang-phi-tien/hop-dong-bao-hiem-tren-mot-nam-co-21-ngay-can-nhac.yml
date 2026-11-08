@@ -1,0 +1,72 @@
+id: hop-dong-bao-hiem-tren-mot-nam-co-21-ngay-can-nhac
+checker: agent-Vf05h
+checked_at: 2026-11-08
+content_sha256: "e9bff5d2f4539c7bb983a62dead5d531dcf70ffe4034899cf6092eb253a30975"
+result: pass-with-edits
+claims:
+  - text: "Hợp đồng có thời hạn trên 01 năm: trong 21 ngày kể từ ngày nhận được hợp đồng, bên mua có quyền từ chối tiếp tục tham gia bảo hiểm (Điều 35)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "Đối với các hợp đồng bảo hiểm có thời hạn trên 01 năm, trong thời hạn 21 ngày kể từ ngày nhận được hợp đồng bảo hiểm, bên mua bảo hiểm có quyền từ chối tiếp tục tham gia bảo hiểm."
+    verdict: match
+    note: "VBHN 31/VBHN-VPQH (13/03/2026), Điều 35 'Thời gian cân nhắc tham gia bảo hiểm'. Không có chú thích sửa đổi ở Điều 35."
+  - text: "Khi từ chối, hợp đồng bị hủy; được hoàn lại phí đã đóng sau khi trừ chi phí hợp lý (nếu có) theo thỏa thuận trong hợp đồng; doanh nghiệp không phải bồi thường"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "Trường hợp bên mua bảo hiểm từ chối tiếp tục tham gia bảo hiểm thì hợp đồng bảo hiểm sẽ bị hủy bỏ, bên mua bảo hiểm được hoàn lại phí bảo hiểm đã đóng sau khi trừ đi chi phí hợp lý (nếu có) theo thoả thuận trong hợp đồng bảo hiểm; doanh nghiệp bảo hiểm không phải bồi thường, trả tiền bảo hiểm khi xảy ra sự kiện bảo hiểm."
+    verdict: match
+    note: "Khớp, kể cả cụm 'sau khi trừ đi chi phí hợp lý' mà mục trích đúng."
+  - text: "Hợp đồng nhân thọ có giá trị hoàn lại: khi chấm dứt, doanh nghiệp phải trả giá trị hoàn lại, trừ khi các bên thỏa thuận khác (Điều 27 khoản 3); tldr: quá hạn chỉ còn giá trị hoàn lại"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "3. Trường hợp đơn phương chấm dứt thực hiện hợp đồng bảo hiểm quy định tại khoản 1 và khoản 2 Điều 26 của Luật này, đối với hợp đồng bảo hiểm nhân thọ có giá trị hoàn lại, doanh nghiệp bảo hiểm phải trả cho bên mua bảo hiểm giá trị hoàn lại của hợp đồng bảo hiểm, trừ trường hợp các bên có thoả thuận khác."
+    verdict: partial
+    note: "Điều 27.3 chỉ áp dụng cho đơn phương chấm dứt theo khoản 1, 2 Điều 26 và chỉ cho hợp đồng nhân thọ CÓ giá trị hoàn lại. Mục (tldr, Nói dễ hiểu, Đừng hiểu ngược) nói chung 'quá hạn chỉ còn giá trị hoàn lại' cho mọi hợp đồng trên 1 năm (kể cả bảo hiểm sức khỏe, bảo hiểm tài sản nhiều năm); các loại này không có giá trị hoàn lại. Chưa mở Điều 26 để xác nhận người mua muốn hủy thuộc khoản nào. Cụm 'thường ít hơn nhiều' không có nguồn."
+  - text: "Mốc 21 ngày tính từ ngày nhận hợp đồng, không phải ngày ký hay ngày đóng phí"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "trong thời hạn 21 ngày kể từ ngày nhận được hợp đồng bảo hiểm"
+    verdict: match
+    note: "Chữ luật là 'kể từ ngày nhận được hợp đồng bảo hiểm'; phần 'không phải ngày ký hay ngày đóng phí' là hệ quả hợp lý."
+  - text: "Hợp đồng gửi qua bưu điện thì mốc là ngày bạn ký nhận"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "(Điều 35 chỉ nói 'ngày nhận được hợp đồng bảo hiểm', không quy định cách chứng minh ngày nhận.)"
+    verdict: inference
+    note: "Luật không nhắc bưu điện hay 'ký nhận'. Cách hiểu hợp lý nhưng không phải chữ luật."
+  - text: "Hợp đồng mua ở quầy ngân hàng vẫn có 21 ngày, giấy tờ thường bị giữ lại"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "(không có nguồn)"
+    verdict: not-found
+    note: "Phần 'vẫn có 21 ngày' suy ra từ Điều 35 áp dụng cho mọi hợp đồng trên 01 năm; phần 'giấy tờ thường bị giữ lại' là nhận định thực tế không dẫn nguồn."
+  - text: "Tiêu đề: hủy trong hạn thì lấy lại được phần lớn phí"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "được hoàn lại phí bảo hiểm đã đóng sau khi trừ đi chi phí hợp lý (nếu có) theo thoả thuận trong hợp đồng bảo hiểm"
+    verdict: inference
+    note: "Luật không nói mức khấu trừ; 'phần lớn' phụ thuộc hợp đồng. Mục tự ghi ở Bẫy 1 'luật không hứa hoàn gần đủ' nên tiêu đề mâu thuẫn với thân."
+  - text: "steps[2]: gửi yêu cầu từ chối tiếp tục tham gia trước khi hết 21 ngày"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/31-vbhn-vpqh.pdf
+    quote: "trong thời hạn 21 ngày kể từ ngày nhận được hợp đồng bảo hiểm, bên mua bảo hiểm có quyền từ chối tiếp tục tham gia bảo hiểm"
+    verdict: partial
+    note: "Luật không nói hình thức từ chối hay mốc nộp (gửi hay doanh nghiệp nhận). Nên dặn gửi bằng văn bản, có bằng chứng ngày gửi, và nộp sớm; đây là lời khuyên thực hành."
+internal_checks:
+  - issue: "Tiêu đề (frontmatter title): 'hủy trong hạn thì lấy lại được phần lớn phí' mâu thuẫn với Bẫy 1 ('luật không hứa hoàn gần đủ ... đừng chờ hoàn 100%') và với Điều 35 (trừ chi phí hợp lý theo hợp đồng, không có trần)."
+    severity: error
+  - issue: "tldr: 'quá hạn chỉ còn giá trị hoàn lại' nói chung cho hợp đồng trên 1 năm, trong khi Điều 27.3 chỉ áp dụng nhân thọ có giá trị hoàn lại."
+    severity: warn
+  - issue: "legal_refs[1] Điều 27 khoản 3 áp dụng cho chấm dứt theo Điều 26 khoản 1, 2, không phải quy định cách hủy trong thời gian cân nhắc (Điều 35)."
+    severity: warn
+  - issue: "Con số 21 ngày, 01 năm trong tldr/steps đều có trong thân; không mâu thuẫn số nội bộ."
+    severity: warn
+  - issue: "legal_refs[*].effective_from, quote = null."
+    severity: warn
+validity:
+  doc: "Luật Kinh doanh bảo hiểm 08/2022/QH15 (VBHN 31/VBHN-VPQH ngày 13/03/2026)"
+  in_force: true
+  effective_from: "2023-01-01"
+  amended_by:
+    - "Luật 139/2025/QH15 (hiệu lực 01/01/2026); Điều 27 và Điều 35 không có chú thích sửa đổi trong VBHN 31"
+  basis: "Trang đầu VBHN 31: 'Luật Kinh doanh bảo hiểm số 08/2022/QH15 ... có hiệu lực kể từ ngày 01 tháng 01 năm 2023, được sửa đổi, bổ sung bởi: Luật số 139/2025/QH15 ... có hiệu lực kể từ ngày 01 tháng 01 năm 2026.' Tìm kiếm ngày 2026-11-08 không thấy luật mới sửa đổi sau đó (chỉ thấy nghị quyết 32/NQ-CP về nghị định hướng dẫn)."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Tiêu đề: bỏ 'lấy lại được phần lớn phí', đổi thành ví dụ 'Hợp đồng bảo hiểm trên một năm có 21 ngày cân nhắc: hủy trong hạn thì được hoàn phí sau khi trừ chi phí hợp lý', dựa vào Điều 35 'sau khi trừ đi chi phí hợp lý (nếu có)'."
+  - "tldr và mục Nói dễ hiểu/Đừng hiểu ngược: thay 'quá hạn chỉ còn giá trị hoàn lại' bằng 'quá hạn, hợp đồng nhân thọ có giá trị hoàn lại chỉ được trả giá trị hoàn lại theo hợp đồng (Điều 27 khoản 3); loại khác tùy thỏa thuận'; bỏ 'thường ít hơn nhiều' nếu không dẫn nguồn."
+  - "steps[2]: thêm 'gửi bằng văn bản, giữ bằng chứng ngày gửi' (lời khuyên thực hành, không phải chữ luật)."
+  - "Bẫy 2 (bưu điện) và Bẫy 3 (quầy ngân hàng, giấy tờ bị giữ): gắn nhãn là nhận định thực tế hoặc dẫn nguồn."
+  - "legal_refs: điền effective_from 2023-01-01 và quote cho Điều 35."

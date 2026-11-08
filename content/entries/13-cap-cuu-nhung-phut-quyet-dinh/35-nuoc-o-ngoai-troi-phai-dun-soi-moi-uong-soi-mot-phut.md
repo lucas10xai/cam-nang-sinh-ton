@@ -21,10 +21,10 @@ steps:
   - "Không đun được: dùng bộ lọc hoặc viên khử trùng. Pha viên rồi khuấy đều, đậy nắp, chờ 30 phút mới uống."
 legal_refs: []
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13gB
+  scope: "Chặn nâng trạng thái: 1 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/nuoc-o-ngoai-troi-phai-dun-soi-moi-uong-soi-mot-phut.yml)"
   sources: []
 origin:
   zh: null

@@ -1,0 +1,104 @@
+id: dot-nhien-noi-man-khap-nguoi-kem-kho-tho-hoac-choang-goi
+checker: agent-Vf13cB
+checked_at: 2026-11-08
+content_sha256: "b4615a618f72a06a65f4eb78dc7d4dbb6c98f737f00ad345aa8e6bde3ce75a0b"
+result: pass-with-edits
+claims:
+  - text: "Adrenalin là thuốc thiết yếu, quan trọng hàng đầu, sẵn có để cấp cứu phản vệ (TT 51/2017/TT-BYT, Điều 5)"
+    source_url: https://soyt.langson.gov.vn/upload/105380/20241107/1_BAC_SI_HANG_III__Y_KHOA__e05ea.pdf
+    quote: "Adrenalin là thuốc thiết yếu, quan trọng hàng đầu, sẵn có để sử dụng cấp cứu phản vệ."
+    verdict: match-secondary
+    note: "Trang vbpl.vn trong mục chỉ trả khung (không có nội dung, chỉ tiêu đề và chân trang; không có link tải). Đã dùng bản toàn văn TT 51 do Sở Y tế Lạng Sơn đăng (PDF tài liệu ôn thi, trang chính phủ nhưng là bản sao). Điều 5 bản này không đánh số khoản ('khoản 1' của mục là đoạn đầu)."
+  - text: "Phải tiêm bắp adrenalin ngay khi chẩn đoán phản vệ từ độ II trở lên (Điều 6 khoản 1)"
+    source_url: https://soyt.langson.gov.vn/upload/105380/20241107/1_BAC_SI_HANG_III__Y_KHOA__e05ea.pdf
+    quote: "Adrenalin là thuốc quan trọng hàng đầu để tiêm bắp ngay cho người bị phản vệ khi được chẩn đoán phản vệ từ độ II trở lên."
+    verdict: match-secondary
+    note: "Dòng đầu Điều 6. Phụ lục III mục I có câu tương đương: 'phải được tiêm bắp ngay khi chẩn đoán phản vệ từ độ II trở lên'. Điều áp dụng cho người xử trí là nhân viên y tế; người dân chỉ qua khoản 3."
+  - text: "Người có tiền sử phản vệ mang sẵn adrenalin: chính họ hoặc người khác được phép dùng để tiêm bắp khi khẩn cấp, lúc không có nhân viên y tế (Điều 6 khoản 3)"
+    source_url: https://soyt.langson.gov.vn/upload/105380/20241107/1_BAC_SI_HANG_III__Y_KHOA__e05ea.pdf
+    quote: "Đối với người có tiền sử phản vệ có sẵn adrenalin mang theo người thì người bệnh hoặc người khác không phải là nhân viên y tế được phép sử dụng thuốc trong trường hợp khẩn cấp để tiêm bắp cấp cứu khi không có nhân viên y tế."
+    verdict: match-secondary
+    note: "Quote đã nối dòng. Luật KHÔNG đòi 'đã được hướng dẫn': điều kiện duy nhất là có tiền sử phản vệ và có sẵn adrenalin, trong trường hợp khẩn cấp lúc không có nhân viên y tế. Mục thêm điều kiện 'đã được kê và hướng dẫn'; xem potential_harm."
+  - text: "Liều tiêm bắp người lớn 0,5-1 ml (1/2-1 ống 1 mg = 1 ml); nhắc lại 3-5 phút cho tới khi huyết áp và mạch ổn định (Phụ lục III mục IV)"
+    source_url: https://soyt.langson.gov.vn/upload/105380/20241107/1_BAC_SI_HANG_III__Y_KHOA__e05ea.pdf
+    quote: "Người lớn: 0,5-1 ml (tương đương 1/2-1 ống). Theo dõi huyết áp 3-5 phút/lần. Tiêm nhắc lại adrenalin liều như khoản 1 mục IV 3-5 phút/lần cho đến khi huyết áp và mạch ổn định."
+    verdict: match-secondary
+    note: "Đây là phác đồ cho nhân viên y tế (có theo dõi huyết áp, tĩnh mạch). Cùng mục: trẻ sơ sinh/<10 kg 0,2 ml; ~10 kg 0,25 ml; ~20 kg 0,3 ml; >30 kg 0,5 ml. Mục chỉ chép liều người lớn."
+  - text: "Phải theo dõi ít nhất 24 giờ vì phản vệ có pha thứ hai (Phụ lục III)"
+    source_url: https://soyt.langson.gov.vn/upload/105380/20241107/1_BAC_SI_HANG_III__Y_KHOA__e05ea.pdf
+    quote: "Tất cả trường hợp phản vệ phải được phát hiện sớm, xử trí khẩn cấp, kịp thời ngay tại chỗ và theo dõi liên tục ít nhất trong vòng 24 giờ."
+    verdict: match-secondary
+    note: "Phụ lục III mục VI.3: 'Tất cả các người bệnh phản vệ cần được theo dõi ở cơ sở khám bệnh, chữa bệnh đến ít nhất 24 giờ sau khi huyết áp đã ổn định và đề phòng phản vệ pha 2.' NHS: 'You'll usually stay in hospital for around 2 to 12 hours, but you may need to stay longer.' VN nghiêm hơn NHS."
+  - text: "Thẻ dị ứng: 'Tiêm bắp adrenalin ngay lập tức' và 'Gọi 115 hoặc đến cơ sở khám, chữa bệnh gần nhất' (Phụ lục VII)"
+    source_url: https://soyt.langson.gov.vn/upload/105380/20241107/1_BAC_SI_HANG_III__Y_KHOA__e05ea.pdf
+    quote: "3) Khi có dấu hiệu phản vệ: “Tiêm bắp adrenalin ngay lập tức” “Gọi 115 hoặc đến cơ sở khám, chữa bệnh gần nhất”"
+    verdict: match-secondary
+    note: "Dòng 2) trên thẻ: 'Luôn mang adrenalin theo người.' Thẻ ghi 'tiêm bắp adrenalin' TRƯỚC 'gọi 115'."
+  - text: "Gọi cấp cứu ngay khi nghi phản vệ; dùng bút adrenalin tự tiêm nếu có (NHS)"
+    source_url: https://www.nhs.uk/conditions/anaphylaxis/
+    quote: "Use an adrenaline auto-injector (such as an EpiPen) if you have one – instructions are included on the side of the injector. Call 999 for an ambulance and say that you think you're having an anaphylactic reaction."
+    verdict: partial
+    note: "NHS (trang xem 2026-11-08; ghi 'Page last reviewed: 21 June 2023, Next review due: 21 June 2026', quá hạn xem lại). Tóm tắt Việt: dùng bút nếu có (hướng dẫn in trên thân bút), rồi gọi 999. NHS KHÔNG đòi người dùng đã được hướng dẫn trước; mục (step 2-3) đòi 'đã được kê và hướng dẫn'. NHS thêm các bước mục không có: 'Lie down – you can raise your legs, and if you're struggling to breathe, raise your shoulders or sit up slowly', 'Do not stand or walk at any time, even if you feel better.', 'If your symptoms have not improved after 5 minutes, use a 2nd adrenaline auto-injector.', 'use your adrenaline auto-injector if you think you may have anaphylaxis, even if your symptoms are mild'."
+  - text: "Cách dùng bút tự động là tiêm thẳng vào bắp đùi (Bạch Mai)"
+    source_url: https://chanthuongvacotsong.bachmai.gov.vn/adrenalin-vu-khi-chong-soc-phan-ve/
+    quote: "Với “bút tiêm” và một vài hướng dẫn đơn giản, bất cứ người dân nào cũng có thể sử dụng tiêm thẳng vào bắp đùi khi bệnh nhân bị sốc phản vệ."
+    verdict: match-secondary
+    note: "Trang đăng 25/4/2016, là bài báo đăng lại về GS Nguyễn Gia Bình (đề xuất trang bị adrenalin); không phải hướng dẫn. Nguồn nói 'một vài hướng dẫn đơn giản', không 'đã được kê'. Nguồn nêu bút ở VN giá 80-120 USD, chưa thấy sẵn có."
+  - text: "Phản vệ có thể gây khó thở hoặc choáng mà không nhất thiết nổi mẩn"
+    source_url: https://www.nhs.uk/conditions/anaphylaxis/
+    quote: "You may also have a rash that's swollen, raised or itchy."
+    verdict: match
+    note: "NHS: mẩn là triệu chứng 'may also' (có thể). Tóm tắt Việt: phản vệ nặng có thể khó thở, sưng họng, choáng, kèm hoặc không kèm mẩn."
+  - text: "Không lấy thuốc uống thay adrenalin; đừng chờ mẩn tự lặn; đừng chờ tụt huyết áp hoặc ngất mới gọi"
+    source_url: https://soyt.langson.gov.vn/upload/105380/20241107/1_BAC_SI_HANG_III__Y_KHOA__e05ea.pdf
+    quote: "Phản vệ độ II có thể nhanh chóng chuyển sang độ III, độ IV. Vì vậy, phải khẩn trương, xử trí đồng thời theo diễn biến bệnh:"
+    verdict: inference
+    note: "TT 51 chỉ dành thuốc uống (methylprednisolon hoặc diphenhydramin) cho phản vệ nhẹ độ I trong xử trí của nhân viên y tế; không có câu 'không lấy thuốc uống thay adrenalin' hay 'đừng chờ mẩn lặn'. Hợp lý lâm sàng và đúng hướng NHS ('Call 999 if...'), nhưng là suy ra."
+  - text: "Cuộc gọi 115 không tính phí"
+    source_url: https://soyt.langson.gov.vn/upload/105380/20241107/1_BAC_SI_HANG_III__Y_KHOA__e05ea.pdf
+    quote: ""
+    verdict: not-found
+    note: "Không có trong TT 51 hay nguồn dẫn của mục; tôi không tìm được nguồn xác nhận trong thời gian kiểm."
+  - text: "Chưa được hướng dẫn định liều và tiêm từ ống thuốc thì làm theo nhân viên cấp cứu"
+    source_url: https://soyt.langson.gov.vn/upload/105380/20241107/1_BAC_SI_HANG_III__Y_KHOA__e05ea.pdf
+    quote: ""
+    verdict: inference
+    note: "Không có câu trong TT 51 hay Bạch Mai. Đây là lựa chọn biên tập an toàn, đối lập với Điều 6 khoản 3 (cho phép 'người khác không phải là nhân viên y tế' tiêm bắp khi có sẵn adrenalin, không đòi huấn luyện)."
+internal_checks:
+  - issue: "Title/tldr/steps nói 'không tự định liều từ ống thuốc' và 'chưa được hướng dẫn thì làm theo nhân viên cấp cứu', nhưng thân (mục Pháp luật) chép liều tiêm bắp người lớn 0,5-1 ml và quy trình nhắc lại 3-5 phút, không kèm liều trẻ em. Hai phần gửi hai thông điệp ngược nhau; liều chép lại có thể bị người đọc áp dụng."
+    severity: error
+  - issue: "legal_refs[0..4].article: 'Điều 5 khoản 1' không có đánh số khoản trong bản toàn văn tôi đọc (đoạn đầu của Điều 5); 'Điều 6 khoản 1 / 3' tương ứng đoạn 1 và đoạn 3. Có thể vbpl.vn đánh số khác; không kiểm được vì trang vbpl.vn chỉ trả khung."
+    severity: warn
+  - issue: "legal_refs[3] 'Phụ lục III mục IV' khớp liều; 'Phụ lục VII' khớp thẻ dị ứng (Phụ lục VII = Mẫu thẻ theo dõi dị ứng). URL vbpl.vn đúng văn bản TT 51/2017/TT-BYT (mã 128248, tiêu đề khớp)."
+    severity: warn
+  - issue: "Thứ tự steps: 'Gọi 115' trước 'dùng bút'; thẻ dị ứng (Phụ lục VII) và NHS đặt dùng adrenalin trước/cùng lúc với gọi 115. Nếu người đọc đang một mình, thứ tự này có thể làm chậm tiêm."
+    severity: warn
+  - issue: "Mục nói 'Cuộc gọi 115 không tính phí' không có nguồn trong mục."
+    severity: warn
+  - issue: "Frontmatter verification.status đã là needs-medical-review với scope; trường checker null. Cần kết quả của cả hai lượt kiểm."
+    severity: warn
+validity:
+  doc: "Thông tư 51/2017/TT-BYT ngày 29/12/2017 (Hướng dẫn phòng, chẩn đoán và xử trí phản vệ)"
+  in_force: unconfirmed
+  effective_from: "2018-02-15"
+  amended_by: []
+  basis: "Điều 7 bản toàn văn: 'Thông tư này có hiệu lực từ ngày 15 tháng 02 năm 2018. Thông tư số 08/1999/TT-BYT ... hết hiệu lực kể từ ngày Thông tư này có hiệu lực thi hành.' Trang vbpl.vn chỉ trả khung nên không đọc được ô Tình trạng hiệu lực. Một trang thứ cấp (dulieuphapluat) có mục 'Sửa đổi / Thay thế' nhưng nội dung không hiện; không dùng làm bằng chứng. Không có bằng chứng cụ thể TT 51 còn hoặc hết hiệu lực."
+deliberate_vn_deviation:
+  - "Thời gian theo dõi: TT 51 'ít nhất 24 giờ' (và 24 giờ sau khi huyết áp ổn định); NHS 'around 2 to 12 hours, but you may need to stay longer'. VN nghiêm hơn, không có hại."
+  - "Thứ tự gọi/tiêm: Phụ lục VII thẻ dị ứng và NHS: dùng adrenalin rồi gọi cấp cứu; mục steps: gọi 115 trước."
+  - "Người tiêm: TT 51 Điều 6 khoản 3 cho phép người khác không phải nhân viên y tế tiêm khi có tiền sử phản vệ và có sẵn adrenalin; mục thu hẹp thêm thành 'đã được kê và hướng dẫn'; NHS nói dùng bút nếu có, hướng dẫn in trên bút."
+potential_harm:
+  - "steps/tldr không có 'nằm xuống, có thể kê cao chân; không đứng hay đi lại dù thấy khỏe hơn' (NHS: 'Do not stand or walk at any time, even if you feel better.'). Người đọc làm đúng nguyên văn có thể để nạn nhân đứng/ngồi dậy trong lúc chờ xe, nguy cơ tụt huyết áp tư thế, ngưng tim. Mức: cao (thiếu bước)."
+  - "steps không nhắc dùng liều thứ hai sau 5 phút nếu chưa đỡ (NHS: 'If your symptoms have not improved after 5 minutes, use a 2nd adrenaline auto-injector') và Điều 6 khoản 3 / Phụ lục III 'nhắc lại 3-5 phút/lần'. Người đọc có thể chỉ dùng một liều rồi đợi. Mức: cao."
+  - "steps[1]-[2] đòi 'đã được kê và hướng dẫn' mới dùng; người có bút trong tay chưa từng được tập huấn (hoặc người nhà) có thể không dùng. TT 51 Điều 6 khoản 3 và NHS ('use an adrenaline auto-injector if you have one – instructions are included on the side of the injector'; 'even if your symptoms are mild') không đòi điều kiện này. Làm chậm adrenalin, thuốc cứu sống. Mức: trung bình-cao."
+  - "Mục Pháp luật chép liều ống adrenalin người lớn 0,5-1 ml và nhắc lại 3-5 phút mà không nêu liều trẻ em (<10 kg 0,2 ml; >30 kg 0,5 ml) và phác đồ này dành cho nhân viên y tế có theo dõi huyết áp; trái với thông điệp 'không tự định liều từ ống thuốc'. Cha mẹ lấy liều người lớn cho trẻ có thể quá liều gấp 2-5 lần. Mức: trung bình."
+  - "Thứ tự steps (gọi 115 trước, tiêm sau) khác thẻ dị ứng Phụ lục VII ('Tiêm bắp adrenalin ngay lập tức' rồi 'Gọi 115') và NHS: nếu chỉ có một người, mất thời gian cầm máy trước khi tiêm. Mức: thấp-trung bình."
+suggested_edits:
+  - "steps: thêm bước 'Nằm xuống, có thể kê cao chân; nếu khó thở thì nửa nằm nửa ngồi; không đứng dậy hoặc đi lại dù thấy đỡ' dựa vào NHS ('Lie down – you can raise your legs ... Do not stand or walk at any time, even if you feel better')."
+  - "steps: thêm 'Nếu sau 5 phút chưa đỡ và có bút thứ hai: dùng bút thứ hai' (NHS: 'If your symptoms have not improved after 5 minutes, use a 2nd adrenaline auto-injector') và 'luôn mang 2 bút' ở mục phòng ngừa."
+  - "steps[1]-[2]: đổi 'đã được kê và hướng dẫn thì dùng' thành 'có bút adrenalin tự tiêm thì dùng ngay, làm theo hướng dẫn in trên bút (kể cả khi triệu chứng nhẹ)'; giữ 'không tự rút thuốc từ ống nếu chưa được huấn luyện' vì Điều 6 khoản 3 cho phép nhưng đòi người có tiền sử phản vệ có sẵn thuốc."
+  - "mục Pháp luật > 'Liều và theo dõi': đổi thành thông tin cho nhân viên y tế, thêm liều trẻ em, hoặc bỏ liều và chỉ ghi 'liều tính theo cân nặng, do bác sĩ/nhân viên y tế quyết định'; nếu giữ, ghi rõ 'phác đồ cho nhân viên y tế'."
+  - "steps: đổi thứ tự thành 'Dùng bút adrenalin nếu có, rồi gọi 115 (hoặc nhờ người gọi ngay lúc đó)'; dựa vào Phụ lục VII và NHS."
+  - "Bỏ hoặc có nguồn cho 'Cuộc gọi 115 không tính phí'; gắn nhãn 'suy ra' cho 'không lấy thuốc uống thay adrenalin' và 'đừng chờ mẩn tự lặn'."
+  - "Cập nhật ghi chú NHS: trang NHS ghi 'Next review due 21 June 2026', quá hạn xem lại; đối chiếu lại NHS/ERC khi có bản mới."
+  - "Tìm bản toàn văn TT 51 trên Công báo hoặc đường tải trên vbpl.vn để nâng khẳng định pháp lý từ match-secondary lên match, và kiểm tình trạng hiệu lực."

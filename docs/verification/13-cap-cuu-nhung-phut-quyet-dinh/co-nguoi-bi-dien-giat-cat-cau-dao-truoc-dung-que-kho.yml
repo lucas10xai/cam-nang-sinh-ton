@@ -1,0 +1,75 @@
+id: co-nguoi-bi-dien-giat-cat-cau-dao-truoc-dung-que-kho
+checker: agent-Vf13dA
+checked_at: 2026-11-08
+content_sha256: "24f22041737e746af7bf10c4d74c0a6dd6174bf63c36ef7bb47c9ee843ca8e1e"
+result: pass-with-edits
+claims:
+  - text: "Bước 1: ngắt nguồn điện, nhanh chóng đưa nạn nhân ra khỏi hiện trường"
+    source_url: https://hcdc.vn/public/img/02bf8460bf0d6384849ca010eda38cf8e9dbc4c7/images/dangbai1/images/5-buoc-so-cap-cuu-do-dien-giat/files/%C4%91i%E1%BB%87n%20gi%E1%BA%ADt.pdf
+    quote: "Ngắt nguồn điện, nhanh chóng đưa nạn nhân ra khỏi hiện trường."
+    verdict: match
+    note: "Trích từ PDF tờ rơi HCDC (pdftotext; trang HTML chỉ chứa ảnh). NSW Government: 'Take precautions against receiving a shock yourself by immediately switching off the electricity, where possible.'"
+  - text: "Phải đảm bảo nguyên tắc cách điện trước khi tiếp xúc với bệnh nhân"
+    source_url: https://hcdc.vn/public/img/02bf8460bf0d6384849ca010eda38cf8e9dbc4c7/images/dangbai1/images/5-buoc-so-cap-cuu-do-dien-giat/files/%C4%91i%E1%BB%87n%20gi%E1%BA%ADt.pdf
+    quote: "LƯU Ý: Phải đảm bảo nguyên tắc cách điện trước khi tiếp xúc với bệnh nhân."
+    verdict: match
+    note: ""
+  - text: "Thứ tự năm bước của tờ rơi như thân mục trình bày: 1 ngắt điện; 2 đánh giá; 3 kiểm tra mạch, nhịp thở; 4 hồi sức tim phổi ngay; 5 gọi 115 và ép tim liên tục"
+    source_url: https://hcdc.vn/public/img/02bf8460bf0d6384849ca010eda38cf8e9dbc4c7/images/dangbai1/images/5-buoc-so-cap-cuu-do-dien-giat/files/%C4%91i%E1%BB%87n%20gi%E1%BA%ADt.pdf
+    quote: "2 Đánh giá tình trạng bệnh nhân. Kiểm tra mạch, nhịp thở. 3 Nếu nạn nhân ngưng tim ngưng thở thì hồi sức tim phổi ngay. 4 Gọi cấp cứu 115, cơ sở y tế gần nhất đến hỗ trợ. 5 Trong lúc đợi cấp cứu đến, vẫn thực hiện hồi sức tim phổi liên tục."
+    verdict: mismatch
+    note: "Tờ rơi: B1 ngắt điện; B2 đánh giá + kiểm tra mạch/nhịp thở (một bước); B3 hồi sức tim phổi nếu ngưng tim thở; B4 gọi 115; B5 CPR liên tục trong lúc chờ. Mục (Lợi ích) tách 'đánh giá' và 'kiểm tra mạch' thành 2 bước, đưa CPR thành bước 4 và gộp 'gọi 115' + 'ép tim liên tục' vào bước 5. Lệch thứ tự/đánh số so với 'năm bước' nguyên văn. Ngoài ra tờ rơi nói 'hồi sức tim phổi' (ép tim + thổi ngạt), mục steps/tldr chỉ nói 'ép tim'. Tờ rơi đặt CPR TRƯỚC khi gọi 115; steps của mục đặt 'Gọi 115' trước 'ép tim' (tiếp cận khác, không nguy hiểm vì có người thứ hai, nhưng người cứu một mình cần biết: 'gọi 115 (loa ngoài) rồi ép tim')."
+  - text: "Hậu quả: hai ca điện cao thế 2022 cắt cụt một phần cẳng tay và cẳng chân; một người mất 85% sức lao động"
+    source_url: https://vienbongquocgia.vn/huong-dan-phong-tranh-tai-nan-bong/gia-tang-bong-dien-nhieu-truong-hop-bi-cat-cut-chi
+    quote: "Tình trạng cắt cụt các chi như vậy, sau khi bình phục anh Q. sẽ mất đi 85% sức lao động."
+    verdict: match
+    note: "Trang chỉ mở được khi bỏ qua lỗi chứng chỉ SSL (curl -k); bài ngày 24/08/2022. Ca T.: 'cắt cụt 1/3 trên cẳng tay phải'; ca Q.: 'cắt 1/3 cẳng chân trái ... cắt cụt 1/3 cẳng tay phải'. Mục viết 'hai ca ... phải cắt cụt một phần cẳng tay và cẳng chân' (ca T. chỉ cẳng tay): hơi gộp, không sai nghiêm trọng."
+  - text: "steps[1]: không cắt được điện thì đứng trên vật khô, dùng cán chổi/que gỗ khô gạt dây điện ra"
+    source_url: https://vienbongquocgia.vn/huong-dan-phong-tranh-tai-nan-bong/gia-tang-bong-dien-nhieu-truong-hop-bi-cat-cut-chi
+    quote: "Người cấp cứu tại chỗ phải đứng ở nơi khô ráo, trên vật cách điện, tay có găng tay cách điện hoặc quấn thêm vải khô, túi nilông và không được túm vào các bộ phận cơ thể người bị nạn."
+    verdict: inference
+    note: "Nguồn VN (BV Bỏng QG) dạy: ngắt thiết bị đóng cắt/cầu dao/rút phích/cầu chì rồi 'Túm vào quần, áo khô của người bị nạn để kéo người bị nạn ra khỏi nguồn điện'. KHÔNG có 'cán chổi/que gỗ gạt dây'. NSW Gov: 'If power cannot be disconnected, unless higher than household voltage is involved, free the victim from contact immediately by using a dry stick, board, rope, clothing, plastic pipe or other non-conducting device. DO NOT touch the victim with your bare hands or any metal or moist object.' (hỗ trợ ý, nhưng có điều kiện 'trừ điện áp cao hơn điện gia dụng'; mục không nêu điều kiện này ở steps[1])."
+  - text: "steps[2]: dây cao thế rơi xuống đất: tránh xa, gọi điện lực và cứu hỏa cứu nạn"
+    source_url: https://vienbongquocgia.vn/huong-dan-phong-tranh-tai-nan-bong/gia-tang-bong-dien-nhieu-truong-hop-bi-cat-cut-chi
+    quote: "Người dân cần thận trọng khi làm việc hay di chuyển hoặc chơi tại các khu vực có điện lưới, đặc biệt trong những người trời mưa ẩm, những nơi có trạm điện, đường điện cao thế"
+    verdict: inference
+    note: "Không nguồn nào được liệt kê dạy 'dây cao thế rơi: tránh xa, gọi điện lực, cứu hỏa'. Đúng theo thực hành quốc tế (CDC: 'Never touch a fallen power line') nhưng là suy ra; cần gắn nguồn hoặc nhãn 'suy ra'. Phần Ghi chú 'vùng quanh dây vẫn nhiễm điện' cũng không có trong nguồn."
+  - text: "Gọi cấp cứu 115"
+    source_url: https://hcdc.vn/public/img/02bf8460bf0d6384849ca010eda38cf8e9dbc4c7/images/dangbai1/images/5-buoc-so-cap-cuu-do-dien-giat/files/%C4%91i%E1%BB%87n%20gi%E1%BA%ADt.pdf
+    quote: "Gọi cấp cứu 115, cơ sở y tế gần nhất đến hỗ trợ."
+    verdict: match
+    note: ""
+  - text: "Người bệnh vẫn phải tới cơ sở y tế khám dù ngoài da bình thường; điện đi theo đường ngắn nhất, tổn thương nằm sâu"
+    source_url: https://vienbongquocgia.vn/huong-dan-phong-tranh-tai-nan-bong/gia-tang-bong-dien-nhieu-truong-hop-bi-cat-cut-chi
+    quote: "Bỏng điện thường sâu, tổn thương tại chỗ biểu hiện ở điểm vào và ra của luồng điện, vị trí thường gặp là bàn tay, bàn chân"
+    verdict: partial
+    note: "Đúng ý 'bỏng điện thường sâu'; câu 'đi theo đường ngắn nhất' và 'khám dù ngoài da bình thường' không có nguyên văn trong nguồn (suy ra hợp lý; nguồn nói 'Khẩn trương chuyển người bệnh đến cơ sở y tế gần nhất để cấp cứu')."
+  - text: "Bẫy 1: kéo tay người bị nạn ra khỏi dây thì dòng điện chạy tiếp qua người kéo"
+    source_url: https://vienbongquocgia.vn/huong-dan-phong-tranh-tai-nan-bong/gia-tang-bong-dien-nhieu-truong-hop-bi-cat-cut-chi
+    quote: "không được túm vào các bộ phận cơ thể người bị nạn."
+    verdict: match
+    note: "Nguồn cũng cho phép 'túm vào quần, áo khô ... để kéo' khi đã cách điện; mục chỉ nêu 'không kéo tay trần', không mâu thuẫn."
+internal_checks:
+  - issue: "tldr: 'Sau đó gọi 115; ngừng thở thì ép tim ngay tại chỗ' khác thứ tự tờ rơi (CPR rồi gọi 115). Số trong tldr/steps (115) đều có trong thân."
+    severity: warn
+  - issue: "Thân dùng 'ép tim' (tldr, steps, Nói dễ hiểu) nhưng nguồn nói 'hồi sức tim phổi'. Cùng một việc, thuật ngữ khác nhau; sạch hơn nếu nêu rõ."
+    severity: warn
+  - issue: "steps[1] và steps[2] không có cơ sở trong hai nguồn được liệt kê (xem claims inference)."
+    severity: warn
+  - issue: "'Phần lưu ý của tờ rơi' + 'năm bước': thứ tự năm bước trong mục không khớp tờ rơi (claim mismatch)."
+    severity: warn
+validity:
+  doc: "HCDC TP.HCM tờ rơi '5 bước sơ cấp cứu do điện giật' (21/04/2024); BV Bỏng Quốc gia Lê Hữu Trác (24/08/2022)"
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: "Hướng dẫn y tế không có ngày hiệu lực. Tờ rơi HCDC cập nhật 21/04/2024. Chưa đối chiếu được hướng dẫn AHA/ERC bản gốc (không mở được); NSW Gov (9/12/2024) cùng hướng."
+deliberate_vn_deviation:
+  - "BV Bỏng QG VN cho 'túm vào quần áo khô để kéo' người bị nạn khi đã cách điện; mục chọn 'gạt dây bằng que khô, không kéo tay trần' (gần với NSW: dùng vật không dẫn điện). Khác nhau về kỹ thuật, không mâu thuẫn về nguyên tắc cách điện."
+potential_harm:
+  - "steps[1] 'Không cắt được thì đứng trên vật khô, dùng cán chổi hoặc que gỗ khô gạt dây điện ra' không giới hạn điện áp: với điện cao thế (đường dây trên cao, trạm biến áp) cán chổi/que gỗ KHÔNG an toàn (NSW: 'unless higher than household voltage is involved'). Người đọc làm theo nguyên văn ở hiện trường cao thế có thể bị điện giật. steps[2] chỉ xét dây cao thế 'rơi xuống đất', không xét nạn nhân đang dính vào đường dây cao thế/trạm điện."
+suggested_edits:
+  - "steps[1]: thêm điều kiện 'chỉ với điện gia dụng/hạ thế (dây trong nhà); nếu là điện cao thế hoặc nghi cao thế thì không lại gần, đứng cách xa và gọi điện lực/115' (dựa NSW: 'unless higher than household voltage is involved, free the victim ... using a dry stick, board, rope, clothing, plastic pipe or other non-conducting device')."
+  - "Mục Lợi ích: sửa liệt kê năm bước đúng thứ tự tờ rơi: (1) ngắt điện, đưa ra khỏi hiện trường; (2) đánh giá, kiểm tra mạch/nhịp thở; (3) ngưng tim ngưng thở thì hồi sức tim phổi ngay; (4) gọi 115 và cơ sở y tế; (5) trong lúc chờ, CPR liên tục."
+  - "steps[4]/tldr: dùng 'hồi sức tim phổi (ép tim, nếu biết thì kèm thổi ngạt)' hoặc nêu 'ép tim' kèm ghi chú nguồn nói hồi sức tim phổi."
+  - "steps[2] và Bẫy 3: gắn nhãn 'suy ra từ hướng dẫn quốc tế (ví dụ CDC: never touch a fallen power line)' vì hai nguồn của mục không nói."

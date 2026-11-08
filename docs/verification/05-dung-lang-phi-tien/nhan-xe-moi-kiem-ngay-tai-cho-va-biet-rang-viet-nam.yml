@@ -1,0 +1,64 @@
+id: nhan-xe-moi-kiem-ngay-tai-cho-va-biet-rang-viet-nam
+checker: agent-Vf05j
+checked_at: 2026-11-08
+content_sha256: "ea17070cd5a046d2837e482d6581de3de5f144310e23b61de9de3b58c5334838"
+result: pass-with-edits
+claims:
+  - text: "Đã sửa từ 3 lần trong thời hạn bảo hành mà vẫn không khắc phục được lỗi thì phải đổi sản phẩm mới tương tự hoặc thu hồi và trả lại tiền (mục nêu là Điều 30 khoản 2 điểm d)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "đ) Đổi sản phẩm, hàng hóa, linh kiện, phụ kiện mới tương tự hoặc thu hồi sản phẩm, hàng hóa, linh kiện, phụ kiện và trả lại tiền cho người tiêu dùng trong trường hợp hết thời gian thực hiện bảo hành mà không sửa chữa được hoặc không khắc phục được lỗi hoặc trong trường hợp đã thực hiện bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện từ 03 lần trở lên trong thời hạn bảo hành mà vẫn không khắc phục được lỗi;"
+    verdict: match
+    note: "Nội dung khớp nhưng quy định nằm ở điểm đ, KHÔNG phải điểm d. Điểm d là 'Cung cấp cho người tiêu dùng sản phẩm, hàng hóa, linh kiện, phụ kiện tương tự để sử dụng tạm thời...'. Đọc trực tiếp ảnh trang 19-20 bản ký Bộ Công Thương (PDF quét ảnh, không có lớp chữ)."
+  - text: "Thời gian thực hiện bảo hành không tính vào thời hạn bảo hành; linh kiện thay thế tính lại thời hạn bảo hành từ lúc thay; phải có văn bản tiếp nhận bảo hành ghi rõ thời gian thực hiện bảo hành (Điều 30 khoản 2 điểm c)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "c) Cung cấp cho người tiêu dùng văn bản tiếp nhận bảo hành hoặc hình thức tiếp nhận bảo hành tương đương khác, trong đó ghi rõ thời gian thực hiện bảo hành. Thời gian thực hiện bảo hành không tính vào thời hạn bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện. Trường hợp tổ chức, cá nhân kinh doanh thay thế linh kiện, phụ kiện thì thời hạn bảo hành linh kiện, phụ kiện đó được tính lại từ thời điểm thay thế linh kiện, phụ kiện."
+    verdict: match
+    note: "Luật chỉ bắt 'ghi rõ thời gian thực hiện bảo hành'. Yêu cầu phiếu ghi 'mô tả lỗi' (steps, Bẫy 3) là lời khuyên thực hành, không phải chữ của luật."
+  - text: "Phải thông báo cho người tiêu dùng về việc tiếp nhận phản ánh trong 3 ngày làm việc (Điều 31 khoản 2)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "2. Tổ chức, cá nhân kinh doanh có trách nhiệm thông báo cho người tiêu dùng về việc tiếp nhận phản ánh, yêu cầu, khiếu nại của người tiêu dùng trong thời hạn 03 ngày làm việc kể từ ngày nhận được phản ánh, yêu cầu, khiếu nại đó."
+    verdict: match
+    note: ""
+  - text: "Điều khoản loại trừ bảo hành do hãng quy định (va chạm, ngập nước, tự ý sửa ngoài); bảo dưỡng ngoài đại lý có thể mất bảo hành dù không có trong luật (Bẫy 1, 2)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "Chính sách bảo hành bao gồm các nội dung chủ yếu sau đây: thời điểm, thời hạn áp dụng, nội dung, phạm vi, phương thức thực hiện bảo hành và các trường hợp loại trừ trách nhiệm bảo hành của tổ chức, cá nhân kinh doanh;"
+    verdict: inference
+    note: "Điều 30 khoản 2 điểm a chỉ cho thấy chính sách bảo hành có 'các trường hợp loại trừ'. Ví dụ cụ thể (va chạm, ngập nước, buộc bảo dưỡng tại đại lý) là suy ra từ thực tế thị trường, không phải chữ của luật; chưa kiểm sổ bảo hành của hãng nào."
+  - text: "Việt Nam không có mốc đổi xe 7 ngày hay 60 ngày (tldr, Nói dễ hiểu, Pháp luật VN)"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "Không tìm thấy quy định nào về đổi xe trong 7 hoặc 60 ngày trong các trang đã đọc (Điều 10, 25, 29, 30, 31 Luật BVQLNTD 2023; bản Nghị định 117/2026/NĐ-CP trên thutucxuatnhapkhau.vn không có chuỗi 'đổi xe', '07 ngày', '60 ngày', '03 lần')."
+    verdict: not-found
+    note: "Khẳng định phủ định, không chứng minh được bằng việc đọc một phần. Chưa đọc toàn văn Nghị định 116/2017/NĐ-CP, Luật Thương mại, BLDS, hợp đồng mẫu của từng hãng. Nên viết 'chúng tôi không thấy quy định chung' thay vì 'không có luật'."
+  - text: "Muốn có quyền đổi xe trong 7 ngày thì phải viết vào hợp đồng mua bán trước khi ký; chính điều khoản đó mới ràng buộc đại lý"
+    source_url: https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf
+    quote: "Không có câu nào trong nguồn nói điều này."
+    verdict: inference
+    note: "Suy ra từ nguyên tắc tự do thỏa thuận hợp đồng, không phải chữ của nguồn đã dẫn. Điều 25 Luật BVQLNTD còn cấm nhiều điều khoản bất lợi trong hợp đồng với người tiêu dùng nên cần ghi 'tùy đại lý có chịu ghi hay không'."
+  - text: "Nghị định 116/2017/NĐ-CP được sửa đổi bởi Nghị định 117/2026/NĐ-CP ngày 3/4/2026"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-117-2026-nd-cp-469316/64148.htm
+    quote: "Ban hành: 03/04/2026 - Hiệu lực: 03/04/2026"
+    verdict: match-secondary
+    note: "Chỉ thấy tiêu đề và dòng ngày trên kết quả tìm kiếm của Công báo (chưa mở được toàn văn); Nghị định này không được nêu trong legal_refs và không hỗ trợ khẳng định nào trong tldr/steps."
+internal_checks:
+  - issue: "legal_refs[0] và Nguồn ghi 'Điều 30 khoản 2 điểm d' cho quy tắc 3 lần; đúng là điểm đ. Điểm d nói về cung cấp sản phẩm thay thế tạm thời. Người đọc tra theo điểm d sẽ không thấy quy tắc 3 lần."
+    severity: error
+  - issue: "Khẳng định 'đổi xe mới hoặc trả lại tiền' ở tldr/steps: luật nói 'đổi sản phẩm mới tương tự' (không phải đúng mẫu xe đã mua) và 'thu hồi và trả lại tiền'; nghĩa vụ thuộc 'tổ chức, cá nhân kinh doanh' nên steps 'yêu cầu đại lý' đúng nhưng nên nêu rõ đối tượng chịu trách nhiệm có thể là hãng hay đại lý tùy bảo hành."
+    severity: warn
+  - issue: "Phần Nguồn nói Điều 30, 31 'đọc bằng OCR trang 19-20' nhưng Điều 31 khoản 2 nằm trang 20, Điều 30 khoản 2 trang 19-20: khớp. Mọi legal_refs dùng chung một URL thật của Luật 19/2023/QH15: không có lỗi URL."
+    severity: warn
+  - issue: "Mọi con số trong tldr/steps (7 ngày, 60 ngày, 3 lần, 30 phút) đều có trong thân. 3 lần khớp luật; 30 phút là ước lượng của tác giả, không có nguồn."
+    severity: warn
+validity:
+  doc: "Luật Bảo vệ quyền lợi người tiêu dùng 19/2023/QH15"
+  in_force: unconfirmed
+  effective_from: "2024-07-01"
+  amended_by: []
+  basis: "Điều 79 khoản 1 (trang 45 bản ký, đọc trực tiếp): 'Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024.' Chưa có văn bản hợp nhất chính thống mới hơn; tìm kiếm cho thấy nguồn thứ cấp nói chưa có luật thay thế (tính đến 7/2025) và Điều 15 có thể được Luật An ninh mạng 2025 sửa (không thuộc Điều 30/31). Chưa xác nhận từ Công báo cho Điều 30, 31 sau 2025, nên ghi unconfirmed."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "legal_refs[0].article và dòng Pháp luật VN đầu tiên + Nguồn: đổi 'Điều 30 khoản 2 điểm d' thành 'Điều 30 khoản 2 điểm đ' (dựa vào quote điểm đ)."
+  - "Thay 'Việt Nam không có luật đổi xe trong 7 hay 60 ngày' bằng cách diễn đạt có giới hạn: 'Luật BVQLNTD 2023 không có quyền đổi xe trong 7/60 ngày; chỉ có đổi/trả sau hết thời gian bảo hành không sửa được hoặc sửa từ 3 lần' (khẳng định phủ định chưa kiểm hết các văn bản khác)."
+  - "Dòng 'Muốn có quyền đổi xe trong 7 ngày thì phải viết vào hợp đồng...' nên gắn nhãn 'suy ra từ tự do thỏa thuận' hoặc bỏ 'chính điều khoản đó mới ràng buộc'."
+  - "Bẫy 1, 2: nêu rõ đây là thực tế phổ biến, kèm 'xem sổ bảo hành của hãng' vì luật chỉ nói chính sách bảo hành có các trường hợp loại trừ (Điều 30 khoản 2 điểm a)."
+  - "legal_refs[].effective_from và checked_at đang null: điền effective_from 2024-07-01 (Điều 79 khoản 1) và checked_at 2026-11-08."

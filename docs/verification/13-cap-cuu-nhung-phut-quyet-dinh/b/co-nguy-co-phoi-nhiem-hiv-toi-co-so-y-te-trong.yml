@@ -1,0 +1,71 @@
+id: co-nguy-co-phoi-nhiem-hiv-toi-co-so-y-te-trong
+checker: agent-Vf13hB
+checked_at: 2026-11-08
+content_sha256: "1b706d4571e9e9f65af43ed52e17c698c738a5c76dd60273b9ea598cfefc1daf"
+result: pass-with-edits
+claims:
+  - text: "PEP càng sớm càng tốt, tốt nhất trong 24 giờ và không muộn hơn 72 giờ sau phơi nhiễm (mốc chính của mục)"
+    source_url: https://www.cdc.gov/mmwr/volumes/74/rr/rr7401a1.htm
+    quote: "is provided as soon as possible, and ideally within 24 hours, but no later than 72 hours after exposure. The initial nPEP dose should not be delayed due to pending results of any laboratory-based testing"
+    verdict: match
+    note: "CDC MMWR RR 74(1), 2025 (quốc tế, mới). Tóm tắt Việt: dùng càng sớm, lý tưởng trong 24 giờ, muộn nhất 72 giờ; không chờ kết quả xét nghiệm mới uống liều đầu, khớp step 1 “đừng chờ biết người kia có nhiễm hay không”."
+  - text: "Thuốc kháng vi rút dùng “càng sớm càng tốt, tốt nhất trong vòng 24 giờ và không muộn hơn 72 giờ sau khi phơi nhiễm HIV” (Bộ Y tế, QĐ 5968)"
+    source_url: https://benhvienhatrung.vn/wp-content/uploads/2022/08/5968-2021-huong-dan-dieu-tri-va-cham-soc-hivaids.pdf
+    quote: "Việc điều trị sau phơi nhiễm cần được thực hiện càng sớm càng tốt tốt nhất trong vòng 24 giờ và không muộn hơn 72 giờ sau phơi nhiễm."
+    verdict: match-secondary
+    note: "Bản QĐ 5968/QĐ-BYT đăng trên website bệnh viện (bản sao, không phải trang Bộ Y tế/Công báo). Trang Bệnh Nhiệt đới TW (nguồn mục dẫn) cũng ghi “càng sớm càng tốt, tốt nhất trong vòng 24 giờ và không muộn hơn 72 giờ”. Mục dẫn BV Bệnh Nhiệt đới TW làm nguồn, đó là trang tư vấn, không phải văn bản của Bộ."
+  - text: "Thời gian điều trị chuẩn 28 ngày liên tục"
+    source_url: https://benhvienhatrung.vn/wp-content/uploads/2022/08/5968-2021-huong-dan-dieu-tri-va-cham-soc-hivaids.pdf
+    quote: "Thời gian điều trị dự phòng sau phơi nhiễm với HIV: đủ 28 ngày liên tục."
+    verdict: match-secondary
+    note: "CDC cũng: “the recommended length of nPEP course is 28 days”."
+  - text: "Chỉ định dự phòng khi phơi nhiễm với nguồn HIV dương tính hoặc không rõ, trong vòng 72 giờ"
+    source_url: https://www.benhnhietdoi.vn/loai-benh/huong-dan-dieu-tri-du-phong-nhiem-hiv-prep-pep/
+    quote: "Có phơi nhiễm với nguồn HIV dương tính hoặc không rõ tình trạng HIV. Phơi nhiễm có nguy cơ cao và xảy ra trong vòng ≤72 giờ."
+    verdict: partial
+    note: "Mục bỏ điều kiện “nguy cơ cao” và danh sách không chỉ định (nguồn âm tính đã khẳng định; dịch không nguy cơ như nước bọt, nước tiểu, mồ hôi, nước mắt; đã nhiễm HIV). Người đọc có thể hiểu mọi phơi nhiễm đều cần PEP, hoặc không biết thế nào là “nghi phơi nhiễm”. QĐ 5968 cũng có “Không chỉ định PEP cho các trường hợp sau: ...”."
+  - text: "Phác đồ ưu tiên cho người từ 10 tuổi là TDF + 3TC (hoặc FTC) + Dolutegravir"
+    source_url: https://www.benhnhietdoi.vn/loai-benh/huong-dan-dieu-tri-du-phong-nhiem-hiv-prep-pep/
+    quote: "Người ≥10 tuổi - Phác đồ ưu tiên: TDF + 3TC (hoặc FTC) + Dolutegravir (DTG)."
+    verdict: match-secondary
+    note: "Trang bệnh viện tuyến cuối dẫn QĐ 5968; chưa đối chiếu đoạn phác đồ trong bản QĐ."
+  - text: "Xét nghiệm lại HIV sau 1 tháng và 3 tháng kể từ lúc phơi nhiễm"
+    source_url: https://benhvienhatrung.vn/wp-content/uploads/2022/08/5968-2021-huong-dan-dieu-tri-va-cham-soc-hivaids.pdf
+    quote: "Xét nghiệm lại HIV sau 01 tháng và 03 tháng kể từ khi phơi nhiễm."
+    verdict: match-secondary
+    note: "CDC 2025: “clinical follow-up 4–6 weeks and 12 weeks after exposure for laboratory testing” kèm HIV Ag/Ab và NAT. Lệch nhẹ, xem deliberate_vn_deviation."
+  - text: "Không ngừng thuốc khi tác dụng phụ nhẹ"
+    source_url: https://www.benhnhietdoi.vn/loai-benh/huong-dan-dieu-tri-du-phong-nhiem-hiv-prep-pep/
+    quote: "Theo dõi tác dụng phụ của thuốc; không ngừng thuốc khi tác dụng phụ nhẹ."
+    verdict: match-secondary
+    note: "Mục chỉ nói “thấy khỏe hay buồn nôn nhẹ cũng không tự dừng” mà không nói khi nào phải liên hệ lại cơ sở (tác dụng phụ không nhẹ)."
+  - text: "Quyết định 5968/QĐ-BYT ngày 31/12/2021 là Hướng dẫn điều trị và chăm sóc HIV/AIDS"
+    source_url: https://benhvienhatrung.vn/wp-content/uploads/2022/08/5968-2021-huong-dan-dieu-tri-va-cham-soc-hivaids.pdf
+    quote: "Số: ... /QĐ-BYT Hà Nội, ngày tháng năm 2021 QUYẾT ĐỊNH Về việc ban hành Hướng dẫn Điều trị và chăm sóc HIV/AIDS"
+    verdict: match-secondary
+    note: "Số và ngày ký (5968, 31/12/2021) khớp danh mục tra cứu và trang Bệnh Nhiệt đới TW (“Quyết định số 5968/QĐ-BYT năm 2021”); bản PDF này để trống số/ngày."
+internal_checks:
+  - issue: "tldr, steps và thân bài nhất quán: 24 giờ (tốt nhất) / 72 giờ (muộn nhất) / 28 ngày / xét nghiệm lại 1 và 3 tháng. Không mâu thuẫn số."
+    severity: warn
+  - issue: "legal_refs để trống nhưng mục dẫn số hiệu Quyết định 5968/QĐ-BYT. Nên thêm legal_refs hoặc ghi rõ nguồn chính là bản sao bệnh viện."
+    severity: warn
+  - issue: "Mục không nêu nơi đến cụ thể (phòng khám ngoại trú HIV/PEP, khoa cấp cứu ngoài giờ), không có số điện thoại hỗ trợ; người đọc vào nửa đêm có thể không biết đi đâu, dễ chậm."
+    severity: warn
+  - issue: "Chi phí mức “high” chưa có nguồn (giá thuốc 28 ngày). Không có số tiền cụ thể nào trong mục nên không mâu thuẫn."
+    severity: warn
+  - issue: "Mục dùng 2 mốc “tốt nhất 24 giờ” và “trong ngày” (step 1 “ngay trong ngày, tốt nhất trong 24 giờ đầu”); không mâu thuẫn nhưng không chỉ rõ nếu quá 72 giờ thì làm gì (nguồn: không chỉ định PEP, nên khám tư vấn PrEP/xét nghiệm)."
+    severity: warn
+validity:
+  doc: "Quyết định 5968/QĐ-BYT ngày 31/12/2021 (Bộ Y tế) + CDC nPEP 2025"
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: "Chưa mở trang Bộ Y tế/Công báo để xem tình trạng hiệu lực QĐ 5968. Trang Bệnh Nhiệt đới TW đăng ngày 08/06/2026 vẫn dẫn QĐ 5968 làm tài liệu tham khảo số 1 (dấu hiệu còn dùng, không phải bằng chứng hiệu lực). CDC nPEP 2025 (MMWR RR 74(1), 08/05/2025) là hướng dẫn quốc tế mới nhất tôi tìm thấy; mốc 24 giờ/72 giờ/28 ngày khớp."
+deliberate_vn_deviation:
+  - "Theo dõi xét nghiệm: VN (QĐ 5968) 1 tháng và 3 tháng; CDC 2025 là 4-6 tuần và 12 tuần, kèm HIV Ag/Ab + NAT chẩn đoán, và có khám theo dõi 24 giờ. Khác biệt nhỏ, không gây hại, nhưng mục nên ghi “làm theo lịch bác sĩ hẹn”."
+potential_harm: []
+suggested_edits:
+  - "Lợi ích, dòng “Chỉ định dự phòng...”: thêm “phơi nhiễm có nguy cơ cao” và nêu 2-3 ví dụ phơi nhiễm (kim tiêm, quan hệ không bao cao su với người nhiễm hoặc không rõ, bị hiếp dâm) và các trường hợp không cần PEP (nước bọt, nước tiểu, mồ hôi, nước mắt), dựa trên quote “Phơi nhiễm với dịch không có nguy cơ (nước bọt, nước tiểu, mồ hôi, nước mắt)” của trang Bệnh Nhiệt đới TW."
+  - "Steps: thêm “nếu có tác dụng phụ nặng (phát ban, vàng da, nôn nhiều) thì liên hệ cơ sở y tế chứ không tự bỏ”, và “lịch xét nghiệm theo hẹn của bác sĩ”."
+  - "Thêm nơi đến: nêu cụ thể “khoa cấp cứu hoặc phòng khám ngoại trú HIV” và nhắc vẫn nên đi dù quá 72 giờ để được tư vấn."
+  - "Nguồn: dẫn bản QĐ 5968/QĐ-BYT từ trang Bộ Y tế/Công báo (hiện chỉ có bản sao bệnh viện) và CDC MMWR RR 74(1) làm nguồn quốc tế; thêm legal_refs."

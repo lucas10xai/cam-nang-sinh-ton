@@ -22,10 +22,10 @@ steps:
   - "Đi viện nếu bỏng rộng hơn hai bàn tay, bỏng ở mặt, tay, chân, sinh dục, hoặc người bị bỏng lơ mơ, sốt cao, khó thở."
 legal_refs: []
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13cB
+  scope: "Chặn nâng trạng thái: 2 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/bong-lam-mat-bang-nuoc-sach-chay-20-phut-khong-boi-kem.yml)"
   sources: []
 origin:
   zh: null

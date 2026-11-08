@@ -22,10 +22,10 @@ steps:
   - "Sau tiếng sét cuối cùng, đợi 30 phút mới trở lại làm việc bình thường."
 legal_refs: []
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13gB
+  scope: "Chặn nâng trạng thái: 2 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/giong-set-khi-o-ngoai-troi-vao-o-to-co-mui-cung.yml)"
   sources: []
 origin:
   zh: null

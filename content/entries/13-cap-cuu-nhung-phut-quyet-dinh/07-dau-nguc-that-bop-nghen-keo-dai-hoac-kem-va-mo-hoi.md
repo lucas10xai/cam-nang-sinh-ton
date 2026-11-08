@@ -22,10 +22,10 @@ steps:
   - "Không chờ xem có đỡ không."
 legal_refs: []
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13bB
+  scope: "Chặn nâng trạng thái: 3 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/dau-nguc-that-bop-nghen-keo-dai-hoac-kem-va-mo-hoi.yml)"
   sources: []
 origin:
   zh: null

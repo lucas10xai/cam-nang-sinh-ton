@@ -29,10 +29,10 @@ legal_refs:
   - { doc: "Luật Khám bệnh, chữa bệnh (bản hợp nhất 26/VBHN-VPQH)", article: "Điều 7 khoản 2", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/26-vbhn-vpqh.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
   - { doc: "Luật Khám bệnh, chữa bệnh (bản hợp nhất 26/VBHN-VPQH)", article: "Điều 61 khoản 7 điểm a", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/26-vbhn-vpqh.pdf", effective_from: null, checked_at: "2026-11-03", quote: null }
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-medical-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf13hB
+  scope: "Chặn nâng trạng thái: result=fail, 1 mục potential_harm (docs/verification/13-cap-cuu-nhung-phut-quyet-dinh/b/cuu-nguoi-ma-bi-thuong-hoac-mat-tien-tim-nguoi-gay-thiet.yml)"
   sources: []
 origin:
   zh: null

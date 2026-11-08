@@ -1,0 +1,91 @@
+id: nguoi-say-ruou-cho-nam-nghieng-co-nguoi-trong-lien-tuc-khong
+checker: agent-Vf13jB
+checked_at: 2026-11-08
+content_sha256: "559058e4e06f10f54a583574ef49747bae896667029153cef210fe7629de99ab"
+result: pass-with-edits
+claims:
+  - text: "Đặt người say nằm nghiêng sang bên phải (tư thế nghiêng an toàn) để dẫn lưu đờm dãi, hạn chế hít vào phổi khi nôn"
+    source_url: "https://bachmai.gov.vn/bai-viet/8-dau-hieu-cua-nguoi-say-ruou-can-nhap-vien-ngay?id=40c426de-8996-f44c-dc28-346659b6bf98"
+    quote: "sau khi uống rượu, bị say cần đặt người say nằm nghiêng sang bên phải. Đây là tư thế nghiêng an toàn, có tác dụng dẫn lưu đờm dãi ra ngoài, hạn chế nguy cơ hít vào phổi, đặc biệt trong trường hợp bệnh nhân bị nôn."
+    verdict: match
+    note: "Trang đăng 03/02/2017 (lại đăng lại từ Dân trí). NHS (alcohol-poisoning) chỉ nói 'recovery position' không chỉ định bên phải; chọn bên phải là chi tiết riêng của nguồn Bạch Mai, không mâu thuẫn."
+  - text: "Step 1: '…đầu kê cao. Không cho nằm ngửa.'"
+    source_url: "https://bachmai.gov.vn/bai-viet/8-dau-hieu-cua-nguoi-say-ruou-can-nhap-vien-ngay?id=40c426de-8996-f44c-dc28-346659b6bf98"
+    quote: "cần đặt người say nằm nghiêng sang bên phải."
+    verdict: not-found
+    note: "Cụm 'đầu kê cao' KHÔNG có trong nguồn Bạch Mai. NHS: 'put them in the recovery position if they've passed out'. Tư thế hồi phục chuẩn không kê cao đầu (đầu hơi ngửa, miệng thấp để chất nôn chảy ra). Cụm 'Không cho nằm ngửa' cũng không có nguyên văn, chỉ là suy ra."
+  - text: "Đánh thức người say vài giờ một lần để tránh hôn mê mà không biết"
+    source_url: "https://bachmai.gov.vn/bai-viet/8-dau-hieu-cua-nguoi-say-ruou-can-nhap-vien-ngay?id=40c426de-8996-f44c-dc28-346659b6bf98"
+    quote: "Trong khi để bệnh nhân nằm nghiêng, cứ vài giờ phải đánh thức bệnh nhân dậy, tránh bị hôn mê mà không biết."
+    verdict: match
+    note: "Đúng nguồn. NHS nhấn mạnh 'stay with them' và 'check they're breathing properly' (kiểm tra thở liên tục), mạnh hơn 'vài giờ một lần'."
+  - text: "Không để người say ngủ một mình, phải có người trông liên tục"
+    source_url: "https://www.nhs.uk/conditions/alcohol-poisoning/"
+    quote: "Do stay with them because there's a risk they could choke on their own sick or stop breathing"
+    verdict: match-secondary
+    note: "Nguồn Bạch Mai không có câu 'không để ngủ một mình'. Có ở NHS (nguồn quốc tế, ngoài mục Nguồn của bài). Tóm tắt: ở lại với họ vì có nguy cơ sặc chất nôn hoặc ngừng thở. Ghi match-secondary vì mục không dẫn NHS."
+  - text: "Đắp chăn, nhất là nơi lạnh hoặc mở cửa sổ (tránh hạ thân nhiệt)"
+    source_url: "https://www.nhs.uk/conditions/alcohol-poisoning/"
+    quote: "keep them warm with a jacket or blanket"
+    verdict: match-secondary
+    note: "Không có trong bài Bạch Mai (chỉ có 'giảm thân nhiệt (da lạnh)' ở mức cồn 200-400). Có ở NHS. Câu 'nhất là nơi lạnh hoặc mở cửa sổ' không có nguyên văn ở đâu."
+  - text: "Mức cồn 200-400 mg/dL gây ức chế hô hấp, thở yếu, giảm thân nhiệt, hôn mê"
+    source_url: "https://bachmai.gov.vn/bai-viet/8-dau-hieu-cua-nguoi-say-ruou-can-nhap-vien-ngay?id=40c426de-8996-f44c-dc28-346659b6bf98"
+    quote: "Từ 200 – 400mg/dL, người say bị ức chế hô hấp, thở yếu, thở chậm, ngừng thở, thở khò khè, ứ đọng đờm dãi, ho hoặc khạc yếu, giảm thân nhiệt (da lạnh), đái ỉa ra quần, tụt huyết áp, hôn mê."
+    verdict: match
+    note: ""
+  - text: "Dấu hiệu phải đưa vào viện: bất tỉnh gọi không biết; co giật"
+    source_url: "https://bachmai.gov.vn/bai-viet/8-dau-hieu-cua-nguoi-say-ruou-can-nhap-vien-ngay?id=40c426de-8996-f44c-dc28-346659b6bf98"
+    quote: "- Bất tỉnh, gọi hỏi không biết. - Co giật. Khi bệnh nhân bị co giật, giữ tư thế nằm nghiên an toàn. Không để người bệnh ngã hoặc va đập vào các vật cứng, không cho các vật cứng vào miệng."
+    verdict: partial
+    note: "Khớp phần dấu hiệu, nhưng mục bỏ phần xử trí co giật (giữ nằm nghiêng, không nhét vật cứng vào miệng, tránh va đập) và bỏ dấu hiệu 'Tê, yếu chân tay một bên hoặc một bên mặt, nói ngọng', 'nhìn mờ/nhìn đôi', 'nôn nhiều, đau bụng, bụng chướng' trong 8 dấu hiệu; chỉ liệt kê 5, nhưng tiêu đề bài gốc là 8 dấu hiệu."
+  - text: "Thở khò khè, ứ đọng đờm dãi, thở yếu, nhịp thở không đều, thở chậm hoặc ngừng thở; da, môi, móng tay tím tái hoặc nhợt và lạnh; đái ỉa ra quần"
+    source_url: "https://bachmai.gov.vn/bai-viet/8-dau-hieu-cua-nguoi-say-ruou-can-nhap-vien-ngay?id=40c426de-8996-f44c-dc28-346659b6bf98"
+    quote: "Thở khò khè, ứ đọng đờm dãi ở miệng họng, ho yếu. Thở yếu, nhịp thở không đều, thở chậm hoặc ngừng thở. Có thể hít sâu và nhịp thở nhanh. - Da, môi, móng tay tím tái hoặc nhợt, lạnh. - Đái, ỉa ra quần, đái ít"
+    verdict: match
+    note: "Nguồn nói 'đưa người say đến cơ sở y tế', KHÔNG nói 'gọi 115'. Việc gọi 115 là suy ra của mục. Nguồn còn nói: 'nếu thở yếu, ngừng thở hoặc tím tái thì hô hấp nhân tạo' mà mục không có."
+  - text: "Số 115 là cách gọi cấp cứu (TP.HCM)"
+    source_url: "https://ttcc115.medinet.gov.vn/trung-tam-cap-cuu-115-tphcm-cm7/Contact.aspx"
+    quote: "Để gọi cấp cứu, nhấn số 115 trên điện thoại."
+    verdict: match
+    note: "Nguồn của TP.HCM; hợp lệ cho cả nước nhưng xem mục 49 về chuyển đổi 113/115 từ 01/11/2026."
+  - text: "Bẫy 2: cà phê, nước lạnh, đi bộ không làm giảm cồn máu và còn làm ngã, hạ thân nhiệt"
+    source_url: "https://www.nhs.uk/conditions/alcohol-poisoning/"
+    quote: "do not give them coffee or drinks containing caffeine because this can dehydrate people with alcohol poisoning"
+    verdict: inference
+    note: "Bạch Mai không nói gì về cà phê/nước lạnh/đi bộ. NHS chỉ nói cà phê gây mất nước, không nói về nước lạnh hay đi bộ. Phần 'làm ngã, hạ thân nhiệt' là suy ra."
+  - text: "Người còn tỉnh, gọi dậy được, thở đều thì trông tại nhà"
+    source_url: "https://bachmai.gov.vn/bai-viet/8-dau-hieu-cua-nguoi-say-ruou-can-nhap-vien-ngay?id=40c426de-8996-f44c-dc28-346659b6bf98"
+    quote: "Còn khi bệnh nhân có 1 trong 8 biểu hiện dưới đây, đừng chần chừ hãy đưa người say đến cơ sở y tế"
+    verdict: inference
+    note: "Nguồn chỉ nói khi có 1 trong 8 dấu hiệu thì đi viện; mệnh đề 'ngược lại thì trông tại nhà' là suy ra. Bài gốc cũng cảnh báo 'nguy cơ uống phải rượu giả pha methanol' (mục không nhắc): rượu nghi giả cần đi viện dù chưa có dấu hiệu."
+internal_checks:
+  - issue: "steps[0] và thân 'Nói dễ hiểu' ghi 'đầu kê cao' không có trong nguồn Bạch Mai và khác tư thế hồi phục chuẩn (xem potential_harm)."
+    severity: error
+  - issue: "Không có hướng dẫn xử trí khi ngừng thở (nguồn gốc: 'thở yếu, ngừng thở hoặc tím tái thì hô hấp nhân tạo'; NHS: ngừng thở = gọi cấp cứu). tldr/steps chỉ ghi 'thở chậm hoặc không đều' mà không ghi 'ngừng thở' nên người đọc có thể chờ."
+    severity: error
+  - issue: "Tiêu đề, tldr, steps nói 'gọi 115' nhưng nguồn Bạch Mai chỉ nói 'đưa đến cơ sở y tế'; mục dùng nguồn 115 TP.HCM chỉ để nói cách bấm số. Đã gắn nhãn cần sửa lời: 'theo NHS'/'suy ra'."
+    severity: warn
+  - issue: "Ngày/số liệu: không có mâu thuẫn số liệu nội bộ. 200 đến 400 mg/dL và ngày 03/02/2017 khớp nguồn."
+    severity: warn
+  - issue: "legal_refs rỗng, đúng (không có văn bản pháp luật)."
+    severity: warn
+  - issue: "Nguồn y tế là bài báo sức khỏe đăng lại trên trang Bạch Mai (BS Nguyễn Trung Nguyên, qua Dân trí 2017), không phải hướng dẫn chính thức; chưa đối chiếu AHA/ERC/WHO. NHS dùng làm đối chiếu thay thế."
+    severity: warn
+validity:
+  doc: "Bạch Mai, Trung tâm chống độc (03/02/2017); đối chiếu NHS 'Alcohol poisoning'"
+  in_force: unconfirmed
+  effective_from: "2017-02-03"
+  amended_by: []
+  basis: "Hướng dẫn y tế không có ngày hiệu lực; bài 2017 (9 năm). NHS hiện hành nhất quán về tư thế hồi phục, không bỏ ngủ một mình, giữ ấm. Không tìm thấy hướng dẫn mới hơn của Bộ Y tế trong phạm vi kiểm."
+deliberate_vn_deviation:
+  - "Bạch Mai chỉ định nằm nghiêng bên phải; NHS/ERC chuẩn chỉ nói tư thế hồi phục (không chỉ bên). Bạch Mai chỉ nói đưa cơ sở y tế; NHS nói gọi 999 nếu nghi ngộ độc rượu, co giật, mất ý thức, ngừng thở và đừng tự lái xe đi A&E."
+potential_harm:
+  - "steps[0]: 'đầu kê cao' — nếu làm theo, đầu cao có thể làm chất nôn khó chảy ra ngoài miệng và đường thở không ở vị trí mở; không có trong nguồn. Sửa thành 'tư thế hồi phục: miệng hướng xuống, đầu hơi ngửa'."
+  - "tldr/steps[3]: không nói ngừng thở/không thở bình thường thì ép tim, hô hấp nhân tạo. Người đọc có thể chờ xe hoặc chờ vài giờ để đánh thức."
+  - "steps[2]: 'đánh thức vài giờ một lần' kèm 'trông liên tục' dễ hiểu là chỉ cần kiểm tra thưa; nguồn NHS yêu cầu kiểm tra thở liên tục. Ghi rõ vài giờ chỉ là mốc kiểm tra ý thức, không thay cho trông liên tục."
+suggested_edits:
+  - "steps[0] và 'Nói dễ hiểu': bỏ 'đầu kê cao'; viết 'nằm nghiêng sang bên phải (tư thế hồi phục), miệng hướng xuống để chất nôn chảy ra' dựa vào quote Bạch Mai 'đặt người say nằm nghiêng sang bên phải... dẫn lưu đờm dãi'."
+  - "steps[3] và tldr: thêm 'không thở hoặc thở ngáp: gọi 115 ngay và hô hấp nhân tạo/ép tim' theo Bạch Mai 'ngừng thở hoặc tím tái thì hô hấp nhân tạo'; thêm xử trí co giật (giữ nằm nghiêng, không nhét vật vào miệng) và dấu hiệu tê yếu một bên."
+  - "Thêm NHS 'Alcohol poisoning' làm nguồn cho 'ở lại với họ', 'giữ ấm', 'gọi cấp cứu nếu nghi ngộ độc, co giật, mất ý thức, ngừng thở' và 'không tự lái xe'; gắn nhãn nguồn khi viết 'gọi 115'."
+  - "Bẫy 2: gắn nhãn 'suy ra' hoặc chỉ giữ 'cà phê không làm tỉnh, gây mất nước (NHS)'; bỏ 'nước lạnh/đi bộ' nếu không có nguồn. Thêm lưu ý rượu nghi giả (methanol) thì đi viện."

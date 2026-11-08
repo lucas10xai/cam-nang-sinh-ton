@@ -22,10 +22,10 @@ steps:
 legal_refs:
   - { doc: "Luật Chứng khoán 54/2019/QH15 (bản hợp nhất 24/VBHN-VPQH, Công báo số 531+532 ngày 18/3/2025)", article: "Điều 12 khoản 4", url: null, effective_from: null, checked_at: null, quote: null }
 verification:
-  status: unverified
-  checked_at: null
-  checker: null
-  scope: null
+  status: needs-legal-review
+  checked_at: "2026-11-08"
+  checker: agent-Vf05h
+  scope: "Chặn nâng trạng thái: result=fail (docs/verification/05-dung-lang-phi-tien/muon-nam-co-phieu-nuoc-ngoai-thi-di-qua-quy-trong-nuoc.yml)"
   sources: []
 origin:
   zh: null

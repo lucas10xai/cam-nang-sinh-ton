@@ -1,0 +1,80 @@
+id: tre-duoi-1-tuoi-hoc-di-vat-khoc-khong-ra-tieng-cho
+checker: agent-Vf13iB
+checked_at: 2026-11-08
+content_sha256: fd18172808fb4d71de389faa144d386fc168facb088c134f0de63f8da72afbb0
+result: fail
+claims:
+  - text: "Trẻ còn hồng hào, khóc được, ho có hiệu quả: khuyến khích ho, đưa tới cơ sở y tế"
+    source_url: https://benhviennhitrunguong.gov.vn/lien-tiep-tre-nhap-vien-do-hoc-di-vat-duong-tho-nguoi-lon-can-hoc-ngay-cach-so-cuu-dung.html
+    quote: "Nếu trẻ còn hồng hào, khóc được, nói được, ho có hiệu quả, không ảnh hưởng đến các chức năng sống: Hãy khuyến khích trẻ ho, tiếp tục theo dõi, đánh giá và nhanh chóng đưa trẻ đến cơ sở y tế gần nhất để được sơ cấp cứu."
+    verdict: match
+    note: Bài đăng 20/12/2024 xác nhận.
+  - text: "Trẻ tím tái, khóc yếu, ho không hiệu quả: gọi cấp cứu và làm thủ thuật"
+    source_url: https://benhviennhitrunguong.gov.vn/lien-tiep-tre-nhap-vien-do-hoc-di-vat-duong-tho-nguoi-lon-can-hoc-ngay-cach-so-cuu-dung.html
+    quote: "Nếu trẻ tím tái, không khóc hoặc khóc yếu, ho không hiệu quả. Nhanh chóng gọi cấp cứu và thực hiện các thủ thuật sơ cứu sau:"
+    verdict: match
+    note: Mục viết "Khóc không ra tiếng, môi tím" - gần nghĩa. Nguồn dùng "tím tái, không khóc hoặc khóc yếu".
+  - text: Nằm sấp, đầu thấp, dọc cẳng tay, bàn tay đỡ ngực và xương hàm dưới; gót bàn tay vỗ 5 cái giữa hai bả vai
+    source_url: https://benhviennhitrunguong.gov.vn/lien-tiep-tre-nhap-vien-do-hoc-di-vat-duong-tho-nguoi-lon-can-hoc-ngay-cach-so-cuu-dung.html
+    quote: Đặt trẻ nằm sấp, đầu thấp, dọc theo cánh tay một bên, bàn tay đỡ vùng ngực xương hàm dưới của trẻ. Dùng gót bàn tay còn lại vỗ 5 cái vào lưng trẻ ở khoảng giữa hai bả vai theo hướng xuống dưới và ra phía trước.
+    verdict: match
+    note: 'Khớp ERC 2021: "If the child is still conscious but has ineffective coughing, give back blows."'
+  - text: Lật ngửa, ấn mạnh 1/2 dưới xương ức 5 cái, 1 lần/giây; luân phiên vỗ lưng - ấn ngực đến khi dị vật rơi ra
+    source_url: https://benhviennhitrunguong.gov.vn/lien-tiep-tre-nhap-vien-do-hoc-di-vat-duong-tho-nguoi-lon-can-hoc-ngay-cach-so-cuu-dung.html
+    quote: Nếu vẫn chưa bật được dị vật ra tiến hành lật ngửa trẻ vẫn để dọc cánh tay, dùng hai ngón tay trái ấn mạnh ở vùng 1/2 dưới xương ức 5 cái (tần suất 1 lần/ 1 giây)
+    verdict: partial
+    note: Nguồn nêu "dùng hai ngón tay" - kỹ thuật ấn ngực cho nhũ nhi - mục bỏ chi tiết này (steps chỉ "ấn mạnh"). Người đọc có thể ấn bằng cả bàn tay lên ngực trẻ dưới 1 tuổi.
+  - text: Heimlich chỉ dùng cho trẻ lớn, không dùng cho trẻ nhỏ; lý do ấn bụng làm tổn thương tạng
+    source_url: https://benhviennhitrunguong.gov.vn/lien-tiep-tre-nhap-vien-do-hoc-di-vat-duong-tho-nguoi-lon-can-hoc-ngay-cach-so-cuu-dung.html
+    quote: Ngoài sử dụng biện pháp vỗ lưng ấn ngực có thể trẻ lớn người cấp cứu có thể sử dụng nghiệm pháp Heimlich với trẻ ở tư thế đứng hoặc ngồi
+    verdict: inference
+    note: Nguồn xếp Heimlich vào mục "Đối với trẻ lớn" nhưng không nói "không dùng cho trẻ nhỏ" và không nêu lý do tổn thương tạng ổ bụng. ERC 2021 ("give chest thrusts to infants or abdominal thrusts to children") hỗ trợ kết luận nhưng không có trong nguồn mục dẫn.
+  - text: Không móc họng, không gây nôn; móc họng đẩy dị vật sâu hơn
+    source_url: https://benhviennhitrunguong.gov.vn/lien-tiep-tre-nhap-vien-do-hoc-di-vat-duong-tho-nguoi-lon-can-hoc-ngay-cach-so-cuu-dung.html
+    quote: Tuyệt đối không dùng tay móc dị vật, không gây nôn hoặc cho ăn uống
+    verdict: partial
+    note: Phần "không móc/không gây nôn" khớp. Câu "đẩy dị vật xuống sâu hơn" và "thìa" không có trong nguồn. Nguồn còn "không cho ăn uống".
+  - text: Không bế dốc ngược, không lắc khi trẻ còn khóc (step 1)
+    source_url: https://benhviennhitrunguong.gov.vn/lien-tiep-tre-nhap-vien-do-hoc-di-vat-duong-tho-nguoi-lon-can-hoc-ngay-cach-so-cuu-dung.html
+    quote: Nếu trẻ còn hồng hào, khóc được, nói được, ho có hiệu quả... Hãy khuyến khích trẻ ho
+    verdict: inference
+    note: Nguồn không nói bế dốc ngược/lắc (chỉ trang đuối nước 02/06/2023 nói "Không được dốc ngược trẻ lên vai rồi chạy"). Hợp lý nhưng là suy ra.
+  - text: "Thiếu nhánh trẻ mất ý thức: nguồn hướng dẫn"
+    source_url: https://benhviennhitrunguong.gov.vn/lien-tiep-tre-nhap-vien-do-hoc-di-vat-duong-tho-nguoi-lon-can-hoc-ngay-cach-so-cuu-dung.html
+    quote: "Nếu trẻ không tỉnh: - Mở thông đường thở bằng cách ngửa đầu, nâng cằm - Thổi ngạt 2 lần - Hồi sức tim phổi: Tiến hành ép tim ngoài lồng ngực 30 nhịp"
+    verdict: partial
+    note: 'Mục dẫn nguồn này nhưng bỏ hẳn nhánh "trẻ không tỉnh" (và related không trỏ tới mục 44). ERC 2021: "If the child with FBAO is, or becomes, unconscious, continue according to the paediatric BLS algorithm." Xem potential_harm.'
+  - text: "Gọi 115: bấm số 115 trên điện thoại"
+    source_url: https://ttcc115.medinet.gov.vn/trung-tam-cap-cuu-115-tphcm-cm7/Contact.aspx
+    quote: Để gọi cấp cứu, nhấn số 115 trên điện thoại.
+    verdict: match
+    note: Trang Trung tâm Cấp cứu 115 TP.HCM. Nguồn chỉ nêu số 115, không nêu khu vực phủ sóng ngoài TP.HCM.
+  - text: Dị vật ra rồi vẫn cho trẻ đi khám vì mảnh vỡ còn trong phế quản gây viêm phổi sau vài ngày
+    source_url: https://benhviennhitrunguong.gov.vn/lien-tiep-tre-nhap-vien-do-hoc-di-vat-duong-tho-nguoi-lon-can-hoc-ngay-cach-so-cuu-dung.html
+    quote: Tuyệt đối không dùng tay móc dị vật, không gây nôn hoặc cho ăn uống
+    verdict: not-found
+    note: 'Nguồn BV Nhi TW không nêu "dị vật ra rồi vẫn đi khám" hay "mảnh vỡ gây viêm phổi". ERC 2021 có: "It is possible that part of the object may remain in the respiratory tract and cause complications. If there is any doubt... urgent medical follow up is mandatory." (đúng ý, nguồn ngoài mục).'
+internal_checks:
+  - issue: (a)(b) Con số 5 lần vỗ lưng, 5 lần ấn ngực, 1/2 dưới xương ức đều có trong thân và khớp nhau. tldr "gọi 115, vỗ lưng 5, ấn ngực 5" có trong thân.
+    severity: warn
+  - issue: (c) Step 5 "Không cần chờ dị vật ra hết mới đưa trẻ đi viện" và "mảnh vỡ gây viêm phổi sau vài ngày" không có cơ sở trong nguồn mục (chỉ ở thân ghi chú, tự thêm).
+    severity: warn
+  - issue: "(f) Mục 44 (trong cùng chương) hướng dẫn CPR cho trẻ dưới 1 tuổi nhưng mục 43 không trỏ tới 44 khi trẻ mất ý thức (related: [] ở 43; 45 trỏ tới 43 chứ không phải ngược lại)."
+    severity: error
+  - issue: Title nói "không ấn bụng"; nguồn nói Heimlich dành cho trẻ lớn (không nói rõ cấm với dưới 1 tuổi).
+    severity: warn
+validity:
+  doc: Hướng dẫn Bệnh viện Nhi Trung ương (20/12/2024); đối chiếu ERC Guidelines 2021 Paediatric Life Support
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: Trang đăng 20/12/2024, không có hướng dẫn thay thế thấy được. ERC 2021 là bản đối chiếu mở được; chưa đối chiếu AHA 2020 (403) nên không khẳng định đã so với hướng dẫn mới nhất.
+deliberate_vn_deviation: []
+potential_harm:
+  - 'Mục không có hướng dẫn khi trẻ ngừng đáp ứng/mất ý thức. Một người đọc làm đúng nguyên văn (vỗ lưng - ấn ngực "đến khi dị vật rơi ra") có thể tiếp tục vỗ lưng trên trẻ đã bất tỉnh thay vì bắt đầu CPR (ERC: nếu trẻ bất tỉnh chuyển sang PBLS; nguồn BV Nhi TW: mở đường thở, thổi ngạt, ép tim 30:2), làm chậm cứu sống.'
+  - 'Step 4 "ấn mạnh 1/2 dưới xương ức" thiếu kỹ thuật hai ngón tay của nguồn: ấn bằng gót bàn tay lên ngực nhũ nhi có thể gây tổn thương.'
+suggested_edits:
+  - 'Thêm bước: "Nếu trẻ mềm nhũn, không phản ứng, không thở: đặt nằm ngửa trên nền cứng, mở miệng nhìn thấy dị vật thì lấy ra, thổi ngạt rồi ép tim 30:2, vừa gọi 115 bật loa ngoài (xem mục 44)" (dựa vào quote "Nếu trẻ không tỉnh: ...Thổi ngạt 2 lần - Hồi sức tim phổi..." và ERC "If the child with FBAO is, or becomes, unconscious, continue according to the paediatric BLS algorithm"). Thêm related: mục 44.'
+  - 'Step 4: thêm "dùng hai ngón tay ấn" (dựa vào quote "dùng hai ngón tay trái ấn mạnh").'
+  - 'Bẫy 3 và "Heimlich": sửa thành "Nguồn dành Heimlich cho trẻ lớn đứng/ngồi; với dưới 1 tuổi dùng vỗ lưng - ấn ngực" và gắn nhãn suy ra, bỏ "tổn thương tạng ổ bụng" nếu không có nguồn. Bỏ/gắn nhãn "đẩy xuống sâu hơn", "viêm phổi sau vài ngày" hoặc dẫn ERC 2021.'
+  - 'Bẫy 1: gắn nguồn trang đuối nước 02/06/2023 hoặc nhãn suy ra cho "không bế dốc ngược, không lắc".'

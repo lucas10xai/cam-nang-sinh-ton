@@ -1,0 +1,100 @@
+id: the-bi-tru-tien-ma-minh-khong-mua-goi-khoa-the-truoc
+content_sha256: "738fd6a24b7dbc439bc466a8a4468d22d1982659d7c0c1d650eebac10b079f58"
+checker: agent-Vf14a
+checked_at: 2026-11-08
+result: pass-with-edits
+claims:
+  - text: "Chủ thẻ phải thông báo ngay cho tổ chức phát hành thẻ khi mất thẻ hoặc lộ thông tin thẻ (Điều 18 khoản 1, TT 18/2024)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/6/42190/50717-1-2024791-79218-2024-tt-nhnn.pdf
+    quote: "1. Khi mất thẻ hoặc lộ thông tin thẻ, chủ thẻ phải thông báo ngay cho TCPHT."
+    verdict: match
+    note: "TCPHT = tổ chức phát hành thẻ (Điều 3 khoản 16). PDF Công báo 791+792 có lớp text."
+  - text: "Tổ chức phát hành phải khóa thẻ ngay khi nhận thông báo; xử lý xong trong 05 ngày làm việc với thẻ BIN do NHNN cấp, 10 ngày làm việc với thẻ BIN do tổ chức thẻ quốc tế cấp (Điều 18 khoản 2)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/6/42190/50717-1-2024791-79218-2024-tt-nhnn.pdf
+    quote: "2. Khi nhận được thông báo của chủ thẻ, TCPHT phải thực hiện ngay việc khóa thẻ và phối hợp với các bên liên quan để thực hiện các biện pháp nghiệp vụ cần thiết khác nhằm ngăn chặn các thiệt hại có thể xảy ra, đồng thời thông báo lại cho chủ thẻ. Sau khi thực hiện khóa thẻ, TCPHT hoàn thành việc xử lý thông báo nhận được từ chủ thẻ không quá 05 ngày làm việc đối với thẻ có BIN do Ngân hàng Nhà nước cấp hoặc 10 ngày làm việc đối với thẻ có BIN do TCTQT cấp kể từ ngày nhận được thông báo của chủ thẻ."
+    verdict: match
+    note: "TCTQT = tổ chức thẻ quốc tế."
+  - text: "Chủ thẻ có quyền yêu cầu tra soát; TCPHT quy định thời hạn tiếp nhận không ít hơn 60 ngày kể từ ngày phát sinh giao dịch (Điều 19 khoản 1)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/6/42190/50717-1-2024791-79218-2024-tt-nhnn.pdf
+    quote: "TCPHT quy định cụ thể thời hạn chủ thẻ được quyền đề nghị tra soát, khiếu nại đối với TCPHT không ít hơn 60 ngày kể từ ngày phát sinh giao dịch đề nghị tra soát, khiếu nại."
+    verdict: match
+    note: "Bẫy 2 gọi 60 ngày là 'mức sàn' - đúng ('không ít hơn')."
+  - text: "TCPHT phải khóa thẻ ngay khi chủ thẻ đề nghị vì nghi gian lận và chịu trách nhiệm toàn bộ tổn thất tài chính phát sinh sau thời điểm đề nghị khóa (Điều 19 khoản 2 điểm c) - tldr"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/6/42190/50717-1-2024791-79218-2024-tt-nhnn.pdf
+    quote: "c) TCPHT phải thực hiện ngay các biện pháp để khóa thẻ khi chủ thẻ đề nghị do nghi ngờ có gian lận hoặc tổn thất và chịu trách nhiệm đối với toàn bộ tổn thất tài chính của khách hàng phát sinh sau thời điểm khách hàng đề nghị khóa thẻ;"
+    verdict: match
+    note: "Điều kiện: 'do nghi ngờ có gian lận hoặc tổn thất' - mục nói rõ 'vì nghi gian lận'. Bẫy 1 đúng chữ."
+  - text: "Phải có tối thiểu hai hình thức tiếp nhận, trong đó có tổng đài ghi âm 24/24 và 7/7 (Điều 19 khoản 2 điểm a)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/6/42190/50717-1-2024791-79218-2024-tt-nhnn.pdf
+    quote: "a) Áp dụng tối thiểu hai hình thức tiếp nhận thông tin tra soát, khiếu nại qua tổng đài điện thoại (có ghi âm, hoạt động 24/24 giờ trong ngày và 7/7 ngày trong tuần) và qua các điểm giao dịch hợp pháp của TCPHT;"
+    verdict: match
+    note: "Hai hình thức bắt buộc là tổng đài và điểm giao dịch."
+  - text: "Hạn xử lý tra soát tối đa 30 ngày làm việc với thẻ BIN trong nước (Điều 19 khoản 2 điểm d); tldr/Chi phí: 'tối đa 30 ngày làm việc tính từ lần tiếp nhận đầu tiên'"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/6/42190/50717-1-2024791-79218-2024-tt-nhnn.pdf
+    quote: "(i) Đối với thẻ có BIN do Ngân hàng Nhà nước cấp, thời hạn xử lý đề nghị tra soát, khiếu nại phải được thỏa thuận cụ thể với khách hàng tại hợp đồng phát hành và sử dụng thẻ và tối đa không quá 30 ngày làm việc kể từ ngày tiếp nhận đề nghị tra soát, khiếu nại lần đầu của chủ thẻ theo một trong các hình thức tiếp nhận quy định tại điểm a khoản này;"
+    verdict: partial
+    note: "Đúng 30 ngày làm việc nhưng thiếu: (1) hạn cụ thể thỏa thuận tại hợp đồng; (2) thẻ BIN quốc tế (Visa/Mastercard) hạn tùy hợp đồng, không có trần 30 ngày (điểm d(ii)); (3) Điều 19 khoản 3 điểm b: hết hạn mà chưa xác định lỗi thì trong 15 ngày làm việc tiếp theo thỏa thuận phương án hoặc tạm bồi hoàn. Chi phí chỉ ghi đúng 'thẻ có BIN do NHNN cấp'."
+  - text: "Với tổn thất không do lỗi chủ thẻ, phải bồi hoàn trong 05 ngày làm việc kể từ ngày thông báo kết quả (Điều 19 khoản 3 điểm a)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/6/42190/50717-1-2024791-79218-2024-tt-nhnn.pdf
+    quote: "a) Trong thời hạn tối đa 05 ngày làm việc kể từ ngày thông báo kết quả tra soát, khiếu nại cho khách hàng, TCPHT thực hiện bồi hoàn cho chủ thẻ theo thỏa thuận và quy định của pháp luật hiện hành đối với những tổn thất phát sinh không do lỗi của chủ thẻ và/hoặc không thuộc các trường hợp bất khả kháng thỏa thuận tại hợp đồng."
+    verdict: partial
+    note: "Thiếu 'theo thỏa thuận' và ngoại lệ bất khả kháng theo hợp đồng; Ghi chú ('khoản bồi hoàn còn tùy hợp đồng') đã bù một phần nhưng bullet pháp lý đọc như bồi hoàn chắc chắn."
+  - text: "Phải có kênh tra cứu trực tuyến tiến độ và kết quả (Điều 19 khoản 5)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/6/42190/50717-1-2024791-79218-2024-tt-nhnn.pdf
+    quote: "5. TCPHT phải có giải pháp để chủ thẻ có thể tra cứu trực tuyến thông tin, tiến độ, kết quả xử lý tra soát, khiếu nại."
+    verdict: match
+    note: "Điều 28 khoản 3: khoản 5 Điều 19 hiệu lực từ 01/01/2025 (01/7/2025 với TCTD kiểm soát đặc biệt)."
+  - text: "Chủ thẻ phải bảo quản thẻ, bảo mật PIN và các mã xác nhận, thông báo và phối hợp khi mất thẻ hoặc tra soát (Điều 17 khoản 2, sửa bởi TT 45/2025)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/11/46653/59887-1-20251639-164045-2025-tt-nhnn.pdf
+    quote: "2. Chủ thẻ phải bảo quản thẻ, bảo mật PIN, các mã số xác nhận chủ thẻ khác, các thông tin thẻ, thông tin giao dịch, không để lộ thông tin thẻ; thông báo và phối hợp với TCPHT để xử lý khi xảy ra các trường hợp mất thẻ hoặc có yêu cầu tra soát, khiếu nại."
+    verdict: match
+    note: "TT 45/2025 Điều 9 khoản 3 (Công báo 1639+1640); hiệu lực 05/01/2026 (Điều 16). Mục dẫn Điều 28 khoản 4 TT 18 (bãi bỏ TT 19/2016) có đúng."
+  - text: "Thông tin thẻ ngân hàng và lịch sử giao dịch là dữ liệu cá nhân nhạy cảm (Điều 4 khoản 1 điểm k, NĐ 356/2025)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-356-2025-nd-cp-468371.htm
+    quote: "k) Tên đăng nhập, mật khẩu truy cập của tài khoản ngân hàng; thông tin thẻ ngân hàng, dữ liệu về lịch sử giao dịch của tài khoản ngân hàng;"
+    verdict: match
+    note: "Trích từ PDF Công báo số 18 tải qua trang congbao.chinhphu.vn. Điều khoản kéo dài thêm 'thông tin tài chính, tín dụng...'."
+  - text: "Tổ chức tài chính, ngân hàng phải thông báo cho cơ quan chuyên trách và chủ thể dữ liệu trong không quá 72 giờ sau khi phát hiện lộ, mất dữ liệu nhạy cảm (Điều 8 khoản 3, NĐ 356/2025)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-356-2025-nd-cp-468371.htm
+    quote: "3. Trong thời hạn không quá 72 giờ sau khi phát hiện lộ, mất dữ liệu nhạy cảm của chủ thể dữ liệu cá nhân trong lĩnh vực tài chính, ngân hàng, hoạt động thông tin tín dụng, tổ chức, cá nhân trực tiếp thu thập dữ liệu cá nhân của chủ thể dữ liệu có trách nhiệm thông báo cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân và chủ thể dữ liệu cá nhân."
+    verdict: match
+    note: "Mục bỏ cụm 'trực tiếp thu thập dữ liệu cá nhân của chủ thể dữ liệu'; ý không đổi nhiều. Hiệu lực NĐ 356 01/01/2026 (trang Công báo ghi Hiệu lực 01/01/2026)."
+  - text: "Mốc 72 giờ báo cơ quan chuyên trách (Điều 23 khoản 1, Luật 91/2025)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf
+    quote: "thì phải thông báo cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân chậm nhất là 72 giờ kể từ khi phát hiện hành vi vi phạm."
+    verdict: match
+    note: "legal_refs/Nguồn dùng url vbpl.vn chỉ trả khung (không đọc được chữ); đối chiếu bằng PDF Công báo 971+972. Mục nên thay url bằng PDF Công báo."
+  - text: "Thông tư 18/2024 có hiệu lực từ 01/7/2024, thay TT 19/2016/TT-NHNN; TT 45/2025 hiệu lực 05/01/2026"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/6/42190/50717-1-2024791-79218-2024-tt-nhnn.pdf
+    quote: "1. Thông tư này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024, trừ quy định tại khoản 2 và khoản 3 Điều này."
+    verdict: match
+    note: "Điều 28 khoản 4 liệt kê TT 19/2016 (+ sửa đổi) bị thay thế. TT 45/2025 Điều 16: 'Thông tư này có hiệu lực thi hành từ ngày 05 tháng 01 năm 2026'."
+  - text: "Tra soát không cần OTP (Bẫy 3)"
+    source_url: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/6/42190/50717-1-2024791-79218-2024-tt-nhnn.pdf
+    quote: "Trường hợp tiếp nhận thông tin qua tổng đài điện thoại hoặc kênh trực tuyến, TCPHT yêu cầu chủ thẻ cung cấp các thông tin cần thiết để xác minh khách hàng, có biện pháp lưu trữ thông tin khách hàng cung cấp làm căn cứ để xử lý tra soát, khiếu nại."
+    verdict: inference
+    note: "Điều 19.2.b nói ngân hàng xác minh khách hàng bằng 'thông tin cần thiết' và không nêu OTP; 'không cần OTP' là suy ra, không phải chữ. Lời khuyên (không đọc OTP/số thẻ cho người gọi tới) hợp lý và phù hợp Điều 17.2 sau sửa đổi (bảo mật PIN, mã xác nhận). Chỉ nhãn."
+internal_checks:
+  - issue: "Chi phí/tldr: '30 ngày làm việc' chỉ đúng cho thẻ BIN do NHNN cấp; bullet Điều 19.2.d trong thân ghi 'với thẻ BIN trong nước' nhưng không nói thẻ quốc tế (Visa/Mastercard/JCB) không có trần 30 ngày và hạn do hợp đồng; người dùng thẻ quốc tế sẽ hiểu sai thời hạn."
+    severity: warn
+  - issue: "Bullet 'Với tổn thất không do lỗi chủ thẻ, phải bồi hoàn trong 05 ngày làm việc' thiếu điều kiện 'theo thỏa thuận' và 'không thuộc trường hợp bất khả kháng thỏa thuận tại hợp đồng' (Điều 19.3.a); Ghi chú bù một phần."
+    severity: warn
+  - issue: "Mốc 05 ngày (Điều 18.2: xử lý thông báo mất thẻ) và 05 ngày (Điều 19.3.a: bồi hoàn sau thông báo kết quả) khác nghĩa nhưng cùng con số; thân không nhầm lẫn. Không mâu thuẫn."
+    severity: warn
+  - issue: "Steps: 'Gửi yêu cầu tra soát bằng văn bản kèm sao kê, giữ biên nhận' - luật cho phép nhận qua tổng đài ghi âm (Điều 19.2.a) và mẫu giấy/điện tử (19.2.b); không bắt buộc văn bản/sao kê. Là khuyến nghị thực hành, nên ghi rõ không phải bắt buộc pháp lý."
+    severity: warn
+  - issue: "legal_refs Luật 91/2025 trỏ vbpl.vn (trả khung), các legal_refs còn lại trỏ đúng văn bản. 'Ghi chú Phạm vi: thẻ do tổ chức tín dụng phát hành trong nước' hơi hẹp: TCPHT gồm 'tổ chức tín dụng, chi nhánh...' (Điều 3 khoản 16, đã xác nhận đầu câu); chưa đọc hết định nghĩa."
+    severity: warn
+validity:
+  doc: "Thông tư 18/2024/TT-NHNN (sửa bởi TT 45/2025/TT-NHNN); Nghị định 356/2025/NĐ-CP; Luật 91/2025/QH15"
+  in_force: unconfirmed
+  effective_from: "2024-07-01"
+  amended_by: ["Thông tư 45/2025/TT-NHNN (hiệu lực 2026-01-05; sửa Điều 3, 9, 10, 11, 12, 13, 15, 16, 17, 19 khoản 4, 26, 27, 30, Phụ lục 02)"]
+  basis: "TT 18: Điều 28 khoản 1 hiệu lực 01/7/2024; TT 45 sửa đổi, không bãi bỏ (Điều 16 hiệu lực 05/01/2026; TT 45 Điều 10 chỉ sửa cụm từ ở Điều 19 khoản 4; Điều 19 khoản 1, 2, 3, 5 không bị sửa). NĐ 356: trang Công báo ghi hiệu lực 01/01/2026. Chưa tra được văn bản sửa đổi sau 05/01/2026 (lược đồ Công báo tải động, không có tìm kiếm khác), nên chưa kết luận hoàn toàn còn hiệu lực."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Chi phí và Pháp luật VN (Điều 19 khoản 2 điểm d): ghi 'tối đa 30 ngày làm việc với thẻ có BIN do Ngân hàng Nhà nước cấp, hạn cụ thể ghi trong hợp đồng; thẻ quốc tế do hợp đồng quy định. Hết hạn mà chưa xác định được lỗi, ngân hàng có 15 ngày làm việc để thỏa thuận hoặc tạm bồi hoàn (Điều 19 khoản 3 điểm b)'."
+  - "Bullet Điều 19 khoản 3 điểm a: thêm 'theo thỏa thuận và quy định pháp luật; không áp dụng với tổn thất do lỗi chủ thẻ hoặc trường hợp bất khả kháng thỏa thuận tại hợp đồng'."
+  - "Steps 2: ghi 'nếu có thể, gửi bằng văn bản/mẫu điện tử kèm sao kê; luật cho phép cũng tiếp nhận qua tổng đài ghi âm'. Bẫy 3: gắn nhãn 'suy ra' cho 'tra soát không cần OTP'."
+  - "legal_refs và Nguồn: đổi url Luật 91/2025 từ vbpl.vn sang PDF Công báo https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45578/57730-1-2025971-97291-2025-qh15.pdf (có lớp text)."
