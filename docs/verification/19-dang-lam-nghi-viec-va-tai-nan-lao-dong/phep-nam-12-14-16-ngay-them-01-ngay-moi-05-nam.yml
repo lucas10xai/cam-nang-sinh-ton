@@ -1,0 +1,83 @@
+id: phep-nam-12-14-16-ngay-them-01-ngay-moi-05-nam
+checker: agent-VerifyLabor
+checked_at: 2026-11-08
+result: pass-with-edits
+# Nguồn mở thật: PDF ký số Công báo (tải từ trang congbao.chinhphu.vn) và file .doc NĐ 145/2020 từ Công báo. PDF datafiles.chinhphu.vn là bản quét ảnh, không trích chữ được. Trích dẫn được nối dòng.
+claims:
+  - text: "Đủ 12 tháng làm việc cho một người sử dụng lao động: 12 ngày (bình thường); 14 ngày (chưa thành niên, khuyết tật, nặng nhọc độc hại nguy hiểm); 16 ngày (đặc biệt nặng nhọc độc hại nguy hiểm)"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "1. Người lao động làm việc đủ 12 tháng cho một người sử dụng lao động thì được nghỉ hằng năm, hưởng nguyên lương theo hợp đồng lao động như sau: a) 12 ngày làm việc đối với người làm công việc trong điều kiện bình thường; b) 14 ngày làm việc đối với người lao động chưa thành niên, lao động là người khuyết tật, người làm nghề, công việc nặng nhọc, độc hại, nguy hiểm; c) 16 ngày làm việc đối với người làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm."
+    verdict: match
+    note: "Điều 113 khoản 1."
+  - text: "Cứ đủ 05 năm làm việc cho một người sử dụng lao động thì tăng thêm 01 ngày"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "Cứ đủ 05 năm làm việc cho một người sử dụng lao động thì số ngày nghỉ hằng năm của người lao động theo quy định tại khoản 1 Điều 113 của Bộ luật này được tăng thêm tương ứng 01 ngày."
+    verdict: match
+    note: "Điều 114. Phần 'không cộng thâm niên ở chỗ làm cũ' chỉ suy ra từ 'cho một người sử dụng lao động'; riêng khu vực nhà nước NĐ 145 Điều 66 khoản 3 có ngoại lệ cộng dồn - mục chưa nhắc ngoại lệ (xem suggested_edits)."
+  - text: "Làm chưa đủ 12 tháng thì nghỉ theo tỷ lệ tương ứng số tháng làm việc"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "2. Người lao động làm việc chưa đủ 12 tháng cho một người sử dụng lao động thì số ngày nghỉ hằng năm theo tỷ lệ tương ứng với số tháng làm việc."
+    verdict: match
+    note: "Điều 113 khoản 2."
+  - text: "Chỉ khi thôi việc, bị mất việc làm mới được thanh toán tiền lương cho ngày chưa nghỉ"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "3. Trường hợp do thôi việc, bị mất việc làm mà chưa nghỉ hằng năm hoặc chưa nghỉ hết số ngày nghỉ hằng năm thì được người sử dụng lao động thanh toán tiền lương cho những ngày chưa nghỉ."
+    verdict: match
+    note: "Điều 113 khoản 3. Từ 'chỉ' là diễn giải (luật chỉ nêu trường hợp này); phù hợp với thực tiễn nhưng không là chữ trong luật."
+  - text: "Nghỉ gộp tối đa 03 năm một lần theo thỏa thuận; người sử dụng lao động quy định lịch nghỉ sau khi tham khảo ý kiến và thông báo trước"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "4. Người sử dụng lao động có trách nhiệm quy định lịch nghỉ hằng năm sau khi tham khảo ý kiến của người lao động và phải thông báo trước cho người lao động biết. Người lao động có thể thỏa thuận với người sử dụng lao động để nghỉ hằng năm thành nhiều lần hoặc nghỉ gộp tối đa 03 năm một lần."
+    verdict: match
+    note: "Khoản 5 (tạm ứng lương) và khoản 6 (thời gian đi đường từ ngày thứ 03, 1 lần/năm) cũng khớp."
+  - text: "NĐ 145 Điều 66 khoản 1: công thức (số ngày phép + ngày tăng theo thâm niên) / 12 x số tháng thực tế; khoản 2: tháng lẻ tính là 01 tháng nếu đạt từ 50% số ngày làm việc bình thường"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-145-2020-nd-cp-32732.htm
+    quote: "1. Số ngày nghỉ hằng năm của người lao động làm việc chưa đủ 12 tháng theo quy định tại khoản 2 Điều 113 của Bộ luật Lao động được tính như sau: lấy số ngày nghỉ hằng năm cộng với số ngày được nghỉ tăng thêm theo thâm niên (nếu có), chia cho 12 tháng, nhân với số tháng làm việc thực tế trong năm để tính thành số ngày được nghỉ hằng năm. 2. Trường hợp người lao động làm việc chưa đủ tháng, nếu tổng số ngày làm việc và ngày nghỉ có hưởng lương của người lao động (nghỉ lễ, tết, nghỉ hằng năm, nghỉ việc riêng có hưởng lương theo Điều 112, Điều 113, Điều 114 và Điều 115 của Bộ luật Lao động) chiếm tỷ lệ từ 50% số ngày làm việc bình thường trong tháng theo thỏa thuận thì tháng đó được tính là 01 tháng làm việc để tính ngày nghỉ hằng năm."
+    verdict: match
+    note: "Điều số: bản .doc Công báo của NĐ 145 mất đánh số 'Điều' (chỉ còn tiêu đề); thứ tự và tiêu đề khớp Điều 66 như mục ghi. Không đối chiếu được số 66 bằng chữ trong bản tải về - ghi nhận hạn chế."
+  - text: "NĐ 145 Điều 67 khoản 3: lương trả ngày chưa nghỉ là lương theo HĐLĐ của tháng trước liền kề tháng thôi việc, mất việc"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-145-2020-nd-cp-32732.htm
+    quote: "3. Tiền lương làm căn cứ trả cho người lao động những ngày chưa nghỉ hằng năm hoặc chưa nghỉ hết số ngày nghỉ hằng năm theo khoản 3 Điều 113 của Bộ luật Lao động là tiền lương theo hợp đồng lao động của tháng trước liền kề tháng người lao động thôi việc, bị mất việc làm."
+    verdict: match
+    note: "Mục viết 'Điều 67 khoản 3' (nguồn ghi 'Điều 67 khoản 2 và khoản 3'): khoản 2 là lương ngày nghỉ phép đang nghỉ, cũng khớp. Cách tính 'lương tháng chia số ngày làm việc bình thường rồi nhân' không có trong văn bản này - là diễn giải, nên đánh dấu."
+  - text: "NĐ 145 Điều 65: các quãng tính là thời gian làm việc để tính phép: thử việc nếu tiếp tục làm; ốm cộng dồn không quá 02 tháng/năm; TNLĐ-BNN cộng dồn không quá 6 tháng; thai sản; ngừng việc không do lỗi NLĐ"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-145-2020-nd-cp-32732.htm
+    quote: "2. Thời gian thử việc nếu người lao động tiếp tục làm việc cho người sử dụng lao động sau khi hết thời gian thử việc. ... 5. Thời gian nghỉ do tai nạn lao động, bệnh nghề nghiệp nhưng cộng dồn không quá 6 tháng. 6. Thời gian nghỉ do ốm đau nhưng cộng dồn không quá 02 tháng trong một năm. 7. Thời gian nghỉ hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội. ... 9. Thời gian phải ngừng việc, nghỉ việc không do lỗi của người lao động."
+    verdict: match
+    note: "Mục viết 'bốn quãng cuối thường bị trừ' - đúng với 3 khoản (ốm, TNLĐ, thai sản, ngừng việc là bốn). Nên lưu ý cũng có 'nghỉ không hưởng lương cộng dồn không quá 01 tháng' (khoản 4), mục không nhắc."
+  - text: "NĐ 283 Điều 24 khoản 2: phạt 10.000.000-20.000.000 đồng với vi phạm quy định về nghỉ hằng tuần/nghỉ hằng năm/nghỉ lễ, tết"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "2. Phạt tiền từ 10.000.000 đồng đến 20.000.000 đồng đối với người sử dụng lao động có hành vi vi phạm quy định của pháp luật về nghỉ hằng tuần hoặc nghỉ hằng năm hoặc nghỉ lễ, tết."
+    verdict: match
+    note: "Đây là mức cố định, không chia bậc theo số người."
+  - text: "NĐ 283 Điều 23 khoản 2 điểm a: không trả/trả không đủ lương những ngày chưa nghỉ phép khi thôi việc: phạt 5-10 triệu (1-10 người); buộc trả đủ cộng lãi"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "không trả hoặc trả không đủ tiền lương của người lao động trong những ngày chưa nghỉ hằng năm hoặc chưa nghỉ hết số ngày nghỉ hằng năm khi người lao động thôi việc, bị mất việc làm; ... theo một trong các mức sau đây: a) Từ 5.000.000 đồng đến 10.000.000 đồng đối với vi phạm từ 01 người đến 10 người lao động;"
+    verdict: match
+    note: "Biện pháp khắc phục: khoản 5 điểm a ('Buộc người sử dụng lao động trả đủ tiền lương cộng với khoản tiền lãi ... đối với hành vi vi phạm quy định tại khoản 2, khoản 3 Điều này'). Mục có ghi rõ 'từ 1 đến 10 người' nên không sai."
+  - text: "NĐ 283 Điều 7 khoản 1: mức phạt là của cá nhân, tổ chức/doanh nghiệp gấp đôi"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "Mức phạt tiền đối với tổ chức bằng 02 lần mức phạt tiền đối với cá nhân."
+    verdict: match
+    note: "Điều 23, Điều 24 không nằm trong danh sách ngoại lệ của câu trước. Nghị định dùng 'tổ chức'."
+  - text: "Mục: 'Điều 23 khoản 2 điểm a cùng nghị định xếp việc không trả hoặc trả không đủ tiền lương của những ngày chưa nghỉ vào nhóm phạt 5-10 triệu' (cho chỉ bậc 1-10 người)"
+    source_url: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm
+    quote: "b) Từ 10.000.000 đồng đến 20.000.000 đồng đối với vi phạm từ 11 người đến 50 người lao động; c) Từ 20.000.000 đồng đến 30.000.000 đồng đối với vi phạm từ 51 người đến 100 người lao động;"
+    verdict: match
+    note: "Chỉ để ghi nhận: bậc cao hơn tồn tại (đến 40-50tr cho >=301 người), mục không viết sai nhưng không nêu."
+  - text: "Mục ghi tiêu đề/nội dung: 'không có mức 300% nào để quy đổi' - phép chưa nghỉ không nhân hệ số, trả lương tháng trước liền kề"
+    source_url: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm
+    quote: "c) Vào ngày nghỉ lễ, tết, ngày nghỉ có hưởng lương, ít nhất bằng 300% chưa kể tiền lương ngày lễ, tết, ngày nghỉ có hưởng lương đối với người lao động hưởng lương ngày."
+    verdict: match
+    note: "Điều 98 khoản 1 điểm c chỉ áp dụng 'làm thêm giờ' vào ngày nghỉ lễ... Điều 113 khoản 3 và NĐ 145 Điều 67 khoản 3 không có hệ số 300%. Lưu ý: 'ngày nghỉ có hưởng lương' trong Điều 98 gồm cả phép năm nếu NLĐ đi làm vào ngày đang nghỉ phép được duyệt - mục kết luận 'không có 300% cho phép năm' hơi tuyệt đối; nên nói rõ là không có quy đổi phép chưa nghỉ thành 300%, chứ không phải 'ngày phép đi làm thì không có 300%'. Đề xuất hạ mức khẳng định hoặc thêm điều kiện."
+validity:
+  doc: "BLLĐ 45/2019/QH14 (VBHN 18/VBHN-VPQH ngày 12/02/2026); NĐ 145/2020/NĐ-CP; NĐ 283/2026/NĐ-CP"
+  in_force: true
+  effective_from: "BLLĐ 2021-01-01; NĐ 145/2020: 2021-02-01 (trang Công báo: 'Hiệu lực: 01/02/2021'); NĐ 283/2026: 2026-09-10"
+  amended_by: ["NĐ 145/2020: đang có dự thảo sửa đổi (Bộ Nội vụ, 2026) - chưa thấy bản ban hành; một số nguồn ghi 'hết hiệu lực một phần' (chưa xác minh bằng nguồn chính thức)", "BLLĐ: Luật 71/2025/QH15, 113/2025/QH15, 124/2025/QH15 (không đụng Điều 113-114)"]
+  note: "Trang Công báo không hiển thị cột 'Ngày hết hiệu lực' (trống). Chưa xác minh trên vbpl.vn. Kết luận 'còn hiệu lực' vì chưa tìm thấy văn bản thay thế; cần người xác nhận mức 'hết hiệu lực một phần' của NĐ 145 có chạm Điều 65-67 hay không. Điều 7 NĐ 283: NĐ 12/2022 hết hiệu lực từ 10/9/2026."
+suggested_edits:
+  - "Điều 114: nhắc ngoại lệ NĐ 145 Điều 66 khoản 3 (khu vực nhà nước/doanh nghiệp nhà nước được cộng thâm niên liên tục) - bản nháp nói 'không cộng thâm niên ở chỗ làm cũ' tuyệt đối."
+  - "Ghi rõ công thức 'lương tháng chia số ngày làm việc bình thường nhân số ngày chưa nghỉ' là cách tính suy ra, không phải câu chữ của Điều 67."
+  - "Nêu 'nghỉ không hưởng lương cộng dồn không quá 01 tháng' ở NĐ 145 Điều 65 khoản 4 cho đủ."
+  - "Làm rõ chỗ '300%': phép chưa nghỉ không được quy đổi 300%, nhưng đi làm trong ngày nghỉ có hưởng lương đã duyệt vẫn có thể rơi vào Điều 98 khoản 1c."
+  - "Chưa dán nhãn source-checked đến khi xác nhận được trạng thái hiệu lực của NĐ 145/2020 trên vbpl.vn."
