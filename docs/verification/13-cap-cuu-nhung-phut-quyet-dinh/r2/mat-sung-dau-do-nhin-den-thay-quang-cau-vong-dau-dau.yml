@@ -1,0 +1,83 @@
+id: mat-sung-dau-do-nhin-den-thay-quang-cau-vong-dau-dau
+checker: agent-R2d13a
+checked_at: 2026-11-08
+content_sha256: "377ef5a92400c12d68e5382b434fbb6700c78da76ac062a7cb6725aec78f6004"
+result: pass-with-edits
+claims:
+  - text: "Cơn glôcôm góc đóng cấp: khởi phát đột ngột; đau nhức mắt, nhức quanh hố mắt, lan nửa đầu cùng bên; nhìn mờ như qua màn sương, nhìn đèn có quầng xanh đỏ, sợ ánh sáng; có thể buồn nôn/nôn, đau bụng, vã mồ hôi, sốt"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Bệnh khởi phát đột ngột, diễn biến rầm rộ, thường xảy ra vào chiều tối, sau một xúc động mạnh bệnh nhân đột ngột đau nhức mắt, nhức xung quanh hố mắt, nhức lan lên nửa đầu cùng bên, nhìn mờ như qua màn sương, nhìn đèn có quầng xanh đỏ, sợ ánh sáng, chói chảy nước mắt kèm theo, bệnh nhân có thể buồn nôn hoặc nôn, đau bụng, vã mồ hôi, sốt..."
+    verdict: match
+    note: "Giải nén mat.rar, tệp The final - Mắt 20150112.pdf, bài 17 Glôcôm góc đóng nguyên phát, trích bằng pdftotext (một số ký tự ư/ơ lỗi mã hóa đã chuẩn hóa). Khớp trang 78-84 như mục ghi."
+  - text: "Dấu hiệu thực thể: nhãn áp tăng rất cao, mi sưng nề, mắt cương tụ đỏ, giác mạc phù mờ, đồng tử giãn méo, tiền phòng nông, góc tiền phòng đóng"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Khám: mi mắt xưng nề, mắt cương tụ đỏ, giác mạc phù mờ có thể có bọng biểu mô, đồng tử giãn méo, giảm hoặc mất phản xạ với ánh sáng, tiền phòng nông, góc tiền phòng đóng"
+    verdict: match
+    note: "Cùng bài 17; 'Nhãn áp tăng rất cao' ở dòng riêng ngay trên."
+  - text: "Nguyên tắc điều trị: tích cực, khẩn trương hạ nhãn áp bằng thuốc để chống tổn hại thêm cho thị thần kinh"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Tích cực, khẩn trương làm hạ nhãn áp bằng thuốc để chống tổn hại thêm cho thị thần kinh"
+    verdict: match
+    note: "Văn bản chỉ ghi 'khẩn trương', không ghi số giờ; mục nói đúng điều này ở Ghi chú."
+  - text: "Điều trị bằng phẫu thuật là bắt buộc với hình thái glôcôm góc đóng; acetazolamid nhiều tác dụng phụ toàn thân nên chỉ dùng trong thời gian chờ phẫu thuật; thuốc chẹn beta giao cảm thận trọng nếu bệnh phổi, tim, mạch"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Điều trị bằng phẫu thuật: là bắt buộc đối với hình thái glôcôm góc đóng"
+    verdict: match
+    note: "Cũng có: 'Tra phối hợp nhóm thuốc chẹn bêta giao cảm 2 lần/ngày (thận trọng nếu bệnh nhân có bệnh phổi, tim, mạch)' và 'Chú ý: thuốc có nhiều tác dụng phụ toàn thân nên chỉ dùng trong thời gian chờ phẫu thuật, không dùng kéo dài và cần bổ sung thêm Kali.'"
+  - text: "Mắt còn lại cũng được bác sĩ dự phòng vì nguy cơ lên cơn ở mắt thứ hai"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Để đề phòng xuất hiện cơn tăng nhãn áp ở mắt thứ 2 : nên tra 1-2 giọt pilocacpin 1% cho mắt thứ 2"
+    verdict: match
+    note: ""
+  - text: "NHS: triệu chứng glôcôm có thể xuất hiện đột ngột gồm đau mắt dữ dội, mắt đỏ, nhạy đau quanh mắt, thấy vòng cầu vồng quanh đèn, nhìn mờ, buồn nôn và nôn, đau đầu"
+    source_url: https://www.nhs.uk/conditions/glaucoma/
+    quote: "Sometimes glaucoma can develop suddenly and cause symptoms such as: intense eye pain; a red eye; tenderness around the eyes; seeing rainbow-coloured circles around bright lights; blurred vision; feeling sick (nausea) and being sick; a headache"
+    verdict: match
+    note: "Trang xem lại 13/06/2025, kỳ tới 13/06/2028 (đọc ngày 2026-11-09)."
+  - text: "NHS: khi các triệu chứng xuất hiện đột ngột là cấp cứu y tế: gọi cấp cứu hoặc tới khoa cấp cứu, không tự lái xe"
+    source_url: https://www.nhs.uk/conditions/glaucoma/
+    quote: "Immediate action required: Call 999 or go to A&E if: you develop symptoms of glaucoma suddenly. This is a medical emergency that may require immediate treatment. ... Do not drive to A&E. Ask someone to drive you or call 999 and ask for an ambulance."
+    verdict: match
+    note: "Tiếng Việt: gọi 999/đi A&E nếu đột ngột có triệu chứng; không tự lái xe, nhờ người chở hoặc gọi cấp cứu."
+  - text: "NHS: các bệnh khác như viêm màng bồ đào và chấn thương mắt cũng có thể gây triệu chứng tương tự"
+    source_url: https://www.nhs.uk/conditions/glaucoma/
+    quote: "Other conditions can cause similar symptoms, including uveitis and an eye injury."
+    verdict: match
+    note: ""
+  - text: "AAO PPP 2025: người bệnh cần được hướng dẫn tìm chăm sóc nhãn khoa ngay nếu có triệu chứng"
+    source_url: https://www.aao.org/education/preferred-practice-pattern/primary-angle-closure-disease-ppp
+    quote: "Patients experiencing AACC should receive medical treatment or other interventions, such as LPI, anterior chamber paracentesis, or laser peripheral iridoplasty, to lower the IOP promptly and relieve symptoms."
+    verdict: not-found
+    note: "Trang AAO chỉ có phần Highlighted Findings: triệu chứng AACC (eye pain, headache, nausea/vomiting, blurred vision with halos) và điều trị hạ nhãn áp 'promptly'. Câu 'người bệnh cần được hướng dẫn tìm chăm sóc ngay' KHÔNG có trong phần đọc được. PDF toàn văn tải được chỉ 2 trang bìa, nên không kiểm được phần tư vấn bệnh nhân. Mục cần sửa lời cho khớp (xem suggested_edits) hoặc dẫn đúng đoạn."
+  - text: "Không tự nhỏ thuốc mắt mua sẵn, không uống thuốc giảm đau rồi nằm chờ, tránh chườm nóng/xông hơi (mục gắn nhãn 'suy ra từ yêu cầu hạ nhãn áp khẩn trương')"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "Tích cực, khẩn trương làm hạ nhãn áp bằng thuốc để chống tổn hại thêm cho thị thần kinh"
+    verdict: inference
+    note: "Nhãn 'suy ra' trung thực: không nguồn nào nói cấm các việc này. Nhưng suy luận 'cần khẩn trương' dẫn tới 'đi cấp cứu ngay' là hợp lý; còn 'không tự nhỏ thuốc' chỉ đúng với thuốc mua sẵn không đúng loại (chính QĐ 40 dùng thuốc nhỏ co đồng tử, chẹn beta). Hướng đi (đi cấp cứu, không tự điều trị rồi chờ) an toàn, không làm chậm cứu chữa."
+  - text: "Quyết định 40/QĐ-BYT ngày 12/01/2015 của Bộ Y tế, Hướng dẫn chẩn đoán và điều trị các bệnh về mắt, bài 17 Glôcôm góc đóng nguyên phát, trang 78-84"
+    source_url: https://kcb.vn/upload/2005611/20210723//mat.rar
+    quote: "(ban hành kèm theo Quyết định số 40/QĐ-BYT ngày 12/01/2015)"
+    verdict: match
+    note: "Bìa tài liệu; mục lục ghi bài 17 ở trang 78; nội dung kết thúc trước 'GLÔCÔM GÓC MỞ NGUYÊN PHÁT' ở trang 84-85."
+internal_checks:
+  - issue: "Chữ nội bộ lọt vào thân (mục Chi phí): 'Cần nguồn cho mức chi phí và tỷ lệ bảo hiểm y tế chi trả.' là ghi chú cho người soạn, không phải nội dung cho người đọc."
+    severity: error
+  - issue: "Mục Chi phí: 'Nếu phải mổ cắt bè hoặc cắt mống mắt bằng laser thì chi phí lớn hơn, và đó là lý do phải đi sớm (suy ra từ yêu cầu hạ nhãn áp khẩn trương)' - chi phí lớn hơn là khẳng định không có nguồn; lý do 'đi sớm vì chi phí' là suy diễn yếu (QĐ 40 nói mù không hồi phục là lý do)."
+    severity: warn
+  - issue: "Ghi chú: 'mức khẩn xử trí ngay lấy từ NHS và AAO' - phần AAO không kiểm chứng được (xem claim AAO not-found); chỉ NHS ghi rõ 'immediate'."
+    severity: warn
+  - issue: "tldr/steps: các thao tác (gọi 115, không tự lái xe, không chờ hết đau) đều có cơ sở trong thân (NHS, QĐ 40). Không có mâu thuẫn số liệu; mục không có con số nào khác ngoài ngày/số hiệu văn bản. legal_refs rỗng nên không có url để kiểm."
+    severity: warn
+validity:
+  doc: "Quyết định 40/QĐ-BYT ngày 12/01/2015 (Bộ Y tế); NHS Glaucoma; AAO Primary Angle-Closure Disease PPP 2025"
+  in_force: unconfirmed
+  effective_from: "2015-01-12"
+  amended_by: []
+  basis: "QĐ 40 là hướng dẫn chuyên môn 2015, không thấy trong tệp dấu hiệu bị thay thế nhưng cũng không tìm được trang Bộ Y tế xác nhận còn hiệu lực/không có bản mới; không tự kết luận còn hiệu lực. NHS xem lại 13/06/2025. AAO PPP 2025 đăng 09/02/2026 trên trang."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Mục Chi phí, gạch đầu dòng 1: xóa câu 'Cần nguồn cho mức chi phí và tỷ lệ bảo hiểm y tế chi trả.'; thay bằng 'Chi phí tùy cơ sở; chưa có số liệu để nêu.' hoặc bỏ gạch đầu dòng."
+  - "Mục Lợi ích, 'Hướng dẫn quốc tế', gạch AAO: thay bằng câu có trong nguồn: 'AAO PPP 2025: người có cơn đóng góc cấp cần được điều trị thuốc hoặc can thiệp để hạ nhãn áp nhanh và giảm triệu chứng' (dựa trên quote 'to lower the IOP promptly and relieve symptoms'); bỏ ý 'hướng dẫn tìm chăm sóc ngay'."
+  - "Ghi chú, câu 'mức khẩn xử trí ngay lấy từ NHS và AAO': đổi thành 'lấy từ NHS (xử trí ngay), AAO ghi hạ nhãn áp nhanh (promptly)'."
+  - "Mục Chi phí gạch 2: bỏ vế 'và đó là lý do phải đi sớm' hoặc đổi thành lý do có trong nguồn: không điều trị thì dẫn tới mù không hồi phục (QĐ 40 mục 5: 'Glôcôm góc đóng cơn cấp nếu không được điều trị, nhãn áp tiếp tục tăng cao kéo dài sẽ dẫn đến mù')."

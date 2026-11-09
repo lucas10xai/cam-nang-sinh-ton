@@ -1,0 +1,114 @@
+{
+ "id": "thay-nguoi-duoi-nuoc-goi-nguoi-va-goi-115-dua-sao-hoac",
+ "checker": "agent-R2d13b",
+ "checked_at": "2026-11-08",
+ "content_sha256": "007bc4bdd9565db8f37ab06b0fe30a9694f14d1c65753d2aaf8504d0bc55bc03",
+ "result": "pass-with-edits",
+ "claims": [
+  {
+   "text": "Số 112 tiếp nhận thông tin về sự cố, thiên tai, thảm họa, nguy cơ, yêu cầu trợ giúp; tổng đài đặt tại Bộ Chỉ huy quân sự cấp tỉnh (Điều 3 khoản 1 NĐ 200/2025/NĐ-CP)",
+   "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/200-ndcp.signed.pdf",
+   "quote": "1. Số điện thoại 112 tiếp nhận nội dung thông tin về sự cố, thiên tai, thảm họa, những nguy cơ xảy ra, yêu cầu trợ giúp của tổ chức, cá nhân. Tổng đài 112 được đặt tại Bộ Chỉ huy quân sự tỉnh, thành phố trực thuộc trung ương, Bộ Tư lệnh Thủ đô Hà Nội, Bộ Tư lệnh Thành phố Hồ Chí Minh (gọi chung là Bộ Chỉ huy quân sự cấp tỉnh).",
+   "verdict": "match",
+   "note": "PDF bản ký là ảnh quét; đã OCR bằng macOS Vision (vi-VN) và đối chiếu câu trích; câu trích đọc rõ. Quote trong legal_refs khớp (chỉ bỏ cụm \"nội dung\")."
+  },
+  {
+   "text": "Tổng đài 112 liên thông với 113, 114, 115; hoạt động 24 giờ mọi ngày; miễn phí cước gọi (Điều 3 khoản 4)",
+   "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/200-ndcp.signed.pdf",
+   "quote": "4. Hoạt động của hệ thống Tổng đài 112 a) Hệ thống Tổng đài 112 liên thông với các Tổng đài 113, 114, 115; b) Hệ thống Tổng đài 112 hoạt động 24 giờ tất cả các ngày; c) Miễn phí cước gọi từ thuê bao điện thoại cố định, di động vào số điện thoại 112;",
+   "verdict": "match",
+   "note": "PDF bản ký là ảnh quét; đã OCR bằng macOS Vision (vi-VN) và đối chiếu câu trích; câu trích đọc rõ. Quote trong legal_refs gộp ba điểm a, b, c đúng nội dung."
+  },
+  {
+   "text": "112 là tổng đài cứu nạn khẩn cấp (thiên tai, sự cố sông biển: tàu trôi dạt, mất liên lạc, chìm tàu); 115 là cấp cứu y tế (tai nạn, chấn thương nặng, bệnh lý nguy hiểm đến tính mạng)",
+   "source_url": "https://congan.dienbien.gov.vn/Danh-muc-tin-tuc/tong-hop-cac-so-dien-thoai-khan-cap-quoc-gia-ghi-nho-de-bao-ve-minh-va-ho-tro-nguoi-khac-13182.html",
+   "quote": "112 – Tổng đài cứu nạn khẩn cấp: Tiếp nhận thông tin về thiên tai như bão, lũ, sạt lở đất; các sự cố sông biển gồm tàu trôi dạt, mất liên lạc, chìm tàu… || 115 – Cấp cứu y tế: Sử dụng khi có tai nạn, chấn thương nặng, các tình huống bệnh lý nguy hiểm đến tính mạng cần cấp cứu khẩn cấp.",
+   "verdict": "match",
+   "note": "Công an tỉnh Điện Biên (nguồn nhà nước, không phải văn bản quy phạm); đủ cho phần hướng dẫn gọi số."
+  },
+  {
+   "text": "Tuyệt đối không nhảy xuống nước nếu không biết bơi; nạn nhân hoảng loạn níu chặt cả người cứu; ném khúc gỗ, phao cho bám hoặc chạy tìm người cứu",
+   "source_url": "https://bvdklangson.com.vn/y-hoc-thuong-thuc/cach-so-cap-cuu-nguoi-bi-duoi-nuoc.html",
+   "quote": "Nếu không biết bơi ta phải tìm khúc gỗ, phao... ném xuống cho họ bám vào để lên bờ hoặc chạy ngay đi tìm người đến cứu. Tuyệt đối không nhảy xuống nước nếu không biết bơi. Vì nạn nhân lúc này trong tình trạng hoảng loạn, dễ níu chặt lấy bất cứ thứ gì với được, kể cả người cứu nạn.",
+   "verdict": "match",
+   "note": "Bệnh viện Đa khoa Lạng Sơn, bài đăng 20/05/2020."
+  },
+  {
+   "text": "Reach or throw, don't go: đưa hoặc ném vật cho nạn nhân bám, đừng xuống nước vì chính mình có thể bị đuối",
+   "source_url": "https://www.redcross.org/about-us/news-and-events/press-release/2026/national-water-safety-month--drowning-is-preventable-.html",
+   "quote": "Reach or throw, don't go! In the event of an emergency, reach or throw an object to the person in trouble and tell them to grab on. Don’t go in! You could be in danger of drowning yourself.",
+   "verdict": "match",
+   "note": "Tóm tắt Việt: đưa/ném một vật cho người gặp nạn bám, đừng vào nước vì bạn có thể bị đuối. Red Cross không nêu ngoại lệ cho người biết bơi."
+  },
+  {
+   "text": "steps[2]: \"Chỉ xuống khi biết bơi và biết chỗ đó nông hay sâu; không thì gọi người hoặc dùng thuyền\"",
+   "source_url": "https://bvdklangson.com.vn/y-hoc-thuong-thuc/cach-so-cap-cuu-nguoi-bi-duoi-nuoc.html",
+   "quote": "Tuyệt đối không nhảy xuống nước nếu không biết bơi.",
+   "verdict": "inference",
+   "note": "Lạng Sơn chỉ cấm khi không biết bơi (ngụ ý cho phép khi biết bơi). \"Biết chỗ nông hay sâu\" và \"dùng thuyền\" không có trong nguồn nào của mục. Red Cross: \"Don't go in!\"; St John: \"Do not put yourself in danger when trying to rescue a casualty.\" Phần Lợi ích viết \"Nguồn này cho xuống cứu khi người cứu biết bơi\" là suy ra không gắn nhãn."
+  },
+  {
+   "text": "Không dốc ngược nạn nhân: mất thời gian hô hấp nhân tạo; nước trong phổi không nhiều như mọi người nghĩ",
+   "source_url": "https://bvdklangson.com.vn/y-hoc-thuong-thuc/cach-so-cap-cuu-nguoi-bi-duoi-nuoc.html",
+   "quote": "Nhiều người thường có thói quen dốc ngược nạn nhân, vác lên vai rồi chạy, đây là hành động hoàn toàn sai vì thứ nhất, nó làm mất thời gian quý giá để hô hấp nhân tạo cứu sống bệnh nhân. Thứ 2 là khi ngạt nước thực ra nước ở trong phổi không nhiều như mọi người nghĩ",
+   "verdict": "match"
+  },
+  {
+   "text": "Nạn nhân lên bờ không đáp ứng, không thở: nhờ gọi cấp cứu, hồi sức tim phổi, mở đường thở rồi thổi 5 hơi ban đầu",
+   "source_url": "https://www.sja.org.uk/first-aid-advice/drowning/",
+   "quote": "If this establishes that they are unresponsive and not breathing, you should ask a helper to call 999 or 112 for emergency help while you start CPR. ... Check the airway is open before giving five initial rescue breaths .",
+   "verdict": "match",
+   "note": "Tóm tắt Việt: không đáp ứng và không thở thì nhờ gọi cấp cứu, bắt đầu CPR, mở đường thở rồi 5 hơi ban đầu. Nguồn UK; mục đổi số thành 115. Cùng bài: người được cứu, kể cả trông ổn, cần đánh giá y tế; mục không nêu."
+  },
+  {
+   "text": "tldr: \"gọi 115, mở đường thở, thổi 5 hơi rồi ép tim\"",
+   "source_url": "https://www.sja.org.uk/first-aid-advice/drowning/",
+   "quote": "Check the airway is open before giving five initial rescue breaths",
+   "verdict": "partial",
+   "note": "Thứ tự mở đường thở -> 5 hơi -> CPR khớp SJA. Mục chỉ tham chiếu mục khác cho ép tim và không nêu khuyến nghị đi khám sau cứu. Bài Lạng Sơn dùng tỉ lệ 15/2, 30/2 (cũ) nên mục không chép: đúng."
+  }
+ ],
+ "internal_checks": [
+  {
+   "issue": "steps[2] (\"Chỉ xuống khi biết bơi và biết chỗ đó nông hay sâu; không thì gọi người hoặc dùng thuyền\") không có cơ sở trong thân/nguồn (\"nông hay sâu\", \"thuyền\") và nới hơn tldr (\"không nhảy xuống nước\"), trái Red Cross/St John. Lỗi (c).",
+   "severity": "error"
+  },
+  {
+   "issue": "Phần Lợi ích: \"Nguồn này cho xuống cứu khi người cứu biết bơi.\" là suy ra từ câu cấm \"nếu không biết bơi\", không gắn nhãn suy ra.",
+   "severity": "warn"
+  },
+  {
+   "issue": "Ghi chú có lời biên tập về nguồn (\"hướng dẫn đã công bố của một bệnh viện công, đối chiếu với… Red Cross\", \"Không có thống kê Việt Nam nào đếm…\") hơi lộ quy trình; đọc được, không phải chữ cấm.",
+   "severity": "warn"
+  },
+  {
+   "issue": "Số cấp cứu: mục ghi 115 và 112; mục 49 cùng chương nêu 113 (Thông tư 42/2026/TT-BYT từ 01/11/2026). Chương chưa thống nhất.",
+   "severity": "warn"
+  },
+  {
+   "issue": "Số trong tldr/steps (115, 112, 5 hơi) có trong thân. Cả hai legal_refs trỏ đúng văn bản NĐ 200/2025/NĐ-CP; Điều 3 khoản 1, khoản 4 khớp. NĐ này hướng dẫn Luật Phòng thủ dân sự về thông tin sự cố/thảm họa: cơ sở gián tiếp cho \"gọi 112 khi tàu thuyền gặp nạn\", không phải cho cấp cứu y tế (115).",
+   "severity": "warn"
+  }
+ ],
+ "validity": {
+  "doc": "Nghị định 200/2025/NĐ-CP (quy định chi tiết Luật Phòng thủ dân sự); hướng dẫn: St John Ambulance, Red Cross Mỹ",
+  "in_force": "unconfirmed",
+  "effective_from": "2025-08-23",
+  "amended_by": [],
+  "basis": "Bản ký ghi hiệu lực từ 23/08/2025 và nêu NĐ 30/2017 hết hiệu lực; tìm web không thấy văn bản sửa đổi/thay thế nhưng không có bằng chứng dương (vbpl/Công báo) về tình trạng hiện hành, nên unconfirmed. Hướng dẫn cứu đuối nước: St John (trang hiện hành) và Red Cross (2026) nhất quán về \"reach or throw\"."
+ },
+ "deliberate_vn_deviation": [
+  "Bài Lạng Sơn (VN, 2020) dùng ép tim:thổi ngạt 15/2, 30/2 (cũ); mục cố ý không chép và theo SJA (5 hơi ban đầu).",
+  "Lạng Sơn chỉ cấm xuống nước khi không biết bơi; Red Cross khuyên không xuống kể cả người biết bơi. steps[2] đi theo bản VN và nới hơn Red Cross."
+ ],
+ "potential_harm": [
+  "steps[2] cho phép người \"biết bơi và biết chỗ đó nông hay sâu\" xuống nước cứu: Red Cross \"Don't go in! You could be in danger of drowning yourself\"; St John \"Do not put yourself in danger\". Người đọc tự đánh giá mình biết bơi/chỗ nông có thể nhảy xuống và chết đuối cùng nạn nhân; \"nông hay sâu\" và \"thuyền\" không có nguồn. Mức: trung bình-cao.",
+  "Mục không nói người được cứu lên, dù trông ổn, vẫn cần đi khám/quan sát ở cơ sở y tế (St John: \"may need to be observed for a short period in hospital\"). Người đọc có thể bỏ qua nạn nhân đã tỉnh. Mức: trung bình."
+ ],
+ "suggested_edits": [
+  "steps[2]: đổi thành \"Chỉ người được huấn luyện cứu hộ và có phao/thiết bị mới xuống nước. Người thường: chỉ đưa/ném vật nổi, hô người, gọi 115\" (Red Cross, SJA). Xóa \"biết chỗ đó nông hay sâu\" và \"dùng thuyền\" trừ khi có nguồn.",
+  "Thêm bước: người được cứu lên, dù tỉnh lại, vẫn phải đi khám (SJA: \"Medical advice should be sought, even if they appear well\").",
+  "Phần Lợi ích: gắn nhãn \"suy ra\" cho câu \"Nguồn này cho xuống cứu khi người cứu biết bơi\" hoặc xóa.",
+  "Phần Pháp luật: ghi rõ NĐ 200/2025 chỉ làm cơ sở cho số 112 (sự cố sông biển), không phải cấp cứu y tế (115)."
+ ]
+}

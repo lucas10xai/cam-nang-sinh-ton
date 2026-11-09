@@ -1,0 +1,102 @@
+id: co-nguy-co-phoi-nhiem-hiv-toi-co-so-y-te-trong
+checker: agent-R2d13c
+checked_at: 2026-11-09
+content_sha256: "fc4d336e099609ef63317bd687320a3c1b8307030b18db43594d1c4aec75a839"
+result: pass-with-edits
+claims:
+  - text: "PEP càng sớm càng tốt, tốt nhất trong 24 giờ, không muộn hơn 72 giờ"
+    source_url: https://soyte.laichau.gov.vn/upload/81345/20220106/5968_BYT_VE_HD_chan_doan_cham_soc_HIV_AIDS_c79a618abb.pdf
+    quote: "Việc điều trị sau phơi nhiễm cần đƣợc thực hiện càng sớm cáng tốt tốt nhất trong vòng 24 giờ và không muộn hơn 72 giờ sau phơi nhiễm."
+    verdict: match
+    note: "Văn bản QĐ 5968/QĐ-BYT ngày 31/12/2021, chương 2 mục II, bản PDF do Sở Y tế Lai Châu đăng (bản có chữ trích được; chữ 'cáng', 'tốt tốt' là lỗi của văn bản gốc, giữ nguyên). Trang bệnh viện Bệnh Nhiệt đới TW (mục Nguồn của mục) cũng ghi: 'càng sớm càng tốt, tốt nhất trong vòng 24 giờ và không muộn hơn 72 giờ sau khi phơi nhiễm HIV'. Khớp."
+  - text: "CDC 2025: liều nPEP đầu tiên càng sớm càng tốt, lý tưởng trong 24 giờ, không muộn quá 72 giờ; không trì hoãn vì chờ kết quả xét nghiệm"
+    source_url: https://www.cdc.gov/mmwr/volumes/74/rr/rr7401a1.htm
+    quote: "Health care professionals should ensure the first dose of nPEP is provided as soon as possible, and ideally within 24 hours, but no later than 72 hours after exposure. The initial nPEP dose should not be delayed due to pending results of any laboratory-based testing, and the recommended length of nPEP course is 28 days."
+    verdict: match
+    note: "MMWR RR 74(1), 8/5/2025, mở được qua công cụ đọc URL. Tóm tắt: nên có xét nghiệm HIV nhanh trước khi bắt đầu nPEP nhưng không chờ xét nghiệm phòng thí nghiệm để cho liều đầu."
+  - text: "Thời gian điều trị đủ 28 ngày liên tục"
+    source_url: https://soyte.laichau.gov.vn/upload/81345/20220106/5968_BYT_VE_HD_chan_doan_cham_soc_HIV_AIDS_c79a618abb.pdf
+    quote: "Thời gian điều trị dự phòng sau phơi nhiễm với HIV: đủ 28 ngày liên tục."
+    verdict: match
+    note: "CDC 2025 cũng: 'The recommended nPEP course is 28 days'."
+  - text: "Rửa vết thương dưới vòi nước sạch bằng xà phòng, không nặn bóp"
+    source_url: https://soyte.laichau.gov.vn/upload/81345/20220106/5968_BYT_VE_HD_chan_doan_cham_soc_HIV_AIDS_c79a618abb.pdf
+    quote: "Tổn thƣơng da chảy máu: Rửa ngay vết thƣơng dƣới vòi nƣớc sạch bằng xà phòng. Để vết thƣơng tự chảy máu trong một thời gian ngắn, không nặn bóp vết thƣơng."
+    verdict: match
+    note: "Có trong QĐ 5968 (Bước 1 mục 5). KHÔNG có trên trang benhnhietdoi.vn mà mục dẫn là 'Bệnh viện dẫn lại' — xem internal_checks."
+  - text: "Phơi nhiễm qua mắt: rửa NaCl 0,9% hoặc nước sạch liên tục 5 phút"
+    source_url: https://soyte.laichau.gov.vn/upload/81345/20220106/5968_BYT_VE_HD_chan_doan_cham_soc_HIV_AIDS_c79a618abb.pdf
+    quote: "Phơi nhiễm qua niêm mạc mắt: Rửa mắt bằng nƣớc cất hoặc nƣớc muối NaCl 0,9% liên tục trong 5 phút. Dùng vòi rửa mắt khẩn cấp (nếu có)."
+    verdict: partial
+    note: "Nguồn ghi 'nước cất hoặc nước muối NaCl 0,9%', mục viết 'NaCl 0,9% hoặc nước sạch' (thay nước cất bằng nước sạch). Thời lượng 5 phút khớp. Lệch nhỏ, không nguy hại (rửa mắt bằng nước sạch là thực hành thông thường) nhưng không phải nguyên văn. Nguồn cũng có hướng dẫn cho niêm mạc miệng/mũi mà mục không nêu."
+  - text: "Nếu không xác định được tình trạng HIV của người kia thì được coi là có nguy cơ"
+    source_url: https://soyte.laichau.gov.vn/upload/81345/20220106/5968_BYT_VE_HD_chan_doan_cham_soc_HIV_AIDS_c79a618abb.pdf
+    quote: "Trƣờng hợp không thể xác định đƣợc tình trạng nhiễm HIV của ngƣời gây phơi nhiễm đƣợc coi là có nguy cơ nhiễm HIV và ghi rõ trong biên bản."
+    verdict: match
+    note: "Câu này không có trên trang benhnhietdoi.vn; chỉ có trong QĐ 5968 Bước 4. CDC 2025: nguồn không rõ HIV thì 'A case-by-case determination is required' và 'HIV nPEP should not be delayed for the purpose of investigating the source's HIV status' — xem deliberate_vn_deviation."
+  - text: "Không chỉ định khi nguồn khẳng định HIV âm tính hoặc dịch không có nguy cơ (nước mắt, nước bọt, nước tiểu, mồ hôi)"
+    source_url: https://soyte.laichau.gov.vn/upload/81345/20220106/5968_BYT_VE_HD_chan_doan_cham_soc_HIV_AIDS_c79a618abb.pdf
+    quote: "Nguồn gây phơi nhiễm đƣợc khẳng định là HIV âm tính. - Phơi nhiễm với các dịch cơ thể không có nguy cơ lây nhiễm nhƣ nƣớc mắt, dịch nƣớc bọt, nƣớc tiểu và mồ hôi."
+    verdict: match
+    note: "QĐ 5968 còn một trường hợp không chỉ định: 'Có phơi nhiễm liên tục với HIV nhƣ quan hệ tình dục thƣờng xuyên với ngƣời nhiễm HIV ... ngƣời nghiện chích ma tuý thƣờng xuyên sử dụng chung bơm kim tiêm' và người đã nhiễm HIV. Mục không nêu hai trường hợp này (đoạn 'Đừng hiểu ngược' chỉ nói chung). Thiếu điều kiện nhỏ."
+  - text: "Tác dụng phụ nhẹ, thoáng qua thì không ngừng; tác dụng phụ nặng thì chuyển đến cơ sở y tế ngay"
+    source_url: https://soyte.laichau.gov.vn/upload/81345/20220106/5968_BYT_VE_HD_chan_doan_cham_soc_HIV_AIDS_c79a618abb.pdf
+    quote: "Theo dõi tác dụng phụ của ARV: Không ngừng điều trị khi có tác dụng phụ nhẹ và thoáng qua. Nếu có các tác dụng phụ nặng, chuyển đến cơ sở y tế ngay."
+    verdict: match
+    note: "Câu này không có trên trang benhnhietdoi.vn (trang chỉ ghi 'không ngừng thuốc khi tác dụng phụ nhẹ')."
+  - text: "Bẫy 2: 'phát ban nặng, vàng da hoặc nôn nhiều thì phải quay lại cơ sở y tế chứ không cố uống tiếp hay tự bỏ'"
+    source_url: https://soyte.laichau.gov.vn/upload/81345/20220106/5968_BYT_VE_HD_chan_doan_cham_soc_HIV_AIDS_c79a618abb.pdf
+    quote: ""
+    verdict: inference
+    note: "QĐ 5968 chỉ nói 'tác dụng phụ nặng, chuyển đến cơ sở y tế ngay'; ba ví dụ (phát ban nặng, vàng da, nôn nhiều) không có trong nguồn. Ví dụ hợp lý và hướng an toàn (quay lại cơ sở y tế), nhưng không gắn nhãn 'suy ra'."
+  - text: "Xét nghiệm lại HIV sau 1 tháng và 3 tháng kể từ lúc phơi nhiễm"
+    source_url: https://soyte.laichau.gov.vn/upload/81345/20220106/5968_BYT_VE_HD_chan_doan_cham_soc_HIV_AIDS_c79a618abb.pdf
+    quote: "Xét nghiệm lại HIV sau 01 tháng và 03 tháng kể từ khi phơi nhiễm."
+    verdict: match
+    note: "CDC 2025: 'clinical follow-up 4–6 weeks and 12 weeks after exposure for laboratory testing' (Summary). Mục ghi 'lệch nhẹ, làm theo lịch bác sĩ' — trung thực."
+  - text: "QĐ 5968 nêu 'có thể xét nghiệm anti-HCV và HBsAg'"
+    source_url: https://soyte.laichau.gov.vn/upload/81345/20220106/5968_BYT_VE_HD_chan_doan_cham_soc_HIV_AIDS_c79a618abb.pdf
+    quote: "Tƣ vấn và hỗ trợ tâm lý, xét nghiệm HIV ngay theo quy định. Có thể xét nghiệm anti- HCV và HBsAg."
+    verdict: match
+    note: ""
+  - text: "Chỉ định khi nguồn HIV dương tính hoặc không rõ, phơi nhiễm có nguy cơ cao, trong vòng 72 giờ"
+    source_url: https://www.benhnhietdoi.vn/loai-benh/huong-dan-dieu-tri-du-phong-nhiem-hiv-prep-pep/
+    quote: "Chỉ định PEP khi: Có phơi nhiễm với nguồn HIV dương tính hoặc không rõ tình trạng HIV. Phơi nhiễm có nguy cơ cao và xảy ra trong vòng ≤72 giờ."
+    verdict: match
+    note: "Trang Bệnh viện Bệnh Nhiệt đới TW (bệnh viện tuyến cuối, cơ sở Bộ Y tế), mục 3.3, tóm tắt QĐ 5968. QĐ gốc dùng sơ đồ 4 (hình, không trích được chữ)."
+  - text: "Chọn phác đồ người lớn/trẻ em khác nhau do bác sĩ quyết định"
+    source_url: https://soyte.laichau.gov.vn/upload/81345/20220106/5968_BYT_VE_HD_chan_doan_cham_soc_HIV_AIDS_c79a618abb.pdf
+    quote: "Người trên 10 tuổi Ưu tiên: TDF + 3TC (hoặc FTC) + DTG ... Trẻ em ≤ 10 tuổi Ưu tiên: AZT + 3TC + DTG hoặc ABC + 3TC + DTG hoặc TDF + 3TC + DTG"
+    verdict: match
+    note: "Bảng 3: phác đồ khác nhau theo tuổi. 'Do bác sĩ quyết định' là cách nói của mục, hợp lý."
+  - text: "'Không có thử nghiệm nào đo được tới sớm hơn 48 giờ thì giảm thêm bao nhiêu phần trăm' (Ghi chú)"
+    source_url: https://www.cdc.gov/mmwr/volumes/74/rr/rr7401a1.htm
+    quote: "No randomized, placebo-controlled clinical trial of nPEP efficacy has been performed."
+    verdict: match
+    note: "CDC 2025 cũng ghi mốc 72 giờ dựa trên nghiên cứu khỉ (không người). Nhận định của mục phù hợp (tóm tắt Việt: chưa có thử nghiệm đối chứng ngẫu nhiên về hiệu quả nPEP)."
+internal_checks:
+  - issue: "Phần 'Lợi ích' viết 'Nội dung dự phòng sau phơi nhiễm được Bệnh viện Bệnh Nhiệt đới Trung ương dẫn lại như sau' rồi liệt kê cả: câu 'được coi là có nguy cơ nhiễm HIV', tác dụng phụ nặng thì chuyển cơ sở y tế, rửa vết thương/xà phòng/NaCl 0,9%/5 phút. Mở trang benhnhietdoi.vn không thấy các câu này (chỉ thấy 24 giờ/72 giờ/28 ngày, chỉ định, chống chỉ định, 'không ngừng thuốc khi tác dụng phụ nhẹ', 1 tháng và 3 tháng). Các câu đó có thật trong QĐ 5968 gốc nên nội dung đúng, nhưng gán nguồn sai: đã đối chiếu QĐ 5968 bản Sở Y tế Lai Châu."
+    severity: warn
+  - issue: "Mục Nguồn dẫn bản luatvietnam.vn (bản sao thứ cấp, đã không mở được khi kiểm: trả khung 794 ký tự) và không dẫn văn bản QĐ 5968 chính thống nào. Nguồn chính để người đọc kiểm lại thiếu."
+    severity: warn
+  - issue: "Mọi con số trong tldr/steps (24 giờ, 72 giờ, 28 ngày, 5 phút, 0,9%, 1 tháng và 3 tháng) có trong thân và khớp nguồn; không mâu thuẫn nội bộ. Số 5 phút (mắt) chỉ ở steps và 'Nói dễ hiểu', có trong QĐ 5968 nhưng không có trong 'Lợi ích' (chỉ ghi chung 'rửa mắt bằng NaCl 0,9% hoặc nước sạch' mà không có 5 phút)."
+    severity: warn
+  - issue: "Không có chữ nội bộ rò rỉ (báo cáo kiểm chứng, bản nháp, [INFERENCE], Còn treo, sổ kiểm chứng) trong thân."
+    severity: warn
+validity:
+  doc: "Quyết định 5968/QĐ-BYT ngày 31/12/2021 của Bộ Y tế (Hướng dẫn điều trị và chăm sóc HIV/AIDS), chương 2 mục II (PEP); và CDC MMWR RR 74(1) 2025"
+  in_force: unconfirmed
+  effective_from: "2021-12-31"
+  amended_by: []
+  basis: "QĐ 5968 ghi hiệu lực từ ngày ký, thay QĐ 5456/QĐ-BYT. Trang benhnhietdoi.vn ngày 08/06/2026 vẫn dẫn QĐ 5968 làm tài liệu tham khảo. Tìm kiếm 2026-11-09 thấy QĐ 2956/QĐ-BYT 2026 (tiêu chuẩn chất lượng lâm sàng HIV/AIDS) và một dự thảo hướng dẫn 2026; không mở được để biết có thay chương PEP hay không; chưa thấy văn bản thay thế QĐ 5968. Không đủ bằng chứng khẳng định còn hiệu lực. Hướng dẫn quốc tế (CDC 2025) là bản mới."
+deliberate_vn_deviation:
+  - "Nguồn HIV không rõ: QĐ 5968 coi là có nguy cơ (mục theo VN), CDC 2025 ghi 'case-by-case determination' (nhưng cũng dặn không trì hoãn nPEP để tìm hiểu nguồn). Lệch nhẹ, hướng an toàn (khuyến khích đi sớm); mục dẫn đúng bản VN."
+  - "Lịch xét nghiệm: VN 1 và 3 tháng, CDC 4-6 tuần và 12 tuần; mục đã nêu lệch này."
+  - "QĐ 5968 và trang BV chỉ ra phác đồ ưu tiên TDF+3TC+DTG; CDC 2025 ưu tiên BIC/FTC/TAF hoặc DTG+(TAF/TDF)+(FTC/3TC). Mục không nêu tên thuốc nên không lệch."
+potential_harm: []
+suggested_edits:
+  - "Mục 'Lợi ích', câu dẫn 'Nội dung dự phòng sau phơi nhiễm được Bệnh viện Bệnh Nhiệt đới Trung ương dẫn lại như sau': đổi thành 'Quyết định 5968/QĐ-BYT quy định (một phần được Bệnh viện Bệnh Nhiệt đới Trung ương tóm tắt lại)' và thêm vào Nguồn bản QĐ 5968 có thể mở được, ví dụ https://soyte.laichau.gov.vn/upload/81345/20220106/5968_BYT_VE_HD_chan_doan_cham_soc_HIV_AIDS_c79a618abb.pdf (Chương 2, mục II.5 Bước 1-7, mục II.6), thay vì luatvietnam.vn."
+  - "Rửa mắt: sửa 'NaCl 0,9% hoặc nước sạch' thành 'nước cất hoặc nước muối NaCl 0,9%' đúng nguyên văn QĐ 5968; nếu muốn giữ 'nước sạch' thì ghi 'nếu không có, nước sạch vẫn tốt hơn không rửa' kèm nhãn 'suy ra'."
+  - "Bẫy 2: gắn nhãn 'suy ra' cho ba ví dụ 'phát ban nặng, vàng da, nôn nhiều' hoặc bỏ ví dụ, để khớp nguyên văn 'tác dụng phụ nặng'."
+  - "Thêm một câu: QĐ 5968 không chỉ định PEP khi phơi nhiễm liên tục (quan hệ không bao cao su thường xuyên, dùng chung bơm kim thường xuyên) mà chuyển sang PrEP; đoạn 'Đừng hiểu ngược' có thể trích đúng câu này."
+  - "Kiểm tra lại QĐ 5968 còn hiệu lực chưa (ví dụ trên cổng văn bản của Bộ Y tế) rồi ghi vào ô hiệu lực; hiện chỉ ghi 'unconfirmed'."

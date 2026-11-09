@@ -1,0 +1,90 @@
+id: dau-dau-du-doi-nhat-doi-len-toi-dinh-trong-vong-mot
+checker: agent-R2d13a
+checked_at: 2026-11-08
+content_sha256: "3c2fb66227e9f393ada377603bf32e6ae76eb53ef2832aaf0ff618615475cc76"
+result: pass-with-edits
+claims:
+  - text: "QĐ 3312/QĐ-BYT 2024, chương Phình động mạch não vỡ, mục 3.1: 10% số người bệnh tử vong mà không kịp cấp cứu"
+    source_url: https://bvcdn.org.vn/wp-content/uploads/2024/12/QD-3312.pdf
+    quote: "Bệnh cảnh lâm sàng chảy máu dưới nhện: - 10% số người bệnh tử vong mà không kịp cấp cứu"
+    verdict: match
+    note: "PDF 148 trang, có khối ký số 'Ký bởi: BỘ Y TẾ, Ngày ký: 05-11-2024'; trích bằng pdftotext."
+  - text: "Mục 3.1: đau đầu dữ dội như 'đau đầu sét đánh', như muốn vỡ tung đầu, lan xuống vùng gáy chẩm; nôn thường gặp; cứng gáy là dấu hiệu thường gặp"
+    source_url: https://bvcdn.org.vn/wp-content/uploads/2024/12/QD-3312.pdf
+    quote: "Đau đầu dữ dội, cảm giác như “đau đầu sét đánh”, đau như muốn \"vỡ tung đầu\", đau lan xuống vùng gáy chẩm. - Nôn: là triệu chứng thường gặp ... Khám: có các dấu hiệu màng não trong đó dấu hiệu cứng gáy là dấu hiệu thường gặp có giá trị chẩn đoán cao."
+    verdict: match
+    note: ""
+  - text: "Mục 3.3: CT sọ không thuốc cản quang hoặc cộng hưởng từ cho thấy máu trong khoang dưới nhện"
+    source_url: https://bvcdn.org.vn/wp-content/uploads/2024/12/QD-3312.pdf
+    quote: "Cắt lớp vi tính sọ não không tiêm thuốc cản quang hoặc cộng hưởng từ não mạch não: có hình ảnh của máu trong khoang dưới nhện"
+    verdict: match
+    note: "Mục 3.3 Chẩn đoán xác định. Mục 3.2 cũng nêu CT phát hiện '99% ở ngày đầu, 85% ... trong 5 ngày đầu' (mục không dùng số này)."
+  - text: "Mục 3.2: chọc dịch não tủy là tiêu chuẩn vàng khi lâm sàng nghi chảy máu dưới nhện mà CT hoặc cộng hưởng từ không phát hiện"
+    source_url: https://bvcdn.org.vn/wp-content/uploads/2024/12/QD-3312.pdf
+    quote: "Chọc dịch não tủy: có máu hoặc các thành phần thoái biến từ hemoglobin (xanthochromia) là tiêu chuẩn vàng chẩn đoán chảy máu dưới nhện khi lâm sàng nghi ngờ chảy máu dưới nhện mà cắt lớp vi tính hoặc cộng hưởng từ không phát hiện ra"
+    verdict: match
+    note: "Xem deliberate_vn_deviation: NICE NG228 hạn chế chọc dịch não tủy khi CT trong 6 giờ bình thường."
+  - text: "Mục 4.1 (chương Nhồi máu não cấp): khi phát hiện đột quỵ cấp cần nhanh chóng vận chuyển tới cơ sở có khả năng điều trị đột quỵ não"
+    source_url: https://bvcdn.org.vn/wp-content/uploads/2024/12/QD-3312.pdf
+    quote: "Khi phát hiện người bệnh đột quỵ cấp, cần nhanh chóng vận chuyển người bệnh an toàn đến cơ sở y tế có khả năng điều trị đột quỵ não với mục tiêu là giảm thiểu tối đa nguy cơ khuyết tật và tử vong cho người bệnh."
+    verdict: match
+    note: "Mục này nằm ở chương Nhồi máu não cấp (mục không giấu điều đó). Áp dụng cho chảy máu dưới nhện là mở rộng hợp lý (cùng nhóm đột quỵ não) nhưng chữ gốc nói 'đột quỵ cấp' chung."
+  - text: "NICE NG228 (2022): đau đầu 'sét đánh' là đau đầu dữ dội đột ngột, thường đạt đỉnh trong 1 đến 5 phút, là dấu hiệu báo động của chảy máu dưới nhện"
+    source_url: https://www.nice.org.uk/guidance/ng228/chapter/Recommendations
+    quote: "A 'thunderclap' headache (a sudden severe headache, typically peaking in intensity within 1 to 5 minutes) is a red-flag symptom of subarachnoid haemorrhage."
+    verdict: match
+    note: "Khuyến cáo 1.1.3; công bố 23/11/2022."
+  - text: "NICE: độ chính xác của CT sọ cao nhất trong 6 giờ đầu kể từ khi khởi phát, nên giờ bắt đầu đau là thông tin quan trọng"
+    source_url: https://www.nice.org.uk/guidance/ng228/chapter/Recommendations
+    quote: "Be aware that the diagnostic accuracy of CT head scans is highest within 6 hours of symptom onset."
+    verdict: match
+    note: "Khuyến cáo 1.1.7. Vế 'nên giờ bắt đầu đau là thông tin quan trọng' là suy ra hợp lý; khuyến cáo 1.1.2 cũng yêu cầu hỏi 'rate of onset and time to peak intensity'."
+  - text: "NICE: phần lớn người đau đầu sét đánh không bị chảy máu dưới nhện, nhưng điều đó không nên ngăn việc kiểm tra tiếp khi còn nghi ngờ"
+    source_url: https://www.nice.org.uk/guidance/ng228/chapter/Recommendations
+    quote: "Most people with a thunderclap headache do not have a subarachnoid haemorrhage, but this should not deter further investigation if subarachnoid haemorrhage is suspected."
+    verdict: match
+    note: "Khuyến cáo 1.1.3."
+  - text: "ICHD-3: đau đầu sét đánh nguyên phát đạt cường độ tối đa trong dưới 1 phút"
+    source_url: https://ichd-3.org/other-primary-headache-disorders/4-4-primary-thunderclap-headache/
+    quote: "Abrupt onset, reaching maximum intensity in <1 minute"
+    verdict: match
+    note: "Tiêu chí 4.4 (đau đầu sét đánh nguyên phát). Ghi chú của ICHD: đây là chẩn đoán loại trừ, cần loại SAH trước ('it is mandatory to exclude this')."
+  - text: "Gọi cấp cứu 115 để được tư vấn, cấp cứu và vận chuyển nạn nhân đến bệnh viện hoặc cơ sở y tế gần nhất (QĐ 636/QĐ-BYT 2025, Phần I mục 4.2)"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: "Gọi cấp cứu 115 để được tư vấn, cấp cứu và vận chuyển nạn nhân đến bệnh viện hoặc cơ sở y tế gần nhất."
+    verdict: match
+    note: "PDF quét OCR nhiễu, chữ đã chuẩn hóa dấu. Tài liệu sơ cứu tại nơi làm việc, dùng làm cơ sở chung cho việc gọi 115."
+  - text: "Step 3: nếu chụp bình thường mà bác sĩ vẫn nghi, chấp nhận chọc dịch não tủy; Bẫy 3: chụp bình thường rồi yên tâm là sai"
+    source_url: https://www.nice.org.uk/guidance/ng228/chapter/Recommendations
+    quote: "If a CT head scan done within 6 hours of symptom onset and reported and documented by a radiologist shows no evidence of a subarachnoid haemorrhage: do not routinely offer a lumbar puncture; think about alternative diagnoses and discuss with a senior clinical decision-maker; seek advice from a specialist. ... If a CT head scan done more than 6 hours after symptom onset shows no evidence of a subarachnoid haemorrhage, consider a lumbar puncture. ... Allow at least 12 hours after symptom onset before doing a lumbar puncture"
+    verdict: partial
+    note: "QĐ 3312 mục 3.2 ủng hộ chọc dịch não tủy khi CT không thấy mà vẫn nghi. NICE (nguồn mục tự dẫn) chặt hơn: CT trong 6 giờ, được bác sĩ chẩn đoán hình ảnh đọc bình thường thì KHÔNG chọc thường quy; chỉ cân nhắc sau 6 giờ và chờ tối thiểu 12 giờ từ khi khởi phát. Câu của mục có điều kiện 'bác sĩ vẫn nghi' nên không sai, nhưng Bẫy 3 ('chụp ra bình thường rồi yên tâm') bỏ qua rằng CT sớm bình thường là kết quả đáng tin theo NICE. Nên nêu khác biệt (xem deliberate_vn_deviation, suggested_edits)."
+  - text: "Ghi chú: Quyết định 3312 chỉ ghi cơn đau xuất hiện đột ngột, không ghi số phút"
+    source_url: https://bvcdn.org.vn/wp-content/uploads/2024/12/QD-3312.pdf
+    quote: ""
+    verdict: not-found
+    note: "Mục 3.1 chương Phình động mạch não vỡ không có chữ 'đột ngột' (tìm trong cả chương 'Hướng dẫn chẩn đoán và điều trị phình động mạch não vỡ'); chỉ có 'đau đầu sét đánh', 'muốn vỡ tung đầu'. Đúng là QĐ không ghi số phút. Phần 'chỉ ghi ... đột ngột' sai chữ nhưng không đổi kết luận."
+internal_checks:
+  - issue: "Ghi chú nói 'Quyết định 3312 chỉ ghi cơn đau xuất hiện đột ngột' nhưng văn bản mục 3.1 không có chữ 'đột ngột' (xem claim not-found)."
+    severity: warn
+  - issue: "Bẫy 3 gộp hai tình huống: (1) cơ sở không có máy CT nên hẹn hôm sau (đúng là bẫy), (2) CT bình thường rồi yên tâm. Với (2), NICE nói CT trong 6 giờ bình thường được bác sĩ hình ảnh đọc là kết quả đáng tin; mục dẫn NICE ở nơi khác nhưng không nêu khác biệt này."
+    severity: warn
+  - issue: "legal_refs: 3 mục cùng một url bvcdn.org.vn/.../QD-3312.pdf, đúng văn bản ghi ở doc (Quyết định 3312/QĐ-BYT ngày 05/11/2024); article (mục 3.1, 3.2/3.3, 4.1) khớp khẳng định tương ứng. legal_refs thứ 4 là QĐ 636 đúng url."
+    severity: warn
+  - issue: "Mọi số trong tldr/steps: tldr không có số; steps không có số; 10%, 1-5 phút, 6 giờ có trong thân. Không mâu thuẫn số liệu; ICHD <1 phút vs NICE 1-5 phút đã được mục giải thích đúng."
+    severity: warn
+  - issue: "Không có chữ nội bộ lọt vào (đã tìm các cụm theo yêu cầu). 'Mức bằng chứng B' là chú thích cho người đọc."
+    severity: warn
+validity:
+  doc: "Quyết định 3312/QĐ-BYT ngày 05/11/2024 (Bộ Y tế); NICE NG228 (23/11/2022); ICHD-3; QĐ 636/QĐ-BYT ngày 21/02/2025"
+  in_force: unconfirmed
+  effective_from: "2024-11-05"
+  amended_by: []
+  basis: "PDF 3312 có chữ ký số Bộ Y tế ngày 05-11-2024 (mở được, trích chữ). Tìm web không thấy văn bản sửa/thay thế nhưng không có nguồn chính thức xác nhận hiệu lực; không tự kết luận. NICE NG228 công bố 2022, trang không ghi cập nhật mới hơn trong phần đọc được."
+deliberate_vn_deviation:
+  - "Bộ Y tế (QĐ 3312 mục 3.2) coi chọc dịch não tủy là tiêu chuẩn vàng khi CT/MRI không thấy mà vẫn nghi chảy máu dưới nhện, không nêu mốc 6 giờ/12 giờ. NICE NG228 1.1.11-1.1.13: CT trong 6 giờ được đọc bình thường thì không chọc thường quy; chỉ cân nhắc chọc khi CT sau 6 giờ và sau tối thiểu 12 giờ từ khi khởi phát. Mục theo QĐ 3312 (có điều kiện 'bác sĩ vẫn nghi') nhưng chưa nêu sự khác biệt."
+potential_harm: []
+suggested_edits:
+  - "Ghi chú, 'Mốc thời gian': đổi 'Quyết định 3312 chỉ ghi cơn đau xuất hiện đột ngột, không ghi số phút' thành 'Quyết định 3312 mô tả đau đầu sét đánh, đau như muốn vỡ tung đầu và không ghi số phút' (quote: 'Đau đầu dữ dội, cảm giác như “đau đầu sét đánh”, đau như muốn \"vỡ tung đầu\"')."
+  - "Bẫy 3 và step 3: thêm một câu: 'NICE: nếu CT làm trong 6 giờ kể từ khi đau và bác sĩ chẩn đoán hình ảnh đọc bình thường thì không chọc dịch não tủy thường quy; chọc dịch não tủy được cân nhắc khi CT làm muộn hơn 6 giờ. Quyết định 3312 không nêu mốc này.' (dựa trên quote NICE 1.1.11-1.1.13). Giữ ý 'bác sĩ vẫn nghi thì nghe theo bác sĩ'."
+  - "Mục Lợi ích/Pháp luật: ghi rõ mục 4.1 là của chương Nhồi máu não cấp và việc dùng cho chảy máu dưới nhện là suy ra từ cùng nhóm đột quỵ (gắn nhãn 'suy ra'), hoặc bỏ dòng đó khỏi mục 'chuyển tới cơ sở có máy CT' vì step 1 đã đủ."

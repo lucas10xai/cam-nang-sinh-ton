@@ -1,0 +1,116 @@
+{
+ "id": "chay-nha-bo-sat-mat-dat-so-mu-ban-tay-len-cua",
+ "checker": "agent-R2d13b",
+ "checked_at": "2026-11-08",
+ "content_sha256": "d447d3659367927870ba3f22e8289af6f95d06285877da0d080f55568cf1aa48",
+ "result": "pass-with-edits",
+ "claims": [
+  {
+   "text": "Người phát hiện cháy phải báo ngay cho lực lượng PCCC và CNCH, cơ quan Công an hoặc UBND cấp xã nơi gần nhất (Điều 6 khoản 1)",
+   "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/58-vbhn-vpqh.pdf",
+   "quote": "1. Người phát hiện cháy, tình huống cứu nạn, cứu hộ thì báo ngay cho lực lượng phòng cháy, chữa cháy và cứu nạn, cứu hộ, cơ quan Công an hoặc Ủy ban nhân dân cấp xã nơi gần nhất.",
+   "verdict": "match",
+   "note": "PDF là ảnh quét (không có lớp chữ); đã OCR bằng macOS Vision (vi-VN) và đối chiếu từng chữ của câu trích; câu trích đọc rõ (OCR có sai dấu ở đoạn khác). Trang 5 của bản hợp nhất."
+  },
+  {
+   "text": "Số điện thoại báo cháy thống nhất cả nước là 114 (Điều 6 khoản 2)",
+   "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/58-vbhn-vpqh.pdf",
+   "quote": "Số điện thoại báo cháy, báo tình huống cứu nạn, cứu hộ được quy định thống nhất trong cả nước là 114.",
+   "verdict": "match",
+   "note": "PDF là ảnh quét (không có lớp chữ); đã OCR bằng macOS Vision (vi-VN) và đối chiếu từng chữ của câu trích; câu trích đọc rõ (OCR có sai dấu ở đoạn khác). Nằm ở đoạn thứ hai của khoản 2 Điều 6."
+  },
+  {
+   "text": "Nhà ở phải bố trí, duy trì lối thoát nạn, lối ra khẩn cấp hoặc lối đi bảo đảm việc thoát nạn (Điều 20 khoản 2 điểm b)",
+   "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/58-vbhn-vpqh.pdf",
+   "quote": "2. Nhà ở không thuộc loại hình quy định tại khoản 3 và khoản 4 Điều này phải bảo đảm các điều kiện về chữa cháy, thoát nạn sau đây: ... b) Bố trí, duy trì lối thoát nạn, lối ra khẩn cấp hoặc lối đi bảo đảm việc thoát nạn.",
+   "verdict": "match",
+   "note": "PDF là ảnh quét (không có lớp chữ); đã OCR bằng macOS Vision (vi-VN) và đối chiếu từng chữ của câu trích; câu trích đọc rõ (OCR có sai dấu ở đoạn khác)."
+  },
+  {
+   "text": "Cục PCCC&CNCH: thấp người (cúi khom hoặc bò), men theo tường; kiểm tra nhiệt độ cửa; mở thì tránh mặt sang một bên; cửa quá nóng tuyệt đối không mở, tìm lối khác",
+   "source_url": "https://baochinhphu.vn/huong-dan-thoat-nan-khi-co-chay-o-chung-cu-nha-cao-tang-102230914172510484.htm",
+   "quote": "Khi di chuyển cần thấp người (như cúi khom hoặc bò) và men theo tường. Khi mở cửa cần mở cửa cần kiểm tra nhiệt độ của cửa; khi mở cần tránh mặt, tránh người sang một bên đề phòng lửa tạt. Nếu nhiệt độ cửa quá cao, tuyệt đối không được mở cửa và tìm ngay lối thoát khác.",
+   "verdict": "match",
+   "note": "Cùng bài: tìm lối thoát nạn theo đèn \"EXIT\" hoặc thông báo qua loa; dùng chăn, áo, khăn ướt che miệng mũi khi băng qua khói. Do Cục PCCC&CNCH, Bộ Công an hướng dẫn trả lời Báo Chính phủ."
+  },
+  {
+   "text": "Không có lối thoát khác: ra ban công, cửa sổ, hô to, ra hiệu bằng đồ sáng màu, gọi 114; tuyệt đối không nhảy từ tầng quá cao khi chưa có hướng dẫn của lực lượng cứu nạn",
+   "source_url": "https://baochinhphu.vn/huong-dan-thoat-nan-khi-co-chay-o-chung-cu-nha-cao-tang-102230914172510484.htm",
+   "quote": "Nếu không có lối thoát khác hoặc không thể ra cửa, hay nhanh chóng di chuyển ra ban công, cửa sổ và hô tô, ra hiệu bằng dùng đồ vật sáng màu. Gọi điện thoại báo cho Cảnh sát PCCC&CNCH số 114 hoặc báo cho người thân. ... Tuyệt đối không nhảy từ tầng quá cao xuống đất nếu không có sự hướng dẫn của lực lượng CNCH.",
+   "verdict": "match",
+   "note": "Cùng bài còn nêu \"Có thể dùng thang, dây, rèm, ga nối lại để xuống đất\" (mục không nêu; bỏ là an toàn)."
+  },
+  {
+   "text": "Khi phát hiện cháy hô hoán, báo động cho mọi người và báo 114",
+   "source_url": "https://baochinhphu.vn/huong-dan-thoat-nan-khi-co-chay-o-chung-cu-nha-cao-tang-102230914172510484.htm",
+   "quote": "Khi phát hiện cháy nhanh chóng hô hoán, báo động cho mọi người xung quanh biết (kẻng, còi, chuông báo cháy); đồng thời báo ngay cho lực lượng PCCC cơ sở và lực lượng Cảnh sát PCCC&CNCH qua số 114.",
+   "verdict": "match"
+  },
+  {
+   "text": "Dùng mu bàn tay kiểm tra độ nóng của cửa; không bao giờ quay lại ngôi nhà đang cháy sau khi đã thoát ra",
+   "source_url": "https://congan.hatinh.gov.vn/tdpl/he-thong-van-ban-phap-luat/nhung-ky-nang-vang-de-thoat-hiem-khi-chay-nha_1684048203.caht",
+   "quote": "Dạy trẻ không bao giờ được quay lại bên trong một ngôi nhà đang cháy một khi chúng đã thoát nạn được ra ngoài. ... Chỉ cho trẻ cách dùng mu bàn tay để kiểm tra độ nóng của cửa trước khi mở và sử dụng một lối thoát nạn khác nếu cửa bị nóng.",
+   "verdict": "match",
+   "note": "Công an Hà Tĩnh (14/05/2023) dẫn khuyến cáo của Cục, ở phần dạy trẻ. \"Mu bàn tay\" chỉ có ở nguồn này, không có trong bài Báo Chính phủ."
+  },
+  {
+   "text": "Khi thoát qua khói: cúi thấp, che mũi miệng bằng khăn/vải; không chen lấn, không dùng thang máy, không quay lại lấy tài sản",
+   "source_url": "https://congan.khanhhoa.gov.vn/vi/cong-an-tinh-khanh-hoa-khuyen-cao-an-toan-phong-chay-chua-chay-va-cuu-nan-cuu-ho-dip-le-quoc-khanh",
+   "quote": "Khi thoát qua khu vực có khói, cần cúi thấp người, dùng khăn hoặc vải che mũi, miệng; không chen lấn, không sử dụng thang máy và không quay lại khu vực cháy để lấy tài sản.",
+   "verdict": "match"
+  },
+  {
+   "text": "\"Đi thang bộ\" (title, steps[3]) là suy ra từ \"không dùng thang máy\" + lối thoát nạn/đèn EXIT",
+   "source_url": "https://baochinhphu.vn/huong-dan-thoat-nan-khi-co-chay-o-chung-cu-nha-cao-tang-102230914172510484.htm",
+   "quote": "tìm lối thoát nạn sẵn có theo đèn chỉ dẫn thoát nạn \"EXIT\" hoặc nghe thông báo chỉ dẫn qua loa chỉ dẫn",
+   "verdict": "inference",
+   "note": "Ghi chú của mục tự nhận là suy ra: nhãn trung thực. Nhưng title/tldr/steps dùng \"thang bộ\" như chữ của nguồn; nguồn không viết \"đi thang bộ\" (và không nói làm gì khi thang bộ đầy khói)."
+  },
+  {
+   "text": "Lý do không dùng thang máy (mất điện thì thang thành buồng kín) và cầu thang đầy khói khi quay lại: \"suy ra\"",
+   "source_url": "https://congan.khanhhoa.gov.vn/vi/cong-an-tinh-khanh-hoa-khuyen-cao-an-toan-phong-chay-chua-chay-va-cuu-nan-cuu-ho-dip-le-quoc-khanh",
+   "quote": "không sử dụng thang máy",
+   "verdict": "inference",
+   "note": "Mục gắn nhãn suy ra và nói nguồn chỉ nói \"không dùng\": nhãn trung thực."
+  }
+ ],
+ "internal_checks": [
+  {
+   "issue": "Còn câu ghi chú nội bộ lọt vào thân (Ghi chú): \"Các nguồn không nêu việc đóng cửa, chặn khe khi bị kẹt, hay việc làm khi cầu thang đầy khói. Cần nguồn cho các hướng dẫn đó.\" (\"Cần nguồn cho…\" là ngôn ngữ biên tập, không dành cho người đọc).",
+   "severity": "error"
+  },
+  {
+   "issue": "Ghi chú \"Cách ghi số báo động toàn chương: … mục 49 cùng chương nêu thêm tổng đài 113 tích hợp từ 01/11/2026\" là ghi chú biên tập nội bộ; chương chưa thống nhất (24: 114; 25: 115/112; 49: 113 hoặc 115).",
+   "severity": "warn"
+  },
+  {
+   "issue": "Số 114 có trong thân/Pháp luật. Điều 6 khoản 1, khoản 2 và Điều 20 khoản 2 điểm b khớp từng khẳng định; legal_refs[].url trỏ đúng văn bản (bản hợp nhất 58/VBHN-VPQH của Luật 55/2024/QH15). Không lỗi (d), (e).",
+   "severity": "warn"
+  },
+  {
+   "issue": "steps[0] \"(hoặc ngay khi thoát được, nếu chưa có cơ hội)\" là chữ của biên tập, không có trong nguồn; hợp lý, không gây hại.",
+   "severity": "warn"
+  },
+  {
+   "issue": "Điều 20 khoản 2 là nghĩa vụ của chủ nhà ở, dùng làm cơ sở cho hành động thoát nạn của người đọc: liên quan gián tiếp, phần Pháp luật tả đúng điều kiện.",
+   "severity": "warn"
+  }
+ ],
+ "validity": {
+  "doc": "Luật Phòng cháy, chữa cháy và cứu nạn, cứu hộ số 55/2024/QH15 (bản hợp nhất 58/VBHN-VPQH)",
+  "in_force": true,
+  "effective_from": "2025-07-01",
+  "amended_by": [
+   "Luật 118/2025/QH15 (hiệu lực 01/07/2026)",
+   "Luật Xây dựng 135/2025/QH15 (hiệu lực 01/07/2026)"
+  ],
+  "basis": "Trang đầu bản hợp nhất ghi Luật 55/2024/QH15 \"có hiệu lực kể từ ngày 01 tháng 7 năm 2025, được sửa đổi, bổ sung bởi\" Luật 118/2025/QH15 và Luật 135/2025/QH15 (cùng hiệu lực 01/07/2026, trước ngày kiểm); câu trích nằm trong chính bản hợp nhất đã gộp các sửa đổi. Hướng dẫn thoát nạn không có hiệu lực pháp lý riêng."
+ },
+ "deliberate_vn_deviation": [],
+ "potential_harm": [],
+ "suggested_edits": [
+  "Xóa câu \"Cần nguồn cho các hướng dẫn đó.\" ở Ghi chú (hoặc viết lại cho người đọc, ví dụ \"Các hướng dẫn trên không nêu cách xử trí khi cầu thang đầy khói hoặc bị kẹt trong phòng\").",
+  "Viết lại ghi chú về mục 49 thành \"Số báo cháy: 114. Số cấp cứu y tế xem mục 49\".",
+  "title/tldr/steps[3]: \"đi cầu thang bộ\" đang như chữ của nguồn; đổi thành \"đi theo lối thoát nạn có đèn EXIT (không dùng thang máy)\" hoặc gắn nhãn suy ra ngay tại chỗ dùng."
+ ]
+}

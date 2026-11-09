@@ -1,0 +1,93 @@
+id: dau-nguc-that-bop-nghen-keo-dai-hoac-kem-va-mo-hoi
+checker: agent-R2d13a
+checked_at: 2026-11-08
+content_sha256: "7ebab9e59241cad7312ba7bcec44620e816215b4c4e6eae63d5053e1c1393b32"
+result: pass-with-edits
+claims:
+  - text: "NMCT có ST chênh lên, 0-12 giờ từ khi khởi phát: can thiệp ĐMV thì đầu ưu tiên hàng đầu; nếu từ lúc chẩn đoán tới lúc đưa dây dẫn qua tổn thương dưới 120 phút thì chuyển tới cơ sở can thiệp (mục 4.2)"
+    source_url: https://syt.gialai.gov.vn/index.php/vi/download/Thu-vien-Huong-dan-chan-doan-dieu-tri-Quy-trinh-ky-thuat-va-cac-Tai-lieu-chuyen-mon-kham-chua-benh/Quyet-dinh-so-5332-QD-BYT-ngay-23-12-2020-cua-Bo-Y-te-V-v-Ban-hanh-tai-lieu-chuyen-mon-Thuc-hanh-chan-doan-va-dieu-tri-benh-dong-mach-vanh.html
+    quote: "Từ 0 - 12 giờ kể từ khi khởi phát triệu chứng: Can thiệp ĐMV thì đầu được ưu tiên lựa chọn hàng đầu: Nếu bệnh nhân đến bệnh viện có khả năng can thiệp ĐMV thì lựa chọn chiến lược can thiệp ngay. Nếu việc chuyển bệnh nhân đến bệnh viện có khả năng can thiệp tính từ lúc được chẩn đoán đến lúc được can thiệp (đưa được dây dẫn qua tổn thương tắc ĐMV) dưới 120 phút thì sẽ chuyển bệnh nhân đến để tiến hành can thiệp."
+    verdict: match
+    note: "PDF tải qua trang iframe của Sở Y tế Gia Lai (172 trang), chữ trích bằng pdftotext, ký tự ư/ơ lỗi mã hóa đã chuẩn hóa. Mục 4.2 'Lựa chọn chiến lược tái thông ĐMV'."
+  - text: "12-48 giờ: bắt buộc chỉ định chụp và can thiệp thì đầu nếu đau ngực tái phát, rối loạn nhịp hoặc huyết động không ổn định"
+    source_url: https://syt.gialai.gov.vn/index.php/vi/download/Thu-vien-Huong-dan-chan-doan-dieu-tri-Quy-trinh-ky-thuat-va-cac-Tai-lieu-chuyen-mon-kham-chua-benh/Quyet-dinh-so-5332-QD-BYT-ngay-23-12-2020-cua-Bo-Y-te-V-v-Ban-hanh-tai-lieu-chuyen-mon-Thuc-hanh-chan-doan-va-dieu-tri-benh-dong-mach-vanh.html
+    quote: "Từ 12 - 48 giờ kể từ khi khởi phát triệu chứng: Bắt buộc chỉ định chụp và can thiệp ĐMV thì đầu nếu bệnh nhân có đau ngực tái phát, rối loạn nhịp hoặc huyết động không ổn định"
+    verdict: match
+    note: "Cùng mục 4.2. Ở mục 4.3.2.1 văn bản còn ghi 'Có thể can thiệp mạch vành thì đầu một cách thường quy cho những bệnh nhân nhập viện muộn (12 - 48 giờ)'; không mâu thuẫn với câu của mục."
+  - text: "Can thiệp thì đầu nếu thời gian dự tính từ lúc tiếp cận nhân viên y tế đến lúc mở thông mạch vành: không quá 2 giờ khi chuyển từ nơi khác, không quá 90 phút khi đến thẳng cơ sở can thiệp, lý tưởng không quá 60 phút với ca đến sớm trong 2 giờ hoặc vùng nhồi máu rộng (mục 4.3.2)"
+    source_url: https://syt.gialai.gov.vn/index.php/vi/download/Thu-vien-Huong-dan-chan-doan-dieu-tri-Quy-trinh-ky-thuat-va-cac-Tai-lieu-chuyen-mon-kham-chua-benh/Quyet-dinh-so-5332-QD-BYT-ngay-23-12-2020-cua-Bo-Y-te-V-v-Ban-hanh-tai-lieu-chuyen-mon-Thuc-hanh-chan-doan-va-dieu-tri-benh-dong-mach-vanh.html
+    quote: "Nên lựa chọn can thiệp thì đầu tại các cơ sở có đủ điều kiện và kinh nghiệm nếu thời gian dự tính từ lúc tiếp cận với nhân viên y tế ban đầu đến lúc mở thông mạch vành ≤ 120 phút (nếu từ nơi khác chuyển đến) hoặc ≤ 90 phút (nếu bệnh nhân đến ngay cơ sở y tế làm được can thiệp cấp), lý tưởng là ≤ 60 phút đối với các trường hợp NMCT cấp đến sớm ≤ 2 giờ hoặc vùng nhồi máu cơ tim rộng (ví dụ NMCT thành trước)."
+    verdict: match
+    note: ""
+  - text: "Không can thiệp được trong 120 phút (vận chuyển quá 2 giờ): ưu tiên tiêu sợi huyết, rồi chuyển tới cơ sở gần nhất có khả năng can thiệp trong 2 đến 24 giờ"
+    source_url: https://syt.gialai.gov.vn/index.php/vi/download/Thu-vien-Huong-dan-chan-doan-dieu-tri-Quy-trinh-ky-thuat-va-cac-Tai-lieu-chuyen-mon-kham-chua-benh/Quyet-dinh-so-5332-QD-BYT-ngay-23-12-2020-cua-Bo-Y-te-V-v-Ban-hanh-tai-lieu-chuyen-mon-Thuc-hanh-chan-doan-va-dieu-tri-benh-dong-mach-vanh.html
+    quote: "Nếu không thể can thiệp cấp cứu trong vòng 120 phút kể từ khi người bệnh tiếp xúc với nhân viên y tế đầu tiên, do quá xa nơi can thiệp (vận chuyển > 2 giờ), thì nên ưu tiên dùng thuốc tiêu sợi huyết, đảm bảo thời gian dự tính từ lúc tiếp cận với nhân viên y tế ban đầu đến lúc tiêm thuốc tiêu sợi huyết ≤ 10 phút, sau đó chuyển người bệnh đến cơ sở gần nhất có khả năng can thiệp trong vòng 2 – 24 giờ."
+    verdict: match
+    note: "Mục 4.3.2. Mục không nêu mốc 10 phút; không gây hiểu sai vì là việc của nhân viên y tế."
+  - text: "Tiêu sợi huyết nên làm sớm trong 12 giờ đầu, đặc biệt trong 4 giờ đầu, nếu không đến được trung tâm can thiệp trong 2 giờ kể từ chẩn đoán (mục 4.3.1.3)"
+    source_url: https://syt.gialai.gov.vn/index.php/vi/download/Thu-vien-Huong-dan-chan-doan-dieu-tri-Quy-trinh-ky-thuat-va-cac-Tai-lieu-chuyen-mon-kham-chua-benh/Quyet-dinh-so-5332-QD-BYT-ngay-23-12-2020-cua-Bo-Y-te-V-v-Ban-hanh-tai-lieu-chuyen-mon-Thuc-hanh-chan-doan-va-dieu-tri-benh-dong-mach-vanh.html
+    quote: "Trong vòng 12 giờ đầu: Nên tiến hành sớm (đặc biệt trong 4 giờ đầu) nếu các bệnh nhân không thể đến được các trung tâm có can thiệp ĐMV qua da trong vòng 2 giờ kể từ khi được chẩn đoán NMCT cấp có ST chênh lên."
+    verdict: match
+    note: ""
+  - text: "Mục 6.2.1: nhân viên cấp cứu có thể cho aspirin 150-325 mg nếu không có chống chỉ định; không khuyến cáo bệnh nhân tự lái xe tới bệnh viện"
+    source_url: https://syt.gialai.gov.vn/index.php/vi/download/Thu-vien-Huong-dan-chan-doan-dieu-tri-Quy-trinh-ky-thuat-va-cac-Tai-lieu-chuyen-mon-kham-chua-benh/Quyet-dinh-so-5332-QD-BYT-ngay-23-12-2020-cua-Bo-Y-te-V-v-Ban-hanh-tai-lieu-chuyen-mon-Thuc-hanh-chan-doan-va-dieu-tri-benh-dong-mach-vanh.html
+    quote: "Nếu bệnh nhân đau ngực nghi ngờ hội chứng động mạch vành cấp thì cần liên lạc ngay với trạm vận chuyển cấp cứu (115). Nếu không có điều kiện, cần có người nhà vận chuyển bệnh nhân. Không khuyến cáo bệnh nhân tự động lái (đi) xe đến bệnh viện. - Khi nhân viên cấp cứu đến nhà: Có thể cho dùng aspirin liều từ 150-325 mg nếu không có chống chỉ định."
+    verdict: match
+    note: "Cả hai ý trong cùng mục 6.2.1. Mục dẫn cho 'không tự lái xe' chỉ bài Phú Lâm; nên thêm chính 6.2.1 làm nguồn chính (xem suggested_edits)."
+  - text: "ERC 2021: người lớn tỉnh, đau ngực không do chấn thương nghi NMCT: khuyến khích/hỗ trợ tự nhai aspirin 150-300 mg sớm nhất có thể; không cho khi đau ngực chưa rõ nguyên nhân hoặc do chấn thương"
+    source_url: https://www.cebap.org/storage/cebap/zideman-2021-erc-guidelines-2021-first-aid.pdf
+    quote: "For conscious adults with non-traumatic chest pain due to suspected myocardial infarction: Reassure the casualty; Sit or lie the casualty in a comfortable position; Call for help; First aid providers should encourage and assist the casualty in the self-administration of 150-300 mg chewable aspirin as soon as possible after the onset of chest pain; Do not administer aspirin to adults with chest pain of unclear or traumatic aetiology"
+    verdict: match
+    note: "Bản gương cebap.org của Resuscitation 161 (2021) 270-290, trang 274. Cùng văn bản còn: 'Do not administer aspirin to adults with a known allergy to aspirin or contraindications such as severe asthma or known gastrointestinal bleeding.' Mục không nêu các chống chỉ định này; vì mục bảo hỏi 115 trước nên không gây hại, nhưng nên thêm (xem suggested_edits). Bước ngồi/nằm thoải mái cũng khớp 'Sit or lie ... comfortable position'."
+  - text: "Bài Phú Lâm 30/9/2025: triệu chứng đau nặng ngực lan vai/cổ/hàm/tay, vã mồ hôi, buồn nôn, chóng mặt; cho ngồi nghỉ, gọi 115; tuyệt đối không để tự lái xe, chần chừ quan sát thêm hay tự ý dùng thuốc giảm đau"
+    source_url: http://trungtamytequan6.medinet.gov.vn/tim-mach/gio-vang-quyet-dinh-su-song-cmobile17305-250126.aspx
+    quote: "đau, nặng ngực lan lên vai, cổ, hàm, cánh tay; vã mồ hôi, buồn nôn, chóng mặt. Khi gặp tình huống trên bạn xử trí bằng cách cho người bệnh ngồi nghỉ, gọi cấp cứu 115, đưa đến bệnh viện an toàn. Tuyệt đối không để người bệnh tự lái xe, chần chừ quan sát thêm, tự ý dùng thuốc giảm đau."
+    verdict: match-secondary
+    note: "Bài truyền thông của Trung tâm Y tế khu vực Phú Lâm (nguồn tin HCDC), không phải hướng dẫn chuyên môn; khớp nguyên văn nhưng chỉ dùng làm nguồn phụ. Đủ vì ý 'không tự lái xe' đã có ở QĐ 5332 mục 6.2.1 và ERC 'Call for help'."
+  - text: "Step 3: 'không tự uống thuốc giảm đau hay thuốc dạ dày'"
+    source_url: http://trungtamytequan6.medinet.gov.vn/tim-mach/gio-vang-quyet-dinh-su-song-cmobile17305-250126.aspx
+    quote: "Tuyệt đối không để người bệnh tự lái xe, chần chừ quan sát thêm, tự ý dùng thuốc giảm đau."
+    verdict: partial
+    note: "Nguồn chỉ ghi 'thuốc giảm đau' (và cuối bài 'đừng tự ý mua thuốc'); 'thuốc dạ dày' không có chữ trong nguồn. Hướng an toàn nhưng là suy ra, chưa gắn nhãn."
+  - text: "Mốc 12 giờ tính từ lúc khởi phát triệu chứng, không phải lúc tới cổng bệnh viện"
+    source_url: https://syt.gialai.gov.vn/index.php/vi/download/Thu-vien-Huong-dan-chan-doan-dieu-tri-Quy-trinh-ky-thuat-va-cac-Tai-lieu-chuyen-mon-kham-chua-benh/Quyet-dinh-so-5332-QD-BYT-ngay-23-12-2020-cua-Bo-Y-te-V-v-Ban-hanh-tai-lieu-chuyen-mon-Thuc-hanh-chan-doan-va-dieu-tri-benh-dong-mach-vanh.html
+    quote: "Từ 0 - 12 giờ kể từ khi khởi phát triệu chứng"
+    verdict: match
+    note: "Câu 'không phải từ lúc tới cổng bệnh viện' là diễn giải của mục, đúng với chữ 'kể từ khi khởi phát triệu chứng' (QĐ 5332 mục 4.2)."
+  - text: "Bẫy 2: chờ càng lâu, cơ tim càng mất thêm"
+    source_url: https://syt.gialai.gov.vn/index.php/vi/download/Thu-vien-Huong-dan-chan-doan-dieu-tri-Quy-trinh-ky-thuat-va-cac-Tai-lieu-chuyen-mon-kham-chua-benh/Quyet-dinh-so-5332-QD-BYT-ngay-23-12-2020-cua-Bo-Y-te-V-v-Ban-hanh-tai-lieu-chuyen-mon-Thuc-hanh-chan-doan-va-dieu-tri-benh-dong-mach-vanh.html
+    quote: "Thời gian là cơ tim, cơ tim là sự sống"
+    verdict: match
+    note: "Mục 4.2 QĐ 5332 (cùng đoạn ghi 'lợi ích bảo tồn cơ tim khi ĐMV được tái thông sớm')."
+  - text: "Bẫy 3: cơn đau ở thượng vị, hàm, hai bả vai, hoặc chỉ có khó thở và vã mồ hôi ở người già và người đái tháo đường"
+    source_url: https://syt.gialai.gov.vn/index.php/vi/download/Thu-vien-Huong-dan-chan-doan-dieu-tri-Quy-trinh-ky-thuat-va-cac-Tai-lieu-chuyen-mon-kham-chua-benh/Quyet-dinh-so-5332-QD-BYT-ngay-23-12-2020-cua-Bo-Y-te-V-v-Ban-hanh-tai-lieu-chuyen-mon-Thuc-hanh-chan-doan-va-dieu-tri-benh-dong-mach-vanh.html
+    quote: ""
+    verdict: not-found
+    note: "Không nguồn nào trong mục Nguồn nói ý này (Phú Lâm chỉ liệt kê đau lan vai/cổ/hàm/tay). Y văn thường ghi biểu hiện không điển hình ở người già/đái tháo đường nhưng mục không dẫn và không gắn nhãn suy ra."
+  - text: "Step 5: người bệnh ngất, không đáp ứng, không thở bình thường: ép tim và dùng AED (xem mục 01 chương này)"
+    source_url: http://trungtamytequan6.medinet.gov.vn/tim-mach/gio-vang-quyet-dinh-su-song-cmobile17305-250126.aspx
+    quote: "Nếu người bệnh có dấu hiệu ngừng tim hãy tiến hành sơ cứu ngay lập tức. ... hãy nhanh chóng gọi 115, ép tim ngay (100–120 lần/phút, sâu 5–6 cm, vị trí 1/2 dưới xương ức), dùng máy khử rung tim tự động (AED) nếu có."
+    verdict: match-secondary
+    note: "Mục chỉ chuyển tiếp sang mục 01 chương 13 (tồn tại: 01-nguoi-guc-goi-khong-tinh-khong-tho-binh-thuong-ep-tim-ngoai). Không tự nêu số ép tim, không mâu thuẫn."
+internal_checks:
+  - issue: "Mọi con số trong tldr/steps (12 giờ) có trong thân (mục 4.2). Không thấy mâu thuẫn số liệu giữa 120 phút/2 giờ, 90 phút, 60 phút, 12-48 giờ, 2-24 giờ."
+    severity: warn
+  - issue: "Step 3 'thuốc dạ dày' không có cơ sở chữ trong nguồn (xem claim partial); Bẫy 3 (người già, đái tháo đường) không có nguồn và không có nhãn 'suy ra'."
+    severity: warn
+  - issue: "Step 4 yêu cầu hỏi 115 trước khi nhai aspirin, trong khi ERC 2021 khuyến khích người sơ cứu hỗ trợ nhai ngay (150-300 mg) và QĐ 5332 6.2.1 để nhân viên cấp cứu quyết định. Mục thận trọng hơn ERC: không gây hại, nhưng nên ghi rõ đây là cách làm an toàn vì có thể có chống chỉ định (dị ứng aspirin, hen nặng, xuất huyết tiêu hóa)."
+    severity: warn
+  - issue: "Không có chữ nội bộ lọt vào (đã tìm 'báo cáo kiểm chứng', 'Còn treo', 'sổ kiểm chứng', 'bản nháp', 'Cần nguồn', INFERENCE). Nhãn '(suy ra, không phải chữ của nguồn)' ở Bẫy 1 trung thực: lý do loạn nhịp trên đường và xe cấp cứu có người huấn luyện là suy luận, không nguồn nào nói; chấp nhận được."
+    severity: warn
+validity:
+  doc: "Quyết định 5332/QĐ-BYT ngày 23/12/2020 (Bộ Y tế); ERC First Aid Guidelines 2021"
+  in_force: unconfirmed
+  effective_from: "2020-12-23"
+  amended_by: []
+  basis: "QĐ 5332 là tài liệu chuyên môn; tìm trên web chỉ thấy các bản đăng lại (thuvienphapluat, bệnh viện), không thấy văn bản thay thế nhưng không có nguồn chính thức xác nhận còn hiệu lực hay chưa có bản mới. ERC 2021 sơ cứu: chưa kiểm có bản ERC mới hơn cho phần sơ cứu aspirin."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Mục Lợi ích/Truyền thông và Bẫy 1: thêm QĐ 5332 mục 6.2.1 làm nguồn chính cho 'không tự lái xe' ('Không khuyến cáo bệnh nhân tự động lái (đi) xe đến bệnh viện'); giữ bài Phú Lâm là nguồn phụ."
+  - "Step 3: đổi 'không tự uống thuốc giảm đau hay thuốc dạ dày' thành 'không tự uống thuốc giảm đau' (đúng chữ Phú Lâm), hoặc gắn nhãn '(thuốc dạ dày: suy ra)'."
+  - "Bẫy 3: thêm nhãn '(suy ra từ y văn, không phải chữ của nguồn trên)' hoặc dẫn một hướng dẫn (ESC/AHA/Bộ Y tế) nêu biểu hiện không điển hình ở người già, đái tháo đường; nếu không dẫn được thì bỏ vế 'ở người già và người đái tháo đường'."
+  - "Mục Aspirin: thêm một câu 'ERC: không cho nếu dị ứng aspirin, hen nặng hoặc có xuất huyết tiêu hóa' (quote: 'Do not administer aspirin to adults with a known allergy to aspirin or contraindications such as severe asthma or known gastrointestinal bleeding') để giải thích vì sao phải hỏi 115."

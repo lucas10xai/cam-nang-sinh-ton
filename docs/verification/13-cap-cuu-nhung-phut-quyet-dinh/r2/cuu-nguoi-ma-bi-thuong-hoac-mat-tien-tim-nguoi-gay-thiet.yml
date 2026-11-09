@@ -1,0 +1,95 @@
+id: cuu-nguoi-ma-bi-thuong-hoac-mat-tien-tim-nguoi-gay-thiet
+checker: agent-R2d13c
+checked_at: 2026-11-09
+content_sha256: "b21ff3e93135a9cf8a491a88fa60f95c8ad2fef07ac4531e01d2166f67825780"
+result: pass-with-edits
+claims:
+  - text: "Huân chương Dũng cảm cho hành động dũng cảm cứu người; thành tích có tác dụng nêu gương trong phạm vi Bộ, ban, ngành, tỉnh hoặc toàn quốc (Điều 52 Luật 06/2022/QH15)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/07/06-2022-qh15..pdf
+    quote: "“Huân chương Dũng cảm” để tặng hoặc truy tặng cho cá nhân có hành động dũng cảm khi cứu người, cứu tài sản của Nhà nước, của Nhân dân trong thảm họa, thiên tai, dịch bệnh, tai nạn, cháy, nổ, đấu tranh phòng, chống tội phạm hoặc dũng cảm xung phong vào nơi nguy hiểm nhằm bảo vệ tính mạng của người dân và thành tích đạt được có tác dụng động viên, giáo dục, nêu gương trong phạm vi quản lý của Bộ, ban, ngành, tỉnh hoặc toàn quốc."
+    verdict: match
+    note: "Đối chiếu thêm bản hợp nhất 115/VBHN-VPQH (Công báo 313, 07/6/2026, Luật 06/2022 sửa bởi Luật 06/2026/QH16 hiệu lực 01/10/2026): Điều 52 giữ nguyên chữ."
+  - text: "Khen thưởng theo thủ tục đơn giản cho người có hành động dũng cảm cứu người (Điều 85 khoản 1 điểm b)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/07/06-2022-qh15..pdf
+    quote: "b) Cá nhân, tập thể lập được thành tích xuất sắc đột xuất trong chiến đấu, phục vụ chiến đấu, trong lao động, công tác, sản xuất, kinh doanh, học tập và nghiên cứu khoa học hoặc lĩnh vực khác hoặc có hành động dũng cảm cứu người, cứu tài sản của Nhà nước, của Nhân dân hoặc được giải thưởng quốc tế của khu vực hoặc thế giới;"
+    verdict: match
+    note: "Điều 85 khoản 1 điểm b giữ nguyên trong bản hợp nhất 2026 (điểm a có sửa). Câu 'không phải chờ bình xét cuối năm' mục ghi là suy ra: trung thực."
+  - text: "Huân chương Dũng cảm thưởng 4,5 lần mức lương cơ sở (Điều 54 khoản 1 điểm h, NĐ 368/2026/NĐ-CP, hiệu lực 01/10/2026)"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/10/8/470594-1791197044_v1_1791421492_signed.pdf
+    quote: "h) “Huân chương Lao động” hạng Ba, “Huân chương Chiến công” hạng Ba, “Huân chương Bảo vệ Tổ quốc” hạng Ba, “Huân chương Dũng cảm”, “Huân chương Hữu nghị”: 4,5 lần mức lương cơ sở."
+    verdict: match
+    note: "Mở bản PDF ký số trên Công báo số 539 (08/10/2026), liên kết ngay trên trang congbao.chinhphu.vn/van-ban/nghi-dinh-so-368-2026-nd-cp-470594.htm. Mục chỉ liệt kê bản sao lawplayer (thứ cấp) và để legal_refs url null."
+  - text: "Tiền thưởng tính theo lương cơ sở lúc ban hành quyết định, làm tròn lên hàng chục nghìn đồng (Điều 52 khoản 1, 2 NĐ 368/2026)"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/10/8/470594-1791197044_v1_1791421492_signed.pdf
+    quote: "Tiền thưởng cho cá nhân, tập thể, hộ gia đình được khen thưởng được tính trên cơ sở mức lương cơ sở do Chính phủ quy định đang có hiệu lực vào thời điểm ban hành quyết định công nhận danh hiệu thi đua, quyết định hình thức khen thưởng. 2. Tiền thưởng sau khi nhân với hệ số mức lương cơ sở được làm tròn số lên hàng chục nghìn đồng tiền Việt Nam."
+    verdict: match
+    note: ""
+  - text: "Lương cơ sở từ 01/7/2026 là 2.530.000 đồng/tháng (NĐ 161/2026/NĐ-CP)"
+    source_url: https://xaydungchinhsach.chinhphu.vn/tu-01-7-chinh-phu-tang-luong-co-so-119260517100243881.htm
+    quote: "Theo Nghị định số 161/2026/NĐ-CP, mức lương cơ sở từ ngày 01/7/2026 là 2.530.000 đồng/tháng (mức lương cơ sở hiện nay là 2.340.000 đồng/tháng)."
+    verdict: match-secondary
+    note: "Bài trên Báo điện tử Chính phủ (xaydungchinhsach.chinhphu.vn) tóm tắt NĐ 161/2026 ngày 15/5/2026, hiệu lực 01/7/2026; không phải toàn văn nghị định. Không mở được văn bản gốc."
+  - text: "Phép tính 4,5 x 2.530.000 = 11.390.000 đồng"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/10/8/470594-1791197044_v1_1791421492_signed.pdf
+    quote: ""
+    verdict: inference
+    note: "Tính lại: 4,5 x 2.530.000 = 11.385.000, làm tròn lên hàng chục nghìn = 11.390.000. Đúng. Mục ghi rõ đây là phép tính, nếu áp dụng đúng mức lương cơ sở; trung thực."
+  - text: "Thành tích 'đặc biệt xuất sắc đột xuất' là mức độ đặc biệt xuất sắc khi dũng cảm cứu người (Điều 3 khoản 4 NĐ 98/2023/NĐ-CP)"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/10/8/470594-1791197044_v1_1791421492_signed.pdf
+    quote: "4. Thành tích đặc biệt xuất sắc đột xuất là thành tích đột xuất đạt được ở mức độ đặc biệt xuất sắc trong dũng cảm cứu người, cứu tài sản của Nhân dân, của Nhà nước hoặc trong chiến đấu, phục vụ chiến đấu hoặc lập được thành tích đặc biệt xuất sắc trong các lĩnh vực kinh tế - xã hội, quốc phòng, an ninh, đối ngoại, văn hóa, thể thao và các lĩnh vực khác ở trong nước hoặc khu vực, thế giới."
+    verdict: partial
+    note: "Câu có thật nhưng ở NĐ 368/2026 Điều 3 khoản 4 (văn bản hiện hành), không phải NĐ 98/2023. Mục còn viết 'cần nguồn cho điều khoản tương ứng ... trong Nghị định 368/2026' dù điều khoản này đã có. NĐ 98/2023 không mở được để đối chiếu và nhiều khả năng đã hết hiệu lực (xem validity); dẫn NĐ 98/2023 làm căn cứ là lạc hậu."
+  - text: "Bẫy 1: người đứng đầu cơ quan, tổ chức, đơn vị khen thưởng và đề nghị khen thưởng ngay sau khi có thành tích (Điều 40 khoản 3 NĐ 98/2023)"
+    source_url: https://congbaocdn.chinhphu.vn/180507251028987904/2026/10/8/470594-1791197044_v1_1791421492_signed.pdf
+    quote: "3. Người đứng đầu bộ, ban, ngành, tỉnh; người đứng đầu cơ quan, tổ chức, đơn vị có thẩm quyền khen thưởng và đề nghị khen thưởng ngay sau khi cá nhân, tập thể, hộ gia đình lập được thành tích xuất sắc đột xuất theo quy định tại điểm b khoản 1 Điều 85 Luật Thi đua, khen thưởng."
+    verdict: partial
+    note: "Câu nằm ở Điều 41 khoản 3 NĐ 368/2026 (Khen thưởng theo thủ tục đơn giản), không phải 'Điều 40 khoản 3 NĐ 98/2023'. Nội dung khớp ý mục; trích dẫn điều khoản/văn bản đã lạc hậu."
+  - text: "Người không thuộc quân đội/công an bị thương từ 21% trở lên khi dũng cảm cứu người được xem xét công nhận hưởng chính sách như thương binh (Điều 23 khoản 1, 2 Pháp lệnh Ưu đãi người có công, bản hợp nhất 123/2026)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/8/2026-123-phap-lenh-uu-dai-nguoi-co-cong-voi-cach-mang-thanh-trang.pdf
+    quote: "Người không phải là sĩ quan, quân nhân chuyên nghiệp, hạ sĩ quan, binh sĩ trong Quân đội nhân dân và sĩ quan, hạ sĩ quan, chiến sĩ trong Công an nhân dân bị thương có tỷ lệ tổn thương cơ thể từ 21% trở lên thuộc một trong các trường hợp quy định tại khoản 1 Điều này thì được cơ quan, đơn vị có thẩm quyền xem xét công nhận là người hưởng chính sách như thương binh"
+    verdict: partial
+    note: "Bản hợp nhất 123/2026 (05/8/2026) ghi chú: Điều 23 được sửa theo khoản 10 Điều 1 Pháp lệnh 05/2026/UBTVQH16, CÓ HIỆU LỰC TỪ 01/01/2027. Điểm h 'Dũng cảm cứu người, cứu tài sản của Nhà nước, của Nhân dân hoặc dũng cảm ngăn chặn, bắt giữ người có hành vi phạm tội' là chữ sau sửa đổi. Văn bản hiện hành tới hết 31/12/2026 (Pháp lệnh 02/2020, đối chiếu bản luatvietnam.vn, thứ cấp) ghi điểm k: 'Đặc biệt dũng cảm cứu người, cứu tài sản của Nhà nước, của Nhân dân hoặc ngăn chặn, bắt giữ người có hành vi phạm tội, là tấm gương có ý nghĩa tôn vinh, giáo dục, lan tỏa rộng rãi trong xã hội' — điều kiện chặt hơn. Mục viết như điều kiện hiện hành, không nêu ngày 01/01/2027 hay điều kiện 'đặc biệt dũng cảm... tấm gương', và chỉ nói 'chữ cái điểm khác nhau giữa các bản'. Ngày kiểm 2026-11-09 là trước 01/01/2027."
+  - text: "Ngân sách nhà nước đảm bảo kinh phí chi phí vận chuyển cấp cứu với trường hợp tai nạn, không phải viện phí điều trị (Điều 61 khoản 7 điểm a Luật KCB, 26/VBHN-VPQH)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/26-vbhn-vpqh.pdf
+    quote: "chi phí vận chuyển và sử dụng dịch vụ khám bệnh, chữa bệnh trong quá trình vận chuyển cấp cứu đối với trường hợp tai nạn, thiên tai, thảm họa, dịch bệnh truyền nhiễm đặc biệt nguy hiểm có khả năng lây truyền rất nhanh, phát tán rộng và tỷ lệ tử vong cao hoặc chưa rõ tác nhân gây bệnh;"
+    verdict: partial
+    note: "Điều 61 khoản 7 nằm ở mục 'Kinh phí cho hoạt động cấp cứu ngoại viện' và gồm cả 'chi phí ... sử dụng dịch vụ khám bệnh, chữa bệnh trong quá trình vận chuyển cấp cứu'; mục viết 'không phải viện phí điều trị' là diễn giải của người viết, hợp lý nhưng không phải chữ của luật và không nói đến điều kiện (do Chính phủ quy định chi tiết, khoản 9). Chưa kiểm NĐ hướng dẫn nên không biết thực tế ai được hưởng."
+  - text: "Hai việc dùng bảo hiểm y tế và đòi bồi thường là hướng hợp lý (mục tự nhận chưa có nguồn pháp lý)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/26-vbhn-vpqh.pdf
+    quote: ""
+    verdict: not-found
+    note: "Mục tự thừa nhận không có nguồn; không có khẳng định cụ thể nào để đối chiếu. Hiện bước này đặt ở steps ('hỏi cơ sở y tế về bảo hiểm y tế và hỏi về đòi bồi thường') như lời khuyên không nguồn. Không nguy hại."
+internal_checks:
+  - issue: "Chữ biên tập nội bộ lọt vào thân đọc: 'mục này chưa có nguồn pháp lý về bảo hiểm y tế chi trả hay bồi thường' (Chi phí), 'là hướng hợp lý nhưng mục này chưa có điều luật nào dẫn cho chúng: cần nguồn' (Lợi ích), 'cần nguồn cho mức thưởng của các hình thức đó' và 'Hiệu lực của Nghị định 98/2023 sau khi Nghị định 368/2026 có hiệu lực chưa xác nhận được; cần nguồn cho điều khoản tương ứng Điều 3 khoản 4' (Pháp lệnh VN), 'Cần nguồn cho nơi nộp hồ sơ' và 'mục này chưa có nguồn về thủ tục' (Bẫy 1, 2), 'phép tính của người soạn'. Đây là ghi chú việc cần làm của người soạn, không phải nội dung cho người đọc."
+    severity: error
+  - issue: "Pháp lệnh Ưu đãi người có công Điều 23: mục trình bày chữ sau sửa đổi (hiệu lực 01/01/2027) như luật đang áp dụng; điều kiện hiện hành (đến hết 2026) là 'đặc biệt dũng cảm ... là tấm gương có ý nghĩa tôn vinh, giáo dục, lan tỏa rộng rãi trong xã hội' (điểm k). Người đọc bị thương hôm nay có thể kỳ vọng sai về điều kiện."
+    severity: error
+  - issue: "Mục dựa vào NĐ 98/2023/NĐ-CP làm căn cứ (Điều 3 khoản 4, Điều 40 khoản 3, Điều 55) và ghi tiêu đề 'có thể đã được thay thế'. NĐ 368/2026 (hiệu lực 01/10/2026) Điều 62 khoản 2 ghi NĐ 152/2025/NĐ-CP hết hiệu lực từ ngày NĐ 368 có hiệu lực; bài thuvienphapluat.vn (thứ cấp, 10/7/2025) ghi NĐ 98/2023 hết hiệu lực từ 01/7/2025 do NĐ 152/2025. Các điều khoản cần dẫn nay nằm ở NĐ 368/2026: Điều 3 khoản 4, Điều 41 khoản 3, Điều 54 khoản 1 điểm h. Nên bỏ NĐ 98/2023 khỏi legal_refs và mục Nguồn."
+    severity: error
+  - issue: "legal_refs[3] (NĐ 368/2026) có url: null trong khi có link công báo mở được: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-368-2026-nd-cp-470594.htm (PDF ký số: https://congbaocdn.chinhphu.vn/180507251028987904/2026/10/8/470594-1791197044_v1_1791421492_signed.pdf). Mục Nguồn chỉ dẫn bản lawplayer (thứ cấp)."
+    severity: warn
+  - issue: "legal_refs[0], [1] (Luật Thi đua, khen thưởng 06/2022/QH15) dẫn bản PDF gốc 2022. Luật này đã được sửa bởi Luật 06/2026/QH16 (hiệu lực 01/10/2026); Điều 52 và Điều 85 khoản 1 điểm b không đổi nội dung (đã đối chiếu 115/VBHN-VPQH) nhưng nên dẫn bản hợp nhất."
+    severity: warn
+  - issue: "Tldr nói 'Huân chương Dũng cảm thưởng 4,5 lần lương cơ sở', số khớp thân và nguồn. Phép nhân 11.390.000 đồng đúng. Không mâu thuẫn số liệu nội bộ; không có số liên quan với mục khác cùng chương."
+    severity: warn
+  - issue: "Cụm 'Chữ cái điểm khác nhau giữa các bản (k trong bản 02/2020, h trong bản hợp nhất 123/2026)' bỏ qua rằng nội dung điểm cũng khác (xem lỗi Điều 23)."
+    severity: warn
+  - issue: "Steps bước 4 'Nhờ cơ quan nơi làm việc hoặc xã phường ... hỏi về hồ sơ khen thưởng đột xuất (suy ra, chưa phải chữ luật)': nhãn 'suy ra' trung thực; Điều 41 khoản 3 NĐ 368 chỉ nêu người đứng đầu bộ, ban, ngành, tỉnh và cơ quan, tổ chức, đơn vị, không nêu xã phường."
+    severity: warn
+validity:
+  doc: "Luật Thi đua, khen thưởng 06/2022/QH15 (sửa bởi Luật 06/2026/QH16); NĐ 368/2026/NĐ-CP; NĐ 161/2026/NĐ-CP; Pháp lệnh Ưu đãi người có công 02/2020/UBTVQH14 (sửa bởi Pháp lệnh 05/2026/UBTVQH16 hiệu lực 01/01/2027); Luật Khám bệnh, chữa bệnh 15/2023/QH15 (VBHN 26/VBHN-VPQH)"
+  in_force: true
+  effective_from: "2026-10-01"
+  amended_by:
+    - "Luật 06/2026/QH16 sửa Luật TĐKT (hiệu lực 01/10/2026)"
+    - "Pháp lệnh 05/2026/UBTVQH16 sửa Điều 23 Pháp lệnh ưu đãi (hiệu lực 01/01/2027)"
+    - "NĐ 368/2026/NĐ-CP thay NĐ 152/2025/NĐ-CP (và 98/2023 theo nguồn thứ cấp)"
+  basis: "Bản hợp nhất Luật TĐKT 115/VBHN-VPQH (Công báo 313, 07/6/2026) cho thấy Điều 52 và 85 khoản 1 điểm b còn nguyên; NĐ 368/2026 đăng Công báo 539 ngày 08/10/2026, hiệu lực 01/10/2026 (Điều 62). Luật KCB: bản hợp nhất 26/VBHN-VPQH (2026) có Điều 61 khoản 7. Pháp lệnh ưu đãi: có hiệu lực nhưng Điều 23 đổi từ 01/01/2027 (xem claim). in_force=true chỉ áp dụng cho các điều khoản được đối chiếu đúng hiệu lực; Điều 23 Pháp lệnh bị ghi riêng là partial."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Xóa mọi ghi chú việc cần làm cho người soạn khỏi thân: 'mục này chưa có nguồn pháp lý ...', 'cần nguồn', 'chưa xác nhận được', 'phép tính của người soạn' (Chi phí, Lợi ích, Pháp luật Việt Nam, Ghi chú). Thay bằng câu trung tính: 'Mục này chưa nêu căn cứ pháp lý cho việc dùng bảo hiểm y tế và đòi bồi thường; hãy hỏi cơ sở y tế và cơ quan công an' hoặc bỏ hẳn. Dựa vào kết quả kiểm: mọi 'cần nguồn' về NĐ 368 đã có nguồn."
+  - "Mục 'Chế độ như thương binh': nêu rõ thời điểm. Ví dụ: 'Đến hết 31/12/2026, Pháp lệnh 02/2020 áp dụng điểm k Điều 23: người không thuộc quân đội/công an bị thương từ 21% trở lên khi đặc biệt dũng cảm cứu người ... là tấm gương có ý nghĩa tôn vinh, giáo dục, lan tỏa rộng rãi trong xã hội thì được xem xét công nhận hưởng chính sách như thương binh. Từ 01/01/2027, Điều 23 sửa đổi theo Pháp lệnh 05/2026/UBTVQH16 ghi điểm h: dũng cảm cứu người, cứu tài sản ... (bỏ điều kiện đặc biệt/tấm gương)'. Dựa vào quote bản hợp nhất 123/2026 và footnote 22."
+  - "Thay mọi dẫn NĐ 98/2023 (Điều 3 khoản 4, Điều 40 khoản 3, Điều 55 khoản 1 điểm h) bằng NĐ 368/2026: Điều 3 khoản 4; Điều 41 khoản 3; Điều 54 khoản 1 điểm h. Xóa NĐ 98/2023 khỏi legal_refs và mục Nguồn. Thêm URL congbao.chinhphu.vn cho NĐ 368."
+  - "Điều 61 khoản 7 Luật KCB: sửa thành 'Ngân sách nhà nước bảo đảm kinh phí chi phí vận chuyển và sử dụng dịch vụ khám bệnh, chữa bệnh trong quá trình vận chuyển cấp cứu đối với trường hợp tai nạn... (Điều 61 khoản 7 điểm a; Chính phủ quy định chi tiết)'; bỏ 'không phải viện phí điều trị' hoặc gắn nhãn 'suy ra'."
+  - "Luật TĐKT: đổi URL nguồn sang bản hợp nhất 115/VBHN-VPQH (https://cdn.thuvienphapluat.vn/uploads/tintuc/2026/06/06/2026_313_115_VBHN-VPQH.pdf là bản sao Công báo 313; ưu tiên bản gốc tại congbao.chinhphu.vn) vì Luật đã sửa năm 2026."

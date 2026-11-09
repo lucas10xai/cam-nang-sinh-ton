@@ -1,0 +1,92 @@
+id: nguoi-gia-dap-dau-vai-tuan-den-vai-thang-sau-di-loang
+checker: agent-R2d13a
+checked_at: 2026-11-08
+content_sha256: "46bd6645ed52718f3a376f1249ce49257910f6a1f495c7d48f3a158f89227c11"
+result: pass-with-edits
+claims:
+  - text: "Huế: triệu chứng máu tụ dưới màng cứng mạn tính thường xuất hiện sau một khoảng dài, từ 3 tuần đến vài tháng"
+    source_url: https://bvydhue.vn/tin-tuc/thong-tin-y-te/canh-giac-voi-mau-tu-duoi-mang-cung-man-tinh-o-nguoi-lon-tuoi-1233
+    quote: "Triệu chứng thường biểu hiện sau một khoảng thời gian dài, từ 3 tuần đến vài tháng."
+    verdict: match-secondary
+    note: "Bài truyền thông/báo cáo ca của Khoa Ngoại thần kinh BV Đại học Y-Dược Huế (23/07/2021), không phải hướng dẫn chuyên môn; mốc thời gian dẫn lại ref [7] (Adhiyaman 2002)."
+  - text: "Huế: triệu chứng thường gặp: đau đầu, lú lẫn, yếu liệt nửa người, thay đổi tính cách, thỉnh thoảng co giật"
+    source_url: https://bvydhue.vn/tin-tuc/thong-tin-y-te/canh-giac-voi-mau-tu-duoi-mang-cung-man-tinh-o-nguoi-lon-tuoi-1233
+    quote: "Triệu chứng thường gặp của MTDMCMT là đau đầu, lú lẫn, yếu liệt nửa người, thay đổi tính cách, thỉnh thoảng có co giật [2]."
+    verdict: match-secondary
+    note: "Cùng bài Huế."
+  - text: "Huế: bệnh nhân thường quên mình bị té ngã nên tiếp cận điều trị muộn và dễ nhầm với bệnh lý khác; chẩn đoán nhờ CT sọ"
+    source_url: https://bvydhue.vn/tin-tuc/thong-tin-y-te/canh-giac-voi-mau-tu-duoi-mang-cung-man-tinh-o-nguoi-lon-tuoi-1233
+    quote: "bệnh nhân MTDMCMT thường quên rằng mình bị té ngã trước đó dẫn đến việc tiếp cận điều trị khá muộn và dễ nhầm lẫn với bệnh lý khác [7]."
+    verdict: match-secondary
+    note: "Cùng bài Huế. 'MTDMCMT được chẩn đoán nhờ CT-scan sọ não' có trong phần Tóm tắt."
+  - text: "Huế: tỷ lệ khoảng 5/100.000 dân, tăng lên 58/100.000 ở nhóm trên 70 tuổi"
+    source_url: https://bvydhue.vn/tin-tuc/thong-tin-y-te/canh-giac-voi-mau-tu-duoi-mang-cung-man-tinh-o-nguoi-lon-tuoi-1233
+    quote: "với tỷ lệ khoảng 5/100 000 dân số chung và tăng lên đến 58/100 000 dân đối với nhóm trên 70 tuổi [1]."
+    verdict: match-secondary
+    note: "Số khớp; nguồn gốc là Mehta 2018 (J Clin Neurosci 50:7-15) qua bài Huế. Chưa mở bài gốc Mehta; mục đã ghi rõ 'theo bài của bệnh viện này'."
+  - text: "BV 108: người cao tuổi đang dùng thuốc chống đông và người nghiện rượu là nhóm nguy cơ; một số ca không có cơ chế chấn thương rõ ràng; ca 72 tuổi vào viện vì đau đầu liên tục được chụp CT rồi mổ lấy máu tụ"
+    source_url: https://benhvien108.vn/mau-tu-duoi-mang-cung-man-tinh-o-nguoi-cao-tuoi.htm
+    quote: "Một số trường hợp có cơ chế chấn thương trước đó trong khi một số khác không có cơ chế chấn thương rõ ràng. ... bệnh nhân Nguyễn Văn Đ, 72 tuổi, đang dùng thuốc chống đông điều trị bệnh tim mạch, vào viện ngày 06/9/2020 với triệu chứng đau đầu liên tục, không có chấn thương đầu trong vài tháng gần đây."
+    verdict: match-secondary
+    note: "Bài của Khoa Cấp cứu BV TWQĐ 108, 06/10/2020. 'Những người đang điều trị và sử dụng thuốc kháng đông cũng có nguy cơ làm tăng khả năng bị máu tụ dưới màng cứng' và nhóm nghiện rượu cũng có trong bài. Bài không nêu mốc 3 tuần (đúng như mục viết)."
+  - text: "Bẫy 3: cả hai bệnh viện nêu thuốc chống đông hoặc kháng kết tập tiểu cầu là yếu tố nguy cơ"
+    source_url: https://benhvien108.vn/mau-tu-duoi-mang-cung-man-tinh-o-nguoi-cao-tuoi.htm
+    quote: "Những người đang điều trị và sử dụng thuốc kháng đông cũng có nguy cơ làm tăng khả năng bị máu tụ dưới màng cứng sau chấn thương đầu do bị rối loạn chức năng đông máu."
+    verdict: partial
+    note: "BV 108 chỉ nói thuốc chống đông/kháng đông, không nói thuốc kháng kết tập tiểu cầu; chỉ bài Huế nói 'sử dụng thuốc chống đông hoặc thuốc chống ngưng tập tiểu cầu'. Câu 'cả hai bệnh viện nêu thuốc này' quá rộng."
+  - text: "NHS: triệu chứng máu tụ dưới màng cứng gồm mất thăng bằng và té ngã, ngủ lịm, nói ngọng và khó nuốt, yếu liệt một bên, co giật; có thể bắt đầu ngay hoặc từ từ trong vài tuần"
+    source_url: https://www.nhs.uk/conditions/subdural-haematoma/
+    quote: "The symptoms may start straight away, or come on gradually over a few weeks. ... drowsiness; slurred speech and problems with swallowing; ... loss of balance and having falls; having problems moving one side of your body (paralysis); seizures (fits)"
+    verdict: match
+    note: "Trang NHS xem lại 10/07/2025, kỳ tới 10/07/2028."
+  - text: "NHS: gọi xe cấp cứu khi vừa đập đầu và có: khó tỉnh hoặc khó mở mắt, co giật, tê hoặc yếu một phần cơ thể, khó đi/mất thăng bằng/khó hiểu/khó nói hoặc viết; không tự lái xe tới khoa cấp cứu"
+    source_url: https://www.nhs.uk/conditions/subdural-haematoma/
+    quote: "Immediate action required: Call 999 if: Someone has hit their head and has: ... difficulty staying awake or keeping their eyes open; a fit (seizure); ... numbness or weakness in part of their body; problems with walking, balance, understanding, speaking or writing ... Do not drive to A&E."
+    verdict: match
+    note: "Mục viết đúng 'khi vừa đập đầu và có'. Lưu ý điều kiện này là chấn thương MỚI; xem partial/potential_harm về việc áp cho ca khởi phát muộn."
+  - text: "NHS cũng khuyên đi khoa cấp cứu nếu đang dùng thuốc làm loãng máu"
+    source_url: https://www.nhs.uk/conditions/subdural-haematoma/
+    quote: "Immediate action required: Go to A&E if: You or your child have had a head injury and have: ... a blood clotting disorder (like haemophilia) or you take medicine to thin your blood"
+    verdict: partial
+    note: "NHS đặt điều kiện 'have had a head injury and have ...'. Mục bỏ điều kiện chấn thương đầu. Với kịch bản của mục (đã đập đầu từ trước) vẫn có thể áp dụng, nhưng mục không nói rõ."
+  - text: "Ở Việt Nam số gọi cấp cứu là 115 (diễn giải từ trang NHS dùng 999)"
+    source_url: https://www.nhs.uk/conditions/subdural-haematoma/
+    quote: "Immediate action required: Call 999 if:"
+    verdict: inference
+    note: "Mục gắn nhãn 'diễn giải' trung thực; 115 là số cấp cứu y tế Việt Nam (QĐ 636/5332 trong cùng chương dùng 115)."
+  - text: "Step 2: nếu chỉ thay đổi dần thì 'đưa đi khám ở bệnh viện có chuyên khoa, khám ngoại thần kinh và chụp CT sọ' (không nêu thời hạn)"
+    source_url: https://www.nhs.uk/conditions/subdural-haematoma/
+    quote: "Immediate action required: Go to A&E if: You or your child have had a head injury and have: ... a headache that does not go away with painkillers; ... problems with memory; ... a blood clotting disorder (like haemophilia) or you take medicine to thin your blood"
+    verdict: inference
+    note: "Không nguồn nào trong mục nói 'đi khám chuyên khoa' là đủ cho đau đầu/lú lẫn mới xuất hiện ở người già có tiền sử đập đầu; NHS xếp đau đầu không đỡ với thuốc giảm đau, vấn đề trí nhớ, dùng thuốc loãng máu vào mức đi khoa cấp cứu. Xem potential_harm."
+  - text: "Bẫy 4: chờ lịch khám chuyên khoa khi đã yếu liệt nửa người, khó tỉnh, co giật: 'Đó là mức gọi cấp cứu theo NHS'"
+    source_url: https://www.nhs.uk/conditions/subdural-haematoma/
+    quote: "Immediate action required: Call 999 if: Someone has hit their head and has: ... difficulty staying awake or keeping their eyes open; a fit (seizure); ... numbness or weakness in part of their body"
+    verdict: partial
+    note: "Hướng đúng, nhưng nhãn 'theo NHS' mở rộng điều kiện 'vừa đập đầu' sang ca khởi phát sau vài tuần; nên ghi là suy ra."
+internal_checks:
+  - issue: "tldr xếp 'ngủ nhiều' vào nhóm 'đi chụp CT' (đi khám), trong khi NHS (cùng trang mục dẫn) liệt kê 'drowsiness' là triệu chứng và 'difficulty staying awake' ở mức gọi 999. Ranh giới 'ngủ nhiều' và 'khó tỉnh' không rõ cho người đọc."
+    severity: warn
+  - issue: "Mức khẩn của step 2 không có thời hạn, trong khi cả ba nguồn mục dẫn đều nói bệnh có thể cần mổ và bài Huế ghi bệnh nhân 'tiếp cận điều trị khá muộn'. Chưa có nguồn nào cho khung 'đi khám chuyên khoa' (xem potential_harm)."
+    severity: warn
+  - issue: "Bẫy 3 nói cả hai bệnh viện nêu thuốc kháng kết tập tiểu cầu là yếu tố nguy cơ; BV 108 chỉ nói thuốc chống/kháng đông (xem claim partial)."
+    severity: warn
+  - issue: "Mục thiếu một cảnh báo có trong bài Huế (ca 2: bệnh nhân tự dùng aspirin để giảm đau đầu, phải ngưng): không tự dùng aspirin/thuốc chống đông để giảm đau đầu. Đây là đề xuất thêm, không phải lỗi sai."
+    severity: warn
+  - issue: "Mọi con số trong tldr/steps: không có số; 3 tuần, 5/100.000, 58/100.000 có trong thân và khớp nguồn. Không có chữ nội bộ lọt vào (đã tìm các cụm theo yêu cầu). Mục không có legal_refs nên không có url để kiểm (d)(e)."
+    severity: warn
+validity:
+  doc: "NHS Subdural haematoma (xem lại 10/07/2025); bài BV 108 (06/10/2020); bài BV Đại học Y-Dược Huế (23/07/2021)"
+  in_force: unconfirmed
+  effective_from: null
+  amended_by: []
+  basis: "Không có văn bản pháp quy/hướng dẫn Bộ Y tế; hai nguồn Việt là bài truyền thông bệnh viện 2020-2021, không có ngày hiệu lực. NHS xem lại 10/07/2025, kỳ tới 10/07/2028. Chưa kiểm hướng dẫn quốc tế chuyên khoa (ví dụ khuyến cáo phẫu thần kinh về máu tụ dưới màng cứng mạn tính) mới hơn."
+deliberate_vn_deviation: []
+potential_harm:
+  - "Step 2 ('Nếu chỉ thay đổi dần: đưa đi khám ở bệnh viện có chuyên khoa...') và tldr không nêu thời hạn hay mức khẩn cho người già mới đau đầu, lú lẫn, đi loạng choạng, ngủ nhiều sau tiền sử đập đầu. Người đọc làm đúng nguyên văn có thể hẹn lịch khám chuyên khoa vài ngày sau; NHS (cùng trang mục dẫn) xếp đau đầu không đỡ với thuốc giảm đau, vấn đề trí nhớ và dùng thuốc loãng máu vào mức 'đi khoa cấp cứu', và máu tụ có thể tăng kích thước/cần mổ. Cần ghi rõ: khám trong ngày (khoa cấp cứu hoặc bệnh viện có CT sọ), đặc biệt nếu đang dùng thuốc chống đông/kháng kết tập tiểu cầu hoặc nghiện rượu."
+suggested_edits:
+  - "Step 2 và tldr: thay 'đưa đi khám ở bệnh viện có chuyên khoa' bằng 'đưa đi khám ngay trong ngày tại bệnh viện có chụp CT sọ (khoa cấp cứu nếu đau đầu không đỡ với thuốc giảm đau, lú lẫn, đang dùng thuốc chống đông hoặc kháng kết tập tiểu cầu); không chờ lịch hẹn nhiều ngày' và gắn nhãn '(lời khuyên thực hành, suy ra từ NHS: đau đầu không đỡ, vấn đề trí nhớ, dùng thuốc loãng máu thuộc mức đi khoa cấp cứu khi đã đập đầu)'."
+  - "Bẫy 3: đổi 'Cả hai bệnh viện nêu thuốc này là yếu tố nguy cơ' thành 'BV 108 nêu thuốc chống đông; BV Huế nêu thuốc chống đông hoặc chống ngưng tập tiểu cầu' (quote Huế: 'sử dụng thuốc chống đông hoặc thuốc chống ngưng tập tiểu cầu')."
+  - "Mục NHS 'đi khoa cấp cứu nếu đang dùng thuốc làm loãng máu': thêm điều kiện 'sau khi đập đầu' đúng chữ NHS ('You or your child have had a head injury and have ... you take medicine to thin your blood')."
+  - "Bẫy 4: đổi 'Đó là mức gọi cấp cứu theo NHS' thành 'NHS ghi các dấu hiệu này ở người vừa đập đầu là mức gọi cấp cứu; áp dụng cho ca khởi phát muộn là suy ra'."
+  - "Tldr: tách 'ngủ nhiều' (đi khám trong ngày) khỏi 'khó tỉnh' (gọi 115) bằng một câu ví dụ để người đọc phân biệt; cân nhắc thêm 'không tự dùng aspirin để giảm đau đầu' (bài Huế, ca 2)."

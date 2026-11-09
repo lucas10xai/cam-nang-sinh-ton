@@ -1,0 +1,77 @@
+id: gap-mot-nhom-dang-danh-nhau-lui-ra-khong-can-khong-dung
+checker: agent-R2d13c
+checked_at: 2026-11-09
+content_sha256: "a27b79224dfbee6dc3ef9e935bcad577cfe336803eaf5c11a0257ff3a479764d"
+result: pass-with-edits
+claims:
+  - text: "Điều 22 khoản 1: chỉ coi là phòng vệ chính đáng khi chống trả cần thiết người đang xâm phạm; bao gồm bảo vệ người khác"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "Phòng vệ chính đáng là hành vi của người vì bảo vệ quyền hoặc lợi ích chính đáng của mình, của người khác hoặc lợi ích của Nhà nước, của cơ quan, tổ chức mà chống trả lại một cách cần thiết người đang có hành vi xâm phạm các lợi ích nói trên."
+    verdict: match
+    note: "Từ 'Chỉ coi là' trong mục là cách nói của người viết; luật định nghĩa phòng vệ chính đáng, không dùng chữ 'chỉ'. Ý khớp."
+  - text: "Điều 22 khoản 2: chống trả rõ ràng quá mức cần thiết thì vẫn phải chịu trách nhiệm hình sự"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "Vượt quá giới hạn phòng vệ chính đáng là hành vi chống trả rõ ràng quá mức cần thiết, không phù hợp với tính chất và mức độ nguy hiểm cho xã hội của hành vi xâm hại. Người có hành vi vượt quá giới hạn phòng vệ chính đáng phải chịu trách nhiệm hình sự theo quy định của Bộ luật này."
+    verdict: match
+    note: ""
+  - text: "Điều 132: người 'tuy có điều kiện mà không cứu giúp dẫn đến hậu quả người đó chết'"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "Người nào thấy người khác đang ở trong tình trạng nguy hiểm đến tính mạng, tuy có điều kiện mà không cứu giúp dẫn đến hậu quả người đó chết, thì bị phạt cảnh cáo, phạt cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm."
+    verdict: match
+    note: "Trích đúng cụm. Xem claim tiếp theo về phần mục suy ra thêm."
+  - text: "'gọi 113/115 từ nơi an toàn chính là cách cứu giúp hợp pháp' (liên hệ Điều 132)"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: ""
+    verdict: inference
+    note: "Điều 132 không định nghĩa 'cứu giúp' và không nhắc gọi tổng đài. Câu này là suy ra nhưng viết như khẳng định pháp lý, không gắn nhãn 'suy ra'. Người đọc có thể hiểu là được miễn trách nhiệm nếu chỉ gọi điện. Điều 132 cũng yêu cầu 'có điều kiện' và hậu quả chết nên khó áp dụng cho người bị thương chưa chết; mục không nêu điều đó."
+  - text: "113 tiếp nhận tin báo cướp giật, gây rối, bạo hành và hành vi có dấu hiệu tội phạm; 115 là cấp cứu y tế cho tai nạn, chấn thương nặng"
+    source_url: https://congan.dienbien.gov.vn/Danh-muc-tin-tuc/tong-hop-cac-so-dien-thoai-khan-cap-quoc-gia-ghi-nho-de-bao-ve-minh-va-ho-tro-nguoi-khac-13182.html
+    quote: "115 – Cấp cứu y tế: Sử dụng khi có tai nạn, chấn thương nặng, các tình huống bệnh lý nguy hiểm đến tính mạng cần cấp cứu khẩn cấp."
+    verdict: match
+    note: "113 'Tiếp nhận tin báo về cướp giật, trộm cắp, gây rối, bạo hành, tai nạn giao thông và các hành vi có dấu hiệu tội phạm' cũng có trong trang."
+  - text: "Cả hai số miễn phí, bấm trực tiếp không cần mã vùng khi cùng khu vực; gọi hỗ trợ người ở địa phương khác thì bấm mã vùng trước"
+    source_url: https://congan.dienbien.gov.vn/Danh-muc-tin-tuc/tong-hop-cac-so-dien-thoai-khan-cap-quoc-gia-ghi-nho-de-bao-ve-minh-va-ho-tro-nguoi-khac-13182.html
+    quote: "người dân khi ở trong cùng khu vực chỉ cần bấm trực tiếp số 113, 114, 115… mà không cần mã vùng. Trường hợp gọi hỗ trợ cho người đang ở địa phương khác phải bấm mã vùng địa phương đó trước số khẩn cấp. ... các cuộc gọi đến số khẩn cấp hoàn toàn miễn phí."
+    verdict: match
+    note: ""
+  - text: "Bước: lùi ra, đừng can, đừng nhặt vũ khí; 'bước lùi ra rồi mới gọi là suy ra từ ranh giới phòng vệ'"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: ""
+    verdict: inference
+    note: "Mục tự gắn nhãn 'suy ra, không phải điều luật' (Ghi chú, Bẫy 1). Trung thực. Lời khuyên an toàn thân thể thông dụng, không có hướng dẫn gốc cụ thể."
+  - text: "Bước 4 / Bẫy 2: quay clip từ xa, sau vật cản, rồi rời đi; người quay ở gần dễ bị nhận mặt, bị đuổi, bị giữ điện thoại"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: ""
+    verdict: inference
+    note: "Step gắn nhãn 'lời khuyên thực hành, chưa có nguồn'. Câu mô tả rủi ro trong Bẫy 2 thì không gắn nhãn nhưng cùng bản chất."
+  - text: "Gọi 115 ngay từ chỗ an toàn khi có người bị thương nặng, chảy máu nhiều hoặc nằm xuống; không lao vào kéo người ra giữa nhóm đang đánh nhau"
+    source_url: https://congan.dienbien.gov.vn/Danh-muc-tin-tuc/tong-hop-cac-so-dien-thoai-khan-cap-quoc-gia-ghi-nho-de-bao-ve-minh-va-ho-tro-nguoi-khac-13182.html
+    quote: "115 – Cấp cứu y tế: Sử dụng khi có tai nạn, chấn thương nặng, các tình huống bệnh lý nguy hiểm đến tính mạng cần cấp cứu khẩn cấp."
+    verdict: partial
+    note: "Trang nguồn chỉ nói 115 dùng cho chấn thương nặng. Các tiêu chí 'chảy máu nhiều/nằm xuống' và 'không lao vào kéo ra' là phán đoán của người viết, không có hướng dẫn sơ cứu gốc (WHO/AHA/ERC/Chữ thập đỏ: an toàn hiện trường trước khi cứu nạn nhân là nguyên tắc chung, nhưng mục không dẫn). Không có nguồn quốc tế được dẫn."
+internal_checks:
+  - issue: "tldr nói 'Đến chỗ an toàn rồi gọi 113; ... gọi 115 ngay'; steps xếp 113 (bước 2) trước 115 (bước 3). Thứ tự dễ làm người đọc gọi 113 xong mới gọi 115 trong khi có người nằm xuống/chảy máu. Nên ghi rõ: nếu có người bị thương nặng thì gọi 115 trước hoặc ngay lập tức, có thể nhờ người khác gọi 113."
+    severity: warn
+  - issue: "Câu về Điều 132 ('gọi 113/115 chính là cách cứu giúp hợp pháp') không gắn nhãn 'suy ra' dù là suy luận pháp lý, và có thể bị hiểu là miễn trách nhiệm."
+    severity: warn
+  - issue: "Cụm 'nhận định của người soạn' trong Bẫy 3 và 'lời khuyên thực hành, chưa có nguồn' trong step là nhãn trung thực nhưng 'người soạn' để lộ quy trình biên tập cho người đọc. Nên đổi thành 'nhận định, không phải chữ của luật'."
+    severity: warn
+  - issue: "Mọi con số trong tldr/steps (113, 115) có trong thân. Không có số tiền/ngày/mức phạt trong mục. Không mâu thuẫn số liệu với mục 36 cùng chương (113 miễn phí, bấm trực tiếp) — khớp."
+    severity: warn
+  - issue: "legal_refs[1] Điều 132 có quote và URL đúng văn bản BLHS hợp nhất. legal_refs[0] Điều 22 khớp claim. Không có lỗi URL."
+    severity: warn
+validity:
+  doc: "Bộ luật Hình sự 100/2015/QH13, bản hợp nhất 135/VBHN-VPQH (2025)"
+  in_force: true
+  effective_from: "2018-01-01"
+  amended_by:
+    - "Luật 12/2017/QH14"
+    - "Luật 59/2024/QH15 (hiệu lực 01/01/2026)"
+    - "Luật 86/2025/QH15 (hiệu lực 01/07/2025)"
+  basis: "Trang đầu 135/VBHN-VPQH liệt kê sửa đổi đến Luật 86/2025/QH15; tìm kiếm 2026-11-09 chỉ thấy dự thảo BLHS 2026 chưa thông qua. Điều 22 và 132 có trong bản này. Bản hợp nhất đã 14 tháng tuổi; không tra được bản mới hơn."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Mục 'Ghi chú', Đừng hiểu ngược: câu 'gọi 113/115 từ nơi an toàn chính là cách cứu giúp hợp pháp' sửa thành 'Suy ra, không phải chữ của luật: gọi 113/115 từ chỗ an toàn là việc có ích; Điều 132 chỉ nói tới người tuy có điều kiện mà không cứu giúp dẫn đến hậu quả người đó chết, và không nói rõ thế nào là đủ cứu giúp'. Dựa vào quote Điều 132."
+  - "tldr và steps: viết rõ 'có người bị thương nặng, chảy máu nhiều hoặc nằm xuống thì gọi 115 trước/ngay (có thể nhờ người khác gọi 113)' để không tạo cảm giác phải gọi 113 xong mới tới 115."
+  - "Bẫy 3: bỏ cụm 'nhận định của người soạn', thay bằng 'nhận định, không phải chữ của luật'."

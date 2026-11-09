@@ -1,0 +1,108 @@
+{
+ "id": "nuoc-o-ngoai-troi-phai-dun-soi-moi-uong-soi-mot-phut",
+ "checker": "agent-R2d13b",
+ "checked_at": "2026-11-08",
+ "content_sha256": "3bd41cabcfb8ddb1bd75161c9c10fb9af4557963e21c044ba3a24e46a26697bc",
+ "result": "pass-with-edits",
+ "claims": [
+  {
+   "text": "Nước sôi giết mọi vi sinh vật gây bệnh trong vài giây; CDC khuyên đun sôi trọn một phút",
+   "source_url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html",
+   "quote": "All organisms that may cause illness from drinking water are killed within seconds at boiling temperature. ... Any water brought to a boil should be adequately disinfected; however, CDC recommends that travelers boil water for a full minute to account for user variability in identifying boiling.",
+   "verdict": "match",
+   "note": "Bản gương web.archive.org của đúng URL CDC (URL gốc trả 403 với curl)."
+  },
+  {
+   "text": "Ở độ cao du lịch thường gặp nhiệt độ sôi vẫn cao hơn nhiều mức cần diệt mầm bệnh; ~4.900 m nước sôi ở ~83°C",
+   "source_url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html",
+   "quote": "at common travel elevations the temperature needed to achieve boiling is still well above the temperature required to inactivate enteric pathogens. For example, at approximately 4,900 m (16,000 ft) elevation, the boiling temperature of water is approximately 83°C (182°F).",
+   "verdict": "match",
+   "note": "Bản gương web.archive.org của đúng URL CDC (URL gốc trả 403 với curl)."
+  },
+  {
+   "text": "Bộ lọc vi lọc xách tay không loại bỏ chắc chắn vi rút đường ruột (ví dụ norovirus)",
+   "source_url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html",
+   "quote": "Portable microfilters do not reliably remove enteric viruses (e.g., norovirus) that have an average size of 0.03 µm",
+   "verdict": "match",
+   "note": "Bản gương web.archive.org của đúng URL CDC (URL gốc trả 403 với curl)."
+  },
+  {
+   "text": "Clo, i-ốt diệt kém Cryptosporidium; nước đục làm giảm hiệu quả hóa chất, cần làm trong trước",
+   "source_url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html",
+   "quote": "Iodine is physiologically active, with potential adverse effects Not readily effective against Cryptosporidium oocysts Effectiveness decreases with cloudy water",
+   "verdict": "partial",
+   "note": "Câu CDC về \"not readily effective against Cryptosporidium\" thuộc nhóm halogen/iodine; CDC nói rõ chlorine dioxide hiệu quả với Cryptosporidium (nhưng viên/giọt chlorine dioxide cần tiếp xúc nhiều giờ). Mục nói \"viên khử trùng\" chung chung, bỏ ngoại lệ; không gây hại vì mục ưu tiên đun sôi. Bản gương web.archive.org của đúng URL CDC (URL gốc trả 403 với curl)."
+  },
+  {
+   "text": "Nước mặt trong gần nơi người/động vật hoạt động: cần nhiệt hoặc tia UV, hoặc vi lọc kèm halogen, hoặc siêu lọc",
+   "source_url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html",
+   "quote": "Clear surface water near human and animal activity c All enteric pathogens, including Cryptosporidium Heat, UVR Microfilter plus halogen (can be done in either order); ultrafiltration",
+   "verdict": "match",
+   "note": "Bản gương web.archive.org của đúng URL CDC (URL gốc trả 403 với curl)."
+  },
+  {
+   "text": "steps[2]: không đun được -> làm trong nước, rồi dùng viên khử trùng, chờ 30 phút",
+   "source_url": "https://soyte.hatinh.gov.vn/tin-tuc-su-kien/thong-tin-y-te/y-te-du-phong/bo-y-te-huong-dan-cach-xu-ly-nuoc-sinh-hoat-trong-mua-mua-ba.html",
+   "quote": "Viên Cloramine B 0,25g: Cho 1 viên Cloramin B 0,25g vào thùng đựng 25 lít nước đã được làm trong, khuấy đều, đậy nắp, chờ 30 phút sau có thể sử dụng làm nước sinh hoạt được. || Viên Aquatab 67mg: Cho 1 viên Aquatabs 67mg vào thùng đựng 20 lít nước đã được làm trong, khuấy đều, đậy nắp chờ 30 phút có thể sử dụng được.",
+   "verdict": "partial",
+   "note": "\"30 phút\" là thời gian của cloramin B và Aquatabs ở liều nước sinh hoạt (Bộ Y tế), và nguồn nói \"nước này vẫn phải đun sôi rồi mới uống trực tiếp được\". CDC: viên/giọt chlorine dioxide cần tiếp xúc nhiều giờ. steps[2] dùng \"30 phút\" cho \"viên khử trùng\" chung, không gắn loại viên."
+  },
+  {
+   "text": "Liều khử trùng: một viên Cloramin B 0,25 g cho 25 lít nước, một viên Aquatabs 67 mg cho 20 lít; không khử trùng đồng thời với đánh phèn",
+   "source_url": "https://soyte.hatinh.gov.vn/tin-tuc-su-kien/thong-tin-y-te/y-te-du-phong/bo-y-te-huong-dan-cach-xu-ly-nuoc-sinh-hoat-trong-mua-mua-ba.html",
+   "quote": "Một viên Cloramin B 0,25g có thể khử trùng được 25 lít nước, một viên Aquatabs 67mg có thể khử trùng được 20 lít nước trong. || Không tiến hành khử trùng đồng thời với đánh phèn vì phèn làm mất tác dụng khử trùng của Clo.",
+   "verdict": "match",
+   "note": "Bản đăng lại trên trang Sở Y tế Hà Tĩnh, cuối bài ghi \"Nguồn: Cục phòng bệnh - Bộ Y tế\"; chưa mở bản gốc trên trang Bộ."
+  },
+  {
+   "text": "Bộ Y tế: nước đã khử trùng dùng sinh hoạt nhưng vẫn phải đun sôi rồi mới uống trực tiếp; nước sau đun sôi không để quá lâu",
+   "source_url": "https://soyte.hatinh.gov.vn/tin-tuc-su-kien/thong-tin-y-te/y-te-du-phong/bo-y-te-huong-dan-cach-xu-ly-nuoc-sinh-hoat-trong-mua-mua-ba.html",
+   "quote": "Nước đã được khử trùng có thể sử dụng cho mục đích sinh hoạt. Tuy nhiên nước này vẫn phải đun sôi rồi mới uống trực tiếp được. || Nước sau khi đun sôi không được để quá lâu, nên thường xuyên đun nước mới hàng ngày để uống.",
+   "verdict": "match"
+  },
+  {
+   "text": "Sở Y tế Gia Lai (WHO và Bộ Y tế sau bão Noru): uống nước đóng chai, dùng viên khử trùng nước hoặc đun sôi nước trong ít nhất 1 phút",
+   "source_url": "https://syt.gialai.gov.vn/vi/news/tin-hoat-dong-so/infographic-huong-dan-ve-sinh-ca-nhan-ve-sinh-moi-truong-va-xu-ly-nuoc-an-uong-mua-bao-lu-2792.html",
+   "quote": "Uống nước đóng chai, dùng viên khử trùng nước hoặc đun sôi nước trong ít nhất 1 phút",
+   "verdict": "match",
+   "note": "Bối cảnh bão lũ; trang đăng 14/10/2022. Nguồn VN này xếp viên khử trùng ngang hàng với đun sôi, nhưng cùng trang nói \"Nếu uống trực tiếp, vẫn phải đun sôi nước trước khi uống\"."
+  }
+ ],
+ "internal_checks": [
+  {
+   "issue": "Ghi chú còn ngôn ngữ quy trình: \"liều khử trùng lấy từ trang tỉnh dẫn Bộ Y tế, chưa mở bản gốc trên trang Bộ\", \"Không có nghiên cứu Việt Nam nào so mốc một phút…\", \"mục dừng ở B\". Lộ quy trình, nên viết cho người đọc.",
+   "severity": "warn"
+  },
+  {
+   "issue": "steps[2] \"chờ 30 phút\" áp cho \"viên khử trùng\" không phân loại; nguồn 30 phút là của cloramin B/Aquatabs; CDC nói viên chlorine dioxide cần nhiều giờ. Cần gắn \"theo tờ hướng dẫn sản phẩm\".",
+   "severity": "warn"
+  },
+  {
+   "issue": "Số trong tldr/steps (một phút, 30 phút) có trong thân; mục tự nêu trung thực hai hướng dẫn lệch nhau (Bộ Y tế vs CDC). Không mâu thuẫn số trong mục.",
+   "severity": "warn"
+  },
+  {
+   "issue": "Nguồn VN (Gia Lai, Hà Tĩnh) viết cho bối cảnh bão lũ/nước sinh hoạt, không phải đi rừng; mục đã nói rõ. Không mâu thuẫn với mục khác cùng chương.",
+   "severity": "warn"
+  }
+ ],
+ "validity": {
+  "doc": "CDC Yellow Book \"Water Disinfection for Travelers\"; hướng dẫn Bộ Y tế/Cục Phòng bệnh (qua Sở Y tế Hà Tĩnh); Sở Y tế Gia Lai (14/10/2022)",
+  "in_force": true,
+  "effective_from": null,
+  "amended_by": [],
+  "basis": "Trang CDC Yellow Book hiện hành (bản gương archive.org). Bài Bộ Y tế qua Sở Y tế Hà Tĩnh không ghi ngày; bài Gia Lai 14/10/2022; không phát hiện hướng dẫn mới hơn mâu thuẫn. Hướng dẫn y tế không có hiệu lực pháp lý."
+ },
+ "deliberate_vn_deviation": [
+  "Bộ Y tế (mùa mưa lũ) yêu cầu đun sôi cả nước đã khử trùng hóa chất trước khi uống; CDC coi khử trùng hóa chất là một phương pháp độc lập (với giới hạn Cryptosporidium, nước đục). Mục nêu cả hai và ưu tiên đun sôi: an toàn.",
+  "Nguồn VN dùng liều cloramin cho nước sinh hoạt (25 lít/viên); CDC cho nước du lịch dùng liều theo sản phẩm; mục không đưa liều vào steps."
+ ],
+ "potential_harm": [
+  "steps[2] \"dùng viên khử trùng, chờ 30 phút\" áp chung cho mọi viên: 30 phút đúng cho cloramin B/Aquatabs ở liều nước sinh hoạt (Bộ Y tế), nhưng viên/giọt chlorine dioxide cần nhiều giờ (CDC) và các viên khác theo nhãn; người đọc có thể uống sớm. Mức: thấp (steps nói đây không thay đun sôi)."
+ ],
+ "suggested_edits": [
+  "steps[2]: đổi \"chờ 30 phút\" thành \"chờ đúng thời gian ghi trên tờ hướng dẫn của viên (cloramin B, Aquatabs: 30 phút theo Bộ Y tế; viên chlorine dioxide thường lâu hơn)\".",
+  "steps[3]/Lợi ích: nêu chlorine dioxide hiệu quả với Cryptosporidium nhưng cần nhiều giờ (CDC), để \"viên clo diệt kém Cryptosporidium\" không bị hiểu cho mọi loại viên.",
+  "Ghi chú: bỏ ngôn ngữ biên tập (\"chưa mở bản gốc trên trang Bộ\", \"mục dừng ở B\") hoặc viết lại cho người đọc."
+ ]
+}

@@ -1,0 +1,81 @@
+id: bi-nguoi-la-chan-duong-doi-tien-o-noi-vang-dua-tien
+checker: agent-R2d13c
+checked_at: 2026-11-09
+content_sha256: "dc3a6d056d09d69f944614f7f02a252a14b2bd52d1f12a4392cce25e5e7f3522"
+result: pass-with-edits
+claims:
+  - text: "Điều 168 khoản 1: dùng vũ lực/đe dọa vũ lực ngay tức khắc nhằm chiếm đoạt tài sản thì phạt tù 03 đến 10 năm"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "Người nào dùng vũ lực, đe dọa dùng vũ lực ngay tức khắc hoặc có hành vi khác làm cho người bị tấn công lâm vào tình trạng không thể chống cự được nhằm chiếm đoạt tài sản, thì bị phạt tù từ 03 năm đến 10 năm."
+    verdict: match
+    note: "Trang PDF trích được chữ (pdftotext). Khớp."
+  - text: "Điều 168 khoản 2: 07 đến 15 năm khi có tổ chức; gây thương tích 11%-30%; vũ khí/phương tiện/thủ đoạn nguy hiểm; chiếm đoạt 50 triệu đến dưới 200 triệu"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 07 năm đến 15 năm: a) Có tổ chức; ... c) Gây thương tích hoặc gây tổn hại cho sức khỏe của người khác mà tỷ lệ tổn thương cơ thể từ 11% đến 30%; d) Sử dụng vũ khí, phương tiện hoặc thủ đoạn nguy hiểm khác; đ) Chiếm đoạt tài sản trị giá từ 50.000.000 đồng đến dưới 200.000.000 đồng;"
+    verdict: match
+    note: ""
+  - text: "Điều 168 khoản 3 và 4: 12-20 năm; 18-20 năm, chung thân khi làm chết người"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "4. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 18 năm đến 20 năm hoặc tù chung thân: ... c) Làm chết người;"
+    verdict: partial
+    note: "Khoản 3 là 12-20 năm đúng. Khoản 4: mức 18-20 năm HOẶC tù chung thân áp dụng cho mọi trường hợp a-d của khoản 4 (500 triệu trở lên, 61% trở lên, làm chết người, lợi dụng chiến tranh/khẩn cấp). Câu trong mục 'chung thân khi làm chết người' dễ hiểu là chung thân chỉ dành cho làm chết người. Cần sửa lời."
+  - text: "Điều 22 khoản 1: phòng vệ chính đáng là chống trả cần thiết người đang có hành vi xâm phạm"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "Phòng vệ chính đáng là hành vi của người vì bảo vệ quyền hoặc lợi ích chính đáng của mình, của người khác hoặc lợi ích của Nhà nước, của cơ quan, tổ chức mà chống trả lại một cách cần thiết người đang có hành vi xâm phạm các lợi ích nói trên."
+    verdict: match
+    note: ""
+  - text: "Điều 22 khoản 2: chống trả rõ ràng quá mức cần thiết thì vẫn phải chịu trách nhiệm hình sự"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "Vượt quá giới hạn phòng vệ chính đáng là hành vi chống trả rõ ràng quá mức cần thiết, không phù hợp với tính chất và mức độ nguy hiểm cho xã hội của hành vi xâm hại. Người có hành vi vượt quá giới hạn phòng vệ chính đáng phải chịu trách nhiệm hình sự theo quy định của Bộ luật này."
+    verdict: match
+    note: ""
+  - text: "113 tiếp nhận tin báo cướp giật, trộm cắp, gây rối, bạo hành, tai nạn giao thông và hành vi có dấu hiệu tội phạm"
+    source_url: https://congan.dienbien.gov.vn/Danh-muc-tin-tuc/tong-hop-cac-so-dien-thoai-khan-cap-quoc-gia-ghi-nho-de-bao-ve-minh-va-ho-tro-nguoi-khac-13182.html
+    quote: "113 – Lực lượng Công an: Tiếp nhận tin báo về cướp giật, trộm cắp, gây rối, bạo hành, tai nạn giao thông và các hành vi có dấu hiệu tội phạm, ảnh hưởng đến an ninh trật tự."
+    verdict: match
+    note: "Cổng Công an tỉnh Điện Biên (cơ quan nhà nước), không phải văn bản quy phạm; chấp nhận cho số điện thoại."
+  - text: "Gọi số khẩn cấp miễn phí; cùng khu vực bấm trực tiếp không cần mã vùng"
+    source_url: https://congan.dienbien.gov.vn/Danh-muc-tin-tuc/tong-hop-cac-so-dien-thoai-khan-cap-quoc-gia-ghi-nho-de-bao-ve-minh-va-ho-tro-nguoi-khac-13182.html
+    quote: "người dân khi ở trong cùng khu vực chỉ cần bấm trực tiếp số 113, 114, 115… mà không cần mã vùng. ... Theo quy định của Luật Viễn thông, các cuộc gọi đến số khẩn cấp hoàn toàn miễn phí."
+    verdict: match
+    note: "Mục nêu đúng 'theo Luật Viễn thông' qua trang này; không tự mở Luật Viễn thông."
+  - text: "Bước 1: đưa tiền (và đồ khác nếu bị đòi), không giằng co, không đuổi theo, vì an toàn thân thể trước"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: ""
+    verdict: inference
+    note: "Không có nguồn trong mục hay trong luật dặn việc này; mục gắn nhãn 'suy ra, không có nguồn đo' và Ghi chú nói rõ. Nhãn trung thực. Đây là lời khuyên an ninh thông dụng, không phải y tế/pháp lý có căn cứ chữ."
+  - text: "Bước 3: không đi theo họ lên xe hay tới nơi khác"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: ""
+    verdict: inference
+    note: "Gắn nhãn 'suy ra, không có nguồn'. Trung thực."
+  - text: "Suy ra từ Điều 22 khoản 1: phòng vệ chỉ với người 'đang' xâm phạm; đuổi theo đánh khi họ đã bỏ chạy thì khó còn là phòng vệ"
+    source_url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf
+    quote: "chống trả lại một cách cần thiết người đang có hành vi xâm phạm các lợi ích nói trên"
+    verdict: inference
+    note: "Chữ 'đang' có trong điều luật; kết luận về việc đuổi theo là suy ra, nhãn 'Suy ra từ chữ đang' trung thực và suy ra hợp lý."
+internal_checks:
+  - issue: "Mọi con số trong tldr/steps (113, miễn phí, không cần mã vùng) có trong thân (Lợi ích). Không phát hiện mâu thuẫn số liệu trong mục (03-10, 07-15, 12-20, 18-20, 11%-30%, 50-200 triệu đều khớp luật, trừ cách diễn đạt chung thân ở khoản 4)."
+    severity: warn
+  - issue: "Câu 'Khoản 3 và khoản 4 nặng hơn: 12 đến 20 năm, và 18 đến 20 năm, chung thân khi làm chết người' gộp sai phạm vi chung thân (xem claim partial)."
+    severity: warn
+  - issue: "Cả 3 legal_refs dùng cùng URL 135-vbhn-vpqh.pdf: đúng văn bản BLHS hợp nhất, Điều 22 và 168 có trong đó. Không phát hiện lỗi URL. legal_refs[].quote đều null (cho phép)."
+    severity: warn
+  - issue: "Không còn chữ nội bộ (báo cáo kiểm chứng, bản nháp, [INFERENCE], Còn treo, sổ kiểm chứng) trong thân. Nhãn 'suy ra' hiển thị cho người đọc là chủ ý biên tập (EDITORIAL) chứ không phải chữ rò rỉ."
+    severity: warn
+  - issue: "Frontmatter verification.scope còn nhắc 'potential_harm' và đường dẫn báo cáo b/ của đợt trước (metadata, không hiển thị trong thân); sẽ được apply.mjs ghi đè khi áp báo cáo mới."
+    severity: warn
+validity:
+  doc: "Bộ luật Hình sự 100/2015/QH13, bản hợp nhất 135/VBHN-VPQH (2025)"
+  in_force: true
+  effective_from: "2018-01-01"
+  amended_by:
+    - "Luật 12/2017/QH14 (hiệu lực 01/01/2018)"
+    - "Luật Tư pháp người chưa thành niên 59/2024/QH15 (hiệu lực 01/01/2026)"
+    - "Luật 86/2025/QH15 (hiệu lực 01/07/2025)"
+  basis: "Trang đầu bản hợp nhất 135/VBHN-VPQH liệt kê các luật sửa đổi tính đến Luật 86/2025/QH15. Tìm kiếm ngày 2026-11-09 chỉ thấy dự thảo BLHS sửa đổi 2026 (chưa thông qua), không thấy luật mới thay Điều 22/168. Lưu ý: bản hợp nhất cũ hơn 14 tháng; không tra được bản hợp nhất mới hơn."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Mục 'Pháp luật Việt Nam', bullet 'Khoản 3 và khoản 4 nặng hơn': sửa thành 'Khoản 3: 12 đến 20 năm. Khoản 4: 18 đến 20 năm hoặc tù chung thân, trong đó có trường hợp làm chết người (Điều 168 khoản 4)'. Dựa vào quote khoản 4."
+  - "Không bắt buộc: thêm một câu rằng 'đưa tiền thì an toàn hơn' là lời khuyên an ninh thông dụng chứ không phải quy định; hiện Ghi chú đã nói rõ nên chỉ ghi nhận."

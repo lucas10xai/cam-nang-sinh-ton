@@ -1,0 +1,79 @@
+id: dau-du-doi-nhu-bi-xe-tu-nguc-chay-ra-sau-lung
+checker: agent-R2d13a
+checked_at: 2026-11-08
+content_sha256: "5e177e2b4e72dae27c38a35e03feb811f2a443f565981932b50ad42a24cd0440"
+result: pass-with-edits
+claims:
+  - text: "Gọi cấp cứu 115 để được tư vấn, cấp cứu và vận chuyển nạn nhân đến bệnh viện hoặc cơ sở y tế gần nhất (QĐ 636/QĐ-BYT 2025, Phần I mục 4.2)"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: "4.2. Kêu gọi sự trợ giúp từ xung quanh và (hoặc) hỗ trợ của y tế. - Gọi cấp cứu 115 để được tư vấn, cấp cứu và vận chuyển nạn nhân đến bệnh viện hoặc cơ sở y tế gần nhất."
+    verdict: match
+    note: "PDF quét/OCR nhiễu, trích bằng pdftotext (dấu OCR sai đã chuẩn hóa). Số QĐ, ngày 21 tháng 02 năm 2025 và Điều 2 'có hiệu lực kể từ ngày ký ban hành' đều đọc được trong bản này. Đây là tài liệu sơ cứu tại nơi làm việc, chỉ làm cơ sở chung cho việc gọi 115, không nói gì về lóc tách động mạch chủ."
+  - text: "Việt Đức: lóc tách ĐMC loại A cấp tính là bệnh lý tim mạch rất nặng, phải được chẩn đoán và phẫu thuật cấp cứu kịp thời"
+    source_url: https://benhvienvietduc.org/8-gio-pha%CC%83u-thua%CC%A3t-mang-su%CC%A3-song-cho-be%CC%A3nh-nhan-bi%CC%A3-loc-tach-do%CC%A3ng-ma%CC%A3ch-chu%CC%89-nhieu-bien-chung-nguy-ki%CC%A3ch-2.html
+    quote: "lóc động mạch chủ loại A cấp tính là bệnh lý tim mạch rất nặng, đe dọa tính mạng người bệnh, nên đòi hỏi phải được chẩn đoán và phẫu thuật cấp cứu kịp thời."
+    verdict: match-secondary
+    note: "Bài đăng lại từ báo Sức khỏe & Đời sống (Thái Bình) trên cổng bệnh viện, 09/08/2019, lời PGS.TS Nguyễn Hữu Ước. Là bài báo chứ không phải hướng dẫn chuyên môn (AHA/ACC, ESC, Bộ Y tế). Chữ khớp nhưng không thuộc loại nguồn y tế được chấp nhận làm nguồn duy nhất."
+  - text: "Việt Đức: khi đã chẩn đoán lóc tách loại A cấp tính, người bệnh cần được chuyển ngay tới bệnh viện có khả năng phẫu thuật, tránh nhiều tuyến trung gian"
+    source_url: https://benhvienvietduc.org/8-gio-pha%CC%83u-thua%CC%A3t-mang-su%CC%A3-song-cho-be%CC%A3nh-nhan-bi%CC%A3-loc-tach-do%CC%A3ng-ma%CC%A3ch-chu%CC%89-nhieu-bien-chung-nguy-ki%CC%A3ch-2.html
+    quote: "Khi đã chẩn đoán lóc động mạch chủ type A cấp tính, người bệnh cần được chuyển ngay đến các bệnh viện có khả năng phẫu thuật, tránh phải trải qua nhiều tuyến trung gian, kéo dài thời gian làm nguy hiểm đến tính mạng"
+    verdict: match-secondary
+    note: "Cùng bài báo. Mục xử lý đúng: ghi rõ câu này dành cho người đã có chẩn đoán loại A và step 3 chỉ 'nếu bác sĩ đã chẩn đoán'."
+  - text: "Việt Đức: đã mổ cấp cứu thường quy hơn 250 ca trong gần 10 năm; những năm gần đây thành công trên 90% (bài đăng 2019)"
+    source_url: https://benhvienvietduc.org/8-gio-pha%CC%83u-thua%CC%A3t-mang-su%CC%A3-song-cho-be%CC%A3nh-nhan-bi%CC%A3-loc-tach-do%CC%A3ng-ma%CC%A3ch-chu%CC%89-nhieu-bien-chung-nguy-ki%CC%A3ch-2.html
+    quote: "Bệnh viện Hữu nghị Việt Đức là cơ sở y tế lớn của cả nước, đã thực hiện phẫu thuật cấp cứu thường quy điều trị lóc động mạch chủ loại A cho hơn 250 bệnh nhân trong gần 10 năm trở lại đây, nhiều nhất ở miền Bắc, với tỷ lệ thành công tới hơn 90% trong những năm gần đây"
+    verdict: match-secondary
+    note: "Con số khớp nguyên văn nhưng là số liệu tự công bố của bệnh viện trong một bài báo 2019, không phải nghiên cứu có DOI. Mục đã ghi rõ năm 2019 và nguồn."
+  - text: "Vinmec: cơn đau điển hình dữ dội như dao đâm hay như xé ngực, xuyên ra sau lưng, kéo dài nhiều giờ; nhiều khi cần morphin mới dịu"
+    source_url: https://www.vinmec.com/vie/benh/loc-tach-dong-mach-chu-2993
+    quote: "Đau ngực thường dữ dội, như dao đâm hay như xé ngực, xuyên ra sau lưng, kéo dài trong nhiều giờ. Nhiều khi cần phải dùng thuốc giảm đau loại morphin mới làm dịu được cơn đau"
+    verdict: match-secondary
+    note: "Trang bệnh học của bệnh viện tư, không ghi tác giả/nguồn tham khảo. Khớp chữ nhưng không phải hướng dẫn chuyên môn. Mục dùng 'như dao đâm hay như xé ngực': thân mục chỉ viết 'như dao đâm hay như xé ngực' đúng nguồn."
+  - text: "Vinmec: chụp cắt lớp vi tính đa dãy dựng hình ĐMC là cách chẩn đoán chính xác nhất"
+    source_url: https://www.vinmec.com/vie/benh/loc-tach-dong-mach-chu-2993
+    quote: "Chụp cắt lớp vi tính đa dãy có dựng hình động mạch chủ: là phương pháp chẩn đoán chính xác nhất."
+    verdict: match-secondary
+    note: "Cùng trang Vinmec."
+  - text: "Step 2: nói rõ 'đau dữ dội như bị xé, từ ngực chạy ra sau lưng, kéo dài nhiều giờ' khi gọi 115 (và Bẫy 3: nói thêm để người nhận cuộc gọi có đủ thông tin)"
+    source_url: https://www.vinmec.com/vie/benh/loc-tach-dong-mach-chu-2993
+    quote: "Đau ngực thường dữ dội, như dao đâm hay như xé ngực, xuyên ra sau lưng, kéo dài trong nhiều giờ."
+    verdict: inference
+    note: "Lời khuyên 'nói như vậy với tổng đài' là hướng dẫn thực hành, không có chữ trong nguồn nào; không gắn nhãn 'lời khuyên thực hành/suy ra'. Hướng đi an toàn. Cũng lưu ý: nguồn mô tả đặc trưng là khởi phát đột ngột; mục nhấn 'kéo dài nhiều giờ' nhưng không nhắc 'đột ngột', có thể làm người đọc nghĩ phải đau nhiều giờ mới gọi."
+  - text: "Không tự lái xe, không tự chở bằng xe máy; nơi đến do tổng đài 115 và bác sĩ cấp cứu quyết định"
+    source_url: https://cucgiamdinh.gov.vn/Portals/1/Quyt%20dnh%20636%20QD-BYT%20-%20ban%20hanh%20Tai%20liu%20so%20cu%2C%20cp%20cu%20%20ti%20noi%20lam%20vic_1.pdf
+    quote: "Gọi cấp cứu 115 để được tư vấn, cấp cứu và vận chuyển nạn nhân đến bệnh viện hoặc cơ sở y tế gần nhất."
+    verdict: inference
+    note: "QĐ 636 chỉ nói gọi 115 để được vận chuyển; 'không tự chở bằng xe máy' không có chữ trong nguồn nào của mục (khác mục 07 có QĐ 5332 6.2.1 nói không tự lái xe). Là lời dặn thận trọng hợp lý, nhưng nên gắn nhãn suy ra. Ghi chú Bẫy 2 chỉ nêu lý do 'người nhà chưa chẩn đoán được' (đúng logic)."
+  - text: "Step 4/Bẫy 1: không tự uống thuốc giảm đau rồi nằm chờ (cơn đau kiểu này kéo dài nhiều giờ, nhiều khi cần morphin mới dịu)"
+    source_url: https://www.vinmec.com/vie/benh/loc-tach-dong-mach-chu-2993
+    quote: "Nhiều khi cần phải dùng thuốc giảm đau loại morphin mới làm dịu được cơn đau"
+    verdict: inference
+    note: "Suy ra hợp lý; không nguồn nào nói 'đừng uống giảm đau'. Không gây hại."
+  - text: "Mục Ghi chú: Bộ Y tế chưa ban hành hướng dẫn riêng về bóc tách động mạch chủ có số hiệu để dẫn"
+    source_url: https://www.vinmec.com/vie/benh/loc-tach-dong-mach-chu-2993
+    quote: ""
+    verdict: not-found
+    note: "Khẳng định phủ định, không thể kiểm bằng một nguồn; không tìm thấy hướng dẫn riêng trong lượt này nhưng cũng không chứng minh được là không có. Nên đổi thành 'chưa dẫn được hướng dẫn riêng' thay vì khẳng định Bộ chưa ban hành. Ngoài ra mục không dẫn hướng dẫn quốc tế (AHA/ACC 2022 Aortic Disease, ESC) nên các lời khuyên hành động chỉ dựa trên bài báo/bệnh viện."
+internal_checks:
+  - issue: "Không có chữ nội bộ lọt vào (đã tìm 'báo cáo kiểm chứng', 'Còn treo', 'sổ kiểm chứng', 'bản nháp', 'Cần nguồn', INFERENCE). Nhãn B và câu 'Mức bằng chứng B, chưa lên A' là chú thích cho người đọc, trung thực."
+    severity: warn
+  - issue: "legal_refs[0].url trỏ đúng văn bản ghi ở doc (QĐ 636/QĐ-BYT ngày 21/02/2025): đã mở và đối chiếu số quyết định/ngày. article 'Phần I, mục 4.2' khớp khẳng định 'gọi 115'."
+    severity: warn
+  - issue: "Mục không có nguồn y tế chính thống (hướng dẫn AHA/ESC/Bộ Y tế) cho bất kỳ khẳng định lâm sàng nào: toàn bộ dựa trên một bài báo đăng lại (Việt Đức 2019) và một trang bệnh học bệnh viện tư (Vinmec), không ngày. Theo quy định chương 13 đây chưa đủ để lên source-checked."
+    severity: warn
+  - issue: "Con số duy nhất (250 ca, trên 90%, 2019) có trong thân; tldr/steps không có con số. Không mâu thuẫn số liệu."
+    severity: warn
+validity:
+  doc: "Quyết định 636/QĐ-BYT ngày 21/02/2025 (Bộ Y tế); bài Việt Đức 09/08/2019; trang Vinmec (không ngày)"
+  in_force: unconfirmed
+  effective_from: "2025-02-21"
+  amended_by: []
+  basis: "QĐ 636 Điều 2: 'có hiệu lực kể từ ngày ký ban hành'; không thấy văn bản sửa/thay thế trong lượt này nhưng không có nguồn chính thức xác nhận. Hai nguồn lâm sàng là bài truyền thông, không có ngày hiệu lực; chưa kiểm hướng dẫn quốc tế mới hơn."
+deliberate_vn_deviation: []
+potential_harm: []
+suggested_edits:
+  - "Thêm hoặc thay nguồn lâm sàng bằng hướng dẫn chính thống (ví dụ 2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease hoặc ESC) cho: đau dữ dội đột ngột xé ngực/lưng là dấu hiệu cảnh báo cần cấp cứu; nếu không dẫn được, giữ nguyên mức B và ghi rõ nguồn là truyền thông bệnh viện."
+  - "Step 2 và Bẫy 3: thêm nhãn '(lời khuyên thực hành, không phải chữ của nguồn)' và thêm chữ 'đột ngột' vào mô tả ('đột ngột đau dữ dội như bị xé') để tránh hiểu là phải đau nhiều giờ mới gọi."
+  - "Step 4 và Bẫy 2: gắn nhãn 'suy ra' cho 'không tự chở bằng xe máy'; hoặc thêm quote QĐ 5332 mục 6.2.1 ('Không khuyến cáo bệnh nhân tự động lái (đi) xe đến bệnh viện', áp dụng cho đau ngực nghi hội chứng vành cấp) kèm ghi chú đây là mục khác."
+  - "Ghi chú: đổi 'Bộ Y tế chưa ban hành hướng dẫn riêng ... có số hiệu để dẫn' thành 'chưa dẫn được hướng dẫn riêng của Bộ Y tế'."
+  - "Thêm một câu cảnh báo: không tự cho aspirin khi đau ngực nghi lóc tách (chưa rõ nguyên nhân) và dẫn ERC 2021 ('Do not administer aspirin to adults with chest pain of unclear or traumatic aetiology') vì người đọc có thể vừa đọc mục 07 về aspirin."

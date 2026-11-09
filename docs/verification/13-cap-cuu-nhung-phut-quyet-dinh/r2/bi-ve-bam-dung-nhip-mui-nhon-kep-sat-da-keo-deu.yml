@@ -1,0 +1,100 @@
+{
+ "id": "bi-ve-bam-dung-nhip-mui-nhon-kep-sat-da-keo-deu",
+ "checker": "agent-R2d13b",
+ "checked_at": "2026-11-08",
+ "content_sha256": "2a35010debcd1cc242e8d24e92130b9da509563a0d028c881534b17efa4fd8a8",
+ "result": "pass-with-edits",
+ "claims": [
+  {
+   "text": "Kẹp ve sát mặt da bằng nhíp mũi nhỏ sạch, tránh bóp bụng ve; kéo ra với lực đều, không xoay, không giật (xoay/giật có thể làm miệng ve gãy lại trong da)",
+   "source_url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+   "quote": "Grasp the tick as close to the skin's surface as possible using clean fine-tipped tweezers. ... Grasp the tick close to the skin's surface to avoid squeezing the tick's body. Pull tick away from the skin with steady, even pressure. Don't twist or jerk the tick. This can cause the tick mouthparts to break off and remain in the skin.",
+   "verdict": "match",
+   "note": "Bản gương web.archive.org của đúng URL CDC (URL gốc trả 403 với curl); trang đề \"June 9, 2026\"."
+  },
+  {
+   "text": "Không chờ tới cơ sở y tế mới gắp (chậm gắp tăng nguy cơ bệnh)",
+   "source_url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+   "quote": "Do not wait to go to a healthcare provider to remove the tick. Delaying tick removal to get help from a healthcare provider could increase your risk of getting a disease spread through tick bites, known as tickborne diseases.",
+   "verdict": "match",
+   "note": "Bản gương web.archive.org của đúng URL CDC (URL gốc trả 403 với curl); trang đề \"June 9, 2026\"."
+  },
+  {
+   "text": "Không dùng vaseline, nhiệt, sơn móng tay hay chất khác để ép ve nhả; không bóp nát ve bằng ngón tay",
+   "source_url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+   "quote": "Do not use petroleum jelly, heat, nail polish, or other substances to try and make the tick detach from the skin. This may agitate the tick and force infected fluid from the tick into the skin. ... Do not crush the tick with your fingers.",
+   "verdict": "match",
+   "note": "Bản gương web.archive.org của đúng URL CDC (URL gốc trả 403 với curl); trang đề \"June 9, 2026\"."
+  },
+  {
+   "text": "Phần miệng còn lại mà không gắp dễ bằng nhíp thì để yên",
+   "source_url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+   "quote": "If you cannot remove the mouthparts easily with tweezers, leave them alone.",
+   "verdict": "match",
+   "note": "Bản gương web.archive.org của đúng URL CDC (URL gốc trả 403 với curl); trang đề \"June 9, 2026\". Cùng đoạn: cơ thể sẽ tự đẩy phần miệng ra khi da lành."
+  },
+  {
+   "text": "Rửa chỗ cắn và tay bằng xà phòng và nước, cồn hoặc nước rửa tay khô",
+   "source_url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+   "quote": "After removing the tick, thoroughly clean the bite area and your hands with soap and water, rubbing alcohol, or hand sanitizer.",
+   "verdict": "match",
+   "note": "Bản gương web.archive.org của đúng URL CDC (URL gốc trả 403 với curl); trang đề \"June 9, 2026\"."
+  },
+  {
+   "text": "Có ban hoặc sốt trong vài tuần sau khi gắp ve thì đi khám; nói về lần bị ve, thời điểm và nơi bị",
+   "source_url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+   "quote": "If you develop a rash or fever within several weeks of removing a tick, see your doctor: Tell the doctor about your recent tick bite, When the bite occurred, and Where you most likely acquired the tick.",
+   "verdict": "match",
+   "note": "Bản gương web.archive.org của đúng URL CDC (URL gốc trả 403 với curl); trang đề \"June 9, 2026\"."
+  },
+  {
+   "text": "Sốt mò: QĐ 5642/QĐ-BYT, ủ bệnh 6 đến 21 ngày, do ấu trùng mò đốt",
+   "source_url": "https://kcb.vn/upload/2005611/20210723//Truyen-nhiem-1.pdf",
+   "quote": "Thời gian ủ bệnh của sốt mò kéo dài từ 6 ngày đến 21 ngày (trung bình từ 9 đến 12 ngày). || Người nhiễm sốt mò khi đi vào vùng lưu hành tự nhiên của bệnh và bị ấu trùng mò đốt.",
+   "verdict": "match",
+   "note": "PDF có lớp chữ (Hướng dẫn chẩn đoán và điều trị một số bệnh truyền nhiễm, kèm QĐ 5642/QĐ-BYT ngày 31/12/2015). Mục chỉ dùng để phân biệt sốt mò với ve."
+  },
+  {
+   "text": "\"Thuốc kháng sinh do bác sĩ chỉ định, đừng tự uống sau khi bị ve bám\"",
+   "source_url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+   "quote": "If you develop a rash or fever within several weeks of removing a tick, see your doctor",
+   "verdict": "inference",
+   "note": "Trang CDC dẫn không nói chuyện tự dùng kháng sinh; là lời khuyên thực hành hợp lý, không gắn nhãn trong mục."
+  }
+ ],
+ "internal_checks": [
+  {
+   "issue": "Ghi chú: \"chưa tìm thấy hướng dẫn gắp ve của Bộ Y tế Việt Nam trong nguồn đã kiểm. Nên mục dừng ở B.\" là ngôn ngữ quy trình lọt vào thân; nên sửa cho người đọc.",
+   "severity": "warn"
+  },
+  {
+   "issue": "Số trong tldr/steps chỉ có \"vài tuần\" (khớp CDC \"several weeks\"; Key points của CDC nói \"several days to weeks\"). Số 6-21 ngày chỉ dùng ở phần phân biệt sốt mò, không mâu thuẫn.",
+   "severity": "warn"
+  },
+  {
+   "issue": "steps[0] bắt buộc \"nhíp mũi nhọn\" mà không có phương án khi thiếu (CDC: nhíp thường, hoặc ngón tay nếu không có), dễ làm người đọc trì hoãn gắp, trái \"Do not wait\".",
+   "severity": "warn"
+  },
+  {
+   "issue": "Không có mâu thuẫn số liệu nội bộ; mục khác cùng chương không nói khác về ve.",
+   "severity": "warn"
+  }
+ ],
+ "validity": {
+  "doc": "CDC \"What to Do After a Tick Bite\" (9/6/2026); Bộ Y tế QĐ 5642/QĐ-BYT (2015) chỉ để phân biệt sốt mò",
+  "in_force": true,
+  "effective_from": null,
+  "amended_by": [],
+  "basis": "Trang CDC đề ngày 9/6/2026 (bản gương archive.org); không phát hiện hướng dẫn mới hơn mâu thuẫn. QĐ 5642/QĐ-BYT chỉ là tham chiếu phụ, không là căn cứ của bước nào nên không kiểm tình trạng thay thế."
+ },
+ "deliberate_vn_deviation": [],
+ "potential_harm": [
+  "steps[0] chỉ nêu \"nhíp mũi nhọn\"; người không có nhíp mũi nhọn có thể trì hoãn gắp đến khi tới cơ sở y tế (CDC: không chờ; có thể dùng nhíp thường, hoặc ngón tay nếu không có, kẹp sát da, tránh bóp thân ve). Mức: thấp."
+ ],
+ "suggested_edits": [
+  "steps[0]: thêm \"Không có nhíp mũi nhọn thì dùng nhíp thường; chưa có nhíp thì kẹp bằng ngón tay cùng cách, vẫn không chờ tới cơ sở y tế\" (CDC).",
+  "Thêm cách xử lý ve đã gắp (hộp kín, dán băng keo, bỏ bồn cầu, ngâm cồn; không bóp bằng ngón tay) và kiểm tra cơ thể tìm ve khác (CDC).",
+  "Gắn nhãn \"lời khuyên thực hành\" cho câu kháng sinh do bác sĩ chỉ định.",
+  "Ghi chú: bỏ \"Nên mục dừng ở B\"."
+ ]
+}

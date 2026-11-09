@@ -1,0 +1,116 @@
+{
+ "id": "len-vung-cao-tang-dan-do-cao-cho-ngu-trieu-chung-nang",
+ "checker": "agent-R2d13b",
+ "checked_at": "2026-11-08",
+ "content_sha256": "eda730a839bd3d13d3e4fef4d5de9e1a31a8ce6257364cd384235f7b3dac9d20",
+ "result": "pass-with-edits",
+ "claims": [
+  {
+   "text": "Người chưa thích nghi lên chỗ ngủ ≥ 2.450 m (đôi khi thấp hơn) đã có nguy cơ say độ cao",
+   "source_url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
+   "quote": "Any unacclimatized traveler proceeding to a sleeping altitude of ≥2,450 m (≥8,000 ft)—and sometimes lower—is at risk for altitude illness.",
+   "verdict": "match",
+   "note": "Bản gương web.archive.org của đúng URL CDC (URL gốc trả 403 với curl)."
+  },
+  {
+   "text": "Qua 3.000 m: tăng độ cao chỗ ngủ không quá 500 m mỗi đêm; mỗi 1.000 m thêm một đêm nghỉ; nhịp này vẫn có thể quá nhanh với một số người",
+   "source_url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
+   "quote": "ascending at a rate of no greater than 500 m (1,650 ft) per night in sleeping altitude once above 3,000 m (9,800 ft); and allowing an extra night to acclimatize for every 1,000 m (3,300 ft) of sleeping altitude gain. These reasonable recommendations can still be too fast for some travelers and too slow for others.",
+   "verdict": "match",
+   "note": "Bản gương web.archive.org của đúng URL CDC (URL gốc trả 403 với curl). Khớp từng con số (Wilderness Medical Society qua CDC)."
+  },
+  {
+   "text": "Tránh đi thẳng từ dưới 1.200 m lên chỗ ngủ trên 2.750 m trong một ngày",
+   "source_url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
+   "quote": "Avoid going directly from low altitude (1,200 m or <4,000 ft) to 2,750 m (>9,000 ft) sleeping altitude in one day.",
+   "verdict": "match",
+   "note": "Bản gương web.archive.org của đúng URL CDC (URL gốc trả 403 với curl)."
+  },
+  {
+   "text": "Thiếu oxy nặng nhất khi ngủ; đi lên cao trong ngày rồi về ngủ thấp ít gánh nặng hơn nhiều",
+   "source_url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
+   "quote": "Hypoxemia is greatest during sleep; day trips to high-altitude destinations with an evening return to a lower altitude are much less stressful on the body.",
+   "verdict": "match",
+   "note": "Bản gương web.archive.org của đúng URL CDC (URL gốc trả 403 với curl)."
+  },
+  {
+   "text": "Nặng lên dù đã nghỉ/điều trị tại chỗ thì xuống; giảm 300 m trở lên thường đỡ nhanh",
+   "source_url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
+   "quote": "AMS improves rapidly with a descent of 300 m (1,000 ft) or more, especially if exertion is minimal. ... If symptoms worsen while the traveler is at the same altitude and despite treatment, descent is mandatory.",
+   "verdict": "match",
+   "note": "Bản gương web.archive.org của đúng URL CDC (URL gốc trả 403 với curl). Tóm tắt Việt: AMS đỡ nhanh khi xuống ≥ 300 m, ít gắng sức; nặng lên dù đã điều trị tại chỗ thì xuống là bắt buộc."
+  },
+  {
+   "text": "Phù não (HACE): loạng choạng, lú lẫn, ngủ lịm; bắt đầu xuống kèm dexamethasone và oxy nếu có",
+   "source_url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
+   "quote": "HACE presents with neurological findings, particularly altered mental status, ataxia, confusion, and drowsiness ... In remote areas, initiate descent for anyone suspected of having HACE, in conjunction with dexamethasone and oxygen, if available.",
+   "verdict": "match",
+   "note": "Bản gương web.archive.org của đúng URL CDC (URL gốc trả 403 với curl). Tóm tắt Việt: HACE có dấu hiệu thần kinh (rối loạn ý thức, thất điều, lú lẫn, ngủ gà); vùng xa thì bắt đầu xuống kèm dexamethasone và oxy nếu có."
+  },
+  {
+   "text": "Phù phổi (HAPE): xuống khẩn cấp, bắt buộc; oxy nếu có; gắng sức ít nhất; xuống và oxy hiệu quả hơn nhiều so với thuốc",
+   "source_url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
+   "quote": "In most circumstances, descent is urgent and mandatory. Administer oxygen, if available, and exert the patient as little as possible. ... Descent and oxygen are much more effective treatments than medication.",
+   "verdict": "match",
+   "note": "Bản gương web.archive.org của đúng URL CDC (URL gốc trả 403 với curl). CDC có ngoại lệ: HAPE nhẹ có oxy (bệnh viện/phòng khám vùng cao) có thể không cần xuống; mục nói \"bắt buộc\" thận trọng hơn, không gây hại. \"Thở dốc khi ngồi yên\" khớp \"dyspnea at rest\"."
+  },
+  {
+   "text": "Có triệu chứng, dù nhẹ: không lên cao hơn để ngủ",
+   "source_url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
+   "quote": "AMS generally resolves within 12–48 hours if travelers do not ascend farther.",
+   "verdict": "inference",
+   "note": "CDC (trang này) không viết lệnh \"không lên cao hơn để ngủ\"; chỉ nói AMS thường hết trong 12-48 giờ nếu không đi cao thêm, và AMS nhẹ có thể ở lại độ cao hiện tại để tự điều trị. Suy ra hợp lý, hướng an toàn; mục gắn nhãn là \"của hướng dẫn CDC\"."
+  },
+  {
+   "text": "Phan Xi Păng 3.147,3 m (GNSS, thủy chuẩn; Trung tâm đề nghị Hội đồng thẩm định thông qua); Sa Pa ở độ cao 1.600 m",
+   "source_url": "https://baolaocai.vn/do-cao-chinh-xac-cua-dinh-fansipan-la-31473-met-post665611.html",
+   "quote": "Kết quả giá trị độ cao quốc gia được xác định tại vị trí cao nhất trên đỉnh Phan Xi Păng là 3.147,3 mét. Trung tâm đề nghị Hội đồng thẩm định thông qua giá trị độ cao đỉnh Phan Xi Păng trong hệ độ cao quốc gia là h =3.147,3 m ... thị trấn Sa Pa ở độ cao 1.600 mét so với mực nước biển",
+   "verdict": "match-secondary",
+   "note": "Báo Lào Cai (26/06/2019) lại bài Baotintuc.vn; không phải công bố gốc của Cục Đo đạc. Mục đã nói \"theo Báo Lào Cai\"."
+  },
+  {
+   "text": "\"Suy ra từ hai con số trên (không phải chữ của nguồn): ở Việt Nam say độ cao chủ yếu gắn với leo núi, trekking, du lịch\"",
+   "source_url": "https://baolaocai.vn/do-cao-chinh-xac-cua-dinh-fansipan-la-31473-met-post665611.html",
+   "quote": "Phan Xi Păng là ngọn núi cao nhất nằm ở trung tâm dãy Hoàng Liên Sơn",
+   "verdict": "inference",
+   "note": "Nhãn \"suy ra\" không đúng logic: 3.147,3 m và 1.600 m chỉ cho thấy đỉnh cao nhất nước vượt ngưỡng 2.450 m của CDC, không suy ra được \"chủ yếu gắn với leo núi, trekking, du lịch\"."
+  }
+ ],
+ "internal_checks": [
+  {
+   "issue": "Câu \"Suy ra từ hai con số trên (không phải chữ của nguồn): ở Việt Nam say độ cao chủ yếu gắn với leo núi, trekking, du lịch\" mang nhãn suy ra nhưng không suy ra được từ hai số liệu dẫn; \"chủ yếu\" không có nguồn.",
+   "severity": "warn"
+  },
+  {
+   "issue": "Ghi chú có ngôn ngữ biên tập (\"chưa mở được công bố gốc của Cục\", \"nên mục không lên được A\"); nên viết cho người đọc: \"Độ cao Phan Xi Păng lấy từ báo, chưa có văn bản công bố gốc\".",
+   "severity": "warn"
+  },
+  {
+   "issue": "Frontmatter còn verification.status = needs-medical-review từ lượt trước (không phải chữ thân bài, không tính lỗi nội dung). Thân bài không có \"báo cáo kiểm chứng\"/\"Còn treo\"/\"sổ kiểm chứng\"/\"bản nháp\"/\"[INFERENCE]\".",
+   "severity": "warn"
+  },
+  {
+   "issue": "Số trong tldr/steps (3.000, 500, 1.200, 2.750, 1.000, 300) đều có trong thân và khớp CDC; không mâu thuẫn trong mục.",
+   "severity": "warn"
+  },
+  {
+   "issue": "Cùng chương không thấy mục nào nói khác về độ cao/triệu chứng độ cao.",
+   "severity": "warn"
+  }
+ ],
+ "validity": {
+  "doc": "CDC Yellow Book (High-Altitude Travel and Altitude Illness; Wilderness Medical Society qua CDC)",
+  "in_force": true,
+  "effective_from": null,
+  "amended_by": [],
+  "basis": "Trang CDC Yellow Book 2026 (bản gương archive.org) là hướng dẫn hiện hành tại thời điểm kiểm; không phát hiện hướng dẫn quốc tế mới hơn trái ngược. Hướng dẫn y tế không có \"hiệu lực\" pháp lý."
+ },
+ "deliberate_vn_deviation": [],
+ "potential_harm": [],
+ "suggested_edits": [
+  "Sửa/xóa câu \"Suy ra từ hai con số…\": thay bằng \"Đỉnh Phan Xi Păng cao 3.147,3 m, vượt ngưỡng 2.450 m của CDC; Sa Pa 1.600 m thấp hơn ngưỡng đó\".",
+  "steps[2] và phần Quy tắc: gắn nhãn suy ra cho \"không lên cao hơn để ngủ\" (CDC: AMS thường hết sau 12-48 giờ nếu không đi cao thêm).",
+  "Ghi chú: bỏ ngôn ngữ biên tập (\"mục không lên được A\").",
+  "Tùy chọn: nêu CDC cho phép HAPE nhẹ ở nơi có oxy không nhất thiết xuống (do nhân viên y tế quyết định); giữ \"bắt buộc\" cũng an toàn."
+ ]
+}
