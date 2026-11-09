@@ -1,23 +1,23 @@
 ---
 import '../styles/global.css';
 import Icon from '../components/icons/Icon.astro';
-import { SITE_NAME, DISCLAIMER, NOTICE_LEAD, NOTICE_MORE, REPO_URL, ISSUES_URL, SITE_INDEXABLE, url } from '../lib/site';
-interface Props { title?: string; description?: string; wide?: boolean; noindex?: boolean; }
-const { title, description = 'Cẩm nang việc nên làm để sống lâu hơn, đỡ tốn hơn, ít vướng luật hơn, biên soạn theo bối cảnh Việt Nam.', wide = false, noindex = false } = Astro.props;
+import { SITE_NAME, DISCLAIMER, NOTICE_LEAD, NOTICE_MORE, REPO_URL, ISSUES_URL, SITE_INDEXABLE, loadHotlines, url } from '../lib/site';
+interface Props { title?: string; description?: string; wide?: boolean; noindex?: boolean; /** Trang chủ: phần chính không bọc container (bản đồ tràn màn hình). */ home?: boolean; }
+const { title, description = 'Cẩm nang việc nên làm để sống lâu hơn, đỡ tốn hơn, ít vướng luật hơn, biên soạn theo bối cảnh Việt Nam.', wide = false, noindex = false, home = false } = Astro.props;
 const fullTitle = title ? `${title} · ${SITE_NAME}` : `${SITE_NAME}: việc nên làm, theo luật và bối cảnh Việt Nam`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const robots = SITE_INDEXABLE && !noindex ? null : SITE_INDEXABLE ? 'noindex' : 'noindex,nofollow';
 const nav = [
-  { href: '/chuong/', label: 'Chương' },
   { href: '/tinh-huong/', label: 'Tình huống' },
   { href: '/tra-cuu/', label: 'Tra cứu' },
   { href: '/viec-cua-toi/', label: 'Việc của tôi' },
   { href: '/phuong-phap/', label: 'Phương pháp' },
-  { href: '/gioi-thieu/', label: 'Giới thiệu' },
 ];
+const navMenu = [{ href: '/tim-kiem/', label: 'Tìm kiếm' }, { href: '/gioi-thieu/', label: 'Giới thiệu' }];
+const hot = loadHotlines().items;
+const sosNums = hot.slice(0, 3).map((h) => h.number).join(' · ');
 const path = Astro.url.pathname;
 const active = (href: string) => path.startsWith(url(href));
-const year = new Date().getFullYear();
 ---
 <!doctype html>
 <html lang="vi">
@@ -26,20 +26,16 @@ const year = new Date().getFullYear();
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
-    <meta name="color-scheme" content="light dark" />
     {robots && <meta name="robots" content={robots} />}
     <link rel="canonical" href={canonical} />
     <link rel="icon" href={url('/favicon.svg')} type="image/svg+xml" />
-    <link rel="preload" href={url('/fonts/be-vietnam-pro-Regular.woff2')} as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href={url('/fonts/noto-serif-vi.woff2')} as="font" type="font/woff2" crossorigin />
-    <meta name="theme-color" content="#f6f1e6" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#1a1812" media="(prefers-color-scheme: dark)" />
+    <link rel="preload" href={url('/fonts/source-serif-4.woff2')} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={url('/fonts/jetbrains-mono.woff2')} as="font" type="font/woff2" crossorigin />
+    <meta name="theme-color" content="#eaeee9" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#101814" media="(prefers-color-scheme: dark)" />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
-    <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
-    <meta property="og:site_name" content={SITE_NAME} />
-    <meta property="og:locale" content="vi_VN" />
     <script is:inline>
       (function () {
         var d = document.documentElement;
@@ -51,49 +47,64 @@ const year = new Date().getFullYear();
       })();
     </script>
   </head>
-  <body>
+  <body class:list={{ 'is-home': home }}>
     <a class="skip" href="#noi-dung">Bỏ qua, tới nội dung</a>
     <div class="notice" role="note">
       <div class="container notice__in"><Icon name="info" size={14} /><p>{NOTICE_LEAD}<span class="notice__more"> {NOTICE_MORE}</span> <a href={url('/phuong-phap/')}>Tìm hiểu thêm</a></p></div>
     </div>
-    <header class="site-header" id="site-header">
-      <div class="container site-header__in">
-        <a class="brand" href={url('/')} aria-label={`${SITE_NAME}, về trang chủ`}>
-          <svg class="brand__mark" width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><use href={url('/icons.svg#brand')} /></svg>
-          <span class="brand__name">{SITE_NAME}</span>
-        </a>
-        <button class="icon-btn nav-toggle" type="button" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Mở menu">
-          <span class="nav-toggle__open"><Icon name="menu" size={21} /></span>
-          <span class="nav-toggle__close"><Icon name="x" size={21} /></span>
-        </button>
-        <nav class="site-nav" id="site-nav" aria-label="Chính">
-          <ul>
-            {nav.map((n) => (
-              <li><a href={url(n.href)} aria-current={active(n.href) ? 'page' : undefined}>{n.label}</a></li>
-            ))}
-          </ul>
+    <header class="topbar" id="site-header">
+      <div class="topbar__in">
+        <div class="tb tb--logo">
+          <a class="tb-logo" href={url('/')} aria-label={`${SITE_NAME}, về trang chủ`}><i>[[</i>&nbsp;cẩm nang&nbsp;<b>sinh tồn</b>&nbsp;<i>]]</i></a>
+        </div>
+        <div class="tb tb--toc">
+          <a class="tb-btn" id="toc-open" href={url('/chuong/')} data-toc-open><Icon name="list" size={15} />Mục lục</a>
+        </div>
+        <form class="tb tb--search tb-search" action={url('/tim-kiem/')} method="get" role="search">
+          <label class="visually-hidden" for="tb-q">Tìm một việc, một điều luật hay một bệnh (gõ không dấu cũng được)</label>
+          <span class="tb-search__ico"><Icon name="search" size={15} /></span>
+          <input id="tb-q" type="search" name="q" placeholder="tìm việc, luật, bệnh…" autocomplete="off" />
+          <kbd aria-hidden="true">/</kbd>
+        </form>
+        <nav class="tb tb--nav" id="tb-nav" aria-label="Chính">
+          <a class="tb-btn mob" href={url('/chuong/')} data-toc-open><Icon name="list" size={16} />Mục lục</a>
+          {nav.map((n) => <a class="tb-btn" href={url(n.href)} aria-current={active(n.href) ? 'page' : undefined}>{n.label}</a>)}
+          {navMenu.map((n) => <a class="tb-btn mob" href={url(n.href)} aria-current={active(n.href) ? 'page' : undefined}>{n.label}</a>)}
+          <button class="tb-btn mob js-only" type="button" data-theme-toggle><span class="theme-ico theme-ico--sun"><Icon name="sun" size={16} /></span><span class="theme-ico theme-ico--moon"><Icon name="moon" size={16} /></span>Đổi giao diện sáng, tối</button>
         </nav>
-        <div class="site-header__actions">
-          <a class="icon-btn" href={url('/tim-kiem/')} aria-label="Tìm kiếm"><Icon name="search" size={19} /></a>
-          <button class="icon-btn" type="button" id="theme-toggle" aria-label="Đổi giao diện sáng, tối">
-            <span class="theme-ico theme-ico--sun"><Icon name="sun" size={19} /></span>
-            <span class="theme-ico theme-ico--moon"><Icon name="moon" size={19} /></span>
+        <div class="tb tb--end">
+          <details class="sos" data-pop>
+            <summary aria-label={`Khẩn cấp: ${sosNums.replaceAll(' · ', ', ')}`}><Icon name="phone" size={14} /><span class="sos__t">Khẩn cấp</span><span class="sos__nums">{sosNums}</span></summary>
+            <div class="sos__panel">
+              <h2>Khẩn cấp: gọi ngay</h2>
+              <ul class="sos__list">
+                {hot.map((h) => (
+                  <li><a href={`tel:${h.number}`} ><span class="sos__num">{h.number}</span><span class="sos__lab">{h.label}</span></a></li>
+                ))}
+              </ul>
+              <p class="sos__note">Số chưa được kiểm chứng độc lập với cơ quan nhà nước; gọi không được thì tra lại số chính thức của địa phương.</p>
+            </div>
+          </details>
+          <button class="tb-btn tb-btn--icon theme-btn js-only" type="button" data-theme-toggle aria-label="Đổi giao diện sáng, tối">
+            <span class="theme-ico theme-ico--sun"><Icon name="sun" size={17} /></span>
+            <span class="theme-ico theme-ico--moon"><Icon name="moon" size={17} /></span>
+          </button>
+          <button class="tb-btn tb-btn--icon tb-menu" type="button" id="menu-toggle" aria-expanded="false" aria-controls="tb-nav" aria-label="Mở menu">
+            <span class="tb-menu__o"><Icon name="menu" size={18} /></span>
+            <span class="tb-menu__x"><Icon name="x" size={18} /></span>
           </button>
         </div>
       </div>
     </header>
-    <main id="noi-dung" class:list={['container', { 'container--wide': wide }]} tabindex="-1">
+    <main id="noi-dung" class:list={[{ container: !home, 'container--wide': wide && !home }]} tabindex="-1">
       <slot />
     </main>
     <footer class="site-footer">
       <div class="container">
         <div class="site-footer__grid">
           <div class="site-footer__about">
-            <a class="brand brand--footer" href={url('/')}>
-              <svg class="brand__mark" width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><use href={url('/icons.svg#brand')} /></svg>
-              <span class="brand__name">{SITE_NAME}</span>
-            </a>
-            <p>Sổ tay việc nên làm để sống khỏe hơn, đỡ tốn hơn và ít vướng luật hơn, theo bối cảnh Việt Nam. Không theo dõi người đọc, không quảng cáo, không tài khoản.</p>
+            <a class="tb-logo brand" href={url('/')}><i>[[</i>&nbsp;cẩm nang&nbsp;<b>sinh tồn</b>&nbsp;<i>]]</i></a>
+            <p>Sổ tay việc nên làm theo bối cảnh Việt Nam. Không theo dõi người đọc, không quảng cáo, không tài khoản.</p>
           </div>
           <nav aria-label="Đọc">
             <h2 class="site-footer__h">Đọc</h2>
@@ -121,6 +132,8 @@ const year = new Date().getFullYear();
       </div>
     </footer>
     <script>import "../scripts/theme.ts";</script>
-    <script>import "../scripts/nav.ts";</script>
+    <script>import "../scripts/topbar.ts";</script>
+    <script>import "../scripts/toc.ts";</script>
+    <script>import "../scripts/pop.ts";</script>
   </body>
 </html>

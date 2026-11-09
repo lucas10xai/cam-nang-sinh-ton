@@ -1,6 +1,7 @@
 ---
 // Chương gom theo nhóm chủ đề (data/chapter-groups.json), kèm số mục và tiến độ kiểm chứng trung thực (0 cũng hiện).
 import Icon from './icons/Icon.astro';
+import type { IconName } from './icons/paths';
 import { chapterGroups, loadStatus, verifiedCount, reviewCount, url, type Chapter, type Entry } from '../lib/site';
 interface Props { chapters: Chapter[]; entries: Entry[]; headingLevel?: 2 | 3; jump?: boolean; }
 const { chapters, entries, headingLevel = 3, jump = true } = Astro.props;
@@ -13,15 +14,15 @@ const total = (n: number) => status.chapters.get(n)?.total ?? entries.filter((e)
 {jump && (
   <nav class="group-jump" aria-label="Chọn nhóm chủ đề">
     <ul>
-      {groups.map((g) => <li><a href={`#nhom-${g.slug}`}><Icon name={g.icon as any} size={16} />{g.title}</a></li>)}
+      {groups.map((g) => <li><a href={`#nhom-${g.slug}`}><Icon name={g.icon as IconName} size={16} />{g.title}</a></li>)}
     </ul>
   </nav>
 )}
 <div class="chapter-groups">
   {groups.map((g) => (
-    <section class="cgroup" id={`nhom-${g.slug}`} aria-labelledby={`nhom-${g.slug}-h`}>
+    <section class="cgroup" id={`nhom-${g.slug}`} aria-labelledby={`nhom-${g.slug}-h`} style={`--tone:var(--tone-${g.tone})`}>
       <header class="cgroup__head">
-        <span class="cgroup__ico"><Icon name={g.icon as any} size={22} /></span>
+        <span class="cgroup__ico"><Icon name={g.icon as IconName} size={22} /></span>
         <div>
           <H class="cgroup__title" id={`nhom-${g.slug}-h`}>{g.title}</H>
           <p class="cgroup__desc">{g.description}</p>

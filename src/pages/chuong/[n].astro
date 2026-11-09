@@ -25,7 +25,10 @@ const group = chapterGroups(chapters.map((c) => c.data.number)).find((g) => g.ch
 <Base title={`Chương ${n}: ${ch.data.title}`} description={`${list.length} mục của chương ${n}: ${ch.data.title}.`}>
   <nav class="crumbs" aria-label="Vị trí"><ol><li><a href={url('/')}>Trang chủ</a></li><li><a href={url('/chuong/')}>Chương</a></li>{group && <li><a href={`${url('/chuong/')}#nhom-${group.slug}`}>{group.title}</a></li>}<li aria-current="page">Chương {n}</li></ol></nav>
   <header class="chapter-head">
-    <p class="eyebrow">Chương {n}{group ? ` · ${group.title}` : ''}</p>
+    <div class="entry-head__top">
+      <p class="eyebrow">Chương {n}{group ? ` · ${group.title}` : ''}</p>
+      <a class="tb-btn map-link" href={url('/')}><Icon name="map" size={14} />Mở bản đồ</a>
+    </div>
     <h1>{ch.data.title}</h1>
     <ul class="stat-line" aria-label="Tóm tắt chương">
       <li><Icon name="file-text" size={15} />{list.length} mục</li>

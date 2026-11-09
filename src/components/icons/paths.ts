@@ -44,10 +44,10 @@ export const iconPaths = {
   list: '<path d="M3 6h.01M3 12h.01M3 18h.01M8 6h13M8 12h13M8 18h13"/>',
   'arrow-left': '<path d="M19 12H5M12 19l-7-7 7-7"/>',
   compass: '<circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.8 5.4a2 2 0 0 1-1.28 1.28l-5.4 1.8 1.8-5.4a2 2 0 0 1 1.28-1.28z"/>',
+  plus: '<path d="M5 12h14M12 5v14"/>',
+  minus: '<path d="M5 12h14"/>',
+  maximize: '<path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>',
+  map: '<path d="M14.1 5.55a2 2 0 0 0 1.79 0l3.66-1.83A1 1 0 0 1 21 4.62v12.76a1 1 0 0 1-.55.9l-4.55 2.28a2 2 0 0 1-1.79 0l-4.21-2.1a2 2 0 0 0-1.79 0l-3.66 1.83A1 1 0 0 1 3 19.38V6.62a1 1 0 0 1 .55-.9l4.55-2.28a2 2 0 0 1 1.79 0z"/><path d="M15 5.76v15M9 3.24v15"/>',
   link: '<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>',
 };
 export type IconName = keyof typeof iconPaths;
-
-/** Logo thương hiệu (lưới 32x32), vẽ trong sprite để không nhúng lại ở đầu và chân mỗi trang. */
-export const brandMark =
-  '<rect width="32" height="32" rx="9" fill="currentColor"/><path d="M16 9.5c-2-1.6-4.6-2.2-7.5-2v14c2.9-.2 5.5.4 7.5 2 2-1.6 4.6-2.2 7.5-2v-14c-2.9-.2-5.5.4-7.5 2Zm0 0v14" fill="none" stroke="var(--accent-fg)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>';

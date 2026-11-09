@@ -1,55 +1,105 @@
 {
   "version": 1,
-  "note": "Phân nhóm chủ đề cho trang chủ và trang Các chương. Mỗi chương (1 đến 36) phải nằm đúng một nhóm; chương nào chưa xếp sẽ rơi vào nhóm tự động \"Khác\" và có cảnh báo lúc build. `icon` là tên trong src/components/icons/Icon.astro.",
+  "note": "Phân nhóm chủ đề cho trang chủ và trang Các chương. Mỗi chương (1 đến 36) phải nằm đúng một nhóm; chương nào chưa xếp sẽ rơi vào nhóm tự động \"Khác\" và có cảnh báo lúc build. `icon` là tên trong src/components/icons/Icon.astro. `tone` (1 đến 7) là màu của nhóm trên bản đồ: biến CSS --tone-N trong src/styles/tokens.css.",
   "groups": [
     {
       "slug": "song-khoe-an-toan",
       "title": "Sống khỏe và an toàn",
       "description": "Cấp cứu, khám bệnh, thuốc, bệnh mạn tính và những thói quen giữ sức lâu dài.",
       "icon": "heart-pulse",
-      "chapters": [13, 1, 2, 3, 24, 16, 34, 28, 35]
+      "chapters": [
+        13,
+        1,
+        2,
+        3,
+        24,
+        16,
+        34,
+        28,
+        35
+      ],
+      "tone": 1
     },
     {
       "slug": "tien-tieu-dung",
       "title": "Tiền và tiêu dùng",
       "description": "Tiêu tiền cho đúng chỗ, tránh thứ trông rẻ mà vô dụng, thuê và mua nhà.",
       "icon": "wallet",
-      "chapters": [5, 6, 7, 15]
+      "chapters": [
+        5,
+        6,
+        7,
+        15
+      ],
+      "tone": 2
     },
     {
       "slug": "viec-lam-phap-luat",
       "title": "Việc làm và pháp luật",
       "description": "Quyền của người lao động, ranh giới luật dễ vấp, kinh doanh nhỏ và giao thông.",
       "icon": "scale",
-      "chapters": [19, 8, 9, 12, 36]
+      "chapters": [
+        19,
+        8,
+        9,
+        12,
+        36
+      ],
+      "tone": 3
     },
     {
       "slug": "gia-dinh-con-cai",
       "title": "Gia đình và con cái",
       "description": "Yêu và kết hôn, mang thai, nuôi con, con đi học, người cao tuổi trong nhà.",
       "icon": "users",
-      "chapters": [10, 27, 20, 18, 30, 17]
+      "chapters": [
+        10,
+        27,
+        20,
+        18,
+        30,
+        17
+      ],
+      "tone": 4
     },
     {
       "slug": "bien-co-hoan-canh-kho",
       "title": "Biến cố và hoàn cảnh khó",
       "description": "Khi có người mất, sau cú sốc lớn, hoặc khi bản thân hay người nhà bị khuyết tật.",
       "icon": "life-buoy",
-      "chapters": [25, 29, 33]
+      "chapters": [
+        25,
+        29,
+        33
+      ],
+      "tone": 5
     },
     {
       "slug": "hoc-tap-di-xa",
       "title": "Học tập, thời gian và đi xa",
       "description": "Dùng thời gian cho đáng, học gì thì đáng, sau 18 tuổi, du học và ra nước ngoài.",
       "icon": "graduation-cap",
-      "chapters": [4, 22, 23, 31, 32, 21]
+      "chapters": [
+        4,
+        22,
+        23,
+        31,
+        32,
+        21
+      ],
+      "tone": 6
     },
     {
       "slug": "cong-nghe-tai-khoan",
       "title": "Công nghệ và tài khoản",
       "description": "Bảo vệ tài khoản, dữ liệu cá nhân và những lằn ranh khi làm sản phẩm số.",
       "icon": "laptop",
-      "chapters": [14, 11, 26]
+      "chapters": [
+        14,
+        11,
+        26
+      ],
+      "tone": 7
     }
   ]
 }

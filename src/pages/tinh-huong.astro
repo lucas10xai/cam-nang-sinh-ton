@@ -4,6 +4,7 @@ import Icon from '../components/icons/Icon.astro';
 import EntryCard from '../components/EntryCard.astro';
 import Accordion from '../components/Accordion.astro';
 import { loadAll, SITUATIONS, situationIcon, url } from '../lib/site';
+import type { IconName } from '../components/icons/paths';
 const { entries } = await loadAll();
 // Chỉ liệt kê tình huống đã có mục; tình huống chưa có mục thì ẩn.
 const groups = SITUATIONS
@@ -20,7 +21,7 @@ const groups = SITUATIONS
           {groups.map((g) => (
             <li>
               <a class="sit-card" href={`#${g.slug}`}>
-                <span class="sit-card__ico"><Icon name={situationIcon(g.slug) as any} size={22} /></span>
+                <span class="sit-card__ico"><Icon name={situationIcon(g.slug) as IconName} size={22} /></span>
                 <span class="sit-card__t">{g.title}</span>
                 <span class="sit-card__n">{g.list.length} mục <Icon name="chevron-down" size={13} /></span>
               </a>

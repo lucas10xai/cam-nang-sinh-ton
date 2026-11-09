@@ -54,7 +54,10 @@ const dWords = [...new Set((plain.match(/[\p{L}\p{N}]*[đĐ][\p{L}\p{N}]*/gu) ??
     </nav>
 
     <header class="entry-head">
-      <p class="eyebrow" data-pagefind-ignore>Chương {d.chapter}, mục {d.number}</p>
+      <div class="entry-head__top" data-pagefind-ignore>
+        <p class="eyebrow">Chương {d.chapter}, mục {d.number}</p>
+        <a class="tb-btn map-link" href={`${url('/')}?n=${d.id}`}><Icon name="map" size={14} />Mở bản đồ</a>
+      </div>
       <h1 data-pagefind-meta="title" data-pagefind-weight="10">{d.title}</h1>
       <EntryMeta entry={e} />
       {reviewText && (
@@ -155,7 +158,5 @@ const dWords = [...new Set((plain.match(/[\p{L}\p{N}]*[đĐ][\p{L}\p{N}]*/gu) ??
     {prev ? <a class="prev" href={url.entry(prev.data.id)}><small><Icon name="arrow-left" size={13} /> Mục trước, {entryCode(prev)}</small>{prev.data.title}</a> : <span />}
     {next ? <a class="next" href={url.entry(next.data.id)}><small>Mục sau, {entryCode(next)} <Icon name="arrow-right" size={13} /></small>{next.data.title}</a> : <span />}
   </nav>
-  <script>import '../../scripts/mark.ts';</script>
-  <script>import '../../scripts/steps.ts';</script>
-  <script>import '../../scripts/pop.ts';</script>
+  <script>import '../../scripts/entry-page.ts';</script>
 </Base>

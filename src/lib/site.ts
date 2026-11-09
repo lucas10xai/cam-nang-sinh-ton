@@ -45,7 +45,7 @@ export const SITUATION_ICONS: Record<string, string> = {
 export const situationIcon = (slug: string): string => SITUATION_ICONS[slug] ?? 'compass';
 
 /* ---------- Nhóm chủ đề của chương (data/chapter-groups.json) ---------- */
-export interface ChapterGroup { slug: string; title: string; description: string; icon: string; chapters: number[]; }
+export interface ChapterGroup { slug: string; title: string; description: string; icon: string; tone: number; chapters: number[]; }
 /** Mỗi chương đúng một nhóm; chương chưa xếp rơi vào nhóm "Khác" để không bao giờ biến mất khỏi trang. */
 export function chapterGroups(chapterNumbers: number[]): ChapterGroup[] {
   const known = new Set(chapterNumbers);
@@ -62,7 +62,7 @@ export function chapterGroups(chapterNumbers: number[]): ChapterGroup[] {
   const rest = chapterNumbers.filter((n) => !seen.has(n));
   if (rest.length) {
     console.warn(`[nhóm chương] chưa xếp nhóm: ${rest.join(', ')}`);
-    groups.push({ slug: 'khac', title: 'Khác', description: 'Các chương chưa xếp vào nhóm nào.', icon: 'book-open', chapters: rest });
+    groups.push({ slug: 'khac', title: 'Khác', description: 'Các chương chưa xếp vào nhóm nào.', icon: 'book-open', tone: 6, chapters: rest });
   }
   return groups.filter((g) => g.chapters.length > 0);
 }
