@@ -1,88 +1,84 @@
-/* ===== Phông chữ (tự host, giấy phép OFL: xem public/fonts) =====
-   Source Serif 4: thân bài và tiêu đề. JetBrains Mono: nhãn, số, logo, phím tắt.
-   Cả hai là bản cắt còn Latin + Latin mở rộng + toàn bộ dấu tiếng Việt (đã kiểm từng tổ hợp). */
-@font-face { font-family: "Source Serif 4"; font-style: normal; font-weight: 400 700; font-display: swap; src: url("/fonts/source-serif-4.woff2") format("woff2"); }
-@font-face { font-family: "Source Serif 4"; font-style: italic; font-weight: 400; font-display: swap; src: url("/fonts/source-serif-4-italic.woff2") format("woff2"); }
-@font-face { font-family: "JetBrains Mono"; font-style: normal; font-weight: 400 700; font-display: swap; src: url("/fonts/jetbrains-mono.woff2") format("woff2"); }
+/* ===== Token: phông, màu, cỡ chữ. Đơn sắc + một màu nhấn; màu ngữ nghĩa chỉ khi mang thông tin thật. ===== */
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 400 700; font-display: swap; src: url("/fonts/inter-vi.woff2") format("woff2"); }
 
-/* ===== Token: phông, cỡ chữ, khoảng cách, bo góc, bóng ===== */
 :root {
-  color-scheme: light dark;
-  --font: "Source Serif 4", "Iowan Old Style", Georgia, "Times New Roman", serif;
-  --font-serif: var(--font);
-  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  color-scheme: light;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 
-  --fs-2xs: .6875rem;  /* 11px: nhãn mono */
-  --fs-xs: .8125rem;   /* 13px */
-  --fs-sm: .9375rem;   /* 15px */
-  --fs-base: 1.0625rem; /* 17px: thân bài */
-  --fs-md: 1.1875rem;  /* 19px */
-  --fs-lg: 1.375rem;   /* 22px */
-  --fs-xl: 1.75rem;    /* 28px */
-  --fs-2xl: clamp(1.8rem, 1.4rem + 1.8vw, 2.6rem);   /* tiêu đề trang */
-  --fs-3xl: clamp(2rem, 1.2rem + 2.4vw, 2.9rem);     /* tiêu đề trang chủ */
-  --lh: 1.62;
-  --lh-tight: 1.2;
-  --measure: 68ch;
-  --track-head: -.025em;
-  --track-label: .08em;
+  --bg: #ffffff;
+  --bg-subtle: #fafafa;
+  --bg-muted: #f4f4f5;
+  --bg-elevated: #ffffff;
+  --border: #e4e4e7;
+  --border-subtle: #f0f0f2;
+  --fg: #111113;
+  --fg-secondary: #52525b;
+  --fg-muted: #71717a;
+  --accent: #2563eb;
+  --accent-soft: rgba(37, 99, 235, 0.08);
 
-  --s1: .25rem; --s2: .5rem; --s3: .75rem; --s4: 1rem; --s5: 1.5rem; --s6: 2rem; --s7: 3rem; --s8: 4.5rem;
-  --radius-sm: 6px; --radius: 10px; --radius-lg: 16px; --radius-pill: 999px;
-  --header-h: 4.25rem;
-  --ease: cubic-bezier(.2, .8, .2, 1);
+  --good: #15803d;
+  --good-bg: rgba(21, 128, 61, 0.08);
+  --warn: #b45309;
+  --warn-bg: rgba(180, 83, 9, 0.08);
+  --danger: #be123c;
+  --danger-bg: rgba(190, 18, 60, 0.07);
 
-  /* Sáng (mặc định): giấy xanh xám, mực xanh rêu đậm */
-  --bg: #eaeee9; --surface: #f7f9f6; --surface-2: #e0e6df; --surface-3: #d3dbd2; --footer-bg: #dde4db;
-  --glass: rgb(247 249 246 / .88);
-  --text: #15201b; --muted: #4b5a52; --border: #d2dacf; --border-strong: #6f7e75;
-  --accent: #1f6b52; --accent-hover: #164f3c; --accent-fg: #f7f9f6; --accent-soft: #e1ede5; --accent-soft-fg: #164f3c;
-  --num: #7f6120; /* số liệu vàng nâu */
-  --warm: #8a6b23; --warm-soft: #efe6cc; --warm-fg: #5e4710;
-  --warn-bg: #f3e7c4; --warn-fg: #5e4710; --warn-border: #c9ad66;
-  --danger: #b3261e; --danger-bg: #f9e5e1; --danger-fg: #7c1912;
-  --ok-bg: #dcebdc; --ok-fg: #1b5230;
-  --info-bg: #e0e8f1; --info-fg: #2c486c;
-  --focus: #1a5fd0;
-  --shadow: 0 1px 0 rgb(21 32 27 / .03), 0 8px 20px -14px rgb(21 32 27 / .28);
-  --shadow-lg: 0 1px 0 rgb(21 32 27 / .03), 0 18px 40px -18px rgb(21 32 27 / .28);
-  --dot: rgb(21 32 27 / .1);
-  /* Màu theo nhóm chủ đề (bản đồ, chú giải, viền thẻ) */
-  --tone-1: #1f6b52; --tone-2: #8a6b23; --tone-3: #3f5f86; --tone-4: #a24e36; --tone-5: #6b4c80; --tone-6: #7d6b5d; --tone-7: #1f7a8c;
+  --header-h: 52px;
+  --sidebar-w: 264px;
+  --radius: 8px;
+  --shadow-pop: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 8px 24px rgba(0, 0, 0, 0.08);
+  --scrim: rgba(17, 17, 19, 0.32);
+  --header-bg: rgba(255, 255, 255, 0.82);
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #101814; --surface: #18221d; --surface-2: #202c26; --surface-3: #2b3932; --footer-bg: #0c120f;
-    --glass: rgb(24 34 29 / .86);
-    --text: #e3eae5; --muted: #a9b8af; --border: #2c3a33; --border-strong: #78897f;
-    --accent: #62c7a2; --accent-hover: #8bdcbd; --accent-fg: #0b1f18; --accent-soft: #1a3a2e; --accent-soft-fg: #bdebd8;
-    --num: #d3ac55;
-    --warm: #d3ac55; --warm-soft: #3a3118; --warm-fg: #ecd194;
-    --warn-bg: #3a3012; --warn-fg: #f1d98f; --warn-border: #7d6720;
-    --danger: #ff8f84; --danger-bg: #3d1c19; --danger-fg: #ffc6bf;
-    --ok-bg: #173324; --ok-fg: #a3e3b8;
-    --info-bg: #1c2b47; --info-fg: #bcd2f7;
-    --focus: #8db8ff;
-    --shadow: none; --shadow-lg: 0 14px 36px -12px rgb(0 0 0 / .65);
-    --dot: rgb(227 234 229 / .1);
-    --tone-1: #4fb38f; --tone-2: #c9a24a; --tone-3: #7fa2d1; --tone-4: #d98468; --tone-5: #a98bc4; --tone-6: #aa9585; --tone-7: #55b4c4;
-  }
-}
+
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --bg: #101814; --surface: #18221d; --surface-2: #202c26; --surface-3: #2b3932; --footer-bg: #0c120f;
-  --glass: rgb(24 34 29 / .86);
-  --text: #e3eae5; --muted: #a9b8af; --border: #2c3a33; --border-strong: #78897f;
-  --accent: #62c7a2; --accent-hover: #8bdcbd; --accent-fg: #0b1f18; --accent-soft: #1a3a2e; --accent-soft-fg: #bdebd8;
-  --num: #d3ac55;
-  --warm: #d3ac55; --warm-soft: #3a3118; --warm-fg: #ecd194;
-  --warn-bg: #3a3012; --warn-fg: #f1d98f; --warn-border: #7d6720;
-  --danger: #ff8f84; --danger-bg: #3d1c19; --danger-fg: #ffc6bf;
-  --ok-bg: #173324; --ok-fg: #a3e3b8;
-  --info-bg: #1c2b47; --info-fg: #bcd2f7;
-  --focus: #8db8ff;
-  --shadow: none; --shadow-lg: 0 14px 36px -12px rgb(0 0 0 / .65);
-  --dot: rgb(227 234 229 / .1);
-  --tone-1: #4fb38f; --tone-2: #c9a24a; --tone-3: #7fa2d1; --tone-4: #d98468; --tone-5: #a98bc4; --tone-6: #aa9585; --tone-7: #55b4c4;
+  --bg: #0b0b0d;
+  --bg-subtle: #121215;
+  --bg-muted: #1c1c21;
+  --bg-elevated: #16161a;
+  --border: #26262b;
+  --border-subtle: #1d1d22;
+  --fg: #f4f4f6;
+  --fg-secondary: #a1a1aa;
+  --fg-muted: #8a8a93;
+  --accent: #60a5fa;
+  --accent-soft: rgba(96, 165, 250, 0.12);
+  --good: #4ade80;
+  --good-bg: rgba(74, 222, 128, 0.08);
+  --warn: #fbbf24;
+  --warn-bg: rgba(251, 191, 36, 0.08);
+  --danger: #fb7185;
+  --danger-bg: rgba(251, 113, 133, 0.09);
+  --shadow-pop: 0 0 0 1px rgba(255, 255, 255, 0.08), 0 12px 32px rgba(0, 0, 0, 0.5);
+  --scrim: rgba(0, 0, 0, 0.55);
+  --header-bg: rgba(11, 11, 13, 0.8);
 }
-:root[data-theme="light"] { color-scheme: light; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #0b0b0d;
+    --bg-subtle: #121215;
+    --bg-muted: #1c1c21;
+    --bg-elevated: #16161a;
+    --border: #26262b;
+    --border-subtle: #1d1d22;
+    --fg: #f4f4f6;
+    --fg-secondary: #a1a1aa;
+    --fg-muted: #8a8a93;
+    --accent: #60a5fa;
+    --accent-soft: rgba(96, 165, 250, 0.12);
+    --good: #4ade80;
+    --good-bg: rgba(74, 222, 128, 0.08);
+    --warn: #fbbf24;
+    --warn-bg: rgba(251, 191, 36, 0.08);
+    --danger: #fb7185;
+    --danger-bg: rgba(251, 113, 133, 0.09);
+    --shadow-pop: 0 0 0 1px rgba(255, 255, 255, 0.08), 0 12px 32px rgba(0, 0, 0, 0.5);
+    --scrim: rgba(0, 0, 0, 0.55);
+    --header-bg: rgba(11, 11, 13, 0.8);
+  }
+}

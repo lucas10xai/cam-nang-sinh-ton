@@ -1,0 +1,18 @@
+---
+// Một dòng trong danh sách mục: số, tiêu đề, tóm tắt (tùy chọn), siêu dữ liệu một hàng. Không đóng khung.
+import { url, entryCode, entryLead, COST_LABELS, reviewKind, type Entry } from '../lib/site';
+interface Props { entry: Entry; lead?: boolean; /** Chỉ tiền và bằng chứng (trang chủ). */ brief?: boolean; }
+const { entry, lead = true, brief = false } = Astro.props;
+const d = entry.data;
+const summary = lead ? entryLead(entry) : null;
+const rk = reviewKind(d.verification.status);
+const meta = [COST_LABELS.money[d.cost.money], ...(brief ? [] : [COST_LABELS.time[d.cost.time]]), `Bằng chứng ${d.evidence}`];
+---
+<article class="row">
+  <span class="row__code" aria-hidden="true">{entryCode(entry)}</span>
+  <div class="row__main">
+    <h3 class="row__title"><a href={url.entry(d.id)}><span class="visually-hidden">Mục {entryCode(entry)}: </span>{d.title}</a></h3>
+    {summary && <p class="row__lead">{summary}</p>}
+    <p class="row__meta" data-pagefind-ignore>{meta.join(' · ')}{rk && <span class="tag tag--warn">Đang rà soát</span>}</p>
+  </div>
+</article>

@@ -1,118 +1,51 @@
 ---
 import Base from '../layouts/Base.astro';
 import Icon from '../components/icons/Icon.astro';
+import EntryRow from '../components/EntryRow.astro';
 import HotlineStrip from '../components/HotlineStrip.astro';
-import ChapterGroups from '../components/ChapterGroups.astro';
-import { loadAll, worthOf, entryCode, SITE_TAGLINE, situationIcon, url } from '../lib/site';
-import { graphData } from '../lib/graph';
+import ChapterIndex from '../components/ChapterIndex.astro';
+import { loadAll, loadStatus, verifiedCount, worthOf, reviewKind, SITUATIONS, situationIcon, url } from '../lib/site';
 import type { IconName } from '../components/icons/paths';
 const { chapters, entries } = await loadAll();
-const { stats, groups, sits } = await graphData();
-const quick = entries.filter((e) => worthOf(e.data) === 'very-high');
-const expertNote = stats.expert === 0 ? 'chưa mục nào có chuyên gia duyệt' : `${stats.expert} mục có chuyên gia duyệt`;
+const status = loadStatus(entries);
+const verified = verifiedCount(status.totals);
+const experts = status.totals.by_status['expert-reviewed'] ?? 0;
+const sits = SITUATIONS
+  .map((s) => ({ ...s, n: entries.filter((e) => e.data.situations.includes(s.slug)).length }))
+  .filter((s) => s.n > 0);
+// Việc làm ngay: lợi ích lớn, gần như không tốn gì. Ưu tiên mục đã soạn lại và không đang rà soát; thiếu thì lấy thêm mục chưa soạn lại (vẫn không đang rà soát).
+const vh = entries.filter((e) => worthOf(e.data) === 'very-high' && !reviewKind(e.data.verification.status));
+const quick = [...vh.filter((e) => e.data.rewrite_status === 'rewritten'), ...vh.filter((e) => e.data.rewrite_status !== 'rewritten')].slice(0, 6);
 ---
-<Base home>
-  <section class="stage" id="stage" aria-labelledby="stage-h">
-    <a class="skip-map" href={url('/chuong/')} data-toc-open>Bỏ qua bản đồ, mở Mục lục</a>
-    <div class="mapscreen" id="mapscreen">
-      <div class="map" id="map-host"></div>
-      <div id="map-tip" class="map__tip" hidden></div>
-      <button class="btn mapscreen__close" id="map-close" type="button"><Icon name="x" size={16} />Đóng bản đồ</button>
-      <div class="legend" id="map-legend" role="group" aria-label="Chú giải màu và lọc theo nhóm"></div>
-      <div class="zoomctl" role="group" aria-label="Phóng, thu bản đồ">
-        <button type="button" id="zoom-in" aria-label="Phóng to"><Icon name="plus" size={16} /></button>
-        <button type="button" id="zoom-out" aria-label="Thu nhỏ"><Icon name="minus" size={16} /></button>
-        <button type="button" id="zoom-fit" aria-label="Về giữa, xem toàn bộ"><Icon name="maximize" size={16} /></button>
-      </div>
-    </div>
+<Base>
+  <header class="intro">
+    <h1>Cẩm nang sinh tồn</h1>
+    <p class="intro__lead">{entries.length} việc nên làm để giữ mạng, giữ tiền và tránh vướng luật theo bối cảnh Việt Nam. Mỗi mục tính rõ chi phí bỏ ra, lợi ích nhận lại và nguồn đối chiếu.</p>
+    <p class="intro__trust"><Icon name="info" size={14} /><span>Mã nguồn mở công ích · {experts > 0 ? `${experts} mục có chuyên gia duyệt` : 'Chưa có chuyên gia duyệt'} (mới đối chiếu nguồn {verified}/{entries.length} mục) · Thông tin tham khảo, không thay bác sĩ hoặc luật sư. <a class="link" href={url('/phuong-phap/')}>Phương pháp →</a></span></p>
+  </header>
 
-    <div class="stage__intro" id="stage-intro">
-      <p class="eyebrow">Sổ tay sống khỏe, giữ tiền, hiểu luật</p>
-      <h1 id="stage-h">Biết việc gì nên làm, trước khi chuyện xảy ra.</h1>
-      <p class="stage__lead">{SITE_TAGLINE} Mỗi việc là một chấm trên bản đồ; chọn một chấm để đọc, hoặc tìm nhanh ở thanh trên.</p>
-      <form class="searchbox searchbox--hero intro-search" action={url('/tim-kiem/')} method="get" role="search">
-        <label class="visually-hidden" for="q">Tìm một việc, một điều luật hay một bệnh (gõ không dấu cũng được)</label>
-        <span class="searchbox__ico"><Icon name="search" size={18} /></span>
-        <input id="q" type="search" name="q" placeholder="bị cho nghỉ việc, đau ngực…" autocomplete="off" />
-        <button class="btn" type="submit">Tìm</button>
-      </form>
-      <dl class="stats" aria-label="Số liệu thật của cẩm nang">
-        <div><dd>{stats.entries}</dd><dt>mục</dt></div>
-        <div><dd>{stats.chapters}</dd><dt>chương</dt></div>
-        <div><dd>{stats.verified}</dd><dt>đã đối chiếu nguồn</dt></div>
-        <div><dd>{stats.links}</dd><dt>liên kết chéo</dt></div>
-      </dl>
-      <p class="stats__note">Mới <strong>{stats.verified}/{stats.entries}</strong> mục được đối chiếu nguồn, {expertNote}. <a href={url('/phuong-phap/')}>Xem phương pháp</a>.</p>
-      <ul class="colls">
-        <li><a class="coll" href="#tinh-huong" data-coll="tinh-huong" style="--tone:var(--tone-1)"><span class="coll__n">{stats.situations} lối vào</span><span class="coll__t">Bạn đang gặp chuyện gì?</span><span class="coll__d">Chọn tình huống gần nhất, chúng tôi gom sẵn các mục nên đọc.</span></a></li>
-        <li><a class="coll" href="#nhom" data-coll="nhom" style="--tone:var(--tone-2)"><span class="coll__n">{stats.groups} nhóm</span><span class="coll__t">Theo nhóm chủ đề</span><span class="coll__d">Sức khỏe, tiền, việc làm, gia đình, biến cố, học tập, công nghệ.</span></a></li>
-        <li><a class="coll" href="#lam-ngay" data-coll="lam-ngay" style="--tone:var(--tone-3)"><span class="coll__n">{stats.quick} việc</span><span class="coll__t">Việc làm ngay, không cần đọc dài</span><span class="coll__d">Lợi ích lớn, gần như không tốn tiền, thời gian hay ý chí.</span></a></li>
-      </ul>
-      <p class="stage__open"><button class="btn" id="open-map" type="button"><Icon name="map" size={16} />Mở bản đồ</button></p>
-    </div>
+  <section class="block" aria-labelledby="sit-h">
+    <div class="block__head"><h2 id="sit-h">Đang gặp chuyện cần xử lý?</h2><a class="more" href={url('/tinh-huong/')}>Tất cả</a></div>
+    <ul class="sit-grid">
+      {sits.map((s) => (
+        <li><a class="sit" href={`${url('/tinh-huong/')}#${s.slug}`}><Icon name={situationIcon(s.slug) as IconName} size={15} /><span class="sit__t">{s.title}</span><span class="sit__n">{s.n}<Icon name="arrow-right" size={13} /></span></a></li>
+      ))}
+    </ul>
+    <HotlineStrip class="home-hot" />
   </section>
 
-  <aside class="mpanel" id="map-panel" data-mode="info" aria-hidden="true" inert tabindex="-1">
-    <div class="mpanel__bar">
-      <span class="mpanel__kind"></span>
-      <a class="mpanel__full" href={url('/')}>Mở trang đầy đủ</a>
-      <button class="mpanel__x" type="button" aria-label="Đóng bảng (phím Esc)"><Icon name="x" size={18} /></button>
-    </div>
-    <div class="mpanel__body"></div>
-  </aside>
-
-  <div class="container home-static">
-    <section class="block" id="tinh-huong" aria-labelledby="sit-h">
-      <div class="section-head">
-        <div>
-          <p class="eyebrow">Lối vào chính</p>
-          <h2 id="sit-h" class="section-head__t">Bạn đang gặp chuyện gì?</h2>
-          <p class="section-head__s">Chọn tình huống gần nhất, chúng tôi gom sẵn các mục nên đọc.</p>
-        </div>
-        <a class="more-link" href={url('/tinh-huong/')}>Tất cả tình huống <Icon name="arrow-right" size={15} /></a>
+  {quick.length > 0 && (
+    <section class="block" aria-labelledby="ln-h">
+      <div class="block__head"><h2 id="ln-h">Bắt đầu nhanh: ít tốn kém, lợi ích lớn</h2></div>
+      <div class="rows">
+        {quick.map((e) => <EntryRow entry={e} brief />)}
       </div>
-      <ul class="sit-grid">
-        {sits.map((s) => (
-          <li>
-            <a class="sit-card" data-sit href={`${url('/tinh-huong/')}#${s.slug}`}>
-              <span class="sit-card__ico"><Icon name={situationIcon(s.slug) as IconName} size={22} /></span>
-              <span class="sit-card__t">{s.title}</span>
-              <span class="sit-card__n">{s.n} mục <Icon name="arrow-right" size={13} /></span>
-            </a>
-          </li>
-        ))}
-      </ul>
+      <p class="block__foot"><a class="more" href={`${url('/tra-cuu/')}?worth=very-high`}>Lọc toàn bộ mục đáng làm cao →</a></p>
     </section>
+  )}
 
-    <section class="block" id="nhom" aria-labelledby="chuong-h">
-      <div class="section-head">
-        <div>
-          <p class="eyebrow">Theo chủ đề</p>
-          <h2 id="chuong-h" class="section-head__t">Đọc theo nhóm chủ đề</h2>
-          <p class="section-head__s">{chapters.length} chương, {entries.length} mục, gom thành {groups.length} nhóm. Mỗi chương ghi số mục đã được đối chiếu nguồn.</p>
-        </div>
-        <a class="more-link" href={url('/chuong/')}>Danh sách chương <Icon name="arrow-right" size={15} /></a>
-      </div>
-      <ChapterGroups chapters={chapters} entries={entries} />
-    </section>
-
-    <section class="block" id="lam-ngay" aria-labelledby="ln-h">
-      <div class="section-head">
-        <div>
-          <p class="eyebrow">Không cần đọc dài</p>
-          <h2 id="ln-h" class="section-head__t">Việc làm ngay</h2>
-          <p class="section-head__s">{quick.length} mục có lợi ích lớn mà gần như không tốn tiền, thời gian hay ý chí. Đây là phán đoán của người biên soạn, không phải bằng chứng; xem huy hiệu kiểm chứng của từng mục.</p>
-        </div>
-        <a class="more-link" href={`${url('/tra-cuu/')}?worth=very-high`}>Lọc trong Tra cứu <Icon name="arrow-right" size={15} /></a>
-      </div>
-      <ul class="quick-list">
-        {quick.map((e) => <li><a href={url.entry(e.data.id)}><span class="quick-list__n">{entryCode(e)}</span>{e.data.title}</a></li>)}
-      </ul>
-    </section>
-
-    <section class="block" id="khan-cap" aria-label="Số khẩn cấp">
-      <HotlineStrip />
-    </section>
-  </div>
-  <script>import '../scripts/home.ts';</script>
+  <section class="block" aria-labelledby="chuong-h">
+    <div class="block__head"><h2 id="chuong-h">Mục lục {chapters.length} chương</h2><a class="more" href={url('/chuong/')}>Trang riêng</a></div>
+    <ChapterIndex chapters={chapters} entries={entries} />
+  </section>
 </Base>

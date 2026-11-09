@@ -5,16 +5,16 @@ import HotlineStrip from '../components/HotlineStrip.astro';
 import { url } from '../lib/url';
 ---
 <Base title="Không tìm thấy trang" noindex>
-  <div class="notfound">
-    <p class="notfound__code" aria-hidden="true">404</p>
+  <header class="head">
+    <p class="head__code" aria-hidden="true">404</p>
     <h1>Không tìm thấy trang này</h1>
-    <p>Đường dẫn có thể đã đổi hoặc gõ sai. Thử một trong các lối sau.</p>
-    <ul class="quick-links">
-      <li><a class="btn" href={url('/')}><Icon name="home" size={16} />Trang chủ</a></li>
-      <li><a class="btn btn--ghost" href={url('/tim-kiem/')}><Icon name="search" size={16} />Tìm kiếm</a></li>
-      <li><a class="btn btn--ghost" href={url('/chuong/')}><Icon name="book-open" size={16} />Các chương</a></li>
-      <li><a class="btn btn--ghost" href={url('/tinh-huong/')}><Icon name="compass" size={16} />Tình huống</a></li>
-    </ul>
+    <p class="head__lead">Đường dẫn có thể đã đổi hoặc gõ sai. Thử một trong các lối sau.</p>
+  </header>
+  <div class="actions">
+    <a class="btn btn--primary" href={url('/')}><Icon name="home" size={14} />Tổng quan</a>
+    <a class="btn" href={url('/tim-kiem/')}><Icon name="search" size={14} />Tìm kiếm</a>
+    <a class="btn" href={url('/chuong/')}><Icon name="book-open" size={14} />Các chương</a>
+    <a class="btn" href={url('/tinh-huong/')}><Icon name="compass" size={14} />Tình huống</a>
   </div>
-  <HotlineStrip compact />
+  <HotlineStrip class="home-hot" />
 </Base>

@@ -1,82 +1,81 @@
 ---
 import Base from '../layouts/Base.astro';
 import Icon from '../components/icons/Icon.astro';
-import EntryCard from '../components/EntryCard.astro';
+import EntryRow from '../components/EntryRow.astro';
 import {
-  loadAll, worthOf, fold, url, SITUATIONS, WORTH_LABELS, COST_LABELS, METRIC_LABELS, BENEFIT_LABELS, VERIFICATION_LABELS, STATUS_ORDER,
+  loadAll, worthOf, fold, url, SITUATIONS, WORTH_LABELS, COST_LABELS, VERIFICATION_LABELS, STATUS_ORDER,
 } from '../lib/site';
 const { chapters, entries } = await loadAll();
 const used = new Set(entries.flatMap((e) => e.data.situations));
 for (const e of entries) for (const sl of e.data.situations) if (!SITUATIONS.some((x) => x.slug === sl)) console.warn(`[tình huống lạ] ${e.data.id}: ${sl}`);
-const groups = [
-  { key: 'rw', legend: 'Soạn lại', opts: [['rewritten', 'Đã soạn lại']] },
-  { key: 'ev', legend: 'Mức bằng chứng', opts: [['A', 'A'], ['B', 'B'], ['C', 'C']] },
-  { key: 'worth', legend: 'Mức đáng làm (phán đoán của người biên soạn)', opts: Object.entries(WORTH_LABELS).map(([k, v]) => [k, v]) },
-  { key: 'money', legend: 'Chi phí tiền', opts: Object.entries(COST_LABELS.money).map(([k, v]) => [k, v]) },
-  { key: 'time', legend: 'Chi phí thời gian', opts: Object.entries(COST_LABELS.time).map(([k, v]) => [k, v]) },
-  { key: 'will', legend: 'Chi phí ý chí', opts: Object.entries(COST_LABELS.will).map(([k, v]) => [k, v]) },
-  { key: 'benefit', legend: 'Lợi ích', opts: Object.entries(BENEFIT_LABELS).map(([k, v]) => [k, v]) },
-  { key: 'metric', legend: 'Đổi lấy cái gì', opts: Object.entries(METRIC_LABELS).map(([k, v]) => [k, v]) },
-  { key: 'vs', legend: 'Trạng thái kiểm chứng', opts: STATUS_ORDER.map((s) => [s, VERIFICATION_LABELS[s]]) },
-  ...(used.size ? [{ key: 'sit', legend: 'Tình huống', opts: SITUATIONS.filter((x) => used.has(x.slug)).map((x) => [x.slug, x.title]) }] : []),
+type Group = { key: string; label: string; opts: string[][] };
+const main: Group[] = [
+  { key: 'money', label: 'Tiền', opts: Object.entries(COST_LABELS.money) },
+  { key: 'ev', label: 'Bằng chứng', opts: [['A', 'A'], ['B', 'B'], ['C', 'C']] },
+  { key: 'worth', label: 'Đáng làm', opts: Object.entries(WORTH_LABELS) },
+];
+const more: Group[] = [
+  { key: 'time', label: 'Thời gian', opts: Object.entries(COST_LABELS.time) },
+  { key: 'will', label: 'Ý chí', opts: Object.entries(COST_LABELS.will) },
+  { key: 'vs', label: 'Kiểm chứng', opts: STATUS_ORDER.map((s) => [s, VERIFICATION_LABELS[s]]) },
+  ...(used.size ? [{ key: 'sit', label: 'Tình huống', opts: SITUATIONS.filter((x) => used.has(x.slug)).map((x) => [x.slug, x.title]) }] : []),
 ];
 ---
-<Base title="Tra cứu và lọc" description="Lọc các mục theo chương, mức bằng chứng, chi phí, mức đáng làm và trạng thái kiểm chứng." wide>
-  <div class="page-head"><p class="eyebrow">Tìm theo điều kiện</p><h1>Tra cứu và lọc</h1><p>Chọn nhiều điều kiện cùng lúc. Trong cùng một nhóm, chọn nhiều ô nghĩa là “hoặc”; giữa các nhóm là “và”. Muốn tìm theo từ khóa trong nội dung, dùng <a href={url('/tim-kiem/')}>Tìm kiếm</a>.</p></div>
+<Base title="Lọc chi phí và bằng chứng" description="Lọc các mục theo chương, chi phí, mức bằng chứng, mức đáng làm và trạng thái kiểm chứng." width="wide">
+  <header class="head">
+    <h1>Lọc chi phí và bằng chứng</h1>
+    <p class="head__lead">Trong cùng một hàng, chọn nhiều ô nghĩa là “hoặc”; giữa các hàng là “và”. Muốn tìm theo từ khóa trong nội dung, dùng <a class="link" href={url('/tim-kiem/')}>Tìm kiếm</a>.</p>
+  </header>
 
-  <div class="lookup">
-    <details class="filter-drawer" id="filter-drawer" open>
-      <summary class="filter-drawer__sum"><Icon name="filter" size={17} /><span>Bộ lọc</span><Icon name="chevron-down" size={17} class="accordion__caret" /></summary>
-      <form class="filters js-only" id="filters" aria-label="Bộ lọc" onsubmit="return false">
-        <div class="filters__row">
-          <div>
-            <label for="f-q"><strong>Lọc theo tiêu đề</strong> (không dấu cũng được)</label>
-            <input id="f-q" type="search" autocomplete="off" />
-          </div>
-          <div class="chapter-opts">
-            <label for="f-ch"><strong>Chương</strong></label>
-            <select id="f-ch">
-              <option value="">Tất cả chương</option>
-              {chapters.map((c) => <option value={String(c.data.number)}>{c.data.number}. {c.data.title}</option>)}
-            </select>
-          </div>
-        </div>
-        {groups.map((g) => (
-          <fieldset data-group={g.key}>
-            <legend>{g.legend}</legend>
-            <div class="opts">
-              {g.opts.map(([v, label]) => (
-                <label class="opt"><input type="checkbox" name={g.key} value={v} /><span>{label}</span></label>
-              ))}
-            </div>
-          </fieldset>
-        ))}
-        <div><button class="btn btn--ghost" type="button" id="f-reset"><Icon name="x" size={16} />Xóa bộ lọc</button></div>
-      </form>
-    </details>
-
-    <div class="lookup__results">
-      <div class="result-bar js-only">
-        <p id="f-count" role="status" aria-live="polite">{entries.length} mục</p>
+  <form class="filters js-only" id="filters" aria-label="Bộ lọc" onsubmit="return false">
+    <div class="filters__top">
+      <div class="search-field">
+        <Icon name="search" size={15} />
+        <label class="visually-hidden" for="f-q">Lọc theo tiêu đề (không dấu cũng được)</label>
+        <input id="f-q" type="search" placeholder="Lọc theo tiêu đề…" autocomplete="off" />
       </div>
-      <p class="no-js-only muted">Bộ lọc cần JavaScript. Dưới đây là toàn bộ danh sách, không lọc.</p>
-
-      <ul class="entry-list" id="f-list">
-        {entries.map((e) => {
-          const d = e.data;
-          return (
-            <li class="entry-row" data-ch={d.chapter} data-ev={d.evidence} data-worth={worthOf(d)} data-money={d.cost.money} data-time={d.cost.time} data-will={d.cost.will} data-benefit={d.benefit} data-metric={d.metric} data-vs={d.verification.status} data-rw={d.rewrite_status} data-sit={d.situations.join(' ')} data-t={fold(d.title)}>
-              <EntryCard entry={e} slim />
-            </li>
-          );
-        })}
-      </ul>
-      <p class="js-only muted" id="f-empty" hidden>Không có mục nào khớp. Bỏ bớt điều kiện lọc.</p>
+      <label class="visually-hidden" for="f-ch">Chương</label>
+      <select id="f-ch">
+        <option value="">Tất cả chương</option>
+        {chapters.map((c) => <option value={String(c.data.number)}>{c.data.number}. {c.data.title}</option>)}
+      </select>
     </div>
+    <details class="fold filters__panel" id="f-panel" open>
+      <summary><span>Bộ lọc theo chi phí, bằng chứng</span><Icon name="chevron-down" size={13} /></summary>
+    {main.map((g) => (
+      <div class="frow" role="group" aria-label={g.label}>
+        <span class="frow__l" aria-hidden="true">{g.label}</span>
+        <div class="chips">{g.opts.map(([v, label]) => <label class="chip"><input type="checkbox" name={g.key} value={v} /><span>{label}</span></label>)}</div>
+      </div>
+    ))}
+    <details class="fold filters__more" id="f-more">
+      <summary><span class="fold__open">Lọc thêm: thời gian, ý chí, kiểm chứng, tình huống</span><span class="fold__close">Thu gọn bộ lọc thêm</span><Icon name="chevron-down" size={13} /></summary>
+      {more.map((g) => (
+        <div class="frow" role="group" aria-label={g.label}>
+          <span class="frow__l" aria-hidden="true">{g.label}</span>
+          <div class="chips">{g.opts.map(([v, label]) => <label class="chip"><input type="checkbox" name={g.key} value={v} /><span>{label}</span></label>)}</div>
+        </div>
+      ))}
+    </details>
+    </details>
+  </form>
+
+  <div class="result-bar js-only">
+    <p id="f-count" class="count" role="status" aria-live="polite">Đang hiện {entries.length} / {entries.length} mục</p>
+    <button class="btn btn--ghost" type="button" id="f-reset"><Icon name="x" size={13} />Xóa bộ lọc</button>
   </div>
-  <script is:inline>
-    // Màn hình hẹp: thu bộ lọc lại cho khỏi chiếm chỗ; màn hình rộng giữ mở.
-    if (matchMedia('(max-width: 63.99rem)').matches) document.getElementById('filter-drawer').open = false;
-  </script>
+  <p class="no-js-only muted">Bộ lọc cần JavaScript. Dưới đây là toàn bộ danh sách, không lọc.</p>
+
+  <ul class="rows" id="f-list">
+    {entries.map((e) => {
+      const d = e.data;
+      return (
+        <li class="entry-row" data-ch={d.chapter} data-ev={d.evidence} data-worth={worthOf(d)} data-money={d.cost.money} data-time={d.cost.time} data-will={d.cost.will} data-vs={d.verification.status} data-sit={d.situations.join(' ')} data-t={fold(d.title)}>
+          <EntryRow entry={e} lead={false} />
+        </li>
+      );
+    })}
+  </ul>
+  <p class="js-only muted empty" id="f-empty" hidden>Không có mục nào khớp. Bỏ bớt điều kiện lọc.</p>
   <script>import '../scripts/filter.ts';</script>
 </Base>

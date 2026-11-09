@@ -1,0 +1,36 @@
+---
+// Mục lục 36 chương theo 7 chủ đề, dạng mục lục sách: dòng phân cách mảnh, số chương, tên, số mục.
+import { chapterGroups, loadStatus, verifiedCount, reviewCount, url, type Chapter, type Entry } from '../lib/site';
+interface Props { chapters: Chapter[]; entries: Entry[]; headingLevel?: 2 | 3; }
+const { chapters, entries, headingLevel = 3 } = Astro.props;
+const H = `h${headingLevel}` as 'h2' | 'h3';
+const status = loadStatus(entries);
+const byNum = new Map(chapters.map((c) => [c.data.number, c]));
+const groups = chapterGroups(chapters.map((c) => c.data.number));
+const total = (n: number) => status.chapters.get(n)?.total ?? entries.filter((e) => e.data.chapter === n).length;
+---
+<div class="toc-book">
+  {groups.map((g) => (
+    <section class="tgroup" id={`nhom-${g.slug}`} aria-labelledby={`nhom-${g.slug}-h`}>
+      <H class="tgroup__t" id={`nhom-${g.slug}-h`}>{g.title}</H>
+      <ul>
+        {g.chapters.map((n) => {
+          const row = status.chapters.get(n);
+          const ok = verifiedCount(row);
+          const rv = reviewCount(row);
+          const note = [ok > 0 ? `${ok} đã đối chiếu` : '', rv > 0 ? `${rv} đang rà soát` : ''].filter(Boolean).join(' · ');
+          return (
+            <li>
+              <a class="tline" href={url.chapter(n)}>
+                <span class="tline__n">{String(n).padStart(2, '0')}</span>
+                <span class="tline__t">{byNum.get(n)!.data.title}</span>
+                {note && <span class="tline__note">{note}</span>}
+                <span class="tline__c">{total(n)} mục</span>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  ))}
+</div>

@@ -10,11 +10,7 @@ export type Entry = CollectionEntry<'entries'>;
 export type Chapter = CollectionEntry<'chapters'>;
 
 export const SITE_NAME = 'Cẩm nang sinh tồn';
-export const SITE_TAGLINE = 'Những việc nên làm để sống lâu hơn, đỡ tốn hơn, ít vướng luật hơn, theo bối cảnh Việt Nam.';
 export const DISCLAIMER = 'Chưa có chuyên gia duyệt. Thông tin tham khảo, không thay thế luật sư hoặc bác sĩ.';
-/** Dòng ngắn cho thanh thông báo đầu mọi trang; bản đầy đủ là DISCLAIMER (chân trang, trang Phương pháp). */
-export const NOTICE_LEAD = 'Chưa có chuyên gia duyệt.';
-export const NOTICE_MORE = 'Thông tin chỉ để tham khảo.';
 export const REPO_URL = 'https://github.com/lucas10xai/cam-nang-sinh-ton';
 export const ISSUES_URL = `${REPO_URL}/issues/new`;
 
@@ -45,7 +41,7 @@ export const SITUATION_ICONS: Record<string, string> = {
 export const situationIcon = (slug: string): string => SITUATION_ICONS[slug] ?? 'compass';
 
 /* ---------- Nhóm chủ đề của chương (data/chapter-groups.json) ---------- */
-export interface ChapterGroup { slug: string; title: string; description: string; icon: string; tone: number; chapters: number[]; }
+export interface ChapterGroup { slug: string; title: string; description: string; icon: string; chapters: number[]; }
 /** Mỗi chương đúng một nhóm; chương chưa xếp rơi vào nhóm "Khác" để không bao giờ biến mất khỏi trang. */
 export function chapterGroups(chapterNumbers: number[]): ChapterGroup[] {
   const known = new Set(chapterNumbers);
@@ -62,7 +58,7 @@ export function chapterGroups(chapterNumbers: number[]): ChapterGroup[] {
   const rest = chapterNumbers.filter((n) => !seen.has(n));
   if (rest.length) {
     console.warn(`[nhóm chương] chưa xếp nhóm: ${rest.join(', ')}`);
-    groups.push({ slug: 'khac', title: 'Khác', description: 'Các chương chưa xếp vào nhóm nào.', icon: 'book-open', tone: 6, chapters: rest });
+    groups.push({ slug: 'khac', title: 'Khác', description: 'Các chương chưa xếp vào nhóm nào.', icon: 'book-open', chapters: rest });
   }
   return groups.filter((g) => g.chapters.length > 0);
 }
@@ -98,7 +94,6 @@ const VERIFICATION_NOTES_BASE: Record<string, string> = {
   'needs-medical-review': 'Có điểm còn chưa chắc về y khoa. Cần bác sĩ kiểm tra trước khi dựa vào.',
   'expert-reviewed': 'Đã có chuyên gia có tên xác nhận.',
 };
-/** Nhóm màu: dùng cho CSS, không thay cho nhãn chữ. */
 /** Mô tả trạng thái dùng ở trang Phương pháp (chưa gắn với một mục cụ thể). */
 export const VERIFICATION_NOTES = VERIFICATION_NOTES_BASE;
 
@@ -203,6 +198,9 @@ export interface Hotline {
   source: { ref: string; chapter: number };
   verified: boolean;
 }
+/** Nhãn ngắn của số khẩn cấp cho dải một dòng; số lạ dùng nhãn đầy đủ trong data/hotlines.json. */
+const HOTLINE_SHORT: Record<string, string> = { '115': 'Cấp cứu', '113': 'Công an', '114': 'Cứu hỏa', '112': 'Cứu nạn', '111': 'Trẻ em' };
+export const hotlineShort = (h: Hotline): string => HOTLINE_SHORT[h.number] ?? h.label;
 export function loadHotlines(): { items: Hotline[]; showOnChapters: number[] } {
   return { items: hotlinesJson.items as Hotline[], showOnChapters: hotlinesJson.show_on_chapters ?? [] };
 }
@@ -220,6 +218,21 @@ export async function loadAll() {
 
 /** Tóm tắt hiển thị trên danh sách: `tldr` của mục đã soạn lại, ngược lại không có. */
 export const entrySummary = (e: Entry): string | null => (e.data.rewrite_status === 'rewritten' && e.data.tldr ? e.data.tldr : null);
+
+/** Bỏ đánh dấu markdown nhẹ để lấy câu chữ thuần cho dòng tóm tắt. */
+const plain = (md: string): string => md
+  .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/[*_`>#]/g, '').replace(/\s+/g, ' ').trim();
+/** Dòng tóm tắt trong danh sách: `tldr` nếu đã soạn lại; không thì đoạn đầu của "Nói dễ hiểu" (cắt gọn, kết thúc ở ranh giới từ). */
+export function entryLead(e: Entry, max = 220): string | null {
+  const t = entrySummary(e);
+  if (t) return t;
+  const m = /^## +Nói dễ hiểu\s*\n+([\s\S]*?)(?=\n\s*\n|\n## |$)/m.exec(e.body ?? '');
+  if (!m) return null;
+  const s = plain(m[1]);
+  if (s.length <= max) return s || null;
+  const cut = s.slice(0, max);
+  return cut.slice(0, cut.lastIndexOf(' ')).replace(/[,;:\s]+$/, '') + '…';
+}
 
 export const entryCode = (e: Entry) => `${e.data.chapter}.${e.data.number}`;
 
@@ -255,8 +268,11 @@ function makeRenderer(byId: Map<string, Entry>, where: { v: string }) {
       const ch = /(?:^|\/)(\d{2})-[a-z0-9-]+\.md(?:#.*)?$/.exec(href);
       if (ch) return `<a href="${url.chapter(Number(ch[1]))}">${text}</a>`;
       if (/^https?:\/\//.test(href)) {
-        const t = title ? ` title="${title.replace(/"/g, '&quot;')}"` : '';
-        return `<a href="${href}"${t} rel="noopener noreferrer nofollow">${text}</a>`;
+        // Liên kết trần (chữ hiển thị chính là URL): rút gọn còn tên miền cho dễ đọc, href và title giữ nguyên URL đầy đủ.
+        const bare = text === href || text === href.replace(/&/g, '&amp;');
+        const shown = bare ? (() => { try { return new URL(href).hostname.replace(/^www\./, ''); } catch { return text; } })() : text;
+        const t = title ? ` title="${title.replace(/"/g, '&quot;')}"` : bare ? ` title="${href.replace(/"/g, '&quot;')}"` : '';
+        return `<a href="${href}"${t} rel="noopener noreferrer nofollow">${shown}</a>`;
       }
       return text;
     },

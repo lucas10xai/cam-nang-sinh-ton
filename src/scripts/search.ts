@@ -31,7 +31,7 @@ async function renderMore(mySeq: number) {
   if (mySeq !== seq) return;
   for (const d of data) {
     const li = document.createElement('li');
-    li.className = 'search-hit';
+    li.className = "search-hit";
     const ch = d.meta?.chuong ? `<div class="search-hit__meta">${esc(d.meta.chuong)}</div>` : '';
     li.innerHTML = `${ch}<h3><a href="${esc(d.url)}">${esc(d.meta?.title ?? d.url)}</a></h3><p>${d.excerpt}</p>`;
     list.appendChild(li);

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "note": "Phân nhóm chủ đề cho trang chủ và trang Các chương. Mỗi chương (1 đến 36) phải nằm đúng một nhóm; chương nào chưa xếp sẽ rơi vào nhóm tự động \"Khác\" và có cảnh báo lúc build. `icon` là tên trong src/components/icons/Icon.astro. `tone` (1 đến 7) là màu của nhóm trên bản đồ: biến CSS --tone-N trong src/styles/tokens.css.",
+  "note": "Phân nhóm chủ đề cho trang chủ, thanh bên và trang Các chương. Mỗi chương (1 đến 36) phải nằm đúng một nhóm; chương nào chưa xếp sẽ rơi vào nhóm tự động \"Khác\" và có cảnh báo lúc build. `icon` là tên trong src/components/icons/paths.ts.",
   "groups": [
     {
       "slug": "song-khoe-an-toan",
@@ -17,8 +17,7 @@
         34,
         28,
         35
-      ],
-      "tone": 1
+      ]
     },
     {
       "slug": "tien-tieu-dung",
@@ -30,8 +29,7 @@
         6,
         7,
         15
-      ],
-      "tone": 2
+      ]
     },
     {
       "slug": "viec-lam-phap-luat",
@@ -44,8 +42,7 @@
         9,
         12,
         36
-      ],
-      "tone": 3
+      ]
     },
     {
       "slug": "gia-dinh-con-cai",
@@ -59,8 +56,7 @@
         18,
         30,
         17
-      ],
-      "tone": 4
+      ]
     },
     {
       "slug": "bien-co-hoan-canh-kho",
@@ -71,8 +67,7 @@
         25,
         29,
         33
-      ],
-      "tone": 5
+      ]
     },
     {
       "slug": "hoc-tap-di-xa",
@@ -86,8 +81,7 @@
         31,
         32,
         21
-      ],
-      "tone": 6
+      ]
     },
     {
       "slug": "cong-nghe-tai-khoan",
@@ -98,8 +92,7 @@
         14,
         11,
         26
-      ],
-      "tone": 7
+      ]
     }
   ]
 }

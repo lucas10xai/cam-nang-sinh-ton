@@ -1,13 +1,13 @@
 ---
 import Base from '../../layouts/Base.astro';
-import ChapterGroups from '../../components/ChapterGroups.astro';
+import ChapterIndex from '../../components/ChapterIndex.astro';
 import { loadAll, url } from '../../lib/site';
 const { chapters, entries } = await loadAll();
 ---
 <Base title="Các chương" description="Danh sách các chương của Cẩm nang sinh tồn, gom theo chủ đề.">
-  <div class="page-head">
+  <header class="head">
     <h1>Các chương</h1>
-    <p>{chapters.length} chương, {entries.length} mục, gom theo chủ đề. Chọn chương gần với chuyện bạn đang gặp, hoặc <a href={url('/tinh-huong/')}>vào theo tình huống</a>.</p>
-  </div>
-  <ChapterGroups chapters={chapters} entries={entries} headingLevel={2} />
+    <p class="head__lead">{chapters.length} chương, {entries.length} mục, gom theo chủ đề. Chọn chương gần với chuyện bạn đang gặp, hoặc <a class="link" href={url('/tinh-huong/')}>vào theo tình huống</a>.</p>
+  </header>
+  <ChapterIndex chapters={chapters} entries={entries} headingLevel={2} />
 </Base>

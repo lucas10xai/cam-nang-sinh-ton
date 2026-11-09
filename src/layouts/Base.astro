@@ -1,23 +1,22 @@
 ---
 import '../styles/global.css';
 import Icon from '../components/icons/Icon.astro';
-import { SITE_NAME, DISCLAIMER, NOTICE_LEAD, NOTICE_MORE, REPO_URL, ISSUES_URL, SITE_INDEXABLE, loadHotlines, url } from '../lib/site';
-interface Props { title?: string; description?: string; wide?: boolean; noindex?: boolean; /** Trang chủ: phần chính không bọc container (bản đồ tràn màn hình). */ home?: boolean; }
-const { title, description = 'Cẩm nang việc nên làm để sống lâu hơn, đỡ tốn hơn, ít vướng luật hơn, biên soạn theo bối cảnh Việt Nam.', wide = false, noindex = false, home = false } = Astro.props;
+import Sidebar from '../components/Sidebar.astro';
+import { SITE_NAME, DISCLAIMER, REPO_URL, ISSUES_URL, SITE_INDEXABLE, loadAll, loadHotlines, hotlineShort, url } from '../lib/site';
+interface Props { title?: string; description?: string; width?: 'default' | 'wide' | 'entry'; noindex?: boolean; /** Chương đang xem (tô sáng trong sidebar). */ chapter?: number; }
+const { title, description = 'Cẩm nang việc nên làm để sống lâu hơn, đỡ tốn hơn, ít vướng luật hơn, biên soạn theo bối cảnh Việt Nam.', width = 'default', noindex = false, chapter } = Astro.props;
 const fullTitle = title ? `${title} · ${SITE_NAME}` : `${SITE_NAME}: việc nên làm, theo luật và bối cảnh Việt Nam`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const robots = SITE_INDEXABLE && !noindex ? null : SITE_INDEXABLE ? 'noindex' : 'noindex,nofollow';
-const nav = [
-  { href: '/tinh-huong/', label: 'Tình huống' },
-  { href: '/tra-cuu/', label: 'Tra cứu' },
-  { href: '/viec-cua-toi/', label: 'Việc của tôi' },
-  { href: '/phuong-phap/', label: 'Phương pháp' },
-];
-const navMenu = [{ href: '/tim-kiem/', label: 'Tìm kiếm' }, { href: '/gioi-thieu/', label: 'Giới thiệu' }];
+const { entries } = await loadAll();
 const hot = loadHotlines().items;
-const sosNums = hot.slice(0, 3).map((h) => h.number).join(' · ');
 const path = Astro.url.pathname;
 const active = (href: string) => path.startsWith(url(href));
+const nav = [
+  { href: '/tra-cuu/', label: 'Tra cứu' },
+  { href: '/viec-cua-toi/', label: 'Việc của tôi', counter: true },
+  { href: '/phuong-phap/', label: 'Phương pháp' },
+];
 ---
 <!doctype html>
 <html lang="vi">
@@ -29,10 +28,9 @@ const active = (href: string) => path.startsWith(url(href));
     {robots && <meta name="robots" content={robots} />}
     <link rel="canonical" href={canonical} />
     <link rel="icon" href={url('/favicon.svg')} type="image/svg+xml" />
-    <link rel="preload" href={url('/fonts/source-serif-4.woff2')} as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href={url('/fonts/jetbrains-mono.woff2')} as="font" type="font/woff2" crossorigin />
-    <meta name="theme-color" content="#eaeee9" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#101814" media="(prefers-color-scheme: dark)" />
+    <link rel="preload" href={url('/fonts/inter-vi.woff2')} as="font" type="font/woff2" crossorigin />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0b0b0d" media="(prefers-color-scheme: dark)" />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
@@ -47,93 +45,83 @@ const active = (href: string) => path.startsWith(url(href));
       })();
     </script>
   </head>
-  <body class:list={{ 'is-home': home }}>
+  <body>
     <a class="skip" href="#noi-dung">Bỏ qua, tới nội dung</a>
-    <div class="notice" role="note">
-      <div class="container notice__in"><Icon name="info" size={14} /><p>{NOTICE_LEAD}<span class="notice__more"> {NOTICE_MORE}</span> <a href={url('/phuong-phap/')}>Tìm hiểu thêm</a></p></div>
-    </div>
     <header class="topbar" id="site-header">
       <div class="topbar__in">
-        <div class="tb tb--logo">
-          <a class="tb-logo" href={url('/')} aria-label={`${SITE_NAME}, về trang chủ`}><i>[[</i>&nbsp;cẩm nang&nbsp;<b>sinh tồn</b>&nbsp;<i>]]</i></a>
-        </div>
-        <div class="tb tb--toc">
-          <a class="tb-btn" id="toc-open" href={url('/chuong/')} data-toc-open><Icon name="list" size={15} />Mục lục</a>
-        </div>
-        <form class="tb tb--search tb-search" action={url('/tim-kiem/')} method="get" role="search">
-          <label class="visually-hidden" for="tb-q">Tìm một việc, một điều luật hay một bệnh (gõ không dấu cũng được)</label>
-          <span class="tb-search__ico"><Icon name="search" size={15} /></span>
-          <input id="tb-q" type="search" name="q" placeholder="tìm việc, luật, bệnh…" autocomplete="off" />
-          <kbd aria-hidden="true">/</kbd>
-        </form>
-        <nav class="tb tb--nav" id="tb-nav" aria-label="Chính">
-          <a class="tb-btn mob" href={url('/chuong/')} data-toc-open><Icon name="list" size={16} />Mục lục</a>
-          {nav.map((n) => <a class="tb-btn" href={url(n.href)} aria-current={active(n.href) ? 'page' : undefined}>{n.label}</a>)}
-          {navMenu.map((n) => <a class="tb-btn mob" href={url(n.href)} aria-current={active(n.href) ? 'page' : undefined}>{n.label}</a>)}
-          <button class="tb-btn mob js-only" type="button" data-theme-toggle><span class="theme-ico theme-ico--sun"><Icon name="sun" size={16} /></span><span class="theme-ico theme-ico--moon"><Icon name="moon" size={16} /></span>Đổi giao diện sáng, tối</button>
+        <button class="icon-btn menu-btn js-only" type="button" id="menu-toggle" aria-expanded="false" aria-controls="sidebar" aria-label="Mở danh mục"><span class="menu-ico--o"><Icon name="menu" size={18} /></span><span class="menu-ico--x"><Icon name="x" size={18} /></span></button>
+        <a class="brand" href={url('/')} aria-label={`${SITE_NAME}, về trang chủ`}><Icon name="book-open" size={16} />{SITE_NAME}</a>
+        <span class="topbar__space"></span>
+        <a class="search-trigger" href={url('/tim-kiem/')} id="spot-open" aria-label="Tìm kiếm" aria-keyshortcuts="/ Control+K Meta+K">
+          <Icon name="search" size={15} /><span>Tìm trong {entries.length} mục…</span><kbd aria-hidden="true">/</kbd>
+        </a>
+        <nav class="nav" aria-label="Chính">
+          {nav.map((n) => (
+            <a href={url(n.href)} aria-current={active(n.href) ? 'page' : undefined}>{n.label}{n.counter && <span class="nav__count js-only" id="todo-count" hidden></span>}</a>
+          ))}
         </nav>
-        <div class="tb tb--end">
-          <details class="sos" data-pop>
-            <summary aria-label={`Khẩn cấp: ${sosNums.replaceAll(' · ', ', ')}`}><Icon name="phone" size={14} /><span class="sos__t">Khẩn cấp</span><span class="sos__nums">{sosNums}</span></summary>
-            <div class="sos__panel">
-              <h2>Khẩn cấp: gọi ngay</h2>
-              <ul class="sos__list">
-                {hot.map((h) => (
-                  <li><a href={`tel:${h.number}`} ><span class="sos__num">{h.number}</span><span class="sos__lab">{h.label}</span></a></li>
-                ))}
-              </ul>
-              <p class="sos__note">Số chưa được kiểm chứng độc lập với cơ quan nhà nước; gọi không được thì tra lại số chính thức của địa phương.</p>
-            </div>
-          </details>
-          <button class="tb-btn tb-btn--icon theme-btn js-only" type="button" data-theme-toggle aria-label="Đổi giao diện sáng, tối">
-            <span class="theme-ico theme-ico--sun"><Icon name="sun" size={17} /></span>
-            <span class="theme-ico theme-ico--moon"><Icon name="moon" size={17} /></span>
-          </button>
-          <button class="tb-btn tb-btn--icon tb-menu" type="button" id="menu-toggle" aria-expanded="false" aria-controls="tb-nav" aria-label="Mở menu">
-            <span class="tb-menu__o"><Icon name="menu" size={18} /></span>
-            <span class="tb-menu__x"><Icon name="x" size={18} /></span>
-          </button>
-        </div>
+        <details class="sos" data-pop>
+          <summary aria-label={`Khẩn cấp: ${hot.map((h) => h.number).join(', ')}`}><i class="sos__dot" aria-hidden="true"></i>{hot[0]?.number ?? '115'}<span class="sos__t">Khẩn cấp</span></summary>
+          <div class="popover">
+            <ul class="sos__list">
+              {hot.map((h) => (
+                <li><a href={`tel:${h.number}`}><span class="sos__num">{h.number}</span><span class="sos__lab">{h.label}</span></a></li>
+              ))}
+            </ul>
+            <p class="sos__note">Số chưa được kiểm chứng độc lập với cơ quan nhà nước; gọi không được thì tra lại số chính thức của địa phương.</p>
+          </div>
+        </details>
+        <button class="icon-btn theme-btn js-only" type="button" data-theme-toggle aria-label="Đổi giao diện sáng, tối">
+          <span class="theme-ico theme-ico--sun"><Icon name="sun" size={16} /></span>
+          <span class="theme-ico theme-ico--moon"><Icon name="moon" size={16} /></span>
+        </button>
       </div>
     </header>
-    <main id="noi-dung" class:list={[{ container: !home, 'container--wide': wide && !home }]} tabindex="-1">
-      <slot />
-    </main>
-    <footer class="site-footer">
-      <div class="container">
-        <div class="site-footer__grid">
-          <div class="site-footer__about">
-            <a class="tb-logo brand" href={url('/')}><i>[[</i>&nbsp;cẩm nang&nbsp;<b>sinh tồn</b>&nbsp;<i>]]</i></a>
-            <p>Sổ tay việc nên làm theo bối cảnh Việt Nam. Không theo dõi người đọc, không quảng cáo, không tài khoản.</p>
+
+    <div class="scrim" id="scrim"></div>
+    <div class="layout">
+      <Sidebar path={path} chapter={chapter} />
+      <div class="main-col">
+        <main id="noi-dung" class="content" tabindex="-1">
+          <div class:list={['page', { 'page--wide': width === 'wide', 'page--entry': width === 'entry' }]}>
+            <slot />
           </div>
-          <nav aria-label="Đọc">
-            <h2 class="site-footer__h">Đọc</h2>
-            <ul>
-              <li><a href={url('/chuong/')}>Các chương</a></li>
-              <li><a href={url('/tinh-huong/')}>Theo tình huống</a></li>
-              <li><a href={url('/tra-cuu/')}>Tra cứu và lọc</a></li>
-              <li><a href={url('/viec-cua-toi/')}>Việc của tôi</a></li>
-            </ul>
-          </nav>
-          <nav aria-label="Dự án">
-            <h2 class="site-footer__h">Dự án</h2>
-            <ul>
-              <li><a href={url('/phuong-phap/')}>Phương pháp và kiểm chứng</a></li>
-              <li><a href={url('/gioi-thieu/')}>Giới thiệu và ghi công</a></li>
-              <li><a href={REPO_URL} rel="noopener noreferrer">Mã nguồn trên GitHub <Icon name="external-link" size={13} /></a></li>
-              <li><a href={ISSUES_URL} rel="noopener noreferrer">Báo lỗi, góp ý <Icon name="external-link" size={13} /></a></li>
-            </ul>
-          </nav>
+        </main>
+        <footer class="site-footer">
+          <div class="site-footer__in">
+            <p><strong>{DISCLAIMER}</strong> Luật, mức phạt và giá đổi theo thời gian: mỗi mục ghi rõ trạng thái kiểm chứng của chính nó.</p>
+            <p>Biên soạn lại từ <em>高性价比人生指南</em> (eternity4719, CC BY 4.0) qua bản nháp tiếng Việt của quangpao, đối chiếu bản của luonglb; đã sửa cho bối cảnh Việt Nam. Nội dung theo giấy phép CC BY 4.0, mã nguồn theo giấy phép MIT. Không theo dõi, không quảng cáo, không tài khoản.</p>
+            <div class="site-footer__links">
+              <a href={url('/gioi-thieu/')}>Giới thiệu và ghi công</a>
+              <a href={url('/phuong-phap/')}>Phương pháp</a>
+              <a href={REPO_URL} rel="noopener noreferrer">Mã nguồn</a>
+              <a href={ISSUES_URL} rel="noopener noreferrer">Báo lỗi, góp ý</a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <dialog class="spot js-only" id="spot" aria-label="Tìm kiếm trong cẩm nang">
+      <div class="spot__box">
+        <div class="spot__bar">
+          <Icon name="search" size={17} />
+          <input id="spot-q" type="search" role="combobox" aria-expanded="false" aria-controls="spot-list" aria-autocomplete="list" placeholder={`Tìm trong ${entries.length} mục…`} autocomplete="off" spellcheck="false" aria-label="Từ khóa (gõ không dấu cũng được)" />
+          <kbd aria-hidden="true">Esc</kbd>
         </div>
-        <div class="site-footer__legal">
-          <p><strong>{DISCLAIMER}</strong> Luật, mức phạt và giá đổi theo thời gian: mỗi mục ghi rõ trạng thái kiểm chứng của chính nó.</p>
-          <p>Biên soạn lại từ <em>高性价比人生指南</em> (eternity4719, CC BY 4.0) qua bản nháp tiếng Việt của quangpao, đối chiếu bản của luonglb; đã sửa cho bối cảnh Việt Nam. Nội dung theo giấy phép CC BY 4.0, mã nguồn theo giấy phép MIT. <a href={url('/gioi-thieu/')}>Ghi công đầy đủ</a>.</p>
+        <ul class="spot__list" id="spot-list" role="listbox" aria-label="Kết quả" hidden></ul>
+        <p class="spot__empty" id="spot-status" role="status" aria-live="polite">Gõ để tìm. Gõ không dấu cũng được: “lam them gio” ra “làm thêm giờ”.</p>
+        <div class="spot__foot">
+          <span class="spot__keys"><kbd>↑</kbd><kbd>↓</kbd> chọn</span>
+          <span class="spot__keys"><kbd>Enter</kbd> mở</span>
+          <a class="spot__all" id="spot-all" href={url('/tim-kiem/')}>Xem tất cả kết quả →</a>
         </div>
       </div>
-    </footer>
+    </dialog>
+
     <script>import "../scripts/theme.ts";</script>
-    <script>import "../scripts/topbar.ts";</script>
-    <script>import "../scripts/toc.ts";</script>
+    <script>import "../scripts/shell.ts";</script>
+    <script>import "../scripts/spotlight.ts";</script>
     <script>import "../scripts/pop.ts";</script>
   </body>
 </html>

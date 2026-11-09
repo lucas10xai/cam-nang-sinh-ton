@@ -1,9 +1,9 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Icon from '../../components/icons/Icon.astro';
-import EntryCard from '../../components/EntryCard.astro';
+import EntryRow from '../../components/EntryRow.astro';
 import HotlineStrip from '../../components/HotlineStrip.astro';
-import { loadAll, loadHotlines, loadStatus, verifiedCount, reviewCount, chapterGroups, fold, renderChapterIntro, url } from '../../lib/site';
+import { loadAll, loadHotlines, chapterGroups, fold, worthOf, renderChapterIntro, DISCLAIMER, url } from '../../lib/site';
 
 export async function getStaticPaths() {
   const { chapters } = await loadAll();
@@ -14,46 +14,55 @@ const n = Number(Astro.params.n);
 const ch = chapters.find((c) => c.data.number === n)!;
 const list = entries.filter((e) => e.data.chapter === n);
 const intro = renderChapterIntro(ch, byId);
+// Lời mở đầu có thể dài: hiện đoạn đầu, phần còn lại thu trong "Đọc tiếp".
+const cut = intro.indexOf('</p>') + 4;
+const introHead = cut > 3 ? intro.slice(0, cut) : intro;
+const introRest = cut > 3 ? intro.slice(cut).trim() : '';
 const prev = chapters.find((c) => c.data.number === n - 1);
 const next = chapters.find((c) => c.data.number === n + 1);
 const emergency = loadHotlines().showOnChapters.includes(n);
-const row = loadStatus(entries).chapters.get(n);
-const ok = verifiedCount(row);
-const rv = reviewCount(row);
 const group = chapterGroups(chapters.map((c) => c.data.number)).find((g) => g.chapters.includes(n));
 ---
-<Base title={`Chương ${n}: ${ch.data.title}`} description={`${list.length} mục của chương ${n}: ${ch.data.title}.`}>
-  <nav class="crumbs" aria-label="Vị trí"><ol><li><a href={url('/')}>Trang chủ</a></li><li><a href={url('/chuong/')}>Chương</a></li>{group && <li><a href={`${url('/chuong/')}#nhom-${group.slug}`}>{group.title}</a></li>}<li aria-current="page">Chương {n}</li></ol></nav>
-  <header class="chapter-head">
-    <div class="entry-head__top">
-      <p class="eyebrow">Chương {n}{group ? ` · ${group.title}` : ''}</p>
-      <a class="tb-btn map-link" href={url('/')}><Icon name="map" size={14} />Mở bản đồ</a>
-    </div>
-    <h1>{ch.data.title}</h1>
-    <ul class="stat-line" aria-label="Tóm tắt chương">
-      <li><Icon name="file-text" size={15} />{list.length} mục</li>
-      <li><Icon name="shield-check" size={15} />{ok}/{list.length} đã kiểm chứng nguồn</li>
-      {rv > 0 && <li class="stat-line__rv"><Icon name="shield-alert" size={15} />{rv} đang rà soát</li>}
-    </ul>
+<Base title={`Chương ${n}. ${ch.data.title}`} description={`${list.length} mục của chương ${n}: ${ch.data.title}.`} chapter={n}>
+  <nav class="crumbs" aria-label="Vị trí"><ol><li><a href={url('/')}>Tổng quan</a></li>{group && <li><a href={`${url('/chuong/')}#nhom-${group.slug}`}>{group.title}</a></li>}</ol></nav>
+  <header class="head">
+    <h1>Chương {n}. {ch.data.title}</h1>
+    <p class="head__note">{DISCLAIMER}</p>
   </header>
-  {emergency && <HotlineStrip compact />}
-  <div class="chapter-intro prose" set:html={intro} />
-  <div class="list-head">
-    <h2 id="c-h">Các mục ({list.length})</h2>
-    <div class="list-filter js-only">
+  {emergency && <HotlineStrip class="chapter-hot" />}
+  <div class="chapter-intro prose">
+    <Fragment set:html={introHead} />
+    {introRest && (
+      <details class="fold">
+        <summary><span class="fold__open">Đọc tiếp lời mở đầu</span><span class="fold__close">Thu gọn</span><Icon name="chevron-down" size={13} /></summary>
+        <div class="prose" set:html={introRest} />
+      </details>
+    )}
+  </div>
+
+  <div class="toolbar js-only">
+    <div class="search-field">
+      <Icon name="search" size={15} />
       <label class="visually-hidden" for="c-q">Lọc các mục của chương theo tiêu đề</label>
-      <span class="list-filter__ico"><Icon name="search" size={16} /></span>
       <input id="c-q" type="search" placeholder="Lọc trong chương này…" autocomplete="off" />
     </div>
+    <div class="chips" role="group" aria-label="Lọc nhanh">
+      <button class="chip" type="button" data-quick="" aria-pressed="true">Tất cả</button>
+      <button class="chip" type="button" data-quick="worth" aria-pressed="false">Đáng làm cao</button>
+      <button class="chip" type="button" data-quick="free" aria-pressed="false">Không tốn tiền</button>
+    </div>
   </div>
-  <p class="muted js-only list-count" id="c-count" role="status" aria-live="polite">{list.length} mục</p>
-  <ul class="entry-list" id="c-list" aria-labelledby="c-h">
-    {list.map((e) => <li class="entry-row" data-t={fold(e.data.title)}><EntryCard entry={e} /></li>)}
+  <p class="count js-only" id="c-count" role="status" aria-live="polite">{list.length} mục</p>
+
+  <h2 class="visually-hidden" id="c-h">Các mục ({list.length})</h2>
+  <ul class="rows" id="c-list" aria-labelledby="c-h">
+    {list.map((e) => <li class="entry-row" data-t={fold(e.data.title)} data-worth={worthOf(e.data) === 'medium' ? '' : '1'} data-free={e.data.cost.money === '0' ? '1' : ''}><EntryRow entry={e} /></li>)}
   </ul>
-  <p class="js-only muted" id="c-empty" hidden>Không có mục nào khớp trong chương này.</p>
-  <nav class="entry-nav entry-nav--wide" aria-label="Chương khác">
-    {prev ? <a class="prev" href={url.chapter(prev.data.number)}><small><Icon name="arrow-left" size={13} /> Chương trước</small>{prev.data.number}. {prev.data.title}</a> : <span />}
-    {next ? <a class="next" href={url.chapter(next.data.number)}><small>Chương sau <Icon name="arrow-right" size={13} /></small>{next.data.number}. {next.data.title}</a> : <span />}
+  <p class="js-only muted empty" id="c-empty" hidden>Không có mục nào khớp trong chương này.</p>
+
+  <nav class="pager" aria-label="Chương khác">
+    {prev ? <a class="pager__a" href={url.chapter(prev.data.number)}><small><Icon name="arrow-left" size={13} />Chương trước</small><span>{prev.data.number}. {prev.data.title}</span></a> : <span />}
+    {next ? <a class="pager__a pager__a--next" href={url.chapter(next.data.number)}><small>Chương sau<Icon name="arrow-right" size={13} /></small><span>{next.data.number}. {next.data.title}</span></a> : <span />}
   </nav>
   <script>import '../../scripts/list-filter.ts';</script>
 </Base>

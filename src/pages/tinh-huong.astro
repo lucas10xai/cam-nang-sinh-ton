@@ -1,8 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
 import Icon from '../components/icons/Icon.astro';
-import EntryCard from '../components/EntryCard.astro';
-import Accordion from '../components/Accordion.astro';
+import EntryRow from '../components/EntryRow.astro';
+import HotlineStrip from '../components/HotlineStrip.astro';
 import { loadAll, SITUATIONS, situationIcon, url } from '../lib/site';
 import type { IconName } from '../components/icons/paths';
 const { entries } = await loadAll();
@@ -12,36 +12,28 @@ const groups = SITUATIONS
   .filter((g) => g.list.length > 0);
 ---
 <Base title="Tình huống" description="Bạn đang gặp chuyện gì? Chọn tình huống để xem các mục liên quan.">
-  <div class="page-head"><p class="eyebrow">Lối vào nhanh</p><h1>Bạn đang gặp chuyện gì?</h1><p>Bấm vào một tình huống để xem các mục nên đọc, xếp theo chương.</p></div>
+  <header class="head">
+    <h1>Bạn đang gặp chuyện gì?</h1>
+    <p class="head__lead">Bấm vào một tình huống để xem các mục nên đọc, xếp theo chương.</p>
+  </header>
+  <HotlineStrip class="home-hot" />
   {groups.length === 0
-    ? <p class="muted">Chưa có tình huống nào có mục. Hãy xem <a href={url('/chuong/')}>danh sách chương</a>.</p>
+    ? <p class="muted">Chưa có tình huống nào có mục. Hãy xem <a class="link" href={url('/chuong/')}>danh sách chương</a>.</p>
     : (
-      <>
-        <ul class="sit-grid sit-grid--jump">
-          {groups.map((g) => (
-            <li>
-              <a class="sit-card" href={`#${g.slug}`}>
-                <span class="sit-card__ico"><Icon name={situationIcon(g.slug) as IconName} size={22} /></span>
-                <span class="sit-card__t">{g.title}</span>
-                <span class="sit-card__n">{g.list.length} mục <Icon name="chevron-down" size={13} /></span>
-              </a>
-            </li>
-          ))}
-        </ul>
-        <div class="sit-list">
-          {groups.map((g) => (
-            <Accordion class="sit" id={g.slug} summary={`${g.title} · ${g.list.length} mục`} icon={situationIcon(g.slug)}>
-              <ul class="entry-list">{g.list.map((e) => <li><EntryCard entry={e} slim /></li>)}</ul>
-            </Accordion>
-          ))}
-        </div>
-      </>
+      <div class="sit-list">
+        {groups.map((g) => (
+          <details class="fold-row" id={g.slug}>
+            <summary><Icon name={situationIcon(g.slug) as IconName} size={15} /><span class="fold-row__t">{g.title}</span><span class="fold-row__n">{g.list.length}</span><Icon name="chevron-down" size={14} class="fold-row__caret" /></summary>
+            <div class="rows">{g.list.map((e) => <EntryRow entry={e} lead={false} />)}</div>
+          </details>
+        ))}
+      </div>
     )}
   <script is:inline>
     (function () {
       function openHash() {
         var el = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
-        if (el && el.tagName === 'DETAILS') el.open = true;
+        if (el && el.tagName === 'DETAILS') { el.open = true; el.scrollIntoView(); }
       }
       openHash();
       addEventListener('hashchange', openHash);

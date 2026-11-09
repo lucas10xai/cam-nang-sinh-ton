@@ -1,40 +1,35 @@
 # Thiết kế giao diện
 
-Tinh thần: **bản đồ tri thức** (nút-cạnh, thanh kính nổi, bảng trượt từ phải) trên nền **giấy xanh xám** và chữ serif; vẫn là một cuốn sổ tay đáng tin, không phải app lạnh. Học phong cách của https://secondbrainos-vn.pages.dev (bố cục, nhịp, kiểu chữ, bảng màu), toàn bộ mã, chữ, hình là tự viết.
+Tinh thần: **tối giản nghiêm ngặt, đọc là chính**. Chuẩn tham chiếu: Linear Docs, Vercel Geist, Stripe Docs, VitePress. Phân cấp bằng khoảng trắng, cỡ chữ, độ đậm (400/500/600) và đường kẻ mảnh 1px; không hộp lồng hộp, không màu trang trí, không bóng đổ dày, không emoji.
 
-Sáng là mặc định; tối theo `prefers-color-scheme` khi người đọc chưa chọn, nút trên thanh trên ghi đè và lưu ở `localStorage` (`cnst:theme`). Mã giao diện: `src/styles/` (`tokens.css` token và phông, `base.css` nút/chip/thẻ, `layout.css` thanh trên, ngăn kéo Mục lục, chân trang, `pages.css` từng loại trang, `map.css` trang chủ + bảng trượt, `print.css`). Mọi màu, cỡ chữ, khoảng cách, bo góc, bóng là custom property trong `tokens.css`; đừng gõ cứng giá trị ở nơi khác.
+Sáng là mặc định; tối theo `prefers-color-scheme` khi người đọc chưa chọn, nút ở thanh trên ghi đè và lưu ở `localStorage` (`cnst:theme`). Mã giao diện: `src/styles/` (`tokens.css` phông + màu, `base.css` nền tảng, thân bài `.prose`, nút, pill, ô nhập; `layout.css` header, sidebar, Spotlight, chân trang; `pages.css` từng loại trang; `print.css`). Mọi màu là custom property trong `tokens.css`; đừng gõ cứng giá trị ở nơi khác.
 
 ## Chữ
-- **Source Serif 4** (400 đến 700, thêm nghiêng 400) cho thân bài và tiêu đề; **JetBrains Mono** (400 đến 700) cho nhãn, số, logo `[[ cẩm nang sinh tồn ]]`, phím tắt, chip. Tự host trong `public/fonts` (OFL: `OFL-SourceSerif4.txt`, `OFL-JetBrainsMono.txt`), bản cắt còn Latin, Latin mở rộng và toàn bộ dấu tiếng Việt, tổng 96 KB. Đã kiểm 146 tổ hợp chữ có dấu (ắ ằ ẳ ẵ ặ ấ ầ ẩ ẫ ậ ế ề ể ễ ệ ố ồ ổ ỗ ộ ớ ờ ở ỡ ợ ứ ừ ử ữ ự ỳ ý ỷ ỹ ỵ đ Đ và hoa) đều có glyph ở cả ba file. Không CDN.
-- Thân bài 17px/1,62, độ rộng dòng 68ch; tiêu đề 600, giãn chữ −0,025em; nhãn mono 11px in hoa giãn 0,14em. Thang: `--fs-2xs` 11, `--fs-xs` 13, `--fs-sm` 15, `--fs-base` 17, `--fs-md` 19, `--fs-lg` 22, `--fs-xl` 28, `--fs-2xl`/`--fs-3xl` co giãn.
+- **Inter Variable** duy nhất, tự host `public/fonts/inter-vi.woff2` (bản cắt `latin + latin-ext + vietnamese`, trục `wght` 400–700 và `opsz` 14–32, `font-optical-sizing: auto`; OFL ở `OFL-Inter.txt`). Đã kiểm đủ 134 ký tự tiếng Việt có dấu (ắ ặ ể ỗ ự đ Đ…) đều có glyph. Không CDN.
+- `--font-mono` (hệ thống) chỉ cho `<kbd>`. Số thứ tự và số liệu dùng `font-variant-numeric: tabular-nums`; không in hoa giãn chữ.
+- Thang: thân bài 16px / 1,72 / 400, `max-width: 66ch`; H1 trang 28px (trang chủ 30px) 600, giãn −0,022em, `text-wrap: balance`; H2 mục 19px 600; tiêu đề dòng danh sách 16px 550 (15,5px trên điện thoại); UI, sidebar, siêu dữ liệu 12–13,5px.
 
-## Màu
-| Token | Sáng | Tối |
-|---|---|---|
-| `--bg` giấy / `--surface` thẻ / `--text` mực | #eaeee9 / #f7f9f6 / #15201b | #101814 / #18221d / #e3eae5 |
-| `--muted` chữ phụ / `--border` | #4b5a52 / #d2dacf | #a9b8af / #2c3a33 |
-| `--accent` xanh rừng | #1f6b52 | #62c7a2 |
-| `--num` số liệu vàng nâu | #7f6120 | #d3ac55 |
-| `--tone-1..7` màu nhóm chương | rừng #1f6b52, vàng nâu #8a6b23, lam #3f5f86, đất nung #a24e36, tím #6b4c80, nâu xám #7d6b5d, ngọc #1f7a8c | bản sáng hơn của từng màu |
+## Màu: đơn sắc + một màu nhấn
+Nền `--bg` #fff / #0b0b0d, `--bg-subtle` #fafafa / #121215, `--bg-muted` #f4f4f5 / #1c1c21, viền `--border` #e4e4e7 / #26262b (và `--border-subtle`), chữ `--fg` / `--fg-secondary` / `--fg-muted`, nhấn `--accent` #2563eb / #60a5fa. `--fg-muted` đậm hơn so với bản phác (#71717a sáng, #8a8a93 tối) để chữ chú thích đạt tương phản AA.
 
-**Đỏ (`--danger`) chỉ dành cho khẩn cấp và cảnh báo an toàn thật** (viên "Khẩn cấp", `.review-warn`, vòng đỏ quanh mục đang rà soát). Hổ phách (`--warn-*`) chỉ cho "chưa kiểm chứng". Đo tương phản WCAG 2.x trên token: chữ thân ≥ 14:1, chữ phụ ≥ 5,6:1, chữ trên tone ≥ 4,7:1 (trên thẻ), mọi cặp chip/huy hiệu ≥ 5,5:1, ở cả hai theme; viền ô nhập ≥ 3,6:1.
+Màu ngữ nghĩa chỉ khi mang thông tin thật: **lục** (không tốn tiền, bằng chứng A, đã đối chiếu), **hổ phách** (bằng chứng B/C, chưa kiểm chứng), **đỏ** (`--danger`: chỉ cho khẩn cấp, `.review-warn`, mục đang rà soát).
 
-## Trang chủ = bản đồ
-- **Dữ liệu**: `src/pages/graph.json.ts` sinh `graph.json` lúc build từ nội dung thật; bố cục tính sẵn bằng `tools/graph/layout.mjs` (hàm thuần, xác định; test: `node --test tools/graph/test/layout.test.mjs`). Mỗi chương là một đĩa: nút chương ở tâm, các mục xếp xoắn ốc hướng dương quanh nó; 36 đĩa gom quanh tâm nhóm rồi đẩy nhau ra; 10 tình huống (lục giác) ở vành ngoài theo hướng trọng tâm các mục nó nối tới. Cạnh: chương→mục (màu nhóm), mục↔mục (`related`), tình huống→mục (`situations`). ~180 KB (gzip ~68 KB), tải trễ sau khi trang đã hiện.
-- **Vẽ**: canvas 2D trong `src/scripts/map/view.ts`: kéo, lăn chuột phóng thu, chụm hai ngón, phím `+` `-` `0` và mũi tên khi canvas có focus; tìm nút gần con trỏ bằng lưới băm; nhãn chỉ cho chương (tránh chồng) và nút đang chọn/rê; nút "thở" nhẹ, tắt hẳn khi `prefers-reduced-motion`. Vòng đỏ = mục `needs-*-review`; mục đã đọc/đã làm (`cnst:state:v1`) mờ đi kèm chấm nhỏ. Chú giải dưới trái bấm được để làm mờ các nhóm khác.
-- **Bảng trượt từ phải** (`src/scripts/home.ts`): bấm chương/tình huống/thẻ bộ sưu tập → bảng thông tin 400px (mô tả, số liệu thật, "Bắt đầu từ đầu", danh sách mục kèm chip chi phí và trạng thái); bấm mục → bảng đọc ~58vw (tối đa 760px) nạp `<article>` từ trang tĩnh `/muc/<id>/` bằng `fetch`, nên có đúng huy hiệu kiểm chứng, khối đỏ `.review-warn` đứng trước `tldr`/`steps`, không ô tick ở mục `needs-*`, ô tick ở mục đã soạn lại, nút đánh dấu. `history.pushState` tới URL thật (`/muc/<id>/`, `/chuong/<n>/`, `/tinh-huong/#slug`, `/chuong/#nhom-slug`, `/#tinh-huong`…); Back/Forward đúng, Esc đóng và trả focus, F5 mở đúng trang tĩnh.
-- **Không cần JS, không cần bản đồ**: mọi trang tĩnh giữ nguyên đường dẫn. Trang chủ tắt JS vẫn có tiêu đề, số liệu, thẻ bộ sưu tập (liên kết neo), tình huống, nhóm chương, việc làm ngay, khẩn cấp. Nút **Mục lục** (ngăn kéo Nhóm → Chương → Mục, dựng từ `graph.json`, bàn phím đầy đủ) là đường vào thay thế; không JS nó là liên kết tới `/chuong/`. Canvas có `aria-label` mô tả và liên kết "Bỏ qua bản đồ, mở Mục lục".
-- **Điện thoại (≤ 760px)**: trang chủ là danh sách (tiêu đề, ô tìm, số liệu, thẻ, tình huống, nhóm, khẩn cấp); bản đồ là một màn hình riêng mở bằng "Mở bản đồ" (`#ban-do` trong lịch sử); bảng thông tin là ngăn kéo từ dưới lên, bảng đọc toàn màn hình.
-- **Khẩn cấp luôn thấy**: viên đỏ "Khẩn cấp 115 · 113 · 114" ở thanh trên mọi trang, bấm mở danh sách `tel:` từ `data/hotlines.json`.
+## Khung 3 vùng (mọi trang)
+1. **Header 52px** (`border-bottom` 1px, nền mờ + blur): nút menu (dưới 1024px), biểu tượng + "Cẩm nang sinh tồn", nút tìm kiếm (mở Spotlight; chỉ còn biểu tượng trên điện thoại), liên kết Tra cứu · Việc của tôi (kèm số mục đã lưu) · Phương pháp, nút **115** (chấm đỏ; popover 5 số `tel:` lấy từ `data/hotlines.json`), đổi sáng/tối. Không có thanh cảnh báo riêng: câu miễn trừ nằm dưới tiêu đề trang, dưới tiêu đề mục và ở chân trang.
+2. **Sidebar 264px** (cố định từ 1024px; dưới đó là drawer có scrim, `Esc` đóng, nút menu đổi thành dấu X): 4 lối chính, 36 chương theo 7 nhóm trong `data/chapter-groups.json` (`<details open>`; số chương rộng cố định để tên xuống dòng thẳng hàng; số mục bên phải), chương đang xem được tô nhẹ và tự cuộn vào giữa. Cuối sidebar: Phương pháp, Giới thiệu.
+3. **Spotlight** (`/` hoặc `Ctrl/⌘+K`): `<dialog>` 580px, bo 12px; **Pagefind chỉ nạp lần đầu người dùng mở hộp** (`src/scripts/spotlight.ts`); gõ không dấu vẫn ra kết quả; `↑` `↓` chọn, `Enter` mở, `Esc` đóng; "Xem tất cả kết quả →" sang `/tim-kiem/?q=…`. Trang `/tim-kiem/` vẫn đầy đủ khi mở trực tiếp.
 
-## Thanh trên và chân trang
-Các viên kính (`rgba` 88% + blur): logo `[[ cẩm nang sinh tồn ]]` (mono, chữ cuối màu nhấn), "Mục lục", ô tìm với phím tắt `/`, liên kết, viên khẩn cấp, đổi theme. Từ 64rem một hàng; dưới đó nút menu mở bảng thả xuống (`aria-expanded`, Esc đóng, rời thanh thì đóng). Thanh thông báo mảnh "Chưa có chuyên gia duyệt" vẫn ở đầu mọi trang; chân trang nhắc lại đầy đủ.
-
-## Trang mục và các trang khác
-Một hàng trạng thái dưới tiêu đề (chip chi phí, bằng chứng, đáng làm, huy hiệu kiểm chứng; chip có giải thích là `<details data-pop>`); 2 cột từ 64rem (cột đọc 68ch + cột phụ dính), 1 cột trên điện thoại; tiêu đề phần có đường kẻ mảnh phía trên; `steps` có số lớn và ô tick lớn; căn cứ pháp luật là accordion; in sạch (`print.css`). Nút "Mở bản đồ" (`/?n=<id>`) đưa về bản đồ và phóng tới nút đó.
-
-## Thêm hoặc đổi nhóm chương
-Sửa `data/chapter-groups.json`: mỗi nhóm có `slug`, `title`, `description` một dòng, `icon` (tên trong `src/components/icons/paths.ts`), `tone` (1 đến 7, màu `--tone-N`) và `chapters`. Mỗi chương 1 đến 36 phải nằm đúng một nhóm; chương chưa xếp rơi vào nhóm "Khác" kèm cảnh báo lúc build. Nhóm thứ 8 trở lên cần thêm `--tone-8` vào `tokens.css` và `view.ts` (đọc `--tone-1..7`). Tình huống lấy từ `data/situations.json` (chỉ hiện tình huống đã có mục); icon theo slug ở `SITUATION_ICONS` (`src/lib/site.ts`).
+## Trang
+- **Trang chủ**: mở đầu 4 dòng (H1, mô tả, dòng tin cậy trung thực kèm số mục đã đối chiếu thật), lưới 10 tình huống kẻ mảnh + dải `tel:`, 6 mục "Bắt đầu nhanh" (đáng làm *rất cao*, ưu tiên đã soạn lại và không đang rà soát), mục lục 36 chương theo 7 nhóm.
+- **Chương**: breadcrumb, H1, đoạn mở đầu (phần dài thu trong "Đọc tiếp"), ô lọc + pill (`Tất cả`, `Đáng làm cao`, `Không tốn tiền`), danh sách dòng phân cách (`EntryRow`): số · tiêu đề · tóm tắt 2 dòng · siêu dữ liệu một hàng; thẻ `Đang rà soát` chỉ khi `needs-*-review`.
+- **Mục**: cột đọc 66ch + cột phụ 200px từ 1280px (Trên trang này có scroll-spy, đã đọc/đã làm, mục liên quan); dưới 1280px hai nút đánh dấu nằm dưới hàng pill. Một hàng pill duy nhất, pill có mũi tên mở giải thích (`<details data-pop>`, `Esc` đóng). `.review-warn` luôn đứng trước `tldr` và `steps`; mục `needs-*` không có ô tick, chỉ đánh số. Căn cứ pháp luật là `<details class="legal-fold">` (đóng khi đọc, mở khi in). URL trần trong phần Nguồn hiển thị tên miền, `href` giữ nguyên.
+- **Tra cứu**: ô lọc + chương, các hàng pill (Tiền, Bằng chứng, Đáng làm; "Lọc thêm": thời gian, ý chí, kiểm chứng, tình huống), bộ đếm "Đang hiện X / N mục", trạng thái lọc nằm trong URL (`?worth=very-high`). Trên điện thoại bộ lọc thu gọn.
 
 ## Icon
-SVG nét đơn sắc kiểu Lucide, lưới 24, nét 1,6, `currentColor`, không emoji. Một nguồn: `src/components/icons/paths.ts`; `Icon.astro` chỉ phát `<use href="…/icons.svg#tên">`, sprite do `src/pages/icons.svg.ts` sinh từ cùng bảng.
+SVG nét đơn sắc kiểu Lucide, lưới 24, nét 1,6, `currentColor`, 13–16px. Một nguồn: `src/components/icons/paths.ts`; `Icon.astro` phát `<use href="…/icons.svg#tên">`, sprite do `src/pages/icons.svg.ts` sinh từ cùng bảng.
+
+## Thêm hoặc đổi nhóm chương
+Sửa `data/chapter-groups.json`: mỗi nhóm có `slug`, `title`, `description`, `icon` (tên trong `paths.ts`) và `chapters`. Mỗi chương 1 đến 36 phải nằm đúng một nhóm; chương chưa xếp rơi vào nhóm "Khác" kèm cảnh báo lúc build. Tình huống lấy từ `data/situations.json` (chỉ hiện tình huống đã có mục); icon theo slug ở `SITUATION_ICONS` (`src/lib/site.ts`).
+
+## In
+`print.css`: ẩn header, sidebar, chân trang, nút đánh dấu, điều hướng; mở sẵn căn cứ pháp luật; URL nguồn in kèm đầy đủ.

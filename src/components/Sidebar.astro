@@ -1,0 +1,57 @@
+---
+// Sidebar trái: 4 lối chính, 36 chương theo 7 nhóm (data/chapter-groups.json), liên kết phụ. Drawer trên màn hình hẹp (shell.ts).
+import Icon from './icons/Icon.astro';
+import type { IconName } from './icons/paths';
+import { chapterGroups, loadAll, url } from '../lib/site';
+interface Props { path: string; chapter?: number; }
+const { path, chapter } = Astro.props;
+const { chapters, entries } = await loadAll();
+const groups = chapterGroups(chapters.map((c) => c.data.number));
+const byNum = new Map(chapters.map((c) => [c.data.number, c]));
+const count = new Map<number, number>();
+for (const e of entries) count.set(e.data.chapter, (count.get(e.data.chapter) ?? 0) + 1);
+const top: { href: string; label: string; icon: IconName }[] = [
+  { href: '/', label: 'Tổng quan', icon: 'home' },
+  { href: '/tinh-huong/', label: 'Theo tình huống', icon: 'compass' },
+  { href: '/tra-cuu/', label: 'Lọc chi phí & bằng chứng', icon: 'filter' },
+  { href: '/viec-cua-toi/', label: 'Việc của tôi', icon: 'circle-check' },
+];
+const foot = [
+  { href: '/phuong-phap/', label: 'Phương pháp' },
+  { href: '/gioi-thieu/', label: 'Giới thiệu và ghi công' },
+];
+const here = (href: string) => (href === '/' ? path === url('/') : path.startsWith(url(href)));
+---
+<aside class="sidebar" id="sidebar" aria-label="Mục lục">
+  <nav class="snav" aria-label="Lối chính">
+    <ul>
+      {top.map((t) => (
+        <li><a href={url(t.href)} aria-current={here(t.href) ? 'page' : undefined}><Icon name={t.icon} size={15} />{t.label}</a></li>
+      ))}
+    </ul>
+  </nav>
+  <nav aria-label="36 chương">
+    {groups.map((g) => (
+      <details class="sgroup" open>
+        <summary><span>{g.title}</span><Icon name="chevron-down" size={13} /></summary>
+        <ul>
+          {g.chapters.map((n) => {
+            const c = byNum.get(n)!;
+            return (
+              <li class="sch">
+                <a href={url.chapter(n)} aria-current={chapter === n ? 'page' : undefined}>
+                  <span class="sch__n">{String(n).padStart(2, '0')}</span>
+                  <span class="sch__t">{c.data.title}</span>
+                  <span class="sch__c">{count.get(n) ?? 0}</span>
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </details>
+    ))}
+  </nav>
+  <nav class="sidebar__foot" aria-label="Về dự án">
+    {foot.map((f) => <a href={url(f.href)} aria-current={here(f.href) ? 'page' : undefined}>{f.label}</a>)}
+  </nav>
+</aside>

@@ -1,22 +1,13 @@
 ---
-import Icon from './icons/Icon.astro';
-import { loadHotlines } from '../lib/site';
-interface Props { compact?: boolean; }
-const { compact = false } = Astro.props;
+// Dải số khẩn cấp một dòng, mọi số là liên kết tel:.
+import { loadHotlines, hotlineShort } from '../lib/site';
+interface Props { lead?: string; class?: string; }
+const { lead = 'Gọi khẩn cấp', class: cls } = Astro.props;
 const { items } = loadHotlines();
 ---
-<section class:list={['hotlines', { 'hotlines--compact': compact }]} aria-labelledby="hotline-h">
-  <h2 id="hotline-h" class="hotlines__title"><Icon name="phone" size={18} /> Khẩn cấp: số điện thoại ở Việt Nam</h2>
-  <ul class="hotlines__list">
-    {items.map((h) => (
-      <li>
-        <a class="hotline" href={`tel:${h.number}`} aria-label={`Gọi ${h.number}, ${h.label}`}>
-          <span class="hotline__num">{h.number}</span>
-          <span class="hotline__label">{h.label}</span>
-          {!compact && <span class="hotline__detail">{h.detail}</span>}
-        </a>
-      </li>
-    ))}
-  </ul>
-  <p class="hotlines__note">Số lấy từ nội dung các chương của cẩm nang, chưa được kiểm chứng độc lập với cơ quan nhà nước. Nếu gọi không được, tra lại số trên trang chính thức của địa phương.</p>
-</section>
+<p class:list={['hotline-strip', cls]}>
+  <span class="hotline-strip__lead">{lead}:</span>
+  {items.map((h, i) => (
+    <>{i > 0 && <span class="hotline-strip__sep" aria-hidden="true">·</span>}<a href={`tel:${h.number}`} aria-label={`Gọi ${h.number}, ${h.label}`}><b>{h.number}</b> {hotlineShort(h)}</a></>
+  ))}
+</p>

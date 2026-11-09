@@ -4,16 +4,19 @@ import Icon from '../components/icons/Icon.astro';
 import { url } from '../lib/url';
 ---
 <Base title="Tìm kiếm" description="Tìm trong toàn bộ cẩm nang. Gõ không dấu vẫn ra kết quả có dấu.">
-  <div class="page-head"><p class="eyebrow">Tìm trong cả cẩm nang</p><h1>Tìm kiếm</h1><p>Gõ không dấu cũng được: “lam them gio” ra “làm thêm giờ”.</p></div>
-  <form class="searchbox searchbox--hero" id="search-form" action={url('/tim-kiem/')} method="get" role="search">
+  <header class="head">
+    <h1>Tìm kiếm</h1>
+    <p class="head__lead">Gõ không dấu cũng được: “lam them gio” ra “làm thêm giờ”.</p>
+  </header>
+  <form class="search-big" id="search-form" action={url('/tim-kiem/')} method="get" role="search">
+    <Icon name="search" size={17} />
     <label class="visually-hidden" for="q">Từ khóa</label>
-    <span class="searchbox__ico"><Icon name="search" size={20} /></span>
-    <input id="q" type="search" name="q" autocomplete="off" autofocus />
-    <button class="btn" type="submit">Tìm</button>
+    <input id="q" type="search" name="q" autocomplete="off" autofocus placeholder="Từ khóa…" />
+    <button class="btn btn--primary" type="submit">Tìm</button>
   </form>
-  <p class="search-status" id="search-status" role="status" aria-live="polite"></p>
+  <p class="count" id="search-status" role="status" aria-live="polite"></p>
   <ul class="search-results" id="search-results"></ul>
-  <p><button class="btn btn--ghost" type="button" id="more" hidden>Xem thêm kết quả</button></p>
-  <noscript><p>Tìm kiếm cần JavaScript. Không có JavaScript, hãy dùng <a href={url('/chuong/')}>danh sách chương</a>.</p></noscript>
+  <p><button class="btn" type="button" id="more" hidden>Xem thêm kết quả</button></p>
+  <noscript><p>Tìm kiếm cần JavaScript. Không có JavaScript, hãy dùng <a class="link" href={url('/chuong/')}>danh sách chương</a>.</p></noscript>
   <script>import '../scripts/search.ts';</script>
 </Base>

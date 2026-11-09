@@ -20,12 +20,12 @@ buttons.forEach((btn) => btn.addEventListener('click', () => {
 
 // Mở các <details> khi in để căn cứ pháp luật có mặt trên giấy.
 addEventListener('beforeprint', () => {
-  document.querySelectorAll<HTMLDetailsElement>('details.accordion').forEach((d) => {
+  document.querySelectorAll<HTMLDetailsElement>('details.legal-fold').forEach((d) => {
     if (!d.open) { d.dataset.wasClosed = '1'; d.open = true; }
   });
 });
 addEventListener('afterprint', () => {
-  document.querySelectorAll<HTMLDetailsElement>('details.accordion[data-was-closed]').forEach((d) => {
+  document.querySelectorAll<HTMLDetailsElement>('details.legal-fold[data-was-closed]').forEach((d) => {
     d.open = false; delete d.dataset.wasClosed;
   });
 });

@@ -1,5 +1,5 @@
 ---
-// Một hàng trạng thái nhỏ gọn dưới tiêu đề mục. Chip có giải thích (bằng chứng, đáng làm, kiểm chứng) mở bằng <details>.
+// Hàng pill duy nhất dưới tiêu đề mục. Pill có mũi tên mở giải thích ngay dưới nó (<details data-pop>; Esc đóng).
 import Icon from './icons/Icon.astro';
 import {
   COST_LABELS, WORTH_LABELS, WORTH_NOTE, EVIDENCE_LABELS, DISCLAIMER, VERIFICATION_TONE,
@@ -11,36 +11,36 @@ const v = d.verification;
 const worth = worthOf(d);
 const tone = VERIFICATION_TONE[v.status] ?? 'none';
 const note = verificationNote(v);
-const vIcon = tone === 'none' ? 'alert-triangle' : tone === 'review' ? 'shield-alert' : 'shield-check';
-const expertDone = v.status === 'expert-reviewed';
+const vClass = tone === 'review' ? 'pill--danger' : tone === 'good' || tone === 'expert' ? 'pill--good' : 'pill--warn';
+const evClass = d.evidence === 'A' ? 'pill--good' : 'pill--warn';
 ---
-<ul class="meta-row" data-pagefind-ignore aria-label="Chi phí, bằng chứng, mức đáng làm và trạng thái kiểm chứng">
-  <li><span class={`chip ${d.cost.money === '0' ? 'chip--good' : ''}`}><Icon name="banknote" size={14} />{COST_LABELS.money[d.cost.money]}</span></li>
-  <li><span class="chip"><Icon name="clock" size={14} />{COST_LABELS.time[d.cost.time]}</span></li>
-  <li><span class="chip"><Icon name="zap" size={14} />{COST_LABELS.will[d.cost.will]}</span></li>
+<ul class="pills" data-pagefind-ignore aria-label="Chi phí, bằng chứng, mức đáng làm và trạng thái kiểm chứng">
+  <li><span class:list={['pill', { 'pill--good': d.cost.money === '0' }]}>{COST_LABELS.money[d.cost.money]}</span></li>
+  <li><span class="pill">{COST_LABELS.time[d.cost.time]}</span></li>
+  <li><span class="pill">{COST_LABELS.will[d.cost.will]}</span></li>
   <li>
     <details class="pop" data-pop>
-      <summary class={`chip chip--pop chip--ev-${d.evidence}`}><Icon name="file-text" size={14} />Bằng chứng {d.evidence}</summary>
-      <div class="pop__panel"><p>{EVIDENCE_LABELS[d.evidence]}.</p><p class="pop__more"><a href={url('/phuong-phap/#bc-h')}>Cách hiểu mức A, B, C</a></p></div>
+      <summary class={`pill ${evClass}`}>Bằng chứng {d.evidence}<Icon name="chevron-down" size={12} /></summary>
+      <div class="popover pop__panel"><p>{EVIDENCE_LABELS[d.evidence]}.</p><p><a class="link" href={url('/phuong-phap/#bc-h')}>Cách hiểu mức A, B, C</a></p></div>
     </details>
   </li>
   <li>
     <details class="pop" data-pop>
-      <summary class={`chip chip--pop chip--worth-${worth}`}><Icon name="check" size={14} />Đáng làm: {WORTH_LABELS[worth].toLowerCase()}</summary>
-      <div class="pop__panel"><p><strong>{WORTH_NOTE}</strong> Mức này tính từ lợi ích và ba loại chi phí (tiền, thời gian, ý chí), không phải từ bằng chứng.</p><p class="pop__more"><a href={url('/phuong-phap/#dl-h')}>Xem cách tính</a></p></div>
+      <summary class="pill">Đáng làm: {WORTH_LABELS[worth].toLowerCase()}<Icon name="chevron-down" size={12} /></summary>
+      <div class="popover pop__panel"><p><strong>{WORTH_NOTE}</strong> Mức này tính từ lợi ích và ba loại chi phí (tiền, thời gian, ý chí), không phải từ bằng chứng.</p><p><a class="link" href={url('/phuong-phap/#dl-h')}>Xem cách tính</a></p></div>
     </details>
   </li>
-  {d.contested && <li><span class="chip chip--ev-C"><Icon name="alert-triangle" size={14} />Còn tranh luận</span></li>}
-  <li class="meta-row__v">
+  {d.contested && <li><span class="pill pill--warn">Còn tranh luận</span></li>}
+  <li>
     <details class="pop" data-pop>
-      <summary class={`badge badge--${tone} badge--pop`}><Icon name={vIcon} size={15} />{verificationLabel(v)}</summary>
-      <div class="pop__panel pop__panel--wide">
+      <summary class={`pill ${vClass}`}>{verificationLabel(v)}<Icon name="chevron-down" size={12} /></summary>
+      <div class="popover pop__panel pop__panel--wide">
         {note.lead && <p><strong>{note.lead}</strong></p>}
         <p>{note.text}</p>
-        {!expertDone && <p>{DISCLAIMER}</p>}
+        {v.status !== 'expert-reviewed' && <p>{DISCLAIMER}</p>}
         {v.sources.length > 0 && <p>Đã đối chiếu: {v.sources.length} nguồn.</p>}
         {d.contested && <p><strong>Mục này có điểm còn tranh luận</strong>, xem phần Ghi chú.</p>}
-        <p class="pop__more"><a href={url('/phuong-phap/')}>Cách chúng tôi kiểm chứng</a></p>
+        <p><a class="link" href={url('/phuong-phap/')}>Cách chúng tôi kiểm chứng</a></p>
       </div>
     </details>
   </li>

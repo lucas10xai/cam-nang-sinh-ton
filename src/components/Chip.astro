@@ -1,6 +1,0 @@
----
-import Icon from './icons/Icon.astro';
-interface Props { icon?: any; tone?: string; title?: string; }
-const { icon, tone = 'plain', title } = Astro.props;
----
-<span class={`chip chip--${tone}`} title={title}>{icon && <Icon name={icon} size={14} />}<slot /></span>
