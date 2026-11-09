@@ -14,12 +14,12 @@ evidence: B
 contested: false
 vn_class: adapted
 rewrite_status: rewritten
-tldr: "Người ngã không tỉnh hoặc không thở bình thường: gọi 115, ép tim. Nghi chấn thương đầu, cổ, lưng, hông thì để nguyên tư thế, không tự nhấc. Gọi 115 nếu không đứng dậy được hoặc yếu tay, méo miệng, nói khó."
+tldr: "Người ngã không tỉnh hoặc không thở bình thường: gọi 115, ép tim. Nghi chấn thương đầu, cổ, lưng, hông thì để nguyên tư thế (trừ khi nơi đó không an toàn), không tự nhấc. Gọi 115 nếu không đứng dậy được hoặc yếu tay, méo miệng, nói khó."
 steps:
   - "Khom xuống ngang mặt người ngã, gọi to xem có tỉnh."
   - "Nhìn ngực xem có thở. Không tỉnh và không thở, hoặc chỉ thở ngáp: gọi 115 ngay và ép tim theo mục 1."
   - "Gọi 115 nếu nghi đập đầu, đau cổ, lưng hoặc hông, không đứng dậy được, hoặc yếu tay, méo miệng, nói khó."
-  - "Nghi chấn thương cổ, lưng, hông hoặc khung chậu: để nguyên tư thế, không bế hay kéo dậy."
+  - "Nghi chấn thương cổ, lưng, hông hoặc khung chậu, người còn tỉnh và thở bình thường: để nguyên tư thế (trừ khi nơi đó không an toàn), không bế hay kéo dậy."
   - "Không tự nhấc người ngã; chỉ nhẹ nhàng đỡ dậy khi họ tỉnh, không nghi chấn thương và tự làm được."
 legal_refs: []
 verification:
@@ -39,12 +39,12 @@ tags: []
 
 ## Nói dễ hiểu
 
-Khom xuống ngang mặt người ngã, gọi to xem có tỉnh, nhìn ngực xem có thở. **Nếu người đó không tỉnh và không thở, hoặc chỉ thở ngáp: gọi 115 ngay và ép tim theo mục 1.** Gọi 115 nếu nghi đập đầu, đau cổ, lưng hoặc hông, không đứng dậy được, hoặc có yếu tay, méo miệng, nói khó. Khi nghi chấn thương cổ, lưng, hông hoặc khung chậu, để nguyên tư thế, không bế hay kéo dậy. Không tự nhấc người ngã; chỉ nhẹ nhàng đỡ dậy khi họ tỉnh, không nghi chấn thương và tự làm được.
+Khom xuống ngang mặt người ngã, gọi to xem có tỉnh, nhìn ngực xem có thở. **Nếu người đó không tỉnh và không thở, hoặc chỉ thở ngáp: gọi 115 ngay và ép tim theo mục 1.** Gọi 115 nếu nghi đập đầu, đau cổ, lưng hoặc hông, không đứng dậy được, hoặc có yếu tay, méo miệng, nói khó. Người còn tỉnh, thở bình thường mà nghi chấn thương cổ, lưng, hông hoặc khung chậu thì để nguyên tư thế, trừ khi nơi đó không an toàn; không bế hay kéo dậy. Không tự nhấc người ngã.
 
 ## Chi phí
 
-- Gọi 115 không mất tiền (suy ra từ bản tin về Thông tư 02/2020/TT-BTTTT, hiệu lực hiện hành chưa xác nhận).
-- Khoản phải trả là tiền chụp chiếu và xe cấp cứu nếu phải đi viện. Cần nguồn cho mức giá và tỷ lệ bảo hiểm y tế chi trả.
+- Bản tin năm 2020 về Thông tư 02/2020/TT-BTTTT ghi gọi 113, 114, 115 có cước 0 đồng/phút; chưa xác nhận được mức cước hiện hành.
+- Khoản phải trả là tiền chụp chiếu và xe cấp cứu nếu phải đi viện; mục này chưa có số liệu về mức giá hay phần bảo hiểm y tế chi trả.
 - Cái mất thật là buổi làm việc: ngồi chờ ở khoa cấp cứu.
 
 ## Lợi ích
@@ -53,7 +53,7 @@ Khom xuống ngang mặt người ngã, gọi to xem có tỉnh, nhìn ngực xe
 
 - 117.328 ca mắc và 218 ca chết.
 - Té ngã là 35.272 ca, chiếm 30%, với 29 ca chết.
-- Riêng nhóm trên 60 tuổi có 8.536 ca, chiếm 24%, và 11 ca chết.
+- Riêng nhóm trên 60 tuổi có 8.536 ca, chiếm 24% số ca té ngã, và 11 ca chết.
 
 **Lời dặn của bài đó.** Người cao tuổi đứng lên từ từ sau khi ngồi hoặc nằm. Khi thấy choáng thì dừng lại, ngồi hoặc nằm ở nơi an toàn rồi báo người thân.
 
@@ -75,8 +75,8 @@ Số ca té ngã là số thật của một thành phố; phần xử trí dự
 
 - **Bẫy 1: bế ngay lên giường vì còn tỉnh.** Cú ngã có thể kèm chấn thương cổ, lưng, hông hoặc là dấu hiệu bệnh khác. Nếu có nghi ngờ, để nguyên tư thế và gọi 115 (suy ra từ hướng dẫn NHS và AHA nêu trên, không phải chữ của Quyết định 3312).
 - **Bẫy 2: chỉ nhìn vết xước đầu gối rồi kết luận không sao.** Bỏ qua việc hỏi yếu tay, méo miệng, nói khó. Quyết định 3312 liệt kê các dấu hiệu đó là biểu hiện khởi phát hay gặp của nhồi máu não và nhấn mạnh thời điểm khởi phát để xét tái tưới máu.
-- **Bẫy 3: gọi con cái trước, hoặc tự chở bằng xe máy.** Khi người ngã có dấu hiệu cần cấp cứu, gọi 115 trước (suy ra từ hướng dẫn NHS và AHA nêu trên).
-- Không phải lần nào người già ngã cũng cần vào viện. Bạn cần khom xuống hỏi và quan sát, gọi 115 khi người bệnh có dấu hiệu thần kinh, nghi chấn thương hoặc không đứng dậy được.
+- **Bẫy 3: gọi con cái trước khi gọi 115.** Khi người ngã có dấu hiệu cần cấp cứu, gọi 115 trước (suy ra từ hướng dẫn NHS và AHA nêu trên).
+- Mục này không nói mọi cú ngã đều cần cấp cứu. Bạn cần khom xuống hỏi và quan sát, gọi 115 khi người bệnh có dấu hiệu thần kinh, nghi chấn thương hoặc không đứng dậy được.
 
 ## Nguồn
 

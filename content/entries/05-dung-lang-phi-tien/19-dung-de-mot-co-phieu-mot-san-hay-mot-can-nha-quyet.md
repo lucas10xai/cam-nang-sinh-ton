@@ -71,5 +71,5 @@ Bốn chỗ hay sập.
 ## Nguồn
 
 - Markowitz H (1952), "Portfolio Selection", *The Journal of Finance*, 3/1952, <https://doi.org/10.1111/j.1540-6261.1952.tb01525.x> (chưa đối chiếu toàn văn).
-- Hạn mức bảo hiểm tiền gửi 350 triệu đồng từ 13/7/2026 (Thông tư 05/2026/TT-NHNN), theo trang tin của Bảo hiểm tiền gửi Việt Nam: <https://div.gov.vn/tu-ngay-13-7-2026-han-muc-chi-tra-tien-bao-hiem-cua-bao-hiem-tien-gui-viet-nam-la-350-trieu-dong>. Cần nguồn: bản ký của Thông tư.
+- Hạn mức bảo hiểm tiền gửi 350 triệu đồng từ 13/7/2026 (Thông tư 05/2026/TT-NHNN), theo trang tin của Bảo hiểm tiền gửi Việt Nam: <https://div.gov.vn/tu-ngay-13-7-2026-han-muc-chi-tra-tien-bao-hiem-cua-bao-hiem-tien-gui-viet-nam-la-350-trieu-dong>. Chưa kiểm chứng được: bản ký của Thông tư.
 - Luật Chứng khoán 54/2019/QH14, Điều 62 khoản 1 và Điều 65 khoản 1: <https://datafiles.chinhphu.vn/cpp/files/vbpq/2019/12/54.signed.pdf>. Luật đã được sửa đổi sau 2019, cần đối chiếu bản hợp nhất.

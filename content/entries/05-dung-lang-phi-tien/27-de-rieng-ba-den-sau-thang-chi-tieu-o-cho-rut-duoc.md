@@ -55,7 +55,7 @@ Mốc 3 đến 6 tháng là quy ước, không phải kết quả nghiên cứu.
 Hai chỗ để ở Việt Nam:
 
 - **Tiền gửi tiết kiệm:** được bảo hiểm tối đa 350 triệu đồng một người tại một tổ chức tham gia bảo hiểm tiền gửi, từ 13/7/2026.
-- **Quỹ mở thị trường tiền tệ:** không phải khoản tiền gửi tại tổ chức tham gia bảo hiểm tiền gửi nên suy ra không thuộc hạn mức này (suy ra từ Điều 3, Thông tư 05/2026/TT-NHNN). Cần nguồn riêng về thời gian rút tiền của từng quỹ.
+- **Quỹ mở thị trường tiền tệ:** không phải khoản tiền gửi tại tổ chức tham gia bảo hiểm tiền gửi nên suy ra không thuộc hạn mức này (suy ra từ Điều 3, Thông tư 05/2026/TT-NHNN). Mục này chưa có nguồn về thời gian rút tiền của từng quỹ.
 
 So chi phí: lãi thẻ tín dụng 30,5%–44,5%/năm theo biểu phí một sản phẩm thẻ của một ngân hàng, áp dụng sau thời gian miễn lãi và tùy lịch sử tín dụng ([mục 7](05-dung-lang-phi-tien.md#entry-tra-du-du-no-the-moi-thang-neu-buoc-phai-vay-doi)). Lãi tiết kiệm 12 tháng thay đổi theo ngân hàng và theo ngày; một trang tổng hợp (thứ cấp) ghi Vietcombank 12 tháng 5,40%/năm ngày 8/11/2026, các mục khác trong chương dùng số khác nên cần tra lại trước khi dùng.
 

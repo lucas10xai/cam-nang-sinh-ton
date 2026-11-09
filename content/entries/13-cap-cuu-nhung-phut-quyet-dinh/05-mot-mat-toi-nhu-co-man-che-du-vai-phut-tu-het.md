@@ -3,7 +3,7 @@ id: mot-mat-toi-nhu-co-man-che-du-vai-phut-tu-het
 legacy: "13-5"
 chapter: 13
 number: 5
-title: "Một mắt tối như có màn che, dù vài phút tự hết: gọi 115 hoặc tới khoa cấp cứu ngay, đừng chờ"
+title: "Một mắt tối như có màn che, dù vài phút tự hết: gọi 115 ngay, đừng chờ"
 cost:
   money: low
   time: low
@@ -14,12 +14,12 @@ evidence: B
 contested: false
 vn_class: adapted
 rewrite_status: rewritten
-tldr: "Một mắt tối đột ngột là cấp cứu, xử như đột quỵ: gọi 115 hoặc tới ngay khoa cấp cứu, ghi giờ, kể cả khi mắt đã sáng lại. Mốc 2 giờ là của văn bản 2015; quá 2 giờ vẫn đi ngay."
+tldr: "Một mắt tối đột ngột là cấp cứu, xử như đột quỵ: gọi 115 ngay, ghi giờ, kể cả khi mắt đã sáng lại. Mốc 2 giờ là của văn bản 2015; quá 2 giờ vẫn gọi ngay."
 steps:
-  - "Mắt tối đột ngột: gọi 115 hoặc tới ngay khoa cấp cứu của bệnh viện, nói rõ mất thị lực một mắt đột ngột."
+  - "Mắt tối đột ngột: gọi 115 ngay, nói rõ mất thị lực một mắt đột ngột."
   - "Ghi rõ giờ mắt bị tối."
-  - "Mắt sáng lại sau vài phút vẫn là cảnh báo: vẫn đi cấp cứu, không chờ xem có tái lại."
-  - "Không tự lái xe, không nhờ người chở, không nhỏ thuốc rồi nằm nghỉ."
+  - "Mắt sáng lại sau vài phút vẫn là cảnh báo: vẫn gọi 115, không chờ xem có tái lại."
+  - "Không tự lái xe, không nhỏ thuốc rồi nằm nghỉ."
   - "Sau xử trí cấp cứu, khám nguyên nhân tim mạch theo chỉ định của bác sĩ."
 legal_refs: []
 verification:
@@ -39,12 +39,12 @@ tags: []
 
 ## Nói dễ hiểu
 
-Một mắt tối sầm như có màn che, có khi vài phút rồi sáng lại. **Gọi 115 hoặc tới ngay khoa cấp cứu của bệnh viện, nói rõ mất thị lực một mắt đột ngột và giờ bị.** Mắt sáng lại vẫn phải đi, không chờ xem có tái lại, không nhỏ thuốc rồi nằm nghỉ. Không tự lái xe, không nhờ người chở. Khám mắt là bước phối hợp, không thay khoa cấp cứu.
+Một mắt tối sầm như có màn che, có khi vài phút rồi sáng lại. **Gọi 115 ngay, nói rõ mất thị lực một mắt đột ngột và giờ bị.** Mắt sáng lại vẫn phải gọi, không chờ xem có tái lại, không nhỏ thuốc rồi nằm nghỉ. Không tự lái xe. NINDS dặn người đang có dấu hiệu đột quỵ không tự lái xe tới bệnh viện và không nhờ người khác chở; nguồn không nêu cách nào khác ngoài xe cấp cứu. Nếu không gọi được 115, nhờ người chở ngay tới khoa cấp cứu là lời khuyên thực hành của mục này, không phải chữ của nguồn.
 
 ## Chi phí
 
 - Gọi 115 không mất tiền (theo bản tin về Thông tư 02/2020/TT-BTTTT, hiệu lực hiện hành chưa xác nhận).
-- Nếu vào viện sẽ phải trả tiền khám, chụp mạch và các xét nghiệm. Cần nguồn cho mức chi phí và tỷ lệ bảo hiểm y tế chi trả.
+- Nếu vào viện sẽ phải trả tiền khám, chụp mạch và các xét nghiệm. Mục này chưa có nguồn cho mức chi phí và tỷ lệ bảo hiểm y tế chi trả, nên không nêu.
 - Nếu được chỉ định khám nguyên nhân tim mạch thì phát sinh thêm các buổi khám.
 
 ## Lợi ích
@@ -52,15 +52,15 @@ Một mắt tối sầm như có màn che, có khi vài phút rồi sáng lại.
 Quyết định 40/QĐ-BYT ngày 12/01/2015 ban hành Hướng dẫn chẩn đoán và điều trị các bệnh về mắt. Bài 27, về tắc động mạch trung tâm võng mạc, nói như sau (tệp mat.rar, bài 27, mục Đại cương, Lâm sàng, Nguyên tắc điều trị).
 
 - **Triệu chứng cơ năng:** mù đột ngột một mắt, không kèm chớp sáng, không đau nhức, không đỏ mắt, không cộm chói. Đôi khi có tiền triệu là những đợt mù thoáng qua ở một bên.
-- **Nguyên tắc điều trị:** đây là cấp cứu số một của nhãn khoa, cần xử lý sớm trong vòng 2 giờ đầu, vì mục tiêu là tạo lại lưu thông mạch máu.
+- **Nguyên tắc điều trị:** đây là cấp cứu số một của nhãn khoa, cần xử lý sớm trong vòng 2 giờ đầu. Mục tiêu điều trị là tạo lại lưu thông mạch máu.
 - **Tiên lượng:** tài liệu nói thẳng đây là tai biến gây mù một mắt đột ngột và không hồi phục dù có được điều trị cấp cứu kịp thời.
 
 Vì vậy giá trị của việc đi ngay không nằm ở chỗ hứa cứu lại thị lực, mà ở chỗ tìm nguyên nhân tim mạch và chặn cơn nặng hơn.
 
 **Hướng dẫn quốc tế (lệch với văn bản 2015).**
 
-- AHA/ASA 2021: tắc động mạch trung tâm võng mạc là dạng đột quỵ thiếu máu cục bộ cấp; "acute CRAO is a medical emergency requiring early recognition and triage to emergency medical treatment". Người được chẩn đoán ở phòng khám phải được chuyển ngay tới khoa cấp cứu bệnh viện.
-- Thuốc tiêu sợi huyết (tPA) phải dùng trong 4,5 giờ kể từ dấu hiệu đầu tiên mới hiệu quả và an toàn nhất; dưới 20% người bệnh lấy lại thị lực chức năng ở mắt đó. Người bệnh nên được sàng lọc và điều trị khẩn các yếu tố nguy cơ mạch máu.
+- Thông cáo của AHA về hướng dẫn AHA/ASA 2021: tắc động mạch trung tâm võng mạc là dạng đột quỵ thiếu máu cục bộ cấp. Chủ tịch nhóm soạn được thông cáo trích lời: "acute CRAO is a medical emergency requiring early recognition and triage to emergency medical treatment". Người được chẩn đoán ở phòng khám phải được chuyển ngay tới khoa cấp cứu bệnh viện; đây là hướng dẫn cho cơ sở y tế, không phải lời khuyên tự đi cho người dân.
+- Thuốc tiêu sợi huyết (tPA) tiêm tĩnh mạch có thể có hiệu quả, nhưng phải dùng trong 4,5 giờ kể từ dấu hiệu đầu tiên mới hiệu quả và an toàn nhất; dưới 20% người bệnh lấy lại thị lực chức năng ở mắt đó. Người bệnh nên được sàng lọc và điều trị khẩn các yếu tố nguy cơ mạch máu.
 - NINDS xếp khó nhìn ở một hoặc cả hai mắt vào dấu hiệu phải gọi cấp cứu ngay, và dặn không bỏ qua triệu chứng tự hết nhanh.
 
 ## Ghi chú
@@ -68,9 +68,9 @@ Vì vậy giá trị của việc đi ngay không nằm ở chỗ hứa cứu l�
 Mốc 2 giờ và mô tả triệu chứng đọc được nguyên văn trong văn bản của Bộ Y tế năm 2015, là tài liệu cũ hơn hướng dẫn AHA/ASA 2021; mục theo hướng cấp cứu của AHA/ASA và NINDS và nêu rõ chỗ lệch (văn bản 2015 coi là cấp cứu nhãn khoa, hướng dẫn quốc tế coi là đột quỵ cần khoa cấp cứu). Văn bản không có số liệu Việt Nam về tỷ lệ hồi phục thị lực theo thời gian tới khám, nên mục dừng ở B.
 
 - **Bẫy 1: cho là do mệt hay tụt huyết áp.** Mắt tối vài phút rồi sáng lại, nhưng bài 27 ghi rõ những đợt mù thoáng qua có thể là tiền triệu của tắc động mạch trung tâm võng mạc.
-- **Bẫy 2: tới phòng khám mắt gần nhà rồi chờ.** Hướng dẫn AHA/ASA nêu người được chẩn đoán ở phòng khám phải được chuyển ngay tới khoa cấp cứu bệnh viện. Gọi 115 hoặc tới khoa cấp cứu trước.
-- **Bẫy 3: nhỏ thuốc nhỏ mắt, nghỉ ngơi, chờ sang hôm sau.** Văn bản 2015 đặt mốc xử lý trong 2 giờ đầu, AHA/ASA nêu tPA trong 4,5 giờ; đi càng sớm càng tốt và vẫn đi khi đã quá các mốc đó.
-- Mục này không có nghĩa là đi ngay thì mắt sẽ nhìn lại được. Nó nói rằng đây là cấp cứu, phải gọi 115 hoặc tới khoa cấp cứu ngay, và sau đó phải khám tim mạch để tìm cục tắc từ đâu ra.
+- **Bẫy 2: tới phòng khám mắt gần nhà rồi chờ.** Hướng dẫn AHA/ASA nêu người được chẩn đoán ở phòng khám phải được chuyển ngay tới khoa cấp cứu bệnh viện. Gọi 115 trước.
+- **Bẫy 3: nhỏ thuốc nhỏ mắt, nghỉ ngơi, chờ sang hôm sau.** Văn bản 2015 đặt mốc xử lý trong 2 giờ đầu, AHA/ASA nêu tPA trong 4,5 giờ. Cách làm này là suy ra từ các mốc đó, không phải chữ của nguồn: đi càng sớm càng tốt và vẫn gọi khi đã quá các mốc.
+- Mục này không có nghĩa là đi ngay thì mắt sẽ nhìn lại được. Nó nói rằng đây là cấp cứu, phải gọi 115 ngay, và sau đó phải khám tim mạch để tìm cục tắc từ đâu ra.
 
 ## Nguồn
 

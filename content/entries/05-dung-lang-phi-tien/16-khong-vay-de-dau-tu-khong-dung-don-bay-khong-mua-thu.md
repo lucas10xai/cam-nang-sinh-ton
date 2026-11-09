@@ -65,9 +65,9 @@ Riêng "không mua thứ mình không hiểu" thì không có số: nếu không
 
 Bốn chỗ hay sập. Thông tư 120/2020/TT-BTC có thể đã được sửa đổi sau đó (cần đối chiếu bản hiện hành); các điều khoản trên chưa kiểm với bản sửa đổi.
 
-- **Bẫy 1: vay ngoài hệ thống** (vay theo nhóm, vay qua ứng dụng không phép). Cần nguồn cho mức lãi và cách xử lý khi bên cho vay siết tài sản.
+- **Bẫy 1: vay ngoài hệ thống** (vay theo nhóm, vay qua ứng dụng không phép). Mục này chưa có nguồn cho mức lãi và cách xử lý khi bên cho vay siết tài sản.
 - **Bẫy 2: "được cấp hạn mức ký quỹ" không có nghĩa là nên dùng.** Theo Thông tư 120/2020/TT-BTC phải ký hợp đồng ký quỹ trước; hạn mức được cấp không phải lời khuyên nên vay.
-- **Bẫy 3: rút tiền mặt bằng thẻ tín dụng để mua chứng khoán là đòn bẩy đắt nhất.** Cần nguồn cho cách tính lãi và phí rút tiền mặt; khi bán còn chịu thuế 0,1% giá chuyển nhượng (Điều 13 khoản 2, Luật Thuế thu nhập cá nhân 109/2025/QH15).
+- **Bẫy 3: rút tiền mặt bằng thẻ tín dụng để mua chứng khoán là đòn bẩy đắt nhất.** Mục này chưa có nguồn cho cách tính lãi và phí rút tiền mặt; khi bán còn chịu thuế 0,1% giá chuyển nhượng (Điều 13 khoản 2, Luật Thuế thu nhập cá nhân 109/2025/QH15).
 - **Đừng hiểu ngược.** Mục này không cấm vay nói chung: vay mua nhà trong khả năng trả, vay học nghề là chuyện khác. Cái bị chặn ở đây là vay để đặt cược vào thứ có thể giảm mạnh (ví dụ minh họa, không có nguồn).
 
 ## Nguồn

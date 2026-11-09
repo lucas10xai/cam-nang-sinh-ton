@@ -57,7 +57,7 @@ Vay được thì phần trả lãi hằng tháng là tiền thật, không ph�
 
 ## Lợi ích
 
-Người đủ điều kiện có thể được xét mua nhà ở xã hội và vay ưu đãi để mua, thuê mua, tự xây hoặc cải tạo, sửa chữa nhà. Với xây mới hoặc cải tạo, sửa chữa, mức vay tối đa bằng 70% giá trị dự toán hoặc phương án sử dụng vốn, không quá 1 tỷ đồng, và không vượt 70% giá trị tài sản bảo đảm (Điều 48, NĐ 100/2024/NĐ-CP). Cần nguồn cho mức vay tối đa khi mua nhà ở xã hội.
+Người đủ điều kiện có thể được xét mua nhà ở xã hội và vay ưu đãi để mua, thuê mua, tự xây hoặc cải tạo, sửa chữa nhà. Với xây mới hoặc cải tạo, sửa chữa, mức vay tối đa bằng 70% giá trị dự toán hoặc phương án sử dụng vốn, không quá 1 tỷ đồng, và không vượt 70% giá trị tài sản bảo đảm (Điều 48, NĐ 100/2024/NĐ-CP). Mục này chưa có nguồn cho mức vay tối đa khi mua nhà ở xã hội.
 
 Đây là khoản vay phải trả, không phải tiền được cấp. Số tiền vay thực tế còn phụ thuộc khả năng trả nợ và xét duyệt.
 

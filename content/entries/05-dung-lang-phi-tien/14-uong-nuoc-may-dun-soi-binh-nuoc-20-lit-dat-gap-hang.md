@@ -77,7 +77,7 @@ Nhà nào phải lắp thêm bộ lọc hoặc phải thay đường ống trong
 
 - **Bẫy 1: nước máy trong chung cư, nhà trọ không chỉ phụ thuộc nhà máy nước.** Nước còn qua bể ngầm, téc trên mái, đường ống trong nhà. Bể không vệ sinh thì nước đạt chuẩn ở đồng hồ vẫn có thể không sạch ở vòi.
 - **Bẫy 2: bình nước không tự sạch.** Bình để lâu, vòi ấn không rửa là chỗ vi khuẩn. Nếu vẫn dùng bình thì phải vệ sinh định kỳ, đừng coi "nước bình" là nước vô trùng.
-- **Bẫy 3: "nước máy không uống được" là niềm tin phổ biến, không phải kết luận kỹ thuật.** Quy chuẩn nước sạch sinh hoạt dùng cho ăn uống, nhưng không áp dụng cho nước uống trực tiếp tại vòi; vì vậy đun sôi là biện pháp thận trọng (suy ra từ phạm vi quy chuẩn, không phải chữ của luật). Khi nước đục, có mùi lạ, hoặc khu vực vừa có sự cố đường ống thì **dừng**. Cần nguồn cho việc đun sôi có khử được kim loại hay hóa chất hay không.
+- **Bẫy 3: "nước máy không uống được" là niềm tin phổ biến, không phải kết luận kỹ thuật.** Quy chuẩn nước sạch sinh hoạt dùng cho ăn uống, nhưng không áp dụng cho nước uống trực tiếp tại vòi; vì vậy đun sôi là biện pháp thận trọng (suy ra từ phạm vi quy chuẩn, không phải chữ của luật). Khi nước đục, có mùi lạ, hoặc khu vực vừa có sự cố đường ống thì **dừng**. Mục này chưa có nguồn cho việc đun sôi có khử được kim loại hay hóa chất hay không.
 - **Đừng hiểu ngược:** mục này không nói "cấm mua nước bình". Nhà dùng nước giếng khoan chưa qua xử lý, nhà đang có sự cố nguồn nước, hoặc người phải uống thuốc theo chỉ định đặc biệt thì mua nước là hợp lý. Cái bị tính là **mua bình nước quanh năm như một mặc định**, không phải mua khi có lý do.
 
 ## Nguồn

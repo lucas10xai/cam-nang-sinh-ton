@@ -44,7 +44,7 @@ Quỹ chỉ số mua cả rổ theo chỉ số nên không phụ thuộc một n
 Không tốn tiền để chọn.
 
 - Phí quản lý quỹ chỉ số ở Việt Nam khoảng 0,65%/năm (ETF DCVFMVN30).
-- Các quỹ đầu tư thường thu phí quản lý 0,5%–2% giá trị tài sản ròng (blog ACBS). Cần nguồn cho mức phí phổ biến của quỹ mở chủ động.
+- Các quỹ đầu tư thường thu phí quản lý 0,5%–2% giá trị tài sản ròng (blog ACBS). Mục này chưa có nguồn cho mức phí phổ biến của quỹ mở chủ động.
 - Phí quản lý chưa phải tổng chi phí: ngoài ra còn phí giám sát, lưu ký, chi phí khác, và khi giao dịch ETF còn phí của công ty chứng khoán cùng thuế bán 0,1% (trang Dragon Capital). Chênh phí thật có thể nhỏ hơn ví dụ dưới đây.
 - Cái mất: chấp nhận đúng bằng thị trường, không hơn, và chịu cùng mức giảm khi thị trường giảm.
 

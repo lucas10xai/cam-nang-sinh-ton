@@ -14,13 +14,13 @@ evidence: B
 contested: false
 vn_class: universal
 rewrite_status: rewritten
-tldr: "Nghi hạ thân nhiệt (run, nói ngọng, loạng choạng, da lạnh): gọi 115 ngay, vừa gọi vừa thay đồ ướt, ủ ấm nhẹ nhàng, không rượu. Chỉ cho uống nước ấm khi tỉnh hẳn. Ngừng thở: thổi ngạt."
+tldr: "Nghi hạ thân nhiệt (run, nói ngọng, loạng choạng, da lạnh): gọi 115 ngay, vừa gọi vừa thay đồ ướt, ủ ấm nhẹ nhàng, không rượu. Chỉ cho uống nước ấm khi tỉnh hẳn. Không phản ứng, không thở bình thường: ép tim theo mục 1."
 steps:
   - "Nghi hạ thân nhiệt (run, nói ngọng, đi loạng choạng, da lạnh): gọi 115 ngay, vừa gọi vừa làm các bước dưới đây."
   - "Di chuyển thật nhẹ nhàng đến nơi ấm, khô, kín gió. Thay ngay quần áo ướt, cuộn chăn khô, để nằm yên, không trở người nhiều."
   - "Đắp gạc ấm lên cổ, ngực, háng (theo báo SKĐS 2015). Không chườm nóng trực tiếp, không đèn sưởi; không cố làm ấm tay chân; không xoa bóp, chà xát."
   - "Chỉ cho uống nước ấm, không rượu, khi người đó tỉnh hẳn và tự nuốt được. Lơ mơ, lú lẫn thì không cho uống."
-  - "Theo dõi hơi thở. Ngừng thở, hoặc thở rất chậm và nông: hà hơi thổi ngạt ngay và làm theo hướng dẫn của tổng đài 115."
+  - "Không phản ứng và không thở bình thường: bật loa gọi 115, ép tim ngay theo mục 1 và làm theo hướng dẫn của tổng đài. Còn thở thì theo dõi hơi thở và giữ nhẹ nhàng."
 situations: []
 legal_refs:
   - { doc: "Nghị định 200/2025/NĐ-CP", article: "Điều 3 khoản 4", url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/200-ndcp.signed.pdf", effective_from: "2025-08-23", checked_at: "2026-11-03", quote: "a) Hệ thống Tổng đài 112 liên thông với các Tổng đài 113, 114, 115;" }
@@ -40,7 +40,7 @@ tags: []
 
 ## Nói dễ hiểu
 
-Nghi hạ thân nhiệt thì gọi 115 ngay, trong lúc chờ thì di chuyển nhẹ nhàng đến chỗ ấm, khô, thay quần áo ướt, quấn chăn. Không cho rượu, không chà xát tay chân. Chỉ cho uống nước ấm khi người đó tỉnh hẳn. Ngừng thở thì thổi ngạt.
+Nghi hạ thân nhiệt thì gọi 115 ngay, trong lúc chờ thì di chuyển nhẹ nhàng đến chỗ ấm, khô, thay quần áo ướt, quấn chăn. Không cho rượu, không chà xát tay chân. Chỉ cho uống nước ấm khi người đó tỉnh hẳn. Người không phản ứng và không thở bình thường: ép tim ngay theo mục 1.
 
 ## Chi phí
 
@@ -55,7 +55,7 @@ Khó ở chỗ người đã hạ thân nhiệt thường không còn thấy l�
 - **Trước khi có trợ giúp y tế (Bạch Mai):** nhẹ nhàng di chuyển đến nơi ấm và khô, thay ngay quần áo ướt bằng quần áo khô, cuộn người trong chăn, để nằm yên, không trở người nhiều.
 - **Báo Sức khỏe và Đời sống (2015):** đắp gạc ấm lên cổ, lồng ngực và háng. Không chườm nóng trực tiếp, không dùng nước nóng, đệm sưởi hay đèn sưởi. Không cố làm ấm tay và chân, vì máu lạnh sẽ trở về tim, phổi, não. Không cho uống rượu, không xoa bóp hay chà xát.
 - **Nước uống (NHS):** cho uống đồ ấm không cồn nếu người bệnh tỉnh hoàn toàn.
-- **Hơi thở (Báo Sức khỏe và Đời sống):** theo dõi hơi thở; nếu ngừng, chậm hoặc nông trầm trọng thì hà hơi thổi ngạt ngay. Động tác với người bệnh phải nhẹ nhàng để tránh nguy cơ ngừng tim.
+- **Hơi thở (Báo Sức khỏe và Đời sống, 2015):** bài báo dặn nếu hơi thở ngừng, chậm hoặc nông trầm trọng thì hà hơi thổi ngạt ngay. Mục này không theo điểm đó: hướng dẫn hồi sức hiện hành (ERC 2025) là người không phản ứng và không thở bình thường thì gọi cấp cứu và bắt đầu ép tim theo chỉ dẫn của tổng đài, như mục 1 của chương. Động tác với người bệnh phải nhẹ nhàng để tránh nguy cơ ngừng tim.
 
 ## Pháp luật Việt Nam
 
@@ -65,7 +65,7 @@ Khó ở chỗ người đã hạ thân nhiệt thường không còn thấy l�
 
 Ngưỡng 35 độ đọc được ở báo Sức khỏe và Đời sống và NHS. Bài báo này còn nêu mốc 33 và 28 độ để bác sĩ chọn điều trị; người đọc không đo được thân nhiệt trong cơ thể tại chỗ (Bạch Mai: phải dùng nhiệt kế y tế), nên mục không dùng các mốc đó để quyết định có đi viện hay không. Mọi nghi ngờ hạ thân nhiệt đều cần cơ sở y tế đánh giá.
 
-Nguồn trong nước là một bài báo năm 2015 và một bài dịch năm 2017, đều là hướng dẫn xử trí, không phải nghiên cứu. Chỗ "gạc ấm lên cổ, ngực, háng" và "không làm ấm tay chân" chỉ có trong bài báo đó, không thấy trong NHS. Chưa có hướng dẫn của Bộ Y tế Việt Nam trong nguồn đã mở.
+Nguồn trong nước là một bài báo năm 2015 và một bài dịch năm 2017, đều là hướng dẫn xử trí, không phải nghiên cứu. Chỗ "gạc ấm lên cổ, ngực, háng" và "không làm ấm tay chân" chỉ có trong bài báo đó, không thấy trong NHS. Trang NHS được xem lại ngày 09/06/2023. Chưa có hướng dẫn của Bộ Y tế Việt Nam được dẫn ở đây.
 
 - **Bẫy 1: ngâm nước nóng hoặc chườm nóng lên tay chân cho ấm nhanh.** Bài báo nói không chườm nóng trực tiếp và không làm ấm tay chân trước; NHS cũng nói không dùng bồn nước nóng, túi nước nóng hay đèn sưởi.
 - **Bẫy 2: rót rượu cho người run cầm cập.** Cả báo Sức khỏe và Đời sống lẫn NHS đều xếp rượu vào việc không được làm.

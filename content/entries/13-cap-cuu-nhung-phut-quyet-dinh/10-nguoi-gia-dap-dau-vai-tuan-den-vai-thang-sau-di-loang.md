@@ -14,10 +14,11 @@ evidence: B
 contested: false
 vn_class: universal
 rewrite_status: rewritten
-tldr: "Người già từng đập đầu, vài tuần đến vài tháng sau đau đầu, lú lẫn, đi loạng choạng, ngủ nhiều hoặc yếu nửa người: đi chụp cắt lớp vi tính sọ, đừng đổ cho tuổi già. Khó tỉnh, co giật, yếu liệt mới xuất hiện: gọi 115."
+tldr: "Người già từng đập đầu, vài tuần đến vài tháng sau đau đầu, lú lẫn, đi loạng choạng, ngủ nhiều: đi khám ngay trong ngày ở nơi chụp được cắt lớp vi tính sọ, đừng đổ cho tuổi già. Khó tỉnh, co giật, yếu liệt: gọi 115."
 steps:
   - "Nếu người bệnh yếu liệt nửa người, khó nói, khó đi, khó tỉnh hoặc co giật: gọi 115, không tự lái xe."
-  - "Nếu chỉ thay đổi dần: đưa đi khám ở bệnh viện có chuyên khoa, khám ngoại thần kinh và chụp cắt lớp vi tính sọ."
+  - "Nếu chỉ thay đổi dần: đi khám ngay trong ngày ở bệnh viện chụp được cắt lớp vi tính sọ, không chờ lịch hẹn nhiều ngày (lời khuyên thực hành, suy ra từ NHS)."
+  - "Đau đầu không đỡ khi dùng thuốc giảm đau, lú lẫn hoặc đang dùng thuốc chống đông: đến khoa cấp cứu (suy ra từ NHS, không phải chữ của nguồn Việt Nam)."
   - "Khai với bác sĩ nếu đang dùng thuốc chống đông hoặc kháng kết tập tiểu cầu."
   - "Đừng bỏ qua dù người bệnh nói không nhớ có té: người bệnh loại này thường quên mình đã té."
 legal_refs: []
@@ -39,7 +40,7 @@ tags: []
 ## Nói dễ hiểu
 
 Người già đã đập đầu, vài tuần đến vài tháng sau bỗng đau đầu, lú lẫn, đi loạng choạng, nói ngọng, ngủ nhiều hoặc yếu một bên người: đừng cho là tuổi già.
-Đưa đi khám và chụp cắt lớp vi tính sọ.
+Đưa đi khám ngay trong ngày ở nơi chụp được cắt lớp vi tính sọ, không chờ lịch hẹn nhiều ngày; đây là lời khuyên thực hành, suy ra từ NHS và từ việc bài Huế ghi bệnh nhân thường đến điều trị muộn.
 
 **Nếu có người cần cấp cứu thật: gọi cấp cứu 115 trước.** Yếu liệt nửa người, khó tỉnh, co giật, khó đi, khó nói là dấu hiệu cần gọi 115, không tự lái xe.
 
@@ -64,15 +65,15 @@ Người già đã đập đầu, vài tuần đến vài tháng sau bỗng đau
 **NHS (Anh), trang Subdural haematoma**
 - Triệu chứng gồm mất thăng bằng và té ngã, ngủ lịm, nói ngọng và khó nuốt, yếu liệt một bên người, co giật.
 - Mức "gọi xe cấp cứu" khi vừa đập đầu và có: khó tỉnh hoặc khó mở mắt, co giật, tê hoặc yếu một phần cơ thể, khó đi, mất thăng bằng, khó hiểu, khó nói hoặc viết. Trang dặn không tự lái xe tới khoa cấp cứu. Ở Việt Nam, số gọi cấp cứu là 115 (diễn giải từ trang NHS, vốn dùng số 999 của Anh).
-- NHS cũng khuyên đi khoa cấp cứu nếu đang dùng thuốc làm loãng máu.
+- NHS cũng khuyên đi khoa cấp cứu khi đã bị chấn thương đầu và đang dùng thuốc làm loãng máu, hoặc đau đầu không đỡ khi dùng thuốc giảm đau, hoặc có vấn đề về trí nhớ. Áp dụng cho người đập đầu từ vài tuần trước là suy ra, không phải chữ của NHS.
 
 ## Ghi chú
 
 - **Mức bằng chứng B:** mốc ba tuần đến vài tháng có trong bài của Bệnh viện Đại học Y-Dược Huế; bài của Bệnh viện 108 không nêu mốc này. Cả hai là bài truyền thông bệnh viện, không có văn bản nào của Bộ Y tế riêng cho máu tụ dưới màng cứng mạn tính để dẫn số hiệu.
 - **Bẫy 1: quy cái đi loạng choạng cho tuổi già.** Triệu chứng này tiến triển từ từ nên rất dễ bị bỏ qua.
 - **Bẫy 2: hỏi người bệnh có té không, thấy họ trả lời là không thì thôi.** Bài Huế ghi người bệnh thường quên mình đã té, và bài 108 ghi một số ca không có cơ chế chấn thương rõ ràng.
-- **Bẫy 3: người bệnh đang dùng thuốc chống đông hoặc kháng kết tập tiểu cầu mà người nhà không khai với bác sĩ.** Cả hai bệnh viện nêu thuốc này là yếu tố nguy cơ.
-- **Bẫy 4: chờ lịch khám chuyên khoa khi người bệnh đã yếu liệt nửa người, khó tỉnh hoặc co giật.** Đó là mức gọi cấp cứu theo NHS.
+- **Bẫy 3: người bệnh đang dùng thuốc chống đông hoặc kháng kết tập tiểu cầu mà người nhà không khai với bác sĩ.** Bệnh viện 108 nêu thuốc chống đông; bài Huế nêu thuốc chống đông hoặc chống ngưng tập tiểu cầu.
+- **Bẫy 4: chờ lịch khám chuyên khoa khi người bệnh đã yếu liệt nửa người, khó tỉnh hoặc co giật.** NHS ghi các dấu hiệu này ở người vừa đập đầu là mức gọi cấp cứu; áp dụng cho ca khởi phát muộn là suy ra.
 - **Mục này không có nghĩa** là người già cứ té là phải chụp cắt lớp, cũng không có nghĩa một phim bình thường là xong.
 - Nó nói rằng thay đổi đi lại và ý thức xuất hiện vài tuần sau một cú đập đầu là lý do để đi khám chuyên khoa.
 

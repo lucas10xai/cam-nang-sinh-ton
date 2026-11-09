@@ -88,7 +88,7 @@ Không nhầm hình thức này với tuyển dụng trực tiếp.
 **Thông báo hoạt động, ký quỹ và giấy phép**
 - Doanh nghiệp cho thuê lại phải ký quỹ và có giấy phép (Điều 54, Bộ luật Lao động 45/2019/QH14, bản hợp nhất 18/VBHN-VPQH ngày 12/02/2026).
 - Nghị định 283/2026 Điều 19 khoản 4 điểm a phạt hành vi "không thực hiện thông báo hoạt động cho thuê lại lao động với cơ quan nhà nước có thẩm quyền theo quy định của pháp luật, trừ trường hợp doanh nghiệp có giấy phép hoạt động cho thuê lại lao động còn hiệu lực". Từ đó suy ra: cơ chế hiện hành là thông báo hoạt động, giấy phép chỉ còn ý nghĩa với giấy phép đã cấp trước (suy ra từ Điều 19 khoản 4 điểm a, không phải chữ của luật).
-- Nghị quyết 66.18/2026/NQ-CP (hiệu lực 01/07/2026 đến hết 28/02/2027, theo nguồn thứ cấp; chưa đọc văn bản gốc) ngừng thủ tục cấp giấy phép theo Điều 21 đến 25 Nghị định 145/2020. Cần nguồn gốc để xác nhận mức ký quỹ mới.
+- Nghị quyết 66.18/2026/NQ-CP (hiệu lực 01/07/2026 đến hết 28/02/2027, theo nguồn thứ cấp; chưa đọc văn bản gốc) ngừng thủ tục cấp giấy phép theo Điều 21 đến 25 Nghị định 145/2020. Chưa có nguồn gốc để xác nhận mức ký quỹ mới.
 - Mức ký quỹ trong Nghị định 145/2020 là 2.000.000.000 đồng (Điều 21 khoản 2); giấy phép cấp trước đó có thời hạn tối đa 60 tháng, mỗi lần gia hạn cũng tối đa 60 tháng (Điều 23 khoản 3).
 - Tiền ký quỹ được dùng để thanh toán tiền lương, bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp, bảo hiểm tai nạn lao động, bệnh nghề nghiệp và bồi thường cho người lao động thuê lại (Điều 15 khoản 2, Nghị định 145/2020/NĐ-CP).
 

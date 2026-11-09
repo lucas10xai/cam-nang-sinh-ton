@@ -72,7 +72,7 @@ Một chuỗi phòng tập (bảng giá ngày 29/09/2025) niêm yết gói 1 th�
 
 Bốn bẫy.
 
-- **Bẫy 1: gói dài trả một lần.** Quy ra tháng thì rẻ, nhưng tổng tiền một lần đóng lớn hơn nhiều. Cần nguồn cho khẳng định "tặng tháng" thường gắn với gói 12–24 tháng và cho rủi ro phòng tập đóng cửa.
+- **Bẫy 1: gói dài trả một lần.** Quy ra tháng thì rẻ, nhưng tổng tiền một lần đóng lớn hơn nhiều. Mục này chưa có nguồn cho khẳng định "tặng tháng" thường gắn với gói 12–24 tháng và cho rủi ro phòng tập đóng cửa.
 - **Bẫy 2: cam kết miệng của nhân viên tư vấn không phải hợp đồng.** "Đóng 6 tháng được bảo lưu", "chuyển nhượng được" khó chứng minh; hãy ghi vào hợp đồng hoặc điều kiện giao dịch chung mà bạn tải về được (điều kiện giao dịch chung chỉ có hiệu lực với người tiêu dùng khi đã được công khai trước giao dịch, Điều 27 khoản 3).
 - **Bẫy 3: gói tự động gia hạn trừ tiền qua thẻ.** Muốn dừng thường phải báo trước theo hợp đồng, không phải chỉ không đến tập. Điều 25 khoản 13 là chỗ để đòi cơ chế chọn gia hạn hay chấm dứt.
 - **Đừng hiểu ngược.** Mục này không nói "đừng bao giờ mua gói năm". Nếu bạn đã có **một năm** đi đều, mỗi tuần từ 2 buổi trở lên (ngưỡng này là quy tắc kinh nghiệm của người soạn, không có nghiên cứu), thì gói dài rẻ hơn thật và tiết kiệm công gia hạn. Cái bị loại là mua gói dài **trước khi** có dữ liệu đó.

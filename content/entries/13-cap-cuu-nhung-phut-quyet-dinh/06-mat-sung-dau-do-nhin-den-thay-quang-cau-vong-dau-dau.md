@@ -42,8 +42,8 @@ Mắt đau nhức dữ dội đột ngột, đỏ, nhìn đèn thấy quầng nh
 
 ## Chi phí
 
-- Nếu vào viện sẽ phải trả tiền khám và đo nhãn áp, soi góc tiền phòng. Cần nguồn cho mức chi phí và tỷ lệ bảo hiểm y tế chi trả.
-- Nếu phải mổ cắt bè hoặc cắt mống mắt bằng laser thì chi phí lớn hơn, và đó là lý do phải đi sớm (suy ra từ yêu cầu hạ nhãn áp khẩn trương).
+- Nếu vào viện sẽ phải trả tiền khám và đo nhãn áp, soi góc tiền phòng. Chi phí tùy cơ sở; mục này chưa có số liệu để nêu.
+- Quyết định 40/QĐ-BYT nêu: glôcôm góc đóng cơn cấp nếu không được điều trị, nhãn áp tiếp tục tăng cao kéo dài sẽ dẫn đến mù. Đó là lý do phải đi sớm.
 - Cái mất thật là thời gian: chờ ở cơ sở y tế, rồi có thể phải ở lại để điều trị hạ nhãn áp.
 
 ## Lợi ích
@@ -62,11 +62,11 @@ Quyết định 40/QĐ-BYT ngày 12/01/2015 dành bài 17 cho glôcôm góc đó
 **Hướng dẫn quốc tế.**
 
 - Dịch vụ y tế quốc gia Anh (NHS): triệu chứng glôcôm có thể xuất hiện đột ngột gồm đau mắt dữ dội, mắt đỏ, nhạy đau quanh mắt, thấy vòng cầu vồng quanh đèn sáng, nhìn mờ, buồn nôn và nôn, đau đầu. Khi các triệu chứng xuất hiện đột ngột, đây là cấp cứu y tế cần xử trí ngay: gọi cấp cứu hoặc tới khoa cấp cứu, không tự lái xe.
-- Viện Hàn lâm Nhãn khoa Hoa Kỳ (AAO), hướng dẫn thực hành 2025: người bệnh cần được hướng dẫn tìm chăm sóc nhãn khoa ngay nếu có triệu chứng.
+- Viện Hàn lâm Nhãn khoa Hoa Kỳ (AAO), hướng dẫn thực hành 2025: người có cơn đóng góc cấp cần được điều trị bằng thuốc hoặc can thiệp để hạ nhãn áp nhanh và giảm triệu chứng.
 
 ## Ghi chú
 
-Triệu chứng và nguyên tắc điều trị đọc được nguyên văn trong văn bản của Bộ Y tế năm 2015, tài liệu hơn 10 năm tuổi. Văn bản chỉ ghi "khẩn trương"; mức khẩn "xử trí ngay" lấy từ NHS và AAO. Văn bản không có số liệu Việt Nam về mức mất thị lực theo số giờ chậm trễ, nên mục dừng ở B.
+Triệu chứng và nguyên tắc điều trị đọc được nguyên văn trong văn bản của Bộ Y tế năm 2015, tài liệu hơn 10 năm tuổi. Văn bản chỉ ghi "khẩn trương"; mức khẩn "xử trí ngay" lấy từ NHS, còn AAO ghi cần hạ nhãn áp nhanh. Văn bản không có số liệu Việt Nam về mức mất thị lực theo số giờ chậm trễ, nên mục dừng ở B.
 
 - **Bẫy 1: nghĩ đến dạ dày hoặc đau nửa đầu.** Thấy đau đầu, buồn nôn, nôn thì uống thuốc giảm đau rồi nằm. Nhưng bài 17 xếp buồn nôn và nôn vào triệu chứng của cơn glôcôm cấp; tiêu chuẩn chẩn đoán xác định của tài liệu là thị lực giảm nhiều, nhãn áp tăng cao, đồng tử giãn méo, góc tiền phòng đóng.
 - **Bẫy 2: chườm nóng, xông hơi, nhỏ thuốc nhỏ mắt mua sẵn, trì hoãn.** Tài liệu không nói gì về chườm nóng hay xông hơi; tránh các việc này và trì hoãn là lời dặn thận trọng (suy ra). Điều trị cần hạ nhãn áp khẩn trương, và phẫu thuật là bắt buộc chứ không phải tùy chọn.

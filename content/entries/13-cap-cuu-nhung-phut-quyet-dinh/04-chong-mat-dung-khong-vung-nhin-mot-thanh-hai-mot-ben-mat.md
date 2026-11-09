@@ -16,7 +16,7 @@ vn_class: adapted
 rewrite_status: rewritten
 tldr: "Chóng mặt đột ngột kèm nhìn đôi, mất thị lực một bên mắt, đi loạng choạng, méo miệng, yếu một bên hoặc nói khó: xử như đột quỵ, gọi 115 và ghi giờ khởi phát. Không tự lái xe, không nhờ người chở."
 steps:
-  - "Đỡ người bệnh ngồi xuống chỗ an toàn, tránh ngã."
+  - "Nếu người bệnh tỉnh, để họ ở tư thế thoải mái, tránh ngã."
   - "Hỏi và nhìn xem có đột ngột nhìn đôi, một bên mắt tối, đi loạng choạng, méo miệng, yếu một bên, nói khó."
   - "Có một trong các dấu hiệu đó thì gọi 115 ngay và ghi giờ khởi phát."
   - "Không tự lái xe đi viện, không nhờ người khác chở; chờ xe cấp cứu."
@@ -39,12 +39,12 @@ tags: []
 
 ## Nói dễ hiểu
 
-Đỡ người bệnh ngồi xuống chỗ an toàn, tránh ngã. Hỏi và nhìn xem có đột ngột nhìn đôi, một bên mắt tối, đi loạng choạng, méo miệng, yếu một bên, nói khó. **Có một trong các dấu hiệu đó thì gọi 115 ngay, ghi giờ khởi phát.** Không tự lái xe đi viện, không nhờ người khác chở; chờ xe cấp cứu. Người bệnh không tỉnh, không thở bình thường: gọi 115 và ép tim theo mục 1. Cần nguồn cho các dấu hiệu khác như đau đầu dữ dội đột ngột, buồn nôn.
+Nếu người bệnh tỉnh, để họ ở tư thế thoải mái, tránh ngã. Hỏi và nhìn xem có đột ngột nhìn đôi, một bên mắt tối, đi loạng choạng, méo miệng, yếu một bên, nói khó. **Có một trong các dấu hiệu đó thì gọi 115 ngay, ghi giờ khởi phát.** Không tự lái xe đi viện, không nhờ người khác chở; chờ xe cấp cứu. Người bệnh không tỉnh, không thở bình thường: gọi 115 và ép tim theo mục 1. NINDS còn liệt kê đau đầu dữ dội không rõ nguyên nhân là dấu hiệu cần gọi cấp cứu ngay.
 
 ## Chi phí
 
-- Gọi 115 không mất tiền (theo bản tin về Thông tư 02/2020/TT-BTTTT, hiệu lực hiện hành chưa xác nhận).
-- Nếu vào viện sẽ phải trả tiền khám và chụp hình ảnh. Cần nguồn cho mức chi phí và tỷ lệ bảo hiểm y tế chi trả.
+- Cuộc gọi 115 được ghi miễn phí theo Thông tư 02/2020/TT-BTTTT ở thời điểm 2020; hiệu lực hiện hành chưa xác nhận.
+- Nếu vào viện sẽ phải trả tiền khám và chụp hình ảnh. Mục này chưa có nguồn cho mức chi phí và tỷ lệ bảo hiểm y tế chi trả, nên không nêu.
 - Cái mất thật là thời gian: thời điểm khởi phát là thông tin bác sĩ cần để xét điều trị tái tưới máu.
 
 ## Lợi ích
@@ -62,7 +62,7 @@ tags: []
 
 ## Ghi chú
 
-Danh sách triệu chứng đọc được nguyên văn. Tài liệu không có số liệu Việt Nam về việc người bệnh chóng mặt được chẩn đoán đột quỵ sớm hay muộn, nên mục dừng ở B.
+Danh sách triệu chứng đọc được nguyên văn. Tài liệu không có số liệu Việt Nam về việc người bệnh chóng mặt được chẩn đoán đột quỵ sớm hay muộn, nên mục xếp mức bằng chứng B.
 
 - **Bẫy 1: tưởng rối loạn tiền đình.** Quyết định 3312 ghi chóng mặt hiếm khi xuất hiện đơn độc; nhìn đôi và thất điều nằm trong cùng danh sách biểu hiện khởi phát của nhồi máu não. Kèm các dấu hiệu đó thì không để nằm nghỉ chờ.
 - **Bẫy 2: chỉ nhớ ba dấu hiệu méo miệng, yếu tay, nói khó.** Danh sách của tài liệu còn có nhìn đôi, mất thị lực một hoặc hai mắt và thất điều (suy ra: người chỉ có các dấu hiệu này có thể bị bỏ sót nếu chỉ kiểm tra mặt, tay, lời nói).

@@ -18,8 +18,8 @@ tldr: "Đun nước sôi thật, giữ sôi thêm một phút rồi mới uống
 steps:
   - "Đun cho nước sôi thật, giữ sôi thêm một phút rồi mới uống. Không cần đun lâu hơn ở độ cao thường gặp."
   - "Không uống nước khe chỉ vì nhìn trong."
-  - "Không đun được: làm trong nước trước (nước đục làm giảm tác dụng của chất khử trùng). Rồi dùng viên khử trùng, chờ 30 phút. Đây không thay hoàn toàn được việc đun sôi."
-  - "Nước khe gần nơi có người, gia súc: viên clo diệt kém trùng Cryptosporidium, bộ lọc nhỏ không chắc giữ được vi rút. Hãy phối hợp lọc và viên, hoặc dùng siêu lọc; ưu tiên đun sôi."
+  - "Không đun được: làm trong nước trước, rồi dùng viên khử trùng, chờ đúng thời gian ghi trên tờ hướng dẫn (cloramin B, Aquatabs: 30 phút theo Bộ Y tế). Không thay được việc đun sôi."
+  - "Nước khe gần nơi có người, gia súc: viên clo, i-ốt diệt kém trùng Cryptosporidium, bộ lọc nhỏ không chắc giữ được vi rút. Dùng siêu lọc, hoặc lọc kèm viên; ưu tiên đun sôi."
 legal_refs: []
 verification:
   status: needs-medical-review
@@ -55,7 +55,7 @@ Mất thời gian chờ nước nguội vài chục phút, và cân nặng của
 
 - Theo trang Sở Y tế Gia Lai (đăng lại infographic của Tổ chức Y tế Thế giới và Bộ Y tế sau bão, 14/10/2022): "uống nước đóng chai, dùng viên khử trùng nước hoặc đun sôi nước trong ít nhất 1 phút". Đây là bối cảnh bão lũ, không phải đi rừng.
 - Theo hướng dẫn của Cục Phòng bệnh, Bộ Y tế (qua trang Sở Y tế Hà Tĩnh): chỉ sử dụng nước để uống trực tiếp sau khi đã đun sôi; nước đã khử trùng dùng cho sinh hoạt nhưng vẫn phải đun sôi rồi mới uống trực tiếp.
-- Liều khử trùng nước sinh hoạt, áp cho nước đã được làm trong: một viên cloramin B 0,25 g cho 25 lít nước, một viên Aquatabs 67 mg cho 20 lít; khuấy đều, đậy nắp, chờ 30 phút. Không khử trùng đồng thời với đánh phèn. Đây là liều nước sinh hoạt của Bộ Y tế, không phải liều đi rừng.
+- Liều khử trùng nước sinh hoạt, áp cho nước đã được làm trong: một viên cloramin B 0,25 g cho 25 lít nước, một viên Aquatabs 67 mg cho 20 lít; khuấy đều, đậy nắp, chờ 30 phút. Đó là thời gian của hai loại viên này; viên khác theo tờ hướng dẫn của sản phẩm, và CDC ghi viên hoặc giọt chlorine dioxide cần tiếp xúc nhiều giờ. Không khử trùng đồng thời với đánh phèn. Đây là liều nước sinh hoạt của Bộ Y tế, không phải liều đi rừng.
 
 **Hai hướng dẫn lệch nhau.** Bộ Y tế (mùa mưa lũ) yêu cầu đun sôi cả nước đã khử trùng. Hướng dẫn của Trung tâm Kiểm soát và Phòng ngừa dịch bệnh Hoa Kỳ (CDC) coi khử trùng hóa chất là một phương pháp, nhưng có giới hạn ở dưới. Mục này không tự chọn bên nào ngoài việc ưu tiên đun sôi.
 
@@ -63,13 +63,13 @@ Mất thời gian chờ nước nguội vài chục phút, và cân nặng của
 
 - Mọi vi sinh vật gây bệnh qua đường uống bị giết trong vài giây ở nhiệt độ sôi; CDC khuyên sôi trọn một phút để chừa biên an toàn.
 - Bộ lọc vi lọc xách tay không loại bỏ chắc chắn vi rút đường ruột (ví dụ norovirus).
-- Clo, i-ốt ở nồng độ dùng thực tế diệt kém Cryptosporidium, kể cả khi để lâu.
+- I-ốt diệt kém Cryptosporidium (CDC: "not readily effective"), và clo ở nồng độ dùng thực tế cũng diệt kém, kể cả khi để lâu. Chlorine dioxide có hiệu quả với Cryptosporidium nhưng cần tiếp xúc nhiều giờ.
 - Nước đục chứa chất trung hòa chất khử trùng hóa học, nên cần làm trong trước.
 - Với nước mặt trong gần nơi người và động vật hoạt động, CDC nêu cần nhiệt hoặc tia cực tím, hoặc vi lọc kèm chất khử trùng halogen, hoặc siêu lọc.
 
 ## Ghi chú
 
-**Mức bằng chứng B.** Mốc một phút đọc được ở CDC và ở trang tỉnh dẫn ngành y tế; liều khử trùng lấy từ trang tỉnh dẫn Bộ Y tế, chưa mở bản gốc trên trang Bộ. Không có nghiên cứu Việt Nam nào so mốc một phút với mốc ngắn hơn. Phần nói về bộ lọc, vi rút là của hướng dẫn nước ngoài, nên mục dừng ở B.
+Mốc một phút có ở CDC và ở trang của Sở Y tế dẫn ngành y tế. Liều khử trùng lấy từ bản đăng lại trên trang Sở Y tế Hà Tĩnh (ghi nguồn Cục Phòng bệnh, Bộ Y tế); mục này chưa đối chiếu với bản gốc trên trang Bộ. Phần nói về bộ lọc và vi rút là của hướng dẫn nước ngoài (CDC).
 
 Người đi rừng, đi rẫy hay sập ở ba chỗ:
 

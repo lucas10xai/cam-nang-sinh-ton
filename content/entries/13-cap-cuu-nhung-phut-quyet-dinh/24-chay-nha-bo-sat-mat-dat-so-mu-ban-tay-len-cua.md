@@ -3,7 +3,7 @@ id: chay-nha-bo-sat-mat-dat-so-mu-ban-tay-len-cua
 legacy: "13-24"
 chapter: 13
 number: 24
-title: "Cháy nhà: bò sát mặt đất, sờ mu bàn tay lên cửa trước khi mở, cửa nóng thì không mở, đi cầu thang bộ, ra rồi không quay lại"
+title: "Cháy nhà: bò sát mặt đất, sờ mu bàn tay lên cửa trước khi mở, cửa nóng thì không mở, thoát theo lối có đèn EXIT, ra rồi không quay lại"
 cost:
   money: low
   time: low
@@ -19,7 +19,7 @@ steps:
   - "Hô to báo động cho mọi người và gọi 114 ngay khi thấy cháy (hoặc ngay khi thoát được, nếu chưa có cơ hội)."
   - "Cúi thấp hoặc bò, men theo tường; qua chỗ có khói thì dùng khăn hoặc vải che mũi, miệng."
   - "Sờ mu bàn tay lên cửa trước khi mở. Cửa quá nóng thì tuyệt đối không mở, tìm lối thoát khác. Mở được thì tránh mặt sang một bên."
-  - "Không dùng thang máy; thoát theo lối thoát nạn có đèn EXIT hoặc thang bộ. Ra được rồi thì không quay lại lấy tài sản."
+  - "Không dùng thang máy; thoát theo lối thoát nạn có đèn EXIT. Ra được rồi thì không quay lại lấy tài sản."
   - "Không có lối thoát hoặc không ra được cửa: ra ban công, cửa sổ, hô to, ra hiệu bằng đồ vật sáng màu, gọi 114. Không nhảy từ tầng quá cao khi chưa có lực lượng cứu nạn hướng dẫn."
 situations:
   - ngo-doc-chay-no
@@ -68,9 +68,9 @@ Khó ở chỗ lúc khói đã kín hành lang thì không ai còn bình tĩnh n
 
 Số 114, nghĩa vụ báo ngay và nghĩa vụ giữ lối thoát nạn đọc được nguyên văn trong bản hợp nhất có số hiệu. Các động tác cụ thể là khuyến cáo nghiệp vụ của lực lượng phòng cháy, không có số liệu thử nghiệm để xếp hạng A.
 
-- "Đi thang bộ" là suy ra từ khuyến cáo không dùng thang máy và thoát theo lối thoát nạn có đèn EXIT; các nguồn không viết nguyên văn "đi thang bộ".
-- Các nguồn không nêu việc đóng cửa, chặn khe khi bị kẹt, hay việc làm khi cầu thang đầy khói. Cần nguồn cho các hướng dẫn đó.
-- Cách ghi số báo động toàn chương: số 114 của Luật vẫn nguyên; mục 49 cùng chương nêu thêm tổng đài 113 tích hợp từ 01/11/2026.
+- Các nguồn không viết nguyên văn "đi thang bộ"; chỉ nói không dùng thang máy và thoát theo lối thoát nạn có đèn EXIT.
+- Các hướng dẫn trên không nêu cách xử trí khi bị kẹt trong phòng hoặc khi cầu thang đầy khói, nên mục không nêu.
+- Số báo cháy là 114. Số gọi cấp cứu y tế xem mục 49.
 - **Bẫy 1: đứng sau cánh cửa nghe ngóng, thấy yên tĩnh thì mở.** Nhiệt độ cánh cửa mới cho biết lửa đã ở bên kia hay chưa.
 - **Bẫy 2: bấm thang máy vì cho là nhanh nhất.** Khuyến cáo của Công an Khánh Hòa nói thẳng là không dùng; lý do (mất điện giữa cháy thì thang thành buồng kín) là suy ra.
 - **Bẫy 3: ra được rồi quay lại lấy giấy tờ, điện thoại, con vật nuôi.** Nguồn dặn không quay lại lấy tài sản; việc cầu thang lúc đó đầy khói là suy ra.

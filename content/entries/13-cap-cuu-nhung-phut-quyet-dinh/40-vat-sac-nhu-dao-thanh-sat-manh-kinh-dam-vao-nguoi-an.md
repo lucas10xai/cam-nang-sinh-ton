@@ -14,11 +14,12 @@ evidence: B
 contested: false
 vn_class: adapted
 rewrite_status: rewritten
-tldr: "Gọi 115 ngay (nhờ người khác gọi, bật loa). Đừng rút vật đâm ra. Ép quanh vật, chèn vòng vải quanh vật rồi băng lại, không ấn lên vật. Vật ở ngực thì không tự bịt kín vết thương."
+tldr: "Gọi 115 ngay (nhờ người khác gọi, bật loa). Đừng rút vật đâm ra. Vật ở tay, chân, bụng: ép quanh vật, chèn vòng vải rồi băng, không ấn lên vật. Vật ở mắt: không chạm, không ép lên hoặc quanh mắt. Vật ở ngực, đầu, cổ: giữ yên, làm theo tổng đài 115."
 steps:
   - "Gọi 115 ngay, bật loa hoặc nhờ người khác gọi; vật cắm sâu là vết thương nặng. Vừa gọi vừa làm các bước dưới."
-  - "Đừng rút vật ra. Giữ người bị thương yên, nghỉ ở tư thế thuận tiện; không tự chở đi nếu 115 tới được (suy ra: rung lắc làm vật xê dịch)."
+  - "Đừng rút vật ra. Giữ người bị thương yên, ở tư thế thuận tiện. Nếu 115 không tới được hoặc quá xa: làm theo tổng đài về cách vận chuyển, giữ vật bất động."
   - "Vật ở tay, chân, bụng: ép mép vết thương sát vật, chèn vòng vải quanh vật rồi băng ép, không ấn lên vật, không băng chặt như dây buộc."
+  - "Vật ở mắt: không chạm, không ép lên hoặc quanh mắt (Chữ thập đỏ Canada 2025). Vật ở đầu, cổ: giữ yên, nói ngay với 115 và làm theo."
   - "Vật ở ngực: không ấn lên vật, chỉ ép quanh vật nếu máu chảy nhiều; máu ít thì không ép, không bịt kín. Giữ yên, nói với tổng đài 115 và làm theo."
   - "Máu vẫn chảy ồ ạt từ tay hoặc chân: nói ngay với tổng đài 115 và làm theo hướng dẫn của họ, kể cả khi họ bảo dùng garô."
 legal_refs: []
@@ -39,7 +40,7 @@ tags: []
 
 ## Nói dễ hiểu
 
-**Nếu có người cần cấp cứu thật: gọi 115 trước.** Đừng rút vật đó ra. Ép quanh chỗ vật cắm để cầm máu, chèn vòng vải quanh vật cho nó khỏi lay, rồi băng lại. Không ấn lên vật. Vật ở ngực thì không tự bịt kín vết thương; chỉ ép khi chảy máu nhiều, và làm theo tổng đài 115.
+**Nếu có người cần cấp cứu thật: gọi 115 trước.** Đừng rút vật đó ra. Vật ở tay, chân, bụng: ép quanh chỗ vật cắm để cầm máu, chèn vòng vải quanh vật cho nó khỏi lay, rồi băng lại. Không ấn lên vật. Vật ở mắt: không chạm, không ép lên hoặc quanh mắt. Vật ở đầu hoặc cổ: giữ yên, nói ngay với 115 và làm theo. Vật ở ngực thì không tự bịt kín vết thương; chỉ ép khi chảy máu nhiều, và làm theo tổng đài 115.
 
 ## Chi phí
 
@@ -56,7 +57,8 @@ Bệnh viện Nhi Trung ương hướng dẫn: vết thương có dị vật nh�
 - Dùng miếng vải vuông hoặc khăn tam giác quấn thành vòng đệm quanh dị vật, rồi băng ép lại như với vết thương không có dị vật, "chú ý không gây áp lực trực tiếp lên dị vật".
 - Nguồn Việt Nam ghi "không băng quá chặt như hình thức ga rô" cho vết thương chảy máu nói chung. Hướng dẫn quốc tế gần đây dùng garô cho chảy máu đe dọa tính mạng ở tay chân khi ép trực tiếp không cầm được, nên nếu máu vẫn chảy ồ ạt thì hỏi và làm theo tổng đài 115.
 - Gọi cấp cứu 115 càng sớm càng tốt. Nguồn Việt Nam ghi "nếu vết thương nặng hay tình trạng nạn nhân xấu"; vật cắm sâu là vết thương nặng, và Chữ thập đỏ Canada 2025 đặt bước gọi cấp cứu lên trước các bước chăm sóc.
-- Vật ở ngực: Chữ thập đỏ Canada 2025 (mục chấn thương ngực) dặn nếu chảy máu nhiều thì ép trực tiếp, nếu máu ít thì không ép và không băng; băng thấm đẫm máu có thể giữ khí và tăng áp lực trong lồng ngực.
+- Vật ở ngực (suy ra từ mục Chấn thương ngực của Chữ thập đỏ Canada 2025, không phải mục vật cắm): nếu chảy máu nhiều thì ép trực tiếp, nếu máu ít thì không ép và không băng; băng thấm đẫm máu có thể giữ khí và tăng áp lực trong lồng ngực, nên phải thay băng. Điểm này lệch với nguồn Việt Nam, vốn dặn bịt kín vết thương cho mọi vết thương đâm xuyên.
+- Vật ở mắt: Chữ thập đỏ Canada 2025 dặn tránh chạm vào mắt hoặc ép lên hay quanh mắt. Mục này chưa có nguồn cho vật cắm ở đầu hoặc cổ nên chỉ dặn giữ yên và làm theo tổng đài 115.
 
 British Red Cross: vật cắm đang "giúp bịt lỗ thủng và cầm máu", rút ra có thể làm chảy máu nặng hơn.
 

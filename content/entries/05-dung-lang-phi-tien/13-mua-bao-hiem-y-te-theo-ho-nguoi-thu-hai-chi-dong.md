@@ -70,7 +70,7 @@ Mức đóng tính theo người thứ tự trong hộ, không phải một ví 
 ## Ghi chú
 
 - **Bẫy 1: đừng tìm "tài khoản dùng chung".** Tiền bảo hiểm y tế không phải số dư trong ví, không rút ra cho người khác đi khám được. Thứ giảm được là **mức đóng**, không phải số dư.
-- **Bẫy 2: giảm trừ có điều kiện "cùng tham gia trong năm tài chính".** Nguồn chỉ nêu điều kiện này; chưa có nguồn nói thứ tự đóng trước hay sau ảnh hưởng mức giảm. Cần nguồn cho cách tính khi các thành viên đóng vào các thời điểm khác nhau.
+- **Bẫy 2: giảm trừ có điều kiện "cùng tham gia trong năm tài chính".** Nguồn chỉ nêu điều kiện này; chưa có nguồn nói thứ tự đóng trước hay sau ảnh hưởng mức giảm. Mục này chưa có nguồn cho cách tính khi các thành viên đóng vào các thời điểm khác nhau.
 - **Bẫy 3: mức đóng tính trên lương cơ sở, đổi theo từng năm.** Lương cơ sở vừa tăng từ 2.340.000 lên 2.530.000 đồng/tháng từ 1/7/2026. Con số ở trên là ảnh chụp ngày 2/11/2026, không phải con số cố định.
 - **Văn bản cũ:** Nghị định 146/2018/NĐ-CP đã bị Nghị định 188/2025/NĐ-CP bãi bỏ; mức 70/60/50/40% được lặp lại ở văn bản mới. Quy định "sổ hộ khẩu, sổ tạm trú" của văn bản cũ không còn là căn cứ.
 

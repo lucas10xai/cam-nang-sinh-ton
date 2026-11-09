@@ -65,13 +65,13 @@ Sau sơ cứu, việc quan trọng nhất là đến cơ sở y tế gần nhấ
 
 Về kháng thể: Tổ chức Y tế Thế giới xếp mọi vết cắn hoặc cào xuyên da (một hoặc nhiều) vào mức III, cần rửa vết thương, tiêm vắc xin ngay và kháng thể kháng dại. Đừng tự coi vết nhỏ là không cần; để bác sĩ phân độ.
 
-Theo ghi chú của người kiểm chứng về mục 3.3.2 của Quyết định 1622, vết sâu, vết ở đầu, mặt, cổ, đầu chi hoặc nhiều vết là trường hợp cần huyết thanh và vắc xin ngay. Chưa có trích dẫn nguyên văn cho phần này.
+Theo mục 3.3.2 Quyết định 1622: vết cắn hoặc cào sâu, nhiều vết, ở đầu, mặt, cổ, đầu chi hoặc bộ phận sinh dục thì tiêm huyết thanh kháng dại và vắc xin ngay khi con vật có triệu chứng dại hoặc không theo dõi được; vết chảy máu ở vùng xa thần kinh trung ương mà con vật bình thường chỉ tiêm vắc xin. WHO nghiêm hơn Bộ Y tế: mọi vết xuyên da đều cần kháng thể. Bác sĩ quyết định.
 
 **Gấu.** Hướng dẫn của Cơ quan Công viên Quốc gia Hoa Kỳ (NPS): nếu gấu đứng yên thì lùi chậm, nghiêng người để vẫn nhìn được nó. Không chạy; nếu gấu đuổi theo thì dừng lại, giữ chỗ. Gấu chạy nhanh cả lên và xuống dốc, và leo cây được. Không hét to vì gấu có thể tưởng là tiếng con mồi.
 
-Nếu bị gấu đen tấn công, NPS khuyên không giả chết, tìm chỗ an toàn như xe hoặc nhà, không thoát được thì đánh trả. Với gấu nâu, NPS khuyên giả chết. Gấu ở Việt Nam thường là gấu ngựa, gấu chó, thuộc nhóm gấu đen (suy ra, không có nguồn Việt Nam xác nhận loài).
+Nếu bị gấu đen tấn công, NPS khuyên không giả chết, tìm chỗ an toàn như xe hoặc nhà, không thoát được thì đánh trả. Với gấu nâu, NPS khuyên giả chết. NPS viết cho gấu đen và gấu nâu Bắc Mỹ; mục này chưa có hướng dẫn riêng cho gấu châu Á.
 
-**Lợn rừng và đàn chó.** Chưa có hướng dẫn chính thống nào được kiểm chứng. Một trang không chính thống khuyên leo lên cây hoặc chỗ cao nếu lợn rừng lao tới, nên mục này không áp bước "không leo cây" cho lợn rừng.
+**Lợn rừng và đàn chó.** Chưa có hướng dẫn chính thống về lợn rừng và đàn chó, nên mục không đưa lời khuyên cho các trường hợp này. Một trang không chính thống khuyên leo lên cây hoặc chỗ cao nếu lợn rừng lao tới, nên mục này không áp bước "không leo cây" cho lợn rừng.
 
 ## Pháp luật Việt Nam
 
@@ -81,7 +81,7 @@ Nếu bị gấu đen tấn công, NPS khuyên không giả chết, tìm chỗ a
 
 ## Ghi chú
 
-**Mức bằng chứng C.** Phần chó cắn có văn bản của Bộ Y tế, nhưng chữ gốc chưa mở được từ nguồn chính; con số lấy từ bản dẫn lại. Phần gấu lấy từ hướng dẫn của Mỹ, không có văn bản Việt Nam. Lợn rừng và đàn chó không có nguồn. Nên cả mục để C.
+**Mức bằng chứng C.** Phần chó cắn có văn bản của Bộ Y tế, nhưng trích qua bản sao đăng lại của Quyết định 1622; con số lấy từ bản dẫn lại. Phần gấu lấy từ hướng dẫn của Mỹ, không có văn bản Việt Nam. Lợn rừng và đàn chó không có nguồn. Nên cả mục để C.
 
 Người đi rừng hay sập ở ba chỗ:
 

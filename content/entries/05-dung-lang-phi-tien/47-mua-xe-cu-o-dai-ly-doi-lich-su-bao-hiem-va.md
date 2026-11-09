@@ -78,7 +78,7 @@ Không nên mặc định sẽ được đền một khoản gấp bội.
 
 ## Ghi chú
 
-- **Bẫy 1: lịch sử tai nạn của xe khó biết.** Lời khuyên thực hành (không phải chữ của luật): hỏi giấy tờ bảo hiểm của chủ cũ, hoặc thuê gara kiểm tra khung, sơn, ốc. Cần nguồn về việc có hay không cơ sở dữ liệu công khai.
+- **Bẫy 1: lịch sử tai nạn của xe khó biết.** Lời khuyên thực hành (không phải chữ của luật): hỏi giấy tờ bảo hiểm của chủ cũ, hoặc thuê gara kiểm tra khung, sơn, ốc. Mục này chưa có nguồn về việc có hay không cơ sở dữ liệu công khai.
 - **Bẫy 2: "xe gia đình đi ít, bao không đâm không ngập" trong tin rao là lời nói, không phải cam kết.** Chỉ dòng trong hợp đồng mới dùng làm chứng cứ.
 - **Bẫy 3: mua từ người bán tư nhân thì có thể luật bảo vệ người tiêu dùng không áp dụng.** Suy ra từ việc Điều 10 khoản 1 nhắm vào "tổ chức, cá nhân kinh doanh"; chưa đối chiếu điều về đối tượng áp dụng. Khi đó thắng hay thua phụ thuộc chứng cứ.
 - **Đừng hiểu ngược:** mục này không nói đại lý nào cũng lừa. Nó nói hãy biến lời hứa thành điều khoản, vì tòa chỉ đọc hợp đồng và chứng cứ, không đọc tin rao.

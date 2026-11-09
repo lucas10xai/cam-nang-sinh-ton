@@ -78,7 +78,7 @@ Hãy so mức tiền phải đóng, quyền lợi thực nhận, phí và điề
 
 - Sản phẩm bảo hiểm hưu trí dùng mẫu tài liệu minh họa 24-NT (Điều 29 khoản 2, Thông tư 67/2023/TT-BTC).
 - Sản phẩm có giá trị hoàn lại phải nêu rõ quyền lợi nào có đảm bảo, quyền lợi nào không (Điều 29 khoản 1 điểm b, Thông tư 67/2023/TT-BTC).
-- Thông tư 67/2023/TT-BTC nhắc "nghiệp vụ bảo hiểm hưu trí" trong nhóm phải có bảng câu hỏi đánh giá khả năng tài chính của bên mua (Điều 30 khoản 2 điểm b). Cần nguồn: hiệu lực hiện hành của Thông tư này.
+- Thông tư 67/2023/TT-BTC nhắc "nghiệp vụ bảo hiểm hưu trí" trong nhóm phải có bảng câu hỏi đánh giá khả năng tài chính của bên mua (Điều 30 khoản 2 điểm b). Chưa kiểm chứng được: hiệu lực hiện hành của Thông tư này.
 
 ## Ghi chú
 

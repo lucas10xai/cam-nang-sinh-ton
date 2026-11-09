@@ -14,12 +14,13 @@ evidence: B
 contested: false
 vn_class: adapted
 rewrite_status: rewritten
-tldr: "Không móc họng cho nôn. Gọi 115 hoặc đưa ngay tới cơ sở y tế gần nhất, mang theo vỏ chai, hộp thuốc. Da dính chất: cởi quần áo, rửa liên tục dưới vòi nước sạch. Mắt: rửa liên tục 15 đến 30 phút."
+tldr: "Không móc họng cho nôn. Gọi 115 hoặc đưa ngay tới cơ sở y tế gần nhất, mang theo vỏ chai, hộp thuốc. Da dính chất: cởi quần áo, rửa liên tục dưới vòi nước sạch ít nhất 15 phút. Mắt: rửa liên tục 15 đến 30 phút."
 steps:
-  - "Gọi 115 hoặc đưa ngay tới cơ sở y tế gần nhất; mang theo vỏ chai, hộp thuốc. Cơ sở sẽ chuyển tuyến chống độc nếu cần."
+  - "Gọi 115 hoặc đưa ngay tới cơ sở y tế gần nhất; mang theo vỏ chai, hộp thuốc."
   - "Không móc họng cho nôn, nhất là khi nghi chất ăn mòn (axit, kiềm), xăng dầu, hoặc người li bì, co giật, hôn mê."
-  - "Không tự cho ăn uống gì. Nếu chất nuốt gây rát và người còn tỉnh, nuốt được, hỏi 115 có nên cho nhấp một ít nước hoặc sữa không."
-  - "Chất dính vào da: tháo quần áo dính hóa chất, rửa vùng tiếp xúc liên tục dưới vòi nước sạch."
+  - "Không tự cho ăn uống gì. Nếu chất nuốt gây rát và người còn tỉnh, nuốt được, hỏi 115 có nên cho nhấp một ít nước hoặc sữa không (lời khuyên thực hành, không có trong nguồn)."
+  - "Người li bì, không đáp ứng mà còn thở: đặt nằm nghiêng. Không thở: ép tim theo mục 1."
+  - "Chất dính vào da: tháo quần áo dính hóa chất, rửa vùng tiếp xúc liên tục dưới vòi nước sạch ít nhất 15 phút."
   - "Chất vào mắt: rửa liên tục dưới vòi nước sạch hoặc nước muối sinh lý 15 đến 30 phút, lộn mi trên và dưới; không băng kín mắt khi chưa rửa sạch."
 legal_refs: []
 verification:
@@ -40,7 +41,7 @@ tags: []
 
 ## Nói dễ hiểu
 
-**Nếu có người cần cấp cứu thật: gọi 115 trước.** Không móc họng cho nôn. Mang theo vỏ chai, hộp thuốc và đưa người bệnh tới cơ sở y tế gần nhất. Chất dính vào da thì tháo quần áo và rửa liên tục dưới vòi nước sạch. Chất vào mắt thì rửa liên tục 15 đến 30 phút.
+**Nếu có người cần cấp cứu thật: gọi 115 trước.** Không móc họng cho nôn. Mang theo vỏ chai, hộp thuốc và đưa người bệnh tới cơ sở y tế gần nhất. Người li bì, không đáp ứng mà còn thở thì đặt nằm nghiêng; không thở thì ép tim theo mục 1. Chất dính vào da thì tháo quần áo và rửa liên tục dưới vòi nước sạch ít nhất 15 phút. Chất vào mắt thì rửa liên tục 15 đến 30 phút.
 
 ## Chi phí
 
@@ -55,7 +56,7 @@ Bệnh viện Nhi Trung ương (bài viết cho trẻ em):
 - Gọi cấp cứu 115 hoặc nhanh chóng đưa trẻ tới ngay cơ sở y tế gần nhất.
 - Mang theo thuốc hoặc hóa chất nghi ngờ gây ngộ độc, để bác sĩ gợi được nguyên nhân và có phương án giải độc phù hợp.
 - Tuyệt đối không gây nôn khi trẻ hôn mê, li bì, co giật hoặc nghi uống phải hóa chất ăn mòn như axit, bazơ, xăng dầu.
-- Với da: tháo bỏ ngay quần áo dính hóa chất và rửa vùng tiếp xúc liên tục dưới vòi nước sạch. Bài không ghi số phút.
+- Với da: tháo bỏ ngay quần áo dính hóa chất và rửa vùng tiếp xúc liên tục dưới vòi nước sạch. Bài không ghi số phút; Poison Control (Mỹ) ghi rửa ít nhất 15 phút.
 
 Bệnh viện Mắt Hà Nội, khi hóa chất bắn vào mắt:
 
@@ -63,7 +64,7 @@ Bệnh viện Mắt Hà Nội, khi hóa chất bắn vào mắt:
 - Lộn mi trên và mi dưới để rửa sạch hóa chất đọng trong túi kết mạc.
 - Không băng kín mắt khi chưa rửa sạch.
 
-NHS (Anh): không cố làm người bệnh nôn khi nghi đã nuốt chất độc hại, vì họ có thể bị sặc và ngừng thở; không cho ăn hoặc uống gì. Mang theo một ít chất đó hoặc bao bì tới bệnh viện nếu có thể.
+NHS (Anh): không cố làm người bệnh nôn khi nghi đã nuốt chất độc hại, vì họ có thể bị sặc và ngừng thở; không cho ăn hoặc uống gì. Mang theo một ít chất đó hoặc bao bì tới bệnh viện nếu có thể. Nếu người bệnh không đáp ứng và không thở thì bắt đầu ép tim; nếu không đáp ứng nhưng còn thở thì đặt nằm nghiêng (tư thế hồi phục).
 
 Nơi chuyên điều trị ngộ độc: Trung tâm Chống độc trong Bệnh viện Bạch Mai (bệnh viện ở số 78 đường Giải Phóng, Hà Nội), có đơn vị điều trị ngộ độc, đơn vị xét nghiệm độc chất và đơn vị thông tin chống độc.
 
@@ -71,14 +72,14 @@ Nơi chuyên điều trị ngộ độc: Trung tâm Chống độc trong Bệnh 
 
 - **Nguồn Việt Nam không thống nhất với mục về việc gây nôn.** Bài của Bệnh viện Nhi Trung ương còn hướng dẫn: nếu trẻ tỉnh táo, chưa nôn, còn phản ứng tốt thì dùng ngón tay (quấn gạc mềm, sạch) kích thích sàn họng để trẻ nôn. Mục chọn "không móc họng" theo NHS và theo phần chống chỉ định của chính bài đó; Poison Control (Mỹ) cũng ghi "Do not induce vomiting".
 - **Uống nước hay sữa: hướng dẫn quốc tế không thống nhất.** NHS: không cho ăn hoặc uống gì. Poison Control: uống ngay một ít nước hoặc sữa nếu chất nuốt gây rát, ăn mòn và người còn tỉnh, không co giật, nuốt được. Bài Bệnh viện Nhi Trung ương còn cho trẻ uống dung dịch Oresol theo nhu cầu sau khi nôn. Vì vậy mục chỉ dặn không tự cho uống và hỏi 115.
-- Các nguồn nói về ngộ độc thuốc và hóa chất gia dụng, bài chính viết cho trẻ em. Mục này chưa có nguồn cho xử trí riêng với thuốc trừ sâu và hướng dẫn cho người lớn.
-- Mục này chưa có nguồn cho việc có nên bỏ qua cơ sở gần nhất để tới cơ sở chống độc, và chưa thấy số điện thoại riêng của Trung tâm Chống độc được công bố.
-- Không có văn bản có số hiệu nào quy định thời gian rửa da tại nhà. Mốc 15 đến 30 phút chỉ có cho mắt.
+- Các nguồn nói về ngộ độc thuốc và hóa chất gia dụng, bài chính viết cho trẻ em. Mục này chưa có hướng dẫn riêng cho thuốc trừ sâu và cho người lớn.
+- Mục này chưa có hướng dẫn về việc có nên bỏ qua cơ sở gần nhất để tới cơ sở chống độc; số điện thoại riêng của Trung tâm Chống độc chưa thấy công bố.
+- Bài Việt Nam không ghi số phút rửa da; con số 15 phút cho da lấy từ Poison Control. Mục về bỏng hóa chất cùng chương ghi ít nhất 30 phút với axit, kiềm.
 - **Bẫy 1: móc họng cho nôn với thuốc tẩy, nước tẩy bồn cầu, xăng dầu.** Bệnh viện Nhi Trung ương ghi tuyệt đối không gây nôn với hóa chất ăn mòn và xăng dầu.
 - **Bẫy 2: tự cho uống sữa hoặc nước theo mẹo.** Hướng dẫn không thống nhất (xem trên); hỏi 115 thay vì tự quyết.
 - **Bẫy 3: bỏ vỏ chai ở nhà.** Bác sĩ cần thuốc hoặc hóa chất nghi ngờ để chọn phương án giải độc.
 - Mục này không có nghĩa là mọi ca uống nhầm đều phải nằm viện.
-- Cũng không có nghĩa là uống ít thì không cần hỏi ý kiến cơ sở y tế. Mức bằng chứng để B.
+- Cũng không có nghĩa là uống ít thì không cần hỏi ý kiến cơ sở y tế.
 
 ## Nguồn
 

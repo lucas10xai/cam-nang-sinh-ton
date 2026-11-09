@@ -16,11 +16,11 @@ vn_class: adapted
 rewrite_status: rewritten
 tldr: "Méo miệng, yếu một bên, nói ngọng: gọi 115 ngay và ghi giờ khởi phát. Đừng chờ xem có đỡ không, kể cả khi đã quá 4,5 giờ hoặc ngủ dậy mới thấy: vẫn gọi 115."
 steps:
-  - "Bảo người bệnh cười, giơ hai tay và nói một câu."
-  - "Thấy méo miệng, yếu một bên, nói ngọng thì gọi 115 ngay, dù đã nhiều giờ hay ngủ dậy mới thấy."
+  - "Bảo người bệnh cười, giơ hai tay, nói một câu. Méo miệng, yếu một bên hoặc nói ngọng: gọi 115 ngay, dù đã nhiều giờ hay ngủ dậy mới thấy."
+  - "Người bệnh không tỉnh, không thở bình thường: gọi 115 và ép tim theo mục 1."
   - "Ghi lại giờ khởi phát, hoặc lần cuối thấy người bệnh còn bình thường."
-  - "Giữ người bệnh ở tư thế an toàn, đầu nghiêng để tránh sặc; không cho uống thuốc."
-  - "Không để người bệnh tự lái xe; chờ xe cấp cứu, không tự chở bằng xe máy."
+  - "Không để người bệnh tự lái xe, không nhờ người khác chở; chờ xe cấp cứu. Không cho uống thuốc."
+  - "Người giảm tỉnh táo nhưng vẫn thở bình thường: cho nằm nghiêng, đầu nghiêng để tránh sặc. Người còn tỉnh: để tư thế thoải mái."
 legal_refs: []
 verification:
   status: needs-medical-review
@@ -39,12 +39,14 @@ tags: []
 
 ## Nói dễ hiểu
 
-Bảo người bệnh cười, giơ hai tay và nói một câu. **Thấy méo miệng, yếu một bên, nói ngọng thì gọi 115 ngay, dù đã nhiều giờ hay ngủ dậy mới thấy.** Ghi lại giờ khởi phát, hoặc lần cuối thấy người bệnh còn bình thường. Trong lúc chờ, giữ người bệnh ở tư thế an toàn, đầu nghiêng để tránh sặc, không cho uống thuốc. Không để người bệnh tự lái xe đi; chờ xe cấp cứu thay vì tự chở bằng xe máy (suy ra từ hướng dẫn của NINDS Hoa Kỳ, nguồn đó không nhắc riêng xe máy).
+Bảo người bệnh cười, giơ hai tay và nói một câu. **Thấy méo miệng, yếu một bên, nói ngọng thì gọi 115 ngay, dù đã nhiều giờ hay ngủ dậy mới thấy.** Người bệnh không tỉnh, không thở bình thường: gọi 115 và ép tim theo mục 1. Ghi lại giờ khởi phát, hoặc lần cuối thấy người bệnh còn bình thường. Không để người bệnh tự lái xe đi, không nhờ người khác chở; chờ xe cấp cứu (hướng dẫn của NINDS Hoa Kỳ; nguồn đó không nhắc riêng xe máy). Mục này chưa có nguồn cho trường hợp xe cấp cứu không tới được.
+
+Trong lúc chờ, không cho uống thuốc. Người giảm tỉnh táo nhưng vẫn thở bình thường thì cho nằm nghiêng, đầu nghiêng để tránh sặc; người còn tỉnh thì để tư thế thoải mái.
 
 ## Chi phí
 
-- Gọi 115 không mất tiền (theo bản tin về Thông tư 02/2020/TT-BTTTT, hiệu lực hiện hành chưa xác nhận), và ba động tác kiểm tra cũng không mất gì: bảo người bệnh cười, giơ hai tay, nói một câu.
-- Nếu vào viện sẽ phải trả tiền chụp, thuốc và nằm đơn vị đột quỵ. Cần nguồn cho mức chi phí và tỷ lệ bảo hiểm y tế chi trả.
+- Ba động tác kiểm tra không mất gì: bảo người bệnh cười, giơ hai tay, nói một câu. Bản tin năm 2020 ghi cuộc gọi 115 có cước 0 đồng/phút theo Thông tư 02/2020/TT-BTTTT; thông tư đó đã hết hiệu lực toàn bộ, nên mức cước hiện hành chưa xác nhận.
+- Nếu vào viện sẽ phải trả tiền chụp, thuốc và nằm đơn vị đột quỵ. Mục này chưa có nguồn cho mức chi phí và tỷ lệ bảo hiểm y tế chi trả.
 - Cái mất thật là thời gian: giờ khởi phát là thông tin bác sĩ cần để chọn cách điều trị.
 
 ## Lợi ích
@@ -64,10 +66,14 @@ Bảo người bệnh cười, giơ hai tay và nói một câu. **Thấy méo m
 
 ## Ghi chú
 
-Mốc thời gian đọc được nguyên văn trong văn bản của Bộ Y tế. Chưa có thống kê Việt Nam về tỷ lệ người bệnh tới sớm trong cửa sổ điều trị, nên mục dừng ở B.
+Mốc thời gian đọc được nguyên văn trong văn bản của Bộ Y tế. Chưa có thống kê Việt Nam về tỷ lệ người bệnh tới sớm trong cửa sổ điều trị.
 
 - **Bẫy 1: chờ xem có đỡ không.** 270 phút là điều kiện của tiêu huyết khối thông thường, không phải hạn để quan sát. Ngoài mốc đó vẫn có thể còn điều trị nhưng chọn lọc hơn; đi càng sớm càng nhiều lựa chọn (suy ra từ mục 4.2.2 và 4.5.2).
-- **Bẫy 2: cho uống thuốc hạ huyết áp, ngậm thuốc an thần.** Bài của Trung tâm Y tế khu vực Phú Lâm (nguồn HCDC, 30/9/2025) dặn giữ bệnh nhân ở tư thế an toàn, đầu nghiêng để tránh sặc, tuyệt đối không cho uống thuốc. Cần nguồn cho việc nhịn ăn uống trước khi đến viện.
+- **Bẫy 2: cho uống thuốc hạ huyết áp, ngậm thuốc an thần.** Bài của Trung tâm Y tế khu vực Phú Lâm (nguồn HCDC, 30/9/2025) dặn giữ bệnh nhân ở tư thế an toàn, đầu nghiêng để tránh sặc, tuyệt đối không cho uống thuốc.
+
+Chỗ lệch với hướng dẫn quốc tế: AHA và Hội Chữ thập đỏ Mỹ (2024) chỉ coi tư thế nằm nghiêng là hợp lý cho người giảm tỉnh táo, thở bình thường, không nghi chấn thương; tư thế đó có thể không phù hợp nếu thở bất thường hoặc cần ép tim; người tỉnh nên để tư thế thoải mái. Vì vậy mục chỉ khuyên nằm nghiêng có điều kiện.
+
+Chưa kiểm chứng được việc nhịn ăn uống trước khi đến viện.
 - **Bẫy 3: chở bằng xe máy tới bệnh viện gần nhất.** Nguồn của Hoa Kỳ khuyên đi xe cấp cứu. Việc tới đúng cơ sở có máy chụp cắt lớp và xử trí được tiêu huyết khối là suy ra, nguồn không nêu.
 - Bạn không cần chờ người bệnh tỉnh táo hay có đủ ba dấu hiệu mới gọi 115. Thấy méo miệng, yếu tay, nói khó thì gọi ngay, đồng thời ghi lại giờ khởi phát.
 

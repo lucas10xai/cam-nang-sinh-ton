@@ -16,8 +16,9 @@ vn_class: adapted
 rewrite_status: rewritten
 tldr: "Còi báo CO kêu hoặc cả nhà cùng đau đầu buồn nôn: đưa mọi người ra chỗ thoáng, không quay lại nhà. Có người bất tỉnh, khó thở, lú lẫn: gọi 115. Bất tỉnh thì kiểm tra thở, không thở bình thường thì ép tim."
 steps:
-  - "Mở cửa, đưa mọi người ra ngoài chỗ thoáng ngay, kể cả người còn tỉnh. Không quay lại nhà khi chưa được tư vấn y tế."
+  - "Đưa mọi người ra ngoài chỗ thoáng ngay (mở cửa trên đường ra), kể cả người còn tỉnh. Không quay lại nhà khi chưa được tư vấn y tế."
   - "Ra tới chỗ thoáng gọi 115 ngay nếu có người bất tỉnh, khó thở, lú lẫn, yếu hoặc đau ngực."
+  - "Người không tự ra được: chỉ kéo ra nếu bạn vào được mà không bị choáng; không thì gọi 115 từ bên ngoài (lời khuyên thực hành, nguồn không nêu)."
   - "Chỉ tắt thiết bị nghi gây CO nếu đang ở ngay cạnh và làm được trong vài giây; không ở lại tìm nguyên nhân."
   - "Người bất tỉnh: kiểm tra thở. Còn thở thì đặt nằm nghiêng; không thở bình thường thì ép tim (hồi sức tim phổi) trong lúc chờ xe cấp cứu."
   - "Người đã hít khí vẫn cần xin tư vấn y tế sớm, kể cả khi đã ra ngoài."
@@ -40,7 +41,7 @@ tags: []
 
 ## Nói dễ hiểu
 
-Mở cửa, đưa mọi người ra ngoài chỗ thoáng ngay, kể cả người còn tỉnh, và không quay lại nhà khi chưa được tư vấn y tế. Có người bất tỉnh, khó thở, lú lẫn, yếu hoặc đau ngực thì gọi 115. Người bất tỉnh phải được kiểm tra thở. Đừng ở lại tìm nguyên nhân.
+Đưa mọi người ra ngoài chỗ thoáng ngay (mở cửa trên đường ra), kể cả người còn tỉnh, và không quay lại nhà khi chưa được tư vấn y tế. Có người bất tỉnh, khó thở, lú lẫn, yếu hoặc đau ngực thì gọi 115. Người không tự ra được: chỉ kéo ra nếu bạn vào được mà không bị choáng, không thì gọi 115 từ bên ngoài (lời khuyên thực hành, nguồn không nêu). Người bất tỉnh phải được kiểm tra thở. Đừng ở lại tìm nguyên nhân.
 
 ## Chi phí
 
@@ -68,14 +69,14 @@ Hướng dẫn tại hiện trường lấy từ nguồn nước ngoài, vì bà
 
 - Tính chất không màu không mùi, danh sách nguồn khí và mốc 6 giờ đọc được nguyên văn trong bài của bệnh viện tuyến cuối. Bài không phải văn bản có số hiệu.
 - Số 115 là số gọi cấp cứu mà Bệnh viện Nhi Trung ương ghi trong hướng dẫn ngộ độc ("Gọi cấp cứu 115"). Mục không dẫn văn bản pháp luật cho số này.
-- Chưa thấy thống kê Việt Nam nào tách riêng số ca ngộ độc CO trong nhà theo loại bếp, nên mục để mức B.
+- Chưa thấy thống kê Việt Nam nào tách riêng số ca ngộ độc CO trong nhà theo loại bếp.
 - Thứ tự "ra ngoài trước rồi gọi 115" và việc "chỉ tắt thiết bị nếu làm được trong vài giây" là suy ra từ hướng dẫn nước ngoài ở trên, không phải chữ của nguồn Việt Nam.
 - **Bẫy 1: ở lại trong nhà để mở cửa sổ và tìm chỗ rò.** Bệnh viện Bỏng ghi khí tích tụ nhanh trong không gian kín (suy ra: người đi tìm có thể là người ngã tiếp theo).
 - **Bẫy 2: tìm cách đóng nguồn khí mất nhiều thời gian trước khi đưa người ra.** NHS chỉ nói ngừng dùng thiết bị nếu làm được; nguồn không nói về van bình gas.
 - **Bẫy 3: coi đau đầu, buồn nôn là cảm cúm vì trời lạnh.** CDC ghi triệu chứng CO thường được mô tả giống cúm. Nguồn không nói về "cả nhà cùng bị"; đó là suy ra từ NHS: triệu chứng nặng hơn khi ở trong phòng hoặc nhà bị ảnh hưởng và đỡ khi ra ngoài.
 - Mục này không có nghĩa là cứ có mùi gas mới là nguy hiểm.
 - Cũng không có nghĩa là ra được ngoài thì hết chuyện. Bệnh viện Bỏng ghi người bệnh sau điều trị cần được khám đánh giá di chứng thần kinh có thể xảy ra muộn.
-- Mục này chưa có nguồn cho cách xử trí riêng khi nghi rò rỉ gas LPG, và chưa nêu thứ tự gọi 115 theo hướng dẫn của Bộ Y tế.
+- Mục này chưa có nguồn riêng cho cách xử trí khi nghi rò rỉ gas LPG.
 
 ## Nguồn
 

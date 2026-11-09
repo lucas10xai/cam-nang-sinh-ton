@@ -54,7 +54,7 @@ Nên mỗi năm một lần (đây là khuyến nghị, luật không quy địn
 Không mất tiền theo nguồn nêu trong mục này: tra trong ứng dụng của nhà mạng hoặc nhắn tin, rồi gửi yêu cầu nếu cần. Phí nhắn tin 1414 nếu có thì cần hỏi nhà mạng.
 
 - **Thời gian:** một buổi mỗi năm và một lần đối chiếu giấy tờ. Cách đăng nhập tùy từng ứng dụng.
-- **Nếu phát hiện số lạ:** gửi yêu cầu chấm dứt hợp đồng cho nhà mạng. Luật không nói phải ra quầy hay ký giấy, nên hãy hỏi nhà mạng hình thức nhận yêu cầu. Cần nguồn cho hình thức này.
+- **Nếu phát hiện số lạ:** gửi yêu cầu chấm dứt hợp đồng cho nhà mạng. Luật không nói phải ra quầy hay ký giấy, nên hãy hỏi nhà mạng hình thức nhận yêu cầu. Mục này chưa có nguồn cho hình thức này.
 
 ## Lợi ích
 

@@ -90,7 +90,7 @@ Chưa tìm thấy mức phạt cụ thể cho cá nhân dán mã và chưa tìm 
 - **Bẫy 2: dùng khóa của công ty trên tài khoản AI cá nhân vì "cho nhanh".** Khóa đó mở được cả kho mã nội bộ, và người quản trị không thấy được là ai đã dán.
 - **Bẫy 3: sau khi dán vẫn để nguyên khóa cũ hoạt động vì ngại sửa.** Nên thận trọng coi khóa đã nằm trong lịch sử chat là đã lộ, kể cả khi bạn đã xóa hội thoại (khuyến nghị, không có nguồn nêu).
 
-Đổi khóa bí mật không có nghĩa là dữ liệu đã dán quay lại được. Thứ đã gửi đi thì nằm ở phía dịch vụ, nên che dữ liệu trước khi dán mới là phần quan trọng. Đổi khóa chỉ là dọn hậu quả. Cần nguồn thực hành (hướng dẫn quản lý khóa bí mật) cho các bước kỹ thuật ở trên.
+Đổi khóa bí mật không có nghĩa là dữ liệu đã dán quay lại được. Thứ đã gửi đi thì nằm ở phía dịch vụ, nên che dữ liệu trước khi dán mới là phần quan trọng. Đổi khóa chỉ là dọn hậu quả. Chưa có nguồn thực hành (hướng dẫn quản lý khóa bí mật) cho các bước kỹ thuật ở trên.
 
 ## Nguồn
 

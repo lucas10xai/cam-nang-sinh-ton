@@ -14,7 +14,7 @@ evidence: B
 contested: false
 vn_class: universal
 rewrite_status: rewritten
-tldr: "Từ 1 tuổi trở lên mà không ho, không nói được: nhờ người gọi 115, đứng sau lưng, vỗ 5 lần giữa hai bả vai xen 5 lần ấn bụng, lặp lại. Bất tỉnh, không thở: ép tim (hồi sinh tim phổi) ngay."
+tldr: "Từ 1 tuổi trở lên (mốc suy ra từ nguồn) mà không ho, không nói được: nhờ người gọi 115, đứng sau lưng, vỗ 5 lần giữa hai bả vai xen 5 lần ấn bụng. Bất tỉnh, không thở: ép tim ngay."
 steps:
   - "Hỏi người đó có bị hóc không. Còn ho được: khuyến khích ho. Không ho, không nói được hoặc ho yếu dần: làm các bước dưới."
   - "Nhờ người xung quanh gọi 115 ngay, vừa gọi vừa sơ cứu."
@@ -66,7 +66,7 @@ Hội đồng Hồi sức châu Âu (ERC) 2025, sơ cứu: hỏi người đó c
 
 Trình tự 5 lần vỗ lưng xen 5 lần ấn bụng và mốc 1 tuổi đọc được trong hướng dẫn của trung tâm cấp cứu của thành phố lớn nhất, nhóm "người lớn và trẻ em lớn" đối lập với "trẻ nhũ nhi dưới 1 tuổi"; mốc 1 tuổi là suy ra từ cặp này. Việc lặp chu kỳ tới khi dị vật ra hoặc bất tỉnh lấy từ ERC 2025, không phải từ trang 115. Đây là hướng dẫn kỹ thuật, không có thử nghiệm so sánh số ca cứu được ở Việt Nam.
 
-Mục này không dùng cho trẻ dưới 1 tuổi; xem mục về trẻ dưới 1 tuổi hóc dị vật. Chưa có nguồn trong tay cho người mang thai muộn hoặc rất béo: cần nguồn cho trường hợp này.
+Mục này không dùng cho trẻ dưới 1 tuổi; xem mục về trẻ dưới 1 tuổi hóc dị vật. Mục này chưa có hướng dẫn riêng cho người mang thai muộn hoặc rất béo, nên không nêu.
 
 - **Bẫy 1: thấy người bị hóc là vỗ lưng ngay.** Hướng dẫn chỉ bắt đầu vỗ lưng khi người đó không ho được hoặc ho không hiệu quả; còn ho được thì khuyến khích ho.
 - **Bẫy 2: đặt nắm tay sai chỗ.** Nguồn chỉ nêu vị trí trên rốn và hướng giật ép từ ngoài vào trong, từ dưới lên trên.

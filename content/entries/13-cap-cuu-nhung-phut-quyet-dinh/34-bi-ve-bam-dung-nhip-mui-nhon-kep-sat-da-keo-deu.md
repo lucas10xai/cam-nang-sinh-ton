@@ -16,7 +16,8 @@ vn_class: adapted
 rewrite_status: rewritten
 tldr: "Kẹp nhíp mũi nhọn sát da, kéo thẳng lên đều tay, không xoay, không giật; không bôi dầu, không đốt, không bóp bụng. Có ban hoặc sốt trong vài tuần sau thì đi khám, nói rõ ngày và nơi bị ve."
 steps:
-  - "Kẹp nhíp mũi nhọn sát mặt da, càng gần da càng tốt, tránh bóp bụng ve. Kéo thẳng lên với lực đều, không xoay, không giật. Không chờ tới cơ sở y tế mới gắp."
+  - "Kẹp nhíp mũi nhọn sát mặt da, càng gần da càng tốt, tránh bóp bụng ve. Kéo thẳng lên với lực đều, không xoay, không giật."
+  - "Không có nhíp mũi nhọn thì dùng nhíp thường; chưa có nhíp thì kẹp bằng ngón tay cùng cách. Không chờ tới cơ sở y tế mới gắp, vì chậm gắp tăng nguy cơ bệnh do ve."
   - "Không bôi vaseline, sơn móng tay hay chất khác, không dùng lửa hay nhiệt để ép ve nhả. Không bóp ve bằng ngón tay."
   - "Nếu phần miệng còn lại và không gắp dễ dàng bằng nhíp thì để yên."
   - "Rửa chỗ cắn và tay bằng xà phòng và nước (hoặc cồn, nước rửa tay khô). Ghi lại ngày và nơi bị ve bám."
@@ -40,7 +41,7 @@ tags:
 
 ## Nói dễ hiểu
 
-Kẹp nhíp mũi nhọn sát mặt da, kéo thẳng lên với lực đều, không xoay, không giật. Không bôi dầu hay chất khác, không châm lửa, không bóp bụng nó.
+Kẹp nhíp mũi nhọn sát mặt da, kéo thẳng lên với lực đều, không xoay, không giật. Không có nhíp mũi nhọn thì dùng nhíp thường; chưa có nhíp thì kẹp bằng ngón tay cùng cách (CDC), không chờ tới cơ sở y tế mới gắp vì chậm gắp tăng nguy cơ bệnh do ve. Không bôi dầu hay chất khác, không châm lửa, không bóp bụng nó.
 
 Rửa chỗ cắn bằng xà phòng, ghi lại ngày và nơi bị. Có ban hoặc sốt trong vài tuần sau thì đi khám, nói với bác sĩ là mình từng bị ve bám.
 
@@ -60,11 +61,11 @@ Hướng dẫn của Trung tâm Kiểm soát và Phòng ngừa dịch bệnh Hoa
 - Sau khi gắp, rửa kỹ vùng cắn và tay bằng xà phòng và nước, cồn hoặc nước rửa tay khô.
 - Có ban hoặc sốt trong vòng vài tuần sau khi gắp ve thì đi khám; nói với bác sĩ về lần bị ve cắn, thời điểm và nơi nhiều khả năng bị ve.
 
-**Không nhầm với sốt mò.** Văn bản của Bộ Y tế về sốt mò (Quyết định 5642/QĐ-BYT) nói về bệnh do ấu trùng mò đốt, không phải ve. Thời gian ủ bệnh sốt mò 6 đến 21 ngày không dùng để đặt thời hạn theo dõi sau khi bị ve. Thuốc kháng sinh do bác sĩ chỉ định, đừng tự uống sau khi bị ve bám.
+**Không nhầm với sốt mò.** Văn bản của Bộ Y tế về sốt mò (Quyết định 5642/QĐ-BYT) nói về bệnh do ấu trùng mò đốt, không phải ve. Thời gian ủ bệnh sốt mò 6 đến 21 ngày không dùng để đặt thời hạn theo dõi sau khi bị ve. Thuốc kháng sinh do bác sĩ chỉ định, đừng tự uống sau khi bị ve bám (lời khuyên thực hành, không phải chữ của CDC).
 
 ## Ghi chú
 
-**Mức bằng chứng B.** Các bước gắp ve và theo dõi lấy từ hướng dẫn của CDC; chưa tìm thấy hướng dẫn gắp ve của Bộ Y tế Việt Nam trong nguồn đã kiểm. Nên mục dừng ở B.
+**Mức bằng chứng B.** Các bước gắp ve và theo dõi lấy từ hướng dẫn của CDC; mục này chưa có hướng dẫn gắp ve của Bộ Y tế Việt Nam.
 
 Người đi rừng, đi rẫy hay sập ở ba chỗ:
 

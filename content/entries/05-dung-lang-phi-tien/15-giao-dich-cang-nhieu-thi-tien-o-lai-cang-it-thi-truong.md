@@ -67,8 +67,8 @@ Về hành vi, có hai nghiên cứu (cả hai ngoài Việt Nam):
 Bốn chỗ hay sập.
 
 - **Bẫy 1: con số "bao nhiêu % nhà đầu tư cá nhân lỗ".** Con số này lan truyền trên mạng nhưng không có thống kê chính thức ở Việt Nam, đừng dùng. Cái đo được chắc chắn chỉ là thuế và phí bạn trả mỗi lần bấm lệnh.
-- **Bẫy 2: phí môi giới mỗi công ty một biểu.** Xem biểu phí công bố của công ty bạn. Cần nguồn cho mức phí môi giới và phí lưu ký phổ biến.
-- **Bẫy 3: người rủ bạn "lướt sóng" có thể có lợi ích riêng**, chẳng hạn hưởng phí từ giao dịch của bạn, còn rủi ro do bạn chịu. Cần nguồn cho mức độ phổ biến của việc này.
+- **Bẫy 2: phí môi giới mỗi công ty một biểu.** Xem biểu phí công bố của công ty bạn. Mục này chưa có nguồn cho mức phí môi giới và phí lưu ký phổ biến.
+- **Bẫy 3: người rủ bạn "lướt sóng" có thể có lợi ích riêng**, chẳng hạn hưởng phí từ giao dịch của bạn, còn rủi ro do bạn chịu. Mục này chưa có nguồn cho mức độ phổ biến của việc này.
 - **Đừng hiểu ngược.** Mục này không nói đừng mua cổ phiếu, mà nói đừng đổi danh mục liên tục. Mua để nắm giữ và bán khi lý do mua không còn đúng vẫn là giao dịch, chỉ khác là ít lần.
 
 ## Nguồn
