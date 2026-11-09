@@ -2,6 +2,7 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 import { Marked, type Tokens } from 'marked';
 import hotlinesJson from '../../data/hotlines.json';
 import situationsJson from '../../data/situations.json';
+import chapterGroupsJson from '../../data/chapter-groups.json';
 import { url as baseUrl } from './url';
 import { VERIFICATION_LABELS_VI, BODY_SECTIONS } from '../../schema/entry.mjs';
 
@@ -11,6 +12,11 @@ export type Chapter = CollectionEntry<'chapters'>;
 export const SITE_NAME = 'Cẩm nang sinh tồn';
 export const SITE_TAGLINE = 'Những việc nên làm để sống lâu hơn, đỡ tốn hơn, ít vướng luật hơn, theo bối cảnh Việt Nam.';
 export const DISCLAIMER = 'Chưa có chuyên gia duyệt. Thông tin tham khảo, không thay thế luật sư hoặc bác sĩ.';
+/** Dòng ngắn cho thanh thông báo đầu mọi trang; bản đầy đủ là DISCLAIMER (chân trang, trang Phương pháp). */
+export const NOTICE_LEAD = 'Chưa có chuyên gia duyệt.';
+export const NOTICE_MORE = 'Thông tin chỉ để tham khảo.';
+export const REPO_URL = 'https://github.com/lucas10xai/cam-nang-sinh-ton';
+export const ISSUES_URL = `${REPO_URL}/issues/new`;
 
 /** SITE_INDEXABLE=true mới cho công cụ tìm kiếm lập chỉ mục (xem astro.config.mjs). */
 export const SITE_INDEXABLE = process.env.SITE_INDEXABLE === 'true';
@@ -23,6 +29,43 @@ export const url = Object.assign(baseUrl, {
 
 export interface Situation { slug: string; title: string; }
 export const SITUATIONS: Situation[] = situationsJson.situations;
+/** Biểu tượng của từng tình huống (tên trong components/icons/Icon.astro). Slug lạ dùng 'compass'. */
+export const SITUATION_ICONS: Record<string, string> = {
+  'cap-cuu-ngung-tim': 'heart-pulse',
+  'dau-hieu-dot-quy-tim-mach': 'activity',
+  'tai-nan-chan-thuong': 'cross',
+  'ngo-doc-chay-no': 'flame',
+  'bi-cho-nghi-viec': 'briefcase',
+  'bi-quyt-luong-lam-them': 'wallet',
+  'tai-nan-lao-dong': 'hard-hat',
+  'bi-lua-mat-tai-khoan': 'lock',
+  'xe-may-giao-thong': 'bike',
+  'tien-tiet-kiem-vay-no': 'coins',
+};
+export const situationIcon = (slug: string): string => SITUATION_ICONS[slug] ?? 'compass';
+
+/* ---------- Nhóm chủ đề của chương (data/chapter-groups.json) ---------- */
+export interface ChapterGroup { slug: string; title: string; description: string; icon: string; chapters: number[]; }
+/** Mỗi chương đúng một nhóm; chương chưa xếp rơi vào nhóm "Khác" để không bao giờ biến mất khỏi trang. */
+export function chapterGroups(chapterNumbers: number[]): ChapterGroup[] {
+  const known = new Set(chapterNumbers);
+  const seen = new Set<number>();
+  const groups: ChapterGroup[] = chapterGroupsJson.groups.map((g) => ({
+    ...g,
+    chapters: g.chapters.filter((n) => {
+      if (!known.has(n)) { console.warn(`[nhóm chương] ${g.slug}: chương ${n} không tồn tại`); return false; }
+      if (seen.has(n)) { console.warn(`[nhóm chương] chương ${n} xuất hiện ở nhiều nhóm`); return false; }
+      seen.add(n);
+      return true;
+    }),
+  }));
+  const rest = chapterNumbers.filter((n) => !seen.has(n));
+  if (rest.length) {
+    console.warn(`[nhóm chương] chưa xếp nhóm: ${rest.join(', ')}`);
+    groups.push({ slug: 'khac', title: 'Khác', description: 'Các chương chưa xếp vào nhóm nào.', icon: 'book-open', chapters: rest });
+  }
+  return groups.filter((g) => g.chapters.length > 0);
+}
 
 /* ---------- Nhãn hiển thị ---------- */
 export const COST_LABELS = {
@@ -119,6 +162,13 @@ export function verificationLabel(v: Entry['data']['verification']): string {
   if (v.status === 'expert-reviewed' && v.checker) return `${base} (${v.checker})`;
   return base;
 }
+
+/** Số mục đã được đối chiếu nguồn trở lên (cùng cách tính với trang Phương pháp). */
+export const verifiedCount = (r: { by_status: Record<string, number> } | undefined): number =>
+  (r?.by_status['source-checked'] ?? 0) + (r?.by_status['cross-checked'] ?? 0) + (r?.by_status['expert-reviewed'] ?? 0);
+/** Số mục đang bị rà soát (cần chuyên gia kiểm tra y khoa hoặc pháp lý). */
+export const reviewCount = (r: { by_status: Record<string, number> } | undefined): number =>
+  (r?.by_status['needs-legal-review'] ?? 0) + (r?.by_status['needs-medical-review'] ?? 0);
 
 export function fmtDate(iso: string | null | undefined): string {
   if (!iso) return '';

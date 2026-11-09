@@ -1,7 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
 import VerifyBadge from '../components/VerifyBadge.astro';
-import { loadAll, loadStatus, STATUS_ORDER, VERIFICATION_LABELS, VERIFICATION_NOTES, VERIFICATION_TONE, VN_CLASS_LABELS, WORTH_NOTE, url, DISCLAIMER } from '../lib/site';
+import Icon from '../components/icons/Icon.astro';
+import { loadAll, loadStatus, STATUS_ORDER, VERIFICATION_LABELS, VERIFICATION_NOTES, VERIFICATION_TONE, VN_CLASS_LABELS, WORTH_NOTE, url, DISCLAIMER, ISSUES_URL } from '../lib/site';
 const { chapters, entries } = await loadAll();
 const st = loadStatus(entries);
 const title = new Map(chapters.map((c) => [c.data.number, c.data.title]));
@@ -11,6 +12,7 @@ const checked = (st.totals.by_status['source-checked'] ?? 0) + (st.totals.by_sta
 ---
 <Base title="Phương pháp và trạng thái kiểm chứng" description="Cách biên soạn, cách tính mức đáng làm và bảng tiến độ kiểm chứng theo chương.">
   <div class="page-head">
+    <p class="eyebrow">Minh bạch về độ tin cậy</p>
     <h1>Phương pháp và trạng thái kiểm chứng</h1>
     <p>{DISCLAIMER} Trang này nói rõ điều gì đã kiểm, điều gì chưa.</p>
   </div>
@@ -97,7 +99,7 @@ const checked = (st.totals.by_status['source-checked'] ?? 0) + (st.totals.by_sta
       <li>Giai đoạn này chỉ <strong>nhập</strong> bản nháp vào cấu trúc dữ liệu, chưa viết lại chữ. Soạn lại và kiểm chứng làm theo từng chương, theo thứ tự ưu tiên.</li>
       <li>Trang là tĩnh, không gọi mô hình AI lúc bạn đọc. AI, nếu có, chỉ dùng ở bước soạn và kiểm chứng offline, và kết quả vẫn mang nhãn trạng thái.</li>
       <li>Luật, mức phạt và giá đổi theo thời gian. Mỗi căn cứ pháp luật có ngày đối chiếu; ngày cũ nghĩa là cần tra lại.</li>
-      <li>Tìm lỗi? <a href={url('/gioi-thieu/')}>Xem cách liên hệ và ghi công</a>.</li>
+      <li>Thấy chỗ sai? <a href={ISSUES_URL} rel="noopener noreferrer">Báo lỗi trên GitHub <Icon name="external-link" size={13} /></a>. Ghi công đầy đủ ở trang <a href={url('/gioi-thieu/')}>Giới thiệu</a>.</li>
     </ul>
   </section>
 </Base>

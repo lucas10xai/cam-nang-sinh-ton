@@ -4,11 +4,12 @@ import Icon from '../components/icons/Icon.astro';
 import { url } from '../lib/url';
 ---
 <Base title="Tìm kiếm" description="Tìm trong toàn bộ cẩm nang. Gõ không dấu vẫn ra kết quả có dấu.">
-  <div class="page-head"><h1>Tìm kiếm</h1><p>Gõ không dấu cũng được: “lam them gio” ra “làm thêm giờ”.</p></div>
-  <form class="searchbox" id="search-form" action={url('/tim-kiem/')} method="get" role="search">
+  <div class="page-head"><p class="eyebrow">Tìm trong cả cẩm nang</p><h1>Tìm kiếm</h1><p>Gõ không dấu cũng được: “lam them gio” ra “làm thêm giờ”.</p></div>
+  <form class="searchbox searchbox--hero" id="search-form" action={url('/tim-kiem/')} method="get" role="search">
     <label class="visually-hidden" for="q">Từ khóa</label>
+    <span class="searchbox__ico"><Icon name="search" size={20} /></span>
     <input id="q" type="search" name="q" autocomplete="off" autofocus />
-    <button class="btn" type="submit"><Icon name="search" size={18} />Tìm</button>
+    <button class="btn" type="submit">Tìm</button>
   </form>
   <p class="search-status" id="search-status" role="status" aria-live="polite"></p>
   <ul class="search-results" id="search-results"></ul>

@@ -1,8 +1,9 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Icon from '../../components/icons/Icon.astro';
 import EntryCard from '../../components/EntryCard.astro';
 import HotlineStrip from '../../components/HotlineStrip.astro';
-import { loadAll, loadHotlines, renderChapterIntro, url } from '../../lib/site';
+import { loadAll, loadHotlines, loadStatus, verifiedCount, reviewCount, chapterGroups, fold, renderChapterIntro, url } from '../../lib/site';
 
 export async function getStaticPaths() {
   const { chapters } = await loadAll();
@@ -16,21 +17,40 @@ const intro = renderChapterIntro(ch, byId);
 const prev = chapters.find((c) => c.data.number === n - 1);
 const next = chapters.find((c) => c.data.number === n + 1);
 const emergency = loadHotlines().showOnChapters.includes(n);
+const row = loadStatus(entries).chapters.get(n);
+const ok = verifiedCount(row);
+const rv = reviewCount(row);
+const group = chapterGroups(chapters.map((c) => c.data.number)).find((g) => g.chapters.includes(n));
 ---
 <Base title={`Chương ${n}: ${ch.data.title}`} description={`${list.length} mục của chương ${n}: ${ch.data.title}.`}>
-  <nav class="crumbs" aria-label="Vị trí"><ol><li><a href={url('/')}>Trang chủ</a></li><li><a href={url('/chuong/')}>Chương</a></li><li aria-current="page">Chương {n}</li></ol></nav>
-  <div class="page-head">
-    <p class="entry-code">Chương {n}</p>
+  <nav class="crumbs" aria-label="Vị trí"><ol><li><a href={url('/')}>Trang chủ</a></li><li><a href={url('/chuong/')}>Chương</a></li>{group && <li><a href={`${url('/chuong/')}#nhom-${group.slug}`}>{group.title}</a></li>}<li aria-current="page">Chương {n}</li></ol></nav>
+  <header class="chapter-head">
+    <p class="eyebrow">Chương {n}{group ? ` · ${group.title}` : ''}</p>
     <h1>{ch.data.title}</h1>
-  </div>
+    <ul class="stat-line" aria-label="Tóm tắt chương">
+      <li><Icon name="file-text" size={15} />{list.length} mục</li>
+      <li><Icon name="shield-check" size={15} />{ok}/{list.length} đã kiểm chứng nguồn</li>
+      {rv > 0 && <li class="stat-line__rv"><Icon name="shield-alert" size={15} />{rv} đang rà soát</li>}
+    </ul>
+  </header>
   {emergency && <HotlineStrip compact />}
-  <div class="chapter-intro" set:html={intro} />
-  <h2>Các mục ({list.length})</h2>
-  <ul class="entry-list">
-    {list.map((e) => <li><EntryCard entry={e} /></li>)}
+  <div class="chapter-intro prose" set:html={intro} />
+  <div class="list-head">
+    <h2 id="c-h">Các mục ({list.length})</h2>
+    <div class="list-filter js-only">
+      <label class="visually-hidden" for="c-q">Lọc các mục của chương theo tiêu đề</label>
+      <span class="list-filter__ico"><Icon name="search" size={16} /></span>
+      <input id="c-q" type="search" placeholder="Lọc trong chương này…" autocomplete="off" />
+    </div>
+  </div>
+  <p class="muted js-only list-count" id="c-count" role="status" aria-live="polite">{list.length} mục</p>
+  <ul class="entry-list" id="c-list" aria-labelledby="c-h">
+    {list.map((e) => <li class="entry-row" data-t={fold(e.data.title)}><EntryCard entry={e} /></li>)}
   </ul>
-  <nav class="entry-nav" aria-label="Chương khác">
-    {prev ? <a class="prev" href={url.chapter(prev.data.number)}><small>Chương trước</small>{prev.data.number}. {prev.data.title}</a> : <span />}
-    {next ? <a class="next" href={url.chapter(next.data.number)}><small>Chương sau</small>{next.data.number}. {next.data.title}</a> : <span />}
+  <p class="js-only muted" id="c-empty" hidden>Không có mục nào khớp trong chương này.</p>
+  <nav class="entry-nav entry-nav--wide" aria-label="Chương khác">
+    {prev ? <a class="prev" href={url.chapter(prev.data.number)}><small><Icon name="arrow-left" size={13} /> Chương trước</small>{prev.data.number}. {prev.data.title}</a> : <span />}
+    {next ? <a class="next" href={url.chapter(next.data.number)}><small>Chương sau <Icon name="arrow-right" size={13} /></small>{next.data.number}. {next.data.title}</a> : <span />}
   </nav>
+  <script>import '../../scripts/list-filter.ts';</script>
 </Base>

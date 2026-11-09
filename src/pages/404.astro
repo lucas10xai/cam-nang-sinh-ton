@@ -1,9 +1,20 @@
 ---
 import Base from '../layouts/Base.astro';
+import Icon from '../components/icons/Icon.astro';
 import HotlineStrip from '../components/HotlineStrip.astro';
 import { url } from '../lib/url';
 ---
 <Base title="Không tìm thấy trang" noindex>
-  <div class="page-head"><h1>Không tìm thấy trang này</h1><p>Đường dẫn có thể đã đổi hoặc gõ sai. Thử <a href={url('/tim-kiem/')}>tìm kiếm</a>, <a href={url('/chuong/')}>danh sách chương</a> hoặc <a href={url('/')}>trang chủ</a>.</p></div>
+  <div class="notfound">
+    <p class="notfound__code" aria-hidden="true">404</p>
+    <h1>Không tìm thấy trang này</h1>
+    <p>Đường dẫn có thể đã đổi hoặc gõ sai. Thử một trong các lối sau.</p>
+    <ul class="quick-links">
+      <li><a class="btn" href={url('/')}><Icon name="home" size={16} />Trang chủ</a></li>
+      <li><a class="btn btn--ghost" href={url('/tim-kiem/')}><Icon name="search" size={16} />Tìm kiếm</a></li>
+      <li><a class="btn btn--ghost" href={url('/chuong/')}><Icon name="book-open" size={16} />Các chương</a></li>
+      <li><a class="btn btn--ghost" href={url('/tinh-huong/')}><Icon name="compass" size={16} />Tình huống</a></li>
+    </ul>
+  </div>
   <HotlineStrip compact />
 </Base>

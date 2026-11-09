@@ -1,9 +1,9 @@
 ---
 import Icon from './icons/Icon.astro';
-interface Props { summary: string; open?: boolean; class?: string; }
-const { summary, open = false, class: cls } = Astro.props;
+interface Props { summary: string; open?: boolean; class?: string; id?: string; icon?: string; }
+const { summary, open = false, class: cls, id, icon } = Astro.props;
 ---
-<details class:list={['accordion', cls]} open={open}>
-  <summary><span>{summary}</span><Icon name="chevron-down" size={18} class="accordion__caret" /></summary>
+<details class:list={['accordion', cls]} open={open} id={id}>
+  <summary>{icon && <Icon name={icon as any} size={18} class="accordion__ico" />}<span class="accordion__t">{summary}</span><Icon name="chevron-down" size={18} class="accordion__caret" /></summary>
   <div class="accordion__body"><slot /></div>
 </details>

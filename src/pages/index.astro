@@ -2,48 +2,79 @@
 import Base from '../layouts/Base.astro';
 import Icon from '../components/icons/Icon.astro';
 import HotlineStrip from '../components/HotlineStrip.astro';
-import { loadAll, SITE_NAME, SITE_TAGLINE, url } from '../lib/site';
+import ChapterGroups from '../components/ChapterGroups.astro';
+import { loadAll, loadStatus, verifiedCount, chapterGroups, SITE_TAGLINE, SITUATIONS, situationIcon, url } from '../lib/site';
 const { chapters, entries } = await loadAll();
-const counts = new Map<number, number>();
-for (const e of entries) counts.set(e.data.chapter, (counts.get(e.data.chapter) ?? 0) + 1);
+const status = loadStatus(entries);
+const checked = verifiedCount(status.totals);
+const expert = status.totals.by_status['expert-reviewed'] ?? 0;
+const groupCount = chapterGroups(chapters.map((c) => c.data.number)).length;
+// Chỉ hiện tình huống đã có mục (cùng cách làm với trang Tình huống).
+const sits = SITUATIONS
+  .map((s) => ({ ...s, n: entries.filter((e) => e.data.situations.includes(s.slug)).length }))
+  .filter((s) => s.n > 0);
+const suggestions = ['bị cho nghỉ việc', 'đau ngực', 'bị lừa chuyển tiền'];
 ---
 <Base>
-  <section class="hero">
-    <h1>{SITE_NAME}</h1>
-    <p class="hero__lead">{SITE_TAGLINE} {entries.length} việc nhỏ, mỗi việc ghi rõ tốn gì và được gì.</p>
-    <form class="searchbox" action={url('/tim-kiem/')} method="get" role="search">
-      <label class="visually-hidden" for="q">Tìm một việc, một điều luật hay một bệnh (gõ không dấu cũng được)</label>
-      <input id="q" type="search" name="q" placeholder="Ví dụ: làm thêm giờ, bao hiem, đột quỵ" autocomplete="off" />
-      <button class="btn" type="submit"><Icon name="search" size={18} />Tìm</button>
-    </form>
-    <ul class="quick-links">
-      <li><a class="btn btn--ghost" href={url('/tra-cuu/')}><Icon name="filter" size={16} />Lọc theo chi phí, bằng chứng</a></li>
-      <li><a class="btn btn--ghost" href={url('/viec-cua-toi/')}><Icon name="list-checks" size={16} />Việc của tôi</a></li>
-    </ul>
+  <section class="hero" aria-labelledby="hero-h">
+    <div class="hero__text">
+      <p class="eyebrow">Sổ tay sống khỏe, giữ tiền, hiểu luật</p>
+      <h1 id="hero-h">Biết việc gì nên làm, <em>trước khi</em> chuyện xảy ra.</h1>
+      <p class="hero__lead">{SITE_TAGLINE} {entries.length} việc nhỏ, mỗi việc ghi rõ tốn gì và được gì.</p>
+      <form class="searchbox searchbox--hero" action={url('/tim-kiem/')} method="get" role="search">
+        <label class="visually-hidden" for="q">Tìm một việc, một điều luật hay một bệnh (gõ không dấu cũng được)</label>
+        <span class="searchbox__ico"><Icon name="search" size={20} /></span>
+        <input id="q" type="search" name="q" placeholder="Thử gõ: bị cho nghỉ việc, đau ngực…" autocomplete="off" />
+        <button class="btn" type="submit">Tìm</button>
+      </form>
+      <p class="hero__try">
+        <span>Hay gặp:</span>
+        {suggestions.map((s) => <a class="pill" href={`${url('/tim-kiem/')}?q=${encodeURIComponent(s)}`}>{s}</a>)}
+      </p>
+    </div>
+    <div class="hero__aside">
+      <HotlineStrip compact />
+    </div>
   </section>
 
-  <HotlineStrip />
-
-  <section aria-labelledby="chuong-h">
-    <div class="section-title">
-      <h2 id="chuong-h">Đọc theo chương</h2>
-      <a href={url('/chuong/')}>Tất cả chương <Icon name="arrow-right" size={14} /></a>
+  <section class="block" aria-labelledby="sit-h">
+    <div class="section-head">
+      <div>
+        <h2 id="sit-h" class="section-head__t">Bạn đang gặp chuyện gì?</h2>
+        <p class="section-head__s">Chọn tình huống gần nhất, chúng tôi gom sẵn các mục nên đọc.</p>
+      </div>
+      <a class="more-link" href={url('/tinh-huong/')}>Tất cả tình huống <Icon name="arrow-right" size={15} /></a>
     </div>
-    <ul class="grid grid--3">
-      {chapters.map((c) => (
-        <li class="card">
-          <a class="chapter-link" href={url.chapter(c.data.number)}>
-            <span class="chapter-link__n">Chương {c.data.number}</span>
-            <h3>{c.data.title}</h3>
-            <p class="chapter-link__c">{counts.get(c.data.number) ?? 0} mục</p>
+    <ul class="sit-grid">
+      {sits.map((s) => (
+        <li>
+          <a class="sit-card" href={`${url('/tinh-huong/')}#${s.slug}`}>
+            <span class="sit-card__ico"><Icon name={situationIcon(s.slug) as any} size={22} /></span>
+            <span class="sit-card__t">{s.title}</span>
+            <span class="sit-card__n">{s.n} mục <Icon name="arrow-right" size={13} /></span>
           </a>
         </li>
       ))}
     </ul>
   </section>
 
-  <section class="prose" aria-labelledby="doc-h">
-    <h2 id="doc-h">Đọc thế nào cho đúng</h2>
-    <p>Mỗi mục hiện ghi rõ mức kiểm chứng của chính nó. Phần lớn nội dung <strong>chưa có chuyên gia duyệt</strong>; hãy xem huy hiệu trạng thái đầu mỗi trang trước khi làm theo, nhất là chuyện luật và thuốc. <a href={url('/phuong-phap/')}>Xem phương pháp và tiến độ kiểm chứng</a>.</p>
+  <section class="block" aria-labelledby="chuong-h">
+    <div class="section-head">
+      <div>
+        <h2 id="chuong-h" class="section-head__t">Hoặc đọc theo chủ đề</h2>
+        <p class="section-head__s">{chapters.length} chương, {entries.length} mục, gom thành {groupCount} nhóm. Mỗi chương ghi số mục đã được đối chiếu nguồn.</p>
+      </div>
+      <a class="more-link" href={url('/chuong/')}>Danh sách chương <Icon name="arrow-right" size={15} /></a>
+    </div>
+    <ChapterGroups chapters={chapters} entries={entries} />
+  </section>
+
+  <section class="honest" aria-labelledby="doc-h">
+    <span class="honest__ico"><Icon name="shield-check" size={24} /></span>
+    <div>
+      <h2 id="doc-h">Đọc thế nào cho đúng</h2>
+      <p>Mỗi mục có huy hiệu trạng thái kiểm chứng của chính nó. Hiện mới <strong>{checked}/{entries.length}</strong> mục được đối chiếu nguồn và <strong>{expert === 0 ? 'chưa mục nào có chuyên gia duyệt' : `${expert} mục có chuyên gia duyệt`}</strong>. Hãy xem huy hiệu trước khi làm theo, nhất là chuyện luật và thuốc.</p>
+      <p><a class="more-link" href={url('/phuong-phap/')}>Xem phương pháp và tiến độ kiểm chứng <Icon name="arrow-right" size={15} /></a></p>
+    </div>
   </section>
 </Base>

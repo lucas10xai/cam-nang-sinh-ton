@@ -1,4 +1,4 @@
-// Nút đổi giao diện: chu kỳ hệ thống -> sáng -> tối. Chỉ lưu localStorage.
+// Nút đổi giao diện: sáng <-> tối (mặc định theo hệ thống). Chỉ lưu localStorage.
 const root = document.documentElement;
 const btn = document.getElementById('theme-toggle');
 const KEY = 'cnst:theme';
@@ -10,8 +10,11 @@ function effective(): 'light' | 'dark' {
 }
 btn?.addEventListener('click', () => {
   const next = effective() === 'dark' ? 'light' : 'dark';
+  // Chuyển màu êm trong chốc lát, không để hiệu ứng chạy mãi (CSS tôn trọng prefers-reduced-motion).
+  root.classList.add('theme-anim');
   root.dataset.theme = next;
   try { localStorage.setItem(KEY, next); } catch {}
+  setTimeout(() => root.classList.remove('theme-anim'), 400);
 });
 
 // Mở các <details> khi in để căn cứ pháp luật có mặt trên giấy.

@@ -2,13 +2,11 @@
 import Base from '../../layouts/Base.astro';
 import Icon from '../../components/icons/Icon.astro';
 import Accordion from '../../components/Accordion.astro';
-import EntryChips from '../../components/EntryChips.astro';
-import EntryCard from '../../components/EntryCard.astro';
-import VerifyBadge from '../../components/VerifyBadge.astro';
+import EntryMeta from '../../components/EntryMeta.astro';
 import HotlineStrip from '../../components/HotlineStrip.astro';
 import {
   loadAll, loadHotlines, fold, renderSections, entryCode, url, fmtDate, worthOf, WORTH_LABELS, WORTH_NOTE,
-  verificationNote, VERIFICATION_TONE, reviewKind, REVIEW_WARNINGS, emergencyNumber, DISCLAIMER, METRIC_LABELS, BENEFIT_LABELS, EVIDENCE_LABELS,
+  verificationLabel, reviewKind, REVIEW_WARNINGS, emergencyNumber, METRIC_LABELS, BENEFIT_LABELS, COST_LABELS, EVIDENCE_LABELS,
 } from '../../lib/site';
 
 export async function getStaticPaths() {
@@ -30,17 +28,23 @@ const prev = siblings[idx - 1];
 const next = siblings[idx + 1];
 const related = d.related.map((id) => byId.get(id)).filter((x): x is NonNullable<typeof x> => !!x);
 for (const id of d.related) if (!byId.has(id)) console.warn(`[related chết] ${d.id} -> ${id}`);
-const vnote = verificationNote(d.verification);
-const tone = VERIFICATION_TONE[d.verification.status] ?? 'none';
-const expertDone = d.verification.status === 'expert-reviewed';
 const emergency = loadHotlines().showOnChapters.includes(d.chapter);
 const isLegal = (t: string) => t === 'Pháp luật Việt Nam';
+const slug = (t: string) => 's-' + fold(t).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const secId = (t: string) => (isLegal(t) ? 'phap-luat' : slug(t));
+const showSteps = rewritten && d.steps.length > 0;
+// Mục lục: theo đúng thứ tự xuất hiện trên trang.
+const toc = [
+  ...(showSteps ? [{ id: 'steps-h', label: 'Các bước làm' }] : []),
+  ...sections.map((s) => ({ id: secId(s.title), label: isLegal(s.title) ? 'Căn cứ pháp luật' : s.title })),
+];
+const vs = d.verification;
 // Pagefind bỏ dấu thanh/mũ nhưng KHÔNG gộp "đ" với "d". Thêm các từ có chữ đ ở dạng không dấu để gõ "dot quy" vẫn ra "đột quỵ".
 const plain = `${d.title} ${sections.map((s) => s.html).join(' ')}`.replace(/<[^>]+>/g, ' ');
 const dWords = [...new Set((plain.match(/[\p{L}\p{N}]*[đĐ][\p{L}\p{N}]*/gu) ?? []).map((w) => fold(w)))].join(' ');
 ---
 <Base title={d.title} description={(rewritten ? d.tldr : null) ?? sections.find((s) => s.title === 'Nói dễ hiểu')?.html.replace(/<[^>]+>/g, '').slice(0, 200) ?? d.title}>
-  <article data-pagefind-body data-pagefind-meta={`chuong:Chương ${d.chapter}`} data-entry-id={d.id}>
+  <article class="entry" data-pagefind-body data-pagefind-meta={`chuong:Chương ${d.chapter}`} data-entry-id={d.id}>
     <nav class="crumbs" aria-label="Vị trí" data-pagefind-ignore>
       <ol>
         <li><a href={url('/')}>Trang chủ</a></li>
@@ -50,98 +54,108 @@ const dWords = [...new Set((plain.match(/[\p{L}\p{N}]*[đĐ][\p{L}\p{N}]*/gu) ??
     </nav>
 
     <header class="entry-head">
-      <p class="entry-code" data-pagefind-ignore>Chương {d.chapter}, mục {d.number}</p>
+      <p class="eyebrow" data-pagefind-ignore>Chương {d.chapter}, mục {d.number}</p>
       <h1 data-pagefind-meta="title" data-pagefind-weight="10">{d.title}</h1>
-      <EntryChips entry={e} />
-      <p class="worth-note" data-pagefind-ignore>Mức đáng làm “{WORTH_LABELS[worth].toLowerCase()}”: {WORTH_NOTE[0].toLowerCase() + WORTH_NOTE.slice(1)} {EVIDENCE_LABELS[d.evidence]}.</p>
-      <div class={`verify-box verify-box--${tone}`} data-pagefind-ignore>
-        <p><VerifyBadge v={d.verification} /></p>
-        {vnote.lead && <p class="verify-box__lead"><strong>{vnote.lead}</strong></p>}
-        <p>{vnote.text}</p>
-        {!expertDone && <p class="verify-box__warn">{DISCLAIMER}</p>}
-        {d.verification.sources.length > 0 && <p>Đã đối chiếu: {d.verification.sources.length} nguồn.</p>}
-        {d.contested && <p><strong>Mục này có điểm còn tranh luận</strong>, xem phần Ghi chú.</p>}
-      </div>
+      <EntryMeta entry={e} />
       {reviewText && (
-        <div class="review-warn" role="alert" data-pagefind-ignore><Icon name="shield-alert" size={24} /><p>{reviewText}</p></div>
+        <div class="review-warn" role="alert" data-pagefind-ignore><Icon name="shield-alert" size={26} /><p>{reviewText}</p></div>
       )}
-      {rewritten && d.tldr && (
-        <aside class="tldr" aria-labelledby="tldr-h"><h2 id="tldr-h">Kết luận ngắn</h2><p>{d.tldr}</p></aside>
-      )}
-      <div class="mark-bar" data-pagefind-ignore>
-        <button class="btn btn--ghost" type="button" data-mark="read" aria-pressed="false"><Icon name="eye" size={16} /><span>Đánh dấu đã đọc</span></button>
-        <button class="btn btn--ghost" type="button" data-mark="done" aria-pressed="false"><Icon name="circle-check" size={16} /><span>Đánh dấu đã làm</span></button>
-      </div>
     </header>
 
-    {emergency && <div data-pagefind-ignore><HotlineStrip compact /></div>}
+    <div class="entry-layout">
+      <div class="entry-main">
+        {rewritten && d.tldr && (
+          <aside class="tldr" aria-labelledby="tldr-h"><h2 id="tldr-h">Kết luận ngắn</h2><p>{d.tldr}</p></aside>
+        )}
 
-    <div class="entry-body">
-      {rewritten && d.steps.length > 0 && (
-        <section class="steps-box" aria-labelledby="steps-h">
-          <h2 id="steps-h">Các bước làm</h2>
-          <ol class="steps">
-            {d.steps.map((t, i) => (
-              review
-                ? <li><div class="step"><span class="step__text">{t}</span></div></li>
-                : <li><label class="step"><input type="checkbox" data-step={i} /><span class="step__text">{t}</span></label></li>
-            ))}
-          </ol>
-          {!review && <p class="steps-count js-only" id="steps-count" role="status" data-pagefind-ignore></p>}
+        {emergency && <div data-pagefind-ignore><HotlineStrip compact /></div>}
+
+        <div class="entry-body">
+          {showSteps && (
+            <section class="steps-box" aria-labelledby="steps-h">
+              <h2 id="steps-h">Các bước làm</h2>
+              <ol class="steps">
+                {d.steps.map((t, i) => (
+                  review
+                    ? <li><div class="step"><span class="step__text">{t}</span></div></li>
+                    : <li><label class="step"><input type="checkbox" data-step={i} /><span class="step__text">{t}</span></label></li>
+                ))}
+              </ol>
+              {!review && <p class="steps-count js-only" id="steps-count" role="status" data-pagefind-ignore></p>}
+            </section>
+          )}
+          {sections.map((s) => {
+            const id = secId(s.title);
+            if (s.title === 'Nói dễ hiểu' && !(rewritten && d.tldr)) {
+              return <aside class="callout" id={id}><h2>Nói dễ hiểu</h2><Fragment set:html={s.html} /></aside>;
+            }
+            if (isLegal(s.title)) {
+              return (
+                <Accordion id={id} icon="scale" summary="Căn cứ pháp luật Việt Nam">
+                  {d.legal_refs.length > 0 && (
+                    <ul class="legal-refs">
+                      {d.legal_refs.map((r) => (
+                        <li>
+                          <span class="legal-refs__doc">{r.doc}{r.article ? `, ${r.article}` : ''}</span>
+                          <div class="legal-refs__meta">
+                            {r.effective_from && <>Có hiệu lực từ {fmtDate(r.effective_from)}. </>}
+                            {r.checked_at && <>Đối chiếu ngày {fmtDate(r.checked_at)}. </>}
+                            {r.url && <a href={r.url} rel="noopener noreferrer nofollow">Văn bản gốc <Icon name="external-link" size={13} /></a>}
+                          </div>
+                          {r.quote && <blockquote>{r.quote}</blockquote>}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                  <Fragment set:html={s.html} />
+                </Accordion>
+              );
+            }
+            return <section id={id} class={s.title === 'Nguồn' ? 'sources' : undefined}><h2>{s.title}</h2><Fragment set:html={s.html} /></section>;
+          })}
+        </div>
+      </div>
+
+      <aside class="entry-side" aria-label="Thông tin nhanh và điều hướng" data-pagefind-ignore>
+        <nav class="side-card side-toc" aria-labelledby="toc-h">
+          <h2 id="toc-h" class="side-card__h"><Icon name="list" size={15} />Trên trang này</h2>
+          <ol>{toc.map((t) => <li><a href={`#${t.id}`}>{t.label}</a></li>)}</ol>
+        </nav>
+
+        <section class="side-card" aria-labelledby="qi-h">
+          <h2 id="qi-h" class="side-card__h"><Icon name="info" size={15} />Thông tin nhanh</h2>
+          <dl class="qi">
+            <div><dt>Chi phí</dt><dd>{COST_LABELS.money[d.cost.money]}; {COST_LABELS.time[d.cost.time].toLowerCase()}; {COST_LABELS.will[d.cost.will].toLowerCase()}.</dd></div>
+            <div><dt>Lợi ích</dt><dd>{BENEFIT_LABELS[d.benefit]}; đổi lấy: {METRIC_LABELS[d.metric].toLowerCase()}.</dd></div>
+            <div><dt>Bằng chứng</dt><dd>{EVIDENCE_LABELS[d.evidence]}.</dd></div>
+            <div><dt>Đáng làm</dt><dd>{WORTH_LABELS[worth]}. <span class="muted">{WORTH_NOTE}</span></dd></div>
+            <div><dt>Kiểm chứng</dt><dd>{verificationLabel(vs)}. <a href={url('/phuong-phap/')}>Ý nghĩa</a></dd></div>
+          </dl>
         </section>
-      )}
-      {sections.map((s) => {
-        if (s.title === 'Nói dễ hiểu' && !(rewritten && d.tldr)) {
-          return <aside class="callout"><h2>Nói dễ hiểu</h2><Fragment set:html={s.html} /></aside>;
-        }
-        if (s.title === 'Nói dễ hiểu') {
-          return <section><h2>Nói dễ hiểu</h2><Fragment set:html={s.html} /></section>;
-        }
-        if (isLegal(s.title)) {
-          return (
-            <>
-              <Accordion summary="Căn cứ pháp luật Việt Nam">
-                {d.legal_refs.length > 0 && (
-                  <ul class="legal-refs">
-                    {d.legal_refs.map((r) => (
-                      <li>
-                        <span class="legal-refs__doc">{r.doc}{r.article ? `, ${r.article}` : ''}</span>
-                        <div class="legal-refs__meta">
-                          {r.effective_from && <>Có hiệu lực từ {fmtDate(r.effective_from)}. </>}
-                          {r.checked_at && <>Đối chiếu ngày {fmtDate(r.checked_at)}. </>}
-                          {r.url && <a href={r.url} rel="noopener noreferrer nofollow">Văn bản gốc <Icon name="external-link" size={13} /></a>}
-                        </div>
-                        {r.quote && <blockquote>{r.quote}</blockquote>}
-                      </li>
-                    ))}
-                  </ul>
-                )}
-                <Fragment set:html={s.html} />
-              </Accordion>
-            </>
-          );
-        }
-        return (
-          <>
-            <section class={s.title === 'Nguồn' ? 'sources' : undefined}><h2>{s.title}</h2><Fragment set:html={s.html} /></section>
-          </>
-        );
-      })}
+
+        <div class="mark-bar">
+          <button class="btn btn--ghost" type="button" data-mark="read" aria-pressed="false"><Icon name="eye" size={16} /><span>Đánh dấu đã đọc</span></button>
+          <button class="btn btn--ghost" type="button" data-mark="done" aria-pressed="false"><Icon name="circle-check" size={16} /><span>Đánh dấu đã làm</span></button>
+        </div>
+
+        {related.length > 0 && (
+          <section class="side-card" aria-labelledby="lq-h">
+            <h2 id="lq-h" class="side-card__h"><Icon name="link" size={15} />Mục liên quan</h2>
+            <ul class="side-related">
+              {related.map((r) => <li><a href={url.entry(r.data.id)}><span class="side-related__code">{entryCode(r)}</span>{r.data.title}</a></li>)}
+            </ul>
+          </section>
+        )}
+      </aside>
     </div>
     {dWords && <div hidden>{dWords}</div>}
   </article>
 
-  {related.length > 0 && (
-    <section aria-labelledby="lq-h" data-pagefind-ignore>
-      <h2 id="lq-h">Mục liên quan</h2>
-      <ul class="entry-list">{related.map((r) => <li><EntryCard entry={r} badge={false} /></li>)}</ul>
-    </section>
-  )}
-
   <nav class="entry-nav" aria-label="Mục cùng chương" data-pagefind-ignore>
-    {prev ? <a class="prev" href={url.entry(prev.data.id)}><small>Mục trước, {entryCode(prev)}</small>{prev.data.title}</a> : <span />}
-    {next ? <a class="next" href={url.entry(next.data.id)}><small>Mục sau, {entryCode(next)}</small>{next.data.title}</a> : <span />}
+    {prev ? <a class="prev" href={url.entry(prev.data.id)}><small><Icon name="arrow-left" size={13} /> Mục trước, {entryCode(prev)}</small>{prev.data.title}</a> : <span />}
+    {next ? <a class="next" href={url.entry(next.data.id)}><small>Mục sau, {entryCode(next)} <Icon name="arrow-right" size={13} /></small>{next.data.title}</a> : <span />}
   </nav>
   <script>import '../../scripts/mark.ts';</script>
   <script>import '../../scripts/steps.ts';</script>
+  <script>import '../../scripts/pop.ts';</script>
 </Base>
